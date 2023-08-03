@@ -1,10 +1,17 @@
 'use strict';
 Object.defineProperty(
   exports, '__esModule', {
-    value: true 
+    value: true
   } 
 );
-exports.toNameString = exports.fixName = exports.trimmer = exports.fixFechas = exports.unfixFechas = exports.fixMoney = exports.sleep = void 0;
+exports.toNameString
+  = exports.fixName
+  = exports.trimmer
+  = exports.fixFechas
+  = exports.unfixFechas
+  = exports.fixMoney
+  = exports.sleep
+    = void 0;
 function sleep(
   ms 
 ) {
@@ -14,9 +21,8 @@ function sleep(
     ) => {
       console.log(
         JSON.stringify(
-          new Date()
-                  .getTime() 
-        ) 
+          new Date().getTime() 
+        )
       );
 
       return setTimeout(
@@ -32,10 +38,11 @@ function fixMoney(
   } 
 ) {
   const precioEnCop = valor.toLocaleString(
-    'es-CO', {
+    'es-CO',
+    {
       currency: 'COP',
       style   : 'currency'
-    } 
+    }
   );
 
   return precioEnCop;
@@ -95,7 +102,8 @@ function trimmer(
   nombreCompleto 
 ) {
   const trimDemandado = nombreCompleto.replace(
-    /^\s+|\s+$/gm, '' 
+    /^\s+|\s+$/gm,
+    ''
   );
   console.log(
     trimDemandado 
@@ -105,49 +113,54 @@ function trimmer(
     ' ' 
   );
 
-  const splitDemandadotoUnify = splitDemandado.map(
-    (
-      nombreOapellido, index 
-    ) => {
-      if ( index >= 5 ) {
-        return '';
+  const splitDemandadotoUnify
+    = splitDemandado.map(
+      (
+        nombreOapellido, index 
+      ) => {
+        if ( index >= 5 ) {
+          return '';
+        }
+
+        if ( nombreOapellido === '|' ) {
+          return '';
+        }
+
+        if ( nombreOapellido.includes(
+          's.a.s' 
+        ) ) {
+          return '';
+        }
+
+        if ( nombreOapellido.includes(
+          'sas' 
+        ) ) {
+          return '';
+        }
+
+        if (
+          nombreOapellido.includes(
+            '(emplazado)' 
+          )
+        ) {
+          return '';
+        }
+
+        return nombreOapellido.replace(
+          /^./,
+          (
+            str 
+          ) => {
+            return str.toUpperCase();
+          }
+        );
       }
+    );
 
-      if ( nombreOapellido === '|' ) {
-        return '';
-      }
-
-      if ( nombreOapellido.includes(
-        's.a.s' 
-      ) ) {
-        return '';
-      }
-
-      if ( nombreOapellido.includes(
-        'sas' 
-      ) ) {
-        return '';
-      }
-
-      if ( nombreOapellido.includes(
-        '(emplazado)' 
-      ) ) {
-        return '';
-      }
-
-      return nombreOapellido.replace(
-        /^./, (
-          str 
-        ) => {
-          return str.toUpperCase();
-        } 
-      );
-    } 
-  );
-
-  const unifyDemandado = splitDemandadotoUnify.join(
-    ' ' 
-  );
+  const unifyDemandado
+    = splitDemandadotoUnify.join(
+      ' ' 
+    );
 
   return unifyDemandado;
 }
@@ -157,10 +170,10 @@ function fixName(
 ) {
   const mySubString = 'Demandado';
 
-  const count = nombreCompleto.split(
-    mySubString 
-  ).length
-        - 1;
+  const count
+    = nombreCompleto.split(
+      mySubString 
+    ).length - 1;
 
   if ( count === 1 ) {
     return trimmer(
@@ -184,13 +197,12 @@ const toNameString = (
   );
   for ( let i = 0; i < arr.length; i++ ) {
     arr[ i ]
-            = arr[ i ].charAt(
+      = arr[ i ].charAt(
         0 
-      )
-              .toUpperCase()
-                + arr[ i ].slice(
-                  1 
-                );
+      ).toUpperCase()
+      + arr[ i ].slice(
+        1 
+      );
   }
 
   const str2 = arr.join(

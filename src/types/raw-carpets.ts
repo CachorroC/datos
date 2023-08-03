@@ -4,140 +4,145 @@
 //
 //   const intCarpetaRaw = Convert.toIntCarpetaRaw(json);
 
-export interface IntCarpetaRaw
-{
-    numero: number;
-    id: string;
-    deudor: Deudor;
-    capitalAdeudado: number;
-    llaveProceso?: string;
-    grupo: Grupo;
-    demanda?: Demanda;
-    tipoProceso?: TipoProceso;
+export interface IntCarpetaRaw {
+  numero: number;
+  id: string;
+  deudor: Deudor;
+  capitalAdeudado: number;
+  llaveProceso?: string;
+  grupo: Grupo;
+  demanda?: Demanda;
+  tipoProceso?: TipoProceso;
 }
 
-export interface Demanda
-{
-    vencimientoPagare?: string;
-    obligacion?: number | string;
-    obligacion2?: number | string;
-    entregaGarantiasAbogado?: string;
-    departamento?: Departamento;
-    ciudad?: string;
-    juzgado?: Juzgado;
-    radicado?: number | string;
-    etapaProcesal?: string;
+export interface Demanda {
+  vencimientoPagare?: string;
+  obligacion?: number | string;
+  obligacion2?: number | string;
+  entregaGarantiasAbogado?: string;
+  departamento?: Departamento;
+  ciudad?: string;
+  juzgado?: Juzgado;
+  radicado?: number | string;
+  etapaProcesal?: string;
 }
 
-export type Departamento = 'CUNDINAMARCA' | 'TOLIMA' | 'BOYACÁ';
+export type Departamento =
+  | 'CUNDINAMARCA'
+  | 'TOLIMA'
+  | 'BOYACÁ';
 
-export interface Juzgado
-{
-    origen: Ejecucion;
-    ejecucion?: Ejecucion;
+export interface Juzgado {
+  origen: Ejecucion;
+  ejecucion?: Ejecucion;
 }
 
-export interface Ejecucion
-{
+export interface Ejecucion {
   id?: number;
-    tipo: string;
-    url?: string;
+  tipo: string;
+  url?: string;
 }
 
-
-
-export interface Deudor
-{
-    cedula: number | string;
-    nombreCompleto: string;
-    tel?: number | string;
-    email?: number | string;
-    direccion?: string;
+export interface Deudor {
+  cedula: number | string;
+  nombreCompleto: string;
+  tel?: number | string;
+  email?: number | string;
+  direccion?: string;
 }
 
-export type Grupo = 'Terminados' | 'LiosJuridicos' | 'Bancolombia' | 'Reintegra' | 'Insolvencia';
+export type Grupo =
+  | 'Terminados'
+  | 'LiosJuridicos'
+  | 'Bancolombia'
+  | 'Reintegra'
+  | 'Insolvencia';
 
-export type TipoProceso = 'PRENDARIO' | 'HIPOTECARIO' | 'SINGULAR' | 'HMM PISO 1';
+export type TipoProceso =
+  | 'PRENDARIO'
+  | 'HIPOTECARIO'
+  | 'SINGULAR'
+  | 'HMM PISO 1';
 
 // Converts JSON strings to/from your types
 export class Convert {
-  public static toIntCarpetaRaw (
+  public static toIntCarpetaRaw(
     json: string
   ): IntCarpetaRaw {
     return JSON.parse(
-      json
+      json 
     );
   }
 
-  public static intCarpetaRawToJson (
+  public static intCarpetaRawToJson(
     value: IntCarpetaRaw
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
-  public static toDemanda (
-    json: string
+  public static toDemanda(
+    json: string 
   ): Demanda {
     return JSON.parse(
-      json
+      json 
     );
   }
 
-  public static demandaToJson (
+  public static demandaToJson(
     value: Demanda
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
-  public static toJuzgado (
-    json: string
+  public static toJuzgado(
+    json: string 
   ): Juzgado {
     return JSON.parse(
-      json
+      json 
     );
   }
 
-  public static juzgadoToJson (
+  public static juzgadoToJson(
     value: Juzgado
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
-  public static toEjecucion (
+  public static toEjecucion(
     json: string
   ): Ejecucion {
     return JSON.parse(
-      json
+      json 
     );
   }
 
-  public static ejecucionToJson (
+  public static ejecucionToJson(
     value: Ejecucion
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
-  public static toDeudor (
-    json: string
+  public static toDeudor(
+    json: string 
   ): Deudor {
     return JSON.parse(
-      json
+      json 
     );
   }
 
-  public static deudorToJson (
+  public static deudorToJson(
     value: Deudor
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 }

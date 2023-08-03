@@ -1,7 +1,7 @@
 'use strict';
 Object.defineProperty(
   exports, '__esModule', {
-    value: true 
+    value: true
   } 
 );
 
@@ -14,8 +14,9 @@ const mongodb_1 = require(
 );
 ( 0, dotenv_1.config )();
 
-const uri = process.env.MONGODB_URI
-    || 'mongodb+srv://cachorro_cami:Tengo1amo@cluster0.ffbyjzl.mongodb.net/?retryWrites=true&w=majority';
+const uri
+  = process.env.MONGODB_URI
+  || 'mongodb+srv://cachorro_cami:Tengo1amo@cluster0.ffbyjzl.mongodb.net/?retryWrites=true&w=majority';
 const options = {};
 let client;
 let clientPromise;
@@ -25,16 +26,18 @@ if ( process.env.NODE_ENV === 'development' ) {
 
   if ( !globalWithMongo._mongoClientPromise ) {
     client = new mongodb_1.MongoClient(
-      uri, options 
+      uri,
+      options
     );
     globalWithMongo._mongoClientPromise
-            = client.connect();
+      = client.connect();
   }
   clientPromise
-        = globalWithMongo._mongoClientPromise;
+    = globalWithMongo._mongoClientPromise;
 } else {
   client = new mongodb_1.MongoClient(
-    uri, options 
+    uri,
+    options
   );
   clientPromise = client.connect();
 }

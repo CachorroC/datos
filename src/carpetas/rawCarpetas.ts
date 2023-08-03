@@ -1,8 +1,6 @@
 import { IntCarpetaRaw } from '#@/types/raw-carpets';
 import * as fs from 'fs/promises';
 
-
-
 export const carpetas: IntCarpetaRaw[] = [
   {
     numero: 1,
@@ -365,10 +363,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '11 CCTO' 
+          tipo: '11 CCTO'
         },
         ejecucion: {
-          tipo: '1 CCTO EJ' 
+          tipo: '1 CCTO EJ'
         }
       },
       radicado     : '2017 - 00335',
@@ -409,8 +407,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'GUADUAS',
       juzgado                : {
         origen: {
-          tipo: '001 CIVIL CTO' 
-        } 
+          tipo: '001 CIVIL CTO'
+        }
       },
       radicado: '2017 - 00195'
     },
@@ -488,10 +486,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '43 Civil Municipal' 
+          tipo: '43 Civil Municipal'
         },
         ejecucion: {
-          tipo: '18 Civil Municipal de Ejecucion' 
+          tipo: '18 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2018- 00384',
@@ -546,10 +544,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '26 Civil Municipal' 
+          tipo: '26 Civil Municipal'
         },
         ejecucion: {
-          tipo: '3 Civil Municipal de Ejecucion' 
+          tipo: '3 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017-00511',
@@ -717,8 +715,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'CHOCONTA',
       juzgado                : {
         origen: {
-          tipo: '001 Civil Municipal' 
-        } 
+          tipo: '001 Civil Municipal'
+        }
       },
       radicado     : '2017-00106',
       etapaProcesal: 'EJECUCIÓN'
@@ -747,10 +745,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '6 Civil Municipal' 
+          tipo: '6 Civil Municipal'
         },
         ejecucion: {
-          tipo: '13 Civil Municipal de Ejecucion' 
+          tipo: '13 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017-00302',
@@ -895,10 +893,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '42 Civil Municipal' 
+          tipo: '42 Civil Municipal'
         },
         ejecucion: {
-          tipo: '10 Civil Municipal de Ejecucion' 
+          tipo: '10 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017-00760',
@@ -985,8 +983,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '29 Civil Municipal' 
-        } 
+          tipo: '29 Civil Municipal'
+        }
       },
       radicado: '2017 - 00557'
     },
@@ -1061,10 +1059,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '6 Civil Municipal' 
+          tipo: '6 Civil Municipal'
         },
         ejecucion: {
-          tipo: '11 Civil Municipal de Ejecucion' 
+          tipo: '11 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017-00419',
@@ -1118,7 +1116,7 @@ export const carpetas: IntCarpetaRaw[] = [
       nombreCompleto: 'SONIA MAZUERA'
     },
     demanda: {
-      radicado: '2017 - 00575' 
+      radicado: '2017 - 00575'
     },
     capitalAdeudado: 0,
     grupo          : 'Terminados'
@@ -1256,10 +1254,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '39 Civil Municipal' 
+          tipo: '39 Civil Municipal'
         },
         ejecucion: {
-          tipo: '14 Civil Municipal de Ejecucion' 
+          tipo: '14 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017-00800',
@@ -1301,10 +1299,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '22 Civil Municipal' 
+          tipo: '22 Civil Municipal'
         },
         ejecucion: {
-          tipo: '2 Civil Municipal de Ejecucion' 
+          tipo: '2 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017-00567',
@@ -1561,10 +1559,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '82 Civil Municipal/6 Civil Municipal' 
+          tipo: '82 Civil Municipal/6 Civil Municipal'
         },
         ejecucion: {
-          tipo: '18 Civil Municipal de Ejecucion' 
+          tipo: '18 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017-00680',
@@ -1616,10 +1614,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '59 Civil Municipal' 
+          tipo: '59 Civil Municipal'
         },
         ejecucion: {
-          tipo: '15 Civil Municipal de Ejecucion' 
+          tipo: '15 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 00483',
@@ -1662,10 +1660,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '25 CC' 
+          tipo: '25 CC'
         },
         ejecucion: {
-          tipo: '2 C CTO E' 
+          tipo: '2 C CTO E'
         }
       },
       radicado     : '2017 - 00736',
@@ -1788,10 +1786,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '70 Civil Municipal' 
+          tipo: '70 Civil Municipal'
         },
         ejecucion: {
-          tipo: '14 Civil Municipal de Ejecucion' 
+          tipo: '14 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 00566',
@@ -1919,8 +1917,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '47 Civil Municipal' 
-        } 
+          tipo: '47 Civil Municipal'
+        }
       },
       radicado     : '2017 - 01520',
       etapaProcesal: 'EJECUCIÓN'
@@ -2277,8 +2275,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '36 Civil Municipal' 
-        } 
+          tipo: '36 Civil Municipal'
+        }
       },
       radicado: '2017 - 00841'
     },
@@ -2408,10 +2406,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '45 Civil Municipal' 
+          tipo: '45 Civil Municipal'
         },
         ejecucion: {
-          tipo: '2Civil Municipal de Ejecucion' 
+          tipo: '2Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 00905',
@@ -2442,10 +2440,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '76 Civil Municipal' 
+          tipo: '76 Civil Municipal'
         },
         ejecucion: {
-          tipo: '4 Civil Municipal de Ejecucion' 
+          tipo: '4 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 00635',
@@ -2511,8 +2509,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '3 Civil Municipal' 
-        } 
+          tipo: '3 Civil Municipal'
+        }
       },
       radicado     : '2017 - 01264',
       etapaProcesal: 'NOTIFICACION'
@@ -2668,10 +2666,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '11 Civil Municipal' 
+          tipo: '11 Civil Municipal'
         },
         ejecucion: {
-          tipo: '2 Civil Municipal de Ejecucion' 
+          tipo: '2 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 01084',
@@ -2769,8 +2767,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '25 Civil Municipal' 
-        } 
+          tipo: '25 Civil Municipal'
+        }
       },
       radicado: '2017 - 00807',
       etapaProcesal:
@@ -2812,8 +2810,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'CHIA',
       juzgado                : {
         origen: {
-          tipo: '2Civil Municipal' 
-        } 
+          tipo: '2Civil Municipal'
+        }
       },
       radicado     : '2017 - 00412',
       etapaProcesal: 'EJECUCIÓN'
@@ -2889,10 +2887,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '79 Civil Municipal' 
+          tipo: '79 Civil Municipal'
         },
         ejecucion: {
-          tipo: '1 Civil Municipal de Ejecucion' 
+          tipo: '1 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 01082',
@@ -2934,10 +2932,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '24 Civil Municipal' 
+          tipo: '24 Civil Municipal'
         },
         ejecucion: {
-          tipo: '14 Civil Municipal de Ejecucion' 
+          tipo: '14 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 01750',
@@ -3024,8 +3022,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'MELGAR',
       juzgado                : {
         origen: {
-          tipo: '2 PM' 
-        } 
+          tipo: '2 PM'
+        }
       },
       radicado     : '2017 - 00259',
       etapaProcesal: 'EJECUCIÓN'
@@ -3068,8 +3066,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '79 Civil Municipal/ 40 Civil Municipal' 
-        } 
+          tipo: '79 Civil Municipal/ 40 Civil Municipal'
+        }
       },
       radicado: '2017 - 01142'
     },
@@ -3119,8 +3117,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '45 Civil Municipal' 
-        } 
+          tipo: '45 Civil Municipal'
+        }
       },
       radicado     : '2017 - 01063',
       etapaProcesal: 'EJECUCION'
@@ -3149,10 +3147,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '12 Civil Municipal' 
+          tipo: '12 Civil Municipal'
         },
         ejecucion: {
-          tipo: '15 Civil Municipal de Ejecucion' 
+          tipo: '15 Civil Municipal de Ejecucion'
         }
       },
       radicado: '2017 - 00971',
@@ -3204,8 +3202,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'SOACHA',
       juzgado                : {
         origen: {
-          tipo: '2 Civil Municipal' 
-        } 
+          tipo: '2 Civil Municipal'
+        }
       },
       radicado     : '2017 - 00265',
       etapaProcesal: 'EJECUCIÓN'
@@ -3235,10 +3233,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '64 Civil Municipal' 
+          tipo: '64 Civil Municipal'
         },
         ejecucion: {
-          tipo: '7Civil Municipal de Ejecucion' 
+          tipo: '7Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 01191',
@@ -3269,8 +3267,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '21 Civil Municipal' 
-        } 
+          tipo: '21 Civil Municipal'
+        }
       },
       radicado     : '2018 - 00163',
       etapaProcesal: 'EJECUCION'
@@ -3368,10 +3366,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '37 CCTO' 
+          tipo: '37 CCTO'
         },
         ejecucion: {
-          tipo: '3 CCTOEJ' 
+          tipo: '3 CCTOEJ'
         }
       },
       radicado: '2017 - 00453'
@@ -3459,10 +3457,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '55 Civil Municipal' 
+          tipo: '55 Civil Municipal'
         },
         ejecucion: {
-          tipo: '15 Civil Municipal de Ejecucion' 
+          tipo: '15 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 00860',
@@ -3599,10 +3597,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '28 Civil Municipal' 
+          tipo: '28 Civil Municipal'
         },
         ejecucion: {
-          tipo: '16 Civil Municipal de Ejecucion' 
+          tipo: '16 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 00849',
@@ -3712,8 +3710,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '45 Civil Municipal' 
-        } 
+          tipo: '45 Civil Municipal'
+        }
       },
       radicado: '2017 - 01164'
     },
@@ -3773,8 +3771,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '69 Civil Municipal // 25 Civil Municipal' 
-        } 
+          tipo: '69 Civil Municipal // 25 Civil Municipal'
+        }
       },
       radicado: '2017 - 00845',
       etapaProcesal:
@@ -3863,10 +3861,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '16 Civil Municipal' 
+          tipo: '16 Civil Municipal'
         },
         ejecucion: {
-          tipo: '18 Civil Municipal de Ejecucion' 
+          tipo: '18 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 00875',
@@ -3943,8 +3941,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'CHIA',
       juzgado                : {
         origen: {
-          tipo: '3 Civil Municipal' 
-        } 
+          tipo: '3 Civil Municipal'
+        }
       },
       radicado: '2017 - 00477'
     },
@@ -4008,8 +4006,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '13 Civil Municipal' 
-        } 
+          tipo: '13 Civil Municipal'
+        }
       },
       radicado     : '2017 - 01178',
       etapaProcesal: 'EJECUCIÓN'
@@ -4108,8 +4106,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '20 CCTO/1 CCTOE' 
-        } 
+          tipo: '20 CCTO/1 CCTOE'
+        }
       },
       radicado: '2018 - 00650'
     },
@@ -4219,8 +4217,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '64 Civil Municipal // 46 PCCivil Municipal' 
-        } 
+          tipo: '64 Civil Municipal // 46 PCCivil Municipal'
+        }
       },
       radicado: '2018 - 01029'
     },
@@ -4327,10 +4325,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '8 Civil Municipal' 
+          tipo: '8 Civil Municipal'
         },
         ejecucion: {
-          tipo: '1 Civil Municipal de Ejecucion' 
+          tipo: '1 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 01058',
@@ -4360,10 +4358,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '9 Civil Municipal' 
+          tipo: '9 Civil Municipal'
         },
         ejecucion: {
-          tipo: '18 Civil Municipal de Ejecucion' 
+          tipo: '18 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 01279',
@@ -4472,8 +4470,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '17 Civil Municipal' 
-        } 
+          tipo: '17 Civil Municipal'
+        }
       },
       radicado     : '2017 - 01195',
       etapaProcesal: 'CURADOR AD LITEM'
@@ -4502,8 +4500,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '16 Civil Municipal DESG / 50 Civil Municipal' 
-        } 
+          tipo: '16 Civil Municipal DESG / 50 Civil Municipal'
+        }
       },
       radicado: '2017 - 00157'
     },
@@ -4542,10 +4540,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '18 Civil Municipal' 
+          tipo: '18 Civil Municipal'
         },
         ejecucion: {
-          tipo: '16 Civil Municipal de Ejecucion' 
+          tipo: '16 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 01522',
@@ -4599,8 +4597,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '10  Pequeñas Causas y Competencias Multiples' 
-        } 
+          tipo: '10  Pequeñas Causas y Competencias Multiples'
+        }
       },
       radicado     : '2017 - 00128',
       etapaProcesal: 'EJECUCIÓN'
@@ -4665,10 +4663,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '63 Civil Municipal' 
+          tipo: '63 Civil Municipal'
         },
         ejecucion: {
-          tipo: '1 Civil Municipal de Ejecucion' 
+          tipo: '1 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 00924',
@@ -4698,8 +4696,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '51 Civil Municipal' 
-        } 
+          tipo: '51 Civil Municipal'
+        }
       },
       radicado: '2017 - 01113',
       etapaProcesal:
@@ -4741,8 +4739,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'UMBITA',
       juzgado                : {
         origen: {
-          tipo: '001 PM' 
-        } 
+          tipo: '001 PM'
+        }
       },
       radicado     : '2017 - 00095',
       etapaProcesal: 'EJECUCIÓN'
@@ -4831,7 +4829,7 @@ export const carpetas: IntCarpetaRaw[] = [
       nombreCompleto: 'FERNANDO GONZALEZ TELLEZ'
     },
     demanda: {
-      radicado: '2017 - 01411' 
+      radicado: '2017 - 01411'
     },
     capitalAdeudado: 0,
     grupo          : 'Terminados'
@@ -5168,8 +5166,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '26 Civil Municipal' 
-        } 
+          tipo: '26 Civil Municipal'
+        }
       },
       radicado: '2017 - 01293'
     },
@@ -5257,10 +5255,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '68 Civil Municipal' 
+          tipo: '68 Civil Municipal'
         },
         ejecucion: {
-          tipo: '15 Civil Municipal de Ejecucion' 
+          tipo: '15 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 01306',
@@ -5315,10 +5313,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '6 Civil Municipal' 
+          tipo: '6 Civil Municipal'
         },
         ejecucion: {
-          tipo: '4 Civil Municipal de Ejecucion' 
+          tipo: '4 Civil Municipal de Ejecucion'
         }
       },
       radicado: '2017 - 00964'
@@ -5346,8 +5344,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'CAPARRAPI',
       juzgado                : {
         origen: {
-          tipo: '001 PM' 
-        } 
+          tipo: '001 PM'
+        }
       },
       radicado     : '2017 - 00096',
       etapaProcesal: 'EJECUCIÓN'
@@ -5439,10 +5437,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '33 Civil Municipal' 
+          tipo: '33 Civil Municipal'
         },
         ejecucion: {
-          tipo: '2 Civil Municipal de Ejecucion' 
+          tipo: '2 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 01474',
@@ -5509,10 +5507,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '1 Civil Municipal' 
+          tipo: '1 Civil Municipal'
         },
         ejecucion: {
-          tipo: '10 Civil Municipal de Ejecucion' 
+          tipo: '10 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 01309',
@@ -5577,10 +5575,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '76 Civil Municipal' 
+          tipo: '76 Civil Municipal'
         },
         ejecucion: {
-          tipo: '17 Civil Municipal de Ejecucion' 
+          tipo: '17 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 01016',
@@ -5667,10 +5665,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '78 Civil Municipal' 
+          tipo: '78 Civil Municipal'
         },
         ejecucion: {
-          tipo: '12 Civil Municipal de Ejecucion' 
+          tipo: '12 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 00975',
@@ -5724,10 +5722,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '17 Civil Municipal' 
+          tipo: '17 Civil Municipal'
         },
         ejecucion: {
-          tipo: '15 Civil Municipal de Ejecucion' 
+          tipo: '15 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 01336',
@@ -5837,10 +5835,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '22 Civil Municipal' 
+          tipo: '22 Civil Municipal'
         },
         ejecucion: {
-          tipo: '20 Civil Municipal de Ejecucion' 
+          tipo: '20 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017-1208',
@@ -5884,8 +5882,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '24 Civil Municipal' 
-        } 
+          tipo: '24 Civil Municipal'
+        }
       },
       radicado: '2018 - 00143'
     },
@@ -5963,8 +5961,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '76 Civil Municipal' 
-        } 
+          tipo: '76 Civil Municipal'
+        }
       },
       radicado: '2018 - 00052'
     },
@@ -6108,10 +6106,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '50 Civil Municipal' 
+          tipo: '50 Civil Municipal'
         },
         ejecucion: {
-          tipo: '14 Civil Municipal de Ejecucion' 
+          tipo: '14 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 01336',
@@ -6164,10 +6162,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '4 Civil Municipal' 
+          tipo: '4 Civil Municipal'
         },
         ejecucion: {
-          tipo: '9 Civil Municipal de Ejecucion' 
+          tipo: '9 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 01266',
@@ -6210,8 +6208,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'ZIPAQUIRA',
       juzgado                : {
         origen: {
-          tipo: '003 Civil Municipal' 
-        } 
+          tipo: '003 Civil Municipal'
+        }
       },
       radicado     : '2018 - 00131',
       etapaProcesal: 'NOTIFICACION'
@@ -6275,10 +6273,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '64 Civil Municipal' 
+          tipo: '64 Civil Municipal'
         },
         ejecucion: {
-          tipo: '16 Civil Municipal de Ejecucion' 
+          tipo: '16 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 01623',
@@ -6450,10 +6448,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '78 Civil Municipal' 
+          tipo: '78 Civil Municipal'
         },
         ejecucion: {
-          tipo: '16 Civil Municipal de Ejecucion' 
+          tipo: '16 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 01164',
@@ -6590,7 +6588,7 @@ export const carpetas: IntCarpetaRaw[] = [
         'JOSE ANTONIO MONTEALEGRE HERNANDEZ'
     },
     demanda: {
-      radicado: '2017 - 01477' 
+      radicado: '2017 - 01477'
     },
     capitalAdeudado: 0,
     grupo          : 'Terminados'
@@ -6615,10 +6613,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '71 Civil Municipal' 
+          tipo: '71 Civil Municipal'
         },
         ejecucion: {
-          tipo: '7 Civil Municipal de Ejecucion' 
+          tipo: '7 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 01250',
@@ -6673,10 +6671,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '63 Civil Municipal/19 Civil Municipal de Ejecucion' 
+          tipo: '63 Civil Municipal/19 Civil Municipal de Ejecucion'
         },
         ejecucion: {
-          tipo: 'SINGULAR' 
+          tipo: 'SINGULAR'
         }
       },
       radicado     : 1.100140030632017e22,
@@ -6775,8 +6773,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'CAJICA',
       juzgado                : {
         origen: {
-          tipo: '2 PM' 
-        } 
+          tipo: '2 PM'
+        }
       },
       radicado     : '2018 - 00048',
       etapaProcesal: 'EJECUCIÓN'
@@ -7083,10 +7081,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '59 Civil Municipal' 
+          tipo: '59 Civil Municipal'
         },
         ejecucion: {
-          tipo: '7 Civil Municipal de Ejecucion' 
+          tipo: '7 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2018 - 00090',
@@ -7174,10 +7172,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '37 Civil Municipal' 
+          tipo: '37 Civil Municipal'
         },
         ejecucion: {
-          tipo: '8 Civil Municipal de Ejecucion' 
+          tipo: '8 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2018 - 00111',
@@ -7313,10 +7311,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '52 Civil Municipal' 
+          tipo: '52 Civil Municipal'
         },
         ejecucion: {
-          tipo: '17 Civil Municipal de Ejecucion' 
+          tipo: '17 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2018 - 00117',
@@ -7438,8 +7436,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'SOACHA',
       juzgado                : {
         origen: {
-          tipo: '2 Civil Municipal' 
-        } 
+          tipo: '2 Civil Municipal'
+        }
       },
       radicado     : '2018 - 00113',
       etapaProcesal: 'EJECUCIÓN'
@@ -7479,10 +7477,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '4 Civil Municipal' 
+          tipo: '4 Civil Municipal'
         },
         ejecucion: {
-          tipo: '7 Civil Municipal de Ejecucion' 
+          tipo: '7 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2018 - 00475',
@@ -7538,8 +7536,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'GIRARDOT',
       juzgado                : {
         origen: {
-          tipo: '3 Civil Municipal' 
-        } 
+          tipo: '3 Civil Municipal'
+        }
       },
       radicado     : '2021 - 00539',
       etapaProcesal: 'EJECUCION'
@@ -7860,10 +7858,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '6 Civil Municipal' 
+          tipo: '6 Civil Municipal'
         },
         ejecucion: {
-          tipo: '17 Civil Municipal de Ejecucion' 
+          tipo: '17 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2018 - 00454',
@@ -7906,10 +7904,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '16 Pequeñas Causas y Competencias Multiples' 
+          tipo: '16 Pequeñas Causas y Competencias Multiples'
         },
         ejecucion: {
-          tipo: '2 Civil Municipal de Ejecucion' 
+          tipo: '2 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2019 - 01085',
@@ -8090,8 +8088,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '17 Civil Municipal' 
-        } 
+          tipo: '17 Civil Municipal'
+        }
       },
       radicado: '2019 - 00179'
     },
@@ -8293,10 +8291,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '81 Civil Municipal' 
+          tipo: '81 Civil Municipal'
         },
         ejecucion: {
-          tipo: '1 Civil Municipal de Ejecucion' 
+          tipo: '1 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2018 - 00514',
@@ -8420,8 +8418,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'ZIPAQUIRA',
       juzgado                : {
         origen: {
-          tipo: '2 Civil Municipal' 
-        } 
+          tipo: '2 Civil Municipal'
+        }
       },
       radicado     : '2020 - 00289',
       etapaProcesal: 'EJECUCIÓN'
@@ -8473,10 +8471,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '51 Civil Municipal' 
+          tipo: '51 Civil Municipal'
         },
         ejecucion: {
-          tipo: '4 Civil Municipal de Ejecucion' 
+          tipo: '4 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2018 - 00850',
@@ -8518,10 +8516,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '36 Civil Municipal' 
+          tipo: '36 Civil Municipal'
         },
         ejecucion: {
-          tipo: '15 Civil Municipal de Ejecucion' 
+          tipo: '15 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2018 - 00818',
@@ -8553,10 +8551,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '14 Civil Municipal' 
+          tipo: '14 Civil Municipal'
         },
         ejecucion: {
-          tipo: '9 Civil Municipal de Ejecucion' 
+          tipo: '9 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2018 - 00929',
@@ -8588,10 +8586,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '82 Civil Municipal/ 41 Civil Municipal' 
+          tipo: '82 Civil Municipal/ 41 Civil Municipal'
         },
         ejecucion: {
-          tipo: '14 Civil Municipal de Ejecucion' 
+          tipo: '14 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2018 - 00964',
@@ -8623,10 +8621,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '12 Pequeñas Causas y Competencias Multiples' 
+          tipo: '12 Pequeñas Causas y Competencias Multiples'
         },
         ejecucion: {
-          tipo: '17 Civil Municipal de Ejecucion' 
+          tipo: '17 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2018 - 00644',
@@ -8658,10 +8656,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '12 Pequeñas Causas y Competencias Multiples' 
+          tipo: '12 Pequeñas Causas y Competencias Multiples'
         },
         ejecucion: {
-          tipo: '11 Civil Municipal de Ejecucion' 
+          tipo: '11 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2018 - 00951',
@@ -8712,10 +8710,10 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '2  Civil Municipal' 
+          tipo: '2  Civil Municipal'
         },
         ejecucion: {
-          tipo: '13 Civil Municipal de Ejecucion' 
+          tipo: '13 Civil Municipal de Ejecucion'
         }
       },
       radicado     : '2017 - 01002',
@@ -8851,8 +8849,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          tipo: '83 Civil Municipal /65 PCC' 
-        } 
+          tipo: '83 Civil Municipal /65 PCC'
+        }
       },
       radicado: '2023 - 01088'
     },
@@ -9160,20 +9158,19 @@ export const carpetas: IntCarpetaRaw[] = [
 
 const newCarpetasMap = carpetas.map(
   (
-    carpeta
+    carpeta 
   ) => {
-
     const newCarpeta = {
-      ...carpeta, 
+      ...carpeta
     };
 
     return newCarpeta;
-  }
+  } 
 );
 
 fs.writeFile(
   'carpetas.json',
   JSON.stringify(
-    newCarpetasMap
+    newCarpetasMap 
   )
 );

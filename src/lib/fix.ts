@@ -1,23 +1,20 @@
-
-
 export function sleep(
-  ms: number
+  ms: number 
 ) {
   return new Promise(
     (
-      resolve
+      resolve 
     ) => {
       console.log(
         JSON.stringify(
-          new Date()
-                  .getTime()
+          new Date().getTime() 
         )
       );
 
       return setTimeout(
-        resolve, ms
+        resolve, ms 
       );
-    }
+    } 
   );
 }
 
@@ -26,7 +23,7 @@ export function fixMoney(
     valor
   }: {
   valor: number;
-}
+} 
 ) {
   const precioEnCop = valor.toLocaleString(
     'es-CO',
@@ -44,14 +41,14 @@ export function unfixFechas(
     fecha
   }: {
   fecha: string;
-}
+} 
 ) {
   const date = new Date(
-    fecha
+    fecha 
   );
 
   return date.toLocaleDateString(
-    'es-CO'
+    'es-CO' 
   );
 }
 
@@ -67,7 +64,7 @@ export function fixFechas(
   }
 
   const date = new Date(
-    fecha
+    fecha 
   );
 
   const months = [
@@ -92,19 +89,18 @@ export function fixFechas(
 }
 
 export function trimmer(
-  nombreCompleto: string
+  nombreCompleto: string 
 ) {
-
   const trimDemandado = nombreCompleto.replace(
     /^\s+|\s+$/gm,
     ''
   );
   console.log(
-    trimDemandado
+    trimDemandado 
   );
 
   const splitDemandado = trimDemandado.split(
-    ' '
+    ' ' 
   );
 
   const splitDemandadotoUnify
@@ -122,20 +118,20 @@ export function trimmer(
         }
 
         if ( nombreOapellido.includes(
-          's.a.s'
+          's.a.s' 
         ) ) {
           return '';
         }
 
         if ( nombreOapellido.includes(
-          'sas'
+          'sas' 
         ) ) {
           return '';
         }
 
         if (
           nombreOapellido.includes(
-            '(emplazado)'
+            '(emplazado)' 
           )
         ) {
           return '';
@@ -144,7 +140,7 @@ export function trimmer(
         return nombreOapellido.replace(
           /^./,
           (
-            str: string
+            str: string 
           ) => {
             return str.toUpperCase();
           }
@@ -154,27 +150,25 @@ export function trimmer(
 
   const unifyDemandado
     = splitDemandadotoUnify.join(
-      ' '
+      ' ' 
     );
 
   return unifyDemandado;
 }
 
-
-export function  fixName (
-  nombreCompleto: string
+export function fixName(
+  nombreCompleto: string 
 ) {
   const mySubString = 'Demandado';
 
   const count
     = nombreCompleto.split(
-      mySubString
-    ).length
-    - 1;
+      mySubString 
+    ).length - 1;
 
   if ( count === 1 ) {
     return trimmer(
-      nombreCompleto
+      nombreCompleto 
     );
   }
 
@@ -186,27 +180,26 @@ export const toNameString = (
     nameRaw
   }: {
   nameRaw: string;
-}
+} 
 ): string => {
   const str = nameRaw.toLowerCase();
 
   const arr = str.split(
-    ' '
+    ' ' 
   );
 
   for ( let i = 0; i < arr.length; i++ ) {
     arr[ i ]
       = arr[ i ].charAt(
-        0
-      )
-              .toUpperCase()
+        0 
+      ).toUpperCase()
       + arr[ i ].slice(
-        1
+        1 
       );
   }
 
   const str2 = arr.join(
-    ' '
+    ' ' 
   );
 
   return str2;

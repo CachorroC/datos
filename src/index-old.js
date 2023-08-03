@@ -1,84 +1,101 @@
 'use strict';
-var __createBinding = ( this && this.__createBinding ) || ( Object.create
-  ? ( function(
+var __createBinding
+  = ( this && this.__createBinding )
+  || ( Object.create
+    ? function (
       o, m, k, k2 
     ) {
       if ( k2 === undefined ) {
         k2 = k;
       }
-      var desc = Object.getOwnPropertyDescriptor(
-        m, k 
-      );
+      var desc
+          = Object.getOwnPropertyDescriptor(
+            m, k 
+          );
 
-      if ( !desc || ( 'get' in desc
-        ? !m.__esModule
-        : desc.writable || desc.configurable ) ) {
+      if (
+        !desc
+          || ( 'get' in desc
+            ? !m.__esModule
+            : desc.writable || desc.configurable )
+      ) {
         desc = {
           enumerable: true,
-          get       : function() {
-            return m[ k ]; 
-          } 
+          get       : function () {
+            return m[ k ];
+          }
         };
       }
       Object.defineProperty(
         o, k2, desc 
       );
-    } )
-  : ( function(
+    }
+    : function (
       o, m, k, k2 
     ) {
       if ( k2 === undefined ) {
         k2 = k;
       }
       o[ k2 ] = m[ k ];
-    } ) );
-var __setModuleDefault = ( this && this.__setModuleDefault ) || ( Object.create
-  ? ( function(
+    } );
+var __setModuleDefault
+  = ( this && this.__setModuleDefault )
+  || ( Object.create
+    ? function (
       o, v 
     ) {
       Object.defineProperty(
         o, 'default', {
           enumerable: true,
-          value     : v 
+          value     : v
         } 
       );
-    } )
-  : function(
-    o, v 
+    }
+    : function (
+      o, v 
+    ) {
+      o[ 'default' ] = v;
+    } );
+var __importStar
+  = ( this && this.__importStar )
+  || function (
+    mod 
   ) {
-    o[ 'default' ] = v;
-  } );
-var __importStar = ( this && this.__importStar ) || function (
-  mod 
-) {
-  if ( mod && mod.__esModule ) {
-    return mod;
-  }
-  var result = {};
+    if ( mod && mod.__esModule ) {
+      return mod;
+    }
+    var result = {};
 
-  if ( mod != null ) {
-    for ( var k in mod ) {
-      if ( k !== 'default' && Object.prototype.hasOwnProperty.call(
-        mod, k 
-      ) ) {
-        __createBinding(
-          result, mod, k 
-        );
+    if ( mod != null ) {
+      for ( var k in mod ) {
+        if (
+          k !== 'default'
+          && Object.prototype.hasOwnProperty.call(
+            mod,
+            k
+          )
+        ) {
+          __createBinding(
+            result, mod, k 
+          );
+        }
       }
     }
-  }
-  __setModuleDefault(
-    result, mod 
-  );
+    __setModuleDefault(
+      result, mod 
+    );
 
-  return result;
-};
+    return result;
+  };
 Object.defineProperty(
   exports, '__esModule', {
-    value: true 
+    value: true
   } 
 );
-exports.trimmer = exports.juzgadoFixer = exports.telFixer = void 0;
+exports.trimmer
+  = exports.juzgadoFixer
+  = exports.telFixer
+    = void 0;
 
 const rawCarpetas_1 = require(
   '#@/carpetas/rawCarpetas' 
@@ -104,9 +121,10 @@ function telFixer(
       'F' 
     );
 
-    const fijoRaw = tel.slice(
-      indexOfFijo, 10 
-    )
+    const fijoRaw = tel
+            .slice(
+              indexOfFijo, 10 
+            )
             .replace(
               'F ', '' 
             );
@@ -124,9 +142,10 @@ function telFixer(
       'CEL' 
     );
 
-    const celularRaw = tel.slice(
-      indexOfCel 
-    )
+    const celularRaw = tel
+            .slice(
+              indexOfCel 
+            )
             .replace(
               'CEL ', '' 
             );
@@ -137,13 +156,11 @@ function telFixer(
 
   return {
     fijo: Array.from(
-      fijo.values() 
-    )
-            .toLocaleString(),
+      fijo.values()
+    ).toLocaleString(),
     celular: Array.from(
-      celular.values() 
-    )
-            .toLocaleString()
+      celular.values()
+    ).toLocaleString()
   };
 }
 exports.telFixer = telFixer;
@@ -177,7 +194,8 @@ function trimmer(
   nombreCompleto 
 ) {
   const trimDemandado = nombreCompleto.replace(
-    /^\s+|\s+$/gm, '' 
+    /^\s+|\s+$/gm,
+    ''
   );
   console.log(
     trimDemandado 
@@ -186,7 +204,9 @@ function trimmer(
   const splitDemandado = trimDemandado.split(
     ' ' 
   );
-  const splitDemandadoLength = splitDemandado.length;
+
+  const splitDemandadoLength
+    = splitDemandado.length;
   switch ( splitDemandadoLength ) {
     case 1:
       return {
@@ -237,18 +257,22 @@ const newMapCarpetas = rawCarpetas_1.carpetas.map(
         carpeta.deudor.tel.toString() 
       );
     }
-    const juzgados = carpeta.demanda?.juzgado?.ejecucion ?? carpeta.demanda?.juzgado?.origen;
+
+    const juzgados
+      = carpeta.demanda?.juzgado?.ejecucion
+      ?? carpeta.demanda?.juzgado?.origen;
     console.log(
       juzgados 
     );
 
     const trimmedName = trimmer(
-      carpeta.deudor.nombreCompleto 
+      carpeta.deudor.nombreCompleto
     );
 
     const {
       nombreCompleto, ...newDeudor 
-    } = carpeta.deudor;
+    }
+      = carpeta.deudor;
 
     const newCarpeta = {
       ...carpeta,
@@ -259,26 +283,27 @@ const newMapCarpetas = rawCarpetas_1.carpetas.map(
             tipo: 'unknown',
             id  : 0,
             url : 'https://app.rsasesorjuridico.com'
-          } 
+          }
         )
       },
       deudor: {
         ...newDeudor,
         ...trimmedName,
         tel: telFixer(
-          carpeta.deudor.tel?.toString() ?? 'nada' 
+          carpeta.deudor.tel?.toString() ?? 'nada'
         )
       }
     };
 
     return newCarpeta;
-  } 
+  }
 );
 console.log(
   newMapCarpetas 
 );
 fs.writeFile(
-  'nuevosNombresMap.json', JSON.stringify(
+  'nuevosNombresMap.json',
+  JSON.stringify(
     newMapCarpetas 
-  ) 
+  )
 );

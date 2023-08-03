@@ -1,19 +1,19 @@
 'use strict';
 Object.defineProperty(
   exports, '__esModule', {
-    value: true 
+    value: true
   } 
 );
 exports.Convert = void 0;
 class Convert {
-  static toIntCarpetaRaw(
+  static toIntCarpeta(
     json 
   ) {
     return JSON.parse(
       json 
     );
   }
-  static intCarpetaRawToJson(
+  static intCarpetaToJson(
     value 
   ) {
     return JSON.stringify(

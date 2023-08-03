@@ -1,81 +1,95 @@
 'use strict';
-var __createBinding = ( this && this.__createBinding ) || ( Object.create
-  ? ( function(
+var __createBinding
+  = ( this && this.__createBinding )
+  || ( Object.create
+    ? function (
       o, m, k, k2 
     ) {
       if ( k2 === undefined ) {
         k2 = k;
       }
-      var desc = Object.getOwnPropertyDescriptor(
-        m, k 
-      );
+      var desc
+          = Object.getOwnPropertyDescriptor(
+            m, k 
+          );
 
-      if ( !desc || ( 'get' in desc
-        ? !m.__esModule
-        : desc.writable || desc.configurable ) ) {
+      if (
+        !desc
+          || ( 'get' in desc
+            ? !m.__esModule
+            : desc.writable || desc.configurable )
+      ) {
         desc = {
           enumerable: true,
-          get       : function() {
-            return m[ k ]; 
-          } 
+          get       : function () {
+            return m[ k ];
+          }
         };
       }
       Object.defineProperty(
         o, k2, desc 
       );
-    } )
-  : ( function(
+    }
+    : function (
       o, m, k, k2 
     ) {
       if ( k2 === undefined ) {
         k2 = k;
       }
       o[ k2 ] = m[ k ];
-    } ) );
-var __setModuleDefault = ( this && this.__setModuleDefault ) || ( Object.create
-  ? ( function(
+    } );
+var __setModuleDefault
+  = ( this && this.__setModuleDefault )
+  || ( Object.create
+    ? function (
       o, v 
     ) {
       Object.defineProperty(
         o, 'default', {
           enumerable: true,
-          value     : v 
+          value     : v
         } 
       );
-    } )
-  : function(
-    o, v 
+    }
+    : function (
+      o, v 
+    ) {
+      o[ 'default' ] = v;
+    } );
+var __importStar
+  = ( this && this.__importStar )
+  || function (
+    mod 
   ) {
-    o[ 'default' ] = v;
-  } );
-var __importStar = ( this && this.__importStar ) || function (
-  mod 
-) {
-  if ( mod && mod.__esModule ) {
-    return mod;
-  }
-  var result = {};
+    if ( mod && mod.__esModule ) {
+      return mod;
+    }
+    var result = {};
 
-  if ( mod != null ) {
-    for ( var k in mod ) {
-      if ( k !== 'default' && Object.prototype.hasOwnProperty.call(
-        mod, k 
-      ) ) {
-        __createBinding(
-          result, mod, k 
-        );
+    if ( mod != null ) {
+      for ( var k in mod ) {
+        if (
+          k !== 'default'
+          && Object.prototype.hasOwnProperty.call(
+            mod,
+            k
+          )
+        ) {
+          __createBinding(
+            result, mod, k 
+          );
+        }
       }
     }
-  }
-  __setModuleDefault(
-    result, mod 
-  );
+    __setModuleDefault(
+      result, mod 
+    );
 
-  return result;
-};
+    return result;
+  };
 Object.defineProperty(
   exports, '__esModule', {
-    value: true 
+    value: true
   } 
 );
 exports.carpetas = void 0;
@@ -90,8 +104,9 @@ exports.carpetas = [
     numero: 1,
     id    : '39581581',
     deudor: {
-      cedula        : 39581581,
-      nombreCompleto: 'ALEXANDRA MILENA JIMENEZ AGUILAR'
+      cedula: 39581581,
+      nombreCompleto:
+        'ALEXANDRA MILENA JIMENEZ AGUILAR'
     },
     capitalAdeudado: 0,
     llaveProceso   : '2530740030012017025000',
@@ -101,8 +116,9 @@ exports.carpetas = [
     numero: 2,
     id    : '1026259010',
     deudor: {
-      cedula        : 1026259010,
-      nombreCompleto: 'EDWIN ANDRES CUERVO VERDUGO'
+      cedula: 1026259010,
+      nombreCompleto:
+        'EDWIN ANDRES CUERVO VERDUGO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001310304320170055400',
@@ -112,8 +128,9 @@ exports.carpetas = [
     numero: 3,
     id    : '1018441487',
     deudor: {
-      cedula        : 1018441487,
-      nombreCompleto: 'MARIA CLAUDIA REATIGA URREA'
+      cedula: 1018441487,
+      nombreCompleto:
+        'MARIA CLAUDIA REATIGA URREA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25126408900220170071500',
@@ -123,8 +140,9 @@ exports.carpetas = [
     numero: 4,
     id    : '93437973',
     deudor: {
-      cedula        : 93437973,
-      nombreCompleto: 'DIPSON EUSEBIO SANCHEZ CASTIBLANCO'
+      cedula: 93437973,
+      nombreCompleto:
+        'DIPSON EUSEBIO SANCHEZ CASTIBLANCO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400305320170072000',
@@ -134,8 +152,9 @@ exports.carpetas = [
     numero: 5,
     id    : '20645940',
     deudor: {
-      cedula        : 20645940,
-      nombreCompleto: 'FANY PATRICIA AVELLANEDA TOVAR'
+      cedula: 20645940,
+      nombreCompleto:
+        'FANY PATRICIA AVELLANEDA TOVAR'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25322418900120170016800',
@@ -178,8 +197,9 @@ exports.carpetas = [
     numero: 9,
     id    : '1020731500',
     deudor: {
-      cedula        : 1020731500,
-      nombreCompleto: 'DANIELA ALEJANDRA CARDENAS RODRIGUEZ'
+      cedula: 1020731500,
+      nombreCompleto:
+        'DANIELA ALEJANDRA CARDENAS RODRIGUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '1100140030442017099800',
@@ -203,8 +223,9 @@ exports.carpetas = [
       cedula        : 80743147,
       nombreCompleto: 'JAVIER ROMERO REYES',
       tel           : 'F 3903652 CEL 3209229120',
-      email         : 'sandrapatriciajoya-2545@hotmail.com',
-      direccion     : 'CRA 18 H No. 76 A-53 SUR BOGOTA'
+      email:
+        'sandrapatriciajoya-2545@hotmail.com',
+      direccion: 'CRA 18 H No. 76 A-53 SUR BOGOTA'
     },
     demanda: {
       vencimientoPagare      : '2017-08-28',
@@ -234,8 +255,9 @@ exports.carpetas = [
     numero: 12,
     id    : '11436632',
     deudor: {
-      cedula        : 11436632,
-      nombreCompleto: 'OSCAR MANUEL TRIVIÑO GARCIA'
+      cedula: 11436632,
+      nombreCompleto:
+        'OSCAR MANUEL TRIVIÑO GARCIA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25269400300220180015800',
@@ -267,8 +289,9 @@ exports.carpetas = [
     numero: 15,
     id    : '1098678636',
     deudor: {
-      cedula        : 1098678636,
-      nombreCompleto: 'SILVIA SUSANA SIERRA CASTAÑEDA'
+      cedula: 1098678636,
+      nombreCompleto:
+        'SILVIA SUSANA SIERRA CASTAÑEDA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400307220170065400',
@@ -282,7 +305,8 @@ exports.carpetas = [
       nombreCompleto: 'YESID ALBEIRO RAMOS',
       tel           : 'CEL 3212337597',
       email         : 'yess_Id@hotmail.com',
-      direccion     : 'CARRERA 77B No. 68B - 19 BARRIO SANTA HELENITA'
+      direccion:
+        'CARRERA 77B No. 68B - 19 BARRIO SANTA HELENITA'
     },
     demanda: {
       vencimientoPagare      : '2020-05-04',
@@ -320,8 +344,9 @@ exports.carpetas = [
     numero: 18,
     id    : '79205977',
     deudor: {
-      cedula        : 79205977,
-      nombreCompleto: 'LUIS ENRIQUE ACOSTA CHAVARRIA'
+      cedula: 79205977,
+      nombreCompleto:
+        'LUIS ENRIQUE ACOSTA CHAVARRIA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25175400300320170026900',
@@ -342,8 +367,9 @@ exports.carpetas = [
     numero: 20,
     id    : '94482258',
     deudor: {
-      cedula        : 94482258,
-      nombreCompleto: 'ANDRES MAURICIO FERNANDEZ DE SOTO DOMINGUEZ'
+      cedula: 94482258,
+      nombreCompleto:
+        'ANDRES MAURICIO FERNANDEZ DE SOTO DOMINGUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400302220170048300',
@@ -353,8 +379,9 @@ exports.carpetas = [
     numero: 21,
     id    : '11309242',
     deudor: {
-      cedula        : 11309242,
-      nombreCompleto: 'RAMIRO CRISTANCHO CONTRERAS'
+      cedula: 11309242,
+      nombreCompleto:
+        'RAMIRO CRISTANCHO CONTRERAS'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25290400300120170043700',
@@ -367,7 +394,8 @@ exports.carpetas = [
       cedula        : 80073174,
       nombreCompleto: 'JOSE EDWIN GARCES ARDILA',
       tel           : 'F 7978419',
-      direccion     : 'CALLE 160 No. 58-75 TORRE 6 APTO 503 BOGOTA /// YOPAL CASANARE'
+      direccion:
+        'CALLE 160 No. 58-75 TORRE 6 APTO 503 BOGOTA /// YOPAL CASANARE'
     },
     demanda: {
       vencimientoPagare      : '2020-04-26',
@@ -408,8 +436,9 @@ exports.carpetas = [
     numero: 24,
     id    : '3034074',
     deudor: {
-      cedula        : 3034074,
-      nombreCompleto: 'WILSON ARMANDO RODRIGUEZ MORA'
+      cedula: 3034074,
+      nombreCompleto:
+        'WILSON ARMANDO RODRIGUEZ MORA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25299418900120170002400',
@@ -465,7 +494,8 @@ exports.carpetas = [
       nombreCompleto: 'NORBEY LOMBANA MAHECHA',
       tel           : 'F 34746523',
       email         : 347620,
-      direccion     : 'CALLE 4 No. 14-161 GUADUAS (CUNDINAMARCA)'
+      direccion:
+        'CALLE 4 No. 14-161 GUADUAS (CUNDINAMARCA)'
     },
     demanda: {
       vencimientoPagare      : '2017-04-11',
@@ -489,8 +519,9 @@ exports.carpetas = [
     numero: 28,
     id    : '20563933',
     deudor: {
-      cedula        : 20563933,
-      nombreCompleto: 'MARIA SOCORRO TORRES DE GONZALEZ'
+      cedula: 20563933,
+      nombreCompleto:
+        'MARIA SOCORRO TORRES DE GONZALEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25290400300120170036900',
@@ -500,8 +531,9 @@ exports.carpetas = [
     numero: 29,
     id    : '80814800',
     deudor: {
-      cedula        : 80814800,
-      nombreCompleto: 'WHITMAN JEFERSON NAJAR RAMIREZ'
+      cedula: 80814800,
+      nombreCompleto:
+        'WHITMAN JEFERSON NAJAR RAMIREZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25175400300120170051100',
@@ -511,8 +543,9 @@ exports.carpetas = [
     numero: 30,
     id    : '52367601',
     deudor: {
-      cedula        : 52367601,
-      nombreCompleto: 'MIREYA VIVIANA BELTRAN HERRERA'
+      cedula: 52367601,
+      nombreCompleto:
+        'MIREYA VIVIANA BELTRAN HERRERA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400303020170095100',
@@ -533,16 +566,19 @@ exports.carpetas = [
     numero: 32,
     id    : '1022940572',
     deudor: {
-      cedula        : 1022940572,
-      nombreCompleto: 'JONATHAN ANDRES  BERNAL PARRA',
-      tel           : 'CEL 3134775602',
-      email         : 'jhonannicky@hotmail.com',
-      direccion     : 'CALLE 36 B SUR No. 11-25 APTO 1307 BOGOTA'
+      cedula: 1022940572,
+      nombreCompleto:
+        'JONATHAN ANDRES  BERNAL PARRA',
+      tel  : 'CEL 3134775602',
+      email: 'jhonannicky@hotmail.com',
+      direccion:
+        'CALLE 36 B SUR No. 11-25 APTO 1307 BOGOTA'
     },
     demanda: {
-      vencimientoPagare      : '2028-08-01',
-      obligacion             : 4280019446,
-      obligacion2            : '5406915580101610 4513077620518209//20990166568',
+      vencimientoPagare: '2028-08-01',
+      obligacion       : 4280019446,
+      obligacion2:
+        '5406915580101610 4513077620518209//20990166568',
       entregaGarantiasAbogado: '2018-05-30',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
@@ -577,8 +613,9 @@ exports.carpetas = [
     numero: 34,
     id    : '1070612757',
     deudor: {
-      cedula        : 1070612757,
-      nombreCompleto: 'KAREN JULIETH PINZON GUTIERREZ'
+      cedula: 1070612757,
+      nombreCompleto:
+        'KAREN JULIETH PINZON GUTIERREZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25307400300320170033000',
@@ -588,11 +625,13 @@ exports.carpetas = [
     numero: 35,
     id    : '7226201',
     deudor: {
-      cedula        : 7226201,
-      nombreCompleto: 'LUIS CARLOS GUTIERREZ VELANDIA',
-      tel           : 'CEL 3106199094',
-      email         : 'luiscagv@yahoo.com',
-      direccion     : 'CARRERA 33 No. 1 H-86 DUITAMA (BOYACÁ)'
+      cedula: 7226201,
+      nombreCompleto:
+        'LUIS CARLOS GUTIERREZ VELANDIA',
+      tel  : 'CEL 3106199094',
+      email: 'luiscagv@yahoo.com',
+      direccion:
+        'CARRERA 33 No. 1 H-86 DUITAMA (BOYACÁ)'
     },
     demanda: {
       vencimientoPagare      : '2016-09-16',
@@ -621,8 +660,9 @@ exports.carpetas = [
     numero: 36,
     id    : '52314251',
     deudor: {
-      cedula        : 52314251,
-      nombreCompleto: 'SANDRA PATRICIA AGUDELO MONTAGUT'
+      cedula: 52314251,
+      nombreCompleto:
+        'SANDRA PATRICIA AGUDELO MONTAGUT'
     },
     capitalAdeudado: 0,
     llaveProceso   : ' 11001400306620170089200',
@@ -632,8 +672,9 @@ exports.carpetas = [
     numero: 37,
     id    : '1030536736',
     deudor: {
-      cedula        : 1030536736,
-      nombreCompleto: 'LUIS ALBERTO ALFONSO GIRALDO'
+      cedula: 1030536736,
+      nombreCompleto:
+        'LUIS ALBERTO ALFONSO GIRALDO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25740418900120170021700',
@@ -643,8 +684,9 @@ exports.carpetas = [
     numero: 38,
     id    : '39808625',
     deudor: {
-      cedula        : 39808625,
-      nombreCompleto: 'LUZ MIRYAM GUTÍERREZ MARTÍNEZ'
+      cedula: 39808625,
+      nombreCompleto:
+        'LUZ MIRYAM GUTÍERREZ MARTÍNEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25785418900120170010200',
@@ -654,8 +696,9 @@ exports.carpetas = [
     numero: 39,
     id    : '79982488',
     deudor: {
-      cedula        : 79982488,
-      nombreCompleto: 'JORGE ALONSO TRUJILLO GÓMEZ'
+      cedula: 79982488,
+      nombreCompleto:
+        'JORGE ALONSO TRUJILLO GÓMEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400306520170090300',
@@ -665,8 +708,9 @@ exports.carpetas = [
     numero: 40,
     id    : '19173252',
     deudor: {
-      cedula        : 19173252,
-      nombreCompleto: 'JOSÉ ENRIQUE RIAÑO HENRIQUEZ'
+      cedula: 19173252,
+      nombreCompleto:
+        'JOSÉ ENRIQUE RIAÑO HENRIQUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400303420170080900',
@@ -676,8 +720,9 @@ exports.carpetas = [
     numero: 41,
     id    : '52991801',
     deudor: {
-      cedula        : 52991801,
-      nombreCompleto: 'YENCY KARINA CASTIBLANCO BOHORQUEZ'
+      cedula: 52991801,
+      nombreCompleto:
+        'YENCY KARINA CASTIBLANCO BOHORQUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400303520170119000',
@@ -687,11 +732,13 @@ exports.carpetas = [
     numero: 42,
     id    : '1072421639',
     deudor: {
-      cedula        : 1072421639,
-      nombreCompleto: 'JUAN DANIEL MORENO CIFUENTES',
-      tel           : 'CEL 3126139284',
-      email         : 'jdanielmoreno87@hotmail.com',
-      direccion     : 'BARRIO SANTA ANA FC LA CAMPIÑA ANAPOIMA'
+      cedula: 1072421639,
+      nombreCompleto:
+        'JUAN DANIEL MORENO CIFUENTES',
+      tel  : 'CEL 3126139284',
+      email: 'jdanielmoreno87@hotmail.com',
+      direccion:
+        'BARRIO SANTA ANA FC LA CAMPIÑA ANAPOIMA'
     },
     demanda: {
       obligacion             : 3840082880,
@@ -753,10 +800,12 @@ exports.carpetas = [
       nombreCompleto: 'ALVARO RODRIGUEZ ALONSO',
       tel           : 'CEL 3166182970',
       email         : 'alvaro.r@live.com',
-      direccion     : 'Carrera 2B No.14-04 BARRIO VILLA ALEJANDRA CHOCONTA'
+      direccion:
+        'Carrera 2B No.14-04 BARRIO VILLA ALEJANDRA CHOCONTA'
     },
     demanda: {
-      vencimientoPagare      : '18/04/2020 // 04/05/2020',
+      vencimientoPagare:
+        '18/04/2020 // 04/05/2020',
       obligacion             : 53037139326557900,
       obligacion2            : 4099839496308260,
       entregaGarantiasAbogado: '2017-05-19',
@@ -785,8 +834,9 @@ exports.carpetas = [
       direccion     : 'CALLE 61 J No. 17D - 55 Sur'
     },
     demanda: {
-      vencimientoPagare      : '2019-09-22',
-      obligacion             : '377816034633036//45130802058774831',
+      vencimientoPagare: '2019-09-22',
+      obligacion:
+        '377816034633036//45130802058774831',
       obligacion2            : 53003720132046710,
       entregaGarantiasAbogado: '2017-06-12',
       departamento           : 'CUNDINAMARCA',
@@ -811,8 +861,9 @@ exports.carpetas = [
     numero: 48,
     id    : '52837630',
     deudor: {
-      cedula        : 52837630,
-      nombreCompleto: 'JENNY ADRIANA PATARROYO TORRES'
+      cedula: 52837630,
+      nombreCompleto:
+        'JENNY ADRIANA PATARROYO TORRES'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400303520170142500',
@@ -833,8 +884,9 @@ exports.carpetas = [
     numero: 50,
     id    : '52444244',
     deudor: {
-      cedula        : 52444244,
-      nombreCompleto: 'GLORIA ASTRID RODRÍGUEZ BAQUERO'
+      cedula: 52444244,
+      nombreCompleto:
+        'GLORIA ASTRID RODRÍGUEZ BAQUERO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400303420180061400',
@@ -844,8 +896,9 @@ exports.carpetas = [
     numero: 51,
     id    : '37549188',
     deudor: {
-      cedula        : 37549188,
-      nombreCompleto: 'MARIA CAROLINA MARTINEZ VERA'
+      cedula: 37549188,
+      nombreCompleto:
+        'MARIA CAROLINA MARTINEZ VERA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400300920170060700',
@@ -855,8 +908,9 @@ exports.carpetas = [
     numero: 52,
     id    : '35412591',
     deudor: {
-      cedula        : 35412591,
-      nombreCompleto: 'MARTHA STELLA GOMEZ BOLIVAR'
+      cedula: 35412591,
+      nombreCompleto:
+        'MARTHA STELLA GOMEZ BOLIVAR'
     },
     capitalAdeudado: 0,
     grupo          : 'Terminados'
@@ -865,8 +919,9 @@ exports.carpetas = [
     numero: 53,
     id    : '53051476',
     deudor: {
-      cedula        : 53051476,
-      nombreCompleto: 'DIANA MARCELA SANCHEZ LOZANO'
+      cedula: 53051476,
+      nombreCompleto:
+        'DIANA MARCELA SANCHEZ LOZANO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400308520170097500',
@@ -909,8 +964,9 @@ exports.carpetas = [
     numero: 57,
     id    : '39556705',
     deudor: {
-      cedula        : 39556705,
-      nombreCompleto: 'CARMEN CECILIA APONTE ZAMBRANO'
+      cedula: 39556705,
+      nombreCompleto:
+        'CARMEN CECILIA APONTE ZAMBRANO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400302820170051200',
@@ -927,8 +983,9 @@ exports.carpetas = [
       direccion     : 'CALLE 23 D No.107-32 BOGOTA'
     },
     demanda: {
-      obligacion             : '5820083643//377816164971529',
-      obligacion2            : '4513080225477441//5303720124048311',
+      obligacion: '5820083643//377816164971529',
+      obligacion2:
+        '4513080225477441//5303720124048311',
       entregaGarantiasAbogado: '2017-06-08',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
@@ -985,8 +1042,9 @@ exports.carpetas = [
     numero: 62,
     id    : '80722943',
     deudor: {
-      cedula        : 80722943,
-      nombreCompleto: 'LUIS EDUARDO CARRANZA BUSTOS'
+      cedula: 80722943,
+      nombreCompleto:
+        'LUIS EDUARDO CARRANZA BUSTOS'
     },
     capitalAdeudado: 0,
     llaveProceso   : ' 11001400306320180016800',
@@ -1007,11 +1065,13 @@ exports.carpetas = [
     numero: 64,
     id    : '79891952',
     deudor: {
-      cedula        : 79891952,
-      nombreCompleto: 'RAFAEL ERNESTO CADENA PARGA',
-      tel           : 'F 3157900              CEL 3157900006',
-      email         : 'rafael.cadena@signsas.com',
-      direccion     : 'CARRERA 13 A No. 150-25 INT 3 APTO 203'
+      cedula: 79891952,
+      nombreCompleto:
+        'RAFAEL ERNESTO CADENA PARGA',
+      tel  : 'F 3157900              CEL 3157900006',
+      email: 'rafael.cadena@signsas.com',
+      direccion:
+        'CARRERA 13 A No. 150-25 INT 3 APTO 203'
     },
     demanda: {
       vencimientoPagare      : '2017-10-22',
@@ -1035,8 +1095,9 @@ exports.carpetas = [
     numero: 65,
     id    : '79276611',
     deudor: {
-      cedula        : 79276611,
-      nombreCompleto: 'ERNESTO AUGUSTO IDARRAGA QUINTERO'
+      cedula: 79276611,
+      nombreCompleto:
+        'ERNESTO AUGUSTO IDARRAGA QUINTERO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400302020170077600',
@@ -1046,8 +1107,9 @@ exports.carpetas = [
     numero: 66,
     id    : '66841096',
     deudor: {
-      cedula        : 66841096,
-      nombreCompleto: 'SANDRA PATRICIA SUAREZ GALVIS'
+      cedula: 66841096,
+      nombreCompleto:
+        'SANDRA PATRICIA SUAREZ GALVIS'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400301920170070200',
@@ -1057,8 +1119,9 @@ exports.carpetas = [
     numero: 67,
     id    : '78076295',
     deudor: {
-      cedula        : 78076295,
-      nombreCompleto: 'HUMBERTO ENRIQUE AVENA CORRALES'
+      cedula: 78076295,
+      nombreCompleto:
+        'HUMBERTO ENRIQUE AVENA CORRALES'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001310301720170036000',
@@ -1068,8 +1131,9 @@ exports.carpetas = [
     numero: 68,
     id    : '35412591',
     deudor: {
-      cedula        : 35412591,
-      nombreCompleto: 'MARTHA STELLA GOMEZ BOLIVAR'
+      cedula: 35412591,
+      nombreCompleto:
+        'MARTHA STELLA GOMEZ BOLIVAR'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25899400300220170027000',
@@ -1079,10 +1143,11 @@ exports.carpetas = [
     numero: 69,
     id    : '53008703',
     deudor: {
-      cedula        : 53008703,
-      nombreCompleto: 'DERLY CATHERINE CASTRO IZQUIERDO',
-      tel           : 'F 7507842 2856110',
-      direccion     : 'CARRERA 5 No. 30 - 77'
+      cedula: 53008703,
+      nombreCompleto:
+        'DERLY CATHERINE CASTRO IZQUIERDO',
+      tel      : 'F 7507842 2856110',
+      direccion: 'CARRERA 5 No. 30 - 77'
     },
     demanda: {
       vencimientoPagare      : '2019-08-12',
@@ -1121,8 +1186,9 @@ exports.carpetas = [
     numero: 71,
     id    : '53015307',
     deudor: {
-      cedula        : 53015307,
-      nombreCompleto: 'BETTY STEPHANI TORRES ROJAS'
+      cedula: 53015307,
+      nombreCompleto:
+        'BETTY STEPHANI TORRES ROJAS'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400304720170106500',
@@ -1132,8 +1198,9 @@ exports.carpetas = [
     numero: 72,
     id    : '1030545462',
     deudor: {
-      cedula        : 1030545462,
-      nombreCompleto: 'NESTOR FABIAN ESPITIA FRAILE'
+      cedula: 1030545462,
+      nombreCompleto:
+        'NESTOR FABIAN ESPITIA FRAILE'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400306020170124100',
@@ -1189,8 +1256,9 @@ exports.carpetas = [
     numero: 77,
     id    : '1030554218',
     deudor: {
-      cedula        : 1030554218,
-      nombreCompleto: 'JEIMY CAROLINA LEGUIZAMON VASQUEZ'
+      cedula: 1030554218,
+      nombreCompleto:
+        'JEIMY CAROLINA LEGUIZAMON VASQUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25754418900120170083700',
@@ -1233,8 +1301,9 @@ exports.carpetas = [
     numero: 81,
     id    : '900789612',
     deudor: {
-      cedula        : 900789612,
-      nombreCompleto: 'DS&D SOLUCIONES CONSTRUCTIVAS S.A.S.'
+      cedula: 900789612,
+      nombreCompleto:
+        'DS&D SOLUCIONES CONSTRUCTIVAS S.A.S.'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400303620170055400',
@@ -1255,8 +1324,9 @@ exports.carpetas = [
     numero: 83,
     id    : '19438068',
     deudor: {
-      cedula        : 19438068,
-      nombreCompleto: 'LUIS ADOLFO PEÑA ARCINIEGAS'
+      cedula: 19438068,
+      nombreCompleto:
+        'LUIS ADOLFO PEÑA ARCINIEGAS'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400301920170102500',
@@ -1270,7 +1340,8 @@ exports.carpetas = [
       nombreCompleto: 'EDGAR HERNANDEZ RUBIO',
       tel           : 'F 8054434               CEL 3118802970',
       email         : 'edgarH62@hotmail.com',
-      direccion     : 'CARRERA 17 A No. 175-82 INTERIOR 1 PTO 601'
+      direccion:
+        'CARRERA 17 A No. 175-82 INTERIOR 1 PTO 601'
     },
     demanda: {
       vencimientoPagare      : '2019-11-05',
@@ -1299,8 +1370,9 @@ exports.carpetas = [
     numero: 85,
     id    : '39673896',
     deudor: {
-      cedula        : 39673896,
-      nombreCompleto: 'SANDRA PATRICIA MALAVER ALVAREZ'
+      cedula: 39673896,
+      nombreCompleto:
+        'SANDRA PATRICIA MALAVER ALVAREZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400303420170083400',
@@ -1314,7 +1386,8 @@ exports.carpetas = [
       nombreCompleto: 'RHONALD MEZA TARAPUES',
       tel           : 'F 4062925  7496611',
       email         : 'mezaronald@yahoo.com',
-      direccion     : 'CARRERA 73 A BIS No. 2 A-32 SUR BOGOTA'
+      direccion:
+        'CARRERA 73 A BIS No. 2 A-32 SUR BOGOTA'
     },
     demanda: {
       vencimientoPagare      : '2018-11-11',
@@ -1364,8 +1437,9 @@ exports.carpetas = [
     numero: 89,
     id    : '1030551366',
     deudor: {
-      cedula        : 1030551366,
-      nombreCompleto: 'JULIAN ARMANDO ACOSTA RODRIGUEZ'
+      cedula: 1030551366,
+      nombreCompleto:
+        'JULIAN ARMANDO ACOSTA RODRIGUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400306520170093400',
@@ -1375,11 +1449,12 @@ exports.carpetas = [
     numero: 90,
     id    : '1032432802',
     deudor: {
-      cedula        : 1032432802,
-      nombreCompleto: 'LUIS ESNEIDER ORDUZ FARFAN',
-      tel           : 'F 4712921',
-      email         : 'orduzcrit2@hotmail.com',
-      direccion     : 'CARRERA 95 # 138 - 58'
+      cedula: 1032432802,
+      nombreCompleto:
+        'LUIS ESNEIDER ORDUZ FARFAN',
+      tel      : 'F 4712921',
+      email    : 'orduzcrit2@hotmail.com',
+      direccion: 'CARRERA 95 # 138 - 58'
     },
     demanda: {
       vencimientoPagare      : '2020-06-09',
@@ -1419,8 +1494,9 @@ exports.carpetas = [
     numero: 92,
     id    : '52214536',
     deudor: {
-      cedula        : 52214536,
-      nombreCompleto: 'MAGDA MILENA SALINAS RODRIGUEZ'
+      cedula: 52214536,
+      nombreCompleto:
+        'MAGDA MILENA SALINAS RODRIGUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400301320170084100',
@@ -1441,8 +1517,9 @@ exports.carpetas = [
     numero: 94,
     id    : '1030527169',
     deudor: {
-      cedula        : 1030527169,
-      nombreCompleto: 'AIDA YURANI GRIJALBA MARTINEZ'
+      cedula: 1030527169,
+      nombreCompleto:
+        'AIDA YURANI GRIJALBA MARTINEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400305620170059100',
@@ -1474,8 +1551,9 @@ exports.carpetas = [
     numero: 97,
     id    : '19270589',
     deudor: {
-      cedula        : 19270589,
-      nombreCompleto: 'JOSE ALFREDO RIAÑO MALDONADO'
+      cedula: 19270589,
+      nombreCompleto:
+        'JOSE ALFREDO RIAÑO MALDONADO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400308520160031900',
@@ -1485,8 +1563,9 @@ exports.carpetas = [
     numero: 98,
     id    : '41672170',
     deudor: {
-      cedula        : 41672170,
-      nombreCompleto: 'MARIA DEL CARMEN CHAPARRO LEMUS'
+      cedula: 41672170,
+      nombreCompleto:
+        'MARIA DEL CARMEN CHAPARRO LEMUS'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400301120170062300',
@@ -1496,8 +1575,9 @@ exports.carpetas = [
     numero: 99,
     id    : '79996551',
     deudor: {
-      cedula        : 79996551,
-      nombreCompleto: 'YONI ALEXANDER RESTREPO PEÑUELA'
+      cedula: 79996551,
+      nombreCompleto:
+        'YONI ALEXANDER RESTREPO PEÑUELA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '1100141037512017111000',
@@ -1518,8 +1598,9 @@ exports.carpetas = [
     numero: 101,
     id    : '57452535',
     deudor: {
-      cedula        : 57452535,
-      nombreCompleto: 'LEILA JOHANNA MARTINEZ MORA'
+      cedula: 57452535,
+      nombreCompleto:
+        'LEILA JOHANNA MARTINEZ MORA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400301020170065301',
@@ -1529,10 +1610,11 @@ exports.carpetas = [
     numero: 102,
     id    : '1070329396',
     deudor: {
-      cedula        : 1070329396,
-      nombreCompleto: 'ERIKA ALEJANDRA QUINTERO REYES',
-      tel           : 'CEL 3114456631',
-      direccion     : 'CALL 2 No. 8-40 EL COLEGIO'
+      cedula: 1070329396,
+      nombreCompleto:
+        'ERIKA ALEJANDRA QUINTERO REYES',
+      tel      : 'CEL 3114456631',
+      direccion: 'CALL 2 No. 8-40 EL COLEGIO'
     },
     demanda: {
       vencimientoPagare      : '2019-07-05',
@@ -1558,16 +1640,18 @@ exports.carpetas = [
     numero: 103,
     id    : '16831314',
     deudor: {
-      cedula        : 16831314,
-      nombreCompleto: 'EDUARDO ENRIQUE ARANGO CHACON',
-      tel           : 'CEL 3216066052',
-      email         : 'kikearango@hotmail.com',
-      direccion     : 'CARRERA 74 No. 25 G-69'
+      cedula: 16831314,
+      nombreCompleto:
+        'EDUARDO ENRIQUE ARANGO CHACON',
+      tel      : 'CEL 3216066052',
+      email    : 'kikearango@hotmail.com',
+      direccion: 'CARRERA 74 No. 25 G-69'
     },
     demanda: {
-      vencimientoPagare      : '2019-05-13',
-      obligacion             : '1800088189//377813488630162',
-      obligacion2            : '4513071987853655//5303715363121332',
+      vencimientoPagare: '2019-05-13',
+      obligacion       : '1800088189//377813488630162',
+      obligacion2:
+        '4513071987853655//5303715363121332',
       entregaGarantiasAbogado: '2017-06-12',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
@@ -1602,8 +1686,9 @@ exports.carpetas = [
     numero: 105,
     id    : '15319344',
     deudor: {
-      cedula        : 15319344,
-      nombreCompleto: 'ESTELIO DE JESUS  ROLDAN POZO'
+      cedula: 15319344,
+      nombreCompleto:
+        'ESTELIO DE JESUS  ROLDAN POZO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400300720170111300',
@@ -1645,8 +1730,9 @@ exports.carpetas = [
     numero: 107,
     id    : '80112954',
     deudor: {
-      cedula        : 80112954,
-      nombreCompleto: 'HANYELO EFRAIN MARTINEZ TURRIAGO'
+      cedula: 80112954,
+      nombreCompleto:
+        'HANYELO EFRAIN MARTINEZ TURRIAGO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400305720170079000',
@@ -1656,11 +1742,12 @@ exports.carpetas = [
     numero: 108,
     id    : '79558732',
     deudor: {
-      cedula        : 79558732,
-      nombreCompleto: 'MIGUEL ANGEL HUERTAS VALENCIA',
-      tel           : 'F 2723136',
-      email         : 'miguelangelhuertasv@hotmail.com',
-      direccion     : 'TRANVERSAL 15A # 31-09 SUR'
+      cedula: 79558732,
+      nombreCompleto:
+        'MIGUEL ANGEL HUERTAS VALENCIA',
+      tel      : 'F 2723136',
+      email    : 'miguelangelhuertasv@hotmail.com',
+      direccion: 'TRANVERSAL 15A # 31-09 SUR'
     },
     demanda: {
       vencimientoPagare      : '2020-06-07',
@@ -1711,8 +1798,9 @@ exports.carpetas = [
     numero: 111,
     id    : '1020743892',
     deudor: {
-      cedula        : 1020743892,
-      nombreCompleto: 'KAREN VIVIANA CASTAÑO CORONADO'
+      cedula: 1020743892,
+      nombreCompleto:
+        'KAREN VIVIANA CASTAÑO CORONADO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400305420170071200',
@@ -1722,8 +1810,9 @@ exports.carpetas = [
     numero: 112,
     id    : '23993605',
     deudor: {
-      cedula        : 23993605,
-      nombreCompleto: 'MARIA TRINIDAD SOTELO TORRES'
+      cedula: 23993605,
+      nombreCompleto:
+        'MARIA TRINIDAD SOTELO TORRES'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400302020170097400',
@@ -1733,8 +1822,9 @@ exports.carpetas = [
     numero: 113,
     id    : '53178044',
     deudor: {
-      cedula        : 53178044,
-      nombreCompleto: 'SANDRA BIBIANA URREGO MAYORGA'
+      cedula: 53178044,
+      nombreCompleto:
+        'SANDRA BIBIANA URREGO MAYORGA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400303020170181700',
@@ -1755,8 +1845,9 @@ exports.carpetas = [
     numero: 115,
     id    : '52174728',
     deudor: {
-      cedula        : 52174728,
-      nombreCompleto: 'SILVIA MARIA VALENZUELA VELASQUEZ'
+      cedula: 52174728,
+      nombreCompleto:
+        'SILVIA MARIA VALENZUELA VELASQUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400305220170080900',
@@ -1777,11 +1868,13 @@ exports.carpetas = [
     numero: 117,
     id    : '19386444',
     deudor: {
-      cedula        : 19386444,
-      nombreCompleto: 'NICOLAS FERNANDO MONTOYA CORREA',
-      tel           : 'F 2531962',
-      email         : 3176677592,
-      direccion     : 'CALLE 18 # 19 - 75 / CALLE 26 NTE No. 5A - 54 Cali - Valle'
+      cedula: 19386444,
+      nombreCompleto:
+        'NICOLAS FERNANDO MONTOYA CORREA',
+      tel  : 'F 2531962',
+      email: 3176677592,
+      direccion:
+        'CALLE 18 # 19 - 75 / CALLE 26 NTE No. 5A - 54 Cali - Valle'
     },
     demanda: {
       vencimientoPagare      : '2019-01-21',
@@ -1861,8 +1954,9 @@ exports.carpetas = [
     numero: 121,
     id    : '19453362',
     deudor: {
-      cedula        : 19453362,
-      nombreCompleto: 'JAIME ORLANDO LUGO RODRIGUEZ'
+      cedula: 19453362,
+      nombreCompleto:
+        'JAIME ORLANDO LUGO RODRIGUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25430400300120180027300',
@@ -1872,8 +1966,9 @@ exports.carpetas = [
     numero: 122,
     id    : '52543321',
     deudor: {
-      cedula        : 52543321,
-      nombreCompleto: 'PAOLA ANDREA FERNANDEZ RINCON'
+      cedula: 52543321,
+      nombreCompleto:
+        'PAOLA ANDREA FERNANDEZ RINCON'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400304020170119300',
@@ -1883,8 +1978,9 @@ exports.carpetas = [
     numero: 123,
     id    : '79547983',
     deudor: {
-      cedula        : 79547983,
-      nombreCompleto: 'GUSTAVO SANTAMARIA MOSQUERA'
+      cedula: 79547983,
+      nombreCompleto:
+        'GUSTAVO SANTAMARIA MOSQUERA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400306920170075400',
@@ -1905,10 +2001,11 @@ exports.carpetas = [
     numero: 125,
     id    : '74338870',
     deudor: {
-      cedula        : 74338870,
-      nombreCompleto: 'MILCIADES GALINDO CASTEBLANCO',
-      tel           : 'F 4536131',
-      direccion     : 'CARRERA 18 # 12 - 72'
+      cedula: 74338870,
+      nombreCompleto:
+        'MILCIADES GALINDO CASTEBLANCO',
+      tel      : 'F 4536131',
+      direccion: 'CARRERA 18 # 12 - 72'
     },
     demanda: {
       vencimientoPagare      : '2020-11-27',
@@ -1944,8 +2041,9 @@ exports.carpetas = [
     numero: 127,
     id    : '41610065',
     deudor: {
-      cedula        : 41610065,
-      nombreCompleto: 'ZOILA IRENE SUAVITA DE TRILLERAS'
+      cedula: 41610065,
+      nombreCompleto:
+        'ZOILA IRENE SUAVITA DE TRILLERAS'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400308020170073500',
@@ -1955,8 +2053,9 @@ exports.carpetas = [
     numero: 128,
     id    : '52385097',
     deudor: {
-      cedula        : 52385097,
-      nombreCompleto: 'MARIA GLADYS  GONZALEZ SOSA'
+      cedula: 52385097,
+      nombreCompleto:
+        'MARIA GLADYS  GONZALEZ SOSA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400307820170073300',
@@ -1977,8 +2076,9 @@ exports.carpetas = [
     numero: 130,
     id    : '77010352',
     deudor: {
-      cedula        : 77010352,
-      nombreCompleto: 'ARMANDO ENRIQUE ROSADO MESTRE'
+      cedula: 77010352,
+      nombreCompleto:
+        'ARMANDO ENRIQUE ROSADO MESTRE'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400306420170115300',
@@ -1999,8 +2099,9 @@ exports.carpetas = [
     numero: 132,
     id    : '80049317',
     deudor: {
-      cedula        : 80049317,
-      nombreCompleto: 'JOVANI EMILIO RESTREPO RAMIREZ'
+      cedula: 80049317,
+      nombreCompleto:
+        'JOVANI EMILIO RESTREPO RAMIREZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400306820170105100',
@@ -2010,8 +2111,9 @@ exports.carpetas = [
     numero: 133,
     id    : '80820336',
     deudor: {
-      cedula        : 80820336,
-      nombreCompleto: 'CARLOS GIOVANNY RONDON GARCIA'
+      cedula: 80820336,
+      nombreCompleto:
+        'CARLOS GIOVANNY RONDON GARCIA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400301220170095000',
@@ -2021,8 +2123,9 @@ exports.carpetas = [
     numero: 134,
     id    : '80722626',
     deudor: {
-      cedula        : 80722626,
-      nombreCompleto: 'FREDY ALEXANDER BUENO PARADA'
+      cedula: 80722626,
+      nombreCompleto:
+        'FREDY ALEXANDER BUENO PARADA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25430400300120170108300',
@@ -2032,8 +2135,9 @@ exports.carpetas = [
     numero: 135,
     id    : '5654542',
     deudor: {
-      cedula        : 5654542,
-      nombreCompleto: 'RUBER ANDRES VALENZUELA SIERRA'
+      cedula: 5654542,
+      nombreCompleto:
+        'RUBER ANDRES VALENZUELA SIERRA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400300420170063900',
@@ -2098,8 +2202,9 @@ exports.carpetas = [
     numero: 141,
     id    : '79412583',
     deudor: {
-      cedula        : 79412583,
-      nombreCompleto: 'EDGAR DAVID HERNANDEZ RINCON'
+      cedula: 79412583,
+      nombreCompleto:
+        'EDGAR DAVID HERNANDEZ RINCON'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400303920170110000',
@@ -2120,8 +2225,9 @@ exports.carpetas = [
     numero: 143,
     id    : '1023904524',
     deudor: {
-      cedula        : 1023904524,
-      nombreCompleto: 'PAOLA ANDREA RODRIGUEZ MORALES'
+      cedula: 1023904524,
+      nombreCompleto:
+        'PAOLA ANDREA RODRIGUEZ MORALES'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400303420170108900',
@@ -2131,8 +2237,9 @@ exports.carpetas = [
     numero: 144,
     id    : '52581513',
     deudor: {
-      cedula        : 52581513,
-      nombreCompleto: 'MARIA FILOMENA GONZALES SALAS'
+      cedula: 52581513,
+      nombreCompleto:
+        'MARIA FILOMENA GONZALES SALAS'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400302620170087200',
@@ -2142,8 +2249,9 @@ exports.carpetas = [
     numero: 145,
     id    : '79714749',
     deudor: {
-      cedula        : 79714749,
-      nombreCompleto: 'JHON JAMINTON FUENTES CARREÑO'
+      cedula: 79714749,
+      nombreCompleto:
+        'JHON JAMINTON FUENTES CARREÑO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400305520170081700',
@@ -2164,8 +2272,9 @@ exports.carpetas = [
     numero: 147,
     id    : '80080669',
     deudor: {
-      cedula        : 80080669,
-      nombreCompleto: 'MILTON ANDRES LAITON RINCON'
+      cedula: 80080669,
+      nombreCompleto:
+        'MILTON ANDRES LAITON RINCON'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400305920170074700',
@@ -2175,8 +2284,9 @@ exports.carpetas = [
     numero: 148,
     id    : '79505815',
     deudor: {
-      cedula        : 79505815,
-      nombreCompleto: 'NESTOR GERARDO OSORIO MORALES'
+      cedula: 79505815,
+      nombreCompleto:
+        'NESTOR GERARDO OSORIO MORALES'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400300920170081300',
@@ -2186,8 +2296,9 @@ exports.carpetas = [
     numero: 149,
     id    : '23181779',
     deudor: {
-      cedula        : 23181779,
-      nombreCompleto: 'MAGDA TATIANA TORRES GONZALEZ'
+      cedula: 23181779,
+      nombreCompleto:
+        'MAGDA TATIANA TORRES GONZALEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25754400300220170025600',
@@ -2208,8 +2319,9 @@ exports.carpetas = [
     numero: 151,
     id    : '88227428',
     deudor: {
-      cedula        : 88227428,
-      nombreCompleto: 'ANDRES FELIPE HIGUITA CARDONA'
+      cedula: 88227428,
+      nombreCompleto:
+        'ANDRES FELIPE HIGUITA CARDONA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400307320170113500',
@@ -2230,8 +2342,9 @@ exports.carpetas = [
     numero: 153,
     id    : '52230614',
     deudor: {
-      cedula        : 52230614,
-      nombreCompleto: 'MARBELL ROCIO DOMINGUEZ ALVAREZ'
+      cedula: 52230614,
+      nombreCompleto:
+        'MARBELL ROCIO DOMINGUEZ ALVAREZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25754418900220170071400',
@@ -2241,16 +2354,20 @@ exports.carpetas = [
     numero: 154,
     id    : '79840930',
     deudor: {
-      cedula        : 79840930,
-      nombreCompleto: 'GABRIEL EDUARDO MEJIA LADINO',
-      tel           : '7347505 // 3112945552',
-      email         : 'gabriel.eml@hotmail.com',
-      direccion     : 'CARRERA 79 BIS A # 73 - 92 SUR APTO 304 INT 3'
+      cedula: 79840930,
+      nombreCompleto:
+        'GABRIEL EDUARDO MEJIA LADINO',
+      tel  : '7347505 // 3112945552',
+      email: 'gabriel.eml@hotmail.com',
+      direccion:
+        'CARRERA 79 BIS A # 73 - 92 SUR APTO 304 INT 3'
     },
     demanda: {
-      vencimientoPagare      : '21/02/2018 // 26/10/20247',
-      obligacion             : 5670083032,
-      obligacion2            : '377813199287708 // 4513075700372455 // 123470',
+      vencimientoPagare:
+        '21/02/2018 // 26/10/20247',
+      obligacion: 5670083032,
+      obligacion2:
+        '377813199287708 // 4513075700372455 // 123470',
       entregaGarantiasAbogado: '2017-08-23',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
@@ -2281,8 +2398,9 @@ exports.carpetas = [
     numero: 156,
     id    : '52431512',
     deudor: {
-      cedula        : 52431512,
-      nombreCompleto: 'MARTHA PATRICIA MORALES SARMIENTO'
+      cedula: 52431512,
+      nombreCompleto:
+        'MARTHA PATRICIA MORALES SARMIENTO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25473400300120170077700',
@@ -2292,8 +2410,9 @@ exports.carpetas = [
     numero: 157,
     id    : '19146821',
     deudor: {
-      cedula        : 19146821,
-      nombreCompleto: 'LUIS ALBERTO MENDOZA CASTAÑO'
+      cedula: 19146821,
+      nombreCompleto:
+        'LUIS ALBERTO MENDOZA CASTAÑO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400301120170088900',
@@ -2303,8 +2422,9 @@ exports.carpetas = [
     numero: 158,
     id    : '80808819',
     deudor: {
-      cedula        : 80808819,
-      nombreCompleto: 'JULIAN JHOHANY GALLEGO MONTES'
+      cedula: 80808819,
+      nombreCompleto:
+        'JULIAN JHOHANY GALLEGO MONTES'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25899310300120170039300',
@@ -2325,8 +2445,9 @@ exports.carpetas = [
     numero: 160,
     id    : '79387342',
     deudor: {
-      cedula        : 79387342,
-      nombreCompleto: 'JAIRO ALBERTO CARRILLO SALINAS'
+      cedula: 79387342,
+      nombreCompleto:
+        'JAIRO ALBERTO CARRILLO SALINAS'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400307820170076200',
@@ -2336,8 +2457,9 @@ exports.carpetas = [
     numero: 161,
     id    : '79335809',
     deudor: {
-      cedula        : 79335809,
-      nombreCompleto: 'RICARDO ALBERTO BELTRAN HERNANDEZ'
+      cedula: 79335809,
+      nombreCompleto:
+        'RICARDO ALBERTO BELTRAN HERNANDEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25286310300120170095600',
@@ -2407,9 +2529,10 @@ exports.carpetas = [
       direccion     : 'Carrera 40 D No. 1H-28'
     },
     demanda: {
-      vencimientoPagare      : '2019-08-18',
-      obligacion             : 2310089458,
-      obligacion2            : '4513088545588847// AUDIO PRESTAMO',
+      vencimientoPagare: '2019-08-18',
+      obligacion       : 2310089458,
+      obligacion2:
+        '4513088545588847// AUDIO PRESTAMO',
       entregaGarantiasAbogado: '2017-07-19',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
@@ -2444,8 +2567,9 @@ exports.carpetas = [
     numero: 167,
     id    : '79688268',
     deudor: {
-      cedula        : 79688268,
-      nombreCompleto: 'JOSE MAURICIO GONZALEZ CALDERON'
+      cedula: 79688268,
+      nombreCompleto:
+        'JOSE MAURICIO GONZALEZ CALDERON'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001310301020170071000',
@@ -2455,8 +2579,9 @@ exports.carpetas = [
     numero: 168,
     id    : '21046826',
     deudor: {
-      cedula        : 21046826,
-      nombreCompleto: 'MARIA STELLA HERNANDEZ BELTRAN'
+      cedula: 21046826,
+      nombreCompleto:
+        'MARIA STELLA HERNANDEZ BELTRAN'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400301920170087200',
@@ -2470,7 +2595,8 @@ exports.carpetas = [
       nombreCompleto: 'RITA BLANCO DE GOMEZ',
       tel           : 'F 3861894',
       email         : 'dorancy1@hotmail.com',
-      direccion     : 'Carrera 67 No. 65-22 sur Torre 15 Apto 559'
+      direccion:
+        'Carrera 67 No. 65-22 sur Torre 15 Apto 559'
     },
     demanda: {
       vencimientoPagare      : '2020-03-15',
@@ -2496,8 +2622,9 @@ exports.carpetas = [
     numero: 170,
     id    : '55303731',
     deudor: {
-      cedula        : 55303731,
-      nombreCompleto: 'ISABEL CRISTINA GARCIA DURAN'
+      cedula: 55303731,
+      nombreCompleto:
+        'ISABEL CRISTINA GARCIA DURAN'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400301320170111400',
@@ -2507,8 +2634,9 @@ exports.carpetas = [
     numero: 171,
     id    : '1024468871',
     deudor: {
-      cedula        : 1024468871,
-      nombreCompleto: 'MARITZA NATALI RODRIGUEZ URREA'
+      cedula: 1024468871,
+      nombreCompleto:
+        'MARITZA NATALI RODRIGUEZ URREA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400308620170086300',
@@ -2518,8 +2646,9 @@ exports.carpetas = [
     numero: 172,
     id    : '52475256',
     deudor: {
-      cedula        : 52475256,
-      nombreCompleto: 'ADRIANA DEL PILAR ALFONSO BAQUERO'
+      cedula: 52475256,
+      nombreCompleto:
+        'ADRIANA DEL PILAR ALFONSO BAQUERO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400302720170085000',
@@ -2529,8 +2658,9 @@ exports.carpetas = [
     numero: 173,
     id    : '79878252',
     deudor: {
-      cedula        : 79878252,
-      nombreCompleto: 'DIEGO ALEXANDER CAYCEDO OCHOA'
+      cedula: 79878252,
+      nombreCompleto:
+        'DIEGO ALEXANDER CAYCEDO OCHOA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400301520170116100',
@@ -2540,11 +2670,12 @@ exports.carpetas = [
     numero: 174,
     id    : '52189873',
     deudor: {
-      cedula        : 52189873,
-      nombreCompleto: 'DARNELLY HERNANDEZ MARTINEZ',
-      tel           : 'F 4530972                 CEL 3144189224',
-      email         : 'darnelly-74@hotmail.com',
-      direccion     : 'CALLE 74G # 80 - 58 SUR'
+      cedula: 52189873,
+      nombreCompleto:
+        'DARNELLY HERNANDEZ MARTINEZ',
+      tel      : 'F 4530972                 CEL 3144189224',
+      email    : 'darnelly-74@hotmail.com',
+      direccion: 'CALLE 74G # 80 - 58 SUR'
     },
     demanda: {
       vencimientoPagare      : '2026-03-10',
@@ -2621,8 +2752,9 @@ exports.carpetas = [
       cedula        : 12254068,
       nombreCompleto: 'GUILLERMO GONZALEZ TAGUA',
       tel           : 'F 5642974              CEL 3218180993',
-      email         : 'guillermogonzalez_tagua@hotmail.com',
-      direccion     : 'CARRERA 30 No.68 J-08 SUR'
+      email:
+        'guillermogonzalez_tagua@hotmail.com',
+      direccion: 'CARRERA 30 No.68 J-08 SUR'
     },
     demanda: {
       vencimientoPagare      : '2019-11-02',
@@ -2661,8 +2793,9 @@ exports.carpetas = [
     numero: 181,
     id    : '1033783222',
     deudor: {
-      cedula        : 1033783222,
-      nombreCompleto: 'LEONARDO ALIRIO GARCIA GUERRERO'
+      cedula: 1033783222,
+      nombreCompleto:
+        'LEONARDO ALIRIO GARCIA GUERRERO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001418901020170011500',
@@ -2672,8 +2805,9 @@ exports.carpetas = [
     numero: 182,
     id    : '11185630',
     deudor: {
-      cedula        : 11185630,
-      nombreCompleto: 'WILSON ALFONSO JIMENEZ MENDIETA'
+      cedula: 11185630,
+      nombreCompleto:
+        'WILSON ALFONSO JIMENEZ MENDIETA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400300120170100100',
@@ -2683,11 +2817,12 @@ exports.carpetas = [
     numero: 183,
     id    : '11185630',
     deudor: {
-      cedula        : 11185630,
-      nombreCompleto: 'WILSON ALFONSO JIMENEZ MENDIETA',
-      tel           : 'F 5714329',
-      email         : 'grupocomerciallasabana@hotmail.com',
-      direccion     : 'CARRERA 81C # 2B - 80 PISO 2'
+      cedula: 11185630,
+      nombreCompleto:
+        'WILSON ALFONSO JIMENEZ MENDIETA',
+      tel      : 'F 5714329',
+      email    : 'grupocomerciallasabana@hotmail.com',
+      direccion: 'CARRERA 81C # 2B - 80 PISO 2'
     },
     demanda: {
       vencimientoPagare      : '2019-11-03',
@@ -2733,8 +2868,9 @@ exports.carpetas = [
           tipo: '25 Civil Municipal'
         }
       },
-      radicado     : '2017 - 00807',
-      etapaProcesal: 'DESIGNACIÓN CURADOR AD LITEM'
+      radicado: '2017 - 00807',
+      etapaProcesal:
+        'DESIGNACIÓN CURADOR AD LITEM'
     },
     capitalAdeudado: 22277206,
     tipoProceso    : 'SINGULAR',
@@ -2745,8 +2881,9 @@ exports.carpetas = [
     numero: 185,
     id    : '10294828',
     deudor: {
-      cedula        : 10294828,
-      nombreCompleto: 'WILLIAM GIOVANNI DORADO FERNANDEZ'
+      cedula: 10294828,
+      nombreCompleto:
+        'WILLIAM GIOVANNI DORADO FERNANDEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25754400300320170028300',
@@ -2756,10 +2893,12 @@ exports.carpetas = [
     numero: 186,
     id    : '24134505',
     deudor: {
-      cedula        : 24134505,
-      nombreCompleto: 'CELY MARGOTH ROJAS VELANDIA',
-      tel           : 'F 5267343',
-      direccion     : 'CALLE 29 A # 2 - 76 APTO 304 CHIA'
+      cedula: 24134505,
+      nombreCompleto:
+        'CELY MARGOTH ROJAS VELANDIA',
+      tel: 'F 5267343',
+      direccion:
+        'CALLE 29 A # 2 - 76 APTO 304 CHIA'
     },
     demanda: {
       vencimientoPagare      : '2021-01-29',
@@ -2795,8 +2934,9 @@ exports.carpetas = [
     numero: 188,
     id    : '1019029250',
     deudor: {
-      cedula        : 1019029250,
-      nombreCompleto: 'DIEGO ARMANDO AREVALO VELANDIA'
+      cedula: 1019029250,
+      nombreCompleto:
+        'DIEGO ARMANDO AREVALO VELANDIA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400306720170126900',
@@ -2806,8 +2946,9 @@ exports.carpetas = [
     numero: 189,
     id    : '4547635',
     deudor: {
-      cedula        : 4547635,
-      nombreCompleto: 'WILDER DE JESUS ROMAN GRISALES'
+      cedula: 4547635,
+      nombreCompleto:
+        'WILDER DE JESUS ROMAN GRISALES'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25817418900120170049400',
@@ -2817,8 +2958,9 @@ exports.carpetas = [
     numero: 190,
     id    : '79909315',
     deudor: {
-      cedula        : 79909315,
-      nombreCompleto: 'VICTOR EDUARDO  MORA ESPINOSA'
+      cedula: 79909315,
+      nombreCompleto:
+        'VICTOR EDUARDO  MORA ESPINOSA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25286400300120170078100',
@@ -2828,11 +2970,12 @@ exports.carpetas = [
     numero: 191,
     id    : '80231798',
     deudor: {
-      cedula        : 80231798,
-      nombreCompleto: 'JOHN ALEXANDER VALENCIA MARQUEZ',
-      tel           : 'F 2376454  2371468                CEL 3004525014',
-      email         : 'jhon.valencia@jvtel.com.co',
-      direccion     : 'CARRERA 32 B # 2 - 64'
+      cedula: 80231798,
+      nombreCompleto:
+        'JOHN ALEXANDER VALENCIA MARQUEZ',
+      tel      : 'F 2376454  2371468                CEL 3004525014',
+      email    : 'jhon.valencia@jvtel.com.co',
+      direccion: 'CARRERA 32 B # 2 - 64'
     },
     demanda: {
       vencimientoPagare      : '2020-11-30',
@@ -2860,8 +3003,9 @@ exports.carpetas = [
     numero: 192,
     id    : '53053612',
     deudor: {
-      cedula        : 53053612,
-      nombreCompleto: 'DIANA PATRICIA SANCHEZ SALCEDO'
+      cedula: 53053612,
+      nombreCompleto:
+        'DIANA PATRICIA SANCHEZ SALCEDO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '1100140030732017015300',
@@ -2871,11 +3015,12 @@ exports.carpetas = [
     numero: 193,
     id    : '52465691',
     deudor: {
-      cedula        : 52465691,
-      nombreCompleto: 'CARMEN ELIZABETH QUESADA MARTINEZ',
-      tel           : 'F 7829236              CEL 3204792977',
-      email         : 'equesada01@hotmail.com',
-      direccion     : 'CARRERA 80 # 70A - 09'
+      cedula: 52465691,
+      nombreCompleto:
+        'CARMEN ELIZABETH QUESADA MARTINEZ',
+      tel      : 'F 7829236              CEL 3204792977',
+      email    : 'equesada01@hotmail.com',
+      direccion: 'CARRERA 80 # 70A - 09'
     },
     demanda: {
       vencimientoPagare      : '2020-08-09',
@@ -2947,8 +3092,9 @@ exports.carpetas = [
     numero: 198,
     id    : '1012318156',
     deudor: {
-      cedula        : 1012318156,
-      nombreCompleto: 'HECTOR MANUEL RAMIREZ PUENTES'
+      cedula: 1012318156,
+      nombreCompleto:
+        'HECTOR MANUEL RAMIREZ PUENTES'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400304020170132900',
@@ -2958,11 +3104,13 @@ exports.carpetas = [
     numero: 199,
     id    : '1106893308',
     deudor: {
-      cedula        : 1106893308,
-      nombreCompleto: 'MARTHA LILIANA RAMIREZ COLORADO',
-      tel           : 'CEL 3108612781        CEL 3502772711',
-      email         : 'liliaramirez17@gmail.com',
-      direccion     : 'VEREDA BOQUERON , FINCA LA MILAGROSA, MUNICIPIO FUSA // CALLE 3 # 37 - 21 BARRIO SICAMORO, MELGAR'
+      cedula: 1106893308,
+      nombreCompleto:
+        'MARTHA LILIANA RAMIREZ COLORADO',
+      tel  : 'CEL 3108612781        CEL 3502772711',
+      email: 'liliaramirez17@gmail.com',
+      direccion:
+        'VEREDA BOQUERON , FINCA LA MILAGROSA, MUNICIPIO FUSA // CALLE 3 # 37 - 21 BARRIO SICAMORO, MELGAR'
     },
     demanda: {
       vencimientoPagare      : '2020-08-16',
@@ -2998,14 +3146,17 @@ exports.carpetas = [
     numero: 201,
     id    : '51733931',
     deudor: {
-      cedula        : 51733931,
-      nombreCompleto: 'PIEDAD MARITZA OLGA ROCIO PRIETO VARGAS',
-      tel           : 'F 6256456              CEL 3108711046',
-      email         : 'sebantialbeltransprieto@hotmail.com',
-      direccion     : 'CALLE 127D # 21 - 80 APTO 105'
+      cedula: 51733931,
+      nombreCompleto:
+        'PIEDAD MARITZA OLGA ROCIO PRIETO VARGAS',
+      tel: 'F 6256456              CEL 3108711046',
+      email:
+        'sebantialbeltransprieto@hotmail.com',
+      direccion: 'CALLE 127D # 21 - 80 APTO 105'
     },
     demanda: {
-      vencimientoPagare      : '16/11/2019 // 6/03/2020',
+      vencimientoPagare:
+        '16/11/2019 // 6/03/2020',
       obligacion             : 377816483778266,
       obligacion2            : 4513080485378479,
       entregaGarantiasAbogado: '2017-08-23',
@@ -3027,8 +3178,9 @@ exports.carpetas = [
     numero: 202,
     id    : '52488943',
     deudor: {
-      cedula        : 52488943,
-      nombreCompleto: 'SONIA MIREYA PANTOJA SANDOVAL'
+      cedula: 52488943,
+      nombreCompleto:
+        'SONIA MIREYA PANTOJA SANDOVAL'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400308520170128700',
@@ -3078,10 +3230,12 @@ exports.carpetas = [
     numero: 205,
     id    : '51856244',
     deudor: {
-      cedula        : 51856244,
-      nombreCompleto: 'NELIDA DEL CARMEN RIVERA MESA',
-      tel           : 'F 7616370               CEL 3143313269',
-      direccion     : 'CARRERA 2A BIS A ESTE # 89A  SUR'
+      cedula: 51856244,
+      nombreCompleto:
+        'NELIDA DEL CARMEN RIVERA MESA',
+      tel: 'F 7616370               CEL 3143313269',
+      direccion:
+        'CARRERA 2A BIS A ESTE # 89A  SUR'
     },
     demanda: {
       vencimientoPagare      : '2021-09-09',
@@ -3097,8 +3251,9 @@ exports.carpetas = [
           tipo: '15 Civil Municipal de Ejecucion'
         }
       },
-      radicado     : '2017 - 00971',
-      etapaProcesal: 'EJECUCIÓN SOLICITAR LIQUIDACIÓN A REINTEGRA'
+      radicado: '2017 - 00971',
+      etapaProcesal:
+        'EJECUCIÓN SOLICITAR LIQUIDACIÓN A REINTEGRA'
     },
     capitalAdeudado: 14068639,
     tipoProceso    : 'SINGULAR',
@@ -3120,8 +3275,9 @@ exports.carpetas = [
     numero: 207,
     id    : '51993007',
     deudor: {
-      cedula        : 51993007,
-      nombreCompleto: 'SANDRA BIBIANA RUGE RODRIGUEZ'
+      cedula: 51993007,
+      nombreCompleto:
+        'SANDRA BIBIANA RUGE RODRIGUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400302220170102400',
@@ -3166,9 +3322,10 @@ exports.carpetas = [
       direccion     : 'CARRERA 68M # 37D - 47 SUR'
     },
     demanda: {
-      vencimientoPagare      : '2020-08-31',
-      obligacion             : 2170085697,
-      obligacion2            : '377813567054276 // 451377194627824 // 5303710806169667 // 5306726083237084 // AUDIOPRESTAMO',
+      vencimientoPagare: '2020-08-31',
+      obligacion       : 2170085697,
+      obligacion2:
+        '377813567054276 // 451377194627824 // 5303710806169667 // 5306726083237084 // AUDIOPRESTAMO',
       entregaGarantiasAbogado: '2017-08-22',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
@@ -3192,15 +3349,17 @@ exports.carpetas = [
     numero: 210,
     id    : '343334',
     deudor: {
-      cedula        : 343334,
-      nombreCompleto: 'JOSE ANTONIO CASTILLO CORTES',
-      tel           : 'F 4658342                 CEL 3015004499',
-      direccion     : 'CARRERA 50 # 113 - 09'
+      cedula: 343334,
+      nombreCompleto:
+        'JOSE ANTONIO CASTILLO CORTES',
+      tel      : 'F 4658342                 CEL 3015004499',
+      direccion: 'CARRERA 50 # 113 - 09'
     },
     demanda: {
-      vencimientoPagare      : '5/01/2020  5/01/2020',
-      obligacion             : 377813597718262,
-      obligacion2            : '4513070908078111 // 5303714709873201',
+      vencimientoPagare: '5/01/2020  5/01/2020',
+      obligacion       : 377813597718262,
+      obligacion2:
+        '4513070908078111 // 5303714709873201',
       entregaGarantiasAbogado: '22/082017',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
@@ -3243,8 +3402,9 @@ exports.carpetas = [
     numero: 213,
     id    : '52325613',
     deudor: {
-      cedula        : 52325613,
-      nombreCompleto: 'MYRIAM CONSUELO RIOS FONSECA'
+      cedula: 52325613,
+      nombreCompleto:
+        'MYRIAM CONSUELO RIOS FONSECA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '110014003088220170148800',
@@ -3254,8 +3414,9 @@ exports.carpetas = [
     numero: 214,
     id    : '52702559',
     deudor: {
-      cedula        : 52702559,
-      nombreCompleto: 'YENNY PATRICIA RUBIO MAHECHA'
+      cedula: 52702559,
+      nombreCompleto:
+        'YENNY PATRICIA RUBIO MAHECHA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '257544189002220170086700',
@@ -3276,8 +3437,9 @@ exports.carpetas = [
     numero: 216,
     id    : '51833717',
     deudor: {
-      cedula        : 51833717,
-      nombreCompleto: 'BLANCA JANETH PINZON SUAREZ'
+      cedula: 51833717,
+      nombreCompleto:
+        'BLANCA JANETH PINZON SUAREZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400300520170125500',
@@ -3287,11 +3449,12 @@ exports.carpetas = [
     numero: 217,
     id    : '52328942',
     deudor: {
-      cedula        : 52328942,
-      nombreCompleto: 'DIANA VANESSA NARANJO HERNANDEZ',
-      tel           : '2256952 // 3108096132',
-      email         : 'casas_castillo@hotmail.com',
-      direccion     : 'CALLE 58 # 45 - 86'
+      cedula: 52328942,
+      nombreCompleto:
+        'DIANA VANESSA NARANJO HERNANDEZ',
+      tel      : '2256952 // 3108096132',
+      email    : 'casas_castillo@hotmail.com',
+      direccion: 'CALLE 58 # 45 - 86'
     },
     demanda: {
       obligacion             : 182540,
@@ -3340,8 +3503,9 @@ exports.carpetas = [
     numero: 220,
     id    : '51726361',
     deudor: {
-      cedula        : 51726361,
-      nombreCompleto: 'MARIA EUGENIA SALCEDO PINEDA'
+      cedula: 51726361,
+      nombreCompleto:
+        'MARIA EUGENIA SALCEDO PINEDA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400304020170150900',
@@ -3373,16 +3537,19 @@ exports.carpetas = [
     numero: 223,
     id    : '17174720',
     deudor: {
-      cedula        : 17174720,
-      nombreCompleto: 'GERARDO ANTONIO MONCADA VEGA',
-      tel           : 'F 3349755                 CEL 3153330306',
-      email         : 'gerardomoncada70@hotmail.com',
-      direccion     : 'CALLE 159 # 15 - 45'
+      cedula: 17174720,
+      nombreCompleto:
+        'GERARDO ANTONIO MONCADA VEGA',
+      tel      : 'F 3349755                 CEL 3153330306',
+      email    : 'gerardomoncada70@hotmail.com',
+      direccion: 'CALLE 159 # 15 - 45'
     },
     demanda: {
-      vencimientoPagare      : '18/04/2020  5/05/2020  15/12/2019',
-      obligacion             : 11903330957,
-      obligacion2            : '377816208286710 // 4513083951499464 // 5176407001878614 // 5303720129694960 // AUDIOPRESTAMO',
+      vencimientoPagare:
+        '18/04/2020  5/05/2020  15/12/2019',
+      obligacion: 11903330957,
+      obligacion2:
+        '377816208286710 // 4513083951499464 // 5176407001878614 // 5303720129694960 // AUDIOPRESTAMO',
       entregaGarantiasAbogado: '2017-08-23',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
@@ -3417,8 +3584,9 @@ exports.carpetas = [
     numero: 225,
     id    : '79815721',
     deudor: {
-      cedula        : 79815721,
-      nombreCompleto: 'LUIS OCTAVIO ROJAS VALBUENA'
+      cedula: 79815721,
+      nombreCompleto:
+        'LUIS OCTAVIO ROJAS VALBUENA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400301320170116300',
@@ -3428,8 +3596,9 @@ exports.carpetas = [
     numero: 226,
     id    : '80513085',
     deudor: {
-      cedula        : 80513085,
-      nombreCompleto: 'NESTOR GERMAN URREGO AGUILERA'
+      cedula: 80513085,
+      nombreCompleto:
+        'NESTOR GERMAN URREGO AGUILERA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400305520170094300',
@@ -3439,8 +3608,9 @@ exports.carpetas = [
     numero: 227,
     id    : '23550435',
     deudor: {
-      cedula        : 23550435,
-      nombreCompleto: 'ROSA ELENA MARTINEZ DE DUITAMA'
+      cedula: 23550435,
+      nombreCompleto:
+        'ROSA ELENA MARTINEZ DE DUITAMA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400301520170124900',
@@ -3461,8 +3631,9 @@ exports.carpetas = [
     numero: 229,
     id    : '52818428',
     deudor: {
-      cedula        : 52818428,
-      nombreCompleto: 'JENNIFER ALEJANDRA MOGOLLÓN BERNAL'
+      cedula: 52818428,
+      nombreCompleto:
+        'JENNIFER ALEJANDRA MOGOLLÓN BERNAL'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400306820170124000',
@@ -3472,8 +3643,9 @@ exports.carpetas = [
     numero: 230,
     id    : '1014185483',
     deudor: {
-      cedula        : 1014185483,
-      nombreCompleto: 'FREDY ALEXANDER MUÑOZ CASTAÑEDA'
+      cedula: 1014185483,
+      nombreCompleto:
+        'FREDY ALEXANDER MUÑOZ CASTAÑEDA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400305220170090600',
@@ -3483,8 +3655,9 @@ exports.carpetas = [
     numero: 231,
     id    : '1022943195',
     deudor: {
-      cedula        : 1022943195,
-      nombreCompleto: 'DIANA MARCELA IPUZ SUAREZ Y OTRO'
+      cedula: 1022943195,
+      nombreCompleto:
+        'DIANA MARCELA IPUZ SUAREZ Y OTRO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001418900920170008900',
@@ -3494,8 +3667,9 @@ exports.carpetas = [
     numero: 232,
     id    : '1023868827',
     deudor: {
-      cedula        : 1023868827,
-      nombreCompleto: 'SANDRA MILENA CUBILLOS LINARES'
+      cedula: 1023868827,
+      nombreCompleto:
+        'SANDRA MILENA CUBILLOS LINARES'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400304820170087900',
@@ -3509,7 +3683,8 @@ exports.carpetas = [
       nombreCompleto: 'JOSE LUIS TORRES TAMAYO',
       tel           : 'F 3138216              CEL 3138216786',
       email         : 'jotorres@perosnalsoft.com.co',
-      direccion     : 'CALLE 145 # 46 - 13 APTO 202 INT 5'
+      direccion:
+        'CALLE 145 # 46 - 13 APTO 202 INT 5'
     },
     demanda: {
       vencimientoPagare      : '2020-08-24',
@@ -3538,8 +3713,9 @@ exports.carpetas = [
     numero: 234,
     id    : '16940930',
     deudor: {
-      cedula        : 16940930,
-      nombreCompleto: 'MAURICIO ALEXANDER AGUIRRE BERMUDEZ'
+      cedula: 16940930,
+      nombreCompleto:
+        'MAURICIO ALEXANDER AGUIRRE BERMUDEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400304320170120500',
@@ -3553,7 +3729,8 @@ exports.carpetas = [
       nombreCompleto: 'FANOR DIAZ AGUDELO',
       tel           : 'F 8060271                CEL 3212406193',
       email         : 'fanor.diaz@gmail.com',
-      direccion     : 'DIAGONAL 56 BIS 84 A 10 SUR TR 1'
+      direccion:
+        'DIAGONAL 56 BIS 84 A 10 SUR TR 1'
     },
     demanda: {
       vencimientoPagare      : '2017-02-14',
@@ -3594,8 +3771,9 @@ exports.carpetas = [
     numero: 237,
     id    : '80237050',
     deudor: {
-      cedula        : 80237050,
-      nombreCompleto: 'NUMAEL AUGUSTO GONZALEZ SALGUERO'
+      cedula: 80237050,
+      nombreCompleto:
+        'NUMAEL AUGUSTO GONZALEZ SALGUERO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25799418900120170024700',
@@ -3616,10 +3794,12 @@ exports.carpetas = [
     numero: 239,
     id    : '53131901',
     deudor: {
-      cedula        : 53131901,
-      nombreCompleto: 'NIDIA JACQUELINE RIVEROS ARAQUE',
-      tel           : 7839904,
-      direccion     : 'CARRERA 88C  63 SUR 67 TORRE 5 APARTAMENTO 1'
+      cedula: 53131901,
+      nombreCompleto:
+        'NIDIA JACQUELINE RIVEROS ARAQUE',
+      tel: 7839904,
+      direccion:
+        'CARRERA 88C  63 SUR 67 TORRE 5 APARTAMENTO 1'
     },
     demanda: {
       obligacion             : 20990135265,
@@ -3675,10 +3855,11 @@ exports.carpetas = [
     numero: 243,
     id    : '300388244',
     deudor: {
-      cedula        : 300388244,
-      nombreCompleto: 'MARIA OLGA CASTAÑEDA PERUGACHI',
-      tel           : 'F 1111111              CEL 32222239883 3143072762',
-      direccion     : 'CALLE 15 # 15 - 45'
+      cedula: 300388244,
+      nombreCompleto:
+        'MARIA OLGA CASTAÑEDA PERUGACHI',
+      tel      : 'F 1111111              CEL 32222239883 3143072762',
+      direccion: 'CALLE 15 # 15 - 45'
     },
     demanda: {
       vencimientoPagare      : '2020-08-11',
@@ -3691,8 +3872,9 @@ exports.carpetas = [
           tipo: '69 Civil Municipal // 25 Civil Municipal'
         }
       },
-      radicado     : '2017 - 00845',
-      etapaProcesal: 'EN EJECUCIÓN LIQUIDACIÓN CREDITO SOLICITADA A COVINOC'
+      radicado: '2017 - 00845',
+      etapaProcesal:
+        'EN EJECUCIÓN LIQUIDACIÓN CREDITO SOLICITADA A COVINOC'
     },
     capitalAdeudado: 46109381,
     tipoProceso    : 'PRENDARIO',
@@ -3703,8 +3885,9 @@ exports.carpetas = [
     numero: 244,
     id    : '80144827',
     deudor: {
-      cedula        : 80144827,
-      nombreCompleto: 'RICARDO ANDRES NOCUA GUATAMA'
+      cedula: 80144827,
+      nombreCompleto:
+        'RICARDO ANDRES NOCUA GUATAMA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400302620170100600',
@@ -3758,16 +3941,19 @@ exports.carpetas = [
     numero: 249,
     id    : '19069228',
     deudor: {
-      cedula        : 19069228,
-      nombreCompleto: 'JORGE ALBERTO MARTINEZ BENDEK',
-      tel           : 'F 6701643              CEL 3134749213',
-      email         : 'jorgemar24@gmail.com',
-      direccion     : 'CARRERA 15 # 188 - 39'
+      cedula: 19069228,
+      nombreCompleto:
+        'JORGE ALBERTO MARTINEZ BENDEK',
+      tel      : 'F 6701643              CEL 3134749213',
+      email    : 'jorgemar24@gmail.com',
+      direccion: 'CARRERA 15 # 188 - 39'
     },
     demanda: {
-      vencimientoPagare      : '18/05/2020  5/05/2020  15/05/2019',
-      obligacion             : 377813517259835,
-      obligacion2            : '377814405234039 // 45130727777594186 // 5491572487025564 // AUDIOPRESTAMO',
+      vencimientoPagare:
+        '18/05/2020  5/05/2020  15/05/2019',
+      obligacion: 377813517259835,
+      obligacion2:
+        '377814405234039 // 45130727777594186 // 5491572487025564 // AUDIOPRESTAMO',
       entregaGarantiasAbogado: '2017-08-23',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
@@ -3791,8 +3977,9 @@ exports.carpetas = [
     numero: 250,
     id    : '72165243',
     deudor: {
-      cedula        : 72165243,
-      nombreCompleto: 'FRANCISCO CONTRERAS RAMIREZ'
+      cedula: 72165243,
+      nombreCompleto:
+        'FRANCISCO CONTRERAS RAMIREZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25758418900120170059900',
@@ -3802,8 +3989,9 @@ exports.carpetas = [
     numero: 251,
     id    : '7226283',
     deudor: {
-      cedula        : 7226283,
-      nombreCompleto: 'CARLOS JAVIER BECERRA BENAVIDES'
+      cedula: 7226283,
+      nombreCompleto:
+        'CARLOS JAVIER BECERRA BENAVIDES'
     },
     capitalAdeudado: 0,
     grupo          : 'Terminados'
@@ -3823,8 +4011,9 @@ exports.carpetas = [
     numero: 253,
     id    : '1013604409',
     deudor: {
-      cedula        : 1013604409,
-      nombreCompleto: 'JORGE EDUARDO ACOSTA CORREDOR'
+      cedula: 1013604409,
+      nombreCompleto:
+        'JORGE EDUARDO ACOSTA CORREDOR'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400302520170099800',
@@ -3838,7 +4027,8 @@ exports.carpetas = [
       nombreCompleto: 'YOHAIRA PRADO VALOYES',
       tel           : 'F 8615372                  CEL 3103291690',
       email         : 'yohairapadro@gmail.com',
-      direccion     : 'CARRERA 9A 14F - 28C - UNIDAD 22 CHIA'
+      direccion:
+        'CARRERA 9A 14F - 28C - UNIDAD 22 CHIA'
     },
     demanda: {
       vencimientoPagare      : '2018-05-09',
@@ -3863,8 +4053,9 @@ exports.carpetas = [
     numero: 255,
     id    : '23946115',
     deudor: {
-      cedula        : 23946115,
-      nombreCompleto: 'YEIMI ZORAIDA PEREZ ACEVEDO'
+      cedula: 23946115,
+      nombreCompleto:
+        'YEIMI ZORAIDA PEREZ ACEVEDO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400301220170102100',
@@ -3900,12 +4091,14 @@ exports.carpetas = [
       nombreCompleto: 'SOL JUDITH BUITRAGO DUQUE',
       tel           : 'F 3002001',
       email         : 'dirfinanciera.sol@gmail.com',
-      direccion     : 'CARRERA 121 # 128B - 52 BLOQUE 8 CASA 34'
+      direccion:
+        'CARRERA 121 # 128B - 52 BLOQUE 8 CASA 34'
     },
     demanda: {
-      vencimientoPagare      : '2018-01-26',
-      obligacion             : 5470083833,
-      obligacion2            : '377813735559305 // 5303724061518310',
+      vencimientoPagare: '2018-01-26',
+      obligacion       : 5470083833,
+      obligacion2:
+        '377813735559305 // 5303724061518310',
       entregaGarantiasAbogado: '2017-09-01',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
@@ -3948,8 +4141,9 @@ exports.carpetas = [
     numero: 261,
     id    : '79901800',
     deudor: {
-      cedula        : 79901800,
-      nombreCompleto: 'DANIEL ALBERTO IBAÑEZ DELGADO'
+      cedula: 79901800,
+      nombreCompleto:
+        'DANIEL ALBERTO IBAÑEZ DELGADO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400308220170111600',
@@ -3959,8 +4153,9 @@ exports.carpetas = [
     numero: 262,
     id    : '1069737167',
     deudor: {
-      cedula        : 1069737167,
-      nombreCompleto: 'RAFAEL ANDRES MORENO ZAMORA'
+      cedula: 1069737167,
+      nombreCompleto:
+        'RAFAEL ANDRES MORENO ZAMORA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '2590400300220170063100',
@@ -3996,12 +4191,14 @@ exports.carpetas = [
       nombreCompleto: 'JULIO RENE SANCHEZ ARGOTE',
       tel           : 'F 3018759                 CEL 3118027001',
       email         : 'jsanchezargote@gmail.com',
-      direccion     : 'CARRERA 90 C No 6A - 31   - CASA 148'
+      direccion:
+        'CARRERA 90 C No 6A - 31   - CASA 148'
     },
     demanda: {
-      vencimientoPagare      : '2020-05-04',
-      obligacion             : 186718,
-      obligacion2            : '3778153354915637 / 4513079095670572',
+      vencimientoPagare: '2020-05-04',
+      obligacion       : 186718,
+      obligacion2:
+        '3778153354915637 / 4513079095670572',
       entregaGarantiasAbogado: '2017-09-21',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
@@ -4021,8 +4218,9 @@ exports.carpetas = [
     numero: 266,
     id    : '71192974',
     deudor: {
-      cedula        : 71192974,
-      nombreCompleto: 'JULIAN DE JESUS ISAZA AGUIRRE'
+      cedula: 71192974,
+      nombreCompleto:
+        'JULIAN DE JESUS ISAZA AGUIRRE'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400302020170121900',
@@ -4032,8 +4230,9 @@ exports.carpetas = [
     numero: 267,
     id    : '52102735',
     deudor: {
-      cedula        : 52102735,
-      nombreCompleto: 'ANA FABIOLA CARDOZO HERREÑO'
+      cedula: 52102735,
+      nombreCompleto:
+        'ANA FABIOLA CARDOZO HERREÑO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400306220170122900',
@@ -4065,8 +4264,9 @@ exports.carpetas = [
     numero: 270,
     id    : '1018423770',
     deudor: {
-      cedula        : 1018423770,
-      nombreCompleto: 'WILMER ANDRES QUIÑONES HERNANDEZ'
+      cedula: 1018423770,
+      nombreCompleto:
+        'WILMER ANDRES QUIÑONES HERNANDEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001408903420170113900',
@@ -4076,8 +4276,9 @@ exports.carpetas = [
     numero: 271,
     id    : '52850427',
     deudor: {
-      cedula        : 52850427,
-      nombreCompleto: 'AURA GEOVANA RODRIGUEZ MORA'
+      cedula: 52850427,
+      nombreCompleto:
+        'AURA GEOVANA RODRIGUEZ MORA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400405420170099000',
@@ -4087,8 +4288,9 @@ exports.carpetas = [
     numero: 272,
     id    : '80406979',
     deudor: {
-      cedula        : 80406979,
-      nombreCompleto: 'LUIS FERNANDO GUTIERREZ RODRIGUEZ'
+      cedula: 80406979,
+      nombreCompleto:
+        'LUIS FERNANDO GUTIERREZ RODRIGUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400300620170076300',
@@ -4098,11 +4300,12 @@ exports.carpetas = [
     numero: 273,
     id    : '1024479389',
     deudor: {
-      cedula        : 1024479389,
-      nombreCompleto: 'SONIA MARCELA MOLINA QUIMBAYO',
-      tel           : 'F 7650684',
-      email         : 'sonymarce20@hotmail.com',
-      direccion     : 'CALLE 67 No 17 C-63 SUR'
+      cedula: 1024479389,
+      nombreCompleto:
+        'SONIA MARCELA MOLINA QUIMBAYO',
+      tel      : 'F 7650684',
+      email    : 'sonymarce20@hotmail.com',
+      direccion: 'CALLE 67 No 17 C-63 SUR'
     },
     demanda: {
       vencimientoPagare      : '5/10/2022',
@@ -4126,8 +4329,9 @@ exports.carpetas = [
     numero: 274,
     id    : '80312466',
     deudor: {
-      cedula        : 80312466,
-      nombreCompleto: 'ANDRES GUILLERMO ACEVEDO BORRAEZ'
+      cedula: 80312466,
+      nombreCompleto:
+        'ANDRES GUILLERMO ACEVEDO BORRAEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400300720170148400',
@@ -4204,10 +4408,12 @@ exports.carpetas = [
     numero: 279,
     id    : '1069745324',
     deudor: {
-      cedula        : 1069745324,
-      nombreCompleto: 'ANDRES FELIPE GUTIERREZ TRUJILLO',
-      tel           : 'CEL 3115964170',
-      direccion     : 'CALLE 14A SUR # 11M - 18 CASA 22'
+      cedula: 1069745324,
+      nombreCompleto:
+        'ANDRES FELIPE GUTIERREZ TRUJILLO',
+      tel: 'CEL 3115964170',
+      direccion:
+        'CALLE 14A SUR # 11M - 18 CASA 22'
     },
     demanda: {
       vencimientoPagare      : '2020-12-07',
@@ -4235,11 +4441,12 @@ exports.carpetas = [
     numero: 280,
     id    : '19447966',
     deudor: {
-      cedula        : 19447966,
-      nombreCompleto: 'JOSE HERNANDO SANCHEZ VALBUENA',
-      tel           : 'F 4789274              CEL 3125826241',
-      email         : 'jhernandosanchez@yahoo.es',
-      direccion     : 'CR 12B 24-37 SUR'
+      cedula: 19447966,
+      nombreCompleto:
+        'JOSE HERNANDO SANCHEZ VALBUENA',
+      tel      : 'F 4789274              CEL 3125826241',
+      email    : 'jhernandosanchez@yahoo.es',
+      direccion: 'CR 12B 24-37 SUR'
     },
     demanda: {
       vencimientoPagare      : '15/012021',
@@ -4278,11 +4485,12 @@ exports.carpetas = [
     numero: 282,
     id    : '19255260',
     deudor: {
-      cedula        : 19255260,
-      nombreCompleto: 'MATIAS HUMBERTO AVILA AGUILAR',
-      tel           : 'F 4170527              CEL 3125024008',
-      email         : 'maifren_13@yahoo.es',
-      direccion     : 'CALLE 2 C No 62 - 20'
+      cedula: 19255260,
+      nombreCompleto:
+        'MATIAS HUMBERTO AVILA AGUILAR',
+      tel      : 'F 4170527              CEL 3125024008',
+      email    : 'maifren_13@yahoo.es',
+      direccion: 'CALLE 2 C No 62 - 20'
     },
     demanda: {
       vencimientoPagare      : '5/05/2024',
@@ -4312,8 +4520,9 @@ exports.carpetas = [
     numero: 283,
     id    : '1010188573',
     deudor: {
-      cedula        : 1010188573,
-      nombreCompleto: 'JANSON DAVID CARREÑO QUIJANO'
+      cedula: 1010188573,
+      nombreCompleto:
+        'JANSON DAVID CARREÑO QUIJANO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400304120170114000',
@@ -4374,11 +4583,12 @@ exports.carpetas = [
     numero: 287,
     id    : '79861754',
     deudor: {
-      cedula        : 79861754,
-      nombreCompleto: 'CARLOS GERMAN RUGE CASTAÑEDA',
-      tel           : 'F 6087374              CEL 3104865508',
-      email         : 'carlosgrugec@hotmail.com',
-      direccion     : 'CALLE 72 A No  74 A - 77'
+      cedula: 79861754,
+      nombreCompleto:
+        'CARLOS GERMAN RUGE CASTAÑEDA',
+      tel      : 'F 6087374              CEL 3104865508',
+      email    : 'carlosgrugec@hotmail.com',
+      direccion: 'CALLE 72 A No  74 A - 77'
     },
     demanda: {
       vencimientoPagare      : '2020-09-29',
@@ -4413,11 +4623,12 @@ exports.carpetas = [
     numero: 289,
     id    : '12229243',
     deudor: {
-      cedula        : 12229243,
-      nombreCompleto: 'JOSE AHINSONJOBER TORO VARGAS',
-      tel           : 'F 4651401',
-      email         : 'serdiajo@gmail.com',
-      direccion     : 'AVENIDA 1 DE MAYO No 29-06'
+      cedula: 12229243,
+      nombreCompleto:
+        'JOSE AHINSONJOBER TORO VARGAS',
+      tel      : 'F 4651401',
+      email    : 'serdiajo@gmail.com',
+      direccion: 'AVENIDA 1 DE MAYO No 29-06'
     },
     demanda: {
       vencimientoPagare      : '2020-03-22',
@@ -4456,8 +4667,9 @@ exports.carpetas = [
     numero: 291,
     id    : '35427969',
     deudor: {
-      cedula        : 35427969,
-      nombreCompleto: 'YEIMMY CAROLINA FINO BALLEN'
+      cedula: 35427969,
+      nombreCompleto:
+        'YEIMMY CAROLINA FINO BALLEN'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400303920170133000',
@@ -4467,11 +4679,13 @@ exports.carpetas = [
     numero: 292,
     id    : '80205694',
     deudor: {
-      cedula        : 80205694,
-      nombreCompleto: 'JOHN FREDY HERREÑO RAMIREZ',
-      tel           : 'F 7641957                CEL 3124102',
-      email         : 'kellyo.1508@hotmail.com',
-      direccion     : 'DIAGONAL 82 A SUR No 7C 19  ESTE'
+      cedula: 80205694,
+      nombreCompleto:
+        'JOHN FREDY HERREÑO RAMIREZ',
+      tel  : 'F 7641957                CEL 3124102',
+      email: 'kellyo.1508@hotmail.com',
+      direccion:
+        'DIAGONAL 82 A SUR No 7C 19  ESTE'
     },
     demanda: {
       vencimientoPagare      : '2020-08-31',
@@ -4500,7 +4714,8 @@ exports.carpetas = [
       nombreCompleto: 'ANDERSON REVELO SANTOS',
       tel           : 'F 4725511              CEL 3118526428',
       email         : 'ars.09@hotmail.com',
-      direccion     : 'CALLE 64 SUR  No 85 B - 40  APARTAMENTO  104'
+      direccion:
+        'CALLE 64 SUR  No 85 B - 40  APARTAMENTO  104'
     },
     demanda: {
       vencimientoPagare      : '2020-03-05',
@@ -4535,7 +4750,8 @@ exports.carpetas = [
       nombreCompleto: 'HERNANDO PULECIO PAREDES',
       tel           : 'F 4619449',
       email         : 'hpulecio@cable.net.co',
-      direccion     : 'CALLE 86 A No 69 T -41  TORRE 1 APARTAMENTO 902'
+      direccion:
+        'CALLE 86 A No 69 T -41  TORRE 1 APARTAMENTO 902'
     },
     demanda: {
       vencimientoPagare      : '2020-09-13',
@@ -4563,10 +4779,12 @@ exports.carpetas = [
     numero: 295,
     id    : '36536419',
     deudor: {
-      cedula        : 36536419,
-      nombreCompleto: 'RITA CECILIA FERNANDEZ IBAÑEZ',
-      tel           : 'F 2131020',
-      direccion     : 'CALLE 124 No  20-76 APARTAMENTO 503'
+      cedula: 36536419,
+      nombreCompleto:
+        'RITA CECILIA FERNANDEZ IBAÑEZ',
+      tel: 'F 2131020',
+      direccion:
+        'CALLE 124 No  20-76 APARTAMENTO 503'
     },
     demanda: {
       vencimientoPagare      : '2020-09-12',
@@ -4579,8 +4797,9 @@ exports.carpetas = [
           tipo: '51 Civil Municipal'
         }
       },
-      radicado     : '2017 - 01113',
-      etapaProcesal: 'PENDIENTE SENTENCIA Y OFICIOS'
+      radicado: '2017 - 01113',
+      etapaProcesal:
+        'PENDIENTE SENTENCIA Y OFICIOS'
     },
     capitalAdeudado: 25845669,
     tipoProceso    : 'PRENDARIO',
@@ -4591,8 +4810,9 @@ exports.carpetas = [
     numero: 296,
     id    : '86074992',
     deudor: {
-      cedula        : 86074992,
-      nombreCompleto: 'DIDIER HARVEY PRADA AGUIRRE'
+      cedula: 86074992,
+      nombreCompleto:
+        'DIDIER HARVEY PRADA AGUIRRE'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001410375220170129100',
@@ -4602,10 +4822,11 @@ exports.carpetas = [
     numero: 297,
     id    : '6006685',
     deudor: {
-      cedula        : 6006685,
-      nombreCompleto: 'MIGUEL ANGEL MARTINEZ HUERTAS',
-      tel           : 'CEL 3123077900',
-      direccion     : 'CALLE 5 A No 6 - 23 UMBITA'
+      cedula: 6006685,
+      nombreCompleto:
+        'MIGUEL ANGEL MARTINEZ HUERTAS',
+      tel      : 'CEL 3123077900',
+      direccion: 'CALLE 5 A No 6 - 23 UMBITA'
     },
     demanda: {
       vencimientoPagare      : '10/07/2019',
@@ -4631,8 +4852,9 @@ exports.carpetas = [
     numero: 298,
     id    : '79659040',
     deudor: {
-      cedula        : 79659040,
-      nombreCompleto: 'HECTOR GABRIEL RAMIREZ BOHORQUEZ'
+      cedula: 79659040,
+      nombreCompleto:
+        'HECTOR GABRIEL RAMIREZ BOHORQUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400307820170098600',
@@ -4642,8 +4864,9 @@ exports.carpetas = [
     numero: 299,
     id    : '80879280',
     deudor: {
-      cedula        : 80879280,
-      nombreCompleto: 'ROBERTO STIVENSON ACERO BARON'
+      cedula: 80879280,
+      nombreCompleto:
+        'ROBERTO STIVENSON ACERO BARON'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25754400300320170034600',
@@ -4653,8 +4876,9 @@ exports.carpetas = [
     numero: 300,
     id    : '79617611',
     deudor: {
-      cedula        : 79617611,
-      nombreCompleto: 'FABIO EDILBERTO JARA SANCHEZ'
+      cedula: 79617611,
+      nombreCompleto:
+        'FABIO EDILBERTO JARA SANCHEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25286400300120170081600',
@@ -4664,8 +4888,9 @@ exports.carpetas = [
     numero: 301,
     id    : '35220385',
     deudor: {
-      cedula        : 35220385,
-      nombreCompleto: 'BLANCA YOLANDA ACOSTA RODRIGUEZ'
+      cedula: 35220385,
+      nombreCompleto:
+        'BLANCA YOLANDA ACOSTA RODRIGUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25322418900120180002200',
@@ -4686,8 +4911,9 @@ exports.carpetas = [
     numero: 303,
     id    : '1118532643',
     deudor: {
-      cedula        : 1118532643,
-      nombreCompleto: 'RAFAEL ALFONSO CAMACHO VELANDIA'
+      cedula: 1118532643,
+      nombreCompleto:
+        'RAFAEL ALFONSO CAMACHO VELANDIA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400303020170157900',
@@ -4732,8 +4958,9 @@ exports.carpetas = [
     numero: 307,
     id    : '79309509',
     deudor: {
-      cedula        : 79309509,
-      nombreCompleto: 'CARLOS ARTURO CASTAÑO ALDANA'
+      cedula: 79309509,
+      nombreCompleto:
+        'CARLOS ARTURO CASTAÑO ALDANA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400303620170112500',
@@ -4743,8 +4970,9 @@ exports.carpetas = [
     numero: 308,
     id    : '80271269',
     deudor: {
-      cedula        : 80271269,
-      nombreCompleto: 'OSCAR ERNESTO SERRANO VELASCO'
+      cedula: 80271269,
+      nombreCompleto:
+        'OSCAR ERNESTO SERRANO VELASCO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400302220170117600',
@@ -4754,8 +4982,9 @@ exports.carpetas = [
     numero: 309,
     id    : '19332163',
     deudor: {
-      cedula        : 19332163,
-      nombreCompleto: 'HENRY NOEL CASTELBLANCO SOSA'
+      cedula: 19332163,
+      nombreCompleto:
+        'HENRY NOEL CASTELBLANCO SOSA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400306720170161300',
@@ -4765,11 +4994,12 @@ exports.carpetas = [
     numero: 310,
     id    : '79388145',
     deudor: {
-      cedula        : 79388145,
-      nombreCompleto: 'LIBARDO ALFONSO GONZALEZ TRIVIÑO',
-      tel           : 'F 2928108',
-      email         : 'li_bcar@hotmail.com',
-      direccion     : 'CARRERA 72 A- No 9 - 44'
+      cedula: 79388145,
+      nombreCompleto:
+        'LIBARDO ALFONSO GONZALEZ TRIVIÑO',
+      tel      : 'F 2928108',
+      email    : 'li_bcar@hotmail.com',
+      direccion: 'CARRERA 72 A- No 9 - 44'
     },
     demanda: {
       vencimientoPagare      : '23/03/2020',
@@ -4800,8 +5030,9 @@ exports.carpetas = [
     numero: 311,
     id    : '32730630',
     deudor: {
-      cedula        : 32730630,
-      nombreCompleto: 'PAULA ANDREA PINZON OTALVARO'
+      cedula: 32730630,
+      nombreCompleto:
+        'PAULA ANDREA PINZON OTALVARO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400370820170018400',
@@ -4811,8 +5042,9 @@ exports.carpetas = [
     numero: 312,
     id    : '80394456',
     deudor: {
-      cedula        : 80394456,
-      nombreCompleto: 'PEDRO PABLO SARMIENTO MAYORGA'
+      cedula: 80394456,
+      nombreCompleto:
+        'PEDRO PABLO SARMIENTO MAYORGA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001418904320170114000',
@@ -4844,8 +5076,9 @@ exports.carpetas = [
     numero: 315,
     id    : '80203869',
     deudor: {
-      cedula        : 80203869,
-      nombreCompleto: 'BLADIMIR GUTIERREZ CIFUENTES'
+      cedula: 80203869,
+      nombreCompleto:
+        'BLADIMIR GUTIERREZ CIFUENTES'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25754400300320170036400',
@@ -4855,16 +5088,19 @@ exports.carpetas = [
     numero: 316,
     id    : '8799171',
     deudor: {
-      cedula        : 8799171,
-      nombreCompleto: 'MANUEL ENRIQUE ARTEAGA OROZCO',
-      tel           : 'F 5164071',
-      email         : 'saliradelante2012@hotmail.com',
-      direccion     : 'CARRERA 18 B No 4 C -  20  SOACHA'
+      cedula: 8799171,
+      nombreCompleto:
+        'MANUEL ENRIQUE ARTEAGA OROZCO',
+      tel  : 'F 5164071',
+      email: 'saliradelante2012@hotmail.com',
+      direccion:
+        'CARRERA 18 B No 4 C -  20  SOACHA'
     },
     demanda: {
-      vencimientoPagare      : '2030-01-05',
-      obligacion             : '180049   53037120066499008',
-      obligacion2            : '3778133433049336 /4513075801129044',
+      vencimientoPagare: '2030-01-05',
+      obligacion       : '180049   53037120066499008',
+      obligacion2:
+        '3778133433049336 /4513075801129044',
       entregaGarantiasAbogado: '2017-10-26',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'SOACHA',
@@ -4908,8 +5144,9 @@ exports.carpetas = [
     numero: 319,
     id    : '33307437',
     deudor: {
-      cedula        : 33307437,
-      nombreCompleto: 'GLORIA ANGELICA PRASCA MEJIA'
+      cedula: 33307437,
+      nombreCompleto:
+        'GLORIA ANGELICA PRASCA MEJIA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25126400300120170075600',
@@ -4919,8 +5156,9 @@ exports.carpetas = [
     numero: 320,
     id    : '1032492078',
     deudor: {
-      cedula        : 1032492078,
-      nombreCompleto: 'MARIA CAMILA MACIAS PADILLA'
+      cedula: 1032492078,
+      nombreCompleto:
+        'MARIA CAMILA MACIAS PADILLA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400305620170131200',
@@ -4941,8 +5179,9 @@ exports.carpetas = [
     numero: 322,
     id    : '63395806',
     deudor: {
-      cedula        : 63395806,
-      nombreCompleto: 'CLAUDIA YAMILE SUAREZ POBLADOR'
+      cedula: 63395806,
+      nombreCompleto:
+        'CLAUDIA YAMILE SUAREZ POBLADOR'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400308620170120500',
@@ -4974,8 +5213,9 @@ exports.carpetas = [
     numero: 325,
     id    : '30583011',
     deudor: {
-      cedula        : 30583011,
-      nombreCompleto: 'MARCELA PATRICIA DIAZ PEREIRA'
+      cedula: 30583011,
+      nombreCompleto:
+        'MARCELA PATRICIA DIAZ PEREIRA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400308020170076000',
@@ -5007,11 +5247,13 @@ exports.carpetas = [
     numero: 328,
     id    : '52907317',
     deudor: {
-      cedula        : 52907317,
-      nombreCompleto: 'SANDRA MILENA BARRETO BERMUDEZ',
-      tel           : 5787068,
-      email         : 'milena125@hotmail.com',
-      direccion     : 'CALLE 74 A  SUR No 92 -21 torre 3'
+      cedula: 52907317,
+      nombreCompleto:
+        'SANDRA MILENA BARRETO BERMUDEZ',
+      tel  : 5787068,
+      email: 'milena125@hotmail.com',
+      direccion:
+        'CALLE 74 A  SUR No 92 -21 torre 3'
     },
     demanda: {
       vencimientoPagare      : '2017-05-06',
@@ -5036,8 +5278,9 @@ exports.carpetas = [
     numero: 329,
     id    : '10180062',
     deudor: {
-      cedula        : 10180062,
-      nombreCompleto: 'REINALDO ADRIAN MELENDEZ  VARON'
+      cedula: 10180062,
+      nombreCompleto:
+        'REINALDO ADRIAN MELENDEZ  VARON'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400308520170159600',
@@ -5047,8 +5290,9 @@ exports.carpetas = [
     numero: 330,
     id    : '80185084',
     deudor: {
-      cedula        : 80185084,
-      nombreCompleto: 'NELSON ARBEY CANGREJO SUAREZ'
+      cedula: 80185084,
+      nombreCompleto:
+        'NELSON ARBEY CANGREJO SUAREZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400307020170121800',
@@ -5058,8 +5302,9 @@ exports.carpetas = [
     numero: 331,
     id    : '1016043191',
     deudor: {
-      cedula        : 1016043191,
-      nombreCompleto: 'CHRISTIAN DARIO RUIZ AVELLANEDA'
+      cedula: 1016043191,
+      nombreCompleto:
+        'CHRISTIAN DARIO RUIZ AVELLANEDA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001410375220170130000',
@@ -5069,8 +5314,9 @@ exports.carpetas = [
     numero: 332,
     id    : '91284725',
     deudor: {
-      cedula        : 91284725,
-      nombreCompleto: 'MIGUEL ANTONIO SANCHEZ MARROQUIN'
+      cedula: 91284725,
+      nombreCompleto:
+        'MIGUEL ANTONIO SANCHEZ MARROQUIN'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25754400100420180009800',
@@ -5080,8 +5326,9 @@ exports.carpetas = [
     numero: 333,
     id    : '52085839',
     deudor: {
-      cedula        : 52085839,
-      nombreCompleto: 'AHIDA LUCERO GUEVARA BECERRA'
+      cedula: 52085839,
+      nombreCompleto:
+        'AHIDA LUCERO GUEVARA BECERRA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400306320170131700',
@@ -5091,11 +5338,12 @@ exports.carpetas = [
     numero: 334,
     id    : '79853302',
     deudor: {
-      cedula        : 79853302,
-      nombreCompleto: 'NESTOR JULIO MARTINEZ ORJUELA',
-      tel           : 'F 7459324                CEL 3132088678',
-      email         : 'nanbravo04@hotmail.com',
-      direccion     : 'CALLE  70 A BIS  No 117-16'
+      cedula: 79853302,
+      nombreCompleto:
+        'NESTOR JULIO MARTINEZ ORJUELA',
+      tel      : 'F 7459324                CEL 3132088678',
+      email    : 'nanbravo04@hotmail.com',
+      direccion: 'CALLE  70 A BIS  No 117-16'
     },
     demanda: {
       vencimientoPagare      : '15/01/2020',
@@ -5123,8 +5371,9 @@ exports.carpetas = [
     numero: 335,
     id    : '1030601547',
     deudor: {
-      cedula        : 1030601547,
-      nombreCompleto: 'CRISTIAN CAMILO GARCIA ESCOBAR'
+      cedula: 1030601547,
+      nombreCompleto:
+        'CRISTIAN CAMILO GARCIA ESCOBAR'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400301120180011800',
@@ -5134,8 +5383,9 @@ exports.carpetas = [
     numero: 336,
     id    : '79860814',
     deudor: {
-      cedula        : 79860814,
-      nombreCompleto: 'JOSE ALFREDO CARDOZO RODRIGUEZ'
+      cedula: 79860814,
+      nombreCompleto:
+        'JOSE ALFREDO CARDOZO RODRIGUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400303020170175600',
@@ -5145,11 +5395,13 @@ exports.carpetas = [
     numero: 337,
     id    : '79666742',
     deudor: {
-      cedula        : 79666742,
-      nombreCompleto: 'HECTOR ALFONSO TORRES RIOS',
-      tel           : 'F 7651426 CEL 3115030138',
-      email         : 'rubypaez71@hotmail.com',
-      direccion     : 'TRANSVERSAL 17 No  64 F - 04 CASA 1 BIFAMILIAR MARLY'
+      cedula: 79666742,
+      nombreCompleto:
+        'HECTOR ALFONSO TORRES RIOS',
+      tel  : 'F 7651426 CEL 3115030138',
+      email: 'rubypaez71@hotmail.com',
+      direccion:
+        'TRANSVERSAL 17 No  64 F - 04 CASA 1 BIFAMILIAR MARLY'
     },
     demanda: {
       vencimientoPagare      : '2026-06-22',
@@ -5175,10 +5427,12 @@ exports.carpetas = [
     numero: 338,
     id    : '20427976',
     deudor: {
-      cedula        : 20427976,
-      nombreCompleto: 'BLANCA MELBA MOYANO BELTRAN',
-      tel           : 'F 3213718',
-      direccion     : 'CARRERA 3 No 9 - 02 /08  CAPARRAPI (CUNDINAMARCA)'
+      cedula: 20427976,
+      nombreCompleto:
+        'BLANCA MELBA MOYANO BELTRAN',
+      tel: 'F 3213718',
+      direccion:
+        'CARRERA 3 No 9 - 02 /08  CAPARRAPI (CUNDINAMARCA)'
     },
     demanda: {
       vencimientoPagare      : '2020-04-01',
@@ -5203,8 +5457,9 @@ exports.carpetas = [
     numero: 339,
     id    : '91072102',
     deudor: {
-      cedula        : 91072102,
-      nombreCompleto: 'LUIS ALFONSO MOJICA ZAMBRANO'
+      cedula: 91072102,
+      nombreCompleto:
+        'LUIS ALFONSO MOJICA ZAMBRANO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400305620170119500',
@@ -5236,8 +5491,9 @@ exports.carpetas = [
     numero: 342,
     id    : '91240362',
     deudor: {
-      cedula        : 91240362,
-      nombreCompleto: 'GABRIEL AUGUSTO CASTILLO CASTELBLANCO'
+      cedula: 91240362,
+      nombreCompleto:
+        'GABRIEL AUGUSTO CASTILLO CASTELBLANCO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400301220170140000',
@@ -5247,8 +5503,9 @@ exports.carpetas = [
     numero: 343,
     id    : '80803306',
     deudor: {
-      cedula        : 80803306,
-      nombreCompleto: 'EDUARDO ALFONSO RICO JIMENEZ'
+      cedula: 80803306,
+      nombreCompleto:
+        'EDUARDO ALFONSO RICO JIMENEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400303920170151700',
@@ -5258,16 +5515,21 @@ exports.carpetas = [
     numero: 344,
     id    : '79505982',
     deudor: {
-      cedula        : 79505982,
-      nombreCompleto: 'LUIS AUGUSTO SANCHEZ ORTIZ',
-      tel           : 'F 8003961              CEL 3174409073',
-      email         : 'luissanchez69@live.com',
-      direccion     : 'CALLE 168 No 8 G - 61 BLOQUE  5 APARTAMENTO  102'
+      cedula: 79505982,
+      nombreCompleto:
+        'LUIS AUGUSTO SANCHEZ ORTIZ',
+      tel  : 'F 8003961              CEL 3174409073',
+      email: 'luissanchez69@live.com',
+      direccion:
+        'CALLE 168 No 8 G - 61 BLOQUE  5 APARTAMENTO  102'
     },
     demanda: {
-      vencimientoPagare      : '9/12/2019       5/03/2020',
-      obligacion             : '377815565830854  4513071889404813',
-      obligacion2            : '5176409000345363    5306946666855816',
+      vencimientoPagare:
+        '9/12/2019       5/03/2020',
+      obligacion:
+        '377815565830854  4513071889404813',
+      obligacion2:
+        '5176409000345363    5306946666855816',
       entregaGarantiasAbogado: '2017-09-29',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
@@ -5291,8 +5553,9 @@ exports.carpetas = [
     numero: 345,
     id    : '51974282',
     deudor: {
-      cedula        : 51974282,
-      nombreCompleto: 'SANDRA JEANNETTE PRADA GUTIERREZ'
+      cedula: 51974282,
+      nombreCompleto:
+        'SANDRA JEANNETTE PRADA GUTIERREZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400304520170147600',
@@ -5324,14 +5587,17 @@ exports.carpetas = [
     numero: 348,
     id    : '41688661',
     deudor: {
-      cedula        : 41688661,
-      nombreCompleto: 'ANA BEATRIZ CORREDOR RIVERA',
-      tel           : 'F 5101587               CEL 3106630177',
-      email         : 'anabeatrizcorredor@yahoo.es',
-      direccion     : 'CARRERA 8 No 190 - 22 Hoy Carrera 31 No. 190-04'
+      cedula: 41688661,
+      nombreCompleto:
+        'ANA BEATRIZ CORREDOR RIVERA',
+      tel  : 'F 5101587               CEL 3106630177',
+      email: 'anabeatrizcorredor@yahoo.es',
+      direccion:
+        'CARRERA 8 No 190 - 22 Hoy Carrera 31 No. 190-04'
     },
     demanda: {
-      vencimientoPagare      : '2/12/2021        3/09/2020',
+      vencimientoPagare:
+        '2/12/2021        3/09/2020',
       obligacion             : 6260082762,
       obligacion2            : 377813367146983,
       entregaGarantiasAbogado: '2017-09-28',
@@ -5368,8 +5634,9 @@ exports.carpetas = [
     numero: 350,
     id    : '80111672',
     deudor: {
-      cedula        : 80111672,
-      nombreCompleto: 'DIEGO FERNEY VERGARA VALDERRAMA'
+      cedula: 80111672,
+      nombreCompleto:
+        'DIEGO FERNEY VERGARA VALDERRAMA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400305020170135700',
@@ -5379,8 +5646,9 @@ exports.carpetas = [
     numero: 351,
     id    : '80800256',
     deudor: {
-      cedula        : 80800256,
-      nombreCompleto: 'CRISTIAN JOSUE CARDENAS NORIEGA'
+      cedula: 80800256,
+      nombreCompleto:
+        'CRISTIAN JOSUE CARDENAS NORIEGA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '1100141037520180002400',
@@ -5390,10 +5658,12 @@ exports.carpetas = [
     numero: 352,
     id    : '71992491',
     deudor: {
-      cedula        : 71992491,
-      nombreCompleto: 'MARIO DE JESUS OSSA PULGARIN',
-      tel           : 'F 7673180',
-      direccion     : 'TRANSVERSAL 2 C BIS No 97 B-05 SUR'
+      cedula: 71992491,
+      nombreCompleto:
+        'MARIO DE JESUS OSSA PULGARIN',
+      tel: 'F 7673180',
+      direccion:
+        'TRANSVERSAL 2 C BIS No 97 B-05 SUR'
     },
     demanda: {
       vencimientoPagare      : '2019-05-20',
@@ -5454,8 +5724,9 @@ exports.carpetas = [
     numero: 356,
     id    : '53119460',
     deudor: {
-      cedula        : 53119460,
-      nombreCompleto: 'SONIA XIMENA RODRIGUEZ SANCHEZ'
+      cedula: 53119460,
+      nombreCompleto:
+        'SONIA XIMENA RODRIGUEZ SANCHEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400302420170170800',
@@ -5465,8 +5736,9 @@ exports.carpetas = [
     numero: 357,
     id    : '1012330386',
     deudor: {
-      cedula        : 1012330386,
-      nombreCompleto: 'DIANA SAYURI RODRIGUEZ GARCIA'
+      cedula: 1012330386,
+      nombreCompleto:
+        'DIANA SAYURI RODRIGUEZ GARCIA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400305520170137800',
@@ -5476,11 +5748,12 @@ exports.carpetas = [
     numero: 358,
     id    : '1116782267',
     deudor: {
-      cedula        : 1116782267,
-      nombreCompleto: 'JOGLI JOAQUIN OTERO VARGAS',
-      tel           : 'CEL 3005941798',
-      email         : 'juanotero1989@gmail.com',
-      direccion     : 'DIAGONAL 2  No 79 F- 04'
+      cedula: 1116782267,
+      nombreCompleto:
+        'JOGLI JOAQUIN OTERO VARGAS',
+      tel      : 'CEL 3005941798',
+      email    : 'juanotero1989@gmail.com',
+      direccion: 'DIAGONAL 2  No 79 F- 04'
     },
     demanda: {
       vencimientoPagare      : '2019-02-26',
@@ -5519,8 +5792,9 @@ exports.carpetas = [
     numero: 360,
     id    : '52327561',
     deudor: {
-      cedula        : 52327561,
-      nombreCompleto: 'NOHORA DEL PILAR VARGAS BERNAL'
+      cedula: 52327561,
+      nombreCompleto:
+        'NOHORA DEL PILAR VARGAS BERNAL'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400302320170145200',
@@ -5534,7 +5808,8 @@ exports.carpetas = [
       nombreCompleto: 'NATALIA CUESTAS MONDRAGON',
       tel           : 'F4782781',
       email         : 'ncuestas@mccain.com.co',
-      direccion     : 'CARRERA 68 D No 40-53 SUR TORRE 6 APARTAMENTO 1006'
+      direccion:
+        'CARRERA 68 D No 40-53 SUR TORRE 6 APARTAMENTO 1006'
     },
     demanda: {
       vencimientoPagare      : '2021-03-26',
@@ -5574,8 +5849,9 @@ exports.carpetas = [
     numero: 363,
     id    : '52645617',
     deudor: {
-      cedula        : 52645617,
-      nombreCompleto: 'MARIA LILIANA CASTAÑEDA ZAPATA'
+      cedula: 52645617,
+      nombreCompleto:
+        'MARIA LILIANA CASTAÑEDA ZAPATA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25754400300220170040900',
@@ -5585,8 +5861,9 @@ exports.carpetas = [
     numero: 364,
     id    : '52102754',
     deudor: {
-      cedula        : 52102754,
-      nombreCompleto: 'SANDRA PATRICIA SANCHEZ VELASQUEZ'
+      cedula: 52102754,
+      nombreCompleto:
+        'SANDRA PATRICIA SANCHEZ VELASQUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400307320170164700',
@@ -5596,8 +5873,9 @@ exports.carpetas = [
     numero: 365,
     id    : '79861680',
     deudor: {
-      cedula        : 79861680,
-      nombreCompleto: 'RICHARD CAMILO IRIARTE GARCIA'
+      cedula: 79861680,
+      nombreCompleto:
+        'RICHARD CAMILO IRIARTE GARCIA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400305020180014000',
@@ -5607,8 +5885,9 @@ exports.carpetas = [
     numero: 366,
     id    : '53094561',
     deudor: {
-      cedula        : 53094561,
-      nombreCompleto: 'YURI ANDREA GONZALEZ TORRES'
+      cedula: 53094561,
+      nombreCompleto:
+        'YURI ANDREA GONZALEZ TORRES'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400300920170136100',
@@ -5618,8 +5897,9 @@ exports.carpetas = [
     numero: 367,
     id    : '79416270',
     deudor: {
-      cedula        : 79416270,
-      nombreCompleto: 'ANDRES ANTONIO  AMEZQUITA PAEZ'
+      cedula: 79416270,
+      nombreCompleto:
+        'ANDRES ANTONIO  AMEZQUITA PAEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400307820170123500',
@@ -5671,8 +5951,9 @@ exports.carpetas = [
     numero: 370,
     id    : '52840906',
     deudor: {
-      cedula        : 52840906,
-      nombreCompleto: 'LILIAN ANDREA HERNANDEZ SUAREZ'
+      cedula: 52840906,
+      nombreCompleto:
+        'LILIAN ANDREA HERNANDEZ SUAREZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400302020170155600',
@@ -5682,11 +5963,13 @@ exports.carpetas = [
     numero: 371,
     id    : '39765816',
     deudor: {
-      cedula        : 39765816,
-      nombreCompleto: 'MARTHA ANDREA MORA COLLAZOS',
-      tel           : 6236600,
-      email         : 'andreato1a@hotmaul.com',
-      direccion     : 'CALLE 50 SUR 93 D- 38 APTO 401 TORRE 6'
+      cedula: 39765816,
+      nombreCompleto:
+        'MARTHA ANDREA MORA COLLAZOS',
+      tel  : 6236600,
+      email: 'andreato1a@hotmaul.com',
+      direccion:
+        'CALLE 50 SUR 93 D- 38 APTO 401 TORRE 6'
     },
     demanda: {
       vencimientoPagare      : '2024-03-30',
@@ -5711,8 +5994,9 @@ exports.carpetas = [
     numero: 372,
     id    : '51953414',
     deudor: {
-      cedula        : 51953414,
-      nombreCompleto: 'JANETH RUBIELA GORDILLO PINZON'
+      cedula: 51953414,
+      nombreCompleto:
+        'JANETH RUBIELA GORDILLO PINZON'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25754400300220180007000',
@@ -5722,8 +6006,9 @@ exports.carpetas = [
     numero: 373,
     id    : '79616846',
     deudor: {
-      cedula        : 79616846,
-      nombreCompleto: 'RODRIGO ALBERTO RUIZ VILLALBA'
+      cedula: 79616846,
+      nombreCompleto:
+        'RODRIGO ALBERTO RUIZ VILLALBA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25599400300120180000500',
@@ -5733,8 +6018,9 @@ exports.carpetas = [
     numero: 374,
     id    : '80850549',
     deudor: {
-      cedula        : 80850549,
-      nombreCompleto: 'JHOAN ANTONIO BARAJAS MONTENEGRO'
+      cedula: 80850549,
+      nombreCompleto:
+        'JHOAN ANTONIO BARAJAS MONTENEGRO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400308620180006700',
@@ -5744,8 +6030,9 @@ exports.carpetas = [
     numero: 375,
     id    : '74845495',
     deudor: {
-      cedula        : 74845495,
-      nombreCompleto: 'JHON ALFREDO ZORRO MARTINEZ'
+      cedula: 74845495,
+      nombreCompleto:
+        'JHON ALFREDO ZORRO MARTINEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400304020180012300',
@@ -5759,12 +6046,14 @@ exports.carpetas = [
       nombreCompleto: 'ROBERTO RICO RUIZ',
       tel           : 6597446,
       email         : 'roberto.rico.ruiz@gmail.com',
-      direccion     : 'CALLE 128 96A - 05 CASA 3 MULTIFAMILIAR ARRAYANES'
+      direccion:
+        'CALLE 128 96A - 05 CASA 3 MULTIFAMILIAR ARRAYANES'
     },
     demanda: {
-      vencimientoPagare      : '2019-04-29',
-      obligacion             : 118010,
-      obligacion2            : '377813183474353 // 4513074148699942 / 5491579209500691',
+      vencimientoPagare: '2019-04-29',
+      obligacion       : 118010,
+      obligacion2:
+        '377813183474353 // 4513074148699942 / 5491579209500691',
       entregaGarantiasAbogado: '17/01/2018',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
@@ -5806,8 +6095,9 @@ exports.carpetas = [
     numero: 379,
     id    : '79804965',
     deudor: {
-      cedula        : 79804965,
-      nombreCompleto: 'JHON ALEXANDER ALARCON GALVIS'
+      cedula: 79804965,
+      nombreCompleto:
+        'JHON ALEXANDER ALARCON GALVIS'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400308120180011100',
@@ -5817,8 +6107,9 @@ exports.carpetas = [
     numero: 380,
     id    : '79804965',
     deudor: {
-      cedula        : 79804965,
-      nombreCompleto: 'JHON ALEXANDER ALARCON GALVIS'
+      cedula: 79804965,
+      nombreCompleto:
+        'JHON ALEXANDER ALARCON GALVIS'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400308120180011100',
@@ -5839,8 +6130,9 @@ exports.carpetas = [
     numero: 382,
     id    : '80403235',
     deudor: {
-      cedula        : 80403235,
-      nombreCompleto: 'CARLOS ALBERTO LANCHEROS BARRAGAN'
+      cedula: 80403235,
+      nombreCompleto:
+        'CARLOS ALBERTO LANCHEROS BARRAGAN'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25662408900120180000400',
@@ -5850,8 +6142,9 @@ exports.carpetas = [
     numero: 383,
     id    : '65706810',
     deudor: {
-      cedula        : 65706810,
-      nombreCompleto: 'NOHORA ESPERANZA BARRERO RODRIGUEZ'
+      cedula: 65706810,
+      nombreCompleto:
+        'NOHORA ESPERANZA BARRERO RODRIGUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400302620180047900',
@@ -5894,11 +6187,13 @@ exports.carpetas = [
     numero: 387,
     id    : '91263617',
     deudor: {
-      cedula        : 91263617,
-      nombreCompleto: 'LEONARDO SANABRIA SANABRIA',
-      tel           : 'F 4251180           CEL 3118066048',
-      email         : 'leo.sanabria@live.com.mx',
-      direccion     : 'CARRERA 85  B No  23 B - 69  INTERIOR 7 APARTAMENTO  314'
+      cedula: 91263617,
+      nombreCompleto:
+        'LEONARDO SANABRIA SANABRIA',
+      tel  : 'F 4251180           CEL 3118066048',
+      email: 'leo.sanabria@live.com.mx',
+      direccion:
+        'CARRERA 85  B No  23 B - 69  INTERIOR 7 APARTAMENTO  314'
     },
     demanda: {
       vencimientoPagare      : '2019-05-05',
@@ -5938,8 +6233,9 @@ exports.carpetas = [
     numero: 389,
     id    : '79874218',
     deudor: {
-      cedula        : 79874218,
-      nombreCompleto: 'MIGUEL ANGEL GRANADOS GUTIERREZ'
+      cedula: 79874218,
+      nombreCompleto:
+        'MIGUEL ANGEL GRANADOS GUTIERREZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400307020180012100',
@@ -5993,11 +6289,13 @@ exports.carpetas = [
     numero: 392,
     id    : '79712791',
     deudor: {
-      cedula        : 79712791,
-      nombreCompleto: 'EDGAR JOBANNY MATEUS CASTILLO',
-      tel           : 'F 8511988',
-      email         : 'giovannymat@yahoo.com',
-      direccion     : 'CALLE 3 C No  13 - 07   ZIPAQUIRA'
+      cedula: 79712791,
+      nombreCompleto:
+        'EDGAR JOBANNY MATEUS CASTILLO',
+      tel  : 'F 8511988',
+      email: 'giovannymat@yahoo.com',
+      direccion:
+        'CALLE 3 C No  13 - 07   ZIPAQUIRA'
     },
     demanda: {
       vencimientoPagare      : '2020-08-22',
@@ -6023,8 +6321,9 @@ exports.carpetas = [
     numero: 393,
     id    : '79134529',
     deudor: {
-      cedula        : 79134529,
-      nombreCompleto: 'MIGUEL ALEJANDRO GARCIA RODRIGUEZ'
+      cedula: 79134529,
+      nombreCompleto:
+        'MIGUEL ALEJANDRO GARCIA RODRIGUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400303820180014900',
@@ -6034,8 +6333,9 @@ exports.carpetas = [
     numero: 394,
     id    : '79424813',
     deudor: {
-      cedula        : 79424813,
-      nombreCompleto: 'OMAR HERNANDO QUIROGA TORRES'
+      cedula: 79424813,
+      nombreCompleto:
+        'OMAR HERNANDO QUIROGA TORRES'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400305120180029900',
@@ -6056,11 +6356,12 @@ exports.carpetas = [
     numero: 396,
     id    : '80733467',
     deudor: {
-      cedula        : 80733467,
-      nombreCompleto: 'ORLANDO ENRIQUE NOVOA BARRETO',
-      tel           : 'F 7836655           CEL 3118163887',
-      email         : 'orlandonovoa9@gmail.com',
-      direccion     : 'CARRERA 88 A No  67 - 44'
+      cedula: 80733467,
+      nombreCompleto:
+        'ORLANDO ENRIQUE NOVOA BARRETO',
+      tel      : 'F 7836655           CEL 3118163887',
+      email    : 'orlandonovoa9@gmail.com',
+      direccion: 'CARRERA 88 A No  67 - 44'
     },
     demanda: {
       vencimientoPagare      : '2019-06-08',
@@ -6088,8 +6389,9 @@ exports.carpetas = [
     numero: 397,
     id    : '13812570',
     deudor: {
-      cedula        : 13812570,
-      nombreCompleto: 'JOSE DE JESUS TAPIAS ESTEVEZ'
+      cedula: 13812570,
+      nombreCompleto:
+        'JOSE DE JESUS TAPIAS ESTEVEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25473400300120180010600',
@@ -6121,8 +6423,9 @@ exports.carpetas = [
     numero: 400,
     id    : '79652256',
     deudor: {
-      cedula        : 79652256,
-      nombreCompleto: 'OSCAR GUILLERMO LOZANO GONZALEZ'
+      cedula: 79652256,
+      nombreCompleto:
+        'OSCAR GUILLERMO LOZANO GONZALEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25307400300220180007500',
@@ -6132,8 +6435,9 @@ exports.carpetas = [
     numero: 401,
     id    : '52357813',
     deudor: {
-      cedula        : 52357813,
-      nombreCompleto: 'SANDRA PATRICIA  OJEDA RODRIGUEZ'
+      cedula: 52357813,
+      nombreCompleto:
+        'SANDRA PATRICIA  OJEDA RODRIGUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400302520180023700',
@@ -6143,8 +6447,9 @@ exports.carpetas = [
     numero: 402,
     id    : '39766624',
     deudor: {
-      cedula        : 39766624,
-      nombreCompleto: 'BLANCA CECILIA ARDILA HUERTAS'
+      cedula: 39766624,
+      nombreCompleto:
+        'BLANCA CECILIA ARDILA HUERTAS'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400306420180021800',
@@ -6154,8 +6459,9 @@ exports.carpetas = [
     numero: 403,
     id    : '52361215',
     deudor: {
-      cedula        : 52361215,
-      nombreCompleto: 'CLAUDIA YANETH VALENCIA AYA'
+      cedula: 52361215,
+      nombreCompleto:
+        'CLAUDIA YANETH VALENCIA AYA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400304920180019100',
@@ -6210,8 +6516,9 @@ exports.carpetas = [
     numero: 406,
     id    : '8510459',
     deudor: {
-      cedula        : 8510459,
-      nombreCompleto: 'SANTIAGO JAVIER SARABIA JIMENEZ'
+      cedula: 8510459,
+      nombreCompleto:
+        'SANTIAGO JAVIER SARABIA JIMENEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400300220180020500',
@@ -6221,16 +6528,19 @@ exports.carpetas = [
     numero: 407,
     id    : '79328264',
     deudor: {
-      cedula        : 79328264,
-      nombreCompleto: 'NESTOR ALBERTO CRISTANCHO LOPEZ',
-      tel           : 'F 5266894',
-      email         : 'nescri64@hotmail.com',
-      direccion     : 'CARRERA 11 No  144 - 22 APARTAMENTO 301'
+      cedula: 79328264,
+      nombreCompleto:
+        'NESTOR ALBERTO CRISTANCHO LOPEZ',
+      tel  : 'F 5266894',
+      email: 'nescri64@hotmail.com',
+      direccion:
+        'CARRERA 11 No  144 - 22 APARTAMENTO 301'
     },
     demanda: {
-      vencimientoPagare      : '2024-01-26',
-      obligacion             : 3550083774,
-      obligacion2            : '4513082972339 / 5303714867753385',
+      vencimientoPagare: '2024-01-26',
+      obligacion       : 3550083774,
+      obligacion2:
+        '4513082972339 / 5303714867753385',
       entregaGarantiasAbogado: '2017-11-16',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
@@ -6254,8 +6564,9 @@ exports.carpetas = [
     numero: 408,
     id    : '80792987',
     deudor: {
-      cedula        : 80792987,
-      nombreCompleto: 'JHON ALEXANDER BEJARANO FONSECA'
+      cedula: 80792987,
+      nombreCompleto:
+        'JHON ALEXANDER BEJARANO FONSECA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400308120180026400',
@@ -6269,7 +6580,8 @@ exports.carpetas = [
       nombreCompleto: 'CREAS SOLUCIONES S.A.S',
       tel           : 'F 8626344                  CEL 3107982028',
       email         : 'andibarracosta@gmail.com',
-      direccion     : 'CARRERA 50 1# 47 - 50 INT 1 APTO 101'
+      direccion:
+        'CARRERA 50 1# 47 - 50 INT 1 APTO 101'
     },
     demanda: {
       vencimientoPagare      : '2018-06-20',
@@ -6299,8 +6611,9 @@ exports.carpetas = [
     numero: 410,
     id    : '52304124',
     deudor: {
-      cedula        : 52304124,
-      nombreCompleto: 'JENNY LILIANA MONTOYA VILLAMIL'
+      cedula: 52304124,
+      nombreCompleto:
+        'JENNY LILIANA MONTOYA VILLAMIL'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400303520180037000',
@@ -6321,8 +6634,9 @@ exports.carpetas = [
     numero: 412,
     id    : '80896755',
     deudor: {
-      cedula        : 80896755,
-      nombreCompleto: 'FABIO NELSON PEREZ CRISTIANO'
+      cedula: 80896755,
+      nombreCompleto:
+        'FABIO NELSON PEREZ CRISTIANO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25754418900220180036400',
@@ -6332,8 +6646,9 @@ exports.carpetas = [
     numero: 413,
     id    : '1018430139',
     deudor: {
-      cedula        : 1018430139,
-      nombreCompleto: 'LUISA FERNANDA SALAZAR  PATARROYO'
+      cedula: 1018430139,
+      nombreCompleto:
+        'LUISA FERNANDA SALAZAR  PATARROYO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25754418900220180036300',
@@ -6354,8 +6669,9 @@ exports.carpetas = [
     numero: 415,
     id    : '1024479982',
     deudor: {
-      cedula        : 1024479982,
-      nombreCompleto: 'INGRID CATHERINE TAPIAS RICO'
+      cedula: 1024479982,
+      nombreCompleto:
+        'INGRID CATHERINE TAPIAS RICO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400304320180047400',
@@ -6365,8 +6681,9 @@ exports.carpetas = [
     numero: 416,
     id    : '79512506',
     deudor: {
-      cedula        : 79512506,
-      nombreCompleto: 'JOSE ANTONIO MONTEALEGRE HERNANDEZ'
+      cedula: 79512506,
+      nombreCompleto:
+        'JOSE ANTONIO MONTEALEGRE HERNANDEZ'
     },
     demanda: {
       radicado: '2017 - 01477'
@@ -6378,11 +6695,12 @@ exports.carpetas = [
     numero: 417,
     id    : '19275068',
     deudor: {
-      cedula        : 19275068,
-      nombreCompleto: 'OSCAR HUMBERTO GOMEZ CHUCHIN',
-      tel           : 'F 2511959          CEL 3105638608',
-      email         : 'oscarmultibog@hotmail.com',
-      direccion     : 'CALLE 71 A No 70 B-11'
+      cedula: 19275068,
+      nombreCompleto:
+        'OSCAR HUMBERTO GOMEZ CHUCHIN',
+      tel      : 'F 2511959          CEL 3105638608',
+      email    : 'oscarmultibog@hotmail.com',
+      direccion: 'CALLE 71 A No 70 B-11'
     },
     demanda: {
       vencimientoPagare      : '2/09/2021 / 3/01/2021',
@@ -6422,8 +6740,9 @@ exports.carpetas = [
     numero: 419,
     id    : '73133278',
     deudor: {
-      cedula        : 73133278,
-      nombreCompleto: 'ALVARO HERNAN RUIZ HERNANDEZ'
+      cedula: 73133278,
+      nombreCompleto:
+        'ALVARO HERNAN RUIZ HERNANDEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25175410300120180023700',
@@ -6433,15 +6752,17 @@ exports.carpetas = [
     numero: 420,
     id    : '52773230',
     deudor: {
-      cedula        : 52773230,
-      nombreCompleto: 'DIANA PATRICIA BARRETO OSMA',
-      tel           : 'F 3085025             CEL 3107706773',
-      email         : 'N / A',
-      direccion     : 'CALLE 42 No 78 H - 38 SUR'
+      cedula: 52773230,
+      nombreCompleto:
+        'DIANA PATRICIA BARRETO OSMA',
+      tel      : 'F 3085025             CEL 3107706773',
+      email    : 'N / A',
+      direccion: 'CALLE 42 No 78 H - 38 SUR'
     },
     demanda: {
-      vencimientoPagare      : '08/07/2020',
-      obligacion             : '377813451010780 / 4513070410107739',
+      vencimientoPagare: '08/07/2020',
+      obligacion:
+        '377813451010780 / 4513070410107739',
       obligacion2            : 5303710165958750,
       entregaGarantiasAbogado: '01/12/2017',
       departamento           : 'CUNDINAMARCA',
@@ -6499,8 +6820,9 @@ exports.carpetas = [
     numero: 424,
     id    : '79742224',
     deudor: {
-      cedula        : 79742224,
-      nombreCompleto: 'JAIME LEONARDO SOSA ROODRIGUEZ'
+      cedula: 79742224,
+      nombreCompleto:
+        'JAIME LEONARDO SOSA ROODRIGUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '110014003015201800459',
@@ -6510,8 +6832,9 @@ exports.carpetas = [
     numero: 425,
     id    : '52498444',
     deudor: {
-      cedula        : 52498444,
-      nombreCompleto: 'SANDRA RAQUEL LOPEZ DE MESA OSES'
+      cedula: 52498444,
+      nombreCompleto:
+        'SANDRA RAQUEL LOPEZ DE MESA OSES'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400307520180067400',
@@ -6521,8 +6844,9 @@ exports.carpetas = [
     numero: 426,
     id    : '19395095',
     deudor: {
-      cedula        : 19395095,
-      nombreCompleto: 'FELIX  HERNANDO MONTENEGRO GARCIA'
+      cedula: 19395095,
+      nombreCompleto:
+        'FELIX  HERNANDO MONTENEGRO GARCIA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400306820180047600',
@@ -6532,10 +6856,12 @@ exports.carpetas = [
     numero: 427,
     id    : '1069738339',
     deudor: {
-      cedula        : 1069738339,
-      nombreCompleto: 'JUAN CAMILO CHINGATE PENAGOS',
-      tel           : 'CEL 313389449',
-      direccion     : 'VEREDA LA 22 KILOMETRO 30 (CAJICA) // VEREDA SUBIA NORTE, PARTE BAJA, FINCA EL RINCON LOTE 2 (GRANADA- CUND): VEREDA SUBIA NORTE PARTE BAJA FINCA EL RINCON LOTE 2 (GRANADA - CUND)'
+      cedula: 1069738339,
+      nombreCompleto:
+        'JUAN CAMILO CHINGATE PENAGOS',
+      tel: 'CEL 313389449',
+      direccion:
+        'VEREDA LA 22 KILOMETRO 30 (CAJICA) // VEREDA SUBIA NORTE, PARTE BAJA, FINCA EL RINCON LOTE 2 (GRANADA- CUND): VEREDA SUBIA NORTE PARTE BAJA FINCA EL RINCON LOTE 2 (GRANADA - CUND)'
     },
     demanda: {
       vencimientoPagare      : '2021-01-16',
@@ -6560,8 +6886,9 @@ exports.carpetas = [
     numero: 428,
     id    : '1019016622',
     deudor: {
-      cedula        : 1019016622,
-      nombreCompleto: 'SERGIO LIBARDO ESPINOSA GOMEZ'
+      cedula: 1019016622,
+      nombreCompleto:
+        'SERGIO LIBARDO ESPINOSA GOMEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400302420180052000',
@@ -6571,8 +6898,9 @@ exports.carpetas = [
     numero: 429,
     id    : '10260455',
     deudor: {
-      cedula        : 10260455,
-      nombreCompleto: 'ARCANGEL HERNANDEZ RODRIGUEZ'
+      cedula: 10260455,
+      nombreCompleto:
+        'ARCANGEL HERNANDEZ RODRIGUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400306520180061200',
@@ -6582,8 +6910,9 @@ exports.carpetas = [
     numero: 430,
     id    : '1024517216',
     deudor: {
-      cedula        : 1024517216,
-      nombreCompleto: 'JHONATAN ALEJANDRO  CUELLAR ARIAS'
+      cedula: 1024517216,
+      nombreCompleto:
+        'JHONATAN ALEJANDRO  CUELLAR ARIAS'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001410300120180040400',
@@ -6593,8 +6922,9 @@ exports.carpetas = [
     numero: 431,
     id    : '1014181498',
     deudor: {
-      cedula        : 1014181498,
-      nombreCompleto: 'DUVY MARIELA RODRIGUEZ ROCHA'
+      cedula: 1014181498,
+      nombreCompleto:
+        'DUVY MARIELA RODRIGUEZ ROCHA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400302220180060400',
@@ -6626,8 +6956,9 @@ exports.carpetas = [
     numero: 434,
     id    : '80429531',
     deudor: {
-      cedula        : 80429531,
-      nombreCompleto: 'FRANCISCO JAVIER GIL FLOREZ'
+      cedula: 80429531,
+      nombreCompleto:
+        'FRANCISCO JAVIER GIL FLOREZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400306820180099900',
@@ -6648,8 +6979,9 @@ exports.carpetas = [
     numero: 436,
     id    : '79145374',
     deudor: {
-      cedula        : 79145374,
-      nombreCompleto: 'JUAN CAMILO BAQUERO BUTTNER'
+      cedula: 79145374,
+      nombreCompleto:
+        'JUAN CAMILO BAQUERO BUTTNER'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400306320180075600',
@@ -6659,8 +6991,9 @@ exports.carpetas = [
     numero: 437,
     id    : '80162319',
     deudor: {
-      cedula        : 80162319,
-      nombreCompleto: 'JAVIER ANTONIO ZIPA SALAMANCA'
+      cedula: 80162319,
+      nombreCompleto:
+        'JAVIER ANTONIO ZIPA SALAMANCA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400371520180021200',
@@ -6681,8 +7014,9 @@ exports.carpetas = [
     numero: 439,
     id    : '79812352',
     deudor: {
-      cedula        : 79812352,
-      nombreCompleto: 'MIGUEL ESNEYDER DEVIA CEPEDA'
+      cedula: 79812352,
+      nombreCompleto:
+        'MIGUEL ESNEYDER DEVIA CEPEDA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25899400300320180055500',
@@ -6692,8 +7026,9 @@ exports.carpetas = [
     numero: 440,
     id    : '30387764',
     deudor: {
-      cedula        : 30387764,
-      nombreCompleto: 'BLANCA ESTHER QUIROGA GIRALDO'
+      cedula: 30387764,
+      nombreCompleto:
+        'BLANCA ESTHER QUIROGA GIRALDO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001408900820180022300',
@@ -6714,8 +7049,9 @@ exports.carpetas = [
     numero: 442,
     id    : '80183322',
     deudor: {
-      cedula        : 80183322,
-      nombreCompleto: 'JULIAN FELIPE ECHEVERRY FORERO'
+      cedula: 80183322,
+      nombreCompleto:
+        'JULIAN FELIPE ECHEVERRY FORERO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400307820180062300',
@@ -6725,8 +7061,9 @@ exports.carpetas = [
     numero: 443,
     id    : '80424051',
     deudor: {
-      cedula        : 80424051,
-      nombreCompleto: 'DIEGO FERNANDO BENITEZ ALVARADO'
+      cedula: 80424051,
+      nombreCompleto:
+        'DIEGO FERNANDO BENITEZ ALVARADO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400301020180078400',
@@ -6747,8 +7084,9 @@ exports.carpetas = [
     numero: 445,
     id    : '79978846',
     deudor: {
-      cedula        : 79978846,
-      nombreCompleto: 'JUAN CARLOS GARZON BEJARANO'
+      cedula: 79978846,
+      nombreCompleto:
+        'JUAN CARLOS GARZON BEJARANO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25754400300120180057200',
@@ -6769,8 +7107,9 @@ exports.carpetas = [
     numero: 447,
     id    : '79698506',
     deudor: {
-      cedula        : 79698506,
-      nombreCompleto: 'CARLOS ANTONIO PACHECO TORRES'
+      cedula: 79698506,
+      nombreCompleto:
+        'CARLOS ANTONIO PACHECO TORRES'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400300520180071100',
@@ -6813,8 +7152,9 @@ exports.carpetas = [
     numero: 451,
     id    : '1032389993',
     deudor: {
-      cedula        : 1032389993,
-      nombreCompleto: 'JOSE JEISSON GALINDO CARRILLO'
+      cedula: 1032389993,
+      nombreCompleto:
+        'JOSE JEISSON GALINDO CARRILLO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400305620180071100',
@@ -6828,7 +7168,8 @@ exports.carpetas = [
       nombreCompleto: 'MARIA MARIN DE OROZCO',
       tel           : 'F 4412100           CEL 3124885346',
       email         : 'mauriciosamu1128@gmail.com',
-      direccion     : 'CARRERA 103 A  No 77D-22 MOLINOS- BOGOTA'
+      direccion:
+        'CARRERA 103 A  No 77D-22 MOLINOS- BOGOTA'
     },
     demanda: {
       vencimientoPagare      : '07/03/2020',
@@ -6867,8 +7208,9 @@ exports.carpetas = [
     numero: 454,
     id    : '80089235',
     deudor: {
-      cedula        : 80089235,
-      nombreCompleto: 'NICOLAS ERNESTO COCOMA ARCINIEGAS'
+      cedula: 80089235,
+      nombreCompleto:
+        'NICOLAS ERNESTO COCOMA ARCINIEGAS'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400308420180067300',
@@ -6889,8 +7231,9 @@ exports.carpetas = [
     numero: 456,
     id    : '26407097',
     deudor: {
-      cedula        : 26407097,
-      nombreCompleto: 'ANA LUCIA YAÑEZ VARGAS (FALLECIDA)'
+      cedula: 26407097,
+      nombreCompleto:
+        'ANA LUCIA YAÑEZ VARGAS (FALLECIDA)'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001410375120180112100',
@@ -6911,11 +7254,13 @@ exports.carpetas = [
     numero: 458,
     id    : '52271112',
     deudor: {
-      cedula        : 52271112,
-      nombreCompleto: 'SANDRA PATRICIA BELTRAN OVIEDO',
-      tel           : 'F 6607900',
-      email         : 'saraja.7@hotmail.com',
-      direccion     : 'CARRERA 101 No 70 A-14 INTERIOR 1 APARTAMENTO 408'
+      cedula: 52271112,
+      nombreCompleto:
+        'SANDRA PATRICIA BELTRAN OVIEDO',
+      tel  : 'F 6607900',
+      email: 'saraja.7@hotmail.com',
+      direccion:
+        'CARRERA 101 No 70 A-14 INTERIOR 1 APARTAMENTO 408'
     },
     demanda: {
       vencimientoPagare      : '15/0/2020',
@@ -6954,8 +7299,9 @@ exports.carpetas = [
     numero: 460,
     id    : '79424825',
     deudor: {
-      cedula        : 79424825,
-      nombreCompleto: 'JORGE ABDOLONIO GUERRERO HERNANDEZ'
+      cedula: 79424825,
+      nombreCompleto:
+        'JORGE ABDOLONIO GUERRERO HERNANDEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400306620190040900',
@@ -6987,16 +7333,19 @@ exports.carpetas = [
     numero: 463,
     id    : '52883958',
     deudor: {
-      cedula        : 52883958,
-      nombreCompleto: 'LEIDY YANETH VIDAL RODRIGUEZ',
-      tel           : 'F 7114516',
-      email         : 'leidyyaneth.lyv@gmail.com',
-      direccion     : 'DIAGONAL 2 No 21 B-20'
+      cedula: 52883958,
+      nombreCompleto:
+        'LEIDY YANETH VIDAL RODRIGUEZ',
+      tel      : 'F 7114516',
+      email    : 'leidyyaneth.lyv@gmail.com',
+      direccion: 'DIAGONAL 2 No 21 B-20'
     },
     demanda: {
-      vencimientoPagare      : '4/02/2021 // 16/02/2021',
-      obligacion             : 'AMERICAN 0377814037749057',
-      obligacion2            : 'VISA 4513083943843365 // MASTER 5303729958258417',
+      vencimientoPagare:
+        '4/02/2021 // 16/02/2021',
+      obligacion: 'AMERICAN 0377814037749057',
+      obligacion2:
+        'VISA 4513083943843365 // MASTER 5303729958258417',
       entregaGarantiasAbogado: '2018-07-05',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
@@ -7018,8 +7367,9 @@ exports.carpetas = [
     numero: 464,
     id    : '51944991',
     deudor: {
-      cedula        : 51944991,
-      nombreCompleto: 'RICARDO ARMANDO CELIS ANGEL'
+      cedula: 51944991,
+      nombreCompleto:
+        'RICARDO ARMANDO CELIS ANGEL'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25754418900220180066400',
@@ -7040,16 +7390,20 @@ exports.carpetas = [
     numero: 466,
     id    : '53160094',
     deudor: {
-      cedula        : 53160094,
-      nombreCompleto: 'DARLEY JULIED PAEZ HIGUERA',
-      tel           : 'F 14933266               CEL 3115754578',
-      email         : 'djpaez5@hotmail.com',
-      direccion     : 'CALLE 130 No 126-96 INTERIOR 16 APARTAMENTO 302'
+      cedula: 53160094,
+      nombreCompleto:
+        'DARLEY JULIED PAEZ HIGUERA',
+      tel  : 'F 14933266               CEL 3115754578',
+      email: 'djpaez5@hotmail.com',
+      direccion:
+        'CALLE 130 No 126-96 INTERIOR 16 APARTAMENTO 302'
     },
     demanda: {
-      vencimientoPagare      : '3/05/2020 // 17/04/2020',
-      obligacion             : '37781415851035/',
-      obligacion2            : '4099830008406922 / 5303710339142355',
+      vencimientoPagare:
+        '3/05/2020 // 17/04/2020',
+      obligacion: '37781415851035/',
+      obligacion2:
+        '4099830008406922 / 5303710339142355',
       entregaGarantiasAbogado: '29/01/2018',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
@@ -7073,8 +7427,9 @@ exports.carpetas = [
     numero: 467,
     id    : '79938802',
     deudor: {
-      cedula        : 79938802,
-      nombreCompleto: 'MANUEL SANTIAGO CORREAL ZUÑIGA'
+      cedula: 79938802,
+      nombreCompleto:
+        'MANUEL SANTIAGO CORREAL ZUÑIGA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400301720180083200',
@@ -7084,8 +7439,9 @@ exports.carpetas = [
     numero: 468,
     id    : '79719969',
     deudor: {
-      cedula        : 79719969,
-      nombreCompleto: 'CARLOS EDUARDO NARANJO PIÑEROS'
+      cedula: 79719969,
+      nombreCompleto:
+        'CARLOS EDUARDO NARANJO PIÑEROS'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001408900420180038400',
@@ -7106,8 +7462,9 @@ exports.carpetas = [
     numero: 470,
     id    : '52711938',
     deudor: {
-      cedula        : 52711938,
-      nombreCompleto: 'ELIANA JANNETH LOZANO ARTURO'
+      cedula: 52711938,
+      nombreCompleto:
+        'ELIANA JANNETH LOZANO ARTURO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25754418900320180084100',
@@ -7150,8 +7507,9 @@ exports.carpetas = [
     numero: 474,
     id    : '52788376',
     deudor: {
-      cedula        : 52788376,
-      nombreCompleto: 'NADIA KATERINE MORENO CAMACHO'
+      cedula: 52788376,
+      nombreCompleto:
+        'NADIA KATERINE MORENO CAMACHO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001418903220180127100',
@@ -7161,11 +7519,12 @@ exports.carpetas = [
     numero: 475,
     id    : '4281808',
     deudor: {
-      cedula        : 4281808,
-      nombreCompleto: 'JOSE LIBRANDO CANDELA MUNEVAR',
-      tel           : 'F 7113967',
-      email         : 'eedibrando600@hotmail.com',
-      direccion     : 'CALLE 1 A No 13-30  SOACHA'
+      cedula: 4281808,
+      nombreCompleto:
+        'JOSE LIBRANDO CANDELA MUNEVAR',
+      tel      : 'F 7113967',
+      email    : 'eedibrando600@hotmail.com',
+      direccion: 'CALLE 1 A No 13-30  SOACHA'
     },
     demanda: {
       vencimientoPagare      : '03/08//2019',
@@ -7201,11 +7560,12 @@ exports.carpetas = [
     numero: 477,
     id    : '79568543',
     deudor: {
-      cedula        : 79568543,
-      nombreCompleto: 'ADOLFO  LEON DAZA FERNANDEZ',
-      tel           : 'F 7038787',
-      email         : 'adolfo.daza@gmail.com',
-      direccion     : 'CALLE 60 No 38-26 APTO 301'
+      cedula: 79568543,
+      nombreCompleto:
+        'ADOLFO  LEON DAZA FERNANDEZ',
+      tel      : 'F 7038787',
+      email    : 'adolfo.daza@gmail.com',
+      direccion: 'CALLE 60 No 38-26 APTO 301'
     },
     demanda: {
       vencimientoPagare      : '2020-08-15',
@@ -7233,8 +7593,9 @@ exports.carpetas = [
     numero: 478,
     id    : '3199064',
     deudor: {
-      cedula        : 3199064,
-      nombreCompleto: 'FABIO HERNANDO PASTOR PASTOR'
+      cedula: 3199064,
+      nombreCompleto:
+        'FABIO HERNANDO PASTOR PASTOR'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25799418900120180033500',
@@ -7244,8 +7605,9 @@ exports.carpetas = [
     numero: 479,
     id    : '39809183',
     deudor: {
-      cedula        : 39809183,
-      nombreCompleto: 'TANIA CONSUELO BOTIA CORREA'
+      cedula: 39809183,
+      nombreCompleto:
+        'TANIA CONSUELO BOTIA CORREA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25785418900120180017100',
@@ -7259,10 +7621,12 @@ exports.carpetas = [
       nombreCompleto: 'ADRIANA VANEGAS PEÑA',
       tel           : 'CEL 3152573448',
       email         : 'adriana.0806@hotmail.com',
-      direccion     : 'CARRERA 14 No 22-10  APARTAMENTO  202 GIRARDOT'
+      direccion:
+        'CARRERA 14 No 22-10  APARTAMENTO  202 GIRARDOT'
     },
     demanda: {
-      vencimientoPagare      : '15/04/2021 // 6/04/2021',
+      vencimientoPagare:
+        '15/04/2021 // 6/04/2021',
       obligacion             : 'AUDIOPRESTAMO',
       obligacion2            : 5306960687119070,
       entregaGarantiasAbogado: '23/08/2018',
@@ -7285,8 +7649,9 @@ exports.carpetas = [
     numero: 481,
     id    : '80019013',
     deudor: {
-      cedula        : 80019013,
-      nombreCompleto: 'WILLINTONG MARIO  YARURO PEÑARANDA'
+      cedula: 80019013,
+      nombreCompleto:
+        'WILLINTONG MARIO  YARURO PEÑARANDA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001410375120190027600',
@@ -7296,8 +7661,9 @@ exports.carpetas = [
     numero: 482,
     id    : '52380535',
     deudor: {
-      cedula        : 52380535,
-      nombreCompleto: 'CLAUDIA JANETH CORTES ROSAS'
+      cedula: 52380535,
+      nombreCompleto:
+        'CLAUDIA JANETH CORTES ROSAS'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400307120180093600',
@@ -7307,8 +7673,9 @@ exports.carpetas = [
     numero: 483,
     id    : '19459237',
     deudor: {
-      cedula        : 19459237,
-      nombreCompleto: 'WILSON RICARDO ESCOBAR ESCOBAR'
+      cedula: 19459237,
+      nombreCompleto:
+        'WILSON RICARDO ESCOBAR ESCOBAR'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001418903220180137000',
@@ -7329,8 +7696,9 @@ exports.carpetas = [
     numero: 485,
     id    : '52115085',
     deudor: {
-      cedula        : 52115085,
-      nombreCompleto: 'DIANA MARGARITA BUSTOS BALLEN'
+      cedula: 52115085,
+      nombreCompleto:
+        'DIANA MARGARITA BUSTOS BALLEN'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001418900820180076100',
@@ -7340,8 +7708,9 @@ exports.carpetas = [
     numero: 486,
     id    : '40776578',
     deudor: {
-      cedula        : 40776578,
-      nombreCompleto: 'SANDRA PATRICIA LONDOÑO MURCIA'
+      cedula: 40776578,
+      nombreCompleto:
+        'SANDRA PATRICIA LONDOÑO MURCIA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001418900520180021000',
@@ -7362,8 +7731,9 @@ exports.carpetas = [
     numero: 488,
     id    : '52837807',
     deudor: {
-      cedula        : 52837807,
-      nombreCompleto: 'SANDRA MILENA MORENO CAMPUZANO'
+      cedula: 52837807,
+      nombreCompleto:
+        'SANDRA MILENA MORENO CAMPUZANO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001418901020180083400',
@@ -7384,8 +7754,9 @@ exports.carpetas = [
     numero: 490,
     id    : '80052004',
     deudor: {
-      cedula        : 80052004,
-      nombreCompleto: 'DIEGO ARMANDO MATEUS ESPITIA'
+      cedula: 80052004,
+      nombreCompleto:
+        'DIEGO ARMANDO MATEUS ESPITIA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25754418900120180098800',
@@ -7395,16 +7766,20 @@ exports.carpetas = [
     numero: 491,
     id    : '51987570',
     deudor: {
-      cedula        : 51987570,
-      nombreCompleto: 'SANDRA PATRICIA PACHECO RAMIREZ',
-      tel           : 'F 8121692',
-      email         : 'sandrabogota2007@yahoo.com',
-      direccion     : 'CALLE 163 B No 50-80  INTERIOR 10 APT 231 CONJUNTO LA ESTANCIA III'
+      cedula: 51987570,
+      nombreCompleto:
+        'SANDRA PATRICIA PACHECO RAMIREZ',
+      tel  : 'F 8121692',
+      email: 'sandrabogota2007@yahoo.com',
+      direccion:
+        'CALLE 163 B No 50-80  INTERIOR 10 APT 231 CONJUNTO LA ESTANCIA III'
     },
     demanda: {
-      vencimientoPagare      : '15/05/2021 // 5/07/2021 // 5/07/2021',
-      obligacion             : 'AUDIOPRESTAMO',
-      obligacion2            : '0377816345049476 // 4513070259455355 // 5303720114305077',
+      vencimientoPagare:
+        '15/05/2021 // 5/07/2021 // 5/07/2021',
+      obligacion: 'AUDIOPRESTAMO',
+      obligacion2:
+        '0377816345049476 // 4513070259455355 // 5303720114305077',
       entregaGarantiasAbogado: '3/09/2018',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
@@ -7418,8 +7793,9 @@ exports.carpetas = [
           url : 'https://www.ramajudicial.gov.co/web/juzgado-05-de-ejecucion-civil-municipal-de-bogota'
         }
       },
-      radicado     : '2018 - 00785',
-      etapaProcesal: 'EMBARGO DE REMANENTES JUZGADO 27 PROCESO 2019 - 00251'
+      radicado: '2018 - 00785',
+      etapaProcesal:
+        'EMBARGO DE REMANENTES JUZGADO 27 PROCESO 2019 - 00251'
     },
     capitalAdeudado: 18100699,
     tipoProceso    : 'SINGULAR',
@@ -7430,8 +7806,9 @@ exports.carpetas = [
     numero: 492,
     id    : '22444794',
     deudor: {
-      cedula        : 22444794,
-      nombreCompleto: 'MARIBEL DEL ROSARIO RIVERA JIMENEZ'
+      cedula: 22444794,
+      nombreCompleto:
+        'MARIBEL DEL ROSARIO RIVERA JIMENEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25736408900120180013500',
@@ -7441,8 +7818,9 @@ exports.carpetas = [
     numero: 493,
     id    : '53103504',
     deudor: {
-      cedula        : 53103504,
-      nombreCompleto: 'KELLY YULIANA QUINTERO FIERRO'
+      cedula: 53103504,
+      nombreCompleto:
+        'KELLY YULIANA QUINTERO FIERRO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001410375120180181700',
@@ -7463,8 +7841,9 @@ exports.carpetas = [
     numero: 495,
     id    : '17099495',
     deudor: {
-      cedula        : 17099495,
-      nombreCompleto: 'PABLO ELIAS MENDOZA MURILLO'
+      cedula: 17099495,
+      nombreCompleto:
+        'PABLO ELIAS MENDOZA MURILLO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400300320180123600',
@@ -7481,7 +7860,8 @@ exports.carpetas = [
       direccion     : 'CARRERA 6 No 6-59'
     },
     demanda: {
-      vencimientoPagare      : '14/09/2021 // 07/05/2021',
+      vencimientoPagare:
+        '14/09/2021 // 07/05/2021',
       obligacion             : 'AUDIOPRESTAMO',
       obligacion2            : 5491570347356810,
       entregaGarantiasAbogado: '18/09/2018',
@@ -7516,8 +7896,9 @@ exports.carpetas = [
     numero: 498,
     id    : '80546020',
     deudor: {
-      cedula        : 80546020,
-      nombreCompleto: 'JOSE ALEXANDER BECERRA BARRERA'
+      cedula: 80546020,
+      nombreCompleto:
+        'JOSE ALEXANDER BECERRA BARRERA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25899400300320180042900',
@@ -7531,12 +7912,15 @@ exports.carpetas = [
       nombreCompleto: 'FLORESMIRO APONTE ACOSTA',
       tel           : 'F 3208569',
       email         : 'dcentro@pcpplasticos.com',
-      direccion     : 'DIAGONAL 77B No 119 A-74 APTO 504 INT6'
+      direccion:
+        'DIAGONAL 77B No 119 A-74 APTO 504 INT6'
     },
     demanda: {
-      vencimientoPagare      : '31/11/2024',
-      obligacion             : '20990123680  7/  377813468472239',
-      obligacion2            : '4513079359765043 // 53037220341399596',
+      vencimientoPagare: '31/11/2024',
+      obligacion:
+        '20990123680  7/  377813468472239',
+      obligacion2:
+        '4513079359765043 // 53037220341399596',
       entregaGarantiasAbogado: '08/10/2018',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
@@ -7590,8 +7974,9 @@ exports.carpetas = [
     numero: 501,
     id    : '830105220',
     deudor: {
-      cedula        : 830105220,
-      nombreCompleto: 'ASOCIACION AGROPECUARIA UCEBUL'
+      cedula: 830105220,
+      nombreCompleto:
+        'ASOCIACION AGROPECUARIA UCEBUL'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400305520180131600',
@@ -7601,11 +7986,13 @@ exports.carpetas = [
     numero: 502,
     id    : '1023861016',
     deudor: {
-      cedula        : 1023861016,
-      nombreCompleto: 'ANGELICA NATHALY ROZO FRANCO',
-      tel           : 'F 6594339',
-      email         : 'Anrf1985@hotmail.com',
-      direccion     : 'TRANSVERSAL 70G SUR-68-52 TORRE 18 APARTAMENTO 1401'
+      cedula: 1023861016,
+      nombreCompleto:
+        'ANGELICA NATHALY ROZO FRANCO',
+      tel  : 'F 6594339',
+      email: 'Anrf1985@hotmail.com',
+      direccion:
+        'TRANSVERSAL 70G SUR-68-52 TORRE 18 APARTAMENTO 1401'
     },
     demanda: {
       vencimientoPagare      : '05/01/2021',
@@ -7633,8 +8020,9 @@ exports.carpetas = [
     numero: 503,
     id    : '3096755',
     deudor: {
-      cedula        : 3096755,
-      nombreCompleto: 'JUAN CARLOS LEON MONTENEGRO'
+      cedula: 3096755,
+      nombreCompleto:
+        'JUAN CARLOS LEON MONTENEGRO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25436408900120180006300',
@@ -7655,8 +8043,9 @@ exports.carpetas = [
     numero: 505,
     id    : '80156570',
     deudor: {
-      cedula        : 80156570,
-      nombreCompleto: 'WILLIAM  GIOVANNY GARZON LOPEZ'
+      cedula: 80156570,
+      nombreCompleto:
+        'WILLIAM  GIOVANNY GARZON LOPEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001418902520180246200',
@@ -7666,8 +8055,9 @@ exports.carpetas = [
     numero: 506,
     id    : '1023891419',
     deudor: {
-      cedula        : 1023891419,
-      nombreCompleto: 'EDWIN CAMILO SARMIENTO GOMEZ'
+      cedula: 1023891419,
+      nombreCompleto:
+        'EDWIN CAMILO SARMIENTO GOMEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001418903120180138000',
@@ -7677,8 +8067,9 @@ exports.carpetas = [
     numero: 507,
     id    : '80468168',
     deudor: {
-      cedula        : 80468168,
-      nombreCompleto: 'WILLIAM  YOVANY CASALLAS ROMERO'
+      cedula: 80468168,
+      nombreCompleto:
+        'WILLIAM  YOVANY CASALLAS ROMERO'
     },
     capitalAdeudado: 0,
     llaveProceso   : '2.58434003001201E+22',
@@ -7688,11 +8079,12 @@ exports.carpetas = [
     numero: 508,
     id    : '11230400',
     deudor: {
-      cedula        : 11230400,
-      nombreCompleto: 'JOSE ALFONSO VASQUEZ TOVAR',
-      tel           : 'CEL 3123703828',
-      email         : 'joalvato09@hotmail.com',
-      direccion     : 'CALLE 2 A No 5-22 APTO 503'
+      cedula: 11230400,
+      nombreCompleto:
+        'JOSE ALFONSO VASQUEZ TOVAR',
+      tel      : 'CEL 3123703828',
+      email    : 'joalvato09@hotmail.com',
+      direccion: 'CALLE 2 A No 5-22 APTO 503'
     },
     demanda: {
       vencimientoPagare      : '01/03/2026',
@@ -7718,8 +8110,9 @@ exports.carpetas = [
     numero: 509,
     id    : '20401209',
     deudor: {
-      cedula        : 20401209,
-      nombreCompleto: 'DIANA CAROLINA PRADO FIQUITIVA'
+      cedula: 20401209,
+      nombreCompleto:
+        'DIANA CAROLINA PRADO FIQUITIVA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25214400300120180100200',
@@ -7729,8 +8122,9 @@ exports.carpetas = [
     numero: 510,
     id    : '80854028',
     deudor: {
-      cedula        : 80854028,
-      nombreCompleto: 'MANUEL ARNULFO ARAQUE MUÑOZ'
+      cedula: 80854028,
+      nombreCompleto:
+        'MANUEL ARNULFO ARAQUE MUÑOZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25754400300220180041500',
@@ -7740,8 +8134,9 @@ exports.carpetas = [
     numero: 511,
     id    : '52851677',
     deudor: {
-      cedula        : 52851677,
-      nombreCompleto: 'DIANA MARJORIE ROMERO MONTOYA'
+      cedula: 52851677,
+      nombreCompleto:
+        'DIANA MARJORIE ROMERO MONTOYA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25754400300220180041600',
@@ -7751,8 +8146,9 @@ exports.carpetas = [
     numero: 512,
     id    : '1014200510',
     deudor: {
-      cedula        : 1014200510,
-      nombreCompleto: 'SANDRA MILENA MORALES GARCIA'
+      cedula: 1014200510,
+      nombreCompleto:
+        'SANDRA MILENA MORALES GARCIA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25754418900320180135200',
@@ -7762,8 +8158,9 @@ exports.carpetas = [
     numero: 513,
     id    : '80865782',
     deudor: {
-      cedula        : 80865782,
-      nombreCompleto: 'ERIK RICARDO PINTO RODRIGUEZ'
+      cedula: 80865782,
+      nombreCompleto:
+        'ERIK RICARDO PINTO RODRIGUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400304420190016500',
@@ -7773,11 +8170,12 @@ exports.carpetas = [
     numero: 514,
     id    : '19496623',
     deudor: {
-      cedula        : 19496623,
-      nombreCompleto: 'MANUEL ALBERTO LEON CALDERON',
-      tel           : 'F 3175879',
-      email         : 'terranova54@latinmail.com',
-      direccion     : 'CARRERA 68 No 100-51 APTO 405'
+      cedula: 19496623,
+      nombreCompleto:
+        'MANUEL ALBERTO LEON CALDERON',
+      tel      : 'F 3175879',
+      email    : 'terranova54@latinmail.com',
+      direccion: 'CARRERA 68 No 100-51 APTO 405'
     },
     demanda: {
       vencimientoPagare      : '10/03/2022',
@@ -7812,8 +8210,9 @@ exports.carpetas = [
     numero: 516,
     id    : '79245905',
     deudor: {
-      cedula        : 79245905,
-      nombreCompleto: 'ALVARO LUIS ASPRILLA LUCUMI'
+      cedula: 79245905,
+      nombreCompleto:
+        'ALVARO LUIS ASPRILLA LUCUMI'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001418901420190019000',
@@ -7834,8 +8233,9 @@ exports.carpetas = [
     numero: 518,
     id    : '80222254',
     deudor: {
-      cedula        : 80222254,
-      nombreCompleto: 'JORGE IVAN AVENDAÑO VANEGAS'
+      cedula: 80222254,
+      nombreCompleto:
+        'JORGE IVAN AVENDAÑO VANEGAS'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001418900920190016200',
@@ -7845,8 +8245,9 @@ exports.carpetas = [
     numero: 519,
     id    : '1030529007',
     deudor: {
-      cedula        : 1030529007,
-      nombreCompleto: 'LEIDY CATALINA LOSADA CABRERA'
+      cedula: 1030529007,
+      nombreCompleto:
+        'LEIDY CATALINA LOSADA CABRERA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400307020190055100',
@@ -7867,8 +8268,9 @@ exports.carpetas = [
     numero: 521,
     id    : '40050052',
     deudor: {
-      cedula        : 40050052,
-      nombreCompleto: 'MARIA AQUILINA RODRIGUEZ LANCHEROS'
+      cedula: 40050052,
+      nombreCompleto:
+        'MARIA AQUILINA RODRIGUEZ LANCHEROS'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001418901220190023500',
@@ -7878,8 +8280,9 @@ exports.carpetas = [
     numero: 522,
     id    : '79359896',
     deudor: {
-      cedula        : 79359896,
-      nombreCompleto: 'ARMANDO RODRIGUEZ RODRIGUEZ'
+      cedula: 79359896,
+      nombreCompleto:
+        'ARMANDO RODRIGUEZ RODRIGUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400306820190100400',
@@ -7889,8 +8292,9 @@ exports.carpetas = [
     numero: 523,
     id    : '1014185022',
     deudor: {
-      cedula        : 1014185022,
-      nombreCompleto: 'LUISA ALEJANDRA ESCOBAR ANDRADE'
+      cedula: 1014185022,
+      nombreCompleto:
+        'LUISA ALEJANDRA ESCOBAR ANDRADE'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001418907620190043400',
@@ -7900,8 +8304,9 @@ exports.carpetas = [
     numero: 524,
     id    : '52433839',
     deudor: {
-      cedula        : 52433839,
-      nombreCompleto: 'INGRIT YOHANA VASQUEZ ROJAS'
+      cedula: 52433839,
+      nombreCompleto:
+        'INGRIT YOHANA VASQUEZ ROJAS'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400307520190100800',
@@ -7922,8 +8327,9 @@ exports.carpetas = [
     numero: 526,
     id    : '1072642976',
     deudor: {
-      cedula        : 1072642976,
-      nombreCompleto: 'CRISTIAN DAVID GUTIERREZ RODRIGUEZ'
+      cedula: 1072642976,
+      nombreCompleto:
+        'CRISTIAN DAVID GUTIERREZ RODRIGUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25175400300120190030400',
@@ -7933,8 +8339,9 @@ exports.carpetas = [
     numero: 527,
     id    : '80654935',
     deudor: {
-      cedula        : 80654935,
-      nombreCompleto: 'JAIRO MARCELO GUIZA RODRIGUEZ'
+      cedula: 80654935,
+      nombreCompleto:
+        'JAIRO MARCELO GUIZA RODRIGUEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25286400300120190041800',
@@ -7944,8 +8351,9 @@ exports.carpetas = [
     numero: 528,
     id    : '1065564377',
     deudor: {
-      cedula        : 1065564377,
-      nombreCompleto: 'YOLADIS ESTHER BLANCO LOPEZ'
+      cedula: 1065564377,
+      nombreCompleto:
+        'YOLADIS ESTHER BLANCO LOPEZ'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25473400100120190116000',
@@ -8003,11 +8411,13 @@ exports.carpetas = [
       nombreCompleto: 'SANDRA LEONOR PAEZ MURCIA',
       tel           : '6139147 // 3134386087',
       email         : 'yadelcis@hotmail.com',
-      direccion     : 'KR 81 No. 127 A - 46 CONJUNTO MONTE AZUL BOGOTA'
+      direccion:
+        'KR 81 No. 127 A - 46 CONJUNTO MONTE AZUL BOGOTA'
     },
     demanda: {
-      obligacion             : 2020084294,
-      obligacion2            : '2020087484 // 4594250317705437 //5303723260933890',
+      obligacion: 2020084294,
+      obligacion2:
+        '2020087484 // 4594250317705437 //5303723260933890',
       entregaGarantiasAbogado: '2020-10-07',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
@@ -8058,11 +8468,13 @@ exports.carpetas = [
     numero: 533,
     id    : '79522009',
     deudor: {
-      cedula        : 79522009,
-      nombreCompleto: 'JAIRO ALFONSO PARDO JAIMES',
-      tel           : 'F 7808590',
-      email         : 'jairopardo8-11-70@hotmail.com',
-      direccion     : 'DIAGONAL 28 No 33-27  TORRE 7 APART 203  SOACHA'
+      cedula: 79522009,
+      nombreCompleto:
+        'JAIRO ALFONSO PARDO JAIMES',
+      tel  : 'F 7808590',
+      email: 'jairopardo8-11-70@hotmail.com',
+      direccion:
+        'DIAGONAL 28 No 33-27  TORRE 7 APART 203  SOACHA'
     },
     demanda: {
       vencimientoPagare      : '15/11/2021',
@@ -8089,11 +8501,12 @@ exports.carpetas = [
     numero: 534,
     id    : '11337530',
     deudor: {
-      cedula        : 11337530,
-      nombreCompleto: 'PEDRO JULIO TRIVIÑO VALBUENA',
-      tel           : 3115159670,
-      email         : 'maribelbonita86@hotmail.com',
-      direccion     : 'VEREDA SAN JORGE ZIPAQUIRA'
+      cedula: 11337530,
+      nombreCompleto:
+        'PEDRO JULIO TRIVIÑO VALBUENA',
+      tel      : 3115159670,
+      email    : 'maribelbonita86@hotmail.com',
+      direccion: 'VEREDA SAN JORGE ZIPAQUIRA'
     },
     demanda: {
       obligacion             : 377814085773793,
@@ -8140,11 +8553,12 @@ exports.carpetas = [
     numero: 537,
     id    : '52155023',
     deudor: {
-      cedula        : 52155023,
-      nombreCompleto: 'SANDRA  LILIANA CRUZ BELTRAN',
-      tel           : 'F 5360278                          CEL 3108540511',
-      email         : 'mediconta@gmail.com',
-      direccion     : 'CALLE 86A No 95A-15 APTO 108'
+      cedula: 52155023,
+      nombreCompleto:
+        'SANDRA  LILIANA CRUZ BELTRAN',
+      tel      : 'F 5360278                          CEL 3108540511',
+      email    : 'mediconta@gmail.com',
+      direccion: 'CALLE 86A No 95A-15 APTO 108'
     },
     demanda: {
       vencimientoPagare      : '2022-02-02',
@@ -8188,7 +8602,8 @@ exports.carpetas = [
       nombreCompleto: 'ADRIANA LUCIA MORA PLATA',
       tel           : 'F 8146011',
       email         : 'amoplata@yahoo.com',
-      direccion     : 'CALLLE 106 B- No 54-57 APTO 201 PUENTE LARGO'
+      direccion:
+        'CALLLE 106 B- No 54-57 APTO 201 PUENTE LARGO'
     },
     demanda: {
       vencimientoPagare      : '2021-04-10',
@@ -8217,14 +8632,16 @@ exports.carpetas = [
     numero: 540,
     id    : '3242760',
     deudor: {
-      cedula        : 3242760,
-      nombreCompleto: 'JOSE RODRIGO GARCIA QUINTERO',
-      tel           : 'F 6855750                   CEL 3143659602',
-      email         : 'rodrigogar68@hotmail.com',
-      direccion     : 'CARRERA 86 No 99-23'
+      cedula: 3242760,
+      nombreCompleto:
+        'JOSE RODRIGO GARCIA QUINTERO',
+      tel      : 'F 6855750                   CEL 3143659602',
+      email    : 'rodrigogar68@hotmail.com',
+      direccion: 'CARRERA 86 No 99-23'
     },
     demanda: {
-      vencimientoPagare      : '10/05/2121 // 10/05/2021',
+      vencimientoPagare:
+        '10/05/2121 // 10/05/2021',
       obligacion             : 1980096337,
       obligacion2            : 6700083464,
       entregaGarantiasAbogado: '2018-07-26',
@@ -8250,14 +8667,16 @@ exports.carpetas = [
     numero: 541,
     id    : '79533771',
     deudor: {
-      cedula        : 79533771,
-      nombreCompleto: 'JOSE RAMON ESTRADA CASTILLO',
-      tel           : 'F 2998302',
-      email         : 'jrestradacastillo@gmail.com',
-      direccion     : 'CARRERA 81 G No 48-03 SUR'
+      cedula: 79533771,
+      nombreCompleto:
+        'JOSE RAMON ESTRADA CASTILLO',
+      tel      : 'F 2998302',
+      email    : 'jrestradacastillo@gmail.com',
+      direccion: 'CARRERA 81 G No 48-03 SUR'
     },
     demanda: {
-      vencimientoPagare      : '15/04/2021 // 6/05/2021',
+      vencimientoPagare:
+        '15/04/2021 // 6/05/2021',
       obligacion             : 'AUDIOPRESTAMO',
       obligacion2            : 5491580436291960,
       entregaGarantiasAbogado: '31/08/2018',
@@ -8283,16 +8702,18 @@ exports.carpetas = [
     numero: 542,
     id    : '53106069',
     deudor: {
-      cedula        : 53106069,
-      nombreCompleto: 'BIBIANA PATRICIA ESGUERRA VASQUEZ',
-      tel           : 'F 53106069',
-      email         : 'bicato10@hotmail.com',
-      direccion     : 'CALLE 65 BIS No 86-50'
+      cedula: 53106069,
+      nombreCompleto:
+        'BIBIANA PATRICIA ESGUERRA VASQUEZ',
+      tel      : 'F 53106069',
+      email    : 'bicato10@hotmail.com',
+      direccion: 'CALLE 65 BIS No 86-50'
     },
     demanda: {
-      vencimientoPagare      : '6/04/2021 // 6/04/2021',
-      obligacion             : 'AMERICAN 377813618831557',
-      obligacion2            : 'VISA 4513070030495183 // 5303715376619405',
+      vencimientoPagare: '6/04/2021 // 6/04/2021',
+      obligacion       : 'AMERICAN 377813618831557',
+      obligacion2:
+        'VISA 4513070030495183 // 5303715376619405',
       entregaGarantiasAbogado: '22/08/2018',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
@@ -8320,12 +8741,14 @@ exports.carpetas = [
       nombreCompleto: 'ROSALIA CHARRY  SARMIENTO',
       tel           : 'F 2943968',
       email         : 'rochi2656@hotmail.com',
-      direccion     : 'CALLE 19 A No 82 - 65 INT 6 APTO 503'
+      direccion:
+        'CALLE 19 A No 82 - 65 INT 6 APTO 503'
     },
     demanda: {
-      vencimientoPagare      : '13/03/2022',
-      obligacion             : 3880083804,
-      obligacion2            : '4513074508682496 // 53037103332223839',
+      vencimientoPagare: '13/03/2022',
+      obligacion       : 3880083804,
+      obligacion2:
+        '4513074508682496 // 53037103332223839',
       entregaGarantiasAbogado: '10/10/2018',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
@@ -8370,11 +8793,12 @@ exports.carpetas = [
     numero: 546,
     id    : '1116782267',
     deudor: {
-      cedula        : 1116782267,
-      nombreCompleto: 'JOGLI JOAQUIN OTERO VARGAS',
-      tel           : 'CEL 3005941798',
-      email         : 'juanotero1989@gmail.com',
-      direccion     : 'DIAGONAL 2 No 79 F -04'
+      cedula: 1116782267,
+      nombreCompleto:
+        'JOGLI JOAQUIN OTERO VARGAS',
+      tel      : 'CEL 3005941798',
+      email    : 'juanotero1989@gmail.com',
+      direccion: 'DIAGONAL 2 No 79 F -04'
     },
     demanda: {
       vencimientoPagare      : '2020-10-04',
@@ -8413,8 +8837,9 @@ exports.carpetas = [
     numero: 548,
     id    : '23270185',
     deudor: {
-      cedula        : 23270185,
-      nombreCompleto: 'CLARA PATRICIA PEÑA BELTRAN'
+      cedula: 23270185,
+      nombreCompleto:
+        'CLARA PATRICIA PEÑA BELTRAN'
     },
     capitalAdeudado: 0,
     llaveProceso   : '11001400300820170102400',
@@ -8424,8 +8849,9 @@ exports.carpetas = [
     numero: 549,
     id    : '79405147',
     deudor: {
-      cedula        : 79405147,
-      nombreCompleto: 'JOSE ANTONIO BEJARANO CARREÑO'
+      cedula: 79405147,
+      nombreCompleto:
+        'JOSE ANTONIO BEJARANO CARREÑO'
     },
     capitalAdeudado: 0,
     grupo          : 'Terminados'
@@ -8434,8 +8860,9 @@ exports.carpetas = [
     numero: 550,
     id    : '1022336662',
     deudor: {
-      cedula        : 1022336662,
-      nombreCompleto: 'MIGUEL ANGEL AGUASACO PEÑUELA'
+      cedula: 1022336662,
+      nombreCompleto:
+        'MIGUEL ANGEL AGUASACO PEÑUELA'
     },
     capitalAdeudado: 0,
     llaveProceso   : '25754418900120190091100',
@@ -8445,10 +8872,11 @@ exports.carpetas = [
     numero: 551,
     id    : '1075211773',
     deudor: {
-      cedula        : 1075211773,
-      nombreCompleto: 'PEDRO JONATHAN RAMIREZ GOMEZ',
-      email         : 'jonathansoldier@hotmail.com',
-      direccion     : 'KR 1 2 41 Fusagasugá'
+      cedula: 1075211773,
+      nombreCompleto:
+        'PEDRO JONATHAN RAMIREZ GOMEZ',
+      email    : 'jonathansoldier@hotmail.com',
+      direccion: 'KR 1 2 41 Fusagasugá'
     },
     demanda: {
       vencimientoPagare      : '2028-03-08',
@@ -8472,14 +8900,16 @@ exports.carpetas = [
     numero: 552,
     id    : '1023874668',
     deudor: {
-      cedula        : 1023874668,
-      nombreCompleto: 'OSCAR MAURICIO GOMEZ MENDOZA',
-      tel           : 'F 2043773',
-      email         : 'oscar2794@hotmail.com',
-      direccion     : 'CL 49 A BIS SUR No. 5 N 10'
+      cedula: 1023874668,
+      nombreCompleto:
+        'OSCAR MAURICIO GOMEZ MENDOZA',
+      tel      : 'F 2043773',
+      email    : 'oscar2794@hotmail.com',
+      direccion: 'CL 49 A BIS SUR No. 5 N 10'
     },
     demanda: {
-      vencimientoPagare      : '10/02/2026 // 27/01/2026',
+      vencimientoPagare:
+        '10/02/2026 // 27/01/2026',
       obligacion             : 530104065,
       obligacion2            : 530103261,
       entregaGarantiasAbogado: '2023-06-20',
@@ -8502,10 +8932,12 @@ exports.carpetas = [
     numero: 553,
     id    : '80220698',
     deudor: {
-      cedula        : 80220698,
-      nombreCompleto: 'JOSE ALEXANDER LAVERDE PENAGOS',
-      email         : 'lxndrlaverde@gmail.com',
-      direccion     : 'Carrera 7 # 180 75 // Carrera 8 A No. 182 - 12'
+      cedula: 80220698,
+      nombreCompleto:
+        'JOSE ALEXANDER LAVERDE PENAGOS',
+      email: 'lxndrlaverde@gmail.com',
+      direccion:
+        'Carrera 7 # 180 75 // Carrera 8 A No. 182 - 12'
     },
     demanda: {
       vencimientoPagare      : '2025-02-25',
@@ -8528,16 +8960,20 @@ exports.carpetas = [
     numero: 554,
     id    : '51976656',
     deudor: {
-      cedula        : 51976656,
-      nombreCompleto: 'SANDRA PATRICIA ALVAREZ RODRIGUEZ',
-      tel           : 'F 2297973 CEL 3157352910',
-      email         : 'sandris73@hotmail.com',
-      direccion     : 'Carrera 102 No. 69 - 81 Casa 5 Conjunto Residencial Montes de Tierra Grata'
+      cedula: 51976656,
+      nombreCompleto:
+        'SANDRA PATRICIA ALVAREZ RODRIGUEZ',
+      tel  : 'F 2297973 CEL 3157352910',
+      email: 'sandris73@hotmail.com',
+      direccion:
+        'Carrera 102 No. 69 - 81 Casa 5 Conjunto Residencial Montes de Tierra Grata'
     },
     demanda: {
-      vencimientoPagare      : '22/02/2026 // 4/07/2026 // 6/03/2026',
-      obligacion             : 2150100545,
-      obligacion2            : '377844028390801 y 4513080181283486',
+      vencimientoPagare:
+        '22/02/2026 // 4/07/2026 // 6/03/2026',
+      obligacion: 2150100545,
+      obligacion2:
+        '377844028390801 y 4513080181283486',
       entregaGarantiasAbogado: '2023-07-26',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA'
@@ -8550,11 +8986,13 @@ exports.carpetas = [
     numero: 555,
     id    : '53130409',
     deudor: {
-      cedula        : 53130409,
-      nombreCompleto: 'JEIMMY SOLEY QUIROGA RAMIREZ',
-      tel           : 'F 3917539 CEL 3506509064',
-      email         : 'jsquiroga72@hotmail.com',
-      direccion     : 'CL 55 BIS 16 48 Apartamento 702 Edificio Bangkok'
+      cedula: 53130409,
+      nombreCompleto:
+        'JEIMMY SOLEY QUIROGA RAMIREZ',
+      tel  : 'F 3917539 CEL 3506509064',
+      email: 'jsquiroga72@hotmail.com',
+      direccion:
+        'CL 55 BIS 16 48 Apartamento 702 Edificio Bangkok'
     },
     demanda: {
       vencimientoPagare      : '2026-03-04',
@@ -8575,10 +9013,12 @@ exports.carpetas = [
       nombreCompleto: 'CIRO ERQUILIAN ONOFRE',
       tel           : 'CEL 3023193548',
       email         : 'ciro.onofe1105@gmail.com',
-      direccion     : 'Carrera 13 # 4-20 Madrid (Cundinamarca)'
+      direccion:
+        'Carrera 13 # 4-20 Madrid (Cundinamarca)'
     },
     demanda: {
-      vencimientoPagare      : '9/03/2026 // 9/03/2026 // 9/04/2026',
+      vencimientoPagare:
+        '9/03/2026 // 9/03/2026 // 9/04/2026',
       obligacion             : '3830095699 // 3830095700',
       obligacion2            : 3830095701,
       entregaGarantiasAbogado: '2023-07-26',
@@ -8596,13 +9036,17 @@ exports.carpetas = [
       cedula        : 71685758,
       nombreCompleto: 'CARLOS HERNEY QUINTERO',
       tel           : 'F 6485655 CEL 3002985587',
-      email         : 'cahequi8097@gmail.com  fundaoyuki@gmail.com',
-      direccion     : 'KR 32 A 1 19 BARRIO SANTA MATILDE'
+      email:
+        'cahequi8097@gmail.com  fundaoyuki@gmail.com',
+      direccion:
+        'KR 32 A 1 19 BARRIO SANTA MATILDE'
     },
     demanda: {
-      vencimientoPagare      : '18/07/2026 // 4/03/2026',
-      obligacion             : 840093593,
-      obligacion2            : 'PAGARE SIN NUMERO T. AMERICAN EXPRESS 0377844069636757',
+      vencimientoPagare:
+        '18/07/2026 // 4/03/2026',
+      obligacion: 840093593,
+      obligacion2:
+        'PAGARE SIN NUMERO T. AMERICAN EXPRESS 0377844069636757',
       entregaGarantiasAbogado: '2023-07-26',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA'
@@ -8615,16 +9059,20 @@ exports.carpetas = [
     numero: 558,
     id    : '52531016',
     deudor: {
-      cedula        : 52531016,
-      nombreCompleto: 'CLAUDIA MARCELA ARIAS LÓPEZ',
-      tel           : 'CEL 3106736494',
-      email         : 'marcearias@yahoo.com',
-      direccion     : 'Calle 18 N 86 55 Etapa 1 Torre 5 Apartamento 403 Conjunto Residencial Parque de Ostente'
+      cedula: 52531016,
+      nombreCompleto:
+        'CLAUDIA MARCELA ARIAS LÓPEZ',
+      tel  : 'CEL 3106736494',
+      email: 'marcearias@yahoo.com',
+      direccion:
+        'Calle 18 N 86 55 Etapa 1 Torre 5 Apartamento 403 Conjunto Residencial Parque de Ostente'
     },
     demanda: {
-      vencimientoPagare      : '17/03/2026 // 4/03/2026',
-      obligacion             : 3880005183,
-      obligacion2            : 'PAGARE SIN NUMERO T. MASTER CARD 5303720122061696',
+      vencimientoPagare:
+        '17/03/2026 // 4/03/2026',
+      obligacion: 3880005183,
+      obligacion2:
+        'PAGARE SIN NUMERO T. MASTER CARD 5303720122061696',
       entregaGarantiasAbogado: '2023-07-26',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA'
@@ -8637,11 +9085,13 @@ exports.carpetas = [
     numero: 559,
     id    : '80219425',
     deudor: {
-      cedula        : 80219425,
-      nombreCompleto: 'EDWIN ALEXANDER SALCEDO PEREZ',
-      tel           : 'CEL 3112633806',
-      email         : 'edwsal736@gmail.com',
-      direccion     : 'Calle 50 Sur No. 93 D 38 Torre 07 Apartamento 601 Conjunto Residencial Porvenir Reservado Etapa 7; Carrera 89 A No. 45 A – 33 Sur Casa 207 Agrupación de Vivienda La Margarita Etapa 9'
+      cedula: 80219425,
+      nombreCompleto:
+        'EDWIN ALEXANDER SALCEDO PEREZ',
+      tel  : 'CEL 3112633806',
+      email: 'edwsal736@gmail.com',
+      direccion:
+        'Calle 50 Sur No. 93 D 38 Torre 07 Apartamento 601 Conjunto Residencial Porvenir Reservado Etapa 7; Carrera 89 A No. 45 A – 33 Sur Casa 207 Agrupación de Vivienda La Margarita Etapa 9'
     },
     demanda: {
       vencimientoPagare      : '2026-03-02',
@@ -8662,12 +9112,14 @@ exports.carpetas = [
       nombreCompleto: 'HANSEL MARTINEZ BARROS',
       tel           : 'F 3930210 CEL 3043463859 // 3005306070',
       email         : 'inghanselmartinez@hotmail.com',
-      direccion     : 'CR 51 43 04 Barrio Abajo Barranquilla // Carrera 71 No. 88A - 31 Barranquilla // Calle 42 A No. 46 - 04 Barrio El Parque en Soledad (Atlantico)'
+      direccion:
+        'CR 51 43 04 Barrio Abajo Barranquilla // Carrera 71 No. 88A - 31 Barranquilla // Calle 42 A No. 46 - 04 Barrio El Parque en Soledad (Atlantico)'
     },
     demanda: {
-      vencimientoPagare      : '6/03/2026 //4/07/2026',
-      obligacion             : 4770111750,
-      obligacion2            : 'PAGARÉ SIN NÚMERO T. MASTER CARD 5303720229555616 // T. VISA 4513070377907980',
+      vencimientoPagare: '6/03/2026 //4/07/2026',
+      obligacion       : 4770111750,
+      obligacion2:
+        'PAGARÉ SIN NÚMERO T. MASTER CARD 5303720229555616 // T. VISA 4513070377907980',
       entregaGarantiasAbogado: '2023-07-26',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BARRAQNUILLA'
@@ -8680,16 +9132,21 @@ exports.carpetas = [
     numero: 561,
     id    : '52278914',
     deudor: {
-      cedula        : 52278914,
-      nombreCompleto: 'LUZ JANNETH RODRIGUEZ MOERNO',
-      tel           : 'F 17476445/7848056 CEL 3153208374',
-      email         : 'lurodrig@corona.com.co  jrodriguez2805@hotmail.com',
-      direccion     : 'Carrera 87 No. 48 – 50 Sur Casa 26 Conjunto Residencial Alameda de San José II'
+      cedula: 52278914,
+      nombreCompleto:
+        'LUZ JANNETH RODRIGUEZ MOERNO',
+      tel: 'F 17476445/7848056 CEL 3153208374',
+      email:
+        'lurodrig@corona.com.co  jrodriguez2805@hotmail.com',
+      direccion:
+        'Carrera 87 No. 48 – 50 Sur Casa 26 Conjunto Residencial Alameda de San José II'
     },
     demanda: {
-      vencimientoPagare      : '2/03/2026 // 20/03/2026',
-      obligacion             : 6520089408,
-      obligacion2            : 'TARJETA MASTER CARD No. 5303720118094313 Y TARJETA AMERICAN No. 0377844026948428',
+      vencimientoPagare:
+        '2/03/2026 // 20/03/2026',
+      obligacion: 6520089408,
+      obligacion2:
+        'TARJETA MASTER CARD No. 5303720118094313 Y TARJETA AMERICAN No. 0377844026948428',
       entregaGarantiasAbogado: '2023-07-26',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA'
@@ -8702,16 +9159,20 @@ exports.carpetas = [
     numero: 562,
     id    : '17139148',
     deudor: {
-      cedula        : 17139148,
-      nombreCompleto: 'MARIO HERNAN SALAMANCA PATIÑO',
-      tel           : 'F 7746112',
-      email         : 'ajasalama@gmail.com',
-      direccion     : 'Carrera 80 No. 8 - 11 Torre 3 Interior 5 Apartamento 519 Torres de Santa Barbara Conjunto Residencial'
+      cedula: 17139148,
+      nombreCompleto:
+        'MARIO HERNAN SALAMANCA PATIÑO',
+      tel  : 'F 7746112',
+      email: 'ajasalama@gmail.com',
+      direccion:
+        'Carrera 80 No. 8 - 11 Torre 3 Interior 5 Apartamento 519 Torres de Santa Barbara Conjunto Residencial'
     },
     demanda: {
-      vencimientoPagare      : '10/05/2026 // 6/03/2026',
-      obligacion             : 9960086465,
-      obligacion2            : 'TARJETA DE CREDITO MASTER CARD 5303720132348190',
+      vencimientoPagare:
+        '10/05/2026 // 6/03/2026',
+      obligacion: 9960086465,
+      obligacion2:
+        'TARJETA DE CREDITO MASTER CARD 5303720132348190',
       entregaGarantiasAbogado: '2023-07-26',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA'
@@ -8740,8 +9201,9 @@ exports.carpetas = [
     numero: 564,
     id    : '1013622120',
     deudor: {
-      cedula        : 1013622120,
-      nombreCompleto: 'JOHAN ANDRES QUIROGA GALEANO'
+      cedula: 1013622120,
+      nombreCompleto:
+        'JOHAN ANDRES QUIROGA GALEANO'
     },
     demanda: {
       entregaGarantiasAbogado: '2023-07-26',
@@ -8756,8 +9218,9 @@ exports.carpetas = [
     numero: 565,
     id    : '79399032',
     deudor: {
-      cedula        : 79399032,
-      nombreCompleto: 'JORGE ALEXANDER ABADIA CARRILLO'
+      cedula: 79399032,
+      nombreCompleto:
+        'JORGE ALEXANDER ABADIA CARRILLO'
     },
     demanda: {
       entregaGarantiasAbogado: '2023-07-26',
@@ -8771,8 +9234,9 @@ exports.carpetas = [
     numero: 566,
     id    : '1061047348',
     deudor: {
-      cedula        : 1061047348,
-      nombreCompleto: 'SANDRA MILENA PALACIO RIVERA'
+      cedula: 1061047348,
+      nombreCompleto:
+        'SANDRA MILENA PALACIO RIVERA'
     },
     capitalAdeudado: 0,
     grupo          : 'Bancolombia'
@@ -8781,8 +9245,9 @@ exports.carpetas = [
     numero: 567,
     id    : '94254761',
     deudor: {
-      cedula        : 94254761,
-      nombreCompleto: 'WILSON DE JESUS MOLINA QUIRAMA'
+      cedula: 94254761,
+      nombreCompleto:
+        'WILSON DE JESUS MOLINA QUIRAMA'
     },
     capitalAdeudado: 0,
     grupo          : 'Bancolombia'
@@ -8794,14 +9259,15 @@ const newCarpetasMap = exports.carpetas.map(
     carpeta 
   ) => {
     const newCarpeta = {
-      ...carpeta,
+      ...carpeta
     };
 
     return newCarpeta;
-  } 
+  }
 );
 fs.writeFile(
-  'carpetas.json', JSON.stringify(
+  'carpetas.json',
+  JSON.stringify(
     newCarpetasMap 
-  ) 
+  )
 );

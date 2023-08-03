@@ -1,4 +1,3 @@
-
 import { config } from 'dotenv';
 import { MongoClient } from 'mongodb';
 config();
@@ -18,7 +17,7 @@ if ( process.env.NODE_ENV === 'development' ) {
 
   if ( !globalWithMongo._mongoClientPromise ) {
     client = new MongoClient(
-      uri, options
+      uri, options 
     );
     globalWithMongo._mongoClientPromise
       = client.connect();
@@ -27,7 +26,7 @@ if ( process.env.NODE_ENV === 'development' ) {
     = globalWithMongo._mongoClientPromise;
 } else {
   client = new MongoClient(
-    uri, options
+    uri, options 
   );
   clientPromise = client.connect();
 }

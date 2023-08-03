@@ -9159,52 +9159,52 @@ export const carpetas: IntCarpetaRaw[] = [
 ];
 
 export function telFixer(
-  tel: string
+  tel: string 
 ) {
   const fijo = new Map();
   const celular = new Map();
 
   const hasFijo = tel.includes(
-    'F'
+    'F' 
   );
 
   if ( hasFijo ) {
     const indexOfFijo = tel.indexOf(
-      'F'
+      'F' 
     );
 
     const fijoRaw = tel
             .slice(
-              indexOfFijo, 10
+              indexOfFijo, 10 
             )
             .replace(
-              'F ', ''
+              'F ', '' 
             );
 
     fijo.set(
-      'fijo', fijoRaw
+      'fijo', fijoRaw 
     );
   }
 
   const hasCel = tel.includes(
-    'CEL'
+    'CEL' 
   );
 
   if ( hasCel ) {
     const indexOfCel = tel.indexOf(
-      'CEL'
+      'CEL' 
     );
 
     const celularRaw = tel
             .slice(
-              indexOfCel
+              indexOfCel 
             )
             .replace(
-              'CEL ', ''
+              'CEL ', '' 
             );
 
     celular.set(
-      'celular', celularRaw
+      'celular', celularRaw 
     );
   }
 
@@ -9219,14 +9219,13 @@ export function telFixer(
 }
 
 export function juzgadoFixer(
-  juzgado: Ejecucion
+  juzgado: Ejecucion 
 ) {
-  if ( juzgado.id ){
-
+  if ( juzgado.id ) {
     const id = juzgado.id;
 
     const tipo = juzgado.tipo.replace(
-      /\d/g, ''
+      /\d/g, '' 
     );
 
     return {
@@ -9237,11 +9236,11 @@ export function juzgadoFixer(
   }
 
   const id = juzgado.tipo.replace(
-    /\D/g, ''
+    /\D/g, '' 
   );
 
   const tipo = juzgado.tipo.replace(
-    /\d/g, ''
+    /\d/g, '' 
   );
 
   return {
@@ -9252,18 +9251,18 @@ export function juzgadoFixer(
 }
 
 export function trimmer(
-  nombreCompleto: string
+  nombreCompleto: string 
 ) {
   const trimDemandado = nombreCompleto.replace(
     /^\s+|\s+$/gm,
     ''
   );
   console.log(
-    trimDemandado
+    trimDemandado 
   );
 
   const splitDemandado = trimDemandado.split(
-    ' '
+    ' ' 
   );
 
   const splitDemandadoLength
@@ -9314,11 +9313,11 @@ export function trimmer(
 
 const newMapCarpetas = carpetas.map(
   (
-    carpeta
+    carpeta 
   ) => {
     if ( carpeta.deudor.tel ) {
       telFixer(
-        carpeta.deudor.tel.toString()
+        carpeta.deudor.tel.toString() 
       );
     }
 
@@ -9326,7 +9325,7 @@ const newMapCarpetas = carpetas.map(
     = carpeta.demanda?.juzgado?.ejecucion
     ?? carpeta.demanda?.juzgado?.origen;
     console.log(
-      juzgados
+      juzgados 
     );
 
     const trimmedName = trimmer(
@@ -9334,15 +9333,14 @@ const newMapCarpetas = carpetas.map(
     );
 
     const {
-      nombreCompleto, ...newDeudor
+      nombreCompleto, ...newDeudor 
     }
     = carpeta.deudor;
     const obligaciones = [];
 
     if ( carpeta.demanda ) {
-
       obligaciones.push(
-        carpeta.demanda.obligacion
+        carpeta.demanda.obligacion 
       );
 
       if ( carpeta.demanda.obligacion2 ) {
@@ -9393,16 +9391,16 @@ const newMapCarpetas = carpetas.map(
     };
 
     return newCarpeta;
-  }
+  } 
 );
 
 console.log(
-  newMapCarpetas
+  newMapCarpetas 
 );
 
 fs.writeFile(
   'nuevosNombresMap.json',
   JSON.stringify(
-    newMapCarpetas
+    newMapCarpetas 
   )
 );

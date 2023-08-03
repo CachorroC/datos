@@ -2,123 +2,116 @@ import { carpetas } from '#@/carpetas/rawCarpetas';
 import * as fs from 'fs/promises';
 import { Ejecucion } from '#@/types/raw-carpets.js';
 
-export function telFixer (
-  tel: string
+export function telFixer(
+  tel: string 
 ) {
-  const  fijo = new Map();
+  const fijo = new Map();
   const celular = new Map();
 
   const hasFijo = tel.includes(
-    'F'
+    'F' 
   );
 
   if ( hasFijo ) {
     const indexOfFijo = tel.indexOf(
-      'F'
+      'F' 
     );
 
-    const fijoRaw = tel.slice(
-      indexOfFijo, 10
-    )
+    const fijoRaw = tel
+            .slice(
+              indexOfFijo, 10 
+            )
             .replace(
-              'F ', ''
+              'F ', '' 
             );
 
     fijo.set(
-      'fijo', fijoRaw
+      'fijo', fijoRaw 
     );
   }
 
   const hasCel = tel.includes(
-    'CEL'
+    'CEL' 
   );
 
   if ( hasCel ) {
     const indexOfCel = tel.indexOf(
-      'CEL'
+      'CEL' 
     );
 
-    const celularRaw = tel.slice(
-      indexOfCel
-    )
+    const celularRaw = tel
+            .slice(
+              indexOfCel 
+            )
             .replace(
-              'CEL ', ''
+              'CEL ', '' 
             );
 
-
-
     celular.set(
-      'celular', celularRaw
+      'celular', celularRaw 
     );
-
-
   }
 
   return {
     fijo: Array.from(
       fijo.values()
-    )
-            .toLocaleString(),
+    ).toLocaleString(),
     celular: Array.from(
       celular.values()
-    )
-            .toLocaleString()
-
+    ).toLocaleString()
   };
 }
 
-export function juzgadoFixer (
-  juzgado: Ejecucion
+export function juzgadoFixer(
+  juzgado: Ejecucion 
 ) {
   const juzgadoMap = new Map();
 
   const id = juzgado.tipo.match(
-    /\d/g
+    /\d/g 
   );
 
   if ( id ) {
     juzgadoMap.set(
-      'id', id.toLocaleString()
+      'id', id.toLocaleString() 
     );
   }
   console.log(
-    juzgadoMap
+    juzgadoMap 
   );
 
   return {
     ...juzgado,
     id: Array.from(
-      juzgadoMap.values()
+      juzgadoMap.values() 
     )
   };
 }
 
 export function trimmer(
-  nombreCompleto: string
+  nombreCompleto: string 
 ) {
-
   const trimDemandado = nombreCompleto.replace(
     /^\s+|\s+$/gm,
     ''
   );
   console.log(
-    trimDemandado
+    trimDemandado 
   );
 
   const splitDemandado = trimDemandado.split(
-    ' '
+    ' ' 
   );
-  const splitDemandadoLength = splitDemandado.length;
+
+  const splitDemandadoLength
+    = splitDemandado.length;
 
   switch ( splitDemandadoLength ) {
-
     case 1:
-
       return {
         primerNombre: splitDemandado[ 0 ]
       };
     case 2:
-
       return {
         primerNombre  : splitDemandado[ 0 ],
         primerApellido: splitDemandado[ 1 ]
@@ -130,9 +123,7 @@ export function trimmer(
         segundoApellido: splitDemandado[ 2 ]
       };
 
-
     case 4:
-
       return {
         primerNombre   : splitDemandado[ 0 ],
         segundoNombre  : splitDemandado[ 1 ],
@@ -140,16 +131,13 @@ export function trimmer(
         segundoApellido: splitDemandado[ 3 ]
       };
 
-
     case 5:
-
       return {
         primerNombre   : splitDemandado[ 0 ],
         segundoNombre  : splitDemandado[ 1 ],
         primerApellido : splitDemandado[ 2 ],
         segundoApellido: `${ splitDemandado[ 3 ] } ${ splitDemandado[ 4 ] } `
       };
-
 
     default:
       return {
@@ -159,23 +147,23 @@ export function trimmer(
         segundoApellido: `${ splitDemandado[ 4 ] } ${ splitDemandado[ 5 ] } `
       };
   }
-
-
-
 }
 
 const newMapCarpetas = carpetas.map(
   (
-    carpeta
+    carpeta 
   ) => {
-    if ( carpeta.deudor.tel ){
+    if ( carpeta.deudor.tel ) {
       telFixer(
-        carpeta.deudor.tel.toString()
+        carpeta.deudor.tel.toString() 
       );
     }
-    const juzgados = carpeta.demanda?.juzgado?.ejecucion ?? carpeta.demanda?.juzgado?.origen;
+
+    const juzgados
+    = carpeta.demanda?.juzgado?.ejecucion
+    ?? carpeta.demanda?.juzgado?.origen;
     console.log(
-      juzgados
+      juzgados 
     );
 
     const trimmedName = trimmer(
@@ -183,10 +171,10 @@ const newMapCarpetas = carpetas.map(
     );
 
     const {
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      nombreCompleto, ...newDeudor
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      nombreCompleto,
+      ...newDeudor
     } = carpeta.deudor;
-
 
     const newCarpeta = {
       ...carpeta,
@@ -199,7 +187,6 @@ const newMapCarpetas = carpetas.map(
             id  : 0,
             url : 'https://app.rsasesorjuridico.com'
           }
-
         )
       },
       deudor: {
@@ -208,20 +195,20 @@ const newMapCarpetas = carpetas.map(
         tel: telFixer(
           carpeta.deudor.tel?.toString() ?? 'nada'
         )
-
       }
     };
 
     return newCarpeta;
-  }
+  } 
 );
 
 console.log(
-  newMapCarpetas
+  newMapCarpetas 
 );
 
 fs.writeFile(
-  'nuevosNombresMap.json', JSON.stringify(
-    newMapCarpetas
+  'nuevosNombresMap.json',
+  JSON.stringify(
+    newMapCarpetas 
   )
 );
