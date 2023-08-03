@@ -126,7 +126,7 @@ export const carpetas: IntCarpetaRaw[] = [
     deudor: {
       cedula        : 80743147,
       nombreCompleto: 'JAVIER ROMERO REYES',
-      tel           : '3903652//3209229120',
+      tel           : 'F 3903652 CEL 3209229120',
       email:
         'sandrapatriciajoya-2545@hotmail.com',
       direccion: 'CRA 18 H No. 76 A-53 SUR BOGOTA'
@@ -139,8 +139,14 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '37 CM' },
-        ejecucion: { idytipo: '14 CME' }
+        origen: {
+          id  : 37,
+          tipo: 'Civil Municipal'
+        },
+        ejecucion: {
+          id  : 14,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
       },
       radicado: '2017 - 00839'
     },
@@ -214,8 +220,9 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          idytipo: '3 CM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-03-civil-municipal-de-bogota'
+          id  : 3,
+          tipo: 'Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-03-civil-municipal-de-bogota'
         }
       },
       radicado     : '2017 - 00884',
@@ -301,8 +308,14 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '85 CM' },
-        ejecucion: { idytipo: '11 CME' }
+        origen: {
+          id  : 85,
+          tipo: '85 Civil Municipal'
+        },
+        ejecucion: {
+          id  : 11,
+          tipo: '11 Civil Municipal de Ejecucion'
+        }
       },
       radicado     : '2017 - 00849',
       etapaProcesal: 'EJECUCIÓN'
@@ -351,8 +364,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '11 CCTO' },
-        ejecucion: { idytipo: '1 C CTO EJ' }
+        origen: {
+          tipo: '11 CCTO' 
+        },
+        ejecucion: {
+          tipo: '1 CCTO EJ' 
+        }
       },
       radicado     : '2017 - 00335',
       etapaProcesal: 'EJECUCIÓN'
@@ -390,8 +407,12 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-05-19',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'GUADUAS',
-      juzgado                : { origen: { idytipo: '001 CIVIL CTO' } },
-      radicado               : '2017 - 00195'
+      juzgado                : {
+        origen: {
+          tipo: '001 CIVIL CTO' 
+        } 
+      },
+      radicado: '2017 - 00195'
     },
     capitalAdeudado: 96608106,
     tipoProceso    : 'HIPOTECARIO',
@@ -466,8 +487,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '43 CM' },
-        ejecucion: { idytipo: '18 CME' }
+        origen: {
+          tipo: '43 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '18 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2018- 00384',
       etapaProcesal: 'EJECUCION'
@@ -520,8 +545,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '26 CM' },
-        ejecucion: { idytipo: '3 CME' }
+        origen: {
+          tipo: '26 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '3 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017-00511',
       etapaProcesal: 'EJECUCIÓN'
@@ -620,9 +649,14 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-05-19',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'ANAPOIMA',
-      juzgado                : { origen: { idytipo: '001 PM' } },
-      radicado               : '2017 - 00108',
-      etapaProcesal          : 'EJECUCIÓN'
+      juzgado                : {
+        origen: {
+          id  : 1,
+          tipo: '001 PM'
+        }
+      },
+      radicado     : '2017 - 00108',
+      etapaProcesal: 'EJECUCIÓN'
     },
     capitalAdeudado: 12956286,
     tipoProceso    : 'SINGULAR',
@@ -681,9 +715,13 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-05-19',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'CHOCONTA',
-      juzgado                : { origen: { idytipo: '001 CM' } },
-      radicado               : '2017-00106',
-      etapaProcesal          : 'EJECUCIÓN'
+      juzgado                : {
+        origen: {
+          tipo: '001 Civil Municipal' 
+        } 
+      },
+      radicado     : '2017-00106',
+      etapaProcesal: 'EJECUCIÓN'
     },
     capitalAdeudado: 12537973,
     tipoProceso    : 'PRENDARIO',
@@ -708,8 +746,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '6 CM' },
-        ejecucion: { idytipo: '13 CME' }
+        origen: {
+          tipo: '6 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '13 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017-00302',
       etapaProcesal: 'EJECUCION'
@@ -852,8 +894,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '42 CM' },
-        ejecucion: { idytipo: '10 CME' }
+        origen: {
+          tipo: '42 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '10 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017-00760',
       etapaProcesal: 'EJECUCIÓN'
@@ -937,8 +983,12 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-06-12',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : { origen: { idytipo: '29 CM' } },
-      radicado               : '2017 - 00557'
+      juzgado                : {
+        origen: {
+          tipo: '29 Civil Municipal' 
+        } 
+      },
+      radicado: '2017 - 00557'
     },
     capitalAdeudado: 32926699,
     tipoProceso    : 'PRENDARIO',
@@ -1010,8 +1060,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '6 CM' },
-        ejecucion: { idytipo: '11 CME' }
+        origen: {
+          tipo: '6 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '11 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017-00419',
       etapaProcesal: 'EJECUCIÓN'
@@ -1063,7 +1117,9 @@ export const carpetas: IntCarpetaRaw[] = [
       cedula        : 31877993,
       nombreCompleto: 'SONIA MAZUERA'
     },
-    demanda        : { radicado: '2017 - 00575' },
+    demanda: {
+      radicado: '2017 - 00575' 
+    },
     capitalAdeudado: 0,
     grupo          : 'Terminados'
   },
@@ -1199,8 +1255,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '39 CM' },
-        ejecucion: { idytipo: '14 CME' }
+        origen: {
+          tipo: '39 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '14 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017-00800',
       etapaProcesal: 'EJECUCIÓN'
@@ -1240,8 +1300,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '22 CM' },
-        ejecucion: { idytipo: '2 CME' }
+        origen: {
+          tipo: '22 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '2 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017-00567',
       etapaProcesal: 'EJECUCIÓN'
@@ -1304,12 +1368,12 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          idytipo: '34 CM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota'
+          tipo: '34 Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota'
         },
         ejecucion: {
-          idytipo: '12 CME',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-12-de-ejecucion-civil-municipal-de-bogota'
+          tipo: '12 Civil Municipal de Ejecucion',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-12-de-ejecucion-civil-municipal-de-bogota'
         }
       },
       radicado     : '2017 - 00836',
@@ -1464,8 +1528,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'MESITAS',
       juzgado                : {
         origen: {
-          idytipo: '001 PM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-001-promiscuo-municipal-de-el-colegio'
+          tipo: '001 PM',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-001-promiscuo-municipal-de-el-colegio'
         }
       },
       radicado     : '2017-00239',
@@ -1496,8 +1560,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '82 CM/6 CM' },
-        ejecucion: { idytipo: '18 CME' }
+        origen: {
+          tipo: '82 Civil Municipal/6 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '18 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017-00680',
       etapaProcesal: 'EJECUCIÓN'
@@ -1547,8 +1615,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '59 CM' },
-        ejecucion: { idytipo: '15 CME' }
+        origen: {
+          tipo: '59 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '15 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 00483',
       etapaProcesal: 'EJECUCIÓN'
@@ -1589,8 +1661,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '25 CC' },
-        ejecucion: { idytipo: '2 C CTO E' }
+        origen: {
+          tipo: '25 CC' 
+        },
+        ejecucion: {
+          tipo: '2 C CTO E' 
+        }
       },
       radicado     : '2017 - 00736',
       etapaProcesal: 'EJECUCIÓN'
@@ -1711,8 +1787,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '70 CM' },
-        ejecucion: { idytipo: '14 CME' }
+        origen: {
+          tipo: '70 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '14 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 00566',
       etapaProcesal: 'EJECUCIÓN'
@@ -1761,8 +1841,9 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'SOACHA',
       juzgado                : {
         origen: {
-          idytipo: '003 PCYCM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-03-municipal-de-pequenas-causas-y-competencia-multiple-de-soacha'
+          id  : 3,
+          tipo: 'Pequeñas Causas y Competencias Multiples',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-03-municipal-de-pequenas-causas-y-competencia-multiple-de-soacha'
         }
       },
       radicado     : '2017 - 00755',
@@ -1836,9 +1917,13 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-06-12',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : { origen: { idytipo: '47 CM' } },
-      radicado               : '2017 - 01520',
-      etapaProcesal          : 'EJECUCIÓN'
+      juzgado                : {
+        origen: {
+          tipo: '47 Civil Municipal' 
+        } 
+      },
+      radicado     : '2017 - 01520',
+      etapaProcesal: 'EJECUCIÓN'
     },
     capitalAdeudado: 21613985,
     tipoProceso    : 'SINGULAR',
@@ -2190,8 +2275,12 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-08-23',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : { origen: { idytipo: '36 CM' } },
-      radicado               : '2017 - 00841'
+      juzgado                : {
+        origen: {
+          tipo: '36 Civil Municipal' 
+        } 
+      },
+      radicado: '2017 - 00841'
     },
     capitalAdeudado: 29366625,
     tipoProceso    : 'HIPOTECARIO',
@@ -2318,8 +2407,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '45 CM' },
-        ejecucion: { idytipo: '2CME' }
+        origen: {
+          tipo: '45 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '2Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 00905',
       etapaProcesal: 'EJECUCIÓN'
@@ -2348,8 +2441,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '76 CM' },
-        ejecucion: { idytipo: '4 CME' }
+        origen: {
+          tipo: '76 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '4 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 00635',
       etapaProcesal: 'EJECUCIÓN'
@@ -2412,9 +2509,13 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-08-01',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : { origen: { idytipo: '3 CM' } },
-      radicado               : '2017 - 01264',
-      etapaProcesal          : 'NOTIFICACION'
+      juzgado                : {
+        origen: {
+          tipo: '3 Civil Municipal' 
+        } 
+      },
+      radicado     : '2017 - 01264',
+      etapaProcesal: 'NOTIFICACION'
     },
     capitalAdeudado: 13144437,
     tipoProceso    : 'PRENDARIO',
@@ -2488,12 +2589,12 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          idytipo: '25 CM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-25-civil-municipal-de-bogota'
+          tipo: '25 Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-25-civil-municipal-de-bogota'
         },
         ejecucion: {
-          idytipo: '18 CME',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota'
+          tipo: '18 Civil Municipal de Ejecucion',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota'
         }
       },
       radicado     : '2017 - 00903',
@@ -2566,8 +2667,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '11 CM' },
-        ejecucion: { idytipo: '2 CME' }
+        origen: {
+          tipo: '11 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '2 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 01084',
       etapaProcesal: 'EJECUCIÓN'
@@ -2631,12 +2736,12 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          idytipo: '1 CM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-01-civil-municipal-de-bogota'
+          tipo: '1 Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-01-civil-municipal-de-bogota'
         },
         ejecucion: {
-          idytipo: '17 CME',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota'
+          tipo: '17 Civil Municipal de Ejecucion',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota'
         }
       },
       radicado     : '2017 - 01001',
@@ -2662,8 +2767,12 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-08-01',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : { origen: { idytipo: '25 CM' } },
-      radicado               : '2017 - 00807',
+      juzgado                : {
+        origen: {
+          tipo: '25 Civil Municipal' 
+        } 
+      },
+      radicado: '2017 - 00807',
       etapaProcesal:
         'DESIGNACIÓN CURADOR AD LITEM'
     },
@@ -2701,9 +2810,13 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-08-11',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'CHIA',
-      juzgado                : { origen: { idytipo: '2CM' } },
-      radicado               : '2017 - 00412',
-      etapaProcesal          : 'EJECUCIÓN'
+      juzgado                : {
+        origen: {
+          tipo: '2Civil Municipal' 
+        } 
+      },
+      radicado     : '2017 - 00412',
+      etapaProcesal: 'EJECUCIÓN'
     },
     capitalAdeudado: 13319130,
     tipoProceso    : 'SINGULAR',
@@ -2775,8 +2888,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '79 CM' },
-        ejecucion: { idytipo: '1 CME' }
+        origen: {
+          tipo: '79 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '1 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 01082',
       etapaProcesal: 'EJECUCIÓN'
@@ -2816,8 +2933,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '24 CM' },
-        ejecucion: { idytipo: '14 CME' }
+        origen: {
+          tipo: '24 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '14 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 01750',
       etapaProcesal: 'EJECUCIÓN'
@@ -2901,9 +3022,13 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-08-22',
       departamento           : 'TOLIMA',
       ciudad                 : 'MELGAR',
-      juzgado                : { origen: { idytipo: '2 PM' } },
-      radicado               : '2017 - 00259',
-      etapaProcesal          : 'EJECUCIÓN'
+      juzgado                : {
+        origen: {
+          tipo: '2 PM' 
+        } 
+      },
+      radicado     : '2017 - 00259',
+      etapaProcesal: 'EJECUCIÓN'
     },
     capitalAdeudado: 28594040,
     tipoProceso    : 'PRENDARIO',
@@ -2941,8 +3066,12 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-08-23',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : { origen: { idytipo: '79 CM/ 40 CM' } },
-      radicado               : '2017 - 01142'
+      juzgado                : {
+        origen: {
+          tipo: '79 Civil Municipal/ 40 Civil Municipal' 
+        } 
+      },
+      radicado: '2017 - 01142'
     },
     capitalAdeudado: 27602952,
     tipoProceso    : 'SINGULAR',
@@ -2988,9 +3117,13 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-08-28',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : { origen: { idytipo: '45 CM' } },
-      radicado               : '2017 - 01063',
-      etapaProcesal          : 'EJECUCION'
+      juzgado                : {
+        origen: {
+          tipo: '45 Civil Municipal' 
+        } 
+      },
+      radicado     : '2017 - 01063',
+      etapaProcesal: 'EJECUCION'
     },
     capitalAdeudado: 41990538,
     tipoProceso    : 'PRENDARIO',
@@ -3015,8 +3148,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '12 CM' },
-        ejecucion: { idytipo: '15 CME' }
+        origen: {
+          tipo: '12 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '15 Civil Municipal de Ejecucion' 
+        }
       },
       radicado: '2017 - 00971',
       etapaProcesal:
@@ -3065,9 +3202,13 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-08-22',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'SOACHA',
-      juzgado                : { origen: { idytipo: '2 CM' } },
-      radicado               : '2017 - 00265',
-      etapaProcesal          : 'EJECUCIÓN'
+      juzgado                : {
+        origen: {
+          tipo: '2 Civil Municipal' 
+        } 
+      },
+      radicado     : '2017 - 00265',
+      etapaProcesal: 'EJECUCIÓN'
     },
     capitalAdeudado: 27819415,
     tipoProceso    : 'PRENDARIO',
@@ -3093,8 +3234,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '64 CM' },
-        ejecucion: { idytipo: '7CME' }
+        origen: {
+          tipo: '64 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '7Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 01191',
       etapaProcesal: 'EJECUCIÓN'
@@ -3122,9 +3267,13 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '22/082017',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : { origen: { idytipo: '21 CM' } },
-      radicado               : '2018 - 00163',
-      etapaProcesal          : 'EJECUCION'
+      juzgado                : {
+        origen: {
+          tipo: '21 Civil Municipal' 
+        } 
+      },
+      radicado     : '2018 - 00163',
+      etapaProcesal: 'EJECUCION'
     },
     capitalAdeudado: 10555422,
     tipoProceso    : 'SINGULAR',
@@ -3218,8 +3367,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '37 CCTO' },
-        ejecucion: { idytipo: '3 CCTOEJ' }
+        origen: {
+          tipo: '37 CCTO' 
+        },
+        ejecucion: {
+          tipo: '3 CCTOEJ' 
+        }
       },
       radicado: '2017 - 00453'
     },
@@ -3305,8 +3458,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '55 CM' },
-        ejecucion: { idytipo: '15 CME' }
+        origen: {
+          tipo: '55 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '15 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 00860',
       etapaProcesal: 'EJECUCIÓN'
@@ -3441,8 +3598,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '28 CM' },
-        ejecucion: { idytipo: '16 CME' }
+        origen: {
+          tipo: '28 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '16 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 00849',
       etapaProcesal: 'EJECUCIÓN'
@@ -3483,12 +3644,12 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          idytipo: '8 CM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-008-civil-municipal-de-bogota'
+          tipo: '8 Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-008-civil-municipal-de-bogota'
         },
         ejecucion: {
-          idytipo: '6 CME',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-06-de-ejecucion-civil-municipal-de-bogota'
+          tipo: '6 Civil Municipal de Ejecucion',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-06-de-ejecucion-civil-municipal-de-bogota'
         }
       },
       radicado     : '2017 - 01134',
@@ -3549,8 +3710,12 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-09-13',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : { origen: { idytipo: '45 CM' } },
-      radicado               : '2017 - 01164'
+      juzgado                : {
+        origen: {
+          tipo: '45 Civil Municipal' 
+        } 
+      },
+      radicado: '2017 - 01164'
     },
     capitalAdeudado: 1788247698,
     tipoProceso    : 'HIPOTECARIO',
@@ -3606,8 +3771,12 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-08-25',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : { origen: { idytipo: '69 CM // 25 CM' } },
-      radicado               : '2017 - 00845',
+      juzgado                : {
+        origen: {
+          tipo: '69 Civil Municipal // 25 Civil Municipal' 
+        } 
+      },
+      radicado: '2017 - 00845',
       etapaProcesal:
         'EN EJECUCIÓN LIQUIDACIÓN CREDITO SOLICITADA A COVINOC'
     },
@@ -3693,8 +3862,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '16 CM' },
-        ejecucion: { idytipo: '18 CME' }
+        origen: {
+          tipo: '16 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '18 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 00875',
       etapaProcesal: 'EJECUCIÓN'
@@ -3768,8 +3941,12 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-08-28',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'CHIA',
-      juzgado                : { origen: { idytipo: '3 CM' } },
-      radicado               : '2017 - 00477'
+      juzgado                : {
+        origen: {
+          tipo: '3 Civil Municipal' 
+        } 
+      },
+      radicado: '2017 - 00477'
     },
     capitalAdeudado: 12993948,
     tipoProceso    : 'SINGULAR',
@@ -3829,9 +4006,13 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-09-01',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : { origen: { idytipo: '13 CM' } },
-      radicado               : '2017 - 01178',
-      etapaProcesal          : 'EJECUCIÓN'
+      juzgado                : {
+        origen: {
+          tipo: '13 Civil Municipal' 
+        } 
+      },
+      radicado     : '2017 - 01178',
+      etapaProcesal: 'EJECUCIÓN'
     },
     capitalAdeudado: 18506672,
     tipoProceso    : 'SINGULAR',
@@ -3925,8 +4106,12 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-09-21',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : { origen: { idytipo: '20 CCTO/1 CCTOE' } },
-      radicado               : '2018 - 00650'
+      juzgado                : {
+        origen: {
+          tipo: '20 CCTO/1 CCTOE' 
+        } 
+      },
+      radicado: '2018 - 00650'
     },
     capitalAdeudado: 115224736,
     tipoProceso    : 'HIPOTECARIO',
@@ -4032,8 +4217,12 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '25/09/2017',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : { origen: { idytipo: '64 CM // 46 PCCM' } },
-      radicado               : '2018 - 01029'
+      juzgado                : {
+        origen: {
+          tipo: '64 Civil Municipal // 46 PCCivil Municipal' 
+        } 
+      },
+      radicado: '2018 - 01029'
     },
     capitalAdeudado: 65355736,
     tipoProceso    : 'HIPOTECARIO',
@@ -4103,12 +4292,12 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          idytipo: '37 CM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-37-civil-municipal-de-bogota'
+          tipo: '37 Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-37-civil-municipal-de-bogota'
         },
         ejecucion: {
-          idytipo: '11 CME',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota'
+          tipo: '11 Civil Municipal de Ejecucion',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota'
         }
       },
       radicado     : '2017 - 01391',
@@ -4137,8 +4326,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '8 CM' },
-        ejecucion: { idytipo: '1 CME' }
+        origen: {
+          tipo: '8 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '1 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 01058',
       etapaProcesal: 'EJECUCIÓN'
@@ -4166,8 +4359,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '9 CM' },
-        ejecucion: { idytipo: '18 CME' }
+        origen: {
+          tipo: '9 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '18 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 01279',
       etapaProcesal: 'EJECUCIÓN'
@@ -4207,12 +4404,12 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          idytipo: '15 CM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-015-civil-municipal-de-bogota'
+          tipo: '15 Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-015-civil-municipal-de-bogota'
         },
         ejecucion: {
-          idytipo: '11 CME',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota'
+          tipo: '11 Civil Municipal de Ejecucion',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota'
         }
       },
       radicado     : '2017 - 01394',
@@ -4273,9 +4470,13 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-09-11',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : { origen: { idytipo: '17 CM' } },
-      radicado               : '2017 - 01195',
-      etapaProcesal          : 'CURADOR AD LITEM'
+      juzgado                : {
+        origen: {
+          tipo: '17 Civil Municipal' 
+        } 
+      },
+      radicado     : '2017 - 01195',
+      etapaProcesal: 'CURADOR AD LITEM'
     },
     capitalAdeudado: 94533343,
     tipoProceso    : 'PRENDARIO',
@@ -4299,8 +4500,12 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-10-04',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : { origen: { idytipo: '16 CM DESG / 50 CM' } },
-      radicado               : '2017 - 00157'
+      juzgado                : {
+        origen: {
+          tipo: '16 Civil Municipal DESG / 50 Civil Municipal' 
+        } 
+      },
+      radicado: '2017 - 00157'
     },
     capitalAdeudado: 44309785,
     tipoProceso    : 'PRENDARIO',
@@ -4336,8 +4541,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '18 CM' },
-        ejecucion: { idytipo: '16 CME' }
+        origen: {
+          tipo: '18 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '16 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 01522',
       etapaProcesal: 'EJECUCIÓN'
@@ -4388,9 +4597,13 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-09-13',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : { origen: { idytipo: '10  PCYCM' } },
-      radicado               : '2017 - 00128',
-      etapaProcesal          : 'EJECUCIÓN'
+      juzgado                : {
+        origen: {
+          tipo: '10  Pequeñas Causas y Competencias Multiples' 
+        } 
+      },
+      radicado     : '2017 - 00128',
+      etapaProcesal: 'EJECUCIÓN'
     },
     capitalAdeudado: 25766204,
     tipoProceso    : 'SINGULAR',
@@ -4417,12 +4630,12 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          idytipo: '48 CM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-048-civil-municipal-de-bogota'
+          tipo: '48 Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-048-civil-municipal-de-bogota'
         },
         ejecucion: {
-          idytipo: '7 CME',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota'
+          tipo: '7 Civil Municipal de Ejecucion',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota'
         }
       },
       radicado     : '2017 - 00974',
@@ -4451,8 +4664,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '63 CM' },
-        ejecucion: { idytipo: '1 CME' }
+        origen: {
+          tipo: '63 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '1 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 00924',
       etapaProcesal: 'EJECUCIÓN'
@@ -4479,8 +4696,12 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-09-18',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : { origen: { idytipo: '51 CM' } },
-      radicado               : '2017 - 01113',
+      juzgado                : {
+        origen: {
+          tipo: '51 Civil Municipal' 
+        } 
+      },
+      radicado: '2017 - 01113',
       etapaProcesal:
         'PENDIENTE SENTENCIA Y OFICIOS'
     },
@@ -4518,9 +4739,13 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '21/09/2017',
       departamento           : 'BOYACÁ',
       ciudad                 : 'UMBITA',
-      juzgado                : { origen: { idytipo: '001 PM' } },
-      radicado               : '2017 - 00095',
-      etapaProcesal          : 'EJECUCIÓN'
+      juzgado                : {
+        origen: {
+          tipo: '001 PM' 
+        } 
+      },
+      radicado     : '2017 - 00095',
+      etapaProcesal: 'EJECUCIÓN'
     },
     capitalAdeudado: 28485816,
     tipoProceso    : 'SINGULAR',
@@ -4605,7 +4830,9 @@ export const carpetas: IntCarpetaRaw[] = [
       cedula        : 79892240,
       nombreCompleto: 'FERNANDO GONZALEZ TELLEZ'
     },
-    demanda        : { radicado: '2017 - 01411' },
+    demanda: {
+      radicado: '2017 - 01411' 
+    },
     capitalAdeudado: 0,
     grupo          : 'Terminados'
   },
@@ -4687,12 +4914,12 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          idytipo: '21 CM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-021-civil-municipal-de-bogota'
+          tipo: '21 Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-021-civil-municipal-de-bogota'
         },
         ejecucion: {
-          idytipo: '15 CME',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota'
+          tipo: '15 Civil Municipal de Ejecucion',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota'
         }
       },
       radicado     : '2017 - 01532',
@@ -4783,8 +5010,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'SOACHA',
       juzgado                : {
         origen: {
-          idytipo: '1 CM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-01-civil-municipal-de-bogota'
+          tipo: '1 Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-01-civil-municipal-de-bogota'
         }
       },
       radicado     : '2017 - 00323',
@@ -4939,8 +5166,12 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '001/11/2017',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : { origen: { idytipo: '26 CM' } },
-      radicado               : '2017 - 01293'
+      juzgado                : {
+        origen: {
+          tipo: '26 Civil Municipal' 
+        } 
+      },
+      radicado: '2017 - 01293'
     },
     capitalAdeudado: 33615204,
     tipoProceso    : 'HIPOTECARIO',
@@ -5025,8 +5256,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '68 CM' },
-        ejecucion: { idytipo: '15 CME' }
+        origen: {
+          tipo: '68 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '15 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 01306',
       etapaProcesal: 'EJECUCIÓN'
@@ -5079,8 +5314,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '6 CM' },
-        ejecucion: { idytipo: '4 CME' }
+        origen: {
+          tipo: '6 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '4 Civil Municipal de Ejecucion' 
+        }
       },
       radicado: '2017 - 00964'
     },
@@ -5105,9 +5344,13 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-09-21',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'CAPARRAPI',
-      juzgado                : { origen: { idytipo: '001 PM' } },
-      radicado               : '2017 - 00096',
-      etapaProcesal          : 'EJECUCIÓN'
+      juzgado                : {
+        origen: {
+          tipo: '001 PM' 
+        } 
+      },
+      radicado     : '2017 - 00096',
+      etapaProcesal: 'EJECUCIÓN'
     },
     capitalAdeudado: 42530688,
     tipoProceso    : 'SINGULAR',
@@ -5195,8 +5438,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '33 CM' },
-        ejecucion: { idytipo: '2 CME' }
+        origen: {
+          tipo: '33 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '2 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 01474',
       etapaProcesal: 'EJECUCIÓN'
@@ -5261,8 +5508,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '1 CM' },
-        ejecucion: { idytipo: '10 CME' }
+        origen: {
+          tipo: '1 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '10 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 01309',
       etapaProcesal: 'EJECUCIÓN'
@@ -5325,8 +5576,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '76 CM' },
-        ejecucion: { idytipo: '17 CME' }
+        origen: {
+          tipo: '76 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '17 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 01016',
       etapaProcesal: 'EJECUCIÓN'
@@ -5411,8 +5666,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '78 CM' },
-        ejecucion: { idytipo: '12 CME' }
+        origen: {
+          tipo: '78 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '12 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 00975',
       etapaProcesal: 'EJECUCIÓN'
@@ -5464,8 +5723,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '17 CM' },
-        ejecucion: { idytipo: '15 CME' }
+        origen: {
+          tipo: '17 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '15 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 01336',
       etapaProcesal: 'EJECUCIÓN'
@@ -5573,8 +5836,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '22 CM' },
-        ejecucion: { idytipo: '20 CME' }
+        origen: {
+          tipo: '22 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '20 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017-1208',
       etapaProcesal: 'EJECUCION'
@@ -5615,8 +5882,12 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2018-01-16',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : { origen: { idytipo: '24 CM' } },
-      radicado               : '2018 - 00143'
+      juzgado                : {
+        origen: {
+          tipo: '24 Civil Municipal' 
+        } 
+      },
+      radicado: '2018 - 00143'
     },
     capitalAdeudado: 10775194,
     tipoProceso    : 'HIPOTECARIO',
@@ -5690,8 +5961,12 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '17/01/2018',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : { origen: { idytipo: '76 CM' } },
-      radicado               : '2018 - 00052'
+      juzgado                : {
+        origen: {
+          tipo: '76 Civil Municipal' 
+        } 
+      },
+      radicado: '2018 - 00052'
     },
     capitalAdeudado: 27308454,
     tipoProceso    : 'HIPOTECARIO',
@@ -5832,8 +6107,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '50 CM' },
-        ejecucion: { idytipo: '14 CME' }
+        origen: {
+          tipo: '50 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '14 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 01336',
       etapaProcesal: 'EJECUCIÓN'
@@ -5884,8 +6163,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '4 CM' },
-        ejecucion: { idytipo: '9 CME' }
+        origen: {
+          tipo: '4 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '9 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 01266',
       etapaProcesal: 'EJECUCIÓN'
@@ -5925,9 +6208,13 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2017-11-09',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'ZIPAQUIRA',
-      juzgado                : { origen: { idytipo: '003 CM' } },
-      radicado               : '2018 - 00131',
-      etapaProcesal          : 'NOTIFICACION'
+      juzgado                : {
+        origen: {
+          tipo: '003 Civil Municipal' 
+        } 
+      },
+      radicado     : '2018 - 00131',
+      etapaProcesal: 'NOTIFICACION'
     },
     capitalAdeudado: 38847950,
     tipoProceso    : 'SINGULAR',
@@ -5987,8 +6274,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '64 CM' },
-        ejecucion: { idytipo: '16 CME' }
+        origen: {
+          tipo: '64 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '16 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 01623',
       etapaProcesal: 'EJECUCIÓN'
@@ -6109,12 +6400,12 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          idytipo: '21 CM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-021-civil-municipal-de-bogota'
+          tipo: '21 Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-021-civil-municipal-de-bogota'
         },
         ejecucion: {
-          idytipo: '13 CME',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-13-de-ejecucion-civil-municipal-de-bogota'
+          tipo: '13 Civil Municipal de Ejecucion',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-13-de-ejecucion-civil-municipal-de-bogota'
         }
       },
       radicado     : '2018 - 00236',
@@ -6158,8 +6449,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '78 CM' },
-        ejecucion: { idytipo: '16 CME' }
+        origen: {
+          tipo: '78 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '16 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 01164',
       etapaProcesal: 'EJECUCIÓN'
@@ -6200,12 +6495,12 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          idytipo: '56 CM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-056-civil-municipal-de-bogota'
+          tipo: '56 Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-056-civil-municipal-de-bogota'
         },
         ejecucion: {
-          idytipo: '7 CME',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota'
+          tipo: '7 Civil Municipal de Ejecucion',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota'
         }
       },
       radicado     : '2018 - 00221',
@@ -6294,7 +6589,9 @@ export const carpetas: IntCarpetaRaw[] = [
       nombreCompleto:
         'JOSE ANTONIO MONTEALEGRE HERNANDEZ'
     },
-    demanda        : { radicado: '2017 - 01477' },
+    demanda: {
+      radicado: '2017 - 01477' 
+    },
     capitalAdeudado: 0,
     grupo          : 'Terminados'
   },
@@ -6317,8 +6614,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '71 CM' },
-        ejecucion: { idytipo: '7 CME' }
+        origen: {
+          tipo: '71 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '7 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 01250',
       etapaProcesal: 'EJECUCIÓN'
@@ -6371,8 +6672,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '63 CM/19 CME' },
-        ejecucion: { idytipo: 'SINGULAR' }
+        origen: {
+          tipo: '63 Civil Municipal/19 Civil Municipal de Ejecucion' 
+        },
+        ejecucion: {
+          tipo: 'SINGULAR' 
+        }
       },
       radicado     : 1.100140030632017e22,
       etapaProcesal: 'EJECUCIÓN'
@@ -6468,9 +6773,13 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2018-01-19',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'CAJICA',
-      juzgado                : { origen: { idytipo: '2 PM' } },
-      radicado               : '2018 - 00048',
-      etapaProcesal          : 'EJECUCIÓN'
+      juzgado                : {
+        origen: {
+          tipo: '2 PM' 
+        } 
+      },
+      radicado     : '2018 - 00048',
+      etapaProcesal: 'EJECUCIÓN'
     },
     capitalAdeudado: 21049112,
     tipoProceso    : 'PRENDARIO',
@@ -6773,8 +7082,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '59 CM' },
-        ejecucion: { idytipo: '7 CME' }
+        origen: {
+          tipo: '59 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '7 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2018 - 00090',
       etapaProcesal: 'EJECUCIÓN'
@@ -6860,8 +7173,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '37 CM' },
-        ejecucion: { idytipo: '8 CME' }
+        origen: {
+          tipo: '37 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '8 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2018 - 00111',
       etapaProcesal: 'EJECUCIÓN'
@@ -6938,8 +7255,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          idytipo: '14 PCYCM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-014-de-pequenas-causas-y-competencia-multiple-de-bogota'
+          tipo: '14 Pequeñas Causas y Competencias Multiples',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-014-de-pequenas-causas-y-competencia-multiple-de-bogota'
         }
       },
       radicado     : '2019 - 00656',
@@ -6995,8 +7312,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '52 CM' },
-        ejecucion: { idytipo: '17 CME' }
+        origen: {
+          tipo: '52 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '17 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2018 - 00117',
       etapaProcesal: 'EJECUCIÓN'
@@ -7115,9 +7436,13 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '15/02/2018',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'SOACHA',
-      juzgado                : { origen: { idytipo: '2 CM' } },
-      radicado               : '2018 - 00113',
-      etapaProcesal          : 'EJECUCIÓN'
+      juzgado                : {
+        origen: {
+          tipo: '2 Civil Municipal' 
+        } 
+      },
+      radicado     : '2018 - 00113',
+      etapaProcesal: 'EJECUCIÓN'
     },
     capitalAdeudado: 39146947,
     tipoProceso    : 'SINGULAR',
@@ -7153,8 +7478,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '4 CM' },
-        ejecucion: { idytipo: '7 CME' }
+        origen: {
+          tipo: '4 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '7 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2018 - 00475',
       etapaProcesal: 'EJECUCIÓN'
@@ -7207,9 +7536,13 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '23/08/2018',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'GIRARDOT',
-      juzgado                : { origen: { idytipo: '3 CM' } },
-      radicado               : '2021 - 00539',
-      etapaProcesal          : 'EJECUCION'
+      juzgado                : {
+        origen: {
+          tipo: '3 Civil Municipal' 
+        } 
+      },
+      radicado     : '2021 - 00539',
+      etapaProcesal: 'EJECUCION'
     },
     capitalAdeudado: 17217066,
     tipoProceso    : 'SINGULAR',
@@ -7356,12 +7689,12 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          idytipo: '8 PCYCM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-08-de-pequenas-causas-laborales-de-bogota'
+          tipo: '8 Pequeñas Causas y Competencias Multiples',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-08-de-pequenas-causas-laborales-de-bogota'
         },
         ejecucion: {
-          idytipo: '5 CME',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-05-de-ejecucion-civil-municipal-de-bogota'
+          tipo: '5 Civil Municipal de Ejecucion',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-05-de-ejecucion-civil-municipal-de-bogota'
         }
       },
       radicado: '2018 - 00785',
@@ -7440,8 +7773,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'CHIA',
       juzgado                : {
         origen: {
-          idytipo: '3 CM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-003-civil-municipal-de-chia'
+          tipo: '3 Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-003-civil-municipal-de-chia'
         }
       },
       radicado     : '2018 - 00602',
@@ -7497,8 +7830,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          idytipo: '13 PCYCM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-13-de-pequenas-causas-y-competencias-multiples-de-bogota'
+          tipo: '13 Pequeñas Causas y Competencias Multiples',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-13-de-pequenas-causas-y-competencias-multiples-de-bogota'
         }
       },
       radicado     : '2019 - 00708',
@@ -7526,8 +7859,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '6 CM' },
-        ejecucion: { idytipo: '17 CME' }
+        origen: {
+          tipo: '6 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '17 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2018 - 00454',
       etapaProcesal: 'EJECUCION'
@@ -7568,8 +7905,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '16 PCYCM' },
-        ejecucion: { idytipo: '2 CME' }
+        origen: {
+          tipo: '16 Pequeñas Causas y Competencias Multiples' 
+        },
+        ejecucion: {
+          tipo: '2 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2019 - 01085',
       etapaProcesal: 'EJECUCIÓN'
@@ -7657,8 +7998,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'LA CALERA',
       juzgado                : {
         origen: {
-          idytipo: '001 PM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-01-promiscuo-municipal-de-la-calera'
+          tipo: '001 PM',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-01-promiscuo-municipal-de-la-calera'
         }
       },
       radicado     : '2018 - 00371',
@@ -7747,8 +8088,12 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '30/11/2018',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : { origen: { idytipo: '17 CM' } },
-      radicado               : '2019 - 00179'
+      juzgado                : {
+        origen: {
+          tipo: '17 Civil Municipal' 
+        } 
+      },
+      radicado: '2019 - 00179'
     },
     capitalAdeudado: 46118717,
     tipoProceso    : 'SINGULAR',
@@ -7947,8 +8292,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '81 CM' },
-        ejecucion: { idytipo: '1 CME' }
+        origen: {
+          tipo: '81 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '1 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2018 - 00514',
       etapaProcesal: 'EJECUCIÓN'
@@ -7978,8 +8327,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          idytipo: '42 CM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-42-civil-municipal-de-bogota'
+          tipo: '42 Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-42-civil-municipal-de-bogota'
         }
       },
       radicado     : '2020 - 00535',
@@ -8007,8 +8356,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          idytipo: '50 PCYCM/ 68 CM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota'
+          tipo: '50 Pequeñas Causas y Competencias Multiples/ 68 Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota'
         }
       },
       radicado     : '2020-1021',
@@ -8040,8 +8389,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'SOACHA',
       juzgado                : {
         origen: {
-          idytipo: '4 PCYCM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-04-municipal-de-pequenas-causas-y-competencia-multiple-de-soacha'
+          tipo: '4 Pequeñas Causas y Competencias Multiples',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-04-municipal-de-pequenas-causas-y-competencia-multiple-de-soacha'
         }
       },
       radicado     : '2018 - 00060',
@@ -8069,9 +8418,13 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2020-09-05',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'ZIPAQUIRA',
-      juzgado                : { origen: { idytipo: '2 CM' } },
-      radicado               : '2020 - 00289',
-      etapaProcesal          : 'EJECUCIÓN'
+      juzgado                : {
+        origen: {
+          tipo: '2 Civil Municipal' 
+        } 
+      },
+      radicado     : '2020 - 00289',
+      etapaProcesal: 'EJECUCIÓN'
     },
     capitalAdeudado: 33000833,
     tipoProceso    : 'SINGULAR',
@@ -8119,8 +8472,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '51 CM' },
-        ejecucion: { idytipo: '4 CME' }
+        origen: {
+          tipo: '51 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '4 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2018 - 00850',
       etapaProcesal: 'EJECUCIÓN'
@@ -8160,8 +8517,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '36 CM' },
-        ejecucion: { idytipo: '15 CME' }
+        origen: {
+          tipo: '36 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '15 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2018 - 00818',
       etapaProcesal: 'EJECUCIÓN'
@@ -8191,8 +8552,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '14 CM' },
-        ejecucion: { idytipo: '9 CME' }
+        origen: {
+          tipo: '14 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '9 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2018 - 00929',
       etapaProcesal: 'EJECUCIÓN'
@@ -8222,8 +8587,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '82 CM/ 41 CM' },
-        ejecucion: { idytipo: '14 CME' }
+        origen: {
+          tipo: '82 Civil Municipal/ 41 Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '14 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2018 - 00964',
       etapaProcesal: 'EJECUCIÓN'
@@ -8253,8 +8622,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '12 PCYCM' },
-        ejecucion: { idytipo: '17 CME' }
+        origen: {
+          tipo: '12 Pequeñas Causas y Competencias Multiples' 
+        },
+        ejecucion: {
+          tipo: '17 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2018 - 00644',
       etapaProcesal: 'EJECUCIÓN'
@@ -8284,8 +8657,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '12 PCYCM' },
-        ejecucion: { idytipo: '11 CME' }
+        origen: {
+          tipo: '12 Pequeñas Causas y Competencias Multiples' 
+        },
+        ejecucion: {
+          tipo: '11 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2018 - 00951',
       etapaProcesal: 'EJECUCIÓN'
@@ -8334,8 +8711,12 @@ export const carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
       juzgado                : {
-        origen   : { idytipo: '2  CM' },
-        ejecucion: { idytipo: '13 CME' }
+        origen: {
+          tipo: '2  Civil Municipal' 
+        },
+        ejecucion: {
+          tipo: '13 Civil Municipal de Ejecucion' 
+        }
       },
       radicado     : '2017 - 01002',
       etapaProcesal: 'EJECUCIÓN'
@@ -8409,8 +8790,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'FUSAGASUGA',
       juzgado                : {
         origen: {
-          idytipo: '3 CM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-003-civil-municipal-de-fusagasuga'
+          tipo: '3 Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-003-civil-municipal-de-fusagasuga'
         }
       },
       radicado: '2023 - 00371'
@@ -8440,8 +8821,8 @@ export const carpetas: IntCarpetaRaw[] = [
       ciudad                 : 'BOGOTA',
       juzgado                : {
         origen: {
-          idytipo: '4 CM',
-          url    : 'https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota'
+          tipo: '4 Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota'
         }
       },
       radicado: '2023 - 00622'
@@ -8468,8 +8849,12 @@ export const carpetas: IntCarpetaRaw[] = [
       entregaGarantiasAbogado: '2023-06-20',
       departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : { origen: { idytipo: '83 CM /65 PCC' } },
-      radicado               : '2023 - 01088'
+      juzgado                : {
+        origen: {
+          tipo: '83 Civil Municipal /65 PCC' 
+        } 
+      },
+      radicado: '2023 - 01088'
     },
     capitalAdeudado: 31804872,
     tipoProceso    : 'SINGULAR',
@@ -8482,7 +8867,7 @@ export const carpetas: IntCarpetaRaw[] = [
       cedula: 51976656,
       nombreCompleto:
         'SANDRA PATRICIA ALVAREZ RODRIGUEZ',
-      tel  : 'F 2297973 CELULAR 3157352910',
+      tel  : 'F 2297973 CEL 3157352910',
       email: 'sandris73@hotmail.com',
       direccion:
         'Carrera 102 No. 69 - 81 Casa 5 Conjunto Residencial Montes de Tierra Grata'
@@ -8508,7 +8893,7 @@ export const carpetas: IntCarpetaRaw[] = [
       cedula: 53130409,
       nombreCompleto:
         'JEIMMY SOLEY QUIROGA RAMIREZ',
-      tel  : 'F 3917539 CELULAR 3506509064',
+      tel  : 'F 3917539 CEL 3506509064',
       email: 'jsquiroga72@hotmail.com',
       direccion:
         'CL 55 BIS 16 48 Apartamento 702 Edificio Bangkok'
@@ -8530,7 +8915,7 @@ export const carpetas: IntCarpetaRaw[] = [
     deudor: {
       cedula        : 1022335014,
       nombreCompleto: 'CIRO ERQUILIAN ONOFRE',
-      tel           : 'CELULAR 3023193548',
+      tel           : 'CEL 3023193548',
       email         : 'ciro.onofe1105@gmail.com',
       direccion:
         'Carrera 13 # 4-20 Madrid (Cundinamarca)'
@@ -8554,7 +8939,7 @@ export const carpetas: IntCarpetaRaw[] = [
     deudor: {
       cedula        : 71685758,
       nombreCompleto: 'CARLOS HERNEY QUINTERO',
-      tel           : 'F 6485655 CELULAR 3002985587',
+      tel           : 'F 6485655 CEL 3002985587',
       email:
         'cahequi8097@gmail.com  fundaoyuki@gmail.com',
       direccion:
@@ -8581,7 +8966,7 @@ export const carpetas: IntCarpetaRaw[] = [
       cedula: 52531016,
       nombreCompleto:
         'CLAUDIA MARCELA ARIAS LÓPEZ',
-      tel  : 'CELULAR 3106736494',
+      tel  : 'CEL 3106736494',
       email: 'marcearias@yahoo.com',
       direccion:
         'Calle 18 N 86 55 Etapa 1 Torre 5 Apartamento 403 Conjunto Residencial Parque de Ostente'
@@ -8607,7 +8992,7 @@ export const carpetas: IntCarpetaRaw[] = [
       cedula: 80219425,
       nombreCompleto:
         'EDWIN ALEXANDER SALCEDO PEREZ',
-      tel  : 'CELULAR 3112633806',
+      tel  : 'CEL 3112633806',
       email: 'edwsal736@gmail.com',
       direccion:
         'Calle 50 Sur No. 93 D 38 Torre 07 Apartamento 601 Conjunto Residencial Porvenir Reservado Etapa 7; Carrera 89 A No. 45 A – 33 Sur Casa 207 Agrupación de Vivienda La Margarita Etapa 9'
@@ -8629,7 +9014,7 @@ export const carpetas: IntCarpetaRaw[] = [
     deudor: {
       cedula        : 1129565798,
       nombreCompleto: 'HANSEL MARTINEZ BARROS',
-      tel           : 'F 3930210 CELULAR 3043463859 // 3005306070',
+      tel           : 'F 3930210 CEL 3043463859 // 3005306070',
       email         : 'inghanselmartinez@hotmail.com',
       direccion:
         'CR 51 43 04 Barrio Abajo Barranquilla // Carrera 71 No. 88A - 31 Barranquilla // Calle 42 A No. 46 - 04 Barrio El Parque en Soledad (Atlantico)'
@@ -8654,7 +9039,7 @@ export const carpetas: IntCarpetaRaw[] = [
       cedula: 52278914,
       nombreCompleto:
         'LUZ JANNETH RODRIGUEZ MOERNO',
-      tel: 'F 17476445/7848056 CELULAR 3153208374',
+      tel: 'F 17476445/7848056 CEL 3153208374',
       email:
         'lurodrig@corona.com.co  jrodriguez2805@hotmail.com',
       direccion:
@@ -8775,10 +9160,12 @@ export const carpetas: IntCarpetaRaw[] = [
 
 const newCarpetasMap = carpetas.map(
   (
-    carpeta, index
+    carpeta
   ) => {
 
-    const newCarpeta = { ...carpeta, };
+    const newCarpeta = {
+      ...carpeta, 
+    };
 
     return newCarpeta;
   }
