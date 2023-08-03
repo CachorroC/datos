@@ -1,5 +1,5 @@
 import { IntCarpeta } from '#@/types/carpetas';
-import { ObjectId } from 'mongodb';
+import { MongoClient, ObjectId } from 'mongodb';
 import clientPromise from '../lib/mongodb';
 
 const carpetas: IntCarpeta[] = [
@@ -16,7 +16,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'AGUILAR',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -56,7 +56,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VERDUGO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -96,7 +96,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'URREA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -136,7 +136,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CASTIBLANCO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -176,7 +176,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'TOVAR',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -214,7 +214,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'QUESADA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -253,7 +253,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CRUZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -292,7 +292,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VALDES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -332,7 +332,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RODRIGUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -370,7 +370,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'HERNANDEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -459,7 +459,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GARCIA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -497,7 +497,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ENCISO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -536,7 +536,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: ' ROMERO ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -576,7 +576,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CASTAÑEDA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -666,7 +666,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GAMBOA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -706,7 +706,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CHAVARRIA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -744,7 +744,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'OBANDO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -784,7 +784,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SOTO DOMINGUEZ ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -823,7 +823,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CONTRERAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -858,7 +858,7 @@ const carpetas: IntCarpeta[] = [
       nombreCompleto: 'JOSE EDWIN GARCES ARDILA',
       tel           : {
         fijo   : '7978419',
-        celular: '' 
+        celular: ''
       },
       direccion:
         'CALLE 160 No. 58-75 TORRE 6 APTO 503 BOGOTA /// YOPAL CASANARE',
@@ -909,7 +909,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SAENZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -949,7 +949,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MORA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -984,7 +984,7 @@ const carpetas: IntCarpeta[] = [
       nombreCompleto: 'OMAR DARIO ZEA GALVIS',
       tel           : {
         fijo   : '7479415',
-        celular: '' 
+        celular: ''
       },
       direccion      : 'CL 14 No. 10 - 45 Bucaramanga',
       primerNombre   : 'OMAR',
@@ -1003,7 +1003,7 @@ const carpetas: IntCarpeta[] = [
       juzgado                : {
         origen: {
           tipo: ' CCTO',
-          id  : '11' 
+          id  : '11'
         },
         ejecucion: {
           tipo: ' CCTO EJ',
@@ -1032,7 +1032,7 @@ const carpetas: IntCarpeta[] = [
       primerApellido: 'RODRIGUEZ',
       tel           : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -1119,7 +1119,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'DE GONZALEZ ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -1159,7 +1159,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RAMIREZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -1199,7 +1199,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'HERRERA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -1236,7 +1236,7 @@ const carpetas: IntCarpeta[] = [
       primerApellido: 'PEREZ',
       tel           : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -1327,7 +1327,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MONROY',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -1367,7 +1367,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GUTIERREZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -1458,7 +1458,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MONTAGUT',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -1498,7 +1498,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GIRALDO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -1538,7 +1538,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MARTÍNEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -1578,7 +1578,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GÓMEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -1618,7 +1618,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'HENRIQUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -1658,7 +1658,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BOHORQUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -1714,7 +1714,7 @@ const carpetas: IntCarpeta[] = [
       juzgado                : {
         origen: {
           id  : 1,
-          tipo: ' PM' 
+          tipo: ' PM'
         },
         ejecucion: {
           tipo: 'unknown',
@@ -1726,7 +1726,7 @@ const carpetas: IntCarpeta[] = [
       etapaProcesal : 'EJECUCIÓN',
       despachoActivo: {
         id  : 1,
-        tipo: ' PM' 
+        tipo: ' PM'
       }
     },
     capitalAdeudado: 12956286,
@@ -1746,7 +1746,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RUIZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -1785,7 +1785,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RUIZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -1823,7 +1823,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CARDENAL',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -1962,7 +1962,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'TORRES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -2002,7 +2002,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CORDOBA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -2042,7 +2042,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BAQUERO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -2082,7 +2082,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VERA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -2122,7 +2122,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BOLIVAR',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -2161,7 +2161,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'LOZANO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -2198,7 +2198,7 @@ const carpetas: IntCarpeta[] = [
       primerApellido: 'GALLEGO',
       tel           : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -2236,7 +2236,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RIOS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -2274,7 +2274,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'LOPEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -2314,7 +2314,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ZAMBRANO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -2402,7 +2402,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GOMEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -2442,7 +2442,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GARCÍA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -2481,7 +2481,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ESGUERRA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -2521,7 +2521,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BUSTOS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -2560,7 +2560,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SUAREZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -2649,7 +2649,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'QUINTERO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -2689,7 +2689,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GALVIS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -2729,7 +2729,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CORRALES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -2769,7 +2769,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BOLIVAR',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -2854,7 +2854,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ARIAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -2894,7 +2894,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ROJAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -2934,7 +2934,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'FRAILE',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -2971,7 +2971,7 @@ const carpetas: IntCarpeta[] = [
       primerApellido: 'MAZUERA',
       tel           : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     demanda: {
@@ -3012,7 +3012,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ARCE',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -3051,7 +3051,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CRUZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -3089,7 +3089,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GARZÓN',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -3129,7 +3129,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VASQUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -3169,7 +3169,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MARTIN',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -3207,7 +3207,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CASTILLO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -3247,7 +3247,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VARGAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -3287,7 +3287,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'S.A.S.',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -3325,7 +3325,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'OLEJUA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -3365,7 +3365,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ARCINIEGAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -3454,7 +3454,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ALVAREZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -3539,7 +3539,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'REYES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -3577,7 +3577,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CARDONA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -3617,7 +3617,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RODRIGUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -3653,7 +3653,7 @@ const carpetas: IntCarpeta[] = [
         'LUIS ESNEIDER ORDUZ FARFAN',
       tel: {
         fijo   : '4712921',
-        celular: '' 
+        celular: ''
       },
       email          : 'orduzcrit2@hotmail.com',
       direccion      : 'CARRERA 95 # 138 - 58',
@@ -3707,7 +3707,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'OROZCO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -3746,7 +3746,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RODRIGUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -3786,7 +3786,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MEDINA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -3826,7 +3826,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MARTINEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -3865,7 +3865,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PITA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -3903,7 +3903,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CESPEDES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -3943,7 +3943,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MALDONADO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -3983,7 +3983,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CHAPARRO LEMUS ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -4023,7 +4023,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PEÑUELA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -4062,7 +4062,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ORTIZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -4102,7 +4102,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MORA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -4241,7 +4241,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MENDEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -4281,7 +4281,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ROLDAN POZO ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -4316,7 +4316,7 @@ const carpetas: IntCarpeta[] = [
       nombreCompleto: 'DANIEL HERNANDEZ GONZALEZ',
       tel           : {
         fijo   : '2716567',
-        celular: '' 
+        celular: ''
       },
       email          : 'danielher84@gmail.com',
       direccion      : 'CALLE 134 No. 58-58',
@@ -4367,7 +4367,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'TURRIAGO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -4403,7 +4403,7 @@ const carpetas: IntCarpeta[] = [
         'MIGUEL ANGEL HUERTAS VALENCIA',
       tel: {
         fijo   : '2723136',
-        celular: '' 
+        celular: ''
       },
       email          : 'miguelangelhuertasv@hotmail.com',
       direccion      : 'TRANVERSAL 15A # 31-09 SUR',
@@ -4425,7 +4425,7 @@ const carpetas: IntCarpeta[] = [
       juzgado                : {
         origen: {
           tipo: ' CC',
-          id  : '25' 
+          id  : '25'
         },
         ejecucion: {
           tipo: ' C CTO E',
@@ -4456,7 +4456,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MORA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -4494,7 +4494,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BENITEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -4534,7 +4534,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CORONADO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -4574,7 +4574,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'TORRES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -4614,7 +4614,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MAYORGA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -4653,7 +4653,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RUIZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -4693,7 +4693,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VELASQUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -4732,7 +4732,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PARDO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -4768,7 +4768,7 @@ const carpetas: IntCarpeta[] = [
         'NICOLAS FERNANDO MONTOYA CORREA',
       tel: {
         fijo   : '2531962',
-        celular: '' 
+        celular: ''
       },
       email: 3176677592,
       direccion:
@@ -4820,7 +4820,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ROJAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -4859,7 +4859,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GALLEGO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -4894,7 +4894,7 @@ const carpetas: IntCarpeta[] = [
       nombreCompleto: 'JENCELL E.U.',
       tel           : {
         fijo   : '5753416',
-        celular: '' 
+        celular: ''
       },
       direccion     : 'CARRERA 3 # 29A - 02',
       primerNombre  : 'JENCELL',
@@ -4946,7 +4946,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RODRIGUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -4986,7 +4986,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RINCON',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5025,7 +5025,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MOSQUERA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5065,7 +5065,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MELO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5101,7 +5101,7 @@ const carpetas: IntCarpeta[] = [
         'MILCIADES GALINDO CASTEBLANCO',
       tel: {
         fijo   : '4536131',
-        celular: '' 
+        celular: ''
       },
       direccion      : 'CARRERA 18 # 12 - 72',
       primerNombre   : 'MILCIADES',
@@ -5152,7 +5152,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PULIDO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5192,7 +5192,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'DE TRILLERAS ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5232,7 +5232,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GONZALEZ SOSA ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5269,7 +5269,7 @@ const carpetas: IntCarpeta[] = [
       primerApellido: 'QUIÑONES',
       tel           : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5309,7 +5309,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MESTRE',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5349,7 +5349,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BARRETO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5389,7 +5389,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RAMIREZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5429,7 +5429,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GARCIA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5469,7 +5469,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PARADA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5509,7 +5509,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SIERRA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5549,7 +5549,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MANRIQUE',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5588,7 +5588,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SANCHEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5628,7 +5628,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CARO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5668,7 +5668,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SARMIENTO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5707,7 +5707,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GARCIA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5747,7 +5747,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RINCON',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5785,7 +5785,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CUELLAR',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5825,7 +5825,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MORALES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5865,7 +5865,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SALAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5905,7 +5905,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CARREÑO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5944,7 +5944,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'TISNES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -5984,7 +5984,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RINCON',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -6024,7 +6024,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MORALES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -6064,7 +6064,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GONZALEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -6102,7 +6102,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ALARCON',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -6142,7 +6142,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CARDONA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -6180,7 +6180,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RODRIGUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -6220,7 +6220,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ALVAREZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -6256,7 +6256,7 @@ const carpetas: IntCarpeta[] = [
         'GABRIEL EDUARDO MEJIA LADINO',
       tel: {
         fijo   : '',
-        celular: '' 
+        celular: ''
       },
       email: 'gabriel.eml@hotmail.com',
       direccion:
@@ -6313,7 +6313,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ALZATE',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -6353,7 +6353,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SARMIENTO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -6393,7 +6393,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CASTAÑO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -6433,7 +6433,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MONTES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -6472,7 +6472,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ENCISO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -6512,7 +6512,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SALINAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -6552,7 +6552,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'HERNANDEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -6591,7 +6591,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'S.A.S',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -6631,7 +6631,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ALZATE',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -6763,7 +6763,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PEÑA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -6803,7 +6803,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CALDERON',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -6843,7 +6843,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BELTRAN',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -6878,7 +6878,7 @@ const carpetas: IntCarpeta[] = [
       nombreCompleto: 'RITA BLANCO DE GOMEZ',
       tel           : {
         fijo   : '3861894',
-        celular: '' 
+        celular: ''
       },
       email: 'dorancy1@hotmail.com',
       direccion:
@@ -6934,7 +6934,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'DURAN',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -6974,7 +6974,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'URREA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -7014,7 +7014,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ALFONSO BAQUERO ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -7054,7 +7054,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'OCHOA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -7143,7 +7143,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'AVILA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -7182,7 +7182,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'DAZA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -7220,7 +7220,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ROJAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -7258,7 +7258,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PINZON',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -7345,7 +7345,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GARAVIS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -7385,7 +7385,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GUERRERO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -7425,7 +7425,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MENDIETA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -7461,7 +7461,7 @@ const carpetas: IntCarpeta[] = [
         'WILSON ALFONSO JIMENEZ MENDIETA',
       tel: {
         fijo   : '5714329',
-        celular: '' 
+        celular: ''
       },
       email          : 'grupocomerciallasabana@hotmail.com',
       direccion      : 'CARRERA 81C # 2B - 80 PISO 2',
@@ -7564,7 +7564,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'FERNANDEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -7600,7 +7600,7 @@ const carpetas: IntCarpeta[] = [
         'CELY MARGOTH ROJAS VELANDIA',
       tel: {
         fijo   : '5267343',
-        celular: '' 
+        celular: ''
       },
       direccion:
         'CALLE 29 A # 2 - 76 APTO 304 CHIA',
@@ -7651,7 +7651,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PINZON',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -7691,7 +7691,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VELANDIA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -7731,7 +7731,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ROMAN GRISALES ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -7771,7 +7771,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MORA ESPINOSA ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -7859,7 +7859,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SALCEDO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -7945,7 +7945,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RUEDA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -7985,7 +7985,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CORTES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -8022,7 +8022,7 @@ const carpetas: IntCarpeta[] = [
       primerApellido: 'TIBATA',
       tel           : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -8061,7 +8061,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BARON',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -8101,7 +8101,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PUENTES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -8159,7 +8159,7 @@ const carpetas: IntCarpeta[] = [
       juzgado                : {
         origen: {
           tipo: ' PM',
-          id  : '2' 
+          id  : '2'
         },
         ejecucion: {
           tipo: 'unknown',
@@ -8190,7 +8190,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CASTAÑEDA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -8282,7 +8282,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SANDOVAL',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -8320,7 +8320,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MARTINEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -8355,7 +8355,7 @@ const carpetas: IntCarpeta[] = [
       nombreCompleto: 'FLOR ESPERANZA GUTIERREZ',
       tel           : {
         fijo   : '5754502',
-        celular: '' 
+        celular: ''
       },
       email          : 'carito220@hotmail.es',
       direccion      : 'CARRERA 34 # 9 - 60',
@@ -8454,7 +8454,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VELANDIA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -8494,7 +8494,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RODRIGUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -8534,7 +8534,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CRUZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     demanda: {
@@ -8680,7 +8680,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RAMIREZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -8718,7 +8718,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'FARFAN',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -8758,7 +8758,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'FONSECA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -8798,7 +8798,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MAHECHA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -8837,7 +8837,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RIOS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -8877,7 +8877,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SUAREZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -8913,7 +8913,7 @@ const carpetas: IntCarpeta[] = [
         'DIANA VANESSA NARANJO HERNANDEZ',
       tel: {
         fijo   : '',
-        celular: '' 
+        celular: ''
       },
       email          : 'casas_castillo@hotmail.com',
       direccion      : 'CALLE 58 # 45 - 86',
@@ -8934,7 +8934,7 @@ const carpetas: IntCarpeta[] = [
       juzgado                : {
         origen: {
           tipo: ' CCTO',
-          id  : '37' 
+          id  : '37'
         },
         ejecucion: {
           tipo: ' CCTOEJ',
@@ -8963,7 +8963,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'HERNANDEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -9001,7 +9001,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PATIÑO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -9041,7 +9041,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PINEDA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -9079,7 +9079,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MACHADO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -9117,7 +9117,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PINILLA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -9208,7 +9208,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CORTES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -9248,7 +9248,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VALBUENA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -9288,7 +9288,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'AGUILERA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -9328,7 +9328,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'DE DUITAMA ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -9367,7 +9367,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GIL',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -9407,7 +9407,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BERNAL',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -9447,7 +9447,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CASTAÑEDA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -9487,7 +9487,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'Y OTRO ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -9527,7 +9527,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'LINARES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -9617,7 +9617,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BERMUDEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -9705,7 +9705,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'OLAYA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -9745,7 +9745,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SALGUERO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -9785,7 +9785,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ARIAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -9821,7 +9821,7 @@ const carpetas: IntCarpeta[] = [
         'NIDIA JACQUELINE RIVEROS ARAQUE',
       tel: {
         fijo   : '',
-        celular: '' 
+        celular: ''
       },
       direccion:
         'CARRERA 88C  63 SUR 67 TORRE 5 APARTAMENTO 1',
@@ -9872,7 +9872,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MONGUI',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -9910,7 +9910,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'S..A.S.',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -9949,7 +9949,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: ' ROMO ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -10038,7 +10038,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GUATAMA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -10077,7 +10077,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'DIAZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -10115,7 +10115,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VILLAMIL',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -10153,7 +10153,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'NOVOA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -10191,7 +10191,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ALBA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -10282,7 +10282,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RAMIREZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -10322,7 +10322,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BENAVIDES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -10360,7 +10360,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GOMEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -10400,7 +10400,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CORREDOR',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -10489,7 +10489,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ACEVEDO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -10527,7 +10527,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MARTINEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -10565,7 +10565,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CAICEDO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -10600,7 +10600,7 @@ const carpetas: IntCarpeta[] = [
       nombreCompleto: 'SOL JUDITH BUITRAGO DUQUE',
       tel           : {
         fijo   : '3002001',
-        celular: '' 
+        celular: ''
       },
       email: 'dirfinanciera.sol@gmail.com',
       direccion:
@@ -10656,7 +10656,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'LARA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -10694,7 +10694,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PARDO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -10734,7 +10734,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'DELGADO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -10774,7 +10774,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ZAMORA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -10812,7 +10812,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BOTERO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -10851,7 +10851,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PEÑA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -10942,7 +10942,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ISAZA AGUIRRE ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -10982,7 +10982,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'HERREÑO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -11021,7 +11021,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SERRATO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -11060,7 +11060,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CUERVO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -11100,7 +11100,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'HERNANDEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -11140,7 +11140,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MORA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -11180,7 +11180,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RODRIGUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -11216,7 +11216,7 @@ const carpetas: IntCarpeta[] = [
         'SONIA MARCELA MOLINA QUIMBAYO',
       tel: {
         fijo   : '7650684',
-        celular: '' 
+        celular: ''
       },
       email          : 'sonymarce20@hotmail.com',
       direccion      : 'CALLE 67 No 17 C-63 SUR',
@@ -11268,7 +11268,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BORRAEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -11305,7 +11305,7 @@ const carpetas: IntCarpeta[] = [
       primerApellido: 'GARZON',
       tel           : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -11343,7 +11343,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GOMEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -11382,7 +11382,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PERDOMO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -11567,7 +11567,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MUÑOZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -11658,7 +11658,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'QUIJANO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -11696,7 +11696,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VARGAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -11735,7 +11735,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GOMEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -11770,7 +11770,7 @@ const carpetas: IntCarpeta[] = [
       nombreCompleto: 'ALIRIO HEREDIA BUITRAGO',
       tel           : {
         fijo   : '2796621',
-        celular: '' 
+        celular: ''
       },
       email          : 'gerencia.seguridadgf@gmail.com',
       direccion      : 'DIAGONAL 48 J No 5C- 34 SUR',
@@ -11869,7 +11869,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VIVAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -11905,7 +11905,7 @@ const carpetas: IntCarpeta[] = [
         'JOSE AHINSONJOBER TORO VARGAS',
       tel: {
         fijo   : '4651401',
-        celular: '' 
+        celular: ''
       },
       email          : 'serdiajo@gmail.com',
       direccion      : 'AVENIDA 1 DE MAYO No 29-06',
@@ -11955,7 +11955,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RODRIGUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -11995,7 +11995,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BALLEN',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -12132,7 +12132,7 @@ const carpetas: IntCarpeta[] = [
       nombreCompleto: 'HERNANDO PULECIO PAREDES',
       tel           : {
         fijo   : '4619449',
-        celular: '' 
+        celular: ''
       },
       email: 'hpulecio@cable.net.co',
       direccion:
@@ -12180,7 +12180,7 @@ const carpetas: IntCarpeta[] = [
         'RITA CECILIA FERNANDEZ IBAÑEZ',
       tel: {
         fijo   : '2131020',
-        celular: '' 
+        celular: ''
       },
       direccion:
         'CALLE 124 No  20-76 APARTAMENTO 503',
@@ -12234,7 +12234,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'AGUIRRE',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -12291,7 +12291,7 @@ const carpetas: IntCarpeta[] = [
       juzgado                : {
         origen: {
           tipo: ' PM',
-          id  : '001' 
+          id  : '001'
         },
         ejecucion: {
           tipo: 'unknown',
@@ -12324,7 +12324,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BOHORQUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -12364,7 +12364,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BARON',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -12404,7 +12404,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SANCHEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -12444,7 +12444,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RODRIGUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -12482,7 +12482,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'LOPEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -12522,7 +12522,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VELANDIA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -12560,7 +12560,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'TELLEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     demanda: {
@@ -12600,7 +12600,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RODRIGUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -12639,7 +12639,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'LEAL',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -12679,7 +12679,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ALDANA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -12719,7 +12719,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VELASCO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -12759,7 +12759,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SOSA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -12795,7 +12795,7 @@ const carpetas: IntCarpeta[] = [
         'LIBARDO ALFONSO GONZALEZ TRIVIÑO',
       tel: {
         fijo   : '2928108',
-        celular: '' 
+        celular: ''
       },
       email          : 'li_bcar@hotmail.com',
       direccion      : 'CARRERA 72 A- No 9 - 44',
@@ -12852,7 +12852,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'OTALVARO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -12892,7 +12892,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MAYORGA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -12930,7 +12930,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PLAZAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -12968,7 +12968,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PEPICANO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -13007,7 +13007,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CIFUENTES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -13043,7 +13043,7 @@ const carpetas: IntCarpeta[] = [
         'MANUEL ENRIQUE ARTEAGA OROZCO',
       tel: {
         fijo   : '5164071',
-        celular: '' 
+        celular: ''
       },
       email: 'saliradelante2012@hotmail.com',
       direccion:
@@ -13100,7 +13100,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SANCHEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -13138,7 +13138,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RODRIGUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -13178,7 +13178,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MEJIA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -13218,7 +13218,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PADILLA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -13256,7 +13256,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MORENO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -13296,7 +13296,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'POBLADOR',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -13336,7 +13336,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'POTES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -13376,7 +13376,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ALFONSO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -13416,7 +13416,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PEREIRA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -13455,7 +13455,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'LOPEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -13495,7 +13495,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PATIÑO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -13531,7 +13531,7 @@ const carpetas: IntCarpeta[] = [
         'SANDRA MILENA BARRETO BERMUDEZ',
       tel: {
         fijo   : '',
-        celular: '' 
+        celular: ''
       },
       email: 'milena125@hotmail.com',
       direccion:
@@ -13586,7 +13586,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: ' VARON ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -13626,7 +13626,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SUAREZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -13666,7 +13666,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'AVELLANEDA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -13706,7 +13706,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MARROQUIN',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -13746,7 +13746,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BECERRA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -13834,7 +13834,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ESCOBAR',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -13874,7 +13874,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RODRIGUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -13957,7 +13957,7 @@ const carpetas: IntCarpeta[] = [
         'BLANCA MELBA MOYANO BELTRAN',
       tel: {
         fijo   : '3213718',
-        celular: '' 
+        celular: ''
       },
       direccion:
         'CARRERA 3 No 9 - 02 /08  CAPARRAPI (CUNDINAMARCA)',
@@ -13977,7 +13977,7 @@ const carpetas: IntCarpeta[] = [
       juzgado                : {
         origen: {
           tipo: ' PM',
-          id  : '001' 
+          id  : '001'
         },
         ejecucion: {
           tipo: 'unknown',
@@ -14010,7 +14010,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ZAMBRANO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -14048,7 +14048,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ROJAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -14086,7 +14086,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PARRA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -14126,7 +14126,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CASTELBLANCO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -14166,7 +14166,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'JIMENEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -14259,7 +14259,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GUTIERREZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -14298,7 +14298,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'LOPEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -14337,7 +14337,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'URIBE',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -14427,7 +14427,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ROSERO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -14467,7 +14467,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VALDERRAMA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -14507,7 +14507,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'NORIEGA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -14543,7 +14543,7 @@ const carpetas: IntCarpeta[] = [
         'MARIO DE JESUS OSSA PULGARIN',
       tel: {
         fijo   : '7673180',
-        celular: '' 
+        celular: ''
       },
       direccion:
         'TRANSVERSAL 2 C BIS No 97 B-05 SUR',
@@ -14593,7 +14593,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GUZMAN',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -14633,7 +14633,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'TORRES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -14672,7 +14672,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MENDEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -14712,7 +14712,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SANCHEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -14752,7 +14752,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GARCIA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -14839,7 +14839,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SAAVEDRA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -14879,7 +14879,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VARGAS BERNAL ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -14966,7 +14966,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SUAREZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -15006,7 +15006,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ZAPATA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -15046,7 +15046,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VELASQUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -15086,7 +15086,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GARCIA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -15126,7 +15126,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'TORRES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -15166,7 +15166,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'AMEZQUITA PAEZ ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -15205,7 +15205,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CALDERON',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -15240,7 +15240,7 @@ const carpetas: IntCarpeta[] = [
       nombreCompleto: 'INVERSION RIVOLI S.A.S.',
       tel           : {
         fijo   : '3727561',
-        celular: '' 
+        celular: ''
       },
       direccion      : 'CARRERA 24 G No20-35 SUR',
       primerNombre   : 'INVERSION',
@@ -15290,7 +15290,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SUAREZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -15326,7 +15326,7 @@ const carpetas: IntCarpeta[] = [
         'MARTHA ANDREA MORA COLLAZOS',
       tel: {
         fijo   : '',
-        celular: '' 
+        celular: ''
       },
       email: 'andreato1a@hotmaul.com',
       direccion:
@@ -15381,7 +15381,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PINZON',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -15421,7 +15421,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VILLALBA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -15461,7 +15461,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MONTENEGRO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -15501,7 +15501,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MARTINEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -15536,7 +15536,7 @@ const carpetas: IntCarpeta[] = [
       nombreCompleto: 'ROBERTO RICO RUIZ',
       tel           : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       },
       email: 'roberto.rico.ruiz@gmail.com',
       direccion:
@@ -15589,7 +15589,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CASTRO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -15628,7 +15628,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'LEON',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -15668,7 +15668,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GALVIS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -15708,7 +15708,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GALVIS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -15748,7 +15748,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MELO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -15788,7 +15788,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BARRAGAN',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -15828,7 +15828,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RODRIGUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -15868,7 +15868,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MEJIA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -15906,7 +15906,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SIERRA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -15944,7 +15944,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PALMAR',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -16033,7 +16033,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PUCCETI',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -16073,7 +16073,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GUTIERREZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -16108,7 +16108,7 @@ const carpetas: IntCarpeta[] = [
       nombreCompleto: 'GILBERTO JAIME BETANCOURT',
       tel           : {
         fijo   : '3138547',
-        celular: '' 
+        celular: ''
       },
       email          : 'gilbertojaime@hotmail.com',
       direccion      : 'CARRERA 82  No  19 - 20',
@@ -16161,7 +16161,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CANO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -16197,7 +16197,7 @@ const carpetas: IntCarpeta[] = [
         'EDGAR JOBANNY MATEUS CASTILLO',
       tel: {
         fijo   : '8511988',
-        celular: '' 
+        celular: ''
       },
       email: 'giovannymat@yahoo.com',
       direccion:
@@ -16253,7 +16253,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RODRIGUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -16293,7 +16293,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'TORRES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -16331,7 +16331,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ROJAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -16419,7 +16419,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'TAPIAS ESTEVEZ ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -16459,7 +16459,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'LOPEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -16498,7 +16498,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'QUIROGA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -16538,7 +16538,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GONZALEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -16578,7 +16578,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'OJEDA RODRIGUEZ ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -16618,7 +16618,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'HUERTAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -16658,7 +16658,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'AYA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -16697,7 +16697,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RIOS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -16786,7 +16786,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'JIMENEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -16822,7 +16822,7 @@ const carpetas: IntCarpeta[] = [
         'NESTOR ALBERTO CRISTANCHO LOPEZ',
       tel: {
         fijo   : '5266894',
-        celular: '' 
+        celular: ''
       },
       email: 'nescri64@hotmail.com',
       direccion:
@@ -16878,7 +16878,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'FONSECA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -16968,7 +16968,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VILLAMIL',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -17006,7 +17006,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RUBIO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -17046,7 +17046,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CRISTIANO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -17086,7 +17086,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: ' PATARROYO ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -17124,7 +17124,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CORTES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -17164,7 +17164,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RICO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -17204,7 +17204,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'HERNANDEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     demanda: {
@@ -17295,7 +17295,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ROJAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -17335,7 +17335,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'HERNANDEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -17423,7 +17423,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ORTIZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -17462,7 +17462,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MURCIA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -17500,7 +17500,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GARCIA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -17540,7 +17540,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ROODRIGUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -17580,7 +17580,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MESA OSES ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -17620,7 +17620,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MONTENEGRO GARCIA ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -17676,7 +17676,7 @@ const carpetas: IntCarpeta[] = [
       juzgado                : {
         origen: {
           tipo: ' PM',
-          id  : '2' 
+          id  : '2'
         },
         ejecucion: {
           tipo: 'unknown',
@@ -17709,7 +17709,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GOMEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -17748,7 +17748,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RODRIGUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -17788,7 +17788,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CUELLAR ARIAS ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -17828,7 +17828,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ROCHA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -17867,7 +17867,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CARO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -17907,7 +17907,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PAEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -17947,7 +17947,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'FLOREZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -17985,7 +17985,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'QUIROGA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18025,7 +18025,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BUTTNER',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18065,7 +18065,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SALAMANCA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18104,7 +18104,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GARCIA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18144,7 +18144,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CEPEDA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18184,7 +18184,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GIRALDO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18222,7 +18222,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PRIETO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18262,7 +18262,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'FORERO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18302,7 +18302,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ALVARADO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18342,7 +18342,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MORALES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18382,7 +18382,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BEJARANO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18419,7 +18419,7 @@ const carpetas: IntCarpeta[] = [
       primerApellido: 'CUSPOCA',
       tel           : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18459,7 +18459,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'TORRES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18498,7 +18498,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GARCIA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18538,7 +18538,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ROJAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18578,7 +18578,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'DUCON',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18618,7 +18618,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CARRILLO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18704,7 +18704,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MELO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18744,7 +18744,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ARCINIEGAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18784,7 +18784,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'OLARTE',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18824,7 +18824,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VARGAS (FALLECIDA) ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18861,7 +18861,7 @@ const carpetas: IntCarpeta[] = [
       primerApellido: 'LIMITADA',
       tel           : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18897,7 +18897,7 @@ const carpetas: IntCarpeta[] = [
         'SANDRA PATRICIA BELTRAN OVIEDO',
       tel: {
         fijo   : '6607900',
-        celular: '' 
+        celular: ''
       },
       email: 'saraja.7@hotmail.com',
       direccion:
@@ -18948,7 +18948,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VANEGAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -18988,7 +18988,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'HERNANDEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -19028,7 +19028,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'OVIEDO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -19066,7 +19066,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CACERES',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -19102,7 +19102,7 @@ const carpetas: IntCarpeta[] = [
         'LEIDY YANETH VIDAL RODRIGUEZ',
       tel: {
         fijo   : '7114516',
-        celular: '' 
+        celular: ''
       },
       email          : 'leidyyaneth.lyv@gmail.com',
       direccion      : 'DIAGONAL 2 No 21 B-20',
@@ -19161,7 +19161,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ANGEL',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -19199,7 +19199,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ANTONIO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -19292,7 +19292,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ZUÑIGA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -19332,7 +19332,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PIÑEROS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -19372,7 +19372,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'TUTA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -19412,7 +19412,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ARTURO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -19450,7 +19450,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'AGUILAR',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -19488,7 +19488,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CORREAL',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -19527,7 +19527,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'AVILA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -19567,7 +19567,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CAMACHO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -19603,7 +19603,7 @@ const carpetas: IntCarpeta[] = [
         'JOSE LIBRANDO CANDELA MUNEVAR',
       tel: {
         fijo   : '7113967',
-        celular: '' 
+        celular: ''
       },
       email          : 'eedibrando600@hotmail.com',
       direccion      : 'CALLE 1 A No 13-30  SOACHA',
@@ -19654,7 +19654,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'DAZA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -19690,7 +19690,7 @@ const carpetas: IntCarpeta[] = [
         'ADOLFO  LEON DAZA FERNANDEZ',
       tel: {
         fijo   : '7038787',
-        celular: '' 
+        celular: ''
       },
       email          : 'adolfo.daza@gmail.com',
       direccion      : 'CALLE 60 No 38-26 APTO 301',
@@ -19742,7 +19742,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PASTOR',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -19782,7 +19782,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CORREA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -19873,7 +19873,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'YARURO PEÑARANDA ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -19913,7 +19913,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ROSAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -19953,7 +19953,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ESCOBAR',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -19993,7 +19993,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'AVILA GARZON ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -20033,7 +20033,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BALLEN',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -20073,7 +20073,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MURCIA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -20111,7 +20111,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MORINELLY',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -20151,7 +20151,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CAMPUZANO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -20189,7 +20189,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CALDERON',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -20229,7 +20229,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ESPITIA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -20265,7 +20265,7 @@ const carpetas: IntCarpeta[] = [
         'SANDRA PATRICIA PACHECO RAMIREZ',
       tel: {
         fijo   : '8121692',
-        celular: '' 
+        celular: ''
       },
       email: 'sandrabogota2007@yahoo.com',
       direccion:
@@ -20326,7 +20326,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RIVERA JIMENEZ ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -20366,7 +20366,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'FIERRO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -20405,7 +20405,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VITOPIA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -20445,7 +20445,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MURILLO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -20480,7 +20480,7 @@ const carpetas: IntCarpeta[] = [
       nombreCompleto: 'MODESTO PINEDA PEREZ',
       tel           : {
         fijo   : '8852490',
-        celular: '' 
+        celular: ''
       },
       email          : 'mopadinco@yahoo.com',
       direccion      : 'CARRERA 6 No 6-59',
@@ -20535,7 +20535,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SANCHEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -20575,7 +20575,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BARRERA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -20610,7 +20610,7 @@ const carpetas: IntCarpeta[] = [
       nombreCompleto: 'FLORESMIRO APONTE ACOSTA',
       tel           : {
         fijo   : '3208569',
-        celular: '' 
+        celular: ''
       },
       email: 'dcentro@pcpplasticos.com',
       direccion:
@@ -20663,7 +20663,7 @@ const carpetas: IntCarpeta[] = [
       nombreCompleto: 'SMARTITECH S.A.S',
       tel           : {
         fijo   : '3849696',
-        celular: '' 
+        celular: ''
       },
       direccion     : 'CARRERA 13 No 73-33',
       primerNombre  : 'SMARTITECH',
@@ -20713,7 +20713,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'UCEBUL',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -20749,7 +20749,7 @@ const carpetas: IntCarpeta[] = [
         'ANGELICA NATHALY ROZO FRANCO',
       tel: {
         fijo   : '6594339',
-        celular: '' 
+        celular: ''
       },
       email: 'Anrf1985@hotmail.com',
       direccion:
@@ -20802,7 +20802,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MONTENEGRO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -20842,7 +20842,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MENDEZ AMAYA ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -20882,7 +20882,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GARZON LOPEZ ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -20922,7 +20922,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GOMEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -20962,7 +20962,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CASALLAS ROMERO ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -21053,7 +21053,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'FIQUITIVA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -21093,7 +21093,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MUÑOZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -21133,7 +21133,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MONTOYA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -21173,7 +21173,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GARCIA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -21213,7 +21213,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RODRIGUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -21249,7 +21249,7 @@ const carpetas: IntCarpeta[] = [
         'MANUEL ALBERTO LEON CALDERON',
       tel: {
         fijo   : '3175879',
-        celular: '' 
+        celular: ''
       },
       email          : 'terranova54@latinmail.com',
       direccion      : 'CARRERA 68 No 100-51 APTO 405',
@@ -21302,7 +21302,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GOMEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -21342,7 +21342,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'LUCUMI',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -21380,7 +21380,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'SUAREZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -21420,7 +21420,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VANEGAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -21460,7 +21460,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CABRERA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -21499,7 +21499,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ORTEGA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -21539,7 +21539,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'LANCHEROS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -21578,7 +21578,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RODRIGUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -21618,7 +21618,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ANDRADE',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -21658,7 +21658,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ROJAS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -21697,7 +21697,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'DIAZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -21737,7 +21737,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RODRIGUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -21777,7 +21777,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RODRIGUEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -21817,7 +21817,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'LOPEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -21855,7 +21855,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'POVEDA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -21939,7 +21939,7 @@ const carpetas: IntCarpeta[] = [
       nombreCompleto: 'SANDRA LEONOR PAEZ MURCIA',
       tel           : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       },
       email: 'yadelcis@hotmail.com',
       direccion:
@@ -21992,7 +21992,7 @@ const carpetas: IntCarpeta[] = [
       nombreCompleto: 'DIMOIN COLOMBIA S.A.S.',
       tel           : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       },
       direccion      : 'AV BOYACA 63D - 26 OFICINA 103',
       primerNombre   : 'DIMOIN',
@@ -22042,7 +22042,7 @@ const carpetas: IntCarpeta[] = [
         'JAIRO ALFONSO PARDO JAIMES',
       tel: {
         fijo   : '7808590',
-        celular: '' 
+        celular: ''
       },
       email: 'jairopardo8-11-70@hotmail.com',
       direccion:
@@ -22096,7 +22096,7 @@ const carpetas: IntCarpeta[] = [
         'PEDRO JULIO TRIVIÑO VALBUENA',
       tel: {
         fijo   : '',
-        celular: '' 
+        celular: ''
       },
       email          : 'maribelbonita86@hotmail.com',
       direccion      : 'VEREDA SAN JORGE ZIPAQUIRA',
@@ -22150,7 +22150,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RINCÓN',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -22189,7 +22189,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PAEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -22278,7 +22278,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ROVIDA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -22313,7 +22313,7 @@ const carpetas: IntCarpeta[] = [
       nombreCompleto: 'ADRIANA LUCIA MORA PLATA',
       tel           : {
         fijo   : '8146011',
-        celular: '' 
+        celular: ''
       },
       email: 'amoplata@yahoo.com',
       direccion:
@@ -22415,7 +22415,7 @@ const carpetas: IntCarpeta[] = [
         'JOSE RAMON ESTRADA CASTILLO',
       tel: {
         fijo   : '2998302',
-        celular: '' 
+        celular: ''
       },
       email          : 'jrestradacastillo@gmail.com',
       direccion      : 'CARRERA 81 G No 48-03 SUR',
@@ -22516,7 +22516,7 @@ const carpetas: IntCarpeta[] = [
       nombreCompleto: 'ROSALIA CHARRY  SARMIENTO',
       tel           : {
         fijo   : '2943968',
-        celular: '' 
+        celular: ''
       },
       email: 'rochi2656@hotmail.com',
       direccion:
@@ -22572,7 +22572,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'ORTIZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -22610,7 +22610,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'VILLAMIZAR',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -22697,7 +22697,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GONZALEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -22737,7 +22737,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'BELTRAN',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -22777,7 +22777,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CARREÑO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -22816,7 +22816,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PEÑUELA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -22858,7 +22858,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GOMEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     demanda: {
@@ -22901,7 +22901,7 @@ const carpetas: IntCarpeta[] = [
         'OSCAR MAURICIO GOMEZ MENDOZA',
       tel: {
         fijo   : '2043773',
-        celular: '' 
+        celular: ''
       },
       email          : 'oscar2794@hotmail.com',
       direccion      : 'CL 49 A BIS SUR No. 5 N 10',
@@ -22961,7 +22961,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'PENAGOS',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     demanda: {
@@ -23412,7 +23412,7 @@ const carpetas: IntCarpeta[] = [
         'MARIO HERNAN SALAMANCA PATIÑO',
       tel: {
         fijo   : '7746112',
-        celular: '' 
+        celular: ''
       },
       email: 'ajasalama@gmail.com',
       direccion:
@@ -23468,7 +23468,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GOMEZ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     demanda: {
@@ -23513,7 +23513,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'GALEANO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     demanda: {
@@ -23558,7 +23558,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'CARRILLO',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     demanda: {
@@ -23602,7 +23602,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'RIVERA',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -23641,7 +23641,7 @@ const carpetas: IntCarpeta[] = [
       segundoApellido: 'MOLINA QUIRAMA ',
       tel            : {
         fijo   : '',
-        celular: '' 
+        celular: ''
       }
     },
     capitalAdeudado: 0,
@@ -23674,17 +23674,17 @@ export const carpetasCollection = async () => {
 
   if ( !client ) {
     throw new Error(
-      'no hay cliente mongólico' 
+      'no hay cliente mongólico'
     );
   }
 
   const db = client.db(
-    'RyS' 
+    'RyS'
   );
 
   const carpetas
     = db.collection<IntCarpeta>(
-      'Carpetas' 
+      'Carpetas'
     );
 
   return carpetas;
@@ -23692,30 +23692,56 @@ export const carpetasCollection = async () => {
 
 const newCarpetas = carpetas.map(
   (
-    carpeta 
+    carpeta
   ) => {
     const newCarpeta = {
       ...carpeta,
       _id: new ObjectId(
-        carpeta.numero 
+        carpeta.numero
       )
     };
 
     return newCarpeta;
-  } 
+  }
 );
 console.log(
-  newCarpetas 
+  newCarpetas
+);
+// Replace the uri string with your MongoDB deployment's connection string.
+const uri = 'mongodb+srv://cachorro_cami:Tengo1amo@cluster0.ffbyjzl.mongodb.net/?retryWrites=true&w=majority';
+
+const client = new MongoClient(
+  uri
 );
 
-export async function insertAll(
-  carpetas: IntCarpeta[]
-) {
-  const collection = await carpetasCollection();
 
-  const insert = await collection.insertMany(
-    carpetas
-  );
+async function run() {
+  try {
+    const database = client.db(
+      'RyS'
+    );
 
-  return insert;
+    // Specifying a schema is optional, but it enables type hints on
+    // finds and inserts
+    const foods = database.collection<IntCarpeta>(
+      'Carpetas'
+    );
+
+    const result = await foods.insertMany(
+      newCarpetas,
+      {
+        ordered: true
+      }
+    );
+    console.log(
+      `${ result.insertedCount } documents were inserted`
+    );
+  } finally {
+    await client.close();
+  }
 }
+run();
+
+console.log(
+  run()
+);
