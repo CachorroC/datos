@@ -1,6 +1,5 @@
-import { IntCarpeta } from '#@/types/carpetas';
-import { MongoClient, ObjectId } from 'mongodb';
-import clientPromise from '../lib/mongodb';
+import { IntCarpeta } from '../types/carpetas';
+import { MongoClient } from 'mongodb';
 
 const carpetas: IntCarpeta[] = [
   {
@@ -23669,8 +23668,13 @@ const carpetas: IntCarpeta[] = [
   }
 ];
 
+const uri
+  = 'mongodb+srv://cachorro_cami:Tengo1amo@cluster0.ffbyjzl.mongodb.net/?retryWrites=true&w=majority';
+
 export const carpetasCollection = async () => {
-  const client = await clientPromise;
+  const client = new MongoClient(
+    uri
+  );
 
   if ( !client ) {
     throw new Error(
@@ -23690,30 +23694,11 @@ export const carpetasCollection = async () => {
   return carpetas;
 };
 
-const newCarpetas = carpetas.map(
-  (
-    carpeta
-  ) => {
-    const newCarpeta = {
-      ...carpeta,
-      _id: new ObjectId(
-        carpeta.numero
-      )
-    };
 
-    return newCarpeta;
-  }
-);
-console.log(
-  newCarpetas
-);
 // Replace the uri string with your MongoDB deployment's connection string.
-const uri = 'mongodb+srv://cachorro_cami:Tengo1amo@cluster0.ffbyjzl.mongodb.net/?retryWrites=true&w=majority';
-
 const client = new MongoClient(
   uri
 );
-
 
 async function run() {
   try {
@@ -23723,12 +23708,13 @@ async function run() {
 
     // Specifying a schema is optional, but it enables type hints on
     // finds and inserts
-    const foods = database.collection<IntCarpeta>(
-      'Carpetas'
-    );
+    const foods
+      = database.collection<IntCarpeta>(
+        'Carpetas'
+      );
 
     const result = await foods.insertMany(
-      newCarpetas,
+      carpetas,
       {
         ordered: true
       }

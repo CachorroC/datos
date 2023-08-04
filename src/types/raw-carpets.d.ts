@@ -8,6 +8,7 @@ export interface IntCarpetaRaw {
     demanda?: Demanda;
     tipoProceso?: TipoProceso;
 }
+
 export interface Demanda {
     vencimientoPagare?: string;
     obligacion?: number | string;
@@ -19,16 +20,20 @@ export interface Demanda {
     radicado?: number | string;
     etapaProcesal?: string;
 }
+
 export type Departamento = 'CUNDINAMARCA' | 'TOLIMA' | 'BOYACÁ';
+
 export interface Juzgado {
     origen: Ejecucion;
     ejecucion?: Ejecucion;
 }
+
 export interface Ejecucion {
     id?: number;
     tipo: string;
     url?: string;
 }
+
 export interface Deudor {
     cedula: number | string;
     nombreCompleto: string;
@@ -36,17 +41,20 @@ export interface Deudor {
     email?: number | string;
     direccion?: string;
 }
+
 export type Grupo = 'Terminados' | 'LiosJuridicos' | 'Bancolombia' | 'Reintegra' | 'Insolvencia';
+
 export type TipoProceso = 'PRENDARIO' | 'HIPOTECARIO' | 'SINGULAR' | 'HMM PISO 1';
+
 export declare class Convert {
-    static toIntCarpetaRaw(json: string): IntCarpetaRaw;
-    static intCarpetaRawToJson(value: IntCarpetaRaw): string;
-    static toDemanda(json: string): Demanda;
-    static demandaToJson(value: Demanda): string;
-    static toJuzgado(json: string): Juzgado;
-    static juzgadoToJson(value: Juzgado): string;
-    static toEjecucion(json: string): Ejecucion;
-    static ejecucionToJson(value: Ejecucion): string;
-    static toDeudor(json: string): Deudor;
-    static deudorToJson(value: Deudor): string;
+  static toIntCarpetaRaw( json: string ): IntCarpetaRaw;
+  static intCarpetaRawToJson( value: IntCarpetaRaw ): string;
+  static toDemanda( json: string ): Demanda;
+  static demandaToJson( value: Demanda ): string;
+  static toJuzgado( json: string ): Juzgado;
+  static juzgadoToJson( value: Juzgado ): string;
+  static toEjecucion( json: string ): Ejecucion;
+  static ejecucionToJson( value: Ejecucion ): string;
+  static toDeudor( json: string ): Deudor;
+  static deudorToJson( value: Deudor ): string;
 }

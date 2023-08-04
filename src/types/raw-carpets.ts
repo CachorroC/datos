@@ -5,64 +5,66 @@
 //   const intCarpetaRaw = Convert.toIntCarpetaRaw(json);
 
 export interface IntCarpetaRaw {
-  numero: number;
-  id: string;
-  deudor: Deudor;
-  capitalAdeudado: number;
-  llaveProceso?: string;
-  grupo: Grupo;
-  demanda?: Demanda;
-  tipoProceso?: TipoProceso;
+    _id:             string;
+    numero:          number;
+    id:              number | string;
+    deudor:          Deudor;
+    demanda:         Demanda;
+    capitalAdeudado: number;
+    tipoProceso?:    TipoProceso;
+    llaveProceso?:   string;
+    grupo:           Grupo;
+    idProceso?:      number[];
+    fecha?:          Date;
+    idProcesos?:     number[];
 }
 
 export interface Demanda {
-  vencimientoPagare?: string;
-  obligacion?: number | string;
-  obligacion2?: number | string;
-  entregaGarantiasAbogado?: string;
-  departamento?: Departamento;
-  ciudad?: string;
-  juzgado?: Juzgado;
-  radicado?: number | string;
-  etapaProcesal?: string;
+    vencimientoPagare?:       string;
+    obligacion:               Array<number | null | string>;
+    entregaGarantiasAbogado?: string;
+    departamento?:            Departamento;
+    ciudad?:                  string;
+    juzgado:                  Juzgado;
+    radicado?:                number | string;
+    etapaProcesal?:           string;
+    despachoActivo?:          DespachoActivo;
+    obligacion2?:             number | string;
 }
 
-export type Departamento =
-  | 'CUNDINAMARCA'
-  | 'TOLIMA'
-  | 'BOYACÁ';
+export type Departamento = 'CUNDINAMARCA' | 'BOYACÁ' | 'TOLIMA';
+
+export interface DespachoActivo {
+    id:   number | string;
+    tipo: string;
+    url?: string;
+}
 
 export interface Juzgado {
-  origen: Ejecucion;
-  ejecucion?: Ejecucion;
-}
-
-export interface Ejecucion {
-  id?: number;
-  tipo: string;
-  url?: string;
+    origen:     DespachoActivo;
+    ejecucion?: DespachoActivo;
 }
 
 export interface Deudor {
-  cedula: number | string;
-  nombreCompleto: string;
-  tel?: number | string;
-  email?: number | string;
-  direccion?: string;
+    cedula:           number | string;
+    nombreCompleto:   string;
+    tel:              Tel;
+    direccion?:       string;
+    primerNombre:     string;
+    segundoNombre?:   string;
+    primerApellido:   string;
+    segundoApellido?: string;
+    email?:           number | string;
 }
 
-export type Grupo =
-  | 'Terminados'
-  | 'LiosJuridicos'
-  | 'Bancolombia'
-  | 'Reintegra'
-  | 'Insolvencia';
+export interface Tel {
+    fijo?:    number | string;
+    celular?: number | string;
+}
 
-export type TipoProceso =
-  | 'PRENDARIO'
-  | 'HIPOTECARIO'
-  | 'SINGULAR'
-  | 'HMM PISO 1';
+export type Grupo = 'Reintegra' | 'Insolvencia' | 'Bancolombia' | 'LiosJuridicos';
+
+export type TipoProceso = 'PRENDARIO' | 'SINGULAR' | 'HIPOTECARIO' | 'HMM PISO 1';
 
 // Converts JSON strings to/from your types
 export class Convert {
@@ -70,7 +72,7 @@ export class Convert {
     json: string
   ): IntCarpetaRaw {
     return JSON.parse(
-      json 
+      json
     );
   }
 
@@ -78,15 +80,15 @@ export class Convert {
     value: IntCarpetaRaw
   ): string {
     return JSON.stringify(
-      value 
+      value
     );
   }
 
   public static toDemanda(
-    json: string 
+    json: string
   ): Demanda {
     return JSON.parse(
-      json 
+      json
     );
   }
 
@@ -94,15 +96,31 @@ export class Convert {
     value: Demanda
   ): string {
     return JSON.stringify(
-      value 
+      value
+    );
+  }
+
+  public static toDespachoActivo(
+    json: string
+  ): DespachoActivo {
+    return JSON.parse(
+      json
+    );
+  }
+
+  public static despachoActivoToJson(
+    value: DespachoActivo
+  ): string {
+    return JSON.stringify(
+      value
     );
   }
 
   public static toJuzgado(
-    json: string 
+    json: string
   ): Juzgado {
     return JSON.parse(
-      json 
+      json
     );
   }
 
@@ -110,31 +128,15 @@ export class Convert {
     value: Juzgado
   ): string {
     return JSON.stringify(
-      value 
-    );
-  }
-
-  public static toEjecucion(
-    json: string
-  ): Ejecucion {
-    return JSON.parse(
-      json 
-    );
-  }
-
-  public static ejecucionToJson(
-    value: Ejecucion
-  ): string {
-    return JSON.stringify(
-      value 
+      value
     );
   }
 
   public static toDeudor(
-    json: string 
+    json: string
   ): Deudor {
     return JSON.parse(
-      json 
+      json
     );
   }
 
@@ -142,7 +144,23 @@ export class Convert {
     value: Deudor
   ): string {
     return JSON.stringify(
-      value 
+      value
+    );
+  }
+
+  public static toTel(
+    json: string
+  ): Tel {
+    return JSON.parse(
+      json
+    );
+  }
+
+  public static telToJson(
+    value: Tel
+  ): string {
+    return JSON.stringify(
+      value
     );
   }
 }
