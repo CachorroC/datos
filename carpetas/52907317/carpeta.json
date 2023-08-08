@@ -1,0 +1,37 @@
+{
+  "capitalAdeudado": 33615204,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-01-11T05:00:00.000Z",
+    "juzgado": [
+      {
+        "id": 26,
+        "tipo": "Civil Municipal",
+        "url": "JUZGADO 026 CIVIL MUNICIPAL DE BOGOTÁ "
+      }
+    ],
+    "obligacion": [
+      "5740084189 /5740084216",
+      "160204/377813372389032"
+    ],
+    "radicado": "2017 - 01293",
+    "vencimientoPagare": "2017-05-06T00:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 52907317,
+    "primerNombre": "SANDRA",
+    "segundoNombre": "MILENA",
+    "primerApellido": "BARRETO",
+    "segundoApellido": "BERMUDEZ",
+    "tel": { "celular": 0, "fijo": 0 },
+    "email": "milena125@hotmail.com",
+    "direccion": "CALLE 74 A  SUR No 92 -21 torre 3"
+  },
+  "grupo": "LiosJuridicos",
+  "id": 52907317,
+  "numero": 328,
+  "llaveProceso": "11001400302620170129300",
+  "idProcesos": [50846930],
+  "tipoProceso": "HIPOTECARIO"
+}

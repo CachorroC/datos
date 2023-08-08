@@ -1,0 +1,38 @@
+{
+  "capitalAdeudado": 24501535,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-07-05T00:00:00.000Z",
+    "etapaProcesal": "CONTESTACION DEMANDA",
+    "juzgado": [
+      {
+        "id": 14,
+        "tipo": " Pequeñas Causas y Competencias Multiples",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-014-de-pequenas-causas-y-competencia-multiple-de-bogota"
+      }
+    ],
+    "obligacion": [
+      "AMERICAN 0377814037749057",
+      "VISA 4513083943843365 // MASTER 5303729958258417"
+    ],
+    "radicado": "2019 - 00656",
+    "vencimientoPagare": null
+  },
+  "deudor": {
+    "cedula": 52883958,
+    "primerNombre": "LEIDY",
+    "segundoNombre": "YANETH",
+    "primerApellido": "VIDAL",
+    "segundoApellido": "RODRIGUEZ",
+    "tel": { "celular": 0, "fijo": 7114516 },
+    "email": "leidyyaneth.lyv@gmail.com",
+    "direccion": "DIAGONAL 2 No 21 B-20"
+  },
+  "grupo": "Bancolombia",
+  "id": 52883958,
+  "numero": 463,
+  "llaveProceso": "11001418901420190065600",
+  "idProcesos": [51816100, 135801811],
+  "tipoProceso": "SINGULAR"
+}

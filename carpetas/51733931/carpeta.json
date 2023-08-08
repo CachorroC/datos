@@ -1,1 +1,39 @@
-{"capitalAdeudado":27602952,"demanda":{"ciudad":"BOGOTA","departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-23T00:00:00.000Z","juzgado":[{"id":7940,"tipo":"Civil Municipal/ Civil Municipal","url":"JUZGADO 040 CIVIL MUNICIPAL DE BOGOTÁ "}],"obligacion":[377816483778266,4513080485378479],"radicado":"2017 - 01142","vencimientoPagare":null},"deudor":{"cedula":51733931,"primerNombre":"PIEDAD","segundoNombre":"MARITZA OLGA ","primerApellido":"ROCIO","segundoApellido":"PRIETO VARGAS ","tel":{"celular":3108711046,"fijo":6256456},"email":"sebantialbeltransprieto@hotmail.com","direccion":"CALLE 127D # 21 - 80 APTO 105"},"grupo":"Insolvencia","id":51733931,"numero":201,"llaveProceso":"11001400307920170114200","idProcesos":[128433271],"tipoProceso":"SINGULAR"}
+{
+  "capitalAdeudado": 27602952,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
+    "juzgado": [
+      {
+        "id": 7940,
+        "tipo": "Civil Municipal/ Civil Municipal",
+        "url": "JUZGADO 040 CIVIL MUNICIPAL DE BOGOTÁ "
+      }
+    ],
+    "obligacion": [
+      377816483778266, 4513080485378479
+    ],
+    "radicado": "2017 - 01142",
+    "vencimientoPagare": null
+  },
+  "deudor": {
+    "cedula": 51733931,
+    "primerNombre": "PIEDAD",
+    "segundoNombre": "MARITZA OLGA ",
+    "primerApellido": "ROCIO",
+    "segundoApellido": "PRIETO VARGAS ",
+    "tel": {
+      "celular": 3108711046,
+      "fijo": 6256456
+    },
+    "email": "sebantialbeltransprieto@hotmail.com",
+    "direccion": "CALLE 127D # 21 - 80 APTO 105"
+  },
+  "grupo": "Insolvencia",
+  "id": 51733931,
+  "numero": 201,
+  "llaveProceso": "11001400307920170114200",
+  "idProcesos": [128433271],
+  "tipoProceso": "SINGULAR"
+}

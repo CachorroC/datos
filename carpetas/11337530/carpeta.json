@@ -1,1 +1,37 @@
-{"capitalAdeudado":33000833,"demanda":{"ciudad":"ZIPAQUIRA","departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2020-09-05T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","juzgado":[{"id":2,"tipo":"Civil Municipal","url":"sin especificar"}],"obligacion":[377814085773793,4513070445120640],"radicado":"2020 - 00289","vencimientoPagare":null},"deudor":{"cedula":11337530,"primerNombre":"PEDRO","segundoNombre":"JULIO","primerApellido":"TRIVIÑO","segundoApellido":"VALBUENA","tel":{"celular":0,"fijo":0},"email":"maribelbonita86@hotmail.com","direccion":"VEREDA SAN JORGE ZIPAQUIRA"},"grupo":"Reintegra","id":11337530,"numero":534,"llaveProceso":"2589940010020200028900","idProcesos":[],"tipoProceso":"SINGULAR"}
+{
+  "capitalAdeudado": 33000833,
+  "demanda": {
+    "ciudad": "ZIPAQUIRA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2020-09-05T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 2,
+        "tipo": "Civil Municipal",
+        "url": "sin especificar"
+      }
+    ],
+    "obligacion": [
+      377814085773793, 4513070445120640
+    ],
+    "radicado": "2020 - 00289",
+    "vencimientoPagare": null
+  },
+  "deudor": {
+    "cedula": 11337530,
+    "primerNombre": "PEDRO",
+    "segundoNombre": "JULIO",
+    "primerApellido": "TRIVIÑO",
+    "segundoApellido": "VALBUENA",
+    "tel": { "celular": 0, "fijo": 0 },
+    "email": "maribelbonita86@hotmail.com",
+    "direccion": "VEREDA SAN JORGE ZIPAQUIRA"
+  },
+  "grupo": "Reintegra",
+  "id": 11337530,
+  "numero": 534,
+  "llaveProceso": "2589940010020200028900",
+  "idProcesos": [],
+  "tipoProceso": "SINGULAR"
+}

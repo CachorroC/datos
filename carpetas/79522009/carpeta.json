@@ -1,1 +1,35 @@
-{"capitalAdeudado":56987693,"demanda":{"ciudad":"SOACHA","departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"etapaProcesal":"EJECUCION","juzgado":[{"id":4,"tipo":" Pequeñas Causas y Competencias Multiples","url":"https://www.ramajudicial.gov.co/web/juzgado-04-municipal-de-pequenas-causas-y-competencia-multiple-de-soacha"}],"obligacion":[1680097436,148653],"radicado":"2018 - 00060","vencimientoPagare":null},"deudor":{"cedula":79522009,"primerNombre":"JAIRO","segundoNombre":"ALFONSO","primerApellido":"PARDO","segundoApellido":"JAIMES","tel":{"celular":0,"fijo":7808590},"email":"jairopardo8-11-70@hotmail.com","direccion":"DIAGONAL 28 No 33-27  TORRE 7 APART 203  SOACHA"},"grupo":"Bancolombia","id":79522009,"numero":533,"llaveProceso":"2575440030042018000600","idProcesos":[],"tipoProceso":"HIPOTECARIO"}
+{
+  "capitalAdeudado": 56987693,
+  "demanda": {
+    "ciudad": "SOACHA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "EJECUCION",
+    "juzgado": [
+      {
+        "id": 4,
+        "tipo": " Pequeñas Causas y Competencias Multiples",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-04-municipal-de-pequenas-causas-y-competencia-multiple-de-soacha"
+      }
+    ],
+    "obligacion": [1680097436, 148653],
+    "radicado": "2018 - 00060",
+    "vencimientoPagare": null
+  },
+  "deudor": {
+    "cedula": 79522009,
+    "primerNombre": "JAIRO",
+    "segundoNombre": "ALFONSO",
+    "primerApellido": "PARDO",
+    "segundoApellido": "JAIMES",
+    "tel": { "celular": 0, "fijo": 7808590 },
+    "email": "jairopardo8-11-70@hotmail.com",
+    "direccion": "DIAGONAL 28 No 33-27  TORRE 7 APART 203  SOACHA"
+  },
+  "grupo": "Bancolombia",
+  "id": 79522009,
+  "numero": 533,
+  "llaveProceso": "2575440030042018000600",
+  "idProcesos": [],
+  "tipoProceso": "HIPOTECARIO"
+}

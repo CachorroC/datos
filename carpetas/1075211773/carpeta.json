@@ -1,0 +1,33 @@
+{
+  "capitalAdeudado": 28018855,
+  "demanda": {
+    "ciudad": "FUSAGASUGA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-06-20T00:00:00.000Z",
+    "juzgado": [
+      {
+        "id": 3,
+        "tipo": "Civil Municipal",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-003-civil-municipal-de-fusagasuga"
+      }
+    ],
+    "obligacion": [2640096179],
+    "radicado": "2023 - 00371",
+    "vencimientoPagare": "2028-03-08T00:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 1075211773,
+    "primerNombre": "PEDRO",
+    "segundoNombre": "JONATHAN",
+    "primerApellido": "RAMIREZ",
+    "segundoApellido": "GOMEZ",
+    "tel": { "celular": 0, "fijo": 0 },
+    "email": "jonathansoldier@hotmail.com",
+    "direccion": "KR 1 2 41 Fusagasugá"
+  },
+  "grupo": "Bancolombia",
+  "id": 1075211773,
+  "numero": 551,
+  "idProcesos": [],
+  "tipoProceso": "SINGULAR"
+}

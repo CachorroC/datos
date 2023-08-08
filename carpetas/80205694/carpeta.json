@@ -1,0 +1,38 @@
+{
+  "capitalAdeudado": 25766204,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-13T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 10,
+        "tipo": "  Pequeñas Causas y Competencias Multiples",
+        "url": "sin especificar"
+      }
+    ],
+    "obligacion": [300094317],
+    "radicado": "2017 - 00128",
+    "vencimientoPagare": "2020-08-31T00:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 80205694,
+    "primerNombre": "JOHN",
+    "segundoNombre": "FREDY",
+    "primerApellido": "HERREÑO",
+    "segundoApellido": "RAMIREZ",
+    "tel": {
+      "celular": 3124102,
+      "fijo": 7641957
+    },
+    "email": "kellyo.1508@hotmail.com",
+    "direccion": "DIAGONAL 82 A SUR No 7C 19  ESTE"
+  },
+  "grupo": "Reintegra",
+  "id": 80205694,
+  "numero": 292,
+  "llaveProceso": "11001410375220170012800",
+  "idProcesos": [],
+  "tipoProceso": "SINGULAR"
+}

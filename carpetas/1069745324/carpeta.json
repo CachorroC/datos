@@ -1,1 +1,39 @@
-{"capitalAdeudado":14404721,"demanda":{"ciudad":"BOGOTA","departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-25T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","juzgado":[{"id":8,"tipo":"Civil Municipal","url":"JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ "},{"id":1,"tipo":"Civil Municipal de Ejecucion","url":"JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ "}],"obligacion":[2330087057],"radicado":"2017 - 01058","vencimientoPagare":"2020-12-07T00:00:00.000Z"},"deudor":{"cedula":1069745324,"primerNombre":"ANDRES","segundoNombre":"FELIPE","primerApellido":"GUTIERREZ","segundoApellido":"TRUJILLO","tel":{"celular":3115964170,"fijo":0},"direccion":"CALLE 14A SUR # 11M - 18 CASA 22"},"grupo":"Reintegra","id":1069745324,"numero":279,"llaveProceso":"11001400300820170105800","idProcesos":[112758450],"tipoProceso":"SINGULAR"}
+{
+  "capitalAdeudado": 14404721,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-25T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 8,
+        "tipo": "Civil Municipal",
+        "url": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ "
+      },
+      {
+        "id": 1,
+        "tipo": "Civil Municipal de Ejecucion",
+        "url": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ "
+      }
+    ],
+    "obligacion": [2330087057],
+    "radicado": "2017 - 01058",
+    "vencimientoPagare": "2020-12-07T00:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 1069745324,
+    "primerNombre": "ANDRES",
+    "segundoNombre": "FELIPE",
+    "primerApellido": "GUTIERREZ",
+    "segundoApellido": "TRUJILLO",
+    "tel": { "celular": 3115964170, "fijo": 0 },
+    "direccion": "CALLE 14A SUR # 11M - 18 CASA 22"
+  },
+  "grupo": "Reintegra",
+  "id": 1069745324,
+  "numero": 279,
+  "llaveProceso": "11001400300820170105800",
+  "idProcesos": [112758450],
+  "tipoProceso": "SINGULAR"
+}

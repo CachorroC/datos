@@ -1,1 +1,39 @@
-{"capitalAdeudado":16497281,"demanda":{"ciudad":"BOGOTA","departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","juzgado":[{"id":59,"tipo":"Civil Municipal","url":"JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ "},{"id":15,"tipo":"Civil Municipal de Ejecucion","url":"JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ "}],"obligacion":[12515504],"radicado":"2017 - 00483","vencimientoPagare":"2018-08-28T00:00:00.000Z"},"deudor":{"cedula":501492,"primerNombre":"DANIEL","primerApellido":"HERNANDEZ","segundoApellido":"GONZALEZ","tel":{"celular":0,"fijo":2716567},"email":"danielher84@gmail.com","direccion":"CALLE 134 No. 58-58"},"grupo":"Reintegra","id":501492,"numero":106,"llaveProceso":"11001400305920170048300","idProcesos":[50514310],"tipoProceso":"PRENDARIO"}
+{
+  "capitalAdeudado": 16497281,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 59,
+        "tipo": "Civil Municipal",
+        "url": "JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ "
+      },
+      {
+        "id": 15,
+        "tipo": "Civil Municipal de Ejecucion",
+        "url": "JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ "
+      }
+    ],
+    "obligacion": [12515504],
+    "radicado": "2017 - 00483",
+    "vencimientoPagare": "2018-08-28T00:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 501492,
+    "primerNombre": "DANIEL",
+    "primerApellido": "HERNANDEZ",
+    "segundoApellido": "GONZALEZ",
+    "tel": { "celular": 0, "fijo": 2716567 },
+    "email": "danielher84@gmail.com",
+    "direccion": "CALLE 134 No. 58-58"
+  },
+  "grupo": "Reintegra",
+  "id": 501492,
+  "numero": 106,
+  "llaveProceso": "11001400305920170048300",
+  "idProcesos": [50514310],
+  "tipoProceso": "PRENDARIO"
+}

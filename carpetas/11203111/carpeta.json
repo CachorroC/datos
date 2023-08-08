@@ -1,0 +1,36 @@
+{
+  "capitalAdeudado": 27308454,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "juzgado": [
+      {
+        "id": 76,
+        "tipo": "Civil Municipal",
+        "url": "JUZGADO 076 CIVIL MUNICIPAL DE BOGOTÁ "
+      }
+    ],
+    "obligacion": [
+      118010,
+      "377813183474353 // 4513074148699942 / 5491579209500691"
+    ],
+    "radicado": "2018 - 00052",
+    "vencimientoPagare": "2019-04-29T00:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 11203111,
+    "primerNombre": "ROBERTO",
+    "primerApellido": "RICO",
+    "segundoApellido": "RUIZ",
+    "tel": { "celular": 0, "fijo": 0 },
+    "email": "roberto.rico.ruiz@gmail.com",
+    "direccion": "CALLE 128 96A - 05 CASA 3 MULTIFAMILIAR ARRAYANES"
+  },
+  "grupo": "LiosJuridicos",
+  "id": 11203111,
+  "numero": 376,
+  "llaveProceso": "11001400307620180005200",
+  "idProcesos": [51500810],
+  "tipoProceso": "HIPOTECARIO"
+}

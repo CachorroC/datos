@@ -1,1 +1,34 @@
-{"capitalAdeudado":42530688,"demanda":{"ciudad":"CAPARRAPI","departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-21T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","juzgado":[{"id":1,"tipo":"Promiscuo Municipal","url":"sin especificar"}],"obligacion":[7910080245],"radicado":"2017 - 00096","vencimientoPagare":"2020-04-01T00:00:00.000Z"},"deudor":{"cedula":20427976,"primerNombre":"BLANCA","segundoNombre":"MELBA","primerApellido":"MOYANO","segundoApellido":"BELTRAN","tel":{"celular":0,"fijo":3213718},"direccion":"CARRERA 3 No 9 - 02 /08  CAPARRAPI (CUNDINAMARCA)"},"grupo":"Reintegra","id":20427976,"numero":338,"llaveProceso":"25148408900120170009600","idProcesos":[],"tipoProceso":"SINGULAR"}
+{
+  "capitalAdeudado": 42530688,
+  "demanda": {
+    "ciudad": "CAPARRAPI",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-21T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 1,
+        "tipo": "Promiscuo Municipal",
+        "url": "sin especificar"
+      }
+    ],
+    "obligacion": [7910080245],
+    "radicado": "2017 - 00096",
+    "vencimientoPagare": "2020-04-01T00:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 20427976,
+    "primerNombre": "BLANCA",
+    "segundoNombre": "MELBA",
+    "primerApellido": "MOYANO",
+    "segundoApellido": "BELTRAN",
+    "tel": { "celular": 0, "fijo": 3213718 },
+    "direccion": "CARRERA 3 No 9 - 02 /08  CAPARRAPI (CUNDINAMARCA)"
+  },
+  "grupo": "Reintegra",
+  "id": 20427976,
+  "numero": 338,
+  "llaveProceso": "25148408900120170009600",
+  "idProcesos": [],
+  "tipoProceso": "SINGULAR"
+}

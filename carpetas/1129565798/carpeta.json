@@ -1,0 +1,28 @@
+{
+  "capitalAdeudado": 40696764,
+  "demanda": {
+    "ciudad": "BARRAQNUILLA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "juzgado": [],
+    "obligacion": [
+      4770111750,
+      "PAGARÉ SIN NÚMERO T. MASTER CARD 5303720229555616 // T. VISA 4513070377907980"
+    ],
+    "vencimientoPagare": null
+  },
+  "deudor": {
+    "cedula": 1129565798,
+    "primerNombre": "HANSEL",
+    "primerApellido": "MARTINEZ",
+    "segundoApellido": "BARROS",
+    "tel": { "celular": 0, "fijo": 3930210 },
+    "email": "inghanselmartinez@hotmail.com",
+    "direccion": "CR 51 43 04 Barrio Abajo Barranquilla // Carrera 71 No. 88A - 31 Barranquilla // Calle 42 A No. 46 - 04 Barrio El Parque en Soledad (Atlantico)"
+  },
+  "grupo": "Bancolombia",
+  "id": 1129565798,
+  "numero": 560,
+  "idProcesos": [],
+  "tipoProceso": "SINGULAR"
+}

@@ -1,0 +1,43 @@
+{
+  "capitalAdeudado": 87649981,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 79,
+        "tipo": "Civil Municipal",
+        "url": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ "
+      },
+      {
+        "id": 1,
+        "tipo": "Civil Municipal de Ejecucion",
+        "url": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ "
+      }
+    ],
+    "obligacion": [1220084112],
+    "radicado": "2017 - 01082",
+    "vencimientoPagare": "2020-11-30T00:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 80231798,
+    "primerNombre": "JOHN",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "VALENCIA",
+    "segundoApellido": "MARQUEZ",
+    "tel": {
+      "celular": 3004525014,
+      "fijo": 2376454
+    },
+    "email": "jhon.valencia@jvtel.com.co",
+    "direccion": "CARRERA 32 B # 2 - 64"
+  },
+  "grupo": "Reintegra",
+  "id": 80231798,
+  "numero": 191,
+  "llaveProceso": "11001400307920170108200",
+  "idProcesos": [51357750],
+  "tipoProceso": "SINGULAR"
+}

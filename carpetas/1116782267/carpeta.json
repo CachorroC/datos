@@ -1,1 +1,40 @@
-{"capitalAdeudado":22130224,"demanda":{"ciudad":"BOGOTA","departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-10-06T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","juzgado":[{"id":78,"tipo":"Civil Municipal","url":"JUZGADO 012 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ "},{"id":12,"tipo":"Civil Municipal de Ejecucion","url":"JUZGADO 012 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ "}],"obligacion":[3880082626],"radicado":"2017 - 00975","vencimientoPagare":"2019-02-26T00:00:00.000Z"},"deudor":{"cedula":1116782267,"primerNombre":"JOGLI","segundoNombre":"JOAQUIN","primerApellido":"OTERO","segundoApellido":"VARGAS","tel":{"celular":3005941798,"fijo":0},"email":"juanotero1989@gmail.com","direccion":"DIAGONAL 2  No 79 F- 04"},"grupo":"Reintegra","id":1116782267,"numero":358,"llaveProceso":"11001400307820170097500","idProcesos":[51465090],"tipoProceso":"SINGULAR"}
+{
+  "capitalAdeudado": 41372568,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-10-06T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 2,
+        "tipo": " Civil Municipal",
+        "url": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ "
+      },
+      {
+        "id": 13,
+        "tipo": "Civil Municipal de Ejecucion",
+        "url": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ "
+      }
+    ],
+    "obligacion": [12541235],
+    "radicado": "2017 - 01002",
+    "vencimientoPagare": "2020-10-04T00:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 1116782267,
+    "primerNombre": "JOGLI",
+    "segundoNombre": "JOAQUIN",
+    "primerApellido": "OTERO",
+    "segundoApellido": "VARGAS",
+    "tel": { "celular": 3005941798, "fijo": 0 },
+    "email": "juanotero1989@gmail.com",
+    "direccion": "DIAGONAL 2 No 79 F -04"
+  },
+  "grupo": "Reintegra",
+  "id": 1116782267,
+  "numero": 546,
+  "llaveProceso": "11001400300220170100200",
+  "idProcesos": [50780430],
+  "tipoProceso": "PRENDARIO"
+}

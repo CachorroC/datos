@@ -1,0 +1,43 @@
+{
+  "capitalAdeudado": 39855851,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 8241,
+        "tipo": "Civil Municipal/ Civil Municipal",
+        "url": "JUZGADO 001 CIVIL MUNICIPAL DE ENVIGADO "
+      },
+      {
+        "id": 14,
+        "tipo": "Civil Municipal de Ejecucion",
+        "url": "JUZGADO 001 CIVIL MUNICIPAL DE ENVIGADO "
+      }
+    ],
+    "obligacion": [
+      "AUDIOPRESTAMO",
+      5491580436291960
+    ],
+    "radicado": "2018 - 00964",
+    "vencimientoPagare": null
+  },
+  "deudor": {
+    "cedula": 79533771,
+    "primerNombre": "JOSE",
+    "segundoNombre": "RAMON",
+    "primerApellido": "ESTRADA",
+    "segundoApellido": "CASTILLO",
+    "tel": { "celular": 0, "fijo": 2998302 },
+    "email": "jrestradacastillo@gmail.com",
+    "direccion": "CARRERA 81 G No 48-03 SUR"
+  },
+  "grupo": "Reintegra",
+  "id": 79533771,
+  "numero": 541,
+  "llaveProceso": "11001400308220180096400",
+  "idProcesos": [52160520, 112967583],
+  "tipoProceso": "SINGULAR"
+}
