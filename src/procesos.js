@@ -22,15 +22,6 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.sleep = void 0;
 const fs = __importStar(require("fs/promises"));
@@ -41,31 +32,29 @@ function sleep(ms) {
     });
 }
 exports.sleep = sleep;
-function fetchProceso({ llaveProceso, index, id }) {
-    return __awaiter(this, void 0, void 0, function* () {
-        const awaitTime = index * 1000;
-        yield sleep(awaitTime);
-        console.log(`el largo de la llave es ${llaveProceso.length}`);
-        console.log(`llave es sin especificar ${llaveProceso === 'sin especificar'}`);
-        if (llaveProceso.length < 23 ||
-            llaveProceso === 'sin especificar') {
+async function fetchProceso({ llaveProceso, index, id }) {
+    const awaitTime = index;
+    await sleep(awaitTime);
+    console.log(`el largo de la llave es ${llaveProceso.length}`);
+    console.log(`llave es sin especificar ${llaveProceso === 'sin especificar'}`);
+    if (llaveProceso.length < 23
+        || llaveProceso === 'sin especificar') {
+        return [];
+    }
+    try {
+        const req = await fetch(`https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${llaveProceso}&SoloActivos=false`);
+        if (!req.ok) {
+            fs.writeFile(`./carpetas/${id}/notOkprocesos.json`, JSON.stringify(req));
             return [];
         }
-        try {
-            const req = yield fetch(`https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${llaveProceso}&SoloActivos=false`);
-            if (!req.ok) {
-                fs.writeFile(`./carpetas/${id}/notOkprocesos.json`, JSON.stringify(req));
-                return [];
-            }
-            const res = (yield req.json());
-            fs.writeFile(`./carpetas/${id}/procesos.json`, JSON.stringify(res));
-            const procesos = res.procesos;
-            return procesos;
-        }
-        catch (error) {
-            fs.writeFile(`./carpetas/${id}/networkError.json`, JSON.stringify(error));
-            return [];
-        }
-    });
+        const res = (await req.json());
+        fs.writeFile(`./carpetas/${id}/procesos.json`, JSON.stringify(res));
+        const procesos = res.procesos;
+        return procesos;
+    }
+    catch (error) {
+        fs.writeFile(`./carpetas/${id}/networkError.json`, JSON.stringify(error));
+        return [];
+    }
 }
 exports.default = fetchProceso;

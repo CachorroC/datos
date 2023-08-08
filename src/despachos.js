@@ -29889,9 +29889,18 @@ exports.Despachos = [
         url: '/web/sala-penal-del-tribunal-superior-de-villavicencio'
     }
 ];
-function transformDespacho({ juzgado }) {
-    const matchedDespacho = exports.Despachos.find((despacho) => {
-        return despacho.nombre === juzgado.tipo;
+function transformDespacho(juzgado) {
+    const matchedDespacho = exports.Despachos.filter((despacho) => {
+        return despacho.nombre.trim() === juzgado.tipo.trim();
     });
+    if (matchedDespacho.length > 0) {
+        const newJuzgado = {
+            id: juzgado.id,
+            tipo: juzgado.tipo,
+            url: `https://www.ramajudicial.gov.co${matchedDespacho[0].url}`
+        };
+        return newJuzgado;
+    }
+    return juzgado;
 }
 exports.default = transformDespacho;

@@ -18,7 +18,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [2453698],
+            obligacion: [
+                2453698
+            ],
             radicado: '2017 - 00849',
             vencimientoPagare: '2020-04-26T00:00:00.000Z'
         },
@@ -41,7 +43,9 @@ const Carpetas = [
         llaveProceso: '11001400308520170084900',
         numero: 22,
         tipoProceso: 'PRENDARIO',
-        fechas: ['2023-06-15T05:00:00.000Z'],
+        fechas: [
+            '2023-06-15T05:00:00.000Z'
+        ],
         nombre: 'JOSE EDWIN'
     },
     {
@@ -88,7 +92,9 @@ const Carpetas = [
         llaveProceso: '11001400304320180038400',
         numero: 32,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-04-27T05:00:00.000Z'],
+        fechas: [
+            '2023-04-27T05:00:00.000Z'
+        ],
         nombre: 'JONATHAN ANDRES'
     },
     {
@@ -135,7 +141,9 @@ const Carpetas = [
         llaveProceso: '11001400302620170051100',
         numero: 35,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-04-13T05:00:00.000Z'],
+        fechas: [
+            '2023-04-13T05:00:00.000Z'
+        ],
         nombre: 'LUIS CARLOS'
     },
     {
@@ -151,7 +159,9 @@ const Carpetas = [
                     tipo: 'Promiscuo Municipal'
                 }
             ],
-            obligacion: [3840082880],
+            obligacion: [
+                3840082880
+            ],
             radicado: '2017 - 00108',
             vencimientoPagare: null
         },
@@ -189,7 +199,8 @@ const Carpetas = [
                 }
             ],
             obligacion: [
-                53037139326557900, 4099839496308260
+                53037139326557900,
+                4099839496308260
             ],
             radicado: '2017-00106',
             vencimientoPagare: null
@@ -258,7 +269,9 @@ const Carpetas = [
         llaveProceso: '11001400300620170030200',
         numero: 47,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-06-26T05:00:00.000Z'],
+        fechas: [
+            '2023-06-26T05:00:00.000Z'
+        ],
         nombre: 'ANA RITA'
     },
     {
@@ -305,7 +318,9 @@ const Carpetas = [
         llaveProceso: '11001400304220170076000',
         numero: 58,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-06-23T05:00:00.000Z'],
+        fechas: [
+            '2023-06-23T05:00:00.000Z'
+        ],
         nombre: 'JOSÉ URIEL'
     },
     {
@@ -320,7 +335,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [125348220],
+            obligacion: [
+                125348220
+            ],
             radicado: '2017 - 00557',
             vencimientoPagare: '2017-10-22T00:00:00.000Z'
         },
@@ -344,7 +361,9 @@ const Carpetas = [
         llaveProceso: '11001400302920170055700',
         numero: 64,
         tipoProceso: 'PRENDARIO',
-        fechas: ['2018-02-22T05:00:00.000Z'],
+        fechas: [
+            '2018-02-22T05:00:00.000Z'
+        ],
         nombre: 'RAFAEL ERNESTO'
     },
     {
@@ -365,7 +384,8 @@ const Carpetas = [
                 }
             ],
             obligacion: [
-                377815178176828, 53037234659826290
+                377815178176828,
+                53037234659826290
             ],
             radicado: '2017-00800',
             vencimientoPagare: '2019-11-05T00:00:00.000Z'
@@ -408,7 +428,9 @@ const Carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-12-de-ejecucion-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [12330030],
+            obligacion: [
+                12330030
+            ],
             radicado: '2017 - 00836',
             vencimientoPagare: '2020-06-09T00:00:00.000Z'
         },
@@ -429,11 +451,19 @@ const Carpetas = [
         grupo: 'Bancolombia',
         id: 1032432802,
         idProceso: 50521480,
-        idProcesos: [50521480, [50521480, 81728891]],
+        idProcesos: [
+            50521480,
+            [
+                50521480,
+                81728891
+            ]
+        ],
         llaveProceso: '11001400303420170083600',
         numero: 90,
         tipoProceso: 'PRENDARIO',
-        fechas: ['2023-07-24T05:00:00.000Z'],
+        fechas: [
+            '2023-07-24T05:00:00.000Z'
+        ],
         nombre: 'LUIS ESNEIDER'
     },
     {
@@ -477,11 +507,19 @@ const Carpetas = [
         grupo: 'Reintegra',
         id: 16831314,
         idProceso: 51619370,
-        idProcesos: [51619370, [51619370, 81869501]],
+        idProcesos: [
+            51619370,
+            [
+                51619370,
+                81869501
+            ]
+        ],
         llaveProceso: '11001400308220170068000',
         numero: 103,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-05-11T05:00:00.000Z'],
+        fechas: [
+            '2023-05-11T05:00:00.000Z'
+        ],
         nombre: 'EDUARDO ENRIQUE'
     },
     {
@@ -501,7 +539,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [12515504],
+            obligacion: [
+                12515504
+            ],
             radicado: '2017 - 00483',
             vencimientoPagare: '2018-08-28T00:00:00.000Z'
         },
@@ -524,7 +564,9 @@ const Carpetas = [
         llaveProceso: '11001400305920170048300',
         numero: 106,
         tipoProceso: 'PRENDARIO',
-        fechas: ['2023-02-27T05:00:00.000Z'],
+        fechas: [
+            '2023-02-27T05:00:00.000Z'
+        ],
         nombre: 'DANIEL undefined'
     },
     {
@@ -571,7 +613,9 @@ const Carpetas = [
         llaveProceso: '11001310302520170073600',
         numero: 108,
         tipoProceso: 'PRENDARIO',
-        fechas: ['2023-06-30T05:00:00.000Z'],
+        fechas: [
+            '2023-06-30T05:00:00.000Z'
+        ],
         nombre: 'MIGUEL ANGEL'
     },
     {
@@ -613,7 +657,9 @@ const Carpetas = [
         llaveProceso: '11001400303620170084100',
         numero: 154,
         tipoProceso: 'HIPOTECARIO',
-        fechas: ['2023-07-10T05:00:00.000Z'],
+        fechas: [
+            '2023-07-10T05:00:00.000Z'
+        ],
         nombre: 'GABRIEL EDUARDO'
     },
     {
@@ -658,7 +704,9 @@ const Carpetas = [
         llaveProceso: '11001400307620170063500',
         numero: 165,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-05-31T05:00:00.000Z'],
+        fechas: [
+            '2023-05-31T05:00:00.000Z'
+        ],
         nombre: 'FREDY undefined'
     },
     {
@@ -680,7 +728,9 @@ const Carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [136962],
+            obligacion: [
+                136962
+            ],
             radicado: '2017 - 00903',
             vencimientoPagare: '2026-03-10T00:00:00.000Z'
         },
@@ -703,7 +753,9 @@ const Carpetas = [
         llaveProceso: '11001400302520170090300',
         numero: 174,
         tipoProceso: 'HIPOTECARIO',
-        fechas: ['2023-07-25T05:00:00.000Z'],
+        fechas: [
+            '2023-07-25T05:00:00.000Z'
+        ],
         nombre: 'DARNELLY undefined'
     },
     {
@@ -723,7 +775,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [5670085162],
+            obligacion: [
+                5670085162
+            ],
             radicado: '2017 - 01084',
             vencimientoPagare: '2019-11-02T00:00:00.000Z'
         },
@@ -746,7 +800,9 @@ const Carpetas = [
         llaveProceso: '11001400301120170108400',
         numero: 179,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-07-26T05:00:00.000Z'],
+        fechas: [
+            '2023-07-26T05:00:00.000Z'
+        ],
         nombre: 'GUILLERMO undefined'
     },
     {
@@ -768,7 +824,9 @@ const Carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [2150091504],
+            obligacion: [
+                2150091504
+            ],
             radicado: '2017 - 01001',
             vencimientoPagare: '2019-11-03T00:00:00.000Z'
         },
@@ -792,7 +850,9 @@ const Carpetas = [
         llaveProceso: '11001400300120170100100',
         numero: 183,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-07-17T05:00:00.000Z'],
+        fechas: [
+            '2023-07-17T05:00:00.000Z'
+        ],
         nombre: 'WILSON ALFONSO'
     },
     {
@@ -808,7 +868,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [8470081213],
+            obligacion: [
+                8470081213
+            ],
             radicado: '2017 - 00807',
             vencimientoPagare: '2021-12-15T00:00:00.000Z'
         },
@@ -828,11 +890,19 @@ const Carpetas = [
         grupo: 'Reintegra',
         id: 17650971,
         idProceso: 50623380,
-        idProcesos: [50623380, [50623380, 0]],
+        idProcesos: [
+            50623380,
+            [
+                50623380,
+                0
+            ]
+        ],
         llaveProceso: '11001400302520170080700',
         numero: 184,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-06-21T05:00:00.000Z'],
+        fechas: [
+            '2023-06-21T05:00:00.000Z'
+        ],
         nombre: 'JUAN CARLOS'
     },
     {
@@ -848,7 +918,8 @@ const Carpetas = [
                 }
             ],
             obligacion: [
-                377816483778266, 4513080485378479
+                377816483778266,
+                4513080485378479
             ],
             radicado: '2017 - 01142',
             vencimientoPagare: null
@@ -873,7 +944,9 @@ const Carpetas = [
         llaveProceso: '11001400307920170114200',
         numero: 201,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-06-05T05:00:00.000Z'],
+        fechas: [
+            '2023-06-05T05:00:00.000Z'
+        ],
         nombre: 'PIEDAD MARITZA OLGA '
     },
     {
@@ -889,7 +962,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [12743098],
+            obligacion: [
+                12743098
+            ],
             radicado: '2017 - 01063',
             vencimientoPagare: '2020-08-23T00:00:00.000Z'
         },
@@ -912,7 +987,9 @@ const Carpetas = [
         llaveProceso: '11001400304520170106300',
         numero: 204,
         tipoProceso: 'PRENDARIO',
-        fechas: ['2023-03-07T05:00:00.000Z'],
+        fechas: [
+            '2023-03-07T05:00:00.000Z'
+        ],
         nombre: 'FLOR undefined'
     },
     {
@@ -932,7 +1009,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [430103841],
+            obligacion: [
+                430103841
+            ],
             radicado: '2017 - 00971',
             vencimientoPagare: '2021-09-09T00:00:00.000Z'
         },
@@ -955,7 +1034,9 @@ const Carpetas = [
         llaveProceso: '11001400301220170097100',
         numero: 205,
         tipoProceso: 'SINGULAR',
-        fechas: ['2022-03-17T05:00:00.000Z'],
+        fechas: [
+            '2022-03-17T05:00:00.000Z'
+        ],
         nombre: 'NELIDA DEL'
     },
     {
@@ -971,7 +1052,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [12725973],
+            obligacion: [
+                12725973
+            ],
             radicado: '2017 - 00265',
             vencimientoPagare: '2020-08-15T00:00:00.000Z'
         },
@@ -1040,7 +1123,9 @@ const Carpetas = [
         llaveProceso: '11001400306420170119100',
         numero: 209,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-07-14T05:00:00.000Z'],
+        fechas: [
+            '2023-07-14T05:00:00.000Z'
+        ],
         nombre: 'CESAR ALFONSO'
     },
     {
@@ -1087,7 +1172,9 @@ const Carpetas = [
         llaveProceso: '11001400305520170086000',
         numero: 223,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-08-03T05:00:00.000Z'],
+        fechas: [
+            '2023-08-03T05:00:00.000Z'
+        ],
         nombre: 'GERARDO ANTONIO'
     },
     {
@@ -1134,7 +1221,9 @@ const Carpetas = [
         llaveProceso: '11001400302820170084900',
         numero: 233,
         tipoProceso: 'PRENDARIO',
-        fechas: ['2022-06-16T05:00:00.000Z'],
+        fechas: [
+            '2022-06-16T05:00:00.000Z'
+        ],
         nombre: 'JOSE LUIS'
     },
     {
@@ -1156,7 +1245,9 @@ const Carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-06-de-ejecucion-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [148931],
+            obligacion: [
+                148931
+            ],
             radicado: '2017 - 01134',
             vencimientoPagare: '2017-02-14T00:00:00.000Z'
         },
@@ -1179,7 +1270,9 @@ const Carpetas = [
         llaveProceso: '11001400300820170113400',
         numero: 235,
         tipoProceso: 'HIPOTECARIO',
-        fechas: ['2023-07-27T05:00:00.000Z'],
+        fechas: [
+            '2023-07-27T05:00:00.000Z'
+        ],
         nombre: 'FANOR undefined'
     },
     {
@@ -1194,7 +1287,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [20990135265],
+            obligacion: [
+                20990135265
+            ],
             radicado: '2017 - 01164',
             vencimientoPagare: null
         },
@@ -1217,7 +1312,9 @@ const Carpetas = [
         llaveProceso: '11001400304520170116400',
         numero: 239,
         tipoProceso: 'HIPOTECARIO',
-        fechas: ['2023-06-20T05:00:00.000Z'],
+        fechas: [
+            '2023-06-20T05:00:00.000Z'
+        ],
         nombre: 'NIDIA JACQUELINE'
     },
     {
@@ -1233,7 +1330,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal // Civil Municipal'
                 }
             ],
-            obligacion: [12577419],
+            obligacion: [
+                12577419
+            ],
             radicado: '2017 - 00845',
             vencimientoPagare: '2020-08-11T00:00:00.000Z'
         },
@@ -1256,7 +1355,9 @@ const Carpetas = [
         llaveProceso: '11001400306920170084500',
         numero: 243,
         tipoProceso: 'PRENDARIO',
-        fechas: ['2023-07-17T05:00:00.000Z'],
+        fechas: [
+            '2023-07-17T05:00:00.000Z'
+        ],
         nombre: 'MARIA OLGA'
     },
     {
@@ -1303,7 +1404,9 @@ const Carpetas = [
         llaveProceso: '11001400301620170087500',
         numero: 249,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-05-16T05:00:00.000Z'],
+        fechas: [
+            '2023-05-16T05:00:00.000Z'
+        ],
         nombre: 'JORGE ALBERTO'
     },
     {
@@ -1323,7 +1426,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [2330087057],
+            obligacion: [
+                2330087057
+            ],
             radicado: '2017 - 01058',
             vencimientoPagare: '2020-12-07T00:00:00.000Z'
         },
@@ -1346,7 +1451,9 @@ const Carpetas = [
         llaveProceso: '11001400300820170105800',
         numero: 279,
         tipoProceso: 'SINGULAR',
-        fechas: ['2022-07-21T05:00:00.000Z'],
+        fechas: [
+            '2022-07-21T05:00:00.000Z'
+        ],
         nombre: 'ANDRES FELIPE'
     },
     {
@@ -1366,7 +1473,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [8920084662],
+            obligacion: [
+                8920084662
+            ],
             radicado: '2017 - 01279',
             vencimientoPagare: null
         },
@@ -1390,7 +1499,9 @@ const Carpetas = [
         llaveProceso: '11001400300920170127900',
         numero: 280,
         tipoProceso: 'SINGULAR',
-        fechas: ['2022-01-26T05:00:00.000Z'],
+        fechas: [
+            '2022-01-26T05:00:00.000Z'
+        ],
         nombre: 'JOSE HERNANDO'
     },
     {
@@ -1412,7 +1523,9 @@ const Carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [174366],
+            obligacion: [
+                174366
+            ],
             radicado: '2017 - 01394',
             vencimientoPagare: '2024-05-05T05:00:00.000Z'
         },
@@ -1436,7 +1549,9 @@ const Carpetas = [
         llaveProceso: '11001400301520170139400',
         numero: 282,
         tipoProceso: 'HIPOTECARIO',
-        fechas: ['2021-11-08T05:00:00.000Z'],
+        fechas: [
+            '2021-11-08T05:00:00.000Z'
+        ],
         nombre: 'MATIAS HUMBERTO'
     },
     {
@@ -1452,7 +1567,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [12711612],
+            obligacion: [
+                12711612
+            ],
             radicado: '2017 - 01195',
             vencimientoPagare: '2020-09-06T00:00:00.000Z'
         },
@@ -1472,11 +1589,19 @@ const Carpetas = [
         grupo: 'Reintegra',
         id: 80259791,
         idProceso: 50721470,
-        idProcesos: [50721470, [50721470, 127748331]],
+        idProcesos: [
+            50721470,
+            [
+                50721470,
+                127748331
+            ]
+        ],
         llaveProceso: '11001400301720170119500',
         numero: 286,
         tipoProceso: 'PRENDARIO',
-        fechas: ['2023-07-10T05:00:00.000Z'],
+        fechas: [
+            '2023-07-10T05:00:00.000Z'
+        ],
         nombre: 'ALIRIO undefined'
     },
     {
@@ -1491,7 +1616,9 @@ const Carpetas = [
                     tipo: 'Desgloce'
                 }
             ],
-            obligacion: [12592504],
+            obligacion: [
+                12592504
+            ],
             radicado: '2017 - 00157',
             vencimientoPagare: '2020-09-29T00:00:00.000Z'
         },
@@ -1515,7 +1642,9 @@ const Carpetas = [
         llaveProceso: '11001400301620170015700',
         numero: 287,
         tipoProceso: 'PRENDARIO',
-        fechas: ['2022-08-11T05:00:00.000Z'],
+        fechas: [
+            '2022-08-11T05:00:00.000Z'
+        ],
         nombre: 'CARLOS GERMAN'
     },
     {
@@ -1535,7 +1664,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [5306940432740470],
+            obligacion: [
+                5306940432740470
+            ],
             radicado: '2017 - 01522',
             vencimientoPagare: '2020-03-22T00:00:00.000Z'
         },
@@ -1559,7 +1690,9 @@ const Carpetas = [
         llaveProceso: '11001400301820170152200',
         numero: 289,
         tipoProceso: 'SINGULAR',
-        fechas: ['2022-09-16T05:00:00.000Z'],
+        fechas: [
+            '2022-09-16T05:00:00.000Z'
+        ],
         nombre: 'JOSE AHINSONJOBER'
     },
     {
@@ -1575,7 +1708,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [12389160],
+            obligacion: [
+                12389160
+            ],
             radicado: '2017 - 01113',
             vencimientoPagare: '2020-09-12T00:00:00.000Z'
         },
@@ -1598,7 +1733,9 @@ const Carpetas = [
         llaveProceso: '11001400305120170111300',
         numero: 295,
         tipoProceso: 'PRENDARIO',
-        fechas: ['2023-08-04T05:00:00.000Z'],
+        fechas: [
+            '2023-08-04T05:00:00.000Z'
+        ],
         nombre: 'RITA CECILIA'
     },
     {
@@ -1614,7 +1751,10 @@ const Carpetas = [
                     tipo: 'Promiscuo Municipal'
                 }
             ],
-            obligacion: [5450082766, 5450083252],
+            obligacion: [
+                5450082766,
+                5450083252
+            ],
             radicado: '2017 - 00095',
             vencimientoPagare: '2019-10-07T05:00:00.000Z'
         },
@@ -1680,11 +1820,19 @@ const Carpetas = [
         grupo: 'Bancolombia',
         id: 79388145,
         idProceso: 50769660,
-        idProcesos: [50769660, [50769660, 0]],
+        idProcesos: [
+            50769660,
+            [
+                50769660,
+                0
+            ]
+        ],
         llaveProceso: '11001400302120170153200',
         numero: 310,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-05-15T05:00:00.000Z'],
+        fechas: [
+            '2023-05-15T05:00:00.000Z'
+        ],
         nombre: 'LIBARDO ALFONSO'
     },
     {
@@ -1700,7 +1848,9 @@ const Carpetas = [
                     tipo: 'Promiscuo Municipal'
                 }
             ],
-            obligacion: [7910080245],
+            obligacion: [
+                7910080245
+            ],
             radicado: '2017 - 00096',
             vencimientoPagare: '2020-04-01T00:00:00.000Z'
         },
@@ -1767,7 +1917,9 @@ const Carpetas = [
         llaveProceso: '11001400303320170147400',
         numero: 344,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-05-17T05:00:00.000Z'],
+        fechas: [
+            '2023-05-17T05:00:00.000Z'
+        ],
         nombre: 'LUIS AUGUSTO'
     },
     {
@@ -1787,7 +1939,10 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [6260082762, 377813367146983],
+            obligacion: [
+                6260082762,
+                377813367146983
+            ],
             radicado: '2017 - 01309',
             vencimientoPagare: null
         },
@@ -1811,7 +1966,9 @@ const Carpetas = [
         llaveProceso: '11001400300120170130900',
         numero: 348,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-08-01T05:00:00.000Z'],
+        fechas: [
+            '2023-08-01T05:00:00.000Z'
+        ],
         nombre: 'ANA BEATRIZ'
     },
     {
@@ -1831,7 +1988,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [4280023383],
+            obligacion: [
+                4280023383
+            ],
             radicado: '2017 - 01016',
             vencimientoPagare: '2019-05-20T00:00:00.000Z'
         },
@@ -1851,11 +2010,19 @@ const Carpetas = [
         grupo: 'Reintegra',
         id: 71992491,
         idProceso: 51499790,
-        idProcesos: [51499790, [51499790, 0]],
+        idProcesos: [
+            51499790,
+            [
+                51499790,
+                0
+            ]
+        ],
         llaveProceso: '11001400307620170101600',
         numero: 352,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-06-27T05:00:00.000Z'],
+        fechas: [
+            '2023-06-27T05:00:00.000Z'
+        ],
         nombre: 'MARIO DE'
     },
     {
@@ -1875,7 +2042,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [3880082626],
+            obligacion: [
+                3880082626
+            ],
             radicado: '2017 - 00975',
             vencimientoPagare: '2019-02-26T00:00:00.000Z'
         },
@@ -1899,7 +2068,9 @@ const Carpetas = [
         llaveProceso: '11001400307820170097500',
         numero: 358,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-05-04T05:00:00.000Z'],
+        fechas: [
+            '2023-05-04T05:00:00.000Z'
+        ],
         nombre: 'JOGLI JOAQUIN'
     },
     {
@@ -1945,7 +2116,9 @@ const Carpetas = [
         llaveProceso: '11001400301720170133600',
         numero: 361,
         tipoProceso: 'SINGULAR',
-        fechas: ['2022-03-28T05:00:00.000Z'],
+        fechas: [
+            '2022-03-28T05:00:00.000Z'
+        ],
         nombre: 'NATALIA undefined'
     },
     {
@@ -1965,7 +2138,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [2290098960],
+            obligacion: [
+                2290098960
+            ],
             radicado: '2017-1208',
             vencimientoPagare: '2018-10-08T00:00:00.000Z'
         },
@@ -1984,11 +2159,19 @@ const Carpetas = [
         grupo: 'Reintegra',
         id: 900336193,
         idProceso: 50817380,
-        idProcesos: [50817380, [50817380, 0]],
+        idProcesos: [
+            50817380,
+            [
+                50817380,
+                0
+            ]
+        ],
         llaveProceso: '11001400302220170120800',
         numero: 369,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-01-31T05:00:00.000Z'],
+        fechas: [
+            '2023-01-31T05:00:00.000Z'
+        ],
         nombre: 'INVERSION undefined'
     },
     {
@@ -2008,7 +2191,10 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [2500084774, 'AUDIOPRESTAMO'],
+            obligacion: [
+                2500084774,
+                'AUDIOPRESTAMO'
+            ],
             radicado: '2017 - 01266',
             vencimientoPagare: '2020-07-21T00:00:00.000Z'
         },
@@ -2031,7 +2217,9 @@ const Carpetas = [
         llaveProceso: '11001400300420170126600',
         numero: 390,
         tipoProceso: 'SINGULAR',
-        fechas: ['2022-02-04T05:00:00.000Z'],
+        fechas: [
+            '2022-02-04T05:00:00.000Z'
+        ],
         nombre: 'GILBERTO undefined'
     },
     {
@@ -2047,7 +2235,10 @@ const Carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [3320087751, 3320088190],
+            obligacion: [
+                3320087751,
+                3320088190
+            ],
             radicado: '2018 - 00131',
             vencimientoPagare: '2020-08-22T00:00:00.000Z'
         },
@@ -2090,7 +2281,9 @@ const Carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-13-de-ejecucion-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [87823],
+            obligacion: [
+                87823
+            ],
             radicado: '2018 - 00236',
             vencimientoPagare: null
         },
@@ -2113,7 +2306,9 @@ const Carpetas = [
         llaveProceso: '11001400302120180023600',
         numero: 405,
         tipoProceso: 'HIPOTECARIO',
-        fechas: ['2023-06-15T05:00:00.000Z'],
+        fechas: [
+            '2023-06-15T05:00:00.000Z'
+        ],
         nombre: 'ARTURO undefined'
     },
     {
@@ -2133,7 +2328,10 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [5740084511, 6390082501],
+            obligacion: [
+                5740084511,
+                6390082501
+            ],
             radicado: '2017 - 01250',
             vencimientoPagare: null
         },
@@ -2157,7 +2355,9 @@ const Carpetas = [
         llaveProceso: '11001400307120170125000',
         numero: 417,
         tipoProceso: 'SINGULAR',
-        fechas: ['2022-03-10T05:00:00.000Z'],
+        fechas: [
+            '2022-03-10T05:00:00.000Z'
+        ],
         nombre: 'OSCAR HUMBERTO'
     },
     {
@@ -2204,7 +2404,9 @@ const Carpetas = [
         llaveProceso: '11001400306320170129000',
         numero: 420,
         tipoProceso: 'HMM PISO 1',
-        fechas: ['2023-06-30T05:00:00.000Z'],
+        fechas: [
+            '2023-06-30T05:00:00.000Z'
+        ],
         nombre: 'DIANA PATRICIA'
     },
     {
@@ -2224,7 +2426,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [1740087269],
+            obligacion: [
+                1740087269
+            ],
             radicado: '2018 - 00090',
             vencimientoPagare: '2020-07-03T05:00:00.000Z'
         },
@@ -2248,7 +2452,9 @@ const Carpetas = [
         llaveProceso: '11001400305920180009000',
         numero: 452,
         tipoProceso: 'SINGULAR',
-        fechas: ['2022-03-25T05:00:00.000Z'],
+        fechas: [
+            '2022-03-25T05:00:00.000Z'
+        ],
         nombre: 'MARIA MARIN'
     },
     {
@@ -2268,7 +2474,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: ['AUDIOPRESTAMO'],
+            obligacion: [
+                'AUDIOPRESTAMO'
+            ],
             radicado: '2018 - 00111',
             vencimientoPagare: null
         },
@@ -2292,7 +2500,9 @@ const Carpetas = [
         llaveProceso: '11001400303720180011100',
         numero: 458,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-02-02T05:00:00.000Z'],
+        fechas: [
+            '2023-02-02T05:00:00.000Z'
+        ],
         nombre: 'SANDRA PATRICIA'
     },
     {
@@ -2341,7 +2551,9 @@ const Carpetas = [
         llaveProceso: '11001418900820180078500',
         numero: 491,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-08-02T05:00:00.000Z'],
+        fechas: [
+            '2023-08-02T05:00:00.000Z'
+        ],
         nombre: 'SANDRA PATRICIA'
     },
     {
@@ -2396,7 +2608,10 @@ const Carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [7910080591, 4099830244266410],
+            obligacion: [
+                7910080591,
+                4099830244266410
+            ],
             radicado: '2019 - 00179',
             vencimientoPagare: '2022-10-03T05:00:00.000Z'
         },
@@ -2459,7 +2674,9 @@ const Carpetas = [
         llaveProceso: '11001400304220200053500',
         numero: 531,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-03-13T05:00:00.000Z'],
+        fechas: [
+            '2023-03-13T05:00:00.000Z'
+        ],
         nombre: 'SANDRA LEONOR'
     },
     {
@@ -2476,7 +2693,10 @@ const Carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-04-municipal-de-pequenas-causas-y-competencia-multiple-de-soacha'
                 }
             ],
-            obligacion: [1680097436, 148653],
+            obligacion: [
+                1680097436,
+                148653
+            ],
             radicado: '2018 - 00060',
             vencimientoPagare: null
         },
@@ -2514,7 +2734,8 @@ const Carpetas = [
                 }
             ],
             obligacion: [
-                377814085773793, 4513070445120640
+                377814085773793,
+                4513070445120640
             ],
             radicado: '2020 - 00289',
             vencimientoPagare: null
@@ -2556,7 +2777,10 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [2270085292, 3778131949466660],
+            obligacion: [
+                2270085292,
+                3778131949466660
+            ],
             radicado: '2018 - 00850',
             vencimientoPagare: '2022-02-02T00:00:00.000Z'
         },
@@ -2580,7 +2804,9 @@ const Carpetas = [
         llaveProceso: '11001400305120180085000',
         numero: 537,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-07-10T05:00:00.000Z'],
+        fechas: [
+            '2023-07-10T05:00:00.000Z'
+        ],
         nombre: 'SANDRA '
     },
     {
@@ -2600,7 +2826,10 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [2070086628, 4594250056606570],
+            obligacion: [
+                2070086628,
+                4594250056606570
+            ],
             radicado: '2018 - 00818',
             vencimientoPagare: '2021-04-10T00:00:00.000Z'
         },
@@ -2624,7 +2853,9 @@ const Carpetas = [
         llaveProceso: '11001400303620180081800',
         numero: 539,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-08-03T05:00:00.000Z'],
+        fechas: [
+            '2023-08-03T05:00:00.000Z'
+        ],
         nombre: 'ADRIANA LUCIA'
     },
     {
@@ -2644,7 +2875,10 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [1980096337, 6700083464],
+            obligacion: [
+                1980096337,
+                6700083464
+            ],
             radicado: '2018 - 00929',
             vencimientoPagare: null
         },
@@ -2668,7 +2902,9 @@ const Carpetas = [
         llaveProceso: '11001400301420180092900',
         numero: 540,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-06-27T05:00:00.000Z'],
+        fechas: [
+            '2023-06-27T05:00:00.000Z'
+        ],
         nombre: 'JOSE RODRIGO'
     },
     {
@@ -2719,7 +2955,12 @@ const Carpetas = [
             '2022-03-24T05:00:00.000Z',
             '2022-05-25T05:00:00.000Z'
         ],
-        idProcesos: [[52160520, 112967583]],
+        idProcesos: [
+            [
+                52160520,
+                112967583
+            ]
+        ],
         nombre: 'JOSE RAMON'
     },
     {
@@ -2766,7 +3007,9 @@ const Carpetas = [
         llaveProceso: '11001418901220180064400',
         numero: 542,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-07-05T05:00:00.000Z'],
+        fechas: [
+            '2023-07-05T05:00:00.000Z'
+        ],
         nombre: 'BIBIANA PATRICIA'
     },
     {
@@ -2786,7 +3029,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [12541235],
+            obligacion: [
+                12541235
+            ],
             radicado: '2017 - 01002',
             vencimientoPagare: '2020-10-04T00:00:00.000Z'
         },
@@ -2810,7 +3055,9 @@ const Carpetas = [
         llaveProceso: '11001400300220170100200',
         numero: 546,
         tipoProceso: 'PRENDARIO',
-        fechas: ['2023-03-14T05:00:00.000Z'],
+        fechas: [
+            '2023-03-14T05:00:00.000Z'
+        ],
         nombre: 'JOGLI JOAQUIN'
     },
     {
@@ -2825,7 +3072,9 @@ const Carpetas = [
                     tipo: ' Pequeñas Causas y Competencias Multiples'
                 }
             ],
-            obligacion: [130089828],
+            obligacion: [
+                130089828
+            ],
             radicado: '2023 - 01088',
             vencimientoPagare: '2025-02-25T00:00:00.000Z'
         },
@@ -2854,7 +3103,9 @@ const Carpetas = [
             departamento: 'CUNDINAMARCA',
             entregaGarantiasAbogado: '2023-07-26T00:00:00.000Z',
             juzgado: [],
-            obligacion: [1920089307],
+            obligacion: [
+                1920089307
+            ],
             vencimientoPagare: '2026-03-04T00:00:00.000Z'
         },
         deudor: {
@@ -2973,7 +3224,9 @@ const Carpetas = [
             departamento: 'CUNDINAMARCA',
             entregaGarantiasAbogado: '2023-07-26T00:00:00.000Z',
             juzgado: [],
-            obligacion: [1080103378],
+            obligacion: [
+                1080103378
+            ],
             vencimientoPagare: '2026-03-02T00:00:00.000Z'
         },
         deudor: {
@@ -3173,7 +3426,9 @@ const Carpetas = [
         llaveProceso: '11001400303720170083900',
         numero: 11,
         tipoProceso: 'PRENDARIO',
-        fechas: ['2023-07-10T05:00:00.000Z'],
+        fechas: [
+            '2023-07-10T05:00:00.000Z'
+        ],
         nombre: 'JAVIER undefined'
     },
     {
@@ -3190,7 +3445,9 @@ const Carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-03-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [2530444],
+            obligacion: [
+                2530444
+            ],
             radicado: '2017 - 00884',
             vencimientoPagare: '2020-05-04T00:00:00.000Z'
         },
@@ -3210,11 +3467,19 @@ const Carpetas = [
         grupo: 'Bancolombia',
         id: 1077969975,
         idProceso: 50468620,
-        idProcesos: [50468620, [50468620, 113956611]],
+        idProcesos: [
+            50468620,
+            [
+                50468620,
+                113956611
+            ]
+        ],
         llaveProceso: '11001400300320170088400',
         numero: 16,
         tipoProceso: 'PRENDARIO',
-        fechas: ['2023-07-18T05:00:00.000Z'],
+        fechas: [
+            '2023-07-18T05:00:00.000Z'
+        ],
         nombre: 'YESID undefined'
     },
     {
@@ -3236,7 +3501,9 @@ const Carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-del-circuito-de-bogota'
                 }
             ],
-            obligacion: [12705806],
+            obligacion: [
+                12705806
+            ],
             radicado: '2017 - 00335',
             vencimientoPagare: '2020-05-10T00:00:00.000Z'
         },
@@ -3259,8 +3526,15 @@ const Carpetas = [
         llaveProceso: '11001310301120170033500',
         numero: 25,
         tipoProceso: 'PRENDARIO',
-        fechas: ['2023-03-10T05:00:00.000Z'],
-        idProcesos: [[0, 1805257424]],
+        fechas: [
+            '2023-03-10T05:00:00.000Z'
+        ],
+        idProcesos: [
+            [
+                0,
+                1805257424
+            ]
+        ],
         nombre: 'OMAR DARIO'
     },
     {
@@ -3275,7 +3549,9 @@ const Carpetas = [
                     tipo: 'Civil del Circuito'
                 }
             ],
-            obligacion: [7910080321],
+            obligacion: [
+                7910080321
+            ],
             radicado: '2017 - 00195',
             vencimientoPagare: '2017-04-11T00:00:00.000Z'
         },
@@ -3314,7 +3590,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [4200023595],
+            obligacion: [
+                4200023595
+            ],
             radicado: '2017-00419',
             vencimientoPagare: '2019-08-12T00:00:00.000Z'
         },
@@ -3337,7 +3615,9 @@ const Carpetas = [
         llaveProceso: '11001400300620170041900',
         numero: 69,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-05-10T05:00:00.000Z'],
+        fechas: [
+            '2023-05-10T05:00:00.000Z'
+        ],
         nombre: 'DERLY CATHERINE'
     },
     {
@@ -3357,7 +3637,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [2250084171],
+            obligacion: [
+                2250084171
+            ],
             radicado: '2017-00567',
             vencimientoPagare: '2018-11-11T00:00:00.000Z'
         },
@@ -3380,7 +3662,9 @@ const Carpetas = [
         llaveProceso: '11001400302220170056700',
         numero: 86,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-05-29T05:00:00.000Z'],
+        fechas: [
+            '2023-05-29T05:00:00.000Z'
+        ],
         nombre: 'RHONALD undefined'
     },
     {
@@ -3397,7 +3681,9 @@ const Carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-001-promiscuo-municipal-de-el-colegio'
                 }
             ],
-            obligacion: [7300080586],
+            obligacion: [
+                7300080586
+            ],
             radicado: '2017-00239',
             vencimientoPagare: '2019-07-05T00:00:00.000Z'
         },
@@ -3437,7 +3723,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [420087224],
+            obligacion: [
+                420087224
+            ],
             radicado: '2017 - 00566',
             vencimientoPagare: '2019-01-21T00:00:00.000Z'
         },
@@ -3461,7 +3749,9 @@ const Carpetas = [
         llaveProceso: '11001400307020170056600',
         numero: 117,
         tipoProceso: 'SINGULAR',
-        fechas: ['2021-12-13T05:00:00.000Z'],
+        fechas: [
+            '2021-12-13T05:00:00.000Z'
+        ],
         nombre: 'NICOLAS FERNANDO'
     },
     {
@@ -3478,7 +3768,9 @@ const Carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-03-municipal-de-pequenas-causas-y-competencia-multiple-de-soacha'
                 }
             ],
-            obligacion: [6240082776],
+            obligacion: [
+                6240082776
+            ],
             radicado: '2017 - 00755',
             vencimientoPagare: '2021-04-12T00:00:00.000Z'
         },
@@ -3512,7 +3804,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [300093705],
+            obligacion: [
+                300093705
+            ],
             radicado: '2017 - 01520',
             vencimientoPagare: '2020-11-27T00:00:00.000Z'
         },
@@ -3531,11 +3825,19 @@ const Carpetas = [
         grupo: 'Reintegra',
         id: 74338870,
         idProceso: 109959053,
-        idProcesos: [109959053, [0, 109959053]],
+        idProcesos: [
+            109959053,
+            [
+                0,
+                109959053
+            ]
+        ],
         llaveProceso: '11001400304720170152000',
         numero: 125,
         tipoProceso: 'SINGULAR',
-        fechas: ['2022-09-02T05:00:00.000Z'],
+        fechas: [
+            '2022-09-02T05:00:00.000Z'
+        ],
         nombre: 'MILCIADES undefined'
     },
     {
@@ -3555,7 +3857,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [6240082772],
+            obligacion: [
+                6240082772
+            ],
             radicado: '2017 - 00905',
             vencimientoPagare: '2019-09-30T00:00:00.000Z'
         },
@@ -3577,7 +3881,9 @@ const Carpetas = [
         llaveProceso: '11001400304520170090500',
         numero: 164,
         tipoProceso: 'SINGULAR',
-        fechas: ['2022-02-25T05:00:00.000Z'],
+        fechas: [
+            '2022-02-25T05:00:00.000Z'
+        ],
         nombre: 'URIEL undefined'
     },
     {
@@ -3593,7 +3899,10 @@ const Carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [12498762, 'audioprestamo'],
+            obligacion: [
+                12498762,
+                'audioprestamo'
+            ],
             radicado: '2017 - 01264',
             vencimientoPagare: '2020-03-15T00:00:00.000Z'
         },
@@ -3617,7 +3926,9 @@ const Carpetas = [
         llaveProceso: '11001400300320170126400',
         numero: 169,
         tipoProceso: 'PRENDARIO',
-        fechas: ['2023-06-01T05:00:00.000Z'],
+        fechas: [
+            '2023-06-01T05:00:00.000Z'
+        ],
         nombre: 'RITA BLANCO'
     },
     {
@@ -3633,7 +3944,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [1680097051],
+            obligacion: [
+                1680097051
+            ],
             radicado: '2017 - 00412',
             vencimientoPagare: '2021-01-29T00:00:00.000Z'
         },
@@ -3673,7 +3986,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [1220084112],
+            obligacion: [
+                1220084112
+            ],
             radicado: '2017 - 01082',
             vencimientoPagare: '2020-11-30T00:00:00.000Z'
         },
@@ -3697,7 +4012,9 @@ const Carpetas = [
         llaveProceso: '11001400307920170108200',
         numero: 191,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-07-31T05:00:00.000Z'],
+        fechas: [
+            '2023-07-31T05:00:00.000Z'
+        ],
         nombre: 'JOHN ALEXANDER'
     },
     {
@@ -3717,7 +4034,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [12750180],
+            obligacion: [
+                12750180
+            ],
             radicado: '2017 - 01750',
             vencimientoPagare: '2020-08-09T00:00:00.000Z'
         },
@@ -3754,7 +4073,9 @@ const Carpetas = [
                     tipo: 'Promiscuo Municipal'
                 }
             ],
-            obligacion: [12650694],
+            obligacion: [
+                12650694
+            ],
             radicado: '2017 - 00259',
             vencimientoPagare: '2020-08-16T00:00:00.000Z'
         },
@@ -3814,11 +4135,19 @@ const Carpetas = [
         grupo: 'Reintegra',
         id: 343334,
         idProceso: 51006610,
-        idProcesos: [51006610, [51006610, 0]],
+        idProcesos: [
+            51006610,
+            [
+                51006610,
+                0
+            ]
+        ],
         llaveProceso: '11001400302120180016300',
         numero: 210,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-06-22T05:00:00.000Z'],
+        fechas: [
+            '2023-06-22T05:00:00.000Z'
+        ],
         nombre: 'JOSE ANTONIO'
     },
     {
@@ -3837,7 +4166,10 @@ const Carpetas = [
                     tipo: 'Civil del Circuito de Ejecucion'
                 }
             ],
-            obligacion: [182540, 'AUDIOPRESTAMO'],
+            obligacion: [
+                182540,
+                'AUDIOPRESTAMO'
+            ],
             radicado: '2017 - 00453',
             vencimientoPagare: null
         },
@@ -3858,7 +4190,13 @@ const Carpetas = [
         grupo: 'LiosJuridicos',
         id: 52328942,
         idProceso: 51315290,
-        idProcesos: [51315290, [51315290, 57718874]],
+        idProcesos: [
+            51315290,
+            [
+                51315290,
+                57718874
+            ]
+        ],
         llaveProceso: '11001310303720170045300',
         numero: 217,
         tipoProceso: 'HIPOTECARIO',
@@ -3880,7 +4218,10 @@ const Carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [9460081795, 5303727444531025],
+            obligacion: [
+                9460081795,
+                5303727444531025
+            ],
             radicado: '2017 - 00477',
             vencimientoPagare: '2018-05-09T00:00:00.000Z'
         },
@@ -3943,7 +4284,9 @@ const Carpetas = [
         llaveProceso: '11001400301320170117800',
         numero: 258,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-04-17T05:00:00.000Z'],
+        fechas: [
+            '2023-04-17T05:00:00.000Z'
+        ],
         nombre: 'SOL JUDITH'
     },
     {
@@ -3981,7 +4324,7 @@ const Carpetas = [
         grupo: 'Insolvencia',
         id: 7601476,
         idProceso: 0,
-        llaveProceso: "1100140030202'100050100",
+        llaveProceso: '1100140030202\'100050100',
         numero: 265,
         tipoProceso: 'HIPOTECARIO'
     },
@@ -3997,7 +4340,9 @@ const Carpetas = [
                     tipo: ' Pequeñas Causas y Competencias Multiples'
                 }
             ],
-            obligacion: [156791],
+            obligacion: [
+                156791
+            ],
             radicado: '2018 - 01029',
             vencimientoPagare: '2022-05-10T05:00:00.000Z'
         },
@@ -4021,7 +4366,9 @@ const Carpetas = [
         llaveProceso: '11001400306420180102900',
         numero: 273,
         tipoProceso: 'HIPOTECARIO',
-        fechas: ['2023-02-07T05:00:00.000Z'],
+        fechas: [
+            '2023-02-07T05:00:00.000Z'
+        ],
         nombre: 'SONIA MARCELA'
     },
     {
@@ -4043,7 +4390,9 @@ const Carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [4670083154],
+            obligacion: [
+                4670083154
+            ],
             radicado: '2017 - 01391',
             vencimientoPagare: null
         },
@@ -4067,7 +4416,9 @@ const Carpetas = [
         llaveProceso: '11001400303720170139100',
         numero: 278,
         tipoProceso: 'SINGULAR',
-        fechas: ['2022-03-09T05:00:00.000Z'],
+        fechas: [
+            '2022-03-09T05:00:00.000Z'
+        ],
         nombre: 'LUZ DARY'
     },
     {
@@ -4083,7 +4434,9 @@ const Carpetas = [
                     tipo: '  Pequeñas Causas y Competencias Multiples'
                 }
             ],
-            obligacion: [300094317],
+            obligacion: [
+                300094317
+            ],
             radicado: '2017 - 00128',
             vencimientoPagare: '2020-08-31T00:00:00.000Z'
         },
@@ -4152,7 +4505,9 @@ const Carpetas = [
         llaveProceso: '11001400304820170097400',
         numero: 293,
         tipoProceso: 'SINGULAR',
-        fechas: ['2022-12-01T05:00:00.000Z'],
+        fechas: [
+            '2022-12-01T05:00:00.000Z'
+        ],
         nombre: 'ANDERSON undefined'
     },
     {
@@ -4172,7 +4527,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [12676248],
+            obligacion: [
+                12676248
+            ],
             radicado: '2017 - 00924',
             vencimientoPagare: '2020-09-13T00:00:00.000Z'
         },
@@ -4195,7 +4552,9 @@ const Carpetas = [
         llaveProceso: '11001400306320170092400',
         numero: 294,
         tipoProceso: 'PRENDARIO',
-        fechas: ['2023-07-24T05:00:00.000Z'],
+        fechas: [
+            '2023-07-24T05:00:00.000Z'
+        ],
         nombre: 'HERNANDO undefined'
     },
     {
@@ -4278,7 +4637,9 @@ const Carpetas = [
         llaveProceso: '11001400302620170129300',
         numero: 328,
         tipoProceso: 'HIPOTECARIO',
-        fechas: ['2018-10-02T05:00:00.000Z'],
+        fechas: [
+            '2018-10-02T05:00:00.000Z'
+        ],
         nombre: 'SANDRA MILENA'
     },
     {
@@ -4298,7 +4659,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: ['AUDIOPRESTAMO'],
+            obligacion: [
+                'AUDIOPRESTAMO'
+            ],
             radicado: '2017 - 01306',
             vencimientoPagare: null
         },
@@ -4322,7 +4685,9 @@ const Carpetas = [
         llaveProceso: '11001400306820170130600',
         numero: 334,
         tipoProceso: 'SINGULAR',
-        fechas: ['2022-09-27T05:00:00.000Z'],
+        fechas: [
+            '2022-09-27T05:00:00.000Z'
+        ],
         nombre: 'NESTOR JULIO'
     },
     {
@@ -4341,7 +4706,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [140085],
+            obligacion: [
+                140085
+            ],
             radicado: '2017 - 00964',
             vencimientoPagare: '2026-06-22T00:00:00.000Z'
         },
@@ -4364,7 +4731,9 @@ const Carpetas = [
         idProceso: 50857820,
         llaveProceso: '11001400300620170096400',
         numero: 337,
-        fechas: ['2023-07-12T05:00:00.000Z'],
+        fechas: [
+            '2023-07-12T05:00:00.000Z'
+        ],
         nombre: 'HECTOR ALFONSO'
     },
     {
@@ -4379,7 +4748,10 @@ const Carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [117171, 377813401553319],
+            obligacion: [
+                117171,
+                377813401553319
+            ],
             radicado: '2018 - 00143',
             vencimientoPagare: '2024-03-30T00:00:00.000Z'
         },
@@ -4403,7 +4775,9 @@ const Carpetas = [
         llaveProceso: '11001400302420180014300',
         numero: 371,
         tipoProceso: 'HIPOTECARIO',
-        fechas: ['2019-09-27T05:00:00.000Z'],
+        fechas: [
+            '2019-09-27T05:00:00.000Z'
+        ],
         nombre: 'MARTHA ANDREA'
     },
     {
@@ -4444,7 +4818,9 @@ const Carpetas = [
         llaveProceso: '11001400307620180005200',
         numero: 376,
         tipoProceso: 'HIPOTECARIO',
-        fechas: ['2023-07-24T05:00:00.000Z'],
+        fechas: [
+            '2023-07-24T05:00:00.000Z'
+        ],
         nombre: 'ROBERTO undefined'
     },
     {
@@ -4464,7 +4840,10 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [2500085167, 'AUDIOPRESTAMO'],
+            obligacion: [
+                2500085167,
+                'AUDIOPRESTAMO'
+            ],
             radicado: '2017 - 01336',
             vencimientoPagare: '2019-05-05T00:00:00.000Z'
         },
@@ -4487,7 +4866,9 @@ const Carpetas = [
         llaveProceso: '11001400305020170133600',
         numero: 387,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-01-19T05:00:00.000Z'],
+        fechas: [
+            '2023-01-19T05:00:00.000Z'
+        ],
         nombre: 'LEONARDO undefined'
     },
     {
@@ -4507,7 +4888,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [10000090724],
+            obligacion: [
+                10000090724
+            ],
             radicado: '2017 - 01623',
             vencimientoPagare: '2019-06-08T00:00:00.000Z'
         },
@@ -4531,7 +4914,9 @@ const Carpetas = [
         llaveProceso: '11001400306420170162300',
         numero: 396,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-03-13T05:00:00.000Z'],
+        fechas: [
+            '2023-03-13T05:00:00.000Z'
+        ],
         nombre: 'ORLANDO ENRIQUE'
     },
     {
@@ -4578,7 +4963,9 @@ const Carpetas = [
         llaveProceso: '11001400307820170116400',
         numero: 407,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-07-21T05:00:00.000Z'],
+        fechas: [
+            '2023-07-21T05:00:00.000Z'
+        ],
         nombre: 'NESTOR ALBERTO'
     },
     {
@@ -4600,7 +4987,9 @@ const Carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [4550087219],
+            obligacion: [
+                4550087219
+            ],
             radicado: '2018 - 00221',
             vencimientoPagare: '2018-06-20T00:00:00.000Z'
         },
@@ -4623,7 +5012,9 @@ const Carpetas = [
         llaveProceso: '11001400305620180022100',
         numero: 409,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-06-08T05:00:00.000Z'],
+        fechas: [
+            '2023-06-08T05:00:00.000Z'
+        ],
         nombre: 'CREAS undefined'
     },
     {
@@ -4639,7 +5030,9 @@ const Carpetas = [
                     tipo: 'Promiscuo Municipal'
                 }
             ],
-            obligacion: [12730779],
+            obligacion: [
+                12730779
+            ],
             radicado: '2018 - 00048',
             vencimientoPagare: '2021-01-16T00:00:00.000Z'
         },
@@ -4702,7 +5095,13 @@ const Carpetas = [
         grupo: 'Bancolombia',
         id: 52883958,
         idProceso: 51816100,
-        idProcesos: [51816100, [51816100, 135801811]],
+        idProcesos: [
+            51816100,
+            [
+                51816100,
+                135801811
+            ]
+        ],
         llaveProceso: '11001418901420190065600',
         numero: 463,
         tipoProceso: 'SINGULAR',
@@ -4756,7 +5155,9 @@ const Carpetas = [
         llaveProceso: '11001400305220180011700',
         numero: 466,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-04-13T05:00:00.000Z'],
+        fechas: [
+            '2023-04-13T05:00:00.000Z'
+        ],
         nombre: 'DARLEY JULIED'
     },
     {
@@ -4772,7 +5173,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [1000090987],
+            obligacion: [
+                1000090987
+            ],
             radicado: '2018 - 00113',
             vencimientoPagare: '2019-03-08T05:00:00.000Z'
         },
@@ -4813,7 +5216,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: ['AUDIOPRESTAMO'],
+            obligacion: [
+                'AUDIOPRESTAMO'
+            ],
             radicado: '2018 - 00475',
             vencimientoPagare: '2020-08-15T00:00:00.000Z'
         },
@@ -4837,7 +5242,9 @@ const Carpetas = [
         llaveProceso: '11001400300420180047500',
         numero: 477,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-02-27T05:00:00.000Z'],
+        fechas: [
+            '2023-02-27T05:00:00.000Z'
+        ],
         nombre: 'ADOLFO '
     },
     {
@@ -4879,7 +5286,9 @@ const Carpetas = [
         llaveProceso: '25307400300320210053900',
         numero: 480,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-03-10T05:00:00.000Z'],
+        fechas: [
+            '2023-03-10T05:00:00.000Z'
+        ],
         nombre: 'ADRIANA undefined'
     },
     {
@@ -4939,7 +5348,10 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [68928057402, 'AUDIOPRESTAMO'],
+            obligacion: [
+                68928057402,
+                'AUDIOPRESTAMO'
+            ],
             radicado: '2018 - 00454',
             vencimientoPagare: '2020-05-27T00:00:00.000Z'
         },
@@ -4957,11 +5369,19 @@ const Carpetas = [
         grupo: 'Reintegra',
         id: null,
         idProceso: 51154840,
-        idProcesos: [51154840, [51154840, 0]],
+        idProcesos: [
+            51154840,
+            [
+                51154840,
+                0
+            ]
+        ],
         llaveProceso: '11001400300620180045400',
         numero: 500,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-04-10T05:00:00.000Z'],
+        fechas: [
+            '2023-04-10T05:00:00.000Z'
+        ],
         nombre: 'SMARTITECH undefined'
     },
     {
@@ -4981,7 +5401,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [4594260107010410],
+            obligacion: [
+                4594260107010410
+            ],
             radicado: '2019 - 01085',
             vencimientoPagare: '2021-05-01T05:00:00.000Z'
         },
@@ -5005,7 +5427,9 @@ const Carpetas = [
         llaveProceso: '11001418901620190108500',
         numero: 502,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-02-28T05:00:00.000Z'],
+        fechas: [
+            '2023-02-28T05:00:00.000Z'
+        ],
         nombre: 'ANGELICA NATHALY'
     },
     {
@@ -5022,7 +5446,9 @@ const Carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-01-promiscuo-municipal-de-la-calera'
                 }
             ],
-            obligacion: [2490084469],
+            obligacion: [
+                2490084469
+            ],
             radicado: '2018 - 00371',
             vencimientoPagare: '2026-01-03T05:00:00.000Z'
         },
@@ -5064,7 +5490,8 @@ const Carpetas = [
                 }
             ],
             obligacion: [
-                40998833882814000, 5303729887314280
+                40998833882814000,
+                5303729887314280
             ],
             radicado: '2018 - 00514',
             vencimientoPagare: '2020-10-05T00:00:00.000Z'
@@ -5089,7 +5516,9 @@ const Carpetas = [
         llaveProceso: '11001400308120180051400',
         numero: 530,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-03-14T05:00:00.000Z'],
+        fechas: [
+            '2023-03-14T05:00:00.000Z'
+        ],
         nombre: 'MARIA CLARA'
     },
     {
@@ -5106,7 +5535,10 @@ const Carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [65886140334, 4594260446916180],
+            obligacion: [
+                65886140334,
+                4594260446916180
+            ],
             radicado: '2020-1021',
             vencimientoPagare: null
         },
@@ -5128,7 +5560,9 @@ const Carpetas = [
         llaveProceso: '11001400306820200102100',
         numero: 532,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-07-27T05:00:00.000Z'],
+        fechas: [
+            '2023-07-27T05:00:00.000Z'
+        ],
         nombre: 'DIMOIN undefined'
     },
     {
@@ -5175,7 +5609,9 @@ const Carpetas = [
         llaveProceso: '11001418901220180095100',
         numero: 543,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-05-15T05:00:00.000Z'],
+        fechas: [
+            '2023-05-15T05:00:00.000Z'
+        ],
         nombre: 'ROSALIA CHARRY'
     },
     {
@@ -5191,7 +5627,9 @@ const Carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-003-civil-municipal-de-fusagasuga'
                 }
             ],
-            obligacion: [2640096179],
+            obligacion: [
+                2640096179
+            ],
             radicado: '2023 - 00371',
             vencimientoPagare: '2028-03-08T00:00:00.000Z'
         },
@@ -5226,7 +5664,10 @@ const Carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [530104065, 530103261],
+            obligacion: [
+                530104065,
+                530103261
+            ],
             radicado: '2023 - 00622',
             vencimientoPagare: null
         },
@@ -5250,7 +5691,9 @@ const Carpetas = [
         llaveProceso: '11001400300420230062200',
         numero: 552,
         tipoProceso: 'SINGULAR',
-        fechas: ['2023-08-04T05:00:00.000Z'],
+        fechas: [
+            '2023-08-04T05:00:00.000Z'
+        ],
         nombre: 'OSCAR MAURICIO'
     },
     {
@@ -5381,7 +5824,9 @@ const Carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-12-de-ejecucion-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [12330030],
+            obligacion: [
+                12330030
+            ],
             radicado: '2017 - 00836',
             vencimientoPagare: '2020-06-09T00:00:00.000Z'
         },
@@ -5399,10 +5844,18 @@ const Carpetas = [
             }
         },
         fecha: '2023-07-24T05:00:00.000Z',
-        fechas: ['2023-07-24T05:00:00.000Z'],
+        fechas: [
+            '2023-07-24T05:00:00.000Z'
+        ],
         grupo: 'Bancolombia',
         id: 1032432802,
-        idProcesos: [50521480, [50521480, 81728891]],
+        idProcesos: [
+            50521480,
+            [
+                50521480,
+                81728891
+            ]
+        ],
         nombre: 'LUIS ESNEIDER',
         numero: 90,
         tipoProceso: 'PRENDARIO'
@@ -5447,10 +5900,18 @@ const Carpetas = [
             }
         },
         fecha: '2023-05-11T05:00:00.000Z',
-        fechas: ['2023-05-11T05:00:00.000Z'],
+        fechas: [
+            '2023-05-11T05:00:00.000Z'
+        ],
         grupo: 'Reintegra',
         id: 16831314,
-        idProcesos: [51619370, [51619370, 81869501]],
+        idProcesos: [
+            51619370,
+            [
+                51619370,
+                81869501
+            ]
+        ],
         nombre: 'EDUARDO ENRIQUE',
         numero: 103,
         tipoProceso: 'SINGULAR'
@@ -5470,7 +5931,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [8470081213],
+            obligacion: [
+                8470081213
+            ],
             radicado: '2017 - 00807',
             vencimientoPagare: '2021-12-15T00:00:00.000Z'
         },
@@ -5487,10 +5950,18 @@ const Carpetas = [
             }
         },
         fecha: '2023-06-21T05:00:00.000Z',
-        fechas: ['2023-06-21T05:00:00.000Z'],
+        fechas: [
+            '2023-06-21T05:00:00.000Z'
+        ],
         grupo: 'Reintegra',
         id: 17650971,
-        idProcesos: [50623380, [50623380, 0]],
+        idProcesos: [
+            50623380,
+            [
+                50623380,
+                0
+            ]
+        ],
         nombre: 'JUAN CARLOS',
         numero: 184,
         tipoProceso: 'SINGULAR'
@@ -5510,7 +5981,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [12711612],
+            obligacion: [
+                12711612
+            ],
             radicado: '2017 - 01195',
             vencimientoPagare: '2020-09-06T00:00:00.000Z'
         },
@@ -5527,10 +6000,18 @@ const Carpetas = [
             }
         },
         fecha: '2023-07-10T05:00:00.000Z',
-        fechas: ['2023-07-10T05:00:00.000Z'],
+        fechas: [
+            '2023-07-10T05:00:00.000Z'
+        ],
         grupo: 'Reintegra',
         id: 80259791,
-        idProcesos: [50721470, [50721470, 127748331]],
+        idProcesos: [
+            50721470,
+            [
+                50721470,
+                127748331
+            ]
+        ],
         nombre: 'ALIRIO undefined',
         numero: 286,
         tipoProceso: 'PRENDARIO'
@@ -5577,10 +6058,18 @@ const Carpetas = [
             }
         },
         fecha: '2023-05-15T05:00:00.000Z',
-        fechas: ['2023-05-15T05:00:00.000Z'],
+        fechas: [
+            '2023-05-15T05:00:00.000Z'
+        ],
         grupo: 'Bancolombia',
         id: 79388145,
-        idProcesos: [50769660, [50769660, 0]],
+        idProcesos: [
+            50769660,
+            [
+                50769660,
+                0
+            ]
+        ],
         nombre: 'LIBARDO ALFONSO',
         numero: 310,
         tipoProceso: 'SINGULAR'
@@ -5604,7 +6093,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [4280023383],
+            obligacion: [
+                4280023383
+            ],
             radicado: '2017 - 01016',
             vencimientoPagare: '2019-05-20T00:00:00.000Z'
         },
@@ -5621,10 +6112,18 @@ const Carpetas = [
             }
         },
         fecha: '2023-06-27T05:00:00.000Z',
-        fechas: ['2023-06-27T05:00:00.000Z'],
+        fechas: [
+            '2023-06-27T05:00:00.000Z'
+        ],
         grupo: 'Reintegra',
         id: 71992491,
-        idProcesos: [51499790, [51499790, 0]],
+        idProcesos: [
+            51499790,
+            [
+                51499790,
+                0
+            ]
+        ],
         nombre: 'MARIO DE',
         numero: 352,
         tipoProceso: 'SINGULAR'
@@ -5648,7 +6147,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [2290098960],
+            obligacion: [
+                2290098960
+            ],
             radicado: '2017-1208',
             vencimientoPagare: '2018-10-08T00:00:00.000Z'
         },
@@ -5664,10 +6165,18 @@ const Carpetas = [
             }
         },
         fecha: '2023-01-31T05:00:00.000Z',
-        fechas: ['2023-01-31T05:00:00.000Z'],
+        fechas: [
+            '2023-01-31T05:00:00.000Z'
+        ],
         grupo: 'Reintegra',
         id: 900336193,
-        idProcesos: [50817380, [50817380, 0]],
+        idProcesos: [
+            50817380,
+            [
+                50817380,
+                0
+            ]
+        ],
         nombre: 'INVERSION undefined',
         numero: 369,
         tipoProceso: 'SINGULAR'
@@ -5718,7 +6227,12 @@ const Carpetas = [
         ],
         grupo: 'Reintegra',
         id: 79533771,
-        idProcesos: [[52160520, 112967583]],
+        idProcesos: [
+            [
+                52160520,
+                112967583
+            ]
+        ],
         nombre: 'JOSE RAMON',
         numero: 541,
         tipoProceso: 'SINGULAR'
@@ -5739,7 +6253,9 @@ const Carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-03-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [2530444],
+            obligacion: [
+                2530444
+            ],
             radicado: '2017 - 00884',
             vencimientoPagare: '2020-05-04T00:00:00.000Z'
         },
@@ -5756,10 +6272,18 @@ const Carpetas = [
             }
         },
         fecha: '2023-07-18T05:00:00.000Z',
-        fechas: ['2023-07-18T05:00:00.000Z'],
+        fechas: [
+            '2023-07-18T05:00:00.000Z'
+        ],
         grupo: 'Bancolombia',
         id: 1077969975,
-        idProcesos: [50468620, [50468620, 113956611]],
+        idProcesos: [
+            50468620,
+            [
+                50468620,
+                113956611
+            ]
+        ],
         nombre: 'YESID undefined',
         numero: 16,
         tipoProceso: 'PRENDARIO'
@@ -5785,7 +6309,9 @@ const Carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-del-circuito-de-bogota'
                 }
             ],
-            obligacion: [12705806],
+            obligacion: [
+                12705806
+            ],
             radicado: '2017 - 00335',
             vencimientoPagare: '2020-05-10T00:00:00.000Z'
         },
@@ -5802,10 +6328,17 @@ const Carpetas = [
             }
         },
         fecha: '2023-03-10T05:00:00.000Z',
-        fechas: ['2023-03-10T05:00:00.000Z'],
+        fechas: [
+            '2023-03-10T05:00:00.000Z'
+        ],
         grupo: 'Reintegra',
         id: 3197274,
-        idProcesos: [[0, 1805257424]],
+        idProcesos: [
+            [
+                0,
+                1805257424
+            ]
+        ],
         nombre: 'OMAR DARIO',
         numero: 25,
         tipoProceso: 'PRENDARIO'
@@ -5825,7 +6358,9 @@ const Carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [300093705],
+            obligacion: [
+                300093705
+            ],
             radicado: '2017 - 01520',
             vencimientoPagare: '2020-11-27T00:00:00.000Z'
         },
@@ -5841,10 +6376,18 @@ const Carpetas = [
             }
         },
         fecha: '2022-09-02T05:00:00.000Z',
-        fechas: ['2022-09-02T05:00:00.000Z'],
+        fechas: [
+            '2022-09-02T05:00:00.000Z'
+        ],
         grupo: 'Reintegra',
         id: 74338870,
-        idProcesos: [109959053, [0, 109959053]],
+        idProcesos: [
+            109959053,
+            [
+                0,
+                109959053
+            ]
+        ],
         nombre: 'MILCIADES undefined',
         numero: 125,
         tipoProceso: 'SINGULAR'
@@ -5884,10 +6427,18 @@ const Carpetas = [
             }
         },
         fecha: '2023-06-22T05:00:00.000Z',
-        fechas: ['2023-06-22T05:00:00.000Z'],
+        fechas: [
+            '2023-06-22T05:00:00.000Z'
+        ],
         grupo: 'Reintegra',
         id: 343334,
-        idProcesos: [51006610, [51006610, 0]],
+        idProcesos: [
+            51006610,
+            [
+                51006610,
+                0
+            ]
+        ],
         nombre: 'JOSE ANTONIO',
         numero: 210,
         tipoProceso: 'SINGULAR'
@@ -5910,7 +6461,10 @@ const Carpetas = [
                     tipo: 'Civil del Circuito de Ejecucion'
                 }
             ],
-            obligacion: [182540, 'AUDIOPRESTAMO'],
+            obligacion: [
+                182540,
+                'AUDIOPRESTAMO'
+            ],
             radicado: '2017 - 00453',
             vencimientoPagare: null
         },
@@ -5934,7 +6488,13 @@ const Carpetas = [
         ],
         grupo: 'LiosJuridicos',
         id: 52328942,
-        idProcesos: [51315290, [51315290, 57718874]],
+        idProcesos: [
+            51315290,
+            [
+                51315290,
+                57718874
+            ]
+        ],
         nombre: 'DIANA VANESSA',
         numero: 217,
         tipoProceso: 'HIPOTECARIO'
@@ -5982,7 +6542,13 @@ const Carpetas = [
         ],
         grupo: 'Bancolombia',
         id: 52883958,
-        idProcesos: [51816100, [51816100, 135801811]],
+        idProcesos: [
+            51816100,
+            [
+                51816100,
+                135801811
+            ]
+        ],
         nombre: 'LEIDY YANETH',
         numero: 463,
         tipoProceso: 'SINGULAR'
@@ -6004,7 +6570,10 @@ const Carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [68928057402, 'AUDIOPRESTAMO'],
+            obligacion: [
+                68928057402,
+                'AUDIOPRESTAMO'
+            ],
             radicado: '2018 - 00454',
             vencimientoPagare: '2020-05-27T00:00:00.000Z'
         },
@@ -6019,11 +6588,19 @@ const Carpetas = [
             }
         },
         fecha: '2023-04-10T05:00:00.000Z',
-        fechas: ['2023-04-10T05:00:00.000Z'],
+        fechas: [
+            '2023-04-10T05:00:00.000Z'
+        ],
         grupo: 'Reintegra',
         id: null,
         idProceso: 81649171,
-        idProcesos: [51154840, [51154840, 0]],
+        idProcesos: [
+            51154840,
+            [
+                51154840,
+                0
+            ]
+        ],
         llaveProceso: '11001400300620180045400',
         nombre: 'SMARTITECH undefined',
         numero: 500,

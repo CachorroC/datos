@@ -1,18 +1,9 @@
 "use strict";
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.deleteTerminados = exports.carpetasCollection = void 0;
 const mongodb_1 = require("mongodb");
 const uri = 'mongodb+srv://cachorro_cami:Tengo1amo@cluster0.ffbyjzl.mongodb.net/?retryWrites=true&w=majority';
-const carpetasCollection = () => __awaiter(void 0, void 0, void 0, function* () {
+const carpetasCollection = async () => {
     const client = new mongodb_1.MongoClient(uri);
     if (!client) {
         throw new Error('no hay cliente mongólico');
@@ -20,16 +11,14 @@ const carpetasCollection = () => __awaiter(void 0, void 0, void 0, function* () 
     const db = client.db('RyS');
     const carpetas = db.collection('Carpetas');
     return carpetas;
-});
+};
 exports.carpetasCollection = carpetasCollection;
-function deleteTerminados() {
-    return __awaiter(this, void 0, void 0, function* () {
-        const collection = yield (0, exports.carpetasCollection)();
-        const deleteTerminadoCarpetas = yield collection.deleteMany({
-            grupo: 'Terminados'
-        });
-        return deleteTerminadoCarpetas;
+async function deleteTerminados() {
+    const collection = await (0, exports.carpetasCollection)();
+    const deleteTerminadoCarpetas = await collection.deleteMany({
+        grupo: 'Terminados'
     });
+    return deleteTerminadoCarpetas;
 }
 exports.deleteTerminados = deleteTerminados;
 deleteTerminados().then((ff) => {

@@ -1,13 +1,4 @@
 "use strict";
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.carpetasCollection = void 0;
 const mongodb_1 = require("mongodb");
@@ -30,7 +21,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [2453698],
+            obligacion: [
+                2453698
+            ],
             radicado: '2017 - 00849',
             vencimientoPagare: '2020-04-26T00:00:00.000Z'
         },
@@ -49,7 +42,9 @@ const carpetas = [
         fecha: '2023-06-15T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 80073174,
-        idProceso: [51935790],
+        idProceso: [
+            51935790
+        ],
         llaveProceso: '11001400308520170084900',
         numero: 22,
         tipoProceso: 'PRENDARIO'
@@ -95,7 +90,9 @@ const carpetas = [
         fecha: '2023-04-27T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 1022940572,
-        idProceso: [114256610],
+        idProceso: [
+            114256610
+        ],
         llaveProceso: '11001400304320180038400',
         numero: 32,
         tipoProceso: 'SINGULAR'
@@ -141,7 +138,9 @@ const carpetas = [
         fecha: '2023-04-13T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 7226201,
-        idProceso: [50477000],
+        idProceso: [
+            50477000
+        ],
         llaveProceso: '11001400302620170051100',
         numero: 35,
         tipoProceso: 'SINGULAR'
@@ -160,7 +159,9 @@ const carpetas = [
                     tipo: 'Promiscuo Municipal'
                 }
             ],
-            obligacion: [3840082880],
+            obligacion: [
+                3840082880
+            ],
             radicado: '2017 - 00108',
             vencimientoPagare: null
         },
@@ -179,7 +180,9 @@ const carpetas = [
         },
         grupo: 'Reintegra',
         id: 1072421639,
-        idProceso: [0],
+        idProceso: [
+            0
+        ],
         llaveProceso: '25035408900120170010800',
         numero: 42,
         tipoProceso: 'SINGULAR'
@@ -199,7 +202,8 @@ const carpetas = [
                 }
             ],
             obligacion: [
-                53037139326557900, 4099839496308260
+                53037139326557900,
+                4099839496308260
             ],
             radicado: '2017-00106',
             vencimientoPagare: null
@@ -218,7 +222,9 @@ const carpetas = [
         },
         grupo: 'Reintegra',
         id: 11251297,
-        idProceso: [86212261],
+        idProceso: [
+            86212261
+        ],
         llaveProceso: '25183400300120170010600',
         numero: 46,
         tipoProceso: 'PRENDARIO'
@@ -263,7 +269,9 @@ const carpetas = [
         fecha: '2023-06-26T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 52129551,
-        idProceso: [50521190],
+        idProceso: [
+            50521190
+        ],
         llaveProceso: '11001400300620170030200',
         numero: 47,
         tipoProceso: 'SINGULAR'
@@ -309,7 +317,9 @@ const carpetas = [
         fecha: '2023-06-23T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 14273737,
-        idProceso: [50517060],
+        idProceso: [
+            50517060
+        ],
         llaveProceso: '11001400304220170076000',
         numero: 58,
         tipoProceso: 'SINGULAR'
@@ -327,7 +337,9 @@ const carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [125348220],
+            obligacion: [
+                125348220
+            ],
             radicado: '2017 - 00557',
             vencimientoPagare: '2017-10-22T00:00:00.000Z'
         },
@@ -347,7 +359,9 @@ const carpetas = [
         fecha: '2018-02-22T05:00:00.000Z',
         grupo: 'Insolvencia',
         id: 79891952,
-        idProceso: [50517510],
+        idProceso: [
+            50517510
+        ],
         llaveProceso: '11001400302920170055700',
         numero: 64,
         tipoProceso: 'PRENDARIO'
@@ -371,7 +385,8 @@ const carpetas = [
                 }
             ],
             obligacion: [
-                377815178176828, 53037234659826290
+                377815178176828,
+                53037234659826290
             ],
             radicado: '2017-00800',
             vencimientoPagare: '2019-11-05T00:00:00.000Z'
@@ -390,7 +405,9 @@ const carpetas = [
         },
         grupo: 'Reintegra',
         id: 79108747,
-        idProceso: [0],
+        idProceso: [
+            0
+        ],
         llaveProceso: '11001400303920170080000',
         numero: 84,
         tipoProceso: 'SINGULAR'
@@ -415,7 +432,9 @@ const carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-12-de-ejecucion-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [12330030],
+            obligacion: [
+                12330030
+            ],
             radicado: '2017 - 00836',
             vencimientoPagare: '2020-06-09T00:00:00.000Z'
         },
@@ -435,8 +454,13 @@ const carpetas = [
         fecha: '2023-07-24T05:00:00.000Z',
         grupo: 'Bancolombia',
         id: 1032432802,
-        idProceso: [50521480, 81728891],
-        idProcesos: [50521480],
+        idProceso: [
+            50521480,
+            81728891
+        ],
+        idProcesos: [
+            50521480
+        ],
         llaveProceso: '11001400303420170083600',
         numero: 90,
         tipoProceso: 'PRENDARIO'
@@ -482,8 +506,13 @@ const carpetas = [
         fecha: '2023-05-11T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 16831314,
-        idProceso: [51619370, 81869501],
-        idProcesos: [51619370],
+        idProceso: [
+            51619370,
+            81869501
+        ],
+        idProcesos: [
+            51619370
+        ],
         llaveProceso: '11001400308220170068000',
         numero: 103,
         tipoProceso: 'SINGULAR'
@@ -506,7 +535,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [12515504],
+            obligacion: [
+                12515504
+            ],
             radicado: '2017 - 00483',
             vencimientoPagare: '2018-08-28T00:00:00.000Z'
         },
@@ -525,7 +556,9 @@ const carpetas = [
         fecha: '2023-02-27T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 501492,
-        idProceso: [50514310],
+        idProceso: [
+            50514310
+        ],
         llaveProceso: '11001400305920170048300',
         numero: 106,
         tipoProceso: 'PRENDARIO'
@@ -571,7 +604,9 @@ const carpetas = [
         fecha: '2023-06-30T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 79558732,
-        idProceso: [28937944],
+        idProceso: [
+            28937944
+        ],
         llaveProceso: '11001310302520170073600',
         numero: 108,
         tipoProceso: 'PRENDARIO'
@@ -612,7 +647,9 @@ const carpetas = [
         fecha: '2023-07-10T05:00:00.000Z',
         grupo: 'LiosJuridicos',
         id: 79840930,
-        idProceso: [50688820],
+        idProceso: [
+            50688820
+        ],
         llaveProceso: '11001400303620170084100',
         numero: 154,
         tipoProceso: 'HIPOTECARIO'
@@ -656,7 +693,9 @@ const carpetas = [
         fecha: '2023-05-31T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 86057132,
-        idProceso: [51497380],
+        idProceso: [
+            51497380
+        ],
         llaveProceso: '11001400307620170063500',
         numero: 165,
         tipoProceso: 'SINGULAR'
@@ -681,7 +720,9 @@ const carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [136962],
+            obligacion: [
+                136962
+            ],
             radicado: '2017 - 00903',
             vencimientoPagare: '2026-03-10T00:00:00.000Z'
         },
@@ -700,7 +741,9 @@ const carpetas = [
         fecha: '2023-07-25T05:00:00.000Z',
         grupo: 'Bancolombia',
         id: 52189873,
-        idProceso: [112048180],
+        idProceso: [
+            112048180
+        ],
         llaveProceso: '11001400302520170090300',
         numero: 174,
         tipoProceso: 'HIPOTECARIO'
@@ -723,7 +766,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [5670085162],
+            obligacion: [
+                5670085162
+            ],
             radicado: '2017 - 01084',
             vencimientoPagare: '2019-11-02T00:00:00.000Z'
         },
@@ -742,7 +787,9 @@ const carpetas = [
         fecha: '2023-07-26T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 12254068,
-        idProceso: [50760030],
+        idProceso: [
+            50760030
+        ],
         llaveProceso: '11001400301120170108400',
         numero: 179,
         tipoProceso: 'SINGULAR'
@@ -767,7 +814,9 @@ const carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [2150091504],
+            obligacion: [
+                2150091504
+            ],
             radicado: '2017 - 01001',
             vencimientoPagare: '2019-11-03T00:00:00.000Z'
         },
@@ -787,7 +836,9 @@ const carpetas = [
         fecha: '2023-07-17T05:00:00.000Z',
         grupo: 'Bancolombia',
         id: 11185630,
-        idProceso: [50621670],
+        idProceso: [
+            50621670
+        ],
         llaveProceso: '11001400300120170100100',
         numero: 183,
         tipoProceso: 'SINGULAR'
@@ -806,7 +857,9 @@ const carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [8470081213],
+            obligacion: [
+                8470081213
+            ],
             radicado: '2017 - 00807',
             vencimientoPagare: '2021-12-15T00:00:00.000Z'
         },
@@ -825,8 +878,13 @@ const carpetas = [
         fecha: '2023-06-21T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 17650971,
-        idProceso: [50623380, 0],
-        idProcesos: [50623380],
+        idProceso: [
+            50623380,
+            0
+        ],
+        idProcesos: [
+            50623380
+        ],
         llaveProceso: '11001400302520170080700',
         numero: 184,
         tipoProceso: 'SINGULAR'
@@ -845,7 +903,8 @@ const carpetas = [
                 }
             ],
             obligacion: [
-                377816483778266, 4513080485378479
+                377816483778266,
+                4513080485378479
             ],
             radicado: '2017 - 01142',
             vencimientoPagare: null
@@ -866,7 +925,9 @@ const carpetas = [
         fecha: '2023-06-05T05:00:00.000Z',
         grupo: 'Insolvencia',
         id: 51733931,
-        idProceso: [128433271],
+        idProceso: [
+            128433271
+        ],
         llaveProceso: '11001400307920170114200',
         numero: 201,
         tipoProceso: 'SINGULAR'
@@ -885,7 +946,9 @@ const carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [12743098],
+            obligacion: [
+                12743098
+            ],
             radicado: '2017 - 01063',
             vencimientoPagare: '2020-08-23T00:00:00.000Z'
         },
@@ -904,7 +967,9 @@ const carpetas = [
         fecha: '2023-03-07T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 46679232,
-        idProceso: [110120573],
+        idProceso: [
+            110120573
+        ],
         llaveProceso: '11001400304520170106300',
         numero: 204,
         tipoProceso: 'PRENDARIO'
@@ -927,7 +992,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [430103841],
+            obligacion: [
+                430103841
+            ],
             radicado: '2017 - 00971',
             vencimientoPagare: '2021-09-09T00:00:00.000Z'
         },
@@ -946,7 +1013,9 @@ const carpetas = [
         fecha: '2022-03-17T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 51856244,
-        idProceso: [50669130],
+        idProceso: [
+            50669130
+        ],
         llaveProceso: '11001400301220170097100',
         numero: 205,
         tipoProceso: 'SINGULAR'
@@ -965,7 +1034,9 @@ const carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [12725973],
+            obligacion: [
+                12725973
+            ],
             radicado: '2017 - 00265',
             vencimientoPagare: '2020-08-15T00:00:00.000Z'
         },
@@ -983,7 +1054,9 @@ const carpetas = [
         },
         grupo: 'Reintegra',
         id: 80357801,
-        idProceso: [86374941],
+        idProceso: [
+            86374941
+        ],
         llaveProceso: '25754400300220170026500',
         numero: 208,
         tipoProceso: 'PRENDARIO'
@@ -1029,7 +1102,9 @@ const carpetas = [
         fecha: '2023-07-14T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 79852094,
-        idProceso: [50672820],
+        idProceso: [
+            50672820
+        ],
         llaveProceso: '11001400306420170119100',
         numero: 209,
         tipoProceso: 'SINGULAR'
@@ -1075,7 +1150,9 @@ const carpetas = [
         fecha: '2023-08-03T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 17174720,
-        idProceso: [86524020],
+        idProceso: [
+            86524020
+        ],
         llaveProceso: '11001400305520170086000',
         numero: 223,
         tipoProceso: 'SINGULAR'
@@ -1121,7 +1198,9 @@ const carpetas = [
         fecha: '2022-06-16T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 11313124,
-        idProceso: [50685700],
+        idProceso: [
+            50685700
+        ],
         llaveProceso: '11001400302820170084900',
         numero: 233,
         tipoProceso: 'PRENDARIO'
@@ -1146,7 +1225,9 @@ const carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-06-de-ejecucion-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [148931],
+            obligacion: [
+                148931
+            ],
             radicado: '2017 - 01134',
             vencimientoPagare: '2017-02-14T00:00:00.000Z'
         },
@@ -1165,7 +1246,9 @@ const carpetas = [
         fecha: '2023-07-27T05:00:00.000Z',
         grupo: 'Bancolombia',
         id: 79853115,
-        idProceso: [50716620],
+        idProceso: [
+            50716620
+        ],
         llaveProceso: '11001400300820170113400',
         numero: 235,
         tipoProceso: 'HIPOTECARIO'
@@ -1183,7 +1266,9 @@ const carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [20990135265],
+            obligacion: [
+                20990135265
+            ],
             radicado: '2017 - 01164',
             vencimientoPagare: null
         },
@@ -1202,7 +1287,9 @@ const carpetas = [
         fecha: '2023-06-20T05:00:00.000Z',
         grupo: 'LiosJuridicos',
         id: 53131901,
-        idProceso: [9877803],
+        idProceso: [
+            9877803
+        ],
         llaveProceso: '11001400304520170116400',
         numero: 239,
         tipoProceso: 'HIPOTECARIO'
@@ -1221,7 +1308,9 @@ const carpetas = [
                     tipo: 'Civil Municipal // Civil Municipal'
                 }
             ],
-            obligacion: [12577419],
+            obligacion: [
+                12577419
+            ],
             radicado: '2017 - 00845',
             vencimientoPagare: '2020-08-11T00:00:00.000Z'
         },
@@ -1240,7 +1329,9 @@ const carpetas = [
         fecha: '2023-07-17T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 300388244,
-        idProceso: [50675410],
+        idProceso: [
+            50675410
+        ],
         llaveProceso: '11001400306920170084500',
         numero: 243,
         tipoProceso: 'PRENDARIO'
@@ -1286,7 +1377,9 @@ const carpetas = [
         fecha: '2023-05-16T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 19069228,
-        idProceso: [50687430],
+        idProceso: [
+            50687430
+        ],
         llaveProceso: '11001400301620170087500',
         numero: 249,
         tipoProceso: 'SINGULAR'
@@ -1309,7 +1402,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [2330087057],
+            obligacion: [
+                2330087057
+            ],
             radicado: '2017 - 01058',
             vencimientoPagare: '2020-12-07T00:00:00.000Z'
         },
@@ -1328,7 +1423,9 @@ const carpetas = [
         fecha: '2022-07-21T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 1069745324,
-        idProceso: [112758450],
+        idProceso: [
+            112758450
+        ],
         llaveProceso: '11001400300820170105800',
         numero: 279,
         tipoProceso: 'SINGULAR'
@@ -1351,7 +1448,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [8920084662],
+            obligacion: [
+                8920084662
+            ],
             radicado: '2017 - 01279',
             vencimientoPagare: null
         },
@@ -1371,7 +1470,9 @@ const carpetas = [
         fecha: '2022-01-26T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 19447966,
-        idProceso: [50875780],
+        idProceso: [
+            50875780
+        ],
         llaveProceso: '11001400300920170127900',
         numero: 280,
         tipoProceso: 'SINGULAR'
@@ -1396,7 +1497,9 @@ const carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [174366],
+            obligacion: [
+                174366
+            ],
             radicado: '2017 - 01394',
             vencimientoPagare: '2024-05-05T05:00:00.000Z'
         },
@@ -1416,7 +1519,9 @@ const carpetas = [
         fecha: '2021-11-08T05:00:00.000Z',
         grupo: 'Bancolombia',
         id: 19255260,
-        idProceso: [50777890],
+        idProceso: [
+            50777890
+        ],
         llaveProceso: '11001400301520170139400',
         numero: 282,
         tipoProceso: 'HIPOTECARIO'
@@ -1435,7 +1540,9 @@ const carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [12711612],
+            obligacion: [
+                12711612
+            ],
             radicado: '2017 - 01195',
             vencimientoPagare: '2020-09-06T00:00:00.000Z'
         },
@@ -1454,8 +1561,13 @@ const carpetas = [
         fecha: '2023-07-10T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 80259791,
-        idProceso: [50721470, 127748331],
-        idProcesos: [50721470],
+        idProceso: [
+            50721470,
+            127748331
+        ],
+        idProcesos: [
+            50721470
+        ],
         llaveProceso: '11001400301720170119500',
         numero: 286,
         tipoProceso: 'PRENDARIO'
@@ -1473,7 +1585,9 @@ const carpetas = [
                     tipo: 'Desgloce'
                 }
             ],
-            obligacion: [12592504],
+            obligacion: [
+                12592504
+            ],
             radicado: '2017 - 00157',
             vencimientoPagare: '2020-09-29T00:00:00.000Z'
         },
@@ -1493,7 +1607,9 @@ const carpetas = [
         fecha: '2022-08-11T05:00:00.000Z',
         grupo: 'Insolvencia',
         id: 79861754,
-        idProceso: [50242270],
+        idProceso: [
+            50242270
+        ],
         llaveProceso: '11001400301620170015700',
         numero: 287,
         tipoProceso: 'PRENDARIO'
@@ -1516,7 +1632,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [5306940432740470],
+            obligacion: [
+                5306940432740470
+            ],
             radicado: '2017 - 01522',
             vencimientoPagare: '2020-03-22T00:00:00.000Z'
         },
@@ -1536,7 +1654,9 @@ const carpetas = [
         fecha: '2022-09-16T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 12229243,
-        idProceso: [50711570],
+        idProceso: [
+            50711570
+        ],
         llaveProceso: '11001400301820170152200',
         numero: 289,
         tipoProceso: 'SINGULAR'
@@ -1555,7 +1675,9 @@ const carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [12389160],
+            obligacion: [
+                12389160
+            ],
             radicado: '2017 - 01113',
             vencimientoPagare: '2020-09-12T00:00:00.000Z'
         },
@@ -1574,7 +1696,9 @@ const carpetas = [
         fecha: '2023-07-19T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 36536419,
-        idProceso: [110568033],
+        idProceso: [
+            110568033
+        ],
         llaveProceso: '11001400305120170111300',
         numero: 295,
         tipoProceso: 'PRENDARIO'
@@ -1593,7 +1717,10 @@ const carpetas = [
                     tipo: 'Promiscuo Municipal'
                 }
             ],
-            obligacion: [5450082766, 5450083252],
+            obligacion: [
+                5450082766,
+                5450083252
+            ],
             radicado: '2017 - 00095',
             vencimientoPagare: '2019-10-07T05:00:00.000Z'
         },
@@ -1611,7 +1738,9 @@ const carpetas = [
         },
         grupo: 'Reintegra',
         id: 6006685,
-        idProceso: [0],
+        idProceso: [
+            0
+        ],
         llaveProceso: '15842408900120170009500',
         numero: 297,
         tipoProceso: 'SINGULAR'
@@ -1659,8 +1788,13 @@ const carpetas = [
         fecha: '2023-05-15T05:00:00.000Z',
         grupo: 'Bancolombia',
         id: 79388145,
-        idProceso: [50769660, 0],
-        idProcesos: [50769660],
+        idProceso: [
+            50769660,
+            0
+        ],
+        idProcesos: [
+            50769660
+        ],
         llaveProceso: '11001400302120170153200',
         numero: 310,
         tipoProceso: 'SINGULAR'
@@ -1679,7 +1813,9 @@ const carpetas = [
                     tipo: 'Promiscuo Municipal'
                 }
             ],
-            obligacion: [7910080245],
+            obligacion: [
+                7910080245
+            ],
             radicado: '2017 - 00096',
             vencimientoPagare: '2020-04-01T00:00:00.000Z'
         },
@@ -1697,7 +1833,9 @@ const carpetas = [
         },
         grupo: 'Reintegra',
         id: 20427976,
-        idProceso: [0],
+        idProceso: [
+            0
+        ],
         llaveProceso: '25148408900120170009600',
         numero: 338,
         tipoProceso: 'SINGULAR'
@@ -1743,7 +1881,9 @@ const carpetas = [
         fecha: '2023-05-17T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 79505982,
-        idProceso: [50763460],
+        idProceso: [
+            50763460
+        ],
         llaveProceso: '11001400303320170147400',
         numero: 344,
         tipoProceso: 'SINGULAR'
@@ -1766,7 +1906,10 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [6260082762, 377813367146983],
+            obligacion: [
+                6260082762,
+                377813367146983
+            ],
             radicado: '2017 - 01309',
             vencimientoPagare: null
         },
@@ -1786,7 +1929,9 @@ const carpetas = [
         fecha: '2023-08-01T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 41688661,
-        idProceso: [50764880],
+        idProceso: [
+            50764880
+        ],
         llaveProceso: '11001400300120170130900',
         numero: 348,
         tipoProceso: 'SINGULAR'
@@ -1809,7 +1954,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [4280023383],
+            obligacion: [
+                4280023383
+            ],
             radicado: '2017 - 01016',
             vencimientoPagare: '2019-05-20T00:00:00.000Z'
         },
@@ -1828,8 +1975,13 @@ const carpetas = [
         fecha: '2023-06-27T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 71992491,
-        idProceso: [51499790, 0],
-        idProcesos: [51499790],
+        idProceso: [
+            51499790,
+            0
+        ],
+        idProcesos: [
+            51499790
+        ],
         llaveProceso: '11001400307620170101600',
         numero: 352,
         tipoProceso: 'SINGULAR'
@@ -1852,7 +2004,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [3880082626],
+            obligacion: [
+                3880082626
+            ],
             radicado: '2017 - 00975',
             vencimientoPagare: '2019-02-26T00:00:00.000Z'
         },
@@ -1872,7 +2026,9 @@ const carpetas = [
         fecha: '2023-05-04T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 1116782267,
-        idProceso: [51465090],
+        idProceso: [
+            51465090
+        ],
         llaveProceso: '11001400307820170097500',
         numero: 358,
         tipoProceso: 'SINGULAR'
@@ -1917,7 +2073,9 @@ const carpetas = [
         fecha: '2022-03-28T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 53064513,
-        idProceso: [50782960],
+        idProceso: [
+            50782960
+        ],
         llaveProceso: '11001400301720170133600',
         numero: 361,
         tipoProceso: 'SINGULAR'
@@ -1940,7 +2098,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [2290098960],
+            obligacion: [
+                2290098960
+            ],
             radicado: '2017-1208',
             vencimientoPagare: '2018-10-08T00:00:00.000Z'
         },
@@ -1958,8 +2118,13 @@ const carpetas = [
         fecha: '2023-01-31T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 900336193,
-        idProceso: [50817380, 0],
-        idProcesos: [50817380],
+        idProceso: [
+            50817380,
+            0
+        ],
+        idProcesos: [
+            50817380
+        ],
         llaveProceso: '11001400302220170120800',
         numero: 369,
         tipoProceso: 'SINGULAR'
@@ -1982,7 +2147,10 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [2500084774, 'AUDIOPRESTAMO'],
+            obligacion: [
+                2500084774,
+                'AUDIOPRESTAMO'
+            ],
             radicado: '2017 - 01266',
             vencimientoPagare: '2020-07-21T00:00:00.000Z'
         },
@@ -2001,7 +2169,9 @@ const carpetas = [
         fecha: '2022-02-04T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 71603563,
-        idProceso: [50859050],
+        idProceso: [
+            50859050
+        ],
         llaveProceso: '11001400300420170126600',
         numero: 390,
         tipoProceso: 'SINGULAR'
@@ -2020,7 +2190,10 @@ const carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [3320087751, 3320088190],
+            obligacion: [
+                3320087751,
+                3320088190
+            ],
             radicado: '2018 - 00131',
             vencimientoPagare: '2020-08-22T00:00:00.000Z'
         },
@@ -2039,7 +2212,9 @@ const carpetas = [
         },
         grupo: 'Reintegra',
         id: 79712791,
-        idProceso: [0],
+        idProceso: [
+            0
+        ],
         llaveProceso: '25899400300220170013100',
         numero: 392,
         tipoProceso: 'SINGULAR'
@@ -2064,7 +2239,9 @@ const carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-13-de-ejecucion-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [87823],
+            obligacion: [
+                87823
+            ],
             radicado: '2018 - 00236',
             vencimientoPagare: null
         },
@@ -2083,7 +2260,9 @@ const carpetas = [
         fecha: '2023-06-15T05:00:00.000Z',
         grupo: 'Bancolombia',
         id: 79396995,
-        idProceso: [51029180],
+        idProceso: [
+            51029180
+        ],
         llaveProceso: '11001400302120180023600',
         numero: 405,
         tipoProceso: 'HIPOTECARIO'
@@ -2106,7 +2285,10 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [5740084511, 6390082501],
+            obligacion: [
+                5740084511,
+                6390082501
+            ],
             radicado: '2017 - 01250',
             vencimientoPagare: null
         },
@@ -2126,7 +2308,9 @@ const carpetas = [
         fecha: '2022-03-10T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 19275068,
-        idProceso: [64793050],
+        idProceso: [
+            64793050
+        ],
         llaveProceso: '11001400307120170125000',
         numero: 417,
         tipoProceso: 'SINGULAR'
@@ -2172,7 +2356,9 @@ const carpetas = [
         fecha: '2023-06-30T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 52773230,
-        idProceso: [65701460],
+        idProceso: [
+            65701460
+        ],
         llaveProceso: '11001400306320170129000',
         numero: 420,
         tipoProceso: 'HMM PISO 1'
@@ -2195,7 +2381,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [1740087269],
+            obligacion: [
+                1740087269
+            ],
             radicado: '2018 - 00090',
             vencimientoPagare: '2020-07-03T05:00:00.000Z'
         },
@@ -2215,7 +2403,9 @@ const carpetas = [
         fecha: '2022-03-25T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 25126734,
-        idProceso: [50989890],
+        idProceso: [
+            50989890
+        ],
         llaveProceso: '11001400305920180009000',
         numero: 452,
         tipoProceso: 'SINGULAR'
@@ -2238,7 +2428,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: ['AUDIOPRESTAMO'],
+            obligacion: [
+                'AUDIOPRESTAMO'
+            ],
             radicado: '2018 - 00111',
             vencimientoPagare: null
         },
@@ -2258,7 +2450,9 @@ const carpetas = [
         fecha: '2023-02-02T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 52271112,
-        idProceso: [50990920],
+        idProceso: [
+            50990920
+        ],
         llaveProceso: '11001400303720180011100',
         numero: 458,
         tipoProceso: 'SINGULAR'
@@ -2306,7 +2500,9 @@ const carpetas = [
         fecha: '2023-08-02T05:00:00.000Z',
         grupo: 'Bancolombia',
         id: 51987570,
-        idProceso: [87350810],
+        idProceso: [
+            87350810
+        ],
         llaveProceso: '11001418900820180078500',
         numero: 491,
         tipoProceso: 'SINGULAR'
@@ -2347,7 +2543,9 @@ const carpetas = [
         },
         grupo: 'Bancolombia',
         id: 3208569,
-        idProceso: [0],
+        idProceso: [
+            0
+        ],
         llaveProceso: '11001418901320190070800',
         numero: 499,
         tipoProceso: 'HIPOTECARIO'
@@ -2365,7 +2563,10 @@ const carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [7910080591, 4099830244266410],
+            obligacion: [
+                7910080591,
+                4099830244266410
+            ],
             radicado: '2019 - 00179',
             vencimientoPagare: '2022-10-03T05:00:00.000Z'
         },
@@ -2425,7 +2626,9 @@ const carpetas = [
         fecha: '2023-03-13T05:00:00.000Z',
         grupo: 'Bancolombia',
         id: 51813018,
-        idProceso: [128164881],
+        idProceso: [
+            128164881
+        ],
         llaveProceso: '11001400304220200053500',
         numero: 531,
         tipoProceso: 'SINGULAR'
@@ -2445,7 +2648,10 @@ const carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-04-municipal-de-pequenas-causas-y-competencia-multiple-de-soacha'
                 }
             ],
-            obligacion: [1680097436, 148653],
+            obligacion: [
+                1680097436,
+                148653
+            ],
             radicado: '2018 - 00060',
             vencimientoPagare: null
         },
@@ -2464,7 +2670,9 @@ const carpetas = [
         },
         grupo: 'Bancolombia',
         id: 79522009,
-        idProceso: [0],
+        idProceso: [
+            0
+        ],
         llaveProceso: '2575440030042018000600',
         numero: 533,
         tipoProceso: 'HIPOTECARIO'
@@ -2484,7 +2692,8 @@ const carpetas = [
                 }
             ],
             obligacion: [
-                377814085773793, 4513070445120640
+                377814085773793,
+                4513070445120640
             ],
             radicado: '2020 - 00289',
             vencimientoPagare: null
@@ -2504,7 +2713,9 @@ const carpetas = [
         },
         grupo: 'Reintegra',
         id: 11337530,
-        idProceso: [0],
+        idProceso: [
+            0
+        ],
         llaveProceso: '2589940010020200028900',
         numero: 534,
         tipoProceso: 'SINGULAR'
@@ -2527,7 +2738,10 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [2270085292, 3778131949466660],
+            obligacion: [
+                2270085292,
+                3778131949466660
+            ],
             radicado: '2018 - 00850',
             vencimientoPagare: '2022-02-02T00:00:00.000Z'
         },
@@ -2547,7 +2761,9 @@ const carpetas = [
         fecha: '2023-07-10T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 52155023,
-        idProceso: [89137980],
+        idProceso: [
+            89137980
+        ],
         llaveProceso: '11001400305120180085000',
         numero: 537,
         tipoProceso: 'SINGULAR'
@@ -2570,7 +2786,10 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [2070086628, 4594250056606570],
+            obligacion: [
+                2070086628,
+                4594250056606570
+            ],
             radicado: '2018 - 00818',
             vencimientoPagare: '2021-04-10T00:00:00.000Z'
         },
@@ -2590,7 +2809,9 @@ const carpetas = [
         fecha: '2023-08-03T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 51937267,
-        idProceso: [51306830],
+        idProceso: [
+            51306830
+        ],
         llaveProceso: '11001400303620180081800',
         numero: 539,
         tipoProceso: 'SINGULAR'
@@ -2613,7 +2834,10 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [1980096337, 6700083464],
+            obligacion: [
+                1980096337,
+                6700083464
+            ],
             radicado: '2018 - 00929',
             vencimientoPagare: null
         },
@@ -2633,7 +2857,9 @@ const carpetas = [
         fecha: '2023-06-27T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 3242760,
-        idProceso: [51341610],
+        idProceso: [
+            51341610
+        ],
         llaveProceso: '11001400301420180092900',
         numero: 540,
         tipoProceso: 'SINGULAR'
@@ -2679,7 +2905,10 @@ const carpetas = [
         fecha: '2022-03-24T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 79533771,
-        idProceso: [52160520, 112967583],
+        idProceso: [
+            52160520,
+            112967583
+        ],
         llaveProceso: '11001400308220180096400',
         numero: 541,
         tipoProceso: 'SINGULAR'
@@ -2725,7 +2954,9 @@ const carpetas = [
         fecha: '2023-07-05T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 53106069,
-        idProceso: [71079290],
+        idProceso: [
+            71079290
+        ],
         llaveProceso: '11001418901220180064400',
         numero: 542,
         tipoProceso: 'SINGULAR'
@@ -2748,7 +2979,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [12541235],
+            obligacion: [
+                12541235
+            ],
             radicado: '2017 - 01002',
             vencimientoPagare: '2020-10-04T00:00:00.000Z'
         },
@@ -2768,7 +3001,9 @@ const carpetas = [
         fecha: '2023-03-14T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 1116782267,
-        idProceso: [50780430],
+        idProceso: [
+            50780430
+        ],
         llaveProceso: '11001400300220170100200',
         numero: 546,
         tipoProceso: 'PRENDARIO'
@@ -2786,7 +3021,9 @@ const carpetas = [
                     tipo: ' Pequeñas Causas y Competencias Multiples'
                 }
             ],
-            obligacion: [130089828],
+            obligacion: [
+                130089828
+            ],
             radicado: '2023 - 01088',
             vencimientoPagare: '2025-02-25T00:00:00.000Z'
         },
@@ -2816,7 +3053,9 @@ const carpetas = [
             departamento: 'CUNDINAMARCA',
             entregaGarantiasAbogado: '2023-07-26T00:00:00.000Z',
             juzgado: [],
-            obligacion: [1920089307],
+            obligacion: [
+                1920089307
+            ],
             vencimientoPagare: '2026-03-04T00:00:00.000Z'
         },
         deudor: {
@@ -2939,7 +3178,9 @@ const carpetas = [
             departamento: 'CUNDINAMARCA',
             entregaGarantiasAbogado: '2023-07-26T00:00:00.000Z',
             juzgado: [],
-            obligacion: [1080103378],
+            obligacion: [
+                1080103378
+            ],
             vencimientoPagare: '2026-03-02T00:00:00.000Z'
         },
         deudor: {
@@ -3032,7 +3273,9 @@ const carpetas = [
             departamento: 'CUNDINAMARCA',
             entregaGarantiasAbogado: '2023-07-26T00:00:00.000Z',
             juzgado: [],
-            obligacion: [null],
+            obligacion: [
+                null
+            ],
             vencimientoPagare: null
         },
         deudor: {
@@ -3059,7 +3302,9 @@ const carpetas = [
             departamento: 'CUNDINAMARCA',
             entregaGarantiasAbogado: '2023-07-26T00:00:00.000Z',
             juzgado: [],
-            obligacion: [null],
+            obligacion: [
+                null
+            ],
             vencimientoPagare: null
         },
         deudor: {
@@ -3143,7 +3388,9 @@ const carpetas = [
         fecha: '2023-07-10T05:00:00.000Z',
         grupo: 'LiosJuridicos',
         id: 80743147,
-        idProceso: [50508570],
+        idProceso: [
+            50508570
+        ],
         llaveProceso: '11001400303720170083900',
         numero: 11,
         tipoProceso: 'PRENDARIO'
@@ -3163,7 +3410,9 @@ const carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-03-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [2530444],
+            obligacion: [
+                2530444
+            ],
             radicado: '2017 - 00884',
             vencimientoPagare: '2020-05-04T00:00:00.000Z'
         },
@@ -3182,8 +3431,13 @@ const carpetas = [
         fecha: '2023-07-18T05:00:00.000Z',
         grupo: 'Bancolombia',
         id: 1077969975,
-        idProceso: [50468620, 113956611],
-        idProcesos: [50468620],
+        idProceso: [
+            50468620,
+            113956611
+        ],
+        idProcesos: [
+            50468620
+        ],
         llaveProceso: '11001400300320170088400',
         numero: 16,
         tipoProceso: 'PRENDARIO'
@@ -3208,7 +3462,9 @@ const carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-del-circuito-de-bogota'
                 }
             ],
-            obligacion: [12705806],
+            obligacion: [
+                12705806
+            ],
             radicado: '2017 - 00335',
             vencimientoPagare: '2020-05-10T00:00:00.000Z'
         },
@@ -3227,7 +3483,10 @@ const carpetas = [
         fecha: '2023-03-10T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 3197274,
-        idProceso: [0, 1805257424],
+        idProceso: [
+            0,
+            1805257424
+        ],
         llaveProceso: '11001310301120170033500',
         numero: 25,
         tipoProceso: 'PRENDARIO'
@@ -3245,7 +3504,9 @@ const carpetas = [
                     tipo: 'Civil del Circuito'
                 }
             ],
-            obligacion: [7910080321],
+            obligacion: [
+                7910080321
+            ],
             radicado: '2017 - 00195',
             vencimientoPagare: '2017-04-11T00:00:00.000Z'
         },
@@ -3262,7 +3523,9 @@ const carpetas = [
         },
         grupo: 'Insolvencia',
         id: 79004127,
-        idProceso: [0],
+        idProceso: [
+            0
+        ],
         llaveProceso: '25320310300120170019500',
         numero: 27,
         tipoProceso: 'HIPOTECARIO'
@@ -3285,7 +3548,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [4200023595],
+            obligacion: [
+                4200023595
+            ],
             radicado: '2017-00419',
             vencimientoPagare: '2019-08-12T00:00:00.000Z'
         },
@@ -3304,7 +3569,9 @@ const carpetas = [
         fecha: '2023-05-10T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 53008703,
-        idProceso: [50593100],
+        idProceso: [
+            50593100
+        ],
         llaveProceso: '11001400300620170041900',
         numero: 69,
         tipoProceso: 'SINGULAR'
@@ -3327,7 +3594,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [2250084171],
+            obligacion: [
+                2250084171
+            ],
             radicado: '2017-00567',
             vencimientoPagare: '2018-11-11T00:00:00.000Z'
         },
@@ -3346,7 +3615,9 @@ const carpetas = [
         fecha: '2023-05-29T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 1087781966,
-        idProceso: [111939890],
+        idProceso: [
+            111939890
+        ],
         llaveProceso: '11001400302220170056700',
         numero: 86,
         tipoProceso: 'SINGULAR'
@@ -3366,7 +3637,9 @@ const carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-001-promiscuo-municipal-de-el-colegio'
                 }
             ],
-            obligacion: [7300080586],
+            obligacion: [
+                7300080586
+            ],
             radicado: '2017-00239',
             vencimientoPagare: '2019-07-05T00:00:00.000Z'
         },
@@ -3384,7 +3657,9 @@ const carpetas = [
         },
         grupo: 'Bancolombia',
         id: 1070329396,
-        idProceso: [0],
+        idProceso: [
+            0
+        ],
         llaveProceso: '25245408900120170023900',
         numero: 102,
         tipoProceso: 'SINGULAR'
@@ -3407,7 +3682,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [420087224],
+            obligacion: [
+                420087224
+            ],
             radicado: '2017 - 00566',
             vencimientoPagare: '2019-01-21T00:00:00.000Z'
         },
@@ -3427,7 +3704,9 @@ const carpetas = [
         fecha: '2021-12-13T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 19386444,
-        idProceso: [50522530],
+        idProceso: [
+            50522530
+        ],
         llaveProceso: '11001400307020170056600',
         numero: 117,
         tipoProceso: 'SINGULAR'
@@ -3447,7 +3726,9 @@ const carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-03-municipal-de-pequenas-causas-y-competencia-multiple-de-soacha'
                 }
             ],
-            obligacion: [6240082776],
+            obligacion: [
+                6240082776
+            ],
             radicado: '2017 - 00755',
             vencimientoPagare: '2021-04-12T00:00:00.000Z'
         },
@@ -3463,7 +3744,9 @@ const carpetas = [
         },
         grupo: 'Bancolombia',
         id: 900212673,
-        idProceso: [0],
+        idProceso: [
+            0
+        ],
         llaveProceso: '25754418900320170075500',
         numero: 120,
         tipoProceso: 'SINGULAR'
@@ -3482,7 +3765,9 @@ const carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [300093705],
+            obligacion: [
+                300093705
+            ],
             radicado: '2017 - 01520',
             vencimientoPagare: '2020-11-27T00:00:00.000Z'
         },
@@ -3500,8 +3785,13 @@ const carpetas = [
         fecha: '2022-09-02T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 74338870,
-        idProceso: [0, 109959053],
-        idProcesos: [109959053],
+        idProceso: [
+            0,
+            109959053
+        ],
+        idProcesos: [
+            109959053
+        ],
         llaveProceso: '11001400304720170152000',
         numero: 125,
         tipoProceso: 'SINGULAR'
@@ -3524,7 +3814,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [6240082772],
+            obligacion: [
+                6240082772
+            ],
             radicado: '2017 - 00905',
             vencimientoPagare: '2019-09-30T00:00:00.000Z'
         },
@@ -3542,7 +3834,9 @@ const carpetas = [
         fecha: '2022-02-25T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 14255996,
-        idProceso: [50593640],
+        idProceso: [
+            50593640
+        ],
         llaveProceso: '11001400304520170090500',
         numero: 164,
         tipoProceso: 'SINGULAR'
@@ -3561,7 +3855,10 @@ const carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [12498762, 'audioprestamo'],
+            obligacion: [
+                12498762,
+                'audioprestamo'
+            ],
             radicado: '2017 - 01264',
             vencimientoPagare: '2020-03-15T00:00:00.000Z'
         },
@@ -3581,7 +3878,9 @@ const carpetas = [
         fecha: '2023-06-01T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 23553904,
-        idProceso: [50598770],
+        idProceso: [
+            50598770
+        ],
         llaveProceso: '11001400300320170126400',
         numero: 169,
         tipoProceso: 'PRENDARIO'
@@ -3600,7 +3899,9 @@ const carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [1680097051],
+            obligacion: [
+                1680097051
+            ],
             radicado: '2017 - 00412',
             vencimientoPagare: '2021-01-29T00:00:00.000Z'
         },
@@ -3618,7 +3919,9 @@ const carpetas = [
         },
         grupo: 'Reintegra',
         id: 24134505,
-        idProceso: [0],
+        idProceso: [
+            0
+        ],
         llaveProceso: '25175408900220170041200',
         numero: 186,
         tipoProceso: 'SINGULAR'
@@ -3641,7 +3944,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [1220084112],
+            obligacion: [
+                1220084112
+            ],
             radicado: '2017 - 01082',
             vencimientoPagare: '2020-11-30T00:00:00.000Z'
         },
@@ -3661,7 +3966,9 @@ const carpetas = [
         fecha: '2023-07-31T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 80231798,
-        idProceso: [51357750],
+        idProceso: [
+            51357750
+        ],
         llaveProceso: '11001400307920170108200',
         numero: 191,
         tipoProceso: 'SINGULAR'
@@ -3684,7 +3991,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [12750180],
+            obligacion: [
+                12750180
+            ],
             radicado: '2017 - 01750',
             vencimientoPagare: '2020-08-09T00:00:00.000Z'
         },
@@ -3703,7 +4012,9 @@ const carpetas = [
         },
         grupo: 'Reintegra',
         id: 52465691,
-        idProceso: [0],
+        idProceso: [
+            0
+        ],
         llaveProceso: '11001400302420170175000',
         numero: 193,
         tipoProceso: 'PRENDARIO'
@@ -3722,7 +4033,9 @@ const carpetas = [
                     tipo: 'Promiscuo Municipal'
                 }
             ],
-            obligacion: [12650694],
+            obligacion: [
+                12650694
+            ],
             radicado: '2017 - 00259',
             vencimientoPagare: '2020-08-16T00:00:00.000Z'
         },
@@ -3741,7 +4054,9 @@ const carpetas = [
         },
         grupo: 'Reintegra',
         id: 1106893308,
-        idProceso: [0],
+        idProceso: [
+            0
+        ],
         llaveProceso: '73449408900220170025900',
         numero: 199,
         tipoProceso: 'PRENDARIO'
@@ -3782,8 +4097,13 @@ const carpetas = [
         fecha: '2023-06-22T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 343334,
-        idProceso: [51006610, 0],
-        idProcesos: [51006610],
+        idProceso: [
+            51006610,
+            0
+        ],
+        idProcesos: [
+            51006610
+        ],
         llaveProceso: '11001400302120180016300',
         numero: 210,
         tipoProceso: 'SINGULAR'
@@ -3805,7 +4125,10 @@ const carpetas = [
                     tipo: 'Civil del Circuito de Ejecucion'
                 }
             ],
-            obligacion: [182540, 'AUDIOPRESTAMO'],
+            obligacion: [
+                182540,
+                'AUDIOPRESTAMO'
+            ],
             radicado: '2017 - 00453',
             vencimientoPagare: null
         },
@@ -3825,8 +4148,13 @@ const carpetas = [
         fecha: '2019-01-15T05:00:00.000Z',
         grupo: 'LiosJuridicos',
         id: 52328942,
-        idProceso: [51315290, 57718874],
-        idProcesos: [51315290],
+        idProceso: [
+            51315290,
+            57718874
+        ],
+        idProcesos: [
+            51315290
+        ],
         llaveProceso: '11001310303720170045300',
         numero: 217,
         tipoProceso: 'HIPOTECARIO'
@@ -3844,7 +4172,10 @@ const carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [9460081795, 5303727444531025],
+            obligacion: [
+                9460081795,
+                5303727444531025
+            ],
             radicado: '2017 - 00477',
             vencimientoPagare: '2018-05-09T00:00:00.000Z'
         },
@@ -3862,7 +4193,9 @@ const carpetas = [
         },
         grupo: 'Reintegra',
         id: 52344904,
-        idProceso: [0],
+        idProceso: [
+            0
+        ],
         llaveProceso: '25175408900320170047700',
         numero: 254,
         tipoProceso: 'SINGULAR'
@@ -3904,7 +4237,9 @@ const carpetas = [
         fecha: '2023-04-17T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 51740544,
-        idProceso: [50692590],
+        idProceso: [
+            50692590
+        ],
         llaveProceso: '11001400301320170117800',
         numero: 258,
         tipoProceso: 'SINGULAR'
@@ -3944,8 +4279,10 @@ const carpetas = [
         },
         grupo: 'Insolvencia',
         id: 7601476,
-        idProceso: [0],
-        llaveProceso: "1100140030202'100050100",
+        idProceso: [
+            0
+        ],
+        llaveProceso: '1100140030202\'100050100',
         numero: 265,
         tipoProceso: 'HIPOTECARIO'
     },
@@ -3962,7 +4299,9 @@ const carpetas = [
                     tipo: ' Pequeñas Causas y Competencias Multiples'
                 }
             ],
-            obligacion: [156791],
+            obligacion: [
+                156791
+            ],
             radicado: '2018 - 01029',
             vencimientoPagare: '2022-05-10T05:00:00.000Z'
         },
@@ -3982,7 +4321,9 @@ const carpetas = [
         fecha: '2023-02-07T05:00:00.000Z',
         grupo: 'Insolvencia',
         id: 1024479389,
-        idProceso: [113353750],
+        idProceso: [
+            113353750
+        ],
         llaveProceso: '11001400306420180102900',
         numero: 273,
         tipoProceso: 'HIPOTECARIO'
@@ -4007,7 +4348,9 @@ const carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [4670083154],
+            obligacion: [
+                4670083154
+            ],
             radicado: '2017 - 01391',
             vencimientoPagare: null
         },
@@ -4027,7 +4370,9 @@ const carpetas = [
         fecha: '2022-03-09T05:00:00.000Z',
         grupo: 'Bancolombia',
         id: 35506033,
-        idProceso: [112945420],
+        idProceso: [
+            112945420
+        ],
         llaveProceso: '11001400303720170139100',
         numero: 278,
         tipoProceso: 'SINGULAR'
@@ -4046,7 +4391,9 @@ const carpetas = [
                     tipo: '  Pequeñas Causas y Competencias Multiples'
                 }
             ],
-            obligacion: [300094317],
+            obligacion: [
+                300094317
+            ],
             radicado: '2017 - 00128',
             vencimientoPagare: '2020-08-31T00:00:00.000Z'
         },
@@ -4065,7 +4412,9 @@ const carpetas = [
         },
         grupo: 'Reintegra',
         id: 80205694,
-        idProceso: [0],
+        idProceso: [
+            0
+        ],
         llaveProceso: '11001410375220170012800',
         numero: 292,
         tipoProceso: 'SINGULAR'
@@ -4112,7 +4461,9 @@ const carpetas = [
         fecha: '2022-12-01T05:00:00.000Z',
         grupo: 'Bancolombia',
         id: 1032383389,
-        idProceso: [50762570],
+        idProceso: [
+            50762570
+        ],
         llaveProceso: '11001400304820170097400',
         numero: 293,
         tipoProceso: 'SINGULAR'
@@ -4135,7 +4486,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [12676248],
+            obligacion: [
+                12676248
+            ],
             radicado: '2017 - 00924',
             vencimientoPagare: '2020-09-13T00:00:00.000Z'
         },
@@ -4154,7 +4507,9 @@ const carpetas = [
         fecha: '2023-07-24T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 79292743,
-        idProceso: [65700110],
+        idProceso: [
+            65700110
+        ],
         llaveProceso: '11001400306320170092400',
         numero: 294,
         tipoProceso: 'PRENDARIO'
@@ -4196,7 +4551,9 @@ const carpetas = [
         },
         grupo: 'Bancolombia',
         id: 8799171,
-        idProceso: [0],
+        idProceso: [
+            0
+        ],
         llaveProceso: '25754400300120170032300',
         numero: 316,
         tipoProceso: 'HIPOTECARIO'
@@ -4237,7 +4594,9 @@ const carpetas = [
         fecha: '2018-10-02T05:00:00.000Z',
         grupo: 'LiosJuridicos',
         id: 52907317,
-        idProceso: [50846930],
+        idProceso: [
+            50846930
+        ],
         llaveProceso: '11001400302620170129300',
         numero: 328,
         tipoProceso: 'HIPOTECARIO'
@@ -4260,7 +4619,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: ['AUDIOPRESTAMO'],
+            obligacion: [
+                'AUDIOPRESTAMO'
+            ],
             radicado: '2017 - 01306',
             vencimientoPagare: null
         },
@@ -4280,7 +4641,9 @@ const carpetas = [
         fecha: '2022-09-27T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 79853302,
-        idProceso: [50765770],
+        idProceso: [
+            50765770
+        ],
         llaveProceso: '11001400306820170130600',
         numero: 334,
         tipoProceso: 'SINGULAR'
@@ -4302,7 +4665,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [140085],
+            obligacion: [
+                140085
+            ],
             radicado: '2017 - 00964',
             vencimientoPagare: '2026-06-22T00:00:00.000Z'
         },
@@ -4322,7 +4687,9 @@ const carpetas = [
         fecha: '2023-07-12T05:00:00.000Z',
         grupo: 'Insolvencia',
         id: 79666742,
-        idProceso: [50857820],
+        idProceso: [
+            50857820
+        ],
         llaveProceso: '11001400300620170096400',
         numero: 337
     },
@@ -4339,7 +4706,10 @@ const carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [117171, 377813401553319],
+            obligacion: [
+                117171,
+                377813401553319
+            ],
             radicado: '2018 - 00143',
             vencimientoPagare: '2024-03-30T00:00:00.000Z'
         },
@@ -4359,7 +4729,9 @@ const carpetas = [
         fecha: '2019-09-27T05:00:00.000Z',
         grupo: 'LiosJuridicos',
         id: 39765816,
-        idProceso: [51002530],
+        idProceso: [
+            51002530
+        ],
         llaveProceso: '11001400302420180014300',
         numero: 371,
         tipoProceso: 'HIPOTECARIO'
@@ -4399,7 +4771,9 @@ const carpetas = [
         fecha: '2023-07-24T05:00:00.000Z',
         grupo: 'LiosJuridicos',
         id: 11203111,
-        idProceso: [51500810],
+        idProceso: [
+            51500810
+        ],
         llaveProceso: '11001400307620180005200',
         numero: 376,
         tipoProceso: 'HIPOTECARIO'
@@ -4422,7 +4796,10 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [2500085167, 'AUDIOPRESTAMO'],
+            obligacion: [
+                2500085167,
+                'AUDIOPRESTAMO'
+            ],
             radicado: '2017 - 01336',
             vencimientoPagare: '2019-05-05T00:00:00.000Z'
         },
@@ -4441,7 +4818,9 @@ const carpetas = [
         fecha: '2023-01-19T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 91263617,
-        idProceso: [106185210],
+        idProceso: [
+            106185210
+        ],
         llaveProceso: '11001400305020170133600',
         numero: 387,
         tipoProceso: 'SINGULAR'
@@ -4464,7 +4843,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [10000090724],
+            obligacion: [
+                10000090724
+            ],
             radicado: '2017 - 01623',
             vencimientoPagare: '2019-06-08T00:00:00.000Z'
         },
@@ -4484,7 +4865,9 @@ const carpetas = [
         fecha: '2023-03-13T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 80733467,
-        idProceso: [112730580],
+        idProceso: [
+            112730580
+        ],
         llaveProceso: '11001400306420170162300',
         numero: 396,
         tipoProceso: 'SINGULAR'
@@ -4530,7 +4913,9 @@ const carpetas = [
         fecha: '2023-07-21T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 79328264,
-        idProceso: [51465700],
+        idProceso: [
+            51465700
+        ],
         llaveProceso: '11001400307820170116400',
         numero: 407,
         tipoProceso: 'SINGULAR'
@@ -4555,7 +4940,9 @@ const carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [4550087219],
+            obligacion: [
+                4550087219
+            ],
             radicado: '2018 - 00221',
             vencimientoPagare: '2018-06-20T00:00:00.000Z'
         },
@@ -4574,7 +4961,9 @@ const carpetas = [
         fecha: '2023-06-08T05:00:00.000Z',
         grupo: 'Bancolombia',
         id: 900545720,
-        idProceso: [51042800],
+        idProceso: [
+            51042800
+        ],
         llaveProceso: '11001400305620180022100',
         numero: 409,
         tipoProceso: 'SINGULAR'
@@ -4593,7 +4982,9 @@ const carpetas = [
                     tipo: 'Promiscuo Municipal'
                 }
             ],
-            obligacion: [12730779],
+            obligacion: [
+                12730779
+            ],
             radicado: '2018 - 00048',
             vencimientoPagare: '2021-01-16T00:00:00.000Z'
         },
@@ -4611,7 +5002,9 @@ const carpetas = [
         },
         grupo: 'Reintegra',
         id: 1069738339,
-        idProceso: [86157021],
+        idProceso: [
+            86157021
+        ],
         llaveProceso: '25126408900220180004800',
         numero: 427,
         tipoProceso: 'PRENDARIO'
@@ -4654,8 +5047,13 @@ const carpetas = [
         fecha: '2023-08-09T05:00:00.000Z',
         grupo: 'Bancolombia',
         id: 52883958,
-        idProceso: [51816100, 135801811],
-        idProcesos: [51816100],
+        idProceso: [
+            51816100,
+            135801811
+        ],
+        idProcesos: [
+            51816100
+        ],
         llaveProceso: '11001418901420190065600',
         numero: 463,
         tipoProceso: 'SINGULAR'
@@ -4701,7 +5099,9 @@ const carpetas = [
         fecha: '2023-04-13T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 53160094,
-        idProceso: [50990370],
+        idProceso: [
+            50990370
+        ],
         llaveProceso: '11001400305220180011700',
         numero: 466,
         tipoProceso: 'SINGULAR'
@@ -4720,7 +5120,9 @@ const carpetas = [
                     tipo: 'Civil Municipal'
                 }
             ],
-            obligacion: [1000090987],
+            obligacion: [
+                1000090987
+            ],
             radicado: '2018 - 00113',
             vencimientoPagare: '2019-03-08T05:00:00.000Z'
         },
@@ -4739,7 +5141,9 @@ const carpetas = [
         },
         grupo: 'Reintegra',
         id: 4281808,
-        idProceso: [0],
+        idProceso: [
+            0
+        ],
         llaveProceso: '25754408900220180011300',
         numero: 475,
         tipoProceso: 'SINGULAR'
@@ -4762,7 +5166,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: ['AUDIOPRESTAMO'],
+            obligacion: [
+                'AUDIOPRESTAMO'
+            ],
             radicado: '2018 - 00475',
             vencimientoPagare: '2020-08-15T00:00:00.000Z'
         },
@@ -4782,7 +5188,9 @@ const carpetas = [
         fecha: '2023-02-27T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 79568543,
-        idProceso: [51149410],
+        idProceso: [
+            51149410
+        ],
         llaveProceso: '11001400300420180047500',
         numero: 477,
         tipoProceso: 'SINGULAR'
@@ -4823,7 +5231,9 @@ const carpetas = [
         fecha: '2023-03-10T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 39575032,
-        idProceso: [121826111],
+        idProceso: [
+            121826111
+        ],
         llaveProceso: '25307400300320210053900',
         numero: 480,
         tipoProceso: 'SINGULAR'
@@ -4864,7 +5274,9 @@ const carpetas = [
         },
         grupo: 'Bancolombia',
         id: 13222728,
-        idProceso: [0],
+        idProceso: [
+            0
+        ],
         llaveProceso: '25175408900320180060200',
         numero: 496,
         tipoProceso: 'SINGULAR'
@@ -4887,7 +5299,10 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [68928057402, 'AUDIOPRESTAMO'],
+            obligacion: [
+                68928057402,
+                'AUDIOPRESTAMO'
+            ],
             radicado: '2018 - 00454',
             vencimientoPagare: '2020-05-27T00:00:00.000Z'
         },
@@ -4904,8 +5319,13 @@ const carpetas = [
         fecha: '2023-04-10T05:00:00.000Z',
         grupo: 'Reintegra',
         id: null,
-        idProceso: [51154840, 0],
-        idProcesos: [51154840],
+        idProceso: [
+            51154840,
+            0
+        ],
+        idProcesos: [
+            51154840
+        ],
         llaveProceso: '11001400300620180045400',
         numero: 500,
         tipoProceso: 'SINGULAR'
@@ -4928,7 +5348,9 @@ const carpetas = [
                     tipo: 'Civil Municipal de Ejecucion'
                 }
             ],
-            obligacion: [4594260107010410],
+            obligacion: [
+                4594260107010410
+            ],
             radicado: '2019 - 01085',
             vencimientoPagare: '2021-05-01T05:00:00.000Z'
         },
@@ -4948,7 +5370,9 @@ const carpetas = [
         fecha: '2023-02-28T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 1023861016,
-        idProceso: [86958040],
+        idProceso: [
+            86958040
+        ],
         llaveProceso: '11001418901620190108500',
         numero: 502,
         tipoProceso: 'SINGULAR'
@@ -4968,7 +5392,9 @@ const carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-01-promiscuo-municipal-de-la-calera'
                 }
             ],
-            obligacion: [2490084469],
+            obligacion: [
+                2490084469
+            ],
             radicado: '2018 - 00371',
             vencimientoPagare: '2026-01-03T05:00:00.000Z'
         },
@@ -4987,7 +5413,9 @@ const carpetas = [
         },
         grupo: 'Bancolombia',
         id: 11230400,
-        idProceso: [0],
+        idProceso: [
+            0
+        ],
         llaveProceso: '25377408900120180037100',
         numero: 508,
         tipoProceso: 'SINGULAR'
@@ -5011,7 +5439,8 @@ const carpetas = [
                 }
             ],
             obligacion: [
-                40998833882814000, 5303729887314280
+                40998833882814000,
+                5303729887314280
             ],
             radicado: '2018 - 00514',
             vencimientoPagare: '2020-10-05T00:00:00.000Z'
@@ -5032,7 +5461,9 @@ const carpetas = [
         fecha: '2023-03-14T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 35455606,
-        idProceso: [51918470],
+        idProceso: [
+            51918470
+        ],
         llaveProceso: '11001400308120180051400',
         numero: 530,
         tipoProceso: 'SINGULAR'
@@ -5052,7 +5483,10 @@ const carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [65886140334, 4594260446916180],
+            obligacion: [
+                65886140334,
+                4594260446916180
+            ],
             radicado: '2020-1021',
             vencimientoPagare: null
         },
@@ -5070,7 +5504,9 @@ const carpetas = [
         fecha: '2023-07-27T05:00:00.000Z',
         grupo: 'Bancolombia',
         id: 900520023,
-        idProceso: [112628300],
+        idProceso: [
+            112628300
+        ],
         llaveProceso: '11001400306820200102100',
         numero: 532,
         tipoProceso: 'SINGULAR'
@@ -5116,7 +5552,9 @@ const carpetas = [
         fecha: '2023-05-15T05:00:00.000Z',
         grupo: 'Reintegra',
         id: 51579807,
-        idProceso: [64673240],
+        idProceso: [
+            64673240
+        ],
         llaveProceso: '11001418901220180095100',
         numero: 543,
         tipoProceso: 'SINGULAR'
@@ -5135,7 +5573,9 @@ const carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-003-civil-municipal-de-fusagasuga'
                 }
             ],
-            obligacion: [2640096179],
+            obligacion: [
+                2640096179
+            ],
             radicado: '2023 - 00371',
             vencimientoPagare: '2028-03-08T00:00:00.000Z'
         },
@@ -5171,7 +5611,10 @@ const carpetas = [
                     url: 'https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota'
                 }
             ],
-            obligacion: [530104065, 530103261],
+            obligacion: [
+                530104065,
+                530103261
+            ],
             radicado: '2023 - 00622',
             vencimientoPagare: null
         },
@@ -5191,7 +5634,9 @@ const carpetas = [
         fecha: '2023-08-01T05:00:00.000Z',
         grupo: 'Bancolombia',
         id: 1023874668,
-        idProceso: [130946630],
+        idProceso: [
+            130946630
+        ],
         llaveProceso: '11001400300420230062200',
         numero: 552,
         tipoProceso: 'SINGULAR'
@@ -5309,7 +5754,7 @@ const carpetas = [
     }
 ];
 const uri = 'mongodb+srv://cachorro_cami:Tengo1amo@cluster0.ffbyjzl.mongodb.net/?retryWrites=true&w=majority';
-const carpetasCollection = () => __awaiter(void 0, void 0, void 0, function* () {
+const carpetasCollection = async () => {
     const client = new mongodb_1.MongoClient(uri);
     if (!client) {
         throw new Error('no hay cliente mongólico');
@@ -5317,26 +5762,24 @@ const carpetasCollection = () => __awaiter(void 0, void 0, void 0, function* () 
     const db = client.db('RyS');
     const carpetas = db.collection('Carpetas');
     return carpetas;
-});
+};
 exports.carpetasCollection = carpetasCollection;
 // Replace the uri string with your MongoDB deployment's connection string.
 const client = new mongodb_1.MongoClient(uri);
-function run() {
-    return __awaiter(this, void 0, void 0, function* () {
-        try {
-            const database = client.db('RyS');
-            // Specifying a schema is optional, but it enables type hints on
-            // finds and inserts
-            const foods = database.collection('Carpetas');
-            const result = yield foods.insertMany(carpetas, {
-                ordered: true
-            });
-            console.log(`${result.insertedCount} documents were inserted`);
-        }
-        finally {
-            yield client.close();
-        }
-    });
+async function run() {
+    try {
+        const database = client.db('RyS');
+        // Specifying a schema is optional, but it enables type hints on
+        // finds and inserts
+        const foods = database.collection('Carpetas');
+        const result = await foods.insertMany(carpetas, {
+            ordered: true
+        });
+        console.log(`${result.insertedCount} documents were inserted`);
+    }
+    finally {
+        await client.close();
+    }
 }
 run();
 console.log(run());
