@@ -48,7 +48,7 @@
     "func-call-spacing": ["error", "never"],
     "function-paren-newline": [
       "error",
-      { "minItems": 1 }
+      { "minItems": 2 }
     ],
     "getter-return": "error",
     "indent": [

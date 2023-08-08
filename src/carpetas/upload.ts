@@ -3,23668 +3,6023 @@ import { MongoClient } from 'mongodb';
 
 const carpetas: IntCarpeta[] = [
   {
-    numero: 1,
-    id    : '39581581',
-    deudor: {
-      cedula: 39581581,
-      nombreCompleto:
-        'ALEXANDRA MILENA JIMENEZ AGUILAR',
-      primerNombre   : 'ALEXANDRA',
-      segundoNombre  : 'MILENA',
-      primerApellido : 'JIMENEZ',
-      segundoApellido: 'AGUILAR',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '2530740030012017025000',
-    grupo          : 'Terminados',
+    _id            : '64cc10e7ea30d79334547819',
+    capitalAdeudado: 29690679,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 2,
-    id    : '1026259010',
-    deudor: {
-      cedula: 1026259010,
-      nombreCompleto:
-        'EDWIN ANDRES CUERVO VERDUGO',
-      primerNombre   : 'EDWIN',
-      segundoNombre  : 'ANDRES',
-      primerApellido : 'CUERVO',
-      segundoApellido: 'VERDUGO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001310304320170055400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 3,
-    id    : '1018441487',
-    deudor: {
-      cedula: 1018441487,
-      nombreCompleto:
-        'MARIA CLAUDIA REATIGA URREA',
-      primerNombre   : 'MARIA',
-      segundoNombre  : 'CLAUDIA',
-      primerApellido : 'REATIGA',
-      segundoApellido: 'URREA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25126408900220170071500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 4,
-    id    : '93437973',
-    deudor: {
-      cedula: 93437973,
-      nombreCompleto:
-        'DIPSON EUSEBIO SANCHEZ CASTIBLANCO',
-      primerNombre   : 'DIPSON',
-      segundoNombre  : 'EUSEBIO',
-      primerApellido : 'SANCHEZ',
-      segundoApellido: 'CASTIBLANCO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305320170072000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 5,
-    id    : '20645940',
-    deudor: {
-      cedula: 20645940,
-      nombreCompleto:
-        'FANY PATRICIA AVELLANEDA TOVAR',
-      primerNombre   : 'FANY',
-      segundoNombre  : 'PATRICIA',
-      primerApellido : 'AVELLANEDA',
-      segundoApellido: 'TOVAR',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25322418900120170016800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 6,
-    id    : '79645559',
-    deudor: {
-      cedula         : 79645559,
-      nombreCompleto : 'FRANCISCO MONTAÑA QUESADA',
-      primerNombre   : 'FRANCISCO',
-      primerApellido : 'MONTAÑA',
-      segundoApellido: 'QUESADA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307620170044400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 7,
-    id    : '79733852',
-    deudor: {
-      cedula         : 79733852,
-      nombreCompleto : 'JOSE RICARDO PRIETO CRUZ',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'RICARDO',
-      primerApellido : 'PRIETO',
-      segundoApellido: 'CRUZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001310302720170037400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 8,
-    id    : '79642493',
-    deudor: {
-      cedula         : 79642493,
-      nombreCompleto : 'JOSE WILSON ROJAS VALDES',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'WILSON',
-      primerApellido : 'ROJAS',
-      segundoApellido: 'VALDES',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301420170066700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 9,
-    id    : '1020731500',
-    deudor: {
-      cedula: 1020731500,
-      nombreCompleto:
-        'DANIELA ALEJANDRA CARDENAS RODRIGUEZ',
-      primerNombre   : 'DANIELA',
-      segundoNombre  : 'ALEJANDRA',
-      primerApellido : 'CARDENAS',
-      segundoApellido: 'RODRIGUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '1100140030442017099800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 10,
-    id    : '52396019',
-    deudor: {
-      cedula         : 52396019,
-      nombreCompleto : 'MARINA MORALES HERNANDEZ',
-      primerNombre   : 'MARINA',
-      primerApellido : 'MORALES',
-      segundoApellido: 'HERNANDEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001418900320170090900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 11,
-    id    : '80743147',
-    deudor: {
-      cedula        : 80743147,
-      nombreCompleto: 'JAVIER ROMERO REYES',
-      tel           : {
-        fijo   : '3903652 ',
-        celular: '3209229120'
-      },
-      email:
-        'sandrapatriciajoya-2545@hotmail.com',
-      direccion:
-        'CRA 18 H No. 76 A-53 SUR BOGOTA',
-      primerNombre   : 'JAVIER',
-      primerApellido : 'ROMERO',
-      segundoApellido: 'REYES'
-    },
-    demanda: {
-      vencimientoPagare: '2017-08-28',
-      obligacion       : [
-        '12313737//377815899589556',
-        4513070106144855
-      ],
-      obligacion2            : 4513070106144855,
-      entregaGarantiasAbogado: '2017-06-07',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          id  : 37,
-          tipo: 'Civil Municipal'
-        },
-        ejecucion: {
-          id  : 14,
-          tipo: 'Civil Municipal de Ejecucion'
-        }
-      },
-      radicado      : '2017 - 00839',
-      despachoActivo: {
-        id  : 14,
-        tipo: 'Civil Municipal de Ejecucion'
-      }
-    },
-    capitalAdeudado: 21596919,
-    tipoProceso    : 'PRENDARIO',
-    llaveProceso   : '11001400303720170083900',
-    grupo          : 'LiosJuridicos'
-  },
-  {
-    numero: 12,
-    id    : '11436632',
-    deudor: {
-      cedula: 11436632,
-      nombreCompleto:
-        'OSCAR MANUEL TRIVIÑO GARCIA',
-      primerNombre   : 'OSCAR',
-      segundoNombre  : 'MANUEL',
-      primerApellido : 'TRIVIÑO',
-      segundoApellido: 'GARCIA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25269400300220180015800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 13,
-    id    : '447028',
-    deudor: {
-      cedula         : 447028,
-      nombreCompleto : 'PASCUAL ORTEGA ENCISO',
-      primerNombre   : 'PASCUAL',
-      primerApellido : 'ORTEGA',
-      segundoApellido: 'ENCISO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25867418900120170002000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 14,
-    id    : '52441656',
-    deudor: {
-      cedula         : 52441656,
-      nombreCompleto : 'ELSA MILENA SOSA  ROMERO',
-      primerNombre   : 'ELSA',
-      segundoNombre  : 'MILENA',
-      primerApellido : 'SOSA',
-      segundoApellido: ' ROMERO ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25740418900120170028400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 15,
-    id    : '1098678636',
-    deudor: {
-      cedula: 1098678636,
-      nombreCompleto:
-        'SILVIA SUSANA SIERRA CASTAÑEDA',
-      primerNombre   : 'SILVIA',
-      segundoNombre  : 'SUSANA',
-      primerApellido : 'SIERRA',
-      segundoApellido: 'CASTAÑEDA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307220170065400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 16,
-    id    : '1077969975',
-    deudor: {
-      cedula        : 1077969975,
-      nombreCompleto: 'YESID ALBEIRO RAMOS',
-      tel           : {
-        fijo   : '',
-        celular: '3212337597'
-      },
-      email: 'yess_Id@hotmail.com',
-      direccion:
-        'CARRERA 77B No. 68B - 19 BARRIO SANTA HELENITA',
-      primerNombre   : 'YESID',
-      primerApellido : 'ALBEIRO',
-      segundoApellido: 'RAMOS'
-    },
-    demanda: {
-      vencimientoPagare: '2020-05-04',
-      obligacion       : [
-        2530444
-      ],
-      entregaGarantiasAbogado: '2017-05-11',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          id  : 3,
-          tipo: 'Civil Municipal',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-03-civil-municipal-de-bogota'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017 - 00884',
-      etapaProcesal : 'EMPLAZAMIENTO',
-      despachoActivo: {
-        id  : 3,
-        tipo: 'Civil Municipal',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-03-civil-municipal-de-bogota'
-      }
-    },
-    capitalAdeudado: 33791309,
-    tipoProceso    : 'PRENDARIO',
-    llaveProceso   : '11001400300320170088400',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 17,
-    id    : '52953923',
-    deudor: {
-      cedula: 52953923,
-      nombreCompleto:
-        'YEDSY CAROLAY ROJAS GAMBOA',
-      primerNombre   : 'YEDSY',
-      segundoNombre  : 'CAROLAY',
-      primerApellido : 'ROJAS',
-      segundoApellido: 'GAMBOA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754418900220170048000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 18,
-    id    : '79205977',
-    deudor: {
-      cedula: 79205977,
-      nombreCompleto:
-        'LUIS ENRIQUE ACOSTA CHAVARRIA',
-      primerNombre   : 'LUIS',
-      segundoNombre  : 'ENRIQUE',
-      primerApellido : 'ACOSTA',
-      segundoApellido: 'CHAVARRIA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25175400300320170026900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 19,
-    id    : '80001905',
-    deudor: {
-      cedula         : 80001905,
-      nombreCompleto : 'ELIACID CHAVES OBANDO',
-      primerNombre   : 'ELIACID',
-      primerApellido : 'CHAVES',
-      segundoApellido: 'OBANDO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302120170175500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 20,
-    id    : '94482258',
-    deudor: {
-      cedula: 94482258,
-      nombreCompleto:
-        'ANDRES MAURICIO FERNANDEZ DE SOTO DOMINGUEZ',
-      primerNombre   : 'ANDRES',
-      segundoNombre  : 'MAURICIO FERNANDEZ ',
-      primerApellido : 'DE',
-      segundoApellido: 'SOTO DOMINGUEZ ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302220170048300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 21,
-    id    : '11309242',
-    deudor: {
-      cedula: 11309242,
-      nombreCompleto:
-        'RAMIRO CRISTANCHO CONTRERAS',
-      primerNombre   : 'RAMIRO',
-      primerApellido : 'CRISTANCHO',
-      segundoApellido: 'CONTRERAS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25290400300120170043700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 22,
-    id    : '80073174',
-    deudor: {
-      cedula        : 80073174,
-      nombreCompleto: 'JOSE EDWIN GARCES ARDILA',
-      tel           : {
-        fijo   : '7978419',
-        celular: ''
-      },
-      direccion:
-        'CALLE 160 No. 58-75 TORRE 6 APTO 503 BOGOTA /// YOPAL CASANARE',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'EDWIN',
-      primerApellido : 'GARCES',
-      segundoApellido: 'ARDILA'
-    },
-    demanda: {
-      vencimientoPagare: '2020-04-26',
-      obligacion       : [
-        2453698
-      ],
-      entregaGarantiasAbogado: '2017-05-11',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-05-11T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
           id  : 85,
           tipo: 'Civil Municipal'
         },
-        ejecucion: {
+        {
           id  : 11,
           tipo: 'Civil Municipal de Ejecucion'
         }
-      },
-      radicado      : '2017 - 00849',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        id  : 11,
-        tipo: 'Civil Municipal de Ejecucion'
-      }
-    },
-    capitalAdeudado: 29690679,
-    tipoProceso    : 'PRENDARIO',
-    llaveProceso   : '11001400308520170084900',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 23,
-    id    : '11207272',
-    deudor: {
-      cedula         : 11207272,
-      nombreCompleto : 'EDER ALEXIS HERRERA SAENZ',
-      primerNombre   : 'EDER',
-      segundoNombre  : 'ALEXIS',
-      primerApellido : 'HERRERA',
-      segundoApellido: 'SAENZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25307400300120170033700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 24,
-    id    : '3034074',
-    deudor: {
-      cedula: 3034074,
-      nombreCompleto:
-        'WILSON ARMANDO RODRIGUEZ MORA',
-      primerNombre   : 'WILSON',
-      segundoNombre  : 'ARMANDO',
-      primerApellido : 'RODRIGUEZ',
-      segundoApellido: 'MORA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25299418900120170002400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 25,
-    id    : '3197274',
-    deudor: {
-      cedula        : 3197274,
-      nombreCompleto: 'OMAR DARIO ZEA GALVIS',
-      tel           : {
-        fijo   : '7479415',
-        celular: ''
-      },
-      direccion      : 'CL 14 No. 10 - 45 Bucaramanga',
-      primerNombre   : 'OMAR',
-      segundoNombre  : 'DARIO',
-      primerApellido : 'ZEA',
-      segundoApellido: 'GALVIS'
-    },
-    demanda: {
-      vencimientoPagare: '2020-05-10',
-      obligacion       : [
-        12705806
       ],
-      entregaGarantiasAbogado: '2017-05-19',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: ' CCTO',
-          id  : '11'
-        },
-        ejecucion: {
-          tipo: ' CCTO EJ',
-          id  : '1'
-        }
-      },
-      radicado      : '2017 - 00335',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: ' CCTO EJ',
-        id  : '1'
-      }
-    },
-    capitalAdeudado: 107818114,
-    tipoProceso    : 'PRENDARIO',
-    llaveProceso   : '11001310301120170033500',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 26,
-    id    : '52744376',
-    deudor: {
-      cedula        : 52744376,
-      nombreCompleto: 'YUDY RODRIGUEZ',
-      primerNombre  : 'YUDY',
-      primerApellido: 'RODRIGUEZ',
-      tel           : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306520170082700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 27,
-    id    : '79004127',
-    deudor: {
-      cedula        : 79004127,
-      nombreCompleto: 'NORBEY LOMBANA MAHECHA',
-      tel           : {
-        fijo   : '34746523',
-        celular: ''
-      },
-      email: 347620,
-      direccion:
-        'CALLE 4 No. 14-161 GUADUAS (CUNDINAMARCA)',
-      primerNombre   : 'NORBEY',
-      primerApellido : 'LOMBANA',
-      segundoApellido: 'MAHECHA'
-    },
-    demanda: {
-      vencimientoPagare: '2017-04-11',
-      obligacion       : [
-        7910080321
+      obligacion: [
+        2453698
       ],
-      entregaGarantiasAbogado: '2017-05-19',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'GUADUAS',
-      juzgado                : {
-        origen: {
-          tipo: ' CIVIL CTO',
-          id  : '001'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017 - 00195',
-      despachoActivo: {
-        tipo: ' CIVIL CTO',
-        id  : '001'
-      }
+      radicado: '2017 - 00849',
+      vencimientoPagare:
+        '2020-04-26T00:00:00.000Z'
     },
-    capitalAdeudado: 96608106,
-    tipoProceso    : 'HIPOTECARIO',
-    llaveProceso   : '25320310300120170019500',
-    grupo          : 'Insolvencia'
-  },
-  {
-    numero: 28,
-    id    : '20563933',
     deudor: {
-      cedula: 20563933,
-      nombreCompleto:
-        'MARIA SOCORRO TORRES DE GONZALEZ',
-      primerNombre   : 'MARIA',
-      segundoNombre  : 'SOCORRO',
-      primerApellido : 'TORRES',
-      segundoApellido: 'DE GONZALEZ ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25290400300120170036900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 29,
-    id    : '80814800',
-    deudor: {
-      cedula: 80814800,
-      nombreCompleto:
-        'WHITMAN JEFERSON NAJAR RAMIREZ',
-      primerNombre   : 'WHITMAN',
-      segundoNombre  : 'JEFERSON',
-      primerApellido : 'NAJAR',
-      segundoApellido: 'RAMIREZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25175400300120170051100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 30,
-    id    : '52367601',
-    deudor: {
-      cedula: 52367601,
-      nombreCompleto:
-        'MIREYA VIVIANA BELTRAN HERRERA',
-      primerNombre   : 'MIREYA',
-      segundoNombre  : 'VIVIANA',
-      primerApellido : 'BELTRAN',
-      segundoApellido: 'HERRERA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303020170095100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 31,
-    id    : '79590985',
-    deudor: {
-      cedula        : 79590985,
-      nombreCompleto: 'JORGE PEREZ',
-      primerNombre  : 'JORGE',
-      primerApellido: 'PEREZ',
-      tel           : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754400300320170021100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 32,
-    id    : '1022940572',
-    deudor: {
-      cedula: 1022940572,
-      nombreCompleto:
-        'JONATHAN ANDRES  BERNAL PARRA',
-      tel: {
-        fijo   : '',
-        celular: '3134775602'
-      },
-      email: 'jhonannicky@hotmail.com',
+      cedula: 80073174,
       direccion:
-        'CALLE 36 B SUR No. 11-25 APTO 1307 BOGOTA',
-      primerNombre   : 'JONATHAN',
-      segundoNombre  : 'ANDRES',
-      primerApellido : '',
-      segundoApellido: 'BERNAL PARRA '
+        'CALLE 160 No. 58-75 TORRE 6 APTO 503 BOGOTA /// YOPAL CASANARE',
+      primerApellido : 'GARCES',
+      primerNombre   : 'JOSE',
+      segundoApellido: 'ARDILA',
+      segundoNombre  : 'EDWIN',
+      tel            : {
+        celular: 0,
+        fijo   : 7978419
+      }
     },
-    demanda: {
-      vencimientoPagare: '2028-08-01',
-      obligacion       : [
+    fecha    : '2023-06-15T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 80073174,
+    idProceso: [
+      51935790
+    ],
+    llaveProceso: '11001400308520170084900',
+    numero      : 22,
+    tipoProceso : 'PRENDARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547823',
+    capitalAdeudado: 54812000,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2018-05-30T00:00:00.000Z',
+      etapaProcesal: 'EJECUCION',
+      juzgado      : [
+        {
+          id  : 43,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 18,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
         4280019446,
         '5406915580101610 4513077620518209//20990166568'
       ],
-      obligacion2:
-        '5406915580101610 4513077620518209//20990166568',
-      entregaGarantiasAbogado: '2018-05-30',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '43'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '18'
-        }
-      },
-      radicado      : '2018- 00384',
-      etapaProcesal : 'EJECUCION',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '18'
-      }
+      radicado: '2018- 00384',
+      vencimientoPagare:
+        '2028-08-01T00:00:00.000Z'
     },
-    capitalAdeudado: 54812000,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400304320180038400',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 33,
-    id    : '28936365',
     deudor: {
-      cedula         : 28936365,
-      nombreCompleto : 'NINI JOHANA CORTES MONROY',
-      primerNombre   : 'NINI',
-      segundoNombre  : 'JOHANA',
-      primerApellido : 'CORTES',
-      segundoApellido: 'MONROY',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308220170064900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 34,
-    id    : '1070612757',
-    deudor: {
-      cedula: 1070612757,
-      nombreCompleto:
-        'KAREN JULIETH PINZON GUTIERREZ',
-      primerNombre   : 'KAREN',
-      segundoNombre  : 'JULIETH',
-      primerApellido : 'PINZON',
-      segundoApellido: 'GUTIERREZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25307400300320170033000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 35,
-    id    : '7226201',
-    deudor: {
-      cedula: 7226201,
-      nombreCompleto:
-        'LUIS CARLOS GUTIERREZ VELANDIA',
-      tel: {
-        fijo   : '',
-        celular: '3106199094'
-      },
-      email: 'luiscagv@yahoo.com',
+      cedula: 1022940572,
       direccion:
-        'CARRERA 33 No. 1 H-86 DUITAMA (BOYACÁ)',
-      primerNombre   : 'LUIS',
-      segundoNombre  : 'CARLOS',
-      primerApellido : 'GUTIERREZ',
-      segundoApellido: 'VELANDIA'
+        'CALLE 36 B SUR No. 11-25 APTO 1307 BOGOTA',
+      email          : 'jhonannicky@hotmail.com',
+      primerApellido : '',
+      primerNombre   : 'JONATHAN',
+      segundoApellido: 'BERNAL PARRA ',
+      segundoNombre  : 'ANDRES',
+      tel            : {
+        celular: 3134775602,
+        fijo   : 0
+      }
     },
-    demanda: {
-      vencimientoPagare: '2016-09-16',
-      obligacion       : [
+    fecha    : '2023-04-27T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 1022940572,
+    idProceso: [
+      114256610
+    ],
+    llaveProceso: '11001400304320180038400',
+    numero      : 32,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547826',
+    capitalAdeudado: 26464177,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-05-19T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 26,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 3,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
         5303722385820750,
         'AUTOPRESTAMO'
       ],
-      obligacion2            : 'AUTOPRESTAMO',
-      entregaGarantiasAbogado: '2017-05-19',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '26'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '3'
-        }
-      },
-      radicado      : '2017-00511',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '3'
-      }
+      radicado: '2017-00511',
+      vencimientoPagare:
+        '2016-09-16T00:00:00.000Z'
     },
-    capitalAdeudado: 26464177,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400302620170051100',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 36,
-    id    : '52314251',
     deudor: {
-      cedula: 52314251,
-      nombreCompleto:
-        'SANDRA PATRICIA AGUDELO MONTAGUT',
-      primerNombre   : 'SANDRA',
-      segundoNombre  : 'PATRICIA',
-      primerApellido : 'AGUDELO',
-      segundoApellido: 'MONTAGUT',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : ' 11001400306620170089200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 37,
-    id    : '1030536736',
-    deudor: {
-      cedula: 1030536736,
-      nombreCompleto:
-        'LUIS ALBERTO ALFONSO GIRALDO',
-      primerNombre   : 'LUIS',
-      segundoNombre  : 'ALBERTO',
-      primerApellido : 'ALFONSO',
-      segundoApellido: 'GIRALDO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25740418900120170021700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 38,
-    id    : '39808625',
-    deudor: {
-      cedula: 39808625,
-      nombreCompleto:
-        'LUZ MIRYAM GUTÍERREZ MARTÍNEZ',
-      primerNombre   : 'LUZ',
-      segundoNombre  : 'MIRYAM',
-      primerApellido : 'GUTÍERREZ',
-      segundoApellido: 'MARTÍNEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25785418900120170010200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 39,
-    id    : '79982488',
-    deudor: {
-      cedula: 79982488,
-      nombreCompleto:
-        'JORGE ALONSO TRUJILLO GÓMEZ',
-      primerNombre   : 'JORGE',
-      segundoNombre  : 'ALONSO',
-      primerApellido : 'TRUJILLO',
-      segundoApellido: 'GÓMEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306520170090300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 40,
-    id    : '19173252',
-    deudor: {
-      cedula: 19173252,
-      nombreCompleto:
-        'JOSÉ ENRIQUE RIAÑO HENRIQUEZ',
-      primerNombre   : 'JOSÉ',
-      segundoNombre  : 'ENRIQUE',
-      primerApellido : 'RIAÑO',
-      segundoApellido: 'HENRIQUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303420170080900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 41,
-    id    : '52991801',
-    deudor: {
-      cedula: 52991801,
-      nombreCompleto:
-        'YENCY KARINA CASTIBLANCO BOHORQUEZ',
-      primerNombre   : 'YENCY',
-      segundoNombre  : 'KARINA',
-      primerApellido : 'CASTIBLANCO',
-      segundoApellido: 'BOHORQUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303520170119000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 42,
-    id    : '1072421639',
-    deudor: {
-      cedula: 1072421639,
-      nombreCompleto:
-        'JUAN DANIEL MORENO CIFUENTES',
-      tel: {
-        fijo   : '',
-        celular: '3126139284'
-      },
-      email: 'jdanielmoreno87@hotmail.com',
+      cedula: 7226201,
       direccion:
-        'BARRIO SANTA ANA FC LA CAMPIÑA ANAPOIMA',
-      primerNombre   : 'JUAN',
-      segundoNombre  : 'DANIEL',
-      primerApellido : 'MORENO',
-      segundoApellido: 'CIFUENTES'
+        'CARRERA 33 No. 1 H-86 DUITAMA (BOYACÁ)',
+      email          : 'luiscagv@yahoo.com',
+      primerApellido : 'GUTIERREZ',
+      primerNombre   : 'LUIS',
+      segundoApellido: 'VELANDIA',
+      segundoNombre  : 'CARLOS',
+      tel            : {
+        celular: 3106199094,
+        fijo   : 0
+      }
     },
-    demanda: {
+    fecha    : '2023-04-13T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 7226201,
+    idProceso: [
+      50477000
+    ],
+    llaveProceso: '11001400302620170051100',
+    numero      : 35,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d7933454782d',
+    capitalAdeudado: 12956286,
+    demanda        : {
+      ciudad      : 'ANAPOIMA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-05-19T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 1,
+          tipo: 'Promiscuo Municipal'
+        }
+      ],
       obligacion: [
         3840082880
       ],
-      entregaGarantiasAbogado: '2017-05-19',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'ANAPOIMA',
-      juzgado                : {
-        origen: {
-          id  : 1,
-          tipo: ' PM'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017 - 00108',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        id  : 1,
-        tipo: ' PM'
-      }
+      radicado         : '2017 - 00108',
+      vencimientoPagare: null
     },
-    capitalAdeudado: 12956286,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '25035408900120170010800',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 43,
-    id    : '11188351',
     deudor: {
-      cedula         : 11188351,
-      nombreCompleto : 'JOSE FREDDY VARGAS RUIZ',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'FREDDY',
-      primerApellido : 'VARGAS',
-      segundoApellido: 'RUIZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301220170088200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 44,
-    id    : '11188351',
-    deudor: {
-      cedula         : 11188351,
-      nombreCompleto : 'JOSE FREDDY VARGAS RUIZ',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'FREDDY',
-      primerApellido : 'VARGAS',
-      segundoApellido: 'RUIZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301220170088200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 45,
-    id    : '4042105',
-    deudor: {
-      cedula         : 4042105,
-      nombreCompleto : 'EDISON PALMA CARDENAL',
-      primerNombre   : 'EDISON',
-      primerApellido : 'PALMA',
-      segundoApellido: 'CARDENAL',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301920170052800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 46,
-    id    : '11251297',
-    deudor: {
-      cedula        : 11251297,
-      nombreCompleto: 'ALVARO RODRIGUEZ ALONSO',
-      tel           : {
-        fijo   : '',
-        celular: '3166182970'
-      },
-      email: 'alvaro.r@live.com',
+      cedula: 1072421639,
       direccion:
-        'Carrera 2B No.14-04 BARRIO VILLA ALEJANDRA CHOCONTA',
-      primerNombre   : 'ALVARO',
-      primerApellido : 'RODRIGUEZ',
-      segundoApellido: 'ALONSO'
+        'BARRIO SANTA ANA FC LA CAMPIÑA ANAPOIMA',
+      email          : 'jdanielmoreno87@hotmail.com',
+      primerApellido : 'MORENO',
+      primerNombre   : 'JUAN',
+      segundoApellido: 'CIFUENTES',
+      segundoNombre  : 'DANIEL',
+      tel            : {
+        celular: 3126139284,
+        fijo   : 0
+      }
     },
-    demanda: {
-      vencimientoPagare:
-        '18/04/2020 // 04/05/2020',
+    grupo    : 'Reintegra',
+    id       : 1072421639,
+    idProceso: [
+      0
+    ],
+    llaveProceso: '25035408900120170010800',
+    numero      : 42,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547831',
+    capitalAdeudado: 12537973,
+    demanda        : {
+      ciudad      : 'CHOCONTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-05-19T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 1,
+          tipo: 'Civil Municipal'
+        }
+      ],
       obligacion: [
         53037139326557900,
         4099839496308260
       ],
-      obligacion2            : 4099839496308260,
-      entregaGarantiasAbogado: '2017-05-19',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'CHOCONTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '001'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017-00106',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '001'
+      radicado         : '2017-00106',
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula: 11251297,
+      direccion:
+        'Carrera 2B No.14-04 BARRIO VILLA ALEJANDRA CHOCONTA',
+      email          : 'alvaro.r@live.com',
+      primerApellido : 'RODRIGUEZ',
+      primerNombre   : 'ALVARO',
+      segundoApellido: 'ALONSO',
+      tel            : {
+        celular: 3166182970,
+        fijo   : 0
       }
     },
-    capitalAdeudado: 12537973,
-    tipoProceso    : 'PRENDARIO',
-    llaveProceso   : '25183400300120170010600',
-    grupo          : 'Reintegra'
+    grupo    : 'Reintegra',
+    id       : 11251297,
+    idProceso: [
+      86212261
+    ],
+    llaveProceso: '25183400300120170010600',
+    numero      : 46,
+    tipoProceso : 'PRENDARIO'
   },
   {
-    numero: 47,
-    id    : '52129551',
-    deudor: {
-      cedula        : 52129551,
-      nombreCompleto: 'ANA RITA GUZMAN GOMEZ',
-      tel           : {
-        fijo   : '',
-        celular: '32291500487'
-      },
-      direccion      : 'CALLE 61 J No. 17D - 55 Sur',
-      primerNombre   : 'ANA',
-      segundoNombre  : 'RITA',
-      primerApellido : 'GUZMAN',
-      segundoApellido: 'GOMEZ'
-    },
-    demanda: {
-      vencimientoPagare: '2019-09-22',
-      obligacion       : [
+    _id            : '64cc10e7ea30d79334547832',
+    capitalAdeudado: 21530598,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-06-12T00:00:00.000Z',
+      etapaProcesal: 'EJECUCION',
+      juzgado      : [
+        {
+          id  : 6,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 13,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
         '377816034633036//45130802058774831',
         53003720132046710
       ],
-      obligacion2            : 53003720132046710,
-      entregaGarantiasAbogado: '2017-06-12',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '6'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '13'
-        }
-      },
-      radicado      : '2017-00302',
-      etapaProcesal : 'EJECUCION',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '13'
-      }
+      radicado: '2017-00302',
+      vencimientoPagare:
+        '2019-09-22T00:00:00.000Z'
     },
-    capitalAdeudado: 21530598,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400300620170030200',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 48,
-    id    : '52837630',
     deudor: {
-      cedula: 52837630,
-      nombreCompleto:
-        'JENNY ADRIANA PATARROYO TORRES',
-      primerNombre   : 'JENNY',
-      segundoNombre  : 'ADRIANA',
-      primerApellido : 'PATARROYO',
-      segundoApellido: 'TORRES',
+      cedula         : 52129551,
+      direccion      : 'CALLE 61 J No. 17D - 55 Sur',
+      primerApellido : 'GUZMAN',
+      primerNombre   : 'ANA',
+      segundoApellido: 'GOMEZ',
+      segundoNombre  : 'RITA',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 32291500487,
+        fijo   : 0
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303520170142500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2023-06-26T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 52129551,
+    idProceso: [
+      50521190
+    ],
+    llaveProceso: '11001400300620170030200',
+    numero      : 47,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 49,
-    id    : '79532034',
-    deudor: {
-      cedula: 79532034,
-      nombreCompleto:
-        'JOSE ISRAEL MONROY CORDOBA',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'ISRAEL',
-      primerApellido : 'MONROY',
-      segundoApellido: 'CORDOBA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305120170064400',
-    grupo          : 'Terminados',
+    _id            : '64cc10e7ea30d7933454783d',
+    capitalAdeudado: 96125453,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-06-08T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 42,
+          tipo: 'Civil Municipal'
         },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+        {
+          id  : 10,
+          tipo: 'Civil Municipal de Ejecucion'
         }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 50,
-    id    : '52444244',
-    deudor: {
-      cedula: 52444244,
-      nombreCompleto:
-        'GLORIA ASTRID RODRÍGUEZ BAQUERO',
-      primerNombre   : 'GLORIA',
-      segundoNombre  : 'ASTRID',
-      primerApellido : 'RODRÍGUEZ',
-      segundoApellido: 'BAQUERO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303420180061400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 51,
-    id    : '37549188',
-    deudor: {
-      cedula: 37549188,
-      nombreCompleto:
-        'MARIA CAROLINA MARTINEZ VERA',
-      primerNombre   : 'MARIA',
-      segundoNombre  : 'CAROLINA',
-      primerApellido : 'MARTINEZ',
-      segundoApellido: 'VERA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300920170060700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 52,
-    id    : '35412591',
-    deudor: {
-      cedula: 35412591,
-      nombreCompleto:
-        'MARTHA STELLA GOMEZ BOLIVAR',
-      primerNombre   : 'MARTHA',
-      segundoNombre  : 'STELLA',
-      primerApellido : 'GOMEZ',
-      segundoApellido: 'BOLIVAR',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 53,
-    id    : '53051476',
-    deudor: {
-      cedula: 53051476,
-      nombreCompleto:
-        'DIANA MARCELA SANCHEZ LOZANO',
-      primerNombre   : 'DIANA',
-      segundoNombre  : 'MARCELA',
-      primerApellido : 'SANCHEZ',
-      segundoApellido: 'LOZANO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308520170097500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 54,
-    id    : '38261511',
-    deudor: {
-      cedula        : 38261511,
-      nombreCompleto: 'OLGA GALLEGO',
-      primerNombre  : 'OLGA',
-      primerApellido: 'GALLEGO',
-      tel           : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306420170113800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 55,
-    id    : '80353430',
-    deudor: {
-      cedula         : 80353430,
-      nombreCompleto : 'DOUGLAS AYURE RIOS',
-      primerNombre   : 'DOUGLAS',
-      primerApellido : 'AYURE',
-      segundoApellido: 'RIOS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25430400300120170108700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 56,
-    id    : '52039387',
-    deudor: {
-      cedula         : 52039387,
-      nombreCompleto : 'GLADYS HERNANDEZ LOPEZ',
-      primerNombre   : 'GLADYS',
-      primerApellido : 'HERNANDEZ',
-      segundoApellido: 'LOPEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302720140070300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 57,
-    id    : '39556705',
-    deudor: {
-      cedula: 39556705,
-      nombreCompleto:
-        'CARMEN CECILIA APONTE ZAMBRANO',
-      primerNombre   : 'CARMEN',
-      segundoNombre  : 'CECILIA',
-      primerApellido : 'APONTE',
-      segundoApellido: 'ZAMBRANO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302820170051200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 58,
-    id    : '14273737',
-    deudor: {
-      cedula        : 14273737,
-      nombreCompleto: 'JOSÉ URIEL PAEREZ PERDOMO',
-      tel           : {
-        fijo   : '4183276 ',
-        celular: '3228293322'
-      },
-      email          : 'lejopaerez@hotmail.com',
-      direccion      : 'CALLE 23 D No.107-32 BOGOTA',
-      primerNombre   : 'JOSÉ',
-      segundoNombre  : 'URIEL',
-      primerApellido : 'PAEREZ',
-      segundoApellido: 'PERDOMO'
-    },
-    demanda: {
+      ],
       obligacion: [
         '5820083643//377816164971529',
         '4513080225477441//5303720124048311'
       ],
-      obligacion2:
-        '4513080225477441//5303720124048311',
-      entregaGarantiasAbogado: '2017-06-08',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '42'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '10'
-        }
-      },
-      radicado      : '2017-00760',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '10'
-      }
+      radicado         : '2017-00760',
+      vencimientoPagare: null
     },
-    capitalAdeudado: 96125453,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400304220170076000',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 59,
-    id    : '52341348',
     deudor: {
-      cedula         : 52341348,
-      nombreCompleto : 'NANCY RODRIGUEZ  GOMEZ',
-      primerNombre   : 'NANCY',
-      segundoNombre  : 'RODRIGUEZ',
-      primerApellido : '',
-      segundoApellido: 'GOMEZ',
+      cedula         : 14273737,
+      direccion      : 'CALLE 23 D No.107-32 BOGOTA',
+      email          : 'lejopaerez@hotmail.com',
+      primerApellido : 'PAEREZ',
+      primerNombre   : 'JOSÉ',
+      segundoApellido: 'PERDOMO',
+      segundoNombre  : 'URIEL',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 3228293322,
+        fijo   : 4183276
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302520170106400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2023-06-23T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 14273737,
+    idProceso: [
+      50517060
+    ],
+    llaveProceso: '11001400304220170076000',
+    numero      : 58,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 60,
-    id    : '1032373332',
-    deudor: {
-      cedula: 1032373332,
-      nombreCompleto:
-        'LADY JOHANNA BAYONA GARCÍA',
-      primerNombre   : 'LADY',
-      segundoNombre  : 'JOHANNA',
-      primerApellido : 'BAYONA',
-      segundoApellido: 'GARCÍA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302020170090100',
-    grupo          : 'Terminados',
+    _id            : '64cc10e7ea30d79334547843',
+    capitalAdeudado: 32926699,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-06-12T00:00:00.000Z',
+      juzgado: [
+        {
+          id  : 29,
+          tipo: 'Civil Municipal'
         }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 61,
-    id    : '80197126',
-    deudor: {
-      cedula         : 80197126,
-      nombreCompleto : 'JUAN PABLO RUBIO ESGUERRA',
-      primerNombre   : 'JUAN',
-      segundoNombre  : 'PABLO',
-      primerApellido : 'RUBIO',
-      segundoApellido: 'ESGUERRA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : ' 11001400304620170055700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 62,
-    id    : '80722943',
-    deudor: {
-      cedula: 80722943,
-      nombreCompleto:
-        'LUIS EDUARDO CARRANZA BUSTOS',
-      primerNombre   : 'LUIS',
-      segundoNombre  : 'EDUARDO',
-      primerApellido : 'CARRANZA',
-      segundoApellido: 'BUSTOS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : ' 11001400306320180016800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 63,
-    id    : '1022943195',
-    deudor: {
-      cedula         : 1022943195,
-      nombreCompleto : 'DIANA MARCELA IPUZ SUAREZ',
-      primerNombre   : 'DIANA',
-      segundoNombre  : 'MARCELA',
-      primerApellido : 'IPUZ',
-      segundoApellido: 'SUAREZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : ' 11001418900920170008900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 64,
-    id    : '79891952',
-    deudor: {
-      cedula: 79891952,
-      nombreCompleto:
-        'RAFAEL ERNESTO CADENA PARGA',
-      tel: {
-        fijo   : '3157900 ',
-        celular: '3157900006'
-      },
-      email: 'rafael.cadena@signsas.com',
-      direccion:
-        'CARRERA 13 A No. 150-25 INT 3 APTO 203',
-      primerNombre   : 'RAFAEL',
-      segundoNombre  : 'ERNESTO',
-      primerApellido : 'CADENA',
-      segundoApellido: 'PARGA'
-    },
-    demanda: {
-      vencimientoPagare: '2017-10-22',
-      obligacion       : [
+      ],
+      obligacion: [
         125348220
       ],
-      entregaGarantiasAbogado: '2017-06-12',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '29'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017 - 00557',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '29'
-      }
+      radicado: '2017 - 00557',
+      vencimientoPagare:
+        '2017-10-22T00:00:00.000Z'
     },
-    capitalAdeudado: 32926699,
-    tipoProceso    : 'PRENDARIO',
-    llaveProceso   : '11001400302920170055700',
-    grupo          : 'Insolvencia'
-  },
-  {
-    numero: 65,
-    id    : '79276611',
     deudor: {
-      cedula: 79276611,
-      nombreCompleto:
-        'ERNESTO AUGUSTO IDARRAGA QUINTERO',
-      primerNombre   : 'ERNESTO',
-      segundoNombre  : 'AUGUSTO',
-      primerApellido : 'IDARRAGA',
-      segundoApellido: 'QUINTERO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302020170077600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 66,
-    id    : '66841096',
-    deudor: {
-      cedula: 66841096,
-      nombreCompleto:
-        'SANDRA PATRICIA SUAREZ GALVIS',
-      primerNombre   : 'SANDRA',
-      segundoNombre  : 'PATRICIA',
-      primerApellido : 'SUAREZ',
-      segundoApellido: 'GALVIS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301920170070200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 67,
-    id    : '78076295',
-    deudor: {
-      cedula: 78076295,
-      nombreCompleto:
-        'HUMBERTO ENRIQUE AVENA CORRALES',
-      primerNombre   : 'HUMBERTO',
-      segundoNombre  : 'ENRIQUE',
-      primerApellido : 'AVENA',
-      segundoApellido: 'CORRALES',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001310301720170036000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 68,
-    id    : '35412591',
-    deudor: {
-      cedula: 35412591,
-      nombreCompleto:
-        'MARTHA STELLA GOMEZ BOLIVAR',
-      primerNombre   : 'MARTHA',
-      segundoNombre  : 'STELLA',
-      primerApellido : 'GOMEZ',
-      segundoApellido: 'BOLIVAR',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25899400300220170027000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 69,
-    id    : '53008703',
-    deudor: {
-      cedula: 53008703,
-      nombreCompleto:
-        'DERLY CATHERINE CASTRO IZQUIERDO',
-      tel: {
-        fijo   : '7507842 ',
-        celular: ''
-      },
-      direccion      : 'CARRERA 5 No. 30 - 77',
-      primerNombre   : 'DERLY',
-      segundoNombre  : 'CATHERINE',
-      primerApellido : 'CASTRO',
-      segundoApellido: 'IZQUIERDO'
-    },
-    demanda: {
-      vencimientoPagare: '2019-08-12',
-      obligacion       : [
-        4200023595
-      ],
-      entregaGarantiasAbogado: '2017-06-08',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '6'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '11'
-        }
-      },
-      radicado      : '2017-00419',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '11'
-      }
-    },
-    capitalAdeudado: 83955014,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400300620170041900',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 70,
-    id    : '14250539',
-    deudor: {
-      cedula         : 14250539,
-      nombreCompleto : 'CESAR AUGUSTO ARIAS',
-      primerNombre   : 'CESAR',
-      primerApellido : 'AUGUSTO',
-      segundoApellido: 'ARIAS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308520170108400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 71,
-    id    : '53015307',
-    deudor: {
-      cedula: 53015307,
-      nombreCompleto:
-        'BETTY STEPHANI TORRES ROJAS',
-      primerNombre   : 'BETTY',
-      segundoNombre  : 'STEPHANI',
-      primerApellido : 'TORRES',
-      segundoApellido: 'ROJAS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304720170106500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 72,
-    id    : '1030545462',
-    deudor: {
-      cedula: 1030545462,
-      nombreCompleto:
-        'NESTOR FABIAN ESPITIA FRAILE',
-      primerNombre   : 'NESTOR',
-      segundoNombre  : 'FABIAN',
-      primerApellido : 'ESPITIA',
-      segundoApellido: 'FRAILE',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306020170124100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 73,
-    id    : '31877993',
-    deudor: {
-      cedula        : 31877993,
-      nombreCompleto: 'SONIA MAZUERA',
-      primerNombre  : 'SONIA',
-      primerApellido: 'MAZUERA',
-      tel           : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    demanda: {
-      radicado  : '2017 - 00575',
-      obligacion: [
-        null
-      ],
-      juzgado: {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    },
-    capitalAdeudado: 0,
-    grupo          : 'Terminados'
-  },
-  {
-    numero: 74,
-    id    : '79789620',
-    deudor: {
-      cedula         : 79789620,
-      nombreCompleto : 'CARLOS ANDRÉS BORRAY ARCE',
-      primerNombre   : 'CARLOS',
-      segundoNombre  : 'ANDRÉS',
-      primerApellido : 'BORRAY',
-      segundoApellido: 'ARCE',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304820170050700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 75,
-    id    : '80792132',
-    deudor: {
-      cedula         : 80792132,
-      nombreCompleto : 'MARIO ANDRES BOJACA CRUZ',
-      primerNombre   : 'MARIO',
-      segundoNombre  : 'ANDRES',
-      primerApellido : 'BOJACA',
-      segundoApellido: 'CRUZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305820170091800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 76,
-    id    : '20493423',
-    deudor: {
-      cedula         : 20493423,
-      nombreCompleto : 'ESTELA MARIN GARZÓN',
-      primerNombre   : 'ESTELA',
-      primerApellido : 'MARIN',
-      segundoApellido: 'GARZÓN',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25183400300120170011900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 77,
-    id    : '1030554218',
-    deudor: {
-      cedula: 1030554218,
-      nombreCompleto:
-        'JEIMY CAROLINA LEGUIZAMON VASQUEZ',
-      primerNombre   : 'JEIMY',
-      segundoNombre  : 'CAROLINA',
-      primerApellido : 'LEGUIZAMON',
-      segundoApellido: 'VASQUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754418900120170083700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 78,
-    id    : '7711481',
-    deudor: {
-      cedula: 7711481,
-      nombreCompleto:
-        'JAIME EDISON SANTOS MARTIN',
-      primerNombre   : 'JAIME',
-      segundoNombre  : 'EDISON',
-      primerApellido : 'SANTOS',
-      segundoApellido: 'MARTIN',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306420170123100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 79,
-    id    : '38289111',
-    deudor: {
-      cedula         : 38289111,
-      nombreCompleto : 'CRISTINA CASTAÑO CASTILLO',
-      primerNombre   : 'CRISTINA',
-      primerApellido : 'CASTAÑO',
-      segundoApellido: 'CASTILLO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303320170089200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 80,
-    id    : '79882688',
-    deudor: {
-      cedula: 79882688,
-      nombreCompleto:
-        'JORGE ANDRES PORRAS VARGAS',
-      primerNombre   : 'JORGE',
-      segundoNombre  : 'ANDRES',
-      primerApellido : 'PORRAS',
-      segundoApellido: 'VARGAS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25817418900120170035100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 81,
-    id    : '900789612',
-    deudor: {
-      cedula: 900789612,
-      nombreCompleto:
-        'DS&D SOLUCIONES CONSTRUCTIVAS S.A.S.',
-      primerNombre   : 'DS&D',
-      segundoNombre  : 'SOLUCIONES',
-      primerApellido : 'CONSTRUCTIVAS',
-      segundoApellido: 'S.A.S.',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303620170055400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 82,
-    id    : '13921619',
-    deudor: {
-      cedula         : 13921619,
-      nombreCompleto : 'RAFAEL GONZALEZ OLEJUA',
-      primerNombre   : 'RAFAEL',
-      primerApellido : 'GONZALEZ',
-      segundoApellido: 'OLEJUA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300320170106500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 83,
-    id    : '19438068',
-    deudor: {
-      cedula: 19438068,
-      nombreCompleto:
-        'LUIS ADOLFO PEÑA ARCINIEGAS',
-      primerNombre   : 'LUIS',
-      segundoNombre  : 'ADOLFO',
-      primerApellido : 'PEÑA',
-      segundoApellido: 'ARCINIEGAS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301920170102500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 84,
-    id    : '79108747',
-    deudor: {
-      cedula        : 79108747,
-      nombreCompleto: 'EDGAR HERNANDEZ RUBIO',
-      tel           : {
-        fijo   : '8054434 ',
-        celular: '3118802970'
-      },
-      email: 'edgarH62@hotmail.com',
+      cedula: 79891952,
       direccion:
-        'CARRERA 17 A No. 175-82 INTERIOR 1 PTO 601',
-      primerNombre   : 'EDGAR',
-      primerApellido : 'HERNANDEZ',
-      segundoApellido: 'RUBIO'
+        'CARRERA 13 A No. 150-25 INT 3 APTO 203',
+      email          : 'rafael.cadena@signsas.com',
+      primerApellido : 'CADENA',
+      primerNombre   : 'RAFAEL',
+      segundoApellido: 'PARGA',
+      segundoNombre  : 'ERNESTO',
+      tel            : {
+        celular: 3157900006,
+        fijo   : 3157900
+      }
     },
-    demanda: {
-      vencimientoPagare: '2019-11-05',
-      obligacion       : [
+    fecha    : '2018-02-22T05:00:00.000Z',
+    grupo    : 'Insolvencia',
+    id       : 79891952,
+    idProceso: [
+      50517510
+    ],
+    llaveProceso: '11001400302920170055700',
+    numero      : 64,
+    tipoProceso : 'PRENDARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547857',
+    capitalAdeudado: 12128189,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-06-12T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 39,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 14,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
         377815178176828,
         53037234659826290
       ],
-      obligacion2            : 53037234659826290,
-      entregaGarantiasAbogado: '2017-06-12',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '39'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '14'
-        }
-      },
-      radicado      : '2017-00800',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '14'
-      }
+      radicado: '2017-00800',
+      vencimientoPagare:
+        '2019-11-05T00:00:00.000Z'
     },
-    capitalAdeudado: 12128189,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400303920170080000',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 85,
-    id    : '39673896',
     deudor: {
-      cedula: 39673896,
-      nombreCompleto:
-        'SANDRA PATRICIA MALAVER ALVAREZ',
-      primerNombre   : 'SANDRA',
-      segundoNombre  : 'PATRICIA',
-      primerApellido : 'MALAVER',
-      segundoApellido: 'ALVAREZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303420170083400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 86,
-    id    : '1087781966',
-    deudor: {
-      cedula        : 1087781966,
-      nombreCompleto: 'RHONALD MEZA TARAPUES',
-      tel           : {
-        fijo   : '4062925 ',
-        celular: ''
-      },
-      email: 'mezaronald@yahoo.com',
+      cedula: 79108747,
       direccion:
-        'CARRERA 73 A BIS No. 2 A-32 SUR BOGOTA',
-      primerNombre   : 'RHONALD',
-      primerApellido : 'MEZA',
-      segundoApellido: 'TARAPUES'
+        'CARRERA 17 A No. 175-82 INTERIOR 1 PTO 601',
+      email          : 'edgarH62@hotmail.com',
+      primerApellido : 'HERNANDEZ',
+      primerNombre   : 'EDGAR',
+      segundoApellido: 'RUBIO',
+      tel            : {
+        celular: 3118802970,
+        fijo   : 8054434
+      }
     },
-    demanda: {
-      vencimientoPagare: '2018-11-11',
-      obligacion       : [
-        2250084171
-      ],
-      entregaGarantiasAbogado: '2017-06-12',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
+    grupo    : 'Reintegra',
+    id       : 79108747,
+    idProceso: [
+      0
+    ],
+    llaveProceso: '11001400303920170080000',
+    numero      : 84,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d7933454785d',
+    capitalAdeudado: 26515333,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '1899-12-30T00:00:00.000Z',
+      etapaProcesal: 'EJECUCION',
+      juzgado      : [
+        {
+          id  : 34,
           tipo: 'Civil Municipal',
-          id  : '22'
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota'
         },
-        ejecucion: {
+        {
+          id  : 12,
           tipo: 'Civil Municipal de Ejecucion',
-          id  : '2'
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-12-de-ejecucion-civil-municipal-de-bogota'
         }
-      },
-      radicado      : '2017-00567',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '2'
-      }
-    },
-    capitalAdeudado: 17632026,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400302220170056700',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 87,
-    id    : '4198210',
-    deudor: {
-      cedula         : 4198210,
-      nombreCompleto : 'OMAR ESPITIA REYES',
-      primerNombre   : 'OMAR',
-      primerApellido : 'ESPITIA',
-      segundoApellido: 'REYES',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304620170056100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 88,
-    id    : '51890871',
-    deudor: {
-      cedula         : 51890871,
-      nombreCompleto : 'IDALY FERRO CARDONA',
-      primerNombre   : 'IDALY',
-      primerApellido : 'FERRO',
-      segundoApellido: 'CARDONA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '1100140030820170052800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 89,
-    id    : '1030551366',
-    deudor: {
-      cedula: 1030551366,
-      nombreCompleto:
-        'JULIAN ARMANDO ACOSTA RODRIGUEZ',
-      primerNombre   : 'JULIAN',
-      segundoNombre  : 'ARMANDO',
-      primerApellido : 'ACOSTA',
-      segundoApellido: 'RODRIGUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306520170093400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 90,
-    id    : '1032432802',
-    deudor: {
-      cedula: 1032432802,
-      nombreCompleto:
-        'LUIS ESNEIDER ORDUZ FARFAN',
-      tel: {
-        fijo   : '4712921',
-        celular: ''
-      },
-      email          : 'orduzcrit2@hotmail.com',
-      direccion      : 'CARRERA 95 # 138 - 58',
-      primerNombre   : 'LUIS',
-      segundoNombre  : 'ESNEIDER',
-      primerApellido : 'ORDUZ',
-      segundoApellido: 'FARFAN'
-    },
-    demanda: {
-      vencimientoPagare: '2020-06-09',
-      obligacion       : [
+      ],
+      obligacion: [
         12330030
       ],
-      entregaGarantiasAbogado: '1899-12-30',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota',
-          id  : '34'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-12-de-ejecucion-civil-municipal-de-bogota',
-          id  : '12'
-        }
-      },
-      radicado      : '2017 - 00836',
-      etapaProcesal : 'EJECUCION',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-12-de-ejecucion-civil-municipal-de-bogota',
-        id  : '12'
-      }
+      radicado: '2017 - 00836',
+      vencimientoPagare:
+        '2020-06-09T00:00:00.000Z'
     },
-    capitalAdeudado: 26515333,
-    tipoProceso    : 'PRENDARIO',
-    llaveProceso   : '11001400303420170083600',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 91,
-    id    : '79456791',
     deudor: {
-      cedula         : 79456791,
-      nombreCompleto : 'JAIME JESUS REYES OROZCO',
-      primerNombre   : 'JAIME',
-      segundoNombre  : 'JESUS',
-      primerApellido : 'REYES',
-      segundoApellido: 'OROZCO',
+      cedula         : 1032432802,
+      direccion      : 'CARRERA 95 # 138 - 58',
+      email          : 'orduzcrit2@hotmail.com',
+      primerApellido : 'ORDUZ',
+      primerNombre   : 'LUIS',
+      segundoApellido: 'FARFAN',
+      segundoNombre  : 'ESNEIDER',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 0,
+        fijo   : 4712921
       }
     },
-    capitalAdeudado: 0,
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2023-07-24T05:00:00.000Z',
+    grupo    : 'Bancolombia',
+    id       : 1032432802,
+    idProceso: [
+      50521480,
+      81728891
+    ],
+    idProcesos: [
+      50521480
+    ],
+    llaveProceso: '11001400303420170083600',
+    numero      : 90,
+    tipoProceso : 'PRENDARIO'
   },
   {
-    numero: 92,
-    id    : '52214536',
-    deudor: {
-      cedula: 52214536,
-      nombreCompleto:
-        'MAGDA MILENA SALINAS RODRIGUEZ',
-      primerNombre   : 'MAGDA',
-      segundoNombre  : 'MILENA',
-      primerApellido : 'SALINAS',
-      segundoApellido: 'RODRIGUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301320170084100',
-    grupo          : 'Terminados',
+    _id            : '64cc10e7ea30d7933454786a',
+    capitalAdeudado: 43921469,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-06-12T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 826,
+          tipo: 'Civil Municipal/Civil Municipal'
         },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+        {
+          id  : 18,
+          tipo: 'Civil Municipal de Ejecucion'
         }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 93,
-    id    : '1140835529',
-    deudor: {
-      cedula: 1140835529,
-      nombreCompleto:
-        'VIVIAN PAOLA BRUGES MEDINA',
-      primerNombre   : 'VIVIAN',
-      segundoNombre  : 'PAOLA',
-      primerApellido : 'BRUGES',
-      segundoApellido: 'MEDINA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25126408900120170049600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 94,
-    id    : '1030527169',
-    deudor: {
-      cedula: 1030527169,
-      nombreCompleto:
-        'AIDA YURANI GRIJALBA MARTINEZ',
-      primerNombre   : 'AIDA',
-      segundoNombre  : 'YURANI',
-      primerApellido : 'GRIJALBA',
-      segundoApellido: 'MARTINEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305620170059100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 95,
-    id    : '1015410386',
-    deudor: {
-      cedula         : 1015410386,
-      nombreCompleto : 'EDWIN JHOBANI PEREZ PITA',
-      primerNombre   : 'EDWIN',
-      segundoNombre  : 'JHOBANI',
-      primerApellido : 'PEREZ',
-      segundoApellido: 'PITA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302820170057500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 96,
-    id    : '52818959',
-    deudor: {
-      cedula         : 52818959,
-      nombreCompleto : 'YURANNY POLANCO CESPEDES',
-      primerNombre   : 'YURANNY',
-      primerApellido : 'POLANCO',
-      segundoApellido: 'CESPEDES',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305320170087100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 97,
-    id    : '19270589',
-    deudor: {
-      cedula: 19270589,
-      nombreCompleto:
-        'JOSE ALFREDO RIAÑO MALDONADO',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'ALFREDO',
-      primerApellido : 'RIAÑO',
-      segundoApellido: 'MALDONADO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308520160031900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 98,
-    id    : '41672170',
-    deudor: {
-      cedula: 41672170,
-      nombreCompleto:
-        'MARIA DEL CARMEN CHAPARRO LEMUS',
-      primerNombre   : 'MARIA',
-      segundoNombre  : 'DEL',
-      primerApellido : 'CARMEN',
-      segundoApellido: 'CHAPARRO LEMUS ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301120170062300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 99,
-    id    : '79996551',
-    deudor: {
-      cedula: 79996551,
-      nombreCompleto:
-        'YONI ALEXANDER RESTREPO PEÑUELA',
-      primerNombre   : 'YONI',
-      segundoNombre  : 'ALEXANDER',
-      primerApellido : 'RESTREPO',
-      segundoApellido: 'PEÑUELA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '1100141037512017111000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 100,
-    id    : '80430881',
-    deudor: {
-      cedula         : 80430881,
-      nombreCompleto : 'JHON JAIRO RUBIO ORTIZ',
-      primerNombre   : 'JHON',
-      segundoNombre  : 'JAIRO',
-      primerApellido : 'RUBIO',
-      segundoApellido: 'ORTIZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25430418900120170068400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 101,
-    id    : '57452535',
-    deudor: {
-      cedula: 57452535,
-      nombreCompleto:
-        'LEILA JOHANNA MARTINEZ MORA',
-      primerNombre   : 'LEILA',
-      segundoNombre  : 'JOHANNA',
-      primerApellido : 'MARTINEZ',
-      segundoApellido: 'MORA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301020170065301',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 102,
-    id    : '1070329396',
-    deudor: {
-      cedula: 1070329396,
-      nombreCompleto:
-        'ERIKA ALEJANDRA QUINTERO REYES',
-      tel: {
-        fijo   : '',
-        celular: '3114456631'
-      },
-      direccion      : 'CALL 2 No. 8-40 EL COLEGIO',
-      primerNombre   : 'ERIKA',
-      segundoNombre  : 'ALEJANDRA',
-      primerApellido : 'QUINTERO',
-      segundoApellido: 'REYES'
-    },
-    demanda: {
-      vencimientoPagare: '2019-07-05',
-      obligacion       : [
-        7300080586
       ],
-      entregaGarantiasAbogado: '2017-06-12',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'MESITAS',
-      juzgado                : {
-        origen: {
-          tipo: ' PM',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-001-promiscuo-municipal-de-el-colegio',
-          id  : '001'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017-00239',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: ' PM',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-001-promiscuo-municipal-de-el-colegio',
-        id  : '001'
-      }
-    },
-    capitalAdeudado: 50000000,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '25245408900120170023900',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 103,
-    id    : '16831314',
-    deudor: {
-      cedula: 16831314,
-      nombreCompleto:
-        'EDUARDO ENRIQUE ARANGO CHACON',
-      tel: {
-        fijo   : '',
-        celular: '3216066052'
-      },
-      email          : 'kikearango@hotmail.com',
-      direccion      : 'CARRERA 74 No. 25 G-69',
-      primerNombre   : 'EDUARDO',
-      segundoNombre  : 'ENRIQUE',
-      primerApellido : 'ARANGO',
-      segundoApellido: 'CHACON'
-    },
-    demanda: {
-      vencimientoPagare: '2019-05-13',
-      obligacion       : [
+      obligacion: [
         '1800088189//377813488630162',
         '4513071987853655//5303715363121332'
       ],
-      obligacion2:
-        '4513071987853655//5303715363121332',
-      entregaGarantiasAbogado: '2017-06-12',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal/Civil Municipal',
-          id  : '826'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '18'
-        }
-      },
-      radicado      : '2017-00680',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '18'
-      }
+      radicado: '2017-00680',
+      vencimientoPagare:
+        '2019-05-13T00:00:00.000Z'
     },
-    capitalAdeudado: 43921469,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400308220170068000',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 104,
-    id    : '51922135',
     deudor: {
-      cedula         : 51922135,
-      nombreCompleto : 'NANCY HERRERA MENDEZ',
-      primerNombre   : 'NANCY',
-      primerApellido : 'HERRERA',
-      segundoApellido: 'MENDEZ',
+      cedula         : 16831314,
+      direccion      : 'CARRERA 74 No. 25 G-69',
+      email          : 'kikearango@hotmail.com',
+      primerApellido : 'ARANGO',
+      primerNombre   : 'EDUARDO',
+      segundoApellido: 'CHACON',
+      segundoNombre  : 'ENRIQUE',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 3216066052,
+        fijo   : 0
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300620170041700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2023-05-11T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 16831314,
+    idProceso: [
+      51619370,
+      81869501
+    ],
+    idProcesos: [
+      51619370
+    ],
+    llaveProceso: '11001400308220170068000',
+    numero      : 103,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 105,
-    id    : '15319344',
-    deudor: {
-      cedula: 15319344,
-      nombreCompleto:
-        'ESTELIO DE JESUS  ROLDAN POZO',
-      primerNombre   : 'ESTELIO',
-      segundoNombre  : 'DE JESUS ',
-      primerApellido : '',
-      segundoApellido: 'ROLDAN POZO ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300720170111300',
-    grupo          : 'Terminados',
+    _id            : '64cc10e7ea30d7933454786d',
+    capitalAdeudado: 16497281,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-06-12T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 59,
+          tipo: 'Civil Municipal'
         },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+        {
+          id  : 15,
+          tipo: 'Civil Municipal de Ejecucion'
         }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 106,
-    id    : '501492',
-    deudor: {
-      cedula        : 501492,
-      nombreCompleto: 'DANIEL HERNANDEZ GONZALEZ',
-      tel           : {
-        fijo   : '2716567',
-        celular: ''
-      },
-      email          : 'danielher84@gmail.com',
-      direccion      : 'CALLE 134 No. 58-58',
-      primerNombre   : 'DANIEL',
-      primerApellido : 'HERNANDEZ',
-      segundoApellido: 'GONZALEZ'
-    },
-    demanda: {
-      vencimientoPagare: '2018-08-28',
-      obligacion       : [
+      ],
+      obligacion: [
         12515504
       ],
-      entregaGarantiasAbogado: '2017-06-12',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '59'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '15'
-        }
-      },
-      radicado      : '2017 - 00483',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '15'
-      }
+      radicado: '2017 - 00483',
+      vencimientoPagare:
+        '2018-08-28T00:00:00.000Z'
     },
-    capitalAdeudado: 16497281,
-    tipoProceso    : 'PRENDARIO',
-    llaveProceso   : '11001400305920170048300',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 107,
-    id    : '80112954',
     deudor: {
-      cedula: 80112954,
-      nombreCompleto:
-        'HANYELO EFRAIN MARTINEZ TURRIAGO',
-      primerNombre   : 'HANYELO',
-      segundoNombre  : 'EFRAIN',
-      primerApellido : 'MARTINEZ',
-      segundoApellido: 'TURRIAGO',
+      cedula         : 501492,
+      direccion      : 'CALLE 134 No. 58-58',
+      email          : 'danielher84@gmail.com',
+      primerApellido : 'HERNANDEZ',
+      primerNombre   : 'DANIEL',
+      segundoApellido: 'GONZALEZ',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 0,
+        fijo   : 2716567
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305720170079000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2023-02-27T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 501492,
+    idProceso: [
+      50514310
+    ],
+    llaveProceso: '11001400305920170048300',
+    numero      : 106,
+    tipoProceso : 'PRENDARIO'
   },
   {
-    numero: 108,
-    id    : '79558732',
-    deudor: {
-      cedula: 79558732,
-      nombreCompleto:
-        'MIGUEL ANGEL HUERTAS VALENCIA',
-      tel: {
-        fijo   : '2723136',
-        celular: ''
-      },
-      email          : 'miguelangelhuertasv@hotmail.com',
-      direccion      : 'TRANVERSAL 15A # 31-09 SUR',
-      primerNombre   : 'MIGUEL',
-      segundoNombre  : 'ANGEL',
-      primerApellido : 'HUERTAS',
-      segundoApellido: 'VALENCIA'
-    },
-    demanda: {
-      vencimientoPagare: '2020-06-07',
-      obligacion       : [
+    _id            : '64cc10e7ea30d7933454786f',
+    capitalAdeudado: 211610991,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-06-12T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 25,
+          tipo: 'Civil del Circuito'
+        },
+        {
+          id  : 2,
+          tipo: ' C CTO E'
+        }
+      ],
+      obligacion: [
         12455661,
         '12657330//12748966'
       ],
-      obligacion2            : '12657330//12748966',
-      entregaGarantiasAbogado: '2017-06-12',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: ' CC',
-          id  : '25'
-        },
-        ejecucion: {
-          tipo: ' C CTO E',
-          id  : '2'
-        }
-      },
-      radicado      : '2017 - 00736',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: ' C CTO E',
-        id  : '2'
-      }
-    },
-    capitalAdeudado: 211610991,
-    tipoProceso    : 'PRENDARIO',
-    llaveProceso   : '11001310302520170073600',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 109,
-    id    : '1018428090',
-    deudor: {
-      cedula         : 1018428090,
-      nombreCompleto : 'OSCAR IVAN AGUDELO MORA',
-      primerNombre   : 'OSCAR',
-      segundoNombre  : 'IVAN',
-      primerApellido : 'AGUDELO',
-      segundoApellido: 'MORA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302420180011900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 110,
-    id    : '46677093',
-    deudor: {
-      cedula         : 46677093,
-      nombreCompleto : 'MARLENE RONCANCIO BENITEZ',
-      primerNombre   : 'MARLENE',
-      primerApellido : 'RONCANCIO',
-      segundoApellido: 'BENITEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304520170077400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 111,
-    id    : '1020743892',
-    deudor: {
-      cedula: 1020743892,
-      nombreCompleto:
-        'KAREN VIVIANA CASTAÑO CORONADO',
-      primerNombre   : 'KAREN',
-      segundoNombre  : 'VIVIANA',
-      primerApellido : 'CASTAÑO',
-      segundoApellido: 'CORONADO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305420170071200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 112,
-    id    : '23993605',
-    deudor: {
-      cedula: 23993605,
-      nombreCompleto:
-        'MARIA TRINIDAD SOTELO TORRES',
-      primerNombre   : 'MARIA',
-      segundoNombre  : 'TRINIDAD',
-      primerApellido : 'SOTELO',
-      segundoApellido: 'TORRES',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302020170097400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 113,
-    id    : '53178044',
-    deudor: {
-      cedula: 53178044,
-      nombreCompleto:
-        'SANDRA BIBIANA URREGO MAYORGA',
-      primerNombre   : 'SANDRA',
-      segundoNombre  : 'BIBIANA',
-      primerApellido : 'URREGO',
-      segundoApellido: 'MAYORGA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303020170181700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 114,
-    id    : '79209455',
-    deudor: {
-      cedula         : 79209455,
-      nombreCompleto : 'JOSE ANTONIO CAICEDO RUIZ',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'ANTONIO',
-      primerApellido : 'CAICEDO',
-      segundoApellido: 'RUIZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754418900220170075200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 115,
-    id    : '52174728',
-    deudor: {
-      cedula: 52174728,
-      nombreCompleto:
-        'SILVIA MARIA VALENZUELA VELASQUEZ',
-      primerNombre   : 'SILVIA',
-      segundoNombre  : 'MARIA',
-      primerApellido : 'VALENZUELA',
-      segundoApellido: 'VELASQUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305220170080900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 116,
-    id    : '52548162',
-    deudor: {
-      cedula         : 52548162,
-      nombreCompleto : 'ANA KARINA MANTILLA PARDO',
-      primerNombre   : 'ANA',
-      segundoNombre  : 'KARINA',
-      primerApellido : 'MANTILLA',
-      segundoApellido: 'PARDO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301020170083000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 117,
-    id    : '19386444',
-    deudor: {
-      cedula: 19386444,
-      nombreCompleto:
-        'NICOLAS FERNANDO MONTOYA CORREA',
-      tel: {
-        fijo   : '2531962',
-        celular: ''
-      },
-      email: 3176677592,
-      direccion:
-        'CALLE 18 # 19 - 75 / CALLE 26 NTE No. 5A - 54 Cali - Valle',
-      primerNombre   : 'NICOLAS',
-      segundoNombre  : 'FERNANDO',
-      primerApellido : 'MONTOYA',
-      segundoApellido: 'CORREA'
-    },
-    demanda: {
-      vencimientoPagare: '2019-01-21',
-      obligacion       : [
-        420087224
-      ],
-      entregaGarantiasAbogado: '2017-06-12',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '70'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '14'
-        }
-      },
-      radicado      : '2017 - 00566',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '14'
-      }
-    },
-    capitalAdeudado: 17256863,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400307020170056600',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 118,
-    id    : '19308014',
-    deudor: {
-      cedula         : 19308014,
-      nombreCompleto : 'JAIME ORLANDO PEÑA ROJAS',
-      primerNombre   : 'JAIME',
-      segundoNombre  : 'ORLANDO',
-      primerApellido : 'PEÑA',
-      segundoApellido: 'ROJAS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305320170145600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 119,
-    id    : '79693495',
-    deudor: {
-      cedula         : 79693495,
-      nombreCompleto : 'CESAR AUGUSTO GIL GALLEGO',
-      primerNombre   : 'CESAR',
-      segundoNombre  : 'AUGUSTO',
-      primerApellido : 'GIL',
-      segundoApellido: 'GALLEGO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301420170098800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 120,
-    id    : '900212673',
-    deudor: {
-      cedula        : 900212673,
-      nombreCompleto: 'JENCELL E.U.',
-      tel           : {
-        fijo   : '5753416',
-        celular: ''
-      },
-      direccion     : 'CARRERA 3 # 29A - 02',
-      primerNombre  : 'JENCELL',
-      primerApellido: 'E.U.'
-    },
-    demanda: {
-      vencimientoPagare: '2021-04-12',
-      obligacion       : [
-        6240082776
-      ],
-      entregaGarantiasAbogado: '2017-08-04',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'SOACHA',
-      juzgado                : {
-        origen: {
-          id  : 3,
-          tipo: 'Pequeñas Causas y Competencias Multiples',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-03-municipal-de-pequenas-causas-y-competencia-multiple-de-soacha'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017 - 00755',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        id  : 3,
-        tipo: 'Pequeñas Causas y Competencias Multiples',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-03-municipal-de-pequenas-causas-y-competencia-multiple-de-soacha'
-      }
-    },
-    capitalAdeudado: 13906249,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '25754418900320170075500',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 121,
-    id    : '19453362',
-    deudor: {
-      cedula: 19453362,
-      nombreCompleto:
-        'JAIME ORLANDO LUGO RODRIGUEZ',
-      primerNombre   : 'JAIME',
-      segundoNombre  : 'ORLANDO',
-      primerApellido : 'LUGO',
-      segundoApellido: 'RODRIGUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25430400300120180027300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 122,
-    id    : '52543321',
-    deudor: {
-      cedula: 52543321,
-      nombreCompleto:
-        'PAOLA ANDREA FERNANDEZ RINCON',
-      primerNombre   : 'PAOLA',
-      segundoNombre  : 'ANDREA',
-      primerApellido : 'FERNANDEZ',
-      segundoApellido: 'RINCON',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304020170119300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 123,
-    id    : '79547983',
-    deudor: {
-      cedula: 79547983,
-      nombreCompleto:
-        'GUSTAVO SANTAMARIA MOSQUERA',
-      primerNombre   : 'GUSTAVO',
-      primerApellido : 'SANTAMARIA',
-      segundoApellido: 'MOSQUERA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306920170075400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 124,
-    id    : '40025572',
-    deudor: {
-      cedula: 40025572,
-      nombreCompleto:
-        'BLANCA EDELMIRA ARIAS MELO',
-      primerNombre   : 'BLANCA',
-      segundoNombre  : 'EDELMIRA',
-      primerApellido : 'ARIAS',
-      segundoApellido: 'MELO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303320170118000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 125,
-    id    : '74338870',
-    deudor: {
-      cedula: 74338870,
-      nombreCompleto:
-        'MILCIADES GALINDO CASTEBLANCO',
-      tel: {
-        fijo   : '4536131',
-        celular: ''
-      },
-      direccion      : 'CARRERA 18 # 12 - 72',
-      primerNombre   : 'MILCIADES',
-      primerApellido : 'GALINDO',
-      segundoApellido: 'CASTEBLANCO'
-    },
-    demanda: {
-      vencimientoPagare: '2020-11-27',
-      obligacion       : [
-        300093705
-      ],
-      entregaGarantiasAbogado: '2017-06-12',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '47'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017 - 01520',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '47'
-      }
-    },
-    capitalAdeudado: 21613985,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400304720170152000',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 126,
-    id    : '79834592',
-    deudor: {
-      cedula: 79834592,
-      nombreCompleto:
-        'YONNY ARTURO PINZON PULIDO',
-      primerNombre   : 'YONNY',
-      segundoNombre  : 'ARTURO',
-      primerApellido : 'PINZON',
-      segundoApellido: 'PULIDO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754418900320170076200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 127,
-    id    : '41610065',
-    deudor: {
-      cedula: 41610065,
-      nombreCompleto:
-        'ZOILA IRENE SUAVITA DE TRILLERAS',
-      primerNombre   : 'ZOILA',
-      segundoNombre  : 'IRENE',
-      primerApellido : 'SUAVITA',
-      segundoApellido: 'DE TRILLERAS ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308020170073500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 128,
-    id    : '52385097',
-    deudor: {
-      cedula: 52385097,
-      nombreCompleto:
-        'MARIA GLADYS  GONZALEZ SOSA',
-      primerNombre   : 'MARIA',
-      segundoNombre  : 'GLADYS',
-      primerApellido : '',
-      segundoApellido: 'GONZALEZ SOSA ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307820170073300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 129,
-    id    : '41709257',
-    deudor: {
-      cedula        : 41709257,
-      nombreCompleto: 'ELENA QUIÑONES',
-      primerNombre  : 'ELENA',
-      primerApellido: 'QUIÑONES',
-      tel           : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304320170106400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 130,
-    id    : '77010352',
-    deudor: {
-      cedula: 77010352,
-      nombreCompleto:
-        'ARMANDO ENRIQUE ROSADO MESTRE',
-      primerNombre   : 'ARMANDO',
-      segundoNombre  : 'ENRIQUE',
-      primerApellido : 'ROSADO',
-      segundoApellido: 'MESTRE',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306420170115300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 131,
-    id    : '52830770',
-    deudor: {
-      cedula: 52830770,
-      nombreCompleto:
-        'ROCIO ALEIDA ORTIZ BARRETO',
-      primerNombre   : 'ROCIO',
-      segundoNombre  : 'ALEIDA',
-      primerApellido : 'ORTIZ',
-      segundoApellido: 'BARRETO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754418900120170077400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 132,
-    id    : '80049317',
-    deudor: {
-      cedula: 80049317,
-      nombreCompleto:
-        'JOVANI EMILIO RESTREPO RAMIREZ',
-      primerNombre   : 'JOVANI',
-      segundoNombre  : 'EMILIO',
-      primerApellido : 'RESTREPO',
-      segundoApellido: 'RAMIREZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306820170105100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 133,
-    id    : '80820336',
-    deudor: {
-      cedula: 80820336,
-      nombreCompleto:
-        'CARLOS GIOVANNY RONDON GARCIA',
-      primerNombre   : 'CARLOS',
-      segundoNombre  : 'GIOVANNY',
-      primerApellido : 'RONDON',
-      segundoApellido: 'GARCIA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301220170095000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 134,
-    id    : '80722626',
-    deudor: {
-      cedula: 80722626,
-      nombreCompleto:
-        'FREDY ALEXANDER BUENO PARADA',
-      primerNombre   : 'FREDY',
-      segundoNombre  : 'ALEXANDER',
-      primerApellido : 'BUENO',
-      segundoApellido: 'PARADA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25430400300120170108300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 135,
-    id    : '5654542',
-    deudor: {
-      cedula: 5654542,
-      nombreCompleto:
-        'RUBER ANDRES VALENZUELA SIERRA',
-      primerNombre   : 'RUBER',
-      segundoNombre  : 'ANDRES',
-      primerApellido : 'VALENZUELA',
-      segundoApellido: 'SIERRA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300420170063900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 136,
-    id    : '79463388',
-    deudor: {
-      cedula: 79463388,
-      nombreCompleto:
-        'JORGE ERNESTO ROA MANRIQUE',
-      primerNombre   : 'JORGE',
-      segundoNombre  : 'ERNESTO',
-      primerApellido : 'ROA',
-      segundoApellido: 'MANRIQUE',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304720170149100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 137,
-    id    : '52818134',
-    deudor: {
-      cedula         : 52818134,
-      nombreCompleto : 'EDNA MILENA MUÑOZ SANCHEZ',
-      primerNombre   : 'EDNA',
-      segundoNombre  : 'MILENA',
-      primerApellido : 'MUÑOZ',
-      segundoApellido: 'SANCHEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304720170171300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 138,
-    id    : '52323645',
-    deudor: {
-      cedula: 52323645,
-      nombreCompleto:
-        'FLOR YAMILE BARRANTES CARO',
-      primerNombre   : 'FLOR',
-      segundoNombre  : 'YAMILE',
-      primerApellido : 'BARRANTES',
-      segundoApellido: 'CARO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306420170116000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 139,
-    id    : '20896387',
-    deudor: {
-      cedula: 20896387,
-      nombreCompleto:
-        'ANA EMILCE ROJAS SARMIENTO',
-      primerNombre   : 'ANA',
-      segundoNombre  : 'EMILCE',
-      primerApellido : 'ROJAS',
-      segundoApellido: 'SARMIENTO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306120170079300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 140,
-    id    : '80933170',
-    deudor: {
-      cedula         : 80933170,
-      nombreCompleto : 'JHON FABER FORIGUA GARCIA',
-      primerNombre   : 'JHON',
-      segundoNombre  : 'FABER',
-      primerApellido : 'FORIGUA',
-      segundoApellido: 'GARCIA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307720170056800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 141,
-    id    : '79412583',
-    deudor: {
-      cedula: 79412583,
-      nombreCompleto:
-        'EDGAR DAVID HERNANDEZ RINCON',
-      primerNombre   : 'EDGAR',
-      segundoNombre  : 'DAVID',
-      primerApellido : 'HERNANDEZ',
-      segundoApellido: 'RINCON',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303920170110000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 142,
-    id    : '36184358',
-    deudor: {
-      cedula         : 36184358,
-      nombreCompleto : 'DEISY POLANIA CUELLAR',
-      primerNombre   : 'DEISY',
-      primerApellido : 'POLANIA',
-      segundoApellido: 'CUELLAR',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25286310300120170074200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 143,
-    id    : '1023904524',
-    deudor: {
-      cedula: 1023904524,
-      nombreCompleto:
-        'PAOLA ANDREA RODRIGUEZ MORALES',
-      primerNombre   : 'PAOLA',
-      segundoNombre  : 'ANDREA',
-      primerApellido : 'RODRIGUEZ',
-      segundoApellido: 'MORALES',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303420170108900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 144,
-    id    : '52581513',
-    deudor: {
-      cedula: 52581513,
-      nombreCompleto:
-        'MARIA FILOMENA GONZALES SALAS',
-      primerNombre   : 'MARIA',
-      segundoNombre  : 'FILOMENA',
-      primerApellido : 'GONZALES',
-      segundoApellido: 'SALAS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302620170087200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 145,
-    id    : '79714749',
-    deudor: {
-      cedula: 79714749,
-      nombreCompleto:
-        'JHON JAMINTON FUENTES CARREÑO',
-      primerNombre   : 'JHON',
-      segundoNombre  : 'JAMINTON',
-      primerApellido : 'FUENTES',
-      segundoApellido: 'CARREÑO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305520170081700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 146,
-    id    : '4520757',
-    deudor: {
-      cedula         : 4520757,
-      nombreCompleto : 'PEDRO NEL PELAEZ TISNES',
-      primerNombre   : 'PEDRO',
-      segundoNombre  : 'NEL',
-      primerApellido : 'PELAEZ',
-      segundoApellido: 'TISNES',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308620170082600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 147,
-    id    : '80080669',
-    deudor: {
-      cedula: 80080669,
-      nombreCompleto:
-        'MILTON ANDRES LAITON RINCON',
-      primerNombre   : 'MILTON',
-      segundoNombre  : 'ANDRES',
-      primerApellido : 'LAITON',
-      segundoApellido: 'RINCON',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305920170074700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 148,
-    id    : '79505815',
-    deudor: {
-      cedula: 79505815,
-      nombreCompleto:
-        'NESTOR GERARDO OSORIO MORALES',
-      primerNombre   : 'NESTOR',
-      segundoNombre  : 'GERARDO',
-      primerApellido : 'OSORIO',
-      segundoApellido: 'MORALES',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300920170081300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 149,
-    id    : '23181779',
-    deudor: {
-      cedula: 23181779,
-      nombreCompleto:
-        'MAGDA TATIANA TORRES GONZALEZ',
-      primerNombre   : 'MAGDA',
-      segundoNombre  : 'TATIANA',
-      primerApellido : 'TORRES',
-      segundoApellido: 'GONZALEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754400300220170025600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 150,
-    id    : '79988076',
-    deudor: {
-      cedula         : 79988076,
-      nombreCompleto : 'VICTOR TRIANA ALARCON',
-      primerNombre   : 'VICTOR',
-      primerApellido : 'TRIANA',
-      segundoApellido: 'ALARCON',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '2575440030012017024900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 151,
-    id    : '88227428',
-    deudor: {
-      cedula: 88227428,
-      nombreCompleto:
-        'ANDRES FELIPE HIGUITA CARDONA',
-      primerNombre   : 'ANDRES',
-      segundoNombre  : 'FELIPE',
-      primerApellido : 'HIGUITA',
-      segundoApellido: 'CARDONA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307320170113500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 152,
-    id    : '1032431042',
-    deudor: {
-      cedula         : 1032431042,
-      nombreCompleto : 'NICOLAS OSORIO RODRIGUEZ',
-      primerNombre   : 'NICOLAS',
-      primerApellido : 'OSORIO',
-      segundoApellido: 'RODRIGUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '110014007320170113600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 153,
-    id    : '52230614',
-    deudor: {
-      cedula: 52230614,
-      nombreCompleto:
-        'MARBELL ROCIO DOMINGUEZ ALVAREZ',
-      primerNombre   : 'MARBELL',
-      segundoNombre  : 'ROCIO',
-      primerApellido : 'DOMINGUEZ',
-      segundoApellido: 'ALVAREZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754418900220170071400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 154,
-    id    : '79840930',
-    deudor: {
-      cedula: 79840930,
-      nombreCompleto:
-        'GABRIEL EDUARDO MEJIA LADINO',
-      tel: {
-        fijo   : '',
-        celular: ''
-      },
-      email: 'gabriel.eml@hotmail.com',
-      direccion:
-        'CARRERA 79 BIS A # 73 - 92 SUR APTO 304 INT 3',
-      primerNombre   : 'GABRIEL',
-      segundoNombre  : 'EDUARDO',
-      primerApellido : 'MEJIA',
-      segundoApellido: 'LADINO'
-    },
-    demanda: {
+      radicado: '2017 - 00736',
       vencimientoPagare:
-        '21/02/2018 // 26/10/20247',
+        '2020-06-07T00:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 79558732,
+      direccion      : 'TRANVERSAL 15A # 31-09 SUR',
+      email          : 'miguelangelhuertasv@hotmail.com',
+      primerApellido : 'HUERTAS',
+      primerNombre   : 'MIGUEL',
+      segundoApellido: 'VALENCIA',
+      segundoNombre  : 'ANGEL',
+      tel            : {
+        celular: 0,
+        fijo   : 2723136
+      }
+    },
+    fecha    : '2023-06-30T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 79558732,
+    idProceso: [
+      28937944
+    ],
+    llaveProceso: '11001310302520170073600',
+    numero      : 108,
+    tipoProceso : 'PRENDARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d7933454789d',
+    capitalAdeudado: 29366625,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-23T00:00:00.000Z',
+      juzgado: [
+        {
+          id  : 36,
+          tipo: 'Civil Municipal'
+        }
+      ],
       obligacion: [
         5670083032,
         '377813199287708 // 4513075700372455 // 123470'
       ],
-      obligacion2:
-        '377813199287708 // 4513075700372455 // 123470',
-      entregaGarantiasAbogado: '2017-08-23',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '36'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017 - 00841',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '36'
-      }
+      radicado         : '2017 - 00841',
+      vencimientoPagare: null
     },
-    capitalAdeudado: 29366625,
-    tipoProceso    : 'HIPOTECARIO',
-    llaveProceso   : '11001400303620170084100',
-    grupo          : 'LiosJuridicos'
-  },
-  {
-    numero: 155,
-    id    : '71557211',
     deudor: {
-      cedula: 71557211,
-      nombreCompleto:
-        'CARLOS ARTURO RUEDA ALZATE',
-      primerNombre   : 'CARLOS',
-      segundoNombre  : 'ARTURO',
-      primerApellido : 'RUEDA',
-      segundoApellido: 'ALZATE',
+      cedula: 79840930,
+      direccion:
+        'CARRERA 79 BIS A # 73 - 92 SUR APTO 304 INT 3',
+      email          : 'gabriel.eml@hotmail.com',
+      primerApellido : 'MEJIA',
+      primerNombre   : 'GABRIEL',
+      segundoApellido: 'LADINO',
+      segundoNombre  : 'EDUARDO',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 0,
+        fijo   : 0
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308320170071700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2023-07-10T05:00:00.000Z',
+    grupo    : 'LiosJuridicos',
+    id       : 79840930,
+    idProceso: [
+      50688820
+    ],
+    llaveProceso: '11001400303620170084100',
+    numero      : 154,
+    tipoProceso : 'HIPOTECARIO'
   },
   {
-    numero: 156,
-    id    : '52431512',
-    deudor: {
-      cedula: 52431512,
-      nombreCompleto:
-        'MARTHA PATRICIA MORALES SARMIENTO',
-      primerNombre   : 'MARTHA',
-      segundoNombre  : 'PATRICIA',
-      primerApellido : 'MORALES',
-      segundoApellido: 'SARMIENTO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25473400300120170077700',
-    grupo          : 'Terminados',
+    _id            : '64cc10e7ea30d793345478a8',
+    capitalAdeudado: 44742148,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-07-19T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 76,
+          tipo: 'Civil Municipal'
         },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+        {
+          id  : 4,
+          tipo: 'Civil Municipal de Ejecucion'
         }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 157,
-    id    : '19146821',
-    deudor: {
-      cedula: 19146821,
-      nombreCompleto:
-        'LUIS ALBERTO MENDOZA CASTAÑO',
-      primerNombre   : 'LUIS',
-      segundoNombre  : 'ALBERTO',
-      primerApellido : 'MENDOZA',
-      segundoApellido: 'CASTAÑO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301120170088900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 158,
-    id    : '80808819',
-    deudor: {
-      cedula: 80808819,
-      nombreCompleto:
-        'JULIAN JHOHANY GALLEGO MONTES',
-      primerNombre   : 'JULIAN',
-      segundoNombre  : 'JHOHANY',
-      primerApellido : 'GALLEGO',
-      segundoApellido: 'MONTES',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25899310300120170039300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 159,
-    id    : '98389962',
-    deudor: {
-      cedula         : 98389962,
-      nombreCompleto : 'ALLAN FREDY TOBAR ENCISO',
-      primerNombre   : 'ALLAN',
-      segundoNombre  : 'FREDY',
-      primerApellido : 'TOBAR',
-      segundoApellido: 'ENCISO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307320170133300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 160,
-    id    : '79387342',
-    deudor: {
-      cedula: 79387342,
-      nombreCompleto:
-        'JAIRO ALBERTO CARRILLO SALINAS',
-      primerNombre   : 'JAIRO',
-      segundoNombre  : 'ALBERTO',
-      primerApellido : 'CARRILLO',
-      segundoApellido: 'SALINAS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307820170076200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 161,
-    id    : '79335809',
-    deudor: {
-      cedula: 79335809,
-      nombreCompleto:
-        'RICARDO ALBERTO BELTRAN HERNANDEZ',
-      primerNombre   : 'RICARDO',
-      segundoNombre  : 'ALBERTO',
-      primerApellido : 'BELTRAN',
-      segundoApellido: 'HERNANDEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25286310300120170095600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 162,
-    id    : '900432476',
-    deudor: {
-      cedula: 900432476,
-      nombreCompleto:
-        'MANHATTAN DOTACIONES S.A.S',
-      primerNombre   : 'MANHATTAN',
-      primerApellido : 'DOTACIONES',
-      segundoApellido: 'S.A.S',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304120170094600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 163,
-    id    : '71557211',
-    deudor: {
-      cedula: 71557211,
-      nombreCompleto:
-        'CARLOS ARTURO RUEDA ALZATE',
-      primerNombre   : 'CARLOS',
-      segundoNombre  : 'ARTURO',
-      primerApellido : 'RUEDA',
-      segundoApellido: 'ALZATE',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25473418900120170092400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 164,
-    id    : '14255996',
-    deudor: {
-      cedula        : 14255996,
-      nombreCompleto: 'URIEL RUIZ DIAZ',
-      tel           : {
-        fijo   : '',
-        celular: '3102785072'
-      },
-      direccion      : 'CARRERA 82 A No. 6B-30 CASA 36',
-      primerNombre   : 'URIEL',
-      primerApellido : 'RUIZ',
-      segundoApellido: 'DIAZ'
-    },
-    demanda: {
-      vencimientoPagare: '2019-09-30',
-      obligacion       : [
-        6240082772
       ],
-      entregaGarantiasAbogado: '2017-07-19',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '45'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '2'
-        }
-      },
-      radicado      : '2017 - 00905',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '2'
-      }
-    },
-    capitalAdeudado: 25519225,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400304520170090500',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 165,
-    id    : '86057132',
-    deudor: {
-      cedula        : 86057132,
-      nombreCompleto: 'FREDY MENESES',
-      tel           : {
-        fijo   : '4088069 ',
-        celular: '3125312823'
-      },
-      email         : 'imagenfmr@yahoo.com',
-      direccion     : 'Carrera 40 D No. 1H-28',
-      primerNombre  : 'FREDY',
-      primerApellido: 'MENESES'
-    },
-    demanda: {
-      vencimientoPagare: '2019-08-18',
-      obligacion       : [
+      obligacion: [
         2310089458,
         '4513088545588847// AUDIO PRESTAMO'
       ],
-      obligacion2:
-        '4513088545588847// AUDIO PRESTAMO',
-      entregaGarantiasAbogado: '2017-07-19',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '76'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '4'
-        }
-      },
-      radicado      : '2017 - 00635',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '4'
-      }
+      radicado: '2017 - 00635',
+      vencimientoPagare:
+        '2019-08-18T00:00:00.000Z'
     },
-    capitalAdeudado: 44742148,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400307620170063500',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 166,
-    id    : '52432989',
     deudor: {
-      cedula         : 52432989,
-      nombreCompleto : 'DORA AIDE PEÑA PEÑA',
-      primerNombre   : 'DORA',
-      segundoNombre  : 'AIDE',
-      primerApellido : 'PEÑA',
-      segundoApellido: 'PEÑA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300920170083700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 167,
-    id    : '79688268',
-    deudor: {
-      cedula: 79688268,
-      nombreCompleto:
-        'JOSE MAURICIO GONZALEZ CALDERON',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'MAURICIO',
-      primerApellido : 'GONZALEZ',
-      segundoApellido: 'CALDERON',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001310301020170071000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 168,
-    id    : '21046826',
-    deudor: {
-      cedula: 21046826,
-      nombreCompleto:
-        'MARIA STELLA HERNANDEZ BELTRAN',
-      primerNombre   : 'MARIA',
-      segundoNombre  : 'STELLA',
-      primerApellido : 'HERNANDEZ',
-      segundoApellido: 'BELTRAN',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301920170087200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 169,
-    id    : '23553904',
-    deudor: {
-      cedula        : 23553904,
-      nombreCompleto: 'RITA BLANCO DE GOMEZ',
+      cedula        : 86057132,
+      direccion     : 'Carrera 40 D No. 1H-28',
+      email         : 'imagenfmr@yahoo.com',
+      primerApellido: 'MENESES',
+      primerNombre  : 'FREDY',
       tel           : {
-        fijo   : '3861894',
-        celular: ''
-      },
-      email: 'dorancy1@hotmail.com',
-      direccion:
-        'Carrera 67 No. 65-22 sur Torre 15 Apto 559',
-      primerNombre   : 'RITA',
-      segundoNombre  : 'BLANCO',
-      primerApellido : 'DE',
-      segundoApellido: 'GOMEZ'
+        celular: 3125312823,
+        fijo   : 4088069
+      }
     },
-    demanda: {
-      vencimientoPagare: '2020-03-15',
-      obligacion       : [
-        12498762,
-        'audioprestamo'
-      ],
-      obligacion2            : 'audioprestamo',
-      entregaGarantiasAbogado: '2017-08-01',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
+    fecha    : '2023-05-31T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 86057132,
+    idProceso: [
+      51497380
+    ],
+    llaveProceso: '11001400307620170063500',
+    numero      : 165,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d793345478b1',
+    capitalAdeudado: 14795921,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-22T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 25,
           tipo: 'Civil Municipal',
-          id  : '3'
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-25-civil-municipal-de-bogota'
         },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+        {
+          id  : 18,
+          tipo: 'Civil Municipal de Ejecucion',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota'
         }
-      },
-      radicado      : '2017 - 01264',
-      etapaProcesal : 'NOTIFICACION',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '3'
-      }
-    },
-    capitalAdeudado: 13144437,
-    tipoProceso    : 'PRENDARIO',
-    llaveProceso   : '11001400300320170126400',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 170,
-    id    : '55303731',
-    deudor: {
-      cedula: 55303731,
-      nombreCompleto:
-        'ISABEL CRISTINA GARCIA DURAN',
-      primerNombre   : 'ISABEL',
-      segundoNombre  : 'CRISTINA',
-      primerApellido : 'GARCIA',
-      segundoApellido: 'DURAN',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301320170111400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 171,
-    id    : '1024468871',
-    deudor: {
-      cedula: 1024468871,
-      nombreCompleto:
-        'MARITZA NATALI RODRIGUEZ URREA',
-      primerNombre   : 'MARITZA',
-      segundoNombre  : 'NATALI',
-      primerApellido : 'RODRIGUEZ',
-      segundoApellido: 'URREA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308620170086300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 172,
-    id    : '52475256',
-    deudor: {
-      cedula: 52475256,
-      nombreCompleto:
-        'ADRIANA DEL PILAR ALFONSO BAQUERO',
-      primerNombre   : 'ADRIANA',
-      segundoNombre  : 'DEL',
-      primerApellido : 'PILAR',
-      segundoApellido: 'ALFONSO BAQUERO ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302720170085000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 173,
-    id    : '79878252',
-    deudor: {
-      cedula: 79878252,
-      nombreCompleto:
-        'DIEGO ALEXANDER CAYCEDO OCHOA',
-      primerNombre   : 'DIEGO',
-      segundoNombre  : 'ALEXANDER',
-      primerApellido : 'CAYCEDO',
-      segundoApellido: 'OCHOA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301520170116100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 174,
-    id    : '52189873',
-    deudor: {
-      cedula: 52189873,
-      nombreCompleto:
-        'DARNELLY HERNANDEZ MARTINEZ',
-      tel: {
-        fijo   : '4530972 ',
-        celular: '3144189224'
-      },
-      email          : 'darnelly-74@hotmail.com',
-      direccion      : 'CALLE 74G # 80 - 58 SUR',
-      primerNombre   : 'DARNELLY',
-      primerApellido : 'HERNANDEZ',
-      segundoApellido: 'MARTINEZ'
-    },
-    demanda: {
-      vencimientoPagare: '2026-03-10',
-      obligacion       : [
+      ],
+      obligacion: [
         136962
       ],
-      entregaGarantiasAbogado: '2017-08-22',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-25-civil-municipal-de-bogota',
-          id  : '25'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota',
-          id  : '18'
-        }
-      },
-      radicado      : '2017 - 00903',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota',
-        id  : '18'
-      }
+      radicado: '2017 - 00903',
+      vencimientoPagare:
+        '2026-03-10T00:00:00.000Z'
     },
-    capitalAdeudado: 14795921,
-    tipoProceso    : 'HIPOTECARIO',
-    llaveProceso   : '11001400302520170090300',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 175,
-    id    : '91354321',
     deudor: {
-      cedula         : 91354321,
-      nombreCompleto : 'OMAR GUSTAVO FULA AVILA',
-      primerNombre   : 'OMAR',
-      segundoNombre  : 'GUSTAVO',
-      primerApellido : 'FULA',
-      segundoApellido: 'AVILA',
+      cedula         : 52189873,
+      direccion      : 'CALLE 74G # 80 - 58 SUR',
+      email          : 'darnelly-74@hotmail.com',
+      primerApellido : 'HERNANDEZ',
+      primerNombre   : 'DARNELLY',
+      segundoApellido: 'MARTINEZ',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 3144189224,
+        fijo   : 4530972
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754418900220170076100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2023-07-25T05:00:00.000Z',
+    grupo    : 'Bancolombia',
+    id       : 52189873,
+    idProceso: [
+      112048180
+    ],
+    llaveProceso: '11001400302520170090300',
+    numero      : 174,
+    tipoProceso : 'HIPOTECARIO'
   },
   {
-    numero: 176,
-    id    : '79787268',
-    deudor: {
-      cedula         : 79787268,
-      nombreCompleto : 'JHON FREDY MURILLO DAZA',
-      primerNombre   : 'JHON',
-      segundoNombre  : 'FREDY',
-      primerApellido : 'MURILLO',
-      segundoApellido: 'DAZA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300420170080100',
-    grupo          : 'Terminados',
+    _id            : '64cc10e7ea30d793345478b6',
+    capitalAdeudado: 12687427,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-01T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 11,
+          tipo: 'Civil Municipal'
         },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+        {
+          id  : 2,
+          tipo: 'Civil Municipal de Ejecucion'
         }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 177,
-    id    : '79327475',
-    deudor: {
-      cedula         : 79327475,
-      nombreCompleto : 'LEONARDY HERRERA ROJAS',
-      primerNombre   : 'LEONARDY',
-      primerApellido : 'HERRERA',
-      segundoApellido: 'ROJAS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304520170104100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 178,
-    id    : '37861286',
-    deudor: {
-      cedula         : 37861286,
-      nombreCompleto : 'MARYLUZ OCASIONES PINZON',
-      primerNombre   : 'MARYLUZ',
-      primerApellido : 'OCASIONES',
-      segundoApellido: 'PINZON',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306620170122100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 179,
-    id    : '12254068',
-    deudor: {
-      cedula        : 12254068,
-      nombreCompleto: 'GUILLERMO GONZALEZ TAGUA',
-      tel           : {
-        fijo   : '5642974 ',
-        celular: '3218180993'
-      },
-      email:
-        'guillermogonzalez_tagua@hotmail.com',
-      direccion      : 'CARRERA 30 No.68 J-08 SUR',
-      primerNombre   : 'GUILLERMO',
-      primerApellido : 'GONZALEZ',
-      segundoApellido: 'TAGUA'
-    },
-    demanda: {
-      vencimientoPagare: '2019-11-02',
-      obligacion       : [
+      ],
+      obligacion: [
         5670085162
       ],
-      entregaGarantiasAbogado: '2017-08-01',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
+      radicado: '2017 - 01084',
+      vencimientoPagare:
+        '2019-11-02T00:00:00.000Z'
+    },
+    deudor: {
+      cedula   : 12254068,
+      direccion: 'CARRERA 30 No.68 J-08 SUR',
+      email:
+        'guillermogonzalez_tagua@hotmail.com',
+      primerApellido : 'GONZALEZ',
+      primerNombre   : 'GUILLERMO',
+      segundoApellido: 'TAGUA',
+      tel            : {
+        celular: 3218180993,
+        fijo   : 5642974
+      }
+    },
+    fecha    : '2023-07-26T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 12254068,
+    idProceso: [
+      50760030
+    ],
+    llaveProceso: '11001400301120170108400',
+    numero      : 179,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d793345478ba',
+    capitalAdeudado: 25833335,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-01T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 1,
           tipo: 'Civil Municipal',
-          id  : '11'
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-01-civil-municipal-de-bogota'
         },
-        ejecucion: {
+        {
+          id  : 17,
           tipo: 'Civil Municipal de Ejecucion',
-          id  : '2'
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota'
         }
-      },
-      radicado      : '2017 - 01084',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '2'
-      }
-    },
-    capitalAdeudado: 12687427,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400301120170108400',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 180,
-    id    : '21016631',
-    deudor: {
-      cedula: 21016631,
-      nombreCompleto:
-        'ALCIRA DELIA SAENZ GARAVIS',
-      primerNombre   : 'ALCIRA',
-      segundoNombre  : 'DELIA',
-      primerApellido : 'SAENZ',
-      segundoApellido: 'GARAVIS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25878418900120170021800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 181,
-    id    : '1033783222',
-    deudor: {
-      cedula: 1033783222,
-      nombreCompleto:
-        'LEONARDO ALIRIO GARCIA GUERRERO',
-      primerNombre   : 'LEONARDO',
-      segundoNombre  : 'ALIRIO',
-      primerApellido : 'GARCIA',
-      segundoApellido: 'GUERRERO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001418901020170011500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 182,
-    id    : '11185630',
-    deudor: {
-      cedula: 11185630,
-      nombreCompleto:
-        'WILSON ALFONSO JIMENEZ MENDIETA',
-      primerNombre   : 'WILSON',
-      segundoNombre  : 'ALFONSO',
-      primerApellido : 'JIMENEZ',
-      segundoApellido: 'MENDIETA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300120170100100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 183,
-    id    : '11185630',
-    deudor: {
-      cedula: 11185630,
-      nombreCompleto:
-        'WILSON ALFONSO JIMENEZ MENDIETA',
-      tel: {
-        fijo   : '5714329',
-        celular: ''
-      },
-      email          : 'grupocomerciallasabana@hotmail.com',
-      direccion      : 'CARRERA 81C # 2B - 80 PISO 2',
-      primerNombre   : 'WILSON',
-      segundoNombre  : 'ALFONSO',
-      primerApellido : 'JIMENEZ',
-      segundoApellido: 'MENDIETA'
-    },
-    demanda: {
-      vencimientoPagare: '2019-11-03',
-      obligacion       : [
+      ],
+      obligacion: [
         2150091504
       ],
-      entregaGarantiasAbogado: '2017-08-01',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-01-civil-municipal-de-bogota',
-          id  : '1'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota',
-          id  : '17'
-        }
-      },
-      radicado      : '2017 - 01001',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota',
-        id  : '17'
+      radicado: '2017 - 01001',
+      vencimientoPagare:
+        '2019-11-03T00:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 11185630,
+      direccion      : 'CARRERA 81C # 2B - 80 PISO 2',
+      email          : 'grupocomerciallasabana@hotmail.com',
+      primerApellido : 'JIMENEZ',
+      primerNombre   : 'WILSON',
+      segundoApellido: 'MENDIETA',
+      segundoNombre  : 'ALFONSO',
+      tel            : {
+        celular: 0,
+        fijo   : 5714329
       }
     },
-    capitalAdeudado: 25833335,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400300120170100100',
-    grupo          : 'Bancolombia'
+    fecha    : '2023-07-17T05:00:00.000Z',
+    grupo    : 'Bancolombia',
+    id       : 11185630,
+    idProceso: [
+      50621670
+    ],
+    llaveProceso: '11001400300120170100100',
+    numero      : 183,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 184,
-    id    : '17650971',
-    deudor: {
-      cedula        : 17650971,
-      nombreCompleto: 'JUAN CARLOS TOVAR TOLEDO',
-      tel           : {
-        fijo   : '83107389',
-        celular: ''
-      },
-      direccion      : 'CARRERA 86 # 69 H - 40',
-      primerNombre   : 'JUAN',
-      segundoNombre  : 'CARLOS',
-      primerApellido : 'TOVAR',
-      segundoApellido: 'TOLEDO'
-    },
-    demanda: {
-      vencimientoPagare: '2021-12-15',
-      obligacion       : [
-        8470081213
-      ],
-      entregaGarantiasAbogado: '2017-08-01',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '25'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado: '2017 - 00807',
+    _id            : '64cc10e7ea30d793345478bb',
+    capitalAdeudado: 22277206,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-01T00:00:00.000Z',
       etapaProcesal:
         'DESIGNACIÓN CURADOR AD LITEM',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '25'
-      }
-    },
-    capitalAdeudado: 22277206,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400302520170080700',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 185,
-    id    : '10294828',
-    deudor: {
-      cedula: 10294828,
-      nombreCompleto:
-        'WILLIAM GIOVANNI DORADO FERNANDEZ',
-      primerNombre   : 'WILLIAM',
-      segundoNombre  : 'GIOVANNI',
-      primerApellido : 'DORADO',
-      segundoApellido: 'FERNANDEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754400300320170028300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      juzgado: [
+        {
+          id  : 25,
+          tipo: 'Civil Municipal'
         }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 186,
-    id    : '24134505',
-    deudor: {
-      cedula: 24134505,
-      nombreCompleto:
-        'CELY MARGOTH ROJAS VELANDIA',
-      tel: {
-        fijo   : '5267343',
-        celular: ''
-      },
-      direccion:
-        'CALLE 29 A # 2 - 76 APTO 304 CHIA',
-      primerNombre   : 'CELY',
-      segundoNombre  : 'MARGOTH',
-      primerApellido : 'ROJAS',
-      segundoApellido: 'VELANDIA'
-    },
-    demanda: {
-      vencimientoPagare: '2021-01-29',
-      obligacion       : [
-        1680097051
       ],
-      entregaGarantiasAbogado: '2017-08-11',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'CHIA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '2'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017 - 00412',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '2'
-      }
-    },
-    capitalAdeudado: 13319130,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '25175408900220170041200',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 187,
-    id    : '39624423',
-    deudor: {
-      cedula         : 39624423,
-      nombreCompleto : 'YAZMIN ALVARADO PINZON',
-      primerNombre   : 'YAZMIN',
-      primerApellido : 'ALVARADO',
-      segundoApellido: 'PINZON',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25290400300220170055200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 188,
-    id    : '1019029250',
-    deudor: {
-      cedula: 1019029250,
-      nombreCompleto:
-        'DIEGO ARMANDO AREVALO VELANDIA',
-      primerNombre   : 'DIEGO',
-      segundoNombre  : 'ARMANDO',
-      primerApellido : 'AREVALO',
-      segundoApellido: 'VELANDIA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306720170126900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 189,
-    id    : '4547635',
-    deudor: {
-      cedula: 4547635,
-      nombreCompleto:
-        'WILDER DE JESUS ROMAN GRISALES',
-      primerNombre   : 'WILDER',
-      segundoNombre  : 'DE',
-      primerApellido : 'JESUS',
-      segundoApellido: 'ROMAN GRISALES ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25817418900120170049400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 190,
-    id    : '79909315',
-    deudor: {
-      cedula: 79909315,
-      nombreCompleto:
-        'VICTOR EDUARDO  MORA ESPINOSA',
-      primerNombre   : 'VICTOR',
-      segundoNombre  : 'EDUARDO',
-      primerApellido : '',
-      segundoApellido: 'MORA ESPINOSA ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25286400300120170078100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 191,
-    id    : '80231798',
-    deudor: {
-      cedula: 80231798,
-      nombreCompleto:
-        'JOHN ALEXANDER VALENCIA MARQUEZ',
-      tel: {
-        fijo   : '2376454 ',
-        celular: '3004525014'
-      },
-      email          : 'jhon.valencia@jvtel.com.co',
-      direccion      : 'CARRERA 32 B # 2 - 64',
-      primerNombre   : 'JOHN',
-      segundoNombre  : 'ALEXANDER',
-      primerApellido : 'VALENCIA',
-      segundoApellido: 'MARQUEZ'
-    },
-    demanda: {
-      vencimientoPagare: '2020-11-30',
-      obligacion       : [
-        1220084112
+      obligacion: [
+        8470081213
       ],
-      entregaGarantiasAbogado: '2017-08-11',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '79'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '1'
-        }
-      },
-      radicado      : '2017 - 01082',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '1'
-      }
-    },
-    capitalAdeudado: 87649981,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400307920170108200',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 192,
-    id    : '53053612',
-    deudor: {
-      cedula: 53053612,
-      nombreCompleto:
-        'DIANA PATRICIA SANCHEZ SALCEDO',
-      primerNombre   : 'DIANA',
-      segundoNombre  : 'PATRICIA',
-      primerApellido : 'SANCHEZ',
-      segundoApellido: 'SALCEDO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '1100140030732017015300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 193,
-    id    : '52465691',
-    deudor: {
-      cedula: 52465691,
-      nombreCompleto:
-        'CARMEN ELIZABETH QUESADA MARTINEZ',
-      tel: {
-        fijo   : '7829236 ',
-        celular: '3204792977'
-      },
-      email          : 'equesada01@hotmail.com',
-      direccion      : 'CARRERA 80 # 70A - 09',
-      primerNombre   : 'CARMEN',
-      segundoNombre  : 'ELIZABETH',
-      primerApellido : 'QUESADA',
-      segundoApellido: 'MARTINEZ'
-    },
-    demanda: {
-      vencimientoPagare: '2020-08-09',
-      obligacion       : [
-        12750180
-      ],
-      entregaGarantiasAbogado: '2017-08-16',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '24'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '14'
-        }
-      },
-      radicado      : '2017 - 01750',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '14'
-      }
-    },
-    capitalAdeudado: 24590710,
-    tipoProceso    : 'PRENDARIO',
-    llaveProceso   : '11001400302420170175000',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 194,
-    id    : '52790965',
-    deudor: {
-      cedula         : 52790965,
-      nombreCompleto : 'FABIOLA MARTINEZ RUEDA',
-      primerNombre   : 'FABIOLA',
-      primerApellido : 'MARTINEZ',
-      segundoApellido: 'RUEDA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303520170129700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 195,
-    id    : '80244664',
-    deudor: {
-      cedula: 80244664,
-      nombreCompleto:
-        'DOUGLAS FABIAN SIZA CORTES',
-      primerNombre   : 'DOUGLAS',
-      segundoNombre  : 'FABIAN',
-      primerApellido : 'SIZA',
-      segundoApellido: 'CORTES',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '1100140030122017099100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 196,
-    id    : '80130064',
-    deudor: {
-      cedula        : 80130064,
-      nombreCompleto: 'JAIRO TIBATA',
-      primerNombre  : 'JAIRO',
-      primerApellido: 'TIBATA',
-      tel           : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001310302120170047100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 197,
-    id    : '79457880',
-    deudor: {
-      cedula         : 79457880,
-      nombreCompleto : 'MARIO JEAN PINZON BARON',
-      primerNombre   : 'MARIO',
-      segundoNombre  : 'JEAN',
-      primerApellido : 'PINZON',
-      segundoApellido: 'BARON',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304520170108600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 198,
-    id    : '1012318156',
-    deudor: {
-      cedula: 1012318156,
-      nombreCompleto:
-        'HECTOR MANUEL RAMIREZ PUENTES',
-      primerNombre   : 'HECTOR',
-      segundoNombre  : 'MANUEL',
-      primerApellido : 'RAMIREZ',
-      segundoApellido: 'PUENTES',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304020170132900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 199,
-    id    : '1106893308',
-    deudor: {
-      cedula: 1106893308,
-      nombreCompleto:
-        'MARTHA LILIANA RAMIREZ COLORADO',
-      tel: {
-        fijo: '',
-        celular:
-          '3108612781        CEL 3502772711'
-      },
-      email: 'liliaramirez17@gmail.com',
-      direccion:
-        'VEREDA BOQUERON , FINCA LA MILAGROSA, MUNICIPIO FUSA // CALLE 3 # 37 - 21 BARRIO SICAMORO, MELGAR',
-      primerNombre   : 'MARTHA',
-      segundoNombre  : 'LILIANA',
-      primerApellido : 'RAMIREZ',
-      segundoApellido: 'COLORADO'
-    },
-    demanda: {
-      vencimientoPagare: '2020-08-16',
-      obligacion       : [
-        12650694
-      ],
-      entregaGarantiasAbogado: '2017-08-22',
-      departamento           : 'TOLIMA',
-      ciudad                 : 'MELGAR',
-      juzgado                : {
-        origen: {
-          tipo: ' PM',
-          id  : '2'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017 - 00259',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: ' PM',
-        id  : '2'
-      }
-    },
-    capitalAdeudado: 28594040,
-    tipoProceso    : 'PRENDARIO',
-    llaveProceso   : '73449408900220170025900',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 200,
-    id    : '79582683',
-    deudor: {
-      cedula         : 79582683,
-      nombreCompleto : 'ALEXANDER ROJAS CASTAÑEDA',
-      primerNombre   : 'ALEXANDER',
-      primerApellido : 'ROJAS',
-      segundoApellido: 'CASTAÑEDA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301220170101200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 201,
-    id    : '51733931',
-    deudor: {
-      cedula: 51733931,
-      nombreCompleto:
-        'PIEDAD MARITZA OLGA ROCIO PRIETO VARGAS',
-      tel: {
-        fijo   : '6256456 ',
-        celular: '3108711046'
-      },
-      email:
-        'sebantialbeltransprieto@hotmail.com',
-      direccion      : 'CALLE 127D # 21 - 80 APTO 105',
-      primerNombre   : 'PIEDAD',
-      segundoNombre  : 'MARITZA OLGA ',
-      primerApellido : 'ROCIO',
-      segundoApellido: 'PRIETO VARGAS '
-    },
-    demanda: {
+      radicado: '2017 - 00807',
       vencimientoPagare:
-        '16/11/2019 // 6/03/2020',
+        '2021-12-15T00:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 17650971,
+      direccion      : 'CARRERA 86 # 69 H - 40',
+      primerApellido : 'TOVAR',
+      primerNombre   : 'JUAN',
+      segundoApellido: 'TOLEDO',
+      segundoNombre  : 'CARLOS',
+      tel            : {
+        celular: 0,
+        fijo   : 83107389
+      }
+    },
+    fecha    : '2023-06-21T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 17650971,
+    idProceso: [
+      50623380,
+      0
+    ],
+    idProcesos: [
+      50623380
+    ],
+    llaveProceso: '11001400302520170080700',
+    numero      : 184,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d793345478cc',
+    capitalAdeudado: 27602952,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-23T00:00:00.000Z',
+      juzgado: [
+        {
+          id  : 7940,
+          tipo: 'Civil Municipal/ Civil Municipal'
+        }
+      ],
       obligacion: [
         377816483778266,
         4513080485378479
       ],
-      obligacion2            : 4513080485378479,
-      entregaGarantiasAbogado: '2017-08-23',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal/ Civil Municipal',
-          id  : '7940'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017 - 01142',
-      despachoActivo: {
-        tipo: 'Civil Municipal/ Civil Municipal',
-        id  : '7940'
-      }
+      radicado         : '2017 - 01142',
+      vencimientoPagare: null
     },
-    capitalAdeudado: 27602952,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400307920170114200',
-    grupo          : 'Insolvencia'
-  },
-  {
-    numero: 202,
-    id    : '52488943',
     deudor: {
-      cedula: 52488943,
-      nombreCompleto:
-        'SONIA MIREYA PANTOJA SANDOVAL',
-      primerNombre   : 'SONIA',
-      segundoNombre  : 'MIREYA',
-      primerApellido : 'PANTOJA',
-      segundoApellido: 'SANDOVAL',
+      cedula   : 51733931,
+      direccion: 'CALLE 127D # 21 - 80 APTO 105',
+      email:
+        'sebantialbeltransprieto@hotmail.com',
+      primerApellido : 'ROCIO',
+      primerNombre   : 'PIEDAD',
+      segundoApellido: 'PRIETO VARGAS ',
+      segundoNombre  : 'MARITZA OLGA ',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 3108711046,
+        fijo   : 6256456
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308520170128700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2023-06-05T05:00:00.000Z',
+    grupo    : 'Insolvencia',
+    id       : 51733931,
+    idProceso: [
+      128433271
+    ],
+    llaveProceso: '11001400307920170114200',
+    numero      : 201,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 203,
-    id    : '80380775',
-    deudor: {
-      cedula         : 80380775,
-      nombreCompleto : 'GONZALO VILLABON MARTINEZ',
-      primerNombre   : 'GONZALO',
-      primerApellido : 'VILLABON',
-      segundoApellido: 'MARTINEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300820170106000',
-    grupo          : 'Terminados',
+    _id            : '64cc10e7ea30d793345478cf',
+    capitalAdeudado: 41990538,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-28T00:00:00.000Z',
+      etapaProcesal: 'EJECUCION',
+      juzgado      : [
+        {
+          id  : 45,
+          tipo: 'Civil Municipal'
         }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 204,
-    id    : '46679232',
-    deudor: {
-      cedula        : 46679232,
-      nombreCompleto: 'FLOR ESPERANZA GUTIERREZ',
-      tel           : {
-        fijo   : '5754502',
-        celular: ''
-      },
-      email          : 'carito220@hotmail.es',
-      direccion      : 'CARRERA 34 # 9 - 60',
-      primerNombre   : 'FLOR',
-      primerApellido : 'ESPERANZA',
-      segundoApellido: 'GUTIERREZ'
-    },
-    demanda: {
-      vencimientoPagare: '2020-08-23',
-      obligacion       : [
+      ],
+      obligacion: [
         12743098
       ],
-      entregaGarantiasAbogado: '2017-08-28',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '45'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017 - 01063',
-      etapaProcesal : 'EJECUCION',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '45'
+      radicado: '2017 - 01063',
+      vencimientoPagare:
+        '2020-08-23T00:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 46679232,
+      direccion      : 'CARRERA 34 # 9 - 60',
+      email          : 'carito220@hotmail.es',
+      primerApellido : 'ESPERANZA',
+      primerNombre   : 'FLOR',
+      segundoApellido: 'GUTIERREZ',
+      tel            : {
+        celular: 0,
+        fijo   : 5754502
       }
     },
-    capitalAdeudado: 41990538,
-    tipoProceso    : 'PRENDARIO',
-    llaveProceso   : '11001400304520170106300',
-    grupo          : 'Reintegra'
+    fecha    : '2023-03-07T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 46679232,
+    idProceso: [
+      110120573
+    ],
+    llaveProceso: '11001400304520170106300',
+    numero      : 204,
+    tipoProceso : 'PRENDARIO'
   },
   {
-    numero: 205,
-    id    : '51856244',
-    deudor: {
-      cedula: 51856244,
-      nombreCompleto:
-        'NELIDA DEL CARMEN RIVERA MESA',
-      tel: {
-        fijo   : '7616370 ',
-        celular: '3143313269'
-      },
-      direccion:
-        'CARRERA 2A BIS A ESTE # 89A  SUR',
-      primerNombre   : 'NELIDA',
-      segundoNombre  : 'DEL',
-      primerApellido : 'CARMEN',
-      segundoApellido: 'RIVERA MESA '
-    },
-    demanda: {
-      vencimientoPagare: '2021-09-09',
-      obligacion       : [
-        430103841
-      ],
-      entregaGarantiasAbogado: '2017-08-22',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '12'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '15'
-        }
-      },
-      radicado: '2017 - 00971',
+    _id            : '64cc10e7ea30d793345478d0',
+    capitalAdeudado: 14068639,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-22T00:00:00.000Z',
       etapaProcesal:
         'EJECUCIÓN SOLICITAR LIQUIDACIÓN A REINTEGRA',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '15'
-      }
-    },
-    capitalAdeudado: 14068639,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400301220170097100',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 206,
-    id    : '80729141',
-    deudor: {
-      cedula         : 80729141,
-      nombreCompleto : 'EDGAR MARTINEZ VELANDIA',
-      primerNombre   : 'EDGAR',
-      primerApellido : 'MARTINEZ',
-      segundoApellido: 'VELANDIA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306420170146900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      juzgado: [
+        {
+          id  : 12,
+          tipo: 'Civil Municipal'
         },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+        {
+          id  : 15,
+          tipo: 'Civil Municipal de Ejecucion'
         }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 207,
-    id    : '51993007',
+      ],
+      obligacion: [
+        430103841
+      ],
+      radicado: '2017 - 00971',
+      vencimientoPagare:
+        '2021-09-09T00:00:00.000Z'
+    },
     deudor: {
-      cedula: 51993007,
-      nombreCompleto:
-        'SANDRA BIBIANA RUGE RODRIGUEZ',
-      primerNombre   : 'SANDRA',
-      segundoNombre  : 'BIBIANA',
-      primerApellido : 'RUGE',
-      segundoApellido: 'RODRIGUEZ',
+      cedula: 51856244,
+      direccion:
+        'CARRERA 2A BIS A ESTE # 89A  SUR',
+      primerApellido : 'CARMEN',
+      primerNombre   : 'NELIDA',
+      segundoApellido: 'RIVERA MESA ',
+      segundoNombre  : 'DEL',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 3143313269,
+        fijo   : 7616370
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302220170102400',
-    grupo          : 'Terminados',
+    fecha    : '2022-03-17T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 51856244,
+    idProceso: [
+      50669130
+    ],
+    llaveProceso: '11001400301220170097100',
+    numero      : 205,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d793345478d3',
+    capitalAdeudado: 27819415,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      ciudad      : 'SOACHA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-22T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 2,
+          tipo: 'Civil Municipal'
         }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 208,
-    id    : '80357801',
-    deudor: {
-      cedula         : 80357801,
-      nombreCompleto : 'JEOVANY ROJAS CRUZ',
-      email          : 'jeovanyrojas@outlook.com',
-      direccion      : 'CALLE 34 # 1A - 40 CASA 247',
-      primerNombre   : 'JEOVANY',
-      primerApellido : 'ROJAS',
-      segundoApellido: 'CRUZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    demanda: {
-      vencimientoPagare: '2020-08-15',
-      obligacion       : [
+      ],
+      obligacion: [
         12725973
       ],
-      entregaGarantiasAbogado: '2017-08-22',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'SOACHA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '2'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017 - 00265',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '2'
+      radicado: '2017 - 00265',
+      vencimientoPagare:
+        '2020-08-15T00:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 80357801,
+      direccion      : 'CALLE 34 # 1A - 40 CASA 247',
+      email          : 'jeovanyrojas@outlook.com',
+      primerApellido : 'ROJAS',
+      primerNombre   : 'JEOVANY',
+      segundoApellido: 'CRUZ',
+      tel            : {
+        celular: 0,
+        fijo   : 0
       }
     },
-    capitalAdeudado: 27819415,
-    tipoProceso    : 'PRENDARIO',
-    llaveProceso   : '25754400300220170026500',
-    grupo          : 'Reintegra'
+    grupo    : 'Reintegra',
+    id       : 80357801,
+    idProceso: [
+      86374941
+    ],
+    llaveProceso: '25754400300220170026500',
+    numero      : 208,
+    tipoProceso : 'PRENDARIO'
   },
   {
-    numero: 209,
-    id    : '79852094',
-    deudor: {
-      cedula        : 79852094,
-      nombreCompleto: 'CESAR ALFONSO UMAÑA CAÑON',
-      tel           : {
-        fijo   : '31006108',
-        celular: '3212406004'
-      },
-      email          : 'cesa861@hotmail.com',
-      direccion      : 'CARRERA 68M # 37D - 47 SUR',
-      primerNombre   : 'CESAR',
-      segundoNombre  : 'ALFONSO',
-      primerApellido : 'UMAÑA',
-      segundoApellido: 'CAÑON'
-    },
-    demanda: {
-      vencimientoPagare: '2020-08-31',
-      obligacion       : [
+    _id            : '64cc10e7ea30d793345478d4',
+    capitalAdeudado: 54090336,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-22T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 64,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 7,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
         2170085697,
         '377813567054276 // 451377194627824 // 5303710806169667 // 5306726083237084 // AUDIOPRESTAMO'
       ],
-      obligacion2:
-        '377813567054276 // 451377194627824 // 5303710806169667 // 5306726083237084 // AUDIOPRESTAMO',
-      entregaGarantiasAbogado: '2017-08-22',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '64'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '7'
-        }
-      },
-      radicado      : '2017 - 01191',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '7'
-      }
-    },
-    capitalAdeudado: 54090336,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400306420170119100',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 210,
-    id    : '343334',
-    deudor: {
-      cedula: 343334,
-      nombreCompleto:
-        'JOSE ANTONIO CASTILLO CORTES',
-      tel: {
-        fijo   : '4658342 ',
-        celular: '3015004499'
-      },
-      direccion      : 'CARRERA 50 # 113 - 09',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'ANTONIO',
-      primerApellido : 'CASTILLO',
-      segundoApellido: 'CORTES'
-    },
-    demanda: {
-      vencimientoPagare: '5/01/2020  5/01/2020',
-      obligacion       : [
-        377813597718262,
-        '4513070908078111 // 5303714709873201'
-      ],
-      obligacion2:
-        '4513070908078111 // 5303714709873201',
-      entregaGarantiasAbogado: '22/082017',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '21'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2018 - 00163',
-      etapaProcesal : 'EJECUCION',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '21'
-      }
-    },
-    capitalAdeudado: 10555422,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400302120180016300',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 211,
-    id    : '17652071',
-    deudor: {
-      cedula         : 17652071,
-      nombreCompleto : 'SAUL BARBOSA RAMIREZ',
-      primerNombre   : 'SAUL',
-      primerApellido : 'BARBOSA',
-      segundoApellido: 'RAMIREZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25473400300120180010500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 212,
-    id    : '14320811',
-    deudor: {
-      cedula         : 14320811,
-      nombreCompleto : 'FERNANDO VERA FARFAN',
-      primerNombre   : 'FERNANDO',
-      primerApellido : 'VERA',
-      segundoApellido: 'FARFAN',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304620170103500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 213,
-    id    : '52325613',
-    deudor: {
-      cedula: 52325613,
-      nombreCompleto:
-        'MYRIAM CONSUELO RIOS FONSECA',
-      primerNombre   : 'MYRIAM',
-      segundoNombre  : 'CONSUELO',
-      primerApellido : 'RIOS',
-      segundoApellido: 'FONSECA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '110014003088220170148800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 214,
-    id    : '52702559',
-    deudor: {
-      cedula: 52702559,
-      nombreCompleto:
-        'YENNY PATRICIA RUBIO MAHECHA',
-      primerNombre   : 'YENNY',
-      segundoNombre  : 'PATRICIA',
-      primerApellido : 'RUBIO',
-      segundoApellido: 'MAHECHA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '257544189002220170086700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 215,
-    id    : '36458257',
-    deudor: {
-      cedula         : 36458257,
-      nombreCompleto : 'LUZ DARY HURTADO RIOS',
-      primerNombre   : 'LUZ',
-      segundoNombre  : 'DARY',
-      primerApellido : 'HURTADO',
-      segundoApellido: 'RIOS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300820170127300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 216,
-    id    : '51833717',
-    deudor: {
-      cedula: 51833717,
-      nombreCompleto:
-        'BLANCA JANETH PINZON SUAREZ',
-      primerNombre   : 'BLANCA',
-      segundoNombre  : 'JANETH',
-      primerApellido : 'PINZON',
-      segundoApellido: 'SUAREZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300520170125500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 217,
-    id    : '52328942',
-    deudor: {
-      cedula: 52328942,
-      nombreCompleto:
-        'DIANA VANESSA NARANJO HERNANDEZ',
-      tel: {
-        fijo   : '',
-        celular: ''
-      },
-      email          : 'casas_castillo@hotmail.com',
-      direccion      : 'CALLE 58 # 45 - 86',
-      primerNombre   : 'DIANA',
-      segundoNombre  : 'VANESSA',
-      primerApellido : 'NARANJO',
-      segundoApellido: 'HERNANDEZ'
-    },
-    demanda: {
-      obligacion: [
-        182540,
-        'AUDIOPRESTAMO'
-      ],
-      obligacion2            : 'AUDIOPRESTAMO',
-      entregaGarantiasAbogado: '2017-08-17',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: ' CCTO',
-          id  : '37'
-        },
-        ejecucion: {
-          tipo: ' CCTOEJ',
-          id  : '3'
-        }
-      },
-      radicado      : '2017 - 00453',
-      despachoActivo: {
-        tipo: ' CCTOEJ',
-        id  : '3'
-      }
-    },
-    capitalAdeudado: 206655465,
-    tipoProceso    : 'HIPOTECARIO',
-    llaveProceso   : '11001310303720170045300',
-    grupo          : 'LiosJuridicos'
-  },
-  {
-    numero: 218,
-    id    : '12402596',
-    deudor: {
-      cedula         : 12402596,
-      nombreCompleto : 'ELIO ALVARADO HERNANDEZ',
-      primerNombre   : 'ELIO',
-      primerApellido : 'ALVARADO',
-      segundoApellido: 'HERNANDEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300220170084000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 219,
-    id    : '80921416',
-    deudor: {
-      cedula         : 80921416,
-      nombreCompleto : 'BLAS LAITON PATIÑO',
-      primerNombre   : 'BLAS',
-      primerApellido : 'LAITON',
-      segundoApellido: 'PATIÑO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307220170107500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 220,
-    id    : '51726361',
-    deudor: {
-      cedula: 51726361,
-      nombreCompleto:
-        'MARIA EUGENIA SALCEDO PINEDA',
-      primerNombre   : 'MARIA',
-      segundoNombre  : 'EUGENIA',
-      primerApellido : 'SALCEDO',
-      segundoApellido: 'PINEDA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304020170150900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 221,
-    id    : '52192430',
-    deudor: {
-      cedula         : 52192430,
-      nombreCompleto : 'BEATRIZ HELENA MACHADO',
-      primerNombre   : 'BEATRIZ',
-      primerApellido : 'HELENA',
-      segundoApellido: 'MACHADO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301320170115700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 222,
-    id    : '79332273',
-    deudor: {
-      cedula         : 79332273,
-      nombreCompleto : 'DUFRESNY AUGUSTO PINILLA',
-      primerNombre   : 'DUFRESNY',
-      primerApellido : 'AUGUSTO',
-      segundoApellido: 'PINILLA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302820170085800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 223,
-    id    : '17174720',
-    deudor: {
-      cedula: 17174720,
-      nombreCompleto:
-        'GERARDO ANTONIO MONCADA VEGA',
-      tel: {
-        fijo   : '3349755 ',
-        celular: '3153330306'
-      },
-      email          : 'gerardomoncada70@hotmail.com',
-      direccion      : 'CALLE 159 # 15 - 45',
-      primerNombre   : 'GERARDO',
-      segundoNombre  : 'ANTONIO',
-      primerApellido : 'MONCADA',
-      segundoApellido: 'VEGA'
-    },
-    demanda: {
+      radicado: '2017 - 01191',
       vencimientoPagare:
-        '18/04/2020  5/05/2020  15/12/2019',
+        '2020-08-31T00:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 79852094,
+      direccion      : 'CARRERA 68M # 37D - 47 SUR',
+      email          : 'cesa861@hotmail.com',
+      primerApellido : 'UMAÑA',
+      primerNombre   : 'CESAR',
+      segundoApellido: 'CAÑON',
+      segundoNombre  : 'ALFONSO',
+      tel            : {
+        celular: 3212406004,
+        fijo   : 31006108
+      }
+    },
+    fecha    : '2023-07-14T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 79852094,
+    idProceso: [
+      50672820
+    ],
+    llaveProceso: '11001400306420170119100',
+    numero      : 209,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d793345478e2',
+    capitalAdeudado: 43653352,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-23T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 55,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 15,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
       obligacion: [
         11903330957,
         '377816208286710 // 4513083951499464 // 5176407001878614 // 5303720129694960 // AUDIOPRESTAMO'
       ],
-      obligacion2:
-        '377816208286710 // 4513083951499464 // 5176407001878614 // 5303720129694960 // AUDIOPRESTAMO',
-      entregaGarantiasAbogado: '2017-08-23',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '55'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '15'
-        }
-      },
-      radicado      : '2017 - 00860',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '15'
-      }
+      radicado         : '2017 - 00860',
+      vencimientoPagare: null
     },
-    capitalAdeudado: 43653352,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400305520170086000',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 224,
-    id    : '52616509',
     deudor: {
-      cedula         : 52616509,
-      nombreCompleto : 'MARIA ROSA ZARATE CORTES',
-      primerNombre   : 'MARIA',
-      segundoNombre  : 'ROSA',
-      primerApellido : 'ZARATE',
-      segundoApellido: 'CORTES',
+      cedula         : 17174720,
+      direccion      : 'CALLE 159 # 15 - 45',
+      email          : 'gerardomoncada70@hotmail.com',
+      primerApellido : 'MONCADA',
+      primerNombre   : 'GERARDO',
+      segundoApellido: 'VEGA',
+      segundoNombre  : 'ANTONIO',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 3153330306,
+        fijo   : 3349755
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '25386400300120170040700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2023-08-03T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 17174720,
+    idProceso: [
+      86524020
+    ],
+    llaveProceso: '11001400305520170086000',
+    numero      : 223,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 225,
-    id    : '79815721',
-    deudor: {
-      cedula: 79815721,
-      nombreCompleto:
-        'LUIS OCTAVIO ROJAS VALBUENA',
-      primerNombre   : 'LUIS',
-      segundoNombre  : 'OCTAVIO',
-      primerApellido : 'ROJAS',
-      segundoApellido: 'VALBUENA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301320170116300',
-    grupo          : 'Terminados',
+    _id            : '64cc10e7ea30d793345478ec',
+    capitalAdeudado: 30506109,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-29T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 28,
+          tipo: 'Civil Municipal'
         },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+        {
+          id  : 16,
+          tipo: 'Civil Municipal de Ejecucion'
         }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 226,
-    id    : '80513085',
-    deudor: {
-      cedula: 80513085,
-      nombreCompleto:
-        'NESTOR GERMAN URREGO AGUILERA',
-      primerNombre   : 'NESTOR',
-      segundoNombre  : 'GERMAN',
-      primerApellido : 'URREGO',
-      segundoApellido: 'AGUILERA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305520170094300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 227,
-    id    : '23550435',
-    deudor: {
-      cedula: 23550435,
-      nombreCompleto:
-        'ROSA ELENA MARTINEZ DE DUITAMA',
-      primerNombre   : 'ROSA',
-      segundoNombre  : 'ELENA',
-      primerApellido : 'MARTINEZ',
-      segundoApellido: 'DE DUITAMA ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301520170124900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 228,
-    id    : '80740039',
-    deudor: {
-      cedula         : 80740039,
-      nombreCompleto : 'FABIAN ALEXANDER GIL GIL',
-      primerNombre   : 'FABIAN',
-      segundoNombre  : 'ALEXANDER',
-      primerApellido : 'GIL',
-      segundoApellido: 'GIL',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301820170151700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 229,
-    id    : '52818428',
-    deudor: {
-      cedula: 52818428,
-      nombreCompleto:
-        'JENNIFER ALEJANDRA MOGOLLÓN BERNAL',
-      primerNombre   : 'JENNIFER',
-      segundoNombre  : 'ALEJANDRA',
-      primerApellido : 'MOGOLLÓN',
-      segundoApellido: 'BERNAL',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306820170124000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 230,
-    id    : '1014185483',
-    deudor: {
-      cedula: 1014185483,
-      nombreCompleto:
-        'FREDY ALEXANDER MUÑOZ CASTAÑEDA',
-      primerNombre   : 'FREDY',
-      segundoNombre  : 'ALEXANDER',
-      primerApellido : 'MUÑOZ',
-      segundoApellido: 'CASTAÑEDA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305220170090600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 231,
-    id    : '1022943195',
-    deudor: {
-      cedula: 1022943195,
-      nombreCompleto:
-        'DIANA MARCELA IPUZ SUAREZ Y OTRO',
-      primerNombre   : 'DIANA',
-      segundoNombre  : 'MARCELA IPUZ ',
-      primerApellido : 'SUAREZ',
-      segundoApellido: 'Y OTRO ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001418900920170008900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 232,
-    id    : '1023868827',
-    deudor: {
-      cedula: 1023868827,
-      nombreCompleto:
-        'SANDRA MILENA CUBILLOS LINARES',
-      primerNombre   : 'SANDRA',
-      segundoNombre  : 'MILENA',
-      primerApellido : 'CUBILLOS',
-      segundoApellido: 'LINARES',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304820170087900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 233,
-    id    : '11313124',
-    deudor: {
-      cedula        : 11313124,
-      nombreCompleto: 'JOSE LUIS TORRES TAMAYO',
-      tel           : {
-        fijo   : '3138216 ',
-        celular: '3138216786'
-      },
-      email: 'jotorres@perosnalsoft.com.co',
-      direccion:
-        'CALLE 145 # 46 - 13 APTO 202 INT 5',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'LUIS',
-      primerApellido : 'TORRES',
-      segundoApellido: 'TAMAYO'
-    },
-    demanda: {
-      vencimientoPagare: '2020-08-24',
-      obligacion       : [
+      ],
+      obligacion: [
         4099838997529750,
         '5303712728390736 // 12141636'
       ],
-      obligacion2            : '5303712728390736 // 12141636',
-      entregaGarantiasAbogado: '2017-08-29',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '28'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '16'
-        }
-      },
-      radicado      : '2017 - 00849',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '16'
-      }
+      radicado: '2017 - 00849',
+      vencimientoPagare:
+        '2020-08-24T00:00:00.000Z'
     },
-    capitalAdeudado: 30506109,
-    tipoProceso    : 'PRENDARIO',
-    llaveProceso   : '11001400302820170084900',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 234,
-    id    : '16940930',
     deudor: {
-      cedula: 16940930,
-      nombreCompleto:
-        'MAURICIO ALEXANDER AGUIRRE BERMUDEZ',
-      primerNombre   : 'MAURICIO',
-      segundoNombre  : 'ALEXANDER',
-      primerApellido : 'AGUIRRE',
-      segundoApellido: 'BERMUDEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304320170120500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 235,
-    id    : '79853115',
-    deudor: {
-      cedula        : 79853115,
-      nombreCompleto: 'FANOR DIAZ AGUDELO',
-      tel           : {
-        fijo   : '8060271 ',
-        celular: '3212406193'
-      },
-      email: 'fanor.diaz@gmail.com',
+      cedula: 11313124,
       direccion:
-        'DIAGONAL 56 BIS 84 A 10 SUR TR 1',
-      primerNombre   : 'FANOR',
-      primerApellido : 'DIAZ',
-      segundoApellido: 'AGUDELO'
+        'CALLE 145 # 46 - 13 APTO 202 INT 5',
+      email          : 'jotorres@perosnalsoft.com.co',
+      primerApellido : 'TORRES',
+      primerNombre   : 'JOSE',
+      segundoApellido: 'TAMAYO',
+      segundoNombre  : 'LUIS',
+      tel            : {
+        celular: 3138216786,
+        fijo   : 3138216
+      }
     },
-    demanda: {
-      vencimientoPagare: '2017-02-14',
-      obligacion       : [
+    fecha    : '2022-06-16T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 11313124,
+    idProceso: [
+      50685700
+    ],
+    llaveProceso: '11001400302820170084900',
+    numero      : 233,
+    tipoProceso : 'PRENDARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d793345478ee',
+    capitalAdeudado: 27603821,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-09-06T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 8,
+          tipo: 'Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-008-civil-municipal-de-bogota'
+        },
+        {
+          id  : 6,
+          tipo: 'Civil Municipal de Ejecucion',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-06-de-ejecucion-civil-municipal-de-bogota'
+        }
+      ],
+      obligacion: [
         148931
       ],
-      entregaGarantiasAbogado: '2017-09-06',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-008-civil-municipal-de-bogota',
-          id  : '8'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-06-de-ejecucion-civil-municipal-de-bogota',
-          id  : '6'
-        }
-      },
-      radicado      : '2017 - 01134',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-06-de-ejecucion-civil-municipal-de-bogota',
-        id  : '6'
-      }
+      radicado: '2017 - 01134',
+      vencimientoPagare:
+        '2017-02-14T00:00:00.000Z'
     },
-    capitalAdeudado: 27603821,
-    tipoProceso    : 'HIPOTECARIO',
-    llaveProceso   : '11001400300820170113400',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 236,
-    id    : '3165933',
     deudor: {
-      cedula         : 3165933,
-      nombreCompleto : 'RIGOBERTO MORENO OLAYA',
-      primerNombre   : 'RIGOBERTO',
-      primerApellido : 'MORENO',
-      segundoApellido: 'OLAYA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308520170136200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 237,
-    id    : '80237050',
-    deudor: {
-      cedula: 80237050,
-      nombreCompleto:
-        'NUMAEL AUGUSTO GONZALEZ SALGUERO',
-      primerNombre   : 'NUMAEL',
-      segundoNombre  : 'AUGUSTO',
-      primerApellido : 'GONZALEZ',
-      segundoApellido: 'SALGUERO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25799418900120170024700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 238,
-    id    : '7181490',
-    deudor: {
-      cedula: 7181490,
-      nombreCompleto:
-        'FREDY ALEXANDER RUDA ARIAS',
-      primerNombre   : 'FREDY',
-      segundoNombre  : 'ALEXANDER',
-      primerApellido : 'RUDA',
-      segundoApellido: 'ARIAS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304320170110600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 239,
-    id    : '53131901',
-    deudor: {
-      cedula: 53131901,
-      nombreCompleto:
-        'NIDIA JACQUELINE RIVEROS ARAQUE',
-      tel: {
-        fijo   : '',
-        celular: ''
-      },
+      cedula: 79853115,
       direccion:
-        'CARRERA 88C  63 SUR 67 TORRE 5 APARTAMENTO 1',
-      primerNombre   : 'NIDIA',
-      segundoNombre  : 'JACQUELINE',
-      primerApellido : 'RIVEROS',
-      segundoApellido: 'ARAQUE'
+        'DIAGONAL 56 BIS 84 A 10 SUR TR 1',
+      email          : 'fanor.diaz@gmail.com',
+      primerApellido : 'DIAZ',
+      primerNombre   : 'FANOR',
+      segundoApellido: 'AGUDELO',
+      tel            : {
+        celular: 3212406193,
+        fijo   : 8060271
+      }
     },
-    demanda: {
+    fecha    : '2023-07-27T05:00:00.000Z',
+    grupo    : 'Bancolombia',
+    id       : 79853115,
+    idProceso: [
+      50716620
+    ],
+    llaveProceso: '11001400300820170113400',
+    numero      : 235,
+    tipoProceso : 'HIPOTECARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d793345478f2',
+    capitalAdeudado: 1788247698,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-09-13T00:00:00.000Z',
+      juzgado: [
+        {
+          id  : 45,
+          tipo: 'Civil Municipal'
+        }
+      ],
       obligacion: [
         20990135265
       ],
-      entregaGarantiasAbogado: '2017-09-13',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '45'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017 - 01164',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '45'
-      }
+      radicado         : '2017 - 01164',
+      vencimientoPagare: null
     },
-    capitalAdeudado: 1788247698,
-    tipoProceso    : 'HIPOTECARIO',
-    llaveProceso   : '11001400304520170116400',
-    grupo          : 'LiosJuridicos'
-  },
-  {
-    numero: 240,
-    id    : '180145973',
     deudor: {
-      cedula: 180145973,
-      nombreCompleto:
-        'CESAR ALIRIO MORENO MONGUI',
-      primerNombre   : 'CESAR',
-      segundoNombre  : 'ALIRIO',
-      primerApellido : 'MORENO',
-      segundoApellido: 'MONGUI',
+      cedula: 53131901,
+      direccion:
+        'CARRERA 88C  63 SUR 67 TORRE 5 APARTAMENTO 1',
+      primerApellido : 'RIVEROS',
+      primerNombre   : 'NIDIA',
+      segundoApellido: 'ARAQUE',
+      segundoNombre  : 'JACQUELINE',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 0,
+        fijo   : 0
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754418900220170082900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2023-06-20T05:00:00.000Z',
+    grupo    : 'LiosJuridicos',
+    id       : 53131901,
+    idProceso: [
+      9877803
+    ],
+    llaveProceso: '11001400304520170116400',
+    numero      : 239,
+    tipoProceso : 'HIPOTECARIO'
   },
   {
-    numero: 241,
-    id    : '900535464',
-    deudor: {
-      cedula         : 900535464,
-      nombreCompleto : 'PUBLI MAGIC S..A.S.',
-      primerNombre   : 'PUBLI',
-      primerApellido : 'MAGIC',
-      segundoApellido: 'S..A.S.',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302320170104400',
-    grupo          : 'Terminados',
+    _id            : '64cc10e7ea30d793345478f6',
+    capitalAdeudado: 46109381,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 242,
-    id    : '79793904',
-    deudor: {
-      cedula         : 79793904,
-      nombreCompleto : 'JOHN HADER OTALVARO  ROMO',
-      primerNombre   : 'JOHN',
-      segundoNombre  : 'HADER',
-      primerApellido : 'OTALVARO',
-      segundoApellido: ' ROMO ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754418900220180036300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 243,
-    id    : '300388244',
-    deudor: {
-      cedula: 300388244,
-      nombreCompleto:
-        'MARIA OLGA CASTAÑEDA PERUGACHI',
-      tel: {
-        fijo   : '1111111 ',
-        celular: '32222239883 3143072762'
-      },
-      direccion      : 'CALLE 15 # 15 - 45',
-      primerNombre   : 'MARIA',
-      segundoNombre  : 'OLGA',
-      primerApellido : 'CASTAÑEDA',
-      segundoApellido: 'PERUGACHI'
-    },
-    demanda: {
-      vencimientoPagare: '2020-08-11',
-      obligacion       : [
-        12577419
-      ],
-      entregaGarantiasAbogado: '2017-08-25',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal // Civil Municipal',
-          id  : '6925'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado: '2017 - 00845',
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-25T00:00:00.000Z',
       etapaProcesal:
         'EN EJECUCIÓN LIQUIDACIÓN CREDITO SOLICITADA A COVINOC',
-      despachoActivo: {
-        tipo: 'Civil Municipal // Civil Municipal',
-        id  : '6925'
-      }
-    },
-    capitalAdeudado: 46109381,
-    tipoProceso    : 'PRENDARIO',
-    llaveProceso   : '11001400306920170084500',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 244,
-    id    : '80144827',
-    deudor: {
-      cedula: 80144827,
-      nombreCompleto:
-        'RICARDO ANDRES NOCUA GUATAMA',
-      primerNombre   : 'RICARDO',
-      segundoNombre  : 'ANDRES',
-      primerApellido : 'NOCUA',
-      segundoApellido: 'GUATAMA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302620170100600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      juzgado: [
+        {
+          id  : 6925,
+          tipo: 'Civil Municipal // Civil Municipal'
         }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 245,
-    id    : '79893549',
-    deudor: {
-      cedula         : 79893549,
-      nombreCompleto : 'JAVIER ORLANDO GOMEZ DIAZ',
-      primerNombre   : 'JAVIER',
-      segundoNombre  : 'ORLANDO',
-      primerApellido : 'GOMEZ',
-      segundoApellido: 'DIAZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303820170095700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 246,
-    id    : '79805533',
-    deudor: {
-      cedula         : 79805533,
-      nombreCompleto : 'EDWIN BUITRAGO VILLAMIL',
-      primerNombre   : 'EDWIN',
-      primerApellido : 'BUITRAGO',
-      segundoApellido: 'VILLAMIL',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304720180024200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 247,
-    id    : '179290',
-    deudor: {
-      cedula         : 179290,
-      nombreCompleto : 'DIONISIO LANCHEROS NOVOA',
-      primerNombre   : 'DIONISIO',
-      primerApellido : 'LANCHEROS',
-      segundoApellido: 'NOVOA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25035418900120170017300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 248,
-    id    : '19475788',
-    deudor: {
-      cedula         : 19475788,
-      nombreCompleto : 'HENRY CARRANZA ALBA',
-      primerNombre   : 'HENRY',
-      primerApellido : 'CARRANZA',
-      segundoApellido: 'ALBA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305920170087100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 249,
-    id    : '19069228',
-    deudor: {
-      cedula: 19069228,
-      nombreCompleto:
-        'JORGE ALBERTO MARTINEZ BENDEK',
-      tel: {
-        fijo   : '6701643 ',
-        celular: '3134749213'
-      },
-      email          : 'jorgemar24@gmail.com',
-      direccion      : 'CARRERA 15 # 188 - 39',
-      primerNombre   : 'JORGE',
-      segundoNombre  : 'ALBERTO',
-      primerApellido : 'MARTINEZ',
-      segundoApellido: 'BENDEK'
-    },
-    demanda: {
+      ],
+      obligacion: [
+        12577419
+      ],
+      radicado: '2017 - 00845',
       vencimientoPagare:
-        '18/05/2020  5/05/2020  15/05/2019',
+        '2020-08-11T00:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 300388244,
+      direccion      : 'CALLE 15 # 15 - 45',
+      primerApellido : 'CASTAÑEDA',
+      primerNombre   : 'MARIA',
+      segundoApellido: 'PERUGACHI',
+      segundoNombre  : 'OLGA',
+      tel            : {
+        celular: null,
+        fijo   : 1111111
+      }
+    },
+    fecha    : '2023-07-17T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 300388244,
+    idProceso: [
+      50675410
+    ],
+    llaveProceso: '11001400306920170084500',
+    numero      : 243,
+    tipoProceso : 'PRENDARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d793345478fc',
+    capitalAdeudado: 44933312,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-23T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 16,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 18,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
       obligacion: [
         377813517259835,
         '377814405234039 // 45130727777594186 // 5491572487025564 // AUDIOPRESTAMO'
       ],
-      obligacion2:
-        '377814405234039 // 45130727777594186 // 5491572487025564 // AUDIOPRESTAMO',
-      entregaGarantiasAbogado: '2017-08-23',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '16'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '18'
-        }
-      },
-      radicado      : '2017 - 00875',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '18'
-      }
+      radicado         : '2017 - 00875',
+      vencimientoPagare: null
     },
-    capitalAdeudado: 44933312,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400301620170087500',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 250,
-    id    : '72165243',
     deudor: {
-      cedula: 72165243,
-      nombreCompleto:
-        'FRANCISCO CONTRERAS RAMIREZ',
-      primerNombre   : 'FRANCISCO',
-      primerApellido : 'CONTRERAS',
-      segundoApellido: 'RAMIREZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25758418900120170059900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 251,
-    id    : '7226283',
-    deudor: {
-      cedula: 7226283,
-      nombreCompleto:
-        'CARLOS JAVIER BECERRA BENAVIDES',
-      primerNombre   : 'CARLOS',
-      segundoNombre  : 'JAVIER',
-      primerApellido : 'BECERRA',
-      segundoApellido: 'BENAVIDES',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 252,
-    id    : '1023863956',
-    deudor: {
-      cedula         : 1023863956,
-      nombreCompleto : 'ANGEL JOVANI SUAREZ GOMEZ',
-      primerNombre   : 'ANGEL',
-      segundoNombre  : 'JOVANI',
-      primerApellido : 'SUAREZ',
-      segundoApellido: 'GOMEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303420170123600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 253,
-    id    : '1013604409',
-    deudor: {
-      cedula: 1013604409,
-      nombreCompleto:
-        'JORGE EDUARDO ACOSTA CORREDOR',
+      cedula         : 19069228,
+      direccion      : 'CARRERA 15 # 188 - 39',
+      email          : 'jorgemar24@gmail.com',
+      primerApellido : 'MARTINEZ',
       primerNombre   : 'JORGE',
-      segundoNombre  : 'EDUARDO',
-      primerApellido : 'ACOSTA',
-      segundoApellido: 'CORREDOR',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302520170099800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 254,
-    id    : '52344904',
-    deudor: {
-      cedula        : 52344904,
-      nombreCompleto: 'YOHAIRA PRADO VALOYES',
-      tel           : {
-        fijo   : '8615372 ',
-        celular: '3103291690'
-      },
-      email: 'yohairapadro@gmail.com',
-      direccion:
-        'CARRERA 9A 14F - 28C - UNIDAD 22 CHIA',
-      primerNombre   : 'YOHAIRA',
-      primerApellido : 'PRADO',
-      segundoApellido: 'VALOYES'
-    },
-    demanda: {
-      vencimientoPagare: '2018-05-09',
-      obligacion       : [
-        9460081795,
-        5303727444531025
-      ],
-      obligacion2            : 5303727444531025,
-      entregaGarantiasAbogado: '2017-08-28',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'CHIA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '3'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017 - 00477',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '3'
-      }
-    },
-    capitalAdeudado: 12993948,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '25175408900320170047700',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 255,
-    id    : '23946115',
-    deudor: {
-      cedula: 23946115,
-      nombreCompleto:
-        'YEIMI ZORAIDA PEREZ ACEVEDO',
-      primerNombre   : 'YEIMI',
-      segundoNombre  : 'ZORAIDA',
-      primerApellido : 'PEREZ',
-      segundoApellido: 'ACEVEDO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301220170102100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 256,
-    id    : '79881862',
-    deudor: {
-      cedula         : 79881862,
-      nombreCompleto : 'FREDDY ARIAS MARTINEZ',
-      primerNombre   : 'FREDDY',
-      primerApellido : 'ARIAS',
-      segundoApellido: 'MARTINEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300720170141000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 257,
-    id    : '79706920',
-    deudor: {
-      cedula         : 79706920,
-      nombreCompleto : 'PAUL RICHARD CAICEDO',
-      primerNombre   : 'PAUL',
-      primerApellido : 'RICHARD',
-      segundoApellido: 'CAICEDO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001418900720170013800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 258,
-    id    : '51740544',
-    deudor: {
-      cedula        : 51740544,
-      nombreCompleto: 'SOL JUDITH BUITRAGO DUQUE',
-      tel           : {
-        fijo   : '3002001',
-        celular: ''
-      },
-      email: 'dirfinanciera.sol@gmail.com',
-      direccion:
-        'CARRERA 121 # 128B - 52 BLOQUE 8 CASA 34',
-      primerNombre   : 'SOL',
-      segundoNombre  : 'JUDITH',
-      primerApellido : 'BUITRAGO',
-      segundoApellido: 'DUQUE'
-    },
-    demanda: {
-      vencimientoPagare: '2018-01-26',
-      obligacion       : [
-        5470083833,
-        '377813735559305 // 5303724061518310'
-      ],
-      obligacion2:
-        '377813735559305 // 5303724061518310',
-      entregaGarantiasAbogado: '2017-09-01',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '13'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017 - 01178',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '13'
-      }
-    },
-    capitalAdeudado: 18506672,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400301320170117800',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 259,
-    id    : '52770471',
-    deudor: {
-      cedula         : 52770471,
-      nombreCompleto : 'LUZ NELLY RUIZ LARA',
-      primerNombre   : 'LUZ',
-      segundoNombre  : 'NELLY',
-      primerApellido : 'RUIZ',
-      segundoApellido: 'LARA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303920170125600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 260,
-    id    : '11384155',
-    deudor: {
-      cedula         : 11384155,
-      nombreCompleto : 'HERNAN ALVAREZ PARDO',
-      primerNombre   : 'HERNAN',
-      primerApellido : 'ALVAREZ',
-      segundoApellido: 'PARDO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25290400300120170063400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 261,
-    id    : '79901800',
-    deudor: {
-      cedula: 79901800,
-      nombreCompleto:
-        'DANIEL ALBERTO IBAÑEZ DELGADO',
-      primerNombre   : 'DANIEL',
+      segundoApellido: 'BENDEK',
       segundoNombre  : 'ALBERTO',
-      primerApellido : 'IBAÑEZ',
-      segundoApellido: 'DELGADO',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 3134749213,
+        fijo   : 6701643
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308220170111600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2023-05-16T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 19069228,
+    idProceso: [
+      50687430
+    ],
+    llaveProceso: '11001400301620170087500',
+    numero      : 249,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 262,
-    id    : '1069737167',
-    deudor: {
-      cedula: 1069737167,
-      nombreCompleto:
-        'RAFAEL ANDRES MORENO ZAMORA',
-      primerNombre   : 'RAFAEL',
-      segundoNombre  : 'ANDRES',
-      primerApellido : 'MORENO',
-      segundoApellido: 'ZAMORA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '2590400300220170063100',
-    grupo          : 'Terminados',
+    _id            : '64cc10e7ea30d7933454791a',
+    capitalAdeudado: 14404721,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-25T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 8,
+          tipo: 'Civil Municipal'
         },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+        {
+          id  : 1,
+          tipo: 'Civil Municipal de Ejecucion'
         }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 263,
-    id    : '9856710',
-    deudor: {
-      cedula         : 9856710,
-      nombreCompleto : 'ANCIZAR GIRALDO BOTERO',
-      primerNombre   : 'ANCIZAR',
-      primerApellido : 'GIRALDO',
-      segundoApellido: 'BOTERO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307020170100700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 264,
-    id    : '3058707',
-    deudor: {
-      cedula         : 3058707,
-      nombreCompleto : 'HECTOR JULIO GARZON PEÑA',
-      primerNombre   : 'HECTOR',
-      segundoNombre  : 'JULIO',
-      primerApellido : 'GARZON',
-      segundoApellido: 'PEÑA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25736408900120170016600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 265,
-    id    : '7601476',
-    deudor: {
-      cedula        : 7601476,
-      nombreCompleto: 'JULIO RENE SANCHEZ ARGOTE',
-      tel           : {
-        fijo   : '3018759 ',
-        celular: '3118027001'
-      },
-      email: 'jsanchezargote@gmail.com',
-      direccion:
-        'CARRERA 90 C No 6A - 31   - CASA 148',
-      primerNombre   : 'JULIO',
-      segundoNombre  : 'RENE',
-      primerApellido : 'SANCHEZ',
-      segundoApellido: 'ARGOTE'
-    },
-    demanda: {
-      vencimientoPagare: '2020-05-04',
-      obligacion       : [
-        186718,
-        '3778153354915637 / 4513079095670572'
       ],
-      obligacion2:
-        '3778153354915637 / 4513079095670572',
-      entregaGarantiasAbogado: '2017-09-21',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: ' CCTO/ CCTOE',
-          id  : '201'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2018 - 00650',
-      despachoActivo: {
-        tipo: ' CCTO/ CCTOE',
-        id  : '201'
-      }
-    },
-    capitalAdeudado: 115224736,
-    tipoProceso    : 'HIPOTECARIO',
-    llaveProceso   : '1100140030202\'100050100',
-    grupo          : 'Insolvencia'
-  },
-  {
-    numero: 266,
-    id    : '71192974',
-    deudor: {
-      cedula: 71192974,
-      nombreCompleto:
-        'JULIAN DE JESUS ISAZA AGUIRRE',
-      primerNombre   : 'JULIAN',
-      segundoNombre  : 'DE',
-      primerApellido : 'JESUS',
-      segundoApellido: 'ISAZA AGUIRRE ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302020170121900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 267,
-    id    : '52102735',
-    deudor: {
-      cedula: 52102735,
-      nombreCompleto:
-        'ANA FABIOLA CARDOZO HERREÑO',
-      primerNombre   : 'ANA',
-      segundoNombre  : 'FABIOLA',
-      primerApellido : 'CARDOZO',
-      segundoApellido: 'HERREÑO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306220170122900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 268,
-    id    : '79592811',
-    deudor: {
-      cedula         : 79592811,
-      nombreCompleto : 'JORGE HUGO LEAL SERRATO',
-      primerNombre   : 'JORGE',
-      segundoNombre  : 'HUGO',
-      primerApellido : 'LEAL',
-      segundoApellido: 'SERRATO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303520170147500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 269,
-    id    : '80162950',
-    deudor: {
-      cedula         : 80162950,
-      nombreCompleto : 'JUAN CARLOS ORTIZ CUERVO',
-      primerNombre   : 'JUAN',
-      segundoNombre  : 'CARLOS',
-      primerApellido : 'ORTIZ',
-      segundoApellido: 'CUERVO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25286400300120180042100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 270,
-    id    : '1018423770',
-    deudor: {
-      cedula: 1018423770,
-      nombreCompleto:
-        'WILMER ANDRES QUIÑONES HERNANDEZ',
-      primerNombre   : 'WILMER',
-      segundoNombre  : 'ANDRES',
-      primerApellido : 'QUIÑONES',
-      segundoApellido: 'HERNANDEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001408903420170113900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 271,
-    id    : '52850427',
-    deudor: {
-      cedula: 52850427,
-      nombreCompleto:
-        'AURA GEOVANA RODRIGUEZ MORA',
-      primerNombre   : 'AURA',
-      segundoNombre  : 'GEOVANA',
-      primerApellido : 'RODRIGUEZ',
-      segundoApellido: 'MORA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400405420170099000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 272,
-    id    : '80406979',
-    deudor: {
-      cedula: 80406979,
-      nombreCompleto:
-        'LUIS FERNANDO GUTIERREZ RODRIGUEZ',
-      primerNombre   : 'LUIS',
-      segundoNombre  : 'FERNANDO',
-      primerApellido : 'GUTIERREZ',
-      segundoApellido: 'RODRIGUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300620170076300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 273,
-    id    : '1024479389',
-    deudor: {
-      cedula: 1024479389,
-      nombreCompleto:
-        'SONIA MARCELA MOLINA QUIMBAYO',
-      tel: {
-        fijo   : '7650684',
-        celular: ''
-      },
-      email          : 'sonymarce20@hotmail.com',
-      direccion      : 'CALLE 67 No 17 C-63 SUR',
-      primerNombre   : 'SONIA',
-      segundoNombre  : 'MARCELA',
-      primerApellido : 'MOLINA',
-      segundoApellido: 'QUIMBAYO'
-    },
-    demanda: {
-      vencimientoPagare: '5/10/2022',
-      obligacion       : [
-        156791
-      ],
-      entregaGarantiasAbogado: '25/09/2017',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal //  PCCivil Municipal',
-          id  : '6446'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2018 - 01029',
-      despachoActivo: {
-        tipo: 'Civil Municipal //  PCCivil Municipal',
-        id  : '6446'
-      }
-    },
-    capitalAdeudado: 65355736,
-    tipoProceso    : 'HIPOTECARIO',
-    llaveProceso   : '11001400306420180102900',
-    grupo          : 'Insolvencia'
-  },
-  {
-    numero: 274,
-    id    : '80312466',
-    deudor: {
-      cedula: 80312466,
-      nombreCompleto:
-        'ANDRES GUILLERMO ACEVEDO BORRAEZ',
-      primerNombre   : 'ANDRES',
-      segundoNombre  : 'GUILLERMO',
-      primerApellido : 'ACEVEDO',
-      segundoApellido: 'BORRAEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300720170148400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 275,
-    id    : '39670695',
-    deudor: {
-      cedula        : 39670695,
-      nombreCompleto: 'HORTENCIA GARZON',
-      primerNombre  : 'HORTENCIA',
-      primerApellido: 'GARZON',
-      tel           : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754408900320170096900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 276,
-    id    : '79200345',
-    deudor: {
-      cedula         : 79200345,
-      nombreCompleto : 'NELSON MAYORGA GOMEZ',
-      primerNombre   : 'NELSON',
-      primerApellido : 'MAYORGA',
-      segundoApellido: 'GOMEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754400300420170038100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 277,
-    id    : '39687966',
-    deudor: {
-      cedula         : 39687966,
-      nombreCompleto : 'OLGA LUCIA HERAZO PERDOMO',
-      primerNombre   : 'OLGA',
-      segundoNombre  : 'LUCIA',
-      primerApellido : 'HERAZO',
-      segundoApellido: 'PERDOMO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308320170098000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 278,
-    id    : '35506033',
-    deudor: {
-      cedula        : 35506033,
-      nombreCompleto: 'LUZ DARY PUERTA JARAMILLO',
-      tel           : {
-        fijo   : '4357832 ',
-        celular: '3103430010'
-      },
-      email          : 'natis-rolita@hotmail.con',
-      direccion      : 'CARRERA  101  No 71 B - 53',
-      primerNombre   : 'LUZ',
-      segundoNombre  : 'DARY',
-      primerApellido : 'PUERTA',
-      segundoApellido: 'JARAMILLO'
-    },
-    demanda: {
-      vencimientoPagare: '18/03/2019',
-      obligacion       : [
-        4670083154
-      ],
-      entregaGarantiasAbogado: '28/09/2017',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-37-civil-municipal-de-bogota',
-          id  : '37'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota',
-          id  : '11'
-        }
-      },
-      radicado      : '2017 - 01391',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota',
-        id  : '11'
-      }
-    },
-    capitalAdeudado: 12347548,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400303720170139100',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 279,
-    id    : '1069745324',
-    deudor: {
-      cedula: 1069745324,
-      nombreCompleto:
-        'ANDRES FELIPE GUTIERREZ TRUJILLO',
-      tel: {
-        fijo   : '',
-        celular: '3115964170'
-      },
-      direccion:
-        'CALLE 14A SUR # 11M - 18 CASA 22',
-      primerNombre   : 'ANDRES',
-      segundoNombre  : 'FELIPE',
-      primerApellido : 'GUTIERREZ',
-      segundoApellido: 'TRUJILLO'
-    },
-    demanda: {
-      vencimientoPagare: '2020-12-07',
-      obligacion       : [
+      obligacion: [
         2330087057
       ],
-      entregaGarantiasAbogado: '2017-08-25',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '8'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '1'
-        }
-      },
-      radicado      : '2017 - 01058',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '1'
+      radicado: '2017 - 01058',
+      vencimientoPagare:
+        '2020-12-07T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 1069745324,
+      direccion:
+        'CALLE 14A SUR # 11M - 18 CASA 22',
+      primerApellido : 'GUTIERREZ',
+      primerNombre   : 'ANDRES',
+      segundoApellido: 'TRUJILLO',
+      segundoNombre  : 'FELIPE',
+      tel            : {
+        celular: 3115964170,
+        fijo   : 0
       }
     },
-    capitalAdeudado: 14404721,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400300820170105800',
-    grupo          : 'Reintegra'
+    fecha    : '2022-07-21T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 1069745324,
+    idProceso: [
+      112758450
+    ],
+    llaveProceso: '11001400300820170105800',
+    numero      : 279,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 280,
-    id    : '19447966',
-    deudor: {
-      cedula: 19447966,
-      nombreCompleto:
-        'JOSE HERNANDO SANCHEZ VALBUENA',
-      tel: {
-        fijo   : '4789274 ',
-        celular: '3125826241'
-      },
-      email          : 'jhernandosanchez@yahoo.es',
-      direccion      : 'CR 12B 24-37 SUR',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'HERNANDO',
-      primerApellido : 'SANCHEZ',
-      segundoApellido: 'VALBUENA'
-    },
-    demanda: {
-      vencimientoPagare: '15/012021',
-      obligacion       : [
+    _id            : '64cc10e7ea30d7933454791b',
+    capitalAdeudado: 11796195,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-09-11T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 9,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 18,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
         8920084662
       ],
-      entregaGarantiasAbogado: '2017-09-11',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '9'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '18'
-        }
-      },
-      radicado      : '2017 - 01279',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '18'
-      }
+      radicado         : '2017 - 01279',
+      vencimientoPagare: null
     },
-    capitalAdeudado: 11796195,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400300920170127900',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 281,
-    id    : '1069712582',
     deudor: {
-      cedula         : 1069712582,
-      nombreCompleto : 'YENNY MARGOTH LARA MUÑOZ',
-      primerNombre   : 'YENNY',
-      segundoNombre  : 'MARGOTH',
-      primerApellido : 'LARA',
-      segundoApellido: 'MUÑOZ',
+      cedula         : 19447966,
+      direccion      : 'CR 12B 24-37 SUR',
+      email          : 'jhernandosanchez@yahoo.es',
+      primerApellido : 'SANCHEZ',
+      primerNombre   : 'JOSE',
+      segundoApellido: 'VALBUENA',
+      segundoNombre  : 'HERNANDO',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 3125826241,
+        fijo   : 4789274
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '25053408900120180004900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2022-01-26T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 19447966,
+    idProceso: [
+      50875780
+    ],
+    llaveProceso: '11001400300920170127900',
+    numero      : 280,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 282,
-    id    : '19255260',
-    deudor: {
-      cedula: 19255260,
-      nombreCompleto:
-        'MATIAS HUMBERTO AVILA AGUILAR',
-      tel: {
-        fijo   : '4170527 ',
-        celular: '3125024008'
-      },
-      email          : 'maifren_13@yahoo.es',
-      direccion      : 'CALLE 2 C No 62 - 20',
-      primerNombre   : 'MATIAS',
-      segundoNombre  : 'HUMBERTO',
-      primerApellido : 'AVILA',
-      segundoApellido: 'AGUILAR'
-    },
-    demanda: {
-      vencimientoPagare: '5/05/2024',
-      obligacion       : [
+    _id            : '64cc10e7ea30d7933454791d',
+    capitalAdeudado: 66362959,
+    demanda        : {
+      ciudad                 : 'BOGOTA',
+      departamento           : 'CUNDINAMARCA',
+      entregaGarantiasAbogado: null,
+      etapaProcesal          : 'EJECUCIÓN',
+      juzgado                : [
+        {
+          id  : 15,
+          tipo: 'Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-015-civil-municipal-de-bogota'
+        },
+        {
+          id  : 11,
+          tipo: 'Civil Municipal de Ejecucion',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota'
+        }
+      ],
+      obligacion: [
         174366
       ],
-      entregaGarantiasAbogado: '21/09/2017',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-015-civil-municipal-de-bogota',
-          id  : '15'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota',
-          id  : '11'
-        }
-      },
-      radicado      : '2017 - 01394',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota',
-        id  : '11'
-      }
+      radicado: '2017 - 01394',
+      vencimientoPagare:
+        '2024-05-05T05:00:00.000Z'
     },
-    capitalAdeudado: 66362959,
-    tipoProceso    : 'HIPOTECARIO',
-    llaveProceso   : '11001400301520170139400',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 283,
-    id    : '1010188573',
     deudor: {
-      cedula: 1010188573,
-      nombreCompleto:
-        'JANSON DAVID CARREÑO QUIJANO',
-      primerNombre   : 'JANSON',
-      segundoNombre  : 'DAVID',
-      primerApellido : 'CARREÑO',
-      segundoApellido: 'QUIJANO',
+      cedula         : 19255260,
+      direccion      : 'CALLE 2 C No 62 - 20',
+      email          : 'maifren_13@yahoo.es',
+      primerApellido : 'AVILA',
+      primerNombre   : 'MATIAS',
+      segundoApellido: 'AGUILAR',
+      segundoNombre  : 'HUMBERTO',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 3125024008,
+        fijo   : 4170527
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304120170114000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2021-11-08T05:00:00.000Z',
+    grupo    : 'Bancolombia',
+    id       : 19255260,
+    idProceso: [
+      50777890
+    ],
+    llaveProceso: '11001400301520170139400',
+    numero      : 282,
+    tipoProceso : 'HIPOTECARIO'
   },
   {
-    numero: 284,
-    id    : '93119101',
-    deudor: {
-      cedula         : 93119101,
-      nombreCompleto : 'ARMANDO BARRIOS VARGAS',
-      primerNombre   : 'ARMANDO',
-      primerApellido : 'BARRIOS',
-      segundoApellido: 'VARGAS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25214400300120170070400',
-    grupo          : 'Terminados',
+    _id            : '64cc10e7ea30d79334547921',
+    capitalAdeudado: 94533343,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-09-11T00:00:00.000Z',
+      etapaProcesal: 'CURADOR AD LITEM',
+      juzgado      : [
+        {
+          id  : 17,
+          tipo: 'Civil Municipal'
         }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 285,
-    id    : '52318314',
-    deudor: {
-      cedula         : 52318314,
-      nombreCompleto : 'ADRIANA MARIA PEREZ GOMEZ',
-      primerNombre   : 'ADRIANA',
-      segundoNombre  : 'MARIA',
-      primerApellido : 'PEREZ',
-      segundoApellido: 'GOMEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300520170132600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 286,
-    id    : '80259791',
-    deudor: {
-      cedula        : 80259791,
-      nombreCompleto: 'ALIRIO HEREDIA BUITRAGO',
-      tel           : {
-        fijo   : '2796621',
-        celular: ''
-      },
-      email          : 'gerencia.seguridadgf@gmail.com',
-      direccion      : 'DIAGONAL 48 J No 5C- 34 SUR',
-      primerNombre   : 'ALIRIO',
-      primerApellido : 'HEREDIA',
-      segundoApellido: 'BUITRAGO'
-    },
-    demanda: {
-      vencimientoPagare: '2020-09-06',
-      obligacion       : [
+      ],
+      obligacion: [
         12711612
       ],
-      entregaGarantiasAbogado: '2017-09-11',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '17'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017 - 01195',
-      etapaProcesal : 'CURADOR AD LITEM',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '17'
+      radicado: '2017 - 01195',
+      vencimientoPagare:
+        '2020-09-06T00:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 80259791,
+      direccion      : 'DIAGONAL 48 J No 5C- 34 SUR',
+      email          : 'gerencia.seguridadgf@gmail.com',
+      primerApellido : 'HEREDIA',
+      primerNombre   : 'ALIRIO',
+      segundoApellido: 'BUITRAGO',
+      tel            : {
+        celular: 0,
+        fijo   : 2796621
       }
     },
-    capitalAdeudado: 94533343,
-    tipoProceso    : 'PRENDARIO',
-    llaveProceso   : '11001400301720170119500',
-    grupo          : 'Reintegra'
+    fecha    : '2023-07-10T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 80259791,
+    idProceso: [
+      50721470,
+      127748331
+    ],
+    idProcesos: [
+      50721470
+    ],
+    llaveProceso: '11001400301720170119500',
+    numero      : 286,
+    tipoProceso : 'PRENDARIO'
   },
   {
-    numero: 287,
-    id    : '79861754',
-    deudor: {
-      cedula: 79861754,
-      nombreCompleto:
-        'CARLOS GERMAN RUGE CASTAÑEDA',
-      tel: {
-        fijo   : '6087374 ',
-        celular: '3104865508'
-      },
-      email          : 'carlosgrugec@hotmail.com',
-      direccion      : 'CALLE 72 A No  74 A - 77',
-      primerNombre   : 'CARLOS',
-      segundoNombre  : 'GERMAN',
-      primerApellido : 'RUGE',
-      segundoApellido: 'CASTAÑEDA'
-    },
-    demanda: {
-      vencimientoPagare: '2020-09-29',
-      obligacion       : [
+    _id            : '64cc10e7ea30d79334547922',
+    capitalAdeudado: 44309785,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-10-04T00:00:00.000Z',
+      juzgado: [
+        {
+          id  : 1650,
+          tipo: 'Desgloce'
+        }
+      ],
+      obligacion: [
         12592504
       ],
-      entregaGarantiasAbogado: '2017-10-04',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal DESG / Civil Municipal',
-          id  : '1650'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017 - 00157',
-      despachoActivo: {
-        tipo: 'Civil Municipal DESG / Civil Municipal',
-        id  : '1650'
-      }
+      radicado: '2017 - 00157',
+      vencimientoPagare:
+        '2020-09-29T00:00:00.000Z'
     },
-    capitalAdeudado: 44309785,
-    tipoProceso    : 'PRENDARIO',
-    llaveProceso   : '11001400301620170015700',
-    grupo          : 'Insolvencia'
-  },
-  {
-    numero: 288,
-    id    : '20371142',
     deudor: {
-      cedula         : 20371142,
-      nombreCompleto : 'VIVIANA MARCELA ROA VIVAS',
-      primerNombre   : 'VIVIANA',
-      segundoNombre  : 'MARCELA',
-      primerApellido : 'ROA',
-      segundoApellido: 'VIVAS',
+      cedula         : 79861754,
+      direccion      : 'CALLE 72 A No  74 A - 77',
+      email          : 'carlosgrugec@hotmail.com',
+      primerApellido : 'RUGE',
+      primerNombre   : 'CARLOS',
+      segundoApellido: 'CASTAÑEDA',
+      segundoNombre  : 'GERMAN',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 3104865508,
+        fijo   : 6087374
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308320170113300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2022-08-11T05:00:00.000Z',
+    grupo    : 'Insolvencia',
+    id       : 79861754,
+    idProceso: [
+      50242270
+    ],
+    llaveProceso: '11001400301620170015700',
+    numero      : 287,
+    tipoProceso : 'PRENDARIO'
   },
   {
-    numero: 289,
-    id    : '12229243',
-    deudor: {
-      cedula: 12229243,
-      nombreCompleto:
-        'JOSE AHINSONJOBER TORO VARGAS',
-      tel: {
-        fijo   : '4651401',
-        celular: ''
-      },
-      email          : 'serdiajo@gmail.com',
-      direccion      : 'AVENIDA 1 DE MAYO No 29-06',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'AHINSONJOBER',
-      primerApellido : 'TORO',
-      segundoApellido: 'VARGAS'
-    },
-    demanda: {
-      vencimientoPagare: '2020-03-22',
-      obligacion       : [
+    _id            : '64cc10e7ea30d79334547924',
+    capitalAdeudado: 14645611,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-09-11T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 18,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 16,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
         5306940432740470
       ],
-      entregaGarantiasAbogado: '2017-09-11',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '18'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '16'
-        }
-      },
-      radicado      : '2017 - 01522',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '16'
-      }
+      radicado: '2017 - 01522',
+      vencimientoPagare:
+        '2020-03-22T00:00:00.000Z'
     },
-    capitalAdeudado: 14645611,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400301820170152200',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 290,
-    id    : '40035102',
     deudor: {
-      cedula         : 40035102,
-      nombreCompleto : 'ELIZABETH GIL RODRIGUEZ',
-      primerNombre   : 'ELIZABETH',
-      primerApellido : 'GIL',
-      segundoApellido: 'RODRIGUEZ',
+      cedula         : 12229243,
+      direccion      : 'AVENIDA 1 DE MAYO No 29-06',
+      email          : 'serdiajo@gmail.com',
+      primerApellido : 'TORO',
+      primerNombre   : 'JOSE',
+      segundoApellido: 'VARGAS',
+      segundoNombre  : 'AHINSONJOBER',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 0,
+        fijo   : 4651401
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305920170097500',
-    grupo          : 'Terminados',
+    fecha    : '2022-09-16T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 12229243,
+    idProceso: [
+      50711570
+    ],
+    llaveProceso: '11001400301820170152200',
+    numero      : 289,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d7933454792a',
+    capitalAdeudado: 25845669,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 291,
-    id    : '35427969',
-    deudor: {
-      cedula: 35427969,
-      nombreCompleto:
-        'YEIMMY CAROLINA FINO BALLEN',
-      primerNombre   : 'YEIMMY',
-      segundoNombre  : 'CAROLINA',
-      primerApellido : 'FINO',
-      segundoApellido: 'BALLEN',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303920170133000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 292,
-    id    : '80205694',
-    deudor: {
-      cedula: 80205694,
-      nombreCompleto:
-        'JOHN FREDY HERREÑO RAMIREZ',
-      tel: {
-        fijo   : '7641957 ',
-        celular: '3124102'
-      },
-      email: 'kellyo.1508@hotmail.com',
-      direccion:
-        'DIAGONAL 82 A SUR No 7C 19  ESTE',
-      primerNombre   : 'JOHN',
-      segundoNombre  : 'FREDY',
-      primerApellido : 'HERREÑO',
-      segundoApellido: 'RAMIREZ'
-    },
-    demanda: {
-      vencimientoPagare: '2020-08-31',
-      obligacion       : [
-        300094317
-      ],
-      entregaGarantiasAbogado: '2017-09-13',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: '  Pequeñas Causas y Competencias Multiples',
-          id  : '10'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017 - 00128',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: '  Pequeñas Causas y Competencias Multiples',
-        id  : '10'
-      }
-    },
-    capitalAdeudado: 25766204,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001410375220170012800',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 293,
-    id    : '1032383389',
-    deudor: {
-      cedula        : 1032383389,
-      nombreCompleto: 'ANDERSON REVELO SANTOS',
-      tel           : {
-        fijo   : '4725511 ',
-        celular: '3118526428'
-      },
-      email: 'ars.09@hotmail.com',
-      direccion:
-        'CALLE 64 SUR  No 85 B - 40  APARTAMENTO  104',
-      primerNombre   : 'ANDERSON',
-      primerApellido : 'REVELO',
-      segundoApellido: 'SANTOS'
-    },
-    demanda: {
-      vencimientoPagare: '2020-03-05',
-      obligacion       : [
-        '320088443  / 377813441863587',
-        4513070212799642
-      ],
-      obligacion2            : 4513070212799642,
-      entregaGarantiasAbogado: '2017-09-19',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-048-civil-municipal-de-bogota',
-          id  : '48'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota',
-          id  : '7'
-        }
-      },
-      radicado      : '2017 - 00974',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota',
-        id  : '7'
-      }
-    },
-    capitalAdeudado: 12249598,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400304820170097400',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 294,
-    id    : '79292743',
-    deudor: {
-      cedula        : 79292743,
-      nombreCompleto: 'HERNANDO PULECIO PAREDES',
-      tel           : {
-        fijo   : '4619449',
-        celular: ''
-      },
-      email: 'hpulecio@cable.net.co',
-      direccion:
-        'CALLE 86 A No 69 T -41  TORRE 1 APARTAMENTO 902',
-      primerNombre   : 'HERNANDO',
-      primerApellido : 'PULECIO',
-      segundoApellido: 'PAREDES'
-    },
-    demanda: {
-      vencimientoPagare: '2020-09-13',
-      obligacion       : [
-        12676248
-      ],
-      entregaGarantiasAbogado: '2017-09-18',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '63'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '1'
-        }
-      },
-      radicado      : '2017 - 00924',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '1'
-      }
-    },
-    capitalAdeudado: 48498610,
-    tipoProceso    : 'PRENDARIO',
-    llaveProceso   : '11001400306320170092400',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 295,
-    id    : '36536419',
-    deudor: {
-      cedula: 36536419,
-      nombreCompleto:
-        'RITA CECILIA FERNANDEZ IBAÑEZ',
-      tel: {
-        fijo   : '2131020',
-        celular: ''
-      },
-      direccion:
-        'CALLE 124 No  20-76 APARTAMENTO 503',
-      primerNombre   : 'RITA',
-      segundoNombre  : 'CECILIA',
-      primerApellido : 'FERNANDEZ',
-      segundoApellido: 'IBAÑEZ'
-    },
-    demanda: {
-      vencimientoPagare: '2020-09-12',
-      obligacion       : [
-        12389160
-      ],
-      entregaGarantiasAbogado: '2017-09-18',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '51'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado: '2017 - 01113',
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-09-18T00:00:00.000Z',
       etapaProcesal:
         'PENDIENTE SENTENCIA Y OFICIOS',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '51'
-      }
-    },
-    capitalAdeudado: 25845669,
-    tipoProceso    : 'PRENDARIO',
-    llaveProceso   : '11001400305120170111300',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 296,
-    id    : '86074992',
-    deudor: {
-      cedula: 86074992,
-      nombreCompleto:
-        'DIDIER HARVEY PRADA AGUIRRE',
-      primerNombre   : 'DIDIER',
-      segundoNombre  : 'HARVEY',
-      primerApellido : 'PRADA',
-      segundoApellido: 'AGUIRRE',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001410375220170129100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      juzgado: [
+        {
+          id  : 51,
+          tipo: 'Civil Municipal'
         }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
+      ],
+      obligacion: [
+        12389160
+      ],
+      radicado: '2017 - 01113',
+      vencimientoPagare:
+        '2020-09-12T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 36536419,
+      direccion:
+        'CALLE 124 No  20-76 APARTAMENTO 503',
+      primerApellido : 'FERNANDEZ',
+      primerNombre   : 'RITA',
+      segundoApellido: 'IBAÑEZ',
+      segundoNombre  : 'CECILIA',
+      tel            : {
+        celular: 0,
+        fijo   : 2131020
       }
-    }
+    },
+    fecha    : '2023-07-19T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 36536419,
+    idProceso: [
+      110568033
+    ],
+    llaveProceso: '11001400305120170111300',
+    numero      : 295,
+    tipoProceso : 'PRENDARIO'
   },
   {
-    numero: 297,
-    id    : '6006685',
-    deudor: {
-      cedula: 6006685,
-      nombreCompleto:
-        'MIGUEL ANGEL MARTINEZ HUERTAS',
-      tel: {
-        fijo   : '',
-        celular: '3123077900'
-      },
-      direccion      : 'CALLE 5 A No 6 - 23 UMBITA',
-      primerNombre   : 'MIGUEL',
-      segundoNombre  : 'ANGEL',
-      primerApellido : 'MARTINEZ',
-      segundoApellido: 'HUERTAS'
-    },
-    demanda: {
-      vencimientoPagare: '10/07/2019',
-      obligacion       : [
+    _id            : '64cc10e7ea30d7933454792c',
+    capitalAdeudado: 28485816,
+    demanda        : {
+      ciudad                 : 'UMBITA',
+      departamento           : 'BOYACÁ',
+      entregaGarantiasAbogado: null,
+      etapaProcesal          : 'EJECUCIÓN',
+      juzgado                : [
+        {
+          id  : 1,
+          tipo: 'Promiscuo Municipal'
+        }
+      ],
+      obligacion: [
         5450082766,
         5450083252
       ],
-      obligacion2            : 5450083252,
-      entregaGarantiasAbogado: '21/09/2017',
-      departamento           : 'BOYACÁ',
-      ciudad                 : 'UMBITA',
-      juzgado                : {
-        origen: {
-          tipo: ' PM',
-          id  : '001'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017 - 00095',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: ' PM',
-        id  : '001'
+      radicado: '2017 - 00095',
+      vencimientoPagare:
+        '2019-10-07T05:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 6006685,
+      direccion      : 'CALLE 5 A No 6 - 23 UMBITA',
+      primerApellido : 'MARTINEZ',
+      primerNombre   : 'MIGUEL',
+      segundoApellido: 'HUERTAS',
+      segundoNombre  : 'ANGEL',
+      tel            : {
+        celular: 3123077900,
+        fijo   : 0
       }
     },
-    capitalAdeudado: 28485816,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '15842408900120170009500',
-    grupo          : 'Reintegra'
+    grupo    : 'Reintegra',
+    id       : 6006685,
+    idProceso: [
+      0
+    ],
+    llaveProceso: '15842408900120170009500',
+    numero      : 297,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 298,
-    id    : '79659040',
-    deudor: {
-      cedula: 79659040,
-      nombreCompleto:
-        'HECTOR GABRIEL RAMIREZ BOHORQUEZ',
-      primerNombre   : 'HECTOR',
-      segundoNombre  : 'GABRIEL',
-      primerApellido : 'RAMIREZ',
-      segundoApellido: 'BOHORQUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307820170098600',
-    grupo          : 'Terminados',
+    _id            : '64cc10e7ea30d79334547939',
+    capitalAdeudado: 40406421,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-04-10T05:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 21,
+          tipo: 'Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-021-civil-municipal-de-bogota'
         },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+        {
+          id  : 15,
+          tipo: 'Civil Municipal de Ejecucion',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota'
         }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 299,
-    id    : '80879280',
-    deudor: {
-      cedula: 80879280,
-      nombreCompleto:
-        'ROBERTO STIVENSON ACERO BARON',
-      primerNombre   : 'ROBERTO',
-      segundoNombre  : 'STIVENSON',
-      primerApellido : 'ACERO',
-      segundoApellido: 'BARON',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754400300320170034600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 300,
-    id    : '79617611',
-    deudor: {
-      cedula: 79617611,
-      nombreCompleto:
-        'FABIO EDILBERTO JARA SANCHEZ',
-      primerNombre   : 'FABIO',
-      segundoNombre  : 'EDILBERTO',
-      primerApellido : 'JARA',
-      segundoApellido: 'SANCHEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25286400300120170081600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 301,
-    id    : '35220385',
-    deudor: {
-      cedula: 35220385,
-      nombreCompleto:
-        'BLANCA YOLANDA ACOSTA RODRIGUEZ',
-      primerNombre   : 'BLANCA',
-      segundoNombre  : 'YOLANDA',
-      primerApellido : 'ACOSTA',
-      segundoApellido: 'RODRIGUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25322418900120180002200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 302,
-    id    : '79906707',
-    deudor: {
-      cedula         : 79906707,
-      nombreCompleto : 'EDGAR GODOY LOPEZ',
-      primerNombre   : 'EDGAR',
-      primerApellido : 'GODOY',
-      segundoApellido: 'LOPEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25286310300120170100300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 303,
-    id    : '1118532643',
-    deudor: {
-      cedula: 1118532643,
-      nombreCompleto:
-        'RAFAEL ALFONSO CAMACHO VELANDIA',
-      primerNombre   : 'RAFAEL',
-      segundoNombre  : 'ALFONSO',
-      primerApellido : 'CAMACHO',
-      segundoApellido: 'VELANDIA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303020170157900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 304,
-    id    : '79892240',
-    deudor: {
-      cedula         : 79892240,
-      nombreCompleto : 'FERNANDO GONZALEZ TELLEZ',
-      primerNombre   : 'FERNANDO',
-      primerApellido : 'GONZALEZ',
-      segundoApellido: 'TELLEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    demanda: {
-      radicado  : '2017 - 01411',
-      obligacion: [
-        null
       ],
-      juzgado: {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    },
-    capitalAdeudado: 0,
-    grupo          : 'Terminados'
-  },
-  {
-    numero: 305,
-    id    : '19479861',
-    deudor: {
-      cedula         : 19479861,
-      nombreCompleto : 'FERNANDO RINCON RODRIGUEZ',
-      primerNombre   : 'FERNANDO',
-      primerApellido : 'RINCON',
-      segundoApellido: 'RODRIGUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308220170125600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 306,
-    id    : '7217446',
-    deudor: {
-      cedula         : 7217446,
-      nombreCompleto : 'JORGE ARTURO JIMENEZ LEAL',
-      primerNombre   : 'JORGE',
-      segundoNombre  : 'ARTURO',
-      primerApellido : 'JIMENEZ',
-      segundoApellido: 'LEAL',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306420170149000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 307,
-    id    : '79309509',
-    deudor: {
-      cedula: 79309509,
-      nombreCompleto:
-        'CARLOS ARTURO CASTAÑO ALDANA',
-      primerNombre   : 'CARLOS',
-      segundoNombre  : 'ARTURO',
-      primerApellido : 'CASTAÑO',
-      segundoApellido: 'ALDANA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303620170112500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 308,
-    id    : '80271269',
-    deudor: {
-      cedula: 80271269,
-      nombreCompleto:
-        'OSCAR ERNESTO SERRANO VELASCO',
-      primerNombre   : 'OSCAR',
-      segundoNombre  : 'ERNESTO',
-      primerApellido : 'SERRANO',
-      segundoApellido: 'VELASCO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302220170117600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 309,
-    id    : '19332163',
-    deudor: {
-      cedula: 19332163,
-      nombreCompleto:
-        'HENRY NOEL CASTELBLANCO SOSA',
-      primerNombre   : 'HENRY',
-      segundoNombre  : 'NOEL',
-      primerApellido : 'CASTELBLANCO',
-      segundoApellido: 'SOSA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306720170161300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 310,
-    id    : '79388145',
-    deudor: {
-      cedula: 79388145,
-      nombreCompleto:
-        'LIBARDO ALFONSO GONZALEZ TRIVIÑO',
-      tel: {
-        fijo   : '2928108',
-        celular: ''
-      },
-      email          : 'li_bcar@hotmail.com',
-      direccion      : 'CARRERA 72 A- No 9 - 44',
-      primerNombre   : 'LIBARDO',
-      segundoNombre  : 'ALFONSO',
-      primerApellido : 'GONZALEZ',
-      segundoApellido: 'TRIVIÑO'
-    },
-    demanda: {
-      vencimientoPagare: '23/03/2020',
-      obligacion       : [
+      obligacion: [
         '1740086734 4513073749673967',
         5303719549810730
       ],
-      obligacion2            : 5303719549810730,
-      entregaGarantiasAbogado: '04/10/2017',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-021-civil-municipal-de-bogota',
-          id  : '21'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota',
-          id  : '15'
-        }
-      },
-      radicado      : '2017 - 01532',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota',
-        id  : '15'
-      }
+      radicado         : '2017 - 01532',
+      vencimientoPagare: null
     },
-    capitalAdeudado: 40406421,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400302120170153200',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 311,
-    id    : '32730630',
     deudor: {
-      cedula: 32730630,
-      nombreCompleto:
-        'PAULA ANDREA PINZON OTALVARO',
-      primerNombre   : 'PAULA',
-      segundoNombre  : 'ANDREA',
-      primerApellido : 'PINZON',
-      segundoApellido: 'OTALVARO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400370820170018400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 312,
-    id    : '80394456',
-    deudor: {
-      cedula: 80394456,
-      nombreCompleto:
-        'PEDRO PABLO SARMIENTO MAYORGA',
-      primerNombre   : 'PEDRO',
-      segundoNombre  : 'PABLO',
-      primerApellido : 'SARMIENTO',
-      segundoApellido: 'MAYORGA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001418904320170114000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 313,
-    id    : '80490307',
-    deudor: {
-      cedula         : 80490307,
-      nombreCompleto : 'MAURICIO PEREZ PLAZAS',
-      primerNombre   : 'MAURICIO',
-      primerApellido : 'PEREZ',
-      segundoApellido: 'PLAZAS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307820170104900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 314,
-    id    : '1075655673',
-    deudor: {
-      cedula         : 1075655673,
-      nombreCompleto : 'TATIANA RAMON PEPICANO',
-      primerNombre   : 'TATIANA',
-      primerApellido : 'RAMON',
-      segundoApellido: 'PEPICANO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25126408900220170076800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 315,
-    id    : '80203869',
-    deudor: {
-      cedula: 80203869,
-      nombreCompleto:
-        'BLADIMIR GUTIERREZ CIFUENTES',
-      primerNombre   : 'BLADIMIR',
-      primerApellido : 'GUTIERREZ',
-      segundoApellido: 'CIFUENTES',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754400300320170036400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 316,
-    id    : '8799171',
-    deudor: {
-      cedula: 8799171,
-      nombreCompleto:
-        'MANUEL ENRIQUE ARTEAGA OROZCO',
-      tel: {
-        fijo   : '5164071',
-        celular: ''
-      },
-      email: 'saliradelante2012@hotmail.com',
-      direccion:
-        'CARRERA 18 B No 4 C -  20  SOACHA',
-      primerNombre   : 'MANUEL',
-      segundoNombre  : 'ENRIQUE',
-      primerApellido : 'ARTEAGA',
-      segundoApellido: 'OROZCO'
-    },
-    demanda: {
-      vencimientoPagare: '2030-01-05',
-      obligacion       : [
-        '180049   53037120066499008',
-        '3778133433049336 /4513075801129044'
-      ],
-      obligacion2:
-        '3778133433049336 /4513075801129044',
-      entregaGarantiasAbogado: '2017-10-26',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'SOACHA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-01-civil-municipal-de-bogota',
-          id  : '1'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017 - 00323',
-      etapaProcesal : 'EJECUCION',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-01-civil-municipal-de-bogota',
-        id  : '1'
-      }
-    },
-    capitalAdeudado: 44944657,
-    tipoProceso    : 'HIPOTECARIO',
-    llaveProceso   : '25754400300120170032300',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 317,
-    id    : '80251653',
-    deudor: {
-      cedula         : 80251653,
-      nombreCompleto : 'WILSON JAVIER SANCHEZ',
-      primerNombre   : 'WILSON',
-      primerApellido : 'JAVIER',
-      segundoApellido: 'SANCHEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301820170181300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 318,
-    id    : '51673703',
-    deudor: {
-      cedula         : 51673703,
-      nombreCompleto : 'SONIA JANETH RODRIGUEZ',
-      primerNombre   : 'SONIA',
-      primerApellido : 'JANETH',
-      segundoApellido: 'RODRIGUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307020170116400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 319,
-    id    : '33307437',
-    deudor: {
-      cedula: 33307437,
-      nombreCompleto:
-        'GLORIA ANGELICA PRASCA MEJIA',
-      primerNombre   : 'GLORIA',
-      segundoNombre  : 'ANGELICA',
-      primerApellido : 'PRASCA',
-      segundoApellido: 'MEJIA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25126400300120170075600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 320,
-    id    : '1032492078',
-    deudor: {
-      cedula: 1032492078,
-      nombreCompleto:
-        'MARIA CAMILA MACIAS PADILLA',
-      primerNombre   : 'MARIA',
-      segundoNombre  : 'CAMILA',
-      primerApellido : 'MACIAS',
-      segundoApellido: 'PADILLA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305620170131200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 321,
-    id    : '52391771',
-    deudor: {
-      cedula         : 52391771,
-      nombreCompleto : 'ADELA BARAJAS MORENO',
-      primerNombre   : 'ADELA',
-      primerApellido : 'BARAJAS',
-      segundoApellido: 'MORENO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301620170136700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 322,
-    id    : '63395806',
-    deudor: {
-      cedula: 63395806,
-      nombreCompleto:
-        'CLAUDIA YAMILE SUAREZ POBLADOR',
-      primerNombre   : 'CLAUDIA',
-      segundoNombre  : 'YAMILE',
-      primerApellido : 'SUAREZ',
-      segundoApellido: 'POBLADOR',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308620170120500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 323,
-    id    : '11319802',
-    deudor: {
-      cedula: 11319802,
-      nombreCompleto:
-        'LUIS FERNANDO MEDINA POTES',
-      primerNombre   : 'LUIS',
-      segundoNombre  : 'FERNANDO',
-      primerApellido : 'MEDINA',
-      segundoApellido: 'POTES',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303720170150900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 324,
-    id    : '80032088',
-    deudor: {
-      cedula: 80032088,
-      nombreCompleto:
-        'JOSE EDWIN MORALES ALFONSO',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'EDWIN',
-      primerApellido : 'MORALES',
-      segundoApellido: 'ALFONSO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300120170084900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 325,
-    id    : '30583011',
-    deudor: {
-      cedula: 30583011,
-      nombreCompleto:
-        'MARCELA PATRICIA DIAZ PEREIRA',
-      primerNombre   : 'MARCELA',
-      segundoNombre  : 'PATRICIA',
-      primerApellido : 'DIAZ',
-      segundoApellido: 'PEREIRA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308020170076000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 326,
-    id    : '19352146',
-    deudor: {
-      cedula         : 19352146,
-      nombreCompleto : 'JORGE ELIECER GOMEZ LOPEZ',
-      primerNombre   : 'JORGE',
-      segundoNombre  : 'ELIECER',
-      primerApellido : 'GOMEZ',
-      segundoApellido: 'LOPEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303420170147100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 327,
-    id    : '94524378',
-    deudor: {
-      cedula: 94524378,
-      nombreCompleto:
-        'JOSE DANIEL ESCOBAR PATIÑO',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'DANIEL',
-      primerApellido : 'ESCOBAR',
-      segundoApellido: 'PATIÑO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301220170136900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 328,
-    id    : '52907317',
-    deudor: {
-      cedula: 52907317,
-      nombreCompleto:
-        'SANDRA MILENA BARRETO BERMUDEZ',
-      tel: {
-        fijo   : '',
-        celular: ''
-      },
-      email: 'milena125@hotmail.com',
-      direccion:
-        'CALLE 74 A  SUR No 92 -21 torre 3',
-      primerNombre   : 'SANDRA',
-      segundoNombre  : 'MILENA',
-      primerApellido : 'BARRETO',
-      segundoApellido: 'BERMUDEZ'
-    },
-    demanda: {
-      vencimientoPagare: '2017-05-06',
-      obligacion       : [
-        '5740084189 /5740084216',
-        '160204/377813372389032'
-      ],
-      obligacion2            : '160204/377813372389032',
-      entregaGarantiasAbogado: '001/11/2017',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '26'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017 - 01293',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '26'
-      }
-    },
-    capitalAdeudado: 33615204,
-    tipoProceso    : 'HIPOTECARIO',
-    llaveProceso   : '11001400302620170129300',
-    grupo          : 'LiosJuridicos'
-  },
-  {
-    numero: 329,
-    id    : '10180062',
-    deudor: {
-      cedula: 10180062,
-      nombreCompleto:
-        'REINALDO ADRIAN MELENDEZ  VARON',
-      primerNombre   : 'REINALDO',
-      segundoNombre  : 'ADRIAN',
-      primerApellido : 'MELENDEZ',
-      segundoApellido: ' VARON ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308520170159600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 330,
-    id    : '80185084',
-    deudor: {
-      cedula: 80185084,
-      nombreCompleto:
-        'NELSON ARBEY CANGREJO SUAREZ',
-      primerNombre   : 'NELSON',
-      segundoNombre  : 'ARBEY',
-      primerApellido : 'CANGREJO',
-      segundoApellido: 'SUAREZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307020170121800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 331,
-    id    : '1016043191',
-    deudor: {
-      cedula: 1016043191,
-      nombreCompleto:
-        'CHRISTIAN DARIO RUIZ AVELLANEDA',
-      primerNombre   : 'CHRISTIAN',
-      segundoNombre  : 'DARIO',
-      primerApellido : 'RUIZ',
-      segundoApellido: 'AVELLANEDA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001410375220170130000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 332,
-    id    : '91284725',
-    deudor: {
-      cedula: 91284725,
-      nombreCompleto:
-        'MIGUEL ANTONIO SANCHEZ MARROQUIN',
-      primerNombre   : 'MIGUEL',
-      segundoNombre  : 'ANTONIO',
-      primerApellido : 'SANCHEZ',
-      segundoApellido: 'MARROQUIN',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754400100420180009800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 333,
-    id    : '52085839',
-    deudor: {
-      cedula: 52085839,
-      nombreCompleto:
-        'AHIDA LUCERO GUEVARA BECERRA',
-      primerNombre   : 'AHIDA',
-      segundoNombre  : 'LUCERO',
-      primerApellido : 'GUEVARA',
-      segundoApellido: 'BECERRA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306320170131700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 334,
-    id    : '79853302',
-    deudor: {
-      cedula: 79853302,
-      nombreCompleto:
-        'NESTOR JULIO MARTINEZ ORJUELA',
-      tel: {
-        fijo   : '7459324 ',
-        celular: '3132088678'
-      },
-      email          : 'nanbravo04@hotmail.com',
-      direccion      : 'CALLE  70 A BIS  No 117-16',
-      primerNombre   : 'NESTOR',
-      segundoNombre  : 'JULIO',
-      primerApellido : 'MARTINEZ',
-      segundoApellido: 'ORJUELA'
-    },
-    demanda: {
-      vencimientoPagare: '15/01/2020',
-      obligacion       : [
-        'AUDIOPRESTAMO'
-      ],
-      entregaGarantiasAbogado: '26/09/2017',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '68'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '15'
-        }
-      },
-      radicado      : '2017 - 01306',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '15'
-      }
-    },
-    capitalAdeudado: 15018661,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400306820170130600',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 335,
-    id    : '1030601547',
-    deudor: {
-      cedula: 1030601547,
-      nombreCompleto:
-        'CRISTIAN CAMILO GARCIA ESCOBAR',
-      primerNombre   : 'CRISTIAN',
-      segundoNombre  : 'CAMILO',
-      primerApellido : 'GARCIA',
-      segundoApellido: 'ESCOBAR',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301120180011800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 336,
-    id    : '79860814',
-    deudor: {
-      cedula: 79860814,
-      nombreCompleto:
-        'JOSE ALFREDO CARDOZO RODRIGUEZ',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'ALFREDO',
-      primerApellido : 'CARDOZO',
-      segundoApellido: 'RODRIGUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303020170175600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 337,
-    id    : '79666742',
-    deudor: {
-      cedula: 79666742,
-      nombreCompleto:
-        'HECTOR ALFONSO TORRES RIOS',
-      tel: {
-        fijo   : '7651426 ',
-        celular: '3115030138'
-      },
-      email: 'rubypaez71@hotmail.com',
-      direccion:
-        'TRANSVERSAL 17 No  64 F - 04 CASA 1 BIFAMILIAR MARLY',
-      primerNombre   : 'HECTOR',
+      cedula         : 79388145,
+      direccion      : 'CARRERA 72 A- No 9 - 44',
+      email          : 'li_bcar@hotmail.com',
+      primerApellido : 'GONZALEZ',
+      primerNombre   : 'LIBARDO',
+      segundoApellido: 'TRIVIÑO',
       segundoNombre  : 'ALFONSO',
-      primerApellido : 'TORRES',
-      segundoApellido: 'RIOS'
-    },
-    demanda: {
-      vencimientoPagare: '2026-06-22',
-      obligacion       : [
-        140085
-      ],
-      entregaGarantiasAbogado: '2017-11-16',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '6'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '4'
-        }
-      },
-      radicado      : '2017 - 00964',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '4'
+      tel            : {
+        celular: 0,
+        fijo   : 2928108
       }
     },
-    capitalAdeudado: 99119191,
-    llaveProceso   : '11001400300620170096400',
-    grupo          : 'Insolvencia'
+    fecha    : '2023-05-15T05:00:00.000Z',
+    grupo    : 'Bancolombia',
+    id       : 79388145,
+    idProceso: [
+      50769660,
+      0
+    ],
+    idProcesos: [
+      50769660
+    ],
+    llaveProceso: '11001400302120170153200',
+    numero      : 310,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 338,
-    id    : '20427976',
-    deudor: {
-      cedula: 20427976,
-      nombreCompleto:
-        'BLANCA MELBA MOYANO BELTRAN',
-      tel: {
-        fijo   : '3213718',
-        celular: ''
-      },
-      direccion:
-        'CARRERA 3 No 9 - 02 /08  CAPARRAPI (CUNDINAMARCA)',
-      primerNombre   : 'BLANCA',
-      segundoNombre  : 'MELBA',
-      primerApellido : 'MOYANO',
-      segundoApellido: 'BELTRAN'
-    },
-    demanda: {
-      vencimientoPagare: '2020-04-01',
-      obligacion       : [
+    _id            : '64cc10e7ea30d79334547955',
+    capitalAdeudado: 42530688,
+    demanda        : {
+      ciudad      : 'CAPARRAPI',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-09-21T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 1,
+          tipo: 'Promiscuo Municipal'
+        }
+      ],
+      obligacion: [
         7910080245
       ],
-      entregaGarantiasAbogado: '2017-09-21',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'CAPARRAPI',
-      juzgado                : {
-        origen: {
-          tipo: ' PM',
-          id  : '001'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2017 - 00096',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: ' PM',
-        id  : '001'
-      }
-    },
-    capitalAdeudado: 42530688,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '25148408900120170009600',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 339,
-    id    : '91072102',
-    deudor: {
-      cedula: 91072102,
-      nombreCompleto:
-        'LUIS ALFONSO MOJICA ZAMBRANO',
-      primerNombre   : 'LUIS',
-      segundoNombre  : 'ALFONSO',
-      primerApellido : 'MOJICA',
-      segundoApellido: 'ZAMBRANO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305620170119500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 340,
-    id    : '79573945',
-    deudor: {
-      cedula         : 79573945,
-      nombreCompleto : 'WILLIAM CORTES ROJAS',
-      primerNombre   : 'WILLIAM',
-      primerApellido : 'CORTES',
-      segundoApellido: 'ROJAS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306020170101400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 341,
-    id    : '19294251',
-    deudor: {
-      cedula         : 19294251,
-      nombreCompleto : 'MARIO VELEZ PARRA',
-      primerNombre   : 'MARIO',
-      primerApellido : 'VELEZ',
-      segundoApellido: 'PARRA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305720170128900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 342,
-    id    : '91240362',
-    deudor: {
-      cedula: 91240362,
-      nombreCompleto:
-        'GABRIEL AUGUSTO CASTILLO CASTELBLANCO',
-      primerNombre   : 'GABRIEL',
-      segundoNombre  : 'AUGUSTO',
-      primerApellido : 'CASTILLO',
-      segundoApellido: 'CASTELBLANCO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301220170140000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 343,
-    id    : '80803306',
-    deudor: {
-      cedula: 80803306,
-      nombreCompleto:
-        'EDUARDO ALFONSO RICO JIMENEZ',
-      primerNombre   : 'EDUARDO',
-      segundoNombre  : 'ALFONSO',
-      primerApellido : 'RICO',
-      segundoApellido: 'JIMENEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303920170151700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 344,
-    id    : '79505982',
-    deudor: {
-      cedula: 79505982,
-      nombreCompleto:
-        'LUIS AUGUSTO SANCHEZ ORTIZ',
-      tel: {
-        fijo   : '8003961 ',
-        celular: '3174409073'
-      },
-      email: 'luissanchez69@live.com',
-      direccion:
-        'CALLE 168 No 8 G - 61 BLOQUE  5 APARTAMENTO  102',
-      primerNombre   : 'LUIS',
-      segundoNombre  : 'AUGUSTO',
-      primerApellido : 'SANCHEZ',
-      segundoApellido: 'ORTIZ'
-    },
-    demanda: {
+      radicado: '2017 - 00096',
       vencimientoPagare:
-        '9/12/2019       5/03/2020',
+        '2020-04-01T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 20427976,
+      direccion:
+        'CARRERA 3 No 9 - 02 /08  CAPARRAPI (CUNDINAMARCA)',
+      primerApellido : 'MOYANO',
+      primerNombre   : 'BLANCA',
+      segundoApellido: 'BELTRAN',
+      segundoNombre  : 'MELBA',
+      tel            : {
+        celular: 0,
+        fijo   : 3213718
+      }
+    },
+    grupo    : 'Reintegra',
+    id       : 20427976,
+    idProceso: [
+      0
+    ],
+    llaveProceso: '25148408900120170009600',
+    numero      : 338,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d7933454795b',
+    capitalAdeudado: 19977436,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-09-29T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 33,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 2,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
       obligacion: [
         '377815565830854  4513071889404813',
         '5176409000345363    5306946666855816'
       ],
-      obligacion2:
-        '5176409000345363    5306946666855816',
-      entregaGarantiasAbogado: '2017-09-29',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '33'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '2'
-        }
-      },
-      radicado      : '2017 - 01474',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '2'
-      }
+      radicado         : '2017 - 01474',
+      vencimientoPagare: null
     },
-    capitalAdeudado: 19977436,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400303320170147400',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 345,
-    id    : '51974282',
     deudor: {
-      cedula: 51974282,
-      nombreCompleto:
-        'SANDRA JEANNETTE PRADA GUTIERREZ',
-      primerNombre   : 'SANDRA',
-      segundoNombre  : 'JEANNETTE',
-      primerApellido : 'PRADA',
-      segundoApellido: 'GUTIERREZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304520170147600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 346,
-    id    : '1019101174',
-    deudor: {
-      cedula         : 1019101174,
-      nombreCompleto : 'PAULA ANDREA GOMEZ LOPEZ',
-      primerNombre   : 'PAULA',
-      segundoNombre  : 'ANDREA',
-      primerApellido : 'GOMEZ',
-      segundoApellido: 'LOPEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307320170154500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 347,
-    id    : '41888857',
-    deudor: {
-      cedula         : 41888857,
-      nombreCompleto : 'MARIA ELENA ZULUAGA URIBE',
-      primerNombre   : 'MARIA',
-      segundoNombre  : 'ELENA',
-      primerApellido : 'ZULUAGA',
-      segundoApellido: 'URIBE',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303920170152500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 348,
-    id    : '41688661',
-    deudor: {
-      cedula: 41688661,
-      nombreCompleto:
-        'ANA BEATRIZ CORREDOR RIVERA',
-      tel: {
-        fijo   : '5101587 ',
-        celular: '3106630177'
-      },
-      email: 'anabeatrizcorredor@yahoo.es',
+      cedula: 79505982,
       direccion:
-        'CARRERA 8 No 190 - 22 Hoy Carrera 31 No. 190-04',
-      primerNombre   : 'ANA',
-      segundoNombre  : 'BEATRIZ',
-      primerApellido : 'CORREDOR',
-      segundoApellido: 'RIVERA'
+        'CALLE 168 No 8 G - 61 BLOQUE  5 APARTAMENTO  102',
+      email          : 'luissanchez69@live.com',
+      primerApellido : 'SANCHEZ',
+      primerNombre   : 'LUIS',
+      segundoApellido: 'ORTIZ',
+      segundoNombre  : 'AUGUSTO',
+      tel            : {
+        celular: 3174409073,
+        fijo   : 8003961
+      }
     },
-    demanda: {
-      vencimientoPagare:
-        '2/12/2021        3/09/2020',
+    fecha    : '2023-05-17T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 79505982,
+    idProceso: [
+      50763460
+    ],
+    llaveProceso: '11001400303320170147400',
+    numero      : 344,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d7933454795f',
+    capitalAdeudado: 76735593,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-09-28T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 1,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 10,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
       obligacion: [
         6260082762,
         377813367146983
       ],
-      obligacion2            : 377813367146983,
-      entregaGarantiasAbogado: '2017-09-28',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '1'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '10'
-        }
-      },
-      radicado      : '2017 - 01309',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '10'
-      }
+      radicado         : '2017 - 01309',
+      vencimientoPagare: null
     },
-    capitalAdeudado: 76735593,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400300120170130900',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 349,
-    id    : '30746589',
     deudor: {
-      cedula         : 30746589,
-      nombreCompleto : 'LILIANA GARCIA ROSERO',
-      primerNombre   : 'LILIANA',
-      primerApellido : 'GARCIA',
-      segundoApellido: 'ROSERO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302720170127200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 350,
-    id    : '80111672',
-    deudor: {
-      cedula: 80111672,
-      nombreCompleto:
-        'DIEGO FERNEY VERGARA VALDERRAMA',
-      primerNombre   : 'DIEGO',
-      segundoNombre  : 'FERNEY',
-      primerApellido : 'VERGARA',
-      segundoApellido: 'VALDERRAMA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305020170135700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 351,
-    id    : '80800256',
-    deudor: {
-      cedula: 80800256,
-      nombreCompleto:
-        'CRISTIAN JOSUE CARDENAS NORIEGA',
-      primerNombre   : 'CRISTIAN',
-      segundoNombre  : 'JOSUE',
-      primerApellido : 'CARDENAS',
-      segundoApellido: 'NORIEGA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '1100141037520180002400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 352,
-    id    : '71992491',
-    deudor: {
-      cedula: 71992491,
-      nombreCompleto:
-        'MARIO DE JESUS OSSA PULGARIN',
-      tel: {
-        fijo   : '7673180',
-        celular: ''
-      },
+      cedula: 41688661,
       direccion:
-        'TRANSVERSAL 2 C BIS No 97 B-05 SUR',
-      primerNombre   : 'MARIO',
-      segundoNombre  : 'DE',
-      primerApellido : 'JESUS',
-      segundoApellido: 'OSSA PULGARIN '
+        'CARRERA 8 No 190 - 22 Hoy Carrera 31 No. 190-04',
+      email          : 'anabeatrizcorredor@yahoo.es',
+      primerApellido : 'CORREDOR',
+      primerNombre   : 'ANA',
+      segundoApellido: 'RIVERA',
+      segundoNombre  : 'BEATRIZ',
+      tel            : {
+        celular: 3106630177,
+        fijo   : 5101587
+      }
     },
-    demanda: {
-      vencimientoPagare: '2019-05-20',
-      obligacion       : [
+    fecha    : '2023-08-01T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 41688661,
+    idProceso: [
+      50764880
+    ],
+    llaveProceso: '11001400300120170130900',
+    numero      : 348,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547963',
+    capitalAdeudado: 11853652,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-09-29T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 76,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 17,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
         4280023383
       ],
-      entregaGarantiasAbogado: '2017-09-29',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '76'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '17'
-        }
-      },
-      radicado      : '2017 - 01016',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '17'
-      }
+      radicado: '2017 - 01016',
+      vencimientoPagare:
+        '2019-05-20T00:00:00.000Z'
     },
-    capitalAdeudado: 11853652,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400307620170101600',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 353,
-    id    : '19297891',
     deudor: {
-      cedula         : 19297891,
-      nombreCompleto : 'RICARDO ARIAS GUZMAN',
-      primerNombre   : 'RICARDO',
-      primerApellido : 'ARIAS',
-      segundoApellido: 'GUZMAN',
+      cedula: 71992491,
+      direccion:
+        'TRANSVERSAL 2 C BIS No 97 B-05 SUR',
+      primerApellido : 'JESUS',
+      primerNombre   : 'MARIO',
+      segundoApellido: 'OSSA PULGARIN ',
+      segundoNombre  : 'DE',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 0,
+        fijo   : 7673180
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307320170156300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2023-06-27T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 71992491,
+    idProceso: [
+      51499790,
+      0
+    ],
+    idProcesos: [
+      51499790
+    ],
+    llaveProceso: '11001400307620170101600',
+    numero      : 352,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 354,
-    id    : '80032437',
-    deudor: {
-      cedula: 80032437,
-      nombreCompleto:
-        'BERNARDO ANIBAL GIL TORRES',
-      primerNombre   : 'BERNARDO',
-      segundoNombre  : 'ANIBAL',
-      primerApellido : 'GIL',
-      segundoApellido: 'TORRES',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001310304520170035900',
-    grupo          : 'Terminados',
+    _id            : '64cc10e7ea30d79334547969',
+    capitalAdeudado: 22130224,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-10-06T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 78,
+          tipo: 'Civil Municipal'
         },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+        {
+          id  : 12,
+          tipo: 'Civil Municipal de Ejecucion'
         }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 355,
-    id    : '80800763',
-    deudor: {
-      cedula         : 80800763,
-      nombreCompleto : 'NELSON IVAN SEGURA MENDEZ',
-      primerNombre   : 'NELSON',
-      segundoNombre  : 'IVAN',
-      primerApellido : 'SEGURA',
-      segundoApellido: 'MENDEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301720170152600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 356,
-    id    : '53119460',
-    deudor: {
-      cedula: 53119460,
-      nombreCompleto:
-        'SONIA XIMENA RODRIGUEZ SANCHEZ',
-      primerNombre   : 'SONIA',
-      segundoNombre  : 'XIMENA',
-      primerApellido : 'RODRIGUEZ',
-      segundoApellido: 'SANCHEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302420170170800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 357,
-    id    : '1012330386',
-    deudor: {
-      cedula: 1012330386,
-      nombreCompleto:
-        'DIANA SAYURI RODRIGUEZ GARCIA',
-      primerNombre   : 'DIANA',
-      segundoNombre  : 'SAYURI',
-      primerApellido : 'RODRIGUEZ',
-      segundoApellido: 'GARCIA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305520170137800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 358,
-    id    : '1116782267',
-    deudor: {
-      cedula: 1116782267,
-      nombreCompleto:
-        'JOGLI JOAQUIN OTERO VARGAS',
-      tel: {
-        fijo   : '',
-        celular: '3005941798'
-      },
-      email          : 'juanotero1989@gmail.com',
-      direccion      : 'DIAGONAL 2  No 79 F- 04',
-      primerNombre   : 'JOGLI',
-      segundoNombre  : 'JOAQUIN',
-      primerApellido : 'OTERO',
-      segundoApellido: 'VARGAS'
-    },
-    demanda: {
-      vencimientoPagare: '2019-02-26',
-      obligacion       : [
+      ],
+      obligacion: [
         3880082626
       ],
-      entregaGarantiasAbogado: '2017-10-06',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '78'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '12'
-        }
-      },
-      radicado      : '2017 - 00975',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '12'
-      }
+      radicado: '2017 - 00975',
+      vencimientoPagare:
+        '2019-02-26T00:00:00.000Z'
     },
-    capitalAdeudado: 22130224,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400307820170097500',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 359,
-    id    : '79357895',
     deudor: {
-      cedula         : 79357895,
-      nombreCompleto : 'JOSE DAVID PEÑA SAAVEDRA',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'DAVID',
-      primerApellido : 'PEÑA',
-      segundoApellido: 'SAAVEDRA',
+      cedula         : 1116782267,
+      direccion      : 'DIAGONAL 2  No 79 F- 04',
+      email          : 'juanotero1989@gmail.com',
+      primerApellido : 'OTERO',
+      primerNombre   : 'JOGLI',
+      segundoApellido: 'VARGAS',
+      segundoNombre  : 'JOAQUIN',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 3005941798,
+        fijo   : 0
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306520170178600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2023-05-04T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 1116782267,
+    idProceso: [
+      51465090
+    ],
+    llaveProceso: '11001400307820170097500',
+    numero      : 358,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 360,
-    id    : '52327561',
-    deudor: {
-      cedula: 52327561,
-      nombreCompleto:
-        'NOHORA DEL PILAR VARGAS BERNAL',
-      primerNombre   : 'NOHORA',
-      segundoNombre  : 'DEL',
-      primerApellido : 'PILAR',
-      segundoApellido: 'VARGAS BERNAL ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302320170145200',
-    grupo          : 'Terminados',
+    _id            : '64cc10e7ea30d7933454796c',
+    capitalAdeudado: 32318533,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-09-26T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 17,
+          tipo: 'Civil Municipal'
         },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+        {
+          id  : 15,
+          tipo: 'Civil Municipal de Ejecucion'
         }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 361,
-    id    : '53064513',
-    deudor: {
-      cedula        : 53064513,
-      nombreCompleto: 'NATALIA CUESTAS MONDRAGON',
-      tel           : {
-        fijo   : 'F4782781',
-        celular: ''
-      },
-      email: 'ncuestas@mccain.com.co',
-      direccion:
-        'CARRERA 68 D No 40-53 SUR TORRE 6 APARTAMENTO 1006',
-      primerNombre   : 'NATALIA',
-      primerApellido : 'CUESTAS',
-      segundoApellido: 'MONDRAGON'
-    },
-    demanda: {
-      vencimientoPagare: '2021-03-26',
-      obligacion       : [
+      ],
+      obligacion: [
         'SO79522009',
         5491570044098801
       ],
-      obligacion2            : 5491570044098801,
-      entregaGarantiasAbogado: '2017-09-26',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '17'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '15'
-        }
-      },
-      radicado      : '2017 - 01336',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '15'
-      }
+      radicado: '2017 - 01336',
+      vencimientoPagare:
+        '2021-03-26T00:00:00.000Z'
     },
-    capitalAdeudado: 32318533,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400301720170133600',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 362,
-    id    : '52031089',
     deudor: {
-      cedula         : 52031089,
-      nombreCompleto : 'YANETH HERNANDEZ SUAREZ',
-      primerNombre   : 'YANETH',
-      primerApellido : 'HERNANDEZ',
-      segundoApellido: 'SUAREZ',
+      cedula: 53064513,
+      direccion:
+        'CARRERA 68 D No 40-53 SUR TORRE 6 APARTAMENTO 1006',
+      email          : 'ncuestas@mccain.com.co',
+      primerApellido : 'CUESTAS',
+      primerNombre   : 'NATALIA',
+      segundoApellido: 'MONDRAGON',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 0,
+        fijo   : null
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754400300220180003100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2022-03-28T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 53064513,
+    idProceso: [
+      50782960
+    ],
+    llaveProceso: '11001400301720170133600',
+    numero      : 361,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 363,
-    id    : '52645617',
-    deudor: {
-      cedula: 52645617,
-      nombreCompleto:
-        'MARIA LILIANA CASTAÑEDA ZAPATA',
-      primerNombre   : 'MARIA',
-      segundoNombre  : 'LILIANA',
-      primerApellido : 'CASTAÑEDA',
-      segundoApellido: 'ZAPATA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754400300220170040900',
-    grupo          : 'Terminados',
+    _id            : '64cc10e7ea30d79334547974',
+    capitalAdeudado: 34749647,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-10-17T00:00:00.000Z',
+      etapaProcesal: 'EJECUCION',
+      juzgado      : [
+        {
+          id  : 22,
+          tipo: 'Civil Municipal'
         },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+        {
+          id  : 20,
+          tipo: 'Civil Municipal de Ejecucion'
         }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 364,
-    id    : '52102754',
-    deudor: {
-      cedula: 52102754,
-      nombreCompleto:
-        'SANDRA PATRICIA SANCHEZ VELASQUEZ',
-      primerNombre   : 'SANDRA',
-      segundoNombre  : 'PATRICIA',
-      primerApellido : 'SANCHEZ',
-      segundoApellido: 'VELASQUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307320170164700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 365,
-    id    : '79861680',
-    deudor: {
-      cedula: 79861680,
-      nombreCompleto:
-        'RICHARD CAMILO IRIARTE GARCIA',
-      primerNombre   : 'RICHARD',
-      segundoNombre  : 'CAMILO',
-      primerApellido : 'IRIARTE',
-      segundoApellido: 'GARCIA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305020180014000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 366,
-    id    : '53094561',
-    deudor: {
-      cedula: 53094561,
-      nombreCompleto:
-        'YURI ANDREA GONZALEZ TORRES',
-      primerNombre   : 'YURI',
-      segundoNombre  : 'ANDREA',
-      primerApellido : 'GONZALEZ',
-      segundoApellido: 'TORRES',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300920170136100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 367,
-    id    : '79416270',
-    deudor: {
-      cedula: 79416270,
-      nombreCompleto:
-        'ANDRES ANTONIO  AMEZQUITA PAEZ',
-      primerNombre   : 'ANDRES',
-      segundoNombre  : 'ANTONIO',
-      primerApellido : '',
-      segundoApellido: 'AMEZQUITA PAEZ ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307820170123500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 368,
-    id    : '39577914',
-    deudor: {
-      cedula: 39577914,
-      nombreCompleto:
-        'CAROLINA MARTINEZ CALDERON',
-      primerNombre   : 'CAROLINA',
-      primerApellido : 'MARTINEZ',
-      segundoApellido: 'CALDERON',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25307400300120180006600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 369,
-    id    : '900336193',
-    deudor: {
-      cedula        : 900336193,
-      nombreCompleto: 'INVERSION RIVOLI S.A.S.',
-      tel           : {
-        fijo   : '3727561',
-        celular: ''
-      },
-      direccion      : 'CARRERA 24 G No20-35 SUR',
-      primerNombre   : 'INVERSION',
-      primerApellido : 'RIVOLI',
-      segundoApellido: 'S.A.S.'
-    },
-    demanda: {
-      vencimientoPagare: '2018-10-08',
-      obligacion       : [
+      ],
+      obligacion: [
         2290098960
       ],
-      entregaGarantiasAbogado: '2017-10-17',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '22'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '20'
-        }
-      },
-      radicado      : '2017-1208',
-      etapaProcesal : 'EJECUCION',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '20'
-      }
+      radicado: '2017-1208',
+      vencimientoPagare:
+        '2018-10-08T00:00:00.000Z'
     },
-    capitalAdeudado: 34749647,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400302220170120800',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 370,
-    id    : '52840906',
     deudor: {
-      cedula: 52840906,
-      nombreCompleto:
-        'LILIAN ANDREA HERNANDEZ SUAREZ',
-      primerNombre   : 'LILIAN',
-      segundoNombre  : 'ANDREA',
-      primerApellido : 'HERNANDEZ',
-      segundoApellido: 'SUAREZ',
+      cedula         : 900336193,
+      direccion      : 'CARRERA 24 G No20-35 SUR',
+      primerApellido : 'RIVOLI',
+      primerNombre   : 'INVERSION',
+      segundoApellido: 'S.A.S.',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 0,
+        fijo   : 3727561
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302020170155600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2023-01-31T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 900336193,
+    idProceso: [
+      50817380,
+      0
+    ],
+    idProcesos: [
+      50817380
+    ],
+    llaveProceso: '11001400302220170120800',
+    numero      : 369,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 371,
-    id    : '39765816',
-    deudor: {
-      cedula: 39765816,
-      nombreCompleto:
-        'MARTHA ANDREA MORA COLLAZOS',
-      tel: {
-        fijo   : '',
-        celular: ''
-      },
-      email: 'andreato1a@hotmaul.com',
-      direccion:
-        'CALLE 50 SUR 93 D- 38 APTO 401 TORRE 6',
-      primerNombre   : 'MARTHA',
-      segundoNombre  : 'ANDREA',
-      primerApellido : 'MORA',
-      segundoApellido: 'COLLAZOS'
-    },
-    demanda: {
-      vencimientoPagare: '2024-03-30',
-      obligacion       : [
-        117171,
-        377813401553319
+    _id            : '64cc10e7ea30d79334547989',
+    capitalAdeudado: 50509238,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-11-16T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 4,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 9,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
       ],
-      obligacion2            : 377813401553319,
-      entregaGarantiasAbogado: '2018-01-16',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '24'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2018 - 00143',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '24'
-      }
-    },
-    capitalAdeudado: 10775194,
-    tipoProceso    : 'HIPOTECARIO',
-    llaveProceso   : '11001400302420180014300',
-    grupo          : 'LiosJuridicos'
-  },
-  {
-    numero: 372,
-    id    : '51953414',
-    deudor: {
-      cedula: 51953414,
-      nombreCompleto:
-        'JANETH RUBIELA GORDILLO PINZON',
-      primerNombre   : 'JANETH',
-      segundoNombre  : 'RUBIELA',
-      primerApellido : 'GORDILLO',
-      segundoApellido: 'PINZON',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754400300220180007000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 373,
-    id    : '79616846',
-    deudor: {
-      cedula: 79616846,
-      nombreCompleto:
-        'RODRIGO ALBERTO RUIZ VILLALBA',
-      primerNombre   : 'RODRIGO',
-      segundoNombre  : 'ALBERTO',
-      primerApellido : 'RUIZ',
-      segundoApellido: 'VILLALBA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25599400300120180000500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 374,
-    id    : '80850549',
-    deudor: {
-      cedula: 80850549,
-      nombreCompleto:
-        'JHOAN ANTONIO BARAJAS MONTENEGRO',
-      primerNombre   : 'JHOAN',
-      segundoNombre  : 'ANTONIO',
-      primerApellido : 'BARAJAS',
-      segundoApellido: 'MONTENEGRO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308620180006700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 375,
-    id    : '74845495',
-    deudor: {
-      cedula: 74845495,
-      nombreCompleto:
-        'JHON ALFREDO ZORRO MARTINEZ',
-      primerNombre   : 'JHON',
-      segundoNombre  : 'ALFREDO',
-      primerApellido : 'ZORRO',
-      segundoApellido: 'MARTINEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304020180012300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 376,
-    id    : '11203111',
-    deudor: {
-      cedula        : 11203111,
-      nombreCompleto: 'ROBERTO RICO RUIZ',
-      tel           : {
-        fijo   : '',
-        celular: ''
-      },
-      email: 'roberto.rico.ruiz@gmail.com',
-      direccion:
-        'CALLE 128 96A - 05 CASA 3 MULTIFAMILIAR ARRAYANES',
-      primerNombre   : 'ROBERTO',
-      primerApellido : 'RICO',
-      segundoApellido: 'RUIZ'
-    },
-    demanda: {
-      vencimientoPagare: '2019-04-29',
-      obligacion       : [
-        118010,
-        '377813183474353 // 4513074148699942 / 5491579209500691'
-      ],
-      obligacion2:
-        '377813183474353 // 4513074148699942 / 5491579209500691',
-      entregaGarantiasAbogado: '17/01/2018',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '76'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2018 - 00052',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '76'
-      }
-    },
-    capitalAdeudado: 27308454,
-    tipoProceso    : 'HIPOTECARIO',
-    llaveProceso   : '11001400307620180005200',
-    grupo          : 'LiosJuridicos'
-  },
-  {
-    numero: 377,
-    id    : '40356325',
-    deudor: {
-      cedula         : 40356325,
-      nombreCompleto : 'GLADIS VELASQUEZ CASTRO',
-      primerNombre   : 'GLADIS',
-      primerApellido : 'VELASQUEZ',
-      segundoApellido: 'CASTRO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304620180010700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 378,
-    id    : '11346521',
-    deudor: {
-      cedula         : 11346521,
-      nombreCompleto : 'NELSON YESITH MORENO LEON',
-      primerNombre   : 'NELSON',
-      segundoNombre  : 'YESITH',
-      primerApellido : 'MORENO',
-      segundoApellido: 'LEON',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301120180018100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 379,
-    id    : '79804965',
-    deudor: {
-      cedula: 79804965,
-      nombreCompleto:
-        'JHON ALEXANDER ALARCON GALVIS',
-      primerNombre   : 'JHON',
-      segundoNombre  : 'ALEXANDER',
-      primerApellido : 'ALARCON',
-      segundoApellido: 'GALVIS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308120180011100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 380,
-    id    : '79804965',
-    deudor: {
-      cedula: 79804965,
-      nombreCompleto:
-        'JHON ALEXANDER ALARCON GALVIS',
-      primerNombre   : 'JHON',
-      segundoNombre  : 'ALEXANDER',
-      primerApellido : 'ALARCON',
-      segundoApellido: 'GALVIS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308120180011100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 381,
-    id    : '1032396480',
-    deudor: {
-      cedula: 1032396480,
-      nombreCompleto:
-        'NIELCEN MARISOL MARIN MELO',
-      primerNombre   : 'NIELCEN',
-      segundoNombre  : 'MARISOL',
-      primerApellido : 'MARIN',
-      segundoApellido: 'MELO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304120180007500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 382,
-    id    : '80403235',
-    deudor: {
-      cedula: 80403235,
-      nombreCompleto:
-        'CARLOS ALBERTO LANCHEROS BARRAGAN',
-      primerNombre   : 'CARLOS',
-      segundoNombre  : 'ALBERTO',
-      primerApellido : 'LANCHEROS',
-      segundoApellido: 'BARRAGAN',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25662408900120180000400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 383,
-    id    : '65706810',
-    deudor: {
-      cedula: 65706810,
-      nombreCompleto:
-        'NOHORA ESPERANZA BARRERO RODRIGUEZ',
-      primerNombre   : 'NOHORA',
-      segundoNombre  : 'ESPERANZA',
-      primerApellido : 'BARRERO',
-      segundoApellido: 'RODRIGUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302620180047900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 384,
-    id    : '80026753',
-    deudor: {
-      cedula: 80026753,
-      nombreCompleto:
-        'DIEGO JAVIER GALINDO MEJIA',
-      primerNombre   : 'DIEGO',
-      segundoNombre  : 'JAVIER',
-      primerApellido : 'GALINDO',
-      segundoApellido: 'MEJIA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305620180011000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 385,
-    id    : '406547',
-    deudor: {
-      cedula         : 406547,
-      nombreCompleto : 'AVELINO SIERRA SIERRA',
-      primerNombre   : 'AVELINO',
-      primerApellido : 'SIERRA',
-      segundoApellido: 'SIERRA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303520180007400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 386,
-    id    : '1070950842',
-    deudor: {
-      cedula         : 1070950842,
-      nombreCompleto : 'ALEXANDER PRADA PALMAR',
-      primerNombre   : 'ALEXANDER',
-      primerApellido : 'PRADA',
-      segundoApellido: 'PALMAR',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25269400300120170074400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 387,
-    id    : '91263617',
-    deudor: {
-      cedula: 91263617,
-      nombreCompleto:
-        'LEONARDO SANABRIA SANABRIA',
-      tel: {
-        fijo   : '4251180 ',
-        celular: '3118066048'
-      },
-      email: 'leo.sanabria@live.com.mx',
-      direccion:
-        'CARRERA 85  B No  23 B - 69  INTERIOR 7 APARTAMENTO  314',
-      primerNombre   : 'LEONARDO',
-      primerApellido : 'SANABRIA',
-      segundoApellido: 'SANABRIA'
-    },
-    demanda: {
-      vencimientoPagare: '2019-05-05',
-      obligacion       : [
-        2500085167,
-        'AUDIOPRESTAMO'
-      ],
-      obligacion2            : 'AUDIOPRESTAMO',
-      entregaGarantiasAbogado: '2017-11-09',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '50'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '14'
-        }
-      },
-      radicado      : '2017 - 01336',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '14'
-      }
-    },
-    capitalAdeudado: 36331525,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400305020170133600',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 388,
-    id    : '52644132',
-    deudor: {
-      cedula         : 52644132,
-      nombreCompleto : 'XIMENA  ESCOBAR PUCCETI',
-      primerNombre   : 'XIMENA',
-      segundoNombre  : '',
-      primerApellido : 'ESCOBAR',
-      segundoApellido: 'PUCCETI',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301720180011100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 389,
-    id    : '79874218',
-    deudor: {
-      cedula: 79874218,
-      nombreCompleto:
-        'MIGUEL ANGEL GRANADOS GUTIERREZ',
-      primerNombre   : 'MIGUEL',
-      segundoNombre  : 'ANGEL',
-      primerApellido : 'GRANADOS',
-      segundoApellido: 'GUTIERREZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307020180012100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 390,
-    id    : '71603563',
-    deudor: {
-      cedula        : 71603563,
-      nombreCompleto: 'GILBERTO JAIME BETANCOURT',
-      tel           : {
-        fijo   : '3138547',
-        celular: ''
-      },
-      email          : 'gilbertojaime@hotmail.com',
-      direccion      : 'CARRERA 82  No  19 - 20',
-      primerNombre   : 'GILBERTO',
-      primerApellido : 'JAIME',
-      segundoApellido: 'BETANCOURT'
-    },
-    demanda: {
-      vencimientoPagare: '2020-07-21',
-      obligacion       : [
+      obligacion: [
         2500084774,
         'AUDIOPRESTAMO'
       ],
-      obligacion2            : 'AUDIOPRESTAMO',
-      entregaGarantiasAbogado: '2017-11-16',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '4'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '9'
-        }
-      },
-      radicado      : '2017 - 01266',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '9'
-      }
+      radicado: '2017 - 01266',
+      vencimientoPagare:
+        '2020-07-21T00:00:00.000Z'
     },
-    capitalAdeudado: 50509238,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400300420170126600',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 391,
-    id    : '52190973',
     deudor: {
-      cedula: 52190973,
-      nombreCompleto:
-        'YANETH BIBIANA VARGAS CANO',
-      primerNombre   : 'YANETH',
-      segundoNombre  : 'BIBIANA',
-      primerApellido : 'VARGAS',
-      segundoApellido: 'CANO',
+      cedula         : 71603563,
+      direccion      : 'CARRERA 82  No  19 - 20',
+      email          : 'gilbertojaime@hotmail.com',
+      primerApellido : 'JAIME',
+      primerNombre   : 'GILBERTO',
+      segundoApellido: 'BETANCOURT',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 0,
+        fijo   : 3138547
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305020180012900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2022-02-04T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 71603563,
+    idProceso: [
+      50859050
+    ],
+    llaveProceso: '11001400300420170126600',
+    numero      : 390,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 392,
-    id    : '79712791',
-    deudor: {
-      cedula: 79712791,
-      nombreCompleto:
-        'EDGAR JOBANNY MATEUS CASTILLO',
-      tel: {
-        fijo   : '8511988',
-        celular: ''
-      },
-      email: 'giovannymat@yahoo.com',
-      direccion:
-        'CALLE 3 C No  13 - 07   ZIPAQUIRA',
-      primerNombre   : 'EDGAR',
-      segundoNombre  : 'JOBANNY',
-      primerApellido : 'MATEUS',
-      segundoApellido: 'CASTILLO'
-    },
-    demanda: {
-      vencimientoPagare: '2020-08-22',
-      obligacion       : [
+    _id            : '64cc10e7ea30d7933454798b',
+    capitalAdeudado: 38847950,
+    demanda        : {
+      ciudad      : 'ZIPAQUIRA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-11-09T00:00:00.000Z',
+      etapaProcesal: 'NOTIFICACION',
+      juzgado      : [
+        {
+          id  : 3,
+          tipo: 'Civil Municipal'
+        }
+      ],
+      obligacion: [
         3320087751,
         3320088190
       ],
-      obligacion2            : 3320088190,
-      entregaGarantiasAbogado: '2017-11-09',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'ZIPAQUIRA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '003'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2018 - 00131',
-      etapaProcesal : 'NOTIFICACION',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '003'
-      }
+      radicado: '2018 - 00131',
+      vencimientoPagare:
+        '2020-08-22T00:00:00.000Z'
     },
-    capitalAdeudado: 38847950,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '25899400300220170013100',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 393,
-    id    : '79134529',
     deudor: {
-      cedula: 79134529,
-      nombreCompleto:
-        'MIGUEL ALEJANDRO GARCIA RODRIGUEZ',
-      primerNombre   : 'MIGUEL',
-      segundoNombre  : 'ALEJANDRO',
-      primerApellido : 'GARCIA',
-      segundoApellido: 'RODRIGUEZ',
+      cedula: 79712791,
+      direccion:
+        'CALLE 3 C No  13 - 07   ZIPAQUIRA',
+      email          : 'giovannymat@yahoo.com',
+      primerApellido : 'MATEUS',
+      primerNombre   : 'EDGAR',
+      segundoApellido: 'CASTILLO',
+      segundoNombre  : 'JOBANNY',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 0,
+        fijo   : 8511988
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303820180014900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    grupo    : 'Reintegra',
+    id       : 79712791,
+    idProceso: [
+      0
+    ],
+    llaveProceso: '25899400300220170013100',
+    numero      : 392,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 394,
-    id    : '79424813',
-    deudor: {
-      cedula: 79424813,
-      nombreCompleto:
-        'OMAR HERNANDO QUIROGA TORRES',
-      primerNombre   : 'OMAR',
-      segundoNombre  : 'HERNANDO',
-      primerApellido : 'QUIROGA',
-      segundoApellido: 'TORRES',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305120180029900',
-    grupo          : 'Terminados',
+    _id            : '64cc10e7ea30d79334547998',
+    capitalAdeudado: 22592583,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 395,
-    id    : '2869326',
-    deudor: {
-      cedula         : 2869326,
-      nombreCompleto : 'JORGE BERMEO ROJAS',
-      primerNombre   : 'JORGE',
-      primerApellido : 'BERMEO',
-      segundoApellido: 'ROJAS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308420180009000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 396,
-    id    : '80733467',
-    deudor: {
-      cedula: 80733467,
-      nombreCompleto:
-        'ORLANDO ENRIQUE NOVOA BARRETO',
-      tel: {
-        fijo   : '7836655 ',
-        celular: '3118163887'
-      },
-      email          : 'orlandonovoa9@gmail.com',
-      direccion      : 'CARRERA 88 A No  67 - 44',
-      primerNombre   : 'ORLANDO',
-      segundoNombre  : 'ENRIQUE',
-      primerApellido : 'NOVOA',
-      segundoApellido: 'BARRETO'
-    },
-    demanda: {
-      vencimientoPagare: '2019-06-08',
-      obligacion       : [
-        10000090724
-      ],
-      entregaGarantiasAbogado: '2017-11-15',
-      departamento           : 'CUNDINAMARCA',
       ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
+      departamento           : 'CUNDINAMARCA',
+      entregaGarantiasAbogado: null,
+      etapaProcesal          : 'EJECUCIÓN',
+      juzgado                : [
+        {
+          id  : 21,
           tipo: 'Civil Municipal',
-          id  : '64'
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-021-civil-municipal-de-bogota'
         },
-        ejecucion: {
+        {
+          id  : 13,
           tipo: 'Civil Municipal de Ejecucion',
-          id  : '16'
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-13-de-ejecucion-civil-municipal-de-bogota'
         }
-      },
-      radicado      : '2017 - 01623',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '16'
-      }
-    },
-    capitalAdeudado: 24000000,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400306420170162300',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 397,
-    id    : '13812570',
-    deudor: {
-      cedula: 13812570,
-      nombreCompleto:
-        'JOSE DE JESUS TAPIAS ESTEVEZ',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'DE',
-      primerApellido : 'JESUS',
-      segundoApellido: 'TAPIAS ESTEVEZ ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25473400300120180010600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 398,
-    id    : '52465659',
-    deudor: {
-      cedula: 52465659,
-      nombreCompleto:
-        'LILIANA ANDREA ERAZO LOPEZ',
-      primerNombre   : 'LILIANA',
-      segundoNombre  : 'ANDREA',
-      primerApellido : 'ERAZO',
-      segundoApellido: 'LOPEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754400300120180006400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 399,
-    id    : '79704579',
-    deudor: {
-      cedula         : 79704579,
-      nombreCompleto : 'GIOVANNI  PERDOMO QUIROGA',
-      primerNombre   : 'GIOVANNI',
-      segundoNombre  : '',
-      primerApellido : 'PERDOMO',
-      segundoApellido: 'QUIROGA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303720180013200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 400,
-    id    : '79652256',
-    deudor: {
-      cedula: 79652256,
-      nombreCompleto:
-        'OSCAR GUILLERMO LOZANO GONZALEZ',
-      primerNombre   : 'OSCAR',
-      segundoNombre  : 'GUILLERMO',
-      primerApellido : 'LOZANO',
-      segundoApellido: 'GONZALEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25307400300220180007500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 401,
-    id    : '52357813',
-    deudor: {
-      cedula: 52357813,
-      nombreCompleto:
-        'SANDRA PATRICIA  OJEDA RODRIGUEZ',
-      primerNombre   : 'SANDRA',
-      segundoNombre  : 'PATRICIA',
-      primerApellido : '',
-      segundoApellido: 'OJEDA RODRIGUEZ ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302520180023700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 402,
-    id    : '39766624',
-    deudor: {
-      cedula: 39766624,
-      nombreCompleto:
-        'BLANCA CECILIA ARDILA HUERTAS',
-      primerNombre   : 'BLANCA',
-      segundoNombre  : 'CECILIA',
-      primerApellido : 'ARDILA',
-      segundoApellido: 'HUERTAS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306420180021800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 403,
-    id    : '52361215',
-    deudor: {
-      cedula: 52361215,
-      nombreCompleto:
-        'CLAUDIA YANETH VALENCIA AYA',
-      primerNombre   : 'CLAUDIA',
-      segundoNombre  : 'YANETH',
-      primerApellido : 'VALENCIA',
-      segundoApellido: 'AYA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304920180019100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 404,
-    id    : '1013586083',
-    deudor: {
-      cedula         : 1013586083,
-      nombreCompleto : 'CESAR AUGUSTO PINEDA RIOS',
-      primerNombre   : 'CESAR',
-      segundoNombre  : 'AUGUSTO',
-      primerApellido : 'PINEDA',
-      segundoApellido: 'RIOS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '257544189003201800177',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 405,
-    id    : '79396995',
-    deudor: {
-      cedula        : 79396995,
-      nombreCompleto: 'ARTURO LINCE GOMEZ',
-      tel           : {
-        fijo   : '4244358 ',
-        celular: '31088445603'
-      },
-      email          : 'arthurlingo64@hotmail.com',
-      direccion      : 'CALLE 12 A No 71 B - 60',
-      primerNombre   : 'ARTURO',
-      primerApellido : 'LINCE',
-      segundoApellido: 'GOMEZ'
-    },
-    demanda: {
-      vencimientoPagare: '27/0/2021',
-      obligacion       : [
+      ],
+      obligacion: [
         87823
       ],
-      entregaGarantiasAbogado: '15/02/2018',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-021-civil-municipal-de-bogota',
-          id  : '21'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-13-de-ejecucion-civil-municipal-de-bogota',
-          id  : '13'
-        }
-      },
-      radicado      : '2018 - 00236',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-13-de-ejecucion-civil-municipal-de-bogota',
-        id  : '13'
-      }
+      radicado         : '2018 - 00236',
+      vencimientoPagare: null
     },
-    capitalAdeudado: 22592583,
-    tipoProceso    : 'HIPOTECARIO',
-    llaveProceso   : '11001400302120180023600',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 406,
-    id    : '8510459',
     deudor: {
-      cedula: 8510459,
-      nombreCompleto:
-        'SANTIAGO JAVIER SARABIA JIMENEZ',
-      primerNombre   : 'SANTIAGO',
-      segundoNombre  : 'JAVIER',
-      primerApellido : 'SARABIA',
-      segundoApellido: 'JIMENEZ',
+      cedula         : 79396995,
+      direccion      : 'CALLE 12 A No 71 B - 60',
+      email          : 'arthurlingo64@hotmail.com',
+      primerApellido : 'LINCE',
+      primerNombre   : 'ARTURO',
+      segundoApellido: 'GOMEZ',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 31088445603,
+        fijo   : 4244358
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300220180020500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2023-06-15T05:00:00.000Z',
+    grupo    : 'Bancolombia',
+    id       : 79396995,
+    idProceso: [
+      51029180
+    ],
+    llaveProceso: '11001400302120180023600',
+    numero      : 405,
+    tipoProceso : 'HIPOTECARIO'
   },
   {
-    numero: 407,
-    id    : '79328264',
-    deudor: {
-      cedula: 79328264,
-      nombreCompleto:
-        'NESTOR ALBERTO CRISTANCHO LOPEZ',
-      tel: {
-        fijo   : '5266894',
-        celular: ''
-      },
-      email: 'nescri64@hotmail.com',
-      direccion:
-        'CARRERA 11 No  144 - 22 APARTAMENTO 301',
-      primerNombre   : 'NESTOR',
-      segundoNombre  : 'ALBERTO',
-      primerApellido : 'CRISTANCHO',
-      segundoApellido: 'LOPEZ'
-    },
-    demanda: {
-      vencimientoPagare: '2024-01-26',
-      obligacion       : [
-        3550083774,
-        '4513082972339 / 5303714867753385'
+    _id            : '64cc10e7ea30d793345479a4',
+    capitalAdeudado: 40942872,
+    demanda        : {
+      ciudad                 : 'BOGOTA',
+      departamento           : 'CUNDINAMARCA',
+      entregaGarantiasAbogado: null,
+      etapaProcesal          : 'EJECUCIÓN',
+      juzgado                : [
+        {
+          id  : 71,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 7,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
       ],
-      obligacion2:
-        '4513082972339 / 5303714867753385',
-      entregaGarantiasAbogado: '2017-11-16',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '78'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '16'
-        }
-      },
-      radicado      : '2017 - 01164',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '16'
-      }
-    },
-    capitalAdeudado: 31100999,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400307820170116400',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 408,
-    id    : '80792987',
-    deudor: {
-      cedula: 80792987,
-      nombreCompleto:
-        'JHON ALEXANDER BEJARANO FONSECA',
-      primerNombre   : 'JHON',
-      segundoNombre  : 'ALEXANDER',
-      primerApellido : 'BEJARANO',
-      segundoApellido: 'FONSECA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308120180026400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 409,
-    id    : '900545720',
-    deudor: {
-      cedula        : 900545720,
-      nombreCompleto: 'CREAS SOLUCIONES S.A.S',
-      tel           : {
-        fijo   : '8626344 ',
-        celular: '3107982028'
-      },
-      email: 'andibarracosta@gmail.com',
-      direccion:
-        'CARRERA 50 1# 47 - 50 INT 1 APTO 101',
-      primerNombre   : 'CREAS',
-      primerApellido : 'SOLUCIONES',
-      segundoApellido: 'S.A.S'
-    },
-    demanda: {
-      vencimientoPagare: '2018-06-20',
-      obligacion       : [
-        4550087219
-      ],
-      entregaGarantiasAbogado: '2018-02-15',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-056-civil-municipal-de-bogota',
-          id  : '56'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota',
-          id  : '7'
-        }
-      },
-      radicado      : '2018 - 00221',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota',
-        id  : '7'
-      }
-    },
-    capitalAdeudado: 11949471,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400305620180022100',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 410,
-    id    : '52304124',
-    deudor: {
-      cedula: 52304124,
-      nombreCompleto:
-        'JENNY LILIANA MONTOYA VILLAMIL',
-      primerNombre   : 'JENNY',
-      segundoNombre  : 'LILIANA',
-      primerApellido : 'MONTOYA',
-      segundoApellido: 'VILLAMIL',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303520180037000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 411,
-    id    : '1032362698',
-    deudor: {
-      cedula         : 1032362698,
-      nombreCompleto : 'NATALI VASQUEZ RUBIO',
-      primerNombre   : 'NATALI',
-      primerApellido : 'VASQUEZ',
-      segundoApellido: 'RUBIO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754418900220180036500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 412,
-    id    : '80896755',
-    deudor: {
-      cedula: 80896755,
-      nombreCompleto:
-        'FABIO NELSON PEREZ CRISTIANO',
-      primerNombre   : 'FABIO',
-      segundoNombre  : 'NELSON',
-      primerApellido : 'PEREZ',
-      segundoApellido: 'CRISTIANO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754418900220180036400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 413,
-    id    : '1018430139',
-    deudor: {
-      cedula: 1018430139,
-      nombreCompleto:
-        'LUISA FERNANDA SALAZAR  PATARROYO',
-      primerNombre   : 'LUISA',
-      segundoNombre  : 'FERNANDA',
-      primerApellido : 'SALAZAR',
-      segundoApellido: ' PATARROYO ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754418900220180036300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 414,
-    id    : '51712277',
-    deudor: {
-      cedula         : 51712277,
-      nombreCompleto : 'ELDA YANET CORTES',
-      primerNombre   : 'ELDA',
-      primerApellido : 'YANET',
-      segundoApellido: 'CORTES',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304420180056600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 415,
-    id    : '1024479982',
-    deudor: {
-      cedula: 1024479982,
-      nombreCompleto:
-        'INGRID CATHERINE TAPIAS RICO',
-      primerNombre   : 'INGRID',
-      segundoNombre  : 'CATHERINE',
-      primerApellido : 'TAPIAS',
-      segundoApellido: 'RICO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304320180047400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 416,
-    id    : '79512506',
-    deudor: {
-      cedula: 79512506,
-      nombreCompleto:
-        'JOSE ANTONIO MONTEALEGRE HERNANDEZ',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'ANTONIO',
-      primerApellido : 'MONTEALEGRE',
-      segundoApellido: 'HERNANDEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    demanda: {
-      radicado  : '2017 - 01477',
       obligacion: [
-        null
-      ],
-      juzgado: {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    },
-    capitalAdeudado: 0,
-    grupo          : 'Terminados'
-  },
-  {
-    numero: 417,
-    id    : '19275068',
-    deudor: {
-      cedula: 19275068,
-      nombreCompleto:
-        'OSCAR HUMBERTO GOMEZ CHUCHIN',
-      tel: {
-        fijo   : '2511959 ',
-        celular: '3105638608'
-      },
-      email          : 'oscarmultibog@hotmail.com',
-      direccion      : 'CALLE 71 A No 70 B-11',
-      primerNombre   : 'OSCAR',
-      segundoNombre  : 'HUMBERTO',
-      primerApellido : 'GOMEZ',
-      segundoApellido: 'CHUCHIN'
-    },
-    demanda: {
-      vencimientoPagare: '2/09/2021 / 3/01/2021',
-      obligacion       : [
         5740084511,
         6390082501
       ],
-      obligacion2            : 6390082501,
-      entregaGarantiasAbogado: '19/11/2017',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '71'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '7'
-        }
-      },
-      radicado      : '2017 - 01250',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '7'
-      }
+      radicado         : '2017 - 01250',
+      vencimientoPagare: null
     },
-    capitalAdeudado: 40942872,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400307120170125000',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 418,
-    id    : '35521020',
     deudor: {
-      cedula         : 35521020,
-      nombreCompleto : 'AURA LETICIA GAMEZ ROJAS',
-      primerNombre   : 'AURA',
-      segundoNombre  : 'LETICIA',
-      primerApellido : 'GAMEZ',
-      segundoApellido: 'ROJAS',
+      cedula         : 19275068,
+      direccion      : 'CALLE 71 A No 70 B-11',
+      email          : 'oscarmultibog@hotmail.com',
+      primerApellido : 'GOMEZ',
+      primerNombre   : 'OSCAR',
+      segundoApellido: 'CHUCHIN',
+      segundoNombre  : 'HUMBERTO',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 3105638608,
+        fijo   : 2511959
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '25269400300120180024600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2022-03-10T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 19275068,
+    idProceso: [
+      64793050
+    ],
+    llaveProceso: '11001400307120170125000',
+    numero      : 417,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 419,
-    id    : '73133278',
-    deudor: {
-      cedula: 73133278,
-      nombreCompleto:
-        'ALVARO HERNAN RUIZ HERNANDEZ',
-      primerNombre   : 'ALVARO',
-      segundoNombre  : 'HERNAN',
-      primerApellido : 'RUIZ',
-      segundoApellido: 'HERNANDEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25175410300120180023700',
-    grupo          : 'Terminados',
+    _id            : '64cc10e7ea30d793345479a7',
+    capitalAdeudado: 10382732,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-01-12T05:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 6319,
+          tipo: 'Civil Municipal/Civil Municipal de Ejecucion'
         },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+        {
+          id  : 0,
+          tipo: 'SINGULAR'
         }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 420,
-    id    : '52773230',
-    deudor: {
-      cedula: 52773230,
-      nombreCompleto:
-        'DIANA PATRICIA BARRETO OSMA',
-      tel: {
-        fijo   : '3085025 ',
-        celular: '3107706773'
-      },
-      email          : 'N / A',
-      direccion      : 'CALLE 42 No 78 H - 38 SUR',
-      primerNombre   : 'DIANA',
-      segundoNombre  : 'PATRICIA',
-      primerApellido : 'BARRETO',
-      segundoApellido: 'OSMA'
-    },
-    demanda: {
-      vencimientoPagare: '08/07/2020',
-      obligacion       : [
+      ],
+      obligacion: [
         '377813451010780 / 4513070410107739',
         5303710165958750
       ],
-      obligacion2            : 5303710165958750,
-      entregaGarantiasAbogado: '01/12/2017',
-      departamento           : 'CUNDINAMARCA',
+      radicado: 1.100140030632017e22,
+      vencimientoPagare:
+        '2020-08-07T05:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 52773230,
+      direccion      : 'CALLE 42 No 78 H - 38 SUR',
+      email          : 'N / A',
+      primerApellido : 'BARRETO',
+      primerNombre   : 'DIANA',
+      segundoApellido: 'OSMA',
+      segundoNombre  : 'PATRICIA',
+      tel            : {
+        celular: 3107706773,
+        fijo   : 3085025
+      }
+    },
+    fecha    : '2023-06-30T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 52773230,
+    idProceso: [
+      65701460
+    ],
+    llaveProceso: '11001400306320170129000',
+    numero      : 420,
+    tipoProceso : 'HMM PISO 1'
+  },
+  {
+    _id            : '64cc10e7ea30d793345479c7',
+    capitalAdeudado: 22244760,
+    demanda        : {
       ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal/Civil Municipal de Ejecucion',
-          id  : '6319'
-        },
-        ejecucion: {
-          tipo: 'SINGULAR',
-          id  : ''
-        }
-      },
-      radicado      : 1.100140030632017e22,
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'SINGULAR',
-        id  : ''
-      }
-    },
-    capitalAdeudado: 10382732,
-    tipoProceso    : 'HMM PISO 1',
-    llaveProceso   : '11001400306320170129000',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 421,
-    id    : '79837700',
-    deudor: {
-      cedula         : 79837700,
-      nombreCompleto : 'ALEXANDER MUÑOZ ORTIZ',
-      primerNombre   : 'ALEXANDER',
-      primerApellido : 'MUÑOZ',
-      segundoApellido: 'ORTIZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307520180061700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 422,
-    id    : '41722029',
-    deudor: {
-      cedula         : 41722029,
-      nombreCompleto : 'LUZ YOLANDA MUÑOZ MURCIA',
-      primerNombre   : 'LUZ',
-      segundoNombre  : 'YOLANDA',
-      primerApellido : 'MUÑOZ',
-      segundoApellido: 'MURCIA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001410307520180060200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 423,
-    id    : '80059977',
-    deudor: {
-      cedula         : 80059977,
-      nombreCompleto : 'ANDRES PEDRAZA GARCIA',
-      primerNombre   : 'ANDRES',
-      primerApellido : 'PEDRAZA',
-      segundoApellido: 'GARCIA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301920180044300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 424,
-    id    : '79742224',
-    deudor: {
-      cedula: 79742224,
-      nombreCompleto:
-        'JAIME LEONARDO SOSA ROODRIGUEZ',
-      primerNombre   : 'JAIME',
-      segundoNombre  : 'LEONARDO',
-      primerApellido : 'SOSA',
-      segundoApellido: 'ROODRIGUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '110014003015201800459',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 425,
-    id    : '52498444',
-    deudor: {
-      cedula: 52498444,
-      nombreCompleto:
-        'SANDRA RAQUEL LOPEZ DE MESA OSES',
-      primerNombre   : 'SANDRA',
-      segundoNombre  : 'RAQUEL LOPEZ ',
-      primerApellido : 'DE',
-      segundoApellido: 'MESA OSES ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307520180067400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 426,
-    id    : '19395095',
-    deudor: {
-      cedula: 19395095,
-      nombreCompleto:
-        'FELIX  HERNANDO MONTENEGRO GARCIA',
-      primerNombre   : 'FELIX',
-      segundoNombre  : '',
-      primerApellido : 'HERNANDO',
-      segundoApellido: 'MONTENEGRO GARCIA ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306820180047600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 427,
-    id    : '1069738339',
-    deudor: {
-      cedula: 1069738339,
-      nombreCompleto:
-        'JUAN CAMILO CHINGATE PENAGOS',
-      tel: {
-        fijo   : '',
-        celular: '313389449'
-      },
-      direccion:
-        'VEREDA LA 22 KILOMETRO 30 (CAJICA) // VEREDA SUBIA NORTE, PARTE BAJA, FINCA EL RINCON LOTE 2 (GRANADA- CUND): VEREDA SUBIA NORTE PARTE BAJA FINCA EL RINCON LOTE 2 (GRANADA - CUND)',
-      primerNombre   : 'JUAN',
-      segundoNombre  : 'CAMILO',
-      primerApellido : 'CHINGATE',
-      segundoApellido: 'PENAGOS'
-    },
-    demanda: {
-      vencimientoPagare: '2021-01-16',
-      obligacion       : [
-        12730779
-      ],
-      entregaGarantiasAbogado: '2018-01-19',
       departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'CAJICA',
-      juzgado                : {
-        origen: {
-          tipo: ' PM',
-          id  : '2'
+      entregaGarantiasAbogado: null,
+      etapaProcesal          : 'EJECUCIÓN',
+      juzgado                : [
+        {
+          id  : 59,
+          tipo: 'Civil Municipal'
         },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+        {
+          id  : 7,
+          tipo: 'Civil Municipal de Ejecucion'
         }
-      },
-      radicado      : '2018 - 00048',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: ' PM',
-        id  : '2'
-      }
-    },
-    capitalAdeudado: 21049112,
-    tipoProceso    : 'PRENDARIO',
-    llaveProceso   : '25126408900220180004800',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 428,
-    id    : '1019016622',
-    deudor: {
-      cedula: 1019016622,
-      nombreCompleto:
-        'SERGIO LIBARDO ESPINOSA GOMEZ',
-      primerNombre   : 'SERGIO',
-      segundoNombre  : 'LIBARDO',
-      primerApellido : 'ESPINOSA',
-      segundoApellido: 'GOMEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302420180052000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 429,
-    id    : '10260455',
-    deudor: {
-      cedula: 10260455,
-      nombreCompleto:
-        'ARCANGEL HERNANDEZ RODRIGUEZ',
-      primerNombre   : 'ARCANGEL',
-      primerApellido : 'HERNANDEZ',
-      segundoApellido: 'RODRIGUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306520180061200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 430,
-    id    : '1024517216',
-    deudor: {
-      cedula: 1024517216,
-      nombreCompleto:
-        'JHONATAN ALEJANDRO  CUELLAR ARIAS',
-      primerNombre   : 'JHONATAN',
-      segundoNombre  : 'ALEJANDRO',
-      primerApellido : '',
-      segundoApellido: 'CUELLAR ARIAS ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001410300120180040400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 431,
-    id    : '1014181498',
-    deudor: {
-      cedula: 1014181498,
-      nombreCompleto:
-        'DUVY MARIELA RODRIGUEZ ROCHA',
-      primerNombre   : 'DUVY',
-      segundoNombre  : 'MARIELA',
-      primerApellido : 'RODRIGUEZ',
-      segundoApellido: 'ROCHA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302220180060400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 432,
-    id    : '52757086',
-    deudor: {
-      cedula         : 52757086,
-      nombreCompleto : 'LILIA YANIRA DIAZ CARO',
-      primerNombre   : 'LILIA',
-      segundoNombre  : 'YANIRA',
-      primerApellido : 'DIAZ',
-      segundoApellido: 'CARO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308120180058300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 433,
-    id    : '3116420',
-    deudor: {
-      cedula: 3116420,
-      nombreCompleto:
-        'JORGE ALBERTO BELTRAN PAEZ',
-      primerNombre   : 'JORGE',
-      segundoNombre  : 'ALBERTO',
-      primerApellido : 'BELTRAN',
-      segundoApellido: 'PAEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25899400300120180022200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 434,
-    id    : '80429531',
-    deudor: {
-      cedula: 80429531,
-      nombreCompleto:
-        'FRANCISCO JAVIER GIL FLOREZ',
-      primerNombre   : 'FRANCISCO',
-      segundoNombre  : 'JAVIER',
-      primerApellido : 'GIL',
-      segundoApellido: 'FLOREZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306820180099900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 435,
-    id    : '1012341563',
-    deudor: {
-      cedula         : 1012341563,
-      nombreCompleto : 'MARIBEL REVELO QUIROGA',
-      primerNombre   : 'MARIBEL',
-      primerApellido : 'REVELO',
-      segundoApellido: 'QUIROGA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301620180057300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 436,
-    id    : '79145374',
-    deudor: {
-      cedula: 79145374,
-      nombreCompleto:
-        'JUAN CAMILO BAQUERO BUTTNER',
-      primerNombre   : 'JUAN',
-      segundoNombre  : 'CAMILO',
-      primerApellido : 'BAQUERO',
-      segundoApellido: 'BUTTNER',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306320180075600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 437,
-    id    : '80162319',
-    deudor: {
-      cedula: 80162319,
-      nombreCompleto:
-        'JAVIER ANTONIO ZIPA SALAMANCA',
-      primerNombre   : 'JAVIER',
-      segundoNombre  : 'ANTONIO',
-      primerApellido : 'ZIPA',
-      segundoApellido: 'SALAMANCA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400371520180021200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 438,
-    id    : '52132383',
-    deudor: {
-      cedula         : 52132383,
-      nombreCompleto : 'LUZ DARY VELANDIA GARCIA',
-      primerNombre   : 'LUZ',
-      segundoNombre  : 'DARY',
-      primerApellido : 'VELANDIA',
-      segundoApellido: 'GARCIA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001418900620180021000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 439,
-    id    : '79812352',
-    deudor: {
-      cedula: 79812352,
-      nombreCompleto:
-        'MIGUEL ESNEYDER DEVIA CEPEDA',
-      primerNombre   : 'MIGUEL',
-      segundoNombre  : 'ESNEYDER',
-      primerApellido : 'DEVIA',
-      segundoApellido: 'CEPEDA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25899400300320180055500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 440,
-    id    : '30387764',
-    deudor: {
-      cedula: 30387764,
-      nombreCompleto:
-        'BLANCA ESTHER QUIROGA GIRALDO',
-      primerNombre   : 'BLANCA',
-      segundoNombre  : 'ESTHER',
-      primerApellido : 'QUIROGA',
-      segundoApellido: 'GIRALDO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001408900820180022300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 441,
-    id    : '52064928',
-    deudor: {
-      cedula         : 52064928,
-      nombreCompleto : 'YANETH MILLAN PRIETO',
-      primerNombre   : 'YANETH',
-      primerApellido : 'MILLAN',
-      segundoApellido: 'PRIETO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25899408900120180060900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 442,
-    id    : '80183322',
-    deudor: {
-      cedula: 80183322,
-      nombreCompleto:
-        'JULIAN FELIPE ECHEVERRY FORERO',
-      primerNombre   : 'JULIAN',
-      segundoNombre  : 'FELIPE',
-      primerApellido : 'ECHEVERRY',
-      segundoApellido: 'FORERO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307820180062300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 443,
-    id    : '80424051',
-    deudor: {
-      cedula: 80424051,
-      nombreCompleto:
-        'DIEGO FERNANDO BENITEZ ALVARADO',
-      primerNombre   : 'DIEGO',
-      segundoNombre  : 'FERNANDO',
-      primerApellido : 'BENITEZ',
-      segundoApellido: 'ALVARADO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301020180078400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 444,
-    id    : '79562532',
-    deudor: {
-      cedula: 79562532,
-      nombreCompleto:
-        'PABLO CESAR SOACHA MORALES',
-      primerNombre   : 'PABLO',
-      segundoNombre  : 'CESAR',
-      primerApellido : 'SOACHA',
-      segundoApellido: 'MORALES',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304020180089600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 445,
-    id    : '79978846',
-    deudor: {
-      cedula: 79978846,
-      nombreCompleto:
-        'JUAN CARLOS GARZON BEJARANO',
-      primerNombre   : 'JUAN',
-      segundoNombre  : 'CARLOS',
-      primerApellido : 'GARZON',
-      segundoApellido: 'BEJARANO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754400300120180057200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 446,
-    id    : '79725365',
-    deudor: {
-      cedula        : 79725365,
-      nombreCompleto: 'RICARDO CUSPOCA',
-      primerNombre  : 'RICARDO',
-      primerApellido: 'CUSPOCA',
-      tel           : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25899418900120180057300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 447,
-    id    : '79698506',
-    deudor: {
-      cedula: 79698506,
-      nombreCompleto:
-        'CARLOS ANTONIO PACHECO TORRES',
-      primerNombre   : 'CARLOS',
-      segundoNombre  : 'ANTONIO',
-      primerApellido : 'PACHECO',
-      segundoApellido: 'TORRES',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300520180071100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 448,
-    id    : '79342337',
-    deudor: {
-      cedula         : 79342337,
-      nombreCompleto : 'LUIS ALFREDO NIÑO GARCIA',
-      primerNombre   : 'LUIS',
-      segundoNombre  : 'ALFREDO',
-      primerApellido : 'NIÑO',
-      segundoApellido: 'GARCIA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301220180081000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 449,
-    id    : '4271429',
-    deudor: {
-      cedula: 4271429,
-      nombreCompleto:
-        'TULIO ERNESTO TELLEZ ROJAS',
-      primerNombre   : 'TULIO',
-      segundoNombre  : 'ERNESTO',
-      primerApellido : 'TELLEZ',
-      segundoApellido: 'ROJAS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301720180070500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 450,
-    id    : '53133179',
-    deudor: {
-      cedula: 53133179,
-      nombreCompleto:
-        'KELLY YOHANNA MURCIA DUCON',
-      primerNombre   : 'KELLY',
-      segundoNombre  : 'YOHANNA',
-      primerApellido : 'MURCIA',
-      segundoApellido: 'DUCON',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307820180064700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 451,
-    id    : '1032389993',
-    deudor: {
-      cedula: 1032389993,
-      nombreCompleto:
-        'JOSE JEISSON GALINDO CARRILLO',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'JEISSON',
-      primerApellido : 'GALINDO',
-      segundoApellido: 'CARRILLO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305620180071100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 452,
-    id    : '25126734',
-    deudor: {
-      cedula        : 25126734,
-      nombreCompleto: 'MARIA MARIN DE OROZCO',
-      tel           : {
-        fijo   : '4412100 ',
-        celular: '3124885346'
-      },
-      email: 'mauriciosamu1128@gmail.com',
-      direccion:
-        'CARRERA 103 A  No 77D-22 MOLINOS- BOGOTA',
-      primerNombre   : 'MARIA',
-      segundoNombre  : 'MARIN',
-      primerApellido : 'DE',
-      segundoApellido: 'OROZCO'
-    },
-    demanda: {
-      vencimientoPagare: '07/03/2020',
-      obligacion       : [
+      ],
+      obligacion: [
         1740087269
       ],
-      entregaGarantiasAbogado: '29/01/2018',
-      departamento           : 'CUNDINAMARCA',
+      radicado: '2018 - 00090',
+      vencimientoPagare:
+        '2020-07-03T05:00:00.000Z'
+    },
+    deudor: {
+      cedula: 25126734,
+      direccion:
+        'CARRERA 103 A  No 77D-22 MOLINOS- BOGOTA',
+      email          : 'mauriciosamu1128@gmail.com',
+      primerApellido : 'DE',
+      primerNombre   : 'MARIA',
+      segundoApellido: 'OROZCO',
+      segundoNombre  : 'MARIN',
+      tel            : {
+        celular: 3124885346,
+        fijo   : 4412100
+      }
+    },
+    fecha    : '2022-03-25T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 25126734,
+    idProceso: [
+      50989890
+    ],
+    llaveProceso: '11001400305920180009000',
+    numero      : 452,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d793345479cd',
+    capitalAdeudado: 17502203,
+    demanda        : {
       ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '59'
+      departamento           : 'CUNDINAMARCA',
+      entregaGarantiasAbogado: null,
+      etapaProcesal          : 'EJECUCIÓN',
+      juzgado                : [
+        {
+          id  : 37,
+          tipo: 'Civil Municipal'
         },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '7'
+        {
+          id  : 8,
+          tipo: 'Civil Municipal de Ejecucion'
         }
-      },
-      radicado      : '2018 - 00090',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '7'
-      }
+      ],
+      obligacion: [
+        'AUDIOPRESTAMO'
+      ],
+      radicado         : '2018 - 00111',
+      vencimientoPagare: null
     },
-    capitalAdeudado: 22244760,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400305920180009000',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 453,
-    id    : '79892208',
-    deudor: {
-      cedula         : 79892208,
-      nombreCompleto : 'RICARDO RUEDA MELO',
-      primerNombre   : 'RICARDO',
-      primerApellido : 'RUEDA',
-      segundoApellido: 'MELO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25286400300120180084100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 454,
-    id    : '80089235',
-    deudor: {
-      cedula: 80089235,
-      nombreCompleto:
-        'NICOLAS ERNESTO COCOMA ARCINIEGAS',
-      primerNombre   : 'NICOLAS',
-      segundoNombre  : 'ERNESTO',
-      primerApellido : 'COCOMA',
-      segundoApellido: 'ARCINIEGAS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400308420180067300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 455,
-    id    : '52434815',
-    deudor: {
-      cedula: 52434815,
-      nombreCompleto:
-        'YENNY MARCELA GOMEZ OLARTE',
-      primerNombre   : 'YENNY',
-      segundoNombre  : 'MARCELA',
-      primerApellido : 'GOMEZ',
-      segundoApellido: 'OLARTE',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303820180083500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 456,
-    id    : '26407097',
-    deudor: {
-      cedula: 26407097,
-      nombreCompleto:
-        'ANA LUCIA YAÑEZ VARGAS (FALLECIDA)',
-      primerNombre   : 'ANA',
-      segundoNombre  : 'LUCIA',
-      primerApellido : 'YAÑEZ',
-      segundoApellido: 'VARGAS (FALLECIDA) ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001410375120180112100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 457,
-    id    : '900237555',
-    deudor: {
-      cedula        : 900237555,
-      nombreCompleto: 'SOLINCON LIMITADA',
-      primerNombre  : 'SOLINCON',
-      primerApellido: 'LIMITADA',
-      tel           : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307920180087200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 458,
-    id    : '52271112',
     deudor: {
       cedula: 52271112,
-      nombreCompleto:
-        'SANDRA PATRICIA BELTRAN OVIEDO',
-      tel: {
-        fijo   : '6607900',
-        celular: ''
-      },
-      email: 'saraja.7@hotmail.com',
       direccion:
         'CARRERA 101 No 70 A-14 INTERIOR 1 APARTAMENTO 408',
-      primerNombre   : 'SANDRA',
-      segundoNombre  : 'PATRICIA',
+      email          : 'saraja.7@hotmail.com',
       primerApellido : 'BELTRAN',
-      segundoApellido: 'OVIEDO'
-    },
-    demanda: {
-      vencimientoPagare: '15/0/2020',
-      obligacion       : [
-        'AUDIOPRESTAMO'
-      ],
-      entregaGarantiasAbogado: '29/01/2018',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '37'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '8'
-        }
-      },
-      radicado      : '2018 - 00111',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '8'
-      }
-    },
-    capitalAdeudado: 17502203,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400303720180011100',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 459,
-    id    : '79857627',
-    deudor: {
-      cedula         : 79857627,
-      nombreCompleto : 'CESAR ARMANDO VANEGAS',
-      primerNombre   : 'CESAR',
-      primerApellido : 'ARMANDO',
-      segundoApellido: 'VANEGAS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305320180094500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 460,
-    id    : '79424825',
-    deudor: {
-      cedula: 79424825,
-      nombreCompleto:
-        'JORGE ABDOLONIO GUERRERO HERNANDEZ',
-      primerNombre   : 'JORGE',
-      segundoNombre  : 'ABDOLONIO',
-      primerApellido : 'GUERRERO',
-      segundoApellido: 'HERNANDEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306620190040900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 461,
-    id    : '93288875',
-    deudor: {
-      cedula: 93288875,
-      nombreCompleto:
-        'JOSE ANTONIO FLOREZ OVIEDO',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'ANTONIO',
-      primerApellido : 'FLOREZ',
+      primerNombre   : 'SANDRA',
       segundoApellido: 'OVIEDO',
+      segundoNombre  : 'PATRICIA',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 0,
+        fijo   : 6607900
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303220180095900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2023-02-02T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 52271112,
+    idProceso: [
+      50990920
+    ],
+    llaveProceso: '11001400303720180011100',
+    numero      : 458,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 462,
-    id    : '80755973',
-    deudor: {
-      cedula         : 80755973,
-      nombreCompleto : 'YAMID GELVES CACERES',
-      primerNombre   : 'YAMID',
-      primerApellido : 'GELVES',
-      segundoApellido: 'CACERES',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754418900120180070000',
-    grupo          : 'Terminados',
+    _id            : '64cc10e7ea30d793345479ee',
+    capitalAdeudado: 18100699,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 463,
-    id    : '52883958',
-    deudor: {
-      cedula: 52883958,
-      nombreCompleto:
-        'LEIDY YANETH VIDAL RODRIGUEZ',
-      tel: {
-        fijo   : '7114516',
-        celular: ''
-      },
-      email          : 'leidyyaneth.lyv@gmail.com',
-      direccion      : 'DIAGONAL 2 No 21 B-20',
-      primerNombre   : 'LEIDY',
-      segundoNombre  : 'YANETH',
-      primerApellido : 'VIDAL',
-      segundoApellido: 'RODRIGUEZ'
-    },
-    demanda: {
-      vencimientoPagare:
-        '4/02/2021 // 16/02/2021',
-      obligacion: [
-        'AMERICAN 0377814037749057',
-        'VISA 4513083943843365 // MASTER 5303729958258417'
-      ],
-      obligacion2:
-        'VISA 4513083943843365 // MASTER 5303729958258417',
-      entregaGarantiasAbogado: '2018-07-05',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2018-03-09T05:00:00.000Z',
+      etapaProcesal:
+        'EMBARGO DE REMANENTES JUZGADO 27 PROCESO 2019 - 00251',
+      juzgado: [
+        {
+          id  : 8,
           tipo: ' Pequeñas Causas y Competencias Multiples',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-014-de-pequenas-causas-y-competencia-multiple-de-bogota',
-          id  : '14'
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-08-de-pequenas-causas-laborales-de-bogota'
         },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2019 - 00656',
-      etapaProcesal : 'CONTESTACION DEMANDA',
-      despachoActivo: {
-        tipo: ' Pequeñas Causas y Competencias Multiples',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-014-de-pequenas-causas-y-competencia-multiple-de-bogota',
-        id  : '14'
-      }
-    },
-    capitalAdeudado: 24501535,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001418901420190065600',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 464,
-    id    : '51944991',
-    deudor: {
-      cedula: 51944991,
-      nombreCompleto:
-        'RICARDO ARMANDO CELIS ANGEL',
-      primerNombre   : 'RICARDO',
-      segundoNombre  : 'ARMANDO',
-      primerApellido : 'CELIS',
-      segundoApellido: 'ANGEL',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754418900220180066400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 465,
-    id    : '79789409',
-    deudor: {
-      cedula         : 79789409,
-      nombreCompleto : 'GIOVANNY DURAN ANTONIO',
-      primerNombre   : 'GIOVANNY',
-      primerApellido : 'DURAN',
-      segundoApellido: 'ANTONIO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307720180085400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 466,
-    id    : '53160094',
-    deudor: {
-      cedula: 53160094,
-      nombreCompleto:
-        'DARLEY JULIED PAEZ HIGUERA',
-      tel: {
-        fijo   : '14933266',
-        celular: '3115754578'
-      },
-      email: 'djpaez5@hotmail.com',
-      direccion:
-        'CALLE 130 No 126-96 INTERIOR 16 APARTAMENTO 302',
-      primerNombre   : 'DARLEY',
-      segundoNombre  : 'JULIED',
-      primerApellido : 'PAEZ',
-      segundoApellido: 'HIGUERA'
-    },
-    demanda: {
-      vencimientoPagare:
-        '3/05/2020 // 17/04/2020',
-      obligacion: [
-        '37781415851035/',
-        '4099830008406922 / 5303710339142355'
-      ],
-      obligacion2:
-        '4099830008406922 / 5303710339142355',
-      entregaGarantiasAbogado: '29/01/2018',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '52'
-        },
-        ejecucion: {
+        {
+          id  : 5,
           tipo: 'Civil Municipal de Ejecucion',
-          id  : '17'
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-05-de-ejecucion-civil-municipal-de-bogota'
         }
-      },
-      radicado      : '2018 - 00117',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '17'
-      }
-    },
-    capitalAdeudado: 14270897,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400305220180011700',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 467,
-    id    : '79938802',
-    deudor: {
-      cedula: 79938802,
-      nombreCompleto:
-        'MANUEL SANTIAGO CORREAL ZUÑIGA',
-      primerNombre   : 'MANUEL',
-      segundoNombre  : 'SANTIAGO',
-      primerApellido : 'CORREAL',
-      segundoApellido: 'ZUÑIGA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301720180083200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 468,
-    id    : '79719969',
-    deudor: {
-      cedula: 79719969,
-      nombreCompleto:
-        'CARLOS EDUARDO NARANJO PIÑEROS',
-      primerNombre   : 'CARLOS',
-      segundoNombre  : 'EDUARDO',
-      primerApellido : 'NARANJO',
-      segundoApellido: 'PIÑEROS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001408900420180038400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 469,
-    id    : '46667409',
-    deudor: {
-      cedula: 46667409,
-      nombreCompleto:
-        'LUZ MYRIAM VALDERRAMA TUTA',
-      primerNombre   : 'LUZ',
-      segundoNombre  : 'MYRIAM',
-      primerApellido : 'VALDERRAMA',
-      segundoApellido: 'TUTA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307020180092200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 470,
-    id    : '52711938',
-    deudor: {
-      cedula: 52711938,
-      nombreCompleto:
-        'ELIANA JANNETH LOZANO ARTURO',
-      primerNombre   : 'ELIANA',
-      segundoNombre  : 'JANNETH',
-      primerApellido : 'LOZANO',
-      segundoApellido: 'ARTURO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754418900320180084100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 471,
-    id    : '80742720',
-    deudor: {
-      cedula         : 80742720,
-      nombreCompleto : 'ADRIANA MIREYA AGUILAR',
-      primerNombre   : 'ADRIANA',
-      primerApellido : 'MIREYA',
-      segundoApellido: 'AGUILAR',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '1100140030152018007100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 472,
-    id    : '91250936',
-    deudor: {
-      cedula         : 91250936,
-      nombreCompleto : 'SERGIO ESPINEL CORREAL',
-      primerNombre   : 'SERGIO',
-      primerApellido : 'ESPINEL',
-      segundoApellido: 'CORREAL',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001418900920180038900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 473,
-    id    : '52725153',
-    deudor: {
-      cedula         : 52725153,
-      nombreCompleto : 'SANDRA MILENA VEGA AVILA',
-      primerNombre   : 'SANDRA',
-      segundoNombre  : 'MILENA',
-      primerApellido : 'VEGA',
-      segundoApellido: 'AVILA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754418900320180085500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 474,
-    id    : '52788376',
-    deudor: {
-      cedula: 52788376,
-      nombreCompleto:
-        'NADIA KATERINE MORENO CAMACHO',
-      primerNombre   : 'NADIA',
-      segundoNombre  : 'KATERINE',
-      primerApellido : 'MORENO',
-      segundoApellido: 'CAMACHO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001418903220180127100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 475,
-    id    : '4281808',
-    deudor: {
-      cedula: 4281808,
-      nombreCompleto:
-        'JOSE LIBRANDO CANDELA MUNEVAR',
-      tel: {
-        fijo   : '7113967',
-        celular: ''
-      },
-      email          : 'eedibrando600@hotmail.com',
-      direccion      : 'CALLE 1 A No 13-30  SOACHA',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'LIBRANDO',
-      primerApellido : 'CANDELA',
-      segundoApellido: 'MUNEVAR'
-    },
-    demanda: {
-      vencimientoPagare: '03/08//2019',
-      obligacion       : [
-        1000090987
       ],
-      entregaGarantiasAbogado: '15/02/2018',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'SOACHA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '2'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2018 - 00113',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '2'
-      }
-    },
-    capitalAdeudado: 39146947,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '25754408900220180011300',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 476,
-    id    : '1081395456',
-    deudor: {
-      cedula         : 1081395456,
-      nombreCompleto : 'ARNULFO PASTES DAZA',
-      primerNombre   : 'ARNULFO',
-      primerApellido : 'PASTES',
-      segundoApellido: 'DAZA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001418901220180064200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 477,
-    id    : '79568543',
-    deudor: {
-      cedula: 79568543,
-      nombreCompleto:
-        'ADOLFO  LEON DAZA FERNANDEZ',
-      tel: {
-        fijo   : '7038787',
-        celular: ''
-      },
-      email          : 'adolfo.daza@gmail.com',
-      direccion      : 'CALLE 60 No 38-26 APTO 301',
-      primerNombre   : 'ADOLFO',
-      segundoNombre  : '',
-      primerApellido : 'LEON',
-      segundoApellido: 'DAZA FERNANDEZ '
-    },
-    demanda: {
-      vencimientoPagare: '2020-08-15',
-      obligacion       : [
-        'AUDIOPRESTAMO'
-      ],
-      entregaGarantiasAbogado: '2018-04-21',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '4'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '7'
-        }
-      },
-      radicado      : '2018 - 00475',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '7'
-      }
-    },
-    capitalAdeudado: 14534881,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400300420180047500',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 478,
-    id    : '3199064',
-    deudor: {
-      cedula: 3199064,
-      nombreCompleto:
-        'FABIO HERNANDO PASTOR PASTOR',
-      primerNombre   : 'FABIO',
-      segundoNombre  : 'HERNANDO',
-      primerApellido : 'PASTOR',
-      segundoApellido: 'PASTOR',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25799418900120180033500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 479,
-    id    : '39809183',
-    deudor: {
-      cedula: 39809183,
-      nombreCompleto:
-        'TANIA CONSUELO BOTIA CORREA',
-      primerNombre   : 'TANIA',
-      segundoNombre  : 'CONSUELO',
-      primerApellido : 'BOTIA',
-      segundoApellido: 'CORREA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25785418900120180017100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 480,
-    id    : '39575032',
-    deudor: {
-      cedula        : 39575032,
-      nombreCompleto: 'ADRIANA VANEGAS PEÑA',
-      tel           : {
-        fijo   : '',
-        celular: '3152573448'
-      },
-      email: 'adriana.0806@hotmail.com',
-      direccion:
-        'CARRERA 14 No 22-10  APARTAMENTO  202 GIRARDOT',
-      primerNombre   : 'ADRIANA',
-      primerApellido : 'VANEGAS',
-      segundoApellido: 'PEÑA'
-    },
-    demanda: {
-      vencimientoPagare:
-        '15/04/2021 // 6/04/2021',
-      obligacion: [
-        'AUDIOPRESTAMO',
-        5306960687119070
-      ],
-      obligacion2            : 5306960687119070,
-      entregaGarantiasAbogado: '23/08/2018',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'GIRARDOT',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '3'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2021 - 00539',
-      etapaProcesal : 'EJECUCION',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '3'
-      }
-    },
-    capitalAdeudado: 17217066,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '25307400300320210053900',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 481,
-    id    : '80019013',
-    deudor: {
-      cedula: 80019013,
-      nombreCompleto:
-        'WILLINTONG MARIO  YARURO PEÑARANDA',
-      primerNombre   : 'WILLINTONG',
-      segundoNombre  : 'MARIO',
-      primerApellido : '',
-      segundoApellido: 'YARURO PEÑARANDA ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001410375120190027600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 482,
-    id    : '52380535',
-    deudor: {
-      cedula: 52380535,
-      nombreCompleto:
-        'CLAUDIA JANETH CORTES ROSAS',
-      primerNombre   : 'CLAUDIA',
-      segundoNombre  : 'JANETH',
-      primerApellido : 'CORTES',
-      segundoApellido: 'ROSAS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307120180093600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 483,
-    id    : '19459237',
-    deudor: {
-      cedula: 19459237,
-      nombreCompleto:
-        'WILSON RICARDO ESCOBAR ESCOBAR',
-      primerNombre   : 'WILSON',
-      segundoNombre  : 'RICARDO',
-      primerApellido : 'ESCOBAR',
-      segundoApellido: 'ESCOBAR',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001418903220180137000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 484,
-    id    : '30339083',
-    deudor: {
-      cedula: 30339083,
-      nombreCompleto:
-        'JENNY  ANDREA AVILA GARZON',
-      primerNombre   : 'JENNY',
-      segundoNombre  : '',
-      primerApellido : 'ANDREA',
-      segundoApellido: 'AVILA GARZON ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754418900320190027000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 485,
-    id    : '52115085',
-    deudor: {
-      cedula: 52115085,
-      nombreCompleto:
-        'DIANA MARGARITA BUSTOS BALLEN',
-      primerNombre   : 'DIANA',
-      segundoNombre  : 'MARGARITA',
-      primerApellido : 'BUSTOS',
-      segundoApellido: 'BALLEN',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001418900820180076100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 486,
-    id    : '40776578',
-    deudor: {
-      cedula: 40776578,
-      nombreCompleto:
-        'SANDRA PATRICIA LONDOÑO MURCIA',
-      primerNombre   : 'SANDRA',
-      segundoNombre  : 'PATRICIA',
-      primerApellido : 'LONDOÑO',
-      segundoApellido: 'MURCIA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001418900520180021000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 487,
-    id    : '80473211',
-    deudor: {
-      cedula         : 80473211,
-      nombreCompleto : 'GABRIEL MENDOZA MORINELLY',
-      primerNombre   : 'GABRIEL',
-      primerApellido : 'MENDOZA',
-      segundoApellido: 'MORINELLY',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400301420180078900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 488,
-    id    : '52837807',
-    deudor: {
-      cedula: 52837807,
-      nombreCompleto:
-        'SANDRA MILENA MORENO CAMPUZANO',
-      primerNombre   : 'SANDRA',
-      segundoNombre  : 'MILENA',
-      primerApellido : 'MORENO',
-      segundoApellido: 'CAMPUZANO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001418901020180083400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 489,
-    id    : '80257279',
-    deudor: {
-      cedula         : 80257279,
-      nombreCompleto : 'ORLANDO SILVA CALDERON',
-      primerNombre   : 'ORLANDO',
-      primerApellido : 'SILVA',
-      segundoApellido: 'CALDERON',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754418900320180100800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 490,
-    id    : '80052004',
-    deudor: {
-      cedula: 80052004,
-      nombreCompleto:
-        'DIEGO ARMANDO MATEUS ESPITIA',
-      primerNombre   : 'DIEGO',
-      segundoNombre  : 'ARMANDO',
-      primerApellido : 'MATEUS',
-      segundoApellido: 'ESPITIA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754418900120180098800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 491,
-    id    : '51987570',
-    deudor: {
-      cedula: 51987570,
-      nombreCompleto:
-        'SANDRA PATRICIA PACHECO RAMIREZ',
-      tel: {
-        fijo   : '8121692',
-        celular: ''
-      },
-      email: 'sandrabogota2007@yahoo.com',
-      direccion:
-        'CALLE 163 B No 50-80  INTERIOR 10 APT 231 CONJUNTO LA ESTANCIA III',
-      primerNombre   : 'SANDRA',
-      segundoNombre  : 'PATRICIA',
-      primerApellido : 'PACHECO',
-      segundoApellido: 'RAMIREZ'
-    },
-    demanda: {
-      vencimientoPagare:
-        '15/05/2021 // 5/07/2021 // 5/07/2021',
       obligacion: [
         'AUDIOPRESTAMO',
         '0377816345049476 // 4513070259455355 // 5303720114305077'
       ],
-      obligacion2:
-        '0377816345049476 // 4513070259455355 // 5303720114305077',
-      entregaGarantiasAbogado: '3/09/2018',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: ' Pequeñas Causas y Competencias Multiples',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-08-de-pequenas-causas-laborales-de-bogota',
-          id  : '8'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-05-de-ejecucion-civil-municipal-de-bogota',
-          id  : '5'
-        }
-      },
-      radicado: '2018 - 00785',
-      etapaProcesal:
-        'EMBARGO DE REMANENTES JUZGADO 27 PROCESO 2019 - 00251',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-05-de-ejecucion-civil-municipal-de-bogota',
-        id  : '5'
-      }
+      radicado         : '2018 - 00785',
+      vencimientoPagare: null
     },
-    capitalAdeudado: 18100699,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001418900820180078500',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 492,
-    id    : '22444794',
     deudor: {
-      cedula: 22444794,
-      nombreCompleto:
-        'MARIBEL DEL ROSARIO RIVERA JIMENEZ',
-      primerNombre   : 'MARIBEL',
-      segundoNombre  : 'DEL',
-      primerApellido : 'ROSARIO',
-      segundoApellido: 'RIVERA JIMENEZ ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25736408900120180013500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 493,
-    id    : '53103504',
-    deudor: {
-      cedula: 53103504,
-      nombreCompleto:
-        'KELLY YULIANA QUINTERO FIERRO',
-      primerNombre   : 'KELLY',
-      segundoNombre  : 'YULIANA',
-      primerApellido : 'QUINTERO',
-      segundoApellido: 'FIERRO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001410375120180181700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 494,
-    id    : '1022332681',
-    deudor: {
-      cedula         : 1022332681,
-      nombreCompleto : 'LUISA ENELLY GUGU VITOPIA',
-      primerNombre   : 'LUISA',
-      segundoNombre  : 'ENELLY',
-      primerApellido : 'GUGU',
-      segundoApellido: 'VITOPIA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754418900320180102200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 495,
-    id    : '17099495',
-    deudor: {
-      cedula: 17099495,
-      nombreCompleto:
-        'PABLO ELIAS MENDOZA MURILLO',
-      primerNombre   : 'PABLO',
-      segundoNombre  : 'ELIAS',
-      primerApellido : 'MENDOZA',
-      segundoApellido: 'MURILLO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300320180123600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 496,
-    id    : '13222728',
-    deudor: {
-      cedula        : 13222728,
-      nombreCompleto: 'MODESTO PINEDA PEREZ',
-      tel           : {
-        fijo   : '8852490',
-        celular: ''
-      },
-      email          : 'mopadinco@yahoo.com',
-      direccion      : 'CARRERA 6 No 6-59',
-      primerNombre   : 'MODESTO',
-      primerApellido : 'PINEDA',
-      segundoApellido: 'PEREZ'
-    },
-    demanda: {
-      vencimientoPagare:
-        '14/09/2021 // 07/05/2021',
-      obligacion: [
-        'AUDIOPRESTAMO',
-        5491570347356810
-      ],
-      obligacion2            : 5491570347356810,
-      entregaGarantiasAbogado: '18/09/2018',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'CHIA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-003-civil-municipal-de-chia',
-          id  : '3'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2018 - 00602',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-003-civil-municipal-de-chia',
-        id  : '3'
-      }
-    },
-    capitalAdeudado: 27373832,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '25175408900320180060200',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 497,
-    id    : '11339859',
-    deudor: {
-      cedula         : 11339859,
-      nombreCompleto : 'ROQUE ANTONIO SANCHEZ',
-      primerNombre   : 'ROQUE',
-      primerApellido : 'ANTONIO',
-      segundoApellido: 'SANCHEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25899410300120180043500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 498,
-    id    : '80546020',
-    deudor: {
-      cedula: 80546020,
-      nombreCompleto:
-        'JOSE ALEXANDER BECERRA BARRERA',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'ALEXANDER',
-      primerApellido : 'BECERRA',
-      segundoApellido: 'BARRERA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25899400300320180042900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 499,
-    id    : '3208569',
-    deudor: {
-      cedula        : 3208569,
-      nombreCompleto: 'FLORESMIRO APONTE ACOSTA',
-      tel           : {
-        fijo   : '3208569',
-        celular: ''
-      },
-      email: 'dcentro@pcpplasticos.com',
+      cedula: 51987570,
       direccion:
-        'DIAGONAL 77B No 119 A-74 APTO 504 INT6',
-      primerNombre   : 'FLORESMIRO',
-      primerApellido : 'APONTE',
-      segundoApellido: 'ACOSTA'
+        'CALLE 163 B No 50-80  INTERIOR 10 APT 231 CONJUNTO LA ESTANCIA III',
+      email          : 'sandrabogota2007@yahoo.com',
+      primerApellido : 'PACHECO',
+      primerNombre   : 'SANDRA',
+      segundoApellido: 'RAMIREZ',
+      segundoNombre  : 'PATRICIA',
+      tel            : {
+        celular: 0,
+        fijo   : 8121692
+      }
     },
-    demanda: {
-      vencimientoPagare: '31/11/2024',
-      obligacion       : [
+    fecha    : '2023-08-02T05:00:00.000Z',
+    grupo    : 'Bancolombia',
+    id       : 51987570,
+    idProceso: [
+      87350810
+    ],
+    llaveProceso: '11001418900820180078500',
+    numero      : 491,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d793345479f6',
+    capitalAdeudado: 24807317,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2018-08-10T05:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 13,
+          tipo: ' Pequeñas Causas y Competencias Multiples',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-13-de-pequenas-causas-y-competencias-multiples-de-bogota'
+        }
+      ],
+      obligacion: [
         '20990123680  7/  377813468472239',
         '4513079359765043 // 53037220341399596'
       ],
-      obligacion2:
-        '4513079359765043 // 53037220341399596',
-      entregaGarantiasAbogado: '08/10/2018',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: ' Pequeñas Causas y Competencias Multiples',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-13-de-pequenas-causas-y-competencias-multiples-de-bogota',
-          id  : '13'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2019 - 00708',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: ' Pequeñas Causas y Competencias Multiples',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-13-de-pequenas-causas-y-competencias-multiples-de-bogota',
-        id  : '13'
-      }
+      radicado         : '2019 - 00708',
+      vencimientoPagare: null
     },
-    capitalAdeudado: 24807317,
-    tipoProceso    : 'HIPOTECARIO',
-    llaveProceso   : '11001418901320190070800',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 500,
-    id    : '900566964-9',
     deudor: {
-      cedula        : '900566964-9',
-      nombreCompleto: 'SMARTITECH S.A.S',
-      tel           : {
-        fijo   : '3849696',
-        celular: ''
-      },
-      direccion     : 'CARRERA 13 No 73-33',
-      primerNombre  : 'SMARTITECH',
-      primerApellido: 'S.A.S'
-    },
-    demanda: {
-      vencimientoPagare: '2020-05-27',
-      obligacion       : [
-        68928057402,
-        'AUDIOPRESTAMO'
-      ],
-      obligacion2            : 'AUDIOPRESTAMO',
-      entregaGarantiasAbogado: '2018-04-16',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '6'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '17'
-        }
-      },
-      radicado      : '2018 - 00454',
-      etapaProcesal : 'EJECUCION',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '17'
-      }
-    },
-    capitalAdeudado: 15086199,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400300620180045400',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 501,
-    id    : '830105220',
-    deudor: {
-      cedula: 830105220,
-      nombreCompleto:
-        'ASOCIACION AGROPECUARIA UCEBUL',
-      primerNombre   : 'ASOCIACION',
-      primerApellido : 'AGROPECUARIA',
-      segundoApellido: 'UCEBUL',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305520180131600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 502,
-    id    : '1023861016',
-    deudor: {
-      cedula: 1023861016,
-      nombreCompleto:
-        'ANGELICA NATHALY ROZO FRANCO',
-      tel: {
-        fijo   : '6594339',
-        celular: ''
-      },
-      email: 'Anrf1985@hotmail.com',
+      cedula: 3208569,
       direccion:
-        'TRANSVERSAL 70G SUR-68-52 TORRE 18 APARTAMENTO 1401',
-      primerNombre   : 'ANGELICA',
-      segundoNombre  : 'NATHALY',
-      primerApellido : 'ROZO',
-      segundoApellido: 'FRANCO'
+        'DIAGONAL 77B No 119 A-74 APTO 504 INT6',
+      email          : 'dcentro@pcpplasticos.com',
+      primerApellido : 'APONTE',
+      primerNombre   : 'FLORESMIRO',
+      segundoApellido: 'ACOSTA',
+      tel            : {
+        celular: 0,
+        fijo   : 3208569
+      }
     },
-    demanda: {
-      vencimientoPagare: '05/01/2021',
-      obligacion       : [
-        4594260107010410
-      ],
-      entregaGarantiasAbogado: '12/10/2018',
-      departamento           : 'CUNDINAMARCA',
+    grupo    : 'Bancolombia',
+    id       : 3208569,
+    idProceso: [
+      0
+    ],
+    llaveProceso: '11001418901320190070800',
+    numero      : 499,
+    tipoProceso : 'HIPOTECARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547a05',
+    capitalAdeudado: 46118717,
+    demanda        : {
       ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: ' Pequeñas Causas y Competencias Multiples',
-          id  : '16'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '2'
-        }
-      },
-      radicado      : '2019 - 01085',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '2'
-      }
-    },
-    capitalAdeudado: 10930100,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001418901620190108500',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 503,
-    id    : '3096755',
-    deudor: {
-      cedula: 3096755,
-      nombreCompleto:
-        'JUAN CARLOS LEON MONTENEGRO',
-      primerNombre   : 'JUAN',
-      segundoNombre  : 'CARLOS',
-      primerApellido : 'LEON',
-      segundoApellido: 'MONTENEGRO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25436408900120180006300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 504,
-    id    : '52432037',
-    deudor: {
-      cedula: 52432037,
-      nombreCompleto:
-        'ANA DEL PILAR MENDEZ AMAYA',
-      primerNombre   : 'ANA',
-      segundoNombre  : 'DEL',
-      primerApellido : 'PILAR',
-      segundoApellido: 'MENDEZ AMAYA ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25740410300120180037000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 505,
-    id    : '80156570',
-    deudor: {
-      cedula: 80156570,
-      nombreCompleto:
-        'WILLIAM  GIOVANNY GARZON LOPEZ',
-      primerNombre   : 'WILLIAM',
-      segundoNombre  : '',
-      primerApellido : 'GIOVANNY',
-      segundoApellido: 'GARZON LOPEZ ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001418902520180246200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 506,
-    id    : '1023891419',
-    deudor: {
-      cedula: 1023891419,
-      nombreCompleto:
-        'EDWIN CAMILO SARMIENTO GOMEZ',
-      primerNombre   : 'EDWIN',
-      segundoNombre  : 'CAMILO',
-      primerApellido : 'SARMIENTO',
-      segundoApellido: 'GOMEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001418903120180138000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 507,
-    id    : '80468168',
-    deudor: {
-      cedula: 80468168,
-      nombreCompleto:
-        'WILLIAM  YOVANY CASALLAS ROMERO',
-      primerNombre   : 'WILLIAM',
-      segundoNombre  : '',
-      primerApellido : 'YOVANY',
-      segundoApellido: 'CASALLAS ROMERO ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '2.58434003001201E+22',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 508,
-    id    : '11230400',
-    deudor: {
-      cedula: 11230400,
-      nombreCompleto:
-        'JOSE ALFONSO VASQUEZ TOVAR',
-      tel: {
-        fijo   : '',
-        celular: '3123703828'
-      },
-      email          : 'joalvato09@hotmail.com',
-      direccion      : 'CALLE 2 A No 5-22 APTO 503',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'ALFONSO',
-      primerApellido : 'VASQUEZ',
-      segundoApellido: 'TOVAR'
-    },
-    demanda: {
-      vencimientoPagare: '01/03/2026',
-      obligacion       : [
-        2490084469
-      ],
-      entregaGarantiasAbogado: '26/11/2018',
       departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'LA CALERA',
-      juzgado                : {
-        origen: {
-          tipo: ' PM',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-01-promiscuo-municipal-de-la-calera',
-          id  : '001'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      entregaGarantiasAbogado: null,
+      juzgado                : [
+        {
+          id  : 17,
+          tipo: 'Civil Municipal'
         }
-      },
-      radicado      : '2018 - 00371',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: ' PM',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-01-promiscuo-municipal-de-la-calera',
-        id  : '001'
-      }
-    },
-    capitalAdeudado: 29416113,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '25377408900120180037100',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 509,
-    id    : '20401209',
-    deudor: {
-      cedula: 20401209,
-      nombreCompleto:
-        'DIANA CAROLINA PRADO FIQUITIVA',
-      primerNombre   : 'DIANA',
-      segundoNombre  : 'CAROLINA',
-      primerApellido : 'PRADO',
-      segundoApellido: 'FIQUITIVA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25214400300120180100200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 510,
-    id    : '80854028',
-    deudor: {
-      cedula: 80854028,
-      nombreCompleto:
-        'MANUEL ARNULFO ARAQUE MUÑOZ',
-      primerNombre   : 'MANUEL',
-      segundoNombre  : 'ARNULFO',
-      primerApellido : 'ARAQUE',
-      segundoApellido: 'MUÑOZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754400300220180041500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 511,
-    id    : '52851677',
-    deudor: {
-      cedula: 52851677,
-      nombreCompleto:
-        'DIANA MARJORIE ROMERO MONTOYA',
-      primerNombre   : 'DIANA',
-      segundoNombre  : 'MARJORIE',
-      primerApellido : 'ROMERO',
-      segundoApellido: 'MONTOYA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754400300220180041600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 512,
-    id    : '1014200510',
-    deudor: {
-      cedula: 1014200510,
-      nombreCompleto:
-        'SANDRA MILENA MORALES GARCIA',
-      primerNombre   : 'SANDRA',
-      segundoNombre  : 'MILENA',
-      primerApellido : 'MORALES',
-      segundoApellido: 'GARCIA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754418900320180135200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 513,
-    id    : '80865782',
-    deudor: {
-      cedula: 80865782,
-      nombreCompleto:
-        'ERIK RICARDO PINTO RODRIGUEZ',
-      primerNombre   : 'ERIK',
-      segundoNombre  : 'RICARDO',
-      primerApellido : 'PINTO',
-      segundoApellido: 'RODRIGUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304420190016500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 514,
-    id    : '19496623',
-    deudor: {
-      cedula: 19496623,
-      nombreCompleto:
-        'MANUEL ALBERTO LEON CALDERON',
-      tel: {
-        fijo   : '3175879',
-        celular: ''
-      },
-      email          : 'terranova54@latinmail.com',
-      direccion      : 'CARRERA 68 No 100-51 APTO 405',
-      primerNombre   : 'MANUEL',
-      segundoNombre  : 'ALBERTO',
-      primerApellido : 'LEON',
-      segundoApellido: 'CALDERON'
-    },
-    demanda: {
-      vencimientoPagare: '10/03/2022',
-      obligacion       : [
+      ],
+      obligacion: [
         7910080591,
         4099830244266410
       ],
-      obligacion2            : 4099830244266410,
-      entregaGarantiasAbogado: '30/11/2018',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
+      radicado: '2019 - 00179',
+      vencimientoPagare:
+        '2022-10-03T05:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 19496623,
+      direccion      : 'CARRERA 68 No 100-51 APTO 405',
+      email          : 'terranova54@latinmail.com',
+      primerApellido : 'LEON',
+      primerNombre   : 'MANUEL',
+      segundoApellido: 'CALDERON',
+      segundoNombre  : 'ALBERTO',
+      tel            : {
+        celular: 0,
+        fijo   : 3175879
+      }
+    },
+    grupo      : 'Insolvencia',
+    id         : 19496623,
+    numero     : 514,
+    tipoProceso: 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547a16',
+    capitalAdeudado: 35608653,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2020-10-07T00:00:00.000Z',
+      etapaProcesal: 'EJECUCION',
+      juzgado      : [
+        {
+          id  : 42,
           tipo: 'Civil Municipal',
-          id  : '17'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-42-civil-municipal-de-bogota'
         }
-      },
-      radicado      : '2019 - 00179',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '17'
-      }
-    },
-    capitalAdeudado: 46118717,
-    tipoProceso    : 'SINGULAR',
-    grupo          : 'Insolvencia'
-  },
-  {
-    numero: 514,
-    id    : '79290475',
-    deudor: {
-      cedula: 79290475,
-      nombreCompleto:
-        'OSCAR ARMANDO TORRES GOMEZ',
-      primerNombre   : 'OSCAR',
-      segundoNombre  : 'ARMANDO',
-      primerApellido : 'TORRES',
-      segundoApellido: 'GOMEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001418902120190029100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 516,
-    id    : '79245905',
-    deudor: {
-      cedula: 79245905,
-      nombreCompleto:
-        'ALVARO LUIS ASPRILLA LUCUMI',
-      primerNombre   : 'ALVARO',
-      segundoNombre  : 'LUIS',
-      primerApellido : 'ASPRILLA',
-      segundoApellido: 'LUCUMI',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001418901420190019000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 517,
-    id    : '52470211',
-    deudor: {
-      cedula         : 52470211,
-      nombreCompleto : 'MARYLU VALENCIA SUAREZ',
-      primerNombre   : 'MARYLU',
-      primerApellido : 'VALENCIA',
-      segundoApellido: 'SUAREZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001418901020190016200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 518,
-    id    : '80222254',
-    deudor: {
-      cedula: 80222254,
-      nombreCompleto:
-        'JORGE IVAN AVENDAÑO VANEGAS',
-      primerNombre   : 'JORGE',
-      segundoNombre  : 'IVAN',
-      primerApellido : 'AVENDAÑO',
-      segundoApellido: 'VANEGAS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001418900920190016200',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 519,
-    id    : '1030529007',
-    deudor: {
-      cedula: 1030529007,
-      nombreCompleto:
-        'LEIDY CATALINA LOSADA CABRERA',
-      primerNombre   : 'LEIDY',
-      segundoNombre  : 'CATALINA',
-      primerApellido : 'LOSADA',
-      segundoApellido: 'CABRERA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307020190055100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 520,
-    id    : '92554673',
-    deudor: {
-      cedula         : 92554673,
-      nombreCompleto : 'RAFAEL ADOLFO PAEZ ORTEGA',
-      primerNombre   : 'RAFAEL',
-      segundoNombre  : 'ADOLFO',
-      primerApellido : 'PAEZ',
-      segundoApellido: 'ORTEGA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307320190028700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 521,
-    id    : '40050052',
-    deudor: {
-      cedula: 40050052,
-      nombreCompleto:
-        'MARIA AQUILINA RODRIGUEZ LANCHEROS',
-      primerNombre   : 'MARIA',
-      segundoNombre  : 'AQUILINA',
-      primerApellido : 'RODRIGUEZ',
-      segundoApellido: 'LANCHEROS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001418901220190023500',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 522,
-    id    : '79359896',
-    deudor: {
-      cedula: 79359896,
-      nombreCompleto:
-        'ARMANDO RODRIGUEZ RODRIGUEZ',
-      primerNombre   : 'ARMANDO',
-      primerApellido : 'RODRIGUEZ',
-      segundoApellido: 'RODRIGUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306820190100400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 523,
-    id    : '1014185022',
-    deudor: {
-      cedula: 1014185022,
-      nombreCompleto:
-        'LUISA ALEJANDRA ESCOBAR ANDRADE',
-      primerNombre   : 'LUISA',
-      segundoNombre  : 'ALEJANDRA',
-      primerApellido : 'ESCOBAR',
-      segundoApellido: 'ANDRADE',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001418907620190043400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 524,
-    id    : '52433839',
-    deudor: {
-      cedula: 52433839,
-      nombreCompleto:
-        'INGRIT YOHANA VASQUEZ ROJAS',
-      primerNombre   : 'INGRIT',
-      segundoNombre  : 'YOHANA',
-      primerApellido : 'VASQUEZ',
-      segundoApellido: 'ROJAS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400307520190100800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 525,
-    id    : '1030543356',
-    deudor: {
-      cedula         : 1030543356,
-      nombreCompleto : 'MAGDA LORENA RIASCOS DIAZ',
-      primerNombre   : 'MAGDA',
-      segundoNombre  : 'LORENA',
-      primerApellido : 'RIASCOS',
-      segundoApellido: 'DIAZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400303620190049600',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 526,
-    id    : '1072642976',
-    deudor: {
-      cedula: 1072642976,
-      nombreCompleto:
-        'CRISTIAN DAVID GUTIERREZ RODRIGUEZ',
-      primerNombre   : 'CRISTIAN',
-      segundoNombre  : 'DAVID',
-      primerApellido : 'GUTIERREZ',
-      segundoApellido: 'RODRIGUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25175400300120190030400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 527,
-    id    : '80654935',
-    deudor: {
-      cedula: 80654935,
-      nombreCompleto:
-        'JAIRO MARCELO GUIZA RODRIGUEZ',
-      primerNombre   : 'JAIRO',
-      segundoNombre  : 'MARCELO',
-      primerApellido : 'GUIZA',
-      segundoApellido: 'RODRIGUEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25286400300120190041800',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 528,
-    id    : '1065564377',
-    deudor: {
-      cedula: 1065564377,
-      nombreCompleto:
-        'YOLADIS ESTHER BLANCO LOPEZ',
-      primerNombre   : 'YOLADIS',
-      segundoNombre  : 'ESTHER',
-      primerApellido : 'BLANCO',
-      segundoApellido: 'LOPEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25473400100120190116000',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 529,
-    id    : '2976219',
-    deudor: {
-      cedula         : 2976219,
-      nombreCompleto : 'GONZALO CONTRERAS POVEDA',
-      primerNombre   : 'GONZALO',
-      primerApellido : 'CONTRERAS',
-      segundoApellido: 'POVEDA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400305220190110300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 530,
-    id    : '35455606',
-    deudor: {
-      cedula        : 35455606,
-      nombreCompleto: 'MARIA CLARA REYES REYES',
-      tel           : {
-        fijo   : '60991181',
-        celular: ''
-      },
-      email          : 'mariaclarareyes@hotmail.com',
-      direccion      : 'CALLE 175 No 70-40',
-      primerNombre   : 'MARIA',
-      segundoNombre  : 'CLARA',
-      primerApellido : 'REYES',
-      segundoApellido: 'REYES'
-    },
-    demanda: {
-      vencimientoPagare: '2020-10-05',
-      obligacion       : [
-        40998833882814000,
-        5303729887314280
       ],
-      obligacion2            : 5303729887314280,
-      entregaGarantiasAbogado: '2018-04-21',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '81'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '1'
-        }
-      },
-      radicado      : '2018 - 00514',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '1'
-      }
-    },
-    capitalAdeudado: 14409411,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400308120180051400',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 531,
-    id    : '51813018',
-    deudor: {
-      cedula        : 51813018,
-      nombreCompleto: 'SANDRA LEONOR PAEZ MURCIA',
-      tel           : {
-        fijo   : '',
-        celular: ''
-      },
-      email: 'yadelcis@hotmail.com',
-      direccion:
-        'KR 81 No. 127 A - 46 CONJUNTO MONTE AZUL BOGOTA',
-      primerNombre   : 'SANDRA',
-      segundoNombre  : 'LEONOR',
-      primerApellido : 'PAEZ',
-      segundoApellido: 'MURCIA'
-    },
-    demanda: {
       obligacion: [
         2020084294,
         '2020087484 // 4594250317705437 //5303723260933890'
       ],
-      obligacion2:
-        '2020087484 // 4594250317705437 //5303723260933890',
-      entregaGarantiasAbogado: '2020-10-07',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-42-civil-municipal-de-bogota',
-          id  : '42'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2020 - 00535',
-      etapaProcesal : 'EJECUCION',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-42-civil-municipal-de-bogota',
-        id  : '42'
-      }
+      radicado         : '2020 - 00535',
+      vencimientoPagare: null
     },
-    capitalAdeudado: 35608653,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400304220200053500',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 532,
-    id    : '900520023',
     deudor: {
-      cedula        : 900520023,
-      nombreCompleto: 'DIMOIN COLOMBIA S.A.S.',
-      tel           : {
-        fijo   : '',
-        celular: ''
-      },
-      direccion      : 'AV BOYACA 63D - 26 OFICINA 103',
-      primerNombre   : 'DIMOIN',
-      primerApellido : 'COLOMBIA',
-      segundoApellido: 'S.A.S.'
-    },
-    demanda: {
-      obligacion: [
-        65886140334,
-        4594260446916180
-      ],
-      obligacion2            : 4594260446916180,
-      entregaGarantiasAbogado: '2020-09-05',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: ' Pequeñas Causas y Competencias Multiples/ Civil Municipal',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota',
-          id  : '5068'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2020-1021',
-      etapaProcesal : 'CONTESTACIÓN DEMANDA',
-      despachoActivo: {
-        tipo: ' Pequeñas Causas y Competencias Multiples/ Civil Municipal',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota',
-        id  : '5068'
-      }
-    },
-    capitalAdeudado: 15324570,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400306820200102100',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 533,
-    id    : '79522009',
-    deudor: {
-      cedula: 79522009,
-      nombreCompleto:
-        'JAIRO ALFONSO PARDO JAIMES',
-      tel: {
-        fijo   : '7808590',
-        celular: ''
-      },
-      email: 'jairopardo8-11-70@hotmail.com',
+      cedula: 51813018,
       direccion:
-        'DIAGONAL 28 No 33-27  TORRE 7 APART 203  SOACHA',
-      primerNombre   : 'JAIRO',
-      segundoNombre  : 'ALFONSO',
-      primerApellido : 'PARDO',
-      segundoApellido: 'JAIMES'
+        'KR 81 No. 127 A - 46 CONJUNTO MONTE AZUL BOGOTA',
+      email          : 'yadelcis@hotmail.com',
+      primerApellido : 'PAEZ',
+      primerNombre   : 'SANDRA',
+      segundoApellido: 'MURCIA',
+      segundoNombre  : 'LEONOR',
+      tel            : {
+        celular: 0,
+        fijo   : 0
+      }
     },
-    demanda: {
-      vencimientoPagare: '15/11/2021',
-      obligacion       : [
+    fecha    : '2023-03-13T05:00:00.000Z',
+    grupo    : 'Bancolombia',
+    id       : 51813018,
+    idProceso: [
+      128164881
+    ],
+    llaveProceso: '11001400304220200053500',
+    numero      : 531,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547a18',
+    capitalAdeudado: 56987693,
+    demanda        : {
+      ciudad                 : 'SOACHA',
+      departamento           : 'CUNDINAMARCA',
+      entregaGarantiasAbogado: null,
+      etapaProcesal          : 'EJECUCION',
+      juzgado                : [
+        {
+          id  : 4,
+          tipo: ' Pequeñas Causas y Competencias Multiples',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-04-municipal-de-pequenas-causas-y-competencia-multiple-de-soacha'
+        }
+      ],
+      obligacion: [
         1680097436,
         148653
       ],
-      obligacion2            : 148653,
-      entregaGarantiasAbogado: '14/11/2017',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'SOACHA',
-      juzgado                : {
-        origen: {
-          tipo: ' Pequeñas Causas y Competencias Multiples',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-04-municipal-de-pequenas-causas-y-competencia-multiple-de-soacha',
-          id  : '4'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2018 - 00060',
-      etapaProcesal : 'EJECUCION',
-      despachoActivo: {
-        tipo: ' Pequeñas Causas y Competencias Multiples',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-04-municipal-de-pequenas-causas-y-competencia-multiple-de-soacha',
-        id  : '4'
+      radicado         : '2018 - 00060',
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula: 79522009,
+      direccion:
+        'DIAGONAL 28 No 33-27  TORRE 7 APART 203  SOACHA',
+      email          : 'jairopardo8-11-70@hotmail.com',
+      primerApellido : 'PARDO',
+      primerNombre   : 'JAIRO',
+      segundoApellido: 'JAIMES',
+      segundoNombre  : 'ALFONSO',
+      tel            : {
+        celular: 0,
+        fijo   : 7808590
       }
     },
-    capitalAdeudado: 56987693,
-    tipoProceso    : 'HIPOTECARIO',
-    llaveProceso   : '2575440030042018000600',
-    grupo          : 'Bancolombia'
+    grupo    : 'Bancolombia',
+    id       : 79522009,
+    idProceso: [
+      0
+    ],
+    llaveProceso: '2575440030042018000600',
+    numero      : 533,
+    tipoProceso : 'HIPOTECARIO'
   },
   {
-    numero: 534,
-    id    : '11337530',
-    deudor: {
-      cedula: 11337530,
-      nombreCompleto:
-        'PEDRO JULIO TRIVIÑO VALBUENA',
-      tel: {
-        fijo   : '',
-        celular: ''
-      },
-      email          : 'maribelbonita86@hotmail.com',
-      direccion      : 'VEREDA SAN JORGE ZIPAQUIRA',
-      primerNombre   : 'PEDRO',
-      segundoNombre  : 'JULIO',
-      primerApellido : 'TRIVIÑO',
-      segundoApellido: 'VALBUENA'
-    },
-    demanda: {
+    _id            : '64cc10e7ea30d79334547a19',
+    capitalAdeudado: 33000833,
+    demanda        : {
+      ciudad      : 'ZIPAQUIRA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2020-09-05T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 2,
+          tipo: 'Civil Municipal'
+        }
+      ],
       obligacion: [
         377814085773793,
         4513070445120640
       ],
-      obligacion2            : 4513070445120640,
-      entregaGarantiasAbogado: '2020-09-05',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'ZIPAQUIRA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '2'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2020 - 00289',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        id  : '2'
-      }
+      radicado         : '2020 - 00289',
+      vencimientoPagare: null
     },
-    capitalAdeudado: 33000833,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '2589940010020200028900',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 535,
-    id    : '51918944',
     deudor: {
-      cedula: 51918944,
-      nombreCompleto:
-        'AMANDA LUCIA GAITAN RINCÓN',
-      primerNombre   : 'AMANDA',
-      segundoNombre  : 'LUCIA',
-      primerApellido : 'GAITAN',
-      segundoApellido: 'RINCÓN',
+      cedula         : 11337530,
+      direccion      : 'VEREDA SAN JORGE ZIPAQUIRA',
+      email          : 'maribelbonita86@hotmail.com',
+      primerApellido : 'TRIVIÑO',
+      primerNombre   : 'PEDRO',
+      segundoApellido: 'VALBUENA',
+      segundoNombre  : 'JULIO',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 0,
+        fijo   : 0
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400306920200082300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    grupo    : 'Reintegra',
+    id       : 11337530,
+    idProceso: [
+      0
+    ],
+    llaveProceso: '2589940010020200028900',
+    numero      : 534,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 536,
-    id    : '39544073',
-    deudor: {
-      cedula         : 39544073,
-      nombreCompleto : 'BLANCA LILIA BRAVO PAEZ',
-      primerNombre   : 'BLANCA',
-      segundoNombre  : 'LILIA',
-      primerApellido : 'BRAVO',
-      segundoApellido: 'PAEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302020180047900',
-    grupo          : 'Terminados',
+    _id            : '64cc10e7ea30d79334547a1c',
+    capitalAdeudado: 20353079,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2018-06-28T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 51,
+          tipo: 'Civil Municipal'
         },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+        {
+          id  : 4,
+          tipo: 'Civil Municipal de Ejecucion'
         }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 537,
-    id    : '52155023',
-    deudor: {
-      cedula: 52155023,
-      nombreCompleto:
-        'SANDRA  LILIANA CRUZ BELTRAN',
-      tel: {
-        fijo   : '5360278 ',
-        celular: '3108540511'
-      },
-      email          : 'mediconta@gmail.com',
-      direccion      : 'CALLE 86A No 95A-15 APTO 108',
-      primerNombre   : 'SANDRA',
-      segundoNombre  : '',
-      primerApellido : 'LILIANA',
-      segundoApellido: 'CRUZ BELTRAN '
-    },
-    demanda: {
-      vencimientoPagare: '2022-02-02',
-      obligacion       : [
+      ],
+      obligacion: [
         2270085292,
         3778131949466660
       ],
-      obligacion2            : 3778131949466660,
-      entregaGarantiasAbogado: '2018-06-28',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '51'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '4'
-        }
-      },
-      radicado      : '2018 - 00850',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '4'
-      }
+      radicado: '2018 - 00850',
+      vencimientoPagare:
+        '2022-02-02T00:00:00.000Z'
     },
-    capitalAdeudado: 20353079,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400305120180085000',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 538,
-    id    : '41564331',
     deudor: {
-      cedula         : 41564331,
-      nombreCompleto : 'GLORIA GIRALDO DE ROVIDA',
-      primerNombre   : 'GLORIA',
-      segundoNombre  : 'GIRALDO',
-      primerApellido : 'DE',
-      segundoApellido: 'ROVIDA',
+      cedula         : 52155023,
+      direccion      : 'CALLE 86A No 95A-15 APTO 108',
+      email          : 'mediconta@gmail.com',
+      primerApellido : 'LILIANA',
+      primerNombre   : 'SANDRA',
+      segundoApellido: 'CRUZ BELTRAN ',
+      segundoNombre  : '',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 3108540511,
+        fijo   : 5360278
       }
     },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400302720180057700',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
+    fecha    : '2023-07-10T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 52155023,
+    idProceso: [
+      89137980
+    ],
+    llaveProceso: '11001400305120180085000',
+    numero      : 537,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 539,
-    id    : '51937267',
-    deudor: {
-      cedula        : 51937267,
-      nombreCompleto: 'ADRIANA LUCIA MORA PLATA',
-      tel           : {
-        fijo   : '8146011',
-        celular: ''
-      },
-      email: 'amoplata@yahoo.com',
-      direccion:
-        'CALLLE 106 B- No 54-57 APTO 201 PUENTE LARGO',
-      primerNombre   : 'ADRIANA',
-      segundoNombre  : 'LUCIA',
-      primerApellido : 'MORA',
-      segundoApellido: 'PLATA'
-    },
-    demanda: {
-      vencimientoPagare: '2021-04-10',
-      obligacion       : [
+    _id            : '64cc10e7ea30d79334547a1e',
+    capitalAdeudado: 32026447,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2018-07-03T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 36,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 15,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
         2070086628,
         4594250056606570
       ],
-      obligacion2            : 4594250056606570,
-      entregaGarantiasAbogado: '2018-07-03',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '36'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '15'
-        }
-      },
-      radicado      : '2018 - 00818',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '15'
+      radicado: '2018 - 00818',
+      vencimientoPagare:
+        '2021-04-10T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 51937267,
+      direccion:
+        'CALLLE 106 B- No 54-57 APTO 201 PUENTE LARGO',
+      email          : 'amoplata@yahoo.com',
+      primerApellido : 'MORA',
+      primerNombre   : 'ADRIANA',
+      segundoApellido: 'PLATA',
+      segundoNombre  : 'LUCIA',
+      tel            : {
+        celular: 0,
+        fijo   : 8146011
       }
     },
-    capitalAdeudado: 32026447,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400303620180081800',
-    grupo          : 'Reintegra'
+    fecha    : '2023-08-03T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 51937267,
+    idProceso: [
+      51306830
+    ],
+    llaveProceso: '11001400303620180081800',
+    numero      : 539,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 540,
-    id    : '3242760',
-    deudor: {
-      cedula: 3242760,
-      nombreCompleto:
-        'JOSE RODRIGO GARCIA QUINTERO',
-      tel: {
-        fijo   : '6855750 ',
-        celular: '3143659602'
-      },
-      email          : 'rodrigogar68@hotmail.com',
-      direccion      : 'CARRERA 86 No 99-23',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'RODRIGO',
-      primerApellido : 'GARCIA',
-      segundoApellido: 'QUINTERO'
-    },
-    demanda: {
-      vencimientoPagare:
-        '10/05/2121 // 10/05/2021',
+    _id            : '64cc10e7ea30d79334547a1f',
+    capitalAdeudado: 17667402,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2018-07-26T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 14,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 9,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
       obligacion: [
         1980096337,
         6700083464
       ],
-      obligacion2            : 6700083464,
-      entregaGarantiasAbogado: '2018-07-26',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          id  : '14'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '9'
-        }
-      },
-      radicado      : '2018 - 00929',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '9'
+      radicado         : '2018 - 00929',
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula         : 3242760,
+      direccion      : 'CARRERA 86 No 99-23',
+      email          : 'rodrigogar68@hotmail.com',
+      primerApellido : 'GARCIA',
+      primerNombre   : 'JOSE',
+      segundoApellido: 'QUINTERO',
+      segundoNombre  : 'RODRIGO',
+      tel            : {
+        celular: 3143659602,
+        fijo   : 6855750
       }
     },
-    capitalAdeudado: 17667402,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400301420180092900',
-    grupo          : 'Reintegra'
+    fecha    : '2023-06-27T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 3242760,
+    idProceso: [
+      51341610
+    ],
+    llaveProceso: '11001400301420180092900',
+    numero      : 540,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 541,
-    id    : '79533771',
-    deudor: {
-      cedula: 79533771,
-      nombreCompleto:
-        'JOSE RAMON ESTRADA CASTILLO',
-      tel: {
-        fijo   : '2998302',
-        celular: ''
-      },
-      email          : 'jrestradacastillo@gmail.com',
-      direccion      : 'CARRERA 81 G No 48-03 SUR',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'RAMON',
-      primerApellido : 'ESTRADA',
-      segundoApellido: 'CASTILLO'
-    },
-    demanda: {
-      vencimientoPagare:
-        '15/04/2021 // 6/05/2021',
+    _id            : '64cc10e7ea30d79334547a20',
+    capitalAdeudado: 39855851,
+    demanda        : {
+      ciudad                 : 'BOGOTA',
+      departamento           : 'CUNDINAMARCA',
+      entregaGarantiasAbogado: null,
+      etapaProcesal          : 'EJECUCIÓN',
+      juzgado                : [
+        {
+          id  : 8241,
+          tipo: 'Civil Municipal/ Civil Municipal'
+        },
+        {
+          id  : 14,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
       obligacion: [
         'AUDIOPRESTAMO',
         5491580436291960
       ],
-      obligacion2            : 5491580436291960,
-      entregaGarantiasAbogado: '31/08/2018',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal/ Civil Municipal',
-          id  : '8241'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '14'
-        }
-      },
-      radicado      : '2018 - 00964',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '14'
+      radicado         : '2018 - 00964',
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula         : 79533771,
+      direccion      : 'CARRERA 81 G No 48-03 SUR',
+      email          : 'jrestradacastillo@gmail.com',
+      primerApellido : 'ESTRADA',
+      primerNombre   : 'JOSE',
+      segundoApellido: 'CASTILLO',
+      segundoNombre  : 'RAMON',
+      tel            : {
+        celular: 0,
+        fijo   : 2998302
       }
     },
-    capitalAdeudado: 39855851,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400308220180096400',
-    grupo          : 'Reintegra'
+    fecha    : '2022-03-24T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 79533771,
+    idProceso: [
+      52160520,
+      112967583
+    ],
+    llaveProceso: '11001400308220180096400',
+    numero      : 541,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 542,
-    id    : '53106069',
-    deudor: {
-      cedula: 53106069,
-      nombreCompleto:
-        'BIBIANA PATRICIA ESGUERRA VASQUEZ',
-      tel: {
-        fijo   : '53106069',
-        celular: ''
-      },
-      email          : 'bicato10@hotmail.com',
-      direccion      : 'CALLE 65 BIS No 86-50',
-      primerNombre   : 'BIBIANA',
-      segundoNombre  : 'PATRICIA',
-      primerApellido : 'ESGUERRA',
-      segundoApellido: 'VASQUEZ'
-    },
-    demanda: {
-      vencimientoPagare: '6/04/2021 // 6/04/2021',
-      obligacion       : [
+    _id            : '64cc10e7ea30d79334547a21',
+    capitalAdeudado: 12864472,
+    demanda        : {
+      ciudad                 : 'BOGOTA',
+      departamento           : 'CUNDINAMARCA',
+      entregaGarantiasAbogado: null,
+      etapaProcesal          : 'EJECUCIÓN',
+      juzgado                : [
+        {
+          id  : 12,
+          tipo: ' Pequeñas Causas y Competencias Multiples'
+        },
+        {
+          id  : 17,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
         'AMERICAN 377813618831557',
         'VISA 4513070030495183 // 5303715376619405'
       ],
-      obligacion2:
-        'VISA 4513070030495183 // 5303715376619405',
-      entregaGarantiasAbogado: '22/08/2018',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: ' Pequeñas Causas y Competencias Multiples',
-          id  : '12'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '17'
-        }
-      },
-      radicado      : '2018 - 00644',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '17'
+      radicado         : '2018 - 00644',
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula         : 53106069,
+      direccion      : 'CALLE 65 BIS No 86-50',
+      email          : 'bicato10@hotmail.com',
+      primerApellido : 'ESGUERRA',
+      primerNombre   : 'BIBIANA',
+      segundoApellido: 'VASQUEZ',
+      segundoNombre  : 'PATRICIA',
+      tel            : {
+        celular: 0,
+        fijo   : 53106069
       }
     },
-    capitalAdeudado: 12864472,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001418901220180064400',
-    grupo          : 'Reintegra'
+    fecha    : '2023-07-05T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 53106069,
+    idProceso: [
+      71079290
+    ],
+    llaveProceso: '11001418901220180064400',
+    numero      : 542,
+    tipoProceso : 'SINGULAR'
   },
   {
-    numero: 543,
-    id    : '51579807',
-    deudor: {
-      cedula        : 51579807,
-      nombreCompleto: 'ROSALIA CHARRY  SARMIENTO',
-      tel           : {
-        fijo   : '2943968',
-        celular: ''
-      },
-      email: 'rochi2656@hotmail.com',
-      direccion:
-        'CALLE 19 A No 82 - 65 INT 6 APTO 503',
-      primerNombre   : 'ROSALIA',
-      segundoNombre  : 'CHARRY',
-      primerApellido : '',
-      segundoApellido: 'SARMIENTO'
-    },
-    demanda: {
-      vencimientoPagare: '13/03/2022',
-      obligacion       : [
-        3880083804,
-        '4513074508682496 // 53037103332223839'
+    _id            : '64cc10e7ea30d79334547a25',
+    capitalAdeudado: 41372568,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-10-06T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 2,
+          tipo: ' Civil Municipal'
+        },
+        {
+          id  : 13,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
       ],
-      obligacion2:
-        '4513074508682496 // 53037103332223839',
-      entregaGarantiasAbogado: '10/10/2018',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: ' Pequeñas Causas y Competencias Multiples',
-          id  : '12'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '11'
-        }
-      },
-      radicado      : '2018 - 00951',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '11'
-      }
-    },
-    capitalAdeudado: 24849682,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001418901220180095100',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 544,
-    id    : '52018939',
-    deudor: {
-      cedula: 52018939,
-      nombreCompleto:
-        'SONIA ANGELICA LOPEZ ORTIZ',
-      primerNombre   : 'SONIA',
-      segundoNombre  : 'ANGELICA',
-      primerApellido : 'LOPEZ',
-      segundoApellido: 'ORTIZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400304320190215900',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 545,
-    id    : '79295686',
-    deudor: {
-      cedula         : 79295686,
-      nombreCompleto : 'JAIRO ALDANA VILLAMIZAR',
-      primerNombre   : 'JAIRO',
-      primerApellido : 'ALDANA',
-      segundoApellido: 'VILLAMIZAR',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 546,
-    id    : '1116782267',
-    deudor: {
-      cedula: 1116782267,
-      nombreCompleto:
-        'JOGLI JOAQUIN OTERO VARGAS',
-      tel: {
-        fijo   : '',
-        celular: '3005941798'
-      },
-      email          : 'juanotero1989@gmail.com',
-      direccion      : 'DIAGONAL 2 No 79 F -04',
-      primerNombre   : 'JOGLI',
-      segundoNombre  : 'JOAQUIN',
-      primerApellido : 'OTERO',
-      segundoApellido: 'VARGAS'
-    },
-    demanda: {
-      vencimientoPagare: '2020-10-04',
-      obligacion       : [
+      obligacion: [
         12541235
       ],
-      entregaGarantiasAbogado: '2017-10-06',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: ' Civil Municipal',
-          id  : '2'
-        },
-        ejecucion: {
-          tipo: 'Civil Municipal de Ejecucion',
-          id  : '13'
-        }
-      },
-      radicado      : '2017 - 01002',
-      etapaProcesal : 'EJECUCIÓN',
-      despachoActivo: {
-        tipo: 'Civil Municipal de Ejecucion',
-        id  : '13'
-      }
-    },
-    capitalAdeudado: 41372568,
-    tipoProceso    : 'PRENDARIO',
-    llaveProceso   : '11001400300220170100200',
-    grupo          : 'Reintegra'
-  },
-  {
-    numero: 547,
-    id    : '348774',
-    deudor: {
-      cedula: 348774,
-      nombreCompleto:
-        'JOSE EDGAR ACHURI GONZALEZ',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'EDGAR',
-      primerApellido : 'ACHURI',
-      segundoApellido: 'GONZALEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754400300120210015300',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 548,
-    id    : '23270185',
-    deudor: {
-      cedula: 23270185,
-      nombreCompleto:
-        'CLARA PATRICIA PEÑA BELTRAN',
-      primerNombre   : 'CLARA',
-      segundoNombre  : 'PATRICIA',
-      primerApellido : 'PEÑA',
-      segundoApellido: 'BELTRAN',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '11001400300820170102400',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 549,
-    id    : '79405147',
-    deudor: {
-      cedula: 79405147,
-      nombreCompleto:
-        'JOSE ANTONIO BEJARANO CARREÑO',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'ANTONIO',
-      primerApellido : 'BEJARANO',
-      segundoApellido: 'CARREÑO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 550,
-    id    : '1022336662',
-    deudor: {
-      cedula: 1022336662,
-      nombreCompleto:
-        'MIGUEL ANGEL AGUASACO PEÑUELA',
-      primerNombre   : 'MIGUEL',
-      segundoNombre  : 'ANGEL',
-      primerApellido : 'AGUASACO',
-      segundoApellido: 'PEÑUELA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    llaveProceso   : '25754418900120190091100',
-    grupo          : 'Terminados',
-    demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 551,
-    id    : '1075211773',
-    deudor: {
-      cedula: 1075211773,
-      nombreCompleto:
-        'PEDRO JONATHAN RAMIREZ GOMEZ',
-      email          : 'jonathansoldier@hotmail.com',
-      direccion      : 'KR 1 2 41 Fusagasugá',
-      primerNombre   : 'PEDRO',
-      segundoNombre  : 'JONATHAN',
-      primerApellido : 'RAMIREZ',
-      segundoApellido: 'GOMEZ',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    demanda: {
-      vencimientoPagare: '2028-03-08',
-      obligacion       : [
-        2640096179
-      ],
-      entregaGarantiasAbogado: '2023-06-20',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'FUSAGASUGA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-003-civil-municipal-de-fusagasuga',
-          id  : '3'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2023 - 00371',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-003-civil-municipal-de-fusagasuga',
-        id  : '3'
-      }
-    },
-    capitalAdeudado: 28018855,
-    tipoProceso    : 'SINGULAR',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 552,
-    id    : '1023874668',
-    deudor: {
-      cedula: 1023874668,
-      nombreCompleto:
-        'OSCAR MAURICIO GOMEZ MENDOZA',
-      tel: {
-        fijo   : '2043773',
-        celular: ''
-      },
-      email          : 'oscar2794@hotmail.com',
-      direccion      : 'CL 49 A BIS SUR No. 5 N 10',
-      primerNombre   : 'OSCAR',
-      segundoNombre  : 'MAURICIO',
-      primerApellido : 'GOMEZ',
-      segundoApellido: 'MENDOZA'
-    },
-    demanda: {
+      radicado: '2017 - 01002',
       vencimientoPagare:
-        '10/02/2026 // 27/01/2026',
-      obligacion: [
-        530104065,
-        530103261
-      ],
-      obligacion2            : 530103261,
-      entregaGarantiasAbogado: '2023-06-20',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal',
-          url : 'https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota',
-          id  : '4'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2023 - 00622',
-      despachoActivo: {
-        tipo: 'Civil Municipal',
-        url : 'https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota',
-        id  : '4'
+        '2020-10-04T00:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 1116782267,
+      direccion      : 'DIAGONAL 2 No 79 F -04',
+      email          : 'juanotero1989@gmail.com',
+      primerApellido : 'OTERO',
+      primerNombre   : 'JOGLI',
+      segundoApellido: 'VARGAS',
+      segundoNombre  : 'JOAQUIN',
+      tel            : {
+        celular: 3005941798,
+        fijo   : 0
       }
     },
-    capitalAdeudado: 77376262,
-    tipoProceso    : 'SINGULAR',
-    llaveProceso   : '11001400300420230062200',
-    grupo          : 'Bancolombia'
+    fecha    : '2023-03-14T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 1116782267,
+    idProceso: [
+      50780430
+    ],
+    llaveProceso: '11001400300220170100200',
+    numero      : 546,
+    tipoProceso : 'PRENDARIO'
   },
   {
-    numero: 553,
-    id    : '80220698',
-    deudor: {
-      cedula: 80220698,
-      nombreCompleto:
-        'JOSE ALEXANDER LAVERDE PENAGOS',
-      email: 'lxndrlaverde@gmail.com',
-      direccion:
-        'Carrera 7 # 180 75 // Carrera 8 A No. 182 - 12',
-      primerNombre   : 'JOSE',
-      segundoNombre  : 'ALEXANDER',
-      primerApellido : 'LAVERDE',
-      segundoApellido: 'PENAGOS',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    demanda: {
-      vencimientoPagare: '2025-02-25',
-      obligacion       : [
+    _id            : '64cc10e7ea30d79334547a2c',
+    capitalAdeudado: 31804872,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2023-06-20T00:00:00.000Z',
+      juzgado: [
+        {
+          id  : 8365,
+          tipo: ' Pequeñas Causas y Competencias Multiples'
+        }
+      ],
+      obligacion: [
         130089828
       ],
-      entregaGarantiasAbogado: '2023-06-20',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'Civil Municipal / PCC',
-          id  : '8365'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      radicado      : '2023 - 01088',
-      despachoActivo: {
-        tipo: 'Civil Municipal / PCC',
-        id  : '8365'
-      }
-    },
-    capitalAdeudado: 31804872,
-    tipoProceso    : 'SINGULAR',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 554,
-    id    : '51976656',
-    deudor: {
-      cedula: 51976656,
-      nombreCompleto:
-        'SANDRA PATRICIA ALVAREZ RODRIGUEZ',
-      tel: {
-        fijo   : '2297973 ',
-        celular: '3157352910'
-      },
-      email: 'sandris73@hotmail.com',
-      direccion:
-        'Carrera 102 No. 69 - 81 Casa 5 Conjunto Residencial Montes de Tierra Grata',
-      primerNombre   : 'SANDRA',
-      segundoNombre  : 'PATRICIA',
-      primerApellido : 'ALVAREZ',
-      segundoApellido: 'RODRIGUEZ'
-    },
-    demanda: {
+      radicado: '2023 - 01088',
       vencimientoPagare:
-        '22/02/2026 // 4/07/2026 // 6/03/2026',
-      obligacion: [
-        2150100545,
-        '377844028390801 y 4513080181283486'
-      ],
-      obligacion2:
-        '377844028390801 y 4513080181283486',
-      entregaGarantiasAbogado: '2023-07-26',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
+        '2025-02-25T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 80220698,
+      direccion:
+        'Carrera 7 # 180 75 // Carrera 8 A No. 182 - 12',
+      email          : 'lxndrlaverde@gmail.com',
+      primerApellido : 'LAVERDE',
+      primerNombre   : 'JOSE',
+      segundoApellido: 'PENAGOS',
+      segundoNombre  : 'ALEXANDER',
+      tel            : {
+        celular: 0,
+        fijo   : 0
       }
     },
-    capitalAdeudado: 22111021,
-    tipoProceso    : 'SINGULAR',
-    grupo          : 'Bancolombia'
+    grupo      : 'Bancolombia',
+    id         : 80220698,
+    numero     : 553,
+    tipoProceso: 'SINGULAR'
   },
   {
-    numero: 555,
-    id    : '53130409',
-    deudor: {
-      cedula: 53130409,
-      nombreCompleto:
-        'JEIMMY SOLEY QUIROGA RAMIREZ',
-      tel: {
-        fijo   : '3917539 ',
-        celular: '3506509064'
-      },
-      email: 'jsquiroga72@hotmail.com',
-      direccion:
-        'CL 55 BIS 16 48 Apartamento 702 Edificio Bangkok',
-      primerNombre   : 'JEIMMY',
-      segundoNombre  : 'SOLEY',
-      primerApellido : 'QUIROGA',
-      segundoApellido: 'RAMIREZ'
-    },
-    demanda: {
-      vencimientoPagare: '2026-03-04',
-      obligacion       : [
+    _id            : '64cc10e7ea30d79334547a2e',
+    capitalAdeudado: 80906224,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2023-07-26T00:00:00.000Z',
+      juzgado   : [],
+      obligacion: [
         1920089307
       ],
-      entregaGarantiasAbogado: '2023-07-26',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
+      vencimientoPagare:
+        '2026-03-04T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 53130409,
+      direccion:
+        'CL 55 BIS 16 48 Apartamento 702 Edificio Bangkok',
+      email          : 'jsquiroga72@hotmail.com',
+      primerApellido : 'QUIROGA',
+      primerNombre   : 'JEIMMY',
+      segundoApellido: 'RAMIREZ',
+      segundoNombre  : 'SOLEY',
+      tel            : {
+        celular: 3506509064,
+        fijo   : 3917539
       }
     },
-    capitalAdeudado: 80906224,
-    tipoProceso    : 'SINGULAR',
-    grupo          : 'Bancolombia'
+    grupo      : 'Bancolombia',
+    id         : 53130409,
+    numero     : 555,
+    tipoProceso: 'SINGULAR'
   },
   {
-    numero: 556,
-    id    : '1022335014',
-    deudor: {
-      cedula        : 1022335014,
-      nombreCompleto: 'CIRO ERQUILIAN ONOFRE',
-      tel           : {
-        fijo   : '',
-        celular: '3023193548'
-      },
-      email: 'ciro.onofe1105@gmail.com',
-      direccion:
-        'Carrera 13 # 4-20 Madrid (Cundinamarca)',
-      primerNombre   : 'CIRO',
-      primerApellido : 'ERQUILIAN',
-      segundoApellido: 'ONOFRE'
-    },
-    demanda: {
-      vencimientoPagare:
-        '9/03/2026 // 9/03/2026 // 9/04/2026',
+    _id            : '64cc10e7ea30d79334547a2f',
+    capitalAdeudado: 149444779,
+    demanda        : {
+      ciudad      : 'MADRID',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2023-07-26T00:00:00.000Z',
+      juzgado   : [],
       obligacion: [
         '3830095699 // 3830095700',
         3830095701
       ],
-      obligacion2            : 3830095701,
-      entregaGarantiasAbogado: '2023-07-26',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'MADRID',
-      juzgado                : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula: 1022335014,
+      direccion:
+        'Carrera 13 # 4-20 Madrid (Cundinamarca)',
+      email          : 'ciro.onofe1105@gmail.com',
+      primerApellido : 'ERQUILIAN',
+      primerNombre   : 'CIRO',
+      segundoApellido: 'ONOFRE',
+      tel            : {
+        celular: 3023193548,
+        fijo   : 0
       }
     },
-    capitalAdeudado: 149444779,
-    tipoProceso    : 'SINGULAR',
-    grupo          : 'Bancolombia'
+    grupo      : 'Bancolombia',
+    id         : 1022335014,
+    numero     : 556,
+    tipoProceso: 'SINGULAR'
   },
   {
-    numero: 557,
-    id    : '71685758',
-    deudor: {
-      cedula        : 71685758,
-      nombreCompleto: 'CARLOS HERNEY QUINTERO',
-      tel           : {
-        fijo   : '6485655 ',
-        celular: '3002985587'
-      },
-      email:
-        'cahequi8097@gmail.com  fundaoyuki@gmail.com',
-      direccion:
-        'KR 32 A 1 19 BARRIO SANTA MATILDE',
-      primerNombre   : 'CARLOS',
-      primerApellido : 'HERNEY',
-      segundoApellido: 'QUINTERO'
-    },
-    demanda: {
-      vencimientoPagare:
-        '18/07/2026 // 4/03/2026',
+    _id            : '64cc10e7ea30d79334547a30',
+    capitalAdeudado: 49329779,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2023-07-26T00:00:00.000Z',
+      juzgado   : [],
       obligacion: [
         840093593,
         'PAGARE SIN NUMERO T. AMERICAN EXPRESS 0377844069636757'
       ],
-      obligacion2:
-        'PAGARE SIN NUMERO T. AMERICAN EXPRESS 0377844069636757',
-      entregaGarantiasAbogado: '2023-07-26',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula: 71685758,
+      direccion:
+        'KR 32 A 1 19 BARRIO SANTA MATILDE',
+      email:
+        'cahequi8097@gmail.com  fundaoyuki@gmail.com',
+      primerApellido : 'HERNEY',
+      primerNombre   : 'CARLOS',
+      segundoApellido: 'QUINTERO',
+      tel            : {
+        celular: 3002985587,
+        fijo   : 6485655
       }
     },
-    capitalAdeudado: 49329779,
-    tipoProceso    : 'SINGULAR',
-    grupo          : 'Bancolombia'
+    grupo      : 'Bancolombia',
+    id         : 71685758,
+    numero     : 557,
+    tipoProceso: 'SINGULAR'
   },
   {
-    numero: 558,
-    id    : '52531016',
-    deudor: {
-      cedula: 52531016,
-      nombreCompleto:
-        'CLAUDIA MARCELA ARIAS LÓPEZ',
-      tel: {
-        fijo   : '',
-        celular: '3106736494'
-      },
-      email: 'marcearias@yahoo.com',
-      direccion:
-        'Calle 18 N 86 55 Etapa 1 Torre 5 Apartamento 403 Conjunto Residencial Parque de Ostente',
-      primerNombre   : 'CLAUDIA',
-      segundoNombre  : 'MARCELA',
-      primerApellido : 'ARIAS',
-      segundoApellido: 'LÓPEZ'
-    },
-    demanda: {
-      vencimientoPagare:
-        '17/03/2026 // 4/03/2026',
+    _id            : '64cc10e7ea30d79334547a31',
+    capitalAdeudado: 46537671,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2023-07-26T00:00:00.000Z',
+      juzgado   : [],
       obligacion: [
         3880005183,
         'PAGARE SIN NUMERO T. MASTER CARD 5303720122061696'
       ],
-      obligacion2:
-        'PAGARE SIN NUMERO T. MASTER CARD 5303720122061696',
-      entregaGarantiasAbogado: '2023-07-26',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula: 52531016,
+      direccion:
+        'Calle 18 N 86 55 Etapa 1 Torre 5 Apartamento 403 Conjunto Residencial Parque de Ostente',
+      email          : 'marcearias@yahoo.com',
+      primerApellido : 'ARIAS',
+      primerNombre   : 'CLAUDIA',
+      segundoApellido: 'LÓPEZ',
+      segundoNombre  : 'MARCELA',
+      tel            : {
+        celular: 3106736494,
+        fijo   : 0
       }
     },
-    capitalAdeudado: 46537671,
-    tipoProceso    : 'SINGULAR',
-    grupo          : 'Bancolombia'
+    grupo      : 'Bancolombia',
+    id         : 52531016,
+    numero     : 558,
+    tipoProceso: 'SINGULAR'
   },
   {
-    numero: 559,
-    id    : '80219425',
-    deudor: {
-      cedula: 80219425,
-      nombreCompleto:
-        'EDWIN ALEXANDER SALCEDO PEREZ',
-      tel: {
-        fijo   : '',
-        celular: '3112633806'
-      },
-      email: 'edwsal736@gmail.com',
-      direccion:
-        'Calle 50 Sur No. 93 D 38 Torre 07 Apartamento 601 Conjunto Residencial Porvenir Reservado Etapa 7; Carrera 89 A No. 45 A – 33 Sur Casa 207 Agrupación de Vivienda La Margarita Etapa 9',
-      primerNombre   : 'EDWIN',
-      segundoNombre  : 'ALEXANDER',
-      primerApellido : 'SALCEDO',
-      segundoApellido: 'PEREZ'
-    },
-    demanda: {
-      vencimientoPagare: '2026-03-02',
-      obligacion       : [
+    _id            : '64cc10e7ea30d79334547a32',
+    capitalAdeudado: 42598393,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2023-07-26T00:00:00.000Z',
+      juzgado   : [],
+      obligacion: [
         1080103378
       ],
-      entregaGarantiasAbogado: '2023-07-26',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    },
-    capitalAdeudado: 42598393,
-    tipoProceso    : 'SINGULAR',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 560,
-    id    : '1129565798',
-    deudor: {
-      cedula        : 1129565798,
-      nombreCompleto: 'HANSEL MARTINEZ BARROS',
-      tel           : {
-        fijo   : '3930210 ',
-        celular: '3043463859 // 3005306070'
-      },
-      email: 'inghanselmartinez@hotmail.com',
-      direccion:
-        'CR 51 43 04 Barrio Abajo Barranquilla // Carrera 71 No. 88A - 31 Barranquilla // Calle 42 A No. 46 - 04 Barrio El Parque en Soledad (Atlantico)',
-      primerNombre   : 'HANSEL',
-      primerApellido : 'MARTINEZ',
-      segundoApellido: 'BARROS'
-    },
-    demanda: {
-      vencimientoPagare: '6/03/2026 //4/07/2026',
-      obligacion       : [
-        4770111750,
-        'PAGARÉ SIN NÚMERO T. MASTER CARD 5303720229555616 // T. VISA 4513070377907980'
-      ],
-      obligacion2:
-        'PAGARÉ SIN NÚMERO T. MASTER CARD 5303720229555616 // T. VISA 4513070377907980',
-      entregaGarantiasAbogado: '2023-07-26',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BARRAQNUILLA',
-      juzgado                : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    },
-    capitalAdeudado: 40696764,
-    tipoProceso    : 'SINGULAR',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 561,
-    id    : '52278914',
-    deudor: {
-      cedula: 52278914,
-      nombreCompleto:
-        'LUZ JANNETH RODRIGUEZ MOERNO',
-      tel: {
-        fijo   : '17476445',
-        celular: '3153208374'
-      },
-      email:
-        'lurodrig@corona.com.co  jrodriguez2805@hotmail.com',
-      direccion:
-        'Carrera 87 No. 48 – 50 Sur Casa 26 Conjunto Residencial Alameda de San José II',
-      primerNombre   : 'LUZ',
-      segundoNombre  : 'JANNETH',
-      primerApellido : 'RODRIGUEZ',
-      segundoApellido: 'MOERNO'
-    },
-    demanda: {
       vencimientoPagare:
-        '2/03/2026 // 20/03/2026',
+        '2026-03-02T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 80219425,
+      direccion:
+        'Calle 50 Sur No. 93 D 38 Torre 07 Apartamento 601 Conjunto Residencial Porvenir Reservado Etapa 7; Carrera 89 A No. 45 A – 33 Sur Casa 207 Agrupación de Vivienda La Margarita Etapa 9',
+      email          : 'edwsal736@gmail.com',
+      primerApellido : 'SALCEDO',
+      primerNombre   : 'EDWIN',
+      segundoApellido: 'PEREZ',
+      segundoNombre  : 'ALEXANDER',
+      tel            : {
+        celular: 3112633806,
+        fijo   : 0
+      }
+    },
+    grupo      : 'Bancolombia',
+    id         : 80219425,
+    numero     : 559,
+    tipoProceso: 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547a34',
+    capitalAdeudado: 36720537,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2023-07-26T00:00:00.000Z',
+      juzgado   : [],
       obligacion: [
         6520089408,
         'TARJETA MASTER CARD No. 5303720118094313 Y TARJETA AMERICAN No. 0377844026948428'
       ],
-      obligacion2:
-        'TARJETA MASTER CARD No. 5303720118094313 Y TARJETA AMERICAN No. 0377844026948428',
-      entregaGarantiasAbogado: '2023-07-26',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula: 52278914,
+      direccion:
+        'Carrera 87 No. 48 – 50 Sur Casa 26 Conjunto Residencial Alameda de San José II',
+      email:
+        'lurodrig@corona.com.co  jrodriguez2805@hotmail.com',
+      primerApellido : 'RODRIGUEZ',
+      primerNombre   : 'LUZ',
+      segundoApellido: 'MOERNO',
+      segundoNombre  : 'JANNETH',
+      tel            : {
+        celular: 3153208374,
+        fijo   : 17476445
       }
     },
-    capitalAdeudado: 36720537,
-    tipoProceso    : 'SINGULAR',
-    grupo          : 'Bancolombia'
+    grupo      : 'Bancolombia',
+    id         : 52278914,
+    numero     : 561,
+    tipoProceso: 'SINGULAR'
   },
   {
-    numero: 562,
-    id    : '17139148',
-    deudor: {
-      cedula: 17139148,
-      nombreCompleto:
-        'MARIO HERNAN SALAMANCA PATIÑO',
-      tel: {
-        fijo   : '7746112',
-        celular: ''
-      },
-      email: 'ajasalama@gmail.com',
-      direccion:
-        'Carrera 80 No. 8 - 11 Torre 3 Interior 5 Apartamento 519 Torres de Santa Barbara Conjunto Residencial',
-      primerNombre   : 'MARIO',
-      segundoNombre  : 'HERNAN',
-      primerApellido : 'SALAMANCA',
-      segundoApellido: 'PATIÑO'
-    },
-    demanda: {
-      vencimientoPagare:
-        '10/05/2026 // 6/03/2026',
+    _id            : '64cc10e7ea30d79334547a35',
+    capitalAdeudado: 25252953,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2023-07-26T00:00:00.000Z',
+      juzgado   : [],
       obligacion: [
         9960086465,
         'TARJETA DE CREDITO MASTER CARD 5303720132348190'
       ],
-      obligacion2:
-        'TARJETA DE CREDITO MASTER CARD 5303720132348190',
-      entregaGarantiasAbogado: '2023-07-26',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      juzgado                : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula: 17139148,
+      direccion:
+        'Carrera 80 No. 8 - 11 Torre 3 Interior 5 Apartamento 519 Torres de Santa Barbara Conjunto Residencial',
+      email          : 'ajasalama@gmail.com',
+      primerApellido : 'SALAMANCA',
+      primerNombre   : 'MARIO',
+      segundoApellido: 'PATIÑO',
+      segundoNombre  : 'HERNAN',
+      tel            : {
+        celular: 0,
+        fijo   : 7746112
       }
     },
-    capitalAdeudado: 25252953,
-    tipoProceso    : 'SINGULAR',
-    grupo          : 'Bancolombia'
+    grupo      : 'Bancolombia',
+    id         : 17139148,
+    numero     : 562,
+    tipoProceso: 'SINGULAR'
   },
   {
-    numero: 563,
-    id    : '7718318',
+    _id            : '64cc10e7ea30d79334547a36',
+    capitalAdeudado: 0,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2023-07-26T00:00:00.000Z',
+      juzgado   : [],
+      obligacion: [
+        null
+      ],
+      vencimientoPagare: null
+    },
     deudor: {
       cedula         : 7718318,
-      nombreCompleto : 'MILTON MARINO LUGO GOMEZ',
-      primerNombre   : 'MILTON',
-      segundoNombre  : 'MARINO',
       primerApellido : 'LUGO',
+      primerNombre   : 'MILTON',
       segundoApellido: 'GOMEZ',
+      segundoNombre  : 'MARINO',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 0,
+        fijo   : 0
       }
     },
-    demanda: {
-      entregaGarantiasAbogado: '2023-07-26',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      obligacion             : [
-        null
-      ],
-      juzgado: {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    },
-    capitalAdeudado: 0,
-    tipoProceso    : 'SINGULAR',
-    grupo          : 'Bancolombia'
+    grupo      : 'Bancolombia',
+    id         : 7718318,
+    numero     : 563,
+    tipoProceso: 'SINGULAR'
   },
   {
-    numero: 564,
-    id    : '1013622120',
+    _id            : '64cc10e7ea30d79334547a37',
+    capitalAdeudado: 0,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2023-07-26T00:00:00.000Z',
+      juzgado   : [],
+      obligacion: [
+        null
+      ],
+      vencimientoPagare: null
+    },
     deudor: {
-      cedula: 1013622120,
-      nombreCompleto:
-        'JOHAN ANDRES QUIROGA GALEANO',
-      primerNombre   : 'JOHAN',
-      segundoNombre  : 'ANDRES',
+      cedula         : 1013622120,
       primerApellido : 'QUIROGA',
+      primerNombre   : 'JOHAN',
       segundoApellido: 'GALEANO',
+      segundoNombre  : 'ANDRES',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 0,
+        fijo   : 0
       }
     },
-    demanda: {
-      entregaGarantiasAbogado: '2023-07-26',
-      departamento           : 'CUNDINAMARCA',
-      ciudad                 : 'BOGOTA',
-      obligacion             : [
-        null
-      ],
-      juzgado: {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    },
-    capitalAdeudado: 0,
-    tipoProceso    : 'SINGULAR',
-    grupo          : 'Bancolombia'
+    grupo      : 'Bancolombia',
+    id         : 1013622120,
+    numero     : 564,
+    tipoProceso: 'SINGULAR'
   },
   {
-    numero: 565,
-    id    : '79399032',
-    deudor: {
-      cedula: 79399032,
-      nombreCompleto:
-        'JORGE ALEXANDER ABADIA CARRILLO',
-      primerNombre   : 'JORGE',
-      segundoNombre  : 'ALEXANDER',
-      primerApellido : 'ABADIA',
-      segundoApellido: 'CARRILLO',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    demanda: {
-      entregaGarantiasAbogado: '2023-07-26',
-      departamento           : 'CUNDINAMARCA',
-      obligacion             : [
-        null
-      ],
-      juzgado: {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    },
+    _id            : '64cc10e7ea30d79334547a3a',
     capitalAdeudado: 0,
-    tipoProceso    : 'SINGULAR',
-    grupo          : 'Bancolombia'
-  },
-  {
-    numero: 566,
-    id    : '1061047348',
-    deudor: {
-      cedula: 1061047348,
-      nombreCompleto:
-        'SANDRA MILENA PALACIO RIVERA',
-      primerNombre   : 'SANDRA',
-      segundoNombre  : 'MILENA',
-      primerApellido : 'PALACIO',
-      segundoApellido: 'RIVERA',
-      tel            : {
-        fijo   : '',
-        celular: ''
-      }
-    },
-    capitalAdeudado: 0,
-    grupo          : 'Bancolombia',
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
-        }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
-      }
-    }
-  },
-  {
-    numero: 567,
-    id    : '94254761',
+      entregaGarantiasAbogado: null,
+      juzgado                : [],
+      obligacion             : [],
+      vencimientoPagare      : null
+    },
     deudor: {
-      cedula: 94254761,
-      nombreCompleto:
-        'WILSON DE JESUS MOLINA QUIRAMA',
-      primerNombre   : 'WILSON',
-      segundoNombre  : 'DE',
+      cedula         : 94254761,
       primerApellido : 'JESUS',
+      primerNombre   : 'WILSON',
       segundoApellido: 'MOLINA QUIRAMA ',
+      segundoNombre  : 'DE',
       tel            : {
-        fijo   : '',
-        celular: ''
+        celular: 0,
+        fijo   : 0
       }
     },
-    capitalAdeudado: 0,
-    grupo          : 'Bancolombia',
+    grupo : 'Bancolombia',
+    id    : 94254761,
+    numero: 567
+  },
+  {
+    _id            : '64cc10e7ea30d7933454780e',
+    capitalAdeudado: 21596919,
     demanda        : {
-      obligacion: [],
-      juzgado   : {
-        origen: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-06-07T00:00:00.000Z',
+      juzgado: [
+        {
+          id  : 37,
+          tipo: 'Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-37-civil-municipal-de-bogota'
         },
-        ejecucion: {
-          tipo: 'unknown',
-          id  : '',
-          url : 'https://app.rsasesorjuridico.com'
+        {
+          id  : 14,
+          tipo: 'Civil Municipal de Ejecucion',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota'
         }
-      },
-      despachoActivo: {
-        tipo: 'unknown',
-        id  : '',
-        url : 'https://app.rsasesorjuridico.com'
+      ],
+      obligacion: [
+        '12313737//377815899589556',
+        4513070106144855
+      ],
+      radicado: '2017 - 00839',
+      vencimientoPagare:
+        '2017-08-28T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 80743147,
+      direccion:
+        'CRA 18 H No. 76 A-53 SUR BOGOTA',
+      email:
+        'sandrapatriciajoya-2545@hotmail.com',
+      primerApellido : 'ROMERO',
+      primerNombre   : 'JAVIER',
+      segundoApellido: 'REYES',
+      tel            : {
+        celular: 3209229120,
+        fijo   : 3903652
       }
-    }
+    },
+    fecha    : '2023-07-10T05:00:00.000Z',
+    grupo    : 'LiosJuridicos',
+    id       : 80743147,
+    idProceso: [
+      50508570
+    ],
+    llaveProceso: '11001400303720170083900',
+    numero      : 11,
+    tipoProceso : 'PRENDARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547813',
+    capitalAdeudado: 33791309,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-05-11T00:00:00.000Z',
+      etapaProcesal: 'EMPLAZAMIENTO',
+      juzgado      : [
+        {
+          id  : 3,
+          tipo: 'Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-03-civil-municipal-de-bogota'
+        }
+      ],
+      obligacion: [
+        2530444
+      ],
+      radicado: '2017 - 00884',
+      vencimientoPagare:
+        '2020-05-04T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 1077969975,
+      direccion:
+        'CARRERA 77B No. 68B - 19 BARRIO SANTA HELENITA',
+      email          : 'yess_Id@hotmail.com',
+      primerApellido : 'ALBEIRO',
+      primerNombre   : 'YESID',
+      segundoApellido: 'RAMOS',
+      tel            : {
+        celular: 3212337597,
+        fijo   : 0
+      }
+    },
+    fecha    : '2023-07-18T05:00:00.000Z',
+    grupo    : 'Bancolombia',
+    id       : 1077969975,
+    idProceso: [
+      50468620,
+      113956611
+    ],
+    idProcesos: [
+      50468620
+    ],
+    llaveProceso: '11001400300320170088400',
+    numero      : 16,
+    tipoProceso : 'PRENDARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d7933454781c',
+    capitalAdeudado: 107818114,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-05-19T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 11,
+          tipo: 'Civil del Circuito',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-011-civil-del-circuito-de-bogota'
+        },
+        {
+          id  : 1,
+          tipo: 'Ejecucion Civil del Circuito',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-del-circuito-de-bogota'
+        }
+      ],
+      obligacion: [
+        12705806
+      ],
+      radicado: '2017 - 00335',
+      vencimientoPagare:
+        '2020-05-10T00:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 3197274,
+      direccion      : 'CL 14 No. 10 - 45 Bucaramanga',
+      primerApellido : 'ZEA',
+      primerNombre   : 'OMAR',
+      segundoApellido: 'GALVIS',
+      segundoNombre  : 'DARIO',
+      tel            : {
+        celular: 0,
+        fijo   : 7479415
+      }
+    },
+    fecha    : '2023-03-10T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 3197274,
+    idProceso: [
+      0,
+      1805257424
+    ],
+    llaveProceso: '11001310301120170033500',
+    numero      : 25,
+    tipoProceso : 'PRENDARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d7933454781e',
+    capitalAdeudado: 96608106,
+    demanda        : {
+      ciudad      : 'GUADUAS',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-05-19T00:00:00.000Z',
+      juzgado: [
+        {
+          id  : 1,
+          tipo: 'Civil del Circuito'
+        }
+      ],
+      obligacion: [
+        7910080321
+      ],
+      radicado: '2017 - 00195',
+      vencimientoPagare:
+        '2017-04-11T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 79004127,
+      direccion:
+        'CALLE 4 No. 14-161 GUADUAS (CUNDINAMARCA)',
+      primerApellido : 'LOMBANA',
+      primerNombre   : 'NORBEY',
+      segundoApellido: 'MAHECHA',
+      tel            : {
+        celular: 0,
+        fijo   : 34746523
+      }
+    },
+    grupo    : 'Insolvencia',
+    id       : 79004127,
+    idProceso: [
+      0
+    ],
+    llaveProceso: '25320310300120170019500',
+    numero      : 27,
+    tipoProceso : 'HIPOTECARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547848',
+    capitalAdeudado: 83955014,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-06-08T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 6,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 11,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
+        4200023595
+      ],
+      radicado: '2017-00419',
+      vencimientoPagare:
+        '2019-08-12T00:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 53008703,
+      direccion      : 'CARRERA 5 No. 30 - 77',
+      primerApellido : 'CASTRO',
+      primerNombre   : 'DERLY',
+      segundoApellido: 'IZQUIERDO',
+      segundoNombre  : 'CATHERINE',
+      tel            : {
+        celular: 0,
+        fijo   : 7507842
+      }
+    },
+    fecha    : '2023-05-10T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 53008703,
+    idProceso: [
+      50593100
+    ],
+    llaveProceso: '11001400300620170041900',
+    numero      : 69,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547859',
+    capitalAdeudado: 17632026,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-06-12T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 22,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 2,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
+        2250084171
+      ],
+      radicado: '2017-00567',
+      vencimientoPagare:
+        '2018-11-11T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 1087781966,
+      direccion:
+        'CARRERA 73 A BIS No. 2 A-32 SUR BOGOTA',
+      email          : 'mezaronald@yahoo.com',
+      primerApellido : 'MEZA',
+      primerNombre   : 'RHONALD',
+      segundoApellido: 'TARAPUES',
+      tel            : {
+        celular: 0,
+        fijo   : 4062925
+      }
+    },
+    fecha    : '2023-05-29T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 1087781966,
+    idProceso: [
+      111939890
+    ],
+    llaveProceso: '11001400302220170056700',
+    numero      : 86,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547869',
+    capitalAdeudado: 50000000,
+    demanda        : {
+      ciudad      : 'MESITAS',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-06-12T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 1,
+          tipo: 'Promiscuo Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-001-promiscuo-municipal-de-el-colegio'
+        }
+      ],
+      obligacion: [
+        7300080586
+      ],
+      radicado: '2017-00239',
+      vencimientoPagare:
+        '2019-07-05T00:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 1070329396,
+      direccion      : 'CALL 2 No. 8-40 EL COLEGIO',
+      primerApellido : 'QUINTERO',
+      primerNombre   : 'ERIKA',
+      segundoApellido: 'REYES',
+      segundoNombre  : 'ALEJANDRA',
+      tel            : {
+        celular: 3114456631,
+        fijo   : 0
+      }
+    },
+    grupo    : 'Bancolombia',
+    id       : 1070329396,
+    idProceso: [
+      0
+    ],
+    llaveProceso: '25245408900120170023900',
+    numero      : 102,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547878',
+    capitalAdeudado: 17256863,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-06-12T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 70,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 14,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
+        420087224
+      ],
+      radicado: '2017 - 00566',
+      vencimientoPagare:
+        '2019-01-21T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 19386444,
+      direccion:
+        'CALLE 18 # 19 - 75 / CALLE 26 NTE No. 5A - 54 Cali - Valle',
+      email          : 3176677592,
+      primerApellido : 'MONTOYA',
+      primerNombre   : 'NICOLAS',
+      segundoApellido: 'CORREA',
+      segundoNombre  : 'FERNANDO',
+      tel            : {
+        celular: 0,
+        fijo   : 2531962
+      }
+    },
+    fecha    : '2021-12-13T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 19386444,
+    idProceso: [
+      50522530
+    ],
+    llaveProceso: '11001400307020170056600',
+    numero      : 117,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d7933454787b',
+    capitalAdeudado: 13906249,
+    demanda        : {
+      ciudad      : 'SOACHA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-04T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 3,
+          tipo: 'Pequeñas Causas y Competencias Multiples',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-03-municipal-de-pequenas-causas-y-competencia-multiple-de-soacha'
+        }
+      ],
+      obligacion: [
+        6240082776
+      ],
+      radicado: '2017 - 00755',
+      vencimientoPagare:
+        '2021-04-12T00:00:00.000Z'
+    },
+    deudor: {
+      cedula        : 900212673,
+      direccion     : 'CARRERA 3 # 29A - 02',
+      primerApellido: 'E.U.',
+      primerNombre  : 'JENCELL',
+      tel           : {
+        celular: 0,
+        fijo   : 5753416
+      }
+    },
+    grupo    : 'Bancolombia',
+    id       : 900212673,
+    idProceso: [
+      0
+    ],
+    llaveProceso: '25754418900320170075500',
+    numero      : 120,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547880',
+    capitalAdeudado: 21613985,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-06-12T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 47,
+          tipo: 'Civil Municipal'
+        }
+      ],
+      obligacion: [
+        300093705
+      ],
+      radicado: '2017 - 01520',
+      vencimientoPagare:
+        '2020-11-27T00:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 74338870,
+      direccion      : 'CARRERA 18 # 12 - 72',
+      primerApellido : 'GALINDO',
+      primerNombre   : 'MILCIADES',
+      segundoApellido: 'CASTEBLANCO',
+      tel            : {
+        celular: 0,
+        fijo   : 4536131
+      }
+    },
+    fecha    : '2022-09-02T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 74338870,
+    idProceso: [
+      0,
+      109959053
+    ],
+    idProcesos: [
+      109959053
+    ],
+    llaveProceso: '11001400304720170152000',
+    numero      : 125,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d793345478a7',
+    capitalAdeudado: 25519225,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-07-19T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 45,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 2,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
+        6240082772
+      ],
+      radicado: '2017 - 00905',
+      vencimientoPagare:
+        '2019-09-30T00:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 14255996,
+      direccion      : 'CARRERA 82 A No. 6B-30 CASA 36',
+      primerApellido : 'RUIZ',
+      primerNombre   : 'URIEL',
+      segundoApellido: 'DIAZ',
+      tel            : {
+        celular: 3102785072,
+        fijo   : 0
+      }
+    },
+    fecha    : '2022-02-25T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 14255996,
+    idProceso: [
+      50593640
+    ],
+    llaveProceso: '11001400304520170090500',
+    numero      : 164,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d793345478ac',
+    capitalAdeudado: 13144437,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-01T00:00:00.000Z',
+      etapaProcesal: 'NOTIFICACION',
+      juzgado      : [
+        {
+          id  : 3,
+          tipo: 'Civil Municipal'
+        }
+      ],
+      obligacion: [
+        12498762,
+        'audioprestamo'
+      ],
+      radicado: '2017 - 01264',
+      vencimientoPagare:
+        '2020-03-15T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 23553904,
+      direccion:
+        'Carrera 67 No. 65-22 sur Torre 15 Apto 559',
+      email          : 'dorancy1@hotmail.com',
+      primerApellido : 'DE',
+      primerNombre   : 'RITA',
+      segundoApellido: 'GOMEZ',
+      segundoNombre  : 'BLANCO',
+      tel            : {
+        celular: 0,
+        fijo   : 3861894
+      }
+    },
+    fecha    : '2023-06-01T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 23553904,
+    idProceso: [
+      50598770
+    ],
+    llaveProceso: '11001400300320170126400',
+    numero      : 169,
+    tipoProceso : 'PRENDARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d793345478bd',
+    capitalAdeudado: 13319130,
+    demanda        : {
+      ciudad      : 'CHIA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-11T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 2,
+          tipo: 'Civil Municipal'
+        }
+      ],
+      obligacion: [
+        1680097051
+      ],
+      radicado: '2017 - 00412',
+      vencimientoPagare:
+        '2021-01-29T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 24134505,
+      direccion:
+        'CALLE 29 A # 2 - 76 APTO 304 CHIA',
+      primerApellido : 'ROJAS',
+      primerNombre   : 'CELY',
+      segundoApellido: 'VELANDIA',
+      segundoNombre  : 'MARGOTH',
+      tel            : {
+        celular: 0,
+        fijo   : 5267343
+      }
+    },
+    grupo    : 'Reintegra',
+    id       : 24134505,
+    idProceso: [
+      0
+    ],
+    llaveProceso: '25175408900220170041200',
+    numero      : 186,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d793345478c2',
+    capitalAdeudado: 87649981,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-11T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 79,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 1,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
+        1220084112
+      ],
+      radicado: '2017 - 01082',
+      vencimientoPagare:
+        '2020-11-30T00:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 80231798,
+      direccion      : 'CARRERA 32 B # 2 - 64',
+      email          : 'jhon.valencia@jvtel.com.co',
+      primerApellido : 'VALENCIA',
+      primerNombre   : 'JOHN',
+      segundoApellido: 'MARQUEZ',
+      segundoNombre  : 'ALEXANDER',
+      tel            : {
+        celular: 3004525014,
+        fijo   : 2376454
+      }
+    },
+    fecha    : '2023-07-31T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 80231798,
+    idProceso: [
+      51357750
+    ],
+    llaveProceso: '11001400307920170108200',
+    numero      : 191,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d793345478c4',
+    capitalAdeudado: 24590710,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-16T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 24,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 14,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
+        12750180
+      ],
+      radicado: '2017 - 01750',
+      vencimientoPagare:
+        '2020-08-09T00:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 52465691,
+      direccion      : 'CARRERA 80 # 70A - 09',
+      email          : 'equesada01@hotmail.com',
+      primerApellido : 'QUESADA',
+      primerNombre   : 'CARMEN',
+      segundoApellido: 'MARTINEZ',
+      segundoNombre  : 'ELIZABETH',
+      tel            : {
+        celular: 3204792977,
+        fijo   : 7829236
+      }
+    },
+    grupo    : 'Reintegra',
+    id       : 52465691,
+    idProceso: [
+      0
+    ],
+    llaveProceso: '11001400302420170175000',
+    numero      : 193,
+    tipoProceso : 'PRENDARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d793345478ca',
+    capitalAdeudado: 28594040,
+    demanda        : {
+      ciudad      : 'MELGAR',
+      departamento: 'TOLIMA',
+      entregaGarantiasAbogado:
+        '2017-08-22T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 2,
+          tipo: 'Promiscuo Municipal'
+        }
+      ],
+      obligacion: [
+        12650694
+      ],
+      radicado: '2017 - 00259',
+      vencimientoPagare:
+        '2020-08-16T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 1106893308,
+      direccion:
+        'VEREDA BOQUERON , FINCA LA MILAGROSA, MUNICIPIO FUSA // CALLE 3 # 37 - 21 BARRIO SICAMORO, MELGAR',
+      email          : 'liliaramirez17@gmail.com',
+      primerApellido : 'RAMIREZ',
+      primerNombre   : 'MARTHA',
+      segundoApellido: 'COLORADO',
+      segundoNombre  : 'LILIANA',
+      tel            : {
+        celular: null,
+        fijo   : 0
+      }
+    },
+    grupo    : 'Reintegra',
+    id       : 1106893308,
+    idProceso: [
+      0
+    ],
+    llaveProceso: '73449408900220170025900',
+    numero      : 199,
+    tipoProceso : 'PRENDARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d793345478d5',
+    capitalAdeudado: 10555422,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-22T00:00:00.000Z',
+      etapaProcesal: 'EJECUCION',
+      juzgado      : [
+        {
+          id  : 21,
+          tipo: 'Civil Municipal'
+        }
+      ],
+      obligacion: [
+        377813597718262,
+        '4513070908078111 // 5303714709873201'
+      ],
+      radicado: '2018 - 00163',
+      vencimientoPagare:
+        '2020-01-05T00:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 343334,
+      direccion      : 'CARRERA 50 # 113 - 09',
+      primerApellido : 'CASTILLO',
+      primerNombre   : 'JOSE',
+      segundoApellido: 'CORTES',
+      segundoNombre  : 'ANTONIO',
+      tel            : {
+        celular: 3015004499,
+        fijo   : 4658342
+      }
+    },
+    fecha    : '2023-06-22T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 343334,
+    idProceso: [
+      51006610,
+      0
+    ],
+    idProcesos: [
+      51006610
+    ],
+    llaveProceso: '11001400302120180016300',
+    numero      : 210,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d793345478dc',
+    capitalAdeudado: 206655465,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-17T00:00:00.000Z',
+      juzgado: [
+        {
+          id  : 37,
+          tipo: 'Civil del Circuito'
+        },
+        {
+          id  : 3,
+          tipo: 'Civil del Circuito de Ejecucion'
+        }
+      ],
+      obligacion: [
+        182540,
+        'AUDIOPRESTAMO'
+      ],
+      radicado         : '2017 - 00453',
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula         : 52328942,
+      direccion      : 'CALLE 58 # 45 - 86',
+      email          : 'casas_castillo@hotmail.com',
+      primerApellido : 'NARANJO',
+      primerNombre   : 'DIANA',
+      segundoApellido: 'HERNANDEZ',
+      segundoNombre  : 'VANESSA',
+      tel            : {
+        celular: 0,
+        fijo   : 0
+      }
+    },
+    fecha    : '2019-01-15T05:00:00.000Z',
+    grupo    : 'LiosJuridicos',
+    id       : 52328942,
+    idProceso: [
+      51315290,
+      57718874
+    ],
+    idProcesos: [
+      51315290
+    ],
+    llaveProceso: '11001310303720170045300',
+    numero      : 217,
+    tipoProceso : 'HIPOTECARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547901',
+    capitalAdeudado: 12993948,
+    demanda        : {
+      ciudad      : 'CHIA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-08-28T00:00:00.000Z',
+      juzgado: [
+        {
+          id  : 3,
+          tipo: 'Civil Municipal'
+        }
+      ],
+      obligacion: [
+        9460081795,
+        5303727444531025
+      ],
+      radicado: '2017 - 00477',
+      vencimientoPagare:
+        '2018-05-09T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 52344904,
+      direccion:
+        'CARRERA 9A 14F - 28C - UNIDAD 22 CHIA',
+      email          : 'yohairapadro@gmail.com',
+      primerApellido : 'PRADO',
+      primerNombre   : 'YOHAIRA',
+      segundoApellido: 'VALOYES',
+      tel            : {
+        celular: 3103291690,
+        fijo   : 8615372
+      }
+    },
+    grupo    : 'Reintegra',
+    id       : 52344904,
+    idProceso: [
+      0
+    ],
+    llaveProceso: '25175408900320170047700',
+    numero      : 254,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547905',
+    capitalAdeudado: 18506672,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-09-01T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 13,
+          tipo: 'Civil Municipal'
+        }
+      ],
+      obligacion: [
+        5470083833,
+        '377813735559305 // 5303724061518310'
+      ],
+      radicado: '2017 - 01178',
+      vencimientoPagare:
+        '2018-01-26T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 51740544,
+      direccion:
+        'CARRERA 121 # 128B - 52 BLOQUE 8 CASA 34',
+      email          : 'dirfinanciera.sol@gmail.com',
+      primerApellido : 'BUITRAGO',
+      primerNombre   : 'SOL',
+      segundoApellido: 'DUQUE',
+      segundoNombre  : 'JUDITH',
+      tel            : {
+        celular: 0,
+        fijo   : 3002001
+      }
+    },
+    fecha    : '2023-04-17T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 51740544,
+    idProceso: [
+      50692590
+    ],
+    llaveProceso: '11001400301320170117800',
+    numero      : 258,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d7933454790c',
+    capitalAdeudado: 115224736,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-09-21T00:00:00.000Z',
+      juzgado: [
+        {
+          id  : 201,
+          tipo: 'Civil del Circuito de Ejecucion'
+        }
+      ],
+      obligacion: [
+        186718,
+        '3778153354915637 / 4513079095670572'
+      ],
+      radicado: '2018 - 00650',
+      vencimientoPagare:
+        '2020-05-04T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 7601476,
+      direccion:
+        'CARRERA 90 C No 6A - 31   - CASA 148',
+      email          : 'jsanchezargote@gmail.com',
+      primerApellido : 'SANCHEZ',
+      primerNombre   : 'JULIO',
+      segundoApellido: 'ARGOTE',
+      segundoNombre  : 'RENE',
+      tel            : {
+        celular: 3118027001,
+        fijo   : 3018759
+      }
+    },
+    grupo    : 'Insolvencia',
+    id       : 7601476,
+    idProceso: [
+      0
+    ],
+    llaveProceso: '1100140030202\'100050100',
+    numero      : 265,
+    tipoProceso : 'HIPOTECARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547914',
+    capitalAdeudado: 65355736,
+    demanda        : {
+      ciudad                 : 'BOGOTA',
+      departamento           : 'CUNDINAMARCA',
+      entregaGarantiasAbogado: null,
+      juzgado                : [
+        {
+          id  : 6446,
+          tipo: ' Pequeñas Causas y Competencias Multiples'
+        }
+      ],
+      obligacion: [
+        156791
+      ],
+      radicado: '2018 - 01029',
+      vencimientoPagare:
+        '2022-05-10T05:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 1024479389,
+      direccion      : 'CALLE 67 No 17 C-63 SUR',
+      email          : 'sonymarce20@hotmail.com',
+      primerApellido : 'MOLINA',
+      primerNombre   : 'SONIA',
+      segundoApellido: 'QUIMBAYO',
+      segundoNombre  : 'MARCELA',
+      tel            : {
+        celular: 0,
+        fijo   : 7650684
+      }
+    },
+    fecha    : '2023-02-07T05:00:00.000Z',
+    grupo    : 'Insolvencia',
+    id       : 1024479389,
+    idProceso: [
+      113353750
+    ],
+    llaveProceso: '11001400306420180102900',
+    numero      : 273,
+    tipoProceso : 'HIPOTECARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547919',
+    capitalAdeudado: 12347548,
+    demanda        : {
+      ciudad                 : 'BOGOTA',
+      departamento           : 'CUNDINAMARCA',
+      entregaGarantiasAbogado: null,
+      etapaProcesal          : 'EJECUCIÓN',
+      juzgado                : [
+        {
+          id  : 37,
+          tipo: 'Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-37-civil-municipal-de-bogota'
+        },
+        {
+          id  : 11,
+          tipo: 'Civil Municipal de Ejecucion',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota'
+        }
+      ],
+      obligacion: [
+        4670083154
+      ],
+      radicado         : '2017 - 01391',
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula         : 35506033,
+      direccion      : 'CARRERA  101  No 71 B - 53',
+      email          : 'natis-rolita@hotmail.con',
+      primerApellido : 'PUERTA',
+      primerNombre   : 'LUZ',
+      segundoApellido: 'JARAMILLO',
+      segundoNombre  : 'DARY',
+      tel            : {
+        celular: 3103430010,
+        fijo   : 4357832
+      }
+    },
+    fecha    : '2022-03-09T05:00:00.000Z',
+    grupo    : 'Bancolombia',
+    id       : 35506033,
+    idProceso: [
+      112945420
+    ],
+    llaveProceso: '11001400303720170139100',
+    numero      : 278,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547927',
+    capitalAdeudado: 25766204,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-09-13T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 10,
+          tipo: '  Pequeñas Causas y Competencias Multiples'
+        }
+      ],
+      obligacion: [
+        300094317
+      ],
+      radicado: '2017 - 00128',
+      vencimientoPagare:
+        '2020-08-31T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 80205694,
+      direccion:
+        'DIAGONAL 82 A SUR No 7C 19  ESTE',
+      email          : 'kellyo.1508@hotmail.com',
+      primerApellido : 'HERREÑO',
+      primerNombre   : 'JOHN',
+      segundoApellido: 'RAMIREZ',
+      segundoNombre  : 'FREDY',
+      tel            : {
+        celular: 3124102,
+        fijo   : 7641957
+      }
+    },
+    grupo    : 'Reintegra',
+    id       : 80205694,
+    idProceso: [
+      0
+    ],
+    llaveProceso: '11001410375220170012800',
+    numero      : 292,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547928',
+    capitalAdeudado: 12249598,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-09-19T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 48,
+          tipo: 'Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-048-civil-municipal-de-bogota'
+        },
+        {
+          id  : 7,
+          tipo: 'Civil Municipal de Ejecucion',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota'
+        }
+      ],
+      obligacion: [
+        '320088443  / 377813441863587',
+        4513070212799642
+      ],
+      radicado: '2017 - 00974',
+      vencimientoPagare:
+        '2020-03-05T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 1032383389,
+      direccion:
+        'CALLE 64 SUR  No 85 B - 40  APARTAMENTO  104',
+      email          : 'ars.09@hotmail.com',
+      primerApellido : 'REVELO',
+      primerNombre   : 'ANDERSON',
+      segundoApellido: 'SANTOS',
+      tel            : {
+        celular: 3118526428,
+        fijo   : 4725511
+      }
+    },
+    fecha    : '2022-12-01T05:00:00.000Z',
+    grupo    : 'Bancolombia',
+    id       : 1032383389,
+    idProceso: [
+      50762570
+    ],
+    llaveProceso: '11001400304820170097400',
+    numero      : 293,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547929',
+    capitalAdeudado: 48498610,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-09-18T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 63,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 1,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
+        12676248
+      ],
+      radicado: '2017 - 00924',
+      vencimientoPagare:
+        '2020-09-13T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 79292743,
+      direccion:
+        'CALLE 86 A No 69 T -41  TORRE 1 APARTAMENTO 902',
+      email          : 'hpulecio@cable.net.co',
+      primerApellido : 'PULECIO',
+      primerNombre   : 'HERNANDO',
+      segundoApellido: 'PAREDES',
+      tel            : {
+        celular: 0,
+        fijo   : 4619449
+      }
+    },
+    fecha    : '2023-07-24T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 79292743,
+    idProceso: [
+      65700110
+    ],
+    llaveProceso: '11001400306320170092400',
+    numero      : 294,
+    tipoProceso : 'PRENDARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d7933454793f',
+    capitalAdeudado: 44944657,
+    demanda        : {
+      ciudad      : 'SOACHA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-10-26T00:00:00.000Z',
+      etapaProcesal: 'EJECUCION',
+      juzgado      : [
+        {
+          id  : 1,
+          tipo: 'Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-01-civil-municipal-de-bogota'
+        }
+      ],
+      obligacion: [
+        '180049   53037120066499008',
+        '3778133433049336 /4513075801129044'
+      ],
+      radicado: '2017 - 00323',
+      vencimientoPagare:
+        '2030-01-05T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 8799171,
+      direccion:
+        'CARRERA 18 B No 4 C -  20  SOACHA',
+      email          : 'saliradelante2012@hotmail.com',
+      primerApellido : 'ARTEAGA',
+      primerNombre   : 'MANUEL',
+      segundoApellido: 'OROZCO',
+      segundoNombre  : 'ENRIQUE',
+      tel            : {
+        celular: 0,
+        fijo   : 5164071
+      }
+    },
+    grupo    : 'Bancolombia',
+    id       : 8799171,
+    idProceso: [
+      0
+    ],
+    llaveProceso: '25754400300120170032300',
+    numero      : 316,
+    tipoProceso : 'HIPOTECARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d7933454794b',
+    capitalAdeudado: 33615204,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-01-11T05:00:00.000Z',
+      juzgado: [
+        {
+          id  : 26,
+          tipo: 'Civil Municipal'
+        }
+      ],
+      obligacion: [
+        '5740084189 /5740084216',
+        '160204/377813372389032'
+      ],
+      radicado: '2017 - 01293',
+      vencimientoPagare:
+        '2017-05-06T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 52907317,
+      direccion:
+        'CALLE 74 A  SUR No 92 -21 torre 3',
+      email          : 'milena125@hotmail.com',
+      primerApellido : 'BARRETO',
+      primerNombre   : 'SANDRA',
+      segundoApellido: 'BERMUDEZ',
+      segundoNombre  : 'MILENA',
+      tel            : {
+        celular: 0,
+        fijo   : 0
+      }
+    },
+    fecha    : '2018-10-02T05:00:00.000Z',
+    grupo    : 'LiosJuridicos',
+    id       : 52907317,
+    idProceso: [
+      50846930
+    ],
+    llaveProceso: '11001400302620170129300',
+    numero      : 328,
+    tipoProceso : 'HIPOTECARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547951',
+    capitalAdeudado: 15018661,
+    demanda        : {
+      ciudad                 : 'BOGOTA',
+      departamento           : 'CUNDINAMARCA',
+      entregaGarantiasAbogado: null,
+      etapaProcesal          : 'EJECUCIÓN',
+      juzgado                : [
+        {
+          id  : 68,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 15,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
+        'AUDIOPRESTAMO'
+      ],
+      radicado         : '2017 - 01306',
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula         : 79853302,
+      direccion      : 'CALLE  70 A BIS  No 117-16',
+      email          : 'nanbravo04@hotmail.com',
+      primerApellido : 'MARTINEZ',
+      primerNombre   : 'NESTOR',
+      segundoApellido: 'ORJUELA',
+      segundoNombre  : 'JULIO',
+      tel            : {
+        celular: 3132088678,
+        fijo   : 7459324
+      }
+    },
+    fecha    : '2022-09-27T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 79853302,
+    idProceso: [
+      50765770
+    ],
+    llaveProceso: '11001400306820170130600',
+    numero      : 334,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547954',
+    capitalAdeudado: 99119191,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-11-16T00:00:00.000Z',
+      juzgado: [
+        {
+          id  : 6,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 4,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
+        140085
+      ],
+      radicado: '2017 - 00964',
+      vencimientoPagare:
+        '2026-06-22T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 79666742,
+      direccion:
+        'TRANSVERSAL 17 No  64 F - 04 CASA 1 BIFAMILIAR MARLY',
+      email          : 'rubypaez71@hotmail.com',
+      primerApellido : 'TORRES',
+      primerNombre   : 'HECTOR',
+      segundoApellido: 'RIOS',
+      segundoNombre  : 'ALFONSO',
+      tel            : {
+        celular: 3115030138,
+        fijo   : 7651426
+      }
+    },
+    fecha    : '2023-07-12T05:00:00.000Z',
+    grupo    : 'Insolvencia',
+    id       : 79666742,
+    idProceso: [
+      50857820
+    ],
+    llaveProceso: '11001400300620170096400',
+    numero      : 337
+  },
+  {
+    _id            : '64cc10e7ea30d79334547976',
+    capitalAdeudado: 10775194,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2018-01-16T00:00:00.000Z',
+      juzgado: [
+        {
+          id  : 24,
+          tipo: 'Civil Municipal'
+        }
+      ],
+      obligacion: [
+        117171,
+        377813401553319
+      ],
+      radicado: '2018 - 00143',
+      vencimientoPagare:
+        '2024-03-30T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 39765816,
+      direccion:
+        'CALLE 50 SUR 93 D- 38 APTO 401 TORRE 6',
+      email          : 'andreato1a@hotmaul.com',
+      primerApellido : 'MORA',
+      primerNombre   : 'MARTHA',
+      segundoApellido: 'COLLAZOS',
+      segundoNombre  : 'ANDREA',
+      tel            : {
+        celular: 0,
+        fijo   : 0
+      }
+    },
+    fecha    : '2019-09-27T05:00:00.000Z',
+    grupo    : 'LiosJuridicos',
+    id       : 39765816,
+    idProceso: [
+      51002530
+    ],
+    llaveProceso: '11001400302420180014300',
+    numero      : 371,
+    tipoProceso : 'HIPOTECARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d7933454797b',
+    capitalAdeudado: 27308454,
+    demanda        : {
+      ciudad                 : 'BOGOTA',
+      departamento           : 'CUNDINAMARCA',
+      entregaGarantiasAbogado: null,
+      juzgado                : [
+        {
+          id  : 76,
+          tipo: 'Civil Municipal'
+        }
+      ],
+      obligacion: [
+        118010,
+        '377813183474353 // 4513074148699942 / 5491579209500691'
+      ],
+      radicado: '2018 - 00052',
+      vencimientoPagare:
+        '2019-04-29T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 11203111,
+      direccion:
+        'CALLE 128 96A - 05 CASA 3 MULTIFAMILIAR ARRAYANES',
+      email          : 'roberto.rico.ruiz@gmail.com',
+      primerApellido : 'RICO',
+      primerNombre   : 'ROBERTO',
+      segundoApellido: 'RUIZ',
+      tel            : {
+        celular: 0,
+        fijo   : 0
+      }
+    },
+    fecha    : '2023-07-24T05:00:00.000Z',
+    grupo    : 'LiosJuridicos',
+    id       : 11203111,
+    idProceso: [
+      51500810
+    ],
+    llaveProceso: '11001400307620180005200',
+    numero      : 376,
+    tipoProceso : 'HIPOTECARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547986',
+    capitalAdeudado: 36331525,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-11-09T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 50,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 14,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
+        2500085167,
+        'AUDIOPRESTAMO'
+      ],
+      radicado: '2017 - 01336',
+      vencimientoPagare:
+        '2019-05-05T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 91263617,
+      direccion:
+        'CARRERA 85  B No  23 B - 69  INTERIOR 7 APARTAMENTO  314',
+      email          : 'leo.sanabria@live.com.mx',
+      primerApellido : 'SANABRIA',
+      primerNombre   : 'LEONARDO',
+      segundoApellido: 'SANABRIA',
+      tel            : {
+        celular: 3118066048,
+        fijo   : 4251180
+      }
+    },
+    fecha    : '2023-01-19T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 91263617,
+    idProceso: [
+      106185210
+    ],
+    llaveProceso: '11001400305020170133600',
+    numero      : 387,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d7933454798f',
+    capitalAdeudado: 24000000,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-11-15T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 64,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 16,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
+        10000090724
+      ],
+      radicado: '2017 - 01623',
+      vencimientoPagare:
+        '2019-06-08T00:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 80733467,
+      direccion      : 'CARRERA 88 A No  67 - 44',
+      email          : 'orlandonovoa9@gmail.com',
+      primerApellido : 'NOVOA',
+      primerNombre   : 'ORLANDO',
+      segundoApellido: 'BARRETO',
+      segundoNombre  : 'ENRIQUE',
+      tel            : {
+        celular: 3118163887,
+        fijo   : 7836655
+      }
+    },
+    fecha    : '2023-03-13T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 80733467,
+    idProceso: [
+      112730580
+    ],
+    llaveProceso: '11001400306420170162300',
+    numero      : 396,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d7933454799a',
+    capitalAdeudado: 31100999,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2017-11-16T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 78,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 16,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
+        3550083774,
+        '4513082972339 / 5303714867753385'
+      ],
+      radicado: '2017 - 01164',
+      vencimientoPagare:
+        '2024-01-26T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 79328264,
+      direccion:
+        'CARRERA 11 No  144 - 22 APARTAMENTO 301',
+      email          : 'nescri64@hotmail.com',
+      primerApellido : 'CRISTANCHO',
+      primerNombre   : 'NESTOR',
+      segundoApellido: 'LOPEZ',
+      segundoNombre  : 'ALBERTO',
+      tel            : {
+        celular: 0,
+        fijo   : 5266894
+      }
+    },
+    fecha    : '2023-07-21T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 79328264,
+    idProceso: [
+      51465700
+    ],
+    llaveProceso: '11001400307820170116400',
+    numero      : 407,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d7933454799c',
+    capitalAdeudado: 11949471,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2018-02-15T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 56,
+          tipo: 'Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-056-civil-municipal-de-bogota'
+        },
+        {
+          id  : 7,
+          tipo: 'Civil Municipal de Ejecucion',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota'
+        }
+      ],
+      obligacion: [
+        4550087219
+      ],
+      radicado: '2018 - 00221',
+      vencimientoPagare:
+        '2018-06-20T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 900545720,
+      direccion:
+        'CARRERA 50 1# 47 - 50 INT 1 APTO 101',
+      email          : 'andibarracosta@gmail.com',
+      primerApellido : 'SOLUCIONES',
+      primerNombre   : 'CREAS',
+      segundoApellido: 'S.A.S',
+      tel            : {
+        celular: 3107982028,
+        fijo   : 8626344
+      }
+    },
+    fecha    : '2023-06-08T05:00:00.000Z',
+    grupo    : 'Bancolombia',
+    id       : 900545720,
+    idProceso: [
+      51042800
+    ],
+    llaveProceso: '11001400305620180022100',
+    numero      : 409,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d793345479ae',
+    capitalAdeudado: 21049112,
+    demanda        : {
+      ciudad      : 'CAJICA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2018-01-19T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 2,
+          tipo: 'Promiscuo Municipal'
+        }
+      ],
+      obligacion: [
+        12730779
+      ],
+      radicado: '2018 - 00048',
+      vencimientoPagare:
+        '2021-01-16T00:00:00.000Z'
+    },
+    deudor: {
+      cedula: 1069738339,
+      direccion:
+        'VEREDA LA 22 KILOMETRO 30 (CAJICA) // VEREDA SUBIA NORTE, PARTE BAJA, FINCA EL RINCON LOTE 2 (GRANADA- CUND): VEREDA SUBIA NORTE PARTE BAJA FINCA EL RINCON LOTE 2 (GRANADA - CUND)',
+      primerApellido : 'CHINGATE',
+      primerNombre   : 'JUAN',
+      segundoApellido: 'PENAGOS',
+      segundoNombre  : 'CAMILO',
+      tel            : {
+        celular: 313389449,
+        fijo   : 0
+      }
+    },
+    grupo    : 'Reintegra',
+    id       : 1069738339,
+    idProceso: [
+      86157021
+    ],
+    llaveProceso: '25126408900220180004800',
+    numero      : 427,
+    tipoProceso : 'PRENDARIO'
+  },
+  {
+    _id            : '64cc10e7ea30d793345479d2',
+    capitalAdeudado: 24501535,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2018-07-05T00:00:00.000Z',
+      etapaProcesal: 'CONTESTACION DEMANDA',
+      juzgado      : [
+        {
+          id  : 14,
+          tipo: ' Pequeñas Causas y Competencias Multiples',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-014-de-pequenas-causas-y-competencia-multiple-de-bogota'
+        }
+      ],
+      obligacion: [
+        'AMERICAN 0377814037749057',
+        'VISA 4513083943843365 // MASTER 5303729958258417'
+      ],
+      radicado         : '2019 - 00656',
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula         : 52883958,
+      direccion      : 'DIAGONAL 2 No 21 B-20',
+      email          : 'leidyyaneth.lyv@gmail.com',
+      primerApellido : 'VIDAL',
+      primerNombre   : 'LEIDY',
+      segundoApellido: 'RODRIGUEZ',
+      segundoNombre  : 'YANETH',
+      tel            : {
+        celular: 0,
+        fijo   : 7114516
+      }
+    },
+    fecha    : '2023-08-09T05:00:00.000Z',
+    grupo    : 'Bancolombia',
+    id       : 52883958,
+    idProceso: [
+      51816100,
+      135801811
+    ],
+    idProcesos: [
+      51816100
+    ],
+    llaveProceso: '11001418901420190065600',
+    numero      : 463,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d793345479d5',
+    capitalAdeudado: 14270897,
+    demanda        : {
+      ciudad                 : 'BOGOTA',
+      departamento           : 'CUNDINAMARCA',
+      entregaGarantiasAbogado: null,
+      etapaProcesal          : 'EJECUCIÓN',
+      juzgado                : [
+        {
+          id  : 52,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 17,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
+        '37781415851035/',
+        '4099830008406922 / 5303710339142355'
+      ],
+      radicado         : '2018 - 00117',
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula: 53160094,
+      direccion:
+        'CALLE 130 No 126-96 INTERIOR 16 APARTAMENTO 302',
+      email          : 'djpaez5@hotmail.com',
+      primerApellido : 'PAEZ',
+      primerNombre   : 'DARLEY',
+      segundoApellido: 'HIGUERA',
+      segundoNombre  : 'JULIED',
+      tel            : {
+        celular: 3115754578,
+        fijo   : 14933266
+      }
+    },
+    fecha    : '2023-04-13T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 53160094,
+    idProceso: [
+      50990370
+    ],
+    llaveProceso: '11001400305220180011700',
+    numero      : 466,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d793345479de',
+    capitalAdeudado: 39146947,
+    demanda        : {
+      ciudad                 : 'SOACHA',
+      departamento           : 'CUNDINAMARCA',
+      entregaGarantiasAbogado: null,
+      etapaProcesal          : 'EJECUCIÓN',
+      juzgado                : [
+        {
+          id  : 2,
+          tipo: 'Civil Municipal'
+        }
+      ],
+      obligacion: [
+        1000090987
+      ],
+      radicado: '2018 - 00113',
+      vencimientoPagare:
+        '2019-03-08T05:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 4281808,
+      direccion      : 'CALLE 1 A No 13-30  SOACHA',
+      email          : 'eedibrando600@hotmail.com',
+      primerApellido : 'CANDELA',
+      primerNombre   : 'JOSE',
+      segundoApellido: 'MUNEVAR',
+      segundoNombre  : 'LIBRANDO',
+      tel            : {
+        celular: 0,
+        fijo   : 7113967
+      }
+    },
+    grupo    : 'Reintegra',
+    id       : 4281808,
+    idProceso: [
+      0
+    ],
+    llaveProceso: '25754408900220180011300',
+    numero      : 475,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d793345479e0',
+    capitalAdeudado: 14534881,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2018-04-21T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 4,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 7,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
+        'AUDIOPRESTAMO'
+      ],
+      radicado: '2018 - 00475',
+      vencimientoPagare:
+        '2020-08-15T00:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 79568543,
+      direccion      : 'CALLE 60 No 38-26 APTO 301',
+      email          : 'adolfo.daza@gmail.com',
+      primerApellido : 'LEON',
+      primerNombre   : 'ADOLFO',
+      segundoApellido: 'DAZA FERNANDEZ ',
+      segundoNombre  : '',
+      tel            : {
+        celular: 0,
+        fijo   : 7038787
+      }
+    },
+    fecha    : '2023-02-27T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 79568543,
+    idProceso: [
+      51149410
+    ],
+    llaveProceso: '11001400300420180047500',
+    numero      : 477,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d793345479e3',
+    capitalAdeudado: 17217066,
+    demanda        : {
+      ciudad                 : 'GIRARDOT',
+      departamento           : 'CUNDINAMARCA',
+      entregaGarantiasAbogado: null,
+      etapaProcesal          : 'EJECUCION',
+      juzgado                : [
+        {
+          id  : 3,
+          tipo: 'Civil Municipal'
+        }
+      ],
+      obligacion: [
+        'AUDIOPRESTAMO',
+        5306960687119070
+      ],
+      radicado         : '2021 - 00539',
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula: 39575032,
+      direccion:
+        'CARRERA 14 No 22-10  APARTAMENTO  202 GIRARDOT',
+      email          : 'adriana.0806@hotmail.com',
+      primerApellido : 'VANEGAS',
+      primerNombre   : 'ADRIANA',
+      segundoApellido: 'PEÑA',
+      tel            : {
+        celular: 3152573448,
+        fijo   : 0
+      }
+    },
+    fecha    : '2023-03-10T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 39575032,
+    idProceso: [
+      121826111
+    ],
+    llaveProceso: '25307400300320210053900',
+    numero      : 480,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d793345479f3',
+    capitalAdeudado: 27373832,
+    demanda        : {
+      ciudad                 : 'CHIA',
+      departamento           : 'CUNDINAMARCA',
+      entregaGarantiasAbogado: null,
+      etapaProcesal          : 'EJECUCIÓN',
+      juzgado                : [
+        {
+          id  : 3,
+          tipo: 'Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-003-civil-municipal-de-chia'
+        }
+      ],
+      obligacion: [
+        'AUDIOPRESTAMO',
+        5491570347356810
+      ],
+      radicado         : '2018 - 00602',
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula         : 13222728,
+      direccion      : 'CARRERA 6 No 6-59',
+      email          : 'mopadinco@yahoo.com',
+      primerApellido : 'PINEDA',
+      primerNombre   : 'MODESTO',
+      segundoApellido: 'PEREZ',
+      tel            : {
+        celular: 0,
+        fijo   : 8852490
+      }
+    },
+    grupo    : 'Bancolombia',
+    id       : 13222728,
+    idProceso: [
+      0
+    ],
+    llaveProceso: '25175408900320180060200',
+    numero      : 496,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d793345479f7',
+    capitalAdeudado: 15086199,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2018-04-16T00:00:00.000Z',
+      etapaProcesal: 'EJECUCION',
+      juzgado      : [
+        {
+          id  : 6,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 17,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
+        68928057402,
+        'AUDIOPRESTAMO'
+      ],
+      radicado: '2018 - 00454',
+      vencimientoPagare:
+        '2020-05-27T00:00:00.000Z'
+    },
+    deudor: {
+      cedula        : '900566964-9',
+      direccion     : 'CARRERA 13 No 73-33',
+      primerApellido: 'S.A.S',
+      primerNombre  : 'SMARTITECH',
+      tel           : {
+        celular: 0,
+        fijo   : 3849696
+      }
+    },
+    fecha    : '2023-04-10T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : null,
+    idProceso: [
+      51154840,
+      0
+    ],
+    idProcesos: [
+      51154840
+    ],
+    llaveProceso: '11001400300620180045400',
+    numero      : 500,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d793345479f9',
+    capitalAdeudado: 10930100,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2018-12-10T05:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 16,
+          tipo: ' Pequeñas Causas y Competencias Multiples'
+        },
+        {
+          id  : 2,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
+        4594260107010410
+      ],
+      radicado: '2019 - 01085',
+      vencimientoPagare:
+        '2021-05-01T05:00:00.000Z'
+    },
+    deudor: {
+      cedula: 1023861016,
+      direccion:
+        'TRANSVERSAL 70G SUR-68-52 TORRE 18 APARTAMENTO 1401',
+      email          : 'Anrf1985@hotmail.com',
+      primerApellido : 'ROZO',
+      primerNombre   : 'ANGELICA',
+      segundoApellido: 'FRANCO',
+      segundoNombre  : 'NATHALY',
+      tel            : {
+        celular: 0,
+        fijo   : 6594339
+      }
+    },
+    fecha    : '2023-02-28T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 1023861016,
+    idProceso: [
+      86958040
+    ],
+    llaveProceso: '11001418901620190108500',
+    numero      : 502,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d793345479ff',
+    capitalAdeudado: 29416113,
+    demanda        : {
+      ciudad                 : 'LA CALERA',
+      departamento           : 'CUNDINAMARCA',
+      entregaGarantiasAbogado: null,
+      etapaProcesal          : 'EJECUCIÓN',
+      juzgado                : [
+        {
+          id  : 1,
+          tipo: 'Promiscuo Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-01-promiscuo-municipal-de-la-calera'
+        }
+      ],
+      obligacion: [
+        2490084469
+      ],
+      radicado: '2018 - 00371',
+      vencimientoPagare:
+        '2026-01-03T05:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 11230400,
+      direccion      : 'CALLE 2 A No 5-22 APTO 503',
+      email          : 'joalvato09@hotmail.com',
+      primerApellido : 'VASQUEZ',
+      primerNombre   : 'JOSE',
+      segundoApellido: 'TOVAR',
+      segundoNombre  : 'ALFONSO',
+      tel            : {
+        celular: 3123703828,
+        fijo   : 0
+      }
+    },
+    grupo    : 'Bancolombia',
+    id       : 11230400,
+    idProceso: [
+      0
+    ],
+    llaveProceso: '25377408900120180037100',
+    numero      : 508,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547a15',
+    capitalAdeudado: 14409411,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2018-04-21T00:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 81,
+          tipo: 'Civil Municipal'
+        },
+        {
+          id  : 1,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
+        40998833882814000,
+        5303729887314280
+      ],
+      radicado: '2018 - 00514',
+      vencimientoPagare:
+        '2020-10-05T00:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 35455606,
+      direccion      : 'CALLE 175 No 70-40',
+      email          : 'mariaclarareyes@hotmail.com',
+      primerApellido : 'REYES',
+      primerNombre   : 'MARIA',
+      segundoApellido: 'REYES',
+      segundoNombre  : 'CLARA',
+      tel            : {
+        celular: 0,
+        fijo   : 60991181
+      }
+    },
+    fecha    : '2023-03-14T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 35455606,
+    idProceso: [
+      51918470
+    ],
+    llaveProceso: '11001400308120180051400',
+    numero      : 530,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547a17',
+    capitalAdeudado: 15324570,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2020-09-05T00:00:00.000Z',
+      etapaProcesal: 'CONTESTACIÓN DEMANDA',
+      juzgado      : [
+        {
+          id  : 5068,
+          tipo: ' Pequeñas Causas y Competencias Multiples/ Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota'
+        }
+      ],
+      obligacion: [
+        65886140334,
+        4594260446916180
+      ],
+      radicado         : '2020-1021',
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula         : 900520023,
+      direccion      : 'AV BOYACA 63D - 26 OFICINA 103',
+      primerApellido : 'COLOMBIA',
+      primerNombre   : 'DIMOIN',
+      segundoApellido: 'S.A.S.',
+      tel            : {
+        celular: 0,
+        fijo   : 0
+      }
+    },
+    fecha    : '2023-07-27T05:00:00.000Z',
+    grupo    : 'Bancolombia',
+    id       : 900520023,
+    idProceso: [
+      112628300
+    ],
+    llaveProceso: '11001400306820200102100',
+    numero      : 532,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547a22',
+    capitalAdeudado: 24849682,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2018-10-10T05:00:00.000Z',
+      etapaProcesal: 'EJECUCIÓN',
+      juzgado      : [
+        {
+          id  : 12,
+          tipo: ' Pequeñas Causas y Competencias Multiples'
+        },
+        {
+          id  : 11,
+          tipo: 'Civil Municipal de Ejecucion'
+        }
+      ],
+      obligacion: [
+        3880083804,
+        '4513074508682496 // 53037103332223839'
+      ],
+      radicado         : '2018 - 00951',
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula: 51579807,
+      direccion:
+        'CALLE 19 A No 82 - 65 INT 6 APTO 503',
+      email          : 'rochi2656@hotmail.com',
+      primerApellido : '',
+      primerNombre   : 'ROSALIA',
+      segundoApellido: 'SARMIENTO',
+      segundoNombre  : 'CHARRY',
+      tel            : {
+        celular: 0,
+        fijo   : 2943968
+      }
+    },
+    fecha    : '2023-05-15T05:00:00.000Z',
+    grupo    : 'Reintegra',
+    id       : 51579807,
+    idProceso: [
+      64673240
+    ],
+    llaveProceso: '11001418901220180095100',
+    numero      : 543,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547a2a',
+    capitalAdeudado: 28018855,
+    demanda        : {
+      ciudad      : 'FUSAGASUGA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2023-06-20T00:00:00.000Z',
+      juzgado: [
+        {
+          id  : 3,
+          tipo: 'Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-003-civil-municipal-de-fusagasuga'
+        }
+      ],
+      obligacion: [
+        2640096179
+      ],
+      radicado: '2023 - 00371',
+      vencimientoPagare:
+        '2028-03-08T00:00:00.000Z'
+    },
+    deudor: {
+      cedula         : 1075211773,
+      direccion      : 'KR 1 2 41 Fusagasugá',
+      email          : 'jonathansoldier@hotmail.com',
+      primerApellido : 'RAMIREZ',
+      primerNombre   : 'PEDRO',
+      segundoApellido: 'GOMEZ',
+      segundoNombre  : 'JONATHAN',
+      tel            : {
+        celular: 0,
+        fijo   : 0
+      }
+    },
+    grupo      : 'Bancolombia',
+    id         : 1075211773,
+    numero     : 551,
+    tipoProceso: 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547a2b',
+    capitalAdeudado: 77376262,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2023-06-20T00:00:00.000Z',
+      juzgado: [
+        {
+          id  : 4,
+          tipo: 'Civil Municipal',
+          url : 'https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota'
+        }
+      ],
+      obligacion: [
+        530104065,
+        530103261
+      ],
+      radicado         : '2023 - 00622',
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula         : 1023874668,
+      direccion      : 'CL 49 A BIS SUR No. 5 N 10',
+      email          : 'oscar2794@hotmail.com',
+      primerApellido : 'GOMEZ',
+      primerNombre   : 'OSCAR',
+      segundoApellido: 'MENDOZA',
+      segundoNombre  : 'MAURICIO',
+      tel            : {
+        celular: 0,
+        fijo   : 2043773
+      }
+    },
+    fecha    : '2023-08-01T05:00:00.000Z',
+    grupo    : 'Bancolombia',
+    id       : 1023874668,
+    idProceso: [
+      130946630
+    ],
+    llaveProceso: '11001400300420230062200',
+    numero      : 552,
+    tipoProceso : 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547a2d',
+    capitalAdeudado: 22111021,
+    demanda        : {
+      ciudad      : 'BOGOTA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2023-07-26T00:00:00.000Z',
+      juzgado   : [],
+      obligacion: [
+        2150100545,
+        '377844028390801 y 4513080181283486'
+      ],
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula: 51976656,
+      direccion:
+        'Carrera 102 No. 69 - 81 Casa 5 Conjunto Residencial Montes de Tierra Grata',
+      email          : 'sandris73@hotmail.com',
+      primerApellido : 'ALVAREZ',
+      primerNombre   : 'SANDRA',
+      segundoApellido: 'RODRIGUEZ',
+      segundoNombre  : 'PATRICIA',
+      tel            : {
+        celular: 3157352910,
+        fijo   : 2297973
+      }
+    },
+    grupo      : 'Bancolombia',
+    id         : 51976656,
+    numero     : 554,
+    tipoProceso: 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547a33',
+    capitalAdeudado: 40696764,
+    demanda        : {
+      ciudad      : 'BARRAQNUILLA',
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2023-07-26T00:00:00.000Z',
+      juzgado   : [],
+      obligacion: [
+        4770111750,
+        'PAGARÉ SIN NÚMERO T. MASTER CARD 5303720229555616 // T. VISA 4513070377907980'
+      ],
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula: 1129565798,
+      direccion:
+        'CR 51 43 04 Barrio Abajo Barranquilla // Carrera 71 No. 88A - 31 Barranquilla // Calle 42 A No. 46 - 04 Barrio El Parque en Soledad (Atlantico)',
+      email          : 'inghanselmartinez@hotmail.com',
+      primerApellido : 'MARTINEZ',
+      primerNombre   : 'HANSEL',
+      segundoApellido: 'BARROS',
+      tel            : {
+        celular: null,
+        fijo   : 3930210
+      }
+    },
+    grupo      : 'Bancolombia',
+    id         : 1129565798,
+    numero     : 560,
+    tipoProceso: 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547a38',
+    capitalAdeudado: 0,
+    demanda        : {
+      departamento: 'CUNDINAMARCA',
+      entregaGarantiasAbogado:
+        '2023-07-26T00:00:00.000Z',
+      juzgado          : [],
+      vencimientoPagare: null
+    },
+    deudor: {
+      cedula         : 79399032,
+      primerApellido : 'ABADIA',
+      primerNombre   : 'JORGE',
+      segundoApellido: 'CARRILLO',
+      segundoNombre  : 'ALEXANDER',
+      tel            : {
+        celular: 0,
+        fijo   : 0
+      }
+    },
+    grupo      : 'Bancolombia',
+    id         : 79399032,
+    numero     : 565,
+    tipoProceso: 'SINGULAR'
+  },
+  {
+    _id            : '64cc10e7ea30d79334547a39',
+    capitalAdeudado: 0,
+    demanda        : {
+      entregaGarantiasAbogado: null,
+      juzgado                : [],
+      vencimientoPagare      : null
+    },
+    deudor: {
+      cedula         : 1061047348,
+      primerApellido : 'PALACIO',
+      primerNombre   : 'SANDRA',
+      segundoApellido: 'RIVERA',
+      segundoNombre  : 'MILENA',
+      tel            : {
+        celular: 0,
+        fijo   : 0
+      }
+    },
+    grupo : 'Bancolombia',
+    id    : 1061047348,
+    numero: 566
   }
 ];
 
@@ -23672,46 +6027,29 @@ const uri
   = 'mongodb+srv://cachorro_cami:Tengo1amo@cluster0.ffbyjzl.mongodb.net/?retryWrites=true&w=majority';
 
 export const carpetasCollection = async () => {
-  const client = new MongoClient(
-    uri
-  );
+  const client = new MongoClient( uri );
 
   if ( !client ) {
-    throw new Error(
-      'no hay cliente mongólico'
-    );
+    throw new Error( 'no hay cliente mongólico' );
   }
-
-  const db = client.db(
-    'RyS'
-  );
+  const db = client.db( 'RyS' );
 
   const carpetas
-    = db.collection<IntCarpeta>(
-      'Carpetas'
-    );
+    = db.collection<IntCarpeta>( 'Carpetas' );
 
   return carpetas;
 };
-
-
 // Replace the uri string with your MongoDB deployment's connection string.
-const client = new MongoClient(
-  uri
-);
+const client = new MongoClient( uri );
 
 async function run() {
   try {
-    const database = client.db(
-      'RyS'
-    );
+    const database = client.db( 'RyS' );
 
     // Specifying a schema is optional, but it enables type hints on
     // finds and inserts
     const foods
-      = database.collection<IntCarpeta>(
-        'Carpetas'
-      );
+      = database.collection( 'Carpetas' );
 
     const result = await foods.insertMany(
       carpetas,
@@ -23719,15 +6057,11 @@ async function run() {
         ordered: true
       }
     );
-    console.log(
-      `${ result.insertedCount } documents were inserted`
-    );
+    console.log( `${ result.insertedCount } documents were inserted` );
   } finally {
     await client.close();
   }
 }
 run();
 
-console.log(
-  run()
-);
+console.log( run() );
