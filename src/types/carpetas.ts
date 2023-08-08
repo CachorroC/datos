@@ -1,3 +1,5 @@
+import { ObjectId } from 'mongodb';
+
 export interface intConsultaNumeroRadicacion {
   tipoConsulta: string;
   procesos: intProceso[];
@@ -81,7 +83,9 @@ export interface rawDeudor {
 }
 //   const intCarpeta = Convert.toIntCarpeta(json);
 
-export interface IntCarpeta {
+export interface IntCarpeta
+{
+  _id?: number
   capitalAdeudado: number;
   demanda: Demanda;
   deudor: Deudor;
@@ -185,51 +189,99 @@ export type TipoProceso =
 
 // Converts JSON strings to/from your types
 export class Convert {
-  public static toIntCarpeta( json: string ): IntCarpeta {
-    return JSON.parse( json );
+  public static toIntCarpeta(
+    json: string
+  ): IntCarpeta {
+    return JSON.parse(
+      json
+    );
   }
 
-  public static intCarpetaToJson( value: IntCarpeta ): string {
-    return JSON.stringify( value );
+  public static intCarpetaToJson(
+    value: IntCarpeta
+  ): string {
+    return JSON.stringify(
+      value
+    );
   }
 
-  public static toDemanda( json: string ): Demanda {
-    return JSON.parse( json );
+  public static toDemanda(
+    json: string
+  ): Demanda {
+    return JSON.parse(
+      json
+    );
   }
 
-  public static demandaToJson( value: Demanda ): string {
-    return JSON.stringify( value );
+  public static demandaToJson(
+    value: Demanda
+  ): string {
+    return JSON.stringify(
+      value
+    );
   }
 
-  public static toDespachoActivo( json: string ): DespachoActivo {
-    return JSON.parse( json );
+  public static toDespachoActivo(
+    json: string
+  ): DespachoActivo {
+    return JSON.parse(
+      json
+    );
   }
 
-  public static despachoActivoToJson( value: DespachoActivo ): string {
-    return JSON.stringify( value );
+  public static despachoActivoToJson(
+    value: DespachoActivo
+  ): string {
+    return JSON.stringify(
+      value
+    );
   }
 
-  public static toJuzgado( json: string ): Juzgado {
-    return JSON.parse( json );
+  public static toJuzgado(
+    json: string
+  ): Juzgado {
+    return JSON.parse(
+      json
+    );
   }
 
-  public static juzgadoToJson( value: Juzgado ): string {
-    return JSON.stringify( value );
+  public static juzgadoToJson(
+    value: Juzgado
+  ): string {
+    return JSON.stringify(
+      value
+    );
   }
 
-  public static toDeudor( json: string ): Deudor {
-    return JSON.parse( json );
+  public static toDeudor(
+    json: string
+  ): Deudor {
+    return JSON.parse(
+      json
+    );
   }
 
-  public static deudorToJson( value: Deudor ): string {
-    return JSON.stringify( value );
+  public static deudorToJson(
+    value: Deudor
+  ): string {
+    return JSON.stringify(
+      value
+    );
   }
 
-  public static toTel( json: string ): Tel {
-    return JSON.parse( json );
+  public static toTel(
+    json: string
+  ): Tel {
+    return JSON.parse(
+      json
+    );
   }
 
-  public static telToJson( value: Tel ): string {
-    return JSON.stringify( value );
+  public static telToJson(
+    value: Tel
+  ): string {
+    return JSON.stringify(
+      value
+    );
   }
 }

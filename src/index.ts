@@ -8,7 +8,7 @@ import { Demanda,
 import Carpetas from './data/carpetas';
 import fetchProceso from './procesos';
 import transformDespacho from './despachos';
-import updateCarpeta from './lib/mongodb';
+import updateCarpetas from './lib/mongodb';
 
 export async function transformRawtoCarpeta(
   {
@@ -168,13 +168,6 @@ export async function transformRawtoCarpeta(
     )
   );
 
-  const updateCarp = await updateCarpeta(
-    { carpeta: newCarpeta }
-  );
-
-  if ( updateCarp ) {
-    return updateCarp;
-  }
 
   return newCarpeta;
 }
@@ -201,6 +194,8 @@ export default async function mapCarpetas(
         }
       );
 
+
+
     newCarpetasMap.push(
       newCarpeta
     );
@@ -218,6 +213,16 @@ export default async function mapCarpetas(
       newCarpetasMap
     )
   );
+
+  if ( carpetas.length === newCarpetasMap.length ) {
+
+    const updateCarp = await updateCarpetas(
+      { carpetas: newCarpetasMap }
+    );
+    console.log(
+      ` se actuaclizaron ${ updateCarp }`
+    );
+  }
 
   return newCarpetasMap;
 }

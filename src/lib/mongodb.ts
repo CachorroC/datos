@@ -27,33 +27,37 @@ export const carpetasCollection = async () => {
   return carpetas;
 };
 
-export default  async function updateCarpeta(
+export default  async function updateCarpetas(
   {
-    carpeta
+    carpetas
   }: {
-  carpeta: IntCarpeta;
+  carpetas: IntCarpeta[];
 }
 ) {
   const collection = await carpetasCollection();
 
-  const result
-    = await collection.findOneAndReplace(
-      {
-        numero      : carpeta.numero,
-        id          : carpeta.id,
-        llaveProceso: carpeta.llaveProceso
-      },
-      carpeta,
-      {
-        upsert        : true,
-        returnDocument: 'after'
-      }
-    );
-  console.log(
-    `se remplazaron ${ result.ok } en ${ JSON.stringify(
-      result.value
-    ) }`
+  const carpetasMap = carpetas.map(
+    (
+      carpeta
+    ) => {
+      const nCarp = {
+        ...carpeta,
+        _id: carpeta.id
+      };
+
+      return nCarp;
+    }
   );
 
-  return result.value;
+  const result
+    = await collection.insertMany(
+      carpetasMap, { ordered: true }
+    );
+  console.log(
+    `se remplazaron ${ result.acknowledged } en ${ JSON.stringify(
+      result.insertedIds
+    ) } con ${ result.insertedCount } importados`
+  );
+
+  return result.insertedCount;
 }
