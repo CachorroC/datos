@@ -4531,7 +4531,7 @@ const Carpetas: IntCarpetaRaw[] = [
     grupo       : 'Insolvencia',
     id          : 7601476,
     idProceso   : 0,
-    llaveProceso: '1100140030202\'100050100',
+    llaveProceso: '1100140030202100050100',
     numero      : 265,
     tipoProceso : 'HIPOTECARIO'
   },
@@ -5609,7 +5609,7 @@ const Carpetas: IntCarpetaRaw[] = [
         '2020-05-27T00:00:00.000Z'
     },
     deudor: {
-      cedula        : '900566964-9',
+      cedula        : '9005669649',
       direccion     : 'CARRERA 13 No 73-33',
       primerApellido: 'S.A.S',
       primerNombre  : 'SMARTITECH',
@@ -5620,7 +5620,7 @@ const Carpetas: IntCarpetaRaw[] = [
     },
     fecha     : '2023-04-10T05:00:00.000Z',
     grupo     : 'Reintegra',
-    id        : null,
+    id        : 9005669649,
     idProceso : 51154840,
     idProcesos: [
       51154840,
@@ -6876,7 +6876,7 @@ const Carpetas: IntCarpetaRaw[] = [
         '2020-05-27T00:00:00.000Z'
     },
     deudor: {
-      cedula        : '900566964-9',
+      cedula        : 9005669649,
       direccion     : 'CARRERA 13 No 73-33',
       primerApellido: 'S.A.S',
       primerNombre  : 'SMARTITECH',
@@ -6890,7 +6890,7 @@ const Carpetas: IntCarpetaRaw[] = [
       '2023-04-10T05:00:00.000Z'
     ],
     grupo     : 'Reintegra',
-    id        : null,
+    id        : 9005669649,
     idProceso : 81649171,
     idProcesos: [
       51154840,

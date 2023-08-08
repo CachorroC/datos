@@ -1,7 +1,0 @@
-{
-  "cause": {
-    "code": "UND_ERR_CONNECT_TIMEOUT",
-    "message": "Connect Timeout Error",
-    "name": "ConnectTimeoutError"
-  }
-}

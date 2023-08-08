@@ -5,35 +5,45 @@ const uri
   = 'mongodb+srv://cachorro_cami:Tengo1amo@cluster0.ffbyjzl.mongodb.net/?retryWrites=true&w=majority';
 
 export const carpetasCollection = async () => {
-  const client = new MongoClient( uri );
+  const client = new MongoClient(
+    uri
+  );
 
   if ( !client ) {
-    throw new Error( 'no hay cliente mongólico' );
+    throw new Error(
+      'no hay cliente mongólico'
+    );
   }
-  const db = client.db( 'RyS' );
+
+  const db = client.db(
+    'RyS'
+  );
 
   const carpetas
-    = db.collection<IntCarpeta>( 'Carpetas' );
+    = db.collection<IntCarpeta>(
+      'Carpetas'
+    );
 
   return carpetas;
 };
 
-export async function updt( {
-  carpeta
-}: {
+export default  async function updateCarpeta(
+  {
+    carpeta
+  }: {
   carpeta: IntCarpeta;
-} ) {
+}
+) {
   const collection = await carpetasCollection();
 
   const result
-    = await collection.findOneAndUpdate(
+    = await collection.findOneAndReplace(
       {
-        numero: carpeta.numero,
-        id    : carpeta.id
+        numero      : carpeta.numero,
+        id          : carpeta.id,
+        llaveProceso: carpeta.llaveProceso
       },
-      {
-        $set: carpeta
-      },
+      carpeta,
       {
         upsert        : true,
         returnDocument: 'after'
