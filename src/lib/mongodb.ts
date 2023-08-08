@@ -49,6 +49,11 @@ export default  async function updateCarpeta(
         returnDocument: 'after'
       }
     );
+  console.log(
+    `se remplazaron ${ result.ok } en ${ JSON.stringify(
+      result.value
+    ) }`
+  );
 
   return result.value;
 }

@@ -48,11 +48,6 @@ export async function transformRawtoCarpeta(
             : 'sin especificar'
         }
       );
-      console.log(
-        Array.from(
-          juzgadosMap.values()
-        )
-      );
     }
   }
 
@@ -65,9 +60,6 @@ export async function transformRawtoCarpeta(
       index: index,
       id   : mkdirDir
     }
-  );
-  console.log(
-    RequestProcesos
   );
 
   for ( const proceso of RequestProcesos ) {
@@ -151,9 +143,6 @@ export async function transformRawtoCarpeta(
     email          : rawDeudor.email?.toString(),
     direccion      : rawDeudor.direccion
   };
-  console.log(
-    newDeudor
-  );
 
   const newCarpeta: IntCarpeta = {
     capitalAdeudado: carpetaRaw.capitalAdeudado,
@@ -170,9 +159,6 @@ export async function transformRawtoCarpeta(
     ),
     tipoProceso: carpetaRaw.tipoProceso
   };
-  console.log(
-    `elk numerp de la carpeta es ${ newCarpeta.numero }`
-  );
   fs.writeFile(
     `./carpetas/${
       mkdirDir
@@ -218,9 +204,6 @@ export default async function mapCarpetas(
     newCarpetasMap.push(
       newCarpeta
     );
-    console.log(
-      newCarpeta.numero
-    );
     fs.writeFile(
       'insideForOfcarpetas.json',
       JSON.stringify(
@@ -234,12 +217,6 @@ export default async function mapCarpetas(
     JSON.stringify(
       newCarpetasMap
     )
-  );
-  console.log(
-    `carpetas length is ${ carpetas.length }`
-  );
-  console.log(
-    `arrayMap length is ${ newCarpetasMap.length }`
   );
 
   return newCarpetasMap;

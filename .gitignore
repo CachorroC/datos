@@ -7,8 +7,6 @@ out
 out/**
 *.log
 npm-debug.log*
-carpetas/**
-carpetas
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
