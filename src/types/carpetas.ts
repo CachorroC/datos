@@ -1,7 +1,89 @@
+
+export interface intConsultaNumeroRadicacion {
+  tipoConsulta: string;
+  procesos: intProceso[];
+  parametros: intParametros;
+  paginacion: intPaginacion;
+}
+
+export interface intPaginacion {
+  cantidadRegistros: number;
+  registrosPagina: number;
+  cantidadPaginas: number;
+  pagina: number;
+  paginas: null;
+}
+
+export interface intParametros {
+  numero: string;
+  nombre: null;
+  tipoPersona: null;
+  idSujeto: null;
+  ponente: null;
+  claseProceso: null;
+  codificacionDespacho: null;
+  soloActivos: boolean;
+}
+
+export interface intProceso {
+  idProceso: number;
+  idConexion: number;
+  llaveProceso: string;
+  fechaProceso?: string | null;
+  fechaUltimaActuacion?: string | null;
+  despacho: string;
+  departamento: string;
+  sujetosProcesales: string;
+  esPrivado: boolean;
+  cantFilas: number;
+}
+
 // To parse this data:
 //
 //   import { Convert } from "./file";
 //
+
+
+export interface IntCarpetaRaw {
+
+    capitalAdeudado: number;
+    demanda:         rawDemanda;
+    deudor:          rawDeudor;
+    fecha?:          string;
+    grupo:           Grupo;
+    id:              number | null;
+    idProceso?:      number;
+    llaveProceso?:   string;
+    numero:          number;
+    tipoProceso?:    TipoProceso;
+    fechas?:         string[];
+    nombre?:         string;
+    idProcesos?:     Array<number[] | number>;
+}
+
+
+export interface rawDemanda {
+    ciudad?:                 string;
+    departamento?:           Departamento;
+    entregaGarantiasAbogado: string | null;
+    etapaProcesal?:          string;
+    juzgado:                 rawJuzgado[];
+    obligacion?:             ( number | string )[];
+    radicado?:               number | string;
+    vencimientoPagare:       string | null;
+}
+
+
+export interface rawDeudor {
+    cedula:           number | string;
+    direccion?:       string;
+    primerApellido:   string;
+    primerNombre:     string;
+    segundoApellido?: string;
+    segundoNombre?:   string;
+    tel:              Tel;
+    email?:           number | string;
+}
 //   const intCarpeta = Convert.toIntCarpeta(json);
 
 export interface IntCarpeta {
@@ -20,7 +102,7 @@ export interface IntCarpeta {
 export interface Demanda {
   ciudad?: string;
   departamento?: Departamento;
-  entregaGarantiasAbogado?: Date;
+  entregaGarantiasAbogado: Date;
   etapaProcesal?: string;
   juzgado: Juzgado[];
   obligacion?: ( number | string )[];
@@ -69,6 +151,12 @@ export interface Juzgado {
     id:   number;
     tipo: string;
     url: string;
+}
+
+export interface rawJuzgado {
+    id:   number;
+    tipo: string;
+    url?: string;
 }
 
 export interface Deudor {

@@ -1,34 +1,40 @@
-import { config } from 'dotenv';
 import { MongoClient } from 'mongodb';
-config();
+import { IntCarpeta } from '../types/carpetas';
+
+
 
 const uri
-  = process.env.MONGODB_URI
-  || 'mongodb+srv://cachorro_cami:Tengo1amo@cluster0.ffbyjzl.mongodb.net/?retryWrites=true&w=majority';
-const options = {};
-let client;
-let clientPromise: Promise<MongoClient>;
+  = 'mongodb+srv://cachorro_cami:Tengo1amo@cluster0.ffbyjzl.mongodb.net/?retryWrites=true&w=majority';
 
-if ( process.env.NODE_ENV === 'development' ) {
-  const globalWithMongo
-    = global as typeof globalThis & {
-      _mongoClientPromise?: Promise<MongoClient>;
-    };
+export const carpetasCollection = async () => {
+  const client = new MongoClient( uri );
 
-  if ( !globalWithMongo._mongoClientPromise ) {
-    client = new MongoClient(
-      uri, options 
-    );
-    globalWithMongo._mongoClientPromise
-      = client.connect();
+  if ( !client ) {
+    throw new Error( 'no hay cliente mongólico' );
   }
-  clientPromise
-    = globalWithMongo._mongoClientPromise;
-} else {
-  client = new MongoClient(
-    uri, options 
-  );
-  clientPromise = client.connect();
-}
+  const db = client.db( 'RyS' );
+  const carpetas = db.collection<IntCarpeta>( 'Carpetas' );
 
-export default clientPromise;
+  return carpetas;
+};
+
+export async function updt( {
+  carpeta
+}: {carpeta: IntCarpeta} ) {
+  const collection = await carpetasCollection();
+
+  const result = await collection.findOneAndUpdate(
+    {
+      numero: carpeta.numero,
+      id    : carpeta.id
+    },
+    {
+      $set: carpeta
+    }, {
+      upsert        : true,
+      returnDocument: 'after'
+    }
+  );
+
+  return result.value;
+}
