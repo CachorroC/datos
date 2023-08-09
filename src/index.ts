@@ -220,7 +220,9 @@ export default async function mapCarpetas(
       { carpetas: newCarpetasMap }
     );
     console.log(
-      ` se actuaclizaron ${ updateCarp }`
+      ` se actuaclizaron ${ JSON.stringify(
+        updateCarp
+      ) }`
     );
   }
 
@@ -229,4 +231,11 @@ export default async function mapCarpetas(
 
 mapCarpetas(
   { carpetas: Carpetas }
-);
+)
+      .then(
+        ff => {
+          return ff;
+        }, rr => {
+          return rr;
+        }
+      );

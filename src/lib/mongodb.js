@@ -15,15 +15,16 @@ const carpetasCollection = async () => {
 exports.carpetasCollection = carpetasCollection;
 async function updateCarpetas({ carpetas }) {
     const collection = await (0, exports.carpetasCollection)();
-    const carpetasMap = carpetas.map((carpeta) => {
+    const newCarps = new Map();
+    for (const carpeta of carpetas) {
         const nCarp = {
             ...carpeta,
             _id: carpeta.id
         };
-        return nCarp;
-    });
-    const result = await collection.insertMany(carpetasMap, { ordered: true });
-    console.log(`se remplazaron ${result.acknowledged} en ${JSON.stringify(result.insertedIds)} con ${result.insertedCount} importados`);
-    return result.insertedCount;
+        newCarps.set(nCarp.id, nCarp);
+    }
+    const arrayCarpetasNew = Array.from(newCarps.values());
+    const result = await collection.insertMany(arrayCarpetasNew);
+    return result;
 }
 exports.default = updateCarpetas;

@@ -136,9 +136,14 @@ async function mapCarpetas({ carpetas }) {
     fs.writeFile('carpetas.json', JSON.stringify(newCarpetasMap));
     if (carpetas.length === newCarpetasMap.length) {
         const updateCarp = await (0, mongodb_1.default)({ carpetas: newCarpetasMap });
-        console.log(` se actuaclizaron ${updateCarp}`);
+        console.log(` se actuaclizaron ${JSON.stringify(updateCarp)}`);
     }
     return newCarpetasMap;
 }
 exports.default = mapCarpetas;
-mapCarpetas({ carpetas: carpetas_1.default });
+mapCarpetas({ carpetas: carpetas_1.default })
+    .then(ff => {
+    return ff;
+}, rr => {
+    return rr;
+});

@@ -33,7 +33,7 @@ function sleep(ms) {
 }
 exports.sleep = sleep;
 async function fetchProceso({ llaveProceso, index, id }) {
-    const awaitTime = index * 1000;
+    const awaitTime = index * 10;
     await sleep(awaitTime);
     console.log(`el largo de la llave es ${llaveProceso.length}`);
     console.log(`llave es sin especificar ${llaveProceso === 'sin especificar'}`);

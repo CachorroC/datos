@@ -5609,7 +5609,7 @@ const Carpetas: IntCarpetaRaw[] = [
         '2020-05-27T00:00:00.000Z'
     },
     deudor: {
-      cedula        : '9005669649',
+      cedula        : 9005669649,
       direccion     : 'CARRERA 13 No 73-33',
       primerApellido: 'S.A.S',
       primerNombre  : 'SMARTITECH',

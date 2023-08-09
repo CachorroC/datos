@@ -35,29 +35,27 @@ export default  async function updateCarpetas(
 }
 ) {
   const collection = await carpetasCollection();
+  const newCarps = new Map();
 
-  const carpetasMap = carpetas.map(
-    (
-      carpeta
-    ) => {
-      const nCarp = {
-        ...carpeta,
-        _id: carpeta.id
-      };
+  for ( const carpeta of carpetas ) {
+    const nCarp = {
+      ...carpeta,
+      _id: carpeta.id
+    };
+    newCarps.set(
+      nCarp.id, nCarp
+    );
 
-      return nCarp;
-    }
+  }
+
+  const arrayCarpetasNew = Array.from(
+    newCarps.values()
   );
 
   const result
     = await collection.insertMany(
-      carpetasMap, { ordered: true }
+      arrayCarpetasNew
     );
-  console.log(
-    `se remplazaron ${ result.acknowledged } en ${ JSON.stringify(
-      result.insertedIds
-    ) } con ${ result.insertedCount } importados`
-  );
 
-  return result.insertedCount;
+  return result;
 }

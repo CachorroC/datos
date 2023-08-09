@@ -30,7 +30,7 @@ export default async function fetchProceso(
   id: number;
 }
 ) {
-  const awaitTime = index * 1000;
+  const awaitTime = index * 10;
   await sleep(
     awaitTime
   );
