@@ -140,14 +140,6 @@
           "try"
         ],
         "prev": "*"
-      },
-      {
-        "blankLine": "never",
-        "next": [
-          "singleline-const",
-          "singleline-let"
-        ],
-        "prev": "*"
       }
     ],
     "quotes": [ "error", "single" ],

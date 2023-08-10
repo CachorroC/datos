@@ -90,7 +90,7 @@ export interface IntCarpeta
   deudor: Deudor;
   grupo: Grupo;
   id: number;
-  idProcesos?: number[];
+  idProceso?: number;
 
   llaveProceso?: string;
   numero: number;

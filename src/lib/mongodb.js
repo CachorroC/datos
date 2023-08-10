@@ -24,7 +24,7 @@ async function updateCarpetas({ carpetas }) {
         newCarps.set(nCarp.id, nCarp);
     }
     const arrayCarpetasNew = Array.from(newCarps.values());
-    const result = await collection.insertMany(arrayCarpetasNew);
+    const result = await collection.insertMany(carpetas);
     return result;
 }
 exports.default = updateCarpetas;

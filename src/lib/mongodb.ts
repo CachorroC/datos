@@ -54,7 +54,7 @@ export default  async function updateCarpetas(
 
   const result
     = await collection.insertMany(
-      arrayCarpetasNew
+      carpetas
     );
 
   return result;

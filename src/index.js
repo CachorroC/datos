@@ -31,15 +31,15 @@ const fs = __importStar(require("fs/promises"));
 const carpetas_1 = __importDefault(require("./data/carpetas"));
 const procesos_1 = __importDefault(require("./procesos"));
 const despachos_1 = __importDefault(require("./despachos"));
-const mongodb_1 = __importDefault(require("./lib/mongodb"));
+const mongodb_1 = require("./lib/mongodb");
 async function transformRawtoCarpeta({ carpetaRaw, index }) {
+    const carpetasPeridProceso = new Map();
     const altNumber = carpetaRaw.numero === 0
         ? carpetaRaw.id
         : carpetaRaw.numero;
     const mkdirDir = altNumber ?? index * 1000;
     fs.mkdir(`./carpetas/${mkdirDir}`, { recursive: true });
     const juzgadosMap = new Map();
-    const idProcesosSet = new Set();
     const rawDeudor = carpetaRaw.deudor;
     const rawDemanda = carpetaRaw.demanda;
     if (rawDemanda.juzgado.length > 0) {
@@ -59,29 +59,6 @@ async function transformRawtoCarpeta({ carpetaRaw, index }) {
         index: index,
         id: mkdirDir
     });
-    for (const proceso of RequestProcesos) {
-        idProcesosSet.add(proceso.idProceso);
-        rawDemanda.juzgado.forEach((juz, index, arr) => {
-            if (arr.length === index + 1) {
-                const newDespacho = (0, despachos_1.default)({
-                    id: juz.id ?? 0,
-                    tipo: proceso.despacho ?? juz.tipo,
-                    url: juz.url
-                        ? juz.url
-                        : proceso.despacho ?? 'sin especificar'
-                });
-                return juzgadosMap.set(index, newDespacho);
-            }
-            const newDespacho = (0, despachos_1.default)({
-                id: juz.id ?? 0,
-                tipo: juz.tipo,
-                url: juz.url
-                    ? juz.url
-                    : proceso.despacho ?? 'sin especificar'
-            });
-            return juzgadosMap.set(index, newDespacho);
-        });
-    }
     const newDemanda = {
         ...rawDemanda,
         juzgado: Array.from(juzgadosMap.values()),
@@ -107,43 +84,94 @@ async function transformRawtoCarpeta({ carpetaRaw, index }) {
         email: rawDeudor.email?.toString(),
         direccion: rawDeudor.direccion
     };
-    const newCarpeta = {
-        capitalAdeudado: carpetaRaw.capitalAdeudado,
-        demanda: newDemanda,
-        deudor: newDeudor,
-        grupo: carpetaRaw.grupo,
-        id: Number(carpetaRaw.id ?? '0'),
-        numero: carpetaRaw.numero,
-        llaveProceso: carpetaRaw.llaveProceso,
-        idProcesos: Array.from(idProcesosSet),
-        tipoProceso: carpetaRaw.tipoProceso
-    };
-    fs.writeFile(`./carpetas/${mkdirDir}/${index}.json`, JSON.stringify(newCarpeta));
-    return newCarpeta;
+    if (RequestProcesos.length >= 1) {
+        for (const proceso of RequestProcesos) {
+            rawDemanda.juzgado.forEach((juz, index, arr) => {
+                if (arr.length === index + 1) {
+                    const newDespacho = (0, despachos_1.default)({
+                        id: juz.id ?? 0,
+                        tipo: proceso.despacho ?? juz.tipo,
+                        url: juz.url
+                            ? juz.url
+                            : proceso.despacho ?? 'sin especificar'
+                    });
+                    return juzgadosMap.set(index, newDespacho);
+                }
+                const newDespacho = (0, despachos_1.default)({
+                    id: juz.id ?? 0,
+                    tipo: juz.tipo,
+                    url: juz.url
+                        ? juz.url
+                        : proceso.despacho ?? 'sin especificar'
+                });
+                return juzgadosMap.set(index, newDespacho);
+            });
+            const newCarpeta = {
+                capitalAdeudado: carpetaRaw.capitalAdeudado,
+                demanda: newDemanda,
+                deudor: newDeudor,
+                grupo: carpetaRaw.grupo,
+                id: Number(carpetaRaw.id ?? '0'),
+                numero: carpetaRaw.numero,
+                llaveProceso: carpetaRaw.llaveProceso,
+                idProceso: proceso.idProceso,
+                tipoProceso: carpetaRaw.tipoProceso
+            };
+            fs.writeFile(`./carpetas/${mkdirDir}/${proceso.idProceso}.json`, JSON.stringify(newCarpeta));
+            const collection = await (0, mongodb_1.carpetasCollection)();
+            const findNinsert = await collection.findOneAndUpdate({ idProceso: proceso.idProceso, }, { $set: newCarpeta }, {
+                upsert: true,
+                returnDocument: 'after'
+            });
+            console.log(`${findNinsert.ok} para la insertada de carpetas collection con idProceso.`);
+            carpetasPeridProceso.set(proceso.idProceso, findNinsert.value ?? newCarpeta);
+            continue;
+        }
+    }
+    if (RequestProcesos.length === 0) {
+        const newCarpeta = {
+            capitalAdeudado: carpetaRaw.capitalAdeudado,
+            demanda: newDemanda,
+            deudor: newDeudor,
+            grupo: carpetaRaw.grupo,
+            id: Number(carpetaRaw.id ?? '0'),
+            numero: carpetaRaw.numero,
+            llaveProceso: carpetaRaw.llaveProceso,
+            idProceso: 0,
+            tipoProceso: carpetaRaw.tipoProceso
+        };
+        fs.writeFile(`./carpetas/${mkdirDir}/${newCarpeta.numero}.json`, JSON.stringify(newCarpeta));
+        const collection = await (0, mongodb_1.carpetasCollection)();
+        const findNinsert = await collection.findOneAndUpdate({ numero: newCarpeta.numero }, { $set: newCarpeta }, {
+            upsert: true,
+            returnDocument: 'after'
+        });
+        console.log(`${findNinsert.ok} para la update de carpetasCollection sin idProceso`);
+        carpetasPeridProceso.set(newCarpeta.numero, findNinsert.value ?? newCarpeta);
+    }
+    return Array.from(carpetasPeridProceso.values());
 }
 exports.transformRawtoCarpeta = transformRawtoCarpeta;
 async function mapCarpetas({ carpetas }) {
     const newCarpetasMap = [];
     for (const carpeta of carpetas) {
         const indexOf = carpetas.indexOf(carpeta);
-        const newCarpeta = await transformRawtoCarpeta({
+        const newCarpetas = await transformRawtoCarpeta({
             carpetaRaw: carpeta,
             index: indexOf
         });
-        newCarpetasMap.push(newCarpeta);
+        newCarpetas.forEach((newcarpeta) => {
+            newCarpetasMap.push(newcarpeta);
+        });
         fs.writeFile('insideForOfcarpetas.json', JSON.stringify(newCarpetasMap));
     }
     fs.writeFile('carpetas.json', JSON.stringify(newCarpetasMap));
-    if (carpetas.length === newCarpetasMap.length) {
-        const updateCarp = await (0, mongodb_1.default)({ carpetas: newCarpetasMap });
-        console.log(` se actuaclizaron ${JSON.stringify(updateCarp)}`);
-    }
     return newCarpetasMap;
 }
 exports.default = mapCarpetas;
 mapCarpetas({ carpetas: carpetas_1.default })
     .then(ff => {
-    return ff;
+    return console.log(ff);
 }, rr => {
-    return rr;
+    return console.log(rr);
 });
