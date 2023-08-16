@@ -92,7 +92,7 @@ export interface IntCarpeta
   id: number;
   idProceso?: number;
 
-  llaveProceso?: string;
+  llaveProceso: string | null;
   numero: number;
   tipoProceso?: TipoProceso;
 }

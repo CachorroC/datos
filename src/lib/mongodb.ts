@@ -27,7 +27,7 @@ export const carpetasCollection = async () => {
   return carpetas;
 };
 
-export default  async function updateCarpetas(
+export async function updateCarpetas(
   {
     carpetas
   }: {
@@ -35,6 +35,7 @@ export default  async function updateCarpetas(
 }
 ) {
   const collection = await carpetasCollection();
+
   const newCarps = new Map();
 
   for ( const carpeta of carpetas ) {
@@ -59,3 +60,21 @@ export default  async function updateCarpetas(
 
   return result;
 }
+
+
+export async function fixNullishLLaveProcesos () {
+  const collection = await carpetasCollection();
+
+  const updateNullllaveProceso = await collection.updateMany(
+    { llaveProceso: null }, { $set: { llaveProceso: 'sinEspecificar' } }, { upsert: false }
+  );
+  console.log(
+    `se encontraron ${ updateNullllaveProceso.matchedCount } procesos, de los cuales se actualizaron ${ updateNullllaveProceso.modifiedCount }`
+  );
+
+  return updateNullllaveProceso.acknowledged;
+}
+
+
+fixNullishLLaveProcesos()
+console.log(fixNullishLLaveProcesos());
