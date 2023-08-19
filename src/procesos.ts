@@ -1,46 +1,33 @@
-import * as fs from 'fs/promises';
 import { intConsultaNumeroRadicacion } from './types/procesos';
 
 export function sleep(
-  ms: number 
+  ms: number
 ) {
   return new Promise(
     (
-      resolve 
+      resolve
     ) => {
       console.log(
-        ms 
+        ms
       );
 
       return setTimeout(
-        resolve, ms 
+        resolve, ms
       );
-    } 
+    }
   );
 }
 
 export default async function fetchProceso(
   {
-    llaveProceso,
-    index,
-    id
+    llaveProceso
   }: {
   llaveProceso: string;
-  index: number;
-  id: number;
-} 
+}
 ) {
-  const awaitTime = index * 10;
-  await sleep(
-    awaitTime 
-  );
+
   console.log(
     `el largo de la llave es ${ llaveProceso.length }`
-  );
-  console.log(
-    `llave es sin especificar ${
-      llaveProceso === 'sin especificar'
-    }`
   );
 
   if (
@@ -56,36 +43,16 @@ export default async function fetchProceso(
     );
 
     if ( !req.ok ) {
-      fs.writeFile(
-        `./carpetas/${ id }/notOkprocesos.json`,
-        JSON.stringify(
-          req 
-        )
-      );
-
       return [];
     }
 
     const res
       = ( await req.json() ) as intConsultaNumeroRadicacion;
 
-    fs.writeFile(
-      `./carpetas/${ id }/procesos.json`,
-      JSON.stringify(
-        res 
-      )
-    );
-
     const procesos = res.procesos;
 
     return procesos;
   } catch ( error ) {
-    fs.writeFile(
-      `./carpetas/${ id }/networkError.json`,
-      JSON.stringify(
-        error 
-      )
-    );
 
     return [];
   }

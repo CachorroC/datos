@@ -4,8 +4,6 @@
 //
 //   const intCarpetaRaw = Convert.toIntCarpetaRaw(json);
 
-import { Result } from './rama-judicial';
-
 export interface IntCarpetaRaw {
   llaveProceso: number | string;
   category: Category;
@@ -22,6 +20,7 @@ export interface IntCarpeta {
   deudor: IntDeudor;
   numero: number;
   tipoProceso: TipoProcesoRaw;
+  idProceso?: number
 }
 
 export type Category =
@@ -61,7 +60,7 @@ export interface DeudorRaw {
   cedula: number | string;
   direccion: number | string;
   email: number | string;
-  nombre: string;
+  nombre?: string;
   telefono: number | string;
 }
 
@@ -83,7 +82,7 @@ export interface IntTel {
 
 export interface IntDemanda {
   capitalAdeudado: number;
-  departamento: Result | null;
+  departamento: { idCatalogoDetalle: number; idCatalogoDetallePadre: number; descripcion: string; codigo: string; } | null;
   entregagarantiasAbogado: Date;
   etapaProcesal?: string;
   fechaPresentacion?: Date;

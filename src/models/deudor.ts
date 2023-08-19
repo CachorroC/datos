@@ -1,68 +1,41 @@
-import { IntDeudor,
+import { DeudorRaw, IntDeudor,
          IntTel } from '../types/carpetas';
-import { Carpetas } from '../data/carpetas';
-import * as fs from 'fs/promises';
-import { MongoClient } from 'mongodb';
-
-const uri
-  = 'mongodb+srv://cachorro_cami:Tengo1amo@cluster0.ffbyjzl.mongodb.net/?retryWrites=true&w=majority';
-
-export const deudoresCollection = async () => {
-  const client = new MongoClient(
-    uri 
-  );
-
-  if ( !client ) {
-    throw new Error(
-      'no hay cliente mongólico' 
-    );
-  }
-
-  const db = client.db(
-    'RyS' 
-  );
-
-  const carpetas
-    = db.collection<IntDeudor>(
-      'Deudores' 
-    );
-
-  return carpetas;
-};
 
 export class Tel implements IntTel {
   fijo: number;
   celular: number;
   constructor(
-    telefono: unknown 
+    telefono : string | number
   ) {
     const telefonoStringRaw
       = telefono?.toString();
 
     const celularStringArray
       = telefonoStringRaw?.match(
-        /\d{10}/g 
+        /\d{10}/g
       );
 
     const fijoStringArray
       = telefonoStringRaw?.match(
-        /\d{7}\s/g 
+        /\d{7}\s/g
       );
+    console.log(
+      fijoStringArray
+    );
+    console.log(
+      celularStringArray
+    );
 
-    const fijoString = fijoStringArray
-      ? fijoStringArray[ 0 ]
-      : '0';
+    const fijoString =  fijoStringArray?.toString();
 
-    const celularString = celularStringArray
-      ? celularStringArray[ 0 ]
-      : '0';
+    const celularString = celularStringArray?.toString();
 
     const celularNumber = Number(
-      celularString 
+      celularString
     );
 
     const fijoNumber = Number(
-      fijoString 
+      fijoString
     );
 
     this.fijo = fijoNumber;
@@ -78,25 +51,21 @@ export class Deudor implements IntDeudor {
       email,
       nombre,
       telefono
-    }: {
-    cedula: number | string;
-    direccion?: number | string;
-    email?: number | string;
-    nombre: string;
-    telefono: string | number;
-  } 
+    }: DeudorRaw
   ) {
     this.cedula = Number(
-      cedula 
+      cedula
     );
     this.direccion = direccion?.toString();
     this.email = email?.toLocaleString();
     this.tel = new Tel(
-      telefono 
+      telefono
     );
 
-    const nameStringArray = nombre.split(
-      ' ' 
+    const name = nombre ?? 'Sin Especificar';
+
+    const nameStringArray = name.split(
+      ' '
     );
 
     const nameArrayLength
@@ -164,79 +133,3 @@ export class Deudor implements IntDeudor {
   direccion?: string | undefined;
   email?: string | undefined;
 }
-
-export const Deudores = Carpetas.map(
-  (
-    carpeta 
-  ) => {
-    const newDeudor = new Deudor(
-      carpeta.deudor 
-    );
-
-    console.log(
-      newDeudor 
-    );
-
-    return newDeudor;
-  }
-);
-
-fs.writeFile(
-  'newDeudores.json',
-  JSON.stringify(
-    Deudores 
-  )
-);
-
-console.log(
-  Deudores 
-);
-
-async function insertDeudores(
-  deudores: Deudor[]
-) {
-  const collection = await deudoresCollection();
-
-  const insertM = await collection.insertMany(
-    deudores
-  );
-
-  console.log(
-    insertM.insertedCount 
-  );
-
-  return insertM.acknowledged;
-}
-
-console.log(
-  insertDeudores(
-    Deudores 
-  )
-        .then(
-          (
-            ff 
-          ) => {
-            return console.log(
-              ff 
-            );
-          },
-          (
-            rr 
-          ) => {
-            return console.log(
-              rr 
-            );
-          }
-        )
-        .catch(
-          (
-            err 
-          ) => {
-            return console.log(
-              JSON.stringify(
-                err 
-              ) 
-            );
-          } 
-        )
-);

@@ -1,6 +1,6 @@
 import { IntCarpetaRaw } from '../types/carpetas';
 
-export const Carpetas: IntCarpetaRaw[] = [
+const Carpetas: IntCarpetaRaw[] = [
   {
     numero  : 1,
     category: 'Terminados',
@@ -228,9 +228,8 @@ export const Carpetas: IntCarpetaRaw[] = [
     numero  : 9,
     category: 'Terminados',
     deudor  : {
-      cedula: 1020731500,
-      nombre:
-        'DANIELA ALEJANDRA CARDENAS RODRIGUEZ',
+      cedula   : 1020731500,
+      nombre   : 'DANIELA ALEJANDRA CARDENAS RODRIGUEZ',
       telefono : '1020731500 / 3105583907',
       email    : 'dany_aleja@hotmail.com',
       direccion: 'DIAGONAL 77  B No 19 A - 73'
@@ -6321,9 +6320,8 @@ export const Carpetas: IntCarpetaRaw[] = [
     numero  : 229,
     category: 'Terminados',
     deudor  : {
-      cedula: 52818428,
-      nombre:
-        'JENNIFER ALEJANDRA MOGOLLÓN BERNAL ',
+      cedula   : 52818428,
+      nombre   : 'JENNIFER ALEJANDRA MOGOLLÓN BERNAL ',
       telefono : 4166717,
       email    : 'alejandramogollonbernal@gmail.com',
       direccion: 'CALLE 24D # 72A - 81  CASA 9'
@@ -6463,9 +6461,8 @@ export const Carpetas: IntCarpetaRaw[] = [
     numero  : 234,
     category: 'Terminados',
     deudor  : {
-      cedula: 16940930,
-      nombre:
-        'MAURICIO ALEXANDER AGUIRRE BERMUDEZ',
+      cedula   : 16940930,
+      nombre   : 'MAURICIO ALEXANDER AGUIRRE BERMUDEZ',
       telefono : '7451585 /3052392765',
       email    : 'mauricio.aguirre@bav.sabmiller',
       direccion: 'CALLE 152 12 35 INT 7'
@@ -15878,3 +15875,5 @@ export const Carpetas: IntCarpetaRaw[] = [
     llaveProceso: ''
   }
 ];
+
+export default Carpetas;

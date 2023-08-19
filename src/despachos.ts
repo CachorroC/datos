@@ -1,3 +1,5 @@
+import { Juzgado } from './types/carpetas';
+
 export const Despachos = [
   {
     agrupacion  : 'SIN SECCIÓN',
@@ -37245,12 +37247,12 @@ export const Despachos = [
   }
 ];
 
-export default function transformDespacho(
+export function transformDespacho(
   juzgado: Juzgado
 ) {
   const matchedDespacho = Despachos.filter(
     (
-      despacho 
+      despacho
     ) => {
       return (
         despacho.nombre.trim()
