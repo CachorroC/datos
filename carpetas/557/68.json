@@ -1,0 +1,31 @@
+{
+  "capitalAdeudado": 49329779,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "juzgado": [],
+    "obligacion": [
+      840093593,
+      "PAGARE SIN NUMERO T. AMERICAN EXPRESS 0377844069636757"
+    ],
+    "vencimientoPagare": null
+  },
+  "deudor": {
+    "cedula": 71685758,
+    "primerNombre": "CARLOS",
+    "primerApellido": "HERNEY",
+    "segundoApellido": "QUINTERO",
+    "tel": {
+      "celular": 3002985587,
+      "fijo": 6485655
+    },
+    "email": "cahequi8097@gmail.com  fundaoyuki@gmail.com",
+    "direccion": "KR 32 A 1 19 BARRIO SANTA MATILDE"
+  },
+  "grupo": "Bancolombia",
+  "id": 71685758,
+  "numero": 557,
+  "idProcesos": [],
+  "tipoProceso": "SINGULAR"
+}

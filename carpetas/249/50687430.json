@@ -1,0 +1,46 @@
+{
+  "capitalAdeudado": 44933312,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 16,
+        "tipo": "Civil Municipal",
+        "url": "sin especificar"
+      },
+      {
+        "id": 18,
+        "tipo": "Civil Municipal de Ejecucion",
+        "url": "sin especificar"
+      }
+    ],
+    "obligacion": [
+      377813517259835,
+      "377814405234039 // 45130727777594186 // 5491572487025564 // AUDIOPRESTAMO"
+    ],
+    "radicado": "2017 - 00875",
+    "vencimientoPagare": null
+  },
+  "deudor": {
+    "cedula": 19069228,
+    "primerNombre": "JORGE",
+    "segundoNombre": "ALBERTO",
+    "primerApellido": "MARTINEZ",
+    "segundoApellido": "BENDEK",
+    "tel": {
+      "celular": 3134749213,
+      "fijo": 6701643
+    },
+    "email": "jorgemar24@gmail.com",
+    "direccion": "CARRERA 15 # 188 - 39"
+  },
+  "grupo": "Reintegra",
+  "numero": 249,
+  "llaveProceso": "11001400301620170087500",
+  "idProceso": 50687430,
+  "tipoProceso": "SINGULAR",
+  "id": 19069228
+}

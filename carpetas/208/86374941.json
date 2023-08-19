@@ -1,0 +1,34 @@
+{
+  "capitalAdeudado": 27819415,
+  "demanda": {
+    "ciudad": "SOACHA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 2,
+        "tipo": "Civil Municipal",
+        "url": "sin especificar"
+      }
+    ],
+    "obligacion": [12725973],
+    "radicado": "2017 - 00265",
+    "vencimientoPagare": "2020-08-15T00:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 80357801,
+    "primerNombre": "JEOVANY",
+    "primerApellido": "ROJAS",
+    "segundoApellido": "CRUZ",
+    "tel": { "celular": 0, "fijo": 0 },
+    "email": "jeovanyrojas@outlook.com",
+    "direccion": "CALLE 34 # 1A - 40 CASA 247"
+  },
+  "grupo": "Reintegra",
+  "numero": 208,
+  "llaveProceso": "25754400300220170026500",
+  "idProceso": 86374941,
+  "tipoProceso": "PRENDARIO",
+  "id": 80357801
+}

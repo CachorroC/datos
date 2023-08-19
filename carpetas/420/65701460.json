@@ -1,0 +1,46 @@
+{
+  "capitalAdeudado": 10382732,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-01-12T05:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 6319,
+        "tipo": "Civil Municipal/Civil Municipal de Ejecucion",
+        "url": "sin especificar"
+      },
+      {
+        "id": 0,
+        "tipo": "SINGULAR",
+        "url": "sin especificar"
+      }
+    ],
+    "obligacion": [
+      "377813451010780 / 4513070410107739",
+      5303710165958750
+    ],
+    "radicado": 1.100140030632017e22,
+    "vencimientoPagare": "2020-08-07T05:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 52773230,
+    "primerNombre": "DIANA",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "BARRETO",
+    "segundoApellido": "OSMA",
+    "tel": {
+      "celular": 3107706773,
+      "fijo": 3085025
+    },
+    "email": "N / A",
+    "direccion": "CALLE 42 No 78 H - 38 SUR"
+  },
+  "grupo": "Reintegra",
+  "numero": 420,
+  "llaveProceso": "11001400306320170129000",
+  "idProceso": 65701460,
+  "tipoProceso": "HMM PISO 1",
+  "id": 52773230
+}

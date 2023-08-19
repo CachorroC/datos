@@ -6027,41 +6027,58 @@ const uri
   = 'mongodb+srv://cachorro_cami:Tengo1amo@cluster0.ffbyjzl.mongodb.net/?retryWrites=true&w=majority';
 
 export const carpetasCollection = async () => {
-  const client = new MongoClient( uri );
+  const client = new MongoClient(
+    uri 
+  );
 
   if ( !client ) {
-    throw new Error( 'no hay cliente mongólico' );
+    throw new Error(
+      'no hay cliente mongólico' 
+    );
   }
-  const db = client.db( 'RyS' );
+
+  const db = client.db(
+    'RyS' 
+  );
 
   const carpetas
-    = db.collection<IntCarpeta>( 'Carpetas' );
+    = db.collection<IntCarpeta>(
+      'Carpetas' 
+    );
 
   return carpetas;
 };
+
 // Replace the uri string with your MongoDB deployment's connection string.
-const client = new MongoClient( uri );
+const client = new MongoClient(
+  uri 
+);
 
 async function run() {
   try {
-    const database = client.db( 'RyS' );
+    const database = client.db(
+      'RyS' 
+    );
 
     // Specifying a schema is optional, but it enables type hints on
     // finds and inserts
-    const foods
-      = database.collection( 'Carpetas' );
+    const foods = database.collection(
+      'Carpetas' 
+    );
 
     const result = await foods.insertMany(
       carpetas,
-      {
-        ordered: true
-      }
+      { ordered: true }
     );
-    console.log( `${ result.insertedCount } documents were inserted` );
+    console.log(
+      `${ result.insertedCount } documents were inserted`
+    );
   } finally {
     await client.close();
   }
 }
 run();
 
-console.log( run() );
+console.log(
+  run() 
+);

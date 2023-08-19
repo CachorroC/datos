@@ -1,240 +1,126 @@
-
-export interface intConsultaNumeroRadicacion {
-  tipoConsulta: string;
-  procesos: intProceso[];
-  parametros: intParametros;
-  paginacion: intPaginacion;
-}
-
-export interface intPaginacion {
-  cantidadRegistros: number;
-  registrosPagina: number;
-  cantidadPaginas: number;
-  pagina: number;
-  paginas: null;
-}
-
-export interface intParametros {
-  numero: string;
-  nombre: null;
-  tipoPersona: null;
-  idSujeto: null;
-  ponente: null;
-  claseProceso: null;
-  codificacionDespacho: null;
-  soloActivos: boolean;
-}
-
-export interface intProceso {
-  idProceso: number;
-  idConexion: number;
-  llaveProceso: string;
-  fechaProceso?: string | null;
-  fechaUltimaActuacion?: string | null;
-  despacho: string;
-  departamento: string;
-  sujetosProcesales: string;
-  esPrivado: boolean;
-  cantFilas: number;
-}
-
 // To parse this data:
 //
 //   import { Convert } from "./file";
 //
+//   const intCarpetaRaw = Convert.toIntCarpetaRaw(json);
 
+import { Result } from './rama-judicial';
 
 export interface IntCarpetaRaw {
-
-    capitalAdeudado: number;
-    demanda:         rawDemanda;
-    deudor:          rawDeudor;
-    fecha?:          string;
-    grupo:           Grupo;
-    id:              number | null;
-    idProceso?:      number;
-    llaveProceso?:   string;
-    numero:          number;
-    tipoProceso?:    TipoProceso;
-    fechas?:         string[];
-    nombre?:         string;
-    idProcesos?:     Array<number[] | number>;
+  llaveProceso: number | string;
+  category: Category;
+  demanda: DemandaRaw;
+  deudor: DeudorRaw;
+  numero: number;
+  tipoProceso: TipoProcesoRaw;
 }
-
-
-export interface rawDemanda {
-    ciudad?:                 string;
-    departamento?:           Departamento;
-    entregaGarantiasAbogado: string | null;
-    etapaProcesal?:          string;
-    juzgado:                 rawJuzgado[];
-    obligacion?:             ( number | string )[];
-    radicado?:               number | string;
-    vencimientoPagare:       string | null;
-}
-
-
-export interface rawDeudor {
-    cedula:           number | string;
-    direccion?:       string;
-    primerApellido:   string;
-    primerNombre:     string;
-    segundoApellido?: string;
-    segundoNombre?:   string;
-    tel:              Tel;
-    email?:           number | string;
-}
-//   const intCarpeta = Convert.toIntCarpeta(json);
 
 export interface IntCarpeta {
-  capitalAdeudado: number;
-  demanda: Demanda;
-  deudor: Deudor;
-  grupo: Grupo;
-  id: number;
-  idProcesos?: number[];
-
   llaveProceso?: string;
+  category: Category;
+  demanda: IntDemanda;
+  deudor: IntDeudor;
   numero: number;
-  tipoProceso?: TipoProceso;
+  tipoProceso: TipoProcesoRaw;
 }
 
-export interface Demanda {
-  ciudad?: string;
-  departamento?: Departamento;
-  entregaGarantiasAbogado: Date;
-  etapaProcesal?: string;
-  juzgado: Juzgado[];
-  obligacion?: ( number | string )[];
-  radicado?: number | string;
-  vencimientoPagare?: Date;
-}
-
-export type Departamento =
-  | 'CUNDINAMARCA'
-  | 'TOLIMA'
-  | 'BOYACÁ';
-
-export interface DespachoActivo {
-  tipo: Tipo;
-  id: number | string;
-  url?: string;
-}
-
-export type Tipo =
-  | 'unknown'
-  | 'Civil Municipal de Ejecucion'
-  | 'Civil Municipal'
-  | ' CCTO EJ'
-  | ' CIVIL CTO'
-  | ' PM'
-  | ' C CTO E'
-  | 'Pequeñas Causas y Competencias Multiples'
-  | 'Civil Municipal/ Civil Municipal'
-  | ' CCTOEJ'
-  | 'Civil Municipal // Civil Municipal'
-  | ' CCTO/ CCTOE'
-  | 'Civil Municipal //  PCCivil Municipal'
-  | 'Civil Municipal DESG / Civil Municipal'
-  | '  Pequeñas Causas y Competencias Multiples'
-  | 'SINGULAR'
-  | ' Pequeñas Causas y Competencias Multiples'
-  | ' Pequeñas Causas y Competencias Multiples/ Civil Municipal'
-  | 'Civil Municipal / PCC'
-  | ' CCTO'
-  | 'Civil Municipal/Civil Municipal'
-  | ' CC'
-  | 'Civil Municipal/Civil Municipal de Ejecucion'
-  | ' Civil Municipal';
-
-export interface Juzgado {
-    id:   number;
-    tipo: string;
-    url: string;
-}
-
-export interface rawJuzgado {
-    id:   number;
-    tipo: string;
-    url?: string;
-}
-
-export interface Deudor {
-  cedula: number;
-  primerNombre: string;
-  segundoNombre?: string;
-  primerApellido: string;
-  segundoApellido?: string;
-  tel: Tel;
-  email?:  string;
-  direccion?: string;
-}
-
-export interface Tel {
-  fijo: number
-  celular: number;
-}
-
-export type Grupo =
+export type Category =
   | 'Terminados'
   | 'LiosJuridicos'
   | 'Bancolombia'
   | 'Reintegra'
   | 'Insolvencia';
 
-export type TipoProceso =
-  | 'PRENDARIO'
-  | 'HIPOTECARIO'
-  | 'SINGULAR'
-  | 'HMM PISO 1';
-
-// Converts JSON strings to/from your types
-export class Convert {
-  public static toIntCarpeta( json: string ): IntCarpeta {
-    return JSON.parse( json );
-  }
-
-  public static intCarpetaToJson( value: IntCarpeta ): string {
-    return JSON.stringify( value );
-  }
-
-  public static toDemanda( json: string ): Demanda {
-    return JSON.parse( json );
-  }
-
-  public static demandaToJson( value: Demanda ): string {
-    return JSON.stringify( value );
-  }
-
-  public static toDespachoActivo( json: string ): DespachoActivo {
-    return JSON.parse( json );
-  }
-
-  public static despachoActivoToJson( value: DespachoActivo ): string {
-    return JSON.stringify( value );
-  }
-
-  public static toJuzgado( json: string ): Juzgado {
-    return JSON.parse( json );
-  }
-
-  public static juzgadoToJson( value: Juzgado ): string {
-    return JSON.stringify( value );
-  }
-
-  public static toDeudor( json: string ): Deudor {
-    return JSON.parse( json );
-  }
-
-  public static deudorToJson( value: Deudor ): string {
-    return JSON.stringify( value );
-  }
-
-  public static toTel( json: string ): Tel {
-    return JSON.parse( json );
-  }
-
-  public static telToJson( value: Tel ): string {
-    return JSON.stringify( value );
-  }
+export interface DemandaRaw {
+  capitalAdeudado: number | string;
+  departamento: DepartamentoRaw;
+  entregagarantiasAbogado: number | string;
+  etapaProcesal?: number | string;
+  fechaPresentacion?: number | string;
+  municipio: string;
+  obligacion: { [key: string]: number | string };
+  radicado: number | string;
+  vencimientoPagare: number | string;
 }
+
+export type DepartamentoRaw =
+  | 'CUNDINAMARCA'
+  | 'CUNDINNAMARCA'
+  | 'CUNDINAMARCA '
+  | '18/01/2018'
+  | 'SINGULAR'
+  | 'HIPOTECARIO'
+  | 'TOLIMA'
+  | 'CUN DINAMARCA'
+  | 'CUNDINNAMARCA '
+  | 'BOYACÁ'
+  | 'CUNDINAMRCA'
+  | 'CNDINAMARCA';
+
+export interface DeudorRaw {
+  cedula: number | string;
+  direccion: number | string;
+  email: number | string;
+  nombre: string;
+  telefono: number | string;
+}
+
+export interface IntDeudor {
+  cedula: number;
+  direccion?: string;
+  email?: string;
+  primerNombre: string;
+  segundoNombre?: string;
+  primerApellido: string;
+  segundoApellido?: string;
+  tel: IntTel;
+}
+
+export interface IntTel {
+  fijo: number;
+  celular: number;
+}
+
+export interface IntDemanda {
+  capitalAdeudado: number;
+  departamento: Result | null;
+  entregagarantiasAbogado: Date;
+  etapaProcesal?: string;
+  fechaPresentacion?: Date;
+  municipio: string;
+  obligacion: { [key: string]: number | string };
+  radicado: string;
+  vencimientoPagare?: Date;
+  expediente?: string;
+  juzgados: Juzgado[];
+}
+
+export interface Juzgado {
+  id: number;
+  tipo: string;
+  url: string;
+}
+
+export type TipoProcesoRaw =
+  | 'HIPOTECARIO'
+  | 'PRENDARIO'
+  | 'SINGULAR'
+  | 'SINGULAR ACUMULADO CON HIPOTECARIO'
+  | 'SINGULAR ACUM HIPOTECARIO'
+  | '11001400308320170071700'
+  | '25473418900120170092400'
+  | 'PRENDARO'
+  | ' HIPOTECARIO'
+  | 'HMM PISO 1'
+  | '  SINGULAR'
+  | 'HIPOTECARIA'
+  | 'HIPOTECARO'
+  | 'SINGULAR ACUMULADO CON HIPOTECARIO CAJA SOCIAL'
+  | 'SOACHA'
+  | 'HIPOTECARIO ';
+
+export type TipoProceso =
+  | 'HIPOTECARIO'
+  | 'PRENDARIO'
+  | 'SINGULAR'
+  | 'SINGULAR ACUMULADO HIPOTECARIO';

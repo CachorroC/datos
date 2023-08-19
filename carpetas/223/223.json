@@ -1,0 +1,46 @@
+{
+  "capitalAdeudado": 43653352,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 55,
+        "tipo": "Civil Municipal",
+        "url": "sin especificar"
+      },
+      {
+        "id": 15,
+        "tipo": "Civil Municipal de Ejecucion",
+        "url": "sin especificar"
+      }
+    ],
+    "obligacion": [
+      11903330957,
+      "377816208286710 // 4513083951499464 // 5176407001878614 // 5303720129694960 // AUDIOPRESTAMO"
+    ],
+    "radicado": "2017 - 00860",
+    "vencimientoPagare": null
+  },
+  "deudor": {
+    "cedula": 17174720,
+    "primerNombre": "GERARDO",
+    "segundoNombre": "ANTONIO",
+    "primerApellido": "MONCADA",
+    "segundoApellido": "VEGA",
+    "tel": {
+      "celular": 3153330306,
+      "fijo": 3349755
+    },
+    "email": "gerardomoncada70@hotmail.com",
+    "direccion": "CALLE 159 # 15 - 45"
+  },
+  "grupo": "Reintegra",
+  "id": 17174720,
+  "numero": 223,
+  "llaveProceso": "11001400305520170086000",
+  "idProceso": 0,
+  "tipoProceso": "SINGULAR"
+}

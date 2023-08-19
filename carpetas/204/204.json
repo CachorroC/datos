@@ -1,0 +1,34 @@
+{
+  "capitalAdeudado": 41990538,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-28T00:00:00.000Z",
+    "etapaProcesal": "EJECUCION",
+    "juzgado": [
+      {
+        "id": 45,
+        "tipo": "Civil Municipal",
+        "url": "sin especificar"
+      }
+    ],
+    "obligacion": [12743098],
+    "radicado": "2017 - 01063",
+    "vencimientoPagare": "2020-08-23T00:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 46679232,
+    "primerNombre": "FLOR",
+    "primerApellido": "ESPERANZA",
+    "segundoApellido": "GUTIERREZ",
+    "tel": { "celular": 0, "fijo": 5754502 },
+    "email": "carito220@hotmail.es",
+    "direccion": "CARRERA 34 # 9 - 60"
+  },
+  "grupo": "Reintegra",
+  "id": 46679232,
+  "numero": 204,
+  "llaveProceso": "11001400304520170106300",
+  "idProceso": 0,
+  "tipoProceso": "PRENDARIO"
+}

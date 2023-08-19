@@ -1,0 +1,37 @@
+{
+  "capitalAdeudado": 24807317,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-08-10T05:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 13,
+        "tipo": " Pequeñas Causas y Competencias Multiples",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-13-de-pequenas-causas-y-competencias-multiples-de-bogota"
+      }
+    ],
+    "obligacion": [
+      "20990123680  7/  377813468472239",
+      "4513079359765043 // 53037220341399596"
+    ],
+    "radicado": "2019 - 00708",
+    "vencimientoPagare": null
+  },
+  "deudor": {
+    "cedula": 3208569,
+    "primerNombre": "FLORESMIRO",
+    "primerApellido": "APONTE",
+    "segundoApellido": "ACOSTA",
+    "tel": { "celular": 0, "fijo": 3208569 },
+    "email": "dcentro@pcpplasticos.com",
+    "direccion": "DIAGONAL 77B No 119 A-74 APTO 504 INT6"
+  },
+  "grupo": "Bancolombia",
+  "id": 3208569,
+  "numero": 499,
+  "llaveProceso": "11001418901320190070800",
+  "idProcesos": [],
+  "tipoProceso": "HIPOTECARIO"
+}

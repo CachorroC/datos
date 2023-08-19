@@ -1,0 +1,36 @@
+{
+  "capitalAdeudado": 12537973,
+  "demanda": {
+    "ciudad": "CHOCONTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-05-19T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE CHOCONTÁ ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-001-civil-municipal-de-choconta"
+      }
+    ],
+    "obligacion": [
+      53037139326557900, 4099839496308260
+    ],
+    "radicado": "2017-00106",
+    "vencimientoPagare": null
+  },
+  "deudor": {
+    "cedula": 11251297,
+    "primerNombre": "ALVARO",
+    "primerApellido": "RODRIGUEZ",
+    "segundoApellido": "ALONSO",
+    "tel": { "celular": 3166182970, "fijo": 0 },
+    "email": "alvaro.r@live.com",
+    "direccion": "Carrera 2B No.14-04 BARRIO VILLA ALEJANDRA CHOCONTA"
+  },
+  "grupo": "Reintegra",
+  "id": 11251297,
+  "numero": 46,
+  "llaveProceso": "25183400300120170010600",
+  "idProcesos": [86212261],
+  "tipoProceso": "PRENDARIO"
+}

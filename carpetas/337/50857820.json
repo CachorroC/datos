@@ -1,0 +1,41 @@
+{
+  "capitalAdeudado": 99119191,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-11-16T00:00:00.000Z",
+    "juzgado": [
+      {
+        "id": 6,
+        "tipo": "Civil Municipal",
+        "url": "sin especificar"
+      },
+      {
+        "id": 4,
+        "tipo": "Civil Municipal de Ejecucion",
+        "url": "sin especificar"
+      }
+    ],
+    "obligacion": [140085],
+    "radicado": "2017 - 00964",
+    "vencimientoPagare": "2026-06-22T00:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 79666742,
+    "primerNombre": "HECTOR",
+    "segundoNombre": "ALFONSO",
+    "primerApellido": "TORRES",
+    "segundoApellido": "RIOS",
+    "tel": {
+      "celular": 3115030138,
+      "fijo": 7651426
+    },
+    "email": "rubypaez71@hotmail.com",
+    "direccion": "TRANSVERSAL 17 No  64 F - 04 CASA 1 BIFAMILIAR MARLY"
+  },
+  "grupo": "Insolvencia",
+  "numero": 337,
+  "llaveProceso": "11001400300620170096400",
+  "idProceso": 50857820,
+  "id": 79666742
+}

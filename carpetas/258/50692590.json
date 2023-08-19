@@ -1,0 +1,38 @@
+{
+  "capitalAdeudado": 18506672,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-01T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 13,
+        "tipo": "Civil Municipal",
+        "url": "sin especificar"
+      }
+    ],
+    "obligacion": [
+      5470083833,
+      "377813735559305 // 5303724061518310"
+    ],
+    "radicado": "2017 - 01178",
+    "vencimientoPagare": "2018-01-26T00:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 51740544,
+    "primerNombre": "SOL",
+    "segundoNombre": "JUDITH",
+    "primerApellido": "BUITRAGO",
+    "segundoApellido": "DUQUE",
+    "tel": { "celular": 0, "fijo": 3002001 },
+    "email": "dirfinanciera.sol@gmail.com",
+    "direccion": "CARRERA 121 # 128B - 52 BLOQUE 8 CASA 34"
+  },
+  "grupo": "Reintegra",
+  "numero": 258,
+  "llaveProceso": "11001400301320170117800",
+  "idProceso": 50692590,
+  "tipoProceso": "SINGULAR",
+  "id": 51740544
+}

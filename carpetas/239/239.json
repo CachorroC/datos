@@ -1,0 +1,33 @@
+{
+  "capitalAdeudado": 1788247698,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-13T00:00:00.000Z",
+    "juzgado": [
+      {
+        "id": 45,
+        "tipo": "Civil Municipal",
+        "url": "sin especificar"
+      }
+    ],
+    "obligacion": [20990135265],
+    "radicado": "2017 - 01164",
+    "vencimientoPagare": null
+  },
+  "deudor": {
+    "cedula": 53131901,
+    "primerNombre": "NIDIA",
+    "segundoNombre": "JACQUELINE",
+    "primerApellido": "RIVEROS",
+    "segundoApellido": "ARAQUE",
+    "tel": { "celular": 0, "fijo": 0 },
+    "direccion": "CARRERA 88C  63 SUR 67 TORRE 5 APARTAMENTO 1"
+  },
+  "grupo": "LiosJuridicos",
+  "id": 53131901,
+  "numero": 239,
+  "llaveProceso": "11001400304520170116400",
+  "idProceso": 0,
+  "tipoProceso": "HIPOTECARIO"
+}

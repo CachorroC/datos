@@ -1,0 +1,34 @@
+{
+  "capitalAdeudado": 94533343,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-11T00:00:00.000Z",
+    "etapaProcesal": "CURADOR AD LITEM",
+    "juzgado": [
+      {
+        "id": 17,
+        "tipo": "Civil Municipal",
+        "url": "sin especificar"
+      }
+    ],
+    "obligacion": [12711612],
+    "radicado": "2017 - 01195",
+    "vencimientoPagare": "2020-09-06T00:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 80259791,
+    "primerNombre": "ALIRIO",
+    "primerApellido": "HEREDIA",
+    "segundoApellido": "BUITRAGO",
+    "tel": { "celular": 0, "fijo": 2796621 },
+    "email": "gerencia.seguridadgf@gmail.com",
+    "direccion": "DIAGONAL 48 J No 5C- 34 SUR"
+  },
+  "grupo": "Reintegra",
+  "numero": 286,
+  "llaveProceso": "11001400301720170119500",
+  "idProceso": 50721470,
+  "tipoProceso": "PRENDARIO",
+  "id": 80259791
+}

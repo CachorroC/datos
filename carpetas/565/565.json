@@ -1,0 +1,22 @@
+{
+  "capitalAdeudado": 0,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "juzgado": [],
+    "vencimientoPagare": null
+  },
+  "deudor": {
+    "cedula": 79399032,
+    "primerNombre": "JORGE",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "ABADIA",
+    "segundoApellido": "CARRILLO",
+    "tel": { "celular": 0, "fijo": 0 }
+  },
+  "grupo": "Bancolombia",
+  "id": 79399032,
+  "numero": 565,
+  "idProceso": 0,
+  "tipoProceso": "SINGULAR"
+}

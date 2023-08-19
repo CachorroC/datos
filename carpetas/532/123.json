@@ -1,0 +1,33 @@
+{
+  "capitalAdeudado": 15324570,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2020-09-05T00:00:00.000Z",
+    "etapaProcesal": "CONTESTACIÓN DEMANDA",
+    "juzgado": [
+      {
+        "id": 5068,
+        "tipo": "JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota"
+      }
+    ],
+    "obligacion": [65886140334, 4594260446916180],
+    "radicado": "2020-1021",
+    "vencimientoPagare": null
+  },
+  "deudor": {
+    "cedula": 900520023,
+    "primerNombre": "DIMOIN",
+    "primerApellido": "COLOMBIA",
+    "segundoApellido": "S.A.S.",
+    "tel": { "celular": 0, "fijo": 0 },
+    "direccion": "AV BOYACA 63D - 26 OFICINA 103"
+  },
+  "grupo": "Bancolombia",
+  "id": 900520023,
+  "numero": 532,
+  "llaveProceso": "11001400306820200102100",
+  "idProcesos": [112628300],
+  "tipoProceso": "SINGULAR"
+}

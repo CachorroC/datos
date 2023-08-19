@@ -1,0 +1,34 @@
+{
+  "capitalAdeudado": 46109381,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-25T00:00:00.000Z",
+    "etapaProcesal": "EN EJECUCIÓN LIQUIDACIÓN CREDITO SOLICITADA A COVINOC",
+    "juzgado": [
+      {
+        "id": 6925,
+        "tipo": "Civil Municipal // Civil Municipal",
+        "url": "sin especificar"
+      }
+    ],
+    "obligacion": [12577419],
+    "radicado": "2017 - 00845",
+    "vencimientoPagare": "2020-08-11T00:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 300388244,
+    "primerNombre": "MARIA",
+    "segundoNombre": "OLGA",
+    "primerApellido": "CASTAÑEDA",
+    "segundoApellido": "PERUGACHI",
+    "tel": { "celular": 0, "fijo": 1111111 },
+    "direccion": "CALLE 15 # 15 - 45"
+  },
+  "grupo": "Reintegra",
+  "id": 300388244,
+  "numero": 243,
+  "llaveProceso": "11001400306920170084500",
+  "idProceso": 0,
+  "tipoProceso": "PRENDARIO"
+}

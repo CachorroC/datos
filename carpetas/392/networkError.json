@@ -1,0 +1,15 @@
+{
+  "cause": {
+    "name": "SocketError",
+    "code": "UND_ERR_SOCKET",
+    "socket": {
+      "localAddress": "192.168.1.102",
+      "localPort": 47384,
+      "remoteAddress": "190.217.24.69",
+      "remotePort": 448,
+      "remoteFamily": "IPv4",
+      "bytesWritten": 4074,
+      "bytesRead": 12143
+    }
+  }
+}

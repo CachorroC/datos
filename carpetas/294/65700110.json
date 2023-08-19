@@ -1,0 +1,42 @@
+{
+  "capitalAdeudado": 48498610,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 63,
+        "tipo": "Civil Municipal",
+        "url": "sin especificar"
+      },
+      {
+        "id": 1,
+        "tipo": "Civil Municipal de Ejecucion",
+        "url": "sin especificar"
+      }
+    ],
+    "obligacion": [12676248],
+    "radicado": "2017 - 00924",
+    "vencimientoPagare": "2020-09-13T00:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 79292743,
+    "direccion": "CALLE 86 A No 69 T -41  TORRE 1 APARTAMENTO 902",
+    "email": "hpulecio@cable.net.co",
+    "primerApellido": "PULECIO",
+    "primerNombre": "HERNANDO",
+    "segundoApellido": "PAREDES",
+    "tel": {
+      "celular": 0,
+      "fijo": 4619449
+    }
+  },
+  "grupo": "Reintegra",
+  "id": 79292743,
+  "idProceso": 65700110,
+  "llaveProceso": "11001400306320170092400",
+  "numero": 294,
+  "tipoProceso": "PRENDARIO"
+}

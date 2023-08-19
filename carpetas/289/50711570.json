@@ -1,0 +1,40 @@
+{
+  "capitalAdeudado": 14645611,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-11T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 18,
+        "tipo": "Civil Municipal",
+        "url": "sin especificar"
+      },
+      {
+        "id": 16,
+        "tipo": "Civil Municipal de Ejecucion",
+        "url": "sin especificar"
+      }
+    ],
+    "obligacion": [5306940432740470],
+    "radicado": "2017 - 01522",
+    "vencimientoPagare": "2020-03-22T00:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 12229243,
+    "primerNombre": "JOSE",
+    "segundoNombre": "AHINSONJOBER",
+    "primerApellido": "TORO",
+    "segundoApellido": "VARGAS",
+    "tel": { "celular": 0, "fijo": 4651401 },
+    "email": "serdiajo@gmail.com",
+    "direccion": "AVENIDA 1 DE MAYO No 29-06"
+  },
+  "grupo": "Reintegra",
+  "numero": 289,
+  "llaveProceso": "11001400301820170152200",
+  "idProceso": 50711570,
+  "tipoProceso": "SINGULAR",
+  "id": 12229243
+}

@@ -1,0 +1,29 @@
+{
+  "capitalAdeudado": 46537671,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "juzgado": [],
+    "obligacion": [
+      3880005183,
+      "PAGARE SIN NUMERO T. MASTER CARD 5303720122061696"
+    ],
+    "vencimientoPagare": null
+  },
+  "deudor": {
+    "cedula": 52531016,
+    "primerNombre": "CLAUDIA",
+    "segundoNombre": "MARCELA",
+    "primerApellido": "ARIAS",
+    "segundoApellido": "LÓPEZ",
+    "tel": { "celular": 3106736494, "fijo": 0 },
+    "email": "marcearias@yahoo.com",
+    "direccion": "Calle 18 N 86 55 Etapa 1 Torre 5 Apartamento 403 Conjunto Residencial Parque de Ostente"
+  },
+  "grupo": "Bancolombia",
+  "id": 52531016,
+  "numero": 558,
+  "idProcesos": [],
+  "tipoProceso": "SINGULAR"
+}

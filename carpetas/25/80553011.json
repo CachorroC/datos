@@ -1,0 +1,39 @@
+{
+  "capitalAdeudado": 107818114,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-05-19T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 11,
+        "tipo": "Civil del Circuito",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-011-civil-del-circuito-de-bogota"
+      },
+      {
+        "id": 1,
+        "tipo": "Ejecucion Civil del Circuito",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-del-circuito-de-bogota"
+      }
+    ],
+    "obligacion": [12705806],
+    "radicado": "2017 - 00335",
+    "vencimientoPagare": "2020-05-10T00:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 3197274,
+    "primerNombre": "OMAR",
+    "segundoNombre": "DARIO",
+    "primerApellido": "ZEA",
+    "segundoApellido": "GALVIS",
+    "tel": { "celular": 0, "fijo": 7479415 },
+    "direccion": "CL 14 No. 10 - 45 Bucaramanga"
+  },
+  "grupo": "Reintegra",
+  "numero": 25,
+  "llaveProceso": "11001310301120170033500",
+  "idProceso": 80553011,
+  "tipoProceso": "PRENDARIO",
+  "id": 3197274
+}

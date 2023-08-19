@@ -1,0 +1,37 @@
+{
+  "capitalAdeudado": 32926699,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "juzgado": [
+      {
+        "id": 29,
+        "tipo": "Civil Municipal",
+        "url": "sin especificar"
+      }
+    ],
+    "obligacion": [125348220],
+    "radicado": "2017 - 00557",
+    "vencimientoPagare": "2017-10-22T00:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 79891952,
+    "primerNombre": "RAFAEL",
+    "segundoNombre": "ERNESTO",
+    "primerApellido": "CADENA",
+    "segundoApellido": "PARGA",
+    "tel": {
+      "celular": 3157900006,
+      "fijo": 3157900
+    },
+    "email": "rafael.cadena@signsas.com",
+    "direccion": "CARRERA 13 A No. 150-25 INT 3 APTO 203"
+  },
+  "grupo": "Insolvencia",
+  "numero": 64,
+  "llaveProceso": "11001400302920170055700",
+  "idProceso": 50517510,
+  "tipoProceso": "PRENDARIO",
+  "id": 79891952
+}

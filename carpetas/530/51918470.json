@@ -1,0 +1,42 @@
+{
+  "capitalAdeudado": 14409411,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-04-21T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 81,
+        "tipo": "Civil Municipal",
+        "url": "sin especificar"
+      },
+      {
+        "id": 1,
+        "tipo": "Civil Municipal de Ejecucion",
+        "url": "sin especificar"
+      }
+    ],
+    "obligacion": [
+      40998833882814000, 5303729887314280
+    ],
+    "radicado": "2018 - 00514",
+    "vencimientoPagare": "2020-10-05T00:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 35455606,
+    "primerNombre": "MARIA",
+    "segundoNombre": "CLARA",
+    "primerApellido": "REYES",
+    "segundoApellido": "REYES",
+    "tel": { "celular": 0, "fijo": 60991181 },
+    "email": "mariaclarareyes@hotmail.com",
+    "direccion": "CALLE 175 No 70-40"
+  },
+  "grupo": "Reintegra",
+  "numero": 530,
+  "llaveProceso": "11001400308120180051400",
+  "idProceso": 51918470,
+  "tipoProceso": "SINGULAR",
+  "id": 35455606
+}

@@ -1,0 +1,43 @@
+{
+  "capitalAdeudado": 22244760,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 59,
+        "tipo": "Civil Municipal",
+        "url": "sin especificar"
+      },
+      {
+        "id": 7,
+        "tipo": "Civil Municipal de Ejecucion",
+        "url": "sin especificar"
+      }
+    ],
+    "obligacion": [1740087269],
+    "radicado": "2018 - 00090",
+    "vencimientoPagare": "2020-07-03T05:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 25126734,
+    "primerNombre": "MARIA",
+    "segundoNombre": "MARIN",
+    "primerApellido": "DE",
+    "segundoApellido": "OROZCO",
+    "tel": {
+      "celular": 3124885346,
+      "fijo": 4412100
+    },
+    "email": "mauriciosamu1128@gmail.com",
+    "direccion": "CARRERA 103 A  No 77D-22 MOLINOS- BOGOTA"
+  },
+  "grupo": "Reintegra",
+  "numero": 452,
+  "llaveProceso": "11001400305920180009000",
+  "idProceso": 50989890,
+  "tipoProceso": "SINGULAR",
+  "id": 25126734
+}

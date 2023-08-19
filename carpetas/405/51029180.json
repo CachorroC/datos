@@ -1,0 +1,42 @@
+{
+  "capitalAdeudado": 22592583,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 21,
+        "tipo": "Civil Municipal",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-021-civil-municipal-de-bogota"
+      },
+      {
+        "id": 13,
+        "tipo": "Civil Municipal de Ejecucion",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-13-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "obligacion": [87823],
+    "radicado": "2018 - 00236",
+    "vencimientoPagare": null
+  },
+  "deudor": {
+    "cedula": 79396995,
+    "primerNombre": "ARTURO",
+    "primerApellido": "LINCE",
+    "segundoApellido": "GOMEZ",
+    "tel": {
+      "celular": 31088445603,
+      "fijo": 4244358
+    },
+    "email": "arthurlingo64@hotmail.com",
+    "direccion": "CALLE 12 A No 71 B - 60"
+  },
+  "grupo": "Bancolombia",
+  "numero": 405,
+  "llaveProceso": "11001400302120180023600",
+  "idProceso": 51029180,
+  "tipoProceso": "HIPOTECARIO",
+  "id": 79396995
+}

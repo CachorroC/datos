@@ -1,0 +1,35 @@
+{
+  "capitalAdeudado": 39146947,
+  "demanda": {
+    "ciudad": "SOACHA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 2,
+        "tipo": "Civil Municipal",
+        "url": "sin especificar"
+      }
+    ],
+    "obligacion": [1000090987],
+    "radicado": "2018 - 00113",
+    "vencimientoPagare": "2019-03-08T05:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 4281808,
+    "primerNombre": "JOSE",
+    "segundoNombre": "LIBRANDO",
+    "primerApellido": "CANDELA",
+    "segundoApellido": "MUNEVAR",
+    "tel": { "celular": 0, "fijo": 7113967 },
+    "email": "eedibrando600@hotmail.com",
+    "direccion": "CALLE 1 A No 13-30  SOACHA"
+  },
+  "grupo": "Reintegra",
+  "id": 4281808,
+  "numero": 475,
+  "llaveProceso": "25754408900220180011300",
+  "idProceso": 0,
+  "tipoProceso": "SINGULAR"
+}

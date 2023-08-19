@@ -1,0 +1,20 @@
+{
+  "capitalAdeudado": 0,
+  "demanda": {
+    "entregaGarantiasAbogado": null,
+    "juzgado": [],
+    "vencimientoPagare": null
+  },
+  "deudor": {
+    "cedula": 1061047348,
+    "primerNombre": "SANDRA",
+    "segundoNombre": "MILENA",
+    "primerApellido": "PALACIO",
+    "segundoApellido": "RIVERA",
+    "tel": { "celular": 0, "fijo": 0 }
+  },
+  "grupo": "Bancolombia",
+  "id": 1061047348,
+  "numero": 566,
+  "idProcesos": []
+}

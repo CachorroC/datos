@@ -1,0 +1,38 @@
+{
+  "capitalAdeudado": 25519225,
+  "demanda": {
+    "ciudad": "BOGOTA",
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-07-19T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "juzgado": [
+      {
+        "id": 45,
+        "tipo": "Civil Municipal",
+        "url": "sin especificar"
+      },
+      {
+        "id": 2,
+        "tipo": "Civil Municipal de Ejecucion",
+        "url": "sin especificar"
+      }
+    ],
+    "obligacion": [6240082772],
+    "radicado": "2017 - 00905",
+    "vencimientoPagare": "2019-09-30T00:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 14255996,
+    "primerNombre": "URIEL",
+    "primerApellido": "RUIZ",
+    "segundoApellido": "DIAZ",
+    "tel": { "celular": 3102785072, "fijo": 0 },
+    "direccion": "CARRERA 82 A No. 6B-30 CASA 36"
+  },
+  "grupo": "Reintegra",
+  "numero": 164,
+  "llaveProceso": "11001400304520170090500",
+  "idProceso": 50593640,
+  "tipoProceso": "SINGULAR",
+  "id": 14255996
+}
