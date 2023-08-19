@@ -1,0 +1,44 @@
+{
+    "category": "Terminados",
+    "demanda": {
+        "capitalAdeudado": null,
+        "departamento": {
+            "codigo": "25",
+            "descripcion": "CUNDINAMARCA",
+            "idCatalogoDetalle": 13,
+            "idCatalogoDetallePadre": 1
+        },
+        "entregagarantiasAbogado": null,
+        "etapaProcesal": "20/09/2018",
+        "expediente": "11001400301420180078900",
+        "fechaPresentacion": "2018-02-10T05:00:00.000Z",
+        "juzgados": [
+            {
+                "id": 14,
+                "tipo": "JUZGADO 014 CIVIL MUNICIPAL DE BOGOTÁ",
+                "url": "https://www.ramajudicial.gov.co/web/juzgado-014-civil-municipal-de-bogota"
+            }
+        ],
+        "municipio": "BOGOTA",
+        "obligacion": {
+            "1": 4513089091236580,
+            "2": "12.028.842.57"
+        },
+        "radicado": "2018 - 00789",
+        "vencimientoPagare": null
+    },
+    "deudor": {
+        "cedula": 80473211,
+        "direccion": "",
+        "email": "CARRERA 102 B No 151-15 TORRE 2  APTO 1309",
+        "primerApellido": "MENDOZA",
+        "primerNombre": "GABRIEL",
+        "segundoApellido": "MORINELLY",
+        "segundoNombre": "MENDOZA",
+        "tel": {}
+    },
+    "idProceso": 51278930,
+    "llaveProceso": "11001400301420180078900",
+    "numero": 487,
+    "tipoProceso": "SINGULAR"
+}

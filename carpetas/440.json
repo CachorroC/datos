@@ -1,0 +1,41 @@
+{
+    "category": "Terminados",
+    "demanda": {
+        "capitalAdeudado": null,
+        "departamento": {
+            "codigo": "25",
+            "descripcion": "CUNDINAMARCA",
+            "idCatalogoDetalle": 13,
+            "idCatalogoDetallePadre": 1
+        },
+        "entregagarantiasAbogado": "2018-05-29T00:00:00.000Z",
+        "etapaProcesal": "ADMISION",
+        "expediente": "11001408900820180022300",
+        "fechaPresentacion": "2018-05-31T00:00:00.000Z",
+        "juzgados": [],
+        "municipio": "BOGOTA",
+        "obligacion": {
+            "1": 1330085524,
+            "2": ""
+        },
+        "radicado": "2018 - 00223",
+        "vencimientoPagare": null
+    },
+    "deudor": {
+        "cedula": 30387764,
+        "direccion": "CARRERA 13 No 13-24 OFICINA 625",
+        "email": "quirogag8878@gmail.com",
+        "primerApellido": "QUIROGA",
+        "primerNombre": "BLANCA",
+        "segundoApellido": "GIRALDO",
+        "segundoNombre": "ESTHER",
+        "tel": {
+            "celular": [
+                3107996508
+            ]
+        }
+    },
+    "llaveProceso": "11001408900820180022300",
+    "numero": 440,
+    "tipoProceso": "SINGULAR"
+}

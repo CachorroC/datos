@@ -688,7 +688,7 @@ const Carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2017 - 00335',
-      etapaProcesal          : 'EJECUCIÓN ',
+      etapaProcesal          : 'EJECUCIÓN',
       fechaPresentacion      : '2017-05-30'
     },
     tipoProceso : 'PRENDARIO',
@@ -894,7 +894,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula  : 28936365,
-      nombre  : 'NINI JOHANA CORTES MONROY ',
+      nombre  : 'NINI JOHANA CORTES MONROY',
       telefono: '4762591//3118113651',
       email   : 'snaluistol@gmail.com',
       direccion:
@@ -1230,7 +1230,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 4042105,
-      nombre   : 'EDISON PALMA CARDENAL ',
+      nombre   : 'EDISON PALMA CARDENAL',
       telefono : 3123142449,
       email    : 'N/A',
       direccion: 'SIN INFORMACION'
@@ -1312,7 +1312,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula  : 52837630,
-      nombre  : 'JENNY ADRIANA PATARROYO TORRES ',
+      nombre  : 'JENNY ADRIANA PATARROYO TORRES',
       telefono: 'F 2031266',
       email   : 'jennyadrianapt@gmail.com',
       direccion:
@@ -1326,7 +1326,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '28.468.389,30 COP',
       entregagarantiasAbogado: '2017-09-18',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2017 - 01425',
       etapaProcesal          : 1.100140030352017e22,
@@ -1369,7 +1369,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 52444244,
-      nombre   : 'GLORIA ASTRID RODRÍGUEZ BAQUERO ',
+      nombre   : 'GLORIA ASTRID RODRÍGUEZ BAQUERO',
       telefono : '3893349//3212062887',
       email    : 'gloriaaz@yahoo.com',
       direccion: 'CARRERA 54 C No. 143 S-90 '
@@ -1509,7 +1509,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula  : 80353430,
-      nombre  : 'DOUGLAS AYURE RIOS ',
+      nombre  : 'DOUGLAS AYURE RIOS',
       telefono: '8252559//3124488945',
       email   : 'faride1109@yahoo.com',
       direccion:
@@ -1537,7 +1537,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula: 52039387,
-      nombre: 'GLADYS HERNANDEZ LOPEZ ',
+      nombre: 'GLADYS HERNANDEZ LOPEZ',
       telefono:
         'F 7900454              CEL 3138551970',
       email: 'gladys12357@hotmail.com',
@@ -1566,7 +1566,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula  : 39556705,
-      nombre  : 'CARMEN CECILIA APONTE ZAMBRANO ',
+      nombre  : 'CARMEN CECILIA APONTE ZAMBRANO',
       telefono: '7500346//3102279518',
       email   : 'ceciliaaponte@hotmail.com',
       direccion:
@@ -1649,7 +1649,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 1032373332,
-      nombre   : 'LADY JOHANNA BAYONA GARCÍA  ',
+      nombre   : 'LADY JOHANNA BAYONA GARCÍA',
       telefono : 'lady.bayona@Ifgcolombia.com',
       email    : 'CRA 77 A No. 63f-47 piso 2',
       direccion: ''
@@ -1705,7 +1705,7 @@ const Carpetas: IntCarpetaRaw[] = [
       cedula  : 80722943,
       nombre  : 'LUIS EDUARDO CARRANZA BUSTOS',
       telefono: '7417183//3138253554',
-      email   : ' ',
+      email   : '',
       direccion:
         'DIAGONAL 60 SUR NO. 28-I 72 INTERIOR 3 APTO 204'
     },
@@ -1744,7 +1744,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : 20600721.7,
       entregagarantiasAbogado: '2017-09-06',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2017 - 00089',
       etapaProcesal          : 'NOTIFICACION',
@@ -2005,7 +2005,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula  : 31877993,
-      nombre  : 'SONIA MAZUERA ',
+      nombre  : 'SONIA MAZUERA',
       telefono: 'F 2333333 4432706',
       email   : 'mrocha@hotmail.com',
       direccion:
@@ -2283,7 +2283,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 19438068,
-      nombre   : 'LUIS ADOLFO PEÑA ARCINIEGAS ',
+      nombre   : 'LUIS ADOLFO PEÑA ARCINIEGAS',
       telefono : '2478114 /3115672367',
       email    : 'luisadopa@gmail.com',
       direccion: 'CARRERA 29 No 12  A - 46  '
@@ -2368,7 +2368,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Reintegra',
     deudor  : {
       cedula  : 1087781966,
-      nombre  : 'RHONALD MEZA TARAPUES ',
+      nombre  : 'RHONALD MEZA TARAPUES',
       telefono: 'F 4062925  7496611',
       email   : 'mezaronald@yahoo.com',
       direccion:
@@ -2478,7 +2478,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Bancolombia',
     deudor  : {
       cedula   : 1032432802,
-      nombre   : 'LUIS ESNEIDER ORDUZ FARFAN ',
+      nombre   : 'LUIS ESNEIDER ORDUZ FARFAN',
       telefono : 'F 4712921',
       email    : 'orduzcrit2@hotmail.com',
       direccion: 'CARRERA 95 # 138 - 58'
@@ -2534,7 +2534,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 52214536,
-      nombre   : 'MAGDA MILENA SALINAS RODRIGUEZ ',
+      nombre   : 'MAGDA MILENA SALINAS RODRIGUEZ',
       telefono : 'F 8142058',
       email    : 'magda-mile@hotmail.com',
       direccion: 'CARRERA 40A # 1H - 06'
@@ -2683,7 +2683,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '79.862.886.23',
       entregagarantiasAbogado: '2017-09-20',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2016 - 00319',
       etapaProcesal          : 'NOTIFICACION',
@@ -3384,7 +3384,7 @@ const Carpetas: IntCarpetaRaw[] = [
       nombre  : 'GUSTAVO SANTAMARIA MOSQUERA',
       telefono: 'gustavo_santamaria@hotmail.com',
       email:
-        'DIAGONAL 146 # 136A - 79 IN 3 AP 3 ',
+        'DIAGONAL 146 # 136A - 79 IN 3 AP 3',
       direccion: ''
     },
     demanda: {
@@ -3658,7 +3658,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 80820336,
-      nombre   : 'CARLOS GIOVANNY RONDON GARCIA ',
+      nombre   : 'CARLOS GIOVANNY RONDON GARCIA',
       telefono : '4316891 // 3125757941',
       email    : 'carlosrondon2008@hotmail.com',
       direccion: 'CALLE 89A BIS B 113 - 23 '
@@ -3796,7 +3796,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 52323645,
-      nombre   : 'FLOR YAMILE BARRANTES CARO ',
+      nombre   : 'FLOR YAMILE BARRANTES CARO',
       telefono : '5471164 // 3103446498',
       email    : 'ybarrantes@gmail.com',
       direccion: 'CARRERA 19 # 22C - 75 '
@@ -3906,7 +3906,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula  : 36184358,
-      nombre  : 'DEISY POLANIA CUELLAR ',
+      nombre  : 'DEISY POLANIA CUELLAR',
       telefono: 3882131,
       email   : 'N/A',
       direccion:
@@ -3961,7 +3961,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 52581513,
-      nombre   : 'MARIA FILOMENA GONZALES SALAS ',
+      nombre   : 'MARIA FILOMENA GONZALES SALAS',
       telefono : 'CEL 3124794983',
       email    : 'N/A',
       direccion: 'CALLE 136A # 100A - 07'
@@ -4046,7 +4046,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula: 80080669,
-      nombre: 'MILTON ANDRES LAITON RINCON ',
+      nombre: 'MILTON ANDRES LAITON RINCON',
       telefono:
         'F 6320923              CEL 3133912606',
       email: 'andreslaiton@hotmail.com',
@@ -4077,7 +4077,7 @@ const Carpetas: IntCarpetaRaw[] = [
       cedula  : 79505815,
       nombre  : 'NESTOR GERARDO OSORIO MORALES',
       telefono: '4109980 // 6255975',
-      email   : 'nestorg1969@hotmail.com ',
+      email   : 'nestorg1969@hotmail.com',
       direccion:
         'AERONAUTICA CIVIL AVENIDA CALLE 26 # 106 - 33 '
     },
@@ -4131,7 +4131,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 79988076,
-      nombre   : 'VICTOR TRIANA ALARCON ',
+      nombre   : 'VICTOR TRIANA ALARCON',
       telefono : '3156448 // 3156448156',
       email    : 'g.o75@hotmail.com',
       direccion: 'CALLE 136 # 157 - 91 '
@@ -4158,7 +4158,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula  : 88227428,
-      nombre  : 'ANDRES FELIPE HIGUITA CARDONA ',
+      nombre  : 'ANDRES FELIPE HIGUITA CARDONA',
       telefono: '',
       email   : 'higuitac@gmail.com',
       direccion:
@@ -4244,7 +4244,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'LiosJuridicos',
     deudor  : {
       cedula  : 79840930,
-      nombre  : 'GABRIEL EDUARDO MEJIA LADINO ',
+      nombre  : 'GABRIEL EDUARDO MEJIA LADINO',
       telefono: '7347505 // 3112945552',
       email   : 'gabriel.eml@hotmail.com',
       direccion:
@@ -4274,7 +4274,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula  : 71557211,
-      nombre  : 'CARLOS ARTURO RUEDA ALZATE ',
+      nombre  : 'CARLOS ARTURO RUEDA ALZATE',
       telefono: '',
       email   : 'ruedacarlos47@gmail.com',
       direccion:
@@ -4382,7 +4382,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula  : 98389962,
-      nombre  : 'ALLAN FREDY TOBAR ENCISO ',
+      nombre  : 'ALLAN FREDY TOBAR ENCISO',
       telefono: 3125586008,
       email   : 'allantobar@gmail.com',
       direccion:
@@ -4410,7 +4410,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 79387342,
-      nombre   : 'JAIRO ALBERTO CARRILLO SALINAS ',
+      nombre   : 'JAIRO ALBERTO CARRILLO SALINAS',
       telefono : '6047182 // 3118411820',
       email    : 'jairocarrillosa@hotmail.com',
       direccion: 'CALLE 28A SUR # 28A - 18'
@@ -4438,7 +4438,7 @@ const Carpetas: IntCarpetaRaw[] = [
     deudor  : {
       cedula: 79335809,
       nombre:
-        'RICARDO ALBERTO BELTRAN HERNANDEZ ',
+        'RICARDO ALBERTO BELTRAN HERNANDEZ',
       telefono: '3153808 // 3153808376',
       email   : 'norina@reservalaboral.com.co',
       direccion:
@@ -4466,7 +4466,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 900432476,
-      nombre   : 'MANHATTAN DOTACIONES S.A.S ',
+      nombre   : 'MANHATTAN DOTACIONES S.A.S',
       telefono : 'OK',
       email    : 7514006,
       direccion: 'N/A'
@@ -4494,7 +4494,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula  : 71557211,
-      nombre  : 'CARLOS ARTURO RUEDA ALZATE ',
+      nombre  : 'CARLOS ARTURO RUEDA ALZATE',
       telefono: '',
       email   : 'ruedacarlos47@gmail.com',
       direccion:
@@ -4575,7 +4575,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula: 52432989,
-      nombre: 'DORA AIDE PEÑA PEÑA ',
+      nombre: 'DORA AIDE PEÑA PEÑA',
       telefono:
         'F 54006426            CEL 3142403097',
       email    : 'aide116455@hotmail.com',
@@ -4603,7 +4603,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula: 79688268,
-      nombre: ' JOSE MAURICIO GONZALEZ CALDERON ',
+      nombre: ' JOSE MAURICIO GONZALEZ CALDERON',
       telefono:
         'F 4589855              CEL 3196564315',
       email: 'maurgonzal@yahoo.com',
@@ -4632,7 +4632,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 21046826,
-      nombre   : 'MARIA STELLA HERNANDEZ BELTRAN ',
+      nombre   : 'MARIA STELLA HERNANDEZ BELTRAN',
       telefono : '6861327 // 3164673352',
       email    : 'sergio830@hotmail.com',
       direccion: 'CARRERA 7 # 71 - 24'
@@ -4676,7 +4676,7 @@ const Carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2017 - 01264',
-      etapaProcesal          : 'NOTIFICACION ',
+      etapaProcesal          : 'NOTIFICACION',
       fechaPresentacion      : '2017-07-21'
     },
     tipoProceso : 'PRENDARIO',
@@ -4687,7 +4687,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 55303731,
-      nombre   : 'ISABEL CRISTINA GARCIA DURAN ',
+      nombre   : 'ISABEL CRISTINA GARCIA DURAN',
       telefono : '5514126 // 3006509338',
       email    : 'isagarcia@hotmail.com',
       direccion: 'CALLE 138 # 11B - 16 APTO 401'
@@ -4743,7 +4743,7 @@ const Carpetas: IntCarpetaRaw[] = [
     deudor  : {
       cedula: 52475256,
       nombre:
-        'ADRIANA DEL PILAR ALFONSO BAQUERO ',
+        'ADRIANA DEL PILAR ALFONSO BAQUERO',
       telefono : 6967694,
       email    : 'N/A',
       direccion: 'CARRERA 79B # 45 - 19 SUR'
@@ -4799,7 +4799,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Bancolombia',
     deudor  : {
       cedula: 52189873,
-      nombre: 'DARNELLY HERNANDEZ MARTINEZ ',
+      nombre: 'DARNELLY HERNANDEZ MARTINEZ',
       telefono:
         'F 4530972                 CEL 3144189224',
       email    : 'darnelly-74@hotmail.com',
@@ -4827,7 +4827,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula  : 91354321,
-      nombre  : 'OMAR GUSTAVO FULA AVILA ',
+      nombre  : 'OMAR GUSTAVO FULA AVILA',
       telefono: '8212461 // 3118866968',
       email   : 'omarfula@hotmail.com',
       direccion:
@@ -4855,7 +4855,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 79787268,
-      nombre   : 'JHON FREDY MURILLO DAZA ',
+      nombre   : 'JHON FREDY MURILLO DAZA',
       telefono : '7562457 // 3182221747',
       email    : 'ingedibutec@gmail.com',
       direccion: 'CALLE 26 # 103 - 09 '
@@ -4909,7 +4909,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 37861286,
-      nombre   : 'MARYLUZ OCASIONES PINZON ',
+      nombre   : 'MARYLUZ OCASIONES PINZON',
       telefono : '7675057 // 3156780088',
       email    : 'maryluzocasiones1104.p@hotmail.com',
       direccion: 'DIAGONAL 52# 3 - 24 APTO 50 '
@@ -4992,8 +4992,8 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 1033783222,
-      nombre   : 'LEONARDO ALIRIO GARCIA GUERRERO ',
-      telefono : '7177769 // 3103048137 ',
+      nombre   : 'LEONARDO ALIRIO GARCIA GUERRERO',
+      telefono : '7177769 // 3103048137',
       email    : 'leoguegar@hotmail.com',
       direccion: 'CALLE 69J # 20B - 52 '
     },
@@ -5019,7 +5019,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 11185630,
-      nombre   : 'WILSON ALFONSO JIMENEZ MENDIETA ',
+      nombre   : 'WILSON ALFONSO JIMENEZ MENDIETA',
       telefono : 'F 5714329',
       email    : 'grupocomerciallasabana@hotmail.com',
       direccion: 'CARRERA 81C # 2B - 80 PISO 2 '
@@ -5046,7 +5046,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Bancolombia',
     deudor  : {
       cedula   : 11185630,
-      nombre   : 'WILSON ALFONSO JIMENEZ MENDIETA ',
+      nombre   : 'WILSON ALFONSO JIMENEZ MENDIETA',
       telefono : 'F 5714329',
       email    : 'grupocomerciallasabana@hotmail.com',
       direccion: 'CARRERA 81C # 2B - 80 PISO 2 '
@@ -5107,11 +5107,8 @@ const Carpetas: IntCarpetaRaw[] = [
       direccion: 'CARRERA 4 ESTE # 38 - 56'
     },
     demanda: {
-      vencimientoPagare: '',
-      obligacion       : {
-        '1': '    ',
-        '2': 20990158916
-      },
+      vencimientoPagare      : '',
+      obligacion             : { '1': 20990158916 },
       capitalAdeudado        : '41262275,97',
       entregagarantiasAbogado: '2017-08-11',
       departamento           : 'CUNDINAMARCA',
@@ -5156,16 +5153,16 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula: 39624423,
-      nombre: 'YAZMIN ALVARADO PINZON ',
+      nombre: 'YAZMIN ALVARADO PINZON',
       telefono:
         'F 8717658               CEL 3138851725',
-      email: '  ',
+      email: '',
       direccion:
         'CARRERA 6 # 16A - 84 FUSAGASUGA '
     },
     demanda: {
       vencimientoPagare:
-        '19/03/2020 //  15/10/2019 ',
+        '19/03/2020 //  15/10/2019',
       obligacion: {
         '1': 4513070122193330,
         '2': 'AUDIOPRESTAMO'
@@ -5188,7 +5185,7 @@ const Carpetas: IntCarpetaRaw[] = [
       cedula   : 1019029250,
       nombre   : 'DIEGO ARMANDO AREVALO VELANDIA',
       telefono : 'arevalodiego77@gmail.com',
-      email    : 'CARRERA 86 # 77A - 28 ',
+      email    : 'CARRERA 86 # 77A - 28',
       direccion: ''
     },
     demanda: {
@@ -5214,7 +5211,7 @@ const Carpetas: IntCarpetaRaw[] = [
     deudor  : {
       cedula   : 4547635,
       nombre   : 'WILDER DE JESUS ROMAN GRISALES',
-      telefono : '3213559 // 3142125039 ',
+      telefono : '3213559 // 3142125039',
       email    : 'wilderj11@yahoo.com',
       direccion: 'CALLE 10 # 8 - 07 TOCANCIPA'
     },
@@ -5240,9 +5237,9 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 79909315,
-      nombre   : 'VICTOR EDUARDO  MORA ESPINOSA ',
+      nombre   : 'VICTOR EDUARDO  MORA ESPINOSA',
       telefono : 'victormor84@outlook.com',
-      email    : 'CARRERA 18C # 121 - 40 ',
+      email    : 'CARRERA 18C # 121 - 40',
       direccion: 41537019
     },
     demanda: {
@@ -5295,7 +5292,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula  : 53053612,
-      nombre  : 'DIANA PATRICIA SANCHEZ SALCEDO ',
+      nombre  : 'DIANA PATRICIA SANCHEZ SALCEDO',
       telefono: 2572857,
       email   : 'baldini@mybosi.com',
       direccion:
@@ -5489,7 +5486,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Reintegra',
     deudor  : {
       cedula: 1106893308,
-      nombre: 'MARTHA LILIANA RAMIREZ COLORADO ',
+      nombre: 'MARTHA LILIANA RAMIREZ COLORADO',
       telefono:
         'CEL 3108612781        CEL 3502772711',
       email: 'liliaramirez17@gmail.com',
@@ -5631,7 +5628,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Reintegra',
     deudor  : {
       cedula   : 46679232,
-      nombre   : 'FLOR ESPERANZA GUTIERREZ ',
+      nombre   : 'FLOR ESPERANZA GUTIERREZ',
       telefono : 'F 5754502',
       email    : 'carito220@hotmail.es',
       direccion: 'CARRERA 34 # 9 - 60'
@@ -5688,7 +5685,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula  : 80729141,
-      nombre  : 'EDGAR MARTINEZ VELANDIA ',
+      nombre  : 'EDGAR MARTINEZ VELANDIA',
       telefono: 7902763,
       email   : 'edgar_julian@hotmail.com',
       direccion:
@@ -5771,7 +5768,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Reintegra',
     deudor  : {
       cedula: 79852094,
-      nombre: 'CESAR ALFONSO UMAÑA CAÑON ',
+      nombre: 'CESAR ALFONSO UMAÑA CAÑON',
       telefono:
         'F 31006108               CEL 3212406004',
       email    : 'cesa861@hotmail.com',
@@ -5912,7 +5909,7 @@ const Carpetas: IntCarpetaRaw[] = [
       cedula  : 52702559,
       nombre  : 'YENNY PATRICIA RUBIO MAHECHA',
       telefono: '7290666 // 3204297147',
-      email   : 'jennyprm@hotmail.com ',
+      email   : 'jennyprm@hotmail.com',
       direccion:
         'CALLE 6D # 5 - 60 MANZANA C CASA 17'
     },
@@ -5967,7 +5964,7 @@ const Carpetas: IntCarpetaRaw[] = [
       cedula   : 51833717,
       nombre   : 'BLANCA JANETH PINZON SUAREZ',
       telefono : 'janethpinzon@hotmail.com',
-      email    : 'CARRERA 123 # 131 - 32 ',
+      email    : 'CARRERA 123 # 131 - 32',
       direccion: ''
     },
     demanda: {
@@ -6075,7 +6072,7 @@ const Carpetas: IntCarpetaRaw[] = [
     deudor  : {
       cedula   : 51726361,
       nombre   : 'MARIA EUGENIA SALCEDO PINEDA',
-      telefono : '7842477 // 3144468420 ',
+      telefono : '7842477 // 3144468420',
       email    : 'mariae131@hotmail.com',
       direccion: 'AVENIDA CALLE 34 # 58 - 51 '
     },
@@ -6156,7 +6153,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Reintegra',
     deudor  : {
       cedula: 17174720,
-      nombre: 'GERARDO ANTONIO MONCADA VEGA ',
+      nombre: 'GERARDO ANTONIO MONCADA VEGA',
       telefono:
         'F 3349755                 CEL 3153330306',
       email    : 'gerardomoncada70@hotmail.com',
@@ -6294,7 +6291,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 80740039,
-      nombre   : 'FABIAN ALEXANDER GIL GIL ',
+      nombre   : 'FABIAN ALEXANDER GIL GIL',
       telefono : 'F 7609920',
       email    : 'fabianalexanderg@yahoo.es',
       direccion: 'CALLE 48B SUR # 6C - 06 '
@@ -6321,7 +6318,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 52818428,
-      nombre   : 'JENNIFER ALEJANDRA MOGOLLÓN BERNAL ',
+      nombre   : 'JENNIFER ALEJANDRA MOGOLLÓN BERNAL',
       telefono : 4166717,
       email    : 'alejandramogollonbernal@gmail.com',
       direccion: 'CALLE 24D # 72A - 81  CASA 9'
@@ -6385,14 +6382,14 @@ const Carpetas: IntCarpetaRaw[] = [
     },
     demanda: {
       vencimientoPagare:
-        'CALLE 67 C SUR 1B ESTE  APARTAMENTO 404 TORRE 2 ',
+        'CALLE 67 C SUR 1B ESTE  APARTAMENTO 404 TORRE 2',
       obligacion: {
         '1': 44518,
         '2': 145608
       },
       capitalAdeudado        : '',
       entregagarantiasAbogado: 20600721.7,
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2017 - 00089',
       etapaProcesal          : '',
@@ -6433,7 +6430,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Reintegra',
     deudor  : {
       cedula: 11313124,
-      nombre: 'JOSE LUIS TORRES TAMAYO ',
+      nombre: 'JOSE LUIS TORRES TAMAYO',
       telefono:
         'F 3138216              CEL 3138216786',
       email: 'jotorres@perosnalsoft.com.co',
@@ -6475,7 +6472,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '15.414.194.82',
       entregagarantiasAbogado: '2017-09-06',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2017-01205',
       etapaProcesal          : 'NOTIFICACION',
@@ -6492,7 +6489,7 @@ const Carpetas: IntCarpetaRaw[] = [
       nombre: 'FANOR DIAZ AGUDELO',
       telefono:
         'F 8060271                CEL 3212406193',
-      email: 'fanor.diaz@gmail.com ',
+      email: 'fanor.diaz@gmail.com',
       direccion:
         'DIAGONAL 56 BIS 84 A 10 SUR TR 1'
     },
@@ -6520,7 +6517,7 @@ const Carpetas: IntCarpetaRaw[] = [
       cedula   : 3165933,
       nombre   : 'RIGOBERTO MORENO OLAYA',
       telefono : '7191321 /3123836799',
-      email    : 'rigoberto-moreno20@hotmail.com ',
+      email    : 'rigoberto-moreno20@hotmail.com',
       direccion: 'CARRERA 81 F 71F 56 '
     },
     demanda: {
@@ -6712,7 +6709,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Reintegra',
     deudor  : {
       cedula: 300388244,
-      nombre: 'MARIA OLGA CASTAÑEDA PERUGACHI ',
+      nombre: 'MARIA OLGA CASTAÑEDA PERUGACHI',
       telefono:
         'F 1111111              CEL 32222239883 3143072762',
       email    : 'N/A',
@@ -6876,7 +6873,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Reintegra',
     deudor  : {
       cedula: 19069228,
-      nombre: 'JORGE ALBERTO MARTINEZ BENDEK ',
+      nombre: 'JORGE ALBERTO MARTINEZ BENDEK',
       telefono:
         'F 6701643              CEL 3134749213',
       email    : 'jorgemar24@gmail.com',
@@ -6974,7 +6971,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '26.469.309.75',
       entregagarantiasAbogado: '2017-09-05',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2017 - 01236',
       etapaProcesal          : 'NOTIFICACION',
@@ -7156,7 +7153,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 52770471,
-      nombre   : 'LUZ NELLY RUIZ LARA ',
+      nombre   : 'LUZ NELLY RUIZ LARA',
       telefono : 4505648,
       email    : 'nelly_ruiz1980@hotmail.com',
       direccion: 'CARRERA 87 F - No 26-74 SUR'
@@ -7225,7 +7222,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '18.220.483.45',
       entregagarantiasAbogado: '2017-09-18',
-      departamento           : 'CUNDINNAMARCA ',
+      departamento           : 'CUNDINNAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2017 - 01116',
       etapaProcesal          : 'NOTIFICACION',
@@ -7280,7 +7277,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '21.435.278.32',
       entregagarantiasAbogado: '2017-09-22',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'PENSILVANIA',
       radicado               : '2017 - 01007',
       etapaProcesal          : '',
@@ -7447,7 +7444,7 @@ const Carpetas: IntCarpetaRaw[] = [
       capitalAdeudado        : '105.666.670.22',
       entregagarantiasAbogado: '21/09/2017',
       departamento           : 'CUNDINAMARCA',
-      municipio              : 'FUNZA ',
+      municipio              : 'FUNZA',
       radicado               : '2018 - 00421',
       etapaProcesal          : '',
       fechaPresentacion      : 'TERMINO POR PAGO TOTAL'
@@ -7638,7 +7635,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '46.086.886.44',
       entregagarantiasAbogado: '21/09/2017',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'SOACHA',
       radicado               : '2017 - 00381',
       etapaProcesal          : '',
@@ -7652,7 +7649,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 39687966,
-      nombre   : 'OLGA LUCIA HERAZO PERDOMO ',
+      nombre   : 'OLGA LUCIA HERAZO PERDOMO',
       telefono : 'F 2120692',
       email    : 'olgalucia.herazo@gmail.com',
       direccion: 'DIAGONAL 76 # 6 - 12 APTO 604'
@@ -7742,7 +7739,7 @@ const Carpetas: IntCarpetaRaw[] = [
       direccion: 'CR 12B 24-37 SUR'
     },
     demanda: {
-      vencimientoPagare: '15/012021 ',
+      vencimientoPagare: '15/012021',
       obligacion       : {
         '1': 8920084662,
         '2': 'N/A'
@@ -7846,7 +7843,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 93119101,
-      nombre   : 'ARMANDO BARRIOS VARGAS ',
+      nombre   : 'ARMANDO BARRIOS VARGAS',
       telefono : 3380250,
       email    : 'abarriosleg@yahoo.es',
       direccion: 'VEREDA EL TIME  ( COTA )'
@@ -7932,7 +7929,7 @@ const Carpetas: IntCarpetaRaw[] = [
       nombre: 'CARLOS GERMAN RUGE CASTAÑEDA',
       telefono:
         'F 6087374              CEL 3104865508',
-      email    : 'carlosgrugec@hotmail.com ',
+      email    : 'carlosgrugec@hotmail.com',
       direccion: 'CALLE 72 A No  74 A - 77  '
     },
     demanda: {
@@ -8067,7 +8064,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Reintegra',
     deudor  : {
       cedula: 80205694,
-      nombre: 'JOHN FREDY HERREÑO RAMIREZ ',
+      nombre: 'JOHN FREDY HERREÑO RAMIREZ',
       telefono:
         'F 7641957                CEL 3124102',
       email: 'kellyo.1508@hotmail.com',
@@ -8096,7 +8093,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Bancolombia',
     deudor  : {
       cedula: 1032383389,
-      nombre: 'ANDERSON REVELO SANTOS ',
+      nombre: 'ANDERSON REVELO SANTOS',
       telefono:
         'F 4725511              CEL 3118526428',
       email: 'ars.09@hotmail.com',
@@ -8502,7 +8499,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '70.693.047.83',
       entregagarantiasAbogado: '2017-10-20',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2017 - 01125',
       etapaProcesal          : 'NOTIFICACION',
@@ -8571,7 +8568,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Bancolombia',
     deudor  : {
       cedula   : 79388145,
-      nombre   : 'LIBARDO ALFONSO GONZALEZ TRIVIÑO ',
+      nombre   : 'LIBARDO ALFONSO GONZALEZ TRIVIÑO',
       telefono : 'F 2928108',
       email    : 'li_bcar@hotmail.com',
       direccion: 'CARRERA 72 A- No 9 - 44  '
@@ -8626,7 +8623,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula  : 80394456,
-      nombre  : 'PEDRO PABLO SARMIENTO MAYORGA ',
+      nombre  : 'PEDRO PABLO SARMIENTO MAYORGA',
       telefono: 8138756,
       email   : 'pedrosebastin394@hotmail.com',
       direccion:
@@ -9141,7 +9138,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '36.103.545.25',
       entregagarantiasAbogado: '2017-10-31',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2017 - 01218',
       etapaProcesal          : 'ADMISION',
@@ -9168,7 +9165,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '43.041,00 COP',
       entregagarantiasAbogado: '',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2017 - 01300',
       etapaProcesal          : 43053,
@@ -9196,7 +9193,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '38.034.170.49',
       entregagarantiasAbogado: '2017-11-08',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'SOACHA',
       radicado               : '2018   00098',
       etapaProcesal          : '',
@@ -9211,7 +9208,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula  : 52085839,
-      nombre  : '  AHIDA LUCERO GUEVARA BECERRA ',
+      nombre  : '  AHIDA LUCERO GUEVARA BECERRA',
       telefono: 3049740,
       email   : 'ahidaguevara@gmail.com',
       direccion:
@@ -9282,7 +9279,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '13.464.765.14',
       entregagarantiasAbogado: '2017-11-10',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2018 - 00118',
       etapaProcesal          : 'NOTIFICACION',
@@ -9310,7 +9307,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '18.295.501.00',
       entregagarantiasAbogado: '2017-11-14',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2017 - 01756',
       etapaProcesal          : 'NOTIFICACION',
@@ -9394,7 +9391,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '36.069.195,00 COP',
       entregagarantiasAbogado: '2017-11-09',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2017 - 01195',
       etapaProcesal          : '',
@@ -9408,7 +9405,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 79573945,
-      nombre   : 'WILLIAM CORTES ROJAS ',
+      nombre   : 'WILLIAM CORTES ROJAS',
       telefono : 'F 2054674',
       email    : 'cubrimage@hotmail.com',
       direccion: 'CARRERA 19  No 56 A  SUR - 72'
@@ -9449,7 +9446,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '12.731.580.01',
       entregagarantiasAbogado: '2017-11-08',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2017 - 01289',
       etapaProcesal          : 'SENTENCIA',
@@ -9467,7 +9464,7 @@ const Carpetas: IntCarpetaRaw[] = [
         'GABRIEL AUGUSTO CASTILLO CASTELBLANCO',
       telefono:
         'gabocastillocastelblanco@gmail.com',
-      email    : 'CARRERA 87 No  17 - 59 ',
+      email    : 'CARRERA 87 No  17 - 59',
       direccion: ''
     },
     demanda: {
@@ -9478,7 +9475,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '43.053,00 COP',
       entregagarantiasAbogado: '',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2017 - 01400',
       etapaProcesal          : 43059,
@@ -9505,7 +9502,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '12.767.956.00',
       entregagarantiasAbogado: '2017-09-01',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2017 - 01517',
       etapaProcesal          : 'SENTENCIA',
@@ -9564,7 +9561,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '12.944.433,00 COP',
       entregagarantiasAbogado: '2017-11-15',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2017 - 01476',
       etapaProcesal          : 1.100140030452017e22,
@@ -9592,7 +9589,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '12.938.618.00',
       entregagarantiasAbogado: '2017-11-09',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2017 - 01545',
       etapaProcesal          : 'TERMINADO',
@@ -9621,7 +9618,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '11.831.747.86',
       entregagarantiasAbogado: '2017-11-10',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2017 - 01525',
       etapaProcesal          : 'SENTENCIA',
@@ -9679,7 +9676,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '17.074.755.31',
       entregagarantiasAbogado: '2017-11-14',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2017 - 01272',
       etapaProcesal          : 'NOTIFICACION',
@@ -9693,7 +9690,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 80111672,
-      nombre   : 'DIEGO FERNEY VERGARA VALDERRAMA ',
+      nombre   : 'DIEGO FERNEY VERGARA VALDERRAMA',
       telefono : '4647087 / 3112441540',
       email    : 'diegovergarav@hotmail.com',
       direccion: 'CALLE 51  SUR No  80 - 24'
@@ -9706,7 +9703,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '24.965.682.98',
       entregagarantiasAbogado: '2017-11-15',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2017 - 01357',
       etapaProcesal          : 'NOTIFICACION',
@@ -9733,7 +9730,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '16.487.437.90',
       entregagarantiasAbogado: '2017-11-22',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2018 - 00024',
       etapaProcesal          : 'ADMISION',
@@ -9788,7 +9785,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '24.172.046,91 COP',
       entregagarantiasAbogado: '2017-11-16',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2017 - 01563',
       etapaProcesal          : '',
@@ -9859,7 +9856,7 @@ const Carpetas: IntCarpetaRaw[] = [
     deudor  : {
       cedula  : 53119460,
       nombre  : 'SONIA XIMENA RODRIGUEZ SANCHEZ',
-      telefono: '4707082 / ',
+      telefono: '4707082 /',
       email   : 'ximenars29@hotmail.com',
       direccion:
         'CARRERA 81 B No  19 B- 50 APARTAMENTO 601'
@@ -9944,7 +9941,7 @@ const Carpetas: IntCarpetaRaw[] = [
       cedula   : 79357895,
       nombre   : 'JOSE DAVID PEÑA SAAVEDRA',
       telefono : '31665335 / 3165335 / 3165335586',
-      email    : 'N/A ',
+      email    : 'N/A',
       direccion: 'CARRERA 123 No 13 - 85 casa 364'
     },
     demanda: {
@@ -10471,7 +10468,7 @@ const Carpetas: IntCarpetaRaw[] = [
       telefono:
         'yesith.moreno@correo.policia.gov.co',
       email:
-        'DIAGINAL 51A 59 A - 17 APARTAMENTO 1 ',
+        'DIAGINAL 51A 59 A - 17 APARTAMENTO 1',
       direccion: ''
     },
     demanda: {
@@ -11275,7 +11272,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Reintegra',
     deudor  : {
       cedula  : 79328264,
-      nombre  : 'NESTOR ALBERTO CRISTANCHO LOPEZ ',
+      nombre  : 'NESTOR ALBERTO CRISTANCHO LOPEZ',
       telefono: 'F 5266894',
       email   : 'nescri64@hotmail.com',
       direccion:
@@ -11456,7 +11453,7 @@ const Carpetas: IntCarpetaRaw[] = [
       capitalAdeudado        : '21,470,052,05',
       entregagarantiasAbogado: '2018-04-12',
       departamento           : 'CUNDINAMARCA',
-      municipio              : 'SOACHA ',
+      municipio              : 'SOACHA',
       radicado               : '2018 - 00363',
       etapaProcesal          : 'NOTIFICACION',
       fechaPresentacion      : '2018-04-26'
@@ -11582,7 +11579,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 35521020,
-      nombre   : 'AURA LETICIA GAMEZ ROJAS ',
+      nombre   : 'AURA LETICIA GAMEZ ROJAS',
       telefono : 6104622,
       email    : 'aurag2599@hotmail.com',
       direccion: 'CALLE 11B- No 10-21  '
@@ -11611,7 +11608,7 @@ const Carpetas: IntCarpetaRaw[] = [
       cedula   : 73133278,
       nombre   : 'ALVARO HERNAN RUIZ HERNANDEZ',
       telefono : 'alvarohernandezruiz@yahoo.es',
-      email    : 'CALLE 1 SUR No 5A- 179 CASA 26 ',
+      email    : 'CALLE 1 SUR No 5A- 179 CASA 26',
       direccion: ''
     },
     demanda: {
@@ -11720,7 +11717,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula  : 80059977,
-      nombre  : 'ANDRES PEDRAZA GARCIA ',
+      nombre  : 'ANDRES PEDRAZA GARCIA',
       telefono: 6949499,
       email   : 'andrespedraza12933@gmail.com',
       direccion:
@@ -12049,7 +12046,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula  : 1012341563,
-      nombre  : 'MARIBEL REVELO QUIROGA ',
+      nombre  : 'MARIBEL REVELO QUIROGA',
       telefono: 7383907,
       email   : 'marysqs@hotmail.com',
       direccion:
@@ -12685,7 +12682,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Reintegra',
     deudor  : {
       cedula  : 52271112,
-      nombre  : 'SANDRA PATRICIA BELTRAN OVIEDO ',
+      nombre  : 'SANDRA PATRICIA BELTRAN OVIEDO',
       telefono: 'F 6607900',
       email   : 'saraja.7@hotmail.com',
       direccion:
@@ -12852,7 +12849,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 51944991,
-      nombre   : 'RICARDO ARMANDO CELIS ANGEL ',
+      nombre   : 'RICARDO ARMANDO CELIS ANGEL',
       telefono : 'maria.elizabeth2903@hotmail.co',
       email    : 'TRANSVERSAL 4B No 3-75   CASA 44',
       direccion: 51944991
@@ -13103,7 +13100,7 @@ const Carpetas: IntCarpetaRaw[] = [
       cedula   : 52725153,
       nombre   : 'SANDRA MILENA VEGA AVILA',
       telefono : 'protegeservicios@hotmail.com',
-      email    : 'TRANSVERSAL 2 ESTE No 32B-80 SUR ',
+      email    : 'TRANSVERSAL 2 ESTE No 32B-80 SUR',
       direccion: ''
     },
     demanda: {
@@ -13157,7 +13154,7 @@ const Carpetas: IntCarpetaRaw[] = [
     deudor  : {
       cedula   : 4281808,
       nombre   : 'JOSE LIBRANDO CANDELA MUNEVAR',
-      telefono : 'F 7113967   ',
+      telefono : 'F 7113967',
       email    : 'eedibrando600@hotmail.com',
       direccion: 'CALLE 1 A No 13-30  SOACHA '
     },
@@ -13391,7 +13388,7 @@ const Carpetas: IntCarpetaRaw[] = [
       capitalAdeudado        : '14.134.623.00',
       entregagarantiasAbogado: '3/09/2018',
       departamento           : 'CUNDINAMARCA',
-      municipio              : 'BARRIOS UNIDOS ',
+      municipio              : 'BARRIOS UNIDOS',
       radicado               : '2018 - 01370',
       etapaProcesal          : 'ADMISION',
       fechaPresentacion      : '13/09/2018'
@@ -13404,7 +13401,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 30339083,
-      nombre   : 'JENNY  ANDREA AVILA GARZON ',
+      nombre   : 'JENNY  ANDREA AVILA GARZON',
       telefono : 'F 6690738',
       email    : 'N/A',
       direccion: 'CARRERA 7A No  2-94 SUR'
@@ -13864,7 +13861,7 @@ const Carpetas: IntCarpetaRaw[] = [
       departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2018 - 00454',
-      etapaProcesal          : 'EJECUCION ',
+      etapaProcesal          : 'EJECUCION',
       fechaPresentacion      : '2018-04-27'
     },
     tipoProceso : 'SINGULAR',
@@ -14077,7 +14074,7 @@ const Carpetas: IntCarpetaRaw[] = [
       direccion: 'CALLE 2 A No 5-22 APTO 503'
     },
     demanda: {
-      vencimientoPagare: '01/03/2026 ',
+      vencimientoPagare: '01/03/2026',
       obligacion       : {
         '1': 2490084469,
         '2': 'N/A'
@@ -14138,7 +14135,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '40.828.299.00',
       entregagarantiasAbogado: '26/11/2018',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'SOACHA',
       radicado               : '2018 - 00415',
       etapaProcesal          : 2.575440030022019e22,
@@ -14192,7 +14189,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '05/12/2018',
       entregagarantiasAbogado: 'CUNDINAMARCA',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'SOACHA',
       radicado               : '2018 - 01352',
       etapaProcesal          : '14/12/2018//13/05/2019',
@@ -14329,7 +14326,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '30/01/2019',
       entregagarantiasAbogado: 'CUNDINAMARCA',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2019 - 00162',
       etapaProcesal          : '',
@@ -14357,7 +14354,7 @@ const Carpetas: IntCarpetaRaw[] = [
       },
       capitalAdeudado        : '12203649,80',
       entregagarantiasAbogado: '30/01/2019',
-      departamento           : 'CUNDINAMARCA ',
+      departamento           : 'CUNDINAMARCA',
       municipio              : 'BOGOTA',
       radicado               : '2019 - 00162',
       etapaProcesal          : '',
@@ -14392,7 +14389,7 @@ const Carpetas: IntCarpetaRaw[] = [
       fechaPresentacion:
         'EL 3/12/2020 EL JUZGADO DECRETO TERMINACION PROCESO POR PAGO CUOTAS EN MORA // EL 12/05/2021 SE RETIRARON GARANTIAS DEL JUZGADO // EL 29/04/2021 SE ENVIO OFICIO A OFICINA DE REGISTRO // EL 22/09/2021 SUPERNOTARIADO LO DEVOLVIO POR NO PAGO // EL 11/11/2021 SE SOLICITO CERTIFICADO Y ESTA PENDIENTE LEVANTAMIENTO DE MEDIDA CAUTELAR //PAGAR DESGLOSE Y RETIRAR OFICIO PARA RADICAR LEVANTAMIENTO'
     },
-    tipoProceso : 'HIPOTECARIO ',
+    tipoProceso : 'HIPOTECARIO',
     llaveProceso: '11001400307020190055100'
   },
   {
@@ -14815,7 +14812,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Terminados',
     deudor  : {
       cedula   : 51918944,
-      nombre   : 'AMANDA LUCIA GAITAN RINCÓN ',
+      nombre   : 'AMANDA LUCIA GAITAN RINCÓN',
       telefono : 2823872,
       email    : 'amandagaitan@hotmail.com',
       direccion: 'CALLE 55 SUR 24C-28 APTO 502'
@@ -15368,7 +15365,7 @@ const Carpetas: IntCarpetaRaw[] = [
       cedula  : 53130409,
       nombre  : 'JEIMMY SOLEY QUIROGA RAMIREZ',
       telefono: 'F 3917539 CEL 3506509064',
-      email   : 'jsquiroga72@hotmail.com ',
+      email   : 'jsquiroga72@hotmail.com',
       direccion:
         'CL 55 BIS 16 48 Apartamento 702 Edificio Bangkok'
     },
@@ -15423,7 +15420,7 @@ const Carpetas: IntCarpetaRaw[] = [
     category: 'Bancolombia',
     deudor  : {
       cedula  : 71685758,
-      nombre  : 'CARLOS HERNEY QUINTERO ',
+      nombre  : 'CARLOS HERNEY QUINTERO',
       telefono: 'F 6485655 CEL 3002985587',
       email:
         'cahequi8097@gmail.com  fundaoyuki@gmail.com',

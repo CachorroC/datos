@@ -2,21 +2,20 @@ import { DeudorRaw, IntDeudor,
          IntTel } from '../types/carpetas';
 
 export class Tel implements IntTel {
-  fijo?: number[] ;
-  celular?: number[] ;
+  fijo: number[] | undefined;
+  celular: number[] | undefined;
   constructor(
-    telefono : string | number
+    telefono : string
   ) {
-    const telefonoStringRaw
-      = telefono?.toString();
+
 
     const celularStringArray
-      = telefonoStringRaw?.match(
+      = telefono.match(
         /\d{10}/g
       );
 
     const fijoStringArray
-      = telefonoStringRaw?.match(
+      = telefono.match(
         /\d{7}\s/g
       );
 
@@ -63,7 +62,9 @@ export class Deudor implements IntDeudor {
     this.direccion = direccion?.toString();
     this.email = email?.toLocaleString();
     this.tel = new Tel(
-      telefono
+      typeof telefono === 'number'
+        ? telefono.toString()
+        :  telefono
     );
 
 

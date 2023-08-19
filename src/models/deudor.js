@@ -5,9 +5,8 @@ class Tel {
     fijo;
     celular;
     constructor(telefono) {
-        const telefonoStringRaw = telefono?.toString();
-        const celularStringArray = telefonoStringRaw?.match(/\d{10}/g);
-        const fijoStringArray = telefonoStringRaw?.match(/\d{7}\s/g);
+        const celularStringArray = telefono.match(/\d{10}/g);
+        const fijoStringArray = telefono.match(/\d{7}\s/g);
         const celularNumber = celularStringArray?.map((f) => {
             return Number(f);
         });
@@ -24,7 +23,9 @@ class Deudor {
         this.cedula = Number(cedula);
         this.direccion = direccion?.toString();
         this.email = email?.toLocaleString();
-        this.tel = new Tel(telefono);
+        this.tel = new Tel(typeof telefono === 'number'
+            ? telefono.toString()
+            : telefono);
         const nameStringArray = nombre.split(' ');
         const nameArrayLength = nameStringArray.length;
         switch (nameArrayLength) {

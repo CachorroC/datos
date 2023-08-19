@@ -1,0 +1,48 @@
+{
+    "category": "Terminados",
+    "demanda": {
+        "capitalAdeudado": null,
+        "departamento": {
+            "codigo": "25",
+            "descripcion": "CUNDINAMARCA",
+            "idCatalogoDetalle": 13,
+            "idCatalogoDetallePadre": 1
+        },
+        "entregagarantiasAbogado": "2017-06-28T00:00:00.000Z",
+        "etapaProcesal": "NOTIFICACION",
+        "expediente": "11001400301020170065301",
+        "fechaPresentacion": "2017-06-29T00:00:00.000Z",
+        "juzgados": [
+            {
+                "id": 10,
+                "tipo": "JUZGADO 010 CIVIL MUNICIPAL DE BOGOTÁ",
+                "url": "https://www.ramajudicial.gov.co/web/juzgado-010-civil-municipal-de-bogota"
+            }
+        ],
+        "municipio": "BOGOTA",
+        "obligacion": {
+            "1": 12545412,
+            "2": ""
+        },
+        "radicado": "2017 - 00653",
+        "vencimientoPagare": "2017-06-13T00:00:00.000Z"
+    },
+    "deudor": {
+        "cedula": 57452535,
+        "direccion": "CALLE 102 # 15 - 58 APTO 204",
+        "email": "lei.m@hotmail.com",
+        "primerApellido": "MARTINEZ",
+        "primerNombre": "LEILA",
+        "segundoApellido": "MORA",
+        "segundoNombre": "JOHANNA",
+        "tel": {
+            "celular": [
+                3004975278
+            ]
+        }
+    },
+    "idProceso": 50540650,
+    "llaveProceso": "11001400301020170065301",
+    "numero": 101,
+    "tipoProceso": "PRENDARIO"
+}
