@@ -2,8 +2,8 @@ import { DeudorRaw, IntDeudor,
          IntTel } from '../types/carpetas';
 
 export class Tel implements IntTel {
-  fijo: number;
-  celular: number;
+  fijo?: number[] ;
+  celular?: number[] ;
   constructor(
     telefono : string | number
   ) {
@@ -19,23 +19,27 @@ export class Tel implements IntTel {
       = telefonoStringRaw?.match(
         /\d{7}\s/g
       );
-    console.log(
-      fijoStringArray
-    );
-    console.log(
-      celularStringArray
-    );
 
-    const fijoString =  fijoStringArray?.toString();
 
-    const celularString = celularStringArray?.toString();
-
-    const celularNumber = Number(
-      celularString
+    const celularNumber = celularStringArray?.map(
+      (
+        f
+      ) => {
+        return Number(
+          f
+        );
+      }
     );
 
-    const fijoNumber = Number(
-      fijoString
+
+    const fijoNumber = fijoStringArray?.map(
+      (
+        f
+      ) => {
+        return Number(
+          f
+        );
+      }
     );
 
     this.fijo = fijoNumber;
@@ -62,9 +66,9 @@ export class Deudor implements IntDeudor {
       telefono
     );
 
-    const name = nombre ?? 'Sin Especificar';
 
-    const nameStringArray = name.split(
+
+    const nameStringArray = nombre.split(
       ' '
     );
 
@@ -72,11 +76,11 @@ export class Deudor implements IntDeudor {
       = nameStringArray.length;
 
     switch ( nameArrayLength ) {
-      case 1:
+      case 4:
         this.primerNombre = nameStringArray[ 0 ];
-        this.segundoNombre = '';
-        this.primerApellido = '';
-        this.segundoApellido = '';
+        this.segundoNombre = nameStringArray[ 1 ];
+        this.primerApellido = nameStringArray[ 2 ];
+        this.segundoApellido = nameStringArray[ 3 ];
 
         break;
       case 2:
@@ -86,6 +90,14 @@ export class Deudor implements IntDeudor {
         this.segundoApellido = '';
 
         break;
+      case 1:
+        this.primerNombre = nameStringArray[ 0 ];
+        this.segundoNombre = '';
+        this.primerApellido = '';
+        this.segundoApellido = '';
+
+        break;
+
       case 3:
         this.primerNombre = nameStringArray[ 0 ];
         this.segundoNombre = nameStringArray[ 1 ];
@@ -93,13 +105,7 @@ export class Deudor implements IntDeudor {
         this.segundoApellido = nameStringArray[ 2 ];
 
         break;
-      case 4:
-        this.primerNombre = nameStringArray[ 0 ];
-        this.segundoNombre = nameStringArray[ 1 ];
-        this.primerApellido = nameStringArray[ 2 ];
-        this.segundoApellido = nameStringArray[ 3 ];
 
-        break;
       case 5:
         this.primerNombre = `${ nameStringArray[ 0 ] } ${ nameStringArray[ 1 ] }`;
         this.segundoNombre = nameStringArray[ 2 ];
@@ -116,10 +122,10 @@ export class Deudor implements IntDeudor {
         break;
 
       default:
-        this.primerNombre = `${ nameStringArray[ 0 ] } ${ nameStringArray[ 1 ] }`;
-        this.segundoNombre = nameStringArray[ 2 ];
-        this.primerApellido = nameStringArray[ 3 ];
-        this.segundoApellido = nameStringArray[ 4 ];
+        this.primerNombre =  nameStringArray[ 0 ] ;
+        this.segundoNombre = nameStringArray[ 1 ];
+        this.primerApellido = nameStringArray[ 2 ];
+        this.segundoApellido = nameStringArray[ 3 ];
 
         break;
     }

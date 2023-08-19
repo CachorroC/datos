@@ -60,7 +60,7 @@ export interface DeudorRaw {
   cedula: number | string;
   direccion: number | string;
   email: number | string;
-  nombre?: string;
+  nombre: string;
   telefono: number | string;
 }
 
@@ -76,8 +76,8 @@ export interface IntDeudor {
 }
 
 export interface IntTel {
-  fijo: number;
-  celular: number;
+  fijo?:number[] ;
+  celular?: number[] ;
 }
 
 export interface IntDemanda {
