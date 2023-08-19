@@ -1,4 +1,4 @@
-import { IntDepartamentos, Despacho } from '../types/rama-judicial';
+import { Despacho } from '../types/rama-judicial';
 
 const Despachos: Despacho[] = [
   {

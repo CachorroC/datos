@@ -32,6 +32,7 @@ const procesos_1 = __importStar(require("../procesos"));
 const despachos_1 = require("../despachos");
 const deudor_1 = require("./deudor");
 const fs = __importStar(require("fs/promises"));
+const __1 = require("..");
 const Departamentos = {
     data: false,
     result: [
@@ -780,10 +781,22 @@ async function createCarpetasDemanda() {
     const newCarpetas = new Set();
     for (const carpeta of carpetas_1.default) {
         const index = carpetas_1.default.indexOf(carpeta);
-        const awaitTime = index * 10;
+        const awaitTime = 1000;
+        const now = new Date()
+            .getTime();
+        const masTarde = now + awaitTime;
+        const outputTime = new Date(masTarde)
+            .toLocaleDateString('es-CO', {
+            hour: 'numeric',
+            minute: 'numeric',
+            hour12: true
+        });
+        console.log(`estará listo a las ${outputTime}`);
         await (0, procesos_1.sleep)(awaitTime);
         console.log(`carpetas has a length of ${carpetas_1.default.length} and you are in carpeta number ${carpeta.numero}`);
-        const RequestProcesos = await (0, procesos_1.default)({ llaveProceso: carpeta.llaveProceso.toString() });
+        const RequestProcesos = await (0, procesos_1.default)({
+            llaveProceso: carpeta.llaveProceso.toString()
+        });
         const newDemanda = new Demanda(carpeta.demanda);
         const newDeudor = new deudor_1.Deudor(carpeta.deudor);
         console.log(newDeudor.tel.celular);
@@ -821,13 +834,17 @@ async function createCarpetasDemanda() {
                 deudor: newDeudor,
                 numero: carpeta.numero,
                 llaveProceso: carpeta.llaveProceso.toString(),
-                tipoProceso: carpeta.tipoProceso
+                tipoProceso: carpeta.tipoProceso,
+                idProceso: 1
             };
             fs.writeFile(`carpetas/${newCarpeta.numero}.json`, JSON.stringify(newCarpeta));
             newCarpetas.add(newCarpeta);
         }
     }
-    return Array.from(newCarpetas);
+    const newCarpetasArray = Array.from(newCarpetas);
+    const insertCarpetas = await (0, __1.insertNewCarpetas)(newCarpetasArray);
+    console.log(insertCarpetas);
+    return newCarpetasArray;
 }
 console.log(createCarpetasDemanda()
     .then((ff) => {

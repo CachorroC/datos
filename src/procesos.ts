@@ -7,8 +7,23 @@ export function sleep(
     (
       resolve
     ) => {
+      const now = new Date()
+            .getTime();
+
+      const masTarde = now + ms;
+
+      const outputTime = new Date(
+        masTarde
+      )
+            .toLocaleDateString(
+              'es-CO', {
+                hour  : 'numeric',
+                minute: 'numeric',
+                hour12: true
+              }
+            );
       console.log(
-        ms
+        `salió del timeout y empezo el fetch a las   ${ outputTime }`
       );
 
       return setTimeout(
@@ -43,6 +58,10 @@ export default async function fetchProceso(
     );
 
     if ( !req.ok ) {
+      console.log(
+        req.headers
+      );
+
       return [];
     }
 
@@ -53,6 +72,9 @@ export default async function fetchProceso(
 
     return procesos;
   } catch ( error ) {
+    console.log(
+      error
+    );
 
     return [];
   }

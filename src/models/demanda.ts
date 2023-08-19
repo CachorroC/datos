@@ -7,6 +7,7 @@ import { Despachos } from '../despachos';
 import { Deudor } from './deudor';
 import * as fs from 'fs/promises';
 import { intProceso } from '../types/procesos';
+import { insertNewCarpetas } from '..';
 
 const Departamentos: IntDepartamentos = {
   data  : false,
@@ -838,7 +839,27 @@ async function createCarpetasDemanda () {
       carpeta
     );
 
-    const awaitTime = index * 10;
+    const awaitTime = 1000;
+
+    const now = new Date()
+          .getTime();
+
+    const masTarde = now + awaitTime;
+
+    const outputTime = new Date(
+      masTarde
+    )
+          .toLocaleDateString(
+            'es-CO', {
+              hour  : 'numeric',
+              minute: 'numeric',
+              hour12: true
+            }
+          );
+    console.log(
+      `estará listo a las ${ outputTime }`
+    );
+
     await sleep(
       awaitTime
     );
@@ -847,7 +868,9 @@ async function createCarpetasDemanda () {
     );
 
     const RequestProcesos = await fetchProceso(
-      { llaveProceso: carpeta.llaveProceso.toString() }
+      {
+        llaveProceso: carpeta.llaveProceso.toString()
+      }
     );
 
     const newDemanda = new Demanda(
@@ -909,7 +932,8 @@ async function createCarpetasDemanda () {
         deudor      : newDeudor,
         numero      : carpeta.numero,
         llaveProceso: carpeta.llaveProceso.toString(),
-        tipoProceso : carpeta.tipoProceso
+        tipoProceso : carpeta.tipoProceso,
+        idProceso   : 1
       };
       fs.writeFile(
         `carpetas/${ newCarpeta.numero }.json`, JSON.stringify(
@@ -925,9 +949,18 @@ async function createCarpetasDemanda () {
 
   }
 
-  return Array.from(
+  const newCarpetasArray = Array.from(
     newCarpetas
   );
+
+  const insertCarpetas = await insertNewCarpetas(
+    newCarpetasArray
+  );
+  console.log(
+    insertCarpetas
+  );
+
+  return newCarpetasArray;
 }
 
 console.log(
@@ -936,6 +969,7 @@ console.log(
           (
             ff
           ) => {
+
             fs.writeFile(
               'newCarpetasFinal.json', JSON.stringify(
                 ff
