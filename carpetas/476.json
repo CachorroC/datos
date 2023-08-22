@@ -1,1 +1,38 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":null,"etapaProcesal":"05/09/2018","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":"","2":"28.251.567.19"},"radicado":"O","vencimientoPagare":null,"expediente":"11001418901220180064200","juzgados":[]},"category":"Terminados","deudor":{"tel":{},"primerNombre":"ARNULFO","segundoNombre":"PASTES","primerApellido":"PASTES","segundoApellido":"DAZA","cedula":1081395456,"direccion":"","email":"CARRERA 24B No 44-24"},"numero":476,"llaveProceso":"11001418901220180064200","tipoProceso":"HIPOTECARIA","idProceso":1}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": null,
+    "etapaProcesal": "05/09/2018",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "",
+      "2": "28.251.567.19"
+    },
+    "radicado": "O",
+    "vencimientoPagare": null,
+    "expediente": "11001418901220180064200",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ARNULFO",
+    "segundoNombre": "PASTES",
+    "primerApellido": "PASTES",
+    "segundoApellido": "DAZA",
+    "cedula": 1081395456,
+    "direccion": "",
+    "email": "CARRERA 24B No 44-24"
+  },
+  "numero": 476,
+  "llaveProceso": "11001418901220180064200",
+  "tipoProceso": "HIPOTECARIA",
+  "idProceso": 1
+}

@@ -1,1 +1,41 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2017-09-04T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":141432,"2":""},"radicado":"2017 - 01240","vencimientoPagare":null,"expediente":"11001400306820170124000","juzgados":[{"id":68,"tipo":"JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota"}]},"category":"Terminados","deudor":{"tel":{},"primerNombre":"JENNIFER","segundoNombre":"ALEJANDRA","primerApellido":"MOGOLLÓN","segundoApellido":"BERNAL","cedula":52818428,"direccion":"CALLE 24D # 72A - 81  CASA 9","email":"alejandramogollonbernal@gmail.com"},"numero":229,"llaveProceso":"11001400306820170124000","tipoProceso":"HIPOTECARIO","idProceso":19211240}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2017-09-04T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 141432, "2": "" },
+    "radicado": "2017 - 01240",
+    "vencimientoPagare": null,
+    "expediente": "11001400306820170124000",
+    "juzgados": [
+      {
+        "id": 68,
+        "tipo": "JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JENNIFER",
+    "segundoNombre": "ALEJANDRA",
+    "primerApellido": "MOGOLLÓN",
+    "segundoApellido": "BERNAL",
+    "cedula": 52818428,
+    "direccion": "CALLE 24D # 72A - 81  CASA 9",
+    "email": "alejandramogollonbernal@gmail.com"
+  },
+  "numero": 229,
+  "llaveProceso": "11001400306820170124000",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 19211240
+}

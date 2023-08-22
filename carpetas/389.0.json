@@ -1,1 +1,41 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":0,"entregagarantiasAbogado":null,"etapaProcesal":"","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":"","2":""},"radicado":"2018 - 00121","vencimientoPagare":null,"expediente":"11001400307020180012100","juzgados":[{"id":70,"tipo":"JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-070-civil-municipal-de-bogota"}]},"category":"Terminados","deudor":{"tel":{},"primerNombre":"MIGUEL","segundoNombre":"ANGEL","primerApellido":"GRANADOS","segundoApellido":"GUTIERREZ","cedula":79874218,"direccion":"","email":""},"numero":389,"llaveProceso":"11001400307020180012100","tipoProceso":"SINGULAR","idProceso":18370510}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 0,
+    "entregagarantiasAbogado": null,
+    "etapaProcesal": "",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "1": "", "2": "" },
+    "radicado": "2018 - 00121",
+    "vencimientoPagare": null,
+    "expediente": "11001400307020180012100",
+    "juzgados": [
+      {
+        "id": 70,
+        "tipo": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-070-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "MIGUEL",
+    "segundoNombre": "ANGEL",
+    "primerApellido": "GRANADOS",
+    "segundoApellido": "GUTIERREZ",
+    "cedula": 79874218,
+    "direccion": "",
+    "email": ""
+  },
+  "numero": 389,
+  "llaveProceso": "11001400307020180012100",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 18370510
+}

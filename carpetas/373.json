@@ -1,1 +1,38 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":null,"etapaProcesal":"NOTIFICACION","fechaPresentacion":null,"municipio":"APULO","obligacion":{"1":4513087158442953,"2":5306966000650228},"radicado":"2018 - 00005","vencimientoPagare":null,"expediente":"25599400300120180000500","juzgados":[]},"category":"Terminados","deudor":{"tel":{"celular":[3112764286]},"primerNombre":"RODRIGO","segundoNombre":"ALBERTO","primerApellido":"RUIZ","segundoApellido":"VILLALBA","cedula":79616846,"direccion":"CARRERA 5 # 12 - 53 APULO","email":"rodrigo_ruiz33@hotmail.com"},"numero":373,"llaveProceso":"25599400300120180000500","tipoProceso":"SINGULAR","idProceso":1}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "APULO",
+    "obligacion": {
+      "1": 4513087158442953,
+      "2": 5306966000650228
+    },
+    "radicado": "2018 - 00005",
+    "vencimientoPagare": null,
+    "expediente": "25599400300120180000500",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": { "celular": [3112764286] },
+    "primerNombre": "RODRIGO",
+    "segundoNombre": "ALBERTO",
+    "primerApellido": "RUIZ",
+    "segundoApellido": "VILLALBA",
+    "cedula": 79616846,
+    "direccion": "CARRERA 5 # 12 - 53 APULO",
+    "email": "rodrigo_ruiz33@hotmail.com"
+  },
+  "numero": 373,
+  "llaveProceso": "25599400300120180000500",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 1
+}

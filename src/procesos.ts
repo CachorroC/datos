@@ -1,80 +1,61 @@
 import { intConsultaNumeroRadicacion } from './types/procesos';
 
-export function sleep(
-  ms: number
-) {
-  return new Promise(
-    (
-      resolve
-    ) => {
-      const now = new Date()
-            .getTime();
+export function sleep(ms: number) {
+  return new Promise((resolve) => {
+    const now = new Date().getTime();
 
-      const masTarde = now + ms;
+    const masTarde = now + ms;
 
-      const outputTime = new Date(
-        masTarde
-      )
-            .toLocaleDateString(
-              'es-CO', {
-                hour  : 'numeric',
-                minute: 'numeric',
-                hour12: true
-              }
-            );
-      console.log(
-        `salió del timeout y empezo el fetch a las   ${ outputTime }`
-      );
+    const outputTime = new Date(
+      masTarde
+    ).toLocaleDateString('es-CO', {
+      hour: 'numeric',
+      minute: 'numeric',
+      hour12: true
+    });
+    console.log(
+      `salió del timeout y empezo el fetch a las   ${outputTime}`
+    );
 
-      return setTimeout(
-        resolve, ms
-      );
-    }
-  );
+    return setTimeout(resolve, ms);
+  });
 }
 
-export default async function fetchProceso(
-  {
-    llaveProceso
-  }: {
+export default async function fetchProceso({
+  llaveProceso
+}: {
   llaveProceso: string;
-}
-) {
-
+}) {
   console.log(
-    `el largo de la llave es ${ llaveProceso.length }`
+    `el largo de la llave es ${llaveProceso.length}`
   );
 
   if (
-    llaveProceso.length < 23
-    || llaveProceso === 'sin especificar'
+    llaveProceso.length < 23 ||
+    llaveProceso === 'sin especificar'
   ) {
     return [];
   }
 
   try {
     const req = await fetch(
-      `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${ llaveProceso }&SoloActivos=false`
+      `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${llaveProceso}&SoloActivos=false`
     );
 
-    if ( !req.ok ) {
-      console.log(
-        req.headers
-      );
+    if (!req.ok) {
+      console.log(req.headers);
 
       return [];
     }
 
-    const res
-      = ( await req.json() ) as intConsultaNumeroRadicacion;
+    const res =
+      (await req.json()) as intConsultaNumeroRadicacion;
 
     const procesos = res.procesos;
 
     return procesos;
-  } catch ( error ) {
-    console.log(
-      error
-    );
+  } catch (error) {
+    console.log(error);
 
     return [];
   }

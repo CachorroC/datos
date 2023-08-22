@@ -1,1 +1,38 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2017-08-29T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":"2017-09-19T00:00:00.000Z","municipio":"TENJO","obligacion":{"1":151792,"2":""},"radicado":"2017 - 00247","vencimientoPagare":"2017-05-14T00:00:00.000Z","expediente":"25799418900120170024700","juzgados":[]},"category":"Terminados","deudor":{"tel":{"fijo":[8656241],"celular":[3114602334]},"primerNombre":"NUMAEL","segundoNombre":"AUGUSTO","primerApellido":"GONZALEZ","segundoApellido":"SALGUERO","cedula":80237050,"direccion":"CARRERA 9 No 3-93","email":"numasue@gmail.com"},"numero":237,"llaveProceso":"25799418900120170024700","tipoProceso":"HIPOTECARIO","idProceso":1}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2017-08-29T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "municipio": "TENJO",
+    "obligacion": { "1": 151792, "2": "" },
+    "radicado": "2017 - 00247",
+    "vencimientoPagare": "2017-05-14T00:00:00.000Z",
+    "expediente": "25799418900120170024700",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": [8656241],
+      "celular": [3114602334]
+    },
+    "primerNombre": "NUMAEL",
+    "segundoNombre": "AUGUSTO",
+    "primerApellido": "GONZALEZ",
+    "segundoApellido": "SALGUERO",
+    "cedula": 80237050,
+    "direccion": "CARRERA 9 No 3-93",
+    "email": "numasue@gmail.com"
+  },
+  "numero": 237,
+  "llaveProceso": "25799418900120170024700",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 1
+}

@@ -1,1 +1,47 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2017-08-17T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-08-22T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":12730731,"2":"377813515714351."},"radicado":"2017 - 00826","vencimientoPagare":"2017-08-11T00:00:00.000Z","expediente":"11001400308620170082600","juzgados":[{"id":86,"tipo":"JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota"}]},"category":"Terminados","deudor":{"tel":{"fijo":[2103564],"celular":[3116216567]},"primerNombre":"PEDRO","segundoNombre":"NEL","primerApellido":"PELAEZ","segundoApellido":"TISNES","cedula":4520757,"direccion":"TRANVERSAL 3 # 52B - 09 APTO 405","email":"pelaezpedro@hotmail.com"},"numero":146,"llaveProceso":"11001400308620170082600","tipoProceso":"PRENDARIO","idProceso":81888371}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2017-08-17T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-22T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 12730731,
+      "2": "377813515714351."
+    },
+    "radicado": "2017 - 00826",
+    "vencimientoPagare": "2017-08-11T00:00:00.000Z",
+    "expediente": "11001400308620170082600",
+    "juzgados": [
+      {
+        "id": 86,
+        "tipo": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": [2103564],
+      "celular": [3116216567]
+    },
+    "primerNombre": "PEDRO",
+    "segundoNombre": "NEL",
+    "primerApellido": "PELAEZ",
+    "segundoApellido": "TISNES",
+    "cedula": 4520757,
+    "direccion": "TRANVERSAL 3 # 52B - 09 APTO 405",
+    "email": "pelaezpedro@hotmail.com"
+  },
+  "numero": 146,
+  "llaveProceso": "11001400308620170082600",
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 81888371
+}

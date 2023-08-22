@@ -703,11 +703,13 @@ function newJuzgado(procesos) {
     for (const proceso of procesos) {
         const indexOf = procesos.indexOf(proceso);
         const matchedDespacho = despachos_1.Despachos.find((despacho) => {
-            const nDesp = despacho.nombre.toLowerCase()
+            const nDesp = despacho.nombre
+                .toLowerCase()
                 .normalize('NFD')
                 .replace(/\p{Diacritic}/gu, '')
                 .trim();
-            const pDesp = proceso.despacho.toLowerCase()
+            const pDesp = proceso.despacho
+                .toLowerCase()
                 .normalize('NFD')
                 .replace(/\p{Diacritic}/gu, '')
                 .trim();
@@ -729,7 +731,8 @@ function newJuzgado(procesos) {
                 : proceso.despacho,
             url: matchedDespacho
                 ? `https://www.ramajudicial.gov.co${matchedDespacho.url}`
-                : `https://www.ramajudicial.gov.co${proceso.despacho.replaceAll(' ', '-')
+                : `https://www.ramajudicial.gov.co${proceso.despacho
+                    .replaceAll(' ', '-')
                     .toLowerCase()}`
         };
         juzgados.set(indexOf, newJuzgado);
@@ -741,7 +744,8 @@ function setDepartamento(departamento) {
     const deptos = Departamentos.result;
     const filterDeptos = deptos.find((dpt) => {
         const stringDepto = dpt.descripcion;
-        return stringDepto.toLowerCase() === departamento.toLowerCase();
+        return (stringDepto.toLowerCase() ===
+            departamento.toLowerCase());
     });
     if (filterDeptos) {
         return {
@@ -758,13 +762,15 @@ class Demanda {
     constructor({ capitalAdeudado, departamento, entregagarantiasAbogado, etapaProcesal, fechaPresentacion, municipio, obligacion, radicado, vencimientoPagare }) {
         this.capitalAdeudado = Number(capitalAdeudado);
         this.entregagarantiasAbogado = new Date(entregagarantiasAbogado);
-        this.etapaProcesal = etapaProcesal?.toString();
+        this.etapaProcesal =
+            etapaProcesal?.toString();
         this.fechaPresentacion = new Date(fechaPresentacion ?? '');
         this.municipio = municipio;
         this.obligacion = obligacion;
         this.radicado = radicado.toString();
         this.vencimientoPagare = new Date(vencimientoPagare);
-        this.departamento = setDepartamento(departamento);
+        this.departamento =
+            setDepartamento(departamento);
     }
     capitalAdeudado;
     entregagarantiasAbogado;
@@ -782,11 +788,9 @@ async function createCarpetasDemanda() {
     for (const carpeta of carpetas_1.default) {
         const index = carpetas_1.default.indexOf(carpeta);
         const awaitTime = 1000;
-        const now = new Date()
-            .getTime();
+        const now = new Date().getTime();
         const masTarde = now + awaitTime;
-        const outputTime = new Date(masTarde)
-            .toLocaleDateString('es-CO', {
+        const outputTime = new Date(masTarde).toLocaleDateString('es-CO', {
             hour: 'numeric',
             minute: 'numeric',
             hour12: true

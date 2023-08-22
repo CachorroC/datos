@@ -1,1 +1,44 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2017-09-11T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-09-14T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":5306940432740470,"2":"N/A"},"radicado":"2017 - 01522","vencimientoPagare":"2020-03-22T00:00:00.000Z","expediente":"11001400301820170152200","juzgados":[{"id":16,"tipo":"JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-16-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Reintegra","deudor":{"tel":{},"primerNombre":"JOSE","segundoNombre":"AHINSONJOBER","primerApellido":"TORO","segundoApellido":"VARGAS","cedula":12229243,"direccion":"AVENIDA 1 DE MAYO No 29-06 ","email":"serdiajo@gmail.com"},"numero":289,"llaveProceso":"11001400301820170152200","tipoProceso":"SINGULAR","idProceso":50711570}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2017-09-11T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-09-14T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 5306940432740470,
+      "2": "N/A"
+    },
+    "radicado": "2017 - 01522",
+    "vencimientoPagare": "2020-03-22T00:00:00.000Z",
+    "expediente": "11001400301820170152200",
+    "juzgados": [
+      {
+        "id": 16,
+        "tipo": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-16-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Reintegra",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JOSE",
+    "segundoNombre": "AHINSONJOBER",
+    "primerApellido": "TORO",
+    "segundoApellido": "VARGAS",
+    "cedula": 12229243,
+    "direccion": "AVENIDA 1 DE MAYO No 29-06 ",
+    "email": "serdiajo@gmail.com"
+  },
+  "numero": 289,
+  "llaveProceso": "11001400301820170152200",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50711570
+}

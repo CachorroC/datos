@@ -1,1 +1,38 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2017-08-23T00:00:00.000Z","etapaProcesal":"1.100140030732017e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":180950,"2":"N/A"},"radicado":"2017 - 01136","vencimientoPagare":"2035-02-05T00:00:00.000Z","expediente":"110014007320170113600","juzgados":[]},"category":"Terminados","deudor":{"tel":{"fijo":[3142566],"celular":[3142566974]},"primerNombre":"NICOLAS","segundoNombre":"OSORIO","primerApellido":"OSORIO","segundoApellido":"RODRIGUEZ","cedula":1032431042,"direccion":"CARRERA 111 BIS # 154A - 30 TORRE 2 APTO 1007","email":"nicolas.osorio@finamerica.com.co"},"numero":152,"llaveProceso":"110014007320170113600","tipoProceso":"HIPOTECARIO","idProceso":1}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2017-08-23T00:00:00.000Z",
+    "etapaProcesal": "1.100140030732017e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 180950, "2": "N/A" },
+    "radicado": "2017 - 01136",
+    "vencimientoPagare": "2035-02-05T00:00:00.000Z",
+    "expediente": "110014007320170113600",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": [3142566],
+      "celular": [3142566974]
+    },
+    "primerNombre": "NICOLAS",
+    "segundoNombre": "OSORIO",
+    "primerApellido": "OSORIO",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": 1032431042,
+    "direccion": "CARRERA 111 BIS # 154A - 30 TORRE 2 APTO 1007",
+    "email": "nicolas.osorio@finamerica.com.co"
+  },
+  "numero": 152,
+  "llaveProceso": "110014007320170113600",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 1
+}

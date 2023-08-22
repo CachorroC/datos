@@ -30,7 +30,15 @@ async function updateCarpetas({ carpetas }) {
 exports.updateCarpetas = updateCarpetas;
 async function fixNullishLLaveProcesos() {
     const collection = await (0, exports.carpetasCollection)();
-    const updateNullllaveProceso = await collection.updateMany({ llaveProceso: null }, { $set: { llaveProceso: 'sinEspecificar' } }, { upsert: false });
+    const updateNullllaveProceso = await collection.updateMany({
+        llaveProceso: null
+    }, {
+        $set: {
+            llaveProceso: 'sinEspecificar'
+        }
+    }, {
+        upsert: false
+    });
     console.log(`se encontraron ${updateNullllaveProceso.matchedCount} procesos, de los cuales se actualizaron ${updateNullllaveProceso.modifiedCount}`);
     return updateNullllaveProceso.acknowledged;
 }

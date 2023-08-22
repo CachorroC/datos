@@ -1,1 +1,44 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2018-06-21T00:00:00.000Z","etapaProcesal":"1.100140030122018e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":"AUDIOPRESTAMO","2":""},"radicado":"2018 - 00810","vencimientoPagare":"2021-01-15T00:00:00.000Z","expediente":"11001400301220180081000","juzgados":[{"id":16,"tipo":"JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-16-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Terminados","deudor":{"tel":{},"primerNombre":"LUIS","segundoNombre":"ALFREDO","primerApellido":"NIÑO","segundoApellido":"GARCIA","cedula":79342337,"direccion":"CALLE 113 SUR No 3-30 ESTE","email":"ngluisalfredo@gmail.com"},"numero":448,"llaveProceso":"11001400301220180081000","tipoProceso":"SINGULAR","idProceso":51282150}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2018-06-21T00:00:00.000Z",
+    "etapaProcesal": "1.100140030122018e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "AUDIOPRESTAMO",
+      "2": ""
+    },
+    "radicado": "2018 - 00810",
+    "vencimientoPagare": "2021-01-15T00:00:00.000Z",
+    "expediente": "11001400301220180081000",
+    "juzgados": [
+      {
+        "id": 16,
+        "tipo": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-16-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "LUIS",
+    "segundoNombre": "ALFREDO",
+    "primerApellido": "NIÑO",
+    "segundoApellido": "GARCIA",
+    "cedula": 79342337,
+    "direccion": "CALLE 113 SUR No 3-30 ESTE",
+    "email": "ngluisalfredo@gmail.com"
+  },
+  "numero": 448,
+  "llaveProceso": "11001400301220180081000",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 51282150
+}

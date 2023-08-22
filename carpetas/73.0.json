@@ -1,1 +1,41 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2017-06-12T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":12537545,"2":"N/A"},"radicado":"2017 - 00575","vencimientoPagare":"2018-08-27T00:00:00.000Z","expediente":"11001400300420170057500","juzgados":[{"id":18,"tipo":"JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Terminados","deudor":{"tel":{"fijo":[2333333]},"primerNombre":"SONIA","segundoNombre":"","primerApellido":"MAZUERA","segundoApellido":"","cedula":31877993,"direccion":"CARRERA 55 A No. 165-27 int 7 apto 102","email":"mrocha@hotmail.com"},"numero":73,"llaveProceso":"11001400300420170057500","tipoProceso":"PRENDARIO","idProceso":50508870}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 12537545, "2": "N/A" },
+    "radicado": "2017 - 00575",
+    "vencimientoPagare": "2018-08-27T00:00:00.000Z",
+    "expediente": "11001400300420170057500",
+    "juzgados": [
+      {
+        "id": 18,
+        "tipo": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": { "fijo": [2333333] },
+    "primerNombre": "SONIA",
+    "segundoNombre": "",
+    "primerApellido": "MAZUERA",
+    "segundoApellido": "",
+    "cedula": 31877993,
+    "direccion": "CARRERA 55 A No. 165-27 int 7 apto 102",
+    "email": "mrocha@hotmail.com"
+  },
+  "numero": 73,
+  "llaveProceso": "11001400300420170057500",
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 50508870
+}

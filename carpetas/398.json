@@ -1,1 +1,35 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":null,"etapaProcesal":"SENTENCIA","fechaPresentacion":"2018-07-02T05:00:00.000Z","municipio":"SOACHA","obligacion":{"1":171882,"2":""},"radicado":"2018 - 00064","vencimientoPagare":null,"expediente":"25754400300120180006400","juzgados":[]},"category":"Terminados","deudor":{"tel":{"celular":[3214771295]},"primerNombre":"LILIANA","segundoNombre":"ANDREA","primerApellido":"ERAZO","segundoApellido":"LOPEZ","cedula":52465659,"direccion":"CARRERA 87 BIS No 50 SUR-75 PISO 2","email":"liancridana@hotmail.com"},"numero":398,"llaveProceso":"25754400300120180006400","tipoProceso":"HIPOTECARIO","idProceso":1}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": null,
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2018-07-02T05:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": { "1": 171882, "2": "" },
+    "radicado": "2018 - 00064",
+    "vencimientoPagare": null,
+    "expediente": "25754400300120180006400",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": { "celular": [3214771295] },
+    "primerNombre": "LILIANA",
+    "segundoNombre": "ANDREA",
+    "primerApellido": "ERAZO",
+    "segundoApellido": "LOPEZ",
+    "cedula": 52465659,
+    "direccion": "CARRERA 87 BIS No 50 SUR-75 PISO 2",
+    "email": "liancridana@hotmail.com"
+  },
+  "numero": 398,
+  "llaveProceso": "25754400300120180006400",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 1
+}

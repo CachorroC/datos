@@ -1,1 +1,41 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2017-08-17T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-09-05T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":112910,"2":""},"radicado":"2017 - 01024","vencimientoPagare":"2017-02-28T00:00:00.000Z","expediente":"11001400302220170102400","juzgados":[{"id":14,"tipo":"JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Terminados","deudor":{"tel":{},"primerNombre":"SANDRA","segundoNombre":"BIBIANA","primerApellido":"RUGE","segundoApellido":"RODRIGUEZ","cedula":51993007,"direccion":"CALLE 148 # 94A - 10/60 APTO 408 ETAPA 5","email":"sanbiru_69@hotmail.com"},"numero":207,"llaveProceso":"11001400302220170102400","tipoProceso":"HIPOTECARIO","idProceso":50727910}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2017-08-17T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-05T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 112910, "2": "" },
+    "radicado": "2017 - 01024",
+    "vencimientoPagare": "2017-02-28T00:00:00.000Z",
+    "expediente": "11001400302220170102400",
+    "juzgados": [
+      {
+        "id": 14,
+        "tipo": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "SANDRA",
+    "segundoNombre": "BIBIANA",
+    "primerApellido": "RUGE",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": 51993007,
+    "direccion": "CALLE 148 # 94A - 10/60 APTO 408 ETAPA 5",
+    "email": "sanbiru_69@hotmail.com"
+  },
+  "numero": 207,
+  "llaveProceso": "11001400302220170102400",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50727910
+}

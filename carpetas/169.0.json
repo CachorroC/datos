@@ -1,1 +1,44 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2017-08-01T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-07-21T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":12498762,"2":"audioprestamo"},"radicado":"2017 - 01264","vencimientoPagare":"2020-03-15T00:00:00.000Z","expediente":"11001400300320170126400","juzgados":[{"id":3,"tipo":"JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-03-civil-municipal-de-bogota"}]},"category":"Reintegra","deudor":{"tel":{},"primerNombre":"RITA","segundoNombre":"BLANCO","primerApellido":"DE","segundoApellido":"GOMEZ","cedula":23553904,"direccion":"Carrera 67 No. 65-22 sur Torre 15 Apto 559","email":"dorancy1@hotmail.com"},"numero":169,"llaveProceso":"11001400300320170126400","tipoProceso":"PRENDARIO","idProceso":50598770}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2017-08-01T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-07-21T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 12498762,
+      "2": "audioprestamo"
+    },
+    "radicado": "2017 - 01264",
+    "vencimientoPagare": "2020-03-15T00:00:00.000Z",
+    "expediente": "11001400300320170126400",
+    "juzgados": [
+      {
+        "id": 3,
+        "tipo": "JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-03-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Reintegra",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "RITA",
+    "segundoNombre": "BLANCO",
+    "primerApellido": "DE",
+    "segundoApellido": "GOMEZ",
+    "cedula": 23553904,
+    "direccion": "Carrera 67 No. 65-22 sur Torre 15 Apto 559",
+    "email": "dorancy1@hotmail.com"
+  },
+  "numero": 169,
+  "llaveProceso": "11001400300320170126400",
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 50598770
+}

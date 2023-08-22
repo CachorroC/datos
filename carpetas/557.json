@@ -1,1 +1,41 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2023-07-26T00:00:00.000Z","etapaProcesal":"Bancolombia","fechaPresentacion":"1970-01-01T14:35:31.016Z","municipio":"BOGOTA","obligacion":{"1":840093593,"2":"PAGARE SIN NUMERO T. AMERICAN EXPRESS 0377844069636757"},"radicado":"2023-782","vencimientoPagare":null,"expediente":"558","juzgados":[]},"category":"Bancolombia","deudor":{"tel":{"fijo":[6485655],"celular":[3002985587]},"primerNombre":"CARLOS","segundoNombre":"HERNEY","primerApellido":"HERNEY","segundoApellido":"QUINTERO","cedula":71685758,"direccion":"KR 32 A 1 19 BARRIO SANTA MATILDE","email":"cahequi8097@gmail.com  fundaoyuki@gmail.com"},"numero":557,"llaveProceso":"558","tipoProceso":"SINGULAR","idProceso":1}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "etapaProcesal": "Bancolombia",
+    "fechaPresentacion": "1970-01-01T14:35:31.016Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 840093593,
+      "2": "PAGARE SIN NUMERO T. AMERICAN EXPRESS 0377844069636757"
+    },
+    "radicado": "2023-782",
+    "vencimientoPagare": null,
+    "expediente": "558",
+    "juzgados": []
+  },
+  "category": "Bancolombia",
+  "deudor": {
+    "tel": {
+      "fijo": [6485655],
+      "celular": [3002985587]
+    },
+    "primerNombre": "CARLOS",
+    "segundoNombre": "HERNEY",
+    "primerApellido": "HERNEY",
+    "segundoApellido": "QUINTERO",
+    "cedula": 71685758,
+    "direccion": "KR 32 A 1 19 BARRIO SANTA MATILDE",
+    "email": "cahequi8097@gmail.com  fundaoyuki@gmail.com"
+  },
+  "numero": 557,
+  "llaveProceso": "558",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 1
+}

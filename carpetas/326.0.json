@@ -1,1 +1,44 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2017-10-27T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-11-02T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":103162,"2":""},"radicado":"2017 - 01471","vencimientoPagare":"2022-11-26T00:00:00.000Z","expediente":"11001400303420170147100","juzgados":[{"id":34,"tipo":"JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"}]},"category":"Terminados","deudor":{"tel":{"fijo":[7102329],"celular":[3138267838]},"primerNombre":"JORGE","segundoNombre":"ELIECER","primerApellido":"GOMEZ","segundoApellido":"LOPEZ","cedula":19352146,"direccion":"DIAGONAL 58 No 28 - 72    APARTAMENTO 603 INTERIOR 6","email":"elpotegomez@hotmail.com"},"numero":326,"llaveProceso":"11001400303420170147100","tipoProceso":"HIPOTECARIO","idProceso":50834080}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2017-10-27T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-11-02T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 103162, "2": "" },
+    "radicado": "2017 - 01471",
+    "vencimientoPagare": "2022-11-26T00:00:00.000Z",
+    "expediente": "11001400303420170147100",
+    "juzgados": [
+      {
+        "id": 34,
+        "tipo": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": [7102329],
+      "celular": [3138267838]
+    },
+    "primerNombre": "JORGE",
+    "segundoNombre": "ELIECER",
+    "primerApellido": "GOMEZ",
+    "segundoApellido": "LOPEZ",
+    "cedula": 19352146,
+    "direccion": "DIAGONAL 58 No 28 - 72    APARTAMENTO 603 INTERIOR 6",
+    "email": "elpotegomez@hotmail.com"
+  },
+  "numero": 326,
+  "llaveProceso": "11001400303420170147100",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50834080
+}

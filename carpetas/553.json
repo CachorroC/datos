@@ -1,1 +1,35 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2023-06-20T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":130089828,"2":"N/A"},"radicado":"2023 - 01088","vencimientoPagare":"2025-02-25T00:00:00.000Z","expediente":"","juzgados":[]},"category":"Bancolombia","deudor":{"tel":{},"primerNombre":"JOSE","segundoNombre":"ALEXANDER","primerApellido":"LAVERDE","segundoApellido":"PENAGOS","cedula":80220698,"direccion":"Carrera 7 # 180 75 // Carrera 8 A No. 182 - 12","email":"lxndrlaverde@gmail.com"},"numero":553,"llaveProceso":"","tipoProceso":"SINGULAR","idProceso":1}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2023-06-20T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 130089828, "2": "N/A" },
+    "radicado": "2023 - 01088",
+    "vencimientoPagare": "2025-02-25T00:00:00.000Z",
+    "expediente": "",
+    "juzgados": []
+  },
+  "category": "Bancolombia",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JOSE",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "LAVERDE",
+    "segundoApellido": "PENAGOS",
+    "cedula": 80220698,
+    "direccion": "Carrera 7 # 180 75 // Carrera 8 A No. 182 - 12",
+    "email": "lxndrlaverde@gmail.com"
+  },
+  "numero": 553,
+  "llaveProceso": "",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 1
+}

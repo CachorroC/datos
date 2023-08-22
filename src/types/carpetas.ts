@@ -20,7 +20,7 @@ export interface IntCarpeta {
   deudor: IntDeudor;
   numero: number;
   tipoProceso: TipoProcesoRaw;
-  idProceso?: number
+  idProceso?: number;
 }
 
 export type Category =
@@ -76,13 +76,18 @@ export interface IntDeudor {
 }
 
 export interface IntTel {
-  fijo?:number[] ;
-  celular?: number[] ;
+  fijo?: number[];
+  celular?: number[];
 }
 
 export interface IntDemanda {
   capitalAdeudado: number;
-  departamento: { idCatalogoDetalle: number; idCatalogoDetallePadre: number; descripcion: string; codigo: string; } | null;
+  departamento: {
+    idCatalogoDetalle: number;
+    idCatalogoDetallePadre: number;
+    descripcion: string;
+    codigo: string;
+  } | null;
   entregagarantiasAbogado: Date;
   etapaProcesal?: string;
   fechaPresentacion?: Date;

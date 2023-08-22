@@ -77,12 +77,8 @@
       "segundoApellido": "VERDUGO",
       "segundoNombre": "ANDRES",
       "tel": {
-        "celular": [
-          3142064177
-        ],
-        "fijo": [
-          3935996
-        ]
+        "celular": [3142064177],
+        "fijo": [3935996]
       }
     },
     "idProceso": 52281244,
@@ -168,9 +164,7 @@
       "segundoApellido": "CASTIBLANCO",
       "segundoNombre": "EUSEBIO",
       "tel": {
-        "celular": [
-          3182165543
-        ]
+        "celular": [3182165543]
       }
     },
     "idProceso": 11997693,
@@ -211,9 +205,7 @@
       "segundoApellido": "TOVAR",
       "segundoNombre": "PATRICIA",
       "tel": {
-        "celular": [
-          3217662673
-        ]
+        "celular": [3217662673]
       }
     },
     "idProceso": 1,
@@ -254,9 +246,7 @@
       "segundoApellido": "QUESADA",
       "segundoNombre": "MONTAÑA",
       "tel": {
-        "celular": [
-          3118469698
-        ]
+        "celular": [3118469698]
       }
     },
     "idProceso": 1,
@@ -348,9 +338,7 @@
       "segundoApellido": "VALDES",
       "segundoNombre": "WILSON",
       "tel": {
-        "celular": [
-          3106980002
-        ]
+        "celular": [3106980002]
       }
     },
     "idProceso": 50465740,
@@ -391,13 +379,8 @@
       "segundoApellido": "RODRIGUEZ",
       "segundoNombre": "ALEJANDRA",
       "tel": {
-        "celular": [
-          1020731500,
-          3105583907
-        ],
-        "fijo": [
-          731500
-        ]
+        "celular": [1020731500, 3105583907],
+        "fijo": [731500]
       }
     },
     "idProceso": 1,
@@ -444,9 +427,7 @@
       "segundoApellido": "HERNANDEZ",
       "segundoNombre": "MORALES",
       "tel": {
-        "celular": [
-          3202705987
-        ]
+        "celular": [3202705987]
       }
     },
     "idProceso": 82112341,
@@ -493,9 +474,7 @@
       "segundoApellido": "REYES",
       "segundoNombre": "ROMERO",
       "tel": {
-        "celular": [
-          3209229120
-        ]
+        "celular": [3209229120]
       }
     },
     "idProceso": 50508570,
@@ -536,9 +515,7 @@
       "segundoApellido": "GARCIA",
       "segundoNombre": "MANUEL",
       "tel": {
-        "celular": [
-          3214791915
-        ]
+        "celular": [3214791915]
       }
     },
     "idProceso": 1,
@@ -579,9 +556,7 @@
       "segundoApellido": "ENCISO",
       "segundoNombre": "ORTEGA",
       "tel": {
-        "celular": [
-          3106890300
-        ]
+        "celular": [3106890300]
       }
     },
     "idProceso": 1,
@@ -622,12 +597,8 @@
       "segundoApellido": "ROMERO",
       "segundoNombre": "SOSA",
       "tel": {
-        "celular": [
-          3133743400
-        ],
-        "fijo": [
-          5295780
-        ]
+        "celular": [3133743400],
+        "fijo": [5295780]
       }
     },
     "idProceso": 1,
@@ -674,10 +645,7 @@
       "segundoApellido": "CASTAÑEDA",
       "segundoNombre": "SUSANA",
       "tel": {
-        "celular": [
-          3155112901,
-          3043581350
-        ]
+        "celular": [3155112901, 3043581350]
       }
     },
     "idProceso": 50468310,
@@ -729,9 +697,7 @@
       "segundoApellido": "RAMOS",
       "segundoNombre": "ALBEIRO",
       "tel": {
-        "celular": [
-          3212337597
-        ]
+        "celular": [3212337597]
       }
     },
     "idProceso": 50468620,
@@ -783,9 +749,7 @@
       "segundoApellido": "RAMOS",
       "segundoNombre": "ALBEIRO",
       "tel": {
-        "celular": [
-          3212337597
-        ]
+        "celular": [3212337597]
       }
     },
     "idProceso": 113956611,
@@ -1073,9 +1037,7 @@
       "segundoApellido": "SAENZ",
       "segundoNombre": "ALEXIS",
       "tel": {
-        "celular": [
-          3186899839
-        ]
+        "celular": [3186899839]
       }
     },
     "idProceso": 1,
@@ -1116,9 +1078,7 @@
       "segundoApellido": "MORA",
       "segundoNombre": "ARMANDO",
       "tel": {
-        "celular": [
-          3102354541
-        ]
+        "celular": [3102354541]
       }
     },
     "idProceso": 1,
@@ -1265,9 +1225,7 @@
       "segundoApellido": "",
       "segundoNombre": "",
       "tel": {
-        "celular": [
-          3183517022
-        ]
+        "celular": [3183517022]
       }
     },
     "idProceso": 18161830,
@@ -1347,12 +1305,8 @@
       "segundoApellido": "GONZALEZ",
       "segundoNombre": "TORRES",
       "tel": {
-        "celular": [
-          3102301734
-        ],
-        "fijo": [
-          8671269
-        ]
+        "celular": [3102301734],
+        "fijo": [8671269]
       }
     },
     "idProceso": 1,
@@ -1438,9 +1392,7 @@
       "segundoApellido": "HERRERA",
       "segundoNombre": "VIVIANA",
       "tel": {
-        "celular": [
-          3002107965
-        ]
+        "celular": [3002107965]
       }
     },
     "idProceso": 50492700,
@@ -1481,12 +1433,8 @@
       "segundoApellido": "",
       "segundoNombre": "",
       "tel": {
-        "celular": [
-          3014192323
-        ],
-        "fijo": [
-          7793347
-        ]
+        "celular": [3014192323],
+        "fijo": [7793347]
       }
     },
     "idProceso": 1,
@@ -1533,9 +1481,7 @@
       "segundoApellido": "PARRA",
       "segundoNombre": "ANDRES",
       "tel": {
-        "celular": [
-          3134775602
-        ]
+        "celular": [3134775602]
       }
     },
     "idProceso": 114256610,
@@ -1582,9 +1528,7 @@
       "segundoApellido": "MONROY",
       "segundoNombre": "JOHANA",
       "tel": {
-        "celular": [
-          3118113651
-        ]
+        "celular": [3118113651]
       }
     },
     "idProceso": 81869251,
@@ -1625,9 +1569,7 @@
       "segundoApellido": "GUTIERREZ",
       "segundoNombre": "JULIETH",
       "tel": {
-        "celular": [
-          3006308169
-        ]
+        "celular": [3006308169]
       }
     },
     "idProceso": 1,
@@ -1674,9 +1616,7 @@
       "segundoApellido": "VELANDIA",
       "segundoNombre": "CARLOS",
       "tel": {
-        "celular": [
-          3106199094
-        ]
+        "celular": [3106199094]
       }
     },
     "idProceso": 50477000,
@@ -1717,9 +1657,7 @@
       "segundoApellido": "MONTAGUT",
       "segundoNombre": "PATRICIA",
       "tel": {
-        "celular": [
-          3012419992
-        ]
+        "celular": [3012419992]
       }
     },
     "idProceso": 1,
@@ -1760,9 +1698,7 @@
       "segundoApellido": "GIRALDO",
       "segundoNombre": "ALBERTO",
       "tel": {
-        "celular": [
-          3208091862
-        ]
+        "celular": [3208091862]
       }
     },
     "idProceso": 1,
@@ -1803,9 +1739,7 @@
       "segundoApellido": "MARTÍNEZ",
       "segundoNombre": "MIRYAM",
       "tel": {
-        "celular": [
-          3142310966
-        ]
+        "celular": [3142310966]
       }
     },
     "idProceso": 1,
@@ -1852,12 +1786,8 @@
       "segundoApellido": "GÓMEZ",
       "segundoNombre": "ALONSO",
       "tel": {
-        "celular": [
-          3012746201
-        ],
-        "fijo": [
-          7053290
-        ]
+        "celular": [3012746201],
+        "fijo": [7053290]
       }
     },
     "idProceso": 70519480,
@@ -1949,9 +1879,7 @@
       "segundoApellido": "BOHORQUEZ",
       "segundoNombre": "KARINA",
       "tel": {
-        "celular": [
-          3103247337
-        ]
+        "celular": [3103247337]
       }
     },
     "idProceso": 50632350,
@@ -1992,9 +1920,7 @@
       "segundoApellido": "CIFUENTES",
       "segundoNombre": "DANIEL",
       "tel": {
-        "celular": [
-          3126139284
-        ]
+        "celular": [3126139284]
       }
     },
     "idProceso": 1,
@@ -2041,9 +1967,7 @@
       "segundoApellido": "RUIZ",
       "segundoNombre": "FREDDY",
       "tel": {
-        "celular": [
-          3124041113
-        ]
+        "celular": [3124041113]
       }
     },
     "idProceso": 50631800,
@@ -2090,9 +2014,7 @@
       "segundoApellido": "RUIZ",
       "segundoNombre": "FREDDY",
       "tel": {
-        "celular": [
-          3124041113
-        ]
+        "celular": [3124041113]
       }
     },
     "idProceso": 50631800,
@@ -2139,9 +2061,7 @@
       "segundoApellido": "CARDENAL",
       "segundoNombre": "PALMA",
       "tel": {
-        "celular": [
-          3123142449
-        ]
+        "celular": [3123142449]
       }
     },
     "idProceso": 74646350,
@@ -2188,9 +2108,7 @@
       "segundoApellido": "ALONSO",
       "segundoNombre": "RODRIGUEZ",
       "tel": {
-        "celular": [
-          3166182970
-        ]
+        "celular": [3166182970]
       }
     },
     "idProceso": 86212261,
@@ -2237,9 +2155,7 @@
       "segundoApellido": "GOMEZ",
       "segundoNombre": "RITA",
       "tel": {
-        "celular": [
-          3229150048
-        ]
+        "celular": [3229150048]
       }
     },
     "idProceso": 50521190,
@@ -2331,9 +2247,7 @@
       "segundoApellido": "CORDOBA",
       "segundoNombre": "ISRAEL",
       "tel": {
-        "celular": [
-          3165275725
-        ]
+        "celular": [3165275725]
       }
     },
     "idProceso": 11486153,
@@ -2380,9 +2294,7 @@
       "segundoApellido": "BAQUERO",
       "segundoNombre": "ASTRID",
       "tel": {
-        "celular": [
-          3212062887
-        ]
+        "celular": [3212062887]
       }
     },
     "idProceso": 51259250,
@@ -2429,9 +2341,7 @@
       "segundoApellido": "VERA",
       "segundoNombre": "CAROLINA",
       "tel": {
-        "celular": [
-          3175921396
-        ]
+        "celular": [3175921396]
       }
     },
     "idProceso": 50537040,
@@ -2472,9 +2382,7 @@
       "segundoApellido": "BOLIVAR",
       "segundoNombre": "STELLA",
       "tel": {
-        "celular": [
-          3114720151
-        ]
+        "celular": [3114720151]
       }
     },
     "idProceso": 1,
@@ -2515,9 +2423,7 @@
       "segundoApellido": "LOZANO",
       "segundoNombre": "MARCELA",
       "tel": {
-        "celular": [
-          3212307798
-        ]
+        "celular": [3212307798]
       }
     },
     "idProceso": 1,
@@ -2564,9 +2470,7 @@
       "segundoApellido": "",
       "segundoNombre": "",
       "tel": {
-        "celular": [
-          3138615288
-        ]
+        "celular": [3138615288]
       }
     },
     "idProceso": 17941680,
@@ -2607,9 +2511,7 @@
       "segundoApellido": "RIOS",
       "segundoNombre": "AYURE",
       "tel": {
-        "celular": [
-          3124488945
-        ]
+        "celular": [3124488945]
       }
     },
     "idProceso": 1,
@@ -2656,12 +2558,8 @@
       "segundoApellido": "LOPEZ",
       "segundoNombre": "HERNANDEZ",
       "tel": {
-        "celular": [
-          3138551970
-        ],
-        "fijo": [
-          7900454
-        ]
+        "celular": [3138551970],
+        "fijo": [7900454]
       }
     },
     "idProceso": 29071084,
@@ -2708,9 +2606,7 @@
       "segundoApellido": "ZAMBRANO",
       "segundoNombre": "CECILIA",
       "tel": {
-        "celular": [
-          3102279518
-        ]
+        "celular": [3102279518]
       }
     },
     "idProceso": 50512320,
@@ -2757,12 +2653,8 @@
       "segundoApellido": "PERDOMO",
       "segundoNombre": "URIEL",
       "tel": {
-        "celular": [
-          3228293322
-        ],
-        "fijo": [
-          4183276
-        ]
+        "celular": [3228293322],
+        "fijo": [4183276]
       }
     },
     "idProceso": 50517060,
@@ -2809,12 +2701,8 @@
       "segundoApellido": "GOMEZ",
       "segundoNombre": "RODRIGUEZ",
       "tel": {
-        "celular": [
-          3103161197
-        ],
-        "fijo": [
-          6977403
-        ]
+        "celular": [3103161197],
+        "fijo": [6977403]
       }
     },
     "idProceso": 50738440,
@@ -2939,9 +2827,7 @@
       "segundoApellido": "BUSTOS",
       "segundoNombre": "EDUARDO",
       "tel": {
-        "celular": [
-          3138253554
-        ]
+        "celular": [3138253554]
       }
     },
     "idProceso": 1,
@@ -2982,9 +2868,7 @@
       "segundoApellido": "SUAREZ",
       "segundoNombre": "MARCELA",
       "tel": {
-        "fijo": [
-          7493169
-        ]
+        "fijo": [7493169]
       }
     },
     "idProceso": 1,
@@ -3031,12 +2915,8 @@
       "segundoApellido": "PARGA",
       "segundoNombre": "ERNESTO",
       "tel": {
-        "celular": [
-          3157900006
-        ],
-        "fijo": [
-          3157900
-        ]
+        "celular": [3157900006],
+        "fijo": [3157900]
       }
     },
     "idProceso": 50517510,
@@ -3128,9 +3008,7 @@
       "segundoApellido": "GALVIS",
       "segundoNombre": "PATRICIA",
       "tel": {
-        "celular": [
-          3144113614
-        ]
+        "celular": [3144113614]
       }
     },
     "idProceso": 50593320,
@@ -3177,9 +3055,7 @@
       "segundoApellido": "CORRALES",
       "segundoNombre": "ENRIQUE",
       "tel": {
-        "celular": [
-          3005146155
-        ]
+        "celular": [3005146155]
       }
     },
     "idProceso": 28881194,
@@ -3220,9 +3096,7 @@
       "segundoApellido": "BOLIVAR",
       "segundoNombre": "STELLA",
       "tel": {
-        "celular": [
-          3114720151
-        ]
+        "celular": [3114720151]
       }
     },
     "idProceso": 1,
@@ -3269,9 +3143,7 @@
       "segundoApellido": "IZQUIERDO",
       "segundoNombre": "CATHERINE",
       "tel": {
-        "fijo": [
-          7507842
-        ]
+        "fijo": [7507842]
       }
     },
     "idProceso": 50593100,
@@ -3318,9 +3190,7 @@
       "segundoApellido": "ARIAS",
       "segundoNombre": "AUGUSTO",
       "tel": {
-        "celular": [
-          3152248920
-        ]
+        "celular": [3152248920]
       }
     },
     "idProceso": 65640840,
@@ -3457,9 +3327,7 @@
       "segundoApellido": "",
       "segundoNombre": "",
       "tel": {
-        "fijo": [
-          2333333
-        ]
+        "fijo": [2333333]
       }
     },
     "idProceso": 50508870,
@@ -3506,9 +3374,7 @@
       "segundoApellido": "ARCE",
       "segundoNombre": "ANDRÉS",
       "tel": {
-        "celular": [
-          3138327713
-        ]
+        "celular": [3138327713]
       }
     },
     "idProceso": 10681823,
@@ -3600,9 +3466,7 @@
       "segundoApellido": "GARZÓN",
       "segundoNombre": "MARIN",
       "tel": {
-        "celular": [
-          3112110025
-        ]
+        "celular": [3112110025]
       }
     },
     "idProceso": 86212271,
@@ -3643,12 +3507,8 @@
       "segundoApellido": "VASQUEZ",
       "segundoNombre": "CAROLINA",
       "tel": {
-        "celular": [
-          3174386730
-        ],
-        "fijo": [
-          5663711
-        ]
+        "celular": [3174386730],
+        "fijo": [5663711]
       }
     },
     "idProceso": 1,
@@ -3695,9 +3555,7 @@
       "segundoApellido": "MARTIN",
       "segundoNombre": "EDISON",
       "tel": {
-        "celular": [
-          3158939957
-        ]
+        "celular": [3158939957]
       }
     },
     "idProceso": 17942390,
@@ -3918,12 +3776,8 @@
       "segundoApellido": "ARCINIEGAS",
       "segundoNombre": "ADOLFO",
       "tel": {
-        "celular": [
-          3115672367
-        ],
-        "fijo": [
-          2478114
-        ]
+        "celular": [3115672367],
+        "fijo": [2478114]
       }
     },
     "idProceso": 50738970,
@@ -3964,12 +3818,8 @@
       "segundoApellido": "RUBIO",
       "segundoNombre": "HERNANDEZ",
       "tel": {
-        "celular": [
-          3118802970
-        ],
-        "fijo": [
-          8054434
-        ]
+        "celular": [3118802970],
+        "fijo": [8054434]
       }
     },
     "idProceso": 1,
@@ -4061,9 +3911,7 @@
       "segundoApellido": "TARAPUES",
       "segundoNombre": "MEZA",
       "tel": {
-        "fijo": [
-          4062925
-        ]
+        "fijo": [4062925]
       }
     },
     "idProceso": 111939890,
@@ -4149,9 +3997,7 @@
       "segundoApellido": "CARDONA",
       "segundoNombre": "FERRO",
       "tel": {
-        "celular": [
-          3103126814
-        ]
+        "celular": [3103126814]
       }
     },
     "idProceso": 1,
@@ -4725,9 +4571,7 @@
       "segundoApellido": "ORTIZ",
       "segundoNombre": "JAIRO",
       "tel": {
-        "celular": [
-          3143190799
-        ]
+        "celular": [3143190799]
       }
     },
     "idProceso": 1,
@@ -4774,9 +4618,7 @@
       "segundoApellido": "MORA",
       "segundoNombre": "JOHANNA",
       "tel": {
-        "celular": [
-          3004975278
-        ]
+        "celular": [3004975278]
       }
     },
     "idProceso": 50540650,
@@ -4817,9 +4659,7 @@
       "segundoApellido": "REYES",
       "segundoNombre": "ALEJANDRA",
       "tel": {
-        "celular": [
-          3114456631
-        ]
+        "celular": [3114456631]
       }
     },
     "idProceso": 1,
@@ -4871,9 +4711,7 @@
       "segundoApellido": "CHACON",
       "segundoNombre": "ENRIQUE",
       "tel": {
-        "celular": [
-          3216066052
-        ]
+        "celular": [3216066052]
       }
     },
     "idProceso": 51619370,
@@ -4925,9 +4763,7 @@
       "segundoApellido": "CHACON",
       "segundoNombre": "ENRIQUE",
       "tel": {
-        "celular": [
-          3216066052
-        ]
+        "celular": [3216066052]
       }
     },
     "idProceso": 81869501,
@@ -4974,9 +4810,7 @@
       "segundoApellido": "MENDEZ",
       "segundoNombre": "HERRERA",
       "tel": {
-        "celular": [
-          3103230563
-        ]
+        "celular": [3103230563]
       }
     },
     "idProceso": 50596080,
@@ -5023,9 +4857,7 @@
       "segundoApellido": "POZO",
       "segundoNombre": "JESUS",
       "tel": {
-        "celular": [
-          3133809713
-        ]
+        "celular": [3133809713]
       }
     },
     "idProceso": 50593940,
@@ -5117,12 +4949,8 @@
       "segundoApellido": "TURRIAGO",
       "segundoNombre": "EFRAIN",
       "tel": {
-        "celular": [
-          3176550987
-        ],
-        "fijo": [
-          5936306
-        ]
+        "celular": [3176550987],
+        "fijo": [5936306]
       }
     },
     "idProceso": 17604554,
@@ -5214,9 +5042,7 @@
       "segundoApellido": "MORA",
       "segundoNombre": "IVAN",
       "tel": {
-        "celular": [
-          3045449490
-        ]
+        "celular": [3045449490]
       }
     },
     "idProceso": 50990990,
@@ -5308,12 +5134,8 @@
       "segundoApellido": "CORONADO",
       "segundoNombre": "VIVIANA",
       "tel": {
-        "celular": [
-          3014347540
-        ],
-        "fijo": [
-          2131545
-        ]
+        "celular": [3014347540],
+        "fijo": [2131545]
       }
     },
     "idProceso": 12251233,
@@ -5360,12 +5182,8 @@
       "segundoApellido": "TORRES",
       "segundoNombre": "TRINIDAD",
       "tel": {
-        "celular": [
-          3124740888
-        ],
-        "fijo": [
-          5399415
-        ]
+        "celular": [3124740888],
+        "fijo": [5399415]
       }
     },
     "idProceso": 112880210,
@@ -5412,12 +5230,8 @@
       "segundoApellido": "MAYORGA",
       "segundoNombre": "BIBIANA",
       "tel": {
-        "celular": [
-          3167289932
-        ],
-        "fijo": [
-          6210512
-        ]
+        "celular": [3167289932],
+        "fijo": [6210512]
       }
     },
     "idProceso": 50883240,
@@ -5464,12 +5278,8 @@
       "segundoApellido": "RUIZ",
       "segundoNombre": "ANTONIO",
       "tel": {
-        "celular": [
-          3128067314
-        ],
-        "fijo": [
-          3213173
-        ]
+        "celular": [3128067314],
+        "fijo": [3213173]
       }
     },
     "idProceso": 86396721,
@@ -5516,12 +5326,8 @@
       "segundoApellido": "VELASQUEZ",
       "segundoNombre": "MARIA",
       "tel": {
-        "celular": [
-          3212344417
-        ],
-        "fijo": [
-          5741561
-        ]
+        "celular": [3212344417],
+        "fijo": [5741561]
       }
     },
     "idProceso": 11719343,
@@ -5568,12 +5374,8 @@
       "segundoApellido": "PARDO",
       "segundoNombre": "KARINA",
       "tel": {
-        "celular": [
-          3164355892
-        ],
-        "fijo": [
-          3579028
-        ]
+        "celular": [3164355892],
+        "fijo": [3579028]
       }
     },
     "idProceso": 50624030,
@@ -5665,9 +5467,7 @@
       "segundoApellido": "ROJAS",
       "segundoNombre": "ORLANDO",
       "tel": {
-        "celular": [
-          3103358755
-        ]
+        "celular": [3103358755]
       }
     },
     "idProceso": 12003633,
@@ -5714,12 +5514,8 @@
       "segundoApellido": "GALLEGO",
       "segundoNombre": "AUGUSTO",
       "tel": {
-        "celular": [
-          3103789233
-        ],
-        "fijo": [
-          4610722
-        ]
+        "celular": [3103789233],
+        "fijo": [4610722]
       }
     },
     "idProceso": 50633790,
@@ -5934,12 +5730,8 @@
       "segundoApellido": "MELO",
       "segundoNombre": "EDELMIRA",
       "tel": {
-        "celular": [
-          3202092701
-        ],
-        "fijo": [
-          6749599
-        ]
+        "celular": [3202092701],
+        "fijo": [6749599]
       }
     },
     "idProceso": 50643180,
@@ -6080,12 +5872,8 @@
       "segundoApellido": "PULIDO",
       "segundoNombre": "ARTURO",
       "tel": {
-        "celular": [
-          3138725407
-        ],
-        "fijo": [
-          8211035
-        ]
+        "celular": [3138725407],
+        "fijo": [8211035]
       }
     },
     "idProceso": 1,
@@ -6126,12 +5914,8 @@
       "segundoApellido": "TRILLERAS",
       "segundoNombre": "SUAVITA",
       "tel": {
-        "celular": [
-          3124498840
-        ],
-        "fijo": [
-          3614483
-        ]
+        "celular": [3124498840],
+        "fijo": [3614483]
       }
     },
     "idProceso": 1,
@@ -6223,12 +6007,8 @@
       "segundoApellido": "",
       "segundoNombre": "",
       "tel": {
-        "celular": [
-          3184581490
-        ],
-        "fijo": [
-          6928962
-        ]
+        "celular": [3184581490],
+        "fijo": [6928962]
       }
     },
     "idProceso": 9333743,
@@ -6275,12 +6055,8 @@
       "segundoApellido": "MESTRE",
       "segundoNombre": "ENRIQUE",
       "tel": {
-        "celular": [
-          3125855939
-        ],
-        "fijo": [
-          6371679
-        ]
+        "celular": [3125855939],
+        "fijo": [6371679]
       }
     },
     "idProceso": 50648690,
@@ -6366,12 +6142,8 @@
       "segundoApellido": "RAMIREZ",
       "segundoNombre": "EMILIO",
       "tel": {
-        "celular": [
-          3214033971
-        ],
-        "fijo": [
-          8023973
-        ]
+        "celular": [3214033971],
+        "fijo": [8023973]
       }
     },
     "idProceso": 19209750,
@@ -6418,12 +6190,8 @@
       "segundoApellido": "GARCIA",
       "segundoNombre": "GIOVANNY",
       "tel": {
-        "celular": [
-          3125757941
-        ],
-        "fijo": [
-          4316891
-        ]
+        "celular": [3125757941],
+        "fijo": [4316891]
       }
     },
     "idProceso": 50651910,
@@ -6464,12 +6232,8 @@
       "segundoApellido": "PARADA",
       "segundoNombre": "ALEXANDER",
       "tel": {
-        "celular": [
-          3105519200
-        ],
-        "fijo": [
-          8284768
-        ]
+        "celular": [3105519200],
+        "fijo": [8284768]
       }
     },
     "idProceso": 1,
@@ -6521,12 +6285,8 @@
       "segundoApellido": "SIERRA",
       "segundoNombre": "ANDRES",
       "tel": {
-        "celular": [
-          3007704166
-        ],
-        "fijo": [
-          6045701
-        ]
+        "celular": [3007704166],
+        "fijo": [6045701]
       }
     },
     "idProceso": 50542600,
@@ -6578,12 +6338,8 @@
       "segundoApellido": "SIERRA",
       "segundoNombre": "ANDRES",
       "tel": {
-        "celular": [
-          3007704166
-        ],
-        "fijo": [
-          6045701
-        ]
+        "celular": [3007704166],
+        "fijo": [6045701]
       }
     },
     "idProceso": 81638681,
@@ -6630,12 +6386,8 @@
       "segundoApellido": "MANRIQUE",
       "segundoNombre": "ERNESTO",
       "tel": {
-        "celular": [
-          3125225701
-        ],
-        "fijo": [
-          2990898
-        ]
+        "celular": [3125225701],
+        "fijo": [2990898]
       }
     },
     "idProceso": 10408413,
@@ -6682,12 +6434,8 @@
       "segundoApellido": "SANCHEZ",
       "segundoNombre": "MILENA",
       "tel": {
-        "celular": [
-          3002908272
-        ],
-        "fijo": [
-          3002766
-        ]
+        "celular": [3002908272],
+        "fijo": [3002766]
       }
     },
     "idProceso": 10410303,
@@ -6734,12 +6482,8 @@
       "segundoApellido": "CARO",
       "segundoNombre": "YAMILE",
       "tel": {
-        "celular": [
-          3103446498
-        ],
-        "fijo": [
-          5471164
-        ]
+        "celular": [3103446498],
+        "fijo": [5471164]
       }
     },
     "idProceso": 17941850,
@@ -6786,12 +6530,8 @@
       "segundoApellido": "SARMIENTO",
       "segundoNombre": "EMILCE",
       "tel": {
-        "celular": [
-          3204955563
-        ],
-        "fijo": [
-          7502262
-        ]
+        "celular": [3204955563],
+        "fijo": [7502262]
       }
     },
     "idProceso": 50655580,
@@ -6877,12 +6617,8 @@
       "segundoApellido": "RINCON",
       "segundoNombre": "DAVID",
       "tel": {
-        "celular": [
-          3003932311
-        ],
-        "fijo": [
-          4137430
-        ]
+        "celular": [3003932311],
+        "fijo": [4137430]
       }
     },
     "idProceso": 1,
@@ -7018,9 +6754,7 @@
       "segundoApellido": "SALAS",
       "segundoNombre": "FILOMENA",
       "tel": {
-        "celular": [
-          3124794983
-        ]
+        "celular": [3124794983]
       }
     },
     "idProceso": 50652400,
@@ -7072,9 +6806,7 @@
       "segundoApellido": "SALAS",
       "segundoNombre": "FILOMENA",
       "tel": {
-        "celular": [
-          3124794983
-        ]
+        "celular": [3124794983]
       }
     },
     "idProceso": 81647161,
@@ -7166,12 +6898,8 @@
       "segundoApellido": "TISNES",
       "segundoNombre": "NEL",
       "tel": {
-        "celular": [
-          3116216567
-        ],
-        "fijo": [
-          2103564
-        ]
+        "celular": [3116216567],
+        "fijo": [2103564]
       }
     },
     "idProceso": 81888371,
@@ -7218,12 +6946,8 @@
       "segundoApellido": "RINCON",
       "segundoNombre": "ANDRES",
       "tel": {
-        "celular": [
-          3133912606
-        ],
-        "fijo": [
-          6320923
-        ]
+        "celular": [3133912606],
+        "fijo": [6320923]
       }
     },
     "idProceso": 50653750,
@@ -7270,9 +6994,7 @@
       "segundoApellido": "MORALES",
       "segundoNombre": "GERARDO",
       "tel": {
-        "fijo": [
-          4109980
-        ]
+        "fijo": [4109980]
       }
     },
     "idProceso": 50653560,
@@ -7313,12 +7035,8 @@
       "segundoApellido": "GONZALEZ",
       "segundoNombre": "TATIANA",
       "tel": {
-        "celular": [
-          3138172167
-        ],
-        "fijo": [
-          7867106
-        ]
+        "celular": [3138172167],
+        "fijo": [7867106]
       }
     },
     "idProceso": 1,
@@ -7359,12 +7077,8 @@
       "segundoApellido": "ALARCON",
       "segundoNombre": "TRIANA",
       "tel": {
-        "celular": [
-          3156448156
-        ],
-        "fijo": [
-          3156448
-        ]
+        "celular": [3156448156],
+        "fijo": [3156448]
       }
     },
     "idProceso": 1,
@@ -7450,12 +7164,8 @@
       "segundoApellido": "RODRIGUEZ",
       "segundoNombre": "OSORIO",
       "tel": {
-        "celular": [
-          3142566974
-        ],
-        "fijo": [
-          3142566
-        ]
+        "celular": [3142566974],
+        "fijo": [3142566]
       }
     },
     "idProceso": 1,
@@ -7496,12 +7206,8 @@
       "segundoApellido": "ALVAREZ",
       "segundoNombre": "ROCIO",
       "tel": {
-        "celular": [
-          3214064280
-        ],
-        "fijo": [
-          5168872
-        ]
+        "celular": [3214064280],
+        "fijo": [5168872]
       }
     },
     "idProceso": 1,
@@ -7548,12 +7254,8 @@
       "segundoApellido": "LADINO",
       "segundoNombre": "EDUARDO",
       "tel": {
-        "celular": [
-          3112945552
-        ],
-        "fijo": [
-          7347505
-        ]
+        "celular": [3112945552],
+        "fijo": [7347505]
       }
     },
     "idProceso": 50688820,
@@ -7756,9 +7458,7 @@
       "segundoApellido": "ENCISO",
       "segundoNombre": "FREDY",
       "tel": {
-        "celular": [
-          3125586008
-        ]
+        "celular": [3125586008]
       }
     },
     "idProceso": 50765090,
@@ -7805,12 +7505,8 @@
       "segundoApellido": "SALINAS",
       "segundoNombre": "ALBERTO",
       "tel": {
-        "celular": [
-          3118411820
-        ],
-        "fijo": [
-          6047182
-        ]
+        "celular": [3118411820],
+        "fijo": [6047182]
       }
     },
     "idProceso": 51542360,
@@ -7851,12 +7547,8 @@
       "segundoApellido": "HERNANDEZ",
       "segundoNombre": "ALBERTO",
       "tel": {
-        "celular": [
-          3153808376
-        ],
-        "fijo": [
-          3153808
-        ]
+        "celular": [3153808376],
+        "fijo": [3153808]
       }
     },
     "idProceso": 1,
@@ -7981,9 +7673,7 @@
       "segundoApellido": "DIAZ",
       "segundoNombre": "RUIZ",
       "tel": {
-        "celular": [
-          3102785072
-        ]
+        "celular": [3102785072]
       }
     },
     "idProceso": 50593640,
@@ -8030,12 +7720,8 @@
       "segundoApellido": "",
       "segundoNombre": "",
       "tel": {
-        "celular": [
-          3125312823
-        ],
-        "fijo": [
-          4088069
-        ]
+        "celular": [3125312823],
+        "fijo": [4088069]
       }
     },
     "idProceso": 51497380,
@@ -8082,12 +7768,8 @@
       "segundoApellido": "PEÑA",
       "segundoNombre": "AIDE",
       "tel": {
-        "celular": [
-          3142403097
-        ],
-        "fijo": [
-          4006426
-        ]
+        "celular": [3142403097],
+        "fijo": [4006426]
       }
     },
     "idProceso": 50666380,
@@ -8134,12 +7816,8 @@
       "segundoApellido": "CALDERON",
       "segundoNombre": "MAURICIO",
       "tel": {
-        "celular": [
-          3196564315
-        ],
-        "fijo": [
-          4589855
-        ]
+        "celular": [3196564315],
+        "fijo": [4589855]
       }
     },
     "idProceso": 28842484,
@@ -8186,12 +7864,8 @@
       "segundoApellido": "BELTRAN",
       "segundoNombre": "STELLA",
       "tel": {
-        "celular": [
-          3164673352
-        ],
-        "fijo": [
-          6861327
-        ]
+        "celular": [3164673352],
+        "fijo": [6861327]
       }
     },
     "idProceso": 50667300,
@@ -8283,12 +7957,8 @@
       "segundoApellido": "DURAN",
       "segundoNombre": "CRISTINA",
       "tel": {
-        "celular": [
-          3006509338
-        ],
-        "fijo": [
-          5514126
-        ]
+        "celular": [3006509338],
+        "fijo": [5514126]
       }
     },
     "idProceso": 50668010,
@@ -8425,12 +8095,8 @@
       "segundoApellido": "OCHOA",
       "segundoNombre": "ALEXANDER",
       "tel": {
-        "celular": [
-          3114901649
-        ],
-        "fijo": [
-          7230139
-        ]
+        "celular": [3114901649],
+        "fijo": [7230139]
       }
     },
     "idProceso": 50674600,
@@ -8477,12 +8143,8 @@
       "segundoApellido": "MARTINEZ",
       "segundoNombre": "HERNANDEZ",
       "tel": {
-        "celular": [
-          3144189224
-        ],
-        "fijo": [
-          4530972
-        ]
+        "celular": [3144189224],
+        "fijo": [4530972]
       }
     },
     "idProceso": 112048180,
@@ -8523,12 +8185,8 @@
       "segundoApellido": "AVILA",
       "segundoNombre": "GUSTAVO",
       "tel": {
-        "celular": [
-          3118866968
-        ],
-        "fijo": [
-          8212461
-        ]
+        "celular": [3118866968],
+        "fijo": [8212461]
       }
     },
     "idProceso": 1,
@@ -8580,12 +8238,8 @@
       "segundoApellido": "DAZA",
       "segundoNombre": "FREDY",
       "tel": {
-        "celular": [
-          3182221747
-        ],
-        "fijo": [
-          7562457
-        ]
+        "celular": [3182221747],
+        "fijo": [7562457]
       }
     },
     "idProceso": 112783650,
@@ -8637,12 +8291,8 @@
       "segundoApellido": "DAZA",
       "segundoNombre": "FREDY",
       "tel": {
-        "celular": [
-          3182221747
-        ],
-        "fijo": [
-          7562457
-        ]
+        "celular": [3182221747],
+        "fijo": [7562457]
       }
     },
     "idProceso": 81628051,
@@ -8734,12 +8384,8 @@
       "segundoApellido": "PINZON",
       "segundoNombre": "OCASIONES",
       "tel": {
-        "celular": [
-          3156780088
-        ],
-        "fijo": [
-          7675057
-        ]
+        "celular": [3156780088],
+        "fijo": [7675057]
       }
     },
     "idProceso": 112657130,
@@ -8786,12 +8432,8 @@
       "segundoApellido": "TAGUA",
       "segundoNombre": "GONZALEZ",
       "tel": {
-        "celular": [
-          3218180993
-        ],
-        "fijo": [
-          5642974
-        ]
+        "celular": [3218180993],
+        "fijo": [5642974]
       }
     },
     "idProceso": 50760030,
@@ -8877,12 +8519,8 @@
       "segundoApellido": "GUERRERO",
       "segundoNombre": "ALIRIO",
       "tel": {
-        "celular": [
-          3103048137
-        ],
-        "fijo": [
-          7177769
-        ]
+        "celular": [3103048137],
+        "fijo": [7177769]
       }
     },
     "idProceso": 82132851,
@@ -9112,12 +8750,8 @@
       "segundoApellido": "FERNANDEZ",
       "segundoNombre": "GIOVANNI",
       "tel": {
-        "celular": [
-          3103397090
-        ],
-        "fijo": [
-          3351000
-        ]
+        "celular": [3103397090],
+        "fijo": [3351000]
       }
     },
     "idProceso": 1,
@@ -9197,12 +8831,8 @@
       "segundoApellido": "PINZON",
       "segundoNombre": "ALVARADO",
       "tel": {
-        "celular": [
-          3138851725
-        ],
-        "fijo": [
-          8717658
-        ]
+        "celular": [3138851725],
+        "fijo": [8717658]
       }
     },
     "idProceso": 1,
@@ -9288,12 +8918,8 @@
       "segundoApellido": "GRISALES",
       "segundoNombre": "JESUS",
       "tel": {
-        "celular": [
-          3142125039
-        ],
-        "fijo": [
-          3213559
-        ]
+        "celular": [3142125039],
+        "fijo": [3213559]
       }
     },
     "idProceso": 1,
@@ -9379,13 +9005,8 @@
       "segundoApellido": "MARQUEZ",
       "segundoNombre": "ALEXANDER",
       "tel": {
-        "celular": [
-          3004525014
-        ],
-        "fijo": [
-          2376454,
-          2371468
-        ]
+        "celular": [3004525014],
+        "fijo": [2376454, 2371468]
       }
     },
     "idProceso": 51357750,
@@ -9465,12 +9086,8 @@
       "segundoApellido": "MARTINEZ",
       "segundoNombre": "ELIZABETH",
       "tel": {
-        "celular": [
-          3204792977
-        ],
-        "fijo": [
-          7829236
-        ]
+        "celular": [3204792977],
+        "fijo": [7829236]
       }
     },
     "idProceso": 1,
@@ -9517,9 +9134,7 @@
       "segundoApellido": "RUEDA",
       "segundoNombre": "MARTINEZ",
       "tel": {
-        "celular": [
-          3107976282
-        ]
+        "celular": [3107976282]
       }
     },
     "idProceso": 50679230,
@@ -9560,12 +9175,8 @@
       "segundoApellido": "CORTES",
       "segundoNombre": "FABIAN",
       "tel": {
-        "celular": [
-          3118280782
-        ],
-        "fijo": [
-          4429545
-        ]
+        "celular": [3118280782],
+        "fijo": [4429545]
       }
     },
     "idProceso": 1,
@@ -9612,12 +9223,8 @@
       "segundoApellido": "",
       "segundoNombre": "",
       "tel": {
-        "celular": [
-          3157303099
-        ],
-        "fijo": [
-          7677881
-        ]
+        "celular": [3157303099],
+        "fijo": [7677881]
       }
     },
     "idProceso": 28907104,
@@ -9709,12 +9316,8 @@
       "segundoApellido": "PUENTES",
       "segundoNombre": "MANUEL",
       "tel": {
-        "celular": [
-          3142998727
-        ],
-        "fijo": [
-          3142498
-        ]
+        "celular": [3142998727],
+        "fijo": [3142498]
       }
     },
     "idProceso": 19150031,
@@ -9755,13 +9358,8 @@
       "segundoApellido": "COLORADO",
       "segundoNombre": "LILIANA",
       "tel": {
-        "celular": [
-          3108612781,
-          3502772711
-        ],
-        "fijo": [
-          8612781
-        ]
+        "celular": [3108612781, 3502772711],
+        "fijo": [8612781]
       }
     },
     "idProceso": 1,
@@ -9808,12 +9406,8 @@
       "segundoApellido": "CASTAÑEDA",
       "segundoNombre": "ROJAS",
       "tel": {
-        "celular": [
-          3103770989
-        ],
-        "fijo": [
-          7600199
-        ]
+        "celular": [3103770989],
+        "fijo": [7600199]
       }
     },
     "idProceso": 50681670,
@@ -9860,12 +9454,8 @@
       "segundoApellido": "VARGAS",
       "segundoNombre": "OLGA",
       "tel": {
-        "celular": [
-          3108711046
-        ],
-        "fijo": [
-          6256456
-        ]
+        "celular": [3108711046],
+        "fijo": [6256456]
       }
     },
     "idProceso": 128433271,
@@ -9957,12 +9547,8 @@
       "segundoApellido": "MARTINEZ",
       "segundoNombre": "VILLABON",
       "tel": {
-        "celular": [
-          3118264932
-        ],
-        "fijo": [
-          7672705
-        ]
+        "celular": [3118264932],
+        "fijo": [7672705]
       }
     },
     "idProceso": 50684220,
@@ -10054,12 +9640,8 @@
       "segundoApellido": "MESA",
       "segundoNombre": "CARMEN",
       "tel": {
-        "celular": [
-          3143313269
-        ],
-        "fijo": [
-          7616370
-        ]
+        "celular": [3143313269],
+        "fijo": [7616370]
       }
     },
     "idProceso": 50669130,
@@ -10241,12 +9823,8 @@
       "segundoApellido": "CAÑON",
       "segundoNombre": "ALFONSO",
       "tel": {
-        "celular": [
-          3212406004
-        ],
-        "fijo": [
-          1006108
-        ]
+        "celular": [3212406004],
+        "fijo": [1006108]
       }
     },
     "idProceso": 50672820,
@@ -10298,12 +9876,8 @@
       "segundoApellido": "CORTES",
       "segundoNombre": "ANTONIO",
       "tel": {
-        "celular": [
-          3015004499
-        ],
-        "fijo": [
-          4658342
-        ]
+        "celular": [3015004499],
+        "fijo": [4658342]
       }
     },
     "idProceso": 51006610,
@@ -10355,12 +9929,8 @@
       "segundoApellido": "CORTES",
       "segundoNombre": "ANTONIO",
       "tel": {
-        "celular": [
-          3015004499
-        ],
-        "fijo": [
-          4658342
-        ]
+        "celular": [3015004499],
+        "fijo": [4658342]
       }
     },
     "idProceso": 81643141,
@@ -10524,12 +10094,8 @@
       "segundoApellido": "MAHECHA",
       "segundoNombre": "PATRICIA",
       "tel": {
-        "celular": [
-          3204297147
-        ],
-        "fijo": [
-          7290666
-        ]
+        "celular": [3204297147],
+        "fijo": [7290666]
       }
     },
     "idProceso": 1,
@@ -10726,12 +10292,8 @@
       "segundoApellido": "HERNANDEZ",
       "segundoNombre": "VANESSA",
       "tel": {
-        "celular": [
-          3108096132
-        ],
-        "fijo": [
-          2256952
-        ]
+        "celular": [3108096132],
+        "fijo": [2256952]
       }
     },
     "idProceso": 51315290,
@@ -10783,12 +10345,8 @@
       "segundoApellido": "HERNANDEZ",
       "segundoNombre": "VANESSA",
       "tel": {
-        "celular": [
-          3108096132
-        ],
-        "fijo": [
-          2256952
-        ]
+        "celular": [3108096132],
+        "fijo": [2256952]
       }
     },
     "idProceso": 57718874,
@@ -10925,12 +10483,8 @@
       "segundoApellido": "PINEDA",
       "segundoNombre": "EUGENIA",
       "tel": {
-        "celular": [
-          3144468420
-        ],
-        "fijo": [
-          7842477
-        ]
+        "celular": [3144468420],
+        "fijo": [7842477]
       }
     },
     "idProceso": 50771340,
@@ -10977,12 +10531,8 @@
       "segundoApellido": "MACHADO",
       "segundoNombre": "HELENA",
       "tel": {
-        "celular": [
-          3103025587
-        ],
-        "fijo": [
-          4506940
-        ]
+        "celular": [3103025587],
+        "fijo": [4506940]
       }
     },
     "idProceso": 50684250,
@@ -11029,12 +10579,8 @@
       "segundoApellido": "PINILLA",
       "segundoNombre": "AUGUSTO",
       "tel": {
-        "celular": [
-          3005705869
-        ],
-        "fijo": [
-          5705869
-        ]
+        "celular": [3005705869],
+        "fijo": [5705869]
       }
     },
     "idProceso": 50688520,
@@ -11081,12 +10627,8 @@
       "segundoApellido": "VEGA",
       "segundoNombre": "ANTONIO",
       "tel": {
-        "celular": [
-          3153330306
-        ],
-        "fijo": [
-          3349755
-        ]
+        "celular": [3153330306],
+        "fijo": [3349755]
       }
     },
     "idProceso": 86524020,
@@ -11127,9 +10669,7 @@
       "segundoApellido": "CORTES",
       "segundoNombre": "ROSA",
       "tel": {
-        "celular": [
-          3114881698
-        ]
+        "celular": [3114881698]
       }
     },
     "idProceso": 1,
@@ -11401,12 +10941,8 @@
       "segundoApellido": "CASTAÑEDA",
       "segundoNombre": "ALEXANDER",
       "tel": {
-        "celular": [
-          3057528084
-        ],
-        "fijo": [
-          8137713
-        ]
+        "celular": [3057528084],
+        "fijo": [8137713]
       }
     },
     "idProceso": 11720143,
@@ -11537,12 +11073,8 @@
       "segundoApellido": "TAMAYO",
       "segundoNombre": "LUIS",
       "tel": {
-        "celular": [
-          3138216786
-        ],
-        "fijo": [
-          3138216
-        ]
+        "celular": [3138216786],
+        "fijo": [3138216]
       }
     },
     "idProceso": 50685700,
@@ -11589,12 +11121,8 @@
       "segundoApellido": "BERMUDEZ",
       "segundoNombre": "ALEXANDER",
       "tel": {
-        "celular": [
-          3052392765
-        ],
-        "fijo": [
-          7451585
-        ]
+        "celular": [3052392765],
+        "fijo": [7451585]
       }
     },
     "idProceso": 9334913,
@@ -11641,12 +11169,8 @@
       "segundoApellido": "AGUDELO",
       "segundoNombre": "DIAZ",
       "tel": {
-        "celular": [
-          3212406193
-        ],
-        "fijo": [
-          8060271
-        ]
+        "celular": [3212406193],
+        "fijo": [8060271]
       }
     },
     "idProceso": 50716620,
@@ -11687,12 +11211,8 @@
       "segundoApellido": "OLAYA",
       "segundoNombre": "MORENO",
       "tel": {
-        "celular": [
-          3123836799
-        ],
-        "fijo": [
-          7191321
-        ]
+        "celular": [3123836799],
+        "fijo": [7191321]
       }
     },
     "idProceso": 1,
@@ -11733,12 +11253,8 @@
       "segundoApellido": "SALGUERO",
       "segundoNombre": "AUGUSTO",
       "tel": {
-        "celular": [
-          3114602334
-        ],
-        "fijo": [
-          8656241
-        ]
+        "celular": [3114602334],
+        "fijo": [8656241]
       }
     },
     "idProceso": 1,
@@ -11785,12 +11301,8 @@
       "segundoApellido": "ARIAS",
       "segundoNombre": "ALEXANDER",
       "tel": {
-        "celular": [
-          3106289389
-        ],
-        "fijo": [
-          2362747
-        ]
+        "celular": [3106289389],
+        "fijo": [2362747]
       }
     },
     "idProceso": 9334093,
@@ -11871,12 +11383,8 @@
       "segundoApellido": "MONGUI",
       "segundoNombre": "ALIRIO",
       "tel": {
-        "celular": [
-          3134293286
-        ],
-        "fijo": [
-          5774513
-        ]
+        "celular": [3134293286],
+        "fijo": [5774513]
       }
     },
     "idProceso": 1,
@@ -11957,12 +11465,8 @@
       "segundoApellido": "ROMO",
       "segundoNombre": "OTALVARO",
       "tel": {
-        "celular": [
-          3223968514
-        ],
-        "fijo": [
-          4805457
-        ]
+        "celular": [3223968514],
+        "fijo": [4805457]
       }
     },
     "idProceso": 1,
@@ -12009,14 +11513,8 @@
       "segundoApellido": "PERUGACHI",
       "segundoNombre": "OLGA",
       "tel": {
-        "celular": [
-          3222223988,
-          3143072762
-        ],
-        "fijo": [
-          1111111,
-          2239883
-        ]
+        "celular": [3222223988, 3143072762],
+        "fijo": [1111111, 2239883]
       }
     },
     "idProceso": 50675410,
@@ -12153,12 +11651,8 @@
       "segundoApellido": "VILLAMIL",
       "segundoNombre": "BUITRAGO",
       "tel": {
-        "celular": [
-          3204979488
-        ],
-        "fijo": [
-          7696884
-        ]
+        "celular": [3204979488],
+        "fijo": [7696884]
       }
     },
     "idProceso": 10416913,
@@ -12194,9 +11688,7 @@
       "segundoApellido": "NOVOA",
       "segundoNombre": "LANCHEROS",
       "tel": {
-        "celular": [
-          3115221604
-        ]
+        "celular": [3115221604]
       }
     },
     "idProceso": 1,
@@ -12243,9 +11735,7 @@
       "segundoApellido": "ALBA",
       "segundoNombre": "CARRANZA",
       "tel": {
-        "celular": [
-          3193196261
-        ]
+        "celular": [3193196261]
       }
     },
     "idProceso": 50715970,
@@ -12292,12 +11782,8 @@
       "segundoApellido": "BENDEK",
       "segundoNombre": "ALBERTO",
       "tel": {
-        "celular": [
-          3134749213
-        ],
-        "fijo": [
-          6701643
-        ]
+        "celular": [3134749213],
+        "fijo": [6701643]
       }
     },
     "idProceso": 50687430,
@@ -12338,12 +11824,8 @@
       "segundoApellido": "RAMIREZ",
       "segundoNombre": "CONTRERAS",
       "tel": {
-        "celular": [
-          3135348199
-        ],
-        "fijo": [
-          8715525
-        ]
+        "celular": [3135348199],
+        "fijo": [8715525]
       }
     },
     "idProceso": 1,
@@ -12390,9 +11872,7 @@
       "segundoApellido": "BENAVIDES",
       "segundoNombre": "JAVIER",
       "tel": {
-        "celular": [
-          3178195535
-        ]
+        "celular": [3178195535]
       }
     },
     "idProceso": 50685530,
@@ -12484,12 +11964,8 @@
       "segundoApellido": "CORREDOR",
       "segundoNombre": "EDUARDO",
       "tel": {
-        "celular": [
-          3115197002
-        ],
-        "fijo": [
-          3521314
-        ]
+        "celular": [3115197002],
+        "fijo": [3521314]
       }
     },
     "idProceso": 50708840,
@@ -12530,12 +12006,8 @@
       "segundoApellido": "VALOYES",
       "segundoNombre": "PRADO",
       "tel": {
-        "celular": [
-          3103291690
-        ],
-        "fijo": [
-          8615372
-        ]
+        "celular": [3103291690],
+        "fijo": [8615372]
       }
     },
     "idProceso": 1,
@@ -12878,12 +12350,8 @@
       "segundoApellido": "DELGADO",
       "segundoNombre": "ALBERTO",
       "tel": {
-        "celular": [
-          3125489014
-        ],
-        "fijo": [
-          2737360
-        ]
+        "celular": [3125489014],
+        "fijo": [2737360]
       }
     },
     "idProceso": 1,
@@ -12924,9 +12392,7 @@
       "segundoApellido": "ZAMORA",
       "segundoNombre": "ANDRES",
       "tel": {
-        "celular": [
-          3103247146
-        ]
+        "celular": [3103247146]
       }
     },
     "idProceso": 1,
@@ -13012,9 +12478,7 @@
       "segundoApellido": "PEÑA",
       "segundoNombre": "JULIO",
       "tel": {
-        "celular": [
-          3105683065
-        ]
+        "celular": [3105683065]
       }
     },
     "idProceso": 1,
@@ -13055,12 +12519,8 @@
       "segundoApellido": "ARGOTE",
       "segundoNombre": "RENE",
       "tel": {
-        "celular": [
-          3118027001
-        ],
-        "fijo": [
-          3018759
-        ]
+        "celular": [3118027001],
+        "fijo": [3018759]
       }
     },
     "idProceso": 1,
@@ -13102,9 +12562,7 @@
       "segundoApellido": "AGUIRRE",
       "segundoNombre": "JESUS",
       "tel": {
-        "celular": [
-          3138085772
-        ]
+        "celular": [3138085772]
       }
     },
     "idProceso": 50739310,
@@ -13274,12 +12732,8 @@
       "segundoApellido": "HERNANDEZ",
       "segundoNombre": "ANDRES",
       "tel": {
-        "celular": [
-          3107727822
-        ],
-        "fijo": [
-          4566333
-        ]
+        "celular": [3107727822],
+        "fijo": [4566333]
       }
     },
     "idProceso": 1,
@@ -13455,12 +12909,8 @@
       "segundoApellido": "BORRAEZ",
       "segundoNombre": "GUILLERMO",
       "tel": {
-        "celular": [
-          3178134824
-        ],
-        "fijo": [
-          6915340
-        ]
+        "celular": [3178134824],
+        "fijo": [6915340]
       }
     },
     "idProceso": 50760230,
@@ -13501,12 +12951,8 @@
       "segundoApellido": "",
       "segundoNombre": "",
       "tel": {
-        "celular": [
-          3208100658
-        ],
-        "fijo": [
-          6012243
-        ]
+        "celular": [3208100658],
+        "fijo": [6012243]
       }
     },
     "idProceso": 1,
@@ -13547,12 +12993,8 @@
       "segundoApellido": "GOMEZ",
       "segundoNombre": "MAYORGA",
       "tel": {
-        "celular": [
-          3204283595
-        ],
-        "fijo": [
-          9008364
-        ]
+        "celular": [3204283595],
+        "fijo": [9008364]
       }
     },
     "idProceso": 1,
@@ -13644,12 +13086,8 @@
       "segundoApellido": "JARAMILLO",
       "segundoNombre": "DARY",
       "tel": {
-        "celular": [
-          3103430010
-        ],
-        "fijo": [
-          4357832
-        ]
+        "celular": [3103430010],
+        "fijo": [4357832]
       }
     },
     "idProceso": 112945420,
@@ -13696,9 +13134,7 @@
       "segundoApellido": "TRUJILLO",
       "segundoNombre": "FELIPE",
       "tel": {
-        "celular": [
-          3115964170
-        ]
+        "celular": [3115964170]
       }
     },
     "idProceso": 112758450,
@@ -13740,12 +13176,8 @@
       "segundoApellido": "VALBUENA",
       "segundoNombre": "HERNANDO",
       "tel": {
-        "celular": [
-          3125826241
-        ],
-        "fijo": [
-          4789274
-        ]
+        "celular": [3125826241],
+        "fijo": [4789274]
       }
     },
     "idProceso": 50875780,
@@ -13831,12 +13263,8 @@
       "segundoApellido": "AGUILAR",
       "segundoNombre": "HUMBERTO",
       "tel": {
-        "celular": [
-          3125024008
-        ],
-        "fijo": [
-          4170527
-        ]
+        "celular": [3125024008],
+        "fijo": [4170527]
       }
     },
     "idProceso": 50777890,
@@ -13967,12 +13395,8 @@
       "segundoApellido": "GOMEZ",
       "segundoNombre": "MARIA",
       "tel": {
-        "celular": [
-          3134576869
-        ],
-        "fijo": [
-          8065373
-        ]
+        "celular": [3134576869],
+        "fijo": [8065373]
       }
     },
     "idProceso": 50720040,
@@ -14119,12 +13543,8 @@
       "segundoApellido": "CASTAÑEDA",
       "segundoNombre": "GERMAN",
       "tel": {
-        "celular": [
-          3104865508
-        ],
-        "fijo": [
-          6087374
-        ]
+        "celular": [3104865508],
+        "fijo": [6087374]
       }
     },
     "idProceso": 50242270,
@@ -14255,12 +13675,8 @@
       "segundoApellido": "RODRIGUEZ",
       "segundoNombre": "GIL",
       "tel": {
-        "celular": [
-          3152504510
-        ],
-        "fijo": [
-          6051177
-        ]
+        "celular": [3152504510],
+        "fijo": [6051177]
       }
     },
     "idProceso": 50765330,
@@ -14340,9 +13756,7 @@
       "segundoApellido": "RAMIREZ",
       "segundoNombre": "FREDY",
       "tel": {
-        "fijo": [
-          7641957
-        ]
+        "fijo": [7641957]
       }
     },
     "idProceso": 1,
@@ -14389,12 +13803,8 @@
       "segundoApellido": "SANTOS",
       "segundoNombre": "REVELO",
       "tel": {
-        "celular": [
-          3118526428
-        ],
-        "fijo": [
-          4725511
-        ]
+        "celular": [3118526428],
+        "fijo": [4725511]
       }
     },
     "idProceso": 50762570,
@@ -14620,9 +14030,7 @@
       "segundoApellido": "HUERTAS",
       "segundoNombre": "ANGEL",
       "tel": {
-        "celular": [
-          3123077900
-        ]
+        "celular": [3123077900]
       }
     },
     "idProceso": 1,
@@ -14669,9 +14077,7 @@
       "segundoApellido": "BOHORQUEZ",
       "segundoNombre": "GABRIEL",
       "tel": {
-        "celular": [
-          3164700074
-        ]
+        "celular": [3164700074]
       }
     },
     "idProceso": 51570460,
@@ -14751,12 +14157,8 @@
       "segundoApellido": "SANCHEZ",
       "segundoNombre": "EDILBERTO",
       "tel": {
-        "celular": [
-          3174280231
-        ],
-        "fijo": [
-          2623688
-        ]
+        "celular": [3174280231],
+        "fijo": [2623688]
       }
     },
     "idProceso": 1,
@@ -14836,12 +14238,8 @@
       "segundoApellido": "LOPEZ",
       "segundoNombre": "GODOY",
       "tel": {
-        "celular": [
-          3005821212
-        ],
-        "fijo": [
-          8272125
-        ]
+        "celular": [3005821212],
+        "fijo": [8272125]
       }
     },
     "idProceso": 1,
@@ -14888,12 +14286,8 @@
       "segundoApellido": "VELANDIA",
       "segundoNombre": "ALFONSO",
       "tel": {
-        "celular": [
-          3202777672
-        ],
-        "fijo": [
-          7170610
-        ]
+        "celular": [3202777672],
+        "fijo": [7170610]
       }
     },
     "idProceso": 50778160,
@@ -14934,9 +14328,7 @@
       "segundoApellido": "TELLEZ",
       "segundoNombre": "GONZALEZ",
       "tel": {
-        "celular": [
-          3212414138
-        ]
+        "celular": [3212414138]
       }
     },
     "idProceso": 1,
@@ -15028,12 +14420,8 @@
       "segundoApellido": "LEAL",
       "segundoNombre": "ARTURO",
       "tel": {
-        "celular": [
-          3102050752
-        ],
-        "fijo": [
-          2953878
-        ]
+        "celular": [3102050752],
+        "fijo": [2953878]
       }
     },
     "idProceso": 50812320,
@@ -15768,12 +15156,8 @@
       "segundoApellido": "POBLADOR",
       "segundoNombre": "YAMILE",
       "tel": {
-        "celular": [
-          3112326151
-        ],
-        "fijo": [
-          5205695
-        ]
+        "celular": [3112326151],
+        "fijo": [5205695]
       }
     },
     "idProceso": 81891881,
@@ -15949,12 +15333,8 @@
       "segundoApellido": "LOPEZ",
       "segundoNombre": "ELIECER",
       "tel": {
-        "celular": [
-          3138267838
-        ],
-        "fijo": [
-          7102329
-        ]
+        "celular": [3138267838],
+        "fijo": [7102329]
       }
     },
     "idProceso": 50834080,
@@ -16091,12 +15471,8 @@
       "segundoApellido": "VARON",
       "segundoNombre": "MELENDEZ",
       "tel": {
-        "celular": [
-          3107584138
-        ],
-        "fijo": [
-          2287430
-        ]
+        "celular": [3107584138],
+        "fijo": [2287430]
       }
     },
     "idProceso": 65614470,
@@ -16143,12 +15519,8 @@
       "segundoApellido": "SUAREZ",
       "segundoNombre": "ARBEY",
       "tel": {
-        "celular": [
-          3176822122
-        ],
-        "fijo": [
-          6822121
-        ]
+        "celular": [3176822122],
+        "fijo": [6822121]
       }
     },
     "idProceso": 113385910,
@@ -16228,12 +15600,8 @@
       "segundoApellido": "MARROQUIN",
       "segundoNombre": "ANTONIO",
       "tel": {
-        "celular": [
-          3168017488
-        ],
-        "fijo": [
-          9032416
-        ]
+        "celular": [3168017488],
+        "fijo": [9032416]
       }
     },
     "idProceso": 1,
@@ -16325,12 +15693,8 @@
       "segundoApellido": "ORJUELA",
       "segundoNombre": "JULIO",
       "tel": {
-        "celular": [
-          3132088678
-        ],
-        "fijo": [
-          7459324
-        ]
+        "celular": [3132088678],
+        "fijo": [7459324]
       }
     },
     "idProceso": 50765770,
@@ -16467,12 +15831,8 @@
       "segundoApellido": "RIOS",
       "segundoNombre": "ALFONSO",
       "tel": {
-        "celular": [
-          3115030138
-        ],
-        "fijo": [
-          7651426
-        ]
+        "celular": [3115030138],
+        "fijo": [7651426]
       }
     },
     "idProceso": 50857820,
@@ -16648,12 +16008,8 @@
       "segundoApellido": "PARRA",
       "segundoNombre": "VELEZ",
       "tel": {
-        "celular": [
-          3102124649
-        ],
-        "fijo": [
-          6155668
-        ]
+        "celular": [3102124649],
+        "fijo": [6155668]
       }
     },
     "idProceso": 17608484,
@@ -16739,12 +16095,8 @@
       "segundoApellido": "JIMENEZ",
       "segundoNombre": "ALFONSO",
       "tel": {
-        "celular": [
-          3188426582
-        ],
-        "fijo": [
-          5470813
-        ]
+        "celular": [3188426582],
+        "fijo": [5470813]
       }
     },
     "idProceso": 1,
@@ -16791,12 +16143,8 @@
       "segundoApellido": "ORTIZ",
       "segundoNombre": "AUGUSTO",
       "tel": {
-        "celular": [
-          3174409073
-        ],
-        "fijo": [
-          8003961
-        ]
+        "celular": [3174409073],
+        "fijo": [8003961]
       }
     },
     "idProceso": 50763460,
@@ -16843,12 +16191,8 @@
       "segundoApellido": "GUTIERREZ",
       "segundoNombre": "JEANNETTE",
       "tel": {
-        "celular": [
-          3204900530
-        ],
-        "fijo": [
-          7216691
-        ]
+        "celular": [3204900530],
+        "fijo": [7216691]
       }
     },
     "idProceso": 50866270,
@@ -16895,12 +16239,8 @@
       "segundoApellido": "LOPEZ",
       "segundoNombre": "ANDREA",
       "tel": {
-        "celular": [
-          3016393345
-        ],
-        "fijo": [
-          4668308
-        ]
+        "celular": [3016393345],
+        "fijo": [4668308]
       }
     },
     "idProceso": 50866190,
@@ -16941,9 +16281,7 @@
       "segundoApellido": "URIBE",
       "segundoNombre": "ELENA",
       "tel": {
-        "fijo": [
-          2869149
-        ]
+        "fijo": [2869149]
       }
     },
     "idProceso": 1,
@@ -16990,12 +16328,8 @@
       "segundoApellido": "RIVERA",
       "segundoNombre": "BEATRIZ",
       "tel": {
-        "celular": [
-          3106630177
-        ],
-        "fijo": [
-          5101587
-        ]
+        "celular": [3106630177],
+        "fijo": [5101587]
       }
     },
     "idProceso": 50764880,
@@ -17042,9 +16376,7 @@
       "segundoApellido": "ROSERO",
       "segundoNombre": "GARCIA",
       "tel": {
-        "celular": [
-          3155831999
-        ]
+        "celular": [3155831999]
       }
     },
     "idProceso": 50869240,
@@ -17091,12 +16423,8 @@
       "segundoApellido": "VALDERRAMA",
       "segundoNombre": "FERNEY",
       "tel": {
-        "celular": [
-          3112441540
-        ],
-        "fijo": [
-          4647087
-        ]
+        "celular": [3112441540],
+        "fijo": [4647087]
       }
     },
     "idProceso": 11224353,
@@ -17137,12 +16465,8 @@
       "segundoApellido": "NORIEGA",
       "segundoNombre": "JOSUE",
       "tel": {
-        "celular": [
-          3134704885
-        ],
-        "fijo": [
-          7612712
-        ]
+        "celular": [3134704885],
+        "fijo": [7612712]
       }
     },
     "idProceso": 1,
@@ -17324,12 +16648,8 @@
       "segundoApellido": "TORRES",
       "segundoNombre": "ANIBAL",
       "tel": {
-        "celular": [
-          3003813863
-        ],
-        "fijo": [
-          6854161
-        ]
+        "celular": [3003813863],
+        "fijo": [6854161]
       }
     },
     "idProceso": 62939862,
@@ -17421,9 +16741,7 @@
       "segundoApellido": "SANCHEZ",
       "segundoNombre": "XIMENA",
       "tel": {
-        "fijo": [
-          4707082
-        ]
+        "fijo": [4707082]
       }
     },
     "idProceso": 50905230,
@@ -17515,9 +16833,7 @@
       "segundoApellido": "VARGAS",
       "segundoNombre": "JOAQUIN",
       "tel": {
-        "celular": [
-          3005941798
-        ]
+        "celular": [3005941798]
       }
     },
     "idProceso": 51465090,
@@ -17564,13 +16880,8 @@
       "segundoApellido": "SAAVEDRA",
       "segundoNombre": "DAVID",
       "tel": {
-        "celular": [
-          3165335586
-        ],
-        "fijo": [
-          1665335,
-          3165335
-        ]
+        "celular": [3165335586],
+        "fijo": [1665335, 3165335]
       }
     },
     "idProceso": 18169790,
@@ -17617,12 +16928,8 @@
       "segundoApellido": "BERNAL",
       "segundoNombre": "PILAR",
       "tel": {
-        "celular": [
-          3002261859
-        ],
-        "fijo": [
-          7416881
-        ]
+        "celular": [3002261859],
+        "fijo": [7416881]
       }
     },
     "idProceso": 50915500,
@@ -17708,12 +17015,8 @@
       "segundoApellido": "SUAREZ",
       "segundoNombre": "HERNANDEZ",
       "tel": {
-        "celular": [
-          3007553091
-        ],
-        "fijo": [
-          7553091
-        ]
+        "celular": [3007553091],
+        "fijo": [7553091]
       }
     },
     "idProceso": 1,
@@ -17934,12 +17237,8 @@
       "segundoApellido": "PAEZ",
       "segundoNombre": "",
       "tel": {
-        "celular": [
-          3144899865
-        ],
-        "fijo": [
-          6481255
-        ]
+        "celular": [3144899865],
+        "fijo": [6481255]
       }
     },
     "idProceso": 88297260,
@@ -18209,9 +17508,7 @@
       "segundoApellido": "PINZON",
       "segundoNombre": "RUBIELA",
       "tel": {
-        "celular": [
-          3152482331
-        ]
+        "celular": [3152482331]
       }
     },
     "idProceso": 1,
@@ -18252,9 +17549,7 @@
       "segundoApellido": "VILLALBA",
       "segundoNombre": "ALBERTO",
       "tel": {
-        "celular": [
-          3112764286
-        ]
+        "celular": [3112764286]
       }
     },
     "idProceso": 1,
@@ -18531,12 +17826,8 @@
       "segundoApellido": "GALVIS",
       "segundoNombre": "ALEXANDER",
       "tel": {
-        "celular": [
-          3157236856
-        ],
-        "fijo": [
-          5686327
-        ]
+        "celular": [3157236856],
+        "fijo": [5686327]
       }
     },
     "idProceso": 51918100,
@@ -18588,12 +17879,8 @@
       "segundoApellido": "GALVIS",
       "segundoNombre": "ALEXANDER",
       "tel": {
-        "celular": [
-          3157236856
-        ],
-        "fijo": [
-          5686327
-        ]
+        "celular": [3157236856],
+        "fijo": [5686327]
       }
     },
     "idProceso": 81806941,
@@ -18645,12 +17932,8 @@
       "segundoApellido": "GALVIS",
       "segundoNombre": "ALEXANDER",
       "tel": {
-        "celular": [
-          3157236856
-        ],
-        "fijo": [
-          5686327
-        ]
+        "celular": [3157236856],
+        "fijo": [5686327]
       }
     },
     "idProceso": 51918100,
@@ -18702,12 +17985,8 @@
       "segundoApellido": "GALVIS",
       "segundoNombre": "ALEXANDER",
       "tel": {
-        "celular": [
-          3157236856
-        ],
-        "fijo": [
-          5686327
-        ]
+        "celular": [3157236856],
+        "fijo": [5686327]
       }
     },
     "idProceso": 81806941,
@@ -18754,9 +18033,7 @@
       "segundoApellido": "MELO",
       "segundoNombre": "MARISOL",
       "tel": {
-        "celular": [
-          3203430311
-        ]
+        "celular": [3203430311]
       }
     },
     "idProceso": 19431801,
@@ -18797,9 +18074,7 @@
       "segundoApellido": "BARRAGAN",
       "segundoNombre": "ALBERTO",
       "tel": {
-        "celular": [
-          3107518479
-        ]
+        "celular": [3107518479]
       }
     },
     "idProceso": 1,
@@ -18891,9 +18166,7 @@
       "segundoApellido": "MEJIA",
       "segundoNombre": "JAVIER",
       "tel": {
-        "celular": [
-          3202116040
-        ]
+        "celular": [3202116040]
       }
     },
     "idProceso": 50980370,
@@ -19024,12 +18297,8 @@
       "segundoApellido": "SANABRIA",
       "segundoNombre": "SANABRIA",
       "tel": {
-        "celular": [
-          3118066048
-        ],
-        "fijo": [
-          4251180
-        ]
+        "celular": [3118066048],
+        "fijo": [4251180]
       }
     },
     "idProceso": 106185210,
@@ -19076,12 +18345,8 @@
       "segundoApellido": "PUCCETI",
       "segundoNombre": "",
       "tel": {
-        "celular": [
-          3124575163
-        ],
-        "fijo": [
-          6126610
-        ]
+        "celular": [3124575163],
+        "fijo": [6126610]
       }
     },
     "idProceso": 50993830,
@@ -19302,12 +18567,8 @@
       "segundoApellido": "RODRIGUEZ",
       "segundoNombre": "ALEJANDRO",
       "tel": {
-        "celular": [
-          3013377704
-        ],
-        "fijo": [
-          6356262
-        ]
+        "celular": [3013377704],
+        "fijo": [6356262]
       }
     },
     "idProceso": 9088093,
@@ -19354,12 +18615,8 @@
       "segundoApellido": "TORRES",
       "segundoNombre": "HERNANDO",
       "tel": {
-        "celular": [
-          3153113742
-        ],
-        "fijo": [
-          5605872
-        ]
+        "celular": [3153113742],
+        "fijo": [5605872]
       }
     },
     "idProceso": 11496423,
@@ -19445,12 +18702,8 @@
       "segundoApellido": "BARRETO",
       "segundoNombre": "ENRIQUE",
       "tel": {
-        "celular": [
-          3118163887
-        ],
-        "fijo": [
-          7836655
-        ]
+        "celular": [3118163887],
+        "fijo": [7836655]
       }
     },
     "idProceso": 112730580,
@@ -19530,9 +18783,7 @@
       "segundoApellido": "LOPEZ",
       "segundoNombre": "ANDREA",
       "tel": {
-        "celular": [
-          3214771295
-        ]
+        "celular": [3214771295]
       }
     },
     "idProceso": 1,
@@ -19663,12 +18914,8 @@
       "segundoApellido": "RODRIGUEZ",
       "segundoNombre": "",
       "tel": {
-        "celular": [
-          3112572775
-        ],
-        "fijo": [
-          7232225
-        ]
+        "celular": [3112572775],
+        "fijo": [7232225]
       }
     },
     "idProceso": 51025410,
@@ -19715,12 +18962,8 @@
       "segundoApellido": "HUERTAS",
       "segundoNombre": "CECILIA",
       "tel": {
-        "celular": [
-          3205307727
-        ],
-        "fijo": [
-          4596827
-        ]
+        "celular": [3205307727],
+        "fijo": [4596827]
       }
     },
     "idProceso": 17948440,
@@ -19806,12 +19049,8 @@
       "segundoApellido": "RIOS",
       "segundoNombre": "AUGUSTO",
       "tel": {
-        "celular": [
-          3102259717
-        ],
-        "fijo": [
-          2035780
-        ]
+        "celular": [3102259717],
+        "fijo": [2035780]
       }
     },
     "idProceso": 1,
@@ -19858,12 +19097,8 @@
       "segundoApellido": "GOMEZ",
       "segundoNombre": "LINCE",
       "tel": {
-        "celular": [
-          3108844560
-        ],
-        "fijo": [
-          4244358
-        ]
+        "celular": [3108844560],
+        "fijo": [4244358]
       }
     },
     "idProceso": 51029180,
@@ -20039,12 +19274,8 @@
       "segundoApellido": "S.A.S",
       "segundoNombre": "SOLUCIONES",
       "tel": {
-        "celular": [
-          3107982028
-        ],
-        "fijo": [
-          8626344
-        ]
+        "celular": [3107982028],
+        "fijo": [8626344]
       }
     },
     "idProceso": 51042800,
@@ -20169,9 +19400,7 @@
       "segundoApellido": "CRISTIANO",
       "segundoNombre": "NELSON",
       "tel": {
-        "celular": [
-          3204063623
-        ]
+        "celular": [3204063623]
       }
     },
     "idProceso": 1,
@@ -20347,12 +19576,8 @@
       "segundoApellido": "HERNANDEZ",
       "segundoNombre": "ANTONIO",
       "tel": {
-        "celular": [
-          3134664560
-        ],
-        "fijo": [
-          2724305
-        ]
+        "celular": [3134664560],
+        "fijo": [2724305]
       }
     },
     "idProceso": 50873000,
@@ -20399,12 +19624,8 @@
       "segundoApellido": "CHUCHIN",
       "segundoNombre": "HUMBERTO",
       "tel": {
-        "celular": [
-          3105638608
-        ],
-        "fijo": [
-          2511959
-        ]
+        "celular": [3105638608],
+        "fijo": [2511959]
       }
     },
     "idProceso": 64793050,
@@ -20529,12 +19750,8 @@
       "segundoApellido": "OSMA",
       "segundoNombre": "PATRICIA",
       "tel": {
-        "celular": [
-          3107706773
-        ],
-        "fijo": [
-          3085025
-        ]
+        "celular": [3107706773],
+        "fijo": [3085025]
       }
     },
     "idProceso": 65701460,
@@ -20917,12 +20134,8 @@
       "segundoApellido": "RODRIGUEZ",
       "segundoNombre": "HERNANDEZ",
       "tel": {
-        "celular": [
-          3157637045
-        ],
-        "fijo": [
-          7644527
-        ]
+        "celular": [3157637045],
+        "fijo": [7644527]
       }
     },
     "idProceso": 18175150,
@@ -20974,9 +20187,7 @@
       "segundoApellido": "ARIAS",
       "segundoNombre": "",
       "tel": {
-        "celular": [
-          3112907361
-        ]
+        "celular": [3112907361]
       }
     },
     "idProceso": 17487020,
@@ -21028,9 +20239,7 @@
       "segundoApellido": "ARIAS",
       "segundoNombre": "",
       "tel": {
-        "celular": [
-          3112907361
-        ]
+        "celular": [3112907361]
       }
     },
     "idProceso": 50678323,
@@ -21261,9 +20470,7 @@
       "segundoApellido": "FLOREZ",
       "segundoNombre": "JAVIER",
       "tel": {
-        "celular": [
-          3193862544
-        ]
+        "celular": [3193862544]
       }
     },
     "idProceso": 19222160,
@@ -21472,9 +20679,7 @@
       "segundoApellido": "CEPEDA",
       "segundoNombre": "ESNEYDER",
       "tel": {
-        "celular": [
-          3123170535
-        ]
+        "celular": [3123170535]
       }
     },
     "idProceso": 1,
@@ -21515,9 +20720,7 @@
       "segundoApellido": "GIRALDO",
       "segundoNombre": "ESTHER",
       "tel": {
-        "celular": [
-          3107996508
-        ]
+        "celular": [3107996508]
       }
     },
     "idProceso": 1,
@@ -21558,9 +20761,7 @@
       "segundoApellido": "PRIETO",
       "segundoNombre": "MILLAN",
       "tel": {
-        "celular": [
-          3102762216
-        ]
+        "celular": [3102762216]
       }
     },
     "idProceso": 1,
@@ -21652,9 +20853,7 @@
       "segundoApellido": "ALVARADO",
       "segundoNombre": "FERNANDO",
       "tel": {
-        "celular": [
-          3502092709
-        ]
+        "celular": [3502092709]
       }
     },
     "idProceso": 51264250,
@@ -21740,12 +20939,8 @@
       "segundoApellido": "BEJARANO",
       "segundoNombre": "CARLOS",
       "tel": {
-        "celular": [
-          3212282328
-        ],
-        "fijo": [
-          3654986
-        ]
+        "celular": [3212282328],
+        "fijo": [3654986]
       }
     },
     "idProceso": 1,
@@ -21921,12 +21116,8 @@
       "segundoApellido": "ROJAS",
       "segundoNombre": "ERNESTO",
       "tel": {
-        "celular": [
-          3204265908
-        ],
-        "fijo": [
-          7510457
-        ]
+        "celular": [3204265908],
+        "fijo": [7510457]
       }
     },
     "idProceso": 51275960,
@@ -22018,9 +21209,7 @@
       "segundoApellido": "CARRILLO",
       "segundoNombre": "JEISSON",
       "tel": {
-        "celular": [
-          3209393337
-        ]
+        "celular": [3209393337]
       }
     },
     "idProceso": 51296960,
@@ -22067,12 +21256,8 @@
       "segundoApellido": "OROZCO",
       "segundoNombre": "MARIN",
       "tel": {
-        "celular": [
-          3124885346
-        ],
-        "fijo": [
-          4412100
-        ]
+        "celular": [3124885346],
+        "fijo": [4412100]
       }
     },
     "idProceso": 50989890,
@@ -22158,12 +21343,8 @@
       "segundoApellido": "ARCINIEGAS",
       "segundoNombre": "ERNESTO",
       "tel": {
-        "celular": [
-          3114473402
-        ],
-        "fijo": [
-          2863225
-        ]
+        "celular": [3114473402],
+        "fijo": [2863225]
       }
     },
     "idProceso": 112068890,
@@ -22294,9 +21475,7 @@
       "segundoApellido": "",
       "segundoNombre": "",
       "tel": {
-        "celular": [
-          3108881287
-        ]
+        "celular": [3108881287]
       }
     },
     "idProceso": 1,
@@ -22388,9 +21567,7 @@
       "segundoApellido": "VANEGAS",
       "segundoNombre": "ARMANDO",
       "tel": {
-        "celular": [
-          3108121876
-        ]
+        "celular": [3108121876]
       }
     },
     "idProceso": 64641230,
@@ -22521,12 +21698,8 @@
       "segundoApellido": "CACERES",
       "segundoNombre": "GELVES",
       "tel": {
-        "celular": [
-          3114915425
-        ],
-        "fijo": [
-          7279254
-        ]
+        "celular": [3114915425],
+        "fijo": [7279254]
       }
     },
     "idProceso": 1,
@@ -22757,12 +21930,8 @@
       "segundoApellido": "HIGUERA",
       "segundoNombre": "JULIED",
       "tel": {
-        "celular": [
-          3115754578
-        ],
-        "fijo": [
-          4933266
-        ]
+        "celular": [3115754578],
+        "fijo": [4933266]
       }
     },
     "idProceso": 50990370,
@@ -22848,12 +22017,8 @@
       "segundoApellido": "PIÑEROS",
       "segundoNombre": "EDUARDO",
       "tel": {
-        "celular": [
-          3102438242
-        ],
-        "fijo": [
-          2400591
-        ]
+        "celular": [3102438242],
+        "fijo": [2400591]
       }
     },
     "idProceso": 1,
@@ -22900,12 +22065,8 @@
       "segundoApellido": "TUTA",
       "segundoNombre": "MYRIAM",
       "tel": {
-        "celular": [
-          3123178629
-        ],
-        "fijo": [
-          8117033
-        ]
+        "celular": [3123178629],
+        "fijo": [8117033]
       }
     },
     "idProceso": 18376650,
@@ -22985,12 +22146,8 @@
       "segundoApellido": "AGUILAR",
       "segundoNombre": "MIREYA",
       "tel": {
-        "celular": [
-          3166997083
-        ],
-        "fijo": [
-          7608072
-        ]
+        "celular": [3166997083],
+        "fijo": [7608072]
       }
     },
     "idProceso": 1,
@@ -23109,12 +22266,8 @@
       "segundoApellido": "CAMACHO",
       "segundoNombre": "KATERINE",
       "tel": {
-        "celular": [
-          3144765126
-        ],
-        "fijo": [
-          4383117
-        ]
+        "celular": [3144765126],
+        "fijo": [4383117]
       }
     },
     "idProceso": 1,
@@ -23278,12 +22431,8 @@
       "segundoApellido": "PASTOR",
       "segundoNombre": "HERNANDO",
       "tel": {
-        "celular": [
-          3202340560
-        ],
-        "fijo": [
-          8646896
-        ]
+        "celular": [3202340560],
+        "fijo": [8646896]
       }
     },
     "idProceso": 1,
@@ -23369,9 +22518,7 @@
       "segundoApellido": "PEÑA",
       "segundoNombre": "VANEGAS",
       "tel": {
-        "celular": [
-          3152573448
-        ]
+        "celular": [3152573448]
       }
     },
     "idProceso": 121826111,
@@ -23412,12 +22559,8 @@
       "segundoApellido": "PEÑARANDA",
       "segundoNombre": "",
       "tel": {
-        "celular": [
-          3144195480
-        ],
-        "fijo": [
-          5731671
-        ]
+        "celular": [3144195480],
+        "fijo": [5731671]
       }
     },
     "idProceso": 1,
@@ -23581,12 +22724,8 @@
       "segundoApellido": "BALLEN",
       "segundoNombre": "MARGARITA",
       "tel": {
-        "celular": [
-          3002667595
-        ],
-        "fijo": [
-          3468511
-        ]
+        "celular": [3002667595],
+        "fijo": [3468511]
       }
     },
     "idProceso": 1,
@@ -23951,9 +23090,7 @@
       "segundoApellido": "VITOPIA",
       "segundoNombre": "ENELLY",
       "tel": {
-        "celular": [
-          3214747968
-        ]
+        "celular": [3214747968]
       }
     },
     "idProceso": 1,
@@ -24574,9 +23711,7 @@
       "segundoApellido": "TOVAR",
       "segundoNombre": "ALFONSO",
       "tel": {
-        "celular": [
-          3123703828
-        ]
+        "celular": [3123703828]
       }
     },
     "idProceso": 1,
@@ -24986,9 +24121,7 @@
       "segundoApellido": "VANEGAS",
       "segundoNombre": "IVAN",
       "tel": {
-        "celular": [
-          3124487509
-        ]
+        "celular": [3124487509]
       }
     },
     "idProceso": 1,
@@ -25203,9 +24336,7 @@
       "segundoApellido": "ANDRADE",
       "segundoNombre": "ALEJANDRA",
       "tel": {
-        "celular": [
-          3123704906
-        ]
+        "celular": [3123704906]
       }
     },
     "idProceso": 1,
@@ -25252,9 +24383,7 @@
       "segundoApellido": "ROJAS",
       "segundoNombre": "YOHANA",
       "tel": {
-        "celular": [
-          3213987669
-        ]
+        "celular": [3213987669]
       }
     },
     "idProceso": 70545740,
@@ -25340,9 +24469,7 @@
       "segundoApellido": "RODRIGUEZ",
       "segundoNombre": "DAVID",
       "tel": {
-        "celular": [
-          3202954313
-        ]
+        "celular": [3202954313]
       }
     },
     "idProceso": 1,
@@ -25383,12 +24510,8 @@
       "segundoApellido": "RODRIGUEZ",
       "segundoNombre": "MARCELO",
       "tel": {
-        "celular": [
-          3108090708
-        ],
-        "fijo": [
-          8233553
-        ]
+        "celular": [3108090708],
+        "fijo": [8233553]
       }
     },
     "idProceso": 1,
@@ -25564,12 +24687,8 @@
       "segundoApellido": "MURCIA",
       "segundoNombre": "LEONOR",
       "tel": {
-        "celular": [
-          3134386087
-        ],
-        "fijo": [
-          6139147
-        ]
+        "celular": [3134386087],
+        "fijo": [6139147]
       }
     },
     "idProceso": 128164881,
@@ -25689,9 +24808,7 @@
       "segundoApellido": "VALBUENA",
       "segundoNombre": "JULIO",
       "tel": {
-        "celular": [
-          3115159670
-        ]
+        "celular": [3115159670]
       }
     },
     "idProceso": 1,
@@ -25828,12 +24945,8 @@
       "segundoApellido": "BELTRAN",
       "segundoNombre": "LILIANA",
       "tel": {
-        "celular": [
-          3108540511
-        ],
-        "fijo": [
-          5360278
-        ]
+        "celular": [3108540511],
+        "fijo": [5360278]
       }
     },
     "idProceso": 89137980,
@@ -25970,12 +25083,8 @@
       "segundoApellido": "QUINTERO",
       "segundoNombre": "RODRIGO",
       "tel": {
-        "celular": [
-          3143659602
-        ],
-        "fijo": [
-          6855750
-        ]
+        "celular": [3143659602],
+        "fijo": [6855750]
       }
     },
     "idProceso": 51341610,
@@ -26206,12 +25315,8 @@
       "segundoApellido": "ORTIZ",
       "segundoNombre": "ANGELICA",
       "tel": {
-        "celular": [
-          3112925970
-        ],
-        "fijo": [
-          8055915
-        ]
+        "celular": [3112925970],
+        "fijo": [8055915]
       }
     },
     "idProceso": 1,
@@ -26297,9 +25402,7 @@
       "segundoApellido": "VARGAS",
       "segundoNombre": "JOAQUIN",
       "tel": {
-        "celular": [
-          3005941798
-        ]
+        "celular": [3005941798]
       }
     },
     "idProceso": 50780430,
@@ -26625,12 +25728,8 @@
       "segundoApellido": "RODRIGUEZ",
       "segundoNombre": "PATRICIA",
       "tel": {
-        "celular": [
-          3157352910
-        ],
-        "fijo": [
-          2297973
-        ]
+        "celular": [3157352910],
+        "fijo": [2297973]
       }
     },
     "idProceso": 1,
@@ -26671,12 +25770,8 @@
       "segundoApellido": "RAMIREZ",
       "segundoNombre": "SOLEY",
       "tel": {
-        "celular": [
-          3506509064
-        ],
-        "fijo": [
-          3917539
-        ]
+        "celular": [3506509064],
+        "fijo": [3917539]
       }
     },
     "idProceso": 1,
@@ -26723,9 +25818,7 @@
       "segundoApellido": "ONOFRE",
       "segundoNombre": "ERQUILIAN",
       "tel": {
-        "celular": [
-          3023193548
-        ]
+        "celular": [3023193548]
       }
     },
     "idProceso": 159336301,
@@ -26766,12 +25859,8 @@
       "segundoApellido": "QUINTERO",
       "segundoNombre": "HERNEY",
       "tel": {
-        "celular": [
-          3002985587
-        ],
-        "fijo": [
-          6485655
-        ]
+        "celular": [3002985587],
+        "fijo": [6485655]
       }
     },
     "idProceso": 1,
@@ -26812,9 +25901,7 @@
       "segundoApellido": "PEREZ",
       "segundoNombre": "ALEXANDER",
       "tel": {
-        "celular": [
-          3112633806
-        ]
+        "celular": [3112633806]
       }
     },
     "idProceso": 1,
@@ -26861,14 +25948,8 @@
       "segundoApellido": "BARROS",
       "segundoNombre": "MARTINEZ",
       "tel": {
-        "celular": [
-          3043463859,
-          3005306070
-        ],
-        "fijo": [
-          3930210,
-          3463859
-        ]
+        "celular": [3043463859, 3005306070],
+        "fijo": [3930210, 3463859]
       }
     },
     "idProceso": 159311631,
@@ -26909,12 +25990,8 @@
       "segundoApellido": "MORENO",
       "segundoNombre": "JANNETH",
       "tel": {
-        "celular": [
-          3153208374
-        ],
-        "fijo": [
-          7848056
-        ]
+        "celular": [3153208374],
+        "fijo": [7848056]
       }
     },
     "idProceso": 1,
@@ -27033,9 +26110,7 @@
       "segundoApellido": "CARRILLO",
       "segundoNombre": "ALEX",
       "tel": {
-        "celular": [
-          3125642401
-        ]
+        "celular": [3125642401]
       }
     },
     "idProceso": 1,
@@ -27082,12 +26157,8 @@
       "segundoApellido": "RIVERA",
       "segundoNombre": "MILENA",
       "tel": {
-        "celular": [
-          3058819253
-        ],
-        "fijo": [
-          7442510
-        ]
+        "celular": [3058819253],
+        "fijo": [7442510]
       }
     },
     "idProceso": 132041720,
@@ -27134,12 +26205,8 @@
       "segundoApellido": "GALEANO",
       "segundoNombre": "ANDRES",
       "tel": {
-        "celular": [
-          3203203196
-        ],
-        "fijo": [
-          7156426
-        ]
+        "celular": [3203203196],
+        "fijo": [7156426]
       }
     },
     "idProceso": 132262030,
@@ -27180,12 +26247,8 @@
       "segundoApellido": "QUIRAMA",
       "segundoNombre": "JESUS",
       "tel": {
-        "celular": [
-          3144005060
-        ],
-        "fijo": [
-          7766244
-        ]
+        "celular": [3144005060],
+        "fijo": [7766244]
       }
     },
     "idProceso": 1,
@@ -27226,13 +26289,8 @@
       "segundoApellido": "LEAL",
       "segundoNombre": "GUISELLE",
       "tel": {
-        "celular": [
-          3046243064,
-          3015181948
-        ],
-        "fijo": [
-          6243064
-        ]
+        "celular": [3046243064, 3015181948],
+        "fijo": [6243064]
       }
     },
     "idProceso": 1,
@@ -27273,9 +26331,7 @@
       "segundoApellido": "RODRIGUEZ",
       "segundoNombre": "PATRICIA",
       "tel": {
-        "celular": [
-          3203477527
-        ]
+        "celular": [3203477527]
       }
     },
     "idProceso": 1,
@@ -27322,13 +26378,8 @@
       "segundoApellido": "ARENAS",
       "segundoNombre": "CECILIA",
       "tel": {
-        "celular": [
-          3163096532
-        ],
-        "fijo": [
-          2977768,
-          7534515
-        ]
+        "celular": [3163096532],
+        "fijo": [2977768, 7534515]
       }
     },
     "idProceso": 132234840,
@@ -27369,12 +26420,8 @@
       "segundoApellido": "MARTINEZ",
       "segundoNombre": "YANETH",
       "tel": {
-        "celular": [
-          3126172174
-        ],
-        "fijo": [
-          5751066
-        ]
+        "celular": [3126172174],
+        "fijo": [5751066]
       }
     },
     "idProceso": 1,
@@ -27415,12 +26462,8 @@
       "segundoApellido": "MENDOZA",
       "segundoNombre": "ENRIQUE",
       "tel": {
-        "celular": [
-          3102997350
-        ],
-        "fijo": [
-          6154763
-        ]
+        "celular": [3102997350],
+        "fijo": [6154763]
       }
     },
     "idProceso": 1,
@@ -27461,12 +26504,8 @@
       "segundoApellido": "ALMANZA",
       "segundoNombre": "PATRICIA",
       "tel": {
-        "celular": [
-          3203369576
-        ],
-        "fijo": [
-          4152969
-        ]
+        "celular": [3203369576],
+        "fijo": [4152969]
       }
     },
     "idProceso": 1,

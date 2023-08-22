@@ -1,1 +1,41 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2017-08-01T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-08-08T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":2150091504,"2":"N/A"},"radicado":"2017 - 01001","vencimientoPagare":"2019-11-03T00:00:00.000Z","expediente":"11001400300120170100100","juzgados":[{"id":17,"tipo":"JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Bancolombia","deudor":{"tel":{},"primerNombre":"WILSON","segundoNombre":"ALFONSO","primerApellido":"JIMENEZ","segundoApellido":"MENDIETA","cedula":11185630,"direccion":"CARRERA 81C # 2B - 80 PISO 2 ","email":"grupocomerciallasabana@hotmail.com"},"numero":183,"llaveProceso":"11001400300120170100100","tipoProceso":"SINGULAR","idProceso":50621670}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2017-08-01T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-08-08T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 2150091504, "2": "N/A" },
+    "radicado": "2017 - 01001",
+    "vencimientoPagare": "2019-11-03T00:00:00.000Z",
+    "expediente": "11001400300120170100100",
+    "juzgados": [
+      {
+        "id": 17,
+        "tipo": "JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Bancolombia",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "WILSON",
+    "segundoNombre": "ALFONSO",
+    "primerApellido": "JIMENEZ",
+    "segundoApellido": "MENDIETA",
+    "cedula": 11185630,
+    "direccion": "CARRERA 81C # 2B - 80 PISO 2 ",
+    "email": "grupocomerciallasabana@hotmail.com"
+  },
+  "numero": 183,
+  "llaveProceso": "11001400300120170100100",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50621670
+}

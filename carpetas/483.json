@@ -1,1 +1,35 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2018-03-09T05:00:00.000Z","etapaProcesal":"ADMISION","fechaPresentacion":null,"municipio":"BARRIOS UNIDOS","obligacion":{"1":5860083295,"2":""},"radicado":"2018 - 01370","vencimientoPagare":null,"expediente":"11001418903220180137000","juzgados":[]},"category":"Terminados","deudor":{"tel":{},"primerNombre":"WILSON","segundoNombre":"RICARDO","primerApellido":"ESCOBAR","segundoApellido":"ESCOBAR","cedula":19459237,"direccion":"CALLE 71 A No 69A-11 APTO  301","email":"N/A"},"numero":483,"llaveProceso":"11001418903220180137000","tipoProceso":"SINGULAR","idProceso":1}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2018-03-09T05:00:00.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": null,
+    "municipio": "BARRIOS UNIDOS",
+    "obligacion": { "1": 5860083295, "2": "" },
+    "radicado": "2018 - 01370",
+    "vencimientoPagare": null,
+    "expediente": "11001418903220180137000",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "WILSON",
+    "segundoNombre": "RICARDO",
+    "primerApellido": "ESCOBAR",
+    "segundoApellido": "ESCOBAR",
+    "cedula": 19459237,
+    "direccion": "CALLE 71 A No 69A-11 APTO  301",
+    "email": "N/A"
+  },
+  "numero": 483,
+  "llaveProceso": "11001418903220180137000",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 1
+}

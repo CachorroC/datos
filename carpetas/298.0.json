@@ -1,1 +1,41 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2017-10-13T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-10-17T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":155487,"2":""},"radicado":"2017 - 00986","vencimientoPagare":"2017-04-04T00:00:00.000Z","expediente":"11001400307820170098600","juzgados":[{"id":78,"tipo":"JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-78-civil-municipal-de-bogota"}]},"category":"Terminados","deudor":{"tel":{"celular":[3164700074]},"primerNombre":"HECTOR","segundoNombre":"GABRIEL","primerApellido":"RAMIREZ","segundoApellido":"BOHORQUEZ","cedula":79659040,"direccion":" CALLE 58 A SUR No 18 B -35 INT 6","email":"gabrielisag61@hotmail.com"},"numero":298,"llaveProceso":"11001400307820170098600","tipoProceso":"HIPOTECARIO","idProceso":51570460}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2017-10-13T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-10-17T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 155487, "2": "" },
+    "radicado": "2017 - 00986",
+    "vencimientoPagare": "2017-04-04T00:00:00.000Z",
+    "expediente": "11001400307820170098600",
+    "juzgados": [
+      {
+        "id": 78,
+        "tipo": "JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-78-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": { "celular": [3164700074] },
+    "primerNombre": "HECTOR",
+    "segundoNombre": "GABRIEL",
+    "primerApellido": "RAMIREZ",
+    "segundoApellido": "BOHORQUEZ",
+    "cedula": 79659040,
+    "direccion": " CALLE 58 A SUR No 18 B -35 INT 6",
+    "email": "gabrielisag61@hotmail.com"
+  },
+  "numero": 298,
+  "llaveProceso": "11001400307820170098600",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 51570460
+}

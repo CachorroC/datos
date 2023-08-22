@@ -1,1 +1,38 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":null,"etapaProcesal":"09/08/2018","fechaPresentacion":"2018-09-07T00:00:00.000Z","municipio":"SOACHA","obligacion":{"1":"","2":"21.955.632.15"},"radicado":"2018 - 00841","vencimientoPagare":null,"expediente":"25754418900320180084100","juzgados":[]},"category":"Terminados","deudor":{"tel":{},"primerNombre":"ELIANA","segundoNombre":"JANNETH","primerApellido":"LOZANO","segundoApellido":"ARTURO","cedula":52711938,"direccion":"","email":"TRANSVERSAL 2A No 74B-62 SUR"},"numero":470,"llaveProceso":"25754418900320180084100","tipoProceso":"HIPOTECARIO","idProceso":1}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": null,
+    "etapaProcesal": "09/08/2018",
+    "fechaPresentacion": "2018-09-07T00:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": {
+      "1": "",
+      "2": "21.955.632.15"
+    },
+    "radicado": "2018 - 00841",
+    "vencimientoPagare": null,
+    "expediente": "25754418900320180084100",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ELIANA",
+    "segundoNombre": "JANNETH",
+    "primerApellido": "LOZANO",
+    "segundoApellido": "ARTURO",
+    "cedula": 52711938,
+    "direccion": "",
+    "email": "TRANSVERSAL 2A No 74B-62 SUR"
+  },
+  "numero": 470,
+  "llaveProceso": "25754418900320180084100",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 1
+}

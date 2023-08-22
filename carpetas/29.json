@@ -1,1 +1,35 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2017-09-19T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-09-26T00:00:00.000Z","municipio":"CHIA","obligacion":{"1":179301,"2":""},"radicado":"2017 - 00511","vencimientoPagare":"2029-12-05T00:00:00.000Z","expediente":"25175400300120170051100","juzgados":[]},"category":"Terminados","deudor":{"tel":{},"primerNombre":"WHITMAN","segundoNombre":"JEFERSON","primerApellido":"NAJAR","segundoApellido":"RAMIREZ","cedula":80814800,"direccion":"CARRERA  9 No 19 - 59 CHIA ","email":"whitman.najarramirez@hotmail.com"},"numero":29,"llaveProceso":"25175400300120170051100","tipoProceso":"HIPOTECARIO","idProceso":1}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2017-09-19T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-26T00:00:00.000Z",
+    "municipio": "CHIA",
+    "obligacion": { "1": 179301, "2": "" },
+    "radicado": "2017 - 00511",
+    "vencimientoPagare": "2029-12-05T00:00:00.000Z",
+    "expediente": "25175400300120170051100",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "WHITMAN",
+    "segundoNombre": "JEFERSON",
+    "primerApellido": "NAJAR",
+    "segundoApellido": "RAMIREZ",
+    "cedula": 80814800,
+    "direccion": "CARRERA  9 No 19 - 59 CHIA ",
+    "email": "whitman.najarramirez@hotmail.com"
+  },
+  "numero": 29,
+  "llaveProceso": "25175400300120170051100",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 1
+}

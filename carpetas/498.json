@@ -1,1 +1,38 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":null,"etapaProcesal":"2.589940030032018e+22","fechaPresentacion":null,"municipio":"ZIPAQUIRA","obligacion":{"1":"AUDIOPRESTAMO","2":5306960218152465},"radicado":"2018 - 00429","vencimientoPagare":"2031-05-23T00:00:00.000Z","expediente":"25899400300320180042900","juzgados":[]},"category":"Terminados","deudor":{"tel":{},"primerNombre":"JOSE","segundoNombre":"ALEXANDER","primerApellido":"BECERRA","segundoApellido":"BARRERA","cedula":80546020,"direccion":"CARRERA 7 No 4-11  CENTRO","email":"kristal6020@gmail.com"},"numero":498,"llaveProceso":"25899400300320180042900","tipoProceso":"HIPOTECARIO","idProceso":1}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": null,
+    "etapaProcesal": "2.589940030032018e+22",
+    "fechaPresentacion": null,
+    "municipio": "ZIPAQUIRA",
+    "obligacion": {
+      "1": "AUDIOPRESTAMO",
+      "2": 5306960218152465
+    },
+    "radicado": "2018 - 00429",
+    "vencimientoPagare": "2031-05-23T00:00:00.000Z",
+    "expediente": "25899400300320180042900",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JOSE",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "BECERRA",
+    "segundoApellido": "BARRERA",
+    "cedula": 80546020,
+    "direccion": "CARRERA 7 No 4-11  CENTRO",
+    "email": "kristal6020@gmail.com"
+  },
+  "numero": 498,
+  "llaveProceso": "25899400300320180042900",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 1
+}

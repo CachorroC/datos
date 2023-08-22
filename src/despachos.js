@@ -29891,8 +29891,8 @@ exports.Despachos = [
 ];
 function transformDespacho(juzgado) {
     const matchedDespacho = exports.Despachos.filter((despacho) => {
-        return (despacho.nombre.trim()
-            === juzgado.tipo.trim());
+        return (despacho.nombre.trim() ===
+            juzgado.tipo.trim());
     });
     if (matchedDespacho.length > 0) {
         const newJuzgado = {

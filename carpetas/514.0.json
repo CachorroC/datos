@@ -1,1 +1,44 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":null,"etapaProcesal":"1.100141890212019e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":2370091170,"2":5303710505564220},"radicado":"2019 - 00291","vencimientoPagare":null,"expediente":"11001418902120190029100","juzgados":[{"id":1,"tipo":"JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Terminados","deudor":{"tel":{},"primerNombre":"OSCAR","segundoNombre":"ARMANDO","primerApellido":"TORRES","segundoApellido":"GOMEZ","cedula":79290475,"direccion":"KR 123 No 131 - 61. bloque 16 APTO 501","email":"minforb@gmail.com"},"numero":514,"llaveProceso":"11001418902120190029100","tipoProceso":"SINGULAR","idProceso":72721150}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": null,
+    "etapaProcesal": "1.100141890212019e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 2370091170,
+      "2": 5303710505564220
+    },
+    "radicado": "2019 - 00291",
+    "vencimientoPagare": null,
+    "expediente": "11001418902120190029100",
+    "juzgados": [
+      {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "OSCAR",
+    "segundoNombre": "ARMANDO",
+    "primerApellido": "TORRES",
+    "segundoApellido": "GOMEZ",
+    "cedula": 79290475,
+    "direccion": "KR 123 No 131 - 61. bloque 16 APTO 501",
+    "email": "minforb@gmail.com"
+  },
+  "numero": 514,
+  "llaveProceso": "11001418902120190029100",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 72721150
+}

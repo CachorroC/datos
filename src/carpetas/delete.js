@@ -15,12 +15,13 @@ const carpetasCollection = async () => {
 exports.carpetasCollection = carpetasCollection;
 async function deleteTerminados() {
     const collection = await (0, exports.carpetasCollection)();
-    const deleteTerminadoCarpetas = await collection.deleteMany({ grupo: 'Terminados' });
+    const deleteTerminadoCarpetas = await collection.deleteMany({
+        grupo: 'Terminados'
+    });
     return deleteTerminadoCarpetas;
 }
 exports.deleteTerminados = deleteTerminados;
-deleteTerminados()
-    .then((ff) => {
+deleteTerminados().then((ff) => {
     console.log(ff);
 }, (rr) => {
     console.log(rr);

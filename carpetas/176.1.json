@@ -1,1 +1,52 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2017-08-16T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-08-28T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":113835,"2":377813623621787},"radicado":"2017 - 00801","vencimientoPagare":"2023-11-27T00:00:00.000Z","expediente":"11001400300420170080100","juzgados":[{"id":4,"tipo":"JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota"},{"id":4,"tipo":"JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota"}]},"category":"Terminados","deudor":{"tel":{"fijo":[7562457],"celular":[3182221747]},"primerNombre":"JHON","segundoNombre":"FREDY","primerApellido":"MURILLO","segundoApellido":"DAZA","cedula":79787268,"direccion":"CALLE 26 # 103 - 09 ","email":"ingedibutec@gmail.com"},"numero":176,"llaveProceso":"11001400300420170080100","tipoProceso":"HIPOTECARIO","idProceso":81628051}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2017-08-16T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 113835,
+      "2": 377813623621787
+    },
+    "radicado": "2017 - 00801",
+    "vencimientoPagare": "2023-11-27T00:00:00.000Z",
+    "expediente": "11001400300420170080100",
+    "juzgados": [
+      {
+        "id": 4,
+        "tipo": "JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota"
+      },
+      {
+        "id": 4,
+        "tipo": "JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": [7562457],
+      "celular": [3182221747]
+    },
+    "primerNombre": "JHON",
+    "segundoNombre": "FREDY",
+    "primerApellido": "MURILLO",
+    "segundoApellido": "DAZA",
+    "cedula": 79787268,
+    "direccion": "CALLE 26 # 103 - 09 ",
+    "email": "ingedibutec@gmail.com"
+  },
+  "numero": 176,
+  "llaveProceso": "11001400300420170080100",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 81628051
+}

@@ -1,1 +1,38 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2017-05-19T00:00:00.000Z","etapaProcesal":"SENTENCIA","fechaPresentacion":"2017-05-30T00:00:00.000Z","municipio":"GIRARDOT","obligacion":{"1":12517400,"2":5306941968938113},"radicado":"2017 - 00337","vencimientoPagare":"2017-04-26T00:00:00.000Z","expediente":"25307400300120170033700","juzgados":[]},"category":"Terminados","deudor":{"tel":{"celular":[3186899839]},"primerNombre":"EDER","segundoNombre":"ALEXIS","primerApellido":"HERRERA","segundoApellido":"SAENZ","cedula":11207272,"direccion":"MANZANA D CS 8 DIAMANTE GIRARDOT","email":"karendiaz@hotmail.com"},"numero":23,"llaveProceso":"25307400300120170033700","tipoProceso":"PRENDARIO","idProceso":1}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2017-05-19T00:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
+    "municipio": "GIRARDOT",
+    "obligacion": {
+      "1": 12517400,
+      "2": 5306941968938113
+    },
+    "radicado": "2017 - 00337",
+    "vencimientoPagare": "2017-04-26T00:00:00.000Z",
+    "expediente": "25307400300120170033700",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": { "celular": [3186899839] },
+    "primerNombre": "EDER",
+    "segundoNombre": "ALEXIS",
+    "primerApellido": "HERRERA",
+    "segundoApellido": "SAENZ",
+    "cedula": 11207272,
+    "direccion": "MANZANA D CS 8 DIAMANTE GIRARDOT",
+    "email": "karendiaz@hotmail.com"
+  },
+  "numero": 23,
+  "llaveProceso": "25307400300120170033700",
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 1
+}

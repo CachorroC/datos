@@ -1,1 +1,35 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2018-04-12T00:00:00.000Z","etapaProcesal":"1.100140030152018e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":6980085367,"2":""},"radicado":"2018 - 00459","vencimientoPagare":null,"expediente":"110014003015201800459","juzgados":[]},"category":"Terminados","deudor":{"tel":{},"primerNombre":"JAIME","segundoNombre":"LEONARDO","primerApellido":"SOSA","segundoApellido":"ROODRIGUEZ","cedula":79742224,"direccion":"CALLE 31A No 22-13 SUR","email":"leo-sosa44@hotmail.com"},"numero":424,"llaveProceso":"110014003015201800459","tipoProceso":"SINGULAR","idProceso":1}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2018-04-12T00:00:00.000Z",
+    "etapaProcesal": "1.100140030152018e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 6980085367, "2": "" },
+    "radicado": "2018 - 00459",
+    "vencimientoPagare": null,
+    "expediente": "110014003015201800459",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JAIME",
+    "segundoNombre": "LEONARDO",
+    "primerApellido": "SOSA",
+    "segundoApellido": "ROODRIGUEZ",
+    "cedula": 79742224,
+    "direccion": "CALLE 31A No 22-13 SUR",
+    "email": "leo-sosa44@hotmail.com"
+  },
+  "numero": 424,
+  "llaveProceso": "110014003015201800459",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 1
+}

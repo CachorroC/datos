@@ -1,1 +1,44 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":19865254,"entregagarantiasAbogado":"2017-06-07T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-06-13T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":"4670083309 // 377813453296510","2":"5303711693085438 / AUDIOPRESTAMO"},"radicado":"2017 - 00809","vencimientoPagare":"2021-07-22T00:00:00.000Z","expediente":"11001400303420170080900","juzgados":[{"id":34,"tipo":"JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"}]},"category":"Terminados","deudor":{"tel":{},"primerNombre":"JOSÉ","segundoNombre":"ENRIQUE","primerApellido":"RIAÑO","segundoApellido":"HENRIQUEZ","cedula":19173252,"direccion":"CALLE 70 No. 113 b - 40  BARRIO RIVIERA ","email":"N/A"},"numero":40,"llaveProceso":"11001400303420170080900","tipoProceso":"SINGULAR","idProceso":50506330}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 19865254,
+    "entregagarantiasAbogado": "2017-06-07T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-13T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "4670083309 // 377813453296510",
+      "2": "5303711693085438 / AUDIOPRESTAMO"
+    },
+    "radicado": "2017 - 00809",
+    "vencimientoPagare": "2021-07-22T00:00:00.000Z",
+    "expediente": "11001400303420170080900",
+    "juzgados": [
+      {
+        "id": 34,
+        "tipo": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JOSÉ",
+    "segundoNombre": "ENRIQUE",
+    "primerApellido": "RIAÑO",
+    "segundoApellido": "HENRIQUEZ",
+    "cedula": 19173252,
+    "direccion": "CALLE 70 No. 113 b - 40  BARRIO RIVIERA ",
+    "email": "N/A"
+  },
+  "numero": 40,
+  "llaveProceso": "11001400303420170080900",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50506330
+}

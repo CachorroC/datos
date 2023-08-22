@@ -1,1 +1,38 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2018-09-10T05:00:00.000Z","etapaProcesal":"1.100140030552018e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":"19353965852// 4549260357738974","2":4594260246320690},"radicado":"2018 - 01316","vencimientoPagare":null,"expediente":"11001400305520180131600","juzgados":[]},"category":"Terminados","deudor":{"tel":{},"primerNombre":"ASOCIACION","segundoNombre":"AGROPECUARIA","primerApellido":"AGROPECUARIA","segundoApellido":"UCEBUL","cedula":830105220,"direccion":"AVENIDA EL DORADO No 68C-61 OFICINA 702","email":"ucebul@gmail.com"},"numero":501,"llaveProceso":"11001400305520180131600","tipoProceso":"SINGULAR","idProceso":1}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2018-09-10T05:00:00.000Z",
+    "etapaProcesal": "1.100140030552018e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "19353965852// 4549260357738974",
+      "2": 4594260246320690
+    },
+    "radicado": "2018 - 01316",
+    "vencimientoPagare": null,
+    "expediente": "11001400305520180131600",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ASOCIACION",
+    "segundoNombre": "AGROPECUARIA",
+    "primerApellido": "AGROPECUARIA",
+    "segundoApellido": "UCEBUL",
+    "cedula": 830105220,
+    "direccion": "AVENIDA EL DORADO No 68C-61 OFICINA 702",
+    "email": "ucebul@gmail.com"
+  },
+  "numero": 501,
+  "llaveProceso": "11001400305520180131600",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 1
+}

@@ -1,1 +1,44 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":null,"etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-10-10T05:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":4670083154,"2":"N/A"},"radicado":"2017 - 01391","vencimientoPagare":null,"expediente":"11001400303720170139100","juzgados":[{"id":11,"tipo":"JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Bancolombia","deudor":{"tel":{"fijo":[4357832],"celular":[3103430010]},"primerNombre":"LUZ","segundoNombre":"DARY","primerApellido":"PUERTA","segundoApellido":"JARAMILLO","cedula":35506033,"direccion":"CARRERA  101  No 71 B - 53","email":"natis-rolita@hotmail.con"},"numero":278,"llaveProceso":"11001400303720170139100","tipoProceso":"SINGULAR","idProceso":112945420}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": null,
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-10-10T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 4670083154, "2": "N/A" },
+    "radicado": "2017 - 01391",
+    "vencimientoPagare": null,
+    "expediente": "11001400303720170139100",
+    "juzgados": [
+      {
+        "id": 11,
+        "tipo": "JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Bancolombia",
+  "deudor": {
+    "tel": {
+      "fijo": [4357832],
+      "celular": [3103430010]
+    },
+    "primerNombre": "LUZ",
+    "segundoNombre": "DARY",
+    "primerApellido": "PUERTA",
+    "segundoApellido": "JARAMILLO",
+    "cedula": 35506033,
+    "direccion": "CARRERA  101  No 71 B - 53",
+    "email": "natis-rolita@hotmail.con"
+  },
+  "numero": 278,
+  "llaveProceso": "11001400303720170139100",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 112945420
+}

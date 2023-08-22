@@ -1,1 +1,49 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":null,"etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2018-10-09T05:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":"AUDIOPRESTAMO","2":5491580436291960},"radicado":"2018 - 00964","vencimientoPagare":null,"expediente":"11001400308220180096400","juzgados":[{"id":14,"tipo":"JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota"},{"id":1,"tipo":"JUZGADO 001 CIVIL MUNICIPAL DE ENVIGADO","url":"https://www.ramajudicial.gov.co/web/juzgado-001-civil-municipal-de-envigado"}]},"category":"Reintegra","deudor":{"tel":{},"primerNombre":"JOSE","segundoNombre":"RAMON","primerApellido":"ESTRADA","segundoApellido":"CASTILLO","cedula":79533771,"direccion":"CARRERA 81 G No 48-03 SUR","email":"jrestradacastillo@gmail.com"},"numero":541,"llaveProceso":"11001400308220180096400","tipoProceso":"SINGULAR","idProceso":52160520}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": null,
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-10-09T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "AUDIOPRESTAMO",
+      "2": 5491580436291960
+    },
+    "radicado": "2018 - 00964",
+    "vencimientoPagare": null,
+    "expediente": "11001400308220180096400",
+    "juzgados": [
+      {
+        "id": 14,
+        "tipo": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota"
+      },
+      {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE ENVIGADO",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-001-civil-municipal-de-envigado"
+      }
+    ]
+  },
+  "category": "Reintegra",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JOSE",
+    "segundoNombre": "RAMON",
+    "primerApellido": "ESTRADA",
+    "segundoApellido": "CASTILLO",
+    "cedula": 79533771,
+    "direccion": "CARRERA 81 G No 48-03 SUR",
+    "email": "jrestradacastillo@gmail.com"
+  },
+  "numero": 541,
+  "llaveProceso": "11001400308220180096400",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 52160520
+}

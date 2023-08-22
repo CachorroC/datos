@@ -1,1 +1,44 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2017-08-22T00:00:00.000Z","etapaProcesal":"EJECUCIÓN SOLICITAR LIQUIDACIÓN A REINTEGRA","fechaPresentacion":"2017-08-28T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":430103841,"2":"N/A"},"radicado":"2017 - 00971","vencimientoPagare":"2021-09-09T00:00:00.000Z","expediente":"11001400301220170097100","juzgados":[{"id":15,"tipo":"JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Reintegra","deudor":{"tel":{"fijo":[7616370],"celular":[3143313269]},"primerNombre":"NELIDA DEL","segundoNombre":"CARMEN","primerApellido":"RIVERA","segundoApellido":"MESA","cedula":51856244,"direccion":"CARRERA 2A BIS A ESTE # 89A  SUR","email":"N/A"},"numero":205,"llaveProceso":"11001400301220170097100","tipoProceso":"SINGULAR","idProceso":50669130}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2017-08-22T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN SOLICITAR LIQUIDACIÓN A REINTEGRA",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 430103841, "2": "N/A" },
+    "radicado": "2017 - 00971",
+    "vencimientoPagare": "2021-09-09T00:00:00.000Z",
+    "expediente": "11001400301220170097100",
+    "juzgados": [
+      {
+        "id": 15,
+        "tipo": "JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Reintegra",
+  "deudor": {
+    "tel": {
+      "fijo": [7616370],
+      "celular": [3143313269]
+    },
+    "primerNombre": "NELIDA DEL",
+    "segundoNombre": "CARMEN",
+    "primerApellido": "RIVERA",
+    "segundoApellido": "MESA",
+    "cedula": 51856244,
+    "direccion": "CARRERA 2A BIS A ESTE # 89A  SUR",
+    "email": "N/A"
+  },
+  "numero": 205,
+  "llaveProceso": "11001400301220170097100",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50669130
+}

@@ -1,1 +1,44 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2017-08-11T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-08-23T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":1220084112,"2":"N/A"},"radicado":"2017 - 01082","vencimientoPagare":"2020-11-30T00:00:00.000Z","expediente":"11001400307920170108200","juzgados":[{"id":1,"tipo":"JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Reintegra","deudor":{"tel":{"fijo":[2376454,2371468],"celular":[3004525014]},"primerNombre":"JOHN","segundoNombre":"ALEXANDER","primerApellido":"VALENCIA","segundoApellido":"MARQUEZ","cedula":80231798,"direccion":"CARRERA 32 B # 2 - 64 ","email":"jhon.valencia@jvtel.com.co"},"numero":191,"llaveProceso":"11001400307920170108200","tipoProceso":"SINGULAR","idProceso":51357750}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2017-08-11T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-08-23T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 1220084112, "2": "N/A" },
+    "radicado": "2017 - 01082",
+    "vencimientoPagare": "2020-11-30T00:00:00.000Z",
+    "expediente": "11001400307920170108200",
+    "juzgados": [
+      {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Reintegra",
+  "deudor": {
+    "tel": {
+      "fijo": [2376454, 2371468],
+      "celular": [3004525014]
+    },
+    "primerNombre": "JOHN",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "VALENCIA",
+    "segundoApellido": "MARQUEZ",
+    "cedula": 80231798,
+    "direccion": "CARRERA 32 B # 2 - 64 ",
+    "email": "jhon.valencia@jvtel.com.co"
+  },
+  "numero": 191,
+  "llaveProceso": "11001400307920170108200",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 51357750
+}

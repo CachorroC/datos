@@ -1,1 +1,46 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"1899-12-30T00:00:00.000Z","etapaProcesal":"EJECUCION","fechaPresentacion":"2017-06-20T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":12330030,"2":"N/A"},"radicado":"2017 - 00836","vencimientoPagare":"2020-06-09T00:00:00.000Z","expediente":"11001400303420170083600","juzgados":[{"id":12,"tipo":"JUZGADO 012 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-12-de-ejecucion-civil-municipal-de-bogota"},{"id":34,"tipo":"JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"}]},"category":"Bancolombia","deudor":{"tel":{},"primerNombre":"LUIS","segundoNombre":"ESNEIDER","primerApellido":"ORDUZ","segundoApellido":"FARFAN","cedula":1032432802,"direccion":"CARRERA 95 # 138 - 58","email":"orduzcrit2@hotmail.com"},"numero":90,"llaveProceso":"11001400303420170083600","tipoProceso":"PRENDARIO","idProceso":81728891}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "1899-12-30T00:00:00.000Z",
+    "etapaProcesal": "EJECUCION",
+    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 12330030, "2": "N/A" },
+    "radicado": "2017 - 00836",
+    "vencimientoPagare": "2020-06-09T00:00:00.000Z",
+    "expediente": "11001400303420170083600",
+    "juzgados": [
+      {
+        "id": 12,
+        "tipo": "JUZGADO 012 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-12-de-ejecucion-civil-municipal-de-bogota"
+      },
+      {
+        "id": 34,
+        "tipo": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Bancolombia",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "LUIS",
+    "segundoNombre": "ESNEIDER",
+    "primerApellido": "ORDUZ",
+    "segundoApellido": "FARFAN",
+    "cedula": 1032432802,
+    "direccion": "CARRERA 95 # 138 - 58",
+    "email": "orduzcrit2@hotmail.com"
+  },
+  "numero": 90,
+  "llaveProceso": "11001400303420170083600",
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 81728891
+}

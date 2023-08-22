@@ -1,1 +1,35 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2017-06-12T00:00:00.000Z","etapaProcesal":"ADMISION","fechaPresentacion":"2017-06-21T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":"320 131802","2":""},"radicado":"2017 - 00975","vencimientoPagare":"2025-09-01T00:00:00.000Z","expediente":"11001400308520170097500","juzgados":[]},"category":"Terminados","deudor":{"tel":{"celular":[3212307798]},"primerNombre":"DIANA","segundoNombre":"MARCELA","primerApellido":"SANCHEZ","segundoApellido":"LOZANO","cedula":53051476,"direccion":"calle 64 No. 85-60 INTERIOR 1 LOTE 19 MANZANA 36 URBANIZACION LA ISABELA  ETAPA IIcalle 64 I No. 86-60 ","email":"dimarce1513@hotmail.com"},"numero":53,"llaveProceso":"11001400308520170097500","tipoProceso":"HIPOTECARIO","idProceso":1}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2017-06-21T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": "320 131802", "2": "" },
+    "radicado": "2017 - 00975",
+    "vencimientoPagare": "2025-09-01T00:00:00.000Z",
+    "expediente": "11001400308520170097500",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": { "celular": [3212307798] },
+    "primerNombre": "DIANA",
+    "segundoNombre": "MARCELA",
+    "primerApellido": "SANCHEZ",
+    "segundoApellido": "LOZANO",
+    "cedula": 53051476,
+    "direccion": "calle 64 No. 85-60 INTERIOR 1 LOTE 19 MANZANA 36 URBANIZACION LA ISABELA  ETAPA IIcalle 64 I No. 86-60 ",
+    "email": "dimarce1513@hotmail.com"
+  },
+  "numero": 53,
+  "llaveProceso": "11001400308520170097500",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 1
+}

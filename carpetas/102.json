@@ -1,1 +1,35 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":"2017-06-12T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":null,"municipio":"MESITAS","obligacion":{"1":7300080586,"2":"N/A"},"radicado":"2017-00239","vencimientoPagare":"2019-07-05T00:00:00.000Z","expediente":"25245408900120170023900","juzgados":[]},"category":"Bancolombia","deudor":{"tel":{"celular":[3114456631]},"primerNombre":"ERIKA","segundoNombre":"ALEJANDRA","primerApellido":"QUINTERO","segundoApellido":"REYES","cedula":1070329396,"direccion":"CALL 2 No. 8-40 EL COLEGIO","email":"N/A"},"numero":102,"llaveProceso":"25245408900120170023900","tipoProceso":"SINGULAR","idProceso":1}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": null,
+    "municipio": "MESITAS",
+    "obligacion": { "1": 7300080586, "2": "N/A" },
+    "radicado": "2017-00239",
+    "vencimientoPagare": "2019-07-05T00:00:00.000Z",
+    "expediente": "25245408900120170023900",
+    "juzgados": []
+  },
+  "category": "Bancolombia",
+  "deudor": {
+    "tel": { "celular": [3114456631] },
+    "primerNombre": "ERIKA",
+    "segundoNombre": "ALEJANDRA",
+    "primerApellido": "QUINTERO",
+    "segundoApellido": "REYES",
+    "cedula": 1070329396,
+    "direccion": "CALL 2 No. 8-40 EL COLEGIO",
+    "email": "N/A"
+  },
+  "numero": 102,
+  "llaveProceso": "25245408900120170023900",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 1
+}

@@ -1,1 +1,35 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":null,"entregagarantiasAbogado":null,"etapaProcesal":"NOTIFICACION","fechaPresentacion":null,"municipio":"SOACHA","obligacion":{"1":2099010135501,"2":""},"radicado":"2018 - 01022","vencimientoPagare":"2026-01-14T00:00:00.000Z","expediente":"25754418900320180102200","juzgados":[]},"category":"Terminados","deudor":{"tel":{"celular":[3214747968]},"primerNombre":"LUISA","segundoNombre":"ENELLY","primerApellido":"GUGU","segundoApellido":"VITOPIA","cedula":1022332681,"direccion":"CARRERA 51F- No 37 A-26 SUR","email":"vitopia1022@hotmail.com"},"numero":494,"llaveProceso":"25754418900320180102200","tipoProceso":"HIPOTECARIO","idProceso":1}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": null,
+    "entregagarantiasAbogado": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": { "1": 2099010135501, "2": "" },
+    "radicado": "2018 - 01022",
+    "vencimientoPagare": "2026-01-14T00:00:00.000Z",
+    "expediente": "25754418900320180102200",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "deudor": {
+    "tel": { "celular": [3214747968] },
+    "primerNombre": "LUISA",
+    "segundoNombre": "ENELLY",
+    "primerApellido": "GUGU",
+    "segundoApellido": "VITOPIA",
+    "cedula": 1022332681,
+    "direccion": "CARRERA 51F- No 37 A-26 SUR",
+    "email": "vitopia1022@hotmail.com"
+  },
+  "numero": 494,
+  "llaveProceso": "25754418900320180102200",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 1
+}
