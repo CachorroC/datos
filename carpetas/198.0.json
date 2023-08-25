@@ -1,1 +1,45 @@
-{"category":"Terminados","deudor":{"tel":{"fijo":3142498,"celular":3142998727},"primerNombre":"HECTOR","segundoNombre":"MANUEL","primerApellido":"RAMIREZ","segundoApellido":"PUENTES","cedula":1012318156,"direccion":"CARRERA 80M # 74 - 04 SUR ","email":"hectormanuelverdolaga@gmail.com"},"numero":198,"tipoProceso":"HIPOTECARIO","idProceso":19150031,"llaveProceso":"11001400304020170132900","categoryTag":5,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"29204879,50","entregagarantiasAbogado":"2017-08-29T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":"2017-09-04T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":167542,"2":""},"radicado":"2017 - 01329","vencimientoPagare":"2028-09-03T00:00:00.000Z","expediente":"11001400304020170132900","juzgados":[{"id":40,"tipo":"JUZGADO 040 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-40-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": 3142498,
+      "celular": 3142998727
+    },
+    "primerNombre": "HECTOR",
+    "segundoNombre": "MANUEL",
+    "primerApellido": "RAMIREZ",
+    "segundoApellido": "PUENTES",
+    "cedula": 1012318156,
+    "direccion": "CARRERA 80M # 74 - 04 SUR ",
+    "email": "hectormanuelverdolaga@gmail.com"
+  },
+  "numero": 198,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 19150031,
+  "llaveProceso": "11001400304020170132900",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "29204879,50",
+    "entregagarantiasAbogado": "2017-08-29T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 167542, "2": "" },
+    "radicado": "2017 - 01329",
+    "vencimientoPagare": "2028-09-03T00:00:00.000Z",
+    "expediente": "11001400304020170132900",
+    "juzgados": [
+      {
+        "id": 40,
+        "tipo": "JUZGADO 040 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-40-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

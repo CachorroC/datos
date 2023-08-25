@@ -1,1 +1,42 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"LUIS","segundoNombre":"FERNANDO","primerApellido":"GUTIERREZ","segundoApellido":"RODRIGUEZ","cedula":80406979,"direccion":"CALLE 9 No 1 - 32     TABIO","email":"nellyandreabotiab@hotmail.com"},"numero":272,"tipoProceso":"PRENDARIO","idProceso":50760770,"llaveProceso":"11001400300620170076300","categoryTag":5,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"14.586.242.26","entregagarantiasAbogado":null,"etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-05-10T05:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":12381866,"2":""},"radicado":"2017 - 00763","vencimientoPagare":null,"expediente":"11001400300620170076300","juzgados":[{"id":6,"tipo":"JUZGADO 006 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-006-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "LUIS",
+    "segundoNombre": "FERNANDO",
+    "primerApellido": "GUTIERREZ",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": 80406979,
+    "direccion": "CALLE 9 No 1 - 32     TABIO",
+    "email": "nellyandreabotiab@hotmail.com"
+  },
+  "numero": 272,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 50760770,
+  "llaveProceso": "11001400300620170076300",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "14586.242.26",
+    "entregagarantiasAbogado": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-05-10T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 12381866, "2": "" },
+    "radicado": "2017 - 00763",
+    "vencimientoPagare": null,
+    "expediente": "11001400300620170076300",
+    "juzgados": [
+      {
+        "id": 6,
+        "tipo": "JUZGADO 006 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-006-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

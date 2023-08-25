@@ -1,1 +1,42 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"SONIA","segundoNombre":"MIREYA","primerApellido":"PANTOJA","segundoApellido":"SANDOVAL","cedula":52488943,"direccion":"CALLE 89 # 98 - 27 ","email":"tocami96@hotmail.com"},"numero":202,"tipoProceso":"HIPOTECARIO","idProceso":51937670,"llaveProceso":"11001400308520170128700","categoryTag":5,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"54.240.142,64 COP","entregagarantiasAbogado":"2017-08-28T00:00:00.000Z","etapaProcesal":"1.1001400308520171e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":151374,"2":"N/A"},"radicado":"2017 - 01287","vencimientoPagare":"2022-05-30T00:00:00.000Z","expediente":"11001400308520170128700","juzgados":[{"id":20,"tipo":"JUZGADO 020 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-20-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "SONIA",
+    "segundoNombre": "MIREYA",
+    "primerApellido": "PANTOJA",
+    "segundoApellido": "SANDOVAL",
+    "cedula": 52488943,
+    "direccion": "CALLE 89 # 98 - 27 ",
+    "email": "tocami96@hotmail.com"
+  },
+  "numero": 202,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 51937670,
+  "llaveProceso": "11001400308520170128700",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "54240.142",
+    "entregagarantiasAbogado": "2017-08-28T00:00:00.000Z",
+    "etapaProcesal": "1.1001400308520171e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 151374, "2": "N/A" },
+    "radicado": "2017 - 01287",
+    "vencimientoPagare": "2022-05-30T00:00:00.000Z",
+    "expediente": "11001400308520170128700",
+    "juzgados": [
+      {
+        "id": 20,
+        "tipo": "JUZGADO 020 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-20-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

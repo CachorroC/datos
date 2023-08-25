@@ -1,1 +1,45 @@
-{"category":"Terminados","deudor":{"tel":{"celular":3124041113},"primerNombre":"JOSE","segundoNombre":"FREDDY","primerApellido":"VARGAS","segundoApellido":"RUIZ","cedula":11188351,"direccion":"CARRERA 80 No. 67-41 CALLE 66 No. 113-C- 45 APTO 404 INTERIOR 4 SEVILLA REAL CONJUNTO RESIDENCIAL","email":"N/A"},"numero":43,"tipoProceso":"SINGULAR","idProceso":50631800,"llaveProceso":"11001400301220170088200","categoryTag":5,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"2.078.520,00 COP","entregagarantiasAbogado":"2017-06-12T00:00:00.000Z","etapaProcesal":"ADMISION","fechaPresentacion":"2017-06-23T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":377813731599891,"2":""},"radicado":"2017 - 00882","vencimientoPagare":"2024-11-18T00:00:00.000Z","expediente":"11001400301220170088200","juzgados":[{"id":12,"tipo":"JUZGADO 012 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-012-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": { "celular": 3124041113 },
+    "primerNombre": "JOSE",
+    "segundoNombre": "FREDDY",
+    "primerApellido": "VARGAS",
+    "segundoApellido": "RUIZ",
+    "cedula": 11188351,
+    "direccion": "CARRERA 80 No. 67-41 CALLE 66 No. 113-C- 45 APTO 404 INTERIOR 4 SEVILLA REAL CONJUNTO RESIDENCIAL",
+    "email": "N/A"
+  },
+  "numero": 43,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50631800,
+  "llaveProceso": "11001400301220170088200",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "2078.520",
+    "entregagarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2017-06-23T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 377813731599891,
+      "2": ""
+    },
+    "radicado": "2017 - 00882",
+    "vencimientoPagare": "2024-11-18T00:00:00.000Z",
+    "expediente": "11001400301220170088200",
+    "juzgados": [
+      {
+        "id": 12,
+        "tipo": "JUZGADO 012 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-012-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

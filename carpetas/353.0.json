@@ -1,1 +1,39 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"RICARDO","primerApellido":"ARIAS","segundoApellido":"GUZMAN","cedula":19297891,"direccion":"CALLE 1 H  No 29 - 73","email":"ricardoagi1955@gmail.com"},"numero":353,"tipoProceso":"SINGULAR","idProceso":50873850,"llaveProceso":"11001400307320170156300","categoryTag":5,"demanda":{"departamento":null,"capitalAdeudado":"24.172.046,91 COP","entregagarantiasAbogado":"2017-11-16T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":"4513082447756537/4513085528567731","2":"5303728067784305/"},"radicado":"2017 - 01563","vencimientoPagare":"2017-05-15T00:00:00.000Z","expediente":"11001400307320170156300","juzgados":[{"id":11,"tipo":"JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "RICARDO",
+    "primerApellido": "ARIAS",
+    "segundoApellido": "GUZMAN",
+    "cedula": 19297891,
+    "direccion": "CALLE 1 H  No 29 - 73",
+    "email": "ricardoagi1955@gmail.com"
+  },
+  "numero": 353,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50873850,
+  "llaveProceso": "11001400307320170156300",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": null,
+    "capitalAdeudado": "24172.046",
+    "entregagarantiasAbogado": "2017-11-16T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "4513082447756537/4513085528567731",
+      "2": "5303728067784305/"
+    },
+    "radicado": "2017 - 01563",
+    "vencimientoPagare": "2017-05-15T00:00:00.000Z",
+    "expediente": "11001400307320170156300",
+    "juzgados": [
+      {
+        "id": 11,
+        "tipo": "JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

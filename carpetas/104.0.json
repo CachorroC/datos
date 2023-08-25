@@ -1,1 +1,41 @@
-{"category":"Terminados","deudor":{"tel":{"celular":3103230563},"primerNombre":"NANCY","primerApellido":"HERRERA","segundoApellido":"MENDEZ","cedula":51922135,"direccion":"CARRERA 73 No. 87-07 APARTAMENTO 211 TORRE 6","email":"nancy_herrera2@hotmail.es"},"numero":104,"tipoProceso":"SINGULAR","idProceso":50596080,"llaveProceso":"11001400300620170041700","categoryTag":5,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"3.244.441,00 COP","entregagarantiasAbogado":"2017-07-19T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-07-21T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":127061,"2":540084358},"radicado":"2017 - 00417","vencimientoPagare":"2015-08-28T00:00:00.000Z","expediente":"11001400300620170041700","juzgados":[{"id":6,"tipo":"JUZGADO 006 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-006-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": { "celular": 3103230563 },
+    "primerNombre": "NANCY",
+    "primerApellido": "HERRERA",
+    "segundoApellido": "MENDEZ",
+    "cedula": 51922135,
+    "direccion": "CARRERA 73 No. 87-07 APARTAMENTO 211 TORRE 6",
+    "email": "nancy_herrera2@hotmail.es"
+  },
+  "numero": 104,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50596080,
+  "llaveProceso": "11001400300620170041700",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "3244.441",
+    "entregagarantiasAbogado": "2017-07-19T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-07-21T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 127061, "2": 540084358 },
+    "radicado": "2017 - 00417",
+    "vencimientoPagare": "2015-08-28T00:00:00.000Z",
+    "expediente": "11001400300620170041700",
+    "juzgados": [
+      {
+        "id": 6,
+        "tipo": "JUZGADO 006 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-006-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

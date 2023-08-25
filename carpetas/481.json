@@ -1,1 +1,41 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"12.768.627.00","entregagarantiasAbogado":"2018-03-09T05:00:00.000Z","etapaProcesal":"ADMISION","fechaPresentacion":null,"municipio":"kENNEDY","obligacion":{"1":"AUDIOPRESTAMO","2":""},"radicado":"2019 - 00276","vencimientoPagare":null,"expediente":"11001410375120190027600","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":5731671,"celular":3144195480},"primerNombre":"WILLINTONG","segundoNombre":"MARIO","primerApellido":"","segundoApellido":"YARURO PEÑARANDA","cedula":80019013,"direccion":"CALLE 26 SUR No 95A-49 BL 9 APTO 102","email":"willi.1977@hotmail.com"},"numero":481,"llaveProceso":"11001410375120190027600","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "12768.627.00",
+    "entregagarantiasAbogado": "2018-03-09T05:00:00.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": null,
+    "municipio": "kENNEDY",
+    "obligacion": {
+      "1": "AUDIOPRESTAMO",
+      "2": ""
+    },
+    "radicado": "2019 - 00276",
+    "vencimientoPagare": null,
+    "expediente": "11001410375120190027600",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {
+      "fijo": 5731671,
+      "celular": 3144195480
+    },
+    "primerNombre": "WILLINTONG",
+    "segundoNombre": "MARIO",
+    "primerApellido": "",
+    "segundoApellido": "YARURO PEÑARANDA",
+    "cedula": 80019013,
+    "direccion": "CALLE 26 SUR No 95A-49 BL 9 APTO 102",
+    "email": "willi.1977@hotmail.com"
+  },
+  "numero": 481,
+  "llaveProceso": "11001410375120190027600",
+  "tipoProceso": "SINGULAR"
+}

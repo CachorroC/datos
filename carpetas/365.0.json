@@ -1,1 +1,42 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"RICHARD","segundoNombre":"CAMILO","primerApellido":"IRIARTE","segundoApellido":"GARCIA","cedula":79861680,"direccion":"CARRERA 105 A No 70 D- 90 INT 1 APART 5","email":"richard.iriarte76@hotmail.com"},"numero":365,"tipoProceso":"HIPOTECARIO","idProceso":11227303,"llaveProceso":"11001400305020180014000","categoryTag":5,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"23.970.146.05","entregagarantiasAbogado":"2017-07-12T05:00:00.000Z","etapaProcesal":"ADMISION","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":106172,"2":""},"radicado":"2018 - 00140","vencimientoPagare":"2023-10-03T05:00:00.000Z","expediente":"11001400305020180014000","juzgados":[{"id":50,"tipo":"JUZGADO 050 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-50-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "RICHARD",
+    "segundoNombre": "CAMILO",
+    "primerApellido": "IRIARTE",
+    "segundoApellido": "GARCIA",
+    "cedula": 79861680,
+    "direccion": "CARRERA 105 A No 70 D- 90 INT 1 APART 5",
+    "email": "richard.iriarte76@hotmail.com"
+  },
+  "numero": 365,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 11227303,
+  "llaveProceso": "11001400305020180014000",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "23970.146.05",
+    "entregagarantiasAbogado": "2017-07-12T05:00:00.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 106172, "2": "" },
+    "radicado": "2018 - 00140",
+    "vencimientoPagare": "2023-10-03T05:00:00.000Z",
+    "expediente": "11001400305020180014000",
+    "juzgados": [
+      {
+        "id": 50,
+        "tipo": "JUZGADO 050 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-50-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

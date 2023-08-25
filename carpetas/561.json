@@ -1,1 +1,41 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"36.720.537,00 COP","entregagarantiasAbogado":"2023-07-26T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":6520089408,"2":"TARJETA MASTER CARD No. 5303720118094313 Y TARJETA AMERICAN No. 0377844026948428"},"radicado":"","vencimientoPagare":null,"expediente":"","juzgados":[]},"category":"Bancolombia","categoryTag":1,"deudor":{"tel":{"fijo":7848056,"celular":3153208374},"primerNombre":"LUZ","segundoNombre":"JANNETH","primerApellido":"RODRIGUEZ","segundoApellido":"MORENO","cedula":52278914,"direccion":"Carrera 87 No. 48 – 50 Sur Casa 26 Conjunto Residencial Alameda de San José II","email":"lurodrig@corona.com.co  jrodriguez2805@hotmail.com"},"numero":561,"llaveProceso":"","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "36720.537",
+    "entregagarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 6520089408,
+      "2": "TARJETA MASTER CARD No. 5303720118094313 Y TARJETA AMERICAN No. 0377844026948428"
+    },
+    "radicado": "",
+    "vencimientoPagare": null,
+    "expediente": "",
+    "juzgados": []
+  },
+  "category": "Bancolombia",
+  "categoryTag": 1,
+  "deudor": {
+    "tel": {
+      "fijo": 7848056,
+      "celular": 3153208374
+    },
+    "primerNombre": "LUZ",
+    "segundoNombre": "JANNETH",
+    "primerApellido": "RODRIGUEZ",
+    "segundoApellido": "MORENO",
+    "cedula": 52278914,
+    "direccion": "Carrera 87 No. 48 – 50 Sur Casa 26 Conjunto Residencial Alameda de San José II",
+    "email": "lurodrig@corona.com.co  jrodriguez2805@hotmail.com"
+  },
+  "numero": 561,
+  "llaveProceso": "",
+  "tipoProceso": "SINGULAR"
+}

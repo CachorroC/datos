@@ -1,1 +1,50 @@
-{"category":"Bancolombia","deudor":{"tel":{},"primerNombre":"LEIDY","segundoNombre":"YANETH","primerApellido":"VIDAL","segundoApellido":"RODRIGUEZ","cedula":52883958,"direccion":"DIAGONAL 2 No 21 B-20","email":"leidyyaneth.lyv@gmail.com"},"numero":463,"tipoProceso":"SINGULAR","idProceso":135801811,"llaveProceso":"11001418901420190065600","categoryTag":1,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"24.501.535,30 COP","entregagarantiasAbogado":"2018-07-05T00:00:00.000Z","etapaProcesal":"CONTESTACION DEMANDA","fechaPresentacion":"2018-07-12T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":"AMERICAN 0377814037749057","2":"VISA 4513083943843365 // MASTER 5303729958258417"},"radicado":"2019 - 00656","vencimientoPagare":null,"expediente":"11001418901420190065600","juzgados":[{"id":14,"tipo":"JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ","url":"https://www.ramajudicial.gov.cojuzgado-014-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"},{"id":14,"tipo":"JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ","url":"https://www.ramajudicial.gov.cojuzgado-014-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"}]}}
+{
+  "category": "Bancolombia",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "LEIDY",
+    "segundoNombre": "YANETH",
+    "primerApellido": "VIDAL",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": 52883958,
+    "direccion": "DIAGONAL 2 No 21 B-20",
+    "email": "leidyyaneth.lyv@gmail.com"
+  },
+  "numero": 463,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 135801811,
+  "llaveProceso": "11001418901420190065600",
+  "categoryTag": 1,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "24501.535",
+    "entregagarantiasAbogado": "2018-07-05T00:00:00.000Z",
+    "etapaProcesal": "CONTESTACION DEMANDA",
+    "fechaPresentacion": "2018-07-12T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "AMERICAN 0377814037749057",
+      "2": "VISA 4513083943843365 // MASTER 5303729958258417"
+    },
+    "radicado": "2019 - 00656",
+    "vencimientoPagare": null,
+    "expediente": "11001418901420190065600",
+    "juzgados": [
+      {
+        "id": 14,
+        "tipo": "JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-014-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
+      },
+      {
+        "id": 14,
+        "tipo": "JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-014-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
+      }
+    ]
+  }
+}

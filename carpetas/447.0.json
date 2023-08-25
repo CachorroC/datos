@@ -1,1 +1,42 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"CARLOS","segundoNombre":"ANTONIO","primerApellido":"PACHECO","segundoApellido":"TORRES","cedula":79698506,"direccion":"CARRERA 80 BIS A No 70A-15","email":"N/A"},"numero":447,"tipoProceso":"SINGULAR","idProceso":51277500,"llaveProceso":"11001400300520180071100","categoryTag":5,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"19.260.500.00","entregagarantiasAbogado":"2018-06-21T00:00:00.000Z","etapaProcesal":"ADMISION","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":1010082679,"2":""},"radicado":"2018 - 00711","vencimientoPagare":"2027-10-27T00:00:00.000Z","expediente":"11001400300520180071100","juzgados":[{"id":5,"tipo":"JUZGADO 005 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-05-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "CARLOS",
+    "segundoNombre": "ANTONIO",
+    "primerApellido": "PACHECO",
+    "segundoApellido": "TORRES",
+    "cedula": 79698506,
+    "direccion": "CARRERA 80 BIS A No 70A-15",
+    "email": "N/A"
+  },
+  "numero": 447,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 51277500,
+  "llaveProceso": "11001400300520180071100",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "19260.500.00",
+    "entregagarantiasAbogado": "2018-06-21T00:00:00.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 1010082679, "2": "" },
+    "radicado": "2018 - 00711",
+    "vencimientoPagare": "2027-10-27T00:00:00.000Z",
+    "expediente": "11001400300520180071100",
+    "juzgados": [
+      {
+        "id": 5,
+        "tipo": "JUZGADO 005 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-05-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

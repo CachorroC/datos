@@ -1,1 +1,37 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"14.534.881,00 COP","entregagarantiasAbogado":"2018-04-21T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2018-04-25T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":"AUDIOPRESTAMO","2":"N/A"},"radicado":"2018 - 00475","vencimientoPagare":"2020-08-15T00:00:00.000Z","expediente":"11001400300420180047500","juzgados":[]},"category":"Reintegra","deudor":{"tel":{},"primerNombre":"ADOLFO","segundoNombre":"","primerApellido":"LEON","segundoApellido":"DAZA FERNANDEZ","cedula":79568543,"direccion":"CALLE 60 No 38-26 APTO 301","email":"adolfo.daza@gmail.com"},"numero":477,"llaveProceso":"11001400300420180047500","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "14.534.881,00 COP",
+    "entregagarantiasAbogado": "2018-04-21T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-04-25T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "AUDIOPRESTAMO",
+      "2": "N/A"
+    },
+    "radicado": "2018 - 00475",
+    "vencimientoPagare": "2020-08-15T00:00:00.000Z",
+    "expediente": "11001400300420180047500",
+    "juzgados": []
+  },
+  "category": "Reintegra",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ADOLFO",
+    "segundoNombre": "",
+    "primerApellido": "LEON",
+    "segundoApellido": "DAZA FERNANDEZ",
+    "cedula": 79568543,
+    "direccion": "CALLE 60 No 38-26 APTO 301",
+    "email": "adolfo.daza@gmail.com"
+  },
+  "numero": 477,
+  "llaveProceso": "11001400300420180047500",
+  "tipoProceso": "SINGULAR"
+}

@@ -1,1 +1,42 @@
-{"category":"Terminados","deudor":{"tel":{"celular":3178195535},"primerNombre":"CARLOS","segundoNombre":"JAVIER","primerApellido":"BECERRA","segundoApellido":"BENAVIDES","cedula":7226283,"direccion":"CARRERA 11A # 17 - 24 SANTA BARBARA ","email":"cajux@hotmail.com"},"numero":251,"tipoProceso":"PRENDARIO","idProceso":50685530,"llaveProceso":"11001400301320170116200","categoryTag":5,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"56.386.936,00 COP","entregagarantiasAbogado":"2020-04-25T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":12703441,"2":"N/A"},"radicado":"2017 - 01162","vencimientoPagare":"2017-08-22T00:00:00.000Z","expediente":"11001400301320170116200","juzgados":[{"id":16,"tipo":"JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-16-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": { "celular": 3178195535 },
+    "primerNombre": "CARLOS",
+    "segundoNombre": "JAVIER",
+    "primerApellido": "BECERRA",
+    "segundoApellido": "BENAVIDES",
+    "cedula": 7226283,
+    "direccion": "CARRERA 11A # 17 - 24 SANTA BARBARA ",
+    "email": "cajux@hotmail.com"
+  },
+  "numero": 251,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 50685530,
+  "llaveProceso": "11001400301320170116200",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "56386.936",
+    "entregagarantiasAbogado": "2020-04-25T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 12703441, "2": "N/A" },
+    "radicado": "2017 - 01162",
+    "vencimientoPagare": "2017-08-22T00:00:00.000Z",
+    "expediente": "11001400301320170116200",
+    "juzgados": [
+      {
+        "id": 16,
+        "tipo": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-16-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

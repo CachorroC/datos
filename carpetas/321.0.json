@@ -1,1 +1,41 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"ADELA","primerApellido":"BARAJAS","segundoApellido":"MORENO","cedula":52391771,"direccion":"TRANSVERSAL 78 B No 6 B - 20 APARTAMENTO 101","email":"N/A"},"numero":321,"tipoProceso":"SINGULAR","idProceso":50907660,"llaveProceso":"11001400301620170136700","categoryTag":5,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"13.867.980.00","entregagarantiasAbogado":"2017-11-02T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":2150091479,"2":""},"radicado":"2017 - 01367","vencimientoPagare":"2018-09-21T00:00:00.000Z","expediente":"11001400301620170136700","juzgados":[{"id":9,"tipo":"JUZGADO 009 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-09-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ADELA",
+    "primerApellido": "BARAJAS",
+    "segundoApellido": "MORENO",
+    "cedula": 52391771,
+    "direccion": "TRANSVERSAL 78 B No 6 B - 20 APARTAMENTO 101",
+    "email": "N/A"
+  },
+  "numero": 321,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50907660,
+  "llaveProceso": "11001400301620170136700",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "13867.980.00",
+    "entregagarantiasAbogado": "2017-11-02T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 2150091479, "2": "" },
+    "radicado": "2017 - 01367",
+    "vencimientoPagare": "2018-09-21T00:00:00.000Z",
+    "expediente": "11001400301620170136700",
+    "juzgados": [
+      {
+        "id": 9,
+        "tipo": "JUZGADO 009 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-09-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

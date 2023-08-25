@@ -1,1 +1,41 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"26.806.038,00 COP","entregagarantiasAbogado":"2019-04-12T05:00:00.000Z","etapaProcesal":"1.100140030612019e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":1800092546,"2":1800092544},"radicado":"2019 - 02159","vencimientoPagare":null,"expediente":"11001400304320190215900","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":8055915,"celular":3112925970},"primerNombre":"SONIA","segundoNombre":"ANGELICA","primerApellido":"LOPEZ","segundoApellido":"ORTIZ","cedula":52018939,"direccion":"CALLE 78 D 110-22 INTERIOR 16","email":"sonialo.ejm@gmail.com"},"numero":544,"llaveProceso":"11001400304320190215900","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "26806.038",
+    "entregagarantiasAbogado": "2019-04-12T05:00:00.000Z",
+    "etapaProcesal": "1.100140030612019e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 1800092546,
+      "2": 1800092544
+    },
+    "radicado": "2019 - 02159",
+    "vencimientoPagare": null,
+    "expediente": "11001400304320190215900",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {
+      "fijo": 8055915,
+      "celular": 3112925970
+    },
+    "primerNombre": "SONIA",
+    "segundoNombre": "ANGELICA",
+    "primerApellido": "LOPEZ",
+    "segundoApellido": "ORTIZ",
+    "cedula": 52018939,
+    "direccion": "CALLE 78 D 110-22 INTERIOR 16",
+    "email": "sonialo.ejm@gmail.com"
+  },
+  "numero": 544,
+  "llaveProceso": "11001400304320190215900",
+  "tipoProceso": "SINGULAR"
+}

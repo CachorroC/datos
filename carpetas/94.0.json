@@ -1,1 +1,42 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"AIDA","segundoNombre":"YURANI","primerApellido":"GRIJALBA","segundoApellido":"MARTINEZ","cedula":1030527169,"direccion":"CARRERA 70C # 1A - 86 SUR ","email":"o"},"numero":94,"tipoProceso":"HIPOTECARIO","idProceso":17325724,"llaveProceso":"11001400305620170059100","categoryTag":5,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"95244711,50","entregagarantiasAbogado":"2017-06-28T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-06-29T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":177994,"2":""},"radicado":"2017 - 00591","vencimientoPagare":"2034-10-09T00:00:00.000Z","expediente":"11001400305620170059100","juzgados":[{"id":56,"tipo":"JUZGADO 056 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-056-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "AIDA",
+    "segundoNombre": "YURANI",
+    "primerApellido": "GRIJALBA",
+    "segundoApellido": "MARTINEZ",
+    "cedula": 1030527169,
+    "direccion": "CARRERA 70C # 1A - 86 SUR ",
+    "email": "o"
+  },
+  "numero": 94,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 17325724,
+  "llaveProceso": "11001400305620170059100",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "95244711,50",
+    "entregagarantiasAbogado": "2017-06-28T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-29T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 177994, "2": "" },
+    "radicado": "2017 - 00591",
+    "vencimientoPagare": "2034-10-09T00:00:00.000Z",
+    "expediente": "11001400305620170059100",
+    "juzgados": [
+      {
+        "id": 56,
+        "tipo": "JUZGADO 056 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-056-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

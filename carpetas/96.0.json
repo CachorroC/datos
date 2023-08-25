@@ -1,1 +1,44 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"YURANNY","primerApellido":"POLANCO","segundoApellido":"CESPEDES","cedula":52818959,"direccion":"CARRERA 72 # 57B - 50 ","email":"bluemoontauro@hotmail.com"},"numero":96,"tipoProceso":"SINGULAR","idProceso":11998913,"llaveProceso":"11001400305320170087100","categoryTag":5,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"46027552,56","entregagarantiasAbogado":"2017-06-28T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-06-29T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":160742,"2":377815863029282},"radicado":"2017 - 00871","vencimientoPagare":"2033-01-30T00:00:00.000Z","expediente":"11001400305320170087100","juzgados":[{"id":53,"tipo":"JUZGADO 053 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-053-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "YURANNY",
+    "primerApellido": "POLANCO",
+    "segundoApellido": "CESPEDES",
+    "cedula": 52818959,
+    "direccion": "CARRERA 72 # 57B - 50 ",
+    "email": "bluemoontauro@hotmail.com"
+  },
+  "numero": 96,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 11998913,
+  "llaveProceso": "11001400305320170087100",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "46027552,56",
+    "entregagarantiasAbogado": "2017-06-28T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-29T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 160742,
+      "2": 377815863029282
+    },
+    "radicado": "2017 - 00871",
+    "vencimientoPagare": "2033-01-30T00:00:00.000Z",
+    "expediente": "11001400305320170087100",
+    "juzgados": [
+      {
+        "id": 53,
+        "tipo": "JUZGADO 053 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-053-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

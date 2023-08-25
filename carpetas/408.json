@@ -1,1 +1,35 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"17,508,189,65","entregagarantiasAbogado":null,"etapaProcesal":"NOTIFICACION","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":152654,"2":""},"radicado":"2018 - 00264","vencimientoPagare":"2018-06-06T05:00:00.000Z","expediente":"11001400308120180026400","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"JHON","segundoNombre":"ALEXANDER","primerApellido":"BEJARANO","segundoApellido":"FONSECA","cedula":80792987,"direccion":"CALLE 4 D No 39 C-22","email":"jhonbeja227@gmail.com"},"numero":408,"llaveProceso":"11001400308120180026400","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "17,508,189,65",
+    "entregagarantiasAbogado": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 152654, "2": "" },
+    "radicado": "2018 - 00264",
+    "vencimientoPagare": "2018-06-06T05:00:00.000Z",
+    "expediente": "11001400308120180026400",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JHON",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "BEJARANO",
+    "segundoApellido": "FONSECA",
+    "cedula": 80792987,
+    "direccion": "CALLE 4 D No 39 C-22",
+    "email": "jhonbeja227@gmail.com"
+  },
+  "numero": 408,
+  "llaveProceso": "11001400308120180026400",
+  "tipoProceso": "HIPOTECARIO"
+}

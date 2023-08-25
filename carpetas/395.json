@@ -1,1 +1,34 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"13,974,554,00","entregagarantiasAbogado":null,"etapaProcesal":"ADMISION","fechaPresentacion":"2018-05-02T05:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":60144000242,"2":""},"radicado":"2018 - 00090","vencimientoPagare":null,"expediente":"11001400308420180009000","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"JORGE","primerApellido":"BERMEO","segundoApellido":"ROJAS","cedula":2869326,"direccion":"CARRERA 59 A No 136- 25 APARTAMENTO 302 BOGOTA","email":"jbermeo01@hotmail.com"},"numero":395,"llaveProceso":"11001400308420180009000","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "13,974,554,00",
+    "entregagarantiasAbogado": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-05-02T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 60144000242, "2": "" },
+    "radicado": "2018 - 00090",
+    "vencimientoPagare": null,
+    "expediente": "11001400308420180009000",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JORGE",
+    "primerApellido": "BERMEO",
+    "segundoApellido": "ROJAS",
+    "cedula": 2869326,
+    "direccion": "CARRERA 59 A No 136- 25 APARTAMENTO 302 BOGOTA",
+    "email": "jbermeo01@hotmail.com"
+  },
+  "numero": 395,
+  "llaveProceso": "11001400308420180009000",
+  "tipoProceso": "SINGULAR"
+}

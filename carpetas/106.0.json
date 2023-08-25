@@ -1,1 +1,41 @@
-{"category":"Reintegra","deudor":{"tel":{},"primerNombre":"DANIEL","primerApellido":"HERNANDEZ","segundoApellido":"GONZALEZ","cedula":501492,"direccion":"CALLE 134 No. 58-58 ","email":"danielher84@gmail.com"},"numero":106,"tipoProceso":"PRENDARIO","idProceso":50514310,"llaveProceso":"11001400305920170048300","categoryTag":2,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"16.497.280,67 COP","entregagarantiasAbogado":"2017-06-12T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-06-16T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":12515504,"2":"N/A"},"radicado":"2017 - 00483","vencimientoPagare":"2018-08-28T00:00:00.000Z","expediente":"11001400305920170048300","juzgados":[{"id":15,"tipo":"JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "category": "Reintegra",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "DANIEL",
+    "primerApellido": "HERNANDEZ",
+    "segundoApellido": "GONZALEZ",
+    "cedula": 501492,
+    "direccion": "CALLE 134 No. 58-58 ",
+    "email": "danielher84@gmail.com"
+  },
+  "numero": 106,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 50514310,
+  "llaveProceso": "11001400305920170048300",
+  "categoryTag": 2,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "16497.280",
+    "entregagarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-06-16T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 12515504, "2": "N/A" },
+    "radicado": "2017 - 00483",
+    "vencimientoPagare": "2018-08-28T00:00:00.000Z",
+    "expediente": "11001400305920170048300",
+    "juzgados": [
+      {
+        "id": 15,
+        "tipo": "JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

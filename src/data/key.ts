@@ -1,37 +1,33 @@
 import Carpetas from './carpetas';
-import fetchProcesos, { fetchP } from './procesos';
+import fetchProcesos, {
+  fetchP
+} from './procesos';
 import * as fs from 'fs/promises';
 
 export const idProcesos = Carpetas.map(
-  (
-    carpeta 
-  ) => {
+  (carpeta) => {
     return {
       idProceso: carpeta.idProceso,
-      _id      : carpeta._id
+      _id: carpeta._id
     };
   }
 );
 
 export const llavesProceso = Carpetas.map(
-  (
-    carpeta 
-  ) => {
+  (carpeta) => {
     return {
       llaveProceso: carpeta.llaveProceso,
-      _id         : carpeta._id
+      _id: carpeta._id
     };
   }
 );
 
 export async function getProcesosbyLLaveProceso() {
-  const procesosMap: Map<number, fetchP>
-    = new Map();
+  const procesosMap: Map<number, fetchP> =
+    new Map();
 
   const llavesLength = llavesProceso.length;
-  console.log(
-    `hay ${ llavesLength } llaves` 
-  );
+  console.log(`hay ${llavesLength} llaves`);
   /*
   for ( const llave of llavesProceso ) {
 
@@ -67,9 +63,7 @@ export async function getProcesosbyLLaveProceso() {
   */
 
   const procesosArray = llavesProceso.map(
-    async (
-      llave, index 
-    ) => {
+    async (llave, index) => {
       const procesos = await fetchProcesos(
         llave.llaveProceso,
         index,
@@ -81,9 +75,7 @@ export async function getProcesosbyLLaveProceso() {
   );
   fs.writeFile(
     'procesosbyidsleepInfetch.json',
-    JSON.stringify(
-      procesosArray 
-    )
+    JSON.stringify(procesosArray)
   );
 
   return procesosArray;

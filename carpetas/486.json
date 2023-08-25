@@ -1,1 +1,35 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"12.827.556.00","entregagarantiasAbogado":"2018-10-08T05:00:00.000Z","etapaProcesal":"ADMISION","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":2330066914,"2":""},"radicado":"2018 - 00210","vencimientoPagare":null,"expediente":"11001418900520180021000","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"SANDRA","segundoNombre":"PATRICIA","primerApellido":"LONDOÑO","segundoApellido":"MURCIA","cedula":40776578,"direccion":"CARRERA 26B No 28-30  SUR INT 2","email":"salonmur@hotmail.com"},"numero":486,"llaveProceso":"11001418900520180021000","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "12827.556.00",
+    "entregagarantiasAbogado": "2018-10-08T05:00:00.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 2330066914, "2": "" },
+    "radicado": "2018 - 00210",
+    "vencimientoPagare": null,
+    "expediente": "11001418900520180021000",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "SANDRA",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "LONDOÑO",
+    "segundoApellido": "MURCIA",
+    "cedula": 40776578,
+    "direccion": "CARRERA 26B No 28-30  SUR INT 2",
+    "email": "salonmur@hotmail.com"
+  },
+  "numero": 486,
+  "llaveProceso": "11001418900520180021000",
+  "tipoProceso": "SINGULAR"
+}

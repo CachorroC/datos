@@ -1,1 +1,34 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"15.946.341,00 COP","entregagarantiasAbogado":"2017-05-11T00:00:00.000Z","etapaProcesal":"ADMISION","fechaPresentacion":"2017-05-24T00:00:00.000Z","municipio":"SUBA","obligacion":{"1":2405037,"2":""},"radicado":"2017 - 00909","vencimientoPagare":"2020-04-26T00:00:00.000Z","expediente":"11001418900320170090900","juzgados":[]},"category":"Terminados","categoryTag":4,"deudor":{"tel":{"celular":3202705987},"primerNombre":"MARINA","primerApellido":"MORALES","segundoApellido":"HERNANDEZ","cedula":52396019,"direccion":"CARRERA 109A No. 148-91 BOGOTA","email":"N/A"},"numero":10,"llaveProceso":"11001418900320170090900","tipoProceso":"PRENDARIO"}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "15.946.341,00 COP",
+    "entregagarantiasAbogado": "2017-05-11T00:00:00.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2017-05-24T00:00:00.000Z",
+    "municipio": "SUBA",
+    "obligacion": { "1": 2405037, "2": "" },
+    "radicado": "2017 - 00909",
+    "vencimientoPagare": "2020-04-26T00:00:00.000Z",
+    "expediente": "11001418900320170090900",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 4,
+  "deudor": {
+    "tel": { "celular": 3202705987 },
+    "primerNombre": "MARINA",
+    "primerApellido": "MORALES",
+    "segundoApellido": "HERNANDEZ",
+    "cedula": 52396019,
+    "direccion": "CARRERA 109A No. 148-91 BOGOTA",
+    "email": "N/A"
+  },
+  "numero": 10,
+  "llaveProceso": "11001418900320170090900",
+  "tipoProceso": "PRENDARIO"
+}

@@ -1,1 +1,41 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"78.071.921.68","entregagarantiasAbogado":"2017-09-19T00:00:00.000Z","etapaProcesal":"SENTENCIA","fechaPresentacion":"2017-09-25T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":"2290099308    /2170086682","2":""},"radicado":"2017 - 00998","vencimientoPagare":null,"expediente":"1100140030442017099800","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":731500,"celular":1020731500},"primerNombre":"DANIELA","segundoNombre":"ALEJANDRA","primerApellido":"CARDENAS","segundoApellido":"RODRIGUEZ","cedula":1020731500,"direccion":"DIAGONAL 77  B No 19 A - 73","email":"dany_aleja@hotmail.com"},"numero":9,"llaveProceso":"1100140030442017099800","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "78071.921.68",
+    "entregagarantiasAbogado": "2017-09-19T00:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-09-25T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "2290099308    /2170086682",
+      "2": ""
+    },
+    "radicado": "2017 - 00998",
+    "vencimientoPagare": null,
+    "expediente": "1100140030442017099800",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {
+      "fijo": 731500,
+      "celular": 1020731500
+    },
+    "primerNombre": "DANIELA",
+    "segundoNombre": "ALEJANDRA",
+    "primerApellido": "CARDENAS",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": 1020731500,
+    "direccion": "DIAGONAL 77  B No 19 A - 73",
+    "email": "dany_aleja@hotmail.com"
+  },
+  "numero": 9,
+  "llaveProceso": "1100140030442017099800",
+  "tipoProceso": "SINGULAR"
+}

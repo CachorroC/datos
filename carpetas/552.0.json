@@ -1,1 +1,45 @@
-{"category":"Bancolombia","deudor":{"tel":{},"primerNombre":"OSCAR","segundoNombre":"MAURICIO","primerApellido":"GOMEZ","segundoApellido":"MENDOZA","cedula":1023874668,"direccion":"CL 49 A BIS SUR No. 5 N 10  ","email":"oscar2794@hotmail.com"},"numero":552,"tipoProceso":"SINGULAR","idProceso":130946630,"llaveProceso":"11001400300420230062200","categoryTag":1,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"77.376.262,00 COP","entregagarantiasAbogado":"2023-06-20T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":530104065,"2":530103261},"radicado":"2023 - 00622","vencimientoPagare":null,"expediente":"11001400300420230062200","juzgados":[{"id":4,"tipo":"JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota"}]}}
+{
+  "category": "Bancolombia",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "OSCAR",
+    "segundoNombre": "MAURICIO",
+    "primerApellido": "GOMEZ",
+    "segundoApellido": "MENDOZA",
+    "cedula": 1023874668,
+    "direccion": "CL 49 A BIS SUR No. 5 N 10  ",
+    "email": "oscar2794@hotmail.com"
+  },
+  "numero": 552,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 130946630,
+  "llaveProceso": "11001400300420230062200",
+  "categoryTag": 1,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "77376.262",
+    "entregagarantiasAbogado": "2023-06-20T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 530104065,
+      "2": 530103261
+    },
+    "radicado": "2023 - 00622",
+    "vencimientoPagare": null,
+    "expediente": "11001400300420230062200",
+    "juzgados": [
+      {
+        "id": 4,
+        "tipo": "JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

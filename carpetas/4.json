@@ -1,1 +1,38 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":29925624,"entregagarantiasAbogado":"2017-05-11T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":"2017-05-30T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":"2273 320158101","2":""},"radicado":"2017 - 00720","vencimientoPagare":"2022-11-15T00:00:00.000Z","expediente":"11001400305320170072000","juzgados":[]},"category":"Terminados","categoryTag":4,"deudor":{"tel":{"celular":3182165543},"primerNombre":"DIPSON","segundoNombre":"EUSEBIO","primerApellido":"SANCHEZ","segundoApellido":"CASTIBLANCO","cedula":93437973,"direccion":"CARRERA 104 No. 12  B-94 BOGOTA","email":"dipsonsanchez16@g0mail.com"},"numero":4,"llaveProceso":"11001400305320170072000","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 29925624,
+    "entregagarantiasAbogado": "2017-05-11T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "2273 320158101",
+      "2": ""
+    },
+    "radicado": "2017 - 00720",
+    "vencimientoPagare": "2022-11-15T00:00:00.000Z",
+    "expediente": "11001400305320170072000",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 4,
+  "deudor": {
+    "tel": { "celular": 3182165543 },
+    "primerNombre": "DIPSON",
+    "segundoNombre": "EUSEBIO",
+    "primerApellido": "SANCHEZ",
+    "segundoApellido": "CASTIBLANCO",
+    "cedula": 93437973,
+    "direccion": "CARRERA 104 No. 12  B-94 BOGOTA",
+    "email": "dipsonsanchez16@g0mail.com"
+  },
+  "numero": 4,
+  "llaveProceso": "11001400305320170072000",
+  "tipoProceso": "HIPOTECARIO"
+}

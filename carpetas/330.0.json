@@ -1,1 +1,40 @@
-{"category":"Terminados","deudor":{"tel":{"fijo":6822121,"celular":3176822122},"primerNombre":"NELSON","segundoNombre":"ARBEY","primerApellido":"CANGREJO","segundoApellido":"SUAREZ","cedula":80185084,"direccion":"CARRERA 95 A  No 136 - 47 APARTAMENTO 401 BLOQUE 3","email":"arby3920@hotmail.com"},"numero":330,"tipoProceso":"HIPOTECARIO","idProceso":113385910,"llaveProceso":"11001400307020170121800","categoryTag":5,"demanda":{"departamento":null,"capitalAdeudado":"36.103.545.25","entregagarantiasAbogado":"2017-10-31T00:00:00.000Z","etapaProcesal":"ADMISION","fechaPresentacion":"2017-11-14T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":156888,"2":""},"radicado":"2017 - 01218","vencimientoPagare":"2042-10-09T00:00:00.000Z","expediente":"11001400307020170121800","juzgados":[{"id":70,"tipo":"JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-070-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": 6822121,
+      "celular": 3176822122
+    },
+    "primerNombre": "NELSON",
+    "segundoNombre": "ARBEY",
+    "primerApellido": "CANGREJO",
+    "segundoApellido": "SUAREZ",
+    "cedula": 80185084,
+    "direccion": "CARRERA 95 A  No 136 - 47 APARTAMENTO 401 BLOQUE 3",
+    "email": "arby3920@hotmail.com"
+  },
+  "numero": 330,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 113385910,
+  "llaveProceso": "11001400307020170121800",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": null,
+    "capitalAdeudado": "36103.545.25",
+    "entregagarantiasAbogado": "2017-10-31T00:00:00.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2017-11-14T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 156888, "2": "" },
+    "radicado": "2017 - 01218",
+    "vencimientoPagare": "2042-10-09T00:00:00.000Z",
+    "expediente": "11001400307020170121800",
+    "juzgados": [
+      {
+        "id": 70,
+        "tipo": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-070-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

@@ -1,1 +1,42 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"WILLIAM","segundoNombre":"CORTES","primerApellido":"ROJAS","segundoApellido":"","cedula":79573945,"direccion":"CARRERA 19  No 56 A  SUR - 72","email":"cubrimage@hotmail.com"},"numero":340,"tipoProceso":"SINGULAR","idProceso":50788330,"llaveProceso":"11001400306020170101400","categoryTag":5,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"14.986.915,00 COP","entregagarantiasAbogado":"2017-10-04T00:00:00.000Z","etapaProcesal":"1.100140030602017e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":6690082032,"2":"N/A"},"radicado":"2017 - 01014","vencimientoPagare":"2018-09-25T00:00:00.000Z","expediente":"11001400306020170101400","juzgados":[{"id":13,"tipo":"JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-13-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "WILLIAM",
+    "segundoNombre": "CORTES",
+    "primerApellido": "ROJAS",
+    "segundoApellido": "",
+    "cedula": 79573945,
+    "direccion": "CARRERA 19  No 56 A  SUR - 72",
+    "email": "cubrimage@hotmail.com"
+  },
+  "numero": 340,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50788330,
+  "llaveProceso": "11001400306020170101400",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "14986.915",
+    "entregagarantiasAbogado": "2017-10-04T00:00:00.000Z",
+    "etapaProcesal": "1.100140030602017e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 6690082032, "2": "N/A" },
+    "radicado": "2017 - 01014",
+    "vencimientoPagare": "2018-09-25T00:00:00.000Z",
+    "expediente": "11001400306020170101400",
+    "juzgados": [
+      {
+        "id": 13,
+        "tipo": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-13-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

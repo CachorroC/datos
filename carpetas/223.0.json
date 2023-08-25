@@ -1,1 +1,48 @@
-{"category":"Reintegra","deudor":{"tel":{"fijo":3349755,"celular":3153330306},"primerNombre":"GERARDO","segundoNombre":"ANTONIO","primerApellido":"MONCADA","segundoApellido":"VEGA ","cedula":17174720,"direccion":"CALLE 159 # 15 - 45 ","email":"gerardomoncada70@hotmail.com"},"numero":223,"tipoProceso":"SINGULAR","idProceso":86524020,"llaveProceso":"11001400305520170086000","categoryTag":2,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"43.653.352,35 COP","entregagarantiasAbogado":"2017-08-23T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-08-28T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":11903330957,"2":"377816208286710 // 4513083951499464 // 5176407001878614 // 5303720129694960 // AUDIOPRESTAMO"},"radicado":"2017 - 00860","vencimientoPagare":null,"expediente":"11001400305520170086000","juzgados":[{"id":15,"tipo":"JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "category": "Reintegra",
+  "deudor": {
+    "tel": {
+      "fijo": 3349755,
+      "celular": 3153330306
+    },
+    "primerNombre": "GERARDO",
+    "segundoNombre": "ANTONIO",
+    "primerApellido": "MONCADA",
+    "segundoApellido": "VEGA ",
+    "cedula": 17174720,
+    "direccion": "CALLE 159 # 15 - 45 ",
+    "email": "gerardomoncada70@hotmail.com"
+  },
+  "numero": 223,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 86524020,
+  "llaveProceso": "11001400305520170086000",
+  "categoryTag": 2,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "43653.352",
+    "entregagarantiasAbogado": "2017-08-23T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 11903330957,
+      "2": "377816208286710 // 4513083951499464 // 5176407001878614 // 5303720129694960 // AUDIOPRESTAMO"
+    },
+    "radicado": "2017 - 00860",
+    "vencimientoPagare": null,
+    "expediente": "11001400305520170086000",
+    "juzgados": [
+      {
+        "id": 15,
+        "tipo": "JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

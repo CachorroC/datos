@@ -1,1 +1,40 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"LUIS","segundoNombre":"ALFONSO","primerApellido":"MOJICA","segundoApellido":"ZAMBRANO","cedula":91072102,"direccion":"CARRERA 53 No 153 - 84  INTERIOR 5 APARTAMENTO  204","email":"alfonso.mojica@sumatronicltda.com"},"numero":339,"tipoProceso":"SINGULAR","idProceso":50858360,"llaveProceso":"11001400305620170119500","categoryTag":5,"demanda":{"departamento":null,"capitalAdeudado":"36.069.195,00 COP","entregagarantiasAbogado":"2017-11-09T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":53392043,"2":"530092506 /530092671"},"radicado":"2017 - 01195","vencimientoPagare":"2021-04-20T00:00:00.000Z","expediente":"11001400305620170119500","juzgados":[{"id":6,"tipo":"JUZGADO 006 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-06-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "LUIS",
+    "segundoNombre": "ALFONSO",
+    "primerApellido": "MOJICA",
+    "segundoApellido": "ZAMBRANO",
+    "cedula": 91072102,
+    "direccion": "CARRERA 53 No 153 - 84  INTERIOR 5 APARTAMENTO  204",
+    "email": "alfonso.mojica@sumatronicltda.com"
+  },
+  "numero": 339,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50858360,
+  "llaveProceso": "11001400305620170119500",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": null,
+    "capitalAdeudado": "36069.195",
+    "entregagarantiasAbogado": "2017-11-09T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 53392043,
+      "2": "530092506 /530092671"
+    },
+    "radicado": "2017 - 01195",
+    "vencimientoPagare": "2021-04-20T00:00:00.000Z",
+    "expediente": "11001400305620170119500",
+    "juzgados": [
+      {
+        "id": 6,
+        "tipo": "JUZGADO 006 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-06-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

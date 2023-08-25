@@ -1,1 +1,44 @@
-{"category":"Reintegra","deudor":{"tel":{"fijo":5642974,"celular":3218180993},"primerNombre":"GUILLERMO","primerApellido":"GONZALEZ","segundoApellido":"TAGUA","cedula":12254068,"direccion":"CARRERA 30 No.68 J-08 SUR","email":"guillermogonzalez_tagua@hotmail.com"},"numero":179,"tipoProceso":"SINGULAR","idProceso":50760030,"llaveProceso":"11001400301120170108400","categoryTag":2,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"12.687.427,00 COP","entregagarantiasAbogado":"2017-08-01T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-07-21T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":5670085162,"2":"N/A"},"radicado":"2017 - 01084","vencimientoPagare":"2019-11-02T00:00:00.000Z","expediente":"11001400301120170108400","juzgados":[{"id":2,"tipo":"JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "category": "Reintegra",
+  "deudor": {
+    "tel": {
+      "fijo": 5642974,
+      "celular": 3218180993
+    },
+    "primerNombre": "GUILLERMO",
+    "primerApellido": "GONZALEZ",
+    "segundoApellido": "TAGUA",
+    "cedula": 12254068,
+    "direccion": "CARRERA 30 No.68 J-08 SUR",
+    "email": "guillermogonzalez_tagua@hotmail.com"
+  },
+  "numero": 179,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50760030,
+  "llaveProceso": "11001400301120170108400",
+  "categoryTag": 2,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "12687.427",
+    "entregagarantiasAbogado": "2017-08-01T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-07-21T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 5670085162, "2": "N/A" },
+    "radicado": "2017 - 01084",
+    "vencimientoPagare": "2019-11-02T00:00:00.000Z",
+    "expediente": "11001400301120170108400",
+    "juzgados": [
+      {
+        "id": 2,
+        "tipo": "JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

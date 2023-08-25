@@ -1,1 +1,42 @@
-{"category":"Terminados","deudor":{"tel":{"celular":3144113614},"primerNombre":"SANDRA","segundoNombre":"PATRICIA","primerApellido":"SUAREZ","segundoApellido":"GALVIS","cedula":66841096,"direccion":"CARRERA 22 No. 161-26 PISO 2","email":"sansuarez.ga@gmail.com"},"numero":66,"tipoProceso":"PRENDARIO","idProceso":50593320,"llaveProceso":"11001400301920170070200","categoryTag":5,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":12845011,"entregagarantiasAbogado":"2017-06-12T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-07-21T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":12525003,"2":""},"radicado":"2017 - 00702","vencimientoPagare":"2018-10-08T00:00:00.000Z","expediente":"11001400301920170070200","juzgados":[{"id":19,"tipo":"JUZGADO 019 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-19-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": { "celular": 3144113614 },
+    "primerNombre": "SANDRA",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "SUAREZ",
+    "segundoApellido": "GALVIS",
+    "cedula": 66841096,
+    "direccion": "CARRERA 22 No. 161-26 PISO 2",
+    "email": "sansuarez.ga@gmail.com"
+  },
+  "numero": 66,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 50593320,
+  "llaveProceso": "11001400301920170070200",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 12845011,
+    "entregagarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-07-21T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 12525003, "2": "" },
+    "radicado": "2017 - 00702",
+    "vencimientoPagare": "2018-10-08T00:00:00.000Z",
+    "expediente": "11001400301920170070200",
+    "juzgados": [
+      {
+        "id": 19,
+        "tipo": "JUZGADO 019 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-19-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

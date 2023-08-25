@@ -1,1 +1,38 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"19.188.290,43 COP","entregagarantiasAbogado":"2023-07-26T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":1000094307,"2":"N/A"},"radicado":"","vencimientoPagare":"2027-08-02T00:00:00.000Z","expediente":"","juzgados":[]},"category":"Bancolombia","categoryTag":1,"deudor":{"tel":{"fijo":7766244,"celular":3144005060},"primerNombre":"WILSON","segundoNombre":"DE","primerApellido":"JESUS","segundoApellido":"MOLINA QUIRAMA","cedula":94254761,"direccion":"Calle 71 F No. 78 C - 50 Sur","email":"wilsonmolina16@hotmail.com"},"numero":567,"llaveProceso":"","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "19188.290",
+    "entregagarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 1000094307, "2": "N/A" },
+    "radicado": "",
+    "vencimientoPagare": "2027-08-02T00:00:00.000Z",
+    "expediente": "",
+    "juzgados": []
+  },
+  "category": "Bancolombia",
+  "categoryTag": 1,
+  "deudor": {
+    "tel": {
+      "fijo": 7766244,
+      "celular": 3144005060
+    },
+    "primerNombre": "WILSON",
+    "segundoNombre": "DE",
+    "primerApellido": "JESUS",
+    "segundoApellido": "MOLINA QUIRAMA",
+    "cedula": 94254761,
+    "direccion": "Calle 71 F No. 78 C - 50 Sur",
+    "email": "wilsonmolina16@hotmail.com"
+  },
+  "numero": 567,
+  "llaveProceso": "",
+  "tipoProceso": "SINGULAR"
+}

@@ -1,1 +1,42 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"ERIK","segundoNombre":"RICARDO","primerApellido":"PINTO","segundoApellido":"RODRIGUEZ","cedula":80865782,"direccion":"","email":"CALLE 64 C No 105 D- 36 PISO 3"},"numero":513,"tipoProceso":"SINGULAR","idProceso":65707550,"llaveProceso":"11001400304420190016500","categoryTag":5,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"07/11/2018","entregagarantiasAbogado":null,"etapaProcesal":"01/02/2019","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":"","2":"40.290.738"},"radicado":"2019 - 00165","vencimientoPagare":null,"expediente":"11001400304420190016500","juzgados":[{"id":11,"tipo":"JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ERIK",
+    "segundoNombre": "RICARDO",
+    "primerApellido": "PINTO",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": 80865782,
+    "direccion": "",
+    "email": "CALLE 64 C No 105 D- 36 PISO 3"
+  },
+  "numero": 513,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 65707550,
+  "llaveProceso": "11001400304420190016500",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "07/11/2018",
+    "entregagarantiasAbogado": null,
+    "etapaProcesal": "01/02/2019",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "1": "", "2": "40.290.738" },
+    "radicado": "2019 - 00165",
+    "vencimientoPagare": null,
+    "expediente": "11001400304420190016500",
+    "juzgados": [
+      {
+        "id": 11,
+        "tipo": "JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

@@ -1,1 +1,47 @@
-{"category":"Reintegra","deudor":{"tel":{},"primerNombre":"OMAR","segundoNombre":"DARIO","primerApellido":"ZEA","segundoApellido":"GALVIS","cedula":3197274,"direccion":"CL 14 No. 10 - 45 Bucaramanga","email":"N/A"},"numero":25,"tipoProceso":"PRENDARIO","idProceso":80553011,"llaveProceso":"11001310301120170033500","categoryTag":2,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"107.818.114,00 COP","entregagarantiasAbogado":"2017-05-19T00:00:00.000Z","etapaProcesal":"EJECUCIÓN ","fechaPresentacion":"2017-05-30T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":12705806,"2":"N/A"},"radicado":"2017 - 00335","vencimientoPagare":"2020-05-10T00:00:00.000Z","expediente":"11001310301120170033500","juzgados":[{"id":11,"tipo":"JUZGADO 011 CIVIL DEL CIRCUITO DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-011-civil-del-circuito-de-bogota"},{"id":1,"tipo":"JUZGADO 001 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-del-circuito-de-bogota"}]}}
+{
+  "category": "Reintegra",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "OMAR",
+    "segundoNombre": "DARIO",
+    "primerApellido": "ZEA",
+    "segundoApellido": "GALVIS",
+    "cedula": 3197274,
+    "direccion": "CL 14 No. 10 - 45 Bucaramanga",
+    "email": "N/A"
+  },
+  "numero": 25,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 80553011,
+  "llaveProceso": "11001310301120170033500",
+  "categoryTag": 2,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "107818.114",
+    "entregagarantiasAbogado": "2017-05-19T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN ",
+    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 12705806, "2": "N/A" },
+    "radicado": "2017 - 00335",
+    "vencimientoPagare": "2020-05-10T00:00:00.000Z",
+    "expediente": "11001310301120170033500",
+    "juzgados": [
+      {
+        "id": 11,
+        "tipo": "JUZGADO 011 CIVIL DEL CIRCUITO DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-011-civil-del-circuito-de-bogota"
+      },
+      {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-del-circuito-de-bogota"
+      }
+    ]
+  }
+}

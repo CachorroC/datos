@@ -1,1 +1,32 @@
-{"demanda":{"departamento":null,"capitalAdeudado":"17.635.164.44","entregagarantiasAbogado":"2017-09-06T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":null,"municipio":"ANAPOIMA","obligacion":{"1":"377815356092904//45130711799741999","2":5303714068687853},"radicado":"2017 - 00173","vencimientoPagare":"2017-03-20T00:00:00.000Z","expediente":"25035418900120170017300","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"celular":3115221604},"primerNombre":"DIONISIO","primerApellido":"LANCHEROS","segundoApellido":"NOVOA","cedula":179290,"direccion":"CALLE 5 No  0-19 ANAPOIMA","email":"dlancheros92@hotmail.com"},"numero":247,"llaveProceso":"25035418900120170017300","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": null,
+    "capitalAdeudado": "17635.164.44",
+    "entregagarantiasAbogado": "2017-09-06T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": null,
+    "municipio": "ANAPOIMA",
+    "obligacion": {
+      "1": "377815356092904//45130711799741999",
+      "2": 5303714068687853
+    },
+    "radicado": "2017 - 00173",
+    "vencimientoPagare": "2017-03-20T00:00:00.000Z",
+    "expediente": "25035418900120170017300",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "celular": 3115221604 },
+    "primerNombre": "DIONISIO",
+    "primerApellido": "LANCHEROS",
+    "segundoApellido": "NOVOA",
+    "cedula": 179290,
+    "direccion": "CALLE 5 No  0-19 ANAPOIMA",
+    "email": "dlancheros92@hotmail.com"
+  },
+  "numero": 247,
+  "llaveProceso": "25035418900120170017300",
+  "tipoProceso": "SINGULAR"
+}

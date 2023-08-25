@@ -1,1 +1,42 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"YURI","segundoNombre":"ANDREA","primerApellido":"GONZALEZ","segundoApellido":"TORRES","cedula":53094561,"direccion":"CARRERA 87 K No 70-44 SUR","email":"yurisita_05@hotmail.com"},"numero":366,"tipoProceso":"HIPOTECARIO","idProceso":50925430,"llaveProceso":"11001400300920170136100","categoryTag":5,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"19.041.643,20 COP","entregagarantiasAbogado":"2017-11-12T05:00:00.000Z","etapaProcesal":"1.100140030092017e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":134032,"2":"N/A"},"radicado":"2017 - 01361","vencimientoPagare":null,"expediente":"11001400300920170136100","juzgados":[{"id":4,"tipo":"JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-04-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "YURI",
+    "segundoNombre": "ANDREA",
+    "primerApellido": "GONZALEZ",
+    "segundoApellido": "TORRES",
+    "cedula": 53094561,
+    "direccion": "CARRERA 87 K No 70-44 SUR",
+    "email": "yurisita_05@hotmail.com"
+  },
+  "numero": 366,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50925430,
+  "llaveProceso": "11001400300920170136100",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "19041.643",
+    "entregagarantiasAbogado": "2017-11-12T05:00:00.000Z",
+    "etapaProcesal": "1.100140030092017e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 134032, "2": "N/A" },
+    "radicado": "2017 - 01361",
+    "vencimientoPagare": null,
+    "expediente": "11001400300920170136100",
+    "juzgados": [
+      {
+        "id": 4,
+        "tipo": "JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-04-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

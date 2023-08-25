@@ -1,1 +1,45 @@
-{"category":"Terminados","deudor":{"tel":{"fijo":2287430,"celular":3107584138},"primerNombre":"REINALDO","segundoNombre":"ADRIAN","primerApellido":"MELENDEZ","segundoApellido":" VARON","cedula":10180062,"direccion":"AVENIDA CALLE 153 No 119 -40 INTERIOR 1 CASA 17 BOSQUES DE CAMINO VERDE AGRUPACION 2","email":"reinaldomelen@hotmail.com"},"numero":329,"tipoProceso":"HIPOTECARIO","idProceso":65614470,"llaveProceso":"11001400308520170159600","categoryTag":5,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"13.537.827,69 COP","entregagarantiasAbogado":"2017-11-01T00:00:00.000Z","etapaProcesal":"1.1001400308520171e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":79669,"2":"N/A"},"radicado":"2017 - 01596","vencimientoPagare":"2020-02-11T00:00:00.000Z","expediente":"11001400308520170159600","juzgados":[{"id":5,"tipo":"JUZGADO 005 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-05-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": 2287430,
+      "celular": 3107584138
+    },
+    "primerNombre": "REINALDO",
+    "segundoNombre": "ADRIAN",
+    "primerApellido": "MELENDEZ",
+    "segundoApellido": " VARON",
+    "cedula": 10180062,
+    "direccion": "AVENIDA CALLE 153 No 119 -40 INTERIOR 1 CASA 17 BOSQUES DE CAMINO VERDE AGRUPACION 2",
+    "email": "reinaldomelen@hotmail.com"
+  },
+  "numero": 329,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 65614470,
+  "llaveProceso": "11001400308520170159600",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "13537.827",
+    "entregagarantiasAbogado": "2017-11-01T00:00:00.000Z",
+    "etapaProcesal": "1.1001400308520171e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 79669, "2": "N/A" },
+    "radicado": "2017 - 01596",
+    "vencimientoPagare": "2020-02-11T00:00:00.000Z",
+    "expediente": "11001400308520170159600",
+    "juzgados": [
+      {
+        "id": 5,
+        "tipo": "JUZGADO 005 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-05-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

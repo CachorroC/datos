@@ -1,1 +1,45 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"INGRID","segundoNombre":"CATHERINE","primerApellido":"TAPIAS","segundoApellido":"RICO","cedula":1024479982,"direccion":"","email":"CALLE 61 SUR No 20 D-60 INT11  APTO 501"},"numero":415,"tipoProceso":"HIPOTECARIO","idProceso":9342243,"llaveProceso":"11001400304320180047400","categoryTag":5,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"43.208,00 COP","entregagarantiasAbogado":null,"etapaProcesal":"43217","fechaPresentacion":"2018-06-13T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":5303710076309980,"2":"33,785,911,61"},"radicado":"2018 - 00474","vencimientoPagare":null,"expediente":"11001400304320180047400","juzgados":[{"id":43,"tipo":"JUZGADO 043 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-43-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "INGRID",
+    "segundoNombre": "CATHERINE",
+    "primerApellido": "TAPIAS",
+    "segundoApellido": "RICO",
+    "cedula": 1024479982,
+    "direccion": "",
+    "email": "CALLE 61 SUR No 20 D-60 INT11  APTO 501"
+  },
+  "numero": 415,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 9342243,
+  "llaveProceso": "11001400304320180047400",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "43208",
+    "entregagarantiasAbogado": null,
+    "etapaProcesal": "43217",
+    "fechaPresentacion": "2018-06-13T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 5303710076309980,
+      "2": "33,785,911,61"
+    },
+    "radicado": "2018 - 00474",
+    "vencimientoPagare": null,
+    "expediente": "11001400304320180047400",
+    "juzgados": [
+      {
+        "id": 43,
+        "tipo": "JUZGADO 043 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-43-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

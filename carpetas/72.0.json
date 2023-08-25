@@ -1,1 +1,42 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"NESTOR","segundoNombre":"FABIAN","primerApellido":"ESPITIA","segundoApellido":"FRAILE","cedula":1030545462,"direccion":"CARRERA 88 # 26 - 68","email":"1988fac@gmail.com"},"numero":72,"tipoProceso":"PRENDARIO","idProceso":50880040,"llaveProceso":"11001400306020170124100","categoryTag":5,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"","entregagarantiasAbogado":"2017-09-12T00:00:00.000Z","etapaProcesal":"SENTENCIA","fechaPresentacion":"2017-06-16T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":2474005,"2":""},"radicado":"2017 - 01241","vencimientoPagare":"2017-06-07T00:00:00.000Z","expediente":"11001400306020170124100","juzgados":[{"id":60,"tipo":"JUZGADO 060 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-060-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "NESTOR",
+    "segundoNombre": "FABIAN",
+    "primerApellido": "ESPITIA",
+    "segundoApellido": "FRAILE",
+    "cedula": 1030545462,
+    "direccion": "CARRERA 88 # 26 - 68",
+    "email": "1988fac@gmail.com"
+  },
+  "numero": 72,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 50880040,
+  "llaveProceso": "11001400306020170124100",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "",
+    "entregagarantiasAbogado": "2017-09-12T00:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-06-16T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 2474005, "2": "" },
+    "radicado": "2017 - 01241",
+    "vencimientoPagare": "2017-06-07T00:00:00.000Z",
+    "expediente": "11001400306020170124100",
+    "juzgados": [
+      {
+        "id": 60,
+        "tipo": "JUZGADO 060 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-060-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}
