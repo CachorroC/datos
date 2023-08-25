@@ -1,11 +1,10 @@
-import { sleep } from '../procesos';
 import Carpetas from './carpetas';
 import fetchProcesos, { fetchP } from './procesos';
 import * as fs from 'fs/promises';
 
 export const idProcesos = Carpetas.map(
   (
-    carpeta
+    carpeta 
   ) => {
     return {
       idProceso: carpeta.idProceso,
@@ -14,9 +13,9 @@ export const idProcesos = Carpetas.map(
   }
 );
 
-export const llavesProceso =   Carpetas.map(
+export const llavesProceso = Carpetas.map(
   (
-    carpeta
+    carpeta 
   ) => {
     return {
       llaveProceso: carpeta.llaveProceso,
@@ -25,19 +24,16 @@ export const llavesProceso =   Carpetas.map(
   }
 );
 
-
-export async function getProcesosbyLLaveProceso () {
-  const procesosMap: Map<number, fetchP> = new Map();
+export async function getProcesosbyLLaveProceso() {
+  const procesosMap: Map<number, fetchP>
+    = new Map();
 
   const llavesLength = llavesProceso.length;
   console.log(
-    `hay ${ llavesLength } llaves`
+    `hay ${ llavesLength } llaves` 
   );
-
+  /*
   for ( const llave of llavesProceso ) {
-    const {
-      llaveProceso, _id
-    } = llave;
 
     const indexOf = llavesProceso.indexOf(
       llave
@@ -45,7 +41,7 @@ export async function getProcesosbyLLaveProceso () {
     console.log(
       indexOf
     );
-    console.time(
+       console.time(
       indexOf.toString()
     );
     await sleep(
@@ -56,7 +52,7 @@ export async function getProcesosbyLLaveProceso () {
     );
 
     const procesos= await fetchProcesos(
-      llaveProceso, _id
+      llave.llaveProceso, indexOf, llave._id
     );
     procesosMap.set(
       indexOf, procesos
@@ -68,9 +64,25 @@ export async function getProcesosbyLLaveProceso () {
   const procesosArray = Array.from(
     procesosMap.values()
   );
+  */
+
+  const procesosArray = llavesProceso.map(
+    async (
+      llave, index 
+    ) => {
+      const procesos = await fetchProcesos(
+        llave.llaveProceso,
+        index,
+        llave._id
+      );
+
+      return procesos;
+    }
+  );
   fs.writeFile(
-    'procesosbyid.json', JSON.stringify(
-      procesosArray
+    'procesosbyidsleepInfetch.json',
+    JSON.stringify(
+      procesosArray 
     )
   );
 

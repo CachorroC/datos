@@ -16,6 +16,7 @@ export interface IntCarpetaRaw {
 export interface IntCarpeta {
   llaveProceso?: string;
   category: Category;
+  categoryTag: number;
   demanda: IntDemanda;
   deudor: IntDeudor;
   numero: number;
@@ -76,12 +77,12 @@ export interface IntDeudor {
 }
 
 export interface IntTel {
-  fijo?: number[];
-  celular?: number[];
+  fijo?: number;
+  celular?: number;
 }
 
 export interface IntDemanda {
-  capitalAdeudado: number;
+  capitalAdeudado: number | string;
   departamento: {
     idCatalogoDetalle: number;
     idCatalogoDetallePadre: number;

@@ -3,7 +3,7 @@ import { DemandaRaw,
          IntCarpeta,
          Juzgado } from '../types/carpetas';
 import { IntDepartamentos } from '../types/rama-judicial';
-import Carpetas from '../data/carpetas';
+import Carpetas from '../data/carpetas-raw';
 import fetchProceso, { sleep } from '../procesos';
 import { Despachos } from '../despachos';
 import { Deudor } from './deudor';
@@ -684,35 +684,35 @@ export function newJuzgado(
 
   for ( const proceso of procesos ) {
     const indexOf = procesos.indexOf(
-      proceso 
+      proceso
     );
 
     const matchedDespacho = Despachos.find(
       (
-        despacho 
+        despacho
       ) => {
         const nDesp = despacho.nombre
               .toLowerCase()
               .normalize(
-                'NFD' 
+                'NFD'
               )
               .replace(
-                /\p{Diacritic}/gu, '' 
+                /\p{Diacritic}/gu, ''
               )
               .trim();
 
         const pDesp = proceso.despacho
               .toLowerCase()
               .normalize(
-                'NFD' 
+                'NFD'
               )
               .replace(
-                /\p{Diacritic}/gu, '' 
+                /\p{Diacritic}/gu, ''
               )
               .trim();
 
         const indexOfDesp = nDesp.indexOf(
-          pDesp 
+          pDesp
         );
 
         if ( indexOfDesp >= 0 ) {
@@ -730,11 +730,11 @@ export function newJuzgado(
       : proceso.despacho;
 
     const matchedId = nameN.match(
-      /\d+/g 
+      /\d+/g
     );
 
     const newId = Number(
-      matchedId?.toString() 
+      matchedId?.toString()
     );
 
     const newJuzgado: Juzgado = {
@@ -746,17 +746,17 @@ export function newJuzgado(
         ? `https://www.ramajudicial.gov.co${ matchedDespacho.url }`
         : `https://www.ramajudicial.gov.co${ proceso.despacho
               .replaceAll(
-                ' ', '-' 
+                ' ', '-'
               )
               .toLowerCase() }`
     };
     juzgados.set(
-      indexOf, newJuzgado 
+      indexOf, newJuzgado
     );
   }
 
   return Array.from(
-    juzgados.values() 
+    juzgados.values()
   );
 }
 
@@ -767,7 +767,7 @@ function setDepartamento(
 
   const filterDeptos = deptos.find(
     (
-      dpt 
+      dpt
     ) => {
       const stringDepto = dpt.descripcion;
 
@@ -775,7 +775,7 @@ function setDepartamento(
         stringDepto.toLowerCase()
       === departamento.toLowerCase()
       );
-    } 
+    }
   );
 
   if ( filterDeptos ) {
@@ -811,11 +811,9 @@ export class Demanda {
       obligacion,
       radicado,
       vencimientoPagare
-    }: DemandaRaw 
+    }: DemandaRaw
   ) {
-    this.capitalAdeudado = Number(
-      capitalAdeudado
-    );
+    this.capitalAdeudado = capitalAdeudado;
     this.entregagarantiasAbogado = new Date(
       entregagarantiasAbogado
     );
@@ -832,10 +830,10 @@ export class Demanda {
     );
     this.departamento
       = setDepartamento(
-        departamento 
+        departamento
       );
   }
-  capitalAdeudado: number;
+  capitalAdeudado: number | string;
   entregagarantiasAbogado: Date;
   etapaProcesal?: string;
   fechaPresentacion?: Date;
@@ -850,11 +848,7 @@ async function createCarpetasDemanda() {
   const newCarpetas = new Set<IntCarpeta>();
 
   for ( const carpeta of Carpetas ) {
-    const index = Carpetas.indexOf(
-      carpeta 
-    );
-
-    const awaitTime = 1000;
+    const awaitTime = 200;
 
     const now = new Date()
           .getTime();
@@ -869,14 +863,14 @@ async function createCarpetasDemanda() {
               hour  : 'numeric',
               minute: 'numeric',
               hour12: true
-            } 
+            }
           );
     console.log(
       `estará listo a las ${ outputTime }`
     );
 
     await sleep(
-      awaitTime 
+      awaitTime
     );
     console.log(
       `carpetas has a length of ${ Carpetas.length } and you are in carpeta number ${ carpeta.numero }`
@@ -886,7 +880,7 @@ async function createCarpetasDemanda() {
       {
         llaveProceso:
         carpeta.llaveProceso.toString()
-      } 
+      }
     );
 
     const newDemanda = new Demanda(
@@ -894,46 +888,57 @@ async function createCarpetasDemanda() {
     );
 
     const newDeudor = new Deudor(
-      carpeta.deudor 
+      carpeta.deudor
     );
     console.log(
-      newDeudor.tel.celular 
+      newDeudor.tel.celular
     );
+
+    const categories = [
+      'Bancolombia',
+      'Reintegra',
+      'LiosJuridicos',
+      'Irrecuperables',
+      'Terminados'
+    ];
 
     if ( RequestProcesos.length > 0 ) {
       for ( const proceso of RequestProcesos ) {
         const indexOf
           = RequestProcesos.indexOf(
-            proceso 
+            proceso
           );
 
         const juzgados = newJuzgado(
           RequestProcesos
         );
 
+
+
         const newCarpeta: IntCarpeta = {
+          category    : carpeta.category,
+          deudor      : newDeudor,
+          numero      : carpeta.numero,
+          tipoProceso : carpeta.tipoProceso,
+          idProceso   : proceso.idProceso,
+          llaveProceso: carpeta.llaveProceso.toString(),
+          categoryTag : categories.indexOf(
+            carpeta.category
+          ),
           demanda: {
             ...newDemanda,
-            expediente:
-              carpeta.llaveProceso.toString(),
-            juzgados: juzgados
+            expediente: carpeta.llaveProceso.toString(),
+            juzgados  : juzgados
           },
-          category: carpeta.category,
-          deudor  : newDeudor,
-          numero  : carpeta.numero,
-          llaveProceso:
-            carpeta.llaveProceso.toString(),
-          tipoProceso: carpeta.tipoProceso,
-          idProceso  : proceso.idProceso
         };
         fs.writeFile(
           `carpetas/${ newCarpeta.numero }.${ indexOf }.json`,
           JSON.stringify(
-            newCarpeta 
+            newCarpeta
           )
         );
         newCarpetas.add(
-          newCarpeta 
+          newCarpeta
         );
 
         continue;
@@ -948,36 +953,38 @@ async function createCarpetasDemanda() {
             carpeta.llaveProceso.toString(),
           juzgados: juzgados
         },
-        category: carpeta.category,
-        deudor  : newDeudor,
-        numero  : carpeta.numero,
+        category   : carpeta.category,
+        categoryTag: categories.indexOf(
+          carpeta.category
+        ),
+        deudor: newDeudor,
+        numero: carpeta.numero,
         llaveProceso:
           carpeta.llaveProceso.toString(),
-        tipoProceso: carpeta.tipoProceso,
-        idProceso  : 1
+        tipoProceso: carpeta.tipoProceso
       };
       fs.writeFile(
         `carpetas/${ newCarpeta.numero }.json`,
         JSON.stringify(
-          newCarpeta 
+          newCarpeta
         )
       );
       newCarpetas.add(
-        newCarpeta 
+        newCarpeta
       );
     }
   }
 
   const newCarpetasArray
     = Array.from(
-      newCarpetas 
+      newCarpetas
     );
 
   const insertCarpetas = await insertNewCarpetas(
     newCarpetasArray
   );
   console.log(
-    insertCarpetas 
+    insertCarpetas
   );
 
   return newCarpetasArray;
@@ -987,36 +994,36 @@ console.log(
   createCarpetasDemanda()
         .then(
           (
-            ff 
+            ff
           ) => {
             fs.writeFile(
               'newCarpetasFinal.json',
               JSON.stringify(
-                ff 
+                ff
               )
             );
 
             return console.log(
-              ff 
+              ff
             );
           },
           (
-            rr 
+            rr
           ) => {
             return console.log(
-              rr 
+              rr
             );
           }
         )
         .catch(
           (
-            err 
+            err
           ) => {
             return console.log(
               JSON.stringify(
-                err 
-              ) 
+                err
+              )
             );
-          } 
+          }
         )
 );

@@ -6,10 +6,10 @@ export async function fetchCarpetas() {
       'https://app.rsasesorjuridico.com/api/Carpetas'
     );
     console.log(
-      request.status
+      request.status 
     );
     console.log(
-      request.headers
+      request.headers 
     );
 
     if ( !request.ok ) {
@@ -21,7 +21,7 @@ export async function fetchCarpetas() {
     const json = await request.text();
 
     const carpetas = Convert.toIntCarpetas(
-      json
+      json 
     );
 
     return carpetas;
@@ -33,7 +33,7 @@ export async function fetchCarpetas() {
         );
       }
       console.log(
-        `${ e }`
+        `${ e }` 
       );
 
       return null;
@@ -44,10 +44,10 @@ export async function fetchCarpetas() {
 fetchCarpetas()
       .then(
         (
-          ff
+          ff 
         ) => {
           return console.log(
-            ff
+            ff 
           );
-        }
+        } 
       );

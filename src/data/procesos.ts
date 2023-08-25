@@ -1,19 +1,32 @@
+import { sleep } from '../procesos';
 import { intConsultaNumeroRadicacion } from '../types/procesos';
 
-export interface fetchP
-{
+export interface fetchP {
   llaveProceso: string;
   _id: string;
-  res: intConsultaNumeroRadicacion | null
+  res: intConsultaNumeroRadicacion | null;
 }
 
-export default async function fetchProcesos (
-  llaveProceso: string,  _id: string = 'unknown'
-){
-  try   {
+export default async function fetchProcesos(
+  llaveProceso: string,
+  index: number = 1,
+  _id: string = 'unknown'
+) {
+  const awaitTime = index * 1000;
+  console.time(
+    index.toString() 
+  );
+  await sleep(
+    awaitTime 
+  );
+  console.timeEnd(
+    index.toString() 
+  );
+
+  try {
     if (
       llaveProceso.length < 23
-    || llaveProceso === 'sin especificar'
+      || llaveProceso === 'sin especificar'
     ) {
       throw new Error(
         `la llaveProceso es menor de 23: ${ llaveProceso }`
@@ -28,7 +41,6 @@ export default async function fetchProcesos (
       throw new Error(
         `la peticion de procesos salió erronea, registra: ${ req.status }: ${ req.statusText }`
       );
-
     }
 
     const res
@@ -48,7 +60,7 @@ export default async function fetchProcesos (
       );
     }
     console.log(
-      `${ e }`
+      `${ e }` 
     );
 
     const response: fetchP = {
@@ -58,6 +70,5 @@ export default async function fetchProcesos (
     };
 
     return response;
-
   }
 }

@@ -1,4 +1,5 @@
 import { MongoClient } from 'mongodb';
+import { IntCarpeta } from './types/carpetas';
 
 const uri
   = 'mongodb+srv://cachorro_cami:Tengo1amo@cluster0.ffbyjzl.mongodb.net/?retryWrites=true&w=majority';
@@ -26,10 +27,18 @@ export const carpetasCollection = async () => {
   return carpetas;
 };
 
-export const idProcesos = Carpetas.map(
-  (
-    carpeta 
-  ) => {
-    return carpeta.idProceso;
-  }
-);
+export async function insertNewCarpetas(
+  carpetas: IntCarpeta[]
+) {
+  const collection = await carpetasCollection();
+
+  const insertManyCarpetas
+    = await collection.insertMany(
+      carpetas 
+    );
+  console.log(
+    insertManyCarpetas.insertedCount 
+  );
+
+  return insertManyCarpetas.acknowledged;
+}
