@@ -895,10 +895,11 @@ async function createCarpetasDemanda() {
     );
 
     const categories = [
+      'nn',
       'Bancolombia',
       'Reintegra',
       'LiosJuridicos',
-      'Irrecuperables',
+      'Insolvencia',
       'Terminados'
     ];
 
