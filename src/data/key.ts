@@ -35,9 +35,14 @@ export async function getProcesosbyLLaveProceso() {
 
   const noerrores: unknown[] = [];
 
-  for ( const {
-    idProceso
-  } of idProcesos ) {
+  for ( const proceso of idProcesos ) {
+    const {
+      idProceso
+    } = proceso;
+
+    const indexOf = idProcesos.indexOf(
+      proceso
+    );
 
     try {
       const request = await fetch(
@@ -46,8 +51,8 @@ export async function getProcesosbyLLaveProceso() {
 
       if ( !request.ok ) {
         fs.writeFile(
-          `carpetas/${ idProceso }notok.json`, JSON.stringify(
-            request.headers
+          `carpetas/${ indexOf }notok.json`, JSON.stringify(
+            request.statusText + request.status
           )
         );
         errores.push(
@@ -55,7 +60,7 @@ export async function getProcesosbyLLaveProceso() {
         );
 
         throw new Error(
-          `idProceso: ${ idProceso }
+          `index: ${ indexOf }
             status: ${ request.status }
             statustext: ${ request.statusText }`
         );
@@ -64,7 +69,7 @@ export async function getProcesosbyLLaveProceso() {
 
       const json = await request.json();
       fs.writeFile(
-        `carpetas/${ idProceso }.json`, JSON.stringify(
+        `carpetas/${ indexOf }.json`, JSON.stringify(
           json
         )
       );
@@ -75,7 +80,7 @@ export async function getProcesosbyLLaveProceso() {
 
     } catch ( error ) {
       fs.writeFile(
-        `carpetas/${ idProceso }error.json`, JSON.stringify(
+        `carpetas/${ indexOf }error.json`, JSON.stringify(
           error
         )
       );
