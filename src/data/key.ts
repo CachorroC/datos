@@ -60,9 +60,7 @@ export async function getProcesosbyLLaveProceso() {
         );
 
         throw new Error(
-          `index: ${ indexOf }
-            status: ${ request.status }
-            statustext: ${ request.statusText }`
+          `index: ${ indexOf } status: ${ request.status } statustext: ${ request.statusText }`
         );
 
       }
@@ -79,21 +77,27 @@ export async function getProcesosbyLLaveProceso() {
 
 
     } catch ( error ) {
-      fs.writeFile(
-        `carpetas/${ indexOf }error.json`, JSON.stringify(
-          error
-        )
-      );
       errores.push(
         error
       );
 
       if ( error instanceof Error ) {
+
+        fs.writeFile(
+          `carpetas/${ indexOf }instanceOfError.json`, JSON.stringify(
+            error.message
+          )
+        );
         console.log(
           `${ idProceso }: error en la conexion network del fetchActuaciones => ${ error.name } : ${ error.message }`
         );
 
       }
+      fs.writeFile(
+        `carpetas/${ indexOf }error.json`, JSON.stringify(
+          error
+        )
+      );
       console.log(
         `${ idProceso }: : error en la conexion network del fetchActuaciones  =>  ${ error }`
       );
