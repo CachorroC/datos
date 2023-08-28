@@ -1,9 +1,7 @@
-import {
-  DemandaRaw,
-  DepartamentoRaw,
-  IntCarpeta,
-  Juzgado
-} from '../types/carpetas';
+import { DemandaRaw,
+         DepartamentoRaw,
+         IntCarpeta,
+         Juzgado } from '../types/carpetas';
 import { IntDepartamentos } from '../types/rama-judicial';
 import Carpetas from '../data/carpetas-raw';
 import fetchProceso, { sleep } from '../procesos';
@@ -14,666 +12,666 @@ import { intProceso } from '../types/procesos';
 import { insertNewCarpetas } from '..';
 
 const Departamentos: IntDepartamentos = {
-  data: false,
+  data  : false,
   result: [
     {
-      idCatalogoDetalle: 31,
-      descripcion: 'AMAZONAS',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '91',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 31,
+      descripcion               : 'AMAZONAS',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '91',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 2,
-      descripcion: 'ANTIOQUIA',
-      valor: 'gruizh@deaj.ramajudicial.gov.co',
-      codigo: '05',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 2,
+      descripcion               : 'ANTIOQUIA',
+      valor                     : 'gruizh@deaj.ramajudicial.gov.co',
+      codigo                    : '05',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 27,
-      descripcion: 'ARAUCA',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '81',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 27,
+      descripcion               : 'ARAUCA',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '81',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 4,
-      descripcion: 'ATLANTICO',
-      valor: ' ',
-      codigo: '08',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 4,
+      descripcion               : 'ATLANTICO',
+      valor                     : ' ',
+      codigo                    : '08',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 5,
-      descripcion: 'BOGOTA',
-      valor: 'gruizh@deaj.ramajudicial.gov.co',
-      codigo: '11',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 5,
+      descripcion               : 'BOGOTA',
+      valor                     : 'gruizh@deaj.ramajudicial.gov.co',
+      codigo                    : '11',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 6,
-      descripcion: 'BOLIVAR',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '13',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 6,
+      descripcion               : 'BOLIVAR',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '13',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 7,
-      descripcion: 'BOYACA',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '15',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 7,
+      descripcion               : 'BOYACA',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '15',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 8,
-      descripcion: 'CALDAS',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '17',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 8,
+      descripcion               : 'CALDAS',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '17',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 9,
-      descripcion: 'CAQUETA',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '18',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 9,
+      descripcion               : 'CAQUETA',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '18',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 28,
-      descripcion: 'CASANARE',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '85',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 28,
+      descripcion               : 'CASANARE',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '85',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 10,
-      descripcion: 'CAUCA',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '19',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 10,
+      descripcion               : 'CAUCA',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '19',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 11,
-      descripcion: 'CESAR',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '20',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 11,
+      descripcion               : 'CESAR',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '20',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 14,
-      descripcion: 'CHOCO',
-      valor: 'gruizh@deaj.ramajudicial.gov.co',
-      codigo: '27',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 14,
+      descripcion               : 'CHOCO',
+      valor                     : 'gruizh@deaj.ramajudicial.gov.co',
+      codigo                    : '27',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 12,
-      descripcion: 'CORDOBA',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '23',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 12,
+      descripcion               : 'CORDOBA',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '23',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 13,
-      descripcion: 'CUNDINAMARCA',
-      valor: ' ',
-      codigo: '25',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 13,
+      descripcion               : 'CUNDINAMARCA',
+      valor                     : ' ',
+      codigo                    : '25',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 32,
-      descripcion: 'GUAINIA',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '94',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 32,
+      descripcion               : 'GUAINIA',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '94',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 33,
-      descripcion: 'GUAVIARE',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '95',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 33,
+      descripcion               : 'GUAVIARE',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '95',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 15,
-      descripcion: 'HUILA',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '41',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 15,
+      descripcion               : 'HUILA',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '41',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 16,
-      descripcion: 'LA GUAJIRA',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '44',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 16,
+      descripcion               : 'LA GUAJIRA',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '44',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 17,
-      descripcion: 'MAGDALENA',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '47',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 17,
+      descripcion               : 'MAGDALENA',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '47',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 18,
-      descripcion: 'META',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '50',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 18,
+      descripcion               : 'META',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '50',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 20,
-      descripcion: 'N. DE SANTANDER',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '54',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 20,
+      descripcion               : 'N. DE SANTANDER',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '54',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 19,
-      descripcion: 'NARI\u00D1O',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '52',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 19,
+      descripcion               : 'NARI\u00D1O',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '52',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 29,
-      descripcion: 'PUTUMAYO',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '86',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 29,
+      descripcion               : 'PUTUMAYO',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '86',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 21,
-      descripcion: 'QUINDIO',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '63',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 21,
+      descripcion               : 'QUINDIO',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '63',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 22,
-      descripcion: 'RISARALDA',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '66',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 22,
+      descripcion               : 'RISARALDA',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '66',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 30,
-      descripcion: 'SAN ANDRES',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '88',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 30,
+      descripcion               : 'SAN ANDRES',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '88',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 23,
-      descripcion: 'SANTANDER',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '68',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 23,
+      descripcion               : 'SANTANDER',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '68',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 24,
-      descripcion: 'SUCRE',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '70',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 24,
+      descripcion               : 'SUCRE',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '70',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 25,
-      descripcion: 'TOLIMA',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '73',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 25,
+      descripcion               : 'TOLIMA',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '73',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 26,
-      descripcion: 'VALLE DEL CAUCA',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '76',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 26,
+      descripcion               : 'VALLE DEL CAUCA',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '76',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 34,
-      descripcion: 'VAUPES',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '97',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 34,
+      descripcion               : 'VAUPES',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '97',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     },
     {
-      idCatalogoDetalle: 35,
-      descripcion: 'VICHADA',
-      valor: 'framosg@deaj.ramajudicial.gov.co',
-      codigo: '99',
-      idCatalogoDetallePadre: 1,
-      valor1: null,
-      departamento: null,
-      ciudad: null,
-      idDepartamento: 0,
-      idCiudad: 0,
-      errorxmail: null,
-      lEmail: null,
-      registro: false,
-      idError: 0,
-      textError: null,
-      especialidad: null,
-      paraEspecialidad: null,
+      idCatalogoDetalle         : 35,
+      descripcion               : 'VICHADA',
+      valor                     : 'framosg@deaj.ramajudicial.gov.co',
+      codigo                    : '99',
+      idCatalogoDetallePadre    : 1,
+      valor1                    : null,
+      departamento              : null,
+      ciudad                    : null,
+      idDepartamento            : 0,
+      idCiudad                  : 0,
+      errorxmail                : null,
+      lEmail                    : null,
+      registro                  : false,
+      idError                   : 0,
+      textError                 : null,
+      especialidad              : null,
+      paraEspecialidad          : null,
       confirmarCorreoElectronico: null
     }
   ]
@@ -682,7 +680,7 @@ const Departamentos: IntDepartamentos = {
 function capitalBuilder(
   capitalAdeudado: string | number
 ) {
-  if (typeof capitalAdeudado === 'number') {
+  if ( typeof capitalAdeudado === 'number' ) {
     return capitalAdeudado;
   }
 
@@ -691,8 +689,12 @@ function capitalBuilder(
     ''
   );
 
-  const dotTaker = copTaker.replace('.', '');
-  console.log(dotTaker);
+  const dotTaker = copTaker.replace(
+    '.', ''
+  );
+  console.log(
+    dotTaker
+  );
 
   return dotTaker;
 }
@@ -702,28 +704,42 @@ export function newJuzgado(
 ) {
   const juzgados = new Map<number, Juzgado>();
 
-  for (const proceso of procesos) {
-    const indexOf = procesos.indexOf(proceso);
+  for ( const proceso of procesos ) {
+    const indexOf = procesos.indexOf(
+      proceso
+    );
 
     const matchedDespacho = Despachos.find(
-      (despacho) => {
+      (
+        despacho
+      ) => {
         const nDesp = despacho.nombre
-          .toLowerCase()
-          .normalize('NFD')
-          .replace(/\p{Diacritic}/gu, '')
-          .trim();
+              .toLowerCase()
+              .normalize(
+                'NFD'
+              )
+              .replace(
+                /\p{Diacritic}/gu, ''
+              )
+              .trim();
 
         const pDesp = proceso.despacho
-          .toLowerCase()
-          .normalize('NFD')
-          .replace(/\p{Diacritic}/gu, '')
-          .trim();
+              .toLowerCase()
+              .normalize(
+                'NFD'
+              )
+              .replace(
+                /\p{Diacritic}/gu, ''
+              )
+              .trim();
 
-        const indexOfDesp = nDesp.indexOf(pDesp);
+        const indexOfDesp = nDesp.indexOf(
+          pDesp
+        );
 
-        if (indexOfDesp >= 0) {
+        if ( indexOfDesp >= 0 ) {
           console.log(
-            `procesos despacho is in despachos ${indexOfDesp}`
+            `procesos despacho is in despachos ${ indexOfDesp }`
           );
         }
 
@@ -735,25 +751,35 @@ export function newJuzgado(
       ? matchedDespacho.nombre
       : proceso.despacho;
 
-    const matchedId = nameN.match(/\d+/g);
+    const matchedId = nameN.match(
+      /\d+/g
+    );
 
-    const newId = Number(matchedId?.toString());
+    const newId = Number(
+      matchedId?.toString()
+    );
 
     const newJuzgado: Juzgado = {
-      id: newId ?? 0,
+      id  : newId ?? 0,
       tipo: matchedDespacho
         ? matchedDespacho.nombre
         : proceso.despacho,
       url: matchedDespacho
-        ? `https://www.ramajudicial.gov.co${matchedDespacho.url}`
-        : `https://www.ramajudicial.gov.co${proceso.despacho
-            .replaceAll(' ', '-')
-            .toLowerCase()}`
+        ? `https://www.ramajudicial.gov.co${ matchedDespacho.url }`
+        : `https://www.ramajudicial.gov.co${ proceso.despacho
+              .replaceAll(
+                ' ', '-'
+              )
+              .toLowerCase() }`
     };
-    juzgados.set(indexOf, newJuzgado);
+    juzgados.set(
+      indexOf, newJuzgado
+    );
   }
 
-  return Array.from(juzgados.values());
+  return Array.from(
+    juzgados.values()
+  );
 }
 
 function setDepartamento(
@@ -761,23 +787,27 @@ function setDepartamento(
 ) {
   const deptos = Departamentos.result;
 
-  const filterDeptos = deptos.find((dpt) => {
-    const stringDepto = dpt.descripcion;
+  const filterDeptos = deptos.find(
+    (
+      dpt
+    ) => {
+      const stringDepto = dpt.descripcion;
 
-    return (
-      stringDepto.toLowerCase() ===
-      departamento.toLowerCase()
-    );
-  });
+      return (
+        stringDepto.toLowerCase()
+      === departamento.toLowerCase()
+      );
+    }
+  );
 
-  if (filterDeptos) {
+  if ( filterDeptos ) {
     return {
       idCatalogoDetalle:
         filterDeptos.idCatalogoDetalle,
       idCatalogoDetallePadre:
         filterDeptos.idCatalogoDetallePadre,
       descripcion: filterDeptos.descripcion,
-      codigo: filterDeptos.codigo
+      codigo     : filterDeptos.codigo
     };
   }
 
@@ -792,25 +822,27 @@ export class Demanda {
     codigo: string;
   } | null;
 
-  constructor({
-    capitalAdeudado,
-    departamento,
-    entregagarantiasAbogado,
-    etapaProcesal,
-    fechaPresentacion,
-    municipio,
-    obligacion,
-    radicado,
-    vencimientoPagare
-  }: DemandaRaw) {
+  constructor(
+    {
+      capitalAdeudado,
+      departamento,
+      entregagarantiasAbogado,
+      etapaProcesal,
+      fechaPresentacion,
+      municipio,
+      obligacion,
+      radicado,
+      vencimientoPagare
+    }: DemandaRaw
+  ) {
     this.capitalAdeudado = capitalBuilder(
       capitalAdeudado
     );
     this.entregagarantiasAbogado = new Date(
       entregagarantiasAbogado
     );
-    this.etapaProcesal =
-      etapaProcesal?.toString();
+    this.etapaProcesal
+      = etapaProcesal?.toString();
     this.fechaPresentacion = new Date(
       fechaPresentacion ?? ''
     );
@@ -820,8 +852,10 @@ export class Demanda {
     this.vencimientoPagare = new Date(
       vencimientoPagare
     );
-    this.departamento =
-      setDepartamento(departamento);
+    this.departamento
+      = setDepartamento(
+        departamento
+      );
   }
   capitalAdeudado: number | string;
   entregagarantiasAbogado: Date;
@@ -834,43 +868,57 @@ export class Demanda {
   expediente?: string;
 }
 
-async function createCarpetasDemanda() {
+async function createCarpetasDemanda () {
+  const procesosMap = new Map<number, intProceso>();
+
   const newCarpetas = new Set<IntCarpeta>();
 
-  for (const carpeta of Carpetas) {
+  for ( const carpeta of Carpetas ) {
     const awaitTime = 200;
 
-    const now = new Date().getTime();
+    const now = new Date()
+          .getTime();
 
     const masTarde = now + awaitTime;
 
     const outputTime = new Date(
       masTarde
-    ).toLocaleDateString('es-CO', {
-      hour: 'numeric',
-      minute: 'numeric',
-      hour12: true
-    });
+    )
+          .toLocaleDateString(
+            'es-CO', {
+              hour  : 'numeric',
+              minute: 'numeric',
+              hour12: true
+            }
+          );
     console.log(
-      `estará listo a las ${outputTime}`
+      `estará listo a las ${ outputTime }`
     );
 
-    await sleep(awaitTime);
+    await sleep(
+      awaitTime
+    );
     console.log(
-      `carpetas has a length of ${Carpetas.length} and you are in carpeta number ${carpeta.numero}`
+      `carpetas has a length of ${ Carpetas.length } and you are in carpeta number ${ carpeta.numero }`
     );
 
-    const RequestProcesos = await fetchProceso({
-      llaveProceso:
+    const RequestProcesos = await fetchProceso(
+      {
+        llaveProceso:
         carpeta.llaveProceso.toString()
-    });
+      }
+    );
 
     const newDemanda = new Demanda(
       carpeta.demanda
     );
 
-    const newDeudor = new Deudor(carpeta.deudor);
-    console.log(newDeudor.tel.celular);
+    const newDeudor = new Deudor(
+      carpeta.deudor
+    );
+    console.log(
+      newDeudor.tel.celular
+    );
 
     const categories = [
       'nn',
@@ -881,21 +929,28 @@ async function createCarpetasDemanda() {
       'Terminados'
     ];
 
-    if (RequestProcesos.length > 0) {
-      for (const proceso of RequestProcesos) {
-        const indexOf =
-          RequestProcesos.indexOf(proceso);
+    if ( RequestProcesos.length > 0 ) {
+      for ( const proceso of RequestProcesos ) {
+
+        procesosMap.set(
+          proceso.idProceso, proceso
+        );
+
+        const indexOf
+          = RequestProcesos.indexOf(
+            proceso
+          );
 
         const juzgados = newJuzgado(
           RequestProcesos
         );
 
         const newCarpeta: IntCarpeta = {
-          category: carpeta.category,
-          deudor: newDeudor,
-          numero: carpeta.numero,
+          category   : carpeta.category,
+          deudor     : newDeudor,
+          numero     : carpeta.numero,
           tipoProceso: carpeta.tipoProceso,
-          idProceso: proceso.idProceso,
+          idProceso  : proceso.idProceso,
           llaveProceso:
             carpeta.llaveProceso.toString(),
           categoryTag: categories.indexOf(
@@ -909,14 +964,18 @@ async function createCarpetasDemanda() {
           }
         };
         fs.writeFile(
-          `carpetas/${newCarpeta.numero}.${indexOf}.json`,
-          JSON.stringify(newCarpeta)
+          `carpetas/${ newCarpeta.numero }.${ indexOf }.json`,
+          JSON.stringify(
+            newCarpeta
+          )
         );
-        newCarpetas.add(newCarpeta);
+        newCarpetas.add(
+          newCarpeta
+        );
 
         continue;
       }
-    } else if (RequestProcesos.length === 0) {
+    } else if ( RequestProcesos.length === 0 ) {
       const juzgados: Juzgado[] = [];
 
       const newCarpeta: IntCarpeta = {
@@ -926,7 +985,7 @@ async function createCarpetasDemanda() {
             carpeta.llaveProceso.toString(),
           juzgados: juzgados
         },
-        category: carpeta.category,
+        category   : carpeta.category,
         categoryTag: categories.indexOf(
           carpeta.category
         ),
@@ -937,40 +996,76 @@ async function createCarpetasDemanda() {
         tipoProceso: carpeta.tipoProceso
       };
       fs.writeFile(
-        `carpetas/${newCarpeta.numero}.json`,
-        JSON.stringify(newCarpeta)
+        `carpetas/${ newCarpeta.numero }.json`,
+        JSON.stringify(
+          newCarpeta
+        )
       );
-      newCarpetas.add(newCarpeta);
+      newCarpetas.add(
+        newCarpeta
+      );
     }
   }
 
-  const newCarpetasArray =
-    Array.from(newCarpetas);
+  const newProcesosArray = Array.from(
+    procesosMap.values()
+  );
+
+  fs.writeFile(
+    'procesosData.json', JSON.stringify(
+      newProcesosArray
+    )
+  );
+
+  const newCarpetasArray
+    = Array.from(
+      newCarpetas
+    );
 
   const insertCarpetas = await insertNewCarpetas(
     newCarpetasArray
   );
-  console.log(insertCarpetas);
+  console.log(
+    insertCarpetas
+  );
 
   return newCarpetasArray;
 }
 
 console.log(
   createCarpetasDemanda()
-    .then(
-      (ff) => {
-        fs.writeFile(
-          'newCarpetasFinal.json',
-          JSON.stringify(ff)
-        );
+        .then(
+          (
+            ff
+          ) => {
+            fs.writeFile(
+              'newCarpetasFinal.json',
+              JSON.stringify(
+                ff
+              )
+            );
 
-        return console.log(ff);
-      },
-      (rr) => {
-        return console.log(rr);
-      }
-    )
-    .catch((err) => {
-      return console.log(JSON.stringify(err));
-    })
+            return console.log(
+              ff
+            );
+          },
+          (
+            rr
+          ) => {
+            return console.log(
+              rr
+            );
+          }
+        )
+        .catch(
+          (
+            err
+          ) => {
+            return console.log(
+              JSON.stringify(
+                err
+              )
+            );
+          }
+        )
 );

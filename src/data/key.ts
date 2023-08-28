@@ -1,81 +1,125 @@
 import Carpetas from './carpetas';
-import fetchProcesos, {
-  fetchP
-} from './procesos';
 import * as fs from 'fs/promises';
 
 export const idProcesos = Carpetas.map(
-  (carpeta) => {
+  (
+    carpeta
+  ) => {
     return {
       idProceso: carpeta.idProceso,
-      _id: carpeta._id
+      _id      : carpeta._id
     };
   }
 );
 
 export const llavesProceso = Carpetas.map(
-  (carpeta) => {
+  (
+    carpeta
+  ) => {
     return {
       llaveProceso: carpeta.llaveProceso,
-      _id: carpeta._id
+      _id         : carpeta._id
     };
   }
 );
 
 export async function getProcesosbyLLaveProceso() {
-  const procesosMap: Map<number, fetchP> =
-    new Map();
+  const procesosMap =    new Map();
 
-  const llavesLength = llavesProceso.length;
-  console.log(`hay ${llavesLength} llaves`);
-  /*
-  for ( const llave of llavesProceso ) {
+  const llavesLength = idProcesos.length;
+  console.log(
+    `hay ${ llavesLength } llaves`
+  );
 
-    const indexOf = llavesProceso.indexOf(
-      llave
-    );
-    console.log(
-      indexOf
-    );
-       console.time(
-      indexOf.toString()
-    );
-    await sleep(
-      1000
-    );
-    console.timeEnd(
-      indexOf.toString()
-    );
+  const errores: unknown[] = [];
 
-    const procesos= await fetchProcesos(
-      llave.llaveProceso, indexOf, llave._id
-    );
-    procesosMap.set(
-      indexOf, procesos
-    );
+  const noerrores: unknown[] = [];
 
-    continue;
+  for ( const {
+    idProceso
+  } of idProcesos ) {
+
+    try {
+      const request = await fetch(
+        `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${ idProceso }`
+      );
+
+      if ( !request.ok ) {
+        fs.writeFile(
+          `carpetas/${ idProceso }notok.json`, JSON.stringify(
+            request
+          )
+        );
+        errores.push(
+          request
+        );
+
+        throw new Error(
+          `idProceso: ${ idProceso }
+            status: ${ request.status }
+            statustext: ${ request.statusText }`
+        );
+
+      }
+
+      const json = await request.json();
+      fs.writeFile(
+        `carpetas/${ idProceso }.json`, JSON.stringify(
+          json
+        )
+      );
+      noerrores.push(
+        json
+      );
+
+
+    } catch ( error ) {
+      fs.writeFile(
+        `carpetas/${ idProceso }error.json`, JSON.stringify(
+          error
+        )
+      );
+      errores.push(
+        error
+      );
+
+      if ( error instanceof Error ) {
+        console.log(
+          `${ idProceso }: error en la conexion network del fetchActuaciones => ${ error.name } : ${ error.message }`
+        );
+
+      }
+      console.log(
+        `${ idProceso }: : error en la conexion network del fetchActuaciones  =>  ${ error }`
+      );
+
+
+    }
   }
+  console.log(
+    errores
+  );
+  fs.writeFile(
+    'errores.json', JSON.stringify(
+      errores
+    )
+  );
+  console.log(
+    noerrores
+  );
+  fs.writeFile(
+    'noerrores.json', JSON.stringify(
+      noerrores
+    )
+  );
 
   const procesosArray = Array.from(
     procesosMap.values()
   );
-  */
-
-  const procesosArray = llavesProceso.map(
-    async (llave, index) => {
-      const procesos = await fetchProcesos(
-        llave.llaveProceso,
-        index,
-        llave._id
-      );
-
-      return procesos;
-    }
-  );
   fs.writeFile(
-    'procesosbyidsleepInfetch.json',
-    JSON.stringify(procesosArray)
+    'procesosArray.json', JSON.stringify(
+      procesosArray
+    )
   );
 
   return procesosArray;
