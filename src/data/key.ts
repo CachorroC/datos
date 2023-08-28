@@ -49,22 +49,6 @@ export async function getProcesosbyLLaveProceso() {
         `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${ idProceso }`
       );
 
-      if ( !request.ok ) {
-        fs.writeFile(
-          `carpetas/${ indexOf }notok.json`, JSON.stringify(
-            request.statusText + request.status
-          )
-        );
-        errores.push(
-          request
-        );
-
-        throw new Error(
-          `index: ${ indexOf } status: ${ request.status } statustext: ${ request.statusText }`
-        );
-
-      }
-
       const json = await request.json();
       fs.writeFile(
         `carpetas/${ indexOf }.json`, JSON.stringify(
@@ -84,7 +68,12 @@ export async function getProcesosbyLLaveProceso() {
       if ( error instanceof Error ) {
 
         fs.writeFile(
-          `carpetas/${ indexOf }instanceOfError.json`, JSON.stringify(
+          `carpetas/${ indexOf }nameError.json`, JSON.stringify(
+            error.name
+          )
+        );
+        fs.writeFile(
+          `carpetas/${ indexOf }messageError.json`, JSON.stringify(
             error.message
           )
         );
@@ -94,9 +83,10 @@ export async function getProcesosbyLLaveProceso() {
 
       }
       fs.writeFile(
-        `carpetas/${ indexOf }error.json`, JSON.stringify(
+        `carpetas/${ indexOf }error.json`,    `${ JSON.stringify(
           error
-        )
+        ) }`
+
       );
       console.log(
         `${ idProceso }: : error en la conexion network del fetchActuaciones  =>  ${ error }`
