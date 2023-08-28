@@ -49,9 +49,16 @@ export async function getProcesosbyLLaveProceso() {
         `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${ idProceso }`
       );
 
+      const body = request.body;
+      fs.writeFile(
+        `carpetas/${ indexOf }body.json`, JSON.stringify(
+          body
+        )
+      );
+
       const json = await request.json();
       fs.writeFile(
-        `carpetas/${ indexOf }.json`, JSON.stringify(
+        `carpetas/${ indexOf }json.json`, JSON.stringify(
           json
         )
       );
