@@ -47,7 +47,7 @@ export async function getProcesosbyLLaveProceso() {
       if ( !request.ok ) {
         fs.writeFile(
           `carpetas/${ idProceso }notok.json`, JSON.stringify(
-            request
+            request.headers
           )
         );
         errores.push(
