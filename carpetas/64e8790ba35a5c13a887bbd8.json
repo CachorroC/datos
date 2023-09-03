@@ -1,1 +1,65 @@
-{"_id":"64e8790ba35a5c13a887bbd8","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":36331.525,"entregagarantiasAbogado":"2017-11-09T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-11-20T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":2500085167,"2":"AUDIOPRESTAMO"},"radicado":"2017 - 01336","vencimientoPagare":"2019-05-05T00:00:00.000Z","expediente":"11001400305020170133600","juzgados":[{"id":14,"tipo":"JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Reintegra","categoryTag":2,"deudor":{"tel":{"fijo":4251180,"celular":3118066048},"primerNombre":"LEONARDO","segundoNombre":null,"primerApellido":"SANABRIA","segundoApellido":"SANABRIA","cedula":91263617,"direccion":"CARRERA 85  B No  23 B - 69  INTERIOR 7 APARTAMENTO  314","email":"leo.sanabria@live.com.mx"},"numero":387,"llaveProceso":"11001400305020170133600","tipoProceso":"SINGULAR","idProceso":106185210,"fecha":"2023-01-19T05:00:00.000Z","lastModified":"2023-08-25T09:58:16.964Z","ultimaActuacion":{"idRegActuacion":1619184790,"llaveProceso":"11001400305020170133600","consActuacion":65,"fechaActuacion":"2023-01-19T05:00:00.000Z","actuacion":"Constancia secretarial","anotacion":"\r\nSE RECEPCIONA EXPEDIENTE CON DOS (2) CUADERNOS NATALY ROMERO Y HENRIBERNAL LETRA ","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2023-01-19T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":65}}
+{
+  "_id": "64e8790ba35a5c13a887bbd8",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 36331.525,
+    "entregagarantiasAbogado": "2017-11-09T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-11-20T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 2500085167,
+      "2": "AUDIOPRESTAMO"
+    },
+    "radicado": "2017 - 01336",
+    "vencimientoPagare": "2019-05-05T00:00:00.000Z",
+    "expediente": "11001400305020170133600",
+    "juzgados": [
+      {
+        "id": 14,
+        "tipo": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Reintegra",
+  "categoryTag": 2,
+  "deudor": {
+    "tel": {
+      "fijo": 4251180,
+      "celular": 3118066048
+    },
+    "primerNombre": "LEONARDO",
+    "segundoNombre": null,
+    "primerApellido": "SANABRIA",
+    "segundoApellido": "SANABRIA",
+    "cedula": 91263617,
+    "direccion": "CARRERA 85  B No  23 B - 69  INTERIOR 7 APARTAMENTO  314",
+    "email": "leo.sanabria@live.com.mx"
+  },
+  "numero": 387,
+  "llaveProceso": "11001400305020170133600",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 106185210,
+  "fecha": "2023-01-19T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:16.964Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1619184790,
+    "llaveProceso": "11001400305020170133600",
+    "consActuacion": 65,
+    "fechaActuacion": "2023-01-19T05:00:00.000Z",
+    "actuacion": "Constancia secretarial",
+    "anotacion": "\r\nSE RECEPCIONA EXPEDIENTE CON DOS (2) CUADERNOS NATALY ROMERO Y HENRIBERNAL LETRA ",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2023-01-19T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 65
+  }
+}

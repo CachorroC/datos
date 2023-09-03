@@ -1,1 +1,54 @@
-{"_id":"64e8790ba35a5c13a887bb58","demanda":{"departamento":null,"capitalAdeudado":"67660.913.00","entregagarantiasAbogado":"2017-09-22T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-09-27T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":12468489,"2":""},"radicado":"2017 - 01219","vencimientoPagare":"2017-09-20T00:00:00.000Z","expediente":"11001400302020170121900","juzgados":[{"id":19,"tipo":"JUZGADO 019 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-19-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":3138085772},"primerNombre":"JULIAN","segundoNombre":"DE","primerApellido":"JESUS","segundoApellido":"ISAZA AGUIRRE","cedula":71192974,"direccion":"CARRERA 24 H No 23 A - 08 SUR","email":"mayaconfecciones1@gmail.com"},"numero":266,"llaveProceso":"11001400302020170121900","tipoProceso":"PRENDARIO","idProceso":50739310,"fecha":"2022-12-16T05:00:00.000Z","lastModified":"2023-08-25T09:58:20.267Z","ultimaActuacion":{"idRegActuacion":1570060170,"llaveProceso":"11001400302020170121900","consActuacion":77,"fechaActuacion":"2022-12-16T05:00:00.000Z","actuacion":"Constancia secretarial","anotacion":"En la fecha, comunico que una vez revisado el plenario, el proceso termino por DESISTIMIENTO TACITO y no se encuentran medidas de embargos DE REMANENTES PARA DEJAR A DISPOSICION // Estefpany Murillo ","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2022-12-16T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":77}}
+{
+  "_id": "64e8790ba35a5c13a887bb58",
+  "demanda": {
+    "departamento": null,
+    "capitalAdeudado": "67660.913.00",
+    "entregagarantiasAbogado": "2017-09-22T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-27T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 12468489, "2": "" },
+    "radicado": "2017 - 01219",
+    "vencimientoPagare": "2017-09-20T00:00:00.000Z",
+    "expediente": "11001400302020170121900",
+    "juzgados": [
+      {
+        "id": 19,
+        "tipo": "JUZGADO 019 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-19-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 3138085772 },
+    "primerNombre": "JULIAN",
+    "segundoNombre": "DE",
+    "primerApellido": "JESUS",
+    "segundoApellido": "ISAZA AGUIRRE",
+    "cedula": 71192974,
+    "direccion": "CARRERA 24 H No 23 A - 08 SUR",
+    "email": "mayaconfecciones1@gmail.com"
+  },
+  "numero": 266,
+  "llaveProceso": "11001400302020170121900",
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 50739310,
+  "fecha": "2022-12-16T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:20.267Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1570060170,
+    "llaveProceso": "11001400302020170121900",
+    "consActuacion": 77,
+    "fechaActuacion": "2022-12-16T05:00:00.000Z",
+    "actuacion": "Constancia secretarial",
+    "anotacion": "En la fecha, comunico que una vez revisado el plenario, el proceso termino por DESISTIMIENTO TACITO y no se encuentran medidas de embargos DE REMANENTES PARA DEJAR A DISPOSICION // Estefpany Murillo ",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2022-12-16T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 77
+  }
+}

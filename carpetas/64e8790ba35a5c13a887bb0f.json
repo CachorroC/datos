@@ -1,1 +1,59 @@
-{"_id":"64e8790ba35a5c13a887bb0f","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"16983619,12","entregagarantiasAbogado":"2017-08-28T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-09-04T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":11705210,"2":""},"radicado":"2017 - 01086","vencimientoPagare":"2017-08-23T00:00:00.000Z","expediente":"11001400304520170108600","juzgados":[{"id":45,"tipo":"JUZGADO 045 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-45-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"MARIO","segundoNombre":"JEAN","primerApellido":"PINZON","segundoApellido":"BARON","cedula":79457880,"direccion":"CALLE 106 # 8A - 19 CASA 698","email":"mariojean1@yahoo.es"},"numero":197,"llaveProceso":"11001400304520170108600","tipoProceso":"PRENDARIO","idProceso":9877173,"fecha":"2019-08-15T05:00:00.000Z","lastModified":"2023-08-25T09:58:20.730Z","ultimaActuacion":{"idRegActuacion":795681413,"llaveProceso":"11001400304520170108600","consActuacion":18,"fechaActuacion":"2019-08-15T05:00:00.000Z","actuacion":"Archivo Definitivo","anotacion":"P 598","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2019-08-15T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":18}}
+{
+  "_id": "64e8790ba35a5c13a887bb0f",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "16983619,12",
+    "entregagarantiasAbogado": "2017-08-28T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 11705210, "2": "" },
+    "radicado": "2017 - 01086",
+    "vencimientoPagare": "2017-08-23T00:00:00.000Z",
+    "expediente": "11001400304520170108600",
+    "juzgados": [
+      {
+        "id": 45,
+        "tipo": "JUZGADO 045 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-45-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "MARIO",
+    "segundoNombre": "JEAN",
+    "primerApellido": "PINZON",
+    "segundoApellido": "BARON",
+    "cedula": 79457880,
+    "direccion": "CALLE 106 # 8A - 19 CASA 698",
+    "email": "mariojean1@yahoo.es"
+  },
+  "numero": 197,
+  "llaveProceso": "11001400304520170108600",
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 9877173,
+  "fecha": "2019-08-15T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:20.730Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 795681413,
+    "llaveProceso": "11001400304520170108600",
+    "consActuacion": 18,
+    "fechaActuacion": "2019-08-15T05:00:00.000Z",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "P 598",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2019-08-15T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 18
+  }
+}

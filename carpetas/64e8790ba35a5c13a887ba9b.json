@@ -1,1 +1,36 @@
-{"_id":"64e8790ba35a5c13a887ba9b","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":0,"entregagarantiasAbogado":"1970-01-01T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-06-20T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":12488415,"2":""},"radicado":"2017 - 00528","vencimientoPagare":"2018-07-01T00:00:00.000Z","expediente":"1100140030820170052800","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":3103126814},"primerNombre":"IDALY","segundoNombre":null,"primerApellido":"FERRO","segundoApellido":"CARDONA","cedula":51890871,"direccion":"calle 6 No. 4-07 BOGOTA","email":"lasmi40@hotmail.com"},"numero":88,"llaveProceso":"1100140030820170052800","tipoProceso":"PRENDARIO"}
+{
+  "_id": "64e8790ba35a5c13a887ba9b",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 0,
+    "entregagarantiasAbogado": "1970-01-01T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 12488415, "2": "" },
+    "radicado": "2017 - 00528",
+    "vencimientoPagare": "2018-07-01T00:00:00.000Z",
+    "expediente": "1100140030820170052800",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 3103126814 },
+    "primerNombre": "IDALY",
+    "segundoNombre": null,
+    "primerApellido": "FERRO",
+    "segundoApellido": "CARDONA",
+    "cedula": 51890871,
+    "direccion": "calle 6 No. 4-07 BOGOTA",
+    "email": "lasmi40@hotmail.com"
+  },
+  "numero": 88,
+  "llaveProceso": "1100140030820170052800",
+  "tipoProceso": "PRENDARIO"
+}

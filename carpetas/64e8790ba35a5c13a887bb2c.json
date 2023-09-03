@@ -1,1 +1,65 @@
-{"_id":"64e8790ba35a5c13a887bb2c","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":43653.352,"entregagarantiasAbogado":"2017-08-23T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-08-28T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":11903330957,"2":"377816208286710 // 4513083951499464 // 5176407001878614 // 5303720129694960 // AUDIOPRESTAMO"},"radicado":"2017 - 00860","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001400305520170086000","juzgados":[{"id":15,"tipo":"JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Reintegra","categoryTag":2,"deudor":{"tel":{"fijo":3349755,"celular":3153330306},"primerNombre":"GERARDO","segundoNombre":"ANTONIO","primerApellido":"MONCADA","segundoApellido":"VEGA ","cedula":17174720,"direccion":"CALLE 159 # 15 - 45 ","email":"gerardomoncada70@hotmail.com"},"numero":223,"llaveProceso":"11001400305520170086000","tipoProceso":"SINGULAR","idProceso":86524020,"fecha":"2023-08-03T05:00:00.000Z","lastModified":"2023-08-25T09:58:17.496Z","ultimaActuacion":{"idRegActuacion":1832599260,"llaveProceso":"11001400305520170086000","consActuacion":84,"fechaActuacion":"2023-08-03T05:00:00.000Z","actuacion":"Constancia secretarial","anotacion":"SE RECEPCIONA EXPEDIENTE DEL AREA DE ESTADO/    LETRA         /JULIAN SANCHEZ \r\n","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2023-08-03T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":84}}
+{
+  "_id": "64e8790ba35a5c13a887bb2c",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 43653.352,
+    "entregagarantiasAbogado": "2017-08-23T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 11903330957,
+      "2": "377816208286710 // 4513083951499464 // 5176407001878614 // 5303720129694960 // AUDIOPRESTAMO"
+    },
+    "radicado": "2017 - 00860",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001400305520170086000",
+    "juzgados": [
+      {
+        "id": 15,
+        "tipo": "JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Reintegra",
+  "categoryTag": 2,
+  "deudor": {
+    "tel": {
+      "fijo": 3349755,
+      "celular": 3153330306
+    },
+    "primerNombre": "GERARDO",
+    "segundoNombre": "ANTONIO",
+    "primerApellido": "MONCADA",
+    "segundoApellido": "VEGA ",
+    "cedula": 17174720,
+    "direccion": "CALLE 159 # 15 - 45 ",
+    "email": "gerardomoncada70@hotmail.com"
+  },
+  "numero": 223,
+  "llaveProceso": "11001400305520170086000",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 86524020,
+  "fecha": "2023-08-03T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:17.496Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1832599260,
+    "llaveProceso": "11001400305520170086000",
+    "consActuacion": 84,
+    "fechaActuacion": "2023-08-03T05:00:00.000Z",
+    "actuacion": "Constancia secretarial",
+    "anotacion": "SE RECEPCIONA EXPEDIENTE DEL AREA DE ESTADO/    LETRA         /JULIAN SANCHEZ \r\n",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2023-08-03T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 84
+  }
+}

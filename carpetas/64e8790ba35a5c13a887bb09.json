@@ -1,1 +1,62 @@
-{"_id":"64e8790ba35a5c13a887bb09","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":87649.981,"entregagarantiasAbogado":"2017-08-11T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-08-23T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":1220084112,"2":"N/A"},"radicado":"2017 - 01082","vencimientoPagare":"2020-11-30T00:00:00.000Z","expediente":"11001400307920170108200","juzgados":[{"id":1,"tipo":"JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Reintegra","categoryTag":2,"deudor":{"tel":{"fijo":2376454,"celular":3004525014},"primerNombre":"JOHN","segundoNombre":"ALEXANDER","primerApellido":"VALENCIA","segundoApellido":"MARQUEZ","cedula":80231798,"direccion":"CARRERA 32 B # 2 - 64 ","email":"jhon.valencia@jvtel.com.co"},"numero":191,"llaveProceso":"11001400307920170108200","tipoProceso":"SINGULAR","idProceso":51357750,"fecha":"2023-08-23T05:00:00.000Z","lastModified":"2023-08-25T09:58:17.647Z","ultimaActuacion":{"idRegActuacion":1855307900,"llaveProceso":"11001400307920170108200","consActuacion":59,"fechaActuacion":"2023-08-23T05:00:00.000Z","actuacion":"Constancia secretarial","anotacion":"EXPEDIENTE DIGITAL PARA ESTADO PASA A OFICIOS // LAURA ROMERO LINARES ","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2023-08-23T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":59}}
+{
+  "_id": "64e8790ba35a5c13a887bb09",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 87649.981,
+    "entregagarantiasAbogado": "2017-08-11T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-08-23T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 1220084112, "2": "N/A" },
+    "radicado": "2017 - 01082",
+    "vencimientoPagare": "2020-11-30T00:00:00.000Z",
+    "expediente": "11001400307920170108200",
+    "juzgados": [
+      {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Reintegra",
+  "categoryTag": 2,
+  "deudor": {
+    "tel": {
+      "fijo": 2376454,
+      "celular": 3004525014
+    },
+    "primerNombre": "JOHN",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "VALENCIA",
+    "segundoApellido": "MARQUEZ",
+    "cedula": 80231798,
+    "direccion": "CARRERA 32 B # 2 - 64 ",
+    "email": "jhon.valencia@jvtel.com.co"
+  },
+  "numero": 191,
+  "llaveProceso": "11001400307920170108200",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 51357750,
+  "fecha": "2023-08-23T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:17.647Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1855307900,
+    "llaveProceso": "11001400307920170108200",
+    "consActuacion": 59,
+    "fechaActuacion": "2023-08-23T05:00:00.000Z",
+    "actuacion": "Constancia secretarial",
+    "anotacion": "EXPEDIENTE DIGITAL PARA ESTADO PASA A OFICIOS // LAURA ROMERO LINARES ",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2023-08-23T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 59
+  }
+}

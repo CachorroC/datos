@@ -1,1 +1,65 @@
-{"_id":"64e8790ba35a5c13a887bbd9","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"27,696,651,24","entregagarantiasAbogado":"1970-01-01T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2018-05-02T05:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":1310089728,"2":"377813368402583 /AUDIOPRESTAMO"},"radicado":"2018 - 00111","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001400301720180011100","juzgados":[{"id":17,"tipo":"JUZGADO 017 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-17-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":6126610,"celular":3124575163},"primerNombre":"XIMENA","segundoNombre":"","primerApellido":"ESCOBAR","segundoApellido":"PUCCETI","cedula":52644132,"direccion":"CARRERA 14 B No 119 - 30  BOGOTA","email":"ximpucci1@hotmail.com"},"numero":388,"llaveProceso":"11001400301720180011100","tipoProceso":"SINGULAR","idProceso":50993830,"fecha":"2019-07-31T05:00:00.000Z","lastModified":"2023-08-25T09:58:19.388Z","ultimaActuacion":{"idRegActuacion":659154850,"llaveProceso":"11001400301720180011100","consActuacion":17,"fechaActuacion":"2019-07-31T05:00:00.000Z","actuacion":"Archivo Definitivo","anotacion":"ARCHIVADOS 2019 - PAQ. No. 0314","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2019-07-31T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":17}}
+{
+  "_id": "64e8790ba35a5c13a887bbd9",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "27,696,651,24",
+    "entregagarantiasAbogado": "1970-01-01T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2018-05-02T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 1310089728,
+      "2": "377813368402583 /AUDIOPRESTAMO"
+    },
+    "radicado": "2018 - 00111",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001400301720180011100",
+    "juzgados": [
+      {
+        "id": 17,
+        "tipo": "JUZGADO 017 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-17-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {
+      "fijo": 6126610,
+      "celular": 3124575163
+    },
+    "primerNombre": "XIMENA",
+    "segundoNombre": "",
+    "primerApellido": "ESCOBAR",
+    "segundoApellido": "PUCCETI",
+    "cedula": 52644132,
+    "direccion": "CARRERA 14 B No 119 - 30  BOGOTA",
+    "email": "ximpucci1@hotmail.com"
+  },
+  "numero": 388,
+  "llaveProceso": "11001400301720180011100",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50993830,
+  "fecha": "2019-07-31T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:19.388Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 659154850,
+    "llaveProceso": "11001400301720180011100",
+    "consActuacion": 17,
+    "fechaActuacion": "2019-07-31T05:00:00.000Z",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "ARCHIVADOS 2019 - PAQ. No. 0314",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2019-07-31T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 17
+  }
+}

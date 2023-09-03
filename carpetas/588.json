@@ -1,1 +1,95 @@
-{"actuaciones":[{"idRegActuacion":1850795720,"llaveProceso":"11001400306920230127300","consActuacion":6,"fechaActuacion":"2023-08-18T00:00:00","actuacion":"Fijacion estado","anotacion":"Actuación registrada el 18/08/2023 a las 17:18:57.","fechaInicial":"2023-08-22T00:00:00","fechaFinal":"2023-08-22T00:00:00","fechaRegistro":"2023-08-18T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":6},{"idRegActuacion":1850795710,"llaveProceso":"11001400306920230127300","consActuacion":5,"fechaActuacion":"2023-08-18T00:00:00","actuacion":"Auto decreta medida cautelar","anotacion":null,"fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2023-08-18T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":6},{"idRegActuacion":1850795700,"llaveProceso":"11001400306920230127300","consActuacion":4,"fechaActuacion":"2023-08-18T00:00:00","actuacion":"Fijacion estado","anotacion":"Actuación registrada el 18/08/2023 a las 17:18:46.","fechaInicial":"2023-08-22T00:00:00","fechaFinal":"2023-08-22T00:00:00","fechaRegistro":"2023-08-18T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":6},{"idRegActuacion":1850795690,"llaveProceso":"11001400306920230127300","consActuacion":3,"fechaActuacion":"2023-08-18T00:00:00","actuacion":"Auto libra mandamiento ejecutivo","anotacion":null,"fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2023-08-18T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":6},{"idRegActuacion":1832542990,"llaveProceso":"11001400306920230127300","consActuacion":2,"fechaActuacion":"2023-08-03T00:00:00","actuacion":"Al despacho","anotacion":null,"fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2023-08-03T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":6},{"idRegActuacion":1832542980,"llaveProceso":"11001400306920230127300","consActuacion":1,"fechaActuacion":"2023-08-03T00:00:00","actuacion":" Radicación de Proceso","anotacion":"Actuación de  Radicación de Proceso  realizada el 03/08/2023 a las 10:33:52","fechaInicial":"2023-08-03T00:00:00","fechaFinal":"2023-08-03T00:00:00","fechaRegistro":"2023-08-03T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":6}],"paginacion":{"cantidadRegistros":6,"registrosPagina":40,"cantidadPaginas":1,"pagina":1,"paginas":null}}
+{
+  "actuaciones": [
+    {
+      "idRegActuacion": 1850795720,
+      "llaveProceso": "11001400306920230127300",
+      "consActuacion": 6,
+      "fechaActuacion": "2023-08-18T00:00:00",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 18/08/2023 a las 17:18:57.",
+      "fechaInicial": "2023-08-22T00:00:00",
+      "fechaFinal": "2023-08-22T00:00:00",
+      "fechaRegistro": "2023-08-18T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6
+    },
+    {
+      "idRegActuacion": 1850795710,
+      "llaveProceso": "11001400306920230127300",
+      "consActuacion": 5,
+      "fechaActuacion": "2023-08-18T00:00:00",
+      "actuacion": "Auto decreta medida cautelar",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-08-18T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6
+    },
+    {
+      "idRegActuacion": 1850795700,
+      "llaveProceso": "11001400306920230127300",
+      "consActuacion": 4,
+      "fechaActuacion": "2023-08-18T00:00:00",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 18/08/2023 a las 17:18:46.",
+      "fechaInicial": "2023-08-22T00:00:00",
+      "fechaFinal": "2023-08-22T00:00:00",
+      "fechaRegistro": "2023-08-18T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6
+    },
+    {
+      "idRegActuacion": 1850795690,
+      "llaveProceso": "11001400306920230127300",
+      "consActuacion": 3,
+      "fechaActuacion": "2023-08-18T00:00:00",
+      "actuacion": "Auto libra mandamiento ejecutivo",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-08-18T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6
+    },
+    {
+      "idRegActuacion": 1832542990,
+      "llaveProceso": "11001400306920230127300",
+      "consActuacion": 2,
+      "fechaActuacion": "2023-08-03T00:00:00",
+      "actuacion": "Al despacho",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-08-03T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6
+    },
+    {
+      "idRegActuacion": 1832542980,
+      "llaveProceso": "11001400306920230127300",
+      "consActuacion": 1,
+      "fechaActuacion": "2023-08-03T00:00:00",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 03/08/2023 a las 10:33:52",
+      "fechaInicial": "2023-08-03T00:00:00",
+      "fechaFinal": "2023-08-03T00:00:00",
+      "fechaRegistro": "2023-08-03T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6
+    }
+  ],
+  "paginacion": {
+    "cantidadRegistros": 6,
+    "registrosPagina": 40,
+    "cantidadPaginas": 1,
+    "pagina": 1,
+    "paginas": null
+  }
+}

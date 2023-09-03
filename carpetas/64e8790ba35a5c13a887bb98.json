@@ -1,1 +1,59 @@
-{"_id":"64e8790ba35a5c13a887bb98","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":0,"entregagarantiasAbogado":"1970-01-01T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":"1970-01-01T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":43945,"2":80517},"radicado":"2017 - 01369","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001400301220170136900","juzgados":[{"id":12,"tipo":"JUZGADO 012 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-012-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"JOSE","segundoNombre":"DANIEL","primerApellido":"ESCOBAR","segundoApellido":"PATIÑO","cedula":94524378,"direccion":"jose.daniel.escobar@hotmail.co","email":"6332400 / 3155459543"},"numero":327,"llaveProceso":"11001400301220170136900","tipoProceso":"HIPOTECARIO","idProceso":50848760,"fecha":"2019-03-21T05:00:00.000Z","lastModified":"2023-08-25T09:58:19.929Z","ultimaActuacion":{"idRegActuacion":624641510,"llaveProceso":"11001400301220170136900","consActuacion":36,"fechaActuacion":"2019-03-21T05:00:00.000Z","actuacion":"Entrega Desglose","anotacion":"SE ENTREGO DESGLOSE","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2019-03-22T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":36}}
+{
+  "_id": "64e8790ba35a5c13a887bb98",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 0,
+    "entregagarantiasAbogado": "1970-01-01T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": "1970-01-01T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 43945, "2": 80517 },
+    "radicado": "2017 - 01369",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001400301220170136900",
+    "juzgados": [
+      {
+        "id": 12,
+        "tipo": "JUZGADO 012 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-012-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "JOSE",
+    "segundoNombre": "DANIEL",
+    "primerApellido": "ESCOBAR",
+    "segundoApellido": "PATIÑO",
+    "cedula": 94524378,
+    "direccion": "jose.daniel.escobar@hotmail.co",
+    "email": "6332400 / 3155459543"
+  },
+  "numero": 327,
+  "llaveProceso": "11001400301220170136900",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50848760,
+  "fecha": "2019-03-21T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:19.929Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 624641510,
+    "llaveProceso": "11001400301220170136900",
+    "consActuacion": 36,
+    "fechaActuacion": "2019-03-21T05:00:00.000Z",
+    "actuacion": "Entrega Desglose",
+    "anotacion": "SE ENTREGO DESGLOSE",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2019-03-22T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 36
+  }
+}

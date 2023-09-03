@@ -1,1 +1,42 @@
-{"_id":"64e8790ba35a5c13a887bc96","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":55099.216,"entregagarantiasAbogado":"2023-08-04T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":"1970-01-01T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":4020084965,"2":100260717},"radicado":"","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"","juzgados":[]},"category":"Bancolombia","categoryTag":1,"deudor":{"tel":{"fijo":4152969,"celular":3203369576},"primerNombre":"SANDRA","segundoNombre":"PATRICIA","primerApellido":"GALVIS","segundoApellido":"ALMANZA","cedula":52327261,"direccion":"CR 104 No 13D 77 CS 241 Conjunto Residencial Sabanagrande 1 ","email":"galvis-almanza@hotmail.com"},"numero":573,"llaveProceso":"","tipoProceso":"SINGULAR"}
+{
+  "_id": "64e8790ba35a5c13a887bc96",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 55099.216,
+    "entregagarantiasAbogado": "2023-08-04T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": "1970-01-01T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 4020084965,
+      "2": 100260717
+    },
+    "radicado": "",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "",
+    "juzgados": []
+  },
+  "category": "Bancolombia",
+  "categoryTag": 1,
+  "deudor": {
+    "tel": {
+      "fijo": 4152969,
+      "celular": 3203369576
+    },
+    "primerNombre": "SANDRA",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "GALVIS",
+    "segundoApellido": "ALMANZA",
+    "cedula": 52327261,
+    "direccion": "CR 104 No 13D 77 CS 241 Conjunto Residencial Sabanagrande 1 ",
+    "email": "galvis-almanza@hotmail.com"
+  },
+  "numero": 573,
+  "llaveProceso": "",
+  "tipoProceso": "SINGULAR"
+}

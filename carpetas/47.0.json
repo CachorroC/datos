@@ -1,1 +1,45 @@
-{"category":"Reintegra","deudor":{"tel":{"celular":3229150048},"primerNombre":"ANA","segundoNombre":"RITA","primerApellido":"GUZMAN","segundoApellido":"GOMEZ","cedula":52129551,"direccion":"CALLE 61 J No. 17D - 55 Sur ","email":"N/A"},"numero":47,"tipoProceso":"SINGULAR","idProceso":50521190,"llaveProceso":"11001400300620170030200","categoryTag":2,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"21530.598","entregagarantiasAbogado":"2017-06-12T00:00:00.000Z","etapaProcesal":"EJECUCION","fechaPresentacion":"2017-06-20T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":"377816034633036//45130802058774831","2":53003720132046710},"radicado":"2017-00302","vencimientoPagare":"2019-09-22T00:00:00.000Z","expediente":"11001400300620170030200","juzgados":[{"id":13,"tipo":"JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-13-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "category": "Reintegra",
+  "deudor": {
+    "tel": { "celular": 3229150048 },
+    "primerNombre": "ANA",
+    "segundoNombre": "RITA",
+    "primerApellido": "GUZMAN",
+    "segundoApellido": "GOMEZ",
+    "cedula": 52129551,
+    "direccion": "CALLE 61 J No. 17D - 55 Sur ",
+    "email": "N/A"
+  },
+  "numero": 47,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50521190,
+  "llaveProceso": "11001400300620170030200",
+  "categoryTag": 2,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "21530.598",
+    "entregagarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "etapaProcesal": "EJECUCION",
+    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "377816034633036//45130802058774831",
+      "2": 53003720132046710
+    },
+    "radicado": "2017-00302",
+    "vencimientoPagare": "2019-09-22T00:00:00.000Z",
+    "expediente": "11001400300620170030200",
+    "juzgados": [
+      {
+        "id": 13,
+        "tipo": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-13-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

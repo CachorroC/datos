@@ -1,1 +1,62 @@
-{"_id":"64e8790ba35a5c13a887bb27","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"12963196,36","entregagarantiasAbogado":"2017-08-25T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-09-11T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":20990118584,"2":"0377813642739792"},"radicado":"2017 - 00840","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001400300220170084000","juzgados":[{"id":2,"tipo":"JUZGADO 002 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-02-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"ELIO","segundoNombre":null,"primerApellido":"ALVARADO","segundoApellido":"HERNANDEZ","cedula":12402596,"direccion":"CALLE 144 # 136A - 45","email":"N/A"},"numero":218,"llaveProceso":"11001400300220170084000","tipoProceso":"HIPOTECARIO","idProceso":50699960,"fecha":"2018-09-20T05:00:00.000Z","lastModified":"2023-08-25T09:58:20.601Z","ultimaActuacion":{"idRegActuacion":379973530,"llaveProceso":"11001400300220170084000","consActuacion":35,"fechaActuacion":"2018-09-20T05:00:00.000Z","actuacion":"Archivo Definitivo","anotacion":"CAJA 433","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2018-09-20T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":35}}
+{
+  "_id": "64e8790ba35a5c13a887bb27",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "12963196,36",
+    "entregagarantiasAbogado": "2017-08-25T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-11T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 20990118584,
+      "2": "0377813642739792"
+    },
+    "radicado": "2017 - 00840",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001400300220170084000",
+    "juzgados": [
+      {
+        "id": 2,
+        "tipo": "JUZGADO 002 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-02-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "ELIO",
+    "segundoNombre": null,
+    "primerApellido": "ALVARADO",
+    "segundoApellido": "HERNANDEZ",
+    "cedula": 12402596,
+    "direccion": "CALLE 144 # 136A - 45",
+    "email": "N/A"
+  },
+  "numero": 218,
+  "llaveProceso": "11001400300220170084000",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50699960,
+  "fecha": "2018-09-20T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:20.601Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 379973530,
+    "llaveProceso": "11001400300220170084000",
+    "consActuacion": 35,
+    "fechaActuacion": "2018-09-20T05:00:00.000Z",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "CAJA 433",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2018-09-20T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 35
+  }
+}

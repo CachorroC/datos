@@ -1,1 +1,62 @@
-{"_id":"64e8790ba35a5c13a887bc79","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":24849.682,"entregagarantiasAbogado":"2018-10-10T05:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"1970-01-01T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":3880083804,"2":"4513074508682496 // 53037103332223839"},"radicado":"2018 - 00951","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001418901220180095100","juzgados":[{"id":11,"tipo":"JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Reintegra","categoryTag":2,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"ROSALIA","segundoNombre":"CHARRY","primerApellido":"","segundoApellido":"SARMIENTO","cedula":51579807,"direccion":"CALLE 19 A No 82 - 65 INT 6 APTO 503","email":"rochi2656@hotmail.com"},"numero":543,"llaveProceso":"11001418901220180095100","tipoProceso":"SINGULAR","idProceso":64673240,"fecha":"2023-05-15T05:00:00.000Z","lastModified":"2023-08-25T09:58:16.248Z","ultimaActuacion":{"idRegActuacion":1743221490,"llaveProceso":"11001418901220180095100","consActuacion":57,"fechaActuacion":"2023-05-15T05:00:00.000Z","actuacion":"Constancia secretarial","anotacion":"    SE  RECEPCIONA  EL EXPEDIENTE EN EL AREA  DE ESTADOS PARA LO PERTINENTE// LUIS G.  Y ZULMA C/               \r\n","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2023-05-15T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":57}}
+{
+  "_id": "64e8790ba35a5c13a887bc79",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 24849.682,
+    "entregagarantiasAbogado": "2018-10-10T05:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "1970-01-01T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 3880083804,
+      "2": "4513074508682496 // 53037103332223839"
+    },
+    "radicado": "2018 - 00951",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001418901220180095100",
+    "juzgados": [
+      {
+        "id": 11,
+        "tipo": "JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Reintegra",
+  "categoryTag": 2,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "ROSALIA",
+    "segundoNombre": "CHARRY",
+    "primerApellido": "",
+    "segundoApellido": "SARMIENTO",
+    "cedula": 51579807,
+    "direccion": "CALLE 19 A No 82 - 65 INT 6 APTO 503",
+    "email": "rochi2656@hotmail.com"
+  },
+  "numero": 543,
+  "llaveProceso": "11001418901220180095100",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 64673240,
+  "fecha": "2023-05-15T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:16.248Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1743221490,
+    "llaveProceso": "11001418901220180095100",
+    "consActuacion": 57,
+    "fechaActuacion": "2023-05-15T05:00:00.000Z",
+    "actuacion": "Constancia secretarial",
+    "anotacion": "    SE  RECEPCIONA  EL EXPEDIENTE EN EL AREA  DE ESTADOS PARA LO PERTINENTE// LUIS G.  Y ZULMA C/               \r\n",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2023-05-15T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 57
+  }
+}

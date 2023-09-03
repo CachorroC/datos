@@ -1,1 +1,62 @@
-{"_id":"64e8790ba35a5c13a887bb3b","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"60433.884.09","entregagarantiasAbogado":"2017-09-11T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":"2017-09-19T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":12541785,"2":186378},"radicado":"2017 - 01106","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001400304320170110600","juzgados":[{"id":43,"tipo":"JUZGADO 043 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-43-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":2362747,"celular":3106289389},"primerNombre":"FREDY","segundoNombre":"ALEXANDER","primerApellido":"RUDA","segundoApellido":"ARIAS","cedula":7181490,"direccion":"","email":"blamblemooo1@gmail.com"},"numero":238,"llaveProceso":"11001400304320170110600","tipoProceso":"HIPOTECARIO","idProceso":9334093,"fecha":"2018-10-24T05:00:00.000Z","lastModified":"2023-08-25T09:58:20.424Z","ultimaActuacion":{"idRegActuacion":105016083,"llaveProceso":"11001400304320170110600","consActuacion":29,"fechaActuacion":"2018-10-24T05:00:00.000Z","actuacion":"Archivo Definitivo","anotacion":"PAQ 444","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2018-10-24T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":29}}
+{
+  "_id": "64e8790ba35a5c13a887bb3b",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "60433.884.09",
+    "entregagarantiasAbogado": "2017-09-11T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 12541785, "2": 186378 },
+    "radicado": "2017 - 01106",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001400304320170110600",
+    "juzgados": [
+      {
+        "id": 43,
+        "tipo": "JUZGADO 043 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-43-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {
+      "fijo": 2362747,
+      "celular": 3106289389
+    },
+    "primerNombre": "FREDY",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "RUDA",
+    "segundoApellido": "ARIAS",
+    "cedula": 7181490,
+    "direccion": "",
+    "email": "blamblemooo1@gmail.com"
+  },
+  "numero": 238,
+  "llaveProceso": "11001400304320170110600",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 9334093,
+  "fecha": "2018-10-24T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:20.424Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 105016083,
+    "llaveProceso": "11001400304320170110600",
+    "consActuacion": 29,
+    "fechaActuacion": "2018-10-24T05:00:00.000Z",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "PAQ 444",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2018-10-24T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 29
+  }
+}

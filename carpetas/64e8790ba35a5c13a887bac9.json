@@ -1,1 +1,36 @@
-{"_id":"64e8790ba35a5c13a887bac9","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":42965,"entregagarantiasAbogado":"1970-01-01T00:00:00.000Z","etapaProcesal":"42965","fechaPresentacion":"2017-09-05T00:00:00.000Z","municipio":"SOACHA","obligacion":{"1":"","2":"16924662,77"},"radicado":"2017 - 00774","vencimientoPagare":"2192-12-15T00:00:00.000Z","expediente":"25754418900120170077400","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"ROCIO","segundoNombre":"ALEIDA","primerApellido":"ORTIZ","segundoApellido":"BARRETO","cedula":52830770,"direccion":"","email":"CARRERA 9 ESTE # 36 - 40 CASA 34"},"numero":131,"llaveProceso":"25754418900120170077400","tipoProceso":"HIPOTECARIO"}
+{
+  "_id": "64e8790ba35a5c13a887bac9",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 42965,
+    "entregagarantiasAbogado": "1970-01-01T00:00:00.000Z",
+    "etapaProcesal": "42965",
+    "fechaPresentacion": "2017-09-05T00:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": { "1": "", "2": "16924662,77" },
+    "radicado": "2017 - 00774",
+    "vencimientoPagare": "2192-12-15T00:00:00.000Z",
+    "expediente": "25754418900120170077400",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "ROCIO",
+    "segundoNombre": "ALEIDA",
+    "primerApellido": "ORTIZ",
+    "segundoApellido": "BARRETO",
+    "cedula": 52830770,
+    "direccion": "",
+    "email": "CARRERA 9 ESTE # 36 - 40 CASA 34"
+  },
+  "numero": 131,
+  "llaveProceso": "25754418900120170077400",
+  "tipoProceso": "HIPOTECARIO"
+}

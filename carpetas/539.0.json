@@ -1,1 +1,45 @@
-{"category":"Reintegra","deudor":{"tel":{},"primerNombre":"ADRIANA","segundoNombre":"LUCIA","primerApellido":"MORA","segundoApellido":"PLATA","cedula":51937267,"direccion":"CALLLE 106 B- No 54-57 APTO 201 PUENTE LARGO","email":"amoplata@yahoo.com"},"numero":539,"tipoProceso":"SINGULAR","idProceso":51306830,"llaveProceso":"11001400303620180081800","categoryTag":2,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"32026.446","entregagarantiasAbogado":"2018-07-03T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2018-07-11T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":2070086628,"2":4594250056606570},"radicado":"2018 - 00818","vencimientoPagare":"2021-04-10T00:00:00.000Z","expediente":"11001400303620180081800","juzgados":[{"id":15,"tipo":"JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "category": "Reintegra",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ADRIANA",
+    "segundoNombre": "LUCIA",
+    "primerApellido": "MORA",
+    "segundoApellido": "PLATA",
+    "cedula": 51937267,
+    "direccion": "CALLLE 106 B- No 54-57 APTO 201 PUENTE LARGO",
+    "email": "amoplata@yahoo.com"
+  },
+  "numero": 539,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 51306830,
+  "llaveProceso": "11001400303620180081800",
+  "categoryTag": 2,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "32026.446",
+    "entregagarantiasAbogado": "2018-07-03T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-07-11T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 2070086628,
+      "2": 4594250056606570
+    },
+    "radicado": "2018 - 00818",
+    "vencimientoPagare": "2021-04-10T00:00:00.000Z",
+    "expediente": "11001400303620180081800",
+    "juzgados": [
+      {
+        "id": 15,
+        "tipo": "JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

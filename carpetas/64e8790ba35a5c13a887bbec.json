@@ -1,1 +1,62 @@
-{"_id":"64e8790ba35a5c13a887bbec","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":31100.998,"entregagarantiasAbogado":"2017-11-16T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-11-27T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":3550083774,"2":"4513082972339 / 5303714867753385"},"radicado":"2017 - 01164","vencimientoPagare":"2024-01-26T00:00:00.000Z","expediente":"11001400307820170116400","juzgados":[{"id":16,"tipo":"JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-16-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Reintegra","categoryTag":2,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"NESTOR","segundoNombre":"ALBERTO","primerApellido":"CRISTANCHO","segundoApellido":"LOPEZ ","cedula":79328264,"direccion":" CARRERA 11 No  144 - 22 APARTAMENTO 301","email":"nescri64@hotmail.com"},"numero":407,"llaveProceso":"11001400307820170116400","tipoProceso":"SINGULAR","idProceso":51465700,"fecha":"2023-07-21T05:00:00.000Z","lastModified":"2023-08-25T09:58:16.895Z","ultimaActuacion":{"idRegActuacion":1818568720,"llaveProceso":"11001400307820170116400","consActuacion":48,"fechaActuacion":"2023-07-21T05:00:00.000Z","actuacion":"Constancia secretarial","anotacion":"SE RECEPCIONA EXPEDIENTE  CON 2 CUADERNOS //  ESTEFANIA LOPEZ       HIBRIDO ","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2023-07-21T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":48}}
+{
+  "_id": "64e8790ba35a5c13a887bbec",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 31100.998,
+    "entregagarantiasAbogado": "2017-11-16T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-11-27T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 3550083774,
+      "2": "4513082972339 / 5303714867753385"
+    },
+    "radicado": "2017 - 01164",
+    "vencimientoPagare": "2024-01-26T00:00:00.000Z",
+    "expediente": "11001400307820170116400",
+    "juzgados": [
+      {
+        "id": 16,
+        "tipo": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-16-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Reintegra",
+  "categoryTag": 2,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "NESTOR",
+    "segundoNombre": "ALBERTO",
+    "primerApellido": "CRISTANCHO",
+    "segundoApellido": "LOPEZ ",
+    "cedula": 79328264,
+    "direccion": " CARRERA 11 No  144 - 22 APARTAMENTO 301",
+    "email": "nescri64@hotmail.com"
+  },
+  "numero": 407,
+  "llaveProceso": "11001400307820170116400",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 51465700,
+  "fecha": "2023-07-21T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:16.895Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1818568720,
+    "llaveProceso": "11001400307820170116400",
+    "consActuacion": 48,
+    "fechaActuacion": "2023-07-21T05:00:00.000Z",
+    "actuacion": "Constancia secretarial",
+    "anotacion": "SE RECEPCIONA EXPEDIENTE  CON 2 CUADERNOS //  ESTEFANIA LOPEZ       HIBRIDO ",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2023-07-21T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 48
+  }
+}

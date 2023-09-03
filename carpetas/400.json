@@ -1,1 +1,81 @@
-{"actuaciones":[{"idRegActuacion":224371301,"llaveProceso":"11001400304120180007500","consActuacion":5,"fechaActuacion":"2018-04-06T00:00:00","actuacion":"Retiro demanda","anotacion":"por la apoderada demandante María Helena Suarez Garcia","fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2018-04-06T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":5},{"idRegActuacion":224371291,"llaveProceso":"11001400304120180007500","consActuacion":4,"fechaActuacion":"2018-03-20T00:00:00","actuacion":"Fijacion estado","anotacion":"Actuación registrada el 20/03/2018 a las 09:36:17.","fechaInicial":"2018-03-21T00:00:00","fechaFinal":"2018-03-21T00:00:00","fechaRegistro":"2018-03-20T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":5},{"idRegActuacion":224371281,"llaveProceso":"11001400304120180007500","consActuacion":3,"fechaActuacion":"2018-03-20T00:00:00","actuacion":"Auto inadmite demanda","anotacion":null,"fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2018-03-20T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":5},{"idRegActuacion":224371271,"llaveProceso":"11001400304120180007500","consActuacion":2,"fechaActuacion":"2018-01-25T00:00:00","actuacion":"Al despacho","anotacion":"POR REPARTO ","fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2018-01-25T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":5},{"idRegActuacion":224371261,"llaveProceso":"11001400304120180007500","consActuacion":1,"fechaActuacion":"2018-01-25T00:00:00","actuacion":" Radicación de Proceso","anotacion":"Actuación de  Radicación de Proceso  realizada el 25/01/2018 a las 15:43:26","fechaInicial":"2018-01-25T00:00:00","fechaFinal":"2018-01-25T00:00:00","fechaRegistro":"2018-01-25T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":5}],"paginacion":{"cantidadRegistros":5,"registrosPagina":40,"cantidadPaginas":1,"pagina":1,"paginas":null}}
+{
+  "actuaciones": [
+    {
+      "idRegActuacion": 224371301,
+      "llaveProceso": "11001400304120180007500",
+      "consActuacion": 5,
+      "fechaActuacion": "2018-04-06T00:00:00",
+      "actuacion": "Retiro demanda",
+      "anotacion": "por la apoderada demandante María Helena Suarez Garcia",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-04-06T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 5
+    },
+    {
+      "idRegActuacion": 224371291,
+      "llaveProceso": "11001400304120180007500",
+      "consActuacion": 4,
+      "fechaActuacion": "2018-03-20T00:00:00",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 20/03/2018 a las 09:36:17.",
+      "fechaInicial": "2018-03-21T00:00:00",
+      "fechaFinal": "2018-03-21T00:00:00",
+      "fechaRegistro": "2018-03-20T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 5
+    },
+    {
+      "idRegActuacion": 224371281,
+      "llaveProceso": "11001400304120180007500",
+      "consActuacion": 3,
+      "fechaActuacion": "2018-03-20T00:00:00",
+      "actuacion": "Auto inadmite demanda",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-03-20T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 5
+    },
+    {
+      "idRegActuacion": 224371271,
+      "llaveProceso": "11001400304120180007500",
+      "consActuacion": 2,
+      "fechaActuacion": "2018-01-25T00:00:00",
+      "actuacion": "Al despacho",
+      "anotacion": "POR REPARTO ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-01-25T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 5
+    },
+    {
+      "idRegActuacion": 224371261,
+      "llaveProceso": "11001400304120180007500",
+      "consActuacion": 1,
+      "fechaActuacion": "2018-01-25T00:00:00",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 25/01/2018 a las 15:43:26",
+      "fechaInicial": "2018-01-25T00:00:00",
+      "fechaFinal": "2018-01-25T00:00:00",
+      "fechaRegistro": "2018-01-25T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 5
+    }
+  ],
+  "paginacion": {
+    "cantidadRegistros": 5,
+    "registrosPagina": 40,
+    "cantidadPaginas": 1,
+    "pagina": 1,
+    "paginas": null
+  }
+}

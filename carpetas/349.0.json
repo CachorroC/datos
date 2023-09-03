@@ -1,1 +1,36 @@
-{"category":"Terminados","deudor":{"tel":{"celular":3155831999},"primerNombre":"LILIANA","primerApellido":"GARCIA","segundoApellido":"ROSERO","cedula":30746589,"direccion":"CARRERA 73 B No  146 F - 50 INTERIOR 9 APARTAMENTO 604","email":"admithel.ltda@yahoo.com"},"numero":349,"tipoProceso":"HIPOTECARIO","idProceso":50869240,"llaveProceso":"11001400302720170127200","categoryTag":5,"demanda":{"departamento":null,"capitalAdeudado":"17074.755.31","entregagarantiasAbogado":"2017-11-14T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-11-23T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":140864,"2":""},"radicado":"2017 - 01272","vencimientoPagare":"2016-07-18T00:00:00.000Z","expediente":"11001400302720170127200","juzgados":[{"id":27,"tipo":"JUZGADO 027 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-027-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": { "celular": 3155831999 },
+    "primerNombre": "LILIANA",
+    "primerApellido": "GARCIA",
+    "segundoApellido": "ROSERO",
+    "cedula": 30746589,
+    "direccion": "CARRERA 73 B No  146 F - 50 INTERIOR 9 APARTAMENTO 604",
+    "email": "admithel.ltda@yahoo.com"
+  },
+  "numero": 349,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50869240,
+  "llaveProceso": "11001400302720170127200",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": null,
+    "capitalAdeudado": "17074.755.31",
+    "entregagarantiasAbogado": "2017-11-14T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-11-23T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 140864, "2": "" },
+    "radicado": "2017 - 01272",
+    "vencimientoPagare": "2016-07-18T00:00:00.000Z",
+    "expediente": "11001400302720170127200",
+    "juzgados": [
+      {
+        "id": 27,
+        "tipo": "JUZGADO 027 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-027-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

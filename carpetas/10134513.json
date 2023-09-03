@@ -1,1 +1,123 @@
-{"actuaciones":[{"idRegActuacion":119895683,"llaveProceso":"11001400304620170103500","consActuacion":8,"fechaActuacion":"2017-11-28T00:00:00","actuacion":"Retiro demanda","anotacion":"RETIRA PARTE ACTORA ","fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2017-11-28T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":8},{"idRegActuacion":119895673,"llaveProceso":"11001400304620170103500","consActuacion":7,"fechaActuacion":"2017-11-07T00:00:00","actuacion":"Fijacion estado","anotacion":"Actuación registrada el 07/11/2017 a las 15:37:14.","fechaInicial":"2017-11-08T00:00:00","fechaFinal":"2017-11-08T00:00:00","fechaRegistro":"2017-11-07T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":8},{"idRegActuacion":119895663,"llaveProceso":"11001400304620170103500","consActuacion":6,"fechaActuacion":"2017-11-07T00:00:00","actuacion":"Auto libra mandamiento ejecutivo","anotacion":null,"fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2017-11-07T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":8},{"idRegActuacion":119895653,"llaveProceso":"11001400304620170103500","consActuacion":5,"fechaActuacion":"2017-10-27T00:00:00","actuacion":"Al despacho","anotacion":null,"fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2017-10-27T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":8},{"idRegActuacion":119895643,"llaveProceso":"11001400304620170103500","consActuacion":4,"fechaActuacion":"2017-10-18T00:00:00","actuacion":"Fijacion estado","anotacion":"Actuación registrada el 18/10/2017 a las 15:55:28.","fechaInicial":"2017-10-19T00:00:00","fechaFinal":"2017-10-19T00:00:00","fechaRegistro":"2017-10-18T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":8},{"idRegActuacion":119895633,"llaveProceso":"11001400304620170103500","consActuacion":3,"fechaActuacion":"2017-10-18T00:00:00","actuacion":"Auto inadmite demanda","anotacion":null,"fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2017-10-18T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":8},{"idRegActuacion":119895623,"llaveProceso":"11001400304620170103500","consActuacion":2,"fechaActuacion":"2017-10-09T00:00:00","actuacion":"Al Despacho Por Reparto","anotacion":null,"fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2017-10-09T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":8},{"idRegActuacion":119895613,"llaveProceso":"11001400304620170103500","consActuacion":1,"fechaActuacion":"2017-10-09T00:00:00","actuacion":" Radicación de Proceso","anotacion":"Actuación de  Radicación de Proceso  realizada el 09/10/2017 a las 14:36:37","fechaInicial":"2017-10-09T00:00:00","fechaFinal":"2017-10-09T00:00:00","fechaRegistro":"2017-10-09T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":8}],"paginacion":{"cantidadRegistros":8,"registrosPagina":40,"cantidadPaginas":1,"pagina":1,"paginas":null}}
+{
+  "actuaciones": [
+    {
+      "idRegActuacion": 119895683,
+      "llaveProceso": "11001400304620170103500",
+      "consActuacion": 8,
+      "fechaActuacion": "2017-11-28T00:00:00",
+      "actuacion": "Retiro demanda",
+      "anotacion": "RETIRA PARTE ACTORA ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2017-11-28T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 8
+    },
+    {
+      "idRegActuacion": 119895673,
+      "llaveProceso": "11001400304620170103500",
+      "consActuacion": 7,
+      "fechaActuacion": "2017-11-07T00:00:00",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 07/11/2017 a las 15:37:14.",
+      "fechaInicial": "2017-11-08T00:00:00",
+      "fechaFinal": "2017-11-08T00:00:00",
+      "fechaRegistro": "2017-11-07T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 8
+    },
+    {
+      "idRegActuacion": 119895663,
+      "llaveProceso": "11001400304620170103500",
+      "consActuacion": 6,
+      "fechaActuacion": "2017-11-07T00:00:00",
+      "actuacion": "Auto libra mandamiento ejecutivo",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2017-11-07T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 8
+    },
+    {
+      "idRegActuacion": 119895653,
+      "llaveProceso": "11001400304620170103500",
+      "consActuacion": 5,
+      "fechaActuacion": "2017-10-27T00:00:00",
+      "actuacion": "Al despacho",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2017-10-27T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 8
+    },
+    {
+      "idRegActuacion": 119895643,
+      "llaveProceso": "11001400304620170103500",
+      "consActuacion": 4,
+      "fechaActuacion": "2017-10-18T00:00:00",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 18/10/2017 a las 15:55:28.",
+      "fechaInicial": "2017-10-19T00:00:00",
+      "fechaFinal": "2017-10-19T00:00:00",
+      "fechaRegistro": "2017-10-18T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 8
+    },
+    {
+      "idRegActuacion": 119895633,
+      "llaveProceso": "11001400304620170103500",
+      "consActuacion": 3,
+      "fechaActuacion": "2017-10-18T00:00:00",
+      "actuacion": "Auto inadmite demanda",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2017-10-18T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 8
+    },
+    {
+      "idRegActuacion": 119895623,
+      "llaveProceso": "11001400304620170103500",
+      "consActuacion": 2,
+      "fechaActuacion": "2017-10-09T00:00:00",
+      "actuacion": "Al Despacho Por Reparto",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2017-10-09T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 8
+    },
+    {
+      "idRegActuacion": 119895613,
+      "llaveProceso": "11001400304620170103500",
+      "consActuacion": 1,
+      "fechaActuacion": "2017-10-09T00:00:00",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 09/10/2017 a las 14:36:37",
+      "fechaInicial": "2017-10-09T00:00:00",
+      "fechaFinal": "2017-10-09T00:00:00",
+      "fechaRegistro": "2017-10-09T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 8
+    }
+  ],
+  "paginacion": {
+    "cantidadRegistros": 8,
+    "registrosPagina": 40,
+    "cantidadPaginas": 1,
+    "pagina": 1,
+    "paginas": null
+  }
+}

@@ -1,1 +1,59 @@
-{"_id":"64e8790ba35a5c13a887bb5a","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":48855.784,"entregagarantiasAbogado":"1970-01-01T00:00:00.000Z","etapaProcesal":"1.100140030352017e+22","fechaPresentacion":"1970-01-01T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":12649406,"2":"N/A"},"radicado":"2017 - 01475","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001400303520170147500","juzgados":[{"id":10,"tipo":"JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-10-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"JORGE","segundoNombre":"HUGO","primerApellido":"LEAL","segundoApellido":"SERRATO","cedula":79592811,"direccion":"CARRERA 72 No 23 - 24 APARTAMENTO 402  I","email":"johuleal@gmail.com"},"numero":268,"llaveProceso":"11001400303520170147500","tipoProceso":"PRENDARIO","idProceso":50764160,"fecha":"2021-04-22T05:00:00.000Z","lastModified":"2023-08-25T09:58:20.222Z","ultimaActuacion":{"idRegActuacion":1013262230,"llaveProceso":"11001400303520170147500","consActuacion":77,"fechaActuacion":"2021-04-22T05:00:00.000Z","actuacion":"Recepción memorial","anotacion":"Radicado No. 3971-2021, No. Reloj Radicador: 19979, Entidad o Señor(a): IGNACIO A - Tercer Interesado, Aportó Documento: Memorial, Con La Solucitud: Oficio, Observaciones: ALLEGA SOLICITUD OFICIO","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2021-04-22T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":77}}
+{
+  "_id": "64e8790ba35a5c13a887bb5a",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 48855.784,
+    "entregagarantiasAbogado": "1970-01-01T00:00:00.000Z",
+    "etapaProcesal": "1.100140030352017e+22",
+    "fechaPresentacion": "1970-01-01T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 12649406, "2": "N/A" },
+    "radicado": "2017 - 01475",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001400303520170147500",
+    "juzgados": [
+      {
+        "id": 10,
+        "tipo": "JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-10-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "JORGE",
+    "segundoNombre": "HUGO",
+    "primerApellido": "LEAL",
+    "segundoApellido": "SERRATO",
+    "cedula": 79592811,
+    "direccion": "CARRERA 72 No 23 - 24 APARTAMENTO 402  I",
+    "email": "johuleal@gmail.com"
+  },
+  "numero": 268,
+  "llaveProceso": "11001400303520170147500",
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 50764160,
+  "fecha": "2021-04-22T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:20.222Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1013262230,
+    "llaveProceso": "11001400303520170147500",
+    "consActuacion": 77,
+    "fechaActuacion": "2021-04-22T05:00:00.000Z",
+    "actuacion": "Recepción memorial",
+    "anotacion": "Radicado No. 3971-2021, No. Reloj Radicador: 19979, Entidad o Señor(a): IGNACIO A - Tercer Interesado, Aportó Documento: Memorial, Con La Solucitud: Oficio, Observaciones: ALLEGA SOLICITUD OFICIO",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2021-04-22T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 77
+  }
+}

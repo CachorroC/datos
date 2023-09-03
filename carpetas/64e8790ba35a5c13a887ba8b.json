@@ -1,1 +1,59 @@
-{"_id":"64e8790ba35a5c13a887ba8b","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":0,"entregagarantiasAbogado":"2017-09-12T00:00:00.000Z","etapaProcesal":"SENTENCIA","fechaPresentacion":"2017-06-16T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":2474005,"2":""},"radicado":"2017 - 01241","vencimientoPagare":"2017-06-07T00:00:00.000Z","expediente":"11001400306020170124100","juzgados":[{"id":60,"tipo":"JUZGADO 060 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-060-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"NESTOR","segundoNombre":"FABIAN","primerApellido":"ESPITIA","segundoApellido":"FRAILE","cedula":1030545462,"direccion":"CARRERA 88 # 26 - 68","email":"1988fac@gmail.com"},"numero":72,"llaveProceso":"11001400306020170124100","tipoProceso":"PRENDARIO","idProceso":50880040,"fecha":"2023-04-25T05:00:00.000Z","lastModified":"2023-08-25T09:58:21.676Z","ultimaActuacion":{"idRegActuacion":1720644760,"llaveProceso":"11001400306020170124100","consActuacion":40,"fechaActuacion":"2023-04-25T05:00:00.000Z","actuacion":"Entrega de oficios","anotacion":null,"fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2023-04-25T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":40}}
+{
+  "_id": "64e8790ba35a5c13a887ba8b",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 0,
+    "entregagarantiasAbogado": "2017-09-12T00:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-06-16T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 2474005, "2": "" },
+    "radicado": "2017 - 01241",
+    "vencimientoPagare": "2017-06-07T00:00:00.000Z",
+    "expediente": "11001400306020170124100",
+    "juzgados": [
+      {
+        "id": 60,
+        "tipo": "JUZGADO 060 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-060-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "NESTOR",
+    "segundoNombre": "FABIAN",
+    "primerApellido": "ESPITIA",
+    "segundoApellido": "FRAILE",
+    "cedula": 1030545462,
+    "direccion": "CARRERA 88 # 26 - 68",
+    "email": "1988fac@gmail.com"
+  },
+  "numero": 72,
+  "llaveProceso": "11001400306020170124100",
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 50880040,
+  "fecha": "2023-04-25T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:21.676Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1720644760,
+    "llaveProceso": "11001400306020170124100",
+    "consActuacion": 40,
+    "fechaActuacion": "2023-04-25T05:00:00.000Z",
+    "actuacion": "Entrega de oficios",
+    "anotacion": null,
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2023-04-25T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 40
+  }
+}

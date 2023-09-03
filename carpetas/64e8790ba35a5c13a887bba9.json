@@ -1,1 +1,65 @@
-{"_id":"64e8790ba35a5c13a887bba9","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":19977.436,"entregagarantiasAbogado":"2017-09-29T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-10-06T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":"377815565830854  4513071889404813","2":"5176409000345363    5306946666855816"},"radicado":"2017 - 01474","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001400303320170147400","juzgados":[{"id":2,"tipo":"JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Reintegra","categoryTag":2,"deudor":{"tel":{"fijo":8003961,"celular":3174409073},"primerNombre":"LUIS","segundoNombre":"AUGUSTO","primerApellido":"SANCHEZ","segundoApellido":"ORTIZ","cedula":79505982,"direccion":"CALLE 168 No 8 G - 61 BLOQUE  5 APARTAMENTO  102","email":"luissanchez69@live.com"},"numero":344,"llaveProceso":"11001400303320170147400","tipoProceso":"SINGULAR","idProceso":50763460,"fecha":"2023-05-17T05:00:00.000Z","lastModified":"2023-08-25T09:58:17.143Z","ultimaActuacion":{"idRegActuacion":1745986690,"llaveProceso":"11001400303320170147400","consActuacion":66,"fechaActuacion":"2023-05-17T05:00:00.000Z","actuacion":"Constancia secretarial","anotacion":"SE  RECEPCIONA  EL EXPEDIENTE EN EL AREA  DE ESTADOS PARA LO PERTINENTE // stefanny ortizCUADERNOS 2","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2023-05-17T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":66}}
+{
+  "_id": "64e8790ba35a5c13a887bba9",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 19977.436,
+    "entregagarantiasAbogado": "2017-09-29T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-10-06T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "377815565830854  4513071889404813",
+      "2": "5176409000345363    5306946666855816"
+    },
+    "radicado": "2017 - 01474",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001400303320170147400",
+    "juzgados": [
+      {
+        "id": 2,
+        "tipo": "JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Reintegra",
+  "categoryTag": 2,
+  "deudor": {
+    "tel": {
+      "fijo": 8003961,
+      "celular": 3174409073
+    },
+    "primerNombre": "LUIS",
+    "segundoNombre": "AUGUSTO",
+    "primerApellido": "SANCHEZ",
+    "segundoApellido": "ORTIZ",
+    "cedula": 79505982,
+    "direccion": "CALLE 168 No 8 G - 61 BLOQUE  5 APARTAMENTO  102",
+    "email": "luissanchez69@live.com"
+  },
+  "numero": 344,
+  "llaveProceso": "11001400303320170147400",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50763460,
+  "fecha": "2023-05-17T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:17.143Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1745986690,
+    "llaveProceso": "11001400303320170147400",
+    "consActuacion": 66,
+    "fechaActuacion": "2023-05-17T05:00:00.000Z",
+    "actuacion": "Constancia secretarial",
+    "anotacion": "SE  RECEPCIONA  EL EXPEDIENTE EN EL AREA  DE ESTADOS PARA LO PERTINENTE // stefanny ortizCUADERNOS 2",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2023-05-17T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 66
+  }
+}

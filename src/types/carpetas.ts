@@ -34,7 +34,7 @@ export type Category =
 export interface DemandaRaw {
   capitalAdeudado: number | string;
   departamento: DepartamentoRaw;
-  entregagarantiasAbogado: number | string;
+  entregaGarantiasAbogado: number | string;
   etapaProcesal?: number | string;
   fechaPresentacion?: number | string;
   municipio: string;

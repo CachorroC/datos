@@ -1,1 +1,64 @@
-{"_id":"64e8790ba35a5c13a887bb6c","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":94533.342,"entregagarantiasAbogado":"2017-09-11T00:00:00.000Z","etapaProcesal":"CURADOR AD LITEM","fechaPresentacion":"2017-09-19T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":12711612,"2":"N/A"},"radicado":"2017 - 01195","vencimientoPagare":"2020-09-06T00:00:00.000Z","expediente":"11001400301720170119500","juzgados":[{"id":17,"tipo":"JUZGADO 017 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-17-civil-municipal-de-bogota"},{"id":17,"tipo":"JUZGADO 017 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-17-civil-municipal-de-bogota"}]},"category":"Reintegra","categoryTag":2,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"ALIRIO","segundoNombre":null,"primerApellido":"HEREDIA","segundoApellido":"BUITRAGO","cedula":80259791,"direccion":"DIAGONAL 48 J No 5C- 34 SUR","email":"gerencia.seguridadgf@gmail.com"},"numero":286,"llaveProceso":"11001400301720170119500","tipoProceso":"PRENDARIO","idProceso":50721470,"fecha":"2023-07-10T05:00:00.000Z","lastModified":"2023-08-25T09:58:17.320Z","ultimaActuacion":{"idRegActuacion":1809735960,"llaveProceso":"11001400301720170119500","consActuacion":94,"fechaActuacion":"2023-07-10T05:00:00.000Z","actuacion":"Oficio Elaborado","anotacion":null,"fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2023-07-13T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":94}}
+{
+  "_id": "64e8790ba35a5c13a887bb6c",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 94533.342,
+    "entregagarantiasAbogado": "2017-09-11T00:00:00.000Z",
+    "etapaProcesal": "CURADOR AD LITEM",
+    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 12711612, "2": "N/A" },
+    "radicado": "2017 - 01195",
+    "vencimientoPagare": "2020-09-06T00:00:00.000Z",
+    "expediente": "11001400301720170119500",
+    "juzgados": [
+      {
+        "id": 17,
+        "tipo": "JUZGADO 017 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-17-civil-municipal-de-bogota"
+      },
+      {
+        "id": 17,
+        "tipo": "JUZGADO 017 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-17-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Reintegra",
+  "categoryTag": 2,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "ALIRIO",
+    "segundoNombre": null,
+    "primerApellido": "HEREDIA",
+    "segundoApellido": "BUITRAGO",
+    "cedula": 80259791,
+    "direccion": "DIAGONAL 48 J No 5C- 34 SUR",
+    "email": "gerencia.seguridadgf@gmail.com"
+  },
+  "numero": 286,
+  "llaveProceso": "11001400301720170119500",
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 50721470,
+  "fecha": "2023-07-10T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:17.320Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1809735960,
+    "llaveProceso": "11001400301720170119500",
+    "consActuacion": 94,
+    "fechaActuacion": "2023-07-10T05:00:00.000Z",
+    "actuacion": "Oficio Elaborado",
+    "anotacion": null,
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2023-07-13T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 94
+  }
+}

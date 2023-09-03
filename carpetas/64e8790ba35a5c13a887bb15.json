@@ -1,1 +1,62 @@
-{"_id":"64e8790ba35a5c13a887bb15","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"60804048,55","entregagarantiasAbogado":"1970-01-01T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":"2017-09-04T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":179104,"2":""},"radicado":"2017 - 01060","vencimientoPagare":"2024-11-28T00:00:00.000Z","expediente":"11001400300820170106000","juzgados":[{"id":7,"tipo":"JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":7672705,"celular":3118264932},"primerNombre":"GONZALO","segundoNombre":null,"primerApellido":"VILLABON","segundoApellido":"MARTINEZ","cedula":80380775,"direccion":"CALLE 92 BIS SUR # 3 - 61","email":"fantavillabon@hotmail.com"},"numero":203,"llaveProceso":"11001400300820170106000","tipoProceso":"HIPOTECARIO","idProceso":50684220,"fecha":"2019-07-17T05:00:00.000Z","lastModified":"2023-08-25T09:58:20.698Z","ultimaActuacion":{"idRegActuacion":602011100,"llaveProceso":"11001400300820170106000","consActuacion":56,"fechaActuacion":"2019-07-17T05:00:00.000Z","actuacion":"Archivo Definitivo","anotacion":"proceso archivado en caja  287 // katherine Bonilla//","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2019-07-17T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":56}}
+{
+  "_id": "64e8790ba35a5c13a887bb15",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "60804048,55",
+    "entregagarantiasAbogado": "1970-01-01T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 179104, "2": "" },
+    "radicado": "2017 - 01060",
+    "vencimientoPagare": "2024-11-28T00:00:00.000Z",
+    "expediente": "11001400300820170106000",
+    "juzgados": [
+      {
+        "id": 7,
+        "tipo": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {
+      "fijo": 7672705,
+      "celular": 3118264932
+    },
+    "primerNombre": "GONZALO",
+    "segundoNombre": null,
+    "primerApellido": "VILLABON",
+    "segundoApellido": "MARTINEZ",
+    "cedula": 80380775,
+    "direccion": "CALLE 92 BIS SUR # 3 - 61",
+    "email": "fantavillabon@hotmail.com"
+  },
+  "numero": 203,
+  "llaveProceso": "11001400300820170106000",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50684220,
+  "fecha": "2019-07-17T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:20.698Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 602011100,
+    "llaveProceso": "11001400300820170106000",
+    "consActuacion": 56,
+    "fechaActuacion": "2019-07-17T05:00:00.000Z",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "proceso archivado en caja  287 // katherine Bonilla//",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2019-07-17T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 56
+  }
+}

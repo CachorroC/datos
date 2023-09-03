@@ -1,1 +1,59 @@
-{"_id":"64e8790ba35a5c13a887bb8e","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"15008.514.94","entregagarantiasAbogado":"2017-10-31T00:00:00.000Z","etapaProcesal":"LIQUIDACION","fechaPresentacion":"2017-11-07T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":123326,"2":""},"radicado":"2017 - 01813","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001400301820170181300","juzgados":[{"id":1,"tipo":"JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"WILSON","segundoNombre":null,"primerApellido":"JAVIER","segundoApellido":"SANCHEZ","cedula":80251653,"direccion":"CALLE 62 G  No 75 g - 18 sur","email":"wilsoningind@yahoo.es"},"numero":317,"llaveProceso":"11001400301820170181300","tipoProceso":"HIPOTECARIO","idProceso":50832550,"fecha":"2020-03-05T05:00:00.000Z","lastModified":"2023-08-25T09:58:20.009Z","ultimaActuacion":{"idRegActuacion":962231690,"llaveProceso":"11001400301820170181300","consActuacion":56,"fechaActuacion":"2020-03-05T05:00:00.000Z","actuacion":"Archivo Definitivo","anotacion":"Proceso se envia para archivo definitivo caja 354  //JUANMANUEL//","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2020-03-05T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":56}}
+{
+  "_id": "64e8790ba35a5c13a887bb8e",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "15008.514.94",
+    "entregagarantiasAbogado": "2017-10-31T00:00:00.000Z",
+    "etapaProcesal": "LIQUIDACION",
+    "fechaPresentacion": "2017-11-07T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 123326, "2": "" },
+    "radicado": "2017 - 01813",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001400301820170181300",
+    "juzgados": [
+      {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "WILSON",
+    "segundoNombre": null,
+    "primerApellido": "JAVIER",
+    "segundoApellido": "SANCHEZ",
+    "cedula": 80251653,
+    "direccion": "CALLE 62 G  No 75 g - 18 sur",
+    "email": "wilsoningind@yahoo.es"
+  },
+  "numero": 317,
+  "llaveProceso": "11001400301820170181300",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50832550,
+  "fecha": "2020-03-05T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:20.009Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 962231690,
+    "llaveProceso": "11001400301820170181300",
+    "consActuacion": 56,
+    "fechaActuacion": "2020-03-05T05:00:00.000Z",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "Proceso se envia para archivo definitivo caja 354  //JUANMANUEL//",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2020-03-05T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 56
+  }
+}

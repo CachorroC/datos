@@ -1,1 +1,65 @@
-{"_id":"64e8790ba35a5c13a887baca","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"57161766,97","entregagarantiasAbogado":"2017-08-11T00:00:00.000Z","etapaProcesal":"SENTENCIA","fechaPresentacion":"2017-08-23T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":"1770990 // 4513076455160970","2":5303711546384996},"radicado":"2017 - 01051","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001400306820170105100","juzgados":[{"id":68,"tipo":"JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":8023973,"celular":3214033971},"primerNombre":"JOVANI","segundoNombre":"EMILIO","primerApellido":"RESTREPO","segundoApellido":"RAMIREZ","cedula":80049317,"direccion":"CARRERA 145 # 144C - 72 TORRE 9 APTO 9","email":"jovanirestrepo@hotmail.com"},"numero":132,"llaveProceso":"11001400306820170105100","tipoProceso":"HIPOTECARIO","idProceso":19209750,"fecha":"2018-06-18T05:00:00.000Z","lastModified":"2023-08-25T09:58:21.156Z","ultimaActuacion":{"idRegActuacion":259839260,"llaveProceso":"11001400306820170105100","consActuacion":21,"fechaActuacion":"2018-06-18T05:00:00.000Z","actuacion":"Archivo Definitivo","anotacion":"CAJA 882","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2018-06-18T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":21}}
+{
+  "_id": "64e8790ba35a5c13a887baca",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "57161766,97",
+    "entregagarantiasAbogado": "2017-08-11T00:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-08-23T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "1770990 // 4513076455160970",
+      "2": 5303711546384996
+    },
+    "radicado": "2017 - 01051",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001400306820170105100",
+    "juzgados": [
+      {
+        "id": 68,
+        "tipo": "JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {
+      "fijo": 8023973,
+      "celular": 3214033971
+    },
+    "primerNombre": "JOVANI",
+    "segundoNombre": "EMILIO",
+    "primerApellido": "RESTREPO",
+    "segundoApellido": "RAMIREZ",
+    "cedula": 80049317,
+    "direccion": "CARRERA 145 # 144C - 72 TORRE 9 APTO 9",
+    "email": "jovanirestrepo@hotmail.com"
+  },
+  "numero": 132,
+  "llaveProceso": "11001400306820170105100",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 19209750,
+  "fecha": "2018-06-18T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:21.156Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 259839260,
+    "llaveProceso": "11001400306820170105100",
+    "consActuacion": 21,
+    "fechaActuacion": "2018-06-18T05:00:00.000Z",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "CAJA 882",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2018-06-18T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 21
+  }
+}

@@ -1,1 +1,39 @@
-{"_id":"64e8790ba35a5c13a887bbe9","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"18,236,088,30","entregagarantiasAbogado":"1970-01-01T00:00:00.000Z","etapaProcesal":"SENTENCIA","fechaPresentacion":"1970-01-01T00:00:00.000Z","municipio":"SOACHA","obligacion":{"1":167362,"2":""},"radicado":"2018 - 00177","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"257544189003201800177","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":2035780,"celular":3102259717},"primerNombre":"CESAR","segundoNombre":"AUGUSTO","primerApellido":"PINEDA","segundoApellido":"RIOS","cedula":1013586083,"direccion":"DIAGONAL 18 B No 44-24","email":"cesar.rios_30@hotmail.com"},"numero":404,"llaveProceso":"257544189003201800177","tipoProceso":"HIPOTECARIO"}
+{
+  "_id": "64e8790ba35a5c13a887bbe9",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "18,236,088,30",
+    "entregagarantiasAbogado": "1970-01-01T00:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "1970-01-01T00:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": { "1": 167362, "2": "" },
+    "radicado": "2018 - 00177",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "257544189003201800177",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {
+      "fijo": 2035780,
+      "celular": 3102259717
+    },
+    "primerNombre": "CESAR",
+    "segundoNombre": "AUGUSTO",
+    "primerApellido": "PINEDA",
+    "segundoApellido": "RIOS",
+    "cedula": 1013586083,
+    "direccion": "DIAGONAL 18 B No 44-24",
+    "email": "cesar.rios_30@hotmail.com"
+  },
+  "numero": 404,
+  "llaveProceso": "257544189003201800177",
+  "tipoProceso": "HIPOTECARIO"
+}

@@ -1,1 +1,36 @@
-{"_id":"64e8790ba35a5c13a887bb0a","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"38393691,10","entregagarantiasAbogado":"2017-08-17T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"1970-01-01T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":490098495,"2":128775},"radicado":"2017 - 01532","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"1100140030732017015300","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"DIANA","segundoNombre":"PATRICIA","primerApellido":"SANCHEZ","segundoApellido":"SALCEDO ","cedula":53053612,"direccion":"TRANVERSAL 142 # 150 - 50 CASA 2 ET 8 ","email":"baldini@mybosi.com"},"numero":192,"llaveProceso":"1100140030732017015300","tipoProceso":"HIPOTECARIO"}
+{
+  "_id": "64e8790ba35a5c13a887bb0a",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "38393691,10",
+    "entregagarantiasAbogado": "2017-08-17T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "1970-01-01T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 490098495, "2": 128775 },
+    "radicado": "2017 - 01532",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "1100140030732017015300",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "DIANA",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "SANCHEZ",
+    "segundoApellido": "SALCEDO ",
+    "cedula": 53053612,
+    "direccion": "TRANVERSAL 142 # 150 - 50 CASA 2 ET 8 ",
+    "email": "baldini@mybosi.com"
+  },
+  "numero": 192,
+  "llaveProceso": "1100140030732017015300",
+  "tipoProceso": "HIPOTECARIO"
+}

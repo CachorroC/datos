@@ -1,1 +1,32 @@
-{"StatusCode":500,"Message":"Object reference not set to an instance of an object."}
+{
+  "demanda": {
+    "departamento": null,
+    "juzgados": [],
+    "capitalAdeudado": 140332319,
+    "entregagarantiasAbogado": "2021-08-18T00:00:00.000Z",
+    "fechaPresentacion": null,
+    "municipio": "",
+    "obligacion": {
+      "1": 3320096675,
+      "2": "83942050 X T.C MASTER 5491580158404844 Y AMERICAN 377816059851588"
+    },
+    "radicado": "",
+    "vencimientoPagare": null,
+    "expediente": ""
+  },
+  "category": "Bancolombia",
+  "categoryTag": 1,
+  "deudor": {
+    "tel": { "celular": 3203172020 },
+    "primerNombre": "DIANA",
+    "segundoNombre": "CRISTINA",
+    "primerApellido": "AREVALO",
+    "segundoApellido": "ARBOLEDA",
+    "cedula": 35422519,
+    "direccion": " CL 4 16 10 AP 201 Barrio Algarra III",
+    "email": "dicrisare@gmail.com"
+  },
+  "numero": 578,
+  "llaveProceso": "",
+  "tipoProceso": "SINGULAR"
+}

@@ -1,1 +1,65 @@
-{"_id":"64e8790ba35a5c13a887ba43","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":162012.163,"entregagarantiasAbogado":"2017-09-08T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-10-27T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":"1930085200  /190184  /377813469298997","2":"4513070079097239  /5303714507623618"},"radicado":"2017 - 00554","vencimientoPagare":"2018-09-09T00:00:00.000Z","expediente":"11001310304320170055400","juzgados":[{"id":2,"tipo":"JUZGADO 002 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-del-circuito-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":3935996,"celular":3142064177},"primerNombre":"EDWIN","segundoNombre":"ANDRES","primerApellido":"CUERVO","segundoApellido":"VERDUGO","cedula":1026259010,"direccion":"DIAGONAL 77 B No 119 A-73  INTERIOR 1 APARTAMENTO 602","email":"edwin06cuervo@hotmail.com"},"numero":2,"llaveProceso":"11001310304320170055400","tipoProceso":"HIPOTECARIO","idProceso":52281244,"fecha":"2021-09-20T05:00:00.000Z","lastModified":"2023-08-25T09:58:22.009Z","ultimaActuacion":{"idRegActuacion":978518214,"llaveProceso":"11001310304320170055400","consActuacion":57,"fechaActuacion":"2021-09-20T05:00:00.000Z","actuacion":"Inventario","anotacion":"PROCESO TERMINADO PASA PARA ARCHIVO","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2021-09-20T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":57}}
+{
+  "_id": "64e8790ba35a5c13a887ba43",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 162012.163,
+    "entregagarantiasAbogado": "2017-09-08T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-10-27T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "1930085200  /190184  /377813469298997",
+      "2": "4513070079097239  /5303714507623618"
+    },
+    "radicado": "2017 - 00554",
+    "vencimientoPagare": "2018-09-09T00:00:00.000Z",
+    "expediente": "11001310304320170055400",
+    "juzgados": [
+      {
+        "id": 2,
+        "tipo": "JUZGADO 002 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-del-circuito-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {
+      "fijo": 3935996,
+      "celular": 3142064177
+    },
+    "primerNombre": "EDWIN",
+    "segundoNombre": "ANDRES",
+    "primerApellido": "CUERVO",
+    "segundoApellido": "VERDUGO",
+    "cedula": 1026259010,
+    "direccion": "DIAGONAL 77 B No 119 A-73  INTERIOR 1 APARTAMENTO 602",
+    "email": "edwin06cuervo@hotmail.com"
+  },
+  "numero": 2,
+  "llaveProceso": "11001310304320170055400",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 52281244,
+  "fecha": "2021-09-20T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:22.009Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 978518214,
+    "llaveProceso": "11001310304320170055400",
+    "consActuacion": 57,
+    "fechaActuacion": "2021-09-20T05:00:00.000Z",
+    "actuacion": "Inventario",
+    "anotacion": "PROCESO TERMINADO PASA PARA ARCHIVO",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2021-09-20T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 57
+  }
+}

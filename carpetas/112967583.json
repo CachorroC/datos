@@ -1,1 +1,39 @@
-{"actuaciones":[{"idRegActuacion":1124270563,"llaveProceso":"11001400308220180096400","consActuacion":2,"fechaActuacion":"2022-05-25T00:00:00","actuacion":"El Despacho Resuelve:.","anotacion":"SE ORDENA COMISIONAR - LOS OFICIOS Y/O DESPACHOS COMISORIOS CONTIENEN LA FIRMA ELECTRÓNICA DEL SECRETARIO. EN EL PORTAL WEB DE LA PÁGINA DE LA RAMA JUDICIAL, DONDE TAMBIÉN SE CONSULTAN LOS ESTADOS ELECTRONICOS, PODRÁ DESCARGARLOS PARA SER RADICADOS POR USTED ANTE LAS ENTIDADES RESPECTIVAS DE MANERA VIRTUAL. (NO IMPRIMIR) - SI LA ENTIDAD NO SE LO RECIBE DE FORMA DIGITAL, DEBERÁ ACUDIR PRESENCIALMENTE AL JUZGADO A RETIRARLO FÍSICO CON LA FIRMA AUTÓGRAFA Y SELLO DEL SECRETARIO. ","fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2022-05-25T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":2},{"idRegActuacion":1111340493,"llaveProceso":"11001400308220180096400","consActuacion":1,"fechaActuacion":"2022-05-11T00:00:00","actuacion":" Radicación de Proceso","anotacion":"Actuación de  Radicación de Proceso  realizada el 11/05/2022 a las 11:00:37","fechaInicial":"2022-05-11T00:00:00","fechaFinal":"2022-05-11T00:00:00","fechaRegistro":"2022-05-11T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":2}],"paginacion":{"cantidadRegistros":2,"registrosPagina":40,"cantidadPaginas":1,"pagina":1,"paginas":null}}
+{
+  "actuaciones": [
+    {
+      "idRegActuacion": 1124270563,
+      "llaveProceso": "11001400308220180096400",
+      "consActuacion": 2,
+      "fechaActuacion": "2022-05-25T00:00:00",
+      "actuacion": "El Despacho Resuelve:.",
+      "anotacion": "SE ORDENA COMISIONAR - LOS OFICIOS Y/O DESPACHOS COMISORIOS CONTIENEN LA FIRMA ELECTRÓNICA DEL SECRETARIO. EN EL PORTAL WEB DE LA PÁGINA DE LA RAMA JUDICIAL, DONDE TAMBIÉN SE CONSULTAN LOS ESTADOS ELECTRONICOS, PODRÁ DESCARGARLOS PARA SER RADICADOS POR USTED ANTE LAS ENTIDADES RESPECTIVAS DE MANERA VIRTUAL. (NO IMPRIMIR) - SI LA ENTIDAD NO SE LO RECIBE DE FORMA DIGITAL, DEBERÁ ACUDIR PRESENCIALMENTE AL JUZGADO A RETIRARLO FÍSICO CON LA FIRMA AUTÓGRAFA Y SELLO DEL SECRETARIO. ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2022-05-25T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 2
+    },
+    {
+      "idRegActuacion": 1111340493,
+      "llaveProceso": "11001400308220180096400",
+      "consActuacion": 1,
+      "fechaActuacion": "2022-05-11T00:00:00",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 11/05/2022 a las 11:00:37",
+      "fechaInicial": "2022-05-11T00:00:00",
+      "fechaFinal": "2022-05-11T00:00:00",
+      "fechaRegistro": "2022-05-11T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 2
+    }
+  ],
+  "paginacion": {
+    "cantidadRegistros": 2,
+    "registrosPagina": 40,
+    "cantidadPaginas": 1,
+    "pagina": 1,
+    "paginas": null
+  }
+}

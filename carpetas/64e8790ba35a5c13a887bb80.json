@@ -1,1 +1,36 @@
-{"_id":"64e8790ba35a5c13a887bb80","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"61821.425.75","entregagarantiasAbogado":"2017-10-18T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":"0269-01-01T04:56:16.000Z","municipio":"BOGOTA","obligacion":{"1":134175,"2":""},"radicado":"2017 - 01411","vencimientoPagare":"2025-11-26T00:00:00.000Z","expediente":"1.100140030732017e+22","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":3212414138},"primerNombre":"FERNANDO","segundoNombre":null,"primerApellido":"GONZALEZ","segundoApellido":"TELLEZ","cedula":79892240,"direccion":"CALLE 76 A SUR No 1 B - 40 ESTE","email":"ferchog01@yahoo.es"},"numero":304,"llaveProceso":"1.100140030732017e+22","tipoProceso":"HIPOTECARIO"}
+{
+  "_id": "64e8790ba35a5c13a887bb80",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "61821.425.75",
+    "entregagarantiasAbogado": "2017-10-18T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": "0269-01-01T04:56:16.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 134175, "2": "" },
+    "radicado": "2017 - 01411",
+    "vencimientoPagare": "2025-11-26T00:00:00.000Z",
+    "expediente": "1.100140030732017e+22",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 3212414138 },
+    "primerNombre": "FERNANDO",
+    "segundoNombre": null,
+    "primerApellido": "GONZALEZ",
+    "segundoApellido": "TELLEZ",
+    "cedula": 79892240,
+    "direccion": "CALLE 76 A SUR No 1 B - 40 ESTE",
+    "email": "ferchog01@yahoo.es"
+  },
+  "numero": 304,
+  "llaveProceso": "1.100140030732017e+22",
+  "tipoProceso": "HIPOTECARIO"
+}

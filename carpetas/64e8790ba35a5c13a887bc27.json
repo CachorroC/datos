@@ -1,1 +1,67 @@
-{"_id":"64e8790ba35a5c13a887bc27","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":24501.535,"entregagarantiasAbogado":"2018-07-05T00:00:00.000Z","etapaProcesal":"CONTESTACION DEMANDA","fechaPresentacion":"2018-07-12T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":"AMERICAN 0377814037749057","2":"VISA 4513083943843365 // MASTER 5303729958258417"},"radicado":"2019 - 00656","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001418901420190065600","juzgados":[{"id":14,"tipo":"JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ","url":"https://www.ramajudicial.gov.cojuzgado-014-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"},{"id":14,"tipo":"JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ","url":"https://www.ramajudicial.gov.cojuzgado-014-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"}]},"category":"Bancolombia","categoryTag":1,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"LEIDY","segundoNombre":"YANETH","primerApellido":"VIDAL","segundoApellido":"RODRIGUEZ","cedula":52883958,"direccion":"DIAGONAL 2 No 21 B-20","email":"leidyyaneth.lyv@gmail.com"},"numero":463,"llaveProceso":"11001418901420190065600","tipoProceso":"SINGULAR","idProceso":135801811,"fecha":"2022-09-12T05:00:00.000Z","lastModified":"2023-08-25T09:58:15.641Z","ultimaActuacion":{"idRegActuacion":1176372381,"llaveProceso":"11001418901420190065600","consActuacion":28516253,"fechaActuacion":"2022-09-12T05:00:00.000Z","actuacion":"Auto Emplaza","anotacion":"En cumplimiento a lo ordenado con auto del 5 de septiembre de 2022, se efectúa el emplazamiento de la demandada LEIDY YANETH VIDAL RODRIGUEZ en la forma prevista en el art. 108 del C.. G. del P., en consonancia con el art. 10 de la Ley 2213 de 2022.","fechaInicial":"2022-09-13T05:00:00.000Z","fechaFinal":"2022-10-03T05:00:00.000Z","fechaRegistro":"2022-09-12T05:00:00.000Z","codRegla":"00                              ","conDocumentos":true,"cant":1}}
+{
+  "_id": "64e8790ba35a5c13a887bc27",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 24501.535,
+    "entregagarantiasAbogado": "2018-07-05T00:00:00.000Z",
+    "etapaProcesal": "CONTESTACION DEMANDA",
+    "fechaPresentacion": "2018-07-12T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "AMERICAN 0377814037749057",
+      "2": "VISA 4513083943843365 // MASTER 5303729958258417"
+    },
+    "radicado": "2019 - 00656",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001418901420190065600",
+    "juzgados": [
+      {
+        "id": 14,
+        "tipo": "JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-014-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
+      },
+      {
+        "id": 14,
+        "tipo": "JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-014-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
+      }
+    ]
+  },
+  "category": "Bancolombia",
+  "categoryTag": 1,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "LEIDY",
+    "segundoNombre": "YANETH",
+    "primerApellido": "VIDAL",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": 52883958,
+    "direccion": "DIAGONAL 2 No 21 B-20",
+    "email": "leidyyaneth.lyv@gmail.com"
+  },
+  "numero": 463,
+  "llaveProceso": "11001418901420190065600",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 135801811,
+  "fecha": "2022-09-12T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:15.641Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1176372381,
+    "llaveProceso": "11001418901420190065600",
+    "consActuacion": 28516253,
+    "fechaActuacion": "2022-09-12T05:00:00.000Z",
+    "actuacion": "Auto Emplaza",
+    "anotacion": "En cumplimiento a lo ordenado con auto del 5 de septiembre de 2022, se efectúa el emplazamiento de la demandada LEIDY YANETH VIDAL RODRIGUEZ en la forma prevista en el art. 108 del C.. G. del P., en consonancia con el art. 10 de la Ley 2213 de 2022.",
+    "fechaInicial": "2022-09-13T05:00:00.000Z",
+    "fechaFinal": "2022-10-03T05:00:00.000Z",
+    "fechaRegistro": "2022-09-12T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": true,
+    "cant": 1
+  }
+}

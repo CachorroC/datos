@@ -1,1 +1,65 @@
-{"_id":"64e8790ba35a5c13a887baed","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":44742.148,"entregagarantiasAbogado":"2017-07-19T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-07-21T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":2310089458,"2":"4513088545588847// AUDIO PRESTAMO"},"radicado":"2017 - 00635","vencimientoPagare":"2019-08-18T00:00:00.000Z","expediente":"11001400307620170063500","juzgados":[{"id":4,"tipo":"JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-04-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Reintegra","categoryTag":2,"deudor":{"tel":{"fijo":4088069,"celular":3125312823},"primerNombre":"FREDY","segundoNombre":null,"primerApellido":"MENESES","segundoApellido":null,"cedula":86057132,"direccion":"Carrera 40 D No. 1H-28","email":"imagenfmr@yahoo.com"},"numero":165,"llaveProceso":"11001400307620170063500","tipoProceso":"SINGULAR","idProceso":51497380,"fecha":"2023-05-31T05:00:00.000Z","lastModified":"2023-08-25T09:58:17.729Z","ultimaActuacion":{"idRegActuacion":1761826880,"llaveProceso":"11001400307620170063500","consActuacion":44,"fechaActuacion":"2023-05-31T05:00:00.000Z","actuacion":"Constancia secretarial","anotacion":"Proceso hibrido baja del despacho con 1 cuadernos pasa a la letra// German B.","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2023-05-31T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":44}}
+{
+  "_id": "64e8790ba35a5c13a887baed",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 44742.148,
+    "entregagarantiasAbogado": "2017-07-19T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-07-21T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 2310089458,
+      "2": "4513088545588847// AUDIO PRESTAMO"
+    },
+    "radicado": "2017 - 00635",
+    "vencimientoPagare": "2019-08-18T00:00:00.000Z",
+    "expediente": "11001400307620170063500",
+    "juzgados": [
+      {
+        "id": 4,
+        "tipo": "JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-04-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Reintegra",
+  "categoryTag": 2,
+  "deudor": {
+    "tel": {
+      "fijo": 4088069,
+      "celular": 3125312823
+    },
+    "primerNombre": "FREDY",
+    "segundoNombre": null,
+    "primerApellido": "MENESES",
+    "segundoApellido": null,
+    "cedula": 86057132,
+    "direccion": "Carrera 40 D No. 1H-28",
+    "email": "imagenfmr@yahoo.com"
+  },
+  "numero": 165,
+  "llaveProceso": "11001400307620170063500",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 51497380,
+  "fecha": "2023-05-31T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:17.729Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1761826880,
+    "llaveProceso": "11001400307620170063500",
+    "consActuacion": 44,
+    "fechaActuacion": "2023-05-31T05:00:00.000Z",
+    "actuacion": "Constancia secretarial",
+    "anotacion": "Proceso hibrido baja del despacho con 1 cuadernos pasa a la letra// German B.",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2023-05-31T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 44
+  }
+}

@@ -1,1 +1,54 @@
-{"_id":"64e8790ba35a5c13a887baa5","demanda":{"departamento":null,"capitalAdeudado":"79862.886.23","entregagarantiasAbogado":"2017-09-20T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"1970-01-01T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":20990137187,"2":""},"radicado":"2016 - 00319","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001400308520160031900","juzgados":[{"id":85,"tipo":"JUZGADO 085 CIVIL MUNICIPAL DE BOGOTÁ ","url":"https://www.ramajudicial.gov.cojuzgado-085-civil-municipal-de-bogotá-"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"JOSE","segundoNombre":"ALFREDO","primerApellido":"RIAÑO","segundoApellido":"MALDONADO","cedula":19270589,"direccion":"CALLE 52 A BIS  No 35 B 41 SUR ","email":"conjuexeu@hotmail.com"},"numero":97,"llaveProceso":"11001400308520160031900","tipoProceso":"HIPOTECARIO","idProceso":77695680,"fecha":"2020-10-27T05:00:00.000Z","lastModified":"2023-08-25T09:58:21.479Z","ultimaActuacion":{"idRegActuacion":996537750,"llaveProceso":"11001400308520160031900","consActuacion":2,"fechaActuacion":"2020-10-27T05:00:00.000Z","actuacion":"Archivo Definitivo","anotacion":"Se envia a archivo definiivo Caja No. 02- 2020 ","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2020-10-27T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":2}}
+{
+  "_id": "64e8790ba35a5c13a887baa5",
+  "demanda": {
+    "departamento": null,
+    "capitalAdeudado": "79862.886.23",
+    "entregagarantiasAbogado": "2017-09-20T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "1970-01-01T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 20990137187, "2": "" },
+    "radicado": "2016 - 00319",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001400308520160031900",
+    "juzgados": [
+      {
+        "id": 85,
+        "tipo": "JUZGADO 085 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-085-civil-municipal-de-bogotá-"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "JOSE",
+    "segundoNombre": "ALFREDO",
+    "primerApellido": "RIAÑO",
+    "segundoApellido": "MALDONADO",
+    "cedula": 19270589,
+    "direccion": "CALLE 52 A BIS  No 35 B 41 SUR ",
+    "email": "conjuexeu@hotmail.com"
+  },
+  "numero": 97,
+  "llaveProceso": "11001400308520160031900",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 77695680,
+  "fecha": "2020-10-27T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:21.479Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 996537750,
+    "llaveProceso": "11001400308520160031900",
+    "consActuacion": 2,
+    "fechaActuacion": "2020-10-27T05:00:00.000Z",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "Se envia a archivo definiivo Caja No. 02- 2020 ",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2020-10-27T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 2
+  }
+}

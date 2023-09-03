@@ -1,1 +1,62 @@
-{"_id":"64e8790ba35a5c13a887bbf3","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":10224.254,"entregagarantiasAbogado":"2018-04-12T00:00:00.000Z","etapaProcesal":"1.100140030442018e+22","fechaPresentacion":"1970-01-01T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":377813488963894,"2":"4,55130702377226E+016"},"radicado":"2018 - 00566","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001400304420180056600","juzgados":[{"id":5,"tipo":"JUZGADO 005 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-05-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"ELDA","segundoNombre":null,"primerApellido":"YANET","segundoApellido":"CORTES","cedula":51712277,"direccion":"CALLE 48 N SUR No 3-90","email":"eldayanetcortes@gmail.com"},"numero":414,"llaveProceso":"11001400304420180056600","tipoProceso":"SINGULAR","idProceso":65703460,"fecha":"2022-05-02T05:00:00.000Z","lastModified":"2023-08-25T09:58:19.162Z","ultimaActuacion":{"idRegActuacion":1279553860,"llaveProceso":"11001400304420180056600","consActuacion":79,"fechaActuacion":"2022-05-02T05:00:00.000Z","actuacion":"Constancia secretarial","anotacion":"En atención a solicitud M-99661 se remitió información al usuario vía correo electrónico // Pasa a letra // Wendy Arias","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2022-05-02T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":78}}
+{
+  "_id": "64e8790ba35a5c13a887bbf3",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 10224.254,
+    "entregagarantiasAbogado": "2018-04-12T00:00:00.000Z",
+    "etapaProcesal": "1.100140030442018e+22",
+    "fechaPresentacion": "1970-01-01T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 377813488963894,
+      "2": "4,55130702377226E+016"
+    },
+    "radicado": "2018 - 00566",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001400304420180056600",
+    "juzgados": [
+      {
+        "id": 5,
+        "tipo": "JUZGADO 005 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-05-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "ELDA",
+    "segundoNombre": null,
+    "primerApellido": "YANET",
+    "segundoApellido": "CORTES",
+    "cedula": 51712277,
+    "direccion": "CALLE 48 N SUR No 3-90",
+    "email": "eldayanetcortes@gmail.com"
+  },
+  "numero": 414,
+  "llaveProceso": "11001400304420180056600",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 65703460,
+  "fecha": "2022-05-02T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:19.162Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1279553860,
+    "llaveProceso": "11001400304420180056600",
+    "consActuacion": 79,
+    "fechaActuacion": "2022-05-02T05:00:00.000Z",
+    "actuacion": "Constancia secretarial",
+    "anotacion": "En atención a solicitud M-99661 se remitió información al usuario vía correo electrónico // Pasa a letra // Wendy Arias",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2022-05-02T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 78
+  }
+}

@@ -1,1 +1,59 @@
-{"_id":"64e8790ba35a5c13a887bc24","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":22458.995,"entregagarantiasAbogado":"2018-07-10T00:00:00.000Z","etapaProcesal":"1.100140030322018e+22","fechaPresentacion":"1970-01-01T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":6980086687,"2":"N/A"},"radicado":"2018 - 00959","vencimientoPagare":"2021-03-17T00:00:00.000Z","expediente":"11001400303220180095900","juzgados":[{"id":8,"tipo":"JUZGADO 008 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-08-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"JOSE","segundoNombre":"ANTONIO","primerApellido":"FLOREZ","segundoApellido":"OVIEDO","cedula":93288875,"direccion":"CALLLE 147 No 17-60. INT 5 APTO 402","email":"joseaflorez@hotmail.com"},"numero":461,"llaveProceso":"11001400303220180095900","tipoProceso":"SINGULAR","idProceso":51318660,"fecha":"2021-03-25T05:00:00.000Z","lastModified":"2023-08-25T09:58:18.696Z","ultimaActuacion":{"idRegActuacion":1010546790,"llaveProceso":"11001400303220180095900","consActuacion":51,"fechaActuacion":"2021-03-25T05:00:00.000Z","actuacion":"Constancia secretarial","anotacion":"PASA AREA BARADA CITAS // MEMORIAL No 24450 // CLAUDIA ESCOBAR","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2021-03-25T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":51}}
+{
+  "_id": "64e8790ba35a5c13a887bc24",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 22458.995,
+    "entregagarantiasAbogado": "2018-07-10T00:00:00.000Z",
+    "etapaProcesal": "1.100140030322018e+22",
+    "fechaPresentacion": "1970-01-01T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 6980086687, "2": "N/A" },
+    "radicado": "2018 - 00959",
+    "vencimientoPagare": "2021-03-17T00:00:00.000Z",
+    "expediente": "11001400303220180095900",
+    "juzgados": [
+      {
+        "id": 8,
+        "tipo": "JUZGADO 008 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-08-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "JOSE",
+    "segundoNombre": "ANTONIO",
+    "primerApellido": "FLOREZ",
+    "segundoApellido": "OVIEDO",
+    "cedula": 93288875,
+    "direccion": "CALLLE 147 No 17-60. INT 5 APTO 402",
+    "email": "joseaflorez@hotmail.com"
+  },
+  "numero": 461,
+  "llaveProceso": "11001400303220180095900",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 51318660,
+  "fecha": "2021-03-25T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:18.696Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1010546790,
+    "llaveProceso": "11001400303220180095900",
+    "consActuacion": 51,
+    "fechaActuacion": "2021-03-25T05:00:00.000Z",
+    "actuacion": "Constancia secretarial",
+    "anotacion": "PASA AREA BARADA CITAS // MEMORIAL No 24450 // CLAUDIA ESCOBAR",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2021-03-25T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 51
+  }
+}

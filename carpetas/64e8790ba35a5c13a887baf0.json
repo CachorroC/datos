@@ -1,1 +1,62 @@
-{"_id":"64e8790ba35a5c13a887baf0","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"18141791,96","entregagarantiasAbogado":"2017-08-17T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-08-28T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":116942,"2":""},"radicado":"2017 - 00872","vencimientoPagare":"2024-03-24T00:00:00.000Z","expediente":"11001400301920170087200","juzgados":[{"id":19,"tipo":"JUZGADO 019 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-19-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":6861327,"celular":3164673352},"primerNombre":"MARIA","segundoNombre":"STELLA","primerApellido":"HERNANDEZ","segundoApellido":"BELTRAN ","cedula":21046826,"direccion":"CARRERA 7 # 71 - 24","email":"sergio830@hotmail.com"},"numero":168,"llaveProceso":"11001400301920170087200","tipoProceso":"HIPOTECARIO","idProceso":50667300,"fecha":"2018-09-04T05:00:00.000Z","lastModified":"2023-08-25T09:58:20.912Z","ultimaActuacion":{"idRegActuacion":670065960,"llaveProceso":"11001400301920170087200","consActuacion":21,"fechaActuacion":"2018-09-04T05:00:00.000Z","actuacion":"Archivo Definitivo","anotacion":"ARCHIVO DEFINITIVO CAJA 602 DE SEPTIEMBRE DE 2018-.","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2018-09-04T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":21}}
+{
+  "_id": "64e8790ba35a5c13a887baf0",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "18141791,96",
+    "entregagarantiasAbogado": "2017-08-17T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 116942, "2": "" },
+    "radicado": "2017 - 00872",
+    "vencimientoPagare": "2024-03-24T00:00:00.000Z",
+    "expediente": "11001400301920170087200",
+    "juzgados": [
+      {
+        "id": 19,
+        "tipo": "JUZGADO 019 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-19-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {
+      "fijo": 6861327,
+      "celular": 3164673352
+    },
+    "primerNombre": "MARIA",
+    "segundoNombre": "STELLA",
+    "primerApellido": "HERNANDEZ",
+    "segundoApellido": "BELTRAN ",
+    "cedula": 21046826,
+    "direccion": "CARRERA 7 # 71 - 24",
+    "email": "sergio830@hotmail.com"
+  },
+  "numero": 168,
+  "llaveProceso": "11001400301920170087200",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50667300,
+  "fecha": "2018-09-04T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:20.912Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 670065960,
+    "llaveProceso": "11001400301920170087200",
+    "consActuacion": 21,
+    "fechaActuacion": "2018-09-04T05:00:00.000Z",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "ARCHIVO DEFINITIVO CAJA 602 DE SEPTIEMBRE DE 2018-.",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2018-09-04T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 21
+  }
+}

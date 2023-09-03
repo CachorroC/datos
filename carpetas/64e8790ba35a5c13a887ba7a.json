@@ -1,42 +1,42 @@
 {
-    "_id": "64e8790ba35a5c13a887ba7a",
-    "category": "Terminados",
-    "categoryTag": 5,
-    "demanda": {
-        "capitalAdeudado": 35544456,
-        "departamento": {
-            "codigo": "25",
-            "descripcion": "CUNDINAMARCA",
-            "idCatalogoDetalle": 13,
-            "idCatalogoDetallePadre": 1
-        },
-        "entregagarantiasAbogado": "2017-06-12T00:00:00.000Z",
-        "etapaProcesal": "SENTENCIA",
-        "expediente": "25430400300120170108700",
-        "fechaPresentacion": "2017-06-20T00:00:00.000Z",
-        "juzgados": [],
-        "municipio": "MADRID",
-        "obligacion": {
-            "1": "3830084858//4090832249783283",
-            "2": "AUTOPRESTAMO"
-        },
-        "radicado": "2017 - 01087",
-        "vencimientoPagare": "2018-03-06T00:00:00.000Z"
+  "_id": "64e8790ba35a5c13a887ba7a",
+  "category": "Terminados",
+  "categoryTag": 5,
+  "demanda": {
+    "capitalAdeudado": 35544456,
+    "departamento": {
+      "codigo": "25",
+      "descripcion": "CUNDINAMARCA",
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1
     },
-    "deudor": {
-        "cedula": 80353430,
-        "direccion": "CALLE 11 A No. 3-29 URBANIZACION EL PORVENIR MADRID",
-        "email": "faride1109@yahoo.com",
-        "primerApellido": "RIOS",
-        "primerNombre": "DOUGLAS",
-        "segundoApellido": "",
-        "segundoNombre": "AYURE",
-        "tel": {
-            "celular": 3124488945,
-            "fijo": 0
-        }
+    "entregagarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "expediente": "25430400300120170108700",
+    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
+    "juzgados": [],
+    "municipio": "MADRID",
+    "obligacion": {
+      "1": "3830084858//4090832249783283",
+      "2": "AUTOPRESTAMO"
     },
-    "llaveProceso": "25430400300120170108700",
-    "numero": 55,
-    "tipoProceso": "SINGULAR"
+    "radicado": "2017 - 01087",
+    "vencimientoPagare": "2018-03-06T00:00:00.000Z"
+  },
+  "deudor": {
+    "cedula": 80353430,
+    "direccion": "CALLE 11 A No. 3-29 URBANIZACION EL PORVENIR MADRID",
+    "email": "faride1109@yahoo.com",
+    "primerApellido": "RIOS",
+    "primerNombre": "DOUGLAS",
+    "segundoApellido": "",
+    "segundoNombre": "AYURE",
+    "tel": {
+      "celular": 3124488945,
+      "fijo": 0
+    }
+  },
+  "llaveProceso": "25430400300120170108700",
+  "numero": 55,
+  "tipoProceso": "SINGULAR"
 }

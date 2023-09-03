@@ -1,1 +1,65 @@
-{"_id":"64e8790ba35a5c13a887bae2","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":29366625.4,"entregagarantiasAbogado":"2017-08-23T00:00:00.000Z","etapaProcesal":"EL 11/07/2018 EL JUZGADO DECRETA TERMINACION PROCESO POR PAGO CUOTAS EN MORA // EL 5/09/2018 SE DEVOLVIERON GARANTIAS A AECSA S.A. // 30/08/2022 NO SE HAN LEVANTADO MEDIDAS CAUTELARES// PAGAR DESARCHIVE Y TRAMITAR OFICIO RECIENTE // ARCHIVO DEFINITIVO 596-2018","fechaPresentacion":"2018-09-05T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":5670083032,"2":"377813199287708 // 4513075700372455 // 123470"},"radicado":"2017 - 00841","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001400303620170084100","juzgados":[{"id":36,"tipo":"JUZGADO 036 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-036-civil-municipal-de-bogota"}]},"category":"LiosJuridicos","categoryTag":3,"deudor":{"tel":{"fijo":7347505,"celular":3112945552},"primerNombre":"GABRIEL","segundoNombre":"EDUARDO","primerApellido":"MEJIA","segundoApellido":"LADINO ","cedula":79840930,"direccion":"CARRERA 79 BIS A # 73 - 92 SUR APTO 304 INT 3 ","email":"gabriel.eml@hotmail.com"},"numero":154,"llaveProceso":"11001400303620170084100","tipoProceso":"HIPOTECARIO","idProceso":50688820,"fecha":"2023-08-16T05:00:00.000Z","lastModified":"2023-08-25T09:58:18.180Z","ultimaActuacion":{"idRegActuacion":1846773190,"llaveProceso":"11001400303620170084100","consActuacion":41,"fechaActuacion":"2023-08-16T05:00:00.000Z","actuacion":"Entrega de oficios","anotacion":"DRA. CARMEN CECILIA RAMIREZ MUÑOZ REPRESENTANTE LEGA RS ASESORIA JURIDICA CELULAR 313 256 75 73, RETIRA OFICIO 00925 CANCELADO EMBARGO PO R TERMINACION  PAGO DE LAS CUOTAS EN MORA                                                                                                                                                                                                  Carrera 63 No. 22-31 Oficina 2-06 – Bogotá Colombia.\r\nTeléfono Celular 3142238363 email: mhsuarezg@gmail.com\r\ngerencia@rysasesorjuridico.com rscojuez@gmail.com                                                                                                                                                                                                               EL PROCESO QUEDA EN EL ONE DRIVE CARPETA DE DESARCHIVADOS","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2023-08-16T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":41}}
+{
+  "_id": "64e8790ba35a5c13a887bae2",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 29366625.4,
+    "entregagarantiasAbogado": "2017-08-23T00:00:00.000Z",
+    "etapaProcesal": "EL 11/07/2018 EL JUZGADO DECRETA TERMINACION PROCESO POR PAGO CUOTAS EN MORA // EL 5/09/2018 SE DEVOLVIERON GARANTIAS A AECSA S.A. // 30/08/2022 NO SE HAN LEVANTADO MEDIDAS CAUTELARES// PAGAR DESARCHIVE Y TRAMITAR OFICIO RECIENTE // ARCHIVO DEFINITIVO 596-2018",
+    "fechaPresentacion": "2018-09-05T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 5670083032,
+      "2": "377813199287708 // 4513075700372455 // 123470"
+    },
+    "radicado": "2017 - 00841",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001400303620170084100",
+    "juzgados": [
+      {
+        "id": 36,
+        "tipo": "JUZGADO 036 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-036-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "LiosJuridicos",
+  "categoryTag": 3,
+  "deudor": {
+    "tel": {
+      "fijo": 7347505,
+      "celular": 3112945552
+    },
+    "primerNombre": "GABRIEL",
+    "segundoNombre": "EDUARDO",
+    "primerApellido": "MEJIA",
+    "segundoApellido": "LADINO ",
+    "cedula": 79840930,
+    "direccion": "CARRERA 79 BIS A # 73 - 92 SUR APTO 304 INT 3 ",
+    "email": "gabriel.eml@hotmail.com"
+  },
+  "numero": 154,
+  "llaveProceso": "11001400303620170084100",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50688820,
+  "fecha": "2023-08-16T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:18.180Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1846773190,
+    "llaveProceso": "11001400303620170084100",
+    "consActuacion": 41,
+    "fechaActuacion": "2023-08-16T05:00:00.000Z",
+    "actuacion": "Entrega de oficios",
+    "anotacion": "DRA. CARMEN CECILIA RAMIREZ MUÑOZ REPRESENTANTE LEGA RS ASESORIA JURIDICA CELULAR 313 256 75 73, RETIRA OFICIO 00925 CANCELADO EMBARGO PO R TERMINACION  PAGO DE LAS CUOTAS EN MORA                                                                                                                                                                                                  Carrera 63 No. 22-31 Oficina 2-06 – Bogotá Colombia.\r\nTeléfono Celular 3142238363 email: mhsuarezg@gmail.com\r\ngerencia@rysasesorjuridico.com rscojuez@gmail.com                                                                                                                                                                                                               EL PROCESO QUEDA EN EL ONE DRIVE CARPETA DE DESARCHIVADOS",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2023-08-16T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 41
+  }
+}

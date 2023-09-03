@@ -1,1 +1,34 @@
-{"_id":"64e8790ba35a5c13a887bbac","demanda":{"departamento":null,"capitalAdeudado":"11831.747.86","entregagarantiasAbogado":"2017-11-10T00:00:00.000Z","etapaProcesal":"SENTENCIA","fechaPresentacion":"2017-11-21T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":4513080135113862,"2":"AUDIOPRESTAMO"},"radicado":"2017 - 01525","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001400303920170152500","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":2869149,"celular":0},"primerNombre":"MARIA","segundoNombre":"ELENA","primerApellido":"ZULUAGA","segundoApellido":"URIBE","cedula":41888857,"direccion":"CALLE 19 No  18 - 54 APARTAMENTO 301","email":"equiposysuministroscapital@hotmail.com"},"numero":347,"llaveProceso":"11001400303920170152500","tipoProceso":"SINGULAR"}
+{
+  "_id": "64e8790ba35a5c13a887bbac",
+  "demanda": {
+    "departamento": null,
+    "capitalAdeudado": "11831.747.86",
+    "entregagarantiasAbogado": "2017-11-10T00:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-11-21T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 4513080135113862,
+      "2": "AUDIOPRESTAMO"
+    },
+    "radicado": "2017 - 01525",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001400303920170152500",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 2869149, "celular": 0 },
+    "primerNombre": "MARIA",
+    "segundoNombre": "ELENA",
+    "primerApellido": "ZULUAGA",
+    "segundoApellido": "URIBE",
+    "cedula": 41888857,
+    "direccion": "CALLE 19 No  18 - 54 APARTAMENTO 301",
+    "email": "equiposysuministroscapital@hotmail.com"
+  },
+  "numero": 347,
+  "llaveProceso": "11001400303920170152500",
+  "tipoProceso": "SINGULAR"
+}

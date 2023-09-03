@@ -1,1 +1,37 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"ANGEL","segundoNombre":"JOVANI","primerApellido":"SUAREZ","segundoApellido":"GOMEZ","cedula":1023863956,"direccion":"CALLE 67 C SUR 1 B 23 EST","email":"angelsuarez.23@hotmail.com"},"numero":252,"tipoProceso":"HIPOTECARIO","idProceso":50745490,"llaveProceso":"11001400303420170123600","categoryTag":5,"demanda":{"departamento":null,"capitalAdeudado":"26469.309.75","entregagarantiasAbogado":"2017-09-05T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-09-14T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":147600,"2":""},"radicado":"2017 - 01236","vencimientoPagare":"2027-01-05T00:00:00.000Z","expediente":"11001400303420170123600","juzgados":[{"id":34,"tipo":"JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ANGEL",
+    "segundoNombre": "JOVANI",
+    "primerApellido": "SUAREZ",
+    "segundoApellido": "GOMEZ",
+    "cedula": 1023863956,
+    "direccion": "CALLE 67 C SUR 1 B 23 EST",
+    "email": "angelsuarez.23@hotmail.com"
+  },
+  "numero": 252,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50745490,
+  "llaveProceso": "11001400303420170123600",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": null,
+    "capitalAdeudado": "26469.309.75",
+    "entregagarantiasAbogado": "2017-09-05T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-14T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 147600, "2": "" },
+    "radicado": "2017 - 01236",
+    "vencimientoPagare": "2027-01-05T00:00:00.000Z",
+    "expediente": "11001400303420170123600",
+    "juzgados": [
+      {
+        "id": 34,
+        "tipo": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

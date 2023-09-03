@@ -1,1 +1,59 @@
-{"_id":"64e8790ba35a5c13a887bad6","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":9079297,"entregagarantiasAbogado":"2017-08-17T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-08-22T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":4280023643,"2":""},"radicado":"2017 - 01089","vencimientoPagare":"2017-06-30T00:00:00.000Z","expediente":"11001400303420170108900","juzgados":[{"id":34,"tipo":"JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"PAOLA","segundoNombre":"ANDREA","primerApellido":"RODRIGUEZ","segundoApellido":"MORALES","cedula":1023904524,"direccion":"CALLE 22C SUR # 5 - 54","email":"dalila_paito@hotmail.com"},"numero":143,"llaveProceso":"11001400303420170108900","tipoProceso":"SINGULAR","idProceso":50654580,"fecha":"2019-03-07T05:00:00.000Z","lastModified":"2023-08-25T09:58:21.084Z","ultimaActuacion":{"idRegActuacion":764063990,"llaveProceso":"11001400303420170108900","consActuacion":24,"fechaActuacion":"2019-03-07T05:00:00.000Z","actuacion":"Archivo Definitivo","anotacion":"PAQUETE 605 TER ","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2019-03-07T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":24}}
+{
+  "_id": "64e8790ba35a5c13a887bad6",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 9079297,
+    "entregagarantiasAbogado": "2017-08-17T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-22T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 4280023643, "2": "" },
+    "radicado": "2017 - 01089",
+    "vencimientoPagare": "2017-06-30T00:00:00.000Z",
+    "expediente": "11001400303420170108900",
+    "juzgados": [
+      {
+        "id": 34,
+        "tipo": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "PAOLA",
+    "segundoNombre": "ANDREA",
+    "primerApellido": "RODRIGUEZ",
+    "segundoApellido": "MORALES",
+    "cedula": 1023904524,
+    "direccion": "CALLE 22C SUR # 5 - 54",
+    "email": "dalila_paito@hotmail.com"
+  },
+  "numero": 143,
+  "llaveProceso": "11001400303420170108900",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50654580,
+  "fecha": "2019-03-07T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:21.084Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 764063990,
+    "llaveProceso": "11001400303420170108900",
+    "consActuacion": 24,
+    "fechaActuacion": "2019-03-07T05:00:00.000Z",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "PAQUETE 605 TER ",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2019-03-07T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 24
+  }
+}

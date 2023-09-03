@@ -1,1 +1,46 @@
-{"_id":"64e8790ba35a5c13a887ba64","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"5303716097990273// AUDIOPRESTAMOS","entregagarantiasAbogado":"2017-05-30T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-06-09T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":377813824603022,"2":4513078713738027},"radicado":"2017 - 00649","vencimientoPagare":"2020-03-03T00:00:00.000Z","expediente":"11001400308220170064900","juzgados":[{"id":82,"tipo":"JUZGADO 082 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-082-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":3118113651},"primerNombre":"NINI","segundoNombre":"JOHANA","primerApellido":"CORTES","segundoApellido":"MONROY ","cedula":28936365,"direccion":"CALLE 401 SUR 72 L -40 CRISTALES  BOGOTA","email":"snaluistol@gmail.com"},"numero":33,"llaveProceso":"11001400308220170064900","tipoProceso":"SINGULAR","idProceso":81869251}
+{
+  "_id": "64e8790ba35a5c13a887ba64",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "5303716097990273// AUDIOPRESTAMOS",
+    "entregagarantiasAbogado": "2017-05-30T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-09T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 377813824603022,
+      "2": 4513078713738027
+    },
+    "radicado": "2017 - 00649",
+    "vencimientoPagare": "2020-03-03T00:00:00.000Z",
+    "expediente": "11001400308220170064900",
+    "juzgados": [
+      {
+        "id": 82,
+        "tipo": "JUZGADO 082 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-082-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 3118113651 },
+    "primerNombre": "NINI",
+    "segundoNombre": "JOHANA",
+    "primerApellido": "CORTES",
+    "segundoApellido": "MONROY ",
+    "cedula": 28936365,
+    "direccion": "CALLE 401 SUR 72 L -40 CRISTALES  BOGOTA",
+    "email": "snaluistol@gmail.com"
+  },
+  "numero": 33,
+  "llaveProceso": "11001400308220170064900",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 81869251
+}

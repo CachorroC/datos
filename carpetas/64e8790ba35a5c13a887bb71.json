@@ -1,1 +1,62 @@
-{"_id":"64e8790ba35a5c13a887bb71","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"13869.971.40","entregagarantiasAbogado":"2017-09-27T00:00:00.000Z","etapaProcesal":"SUSPENDIDO","fechaPresentacion":"2017-10-06T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":83616,"2":""},"radicado":"2017 - 00975","vencimientoPagare":"2020-12-13T00:00:00.000Z","expediente":"11001400305920170097500","juzgados":[{"id":59,"tipo":"JUZGADO 059 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-59-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":6051177,"celular":3152504510},"primerNombre":"ELIZABETH","segundoNombre":null,"primerApellido":"GIL","segundoApellido":"RODRIGUEZ","cedula":40035102,"direccion":"DIAGONAL 15 B - 104 - 45 CASA  55","email":"luz.y31@hotmail.com"},"numero":290,"llaveProceso":"11001400305920170097500","tipoProceso":"HIPOTECARIO","idProceso":50765330,"fecha":"2020-03-19T05:00:00.000Z","lastModified":"2023-08-25T09:58:20.156Z","ultimaActuacion":{"idRegActuacion":976059170,"llaveProceso":"11001400305920170097500","consActuacion":40,"fechaActuacion":"2020-03-19T05:00:00.000Z","actuacion":"Archivo Definitivo","anotacion":"PQ 27- 2020","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2020-03-19T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":40}}
+{
+  "_id": "64e8790ba35a5c13a887bb71",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "13869.971.40",
+    "entregagarantiasAbogado": "2017-09-27T00:00:00.000Z",
+    "etapaProcesal": "SUSPENDIDO",
+    "fechaPresentacion": "2017-10-06T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 83616, "2": "" },
+    "radicado": "2017 - 00975",
+    "vencimientoPagare": "2020-12-13T00:00:00.000Z",
+    "expediente": "11001400305920170097500",
+    "juzgados": [
+      {
+        "id": 59,
+        "tipo": "JUZGADO 059 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-59-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {
+      "fijo": 6051177,
+      "celular": 3152504510
+    },
+    "primerNombre": "ELIZABETH",
+    "segundoNombre": null,
+    "primerApellido": "GIL",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": 40035102,
+    "direccion": "DIAGONAL 15 B - 104 - 45 CASA  55",
+    "email": "luz.y31@hotmail.com"
+  },
+  "numero": 290,
+  "llaveProceso": "11001400305920170097500",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50765330,
+  "fecha": "2020-03-19T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:20.156Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 976059170,
+    "llaveProceso": "11001400305920170097500",
+    "consActuacion": 40,
+    "fechaActuacion": "2020-03-19T05:00:00.000Z",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "PQ 27- 2020",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2020-03-19T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 40
+  }
+}

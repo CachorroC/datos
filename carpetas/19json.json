@@ -1,1 +1,123 @@
-{"actuaciones":[{"idRegActuacion":683021000,"llaveProceso":"11001400302120170175500","consActuacion":8,"fechaActuacion":"2018-02-01T00:00:00","actuacion":"Retiro Demanda Rechazada","anotacion":"POR DIANA PATRICIA TRIANA SUAREZ.","fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2018-02-01T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":8},{"idRegActuacion":683020990,"llaveProceso":"11001400302120170175500","consActuacion":7,"fechaActuacion":"2017-12-13T00:00:00","actuacion":"Fijacion estado","anotacion":"Actuación registrada el 13/12/2017 a las 14:04:49.","fechaInicial":"2017-12-14T00:00:00","fechaFinal":"2017-12-14T00:00:00","fechaRegistro":"2017-12-13T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":8},{"idRegActuacion":683020980,"llaveProceso":"11001400302120170175500","consActuacion":6,"fechaActuacion":"2017-12-13T00:00:00","actuacion":"Auto rechaza demanda","anotacion":null,"fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2017-12-13T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":8},{"idRegActuacion":683020970,"llaveProceso":"11001400302120170175500","consActuacion":5,"fechaActuacion":"2017-12-12T00:00:00","actuacion":"Al despacho","anotacion":null,"fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2017-12-12T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":8},{"idRegActuacion":683020960,"llaveProceso":"11001400302120170175500","consActuacion":4,"fechaActuacion":"2017-11-27T00:00:00","actuacion":"Fijacion estado","anotacion":"Actuación registrada el 27/11/2017 a las 17:15:53.","fechaInicial":"2017-11-28T00:00:00","fechaFinal":"2017-11-28T00:00:00","fechaRegistro":"2017-11-27T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":8},{"idRegActuacion":683020950,"llaveProceso":"11001400302120170175500","consActuacion":3,"fechaActuacion":"2017-11-27T00:00:00","actuacion":"Auto inadmite demanda","anotacion":null,"fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2017-11-27T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":8},{"idRegActuacion":683020940,"llaveProceso":"11001400302120170175500","consActuacion":2,"fechaActuacion":"2017-11-24T00:00:00","actuacion":"Al despacho","anotacion":null,"fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2017-11-24T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":8},{"idRegActuacion":683020930,"llaveProceso":"11001400302120170175500","consActuacion":1,"fechaActuacion":"2017-11-24T00:00:00","actuacion":" Radicación de Proceso","anotacion":"Actuación de  Radicación de Proceso  realizada el 24/11/2017 a las 13:17:37","fechaInicial":"2017-11-24T00:00:00","fechaFinal":"2017-11-24T00:00:00","fechaRegistro":"2017-11-24T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":8}],"paginacion":{"cantidadRegistros":8,"registrosPagina":40,"cantidadPaginas":1,"pagina":1,"paginas":null}}
+{
+  "actuaciones": [
+    {
+      "idRegActuacion": 683021000,
+      "llaveProceso": "11001400302120170175500",
+      "consActuacion": 8,
+      "fechaActuacion": "2018-02-01T00:00:00",
+      "actuacion": "Retiro Demanda Rechazada",
+      "anotacion": "POR DIANA PATRICIA TRIANA SUAREZ.",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-02-01T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 8
+    },
+    {
+      "idRegActuacion": 683020990,
+      "llaveProceso": "11001400302120170175500",
+      "consActuacion": 7,
+      "fechaActuacion": "2017-12-13T00:00:00",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 13/12/2017 a las 14:04:49.",
+      "fechaInicial": "2017-12-14T00:00:00",
+      "fechaFinal": "2017-12-14T00:00:00",
+      "fechaRegistro": "2017-12-13T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 8
+    },
+    {
+      "idRegActuacion": 683020980,
+      "llaveProceso": "11001400302120170175500",
+      "consActuacion": 6,
+      "fechaActuacion": "2017-12-13T00:00:00",
+      "actuacion": "Auto rechaza demanda",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2017-12-13T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 8
+    },
+    {
+      "idRegActuacion": 683020970,
+      "llaveProceso": "11001400302120170175500",
+      "consActuacion": 5,
+      "fechaActuacion": "2017-12-12T00:00:00",
+      "actuacion": "Al despacho",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2017-12-12T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 8
+    },
+    {
+      "idRegActuacion": 683020960,
+      "llaveProceso": "11001400302120170175500",
+      "consActuacion": 4,
+      "fechaActuacion": "2017-11-27T00:00:00",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 27/11/2017 a las 17:15:53.",
+      "fechaInicial": "2017-11-28T00:00:00",
+      "fechaFinal": "2017-11-28T00:00:00",
+      "fechaRegistro": "2017-11-27T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 8
+    },
+    {
+      "idRegActuacion": 683020950,
+      "llaveProceso": "11001400302120170175500",
+      "consActuacion": 3,
+      "fechaActuacion": "2017-11-27T00:00:00",
+      "actuacion": "Auto inadmite demanda",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2017-11-27T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 8
+    },
+    {
+      "idRegActuacion": 683020940,
+      "llaveProceso": "11001400302120170175500",
+      "consActuacion": 2,
+      "fechaActuacion": "2017-11-24T00:00:00",
+      "actuacion": "Al despacho",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2017-11-24T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 8
+    },
+    {
+      "idRegActuacion": 683020930,
+      "llaveProceso": "11001400302120170175500",
+      "consActuacion": 1,
+      "fechaActuacion": "2017-11-24T00:00:00",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 24/11/2017 a las 13:17:37",
+      "fechaInicial": "2017-11-24T00:00:00",
+      "fechaFinal": "2017-11-24T00:00:00",
+      "fechaRegistro": "2017-11-24T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 8
+    }
+  ],
+  "paginacion": {
+    "cantidadRegistros": 8,
+    "registrosPagina": 40,
+    "cantidadPaginas": 1,
+    "pagina": 1,
+    "paginas": null
+  }
+}

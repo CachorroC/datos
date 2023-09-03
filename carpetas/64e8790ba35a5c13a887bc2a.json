@@ -1,1 +1,65 @@
-{"_id":"64e8790ba35a5c13a887bc2a","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":14270.897,"entregagarantiasAbogado":"1970-01-01T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2018-05-02T05:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":"37781415851035/","2":"4099830008406922 / 5303710339142355"},"radicado":"2018 - 00117","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001400305220180011700","juzgados":[{"id":17,"tipo":"JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Reintegra","categoryTag":2,"deudor":{"tel":{"fijo":4933266,"celular":3115754578},"primerNombre":"DARLEY","segundoNombre":"JULIED","primerApellido":"PAEZ","segundoApellido":"HIGUERA","cedula":53160094,"direccion":"CALLE 130 No 126-96 INTERIOR 16 APARTAMENTO 302","email":"djpaez5@hotmail.com"},"numero":466,"llaveProceso":"11001400305220180011700","tipoProceso":"SINGULAR","idProceso":50990370,"fecha":"2023-04-13T05:00:00.000Z","lastModified":"2023-08-25T09:58:16.770Z","ultimaActuacion":{"idRegActuacion":1710300950,"llaveProceso":"11001400305220180011700","consActuacion":64,"fechaActuacion":"2023-04-13T05:00:00.000Z","actuacion":"Constancia secretarial","anotacion":"HIBRIDO SE RECEPCIONA DEL DESPACHO PASA A LETRA//JULIAN BERMUDEZ","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2023-04-13T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":64}}
+{
+  "_id": "64e8790ba35a5c13a887bc2a",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 14270.897,
+    "entregagarantiasAbogado": "1970-01-01T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-05-02T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "37781415851035/",
+      "2": "4099830008406922 / 5303710339142355"
+    },
+    "radicado": "2018 - 00117",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001400305220180011700",
+    "juzgados": [
+      {
+        "id": 17,
+        "tipo": "JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Reintegra",
+  "categoryTag": 2,
+  "deudor": {
+    "tel": {
+      "fijo": 4933266,
+      "celular": 3115754578
+    },
+    "primerNombre": "DARLEY",
+    "segundoNombre": "JULIED",
+    "primerApellido": "PAEZ",
+    "segundoApellido": "HIGUERA",
+    "cedula": 53160094,
+    "direccion": "CALLE 130 No 126-96 INTERIOR 16 APARTAMENTO 302",
+    "email": "djpaez5@hotmail.com"
+  },
+  "numero": 466,
+  "llaveProceso": "11001400305220180011700",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50990370,
+  "fecha": "2023-04-13T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:16.770Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1710300950,
+    "llaveProceso": "11001400305220180011700",
+    "consActuacion": 64,
+    "fechaActuacion": "2023-04-13T05:00:00.000Z",
+    "actuacion": "Constancia secretarial",
+    "anotacion": "HIBRIDO SE RECEPCIONA DEL DESPACHO PASA A LETRA//JULIAN BERMUDEZ",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2023-04-13T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 64
+  }
+}

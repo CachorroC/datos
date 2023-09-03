@@ -1,1 +1,29 @@
-{"StatusCode":500,"Message":"Object reference not set to an instance of an object."}
+{
+  "demanda": {
+    "departamento": null,
+    "juzgados": [],
+    "capitalAdeudado": 16827889,
+    "entregagarantiasAbogado": "2023-08-24T00:00:00.000Z",
+    "fechaPresentacion": null,
+    "municipio": "",
+    "obligacion": { "1": 3830095609, "2": "N-A" },
+    "radicado": "",
+    "vencimientoPagare": "2026-03-06T00:00:00.000Z",
+    "expediente": ""
+  },
+  "category": "Bancolombia",
+  "categoryTag": 1,
+  "deudor": {
+    "tel": { "celular": 3133073186 },
+    "primerNombre": "PEDRO",
+    "segundoNombre": "ANTONIO",
+    "primerApellido": "DUARTE",
+    "segundoApellido": "VARGAS",
+    "cedula": 7228260,
+    "direccion": "Calle 23 No. 12 - 50 Bloque 14 Apto 15 Madrid (Cundinamarca)",
+    "email": "duartepedroantonio@hotmail.com"
+  },
+  "numero": 582,
+  "llaveProceso": "",
+  "tipoProceso": "SINGULAR"
+}

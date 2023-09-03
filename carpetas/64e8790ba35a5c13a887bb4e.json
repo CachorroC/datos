@@ -1,1 +1,62 @@
-{"_id":"64e8790ba35a5c13a887bb4e","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"6165.522.03","entregagarantiasAbogado":"2017-09-18T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-09-21T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":40800882948,"2":96296},"radicado":"2017 - 01410","vencimientoPagare":"2019-09-02T00:00:00.000Z","expediente":"11001400300720170141000","juzgados":[{"id":7,"tipo":"JUZGADO 007 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-007-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"FREDDY","segundoNombre":null,"primerApellido":"ARIAS","segundoApellido":"MARTINEZ","cedula":79881862,"direccion":"TRANSVERSAL 112 C No  64 D -15, BLOQUE 7 APARTAMENTO 4","email":"freddydanasebas@hotmail.com"},"numero":256,"llaveProceso":"11001400300720170141000","tipoProceso":"HIPOTECARIO","idProceso":50726160,"fecha":"2018-04-26T05:00:00.000Z","lastModified":"2023-08-25T09:58:20.296Z","ultimaActuacion":{"idRegActuacion":594690170,"llaveProceso":"11001400300720170141000","consActuacion":21,"fechaActuacion":"2018-04-26T05:00:00.000Z","actuacion":"Archivo Definitivo","anotacion":"PAQ. 591-2018","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2018-04-26T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":21}}
+{
+  "_id": "64e8790ba35a5c13a887bb4e",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "6165.522.03",
+    "entregagarantiasAbogado": "2017-09-18T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-21T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 40800882948,
+      "2": 96296
+    },
+    "radicado": "2017 - 01410",
+    "vencimientoPagare": "2019-09-02T00:00:00.000Z",
+    "expediente": "11001400300720170141000",
+    "juzgados": [
+      {
+        "id": 7,
+        "tipo": "JUZGADO 007 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-007-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "FREDDY",
+    "segundoNombre": null,
+    "primerApellido": "ARIAS",
+    "segundoApellido": "MARTINEZ",
+    "cedula": 79881862,
+    "direccion": "TRANSVERSAL 112 C No  64 D -15, BLOQUE 7 APARTAMENTO 4",
+    "email": "freddydanasebas@hotmail.com"
+  },
+  "numero": 256,
+  "llaveProceso": "11001400300720170141000",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50726160,
+  "fecha": "2018-04-26T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:20.296Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 594690170,
+    "llaveProceso": "11001400300720170141000",
+    "consActuacion": 21,
+    "fechaActuacion": "2018-04-26T05:00:00.000Z",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "PAQ. 591-2018",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2018-04-26T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 21
+  }
+}

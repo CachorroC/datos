@@ -1,1 +1,59 @@
-{"_id":"64e8790ba35a5c13a887ba5d","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":17307.303,"entregagarantiasAbogado":"2017-05-19T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-05-30T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":20990116310,"2":""},"radicado":"2017 - 00827","vencimientoPagare":"2024-03-03T00:00:00.000Z","expediente":"11001400306520170082700","juzgados":[{"id":65,"tipo":"JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-65-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":3183517022},"primerNombre":"YUDY","segundoNombre":null,"primerApellido":"RODRIGUEZ","segundoApellido":null,"cedula":52744376,"direccion":"CALLE 67 No.86A-49 BOGOTA","email":"N/A"},"numero":26,"llaveProceso":"11001400306520170082700","tipoProceso":"HIPOTECARIO","idProceso":18161830,"fecha":"2019-06-25T05:00:00.000Z","lastModified":"2023-08-25T09:58:21.906Z","ultimaActuacion":{"idRegActuacion":550291430,"llaveProceso":"11001400306520170082700","consActuacion":37,"fechaActuacion":"2019-06-25T05:00:00.000Z","actuacion":"Archivo Definitivo","anotacion":"paquetes terminados 640","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2019-06-25T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":37}}
+{
+  "_id": "64e8790ba35a5c13a887ba5d",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 17307.303,
+    "entregagarantiasAbogado": "2017-05-19T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 20990116310, "2": "" },
+    "radicado": "2017 - 00827",
+    "vencimientoPagare": "2024-03-03T00:00:00.000Z",
+    "expediente": "11001400306520170082700",
+    "juzgados": [
+      {
+        "id": 65,
+        "tipo": "JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-65-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 3183517022 },
+    "primerNombre": "YUDY",
+    "segundoNombre": null,
+    "primerApellido": "RODRIGUEZ",
+    "segundoApellido": null,
+    "cedula": 52744376,
+    "direccion": "CALLE 67 No.86A-49 BOGOTA",
+    "email": "N/A"
+  },
+  "numero": 26,
+  "llaveProceso": "11001400306520170082700",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 18161830,
+  "fecha": "2019-06-25T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:21.906Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 550291430,
+    "llaveProceso": "11001400306520170082700",
+    "consActuacion": 37,
+    "fechaActuacion": "2019-06-25T05:00:00.000Z",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "paquetes terminados 640",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2019-06-25T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 37
+  }
+}

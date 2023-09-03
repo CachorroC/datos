@@ -1,1 +1,59 @@
-{"_id":"64e8790ba35a5c13a887bb7a","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"96442.977.80","entregagarantiasAbogado":"2017-10-13T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-10-17T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":155487,"2":""},"radicado":"2017 - 00986","vencimientoPagare":"2017-04-04T00:00:00.000Z","expediente":"11001400307820170098600","juzgados":[{"id":78,"tipo":"JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-78-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":3164700074},"primerNombre":"HECTOR","segundoNombre":"GABRIEL","primerApellido":"RAMIREZ","segundoApellido":"BOHORQUEZ","cedula":79659040,"direccion":" CALLE 58 A SUR No 18 B -35 INT 6","email":"gabrielisag61@hotmail.com"},"numero":298,"llaveProceso":"11001400307820170098600","tipoProceso":"HIPOTECARIO","idProceso":51570460,"fecha":"2019-01-15T05:00:00.000Z","lastModified":"2023-08-25T09:58:20.140Z","ultimaActuacion":{"idRegActuacion":857000690,"llaveProceso":"11001400307820170098600","consActuacion":2,"fechaActuacion":"2019-01-15T05:00:00.000Z","actuacion":"Constancia secretarial","anotacion":"SE ENTREGO DESGLOSE","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2019-01-15T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":2}}
+{
+  "_id": "64e8790ba35a5c13a887bb7a",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "96442.977.80",
+    "entregagarantiasAbogado": "2017-10-13T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-10-17T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 155487, "2": "" },
+    "radicado": "2017 - 00986",
+    "vencimientoPagare": "2017-04-04T00:00:00.000Z",
+    "expediente": "11001400307820170098600",
+    "juzgados": [
+      {
+        "id": 78,
+        "tipo": "JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-78-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 3164700074 },
+    "primerNombre": "HECTOR",
+    "segundoNombre": "GABRIEL",
+    "primerApellido": "RAMIREZ",
+    "segundoApellido": "BOHORQUEZ",
+    "cedula": 79659040,
+    "direccion": " CALLE 58 A SUR No 18 B -35 INT 6",
+    "email": "gabrielisag61@hotmail.com"
+  },
+  "numero": 298,
+  "llaveProceso": "11001400307820170098600",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 51570460,
+  "fecha": "2019-01-15T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:20.140Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 857000690,
+    "llaveProceso": "11001400307820170098600",
+    "consActuacion": 2,
+    "fechaActuacion": "2019-01-15T05:00:00.000Z",
+    "actuacion": "Constancia secretarial",
+    "anotacion": "SE ENTREGO DESGLOSE",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2019-01-15T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 2
+  }
+}

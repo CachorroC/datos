@@ -1,1 +1,62 @@
-{"_id":"64e8790ba35a5c13a887bb2b","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"51145474,58","entregagarantiasAbogado":"2017-08-30T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-09-04T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":96356,"2":""},"radicado":"2017 - 00858","vencimientoPagare":"2022-05-03T00:00:00.000Z","expediente":"11001400302820170085800","juzgados":[{"id":28,"tipo":"JUZGADO 028 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-28-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":5705869,"celular":3005705869},"primerNombre":"DUFRESNY","segundoNombre":null,"primerApellido":"AUGUSTO","segundoApellido":"PINILLA","cedula":79332273,"direccion":"CARRERA 13 # 155 - 88 CASA 39","email":"htcolombia@gmail.com"},"numero":222,"llaveProceso":"11001400302820170085800","tipoProceso":"HIPOTECARIO","idProceso":50688520,"fecha":"2017-12-07T05:00:00.000Z","lastModified":"2023-08-25T09:58:20.547Z","ultimaActuacion":{"idRegActuacion":725462990,"llaveProceso":"11001400302820170085800","consActuacion":6,"fechaActuacion":"2017-12-07T05:00:00.000Z","actuacion":"Retiro demanda admitida - Art.88","anotacion":"RETIRADA POR DIANA TRIANA AUTORIZADA ","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2017-12-07T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":6}}
+{
+  "_id": "64e8790ba35a5c13a887bb2b",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "51145474,58",
+    "entregagarantiasAbogado": "2017-08-30T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 96356, "2": "" },
+    "radicado": "2017 - 00858",
+    "vencimientoPagare": "2022-05-03T00:00:00.000Z",
+    "expediente": "11001400302820170085800",
+    "juzgados": [
+      {
+        "id": 28,
+        "tipo": "JUZGADO 028 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-28-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {
+      "fijo": 5705869,
+      "celular": 3005705869
+    },
+    "primerNombre": "DUFRESNY",
+    "segundoNombre": null,
+    "primerApellido": "AUGUSTO",
+    "segundoApellido": "PINILLA",
+    "cedula": 79332273,
+    "direccion": "CARRERA 13 # 155 - 88 CASA 39",
+    "email": "htcolombia@gmail.com"
+  },
+  "numero": 222,
+  "llaveProceso": "11001400302820170085800",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50688520,
+  "fecha": "2017-12-07T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:20.547Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 725462990,
+    "llaveProceso": "11001400302820170085800",
+    "consActuacion": 6,
+    "fechaActuacion": "2017-12-07T05:00:00.000Z",
+    "actuacion": "Retiro demanda admitida - Art.88",
+    "anotacion": "RETIRADA POR DIANA TRIANA AUTORIZADA ",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2017-12-07T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 6
+  }
+}

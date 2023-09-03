@@ -1,1 +1,45 @@
-{"category":"LiosJuridicos","deudor":{"tel":{},"primerNombre":"SANDRA","segundoNombre":"MILENA","primerApellido":"BARRETO","segundoApellido":"BERMUDEZ","cedula":52907317,"direccion":"CALLE 74 A  SUR No 92 -21 torre 3","email":"milena125@hotmail.com"},"numero":328,"tipoProceso":"HIPOTECARIO","idProceso":50846930,"llaveProceso":"11001400302620170129300","categoryTag":3,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"33615.204.45","entregagarantiasAbogado":"2017-01-11T05:00:00.000Z","etapaProcesal":"SIN LEVANTAMIENTO DE MEDIDA CAUTELAR PQQUETE 767 DE 2018","fechaPresentacion":"2017-12-18T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":"5740084189 /5740084216","2":"160204/377813372389032"},"radicado":"2017 - 01293","vencimientoPagare":"2017-05-06T00:00:00.000Z","expediente":"11001400302620170129300","juzgados":[{"id":26,"tipo":"JUZGADO 026 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-26-civil-municipal-de-bogota"}]}}
+{
+  "category": "LiosJuridicos",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "SANDRA",
+    "segundoNombre": "MILENA",
+    "primerApellido": "BARRETO",
+    "segundoApellido": "BERMUDEZ",
+    "cedula": 52907317,
+    "direccion": "CALLE 74 A  SUR No 92 -21 torre 3",
+    "email": "milena125@hotmail.com"
+  },
+  "numero": 328,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50846930,
+  "llaveProceso": "11001400302620170129300",
+  "categoryTag": 3,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "33615.204.45",
+    "entregagarantiasAbogado": "2017-01-11T05:00:00.000Z",
+    "etapaProcesal": "SIN LEVANTAMIENTO DE MEDIDA CAUTELAR PQQUETE 767 DE 2018",
+    "fechaPresentacion": "2017-12-18T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "5740084189 /5740084216",
+      "2": "160204/377813372389032"
+    },
+    "radicado": "2017 - 01293",
+    "vencimientoPagare": "2017-05-06T00:00:00.000Z",
+    "expediente": "11001400302620170129300",
+    "juzgados": [
+      {
+        "id": 26,
+        "tipo": "JUZGADO 026 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-26-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

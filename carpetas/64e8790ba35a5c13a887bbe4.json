@@ -1,1 +1,59 @@
-{"_id":"64e8790ba35a5c13a887bbe4","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"40,477,377,34","entregagarantiasAbogado":"1970-01-01T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2018-08-02T05:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":161174,"2":""},"radicado":"2018 - 00132","vencimientoPagare":"2033-12-02T05:00:00.000Z","expediente":"11001400303720180013200","juzgados":[{"id":37,"tipo":"JUZGADO 037 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-37-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"GIOVANNI","segundoNombre":"","primerApellido":"PERDOMO","segundoApellido":"QUIROGA","cedula":79704579,"direccion":"CARRER PUBICHAS CASA 27 D EXTERIOR","email":"giogol5@hotmail.com"},"numero":399,"llaveProceso":"11001400303720180013200","tipoProceso":"HIPOTECARIO","idProceso":8833783,"fecha":"2019-10-10T05:00:00.000Z","lastModified":"2023-08-25T09:58:19.268Z","ultimaActuacion":{"idRegActuacion":793442093,"llaveProceso":"11001400303720180013200","consActuacion":16,"fechaActuacion":"2019-10-10T05:00:00.000Z","actuacion":"Archivo Definitivo","anotacion":"PROCESO TERMINADO  ARCHIVADO  PAQUETE  No. 598  DEL AÑO   2019","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2019-10-10T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":16}}
+{
+  "_id": "64e8790ba35a5c13a887bbe4",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "40,477,377,34",
+    "entregagarantiasAbogado": "1970-01-01T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2018-08-02T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 161174, "2": "" },
+    "radicado": "2018 - 00132",
+    "vencimientoPagare": "2033-12-02T05:00:00.000Z",
+    "expediente": "11001400303720180013200",
+    "juzgados": [
+      {
+        "id": 37,
+        "tipo": "JUZGADO 037 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-37-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "GIOVANNI",
+    "segundoNombre": "",
+    "primerApellido": "PERDOMO",
+    "segundoApellido": "QUIROGA",
+    "cedula": 79704579,
+    "direccion": "CARRER PUBICHAS CASA 27 D EXTERIOR",
+    "email": "giogol5@hotmail.com"
+  },
+  "numero": 399,
+  "llaveProceso": "11001400303720180013200",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 8833783,
+  "fecha": "2019-10-10T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:19.268Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 793442093,
+    "llaveProceso": "11001400303720180013200",
+    "consActuacion": 16,
+    "fechaActuacion": "2019-10-10T05:00:00.000Z",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "PROCESO TERMINADO  ARCHIVADO  PAQUETE  No. 598  DEL AÑO   2019",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2019-10-10T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 16
+  }
+}

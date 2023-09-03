@@ -1,1 +1,59 @@
-{"_id":"64e8790ba35a5c13a887baad","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":3244.441,"entregagarantiasAbogado":"2017-07-19T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-07-21T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":127061,"2":540084358},"radicado":"2017 - 00417","vencimientoPagare":"2015-08-28T00:00:00.000Z","expediente":"11001400300620170041700","juzgados":[{"id":6,"tipo":"JUZGADO 006 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-006-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":3103230563},"primerNombre":"NANCY","segundoNombre":null,"primerApellido":"HERRERA","segundoApellido":"MENDEZ","cedula":51922135,"direccion":"CARRERA 73 No. 87-07 APARTAMENTO 211 TORRE 6","email":"nancy_herrera2@hotmail.es"},"numero":104,"llaveProceso":"11001400300620170041700","tipoProceso":"SINGULAR","idProceso":50596080,"fecha":"2019-03-04T05:00:00.000Z","lastModified":"2023-08-25T09:58:22.332Z","ultimaActuacion":{"idRegActuacion":587295400,"llaveProceso":"11001400300620170041700","consActuacion":19,"fechaActuacion":"2019-03-04T05:00:00.000Z","actuacion":"Archivo Definitivo","anotacion":"CAJA 405/2018","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2019-03-04T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":19}}
+{
+  "_id": "64e8790ba35a5c13a887baad",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 3244.441,
+    "entregagarantiasAbogado": "2017-07-19T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-07-21T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 127061, "2": 540084358 },
+    "radicado": "2017 - 00417",
+    "vencimientoPagare": "2015-08-28T00:00:00.000Z",
+    "expediente": "11001400300620170041700",
+    "juzgados": [
+      {
+        "id": 6,
+        "tipo": "JUZGADO 006 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-006-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 3103230563 },
+    "primerNombre": "NANCY",
+    "segundoNombre": null,
+    "primerApellido": "HERRERA",
+    "segundoApellido": "MENDEZ",
+    "cedula": 51922135,
+    "direccion": "CARRERA 73 No. 87-07 APARTAMENTO 211 TORRE 6",
+    "email": "nancy_herrera2@hotmail.es"
+  },
+  "numero": 104,
+  "llaveProceso": "11001400300620170041700",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50596080,
+  "fecha": "2019-03-04T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:22.332Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 587295400,
+    "llaveProceso": "11001400300620170041700",
+    "consActuacion": 19,
+    "fechaActuacion": "2019-03-04T05:00:00.000Z",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "CAJA 405/2018",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2019-03-04T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 19
+  }
+}

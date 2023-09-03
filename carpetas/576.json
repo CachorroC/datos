@@ -1,1 +1,32 @@
-{"actuaciones":[{"idRegActuacion":1848382040,"llaveProceso":"11001400300420230062200","consActuacion":6,"fechaActuacion":"2023-08-17T00:00:00","actuacion":"Al despacho","anotacion":null,"fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2023-08-17T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":6},{"idRegActuacion":1834975130,"llaveProceso":"11001400300420230062200","consActuacion":5,"fechaActuacion":"2023-08-04T00:00:00","actuacion":"Recepción memorial","anotacion":"Subsanacion demanda","fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2023-08-04T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":6},{"idRegActuacion":1829320340,"llaveProceso":"11001400300420230062200","consActuacion":4,"fechaActuacion":"2023-08-01T00:00:00","actuacion":"Fijacion estado","anotacion":"Actuación registrada el 01/08/2023 a las 10:33:50.","fechaInicial":"2023-08-02T00:00:00","fechaFinal":"2023-08-02T00:00:00","fechaRegistro":"2023-08-01T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":6},{"idRegActuacion":1829320330,"llaveProceso":"11001400300420230062200","consActuacion":3,"fechaActuacion":"2023-08-01T00:00:00","actuacion":"Auto inadmite demanda","anotacion":null,"fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2023-08-01T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":6},{"idRegActuacion":1793220780,"llaveProceso":"11001400300420230062200","consActuacion":2,"fechaActuacion":"2023-06-29T00:00:00","actuacion":"Al Despacho Por Reparto","anotacion":null,"fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2023-06-29T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":6},{"idRegActuacion":1793220770,"llaveProceso":"11001400300420230062200","consActuacion":1,"fechaActuacion":"2023-06-29T00:00:00","actuacion":" Radicación de Proceso","anotacion":"Actuación de  Radicación de Proceso  realizada el 29/06/2023 a las 09:49:43","fechaInicial":"2023-06-29T00:00:00","fechaFinal":"2023-06-29T00:00:00","fechaRegistro":"2023-06-29T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":6}],"paginacion":{"cantidadRegistros":6,"registrosPagina":40,"cantidadPaginas":1,"pagina":1,"paginas":null}}
+{
+  "demanda": {
+    "departamento": null,
+    "juzgados": [],
+    "capitalAdeudado": 94472793,
+    "entregagarantiasAbogado": "2023-08-17T00:00:00.000Z",
+    "fechaPresentacion": null,
+    "municipio": "",
+    "obligacion": {
+      "1": 4610082832,
+      "2": "Q 0000001020754305027001"
+    },
+    "radicado": "2023 - 843",
+    "vencimientoPagare": null,
+    "expediente": "'11001400300520230084300'"
+  },
+  "category": "Bancolombia",
+  "categoryTag": 1,
+  "deudor": {
+    "tel": { "celular": 3188015288 },
+    "primerNombre": "JUAN",
+    "segundoNombre": "CAMILO",
+    "primerApellido": "VELASQUEZ",
+    "segundoApellido": "PEREIRA",
+    "cedula": 1020754305,
+    "direccion": "Carrera 15 No. 127 - 32 Apartamento 105 Portaldel Country",
+    "email": "jcamilovp@gmail.com"
+  },
+  "numero": 576,
+  "llaveProceso": "'11001400300520230084300'",
+  "tipoProceso": "SINGULAR"
+}

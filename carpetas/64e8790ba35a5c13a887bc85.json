@@ -1,1 +1,39 @@
-{"_id":"64e8790ba35a5c13a887bc85","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":80906.224,"entregagarantiasAbogado":"2023-07-26T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":"1970-01-01T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":1920089307,"2":"N/A"},"radicado":"2023 - 00904","vencimientoPagare":"2026-03-04T00:00:00.000Z","expediente":"","juzgados":[]},"category":"Bancolombia","categoryTag":1,"deudor":{"tel":{"fijo":3917539,"celular":3506509064},"primerNombre":"JEIMMY","segundoNombre":"SOLEY","primerApellido":"QUIROGA","segundoApellido":"RAMIREZ","cedula":53130409,"direccion":"CL 55 BIS 16 48 Apartamento 702 Edificio Bangkok","email":"jsquiroga72@hotmail.com "},"numero":555,"llaveProceso":"","tipoProceso":"SINGULAR"}
+{
+  "_id": "64e8790ba35a5c13a887bc85",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 80906.224,
+    "entregagarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": "1970-01-01T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 1920089307, "2": "N/A" },
+    "radicado": "2023 - 00904",
+    "vencimientoPagare": "2026-03-04T00:00:00.000Z",
+    "expediente": "",
+    "juzgados": []
+  },
+  "category": "Bancolombia",
+  "categoryTag": 1,
+  "deudor": {
+    "tel": {
+      "fijo": 3917539,
+      "celular": 3506509064
+    },
+    "primerNombre": "JEIMMY",
+    "segundoNombre": "SOLEY",
+    "primerApellido": "QUIROGA",
+    "segundoApellido": "RAMIREZ",
+    "cedula": 53130409,
+    "direccion": "CL 55 BIS 16 48 Apartamento 702 Edificio Bangkok",
+    "email": "jsquiroga72@hotmail.com "
+  },
+  "numero": 555,
+  "llaveProceso": "",
+  "tipoProceso": "SINGULAR"
+}

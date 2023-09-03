@@ -1,1 +1,59 @@
-{"_id":"64e8790ba35a5c13a887bb3c","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"17882.476.98","entregagarantiasAbogado":"2017-09-13T00:00:00.000Z","etapaProcesal":"SIN LEVANTAMIENTO DE MEDIDA CAUTELAR AL 18/01/2023 SE ENCUENTRA DESARCHIVE DESDE EL 14 DE DICI DE 2022","fechaPresentacion":"2017-10-25T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":20990135265,"2":""},"radicado":"2017 - 01164","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001400304520170116400","juzgados":[{"id":45,"tipo":"JUZGADO 045 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-45-civil-municipal-de-bogota"}]},"category":"LiosJuridicos","categoryTag":3,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"NIDIA","segundoNombre":"JACQUELINE","primerApellido":"RIVEROS","segundoApellido":"ARAQUE","cedula":53131901,"direccion":"CARRERA 88C  63 SUR 67 TORRE 5 APARTAMENTO 1","email":"N/A"},"numero":239,"llaveProceso":"11001400304520170116400","tipoProceso":"HIPOTECARIO","idProceso":9877803,"fecha":"2023-06-20T05:00:00.000Z","lastModified":"2023-08-25T09:58:18.114Z","ultimaActuacion":{"idRegActuacion":1600023133,"llaveProceso":"11001400304520170116400","consActuacion":25,"fechaActuacion":"2023-06-20T05:00:00.000Z","actuacion":"Envío Comunicaciones","anotacion":"SE REMITE OFICIOS VÍA CORREO ELECTRÓNICO ","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2023-06-20T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":25}}
+{
+  "_id": "64e8790ba35a5c13a887bb3c",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "17882.476.98",
+    "entregagarantiasAbogado": "2017-09-13T00:00:00.000Z",
+    "etapaProcesal": "SIN LEVANTAMIENTO DE MEDIDA CAUTELAR AL 18/01/2023 SE ENCUENTRA DESARCHIVE DESDE EL 14 DE DICI DE 2022",
+    "fechaPresentacion": "2017-10-25T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 20990135265, "2": "" },
+    "radicado": "2017 - 01164",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001400304520170116400",
+    "juzgados": [
+      {
+        "id": 45,
+        "tipo": "JUZGADO 045 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-45-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "LiosJuridicos",
+  "categoryTag": 3,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "NIDIA",
+    "segundoNombre": "JACQUELINE",
+    "primerApellido": "RIVEROS",
+    "segundoApellido": "ARAQUE",
+    "cedula": 53131901,
+    "direccion": "CARRERA 88C  63 SUR 67 TORRE 5 APARTAMENTO 1",
+    "email": "N/A"
+  },
+  "numero": 239,
+  "llaveProceso": "11001400304520170116400",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 9877803,
+  "fecha": "2023-06-20T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:18.114Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1600023133,
+    "llaveProceso": "11001400304520170116400",
+    "consActuacion": 25,
+    "fechaActuacion": "2023-06-20T05:00:00.000Z",
+    "actuacion": "Envío Comunicaciones",
+    "anotacion": "SE REMITE OFICIOS VÍA CORREO ELECTRÓNICO ",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2023-06-20T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 25
+  }
+}

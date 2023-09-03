@@ -1,1 +1,39 @@
-{"_id":"64e8790ba35a5c13a887bc52","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":14634.268,"entregagarantiasAbogado":"1970-01-01T00:00:00.000Z","etapaProcesal":"1.100141037512018e+22","fechaPresentacion":"1970-01-01T00:00:00.000Z","municipio":"KENNEDY","obligacion":{"1":"377813291831031 // 377815026183364","2":"4099830041795208 /53037110111724925"},"radicado":"2018 - 02462","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001418902520180246200","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"WILLIAM","segundoNombre":"","primerApellido":"GIOVANNY","segundoApellido":"GARZON LOPEZ","cedula":80156570,"direccion":"CALLE 53 SUR No 82-38 CASA LADRILLO","email":"organizacionapply@gmail.com"},"numero":505,"llaveProceso":"11001418902520180246200","tipoProceso":"SINGULAR"}
+{
+  "_id": "64e8790ba35a5c13a887bc52",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 14634.268,
+    "entregagarantiasAbogado": "1970-01-01T00:00:00.000Z",
+    "etapaProcesal": "1.100141037512018e+22",
+    "fechaPresentacion": "1970-01-01T00:00:00.000Z",
+    "municipio": "KENNEDY",
+    "obligacion": {
+      "1": "377813291831031 // 377815026183364",
+      "2": "4099830041795208 /53037110111724925"
+    },
+    "radicado": "2018 - 02462",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001418902520180246200",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "WILLIAM",
+    "segundoNombre": "",
+    "primerApellido": "GIOVANNY",
+    "segundoApellido": "GARZON LOPEZ",
+    "cedula": 80156570,
+    "direccion": "CALLE 53 SUR No 82-38 CASA LADRILLO",
+    "email": "organizacionapply@gmail.com"
+  },
+  "numero": 505,
+  "llaveProceso": "11001418902520180246200",
+  "tipoProceso": "SINGULAR"
+}

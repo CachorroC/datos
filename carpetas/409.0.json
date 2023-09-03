@@ -1,1 +1,44 @@
-{"category":"Bancolombia","deudor":{"tel":{"fijo":8626344,"celular":3107982028},"primerNombre":"CREAS","primerApellido":"SOLUCIONES","segundoApellido":"S.A.S","cedula":900545720,"direccion":"CARRERA 50 1# 47 - 50 INT 1 APTO 101","email":"andibarracosta@gmail.com"},"numero":409,"tipoProceso":"SINGULAR","idProceso":51042800,"llaveProceso":"11001400305620180022100","categoryTag":1,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"11949.471","entregagarantiasAbogado":"2018-02-15T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2018-02-28T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":4550087219,"2":"N/A"},"radicado":"2018 - 00221","vencimientoPagare":"2018-06-20T00:00:00.000Z","expediente":"11001400305620180022100","juzgados":[{"id":7,"tipo":"JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "category": "Bancolombia",
+  "deudor": {
+    "tel": {
+      "fijo": 8626344,
+      "celular": 3107982028
+    },
+    "primerNombre": "CREAS",
+    "primerApellido": "SOLUCIONES",
+    "segundoApellido": "S.A.S",
+    "cedula": 900545720,
+    "direccion": "CARRERA 50 1# 47 - 50 INT 1 APTO 101",
+    "email": "andibarracosta@gmail.com"
+  },
+  "numero": 409,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 51042800,
+  "llaveProceso": "11001400305620180022100",
+  "categoryTag": 1,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "11949.471",
+    "entregagarantiasAbogado": "2018-02-15T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-02-28T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 4550087219, "2": "N/A" },
+    "radicado": "2018 - 00221",
+    "vencimientoPagare": "2018-06-20T00:00:00.000Z",
+    "expediente": "11001400305620180022100",
+    "juzgados": [
+      {
+        "id": 7,
+        "tipo": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

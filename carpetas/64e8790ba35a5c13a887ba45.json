@@ -1,1 +1,62 @@
-{"_id":"64e8790ba35a5c13a887ba45","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":29925624,"entregagarantiasAbogado":"2017-05-11T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":"2017-05-30T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":"2273 320158101","2":""},"radicado":"2017 - 00720","vencimientoPagare":"2022-11-15T00:00:00.000Z","expediente":"11001400305320170072000","juzgados":[{"id":53,"tipo":"JUZGADO 053 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-053-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":3182165543},"primerNombre":"DIPSON","segundoNombre":"EUSEBIO","primerApellido":"SANCHEZ","segundoApellido":"CASTIBLANCO","cedula":93437973,"direccion":"CARRERA 104 No. 12  B-94 BOGOTA","email":"dipsonsanchez16@g0mail.com"},"numero":4,"llaveProceso":"11001400305320170072000","tipoProceso":"HIPOTECARIO","idProceso":11997693,"fecha":"2018-06-14T05:00:00.000Z","lastModified":"2023-08-25T09:58:21.991Z","ultimaActuacion":{"idRegActuacion":155319973,"llaveProceso":"11001400305320170072000","consActuacion":19,"fechaActuacion":"2018-06-14T05:00:00.000Z","actuacion":"Archivo Definitivo","anotacion":"PAQUETE 1082 T ","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2018-06-14T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":19}}
+{
+  "_id": "64e8790ba35a5c13a887ba45",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 29925624,
+    "entregagarantiasAbogado": "2017-05-11T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "2273 320158101",
+      "2": ""
+    },
+    "radicado": "2017 - 00720",
+    "vencimientoPagare": "2022-11-15T00:00:00.000Z",
+    "expediente": "11001400305320170072000",
+    "juzgados": [
+      {
+        "id": 53,
+        "tipo": "JUZGADO 053 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-053-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 3182165543 },
+    "primerNombre": "DIPSON",
+    "segundoNombre": "EUSEBIO",
+    "primerApellido": "SANCHEZ",
+    "segundoApellido": "CASTIBLANCO",
+    "cedula": 93437973,
+    "direccion": "CARRERA 104 No. 12  B-94 BOGOTA",
+    "email": "dipsonsanchez16@g0mail.com"
+  },
+  "numero": 4,
+  "llaveProceso": "11001400305320170072000",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 11997693,
+  "fecha": "2018-06-14T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:21.991Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 155319973,
+    "llaveProceso": "11001400305320170072000",
+    "consActuacion": 19,
+    "fechaActuacion": "2018-06-14T05:00:00.000Z",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "PAQUETE 1082 T ",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2018-06-14T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 19
+  }
+}

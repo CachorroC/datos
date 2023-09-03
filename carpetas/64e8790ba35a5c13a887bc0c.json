@@ -1,1 +1,39 @@
-{"_id":"64e8790ba35a5c13a887bc0c","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":22725.077,"entregagarantiasAbogado":"2018-05-29T00:00:00.000Z","etapaProcesal":"1.100141890152018e+22","fechaPresentacion":"1970-01-01T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":"AUDIOPRESTAMO","2":4513073535490930},"radicado":"2018 - 00212","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001400371520180021200","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"JAVIER","segundoNombre":"ANTONIO","primerApellido":"ZIPA","segundoApellido":"SALAMANCA","cedula":80162319,"direccion":"CARRERA 79A No 13-10","email":"javierzipa83@hotmail.com"},"numero":437,"llaveProceso":"11001400371520180021200","tipoProceso":"SINGULAR"}
+{
+  "_id": "64e8790ba35a5c13a887bc0c",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 22725.077,
+    "entregagarantiasAbogado": "2018-05-29T00:00:00.000Z",
+    "etapaProcesal": "1.100141890152018e+22",
+    "fechaPresentacion": "1970-01-01T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "AUDIOPRESTAMO",
+      "2": 4513073535490930
+    },
+    "radicado": "2018 - 00212",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001400371520180021200",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "JAVIER",
+    "segundoNombre": "ANTONIO",
+    "primerApellido": "ZIPA",
+    "segundoApellido": "SALAMANCA",
+    "cedula": 80162319,
+    "direccion": "CARRERA 79A No 13-10",
+    "email": "javierzipa83@hotmail.com"
+  },
+  "numero": 437,
+  "llaveProceso": "11001400371520180021200",
+  "tipoProceso": "SINGULAR"
+}

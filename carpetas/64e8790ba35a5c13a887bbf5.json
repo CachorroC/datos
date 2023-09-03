@@ -1,1 +1,65 @@
-{"_id":"64e8790ba35a5c13a887bbf5","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":51606.071,"entregagarantiasAbogado":"2017-11-14T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":"1970-01-01T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":2330087192,"2":2330087423},"radicado":"2017 - 01477","vencimientoPagare":"2020-02-02T00:00:00.000Z","expediente":"11001400302020170147700","juzgados":[{"id":7,"tipo":"JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":2724305,"celular":3134664560},"primerNombre":"JOSE","segundoNombre":"ANTONIO","primerApellido":"MONTEALEGRE","segundoApellido":"HERNANDEZ","cedula":79512506,"direccion":"CALLE 24 No 24 - 16  SUR","email":"yulypgarcia.montplas@gmail.com"},"numero":416,"llaveProceso":"11001400302020170147700","tipoProceso":"SINGULAR","idProceso":50873000,"fecha":"2023-04-27T05:00:00.000Z","lastModified":"2023-08-25T09:58:19.109Z","ultimaActuacion":{"idRegActuacion":1724716390,"llaveProceso":"11001400302020170147700","consActuacion":76,"fechaActuacion":"2023-04-27T05:00:00.000Z","actuacion":"Oficio Elaborado","anotacion":"LEV DE MEDIDAS BANCOS (3) OOECM-0423MH-3749, OOECM-0423MH-3748 Y OOECM-0423MH-3747// MARIA HENAO","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2023-04-27T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":76}}
+{
+  "_id": "64e8790ba35a5c13a887bbf5",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 51606.071,
+    "entregagarantiasAbogado": "2017-11-14T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": "1970-01-01T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 2330087192,
+      "2": 2330087423
+    },
+    "radicado": "2017 - 01477",
+    "vencimientoPagare": "2020-02-02T00:00:00.000Z",
+    "expediente": "11001400302020170147700",
+    "juzgados": [
+      {
+        "id": 7,
+        "tipo": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {
+      "fijo": 2724305,
+      "celular": 3134664560
+    },
+    "primerNombre": "JOSE",
+    "segundoNombre": "ANTONIO",
+    "primerApellido": "MONTEALEGRE",
+    "segundoApellido": "HERNANDEZ",
+    "cedula": 79512506,
+    "direccion": "CALLE 24 No 24 - 16  SUR",
+    "email": "yulypgarcia.montplas@gmail.com"
+  },
+  "numero": 416,
+  "llaveProceso": "11001400302020170147700",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50873000,
+  "fecha": "2023-04-27T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:19.109Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1724716390,
+    "llaveProceso": "11001400302020170147700",
+    "consActuacion": 76,
+    "fechaActuacion": "2023-04-27T05:00:00.000Z",
+    "actuacion": "Oficio Elaborado",
+    "anotacion": "LEV DE MEDIDAS BANCOS (3) OOECM-0423MH-3749, OOECM-0423MH-3748 Y OOECM-0423MH-3747// MARIA HENAO",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2023-04-27T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 76
+  }
+}

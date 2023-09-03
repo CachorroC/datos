@@ -1,1 +1,39 @@
-{"_id":"64e8790ba35a5c13a887bbfa","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"13,704,853,48","entregagarantiasAbogado":"2018-04-24T00:00:00.000Z","etapaProcesal":"LIQUIDACION","fechaPresentacion":"2018-04-27T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":4099840209665970,"2":""},"radicado":"2018 - 00617","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001400307520180061700","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"ALEXANDER","segundoNombre":null,"primerApellido":"MUÑOZ","segundoApellido":"ORTIZ","cedula":79837700,"direccion":"DIAGONAL 2 No 79 A-45 BLOQ 2 APTO 402","email":"alexmortiz76@yahoo.com"},"numero":421,"llaveProceso":"11001400307520180061700","tipoProceso":"SINGULAR"}
+{
+  "_id": "64e8790ba35a5c13a887bbfa",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "13,704,853,48",
+    "entregagarantiasAbogado": "2018-04-24T00:00:00.000Z",
+    "etapaProcesal": "LIQUIDACION",
+    "fechaPresentacion": "2018-04-27T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 4099840209665970,
+      "2": ""
+    },
+    "radicado": "2018 - 00617",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001400307520180061700",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "ALEXANDER",
+    "segundoNombre": null,
+    "primerApellido": "MUÑOZ",
+    "segundoApellido": "ORTIZ",
+    "cedula": 79837700,
+    "direccion": "DIAGONAL 2 No 79 A-45 BLOQ 2 APTO 402",
+    "email": "alexmortiz76@yahoo.com"
+  },
+  "numero": 421,
+  "llaveProceso": "11001400307520180061700",
+  "tipoProceso": "SINGULAR"
+}

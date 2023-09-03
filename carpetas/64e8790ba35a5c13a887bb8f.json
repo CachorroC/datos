@@ -1,1 +1,62 @@
-{"_id":"64e8790ba35a5c13a887bb8f","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":43033,"entregagarantiasAbogado":"1970-01-01T00:00:00.000Z","etapaProcesal":"43041","fechaPresentacion":"1970-01-01T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":"","2":"14.703.952.55"},"radicado":"2017 - 01164","vencimientoPagare":"1970-01-01T00:02:01.594Z","expediente":"11001400307020170116400","juzgados":[{"id":70,"tipo":"JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-070-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"SONIA","segundoNombre":null,"primerApellido":"JANETH","segundoApellido":"RODRIGUEZ","cedula":51673703,"direccion":"","email":"CALLE 52 SUR No 97 C - 20"},"numero":318,"llaveProceso":"11001400307020170116400","tipoProceso":"HIPOTECARIO","idProceso":18367590,"fecha":"2018-08-17T05:00:00.000Z","lastModified":"2023-08-25T09:58:19.993Z","ultimaActuacion":{"idRegActuacion":265865680,"llaveProceso":"11001400307020170116400","consActuacion":18,"fechaActuacion":"2018-08-17T05:00:00.000Z","actuacion":"Constancia secretarial","anotacion":"se remite proceso al juzgado 63 civil municipal de bogota ","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2018-08-17T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":18}}
+{
+  "_id": "64e8790ba35a5c13a887bb8f",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 43033,
+    "entregagarantiasAbogado": "1970-01-01T00:00:00.000Z",
+    "etapaProcesal": "43041",
+    "fechaPresentacion": "1970-01-01T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "",
+      "2": "14.703.952.55"
+    },
+    "radicado": "2017 - 01164",
+    "vencimientoPagare": "1970-01-01T00:02:01.594Z",
+    "expediente": "11001400307020170116400",
+    "juzgados": [
+      {
+        "id": 70,
+        "tipo": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-070-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "SONIA",
+    "segundoNombre": null,
+    "primerApellido": "JANETH",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": 51673703,
+    "direccion": "",
+    "email": "CALLE 52 SUR No 97 C - 20"
+  },
+  "numero": 318,
+  "llaveProceso": "11001400307020170116400",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 18367590,
+  "fecha": "2018-08-17T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:19.993Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 265865680,
+    "llaveProceso": "11001400307020170116400",
+    "consActuacion": 18,
+    "fechaActuacion": "2018-08-17T05:00:00.000Z",
+    "actuacion": "Constancia secretarial",
+    "anotacion": "se remite proceso al juzgado 63 civil municipal de bogota ",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2018-08-17T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 18
+  }
+}

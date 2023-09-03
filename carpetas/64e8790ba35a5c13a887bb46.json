@@ -1,1 +1,65 @@
-{"_id":"64e8790ba35a5c13a887bb46","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":44933.312,"entregagarantiasAbogado":"2017-08-23T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-09-04T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":377813517259835,"2":"377814405234039 // 45130727777594186 // 5491572487025564 // AUDIOPRESTAMO"},"radicado":"2017 - 00875","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001400301620170087500","juzgados":[{"id":18,"tipo":"JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Reintegra","categoryTag":2,"deudor":{"tel":{"fijo":6701643,"celular":3134749213},"primerNombre":"JORGE","segundoNombre":"ALBERTO","primerApellido":"MARTINEZ","segundoApellido":"BENDEK ","cedula":19069228,"direccion":"CARRERA 15 # 188 - 39 ","email":"jorgemar24@gmail.com"},"numero":249,"llaveProceso":"11001400301620170087500","tipoProceso":"SINGULAR","idProceso":50687430,"fecha":"2023-05-16T05:00:00.000Z","lastModified":"2023-08-25T09:58:17.472Z","ultimaActuacion":{"idRegActuacion":1744983620,"llaveProceso":"11001400301620170087500","consActuacion":70,"fechaActuacion":"2023-05-16T05:00:00.000Z","actuacion":"Constancia secretarial","anotacion":"EXPEDIENTE HIBRIDO BAJA DEL DESPACHO// HAMES R","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2023-05-16T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":70}}
+{
+  "_id": "64e8790ba35a5c13a887bb46",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 44933.312,
+    "entregagarantiasAbogado": "2017-08-23T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 377813517259835,
+      "2": "377814405234039 // 45130727777594186 // 5491572487025564 // AUDIOPRESTAMO"
+    },
+    "radicado": "2017 - 00875",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001400301620170087500",
+    "juzgados": [
+      {
+        "id": 18,
+        "tipo": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Reintegra",
+  "categoryTag": 2,
+  "deudor": {
+    "tel": {
+      "fijo": 6701643,
+      "celular": 3134749213
+    },
+    "primerNombre": "JORGE",
+    "segundoNombre": "ALBERTO",
+    "primerApellido": "MARTINEZ",
+    "segundoApellido": "BENDEK ",
+    "cedula": 19069228,
+    "direccion": "CARRERA 15 # 188 - 39 ",
+    "email": "jorgemar24@gmail.com"
+  },
+  "numero": 249,
+  "llaveProceso": "11001400301620170087500",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50687430,
+  "fecha": "2023-05-16T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:17.472Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1744983620,
+    "llaveProceso": "11001400301620170087500",
+    "consActuacion": 70,
+    "fechaActuacion": "2023-05-16T05:00:00.000Z",
+    "actuacion": "Constancia secretarial",
+    "anotacion": "EXPEDIENTE HIBRIDO BAJA DEL DESPACHO// HAMES R",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2023-05-16T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 70
+  }
+}

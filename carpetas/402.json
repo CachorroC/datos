@@ -1,1 +1,95 @@
-{"actuaciones":[{"idRegActuacion":714162860,"llaveProceso":"11001400302620180047900","consActuacion":6,"fechaActuacion":"2018-06-15T00:00:00","actuacion":"Envío  comunicaciones","anotacion":"COMPETENCIA ","fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2018-06-15T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":6},{"idRegActuacion":714162850,"llaveProceso":"11001400302620180047900","consActuacion":5,"fechaActuacion":"2018-06-14T00:00:00","actuacion":"Oficio Elaborado","anotacion":"oficio no. 2.858/2018, remitiendo exp. por competencia a jdos. c. mpal y/o promiscuo de carmen de apicalá","fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2018-06-14T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":6},{"idRegActuacion":714162840,"llaveProceso":"11001400302620180047900","consActuacion":4,"fechaActuacion":"2018-06-06T00:00:00","actuacion":"Fijacion estado","anotacion":"Actuación registrada el 06/06/2018 a las 17:05:51.","fechaInicial":"2018-06-07T00:00:00","fechaFinal":"2018-06-07T00:00:00","fechaRegistro":"2018-06-06T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":6},{"idRegActuacion":714162830,"llaveProceso":"11001400302620180047900","consActuacion":3,"fechaActuacion":"2018-06-06T00:00:00","actuacion":"Auto rechaza demanda","anotacion":"Por falta de competencia y ordena remitir al Juez Civil Municipal y/o Promiscuo Municipal del Apicala Tolima","fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2018-06-06T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":6},{"idRegActuacion":714162820,"llaveProceso":"11001400302620180047900","consActuacion":2,"fechaActuacion":"2018-05-11T00:00:00","actuacion":"Al despacho","anotacion":"PARA CALIFICAR","fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2018-05-11T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":6},{"idRegActuacion":714162810,"llaveProceso":"11001400302620180047900","consActuacion":1,"fechaActuacion":"2018-05-10T00:00:00","actuacion":" Radicación de Proceso","anotacion":"Actuación de  Radicación de Proceso  realizada el 10/05/2018 a las 11:11:29","fechaInicial":"2018-05-10T00:00:00","fechaFinal":"2018-05-10T00:00:00","fechaRegistro":"2018-05-10T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":6}],"paginacion":{"cantidadRegistros":6,"registrosPagina":40,"cantidadPaginas":1,"pagina":1,"paginas":null}}
+{
+  "actuaciones": [
+    {
+      "idRegActuacion": 714162860,
+      "llaveProceso": "11001400302620180047900",
+      "consActuacion": 6,
+      "fechaActuacion": "2018-06-15T00:00:00",
+      "actuacion": "Envío  comunicaciones",
+      "anotacion": "COMPETENCIA ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-06-15T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6
+    },
+    {
+      "idRegActuacion": 714162850,
+      "llaveProceso": "11001400302620180047900",
+      "consActuacion": 5,
+      "fechaActuacion": "2018-06-14T00:00:00",
+      "actuacion": "Oficio Elaborado",
+      "anotacion": "oficio no. 2.858/2018, remitiendo exp. por competencia a jdos. c. mpal y/o promiscuo de carmen de apicalá",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-06-14T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6
+    },
+    {
+      "idRegActuacion": 714162840,
+      "llaveProceso": "11001400302620180047900",
+      "consActuacion": 4,
+      "fechaActuacion": "2018-06-06T00:00:00",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 06/06/2018 a las 17:05:51.",
+      "fechaInicial": "2018-06-07T00:00:00",
+      "fechaFinal": "2018-06-07T00:00:00",
+      "fechaRegistro": "2018-06-06T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6
+    },
+    {
+      "idRegActuacion": 714162830,
+      "llaveProceso": "11001400302620180047900",
+      "consActuacion": 3,
+      "fechaActuacion": "2018-06-06T00:00:00",
+      "actuacion": "Auto rechaza demanda",
+      "anotacion": "Por falta de competencia y ordena remitir al Juez Civil Municipal y/o Promiscuo Municipal del Apicala Tolima",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-06-06T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6
+    },
+    {
+      "idRegActuacion": 714162820,
+      "llaveProceso": "11001400302620180047900",
+      "consActuacion": 2,
+      "fechaActuacion": "2018-05-11T00:00:00",
+      "actuacion": "Al despacho",
+      "anotacion": "PARA CALIFICAR",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-05-11T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6
+    },
+    {
+      "idRegActuacion": 714162810,
+      "llaveProceso": "11001400302620180047900",
+      "consActuacion": 1,
+      "fechaActuacion": "2018-05-10T00:00:00",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 10/05/2018 a las 11:11:29",
+      "fechaInicial": "2018-05-10T00:00:00",
+      "fechaFinal": "2018-05-10T00:00:00",
+      "fechaRegistro": "2018-05-10T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6
+    }
+  ],
+  "paginacion": {
+    "cantidadRegistros": 6,
+    "registrosPagina": 40,
+    "cantidadPaginas": 1,
+    "pagina": 1,
+    "paginas": null
+  }
+}

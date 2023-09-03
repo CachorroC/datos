@@ -1,1 +1,62 @@
-{"_id":"64e8790ba35a5c13a887bc11","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":18780.239,"entregagarantiasAbogado":"1970-01-01T00:00:00.000Z","etapaProcesal":"1.100140030782018e+22","fechaPresentacion":"1970-01-01T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":3778813777601880,"2":4110540337511900},"radicado":"2018 - 00623","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001400307820180062300","juzgados":[{"id":14,"tipo":"JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"JULIAN","segundoNombre":"FELIPE","primerApellido":"ECHEVERRY","segundoApellido":"FORERO","cedula":80183322,"direccion":"CARRERA 80 No 7D-05 CASA 231","email":"felipe.ef82@gmail.com"},"numero":442,"llaveProceso":"11001400307820180062300","tipoProceso":"SINGULAR","idProceso":51462640,"fecha":"2021-11-09T05:00:00.000Z","lastModified":"2023-08-25T09:58:18.919Z","ultimaActuacion":{"idRegActuacion":1232735570,"llaveProceso":"11001400307820180062300","consActuacion":75,"fechaActuacion":"2021-11-09T05:00:00.000Z","actuacion":"Archivo Definitivo","anotacion":"Proceso se envia a la caja 352 con skikers 1002769293/Andres Ariza     ","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2021-11-09T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":75}}
+{
+  "_id": "64e8790ba35a5c13a887bc11",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 18780.239,
+    "entregagarantiasAbogado": "1970-01-01T00:00:00.000Z",
+    "etapaProcesal": "1.100140030782018e+22",
+    "fechaPresentacion": "1970-01-01T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 3778813777601880,
+      "2": 4110540337511900
+    },
+    "radicado": "2018 - 00623",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001400307820180062300",
+    "juzgados": [
+      {
+        "id": 14,
+        "tipo": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "JULIAN",
+    "segundoNombre": "FELIPE",
+    "primerApellido": "ECHEVERRY",
+    "segundoApellido": "FORERO",
+    "cedula": 80183322,
+    "direccion": "CARRERA 80 No 7D-05 CASA 231",
+    "email": "felipe.ef82@gmail.com"
+  },
+  "numero": 442,
+  "llaveProceso": "11001400307820180062300",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 51462640,
+  "fecha": "2021-11-09T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:18.919Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1232735570,
+    "llaveProceso": "11001400307820180062300",
+    "consActuacion": 75,
+    "fechaActuacion": "2021-11-09T05:00:00.000Z",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "Proceso se envia a la caja 352 con skikers 1002769293/Andres Ariza     ",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2021-11-09T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 75
+  }
+}

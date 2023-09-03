@@ -1,1 +1,36 @@
-{"_id":"64e8790ba35a5c13a887babd","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":13906.249,"entregagarantiasAbogado":"2017-08-04T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-08-11T00:00:00.000Z","municipio":"SOACHA","obligacion":{"1":6240082776,"2":"N/A"},"radicado":"2017 - 00755","vencimientoPagare":"2021-04-12T00:00:00.000Z","expediente":"25754418900320170075500","juzgados":[]},"category":"Bancolombia","categoryTag":1,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"JENCELL","segundoNombre":null,"primerApellido":"E.U.","segundoApellido":null,"cedula":900212673,"direccion":"CARRERA 3 # 29A - 02 ","email":"N/A"},"numero":120,"llaveProceso":"25754418900320170075500","tipoProceso":"SINGULAR"}
+{
+  "_id": "64e8790ba35a5c13a887babd",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 13906.249,
+    "entregagarantiasAbogado": "2017-08-04T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-08-11T00:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": { "1": 6240082776, "2": "N/A" },
+    "radicado": "2017 - 00755",
+    "vencimientoPagare": "2021-04-12T00:00:00.000Z",
+    "expediente": "25754418900320170075500",
+    "juzgados": []
+  },
+  "category": "Bancolombia",
+  "categoryTag": 1,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "JENCELL",
+    "segundoNombre": null,
+    "primerApellido": "E.U.",
+    "segundoApellido": null,
+    "cedula": 900212673,
+    "direccion": "CARRERA 3 # 29A - 02 ",
+    "email": "N/A"
+  },
+  "numero": 120,
+  "llaveProceso": "25754418900320170075500",
+  "tipoProceso": "SINGULAR"
+}

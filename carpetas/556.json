@@ -1,1 +1,31 @@
-{"StatusCode":500,"Message":"Object reference not set to an instance of an object."}
+{
+  "demanda": {
+    "departamento": null,
+    "juzgados": [],
+    "capitalAdeudado": 149444779,
+    "entregagarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "fechaPresentacion": null,
+    "municipio": "",
+    "obligacion": {
+      "1": "3830095699 - 3830095700",
+      "2": 3830095701
+    },
+    "radicado": "2023 - 1127",
+    "vencimientoPagare": null,
+    "expediente": "'25430400300120230112700'"
+  },
+  "category": "Bancolombia",
+  "categoryTag": 1,
+  "deudor": {
+    "tel": { "celular": 3023193548 },
+    "primerNombre": "CIRO",
+    "primerApellido": "ERQUILIAN",
+    "segundoApellido": "ONOFRE",
+    "cedula": 1022335014,
+    "direccion": " Carrera 13 # 4-20 Madrid (Cundinamarca)",
+    "email": "ciro.onofe1105@gmail.com"
+  },
+  "numero": 556,
+  "llaveProceso": "'25430400300120230112700'",
+  "tipoProceso": "SINGULAR"
+}

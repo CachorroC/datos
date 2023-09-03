@@ -1,1 +1,59 @@
-{"_id":"64e8790ba35a5c13a887bc61","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"13871.976.56","entregagarantiasAbogado":"1970-01-01T00:00:00.000Z","etapaProcesal":"1.100141890552019e+22","fechaPresentacion":"1970-01-01T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":5470086745,"2":""},"radicado":"2019 - 00287","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"11001400307320190028700","juzgados":[{"id":2,"tipo":"JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"RAFAEL","segundoNombre":"ADOLFO","primerApellido":"PAEZ","segundoApellido":"ORTEGA","cedula":92554673,"direccion":"CARRERA 123 No 130C- 56  TORRE 52 APTO 201","email":"farapaeos@gmail.com"},"numero":520,"llaveProceso":"11001400307320190028700","tipoProceso":"SINGULAR","idProceso":51718410,"fecha":"2021-07-01T05:00:00.000Z","lastModified":"2023-08-25T09:58:18.504Z","ultimaActuacion":{"idRegActuacion":1021293530,"llaveProceso":"11001400307320190028700","consActuacion":40,"fechaActuacion":"2021-07-01T05:00:00.000Z","actuacion":"Archivo Definitivo","anotacion":"Proceso se envia a la caja 319 stickrs 1002769109-Andres Ariza","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2021-07-01T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":40}}
+{
+  "_id": "64e8790ba35a5c13a887bc61",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "13871.976.56",
+    "entregagarantiasAbogado": "1970-01-01T00:00:00.000Z",
+    "etapaProcesal": "1.100141890552019e+22",
+    "fechaPresentacion": "1970-01-01T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 5470086745, "2": "" },
+    "radicado": "2019 - 00287",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "11001400307320190028700",
+    "juzgados": [
+      {
+        "id": 2,
+        "tipo": "JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "RAFAEL",
+    "segundoNombre": "ADOLFO",
+    "primerApellido": "PAEZ",
+    "segundoApellido": "ORTEGA",
+    "cedula": 92554673,
+    "direccion": "CARRERA 123 No 130C- 56  TORRE 52 APTO 201",
+    "email": "farapaeos@gmail.com"
+  },
+  "numero": 520,
+  "llaveProceso": "11001400307320190028700",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 51718410,
+  "fecha": "2021-07-01T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:18.504Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1021293530,
+    "llaveProceso": "11001400307320190028700",
+    "consActuacion": 40,
+    "fechaActuacion": "2021-07-01T05:00:00.000Z",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "Proceso se envia a la caja 319 stickrs 1002769109-Andres Ariza",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2021-07-01T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 40
+  }
+}

@@ -1,1 +1,39 @@
-{"actuaciones":[{"idRegActuacion":857000690,"llaveProceso":"11001400307820170098600","consActuacion":2,"fechaActuacion":"2019-01-15T00:00:00","actuacion":"Constancia secretarial","anotacion":"SE ENTREGO DESGLOSE","fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2019-01-15T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":2},{"idRegActuacion":857000680,"llaveProceso":"11001400307820170098600","consActuacion":1,"fechaActuacion":"2019-01-15T00:00:00","actuacion":" Radicación de Proceso","anotacion":"Actuación de  Radicación de Proceso  realizada el 15/01/2019 a las 17:15:32","fechaInicial":"2019-01-15T00:00:00","fechaFinal":"2019-01-15T00:00:00","fechaRegistro":"2019-01-15T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":2}],"paginacion":{"cantidadRegistros":2,"registrosPagina":40,"cantidadPaginas":1,"pagina":1,"paginas":null}}
+{
+  "actuaciones": [
+    {
+      "idRegActuacion": 857000690,
+      "llaveProceso": "11001400307820170098600",
+      "consActuacion": 2,
+      "fechaActuacion": "2019-01-15T00:00:00",
+      "actuacion": "Constancia secretarial",
+      "anotacion": "SE ENTREGO DESGLOSE",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2019-01-15T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 2
+    },
+    {
+      "idRegActuacion": 857000680,
+      "llaveProceso": "11001400307820170098600",
+      "consActuacion": 1,
+      "fechaActuacion": "2019-01-15T00:00:00",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 15/01/2019 a las 17:15:32",
+      "fechaInicial": "2019-01-15T00:00:00",
+      "fechaFinal": "2019-01-15T00:00:00",
+      "fechaRegistro": "2019-01-15T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 2
+    }
+  ],
+  "paginacion": {
+    "cantidadRegistros": 2,
+    "registrosPagina": 40,
+    "cantidadPaginas": 1,
+    "pagina": 1,
+    "paginas": null
+  }
+}

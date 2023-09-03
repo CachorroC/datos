@@ -1,1 +1,42 @@
-{"_id":"64e8790ba35a5c13a887bc95","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":91487.785,"entregagarantiasAbogado":"2023-08-04T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":"1970-01-01T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":1910090586,"2":94351552},"radicado":"","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"","juzgados":[]},"category":"Bancolombia","categoryTag":1,"deudor":{"tel":{"fijo":6154763,"celular":3102997350},"primerNombre":"JAIME","segundoNombre":"ENRIQUE","primerApellido":"QUINTERO","segundoApellido":"MENDOZA","cedula":9527771,"direccion":"CL 134 16 50 AP 104 Edificio Verona Barrio Contador Bogotá","email":"jaimequinterom1@hotmail.com"},"numero":572,"llaveProceso":"","tipoProceso":"SINGULAR"}
+{
+  "_id": "64e8790ba35a5c13a887bc95",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 91487.785,
+    "entregagarantiasAbogado": "2023-08-04T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": "1970-01-01T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 1910090586,
+      "2": 94351552
+    },
+    "radicado": "",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "",
+    "juzgados": []
+  },
+  "category": "Bancolombia",
+  "categoryTag": 1,
+  "deudor": {
+    "tel": {
+      "fijo": 6154763,
+      "celular": 3102997350
+    },
+    "primerNombre": "JAIME",
+    "segundoNombre": "ENRIQUE",
+    "primerApellido": "QUINTERO",
+    "segundoApellido": "MENDOZA",
+    "cedula": 9527771,
+    "direccion": "CL 134 16 50 AP 104 Edificio Verona Barrio Contador Bogotá",
+    "email": "jaimequinterom1@hotmail.com"
+  },
+  "numero": 572,
+  "llaveProceso": "",
+  "tipoProceso": "SINGULAR"
+}

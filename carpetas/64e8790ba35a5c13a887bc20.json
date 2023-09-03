@@ -1,1 +1,39 @@
-{"_id":"64e8790ba35a5c13a887bc20","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"24765.475.00","entregagarantiasAbogado":"2018-07-09T00:00:00.000Z","etapaProcesal":"ADMISION","fechaPresentacion":"2018-07-18T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":"AUDIOPRESTAMO","2":"460091173/ 460090745"},"radicado":"2018 - 00872","vencimientoPagare":"2019-01-26T00:00:00.000Z","expediente":"11001400307920180087200","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":3108881287},"primerNombre":"SOLINCON","segundoNombre":null,"primerApellido":"LIMITADA","segundoApellido":null,"cedula":900237555,"direccion":"CARRERA 58 No 15-54 PISO 2","email":"solinconltda@yahoo.es"},"numero":457,"llaveProceso":"11001400307920180087200","tipoProceso":"SINGULAR"}
+{
+  "_id": "64e8790ba35a5c13a887bc20",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "24765.475.00",
+    "entregagarantiasAbogado": "2018-07-09T00:00:00.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-07-18T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "AUDIOPRESTAMO",
+      "2": "460091173/ 460090745"
+    },
+    "radicado": "2018 - 00872",
+    "vencimientoPagare": "2019-01-26T00:00:00.000Z",
+    "expediente": "11001400307920180087200",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 3108881287 },
+    "primerNombre": "SOLINCON",
+    "segundoNombre": null,
+    "primerApellido": "LIMITADA",
+    "segundoApellido": null,
+    "cedula": 900237555,
+    "direccion": "CARRERA 58 No 15-54 PISO 2",
+    "email": "solinconltda@yahoo.es"
+  },
+  "numero": 457,
+  "llaveProceso": "11001400307920180087200",
+  "tipoProceso": "SINGULAR"
+}

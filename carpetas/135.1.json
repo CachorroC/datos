@@ -1,1 +1,50 @@
-{"category":"Terminados","deudor":{"tel":{"fijo":6045701,"celular":3007704166},"primerNombre":"RUBER","segundoNombre":"ANDRES","primerApellido":"VALENZUELA","segundoApellido":"SIERRA","cedula":5654542,"direccion":"CARRERA 16 # 10 - 30 ","email":"N/A"},"numero":135,"tipoProceso":"SINGULAR","idProceso":81638681,"llaveProceso":"11001400300420170063900","categoryTag":5,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"12203.589","entregagarantiasAbogado":"2017-06-28T00:00:00.000Z","etapaProcesal":"1.100140030042017e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":410086468,"2":"N/A"},"radicado":"2017 - 00639","vencimientoPagare":"2020-12-31T00:00:00.000Z","expediente":"11001400300420170063900","juzgados":[{"id":11,"tipo":"JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota"},{"id":4,"tipo":"JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": 6045701,
+      "celular": 3007704166
+    },
+    "primerNombre": "RUBER",
+    "segundoNombre": "ANDRES",
+    "primerApellido": "VALENZUELA",
+    "segundoApellido": "SIERRA",
+    "cedula": 5654542,
+    "direccion": "CARRERA 16 # 10 - 30 ",
+    "email": "N/A"
+  },
+  "numero": 135,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 81638681,
+  "llaveProceso": "11001400300420170063900",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "12203.589",
+    "entregagarantiasAbogado": "2017-06-28T00:00:00.000Z",
+    "etapaProcesal": "1.100140030042017e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 410086468, "2": "N/A" },
+    "radicado": "2017 - 00639",
+    "vencimientoPagare": "2020-12-31T00:00:00.000Z",
+    "expediente": "11001400300420170063900",
+    "juzgados": [
+      {
+        "id": 11,
+        "tipo": "JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota"
+      },
+      {
+        "id": 4,
+        "tipo": "JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

@@ -1,1 +1,48 @@
-{"category":"Reintegra","deudor":{"tel":{"fijo":4933266,"celular":3115754578},"primerNombre":"DARLEY","segundoNombre":"JULIED","primerApellido":"PAEZ","segundoApellido":"HIGUERA","cedula":53160094,"direccion":"CALLE 130 No 126-96 INTERIOR 16 APARTAMENTO 302","email":"djpaez5@hotmail.com"},"numero":466,"tipoProceso":"SINGULAR","idProceso":50990370,"llaveProceso":"11001400305220180011700","categoryTag":2,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"14270.897","entregagarantiasAbogado":null,"etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2018-05-02T05:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":"37781415851035/","2":"4099830008406922 / 5303710339142355"},"radicado":"2018 - 00117","vencimientoPagare":null,"expediente":"11001400305220180011700","juzgados":[{"id":17,"tipo":"JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "category": "Reintegra",
+  "deudor": {
+    "tel": {
+      "fijo": 4933266,
+      "celular": 3115754578
+    },
+    "primerNombre": "DARLEY",
+    "segundoNombre": "JULIED",
+    "primerApellido": "PAEZ",
+    "segundoApellido": "HIGUERA",
+    "cedula": 53160094,
+    "direccion": "CALLE 130 No 126-96 INTERIOR 16 APARTAMENTO 302",
+    "email": "djpaez5@hotmail.com"
+  },
+  "numero": 466,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50990370,
+  "llaveProceso": "11001400305220180011700",
+  "categoryTag": 2,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "14270.897",
+    "entregagarantiasAbogado": null,
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-05-02T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "37781415851035/",
+      "2": "4099830008406922 / 5303710339142355"
+    },
+    "radicado": "2018 - 00117",
+    "vencimientoPagare": null,
+    "expediente": "11001400305220180011700",
+    "juzgados": [
+      {
+        "id": 17,
+        "tipo": "JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

@@ -1,1 +1,39 @@
-{"_id":"64e8790ba35a5c13a887bc08","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":43237,"entregagarantiasAbogado":"1970-01-01T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":"1970-01-01T00:00:00.000Z","municipio":"ZIPAQUIRA","obligacion":{"1":"","2":"24,057,365,00"},"radicado":"2018 - 00222","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"25899400300120180022200","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"JORGE","segundoNombre":"ALBERTO","primerApellido":"BELTRAN","segundoApellido":"PAEZ","cedula":3116420,"direccion":"","email":"CALLE 3 No 17-36"},"numero":433,"llaveProceso":"25899400300120180022200","tipoProceso":"SINGULAR"}
+{
+  "_id": "64e8790ba35a5c13a887bc08",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 43237,
+    "entregagarantiasAbogado": "1970-01-01T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": "1970-01-01T00:00:00.000Z",
+    "municipio": "ZIPAQUIRA",
+    "obligacion": {
+      "1": "",
+      "2": "24,057,365,00"
+    },
+    "radicado": "2018 - 00222",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "25899400300120180022200",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "JORGE",
+    "segundoNombre": "ALBERTO",
+    "primerApellido": "BELTRAN",
+    "segundoApellido": "PAEZ",
+    "cedula": 3116420,
+    "direccion": "",
+    "email": "CALLE 3 No 17-36"
+  },
+  "numero": 433,
+  "llaveProceso": "25899400300120180022200",
+  "tipoProceso": "SINGULAR"
+}

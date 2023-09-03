@@ -1,1 +1,39 @@
-{"_id":"64e8790ba35a5c13a887bc69","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":46371.154,"entregagarantiasAbogado":"1970-01-01T00:00:00.000Z","etapaProcesal":"2.543040030012019e+22","fechaPresentacion":"1970-01-01T00:00:00.000Z","municipio":"MADRID","obligacion":{"1":"2273 320186673","2":"N/A"},"radicado":"2019 - 01160","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"25473400100120190116000","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"YOLADIS","segundoNombre":"ESTHER","primerApellido":"BLANCO","segundoApellido":"LOPEZ","cedula":1065564377,"direccion":"CALLE  23 No 12-50 CASA 16 INT 12 MANZANA 1 CONJUNTO QUINTAS DE ZARAGOZA","email":"yoladisb@hotmail.com"},"numero":528,"llaveProceso":"25473400100120190116000","tipoProceso":"HIPOTECARIO"}
+{
+  "_id": "64e8790ba35a5c13a887bc69",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 46371.154,
+    "entregagarantiasAbogado": "1970-01-01T00:00:00.000Z",
+    "etapaProcesal": "2.543040030012019e+22",
+    "fechaPresentacion": "1970-01-01T00:00:00.000Z",
+    "municipio": "MADRID",
+    "obligacion": {
+      "1": "2273 320186673",
+      "2": "N/A"
+    },
+    "radicado": "2019 - 01160",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "25473400100120190116000",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "YOLADIS",
+    "segundoNombre": "ESTHER",
+    "primerApellido": "BLANCO",
+    "segundoApellido": "LOPEZ",
+    "cedula": 1065564377,
+    "direccion": "CALLE  23 No 12-50 CASA 16 INT 12 MANZANA 1 CONJUNTO QUINTAS DE ZARAGOZA",
+    "email": "yoladisb@hotmail.com"
+  },
+  "numero": 528,
+  "llaveProceso": "25473400100120190116000",
+  "tipoProceso": "HIPOTECARIO"
+}

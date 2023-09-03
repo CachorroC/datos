@@ -1,1 +1,40 @@
-{"category":"Terminados","deudor":{"tel":{"celular":3183517022},"primerNombre":"YUDY","primerApellido":"RODRIGUEZ","cedula":52744376,"direccion":"CALLE 67 No.86A-49 BOGOTA","email":"N/A"},"numero":26,"tipoProceso":"HIPOTECARIO","idProceso":18161830,"llaveProceso":"11001400306520170082700","categoryTag":5,"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"17307.303","entregagarantiasAbogado":"2017-05-19T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-05-30T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":20990116310,"2":""},"radicado":"2017 - 00827","vencimientoPagare":"2024-03-03T00:00:00.000Z","expediente":"11001400306520170082700","juzgados":[{"id":65,"tipo":"JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-65-civil-municipal-de-bogota"}]}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": { "celular": 3183517022 },
+    "primerNombre": "YUDY",
+    "primerApellido": "RODRIGUEZ",
+    "cedula": 52744376,
+    "direccion": "CALLE 67 No.86A-49 BOGOTA",
+    "email": "N/A"
+  },
+  "numero": 26,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 18161830,
+  "llaveProceso": "11001400306520170082700",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "17307.303",
+    "entregagarantiasAbogado": "2017-05-19T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 20990116310, "2": "" },
+    "radicado": "2017 - 00827",
+    "vencimientoPagare": "2024-03-03T00:00:00.000Z",
+    "expediente": "11001400306520170082700",
+    "juzgados": [
+      {
+        "id": 65,
+        "tipo": "JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-65-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

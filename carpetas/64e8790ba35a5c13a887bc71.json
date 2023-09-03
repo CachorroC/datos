@@ -1,1 +1,62 @@
-{"_id":"64e8790ba35a5c13a887bc71","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":18772.901,"entregagarantiasAbogado":"2018-04-26T00:00:00.000Z","etapaProcesal":"1.100140030202018e+22","fechaPresentacion":"1970-01-01T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":4513072334510690,"2":5491580398400380},"radicado":"2018 - 00479","vencimientoPagare":"2020-08-02T00:00:00.000Z","expediente":"11001400302020180047900","juzgados":[{"id":17,"tipo":"JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"BLANCA","segundoNombre":"LILIA","primerApellido":"BRAVO","segundoApellido":"PAEZ","cedula":39544073,"direccion":"CALLE 64 C No 105-88","email":"blancall21@hotmail.com"},"numero":536,"llaveProceso":"11001400302020180047900","tipoProceso":"SINGULAR","idProceso":51173430,"fecha":"2023-07-05T05:00:00.000Z","lastModified":"2023-08-25T09:58:18.379Z","ultimaActuacion":{"idRegActuacion":1799952450,"llaveProceso":"11001400302020180047900","consActuacion":63,"fechaActuacion":"2023-07-05T05:00:00.000Z","actuacion":"Constancia secretarial","anotacion":"  HIBRIDO  SE RECEPCIONA DEL DESPACHO -ESTADO letra//JULIAN B ","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2023-07-05T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":63}}
+{
+  "_id": "64e8790ba35a5c13a887bc71",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 18772.901,
+    "entregagarantiasAbogado": "2018-04-26T00:00:00.000Z",
+    "etapaProcesal": "1.100140030202018e+22",
+    "fechaPresentacion": "1970-01-01T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 4513072334510690,
+      "2": 5491580398400380
+    },
+    "radicado": "2018 - 00479",
+    "vencimientoPagare": "2020-08-02T00:00:00.000Z",
+    "expediente": "11001400302020180047900",
+    "juzgados": [
+      {
+        "id": 17,
+        "tipo": "JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "BLANCA",
+    "segundoNombre": "LILIA",
+    "primerApellido": "BRAVO",
+    "segundoApellido": "PAEZ",
+    "cedula": 39544073,
+    "direccion": "CALLE 64 C No 105-88",
+    "email": "blancall21@hotmail.com"
+  },
+  "numero": 536,
+  "llaveProceso": "11001400302020180047900",
+  "tipoProceso": "SINGULAR",
+  "idProceso": 51173430,
+  "fecha": "2023-07-05T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:18.379Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1799952450,
+    "llaveProceso": "11001400302020180047900",
+    "consActuacion": 63,
+    "fechaActuacion": "2023-07-05T05:00:00.000Z",
+    "actuacion": "Constancia secretarial",
+    "anotacion": "  HIBRIDO  SE RECEPCIONA DEL DESPACHO -ESTADO letra//JULIAN B ",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2023-07-05T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 63
+  }
+}

@@ -1,1 +1,39 @@
-{"_id":"64e8790ba35a5c13a887bc28","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":43293,"entregagarantiasAbogado":"1970-01-01T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":"1970-01-01T00:00:00.000Z","municipio":"SOACHA","obligacion":{"1":"","2":"19.080.628.51"},"radicado":"2018 - 00664","vencimientoPagare":"1970-01-01T00:00:00.000Z","expediente":"25754418900220180066400","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"RICARDO","segundoNombre":"ARMANDO","primerApellido":"CELIS","segundoApellido":"ANGEL ","cedula":51944991,"direccion":"51944991","email":"TRANSVERSAL 4B No 3-75   CASA 44"},"numero":464,"llaveProceso":"25754418900220180066400","tipoProceso":"HIPOTECARIO"}
+{
+  "_id": "64e8790ba35a5c13a887bc28",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": 43293,
+    "entregagarantiasAbogado": "1970-01-01T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": "1970-01-01T00:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": {
+      "1": "",
+      "2": "19.080.628.51"
+    },
+    "radicado": "2018 - 00664",
+    "vencimientoPagare": "1970-01-01T00:00:00.000Z",
+    "expediente": "25754418900220180066400",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "RICARDO",
+    "segundoNombre": "ARMANDO",
+    "primerApellido": "CELIS",
+    "segundoApellido": "ANGEL ",
+    "cedula": 51944991,
+    "direccion": "51944991",
+    "email": "TRANSVERSAL 4B No 3-75   CASA 44"
+  },
+  "numero": 464,
+  "llaveProceso": "25754418900220180066400",
+  "tipoProceso": "HIPOTECARIO"
+}

@@ -1,1 +1,59 @@
-{"_id":"64e8790ba35a5c13a887bb41","demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"37800.911.06","entregagarantiasAbogado":"2017-09-12T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-09-19T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":161786,"2":""},"radicado":"2017 - 01006","vencimientoPagare":"2033-02-28T00:00:00.000Z","expediente":"11001400302620170100600","juzgados":[{"id":26,"tipo":"JUZGADO 026 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-26-civil-municipal-de-bogota"}]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":0,"celular":0},"primerNombre":"RICARDO","segundoNombre":"ANDRES","primerApellido":"NOCUA","segundoApellido":"GUATAMA","cedula":80144827,"direccion":"CALLE 62 A SUR 87C -58","email":"pajulo8@hotmail.com"},"numero":244,"llaveProceso":"11001400302620170100600","tipoProceso":"HIPOTECARIO","idProceso":50718800,"fecha":"2017-12-13T05:00:00.000Z","lastModified":"2023-08-25T09:58:20.421Z","ultimaActuacion":{"idRegActuacion":713977140,"llaveProceso":"11001400302620170100600","consActuacion":11,"fechaActuacion":"2017-12-13T05:00:00.000Z","actuacion":"Retiro demanda","anotacion":"retira demanda original y anexos sra. diana patricia triana suarez, c.c. 52.516.17, autorizada parte actora, dra maria helena suarez garcia, c.c. 51.612.208 y 128.130, s","fechaInicial":"1970-01-01T00:00:00.000Z","fechaFinal":"1970-01-01T00:00:00.000Z","fechaRegistro":"2017-12-13T05:00:00.000Z","codRegla":"00                              ","conDocumentos":false,"cant":11}}
+{
+  "_id": "64e8790ba35a5c13a887bb41",
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "37800.911.06",
+    "entregagarantiasAbogado": "2017-09-12T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 161786, "2": "" },
+    "radicado": "2017 - 01006",
+    "vencimientoPagare": "2033-02-28T00:00:00.000Z",
+    "expediente": "11001400302620170100600",
+    "juzgados": [
+      {
+        "id": 26,
+        "tipo": "JUZGADO 026 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-26-civil-municipal-de-bogota"
+      }
+    ]
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "fijo": 0, "celular": 0 },
+    "primerNombre": "RICARDO",
+    "segundoNombre": "ANDRES",
+    "primerApellido": "NOCUA",
+    "segundoApellido": "GUATAMA",
+    "cedula": 80144827,
+    "direccion": "CALLE 62 A SUR 87C -58",
+    "email": "pajulo8@hotmail.com"
+  },
+  "numero": 244,
+  "llaveProceso": "11001400302620170100600",
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50718800,
+  "fecha": "2017-12-13T05:00:00.000Z",
+  "lastModified": "2023-08-25T09:58:20.421Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 713977140,
+    "llaveProceso": "11001400302620170100600",
+    "consActuacion": 11,
+    "fechaActuacion": "2017-12-13T05:00:00.000Z",
+    "actuacion": "Retiro demanda",
+    "anotacion": "retira demanda original y anexos sra. diana patricia triana suarez, c.c. 52.516.17, autorizada parte actora, dra maria helena suarez garcia, c.c. 51.612.208 y 128.130, s",
+    "fechaInicial": "1970-01-01T00:00:00.000Z",
+    "fechaFinal": "1970-01-01T00:00:00.000Z",
+    "fechaRegistro": "2017-12-13T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 11
+  }
+}
