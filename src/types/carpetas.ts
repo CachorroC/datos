@@ -89,7 +89,7 @@ export interface IntDemanda {
     descripcion: string;
     codigo: string;
   } | null;
-  entregagarantiasAbogado: Date;
+  entregaGarantiasAbogado: Date;
   etapaProcesal?: string;
   fechaPresentacion?: Date;
   municipio: string;
@@ -108,6 +108,7 @@ export interface Juzgado {
 
 export type TipoProcesoRaw =
   | 'HIPOTECARIO'
+
   | 'PRENDARIO'
   | 'SINGULAR'
   | 'SINGULAR ACUMULADO CON HIPOTECARIO'
@@ -122,10 +123,11 @@ export type TipoProcesoRaw =
   | 'HIPOTECARO'
   | 'SINGULAR ACUMULADO CON HIPOTECARIO CAJA SOCIAL'
   | 'SOACHA'
+  |'ACUMULADO'
   | 'HIPOTECARIO ';
 
 export type TipoProceso =
   | 'HIPOTECARIO'
   | 'PRENDARIO'
   | 'SINGULAR'
-  | 'SINGULAR ACUMULADO HIPOTECARIO';
+  | 'ACUMULADO';

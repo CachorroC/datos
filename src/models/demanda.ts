@@ -8447,7 +8447,7 @@ const Carpetas: IntCarpetaRaw[] = [
     },
     llaveProceso: '2017 - 01411',
     numero      : 304,
-    tipoProceso : ''
+    tipoProceso : 'SINGULAR'
   },
   {
     category: 'Terminados',
@@ -16116,7 +16116,7 @@ const Carpetas: IntCarpetaRaw[] = [
     },
     llaveProceso: '',
     numero      : 580,
-    tipoProceso : ''
+    tipoProceso : 'SINGULAR'
   },
   {
     category: 'Bancolombia',
@@ -16145,7 +16145,7 @@ const Carpetas: IntCarpetaRaw[] = [
     },
     llaveProceso: '',
     numero      : 581,
-    tipoProceso : ''
+    tipoProceso : 'SINGULAR'
   },
   {
     category: 'Bancolombia',
@@ -16173,7 +16173,7 @@ const Carpetas: IntCarpetaRaw[] = [
     },
     llaveProceso: '',
     numero      : 582,
-    tipoProceso : ''
+    tipoProceso : 'SINGULAR'
   }
 ];
 
@@ -16856,13 +16856,15 @@ function capitalBuilder(
   );
 
   const dotTaker = copTaker.replace(
-    '.', '' 
+    '.', ''
   );
   console.log(
-    dotTaker 
+    dotTaker
   );
 
-  return dotTaker;
+  return Number(
+    dotTaker
+  );
 }
 
 export function newJuzgado(
@@ -16872,35 +16874,35 @@ export function newJuzgado(
 
   for ( const proceso of procesos ) {
     const indexOf = procesos.indexOf(
-      proceso 
+      proceso
     );
 
     const matchedDespacho = Despachos.find(
       (
-        despacho 
+        despacho
       ) => {
         const nDesp = despacho.nombre
               .toLowerCase()
               .normalize(
-                'NFD' 
+                'NFD'
               )
               .replace(
-                /\p{Diacritic}/gu, '' 
+                /\p{Diacritic}/gu, ''
               )
               .trim();
 
         const pDesp = proceso.despacho
               .toLowerCase()
               .normalize(
-                'NFD' 
+                'NFD'
               )
               .replace(
-                /\p{Diacritic}/gu, '' 
+                /\p{Diacritic}/gu, ''
               )
               .trim();
 
         const indexOfDesp = nDesp.indexOf(
-          pDesp 
+          pDesp
         );
 
         if ( indexOfDesp >= 0 ) {
@@ -16918,11 +16920,11 @@ export function newJuzgado(
       : proceso.despacho;
 
     const matchedId = nameN.match(
-      /\d+/g 
+      /\d+/g
     );
 
     const newId = Number(
-      matchedId?.toString() 
+      matchedId?.toString()
     );
 
     const newJuzgado: Juzgado = {
@@ -16934,17 +16936,17 @@ export function newJuzgado(
         ? `https://www.ramajudicial.gov.co${ matchedDespacho.url }`
         : `https://www.ramajudicial.gov.co${ proceso.despacho
               .replaceAll(
-                ' ', '-' 
+                ' ', '-'
               )
               .toLowerCase() }`
     };
     juzgados.set(
-      indexOf, newJuzgado 
+      indexOf, newJuzgado
     );
   }
 
   return Array.from(
-    juzgados.values() 
+    juzgados.values()
   );
 }
 
@@ -16955,7 +16957,7 @@ function setDepartamento(
 
   const filterDeptos = deptos.find(
     (
-      dpt 
+      dpt
     ) => {
       const stringDepto = dpt.descripcion;
 
@@ -16963,7 +16965,7 @@ function setDepartamento(
         stringDepto.toLowerCase()
       === departamento.toLowerCase()
       );
-    } 
+    }
   );
 
   if ( filterDeptos ) {
@@ -16984,7 +16986,7 @@ export class Demanda implements IntDemanda {
   constructor(
     {
       capitalAdeudado,
-      entregagarantiasAbogado,
+      entregaGarantiasAbogado,
       etapaProcesal,
       departamento,
       fechaPresentacion,
@@ -16992,13 +16994,13 @@ export class Demanda implements IntDemanda {
       obligacion,
       radicado,
       vencimientoPagare
-    }: DemandaRaw 
+    }: DemandaRaw
   ) {
     this.capitalAdeudado = capitalBuilder(
       capitalAdeudado
     );
-    this.entregagarantiasAbogado = new Date(
-      entregagarantiasAbogado
+    this.entregaGarantiasAbogado = new Date(
+      entregaGarantiasAbogado
     );
     this.etapaProcesal
       = etapaProcesal?.toString();
@@ -17013,9 +17015,10 @@ export class Demanda implements IntDemanda {
     );
     this.departamento
       = setDepartamento(
-        departamento 
+        departamento
       );
   }
+  entregaGarantiasAbogado: Date;
   departamento: {
     idCatalogoDetalle: number;
     idCatalogoDetallePadre: number;
@@ -17023,7 +17026,7 @@ export class Demanda implements IntDemanda {
     codigo: string;
   } | null;
   juzgados: Juzgado[] = [];
-  capitalAdeudado: number | string;
+  capitalAdeudado: number;
   entregagarantiasAbogado: Date;
   etapaProcesal?: string;
   fechaPresentacion?: Date;
@@ -17058,14 +17061,14 @@ async function createCarpetasDemanda() {
               hour  : 'numeric',
               minute: 'numeric',
               hour12: true
-            } 
+            }
           );
     console.log(
       `estará listo a las ${ outputTime }`
     );
 
     await sleep(
-      awaitTime 
+      awaitTime
     );
     console.log(
       `carpetas has a length of ${ Carpetas.length } and you are in carpeta number ${ carpeta.numero }`
@@ -17075,7 +17078,7 @@ async function createCarpetasDemanda() {
       {
         llaveProceso:
         carpeta.llaveProceso.toString()
-      } 
+      }
     );
 
     const newDemanda = new Demanda(
@@ -17083,10 +17086,10 @@ async function createCarpetasDemanda() {
     );
 
     const newDeudor = new Deudor(
-      carpeta.deudor 
+      carpeta.deudor
     );
     console.log(
-      newDeudor.tel.celular 
+      newDeudor.tel.celular
     );
 
     const categories = [
@@ -17107,7 +17110,7 @@ async function createCarpetasDemanda() {
 
         const indexOf
           = RequestProcesos.indexOf(
-            proceso 
+            proceso
           );
 
         const juzgados = newJuzgado(
@@ -17136,11 +17139,11 @@ async function createCarpetasDemanda() {
         fs.writeFile(
           `carpetas/${ newCarpeta.numero }.${ indexOf }.json`,
           JSON.stringify(
-            newCarpeta 
+            newCarpeta
           )
         );
         newCarpetas.add(
-          newCarpeta 
+          newCarpeta
         );
 
         continue;
@@ -17169,11 +17172,11 @@ async function createCarpetasDemanda() {
       fs.writeFile(
         `carpetas/${ newCarpeta.numero }.json`,
         JSON.stringify(
-          newCarpeta 
+          newCarpeta
         )
       );
       newCarpetas.add(
-        newCarpeta 
+        newCarpeta
       );
     }
   }
@@ -17185,20 +17188,20 @@ async function createCarpetasDemanda() {
   fs.writeFile(
     'procesosData.json',
     JSON.stringify(
-      newProcesosArray 
+      newProcesosArray
     )
   );
 
   const newCarpetasArray
     = Array.from(
-      newCarpetas 
+      newCarpetas
     );
 
   const insertCarpetas = await insertNewCarpetas(
     newCarpetasArray
   );
   console.log(
-    insertCarpetas 
+    insertCarpetas
   );
 
   return newCarpetasArray;
@@ -17208,36 +17211,36 @@ console.log(
   createCarpetasDemanda()
         .then(
           (
-            ff 
+            ff
           ) => {
             fs.writeFile(
               'newCarpetasFinal.json',
               JSON.stringify(
-                ff 
+                ff
               )
             );
 
             return console.log(
-              ff 
+              ff
             );
           },
           (
-            rr 
+            rr
           ) => {
             return console.log(
-              rr 
+              rr
             );
           }
         )
         .catch(
           (
-            err 
+            err
           ) => {
             return console.log(
               JSON.stringify(
-                err 
-              ) 
+                err
+              )
             );
-          } 
+          }
         )
 );
