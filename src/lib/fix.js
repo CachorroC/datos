@@ -1,50 +1,33 @@
 'use strict';
-Object.defineProperty(
-  exports, '__esModule', {
-    value: true
-  } 
-);
-exports.toNameString
-  = exports.fixName
-  = exports.trimmer
-  = exports.fixFechas
-  = exports.unfixFechas
-  = exports.fixMoney
-  = exports.sleep
-    = void 0;
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
+exports.toNameString =
+  exports.fixName =
+  exports.trimmer =
+  exports.fixFechas =
+  exports.unfixFechas =
+  exports.fixMoney =
+  exports.sleep =
+    void 0;
 
-function sleep(
-  ms 
-) {
-  return new Promise(
-    (
-      resolve 
-    ) => {
-      console.log(
-        JSON.stringify(
-          new Date()
-                .getTime() 
-        )
-      );
+function sleep(ms) {
+  return new Promise((resolve) => {
+    console.log(
+      JSON.stringify(new Date().getTime())
+    );
 
-      return setTimeout(
-        resolve, ms 
-      );
-    } 
-  );
+    return setTimeout(resolve, ms);
+  });
 }
 exports.sleep = sleep;
 
-function fixMoney(
-  {
-    valor 
-  } 
-) {
+function fixMoney({ valor }) {
   const precioEnCop = valor.toLocaleString(
     'es-CO',
     {
       currency: 'COP',
-      style   : 'currency'
+      style: 'currency'
     }
   );
 
@@ -52,35 +35,23 @@ function fixMoney(
 }
 exports.fixMoney = fixMoney;
 
-function unfixFechas(
-  {
-    fecha 
-  } 
-) {
-  const date = new Date(
-    fecha 
-  );
+function unfixFechas({ fecha }) {
+  const date = new Date(fecha);
 
-  return date.toLocaleDateString(
-    'es-CO' 
-  );
+  return date.toLocaleDateString('es-CO');
 }
 exports.unfixFechas = unfixFechas;
 
-function fixFechas(
-  fecha 
-) {
-  if ( fecha === null ) {
+function fixFechas(fecha) {
+  if (fecha === null) {
     return 'no hay fechas: null';
   }
 
-  if ( fecha === undefined ) {
+  if (fecha === undefined) {
     return 'no se ha definido el contenido';
   }
 
-  const date = new Date(
-    fecha 
-  );
+  const date = new Date(fecha);
 
   const months = [
     'enero',
@@ -97,7 +68,7 @@ function fixFechas(
     'diciembre'
   ];
 
-  const month = months[ date.getMonth() ];
+  const month = months[date.getMonth()];
 
   const dia = date.getDate();
 
@@ -107,119 +78,82 @@ function fixFechas(
 }
 exports.fixFechas = fixFechas;
 
-function trimmer(
-  nombreCompleto 
-) {
+function trimmer(nombreCompleto) {
   const trimDemandado = nombreCompleto.replace(
     /^\s+|\s+$/gm,
     ''
   );
-  console.log(
-    trimDemandado 
-  );
+  console.log(trimDemandado);
 
-  const splitDemandado = trimDemandado.split(
-    ' ' 
-  );
+  const splitDemandado = trimDemandado.split(' ');
 
-  const splitDemandadotoUnify
-    = splitDemandado.map(
-      (
-        nombreOapellido, index 
-      ) => {
-        if ( index >= 5 ) {
+  const splitDemandadotoUnify =
+    splitDemandado.map(
+      (nombreOapellido, index) => {
+        if (index >= 5) {
           return '';
         }
 
-        if ( nombreOapellido === '|' ) {
+        if (nombreOapellido === '|') {
           return '';
         }
 
-        if ( nombreOapellido.includes(
-          's.a.s' 
-        ) ) {
+        if (nombreOapellido.includes('s.a.s')) {
           return '';
         }
 
-        if ( nombreOapellido.includes(
-          'sas' 
-        ) ) {
+        if (nombreOapellido.includes('sas')) {
           return '';
         }
 
         if (
-          nombreOapellido.includes(
-            '(emplazado)' 
-          )
+          nombreOapellido.includes('(emplazado)')
         ) {
           return '';
         }
 
         return nombreOapellido.replace(
           /^./,
-          (
-            str 
-          ) => {
+          (str) => {
             return str.toUpperCase();
           }
         );
       }
     );
 
-  const unifyDemandado
-    = splitDemandadotoUnify.join(
-      ' ' 
-    );
+  const unifyDemandado =
+    splitDemandadotoUnify.join(' ');
 
   return unifyDemandado;
 }
 exports.trimmer = trimmer;
 
-function fixName(
-  nombreCompleto 
-) {
+function fixName(nombreCompleto) {
   const mySubString = 'Demandado';
 
-  const count
-    = nombreCompleto.split(
-      mySubString 
-    ).length - 1;
+  const count =
+    nombreCompleto.split(mySubString).length - 1;
 
-  if ( count === 1 ) {
-    return trimmer(
-      nombreCompleto 
-    );
+  if (count === 1) {
+    return trimmer(nombreCompleto);
   }
 
   return nombreCompleto;
 }
 exports.fixName = fixName;
 
-const toNameString = (
-  {
-    nameRaw 
-  } 
-) => {
+const toNameString = ({ nameRaw }) => {
   const str = nameRaw.toLowerCase();
 
-  const arr = str.split(
-    ' ' 
-  );
+  const arr = str.split(' ');
 
-  for ( let i = 0; i < arr.length; i++ ) {
-    arr[ i ]
-      = arr[ i ].charAt(
-        0 
-      )
-            .toUpperCase()
-      + arr[ i ].slice(
-        1 
-      );
+  for (let i = 0; i < arr.length; i++) {
+    arr[i] =
+      arr[i].charAt(0).toUpperCase() +
+      arr[i].slice(1);
   }
 
-  const str2 = arr.join(
-    ' ' 
-  );
+  const str2 = arr.join(' ');
 
   return str2;
 };

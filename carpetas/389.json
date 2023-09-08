@@ -1,4 +1,35 @@
 {
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "",
+    "entregagarantiasAbogado": null,
+    "etapaProcesal": "",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "1": "", "2": "" },
+    "radicado": "2018 - 00121",
+    "vencimientoPagare": null,
+    "expediente": "11001400307020180012100",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "MIGUEL",
+    "segundoNombre": "ANGEL",
+    "primerApellido": "GRANADOS",
+    "segundoApellido": "GUTIERREZ",
+    "cedula": 79874218,
+    "direccion": "",
+    "email": ""
+  },
+  "numero": 389,
+  "llaveProceso": "11001400307020180012100",
+  "tipoProceso": "SINGULAR"
 }

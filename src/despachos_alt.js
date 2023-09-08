@@ -1,130 +1,104 @@
 'use strict';
-var __createBinding
-  = ( this && this.__createBinding )
-  || ( Object.create
-    ? function (
-      o, m, k, k2 
-    ) {
-      if ( k2 === undefined ) {
-        k2 = k;
-      }
-      var desc
-          = Object.getOwnPropertyDescriptor(
-            m, k 
-          );
+var __createBinding =
+  (this && this.__createBinding) ||
+  (Object.create
+    ? function (o, m, k, k2) {
+        if (k2 === undefined) {
+          k2 = k;
+        }
+        var desc =
+          Object.getOwnPropertyDescriptor(m, k);
 
-      if (
-        !desc
-          || ( 'get' in desc
+        if (
+          !desc ||
+          ('get' in desc
             ? !m.__esModule
-            : desc.writable || desc.configurable )
-      ) {
-        desc = {
-          enumerable: true,
-          get       : function () {
-            return m[ k ];
-          }
-        };
+            : desc.writable || desc.configurable)
+        ) {
+          desc = {
+            enumerable: true,
+            get: function () {
+              return m[k];
+            }
+          };
+        }
+        Object.defineProperty(o, k2, desc);
       }
-      Object.defineProperty(
-        o, k2, desc 
-      );
-    }
-    : function (
-      o, m, k, k2 
-    ) {
-      if ( k2 === undefined ) {
-        k2 = k;
-      }
-      o[ k2 ] = m[ k ];
-    } );
-var __setModuleDefault
-  = ( this && this.__setModuleDefault )
-  || ( Object.create
-    ? function (
-      o, v 
-    ) {
-      Object.defineProperty(
-        o, 'default', {
+    : function (o, m, k, k2) {
+        if (k2 === undefined) {
+          k2 = k;
+        }
+        o[k2] = m[k];
+      });
+var __setModuleDefault =
+  (this && this.__setModuleDefault) ||
+  (Object.create
+    ? function (o, v) {
+        Object.defineProperty(o, 'default', {
           enumerable: true,
-          value     : v
-        } 
-      );
-    }
-    : function (
-      o, v 
-    ) {
-      o[ 'default' ] = v;
-    } );
+          value: v
+        });
+      }
+    : function (o, v) {
+        o['default'] = v;
+      });
 
-var __importStar
-  = ( this && this.__importStar )
-  || function (
-    mod 
-  ) {
-    if ( mod && mod.__esModule ) {
+var __importStar =
+  (this && this.__importStar) ||
+  function (mod) {
+    if (mod && mod.__esModule) {
       return mod;
     }
     var result = {};
 
-    if ( mod != null ) {
-      for ( var k in mod ) {
+    if (mod != null) {
+      for (var k in mod) {
         if (
-          k !== 'default'
-          && Object.prototype.hasOwnProperty.call(
+          k !== 'default' &&
+          Object.prototype.hasOwnProperty.call(
             mod,
             k
           )
         ) {
-          __createBinding(
-            result, mod, k 
-          );
+          __createBinding(result, mod, k);
         }
       }
     }
-    __setModuleDefault(
-      result, mod 
-    );
+    __setModuleDefault(result, mod);
 
     return result;
   };
-Object.defineProperty(
-  exports, '__esModule', {
-    value: true
-  } 
-);
-exports.outputDespachos = exports.Despachos
-  = void 0;
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
+exports.outputDespachos = exports.Despachos =
+  void 0;
 
-const fs = __importStar(
-  require(
-    'fs/promises' 
-  ) 
-);
+const fs = __importStar(require('fs/promises'));
 exports.Despachos = [
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'OFICINA JUDICIAL',
     nombre:
       '.OFICINA DE APOYO JUDICIAL DE LOS JUZGADOS ADMINISTRATIVOS DE BOGOTÁ',
     url: '/web/oficina-de-apoyo-judicial-de-los-juzgados-administrativos-de-bogota'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'APOYO JUZGADOS PENALES DEL CIRCUITO DE BOGOTÁ',
     url: '/web/oficina-de-apoyo-penal-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'APOYO JUZGADOS PENALES MUNICIPALES DE BOGOTÁ',
     url: '/web/oficina-de-apoyo-penal-municipal-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'CENTRO DE SERV. ADMIN JUZ. EJECUCION DE PENAS Y MEDIDAS DE SEGURIDAD DE SANTA MARTA',
@@ -140,56 +114,56 @@ exports.Despachos = [
     url: '/web/centro-de-serv-administrativo-spa-valledupar'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'CENTRO DE SERV. ADMINISTRATIVOS JUZGADO DE EJECUCION DE PENAS Y MEDIDAS DE SEGURIDAD',
     url: '/web/centro-de-serv-administrativos-juzgado-de-ejecucion-de-penas-y-medidas-de-seguridad'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'CENTRO DE SERV. ADMINISTRATIVOS JUZGADO DE EJECUCION DE PENAS Y MEDIDAS DE SEGURIDAD DE CALI',
     url: '/web/centro-de-serv-administrativos-juzgado-de-ejecucion-de-penas-y-medidas-de-seguridad-de-cali'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'CENTRO DE SERV. ADMINISTRATIVOS JUZGADO DE EJECUCION DE PENAS Y MEDIDAS DE SEGURIDAD DE POPAYÁN',
     url: '/web/centro-de-serv.-administrativos-juzgado-de-ejecucion-de-penas-y-medidas-de-seguridad-de-popayan'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'CENTRO DE SERV. ADMINISTRATIVOS JUZGADO DEL CIRCUITO PENAL ESPECIALIZADO - ANTIOQUIA',
     url: '/web/centro-de-serv-administrativos-juzgado-del-circuito-penal-especializado-antioquia'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'CENTRO DE SERV. ADMINISTRATIVOS JUZGADO DEL CIRCUITO PENAL ESPECIALIZADO IBAGUÉ',
     url: '/web/centro-de-serv.-administrativos-juzgado-del-circuito-penal-especializado-ibague'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'CENTRO DE SERV. ADMINISTRATIVOS JUZGADO DEL CIRCUITO PENAL ESPECIALIZADO VILLAVICENCIO',
     url: '/web/centro-de-serv-administrativos-juzgado-del-circuito-penal-especializado-villavicencio'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'CENTRO DE SERV. ADMINISTRATIVOS JUZGADO EJECUCION DE PENAS Y MEDIDAS DE SEGURIDAD DE PASTO',
     url: '/web/centro-de-serv-administrativos-juzgado-ejecucion-de-penas-y-medidas-de-seguridad-de-pasto'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'CENTRO DE SERV. ADMINISTRATIVOS JUZGADO EJECUCION DE PENAS Y MEDIDAS DE SEGURIDAD DE PEREIRA',
@@ -205,7 +179,7 @@ exports.Despachos = [
     url: '/web/centro-de-serv-administrativos-juzgado-ejecucion-de-penas-y-medidas-de-seguridad-palmira'
   },
   {
-    agrupacion  : 'CIVIL MUNICIPAL',
+    agrupacion: 'CIVIL MUNICIPAL',
     especialidad: 'CIVIL',
     nombre:
       'CENTRO DE SERV. ADMINISTRATIVOS JUZGADOS CIVILES MUNICIPALES DE BOGOTÁ',
@@ -237,7 +211,7 @@ exports.Despachos = [
     url: '/web/centro-de-serv-administrativos-juzgados-de-ejecucion-de-penas-y-medidas-de-seguridad-villavicencio'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'CENTRO DE SERV. ADMINISTRATIVOS JUZGADOS DEL CIRCUITO PENAL ESPECIALIZADO CÚCUTA',
@@ -262,7 +236,7 @@ exports.Despachos = [
     url: '/web/centro-de-serv-administrativos-juzgados-ejecucion-de-penas-y-medidas-de-seguridad-de-monteria'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'CENTRO DE SERV. ADMINISTRATIVOS JUZGADOS PEQUEÑAS CAUSAS DE BOGOTA',
@@ -357,7 +331,7 @@ exports.Despachos = [
     url: '/web/centro-de-serv-judiciales-juzgado-penales-adolescentes-manizales'
   },
   {
-    agrupacion  : 'FAMILIA ORALIDAD',
+    agrupacion: 'FAMILIA ORALIDAD',
     especialidad: 'FAMILIA ORALIDAD',
     nombre:
       'CENTRO DE SERV. JUDICIALES JUZGADO PENALES MUNICIPALES VILLAVICENCIO',
@@ -373,7 +347,7 @@ exports.Despachos = [
     url: '/web/centro-de-serv-judiciales-juzgado-penales-puerto-tejada'
   },
   {
-    agrupacion  : 'FAMILIA ORALIDAD',
+    agrupacion: 'FAMILIA ORALIDAD',
     especialidad: 'FAMILIA ORALIDAD',
     nombre:
       'CENTRO DE SERV. JUDICIALES JUZGADO PNAL ADOLESCENTES PAMPLONA',
@@ -421,7 +395,7 @@ exports.Despachos = [
     url: '/web/centro-de-serv-judiciales-juzgados-penales-adolescentes-de-pereira'
   },
   {
-    agrupacion  : 'CONSTITUCIONAL',
+    agrupacion: 'CONSTITUCIONAL',
     especialidad: 'CONSTITUCIONAL',
     nombre:
       'CENTRO DE SERV. JUDICIALES JUZGADOS PENALES MUNICIPAL CIRCUITO DE S',
@@ -437,7 +411,7 @@ exports.Despachos = [
     url: '/web/centro-de-servicios-judiciales-de-manizales'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'CENTRO DE SERV. JUDICIALES PARA JUZGADO PENALES DEL CTO. ESP. DE NEIVA',
@@ -500,59 +474,59 @@ exports.Despachos = [
     especialidad:
       'CENTRO DE SERVICIOS JUDICIALES',
     nombre: 'CENTRO DE SERV. JUDICIALES RIONEGRO',
-    url   : '/web/centro-de-servicios-administrativos-de-rionegro'
+    url: '/web/centro-de-servicios-administrativos-de-rionegro'
   },
   {
-    agrupacion  : 'CONSTITUCIONAL',
+    agrupacion: 'CONSTITUCIONAL',
     especialidad: 'CONSTITUCIONAL',
     nombre:
       'CENTRO DE SERV. JUZGADO PENALES MONTERIA',
     url: '/web/centro-de-serv-juzgado-penales-monteria'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'CENTRO DE SERV. JUZGADO PENALES PARA ADOLESCENTES MONTERÍA',
     url: '/web/centro-de-serv-juzgado-penales-para-adolescentes-monte'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'CENTRO DE SERV. SINCELEJO PENAL PARA ADOLESCENTES SINCELEJO',
     url: '/web/centro-de-serv-sincelejo-penal-para-adolescentes-sincelejo'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'CENTRO DE SERVICIO CIVIL-FAMILIA DE FLORENCIA',
     url: '/web/centro-de-servicio-civil-familia-de-florencia'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'CENTRO DE SERVICIOS ADMINISTRATIVOS 000 PENAL DE GIRARDOT',
     url: '/web/centro-de-servicios-judiciales-de-girardot'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA - LABORAL',
+    agrupacion: 'CIVIL - FAMILIA - LABORAL',
     especialidad: 'CIVIL - FAMILIA - LABORAL',
     nombre:
       'CENTRO DE SERVICIOS ADMINISTRATIVOS CIVIL-LABORAL-FAMILIA DE BOGOTA',
     url: '/web/centro-de-servicios-administrativos-civil-laboral-familia-de-bogota'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'CENTRO DE SERVICIOS ADMINISTRATIVOS DE ENVIGADO',
     url: '/web/centro-de-servicios-administrativos-de-envigado'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'CENTRO DE SERVICIOS ADMINISTRATIVOS DE ITAGUI',
@@ -568,21 +542,21 @@ exports.Despachos = [
     url: '/web/centro-de-servicios-administrativos-de-los-juzgados-de-los-jepms-de-bucaramanga'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'CENTRO DE SERVICIOS ADMINISTRATIVOS DE LOS JUZGADOS PENALES DEL CIRCUITO ESPECIALIZADO DE PASTO',
     url: '/web/centro-de-servicios-administrativos-de-los-juzgados-penales-del-circuito-especializado-de-pasto'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'CENTRO DE SERVICIOS ADMINISTRATIVOS DE TÚQUERRES - NARIÑO',
     url: '/web/centro-de-servicios-administrativos-de-tuquerres-narino'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'CENTRO DE SERVICIOS ADMINISTRATIVOS TRIBUNAL SUPERIOR DE BOGOTÁ',
@@ -606,14 +580,14 @@ exports.Despachos = [
     url: '/web/centro-de-servicios-admon-ejecucion-de-penas-cucuta'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'CENTRO DE SERVICIOS DE JUZGADOS PENALES DE FLORENCIA',
     url: '/web/centro-de-servicios-de-juzgados-penales-de-florencia'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'CENTRO DE SERVICIOS DE LOS JUZGADOS PENALES ESPECIALIZADOS DE FLORENCIA',
@@ -628,21 +602,21 @@ exports.Despachos = [
     url: '/web/centro-de-servicios-de-los-juzgados-penales-para-adolescentes-de-villavicencio'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'CENTRO DE SERVICIOS DEL SISTEMA PENAL ACUSATORIO DE ARMENIA',
     url: '/web/centro-de-servicios-del-sistema-penal-acusatorio-de-armenia'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'PENAL',
     nombre:
       'CENTRO DE SERVICIOS DEL SISTEMA PENAL ACUSATORIO DE BUCARAMANGA',
     url: '/web/centro-de-servicios-del-sistema-penal-acusatorio-de-bucaramanga'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'CENTRO DE SERVICIOS DEL SISTEMA PENAL ACUSATORIO DE CARTAGENA',
@@ -657,21 +631,21 @@ exports.Despachos = [
     url: '/web/centro-de-servicios-ejecucion-civil-municipal-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL- FAMILIA',
+    agrupacion: 'CIVIL- FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'CENTRO DE SERVICIOS JUDICIALES CIVIL- FAMILIA DE MONTERÍA',
     url: '/web/centro-de-servicios-judiciales-civil-familia-de-monteria'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'PENAL',
     nombre:
       'CENTRO DE SERVICIOS JUDICIALES DEL SISTEMA PENAL ACUSATORIO DE SANTA MARTA',
     url: '/web/centro-de-servicios-judiciales-del-sistema-penal-acusatorio-de-santa-marta'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'CENTRO DE SERVICIOS JUDICIALES DEL SISTEMA PENAL ACUSATORIO PEREIRA - RISARALDA',
@@ -695,21 +669,21 @@ exports.Despachos = [
     url: '/web/centro-de-servicios-judiciales-juzgados-penales-de-barranquilla1'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'CENTRO DE SERVICIOS JUDICIALES JUZGADOS PENALES DEL CIRCUITO DE CAQUEZA',
     url: '/web/centro-de-servicios-judiciales-juzgados-penales-del-circuito-de-caqueza'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'CENTRO DE SERVICIOS JUDICIALES PARA JUZGADOS CIVILES Y DE FAMILIA MANIZALES',
     url: '/web/centro-de-servicios-judiciales-para-juzgados-civiles-y-de-familia-manizales'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'CENTRO DE SERVICIOS JUDICIALES PARA JUZGADOS CIVILES Y FAMILIA DE ARMENIA',
@@ -750,14 +724,14 @@ exports.Despachos = [
     url: '/web/centro-de-servicios-juzgados-administrativos-ejpms-de-bogota'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'CENTRO DE SERVICIOS JUZGADOS ADMINISTRATIVOS DE TUNJA',
     url: '/web/centro-de-servicios-juzgados-administrativos-de-tunja'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'CENTRO DE SERVICIOS JUZGADOS PENALES CIRCUITO ESPECIALIZADO DE BUCARAMANGA',
@@ -772,320 +746,320 @@ exports.Despachos = [
     url: '/web/centro-de-servicios-juzgados-penales-del-circuito-especializados-en-extincion-de-dominio-de-bogota'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'PENAL',
     nombre:
       'CENTRO DE SERVICIOS PENALES DE SINCELEJO',
     url: '/web/centro-de-servicios-penales-de-sincelejo'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'PENAL',
     nombre:
       'CENTRO SERVICIOS DEL SISTEMA PENAL ACUSATORIO DE BOGOTÁ',
     url: '/web/centro-de-servicios-spa-bogota'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'CENTRO SERVICIOS DEL SISTEMA PENAL ACUSATORIO DE BUENAVENTURA',
     url: '/web/centro-servicios-del-sistema-penal-acusatorio-de-buenaventura'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'CENTRO SERVICIOS DEL SISTEMA PENAL ACUSATORIO DE MEDELLIN',
     url: '/web/centro-servicios-del-sistema-penal-acusatorio-de-medellin'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'PENAL',
     nombre:
       'CENTRO SERVICIOS JUDICIALES JUZGADOS PENALES DE BUGA',
     url: '/web/centro-servicios-judiciales-juzgados-penales-de-buga'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'CENTRO SERVICIOS JUDICIALES SISTEMA PENAL ACUSATORIO QUIBDÓ',
     url: '/web/centro-servicios-judiciales-sistema-penal-acusatorio-quibdo'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'COMISIÓN NACIONAL DE DISCIPLINA JUDICIAL',
     url: '/web/comision-nacional-de-disciplina-judicial'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'SIN SECCIÓN - MIXTA',
-    nombre      : 'COMPLEJO DE PALOQUEMAO - BOGOTÁ',
-    url         : '/web/complejo-de-paloquemao-bogota'
+    nombre: 'COMPLEJO DE PALOQUEMAO - BOGOTÁ',
+    url: '/web/complejo-de-paloquemao-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'CONJUECES TRIBUNAL ADMINISTRATIVO DE MAGDALENA',
     url: '/web/conjueces-tribunal-administrativo-de-magdalena'
   },
   {
-    agrupacion  : 'CONJUECES',
+    agrupacion: 'CONJUECES',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'CONJUECES TRIBUNAL ADMINISTRATIVO DE NARIÑO',
     url: '/web/conjueces-tribunal-administrativo-de-narino'
   },
   {
-    agrupacion  : 'CONJUECES',
+    agrupacion: 'CONJUECES',
     especialidad: 'SALA ÚNICA',
     nombre:
       'CONJUEZ 01 - TRIBUNAL SUPERIOR DE MOCOA',
     url: '/web/conjuez-01-tribunal-superior-de-mocoa'
   },
   {
-    agrupacion  : 'CONJUECES',
+    agrupacion: 'CONJUECES',
     especialidad: 'SALA ÚNICA',
     nombre:
       'CONJUEZ 02 - TRIBUNAL SUPERIOR DE MOCOA',
     url: '/web/conjuez-02-tribunal-superior-de-mocoa'
   },
   {
-    agrupacion  : 'CONJUECES',
+    agrupacion: 'CONJUECES',
     especialidad: 'SALA ÚNICA',
     nombre:
       'CONJUEZ 03 - TRIBUNAL SUPERIOR DE MOCOA',
     url: '/web/conjuez-03-tribunal-superior-de-mocoa'
   },
   {
-    agrupacion  : 'CONJUECES',
+    agrupacion: 'CONJUECES',
     especialidad: 'SALA ÚNICA',
     nombre:
       'CONJUEZ 04 - TRIBUNAL SUPERIOR DE MOCOA',
     url: '/web/conjuez-04-tribunal-superior-de-mocoa'
   },
   {
-    agrupacion  : 'CONJUECES',
+    agrupacion: 'CONJUECES',
     especialidad: 'SALA ÚNICA',
     nombre:
       'CONJUEZ 05 - TRIBUNAL SUPERIOR DE MOCOA',
     url: '/web/conjuez-05-tribunal-superior-de-mocoa'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DE ANTIOQUIA',
     url: '/web/consejo-seccional-de-la-judicatura-de-antioquia'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DE ATLÁNTICO',
     url: '/web/consejo-seccional-de-la-judicatura-del-atlantico'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DE BOGOTÁ',
     url: '/web/consejo-seccional-de-la-judicatura-de-bogota'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DE BOLÍVAR',
     url: '/web/consejo-seccional-de-la-judicatura-de-bolivar'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DE BOYACÁ',
     url: '/web/consejo-seccional-de-la-judicatura-de-boyaca'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'ADMINISTRATIVA',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DE CAQUETÁ',
     url: '/web/consejo-seccional-de-la-judicatura-de-caqueta'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DE CAUCA - DESPACHO 1',
     url: '/web/consejo-seccional-de-la-judicatura-de-cauca'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DE CÓRDOBA',
     url: '/web/consejo-seccional-de-la-judicatura-de-cordoba'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DE CUNDINAMARCA',
     url: '/web/consejo-seccional-de-la-judicatura-de-cundinamarca'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DE HUILA',
     url: '/web/consejo-seccional-de-la-judicatura-del-huila'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'ADMINISTRATIVA',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DE LA GUAJIRA',
     url: '/web/consejo-seccional-de-la-judicatura-de-la-guajira'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DE MAGDALENA',
     url: '/web/consejo-seccional-de-la-judicatura-del-magdalena'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DE MANIZALES - DESPACHO 1',
     url: '/web/consejo-seccional-de-la-judicatura-de-caldas'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DE NARIÑO',
     url: '/web/consejo-seccional-de-la-judicatura-de-narino'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DE NORTE DE SANTANDER',
     url: '/web/consejo-seccional-de-la-judicatura-norte-de-santander-2'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DE QUINDÍO',
     url: '/web/consejo-seccional-de-la-judicatura-del-quindio'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DE RISARALDA',
     url: '/web/consejo-seccional-de-la-judicatura-de-risaralda'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DE SANTANDER',
     url: '/web/consejo-seccional-de-la-judicatura-de-santander'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DE SUCRE',
     url: '/web/consejo-seccional-de-la-judicatura-de-sucre'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DE VALLE DEL CAUCA',
     url: '/web/consejo-seccional-de-la-judicatura-del-valle'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DEL CESAR',
     url: '/web/consejo-seccional-de-la-judicatura-del-cesar-3'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'ADMINISTRATIVA',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DEL CHOCÓ',
     url: '/web/consejo-seccional-de-la-judicatura-del-choco'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DEL META - UNIDAD DE AUDITORÍA - OFICINA SECCIONAL',
     url: '/web/consejo-seccional-de-la-judictura-del-meta'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SECCIONAL DE LA JUDICATURA DEL TOLIMA',
     url: '/web/consejo-seccional-de-la-judicatura-del-tolima'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'SECRETARÍA GENERAL',
-    nombre      : 'CONSEJO SUPERIOR DE LA JUDICATURA',
-    url         : '/web/consejo-superior-de-la-judicatura'
+    nombre: 'CONSEJO SUPERIOR DE LA JUDICATURA',
+    url: '/web/consejo-superior-de-la-judicatura'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SUPERIOR DE LA JUDICATURA - OFICINA DE ASESORÍA PARA LA SEGURIDAD DE LA RAMA JUDICIAL',
     url: '/web/oficina-de-asesoria-para-la-seguridad-de-la-rama-judicial'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SUPERIOR DE LA JUDICATURA - UNIDAD CENTRO DE DOCUMENTACIÓN JUDICIAL CENDOJ',
     url: '/web/centro-de-documentacion-judicial'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SUPERIOR DE LA JUDICATURA - UNIDAD DE ADMINISTRACIÓN DE LA CARRERA JUDICIAL UACJ',
     url: '/web/unidad-de-administracion-de-carrera-judicial'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SUPERIOR DE LA JUDICATURA - UNIDAD DE AUDITORÍA',
     url: '/web/unidad-de-auditoria'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SUPERIOR DE LA JUDICATURA - UNIDAD DE DESARROLLO Y ANÁLISIS ESTADÍSTICO UDAE',
     url: '/web/unidad-de-desarrollo-y-analisis-estadistico1'
   },
   {
-    agrupacion  : 'CONSEJO SUPERIOR',
+    agrupacion: 'CONSEJO SUPERIOR',
     especialidad: 'CONSEJO SUPERIOR',
     nombre:
       'CONSEJO SUPERIOR DE LA JUDICATURA - UNIDAD DE REGISTRO NACIONAL DE ABOGADOS',
@@ -1100,79 +1074,79 @@ exports.Despachos = [
     url: '/web/coordinacion-administrativa-de-florencia'
   },
   {
-    agrupacion  : 'COORDINACIÓN',
+    agrupacion: 'COORDINACIÓN',
     especialidad: 'ADMINISTRATIVA',
     nombre:
       'COORDINACION ADMINISTRATIVA DE QUIBDÓ',
     url: '/web/coordinacion-administrativa-de-quibdo'
   },
   {
-    agrupacion  : 'CONSTITUCIONAL',
+    agrupacion: 'CONSTITUCIONAL',
     especialidad: 'CONSTITUCIONAL',
     nombre:
       'D.S.A.J. ADMINISTRATIVA CARTAGENA - BOLÍVAR',
     url: '/web/dsaj-administrativa-cartagena-bolivar'
   },
   {
-    agrupacion  : 'CONSTITUCIONAL',
+    agrupacion: 'CONSTITUCIONAL',
     especialidad: 'CONSTITUCIONAL',
     nombre:
       'D.S.A.J. AREA ADMINISTRATIVA-GRUPO MANTENIMIENTO Y SOPORTE TECNOLOGICO',
     url: '/web/dsaj-area-administrativa-grupo-mantenimiento-y-soporte-tecnologico'
   },
   {
-    agrupacion  : 'CONSTITUCIONAL',
+    agrupacion: 'CONSTITUCIONAL',
     especialidad: 'CONSTITUCIONAL',
-    nombre      : 'D.S.A.J. BARRANQUILLA- DIRECCIÓN',
-    url         : '/web/direccion-seccional-de-administracion-judicial-de-barranquilla'
+    nombre: 'D.S.A.J. BARRANQUILLA- DIRECCIÓN',
+    url: '/web/direccion-seccional-de-administracion-judicial-de-barranquilla'
   },
   {
-    agrupacion  : 'CONSTITUCIONAL',
+    agrupacion: 'CONSTITUCIONAL',
     especialidad: 'CONSTITUCIONAL',
-    nombre      : 'D.S.A.J. CUCUTA-DIRECCION',
-    url         : '/web/direccion-seccional-de-administracion-judicial-de-cucuta-arauca'
+    nombre: 'D.S.A.J. CUCUTA-DIRECCION',
+    url: '/web/direccion-seccional-de-administracion-judicial-de-cucuta-arauca'
   },
   {
-    agrupacion  : 'CONSTITUCIONAL',
+    agrupacion: 'CONSTITUCIONAL',
     especialidad: 'CONSTITUCIONAL',
-    nombre      : 'D.S.A.J. DIRECCION',
-    url         : '/web/direccion-seccional-de-administracion-judicial-de-popayan'
+    nombre: 'D.S.A.J. DIRECCION',
+    url: '/web/direccion-seccional-de-administracion-judicial-de-popayan'
   },
   {
-    agrupacion  : 'CONSTITUCIONAL',
+    agrupacion: 'CONSTITUCIONAL',
     especialidad: 'CONSTITUCIONAL',
-    nombre      : 'D.S.A.J. DIRECCION',
-    url         : '/web/direccion-seccional-de-administracion-judicial-de-neiva-florencia'
+    nombre: 'D.S.A.J. DIRECCION',
+    url: '/web/direccion-seccional-de-administracion-judicial-de-neiva-florencia'
   },
   {
-    agrupacion  : 'CONSTITUCIONAL',
+    agrupacion: 'CONSTITUCIONAL',
     especialidad: 'CONSTITUCIONAL',
-    nombre      : 'D.S.A.J. DIRECCION',
-    url         : '/web/direccion-seccional-de-administracion-judicial-de-bogota'
+    nombre: 'D.S.A.J. DIRECCION',
+    url: '/web/direccion-seccional-de-administracion-judicial-de-bogota'
   },
   {
-    agrupacion  : 'CONSTITUCIONAL',
+    agrupacion: 'CONSTITUCIONAL',
     especialidad: 'CONSTITUCIONAL',
-    nombre      : 'D.S.A.J. DIRECCION',
-    url         : '/web/direccion-seccional-de-administracion-judicial-de-monteria'
+    nombre: 'D.S.A.J. DIRECCION',
+    url: '/web/direccion-seccional-de-administracion-judicial-de-monteria'
   },
   {
-    agrupacion  : 'CONSTITUCIONAL',
+    agrupacion: 'CONSTITUCIONAL',
     especialidad: 'CONSTITUCIONAL',
-    nombre      : 'D.S.A.J. DIRECCION',
-    url         : '/web/direccion-seccional-de-administracion-judicial-de-pasto'
+    nombre: 'D.S.A.J. DIRECCION',
+    url: '/web/direccion-seccional-de-administracion-judicial-de-pasto'
   },
   {
-    agrupacion  : 'CONSTITUCIONAL',
+    agrupacion: 'CONSTITUCIONAL',
     especialidad: 'CONSTITUCIONAL',
-    nombre      : 'D.S.A.J. JURIDICA',
-    url         : '/web/dsaj-juridica'
+    nombre: 'D.S.A.J. JURIDICA',
+    url: '/web/dsaj-juridica'
   },
   {
-    agrupacion  : 'CONSTITUCIONAL',
+    agrupacion: 'CONSTITUCIONAL',
     especialidad: 'CONSTITUCIONAL',
-    nombre      : 'D.S.A.J. MANIZALES-DIRECCION',
-    url         : '/web/direccion-seccional-de-administracion-judicial-de-manizales'
+    nombre: 'D.S.A.J. MANIZALES-DIRECCION',
+    url: '/web/direccion-seccional-de-administracion-judicial-de-manizales'
   },
   {
     agrupacion:
@@ -1184,166 +1158,166 @@ exports.Despachos = [
     url: '/web/dsaj-oficinas-adscritas-oficina-de-coordinacion-administrativa-de-florencia'
   },
   {
-    agrupacion  : 'CONSTITUCIONAL',
+    agrupacion: 'CONSTITUCIONAL',
     especialidad: 'CONSTITUCIONAL',
-    nombre      : 'D.S.A.J. PEREIRA-DIRECCION',
-    url         : '/web/direccion-seccional-de-administracion-judicial-de-pereira'
+    nombre: 'D.S.A.J. PEREIRA-DIRECCION',
+    url: '/web/direccion-seccional-de-administracion-judicial-de-pereira'
   },
   {
-    agrupacion  : 'CONSTITUCIONAL',
+    agrupacion: 'CONSTITUCIONAL',
     especialidad: 'CONSTITUCIONAL',
-    nombre      : 'D.S.A.J. TUNJA-AREA ADMINISTRATIVA',
-    url         : '/web/direccion-seccional-de-administracion-judicial-de-tunja'
+    nombre: 'D.S.A.J. TUNJA-AREA ADMINISTRATIVA',
+    url: '/web/direccion-seccional-de-administracion-judicial-de-tunja'
   },
   {
-    agrupacion  : 'DISCIPLINARIA',
+    agrupacion: 'DISCIPLINARIA',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'DESPACHO  000 DE LA  COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE QUINDIO',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-quindio'
   },
   {
-    agrupacion  : 'DISCIPLINARIA',
+    agrupacion: 'DISCIPLINARIA',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'DESPACHO  000 DE LA  COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE RISARALDA',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-risaralda'
   },
   {
-    agrupacion  : 'DISCIPLINARIA',
+    agrupacion: 'DISCIPLINARIA',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'DESPACHO  001 DE LA  COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE CÓRDOBA',
     url: '/web/despacho-001-de-la-comision-seccional-de-disciplina-judicial-de-cordoba'
   },
   {
-    agrupacion  : 'DISCIPLINARIA',
+    agrupacion: 'DISCIPLINARIA',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'DESPACHO  002 DE LA  COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DEL VALLE DEL CAUCA',
     url: '/web/despacho-002-de-la-comision-seccional-de-disciplina-judicial-de-valle-del-cauca'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'DESPACHO 001 DE LA SALA CIVIL ESPECIALIZADA EN RESTITUCIÓN DE TIERRAS DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/despacho-001-de-la-sala-civil-especializada-en-restitucion-de-tierras-del-tribunal-superior-de-cali'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'DESPACHO 001 DE LA SALA CIVIL ESPECIALIZADA EN RESTITUCIÓN DE TIERRAS DEL TRIBUNAL SUPERIOR DE CARTAGENA',
     url: '/web/sala-civil-1-especializada-en-restitucion-de-tierras-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'DESPACHO 001 DE LA SALA CIVIL ESPECIALIZADA EN RESTITUCIÓN DE TIERRAS DEL TRIBUNAL SUPERIOR DE CÚCUTA',
     url: '/web/sala-civil-1-especializada-en-restitucion-de-tierras-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'DESPACHO 001 DE LA SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE BARRANQUILLA',
     url: '/web/despacho-001-de-la-sala-civil-familia-del-tribunal-superior-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'DESPACHO 001 DE LA SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE PEREIRA',
     url: '/web/despacho-001-de-la-sala-civil-familia-del-tribunal-superior-de-pereira'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'DESPACHO 001 DE LA SALA LABORAL DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/despacho-001-de-la-sala-laboral-del-tribunal-superior-de-cali'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'DESPACHO 001 DE LA SALA PENAL DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/despacho-001-de-la-sala-penal-del-tribunal-superior-de-bogota'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'DESPACHO 001 DE LA SALA PENAL DEL TRIBUNAL SUPERIOR DE VALLEDUPAR',
     url: '/web/despacho-001-de-la-sala-penal-del-tribunal-superior-de-valledupar'
   },
   {
-    agrupacion  : 'SALA ÚNICA',
+    agrupacion: 'SALA ÚNICA',
     especialidad: 'SALA ÚNICA',
     nombre:
       'DESPACHO 001 DE LA SALA ÚNICA DEL TRIBUNAL SUPERIOR DE ARAUCA',
     url: '/web/despacho-001-de-la-sala-unica-del-tribunal-superior-de-arauca'
   },
   {
-    agrupacion  : 'SALA ÚNICA',
+    agrupacion: 'SALA ÚNICA',
     especialidad: 'SALA ÚNICA',
     nombre:
       'DESPACHO 001 DE LA SALA ÚNICA DEL TRIBUNAL SUPERIOR DE ARCH. DE SAN ANDRÉS',
     url: '/web/tribunal-superior-de-san-andres-despacho-01.-shirley-walters-alvarez'
   },
   {
-    agrupacion  : 'SALA ÚNICA',
+    agrupacion: 'SALA ÚNICA',
     especialidad: 'SALA ÚNICA',
     nombre:
       'DESPACHO 001 DE LA SALA ÚNICA DEL TRIBUNAL SUPERIOR DE MOCOA',
     url: '/web/despacho-01-tribunal-superior-del-distrito-judicial-de-mocoa'
   },
   {
-    agrupacion  : 'SALA ÚNICA',
+    agrupacion: 'SALA ÚNICA',
     especialidad: 'SALA ÚNICA',
     nombre:
       'DESPACHO 001 DE LA SALA ÚNICA DEL TRIBUNAL SUPERIOR DE PAMPLONA',
     url: '/web/despacho-001-de-la-sala-unica-del-tribunal-superior-de-pamplona'
   },
   {
-    agrupacion  : 'SALA ÚNICA',
+    agrupacion: 'SALA ÚNICA',
     especialidad: 'SALA ÚNICA',
     nombre:
       'DESPACHO 001 DE LA SALA ÚNICA DEL TRIBUNAL SUPERIOR DE SAN JOSÉ DEL GUAVIARE',
     url: '/web/despacho-001-de-la-sala-unica-del-tribunal-superior-de-san-jose-del-guaviare'
   },
   {
-    agrupacion  : 'SECCIÓN CUARTA',
+    agrupacion: 'SECCIÓN CUARTA',
     especialidad: 'SECCIÓN CUARTA - ORAL',
     nombre:
       'DESPACHO 001 DE LA SECCIÓN CUARTA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-001-de-la-seccion-cuarta-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN PRIMERA',
+    agrupacion: 'SECCIÓN PRIMERA',
     especialidad: 'SECCIÓN PRIMERA MIXTA - ORAL',
     nombre:
       'DESPACHO 001 DE LA SECCIÓN PRIMERA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-001-de-la-seccion-primera-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA',
+    agrupacion: 'SECCIÓN SEGUNDA',
     especialidad: 'SECCIÓN SEGUNDA MIXTA - ORAL',
     nombre:
       'DESPACHO 001 DE LA SECCIÓN SEGUNDA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-001-de-la-seccion-segunda-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA',
+    agrupacion: 'SECCIÓN TERCERA',
     especialidad: 'SECCIÓN TERCERA - ORAL',
     nombre:
       'DESPACHO 001 DE LA SECCIÓN TERCERA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-001-de-la-seccion-tercera-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 001 DEL TRIBUNAL ADMINISTRATIVO DE ANTIOQUIA',
@@ -1359,1498 +1333,1498 @@ exports.Despachos = [
     url: '/web/tribunal-01-administrativo-de-arauca'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 001 DEL TRIBUNAL ADMINISTRATIVO DE BOLÍVAR',
     url: '/web/despacho-01-administrativo-de-bolivar-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 001 DEL TRIBUNAL ADMINISTRATIVO DE BOYACÁ',
     url: '/web/despacho-01-dr.-jose-ascension-fernandez-osorio-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 001 DEL TRIBUNAL ADMINISTRATIVO DE CALDAS',
     url: '/web/despacho-01-dr.-carlos-manuel-zapata-jaimes-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'DESPACHO 001 DEL TRIBUNAL ADMINISTRATIVO DE CAQUETÁ',
     url: '/web/despacho-001-del-tribunal-administrativo-de-caqueta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'DESPACHO 001 DEL TRIBUNAL ADMINISTRATIVO DE CAUCA',
     url: '/web/despacho-01-dr.-carlos-leonel-buitrago'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 001 DEL TRIBUNAL ADMINISTRATIVO DE CESAR',
     url: '/web/despacho-01-dr.-alberto-espinosa-bolanos'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 001 DEL TRIBUNAL ADMINISTRATIVO DE CÓRDOBA',
     url: '/web/tribunal-01-administrativo-de-cordoba-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 001 DEL TRIBUNAL ADMINISTRATIVO DE HUILA',
     url: '/web/tribunal-01-administrativo-del-huila'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 001 DEL TRIBUNAL ADMINISTRATIVO DE MAGDALENA',
     url: '/web/tribunal-01-administrativo-de-magdalena-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'DESPACHO 001 DEL TRIBUNAL ADMINISTRATIVO DE NARIÑO',
     url: '/web/tribunal-01-administrativo-de-narino'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 001 DEL TRIBUNAL ADMINISTRATIVO DE NORTE DE SANTANDER',
     url: '/web/tribunal-01-administrativo-de-norte-de-santander-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'DESPACHO 001 DEL TRIBUNAL ADMINISTRATIVO DE SAN ANDRÉS',
     url: '/web/tribunal-01-administrativo-de-san-andres-providencia-y-santa-catalina'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 001 DEL TRIBUNAL ADMINISTRATIVO DE SANTANDER',
     url: '/web/tribunal-01-administrativo-de-santander-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 001 DEL TRIBUNAL ADMINISTRATIVO DE SUCRE',
     url: '/web/despacho-01-dr.-eduardo-javier-torralvo-negrete-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 001 DEL TRIBUNAL ADMINISTRATIVO DE TOLIMA',
     url: '/web/tribunal-01-administrativo-del-tolima-'
   },
   {
-    agrupacion  : 'SECCIÓN - ORAL',
+    agrupacion: 'SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 001 DEL TRIBUNAL ADMINISTRATIVO DE VALLE DEL CAUCA',
     url: '/web/despacho-01-dr.-ronald-otto-cedeno-blume-'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'DESPACHO 002 DE LA SALA CIVIL DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/tribunal-superior-de-bogota-sala-civil-despacho-02'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'DESPACHO 002 DE LA SALA CIVIL ESPECIALIZADA EN RESTITUCIÓN DE TIERRAS DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/sala-civil-2-especializada-en-restitucion-de-tierras-de-cali'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'DESPACHO 002 DE LA SALA CIVIL ESPECIALIZADA EN RESTITUCIÓN DE TIERRAS DEL TRIBUNAL SUPERIOR DE CARTAGENA',
     url: '/web/sala-civil-2-especializada-en-restitucion-de-tierras-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'DESPACHO 002 DE LA SALA CIVIL ESPECIALIZADA EN RESTITUCIÓN DE TIERRAS DEL TRIBUNAL SUPERIOR DE CÚCUTA',
     url: '/web/sala-civil-2-especializada-en-restitucion-de-tierras-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'DESPACHO 002 DE LA SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE BARRANQUILLA',
     url: '/web/despacho-002-de-la-sala-civil-familia-del-tribunal-superior-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA - LABORAL',
+    agrupacion: 'CIVIL - FAMILIA - LABORAL',
     especialidad: 'CIVIL - FAMILIA - LABORAL',
     nombre:
       'DESPACHO 002 DE LA SALA CIVIL FAMILIA LABORAL DEL TRIBUNAL SUPERIOR DE MONTERÍA',
     url: '/web/despacho-002-de-la-sala-civil-familia-laboral-del-tribunal-superior-de-monteria'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'DESPACHO 002 DE LA SALA LABORAL DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/despacho-002-de-la-sala-laboral-del-tribunal-superior-de-cali'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'DESPACHO 002 DE LA SALA PENAL DEL TRIBUNAL SUPERIOR DE MONTERÍA',
     url: '/web/despacho-002-de-la-sala-penal-del-tribunal-superior-de-monteria'
   },
   {
-    agrupacion  : 'SALA ÚNICA',
+    agrupacion: 'SALA ÚNICA',
     especialidad: 'SALA ÚNICA',
     nombre:
       'DESPACHO 002 DE LA SALA ÚNICA DEL TRIBUNAL SUPERIOR DE ARAUCA',
     url: '/web/despacho-002-de-la-sala-unica-del-tribunal-superior-de-arauca'
   },
   {
-    agrupacion  : 'SALA ÚNICA',
+    agrupacion: 'SALA ÚNICA',
     especialidad: 'SALA ÚNICA',
     nombre:
       'DESPACHO 002 DE LA SALA ÚNICA DEL TRIBUNAL SUPERIOR DE ARCH. DE SAN ANDRÉS',
     url: '/web/tribunal-superior-de-san-andres-despacho-02.-javier-de-jesus-ayos-batista'
   },
   {
-    agrupacion  : 'SALA ÚNICA',
+    agrupacion: 'SALA ÚNICA',
     especialidad: 'SALA ÚNICA',
     nombre:
       'DESPACHO 002 DE LA SALA ÚNICA DEL TRIBUNAL SUPERIOR DE MOCOA',
     url: '/web/despacho-02-tribunal-superior-del-distrito-judicial-de-mocoa'
   },
   {
-    agrupacion  : 'SALA ÚNICA',
+    agrupacion: 'SALA ÚNICA',
     especialidad: 'SALA ÚNICA',
     nombre:
       'DESPACHO 002 DE LA SALA ÚNICA DEL TRIBUNAL SUPERIOR DE SAN JOSÉ DEL GUAVIARE',
     url: '/web/despacho-002-de-la-sala-unica-del-tribunal-superior-de-san-jose-del-guaviare'
   },
   {
-    agrupacion  : 'SECCIÓN CUARTA',
+    agrupacion: 'SECCIÓN CUARTA',
     especialidad: 'SECCIÓN CUARTA',
     nombre:
       'DESPACHO 002 DE LA SECCIÓN CUARTA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-002-de-la-seccion-cuarta-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN PRIMERA',
+    agrupacion: 'SECCIÓN PRIMERA',
     especialidad: 'SECCIÓN PRIMERA MIXTA - ORAL',
     nombre:
       'DESPACHO 002 DE LA SECCIÓN PRIMERA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-002-de-la-seccion-primera-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA',
+    agrupacion: 'SECCIÓN SEGUNDA',
     especialidad: 'SECCIÓN SEGUNDA MIXTA - ORAL',
     nombre:
       'DESPACHO 002 DE LA SECCIÓN SEGUNDA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-002-de-la-seccion-segunda-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA',
+    agrupacion: 'SECCIÓN TERCERA',
     especialidad: 'SECCIÓN TERCERA - ORAL',
     nombre:
       'DESPACHO 002 DE LA SECCIÓN TERCERA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-002-de-la-seccion-tercera-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 002 DEL TRIBUNAL ADMINISTRATIVO DE ANTIOQUIA',
     url: '/web/despacho-02-dr.-rafael-dario-restrepo-quijano-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 002 DEL TRIBUNAL ADMINISTRATIVO DE BOLÍVAR',
     url: '/web/despacho-02-administrativo-de-bolivar-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 002 DEL TRIBUNAL ADMINISTRATIVO DE BOYACÁ',
     url: '/web/despacho-02-dr.-luis-ernesto-arciniegas-triana-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 002 DEL TRIBUNAL ADMINISTRATIVO DE CASANARE',
     url: '/web/tribunal-02-administrativo-de-casanare-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 002 DEL TRIBUNAL ADMINISTRATIVO DE CAUCA',
     url: '/web/tribunal-02-administrativo-del-cauca-dr.-naun-mirawal-munoz-munoz-1'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 002 DEL TRIBUNAL ADMINISTRATIVO DE CESAR',
     url: '/web/despacho-02-dr.-jose-antonio-aponte-olivella'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'DESPACHO 002 DEL TRIBUNAL ADMINISTRATIVO DE CÓRDOBA',
     url: '/web/tribunal-02-administrativo-de-cordoba-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'DESPACHO 002 DEL TRIBUNAL ADMINISTRATIVO DE HUILA',
     url: '/web/tribunal-02-administrativo-del-huila'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'DESPACHO 002 DEL TRIBUNAL ADMINISTRATIVO DE MAGDALENA',
     url: '/web/tribunal-02-administrativo-de-magdalena-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 002 DEL TRIBUNAL ADMINISTRATIVO DE NARIÑO',
     url: '/web/tribunal-02-administrativo-de-narino'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'DESPACHO 002 DEL TRIBUNAL ADMINISTRATIVO DE NORTE DE SANTANDER',
     url: '/web/tribunal-02-administrativo-de-norte-de-santander'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'DESPACHO 002 DEL TRIBUNAL ADMINISTRATIVO DE SAN ANDRÉS',
     url: '/web/despacho-02-dra.-noemi-carreno-corpus'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 002 DEL TRIBUNAL ADMINISTRATIVO DE SUCRE',
     url: '/web/despacho-02-dr.-rufo-arturo-carvajal-argoty-'
   },
   {
-    agrupacion  : 'SECCIÓN - ORAL',
+    agrupacion: 'SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'DESPACHO 002 DEL TRIBUNAL ADMINISTRATIVO DE VALLE DEL CAUCA',
     url: '/web/despacho-02-dr.-fernando-augusto-garcia-munoz-'
   },
   {
-    agrupacion  : 'DISCIPLINARIA',
+    agrupacion: 'DISCIPLINARIA',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'DESPACHO 003 DE LA COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE CÓRDOBA',
     url: '/web/despacho-003-de-la-comision-seccional-de-disciplina-judicial-de-cordoba'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'DESPACHO 003 DE LA SALA CIVIL ESPECIALIZADA EN RESTITUCIÓN DE TIERRAS DEL TRIBUNAL SUPERIOR DE ANTIOQUIA',
     url: '/web/sala-civil-3-especializada-en-restitucion-de-tierras-de-antioquia'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'DESPACHO 003 DE LA SALA CIVIL ESPECIALIZADA EN RESTITUCIÓN DE TIERRAS DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/sala-civil-3-especializada-en-restitucion-de-tierras-de-cali'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'DESPACHO 003 DE LA SALA CIVIL ESPECIALIZADA EN RESTITUCIÓN DE TIERRAS DEL TRIBUNAL SUPERIOR DE CÚCUTA',
     url: '/web/sala-civil-3-especializada-en-restitucion-de-tierras-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'DESPACHO 003 DE LA SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE BARRANQUILLA',
     url: '/web/despacho-003-de-la-sala-civil-familia-del-tribunal-superior-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'DESPACHO 003 DE LA SALA LABORAL DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/despacho-003-de-la-sala-laboral-del-tribunal-superior-de-cali'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'DESPACHO 003 DE LA SALA PENAL DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/despacho-003-de-la-sala-penal-del-tribunal-superior-de-cali'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'DESPACHO 003 DE LA SALA PENAL DEL TRIBUNAL SUPERIOR DE IBAGUÉ',
     url: '/web/despacho-003-de-la-sala-penal-del-tribunal-superior-de-ibague'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'DESPACHO 003 DE LA SALA PENAL DEL TRIBUNAL SUPERIOR DE MONTERÍA',
     url: '/web/despacho-003-de-la-sala-penal-del-tribunal-superior-de-monteria'
   },
   {
-    agrupacion  : 'SALA ÚNICA',
+    agrupacion: 'SALA ÚNICA',
     especialidad: 'SALA ÚNICA',
     nombre:
       'DESPACHO 003 DE LA SALA ÚNICA DEL TRIBUNAL SUPERIOR DE ARAUCA',
     url: '/web/despacho-003-de-la-sala-unica-del-tribunal-superior-de-arauca'
   },
   {
-    agrupacion  : 'SALA ÚNICA',
+    agrupacion: 'SALA ÚNICA',
     especialidad: 'SALA ÚNICA',
     nombre:
       'DESPACHO 003 DE LA SALA ÚNICA DEL TRIBUNAL SUPERIOR DE ARCH. DE SAN ANDRÉS',
     url: '/web/tribunal-superior-de-san-andres-despacho-03.-fabio-maximo-mena-gil'
   },
   {
-    agrupacion  : 'SALA ÚNICA',
+    agrupacion: 'SALA ÚNICA',
     especialidad: 'SALA ÚNICA',
     nombre:
       'DESPACHO 003 DE LA SALA ÚNICA DEL TRIBUNAL SUPERIOR DE MOCOA',
     url: '/web/despacho-03-tribunal-superior-del-distrito-judicial-de-mocoa'
   },
   {
-    agrupacion  : 'SALA ÚNICA',
+    agrupacion: 'SALA ÚNICA',
     especialidad: 'SALA ÚNICA',
     nombre:
       'DESPACHO 003 DE LA SALA ÚNICA DEL TRIBUNAL SUPERIOR DE SAN JOSÉ DEL GUAVIARE',
     url: '/web/despacho-003-de-la-sala-unica-del-tribunal-superior-de-san-jose-del-guaviare'
   },
   {
-    agrupacion  : 'SECCIÓN CUARTA',
+    agrupacion: 'SECCIÓN CUARTA',
     especialidad: 'SECCIÓN CUARTA - ORAL',
     nombre:
       'DESPACHO 003 DE LA SECCIÓN CUARTA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-003-de-la-seccion-cuarta-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN PRIMERA',
+    agrupacion: 'SECCIÓN PRIMERA',
     especialidad: 'SECCIÓN PRIMERA MIXTA - ORAL',
     nombre:
       'DESPACHO 003 DE LA SECCIÓN PRIMERA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-003-de-la-seccion-primera-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA',
+    agrupacion: 'SECCIÓN SEGUNDA',
     especialidad: 'SECCIÓN SEGUNDA MIXTA - ORAL',
     nombre:
       'DESPACHO 003 DE LA SECCIÓN SEGUNDA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-003-de-la-seccion-segunda-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA',
+    agrupacion: 'SECCIÓN TERCERA',
     especialidad: 'SECCIÓN TERCERA - ORAL',
     nombre:
       'DESPACHO 003 DE LA SECCIÓN TERCERA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-003-de-la-seccion-tercera-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 003 DEL TRIBUNAL ADMINISTRATIVO DE ANTIOQUIA',
     url: '/web/despacho-03-dr.-jorge-ivan-duque-gutierrez-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 003 DEL TRIBUNAL ADMINISTRATIVO DE BOLÍVAR',
     url: '/web/despacho-03-administrativo-de-bolivar-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 003 DEL TRIBUNAL ADMINISTRATIVO DE BOYACÁ',
     url: '/web/despacho-03-dr.-fabio-ivan-afanador-garcia-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 003 DEL TRIBUNAL ADMINISTRATIVO DE CALDAS',
     url: '/web/despacho-03-dr.-luis-eduardo-collazos-olaya-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 003 DEL TRIBUNAL ADMINISTRATIVO DE CAUCA',
     url: '/web/tribunal-03-administrativo-del-cauca-dr.-carlos-hernando-jaramillo-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 003 DEL TRIBUNAL ADMINISTRATIVO DE CESAR',
     url: '/web/tribunal-03-administrativo-del-cesar-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 003 DEL TRIBUNAL ADMINISTRATIVO DE CHOCÓ',
     url: '/web/despacho-03-administrativo-del-choco-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 003 DEL TRIBUNAL ADMINISTRATIVO DE CÓRDOBA',
     url: '/web/tribunal-03-administrativo-de-cordoba-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 003 DEL TRIBUNAL ADMINISTRATIVO DE HUILA',
     url: '/web/tribunal-03-administrativo-del-huila'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 003 DEL TRIBUNAL ADMINISTRATIVO DE MAGDALENA',
     url: '/web/tribunal-03-administrativo-de-magdalena-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 003 DEL TRIBUNAL ADMINISTRATIVO DE NARIÑO',
     url: '/web/tribunal-03-administrativo-de-narino'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 003 DEL TRIBUNAL ADMINISTRATIVO DE NORTE DE SANTANDER',
     url: '/web/tribunal-03-administrativo-de-norte-de-santander-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 003 DEL TRIBUNAL ADMINISTRATIVO DE SAN ANDRÉS',
     url: '/web/tribunal-03-administrativo-islas-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 003 DEL TRIBUNAL ADMINISTRATIVO DE SUCRE',
     url: '/web/despacho-03-dr.-andres-medina-pineda-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 003 DEL TRIBUNAL ADMINISTRATIVO DE TOLIMA',
     url: '/web/tribunal-03-administrativo-del-tolima-escritural'
   },
   {
-    agrupacion  : 'SECCIÓN - ORAL',
+    agrupacion: 'SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'DESPACHO 003 DEL TRIBUNAL ADMINISTRATIVO DE VALLE DEL CAUCA',
     url: '/web/despacho-03-dra.-zoranny-castillo-otalora-'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'DESPACHO 003 SALA CIVIL ESPECIALIZADA RESTITUCIÓN DE TIERRAS DEL TRIBUNAL SUPERIOR DE CARTAGENA',
     url: '/web/sala-civil-3-especializada-en-restitucion-de-tierras-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'DESPACHO 004 DE LA SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE BARRANQUILLA',
     url: '/web/despacho-004-de-la-sala-civil-familia-del-tribunal-superior-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'DESPACHO 004 DE LA SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE CUNDINAMARCA',
     url: '/web/despacho-dr.-jaime-londono-salazar'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA - LABORAL',
+    agrupacion: 'CIVIL - FAMILIA - LABORAL',
     especialidad: 'CIVIL - FAMILIA - LABORAL',
     nombre:
       'DESPACHO 004 DE LA SALA CIVIL FAMILIA LABORAL DEL TRIBUNAL SUPERIOR DE MONTERÍA',
     url: '/web/despacho-004-de-la-sala-civil-familia-laboral-del-tribunal-superior-de-monteria'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'DESPACHO 004 DE LA SALA DE FAMILIA DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/despacho-004-de-la-sala-de-familia-del-tribunal-superior-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'DESPACHO 004 DE LA SALA LABORAL DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/despacho-004-de-la-sala-laboral-del-tribunal-superior-de-cali'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'DESPACHO 004 DE LA SALA PENAL DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/despacho-004-de-la-sala-penal-del-tribunal-superior-de-cali'
   },
   {
-    agrupacion  : 'SECCIÓN CUARTA',
+    agrupacion: 'SECCIÓN CUARTA',
     especialidad: 'SECCIÓN CUARTA - ORAL',
     nombre:
       'DESPACHO 004 DE LA SECCIÓN CUARTA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-004-de-la-seccion-cuarta-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN PRIMERA',
+    agrupacion: 'SECCIÓN PRIMERA',
     especialidad: 'SECCIÓN PRIMERA MIXTA - ORAL',
     nombre:
       'DESPACHO 004 DE LA SECCIÓN PRIMERA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-004-de-la-seccion-primera-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA',
+    agrupacion: 'SECCIÓN SEGUNDA',
     especialidad: 'SECCIÓN SEGUNDA MIXTA - ORAL',
     nombre:
       'DESPACHO 004 DE LA SECCIÓN SEGUNDA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-004-de-la-seccion-segunda-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA',
+    agrupacion: 'SECCIÓN TERCERA',
     especialidad: 'SECCIÓN TERCERA',
     nombre:
       'DESPACHO 004 DE LA SECCIÓN TERCERA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-004-de-la-seccion-tercera-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 004 DEL TRIBUNAL ADMINISTRATIVO DE ANTIOQUIA',
     url: '/web/despacho-004'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 004 DEL TRIBUNAL ADMINISTRATIVO DE BOLÍVAR',
     url: '/web/despacho-04-administrativo-de-bolivar-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 004 DEL TRIBUNAL ADMINISTRATIVO DE BOYACÁ',
     url: '/web/despacho-04-dr.-felix-alberto-rodriguez-riveros-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 004 DEL TRIBUNAL ADMINISTRATIVO DE CALDAS',
     url: '/web/despacho-04-dr.-augusto-morales-valencia-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 004 DEL TRIBUNAL ADMINISTRATIVO DE CAUCA',
     url: '/web/tribunal-04-administrativo-del-cauca-dr.-david-fernando-ramirez-f.-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 004 DEL TRIBUNAL ADMINISTRATIVO DE CESAR',
     url: '/web/despacho-04-dra.-doris-pinzon-amado'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 004 DEL TRIBUNAL ADMINISTRATIVO DE CÓRDOBA',
     url: '/web/tribunal-04-administrativo-de-cordoba-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 004 DEL TRIBUNAL ADMINISTRATIVO DE HUILA',
     url: '/web/despacho-04-tribunal-administrativo-del-huila'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'DESPACHO 004 DEL TRIBUNAL ADMINISTRATIVO DE MAGDALENA',
     url: '/web/despacho-004-del-tribunal-administrativo-de-magdalena'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 004 DEL TRIBUNAL ADMINISTRATIVO DE NARIÑO',
     url: '/web/tribunal-04-administrativo-de-narino'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'DESPACHO 004 DEL TRIBUNAL ADMINISTRATIVO DE NORTE DE SANTANDER',
     url: '/web/tribunal-04-administrativo-de-norte-de-santander'
   },
   {
-    agrupacion  : '*SECRETARÍA',
+    agrupacion: '*SECRETARÍA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'DESPACHO 004 DEL TRIBUNAL ADMINISTRATIVO DE QUINDÍO',
     url: '/web/tribunal-04-administrativo-del-quindio-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 004 DEL TRIBUNAL ADMINISTRATIVO DE TOLIMA',
     url: '/web/tribunal-04-administrativo-del-tolima-'
   },
   {
-    agrupacion  : 'SECCIÓN - ORAL',
+    agrupacion: 'SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'DESPACHO 004 DEL TRIBUNAL ADMINISTRATIVO DE VALLE DEL CAUCA',
     url: '/web/despacho-04-dra.-luz-elena-sierra-valencia-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 005  DEL TRIBUNAL ADMINISTRATIVO DE  CÓRDOBA',
     url: '/web/despacho-005-del-tribunal-administrativo-de-cordoba'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'DESPACHO 005 DE LA SALA CIVIL DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/tribunal-superior-de-bogota-sala-civil-despacho-05'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'DESPACHO 005 DE LA SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE BARRANQUILLA',
     url: '/web/despacho-005-de-la-sala-civil-familia-del-tribunal-superior-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA - LABORAL',
+    agrupacion: 'CIVIL - FAMILIA - LABORAL',
     especialidad: 'CIVIL - FAMILIA - LABORAL',
     nombre:
       'DESPACHO 005 DE LA SALA CIVIL FAMILIA LABORAL DEL TRIBUNAL SUPERIOR DE MONTERÍA ',
     url: '/web/despacho-005-de-la-sala-civil-familia-laboral-del-tribunal-superior-de-monteria-'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'DESPACHO 005 DE LA SALA DE FAMILIA DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/despacho-005-de-la-sala-de-familia-del-tribunal-superior-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'DESPACHO 005 DE LA SALA LABORAL DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/despacho-005-de-la-sala-laboral-del-tribunal-superior-de-cali'
   },
   {
-    agrupacion  : 'SECCIÓN CUARTA',
+    agrupacion: 'SECCIÓN CUARTA',
     especialidad: 'SECCIÓN CUARTA',
     nombre:
       'DESPACHO 005 DE LA SECCIÓN CUARTA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-005-de-la-seccion-cuarta-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN PRIMERA',
+    agrupacion: 'SECCIÓN PRIMERA',
     especialidad: 'SECCIÓN PRIMERA MIXTA - ORAL',
     nombre:
       'DESPACHO 005 DE LA SECCIÓN PRIMERA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-005-de-la-seccion-primera-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA',
+    agrupacion: 'SECCIÓN SEGUNDA',
     especialidad: 'SECCIÓN SEGUNDA MIXTA - ORAL',
     nombre:
       'DESPACHO 005 DE LA SECCIÓN SEGUNDA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-005-de-la-seccion-segunda-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA',
+    agrupacion: 'SECCIÓN TERCERA',
     especialidad: 'SECCIÓN TERCERA',
     nombre:
       'DESPACHO 005 DE LA SECCIÓN TERCERA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-005-de-la-seccion-tercera-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 005 DEL TRIBUNAL ADMINISTRATIVO DE ANTIOQUIA',
     url: '/web/despacho-05-dr.-jhon-jairo-alzate-lopez-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 005 DEL TRIBUNAL ADMINISTRATIVO DE ATLÁNTICO',
     url: '/web/tribunal-05-administrativo-de-atlantico-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'DESPACHO 005 DEL TRIBUNAL ADMINISTRATIVO DE BOLÍVAR',
     url: '/web/despacho-05-dr.-arturo-matson-carballo-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 005 DEL TRIBUNAL ADMINISTRATIVO DE BOYACÁ',
     url: '/web/despacho-05-dra.-clara-elisa-cifuentes-ortiz-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'DESPACHO 005 DEL TRIBUNAL ADMINISTRATIVO DE CAUCA',
     url: '/web/despacho-05-dr.-jairo-restrepo-caceres'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 005 DEL TRIBUNAL ADMINISTRATIVO DE CESAR',
     url: '/web/despacho-005-del-tribunal-administrativo-de-cesar'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'DESPACHO 005 DEL TRIBUNAL ADMINISTRATIVO DE HUILA',
     url: '/web/tribunal-05-administrativo-del-huila'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'DESPACHO 005 DEL TRIBUNAL ADMINISTRATIVO DE NARIÑO',
     url: '/web/tribunal-05-administrativo-de-narino'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 005 DEL TRIBUNAL ADMINISTRATIVO DE NORTE DE SANTANDER',
     url: '/web/tribunal-05-administrativo-de-norte-de-santander-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 005 DEL TRIBUNAL ADMINISTRATIVO DE SANTANDER',
     url: '/web/tribunal-05-administrativo-de-santander-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 005 DEL TRIBUNAL ADMINISTRATIVO DE TOLIMA',
     url: '/web/tribunal-05-administrativo-del-tolima-'
   },
   {
-    agrupacion  : 'SECCIÓN - ORAL',
+    agrupacion: 'SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 005 DEL TRIBUNAL ADMINISTRATIVO DE VALLE DEL CAUCA',
     url: '/web/despacho-05-dr.-jhon-erick-chaves-bravo-'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'DESPACHO 006 DE LA SALA CIVIL DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/tribunal-superior-de-bogota-sala-civil-despacho-06'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'DESPACHO 006 DE LA SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE BARRANQUILLA',
     url: '/web/despacho-006-de-la-sala-civil-familia-del-tribunal-superior-de-barranquilla'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'DESPACHO 006 DE LA SALA DE FAMILIA DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/despacho-006-de-la-sala-de-familia-del-tribunal-superior-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'DESPACHO 006 DE LA SALA LABORAL DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/despacho-006-de-la-sala-laboral-del-tribunal-superior-de-cali'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'DESPACHO 006 DE LA SALA PENAL DEL TRIBUNAL SUPERIOR DE IBAGUÉ',
     url: '/web/despacho-006-de-la-sala-penal-del-tribunal-superior-de-ibague'
   },
   {
-    agrupacion  : 'SECCIÓN CUARTA',
+    agrupacion: 'SECCIÓN CUARTA',
     especialidad: 'SECCIÓN CUARTA',
     nombre:
       'DESPACHO 006 DE LA SECCIÓN CUARTA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-006-de-la-seccion-cuarta-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN PRIMERA',
+    agrupacion: 'SECCIÓN PRIMERA',
     especialidad: 'SECCIÓN PRIMERA MIXTA - ORAL',
     nombre:
       'DESPACHO 006 DE LA SECCIÓN PRIMERA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-006-de-la-seccion-primera-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA',
+    agrupacion: 'SECCIÓN SEGUNDA',
     especialidad: 'SECCIÓN SEGUNDA MIXTA - ORAL',
     nombre:
       'DESPACHO 006 DE LA SECCIÓN SEGUNDA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-006-de-la-seccion-segunda-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA',
+    agrupacion: 'SECCIÓN TERCERA',
     especialidad: 'SECCIÓN TERCERA',
     nombre:
       'DESPACHO 006 DE LA SECCIÓN TERCERA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-006-de-la-seccion-tercera-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 006 DEL TRIBUNAL ADMINISTRATIVO DE ANTIOQUIA',
     url: '/web/despacho-06-dr.-jairo-jimenez-aristizabal-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'DESPACHO 006 DEL TRIBUNAL ADMINISTRATIVO DE BOLÍVAR',
     url: '/web/despacho-06-administrativo-de-bolivar-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'DESPACHO 006 DEL TRIBUNAL ADMINISTRATIVO DE BOYACÁ',
     url: '/web/despacho-06-dr.-oscar-alfonso-granados-naranjo-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'DESPACHO 006 DEL TRIBUNAL ADMINISTRATIVO DE NARIÑO',
     url: '/web/tribunal-06-administrativo-de-narino'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 006 DEL TRIBUNAL ADMINISTRATIVO DE TOLIMA',
     url: '/web/tribunal-06-administrativo-del-tolima-'
   },
   {
-    agrupacion  : 'SECCIÓN - ORAL',
+    agrupacion: 'SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 006 DEL TRIBUNAL ADMINISTRATIVO DE VALLE DEL CAUCA',
     url: '/web/despacho-06-dr.-franklin-perez-camargo-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'DESPACHO 006 DEL TRIBUNAL ADMINISTRATIVO DEL HUILA',
     url: '/web/tribunal-06-administrativo-del-huila'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 007  DEL TRIBUNAL ADMINISTRATIVO DE  BOLÍVAR',
     url: '/web/despacho-007-del-tribunal-administrativo-de-bolivar'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 007  DEL TRIBUNAL ADMINISTRATIVO DE  SANTANDER',
     url: '/web/despacho-007-del-tribunal-administrativo-de-santander'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'DESPACHO 007 DE LA SALA CIVIL DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/tribunal-superior-de-bogota-sala-civil-despacho-07'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'DESPACHO 007 DE LA SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE BARRANQUILLA',
     url: '/web/despacho-007-de-la-sala-civil-familia-del-tribunal-superior-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'DESPACHO 007 DE LA SALA LABORAL DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/despacho-007-de-la-sala-laboral-del-tribunal-superior-de-cali'
   },
   {
-    agrupacion  : 'SECCIÓN PRIMERA',
+    agrupacion: 'SECCIÓN PRIMERA',
     especialidad: 'SECCIÓN PRIMERA MIXTA - ORAL',
     nombre:
       'DESPACHO 007 DE LA SECCIÓN PRIMERA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-007-de-la-seccion-primera-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA',
+    agrupacion: 'SECCIÓN SEGUNDA',
     especialidad: 'SECCIÓN SEGUNDA MIXTA - ORAL',
     nombre:
       'DESPACHO 007 DE LA SECCIÓN SEGUNDA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-007-de-la-seccion-segunda-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA',
+    agrupacion: 'SECCIÓN TERCERA',
     especialidad: 'SECCIÓN TERCERA MIXTA - ORAL',
     nombre:
       'DESPACHO 007 DE LA SECCIÓN TERCERA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-007-de-la-seccion-tercera-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 007 DEL TRIBUNAL ADMINISTRATIVO DE ANTIOQUIA',
     url: '/web/despacho-07-dra.-gloria-maria-gomez-montoya-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 007 DEL TRIBUNAL ADMINISTRATIVO DE ATLÁNTICO',
     url: '/web/tribunal-07-administrativo-del-atlantico'
   },
   {
-    agrupacion  : 'SECCIÓN - ORAL',
+    agrupacion: 'SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'DESPACHO 007 DEL TRIBUNAL ADMINISTRATIVO DE VALLE DEL CAUCA',
     url: '/web/despacho-07-dr.-eduardo-antonio-lubo-barros-'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'DESPACHO 008 DE LA SALA CIVIL DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/tribunal-superior-de-bogota-sala-civil-despacho-08'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'DESPACHO 008 DE LA SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE BARRANQUILLA',
     url: '/web/despacho-008-de-la-sala-civil-familia-del-tribunal-superior-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'DESPACHO 008 DE LA SALA LABORAL DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/despacho-008-de-la-sala-laboral-del-tribunal-superior-de-cali'
   },
   {
-    agrupacion  : 'SECCIÓN PRIMERA',
+    agrupacion: 'SECCIÓN PRIMERA',
     especialidad: 'SECCIÓN PRIMERA MIXTA - ORAL',
     nombre:
       'DESPACHO 008 DE LA SECCIÓN PRIMERA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-008-de-la-seccion-primera-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA',
+    agrupacion: 'SECCIÓN SEGUNDA',
     especialidad: 'SECCIÓN SEGUNDA MIXTA - ORAL',
     nombre:
       'DESPACHO 008 DE LA SECCIÓN SEGUNDA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-008-de-la-seccion-segunda-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA',
+    agrupacion: 'SECCIÓN TERCERA',
     especialidad: 'SECCIÓN TERCERA MIXTA - ORAL',
     nombre:
       'DESPACHO 008 DE LA SECCIÓN TERCERA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-008-de-la-seccion-tercera-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 008 DEL TRIBUNAL ADMINISTRATIVO DE ANTIOQUIA',
     url: '/web/despacho-08-dra.-beatriz-elena-jaramillo-munoz-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 008 DEL TRIBUNAL ADMINISTRATIVO DE ATLÁNTICO',
     url: '/web/tribunal-08-administrativo-del-atlantico'
   },
   {
-    agrupacion  : 'SECCIÓN - ORAL',
+    agrupacion: 'SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 008 DEL TRIBUNAL ADMINISTRATIVO DE VALLE DEL CAUCA',
     url: '/web/despacho-08-dr.-omar-edgar-borja-soto-'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'DESPACHO 009 DE LA SALA LABORAL DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/despacho-009-de-la-sala-laboral-del-tribunal-superior-de-cali'
   },
   {
-    agrupacion  : 'SECCIÓN PRIMERA',
+    agrupacion: 'SECCIÓN PRIMERA',
     especialidad: 'SECCIÓN PRIMERA MIXTA - ORAL',
     nombre:
       'DESPACHO 009 DE LA SECCIÓN PRIMERA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-009-de-la-seccion-primera-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA',
+    agrupacion: 'SECCIÓN SEGUNDA',
     especialidad: 'SECCIÓN SEGUNDA MIXTA - ORAL',
     nombre:
       'DESPACHO 009 DE LA SECCIÓN SEGUNDA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-009-de-la-seccion-segunda-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA',
+    agrupacion: 'SECCIÓN TERCERA',
     especialidad: 'SECCIÓN TERCERA MIXTA - ORAL',
     nombre:
       'DESPACHO 009 DE LA SECCIÓN TERCERA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-009-de-la-seccion-tercera-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'DESPACHO 009 DEL TRIBUNAL ADMINISTRATIVO DE ANTIOQUIA',
     url: '/web/despacho-09-dra.-adriana-bernal-velez-'
   },
   {
-    agrupacion  : 'SECCIÓN - ORAL',
+    agrupacion: 'SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'DESPACHO 009 DEL TRIBUNAL ADMINISTRATIVO DE VALLE DEL CAUCA',
     url: '/web/despacho-09-dr.-oscar-silvio-narvaez-daza-'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'DESPACHO 010 DE LA SALA CIVIL DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/despacho-010-de-la-sala-civil-del-tribunal-superior-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'DESPACHO 010 DE LA SALA LABORAL DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/despacho-010-de-la-sala-laboral-del-tribunal-superior-de-cali'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA',
+    agrupacion: 'SECCIÓN SEGUNDA',
     especialidad: 'SECCIÓN SEGUNDA MIXTA - ORAL',
     nombre:
       'DESPACHO 010 DE LA SECCIÓN SEGUNDA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-010-de-la-seccion-segunda-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 010 DEL TRIBUNAL ADMINISTRATIVO DE ANTIOQUIA',
     url: '/web/despacho-10-dr.-gonzalo-javier-zambrano-velandia-'
   },
   {
-    agrupacion  : 'SECCIÓN - ORAL',
+    agrupacion: 'SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 010 DEL TRIBUNAL ADMINISTRATIVO DE VALLE DEL CAUCA',
     url: '/web/despacho-10-dr.-oscar-alonso-valero-nisimblat-'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'DESPACHO 011 DE LA SALA CIVIL DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/tribunal-superior-de-bogota-sala-civil-despacho-11'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'DESPACHO 011 DE LA SALA LABORAL DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/despacho-011-de-la-sala-laboral-del-tribunal-superior-de-cali'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA',
+    agrupacion: 'SECCIÓN SEGUNDA',
     especialidad: 'SECCIÓN SEGUNDA MIXTA - ORAL',
     nombre:
       'DESPACHO 011 DE LA SECCIÓN SEGUNDA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-011-de-la-seccion-segunda-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 011 DEL TRIBUNAL ADMINISTRATIVO DE ANTIOQUIA',
     url: '/web/despacho-11-dr.-andrew-julian-martinez-martinez-'
   },
   {
-    agrupacion  : 'SECCIÓN - MIXTA',
+    agrupacion: 'SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'DESPACHO 011 DEL TRIBUNAL ADMINISTRATIVO DE VALLE DEL CAUCA',
     url: '/web/despacho-011-del-tribunal-administrativo-de-valle-del-cauca'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'DESPACHO 012 DE LA SALA CIVIL DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/tribunal-superior-de-bogota-sala-civil-despacho-12'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'DESPACHO 012 DE LA SALA LABORAL DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/despacho-012-de-la-sala-laboral-del-tribunal-superior-de-cali'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA',
+    agrupacion: 'SECCIÓN SEGUNDA',
     especialidad: 'SECCIÓN SEGUNDA MIXTA - ORAL',
     nombre:
       'DESPACHO 012 DE LA SECCIÓN SEGUNDA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-012-de-la-seccion-segunda-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 012 DEL TRIBUNAL ADMINISTRATIVO DE ANTIOQUIA',
     url: '/web/despacho-12-dra.-maria-nancy-garcia-garcia-'
   },
   {
-    agrupacion  : 'SECCIÓN - MIXTA',
+    agrupacion: 'SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 012 DEL TRIBUNAL ADMINISTRATIVO DE VALLE DEL CAUCA',
     url: '/web/despacho-012-del-tribunal-administrativo-de-valle-del-cauca'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 013  DEL TRIBUNAL ADMINISTRATIVO DE  VALLE DEL CAUCA',
     url: '/web/despacho-013-del-tribunal-administrativo-de-valle-del-cauca'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'DESPACHO 013 DE LA SALA LABORAL DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/despacho-013-de-la-sala-laboral-del-tribunal-superior-de-cali'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA',
+    agrupacion: 'SECCIÓN SEGUNDA',
     especialidad: 'SECCIÓN SEGUNDA MIXTA - ORAL',
     nombre:
       'DESPACHO 013 DE LA SECCIÓN SEGUNDA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-013-de-la-seccion-segunda-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 013 DEL TRIBUNAL ADMINISTRATIVO DE ANTIOQUIA',
     url: '/web/despacho-13-dra.-liliana-patricia-navarro-giraldo-'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'DESPACHO 014 DE LA SALA CIVIL DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/tribunal-superior-de-bogota-sala-civil-despacho-14'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'DESPACHO 014 DE LA SALA LABORAL DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/despacho-014-de-la-sala-laboral-del-tribunal-superior-de-cali'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA',
+    agrupacion: 'SECCIÓN SEGUNDA',
     especialidad: 'SECCIÓN SEGUNDA MIXTA - ORAL',
     nombre:
       'DESPACHO 014 DE LA SECCIÓN SEGUNDA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-014-de-la-seccion-segunda-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 014 DEL TRIBUNAL ADMINISTRATIVO DE ANTIOQUIA',
     url: '/web/despacho-14-dr.-jorge-leon-arango-franco-'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'DESPACHO 015 DE LA SALA CIVIL DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/tribunal-superior-de-bogota-sala-civil-despacho-15'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'DESPACHO 015 DE LA SALA LABORAL DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/despacho-015-de-la-sala-laboral-del-tribunal-superior-de-cali'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA',
+    agrupacion: 'SECCIÓN SEGUNDA',
     especialidad: 'SECCIÓN SEGUNDA MIXTA - ORAL',
     nombre:
       'DESPACHO 015 DE LA SECCIÓN SEGUNDA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-015-de-la-seccion-segunda-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 015 DEL TRIBUNAL ADMINISTRATIVO DE ANTIOQUIA',
     url: '/web/despacho-15-dr.-daniel-montero-bentacur-'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA',
+    agrupacion: 'SECCIÓN SEGUNDA',
     especialidad: 'SECCIÓN SEGUNDA MIXTA - ORAL',
     nombre:
       'DESPACHO 016 DE LA SECCIÓN SEGUNDA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-016-de-la-seccion-segunda-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 016 DEL TRIBUNAL ADMINISTRATIVO DE ANTIOQUIA',
     url: '/web/despacho-016-del-tribunal-administrativo-de-antioquia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'DESPACHO 017 DE LA SALA CIVIL DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/tribunal-superior-de-bogota-sala-civil-despacho-17'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA',
+    agrupacion: 'SECCIÓN SEGUNDA',
     especialidad: 'SECCIÓN SEGUNDA MIXTA - ORAL',
     nombre:
       'DESPACHO 017 DE LA SECCIÓN SEGUNDA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-017-de-la-seccion-segunda-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'TRIBUNAL ADMINISTRATIVO',
+    agrupacion: 'TRIBUNAL ADMINISTRATIVO',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 017 DEL TRIBUNAL ADMINISTRATIVO DE ANTIOQUIA',
     url: '/web/despacho-017-del-tribunal-administrativo-de-antioquia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'DESPACHO 018 DE LA SALA CIVIL DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/tribunal-superior-de-bogota-sala-civil-despacho-18'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA',
+    agrupacion: 'SECCIÓN SEGUNDA',
     especialidad: 'SECCIÓN SEGUNDA MIXTA - ORAL',
     nombre:
       'DESPACHO 018 DE LA SECCIÓN SEGUNDA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/despacho-018-de-la-seccion-segunda-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'TRIBUNAL ADMINISTRATIVO',
+    agrupacion: 'TRIBUNAL ADMINISTRATIVO',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 018 DEL TRIBUNAL ADMINISTRATIVO DE ANTIOQUIA',
     url: '/web/despacho-018-del-tribunal-administrativo-de-antioquia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'DESPACHO 019 DE LA SALA CIVIL DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/tribunal-superior-de-bogota-sala-civil-despacho-19'
   },
   {
-    agrupacion  : 'TRIBUNAL ADMINISTRATIVO',
+    agrupacion: 'TRIBUNAL ADMINISTRATIVO',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 019 DEL TRIBUNAL ADMINISTRATIVO DE ANTIOQUIA',
     url: '/web/despacho-019-del-tribunal-administrativo-de-antioquia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'DESPACHO 020 DE LA SALA CIVIL DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/tribunal-superior-de-bogota-sala-civil-despacho-20'
   },
   {
-    agrupacion  : 'TRIBUNAL ADMINISTRATIVO',
+    agrupacion: 'TRIBUNAL ADMINISTRATIVO',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 020 DEL TRIBUNAL ADMINISTRATIVO DE ANTIOQUIA',
     url: '/web/despacho-020-del-tribunal-administrativo-de-antioquia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'DESPACHO 021 DE LA SALA CIVIL DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/tribunal-superior-de-bogota-sala-civil-despacho-21'
   },
   {
-    agrupacion  : 'TRIBUNAL ADMINISTRATIVO',
+    agrupacion: 'TRIBUNAL ADMINISTRATIVO',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'DESPACHO 021 DEL TRIBUNAL ADMINISTRATIVO DE ANTIOQUIA',
     url: '/web/despacho-021-del-tribunal-administrativo-de-antioquia'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'DESPACHO 401 SALA LABORAL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/despacho-001-de-descongestion-sala-laboral-tribunal-superior-de-cali'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA - LABORAL',
+    agrupacion: 'CIVIL - FAMILIA - LABORAL',
     especialidad: 'CIVIL - FAMILIA - LABORAL',
     nombre:
       'DESPACHO DE LA SALA CIVIL FAMILIA LABORAL DEL TRIBUNAL SUPERIOR DE SAN GIL',
     url: '/web/despacho-de-la-sala-civil-familia-laboral-del-tribunal-superior-de-san-gil'
   },
   {
-    agrupacion  : 'CONSTITUCIONAL',
+    agrupacion: 'CONSTITUCIONAL',
     especialidad: 'CONSTITUCIONAL',
     nombre:
       'DESPACHO DIRECTOR EJECUTIVO SECCIONAL BUCARAMANGA',
     url: '/web/direccion-seccional-de-administracion-judicial-de-bucaramanga'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'CONSTITUCIONAL',
     nombre:
       'DIRECCIÓN SECCIONAL DE ADMINISTRACIÓN JUDICIAL DE CARTAGENA',
     url: '/web/direccion-seccional-de-administracion-judicial-de-cartagena'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'CONSTITUCIONAL',
     nombre:
       'DIRECCIÓN SECCIONAL DE ADMINISTRACIÓN JUDICIAL DE RIOHACHA',
@@ -2865,21 +2839,21 @@ exports.Despachos = [
     url: '/web/direccion-seccional-de-administracion-judicial-de-santa-marta'
   },
   {
-    agrupacion  : 'CONSTITUCIONAL',
+    agrupacion: 'CONSTITUCIONAL',
     especialidad: 'CONSTITUCIONAL',
     nombre:
       'DIRECCIÓN SECCIONAL DE ADMINISTRACIÓN JUDICIAL DE SINCELEJO',
     url: '/web/direccion-seccional-de-administracion-judicial-de-sincelejo'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'CONSTITUCIONAL',
     nombre:
       'DIRECCIÓN SECCIONAL DE ADMINISTRACIÓN JUDICIAL DE VALLEDUPAR',
     url: '/web/direccion-seccional-de-administracion-judicial-de-valledupar'
   },
   {
-    agrupacion  : 'CONSTITUCIONAL',
+    agrupacion: 'CONSTITUCIONAL',
     especialidad: 'CONSTITUCIONAL',
     nombre:
       'DIRECCIÓN SECCIONAL DE ADMINISTRACIÓN JUDICIAL DE VILLAVICENCIO',
@@ -2895,21 +2869,21 @@ exports.Despachos = [
     url: '/web/direccion-seccional-de-administracion-judicial-de-ibague'
   },
   {
-    agrupacion  : 'OFICINA JUDICIAL',
+    agrupacion: 'OFICINA JUDICIAL',
     especialidad: 'OFICINA JUDICIAL',
     nombre:
       'DIRECCIÓN SECCIONAL DE LA RAMA JUDICIAL 000 OFICINA JUDICIAL DE ARMENIA',
     url: '/web/direccion-seccional-de-administracion-judicial-de-armenia'
   },
   {
-    agrupacion  : 'OFICINA JUDICIAL',
+    agrupacion: 'OFICINA JUDICIAL',
     especialidad: 'OFICINA JUDICIAL',
     nombre:
       'DIRECCIÓN SECCIONAL DE LA RAMA JUDICIAL 000 OFICINA JUDICIAL DE BUCARAMANGA',
     url: '/web/direccion-seccional-de-la-rama-judicial-000-oficina-judicial-de-bucaramanga'
   },
   {
-    agrupacion  : 'CONSTITUCIONAL',
+    agrupacion: 'CONSTITUCIONAL',
     especialidad: 'CONSTITUCIONAL',
     nombre:
       'DIRECCIÓN SECCIONAL DE LA RAMA JUDICIAL 000 SIN ESPECIALIDAD DE CALI',
@@ -2925,1934 +2899,1934 @@ exports.Despachos = [
     url: '/web/direccion-seccional-de-la-judicatura-de-antioquia'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE AGUACHICA',
     url: '/web/juzgado-001-administrativo-de-aguachica'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE ARAUCA',
     url: '/web/juzgado-01-administrativo-de-arauca'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE ARCH. DE SAN ANDRÉS',
     url: '/web/juzgado-01-administrativo-de-san-andres'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE ARMENIA',
     url: '/web/juzgado-01-administrativo-de-armenia'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE BARRANCABERMEJA',
     url: '/web/juzgado-01-administrativo-de-barrancabermeja'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE BUCARAMANGA',
     url: '/web/juzgado-01-administrativo-de-bucaramanga'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE BUENAVENTURA',
     url: '/web/juzgado-01-administrativo-mixto-de-buenaventura'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 001 ADMINISTRATIVO DE BUGA',
-    url         : '/web/juzgado-01-administrativo-de-buga'
+    nombre: 'JUZGADO 001 ADMINISTRATIVO DE BUGA',
+    url: '/web/juzgado-01-administrativo-de-buga'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 001 ADMINISTRATIVO DE CALI',
-    url         : '/web/juzgado-01-administrativo-de-cali'
+    nombre: 'JUZGADO 001 ADMINISTRATIVO DE CALI',
+    url: '/web/juzgado-01-administrativo-de-cali'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE CARTAGENA',
     url: '/web/juzgado-01-administrativo-de-cartagena'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE CARTAGO',
     url: '/web/juzgado-01-administrativo-de-cartago'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE CÚCUTA',
     url: '/web/juzgado-01-administrativo-de-cucuta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE DUITAMA',
     url: '/web/juzgado-01-administrativo-de-duitama'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE FACATATIVÁ',
     url: '/web/juzgado-01-administrativo-de-facatativa'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE FLORENCIA',
     url: '/web/juzgado-01-administrativo-de-florencia'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE GIRARDOT',
     url: '/web/juzgado-01-administrativo-de-girardot'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE IBAGUÉ',
     url: '/web/juzgado-01-administrativo-de-ibague'
   },
   {
-    agrupacion  : 'SECCIÓN PRIMERA - ORAL',
+    agrupacion: 'SECCIÓN PRIMERA - ORAL',
     especialidad: 'SECCIÓN PRIMERA - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE LA SECCIÓN PRIMERA DE BOGOTÁ',
     url: '/web/juzgado-01-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE LETICIA',
     url: '/web/juzgado-01-administrativo-de-leticia'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE MAGANGUÉ',
     url: '/web/juzgado-001-administrativo-de-magangue'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE MANIZALES',
     url: '/web/juzgado-01-administrativo-de-manizales'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-01-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 001 ADMINISTRATIVO DE MOCOA',
-    url         : '/web/juzgado-01-administrativo-de-mocoa'
+    nombre: 'JUZGADO 001 ADMINISTRATIVO DE MOCOA',
+    url: '/web/juzgado-01-administrativo-de-mocoa'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE MONTERÍA',
     url: '/web/juzgado-01-administrativo-de-monteria'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 001 ADMINISTRATIVO DE NEIVA',
-    url         : '/web/juzgado-01-administrativo-de-neiva'
+    nombre: 'JUZGADO 001 ADMINISTRATIVO DE NEIVA',
+    url: '/web/juzgado-01-administrativo-de-neiva'
   },
   {
-    agrupacion  : 'SECCIÓN PRIMERA - ORAL',
+    agrupacion: 'SECCIÓN PRIMERA - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 001 ADMINISTRATIVO DE OCAÑA',
-    url         : '/web/juzgado-001-administrativo-de-ocana'
+    nombre: 'JUZGADO 001 ADMINISTRATIVO DE OCAÑA',
+    url: '/web/juzgado-001-administrativo-de-ocana'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE PAMPLONA',
     url: '/web/juzgado-01-administrativo-de-pamplona'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 001 ADMINISTRATIVO DE PASTO',
-    url         : '/web/juzgado-01-administrativo-de-pasto'
+    nombre: 'JUZGADO 001 ADMINISTRATIVO DE PASTO',
+    url: '/web/juzgado-01-administrativo-de-pasto'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE PEREIRA',
     url: '/web/juzgado-01-administrativo-de-pereira'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE POPAYÁN',
     url: '/web/juzgado-01-administrativo-de-popayan'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE QUIBDÓ',
     url: '/web/juzgado-01-administrativo-de-quibdo'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE RIOHACHA',
     url: '/web/juzgado-01-administrativo-de-riohacha'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE SAN GIL',
     url: '/web/juzgado-01-administrativo-de-san-gil'
   },
   {
-    agrupacion  : 'JUZGADO ADMINISTRATIVO',
+    agrupacion: 'JUZGADO ADMINISTRATIVO',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE SAN JOSÉ DEL GUAVIARE',
     url: '/web/juzgado-001-administrativo-de-san-jose-del-guaviare'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE SANTA MARTA',
     url: '/web/juzgado-01-administrativo-de-santa-marta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE SINCELEJO',
     url: '/web/juzgado-01-administrativo-de-sincelejo'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE SOGAMOSO',
     url: '/web/juzgado-01-administrativo-de-sogamoso'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE TUMACO',
     url: '/web/juzgado-001-administrativo-de-tumaco'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 001 ADMINISTRATIVO DE TUNJA',
-    url         : '/web/juzgado-01-administrativo-de-tunja'
+    nombre: 'JUZGADO 001 ADMINISTRATIVO DE TUNJA',
+    url: '/web/juzgado-01-administrativo-de-tunja'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 001 ADMINISTRATIVO DE TURBO',
-    url         : '/web/juzgado-01-administrativo-de-turbo'
+    nombre: 'JUZGADO 001 ADMINISTRATIVO DE TURBO',
+    url: '/web/juzgado-01-administrativo-de-turbo'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE VALLEDUPAR',
     url: '/web/juzgado-01-administrativo-de-valledupar'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE VILLAVICENCIO',
     url: '/web/juzgado-01-administrativo-de-villavicencio'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 001 ADMINISTRATIVO DE YOPAL',
-    url         : '/web/juzgado-01-administrativo-de-yopal'
+    nombre: 'JUZGADO 001 ADMINISTRATIVO DE YOPAL',
+    url: '/web/juzgado-01-administrativo-de-yopal'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE ZIPAQUIRÁ',
     url: '/web/juzgado-01-administrativo-de-zipaquira'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO DE ZIPAQUIRÁ ANTES JUZGADO 003 ADMINISTRATIVO DE ZIPAQUIRÁ',
     url: '/web/juzgado-01-administrativo-de-descongestion-zipaquira'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 001 ADMINISTRATIVO ORAL DE BARRANQUILLA',
     url: '/web/juzgado-01-administrativo-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL CIRCUITO DE COROZAL',
     url: '/web/juzgado-001-civil-circuito-de-corozal'
   },
   {
-    agrupacion  : 'CIVIL - LABORAL',
+    agrupacion: 'CIVIL - LABORAL',
     especialidad: 'CIVIL - LABORAL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO CON CONOCIMIENTO EN ASUNTOS LABORALES DE PUERTO BOYACÁ',
     url: '/web/juzgado-01-civil-del-circuito-de-puerto-boyaca'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE ACACÍAS',
     url: '/web/juzgado-001-civil-del-circuito-de-acacias'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE AGUACHICA, CESAR- ANTES JUZ 002 PROMISCUO DEL CIRCUITO',
     url: '/web/juzgado-001-civil-del-circuito-de-aguachica-cesar-antes-juz-002-promiscuo-del-circuito'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE AGUADAS',
     url: '/web/juzgado-001-civil-del-circuito-de-aguadas'
   },
   {
-    agrupacion  : 'CIVIL - LABORAL',
+    agrupacion: 'CIVIL - LABORAL',
     especialidad: 'CIVIL - LABORAL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE ANDES',
     url: '/web/juzgado-001-civil-del-circuito-de-andes'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE ANSERMA',
     url: '/web/juzgado-001-civil-del-circuito-de-anserma'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE APARTADÓ',
     url: '/web/juzgado-001-civil-del-circuito-de-apartado'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE ARAUCA',
     url: '/web/juzgado-001-civil-del-circuito-de-arauca'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE ARCH. DE SAN ANDRÉS',
     url: '/web/juzgado-01-civil-del-circuito-san-andres'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE ARMENIA',
     url: '/web/juzgado-01-civil-del-circuito-de-armenia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE BARRANCABERMEJA',
     url: '/web/juzgado-001-civil-del-circuito-de-barrancabermeja'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE BARRANQUILLA',
     url: '/web/juzgado-001-civil-del-circuito-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE BELLO',
     url: '/web/juzgado-001-civil-del-circuito-de-bello'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-001-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL - LABORAL',
+    agrupacion: 'CIVIL - LABORAL',
     especialidad: 'CIVIL - LABORAL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE BOLÍVAR',
     url: '/web/juzgado-001-civil-del-circuito-de-bolivar'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE BUCARAMANGA',
     url: '/web/juzgado-01-civil-del-circuito-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE BUENAVENTURA',
     url: '/web/juzgado-001-civil-del-circuito-de-buenaventura'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE BUGA',
     url: '/web/juzgado-01-civil-circuito-de-buga'
   },
   {
-    agrupacion  : 'CIVIL - LABORAL',
+    agrupacion: 'CIVIL - LABORAL',
     especialidad: 'CIVIL - LABORAL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE CALARCÁ',
     url: '/web/juzgado-01-civil-del-circuito-de-calarca'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE CALDAS',
     url: '/web/juzgado-001-civil-del-circuito-de-caldas'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE CALI',
     url: '/web/juzgado-01-civil-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE CÁQUEZA',
     url: '/web/juzgado-01-civil-del-circuito-de-caqueza'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE CARTAGENA',
     url: '/web/juzgado-001-civil-del-circuito-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE CARTAGO',
     url: '/web/juzgado-001-civil-del-circuito-de-cartago'
   },
   {
-    agrupacion  : 'CIVIL - LABORAL',
+    agrupacion: 'CIVIL - LABORAL',
     especialidad: 'CIVIL - LABORAL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE CAUCASIA',
     url: '/web/juzgado-001-civil-del-circuito-de-caucasia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE CERETÉ',
     url: '/web/juzgado-001-civil-del-circuito-de-cerete'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE CHAPARRAL',
     url: '/web/juzgado-01-civil-del-circuito-de-chaparral'
   },
   {
-    agrupacion  : 'CIVIL - LABORAL',
+    agrupacion: 'CIVIL - LABORAL',
     especialidad: 'CIVIL - LABORAL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE CHINCHINÁ',
     url: '/web/juzgado-001-civil-del-circuito-de-chinchina'
   },
   {
-    agrupacion  : 'CIVIL ORALIDAD',
+    agrupacion: 'CIVIL ORALIDAD',
     especialidad: 'CIVIL ORALIDAD',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE CHIQUINQUIRÁ',
     url: '/web/juzgado-001-civil-del-circuito-de-chiquinquira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE CHIRIGUANÁ',
     url: '/web/juzgado-001-civil-del-circuito-de-chiriguana'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE CHOCONTÁ',
     url: '/web/juzgado-001-civil-del-circuito-de-choconta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE CIÉNAGA',
     url: '/web/juzgado-001-civil-del-circuito-de-cienaga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE CÚCUTA',
     url: '/web/juzgado-01-civil-del-circuito-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE DOSQUEBRADAS',
     url: '/web/juzgado-001-civil-del-circuito-de-dosquebradas'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BARRANQUILLA',
     url: '/web/juzgado-01-de-ejecucion-civil-del-circuito-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-01-de-ejecucion-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BUCARAMANGA',
     url: '/web/juzgado-01-de-ejecucion-civil-del-circuito-de-bucaramanga.'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE CALI',
     url: '/web/juzgado-01-de-ejecucion-civil-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN',
     url: '/web/juzgado-01-de-ejecucion-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE EL BANCO',
     url: '/web/juzgado-001-civil-del-circuito-de-el-banco'
   },
   {
-    agrupacion  : 'CIVIL - LABORAL',
+    agrupacion: 'CIVIL - LABORAL',
     especialidad: 'CIVIL - LABORAL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE EL SANTUARIO',
     url: '/web/juzgado-001-civil-del-circuito-de-el-santuario'
   },
   {
-    agrupacion  : 'CIVIL ORALIDAD',
+    agrupacion: 'CIVIL ORALIDAD',
     especialidad: 'CIVIL ORALIDAD',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE ENVIGADO',
     url: '/web/juzgado-001-civil-del-circuito-de-envigado'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE ESPINAL',
     url: '/web/juzgado-01-civil-del-circuito-de-el-espinal'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE FACATATIVÁ',
     url: '/web/juzgado-001-civil-del-circuito-de-facatativa'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE FLORENCIA',
     url: '/web/juzgado-001-civil-del-circuito-de-florencia'
   },
   {
-    agrupacion  : 'CIVIL - LABORAL',
+    agrupacion: 'CIVIL - LABORAL',
     especialidad: 'CIVIL - LABORAL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE FREDONIA',
     url: '/web/juzgado-001-civil-del-circuito-de-fredonia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE FRESNO',
     url: '/web/juzgado-001-civil-del-circuito-de-fresno'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE FUNDACIÓN',
     url: '/web/juzgado-001-civil-del-circuito-de-fundacion'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE FUNZA',
     url: '/web/juzgado-civil-del-circuito-de-funza'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE FUSAGASUGÁ',
     url: '/web/juzgado-01-civil-del-circuito-de-fusagasuga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE GACHETÁ',
     url: '/web/juzgado-01-civil-circuito-de-gacheta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE GARAGOA',
     url: '/web/juzgado-001-civil-del-circuito-de-garagoa'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE GARZÓN',
     url: '/web/juzgado-001-civil-del-circuito-de-garzon'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE GIRARDOT',
     url: '/web/juzgado-01-civil-del-circuito-de-girardot'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE GIRARDOTA',
     url: '/web/juzgado-001-civil-del-circuito-de-girardota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE GRANADA',
     url: '/web/juzgado-001-civil-del-circuito-de-granada'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE GUAMO',
     url: '/web/juzgado-001-civil-del-circuito-de-guamo'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE GUATEQUE',
     url: '/web/juzgado-01-civil-del-circuito-de-guateque'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE HONDA',
     url: '/web/juzgado-01-civil-del-circuito-de-honda'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE IBAGUÉ',
     url: '/web/juzgado-001-civil-del-circuito-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE IPIALES',
     url: '/web/juzgado-01-civil-del-circuito-de-ipiales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE ISTMINA',
     url: '/web/juzgado-01-civil-del-circuito-de-istmina'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE ITAGÜÍ',
     url: '/web/juzgado-001-civil-del-circuito-de-itagui'
   },
   {
-    agrupacion  : 'CIVIL - LABORAL',
+    agrupacion: 'CIVIL - LABORAL',
     especialidad: 'CIVIL - LABORAL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE LA CEJA',
     url: '/web/juzgado-001-civil-del-circuito-de-la-ceja'
   },
   {
-    agrupacion  : 'CIVIL - LABORAL',
+    agrupacion: 'CIVIL - LABORAL',
     especialidad: 'CIVIL - LABORAL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE LA DORADA',
     url: '/web/juzgado-01-civil-del-circuito-de-la-dorada'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE LA MESA',
     url: '/web/juzgado-civil-del-circuito-de-la-mesa'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE LA UNIÓN',
     url: '/web/juzgado-01-civil-del-circuito-de-la-union'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE LÉRIDA',
     url: '/web/juzgado-01-civil-del-circuito-de-lerida'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE LÍBANO',
     url: '/web/juzgado-001-civil-del-circuito-de-libano'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE LORICA',
     url: '/web/juzgado-001-civil-del-circuito-de-lorica'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE LOS PATIOS',
     url: '/web/juzgado-001-civil-del-circuito-de-los-patios'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE MAGANGUÉ',
     url: '/web/juzgado-01-civil-del-circuito-de-magangue'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE MANIZALES',
     url: '/web/juzgado-001-civil-del-circuito-de-manizales'
   },
   {
-    agrupacion  : 'CIVIL - LABORAL',
+    agrupacion: 'CIVIL - LABORAL',
     especialidad: 'CIVIL - LABORAL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE MARINILLA',
     url: '/web/juzgado-001-civil-del-circuito-de-marinilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE MEDELLÍN',
     url: '/web/juzgado-001-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE MELGAR',
     url: '/web/juzgado-001-civil-del-circuito-de-melgar'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE MOCOA',
     url: '/web/juzgado-01-civil-del-circuito-de-mocoa'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE MONIQUIRÁ',
     url: '/web/juzgado-001-civil-del-circuito-de-moniquira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE MONTERÍA',
     url: '/web/juzgado-001-civil-del-circuito-de-monteria'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE NEIVA',
     url: '/web/juzgado-01-civil-del-circuito-de-neiva'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE OCAÑA',
     url: '/web/juzgado-001-civil-del-circuito-de-ocana'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE PALMIRA',
     url: '/web/juzgado-001-civil-del-circuito-de-palmira'
   },
   {
-    agrupacion  : 'CIVIL - LABORAL',
+    agrupacion: 'CIVIL - LABORAL',
     especialidad: 'CIVIL - LABORAL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE PAMPLONA',
     url: '/web/juzgado-001-civil-del-circuito-de-pamplona'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE PASTO',
     url: '/web/juzgado-01-civil-del-circuito-de-pasto'
   },
   {
-    agrupacion  : 'CIVIL - LABORAL',
+    agrupacion: 'CIVIL - LABORAL',
     especialidad: 'CIVIL - LABORAL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE PATÍA-EL BORDO',
     url: '/web/juzgado-001-civil-del-circuito-de-patia-el-bordo'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE PEREIRA',
     url: '/web/juzgado-001-civil-del-circuito-de-pereira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE PITALITO',
     url: '/web/juzgado-001-civil-del-circuito-de-pitalito'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE POPAYÁN',
     url: '/web/juzgado-001-civil-del-circuito-de-popayan'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE PUENTE NACIONAL',
     url: '/web/juzgado-001-civil-del-circuito-de-puente-nacional'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE PUERTO BERRÍO',
     url: '/web/juzgado-001-civil-del-circuito-de-puerto-berrio'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE PUERTO TEJADA',
     url: '/web/juzgado-001-civil-del-circuito-de-puerto-tejada'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE PURIFICACIÓN',
     url: '/web/juzgado-01-civil-circuito-de-purificacion'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE QUIBDÓ',
     url: '/web/juzgado-civil-del-circuito-de-quibdo'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE RAMIRIQUÍ',
     url: '/web/juzgado-01-civil-del-circuito-de-ramiriqui'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE RIOHACHA',
     url: '/web/juzgado-01-civil-del-circuito-de-riohacha'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE RIOSUCIO',
     url: '/web/juzgado-01-civil-del-circuito-riosucio-caldas'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE ROLDANILLO',
     url: '/web/juzgado-001-civil-del-circuito-de-roldanillo'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE SAHAGÚN',
     url: '/web/juzgado-001-civil-del-circuito-de-sahagun'
   },
   {
-    agrupacion  : 'CIVIL - LABORAL',
+    agrupacion: 'CIVIL - LABORAL',
     especialidad: 'CIVIL - LABORAL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE SALAMINA',
     url: '/web/juzgado-001-civil-del-circuito-de-salamina'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE SAN GIL',
     url: '/web/juzgado-001-civil-del-circuito-de-san-gil'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE SANTA MARTA',
     url: '/web/juzgado-001-civil-del-circuito-de-santa-marta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE SANTA ROSA DE CABAL',
     url: '/web/juzgado-001-civil-del-circuito-de-santa-rosa-de-cabal'
   },
   {
-    agrupacion  : 'CIVIL - LABORAL',
+    agrupacion: 'CIVIL - LABORAL',
     especialidad: 'CIVIL - LABORAL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE SANTANDER DE QUILICHAO',
     url: '/web/juzgado-001-civil-del-circuito-de-santander-de-quilichao'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE SEVILLA',
     url: '/web/juzgado-001-civil-del-circuito-de-sevilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE SIMITÍ- BOLÍVAR',
     url: '/web/juzgado-001-civil-del-circuito-de-simiti-bolivar'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE SINCELEJO',
     url: '/web/juzgado-001-civil-del-circuito-de-sincelejo'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE SOACHA',
     url: '/web/juzgado-001-civil-del-circuito-de-soacha'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE SOCORRO',
     url: '/web/juzgado-001-civil-del-circuito-de-socorro'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE SOGAMOSO',
     url: '/web/juzgado-01-civil-del-circuito-de-sogamoso'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE SOLEDAD',
     url: '/web/juzgado-001-civil-del-circuito-de-soledad'
   },
   {
-    agrupacion  : 'CIVIL - LABORAL',
+    agrupacion: 'CIVIL - LABORAL',
     especialidad: 'CIVIL - LABORAL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE SONSÓN',
     url: '/web/juzgado-001-civil-del-circuito-de-sonson'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE TULUÁ',
     url: '/web/juzgado-001-civil-del-circuito-de-tulua'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE TUMACO',
     url: '/web/juzgado-civil-del-circuito-de-tumaco'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE TUNJA',
     url: '/web/juzgado-01-civil-del-circuito-de-tunja'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE TÚQUERRES',
     url: '/web/juzgado-civil-del-circuito-de-tuquerres'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE TURBACO - BOLÍVAR',
     url: '/web/juzgado-001-civil-del-circuito-de-turbaco-bolivar'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE TURBO',
     url: '/web/juzgado-001-civil-del-circuito-de-turbo'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE UBATÉ',
     url: '/web/juzgado-01-civil-del-circuito-de-ubate'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE VALLEDUPAR',
     url: '/web/juzgado-01-civil-del-circuito-de-valledupar'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE VÉLEZ',
     url: '/web/juzgado-001-civil-del-circuito-de-velez'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE VILLAVICENCIO',
     url: '/web/juzgado-01-civil-del-circuito-de-villavicencio'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE VILLETA',
     url: '/web/juzgado-civil-del-circuito-de-villeta'
   },
   {
-    agrupacion  : 'CIVIL - LABORAL',
+    agrupacion: 'CIVIL - LABORAL',
     especialidad: 'CIVIL - LABORAL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE YARUMAL',
     url: '/web/juzgado-001-civil-del-circuito-de-yarumal'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE YOPAL',
     url: '/web/juzgado-001-civil-del-circuito-de-yopal'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO DE ZIPAQUIRÁ',
     url: '/web/juzgado-001-civil-del-circuito-de-zipaquira'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE ANTIOQUIA',
     url: '/web/juzgado-01-civil-del-circuito-especializado-en-restitucion-de-tierras-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE APARTADÓ',
     url: '/web/juzgado-01-civil-del-circuito-especializado-en-restitucion-de-tierras-de-apartado'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE BARRANCABERMEJA',
     url: '/web/juzgado-civil-del-circuito-especializado-en-restitucion-de-tierras-de-barrancabermeja'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE BUCARAMANGA',
     url: '/web/juzgado-civil-del-circuito-especializado-en-restitucion-de-tierras-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE CALI',
     url: '/web/juzgado-01-civil-del-circuito-especializado-en-restitucion-de-tierras-de-cali'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE CARMEN DE BOLÍVAR',
     url: '/web/juzgado-01-civil-del-circuito-especializado-en-restitucion-de-tierras-de-carmen-de-bolivar'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE CÚCUTA',
     url: '/web/juzgado-01-civil-del-circuito-especializado-en-restitucion-de-tierras-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE CUNDINAMARCA',
     url: '/web/juzgado-01-civil-del-circuito-especializado-en-restitucion-de-tierras-de-yopal'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE FLORENCIA',
     url: '/web/juzgado-401-civil-del-circuito-especializado-en-restitucion-de-tierras-de-florencia'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE IBAGUÉ',
     url: '/web/juzgado-01-civil-del-circuito-especializado-en-restitucion-de-tierras-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE MOCOA',
     url: '/web/juzgado-01-civil-del-circuito-especializado-en-restitucion-de-tierras-de-mocoa'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE MONTERÍA',
     url: '/web/juzgado-01-civil-del-circuito-especializado-en-restitucion-de-tierras-de-monteria'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE PASTO',
     url: '/web/juzgado-02-civil-del-circuito-especializado-en-restitucion-de-tierras-de-pasto'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE PEREIRA',
     url: '/web/juzgado-01-civil-del-circuito-especializado-en-restitucion-de-tierras-de-pereira'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE POPAYÁN',
     url: '/web/juzgado-01-civil-del-circuito-especializado-en-restitucion-de-tierras-de-popayan'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE QUIBDÓ',
     url: '/web/juzgado-01-civil-del-circuito-especializado-en-restitucion-de-tierras-de-quibdo'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE SANTA MARTA',
     url: '/web/juzgado-01-civil-del-circuito-especializado-en-restitucion-de-tierras-de-santa-marta'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE SINCELEJO',
     url: '/web/juzgado-01-civil-del-circuito-especializado-en-restitucion-de-tierras-de-sincelejo'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE VALLEDUPAR',
     url: '/web/juzgado-01-civil-del-circuito-especializado-en-restitucion-de-tierras-de-valledupar'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 001 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE VILLAVICENCIO',
     url: '/web/juzgado-01-civil-del-circuito-especializado-en-restitucion-de-tierras-de-villavicencio'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE ARAUCA, ANTES JUZGADO 001 PROMISCUO MUNICIPAL DE ARAUCA - ARAUCA',
     url: '/web/juzgado-001-promiscuo-municipal-de-arauca'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE ARCH. DE SAN ANDRÉS',
     url: '/web/juzgado-001-civil-municipal-de-arch-de-san-andres'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE ARMENIA',
     url: '/web/juzgado-01-civil-municipal-de-armenia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE BARRANCABERMEJA',
     url: '/web/juzgado-001-civil-municipal-de-barrancabermeja'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE BARRANQUILLA',
     url: '/web/juzgado-001-civil-municipal-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE BELLO',
     url: '/web/juzgado-001-civil-municipal-de-bello'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-01-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-001-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE BUENAVENTURA',
     url: '/web/juzgado-001-civil-municipal-de-buenaventura'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 001 CIVIL MUNICIPAL DE BUGA',
-    url         : '/web/juzgado-001-civil-municipal-de-buga'
+    nombre: 'JUZGADO 001 CIVIL MUNICIPAL DE BUGA',
+    url: '/web/juzgado-001-civil-municipal-de-buga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE CALARCÁ',
     url: '/web/juzgado-001-civil-municipal-de-calarca'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 001 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-01-civil-municipal-de-cali'
+    nombre: 'JUZGADO 001 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-01-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-001-civil-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE CARTAGO',
     url: '/web/juzgado-001-civil-municipal-de-cartago'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE CHAPARRAL',
     url: '/web/juzgado-001-civil-municipal-de-chaparral'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 001 CIVIL MUNICIPAL DE CHÍA',
-    url         : '/web/juzgado-001-civil-municipal-de-chia'
+    nombre: 'JUZGADO 001 CIVIL MUNICIPAL DE CHÍA',
+    url: '/web/juzgado-001-civil-municipal-de-chia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE CHIQUINQUIRÁ',
     url: '/web/juzgado-001-civil-municipal-de-chiquinquira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE CHOCONTÁ',
     url: '/web/juzgado-001-civil-municipal-de-choconta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE CÚCUTA',
     url: '/web/juzgado-01-civil-municipal-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE DOSQUEBRADAS',
     url: '/web/juzgado-001-civil-municipal-de-dosquebradas'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BARRANQUILLA',
     url: '/web/juzgado-01-de-ejecucion-civil-municipal-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BUCARAMANGA',
     url: '/web/juzgado-01-de-ejecucion-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE CALI',
     url: '/web/juzgado-01-de-ejecucion-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE CARTAGENA',
     url: '/web/juzgado-01-de-ejecucion-civil-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MANIZALES',
     url: '/web/juzgado-01-de-ejecucion-civil-municipal-de-manizales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN',
     url: '/web/juzgado-01-de-ejecucion-civil-municipal-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE ENVIGADO',
     url: '/web/juzgado-001-civil-municipal-de-envigado'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE ESPINAL',
     url: '/web/juzgado-001-civil-municipal-de-espinal'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE FACATATIVÁ',
     url: '/web/juzgado-civil-municipal-de-facatativa'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE FLORENCIA',
     url: '/web/juzgado-001-civil-municipal-de-florencia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE FLORIDABLANCA',
     url: '/web/juzgado-01-civil-municipal-de-floridablanca'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE FUNZA',
     url: '/web/juzgado-01-civil-municipal-de-funza'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE FUSAGASUGÁ',
     url: '/web/juzgado-01-civil-municipal-de-fusagasuga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE GARZÓN',
     url: '/web/juzgado-01-civil-municipal-de-garzon'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE GIRARDOT',
     url: '/web/juzgado-01-civil-municipal-de-girardot'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE GIRARDOTA',
     url: '/web/juzgado-001-civil-municipal-de-girardota'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE GIRÓN',
     url: '/web/juzgado-001-civil-municipal-de-giron'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE HONDA',
     url: '/web/juzgado-001-civil-municipal-de-honda'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE IBAGUÉ',
     url: '/web/juzgado-001-civil-municipal-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE IPIALES',
     url: '/web/juzgado-01-civil-municipal-de-oralidad-de-ipiales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE ITAGÜÍ',
     url: '/web/juzgado-001-civil-municipal-de-itagui'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE JAMUNDÍ ANTES JUZGADO 001 PROMISCUO MUNICIPAL DE JAMUNDÍ',
     url: '/web/juzgado-01-civil-municipal-jamundi'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE LA MESA',
     url: '/web/juzgado-001-civil-municipal-de-la-mesa'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE LA PLATA',
     url: '/web/juzgado-001-civil-municipal-de-la-plata'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE LETICIA',
     url: '/web/juzgado-01-civil-municipal-de-leticia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE LOS PATIOS',
     url: '/web/juzgado-1-civil-municipal-los-patios'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE MADRID',
     url: '/web/juzgado-civil-municipal-de-madrid'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE MANIZALES',
     url: '/web/juzgado-01-civil-municipal-de-manizales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE MEDELLÍN',
     url: '/web/juzgado-01-civil-municipal-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE MOCOA',
     url: '/web/juzgado-01-civil-municipal-de-mocoa'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE MONTERÍA',
     url: '/web/juzgado-001-civil-municipal-de-monteria'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE MOSQUERA',
     url: '/web/juzgado-01-civil-municipal-de-mosquera'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE NEIVA',
     url: '/web/juzgado-01-civil-municipal-de-neiva'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE OCAÑA',
     url: '/web/juzgado-001-civil-municipal-de-ocana'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE PALMIRA',
     url: '/web/juzgado-001-civil-municipal-de-palmira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE PAMPLONA',
     url: '/web/juzgado-001-civil-municipal-de-pamplona'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE PASTO',
     url: '/web/juzgado-01-civil-municipal-de-oralidad-de-pasto'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE PEREIRA',
     url: '/web/juzgado-001-civil-municipal-de-pereira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE PIEDECUESTA',
     url: '/web/juzgado-001-civil-municipal-de-piedecuesta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE PITALITO',
     url: '/web/juzgado-001-civil-municipal-de-pitalito'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE POPAYÁN',
     url: '/web/juzgado-01-civil-municipal-de-popayan'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE PUERTO ASÍS - PUTUMAYO',
     url: '/web/juzgado-01-civil-municipal-de-puerto-asis'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE PUERTO TEJADA',
     url: '/web/juzgado-001-civil-municipal-de-puerto-tejada'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE QUIBDÓ',
     url: '/web/juzgado-01-civil-municipal-de-quibdo'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE RIOHACHA',
     url: '/web/juzgado-001-civil-municipal-de-riohacha'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE ROLDANILLO',
     url: '/web/juzgado-001-civil-municipal-de-roldanillo'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE SANTA MARTA',
     url: '/web/juzgado-001-civil-municipal-de-santa-marta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE SANTA ROSA DE CABAL',
     url: '/web/juzgado-001-civil-municipal-de-santa-rosa-de-cabal'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE SANTANDER DE QUILICHAO',
     url: '/web/juzgado-001-civil-municipal-de-santander-de-quilichao'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE SEVILLA',
     url: '/web/juzgado-001-civil-municipal-de-sevilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE SINCELEJO',
     url: '/web/juzgado-001-civil-municipal-de-sincelejo'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE SOACHA',
     url: '/web/juzgado-01-civil-municipal-de-soacha'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE SOGAMOSO',
     url: '/web/juzgado-01-civil-municipal-de-oralidad-de-sogamoso'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE SOLEDAD',
     url: '/web/juzgado-001-civil-municipal-de-soledad'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE TULUÁ',
     url: '/web/juzgado-001-civil-municipal-de-tulua'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE TUMACO',
     url: '/web/juzgado-001-civil-municipal-de-tumaco'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE TUNJA',
     url: '/web/juzgado-001-civil-municipal-de-tunja'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE TÚQUERRES',
     url: '/web/juzgado-01-civil-municipal-de-oralidad-de-tuquerres'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE UBATÉ',
     url: '/web/juzgado-01-civil-municipal-de-ubate'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE VALLEDUPAR',
     url: '/web/juzgado-01-civil-municipal-de-valledupar'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE VILLAVICENCIO',
     url: '/web/juzgado-1-civil-municipal-de-villavicencio'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE YOPAL',
     url: '/web/juzgado-001-civil-municipal-de-yopal'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE YUMBO',
     url: '/web/juzgado-001-civil-municipal-de-yumbo'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 CIVIL MUNICIPAL DE ZIPAQUIRÁ',
     url: '/web/juzgado-001-civil-municipal-de-zipaquira'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 DE EJECUCIÓN CIVIL MUNICIPAL DE MONTERÍA',
@@ -5201,235 +5175,235 @@ exports.Despachos = [
     url: '/web/juzgado-001-de-ejecucion-de-penas-y-medidas-de-seguridad-del-circuito-de-calarca-'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 001 DE EJECUCIÓN EN ASUNTOS DE FAMILIA DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-01-ejecucion-de-familia-circuito'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE ARMENIA',
-    url         : '/web/juzgado-01-familia-del-circuito-de-armenia'
+    nombre: 'JUZGADO 001 DE FAMILIA DE ARMENIA',
+    url: '/web/juzgado-01-familia-del-circuito-de-armenia'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 001 DE FAMILIA DE BARRANQUILLA',
     url: '/web/juzgado-001-de-familia-de-barranquilla'
   },
   {
-    agrupacion  : 'FAMILIA ORALIDAD',
+    agrupacion: 'FAMILIA ORALIDAD',
     especialidad: 'FAMILIA ORALIDAD',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE BELLO',
-    url         : '/web/juzgado-001-de-familia-de-bello'
+    nombre: 'JUZGADO 001 DE FAMILIA DE BELLO',
+    url: '/web/juzgado-001-de-familia-de-bello'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-001-de-familia-de-bogota'
+    nombre: 'JUZGADO 001 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-001-de-familia-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 001 DE FAMILIA DE BUCARAMANGA',
     url: '/web/juzgado-001-de-familia-de-bucaramanga'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE CALARCÁ',
-    url         : '/web/juzgado-001-de-familia-de-calarca'
+    nombre: 'JUZGADO 001 DE FAMILIA DE CALARCÁ',
+    url: '/web/juzgado-001-de-familia-de-calarca'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE CALI',
-    url         : '/web/juzgado-001-de-familia-de-cali'
+    nombre: 'JUZGADO 001 DE FAMILIA DE CALI',
+    url: '/web/juzgado-001-de-familia-de-cali'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE CARTAGENA',
-    url         : '/web/juzgado-001-de-familia-de-cartagena'
+    nombre: 'JUZGADO 001 DE FAMILIA DE CARTAGENA',
+    url: '/web/juzgado-001-de-familia-de-cartagena'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 001 DE FAMILIA DE CHIQUINQUIRÁ',
     url: '/web/juzgado-001-de-familia-de-chiquinquira'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE CÚCUTA',
-    url         : '/web/juzgado-01-familia-del-circuito-de-cucuta'
+    nombre: 'JUZGADO 001 DE FAMILIA DE CÚCUTA',
+    url: '/web/juzgado-01-familia-del-circuito-de-cucuta'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 001 DE FAMILIA DE DOSQUEBRADAS',
     url: '/web/juzgado-001-de-familia-de-dosquebradas'
   },
   {
-    agrupacion  : 'FAMILIA ORALIDAD',
+    agrupacion: 'FAMILIA ORALIDAD',
     especialidad: 'FAMILIA ORALIDAD',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE ENVIGADO',
-    url         : '/web/juzgado-001-de-familia-de-envigado'
+    nombre: 'JUZGADO 001 DE FAMILIA DE ENVIGADO',
+    url: '/web/juzgado-001-de-familia-de-envigado'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE FLORENCIA',
-    url         : '/web/juzgado-001-de-familia-de-florencia'
+    nombre: 'JUZGADO 001 DE FAMILIA DE FLORENCIA',
+    url: '/web/juzgado-001-de-familia-de-florencia'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE FUNZA',
-    url         : '/web/juzgado-01-familia-del-circuito-de-funza'
+    nombre: 'JUZGADO 001 DE FAMILIA DE FUNZA',
+    url: '/web/juzgado-01-familia-del-circuito-de-funza'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE GIRARDOTA',
-    url         : '/web/juzgado-001-de-familia-de-girardota'
+    nombre: 'JUZGADO 001 DE FAMILIA DE GIRARDOTA',
+    url: '/web/juzgado-001-de-familia-de-girardota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE IBAGUÉ',
-    url         : '/web/juzgado-001-de-familia-de-ibague'
+    nombre: 'JUZGADO 001 DE FAMILIA DE IBAGUÉ',
+    url: '/web/juzgado-001-de-familia-de-ibague'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE ITAGÜÍ',
-    url         : '/web/juzgado-001-de-familia-de-itagui'
+    nombre: 'JUZGADO 001 DE FAMILIA DE ITAGÜÍ',
+    url: '/web/juzgado-001-de-familia-de-itagui'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE MANIZALES',
-    url         : '/web/juzgado-001-de-familia-de-manizales'
+    nombre: 'JUZGADO 001 DE FAMILIA DE MANIZALES',
+    url: '/web/juzgado-001-de-familia-de-manizales'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE MEDELLÍN',
-    url         : '/web/juzgado-001-de-familia-de-medellin'
+    nombre: 'JUZGADO 001 DE FAMILIA DE MEDELLÍN',
+    url: '/web/juzgado-001-de-familia-de-medellin'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE MOCOA',
-    url         : '/web/juzgado-01-familia-del-circuito-de-mocoa'
+    nombre: 'JUZGADO 001 DE FAMILIA DE MOCOA',
+    url: '/web/juzgado-01-familia-del-circuito-de-mocoa'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE MONTERÍA',
-    url         : '/web/juzgado-001-de-familia-de-monteria'
+    nombre: 'JUZGADO 001 DE FAMILIA DE MONTERÍA',
+    url: '/web/juzgado-001-de-familia-de-monteria'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE NEIVA',
-    url         : '/web/juzgado-01-familia-del-circuito-de-neiva'
+    nombre: 'JUZGADO 001 DE FAMILIA DE NEIVA',
+    url: '/web/juzgado-01-familia-del-circuito-de-neiva'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE PASTO',
-    url         : '/web/juzgado-01-familia-del-circuito-de-pasto'
+    nombre: 'JUZGADO 001 DE FAMILIA DE PASTO',
+    url: '/web/juzgado-01-familia-del-circuito-de-pasto'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE PEREIRA',
-    url         : '/web/juzgado-001-de-familia-de-pereira'
+    nombre: 'JUZGADO 001 DE FAMILIA DE PEREIRA',
+    url: '/web/juzgado-001-de-familia-de-pereira'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE POPAYÁN',
-    url         : '/web/juzgado-001-de-familia-de-popayan'
+    nombre: 'JUZGADO 001 DE FAMILIA DE POPAYÁN',
+    url: '/web/juzgado-001-de-familia-de-popayan'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE QUIBDÓ',
-    url         : '/web/juzgado-001-de-familia-de-quibdo'
+    nombre: 'JUZGADO 001 DE FAMILIA DE QUIBDÓ',
+    url: '/web/juzgado-001-de-familia-de-quibdo'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 001 DE FAMILIA DE SANTA MARTA',
     url: '/web/juzgado-001-de-familia-de-santa-marta'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE SOACHA',
-    url         : '/web/juzgado-01-familia-del-circuito-de-soacha'
+    nombre: 'JUZGADO 001 DE FAMILIA DE SOACHA',
+    url: '/web/juzgado-01-familia-del-circuito-de-soacha'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 001 DE FAMILIA DE TUNJA',
-    url         : '/web/juzgado-001-de-familia-de-tunja'
+    nombre: 'JUZGADO 001 DE FAMILIA DE TUNJA',
+    url: '/web/juzgado-001-de-familia-de-tunja'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 001 DE FAMILIA DE VALLEDUPAR',
     url: '/web/juzgado-01-familia-del-circuito-de-valledupar'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 001 DE FAMILIA DE VILLAVICENCIO',
     url: '/web/juzgado-01-familia-del-circuito-de-villavicencio'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 001 DE FAMILIA DEL CIRCUITO DE FUSAGASUGÁ',
     url: '/web/juzgado-01-familia-del-circuito-de-fusagasuga'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 001 DE FAMILIA DEL CIRCUITO DE SINCELEJO',
     url: '/web/juzgado-001-de-familia-del-circuito-de-sincelejo'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 001 DE FAMILIA DEL CIRCUITO DE YOPAL',
     url: '/web/juzgado-001-de-familia-del-circuito-de-yopal'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 001 DE FAMILIA DEL CIRCUITO DE ZIPAQUIRÁ',
     url: '/web/juzgado-01-familia-del-circuito-de-zipaquira'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 001 DE FAMILIA ORAL DEL CIRCUITO DE RIOHACHA',
@@ -5452,7 +5426,7 @@ exports.Despachos = [
     url: '/web/juzgado-001-de-pequenas-causas-y-competencia-multiple-de-bello'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 DE PEQUEÑAS CAUSAS Y COMPETENCIA MÚLTIPLE DE BOGOTÁ',
@@ -5483,7 +5457,7 @@ exports.Despachos = [
     url: '/web/juzgado-001-de-pequenas-causas-y-competencia-multiple-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 001 DE PEQUEÑAS CAUSAS Y COMPETENCIA MÚLTIPLE DE CARTAGENA',
@@ -5658,822 +5632,822 @@ exports.Despachos = [
     url: '/web/juzgado-001-de-pequenas-causas-y-competencia-multiple-de-villavicencio'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
-    nombre      : 'JUZGADO 001 LABORAL  DE FUNZA ',
-    url         : '/web/juzgado-001-laboral-de-funza-'
+    nombre: 'JUZGADO 001 LABORAL  DE FUNZA ',
+    url: '/web/juzgado-001-laboral-de-funza-'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
-    nombre      : 'JUZGADO 001 LABORAL DE LORICA',
-    url         : '/web/juzgado-001-laboral-de-lorica'
+    nombre: 'JUZGADO 001 LABORAL DE LORICA',
+    url: '/web/juzgado-001-laboral-de-lorica'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
-    nombre      : 'JUZGADO 001 LABORAL DE SAHAGÚN',
-    url         : '/web/juzgado-001-laboral-de-sahagun'
+    nombre: 'JUZGADO 001 LABORAL DE SAHAGÚN',
+    url: '/web/juzgado-001-laboral-de-sahagun'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
-    nombre      : 'JUZGADO 001 LABORAL DE UBATÉ',
-    url         : '/web/juzgado-001-laboral-de-ubate'
+    nombre: 'JUZGADO 001 LABORAL DE UBATÉ',
+    url: '/web/juzgado-001-laboral-de-ubate'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE ACACÍAS',
     url: '/web/juzgado-001-laboral-del-circuito-de-acacias'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE AGUACHICA - CESAR',
     url: '/web/juzgado-001-laboral-de-aguachica'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE ARAUCA - ARAUCA',
     url: '/web/juzgado-001-laboral-de-arauca'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE ARCH. DE SAN ANDRÉS - SAN ANDRÉS',
     url: '/web/juzgado-001-laboral-de-arch-de-san-andres'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE ARMENIA - QUINDÍO',
     url: '/web/juzgado-001-laboral-de-armenia'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE BARRANCABERMEJA - SANTANDER',
     url: '/web/juzgado-01-laboral-del-circuito-de-barrancabermeja'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE BARRANQUILLA - ATLÁNTICO',
     url: '/web/juzgado-001-laboral-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE BELLO - ANTIOQUIA',
     url: '/web/juzgado-001-laboral-del-circuito-de-bello'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-001-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE BUCARAMANGA - SANTANDER',
     url: '/web/juzgado-001-laboral-de-bucaramanga'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE BUENAVENTURA - VALLE DEL CAUCA',
     url: '/web/juzgado-001-laboral-de-buenaventura'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE BUGA - VALLE DEL CAUCA',
     url: '/web/juzgado-001-laboral-de-buga'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE CALI - VALLE DEL CAUCA',
     url: '/web/juzgado-01-laboral-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE CARTAGENA - BOLÍVAR',
     url: '/web/juzgado-01-laboral-del-circuito-de-cartagena'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE CARTAGO - VALLE DEL CAUCA',
     url: '/web/juzgado-001-laboral-de-cartago'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE CHIRIGUANÁ - CESAR',
     url: '/web/juzgado-laboral-del-circuito-de-chiriguana'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE CIÉNAGA - MAGDALENA',
     url: '/web/juzgado-001-laboral-de-cienaga'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE COROZAL - SUCRE',
     url: '/web/juzgado-001-laboral-del-circuito-de-corozal-sucre'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE CÚCUTA - NORTE DE SANTANDER',
     url: '/web/juzgado-001-laboral-del-circuito-de-cucuta-norte-de-santander'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE DOSQUEBRADAS - RISARALDA',
     url: '/web/juzgado-001-laboral-de-dosquebradas'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE ENVIGADO - ANTIOQUIA',
     url: '/web/juzgado-001-laboral-del-circuito-de-envigado'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE ESPINAL - TOLIMA',
     url: '/web/juzgado-001-laboral-de-espinal'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE FLORENCIA - CAQUETÁ',
     url: '/web/juzgado-001-laboral-de-florencia'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE FUNDACIÓN - MAGDALENA',
     url: '/web/juzgado-001-laboral-de-fundacion'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE FUSAGASUGÁ',
     url: '/web/juzgado-001-laboral-del-circuito-de-fusagasuga'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE GARZÓN - HUILA',
     url: '/web/juzgado-001-laboral-de-garzon'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE GIRARDOT - CUNDINAMARCA',
     url: '/web/juzgado-01-laboral-del-circuito-de-girardot'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE HONDA - TOLIMA',
     url: '/web/juzgado-01-laboral-del-circuito-de-honda'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE IBAGUÉ - TOLIMA',
     url: '/web/juzgado-001-laboral-de-ibague'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE IPIALES - NARIÑO',
     url: '/web/juzgado-01-laboral-del-circuito-de-ipiales'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE ITAGÜÍ - ANTIOQUIA',
     url: '/web/juzgado-001-laboral-del-circuito-de-itagui'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE LA DORADA - CALDAS',
     url: '/web/juzgado-001-laboral-del-circuito-de-la-dorada-caldas'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE MAICAO',
     url: '/web/juzgado-001-laboral-del-circuito-de-maicao'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE MANIZALES - CALDAS',
     url: '/web/juzgado-01-laboral-del-circuito-de-manizales'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
     url: '/web/juzgado-001-laboral-de-medellin'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE MOCOA - PUTUMAYO',
     url: '/web/juzgado-01-laboral-del-circuito-de-mocoa'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE MONTERÍA - CÓRDOBA',
     url: '/web/juzgado-001-laboral-de-monteria'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE NEIVA - HUILA',
     url: '/web/juzgado-001-laboral-de-neiva'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE OCAÑA - NORTE DE SANTANDER',
     url: '/web/juzgado-001-laboral-de-ocana'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE PALMIRA - VALLE DEL CAUCA',
     url: '/web/juzgado-001-laboral-de-palmira'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE PASTO - NARIÑO',
     url: '/web/juzgado-001-laboral-de-pasto'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE PEREIRA - RISARALDA',
     url: '/web/juzgado-001-laboral-de-pereira'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE POPAYÁN - CAUCA',
     url: '/web/juzgado-001-laboral-de-popayan'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE PUERTO BERRÍO - ANTIOQUIA',
     url: '/web/juzgado-001-laboral-del-circuito-de-puerto-berrio'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE PUERTO TEJADA - CAUCA',
     url: '/web/juzgado-001-laboral-de-puerto-tejada'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE QUIBDÓ - CHOCÓ',
     url: '/web/juzgado-01-laboral-del-circuito-de-quibdo'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE RIOHACHA - LA GUAJIRA',
     url: '/web/juzgado-001-laboral-de-riohacha'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE ROLDANILLO - VALLE DEL CAUCA',
     url: '/web/juzgado-01-laboral-del-circuito-de-roldanillo'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE SABANALARGA - ATLÁNTICO',
     url: '/web/juzgado-001-laboral-de-sabanalarga'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE SAN GIL - SANTANDER',
     url: '/web/juzgado-01-laboral-del-circuito-de-san-gil'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE SAN JUAN DEL CESAR - LA GUAJIRA',
     url: '/web/juzgado-001-laboral-de-san-juan-del-cesar'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE SANTA MARTA - MAGDALENA',
     url: '/web/juzgado-001-laboral-de-santa-marta'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE SINCELEJO - SUCRE',
     url: '/web/juzgado-001-laboral-de-sincelejo'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE SOGAMOSO - BOYACÁ',
     url: '/web/juzgado-001-laboral-de-sogamoso'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE SOLEDAD',
     url: '/web/juzgado-001-laboral-del-circuito-de-soledad'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE TULUÁ - VALLE DEL CAUCA',
     url: '/web/juzgado-01-laboral-del-circuito-de-tulua'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE TUMACO - NARIÑO',
     url: '/web/juzgado-001-laboral-de-tumaco'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE TUNJA - BOYACÁ',
     url: '/web/juzgado-01-laboral-del-circuito-de-tunja'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE TURBACO - BOLÍVAR',
     url: '/web/juzgado-001-laboral-del-circuito-de-turbaco-bolivar'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE VALLEDUPAR - CESAR',
     url: '/web/juzgado-001-laboral-de-valledupar'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE VILLAVICENCIO - META',
     url: '/web/juzgado-001-laboral-de-villavicencio'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE YOPAL - CASANARE',
     url: '/web/juzgado-01-laboral-del-circuito-de-yopal'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO DE ZIPAQUIRÁ - CUNDINAMARCA',
     url: '/web/juzgado-01-laboral-de-zipaquira'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 LABORAL DEL CIRCUITO TRANSITORIO DE BOGOTÁ',
     url: '/web/juzgado-001-laboral-del-circuito-transitorio-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE ARAUCA',
     url: '/web/juzgado-001-municipal-de-pequenas-causas-laborales-de-arauca'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE ARMENIA',
     url: '/web/juzgado-001-municipal-de-pequenas-causas-laborales-de-armenia'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE BARRANQUILLA',
     url: '/web/juzgado-01-municipal-pequenas-causas-laborales-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE BOGOTÁ',
     url: '/web/juzgado-01-de-pequenas-causas-laborales-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE BUCARAMANGA',
     url: '/web/juzgado-001-municipal-de-pequenas-causas-laborales-de-bucaramanga'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE BUGA',
     url: '/web/juzgado-01-municipal-pequenas-causas-laborales-de-guadalajara-de-buga'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE CALI',
     url: '/web/juzgado-01-municipal-de-pequenas-causas-laborales-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE CARTAGENA',
     url: '/web/juzgado-01-municipal-de-pequenas-causas-laborales-de-cartagena'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE CÚCUTA',
     url: '/web/juzgado-001-municipal-de-pequenas-causas-laborales-de-cucuta'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE DUITAMA',
     url: '/web/juzgado-municipal-de-pequenas-causas-laborales-de-duitama'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE FLORENCIA',
     url: '/web/juzgado-001-municipal-de-pequenas-causas-laborales-de-florencia'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE IBAGUÉ',
     url: '/web/juzgado-01-de-pequenas-causas-laborales-de-ibague'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE MANIZALES',
     url: '/web/juzgado-01-de-pequenas-causas-laborales-de-manizales'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE MEDELLÍN',
     url: '/web/juzgado-001-municipal-de-pequenas-causas-laborales-de-medellin'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE MOCOA',
     url: '/web/juzgado-municipal-de-pequenas-causas-laborales-de-mocoa'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE MONTERÍA',
     url: '/web/juzgado-001-municipal-de-pequenas-causas-laborales-de-monteria'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE NEIVA',
     url: '/web/juzgado-01-de-pequenas-causas-laborales-de-neiva'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE PASTO',
     url: '/web/juzgado-01-municipal-de-pequenas-causas-laborales-de-pasto'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE PEREIRA',
     url: '/web/juzgado-001-municipal-de-pequenas-causas-laborales-de-pereira'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE POPAYÁN',
     url: '/web/juzgado-001-municipal-de-pequenas-causas-laborales-de-popayan'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE QUIBDÓ',
     url: '/web/juzgado-municipal-de-pequenas-causas-laborales-de-quibdo'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE RIOHACHA',
     url: '/web/juzgado-001-municipal-de-pequenas-causas-laborales-de-riohacha'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE SANTA MARTA',
     url: '/web/juzgado-01-de-pequenas-causas-laborales-de-santa-marta'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE SINCELEJO',
     url: '/web/juzgado-001-municipal-de-pequenas-causas-laborales-de-sincelejo'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE TUNJA',
     url: '/web/juzgado-001-municipal-de-pequenas-causas-laborales-de-tunja'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE VALLEDUPAR',
     url: '/web/juzgado-001-municipal-de-pequenas-causas-laborales-de-valledupar'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE VILLAVICENCIO',
     url: '/web/juzgado-01-municipal-de-pequenas-causas-laborales-de-villavicencio'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 001 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE YOPAL',
     url: '/web/juzgado-municipal-de-pequenas-causas-laborales-de-yopal'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 001 PENAL DE CIRCUITO ESPECIALIZADO DE ANTIOQUIA',
     url: '/web/juzgado-001-penal-de-circuito-especializado-de-antioquia'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 001 PENAL DE CIRCUITO ESPECIALIZADO DE ARAUCA',
     url: '/web/juzgado-001-penal-de-circuito-especializado-de-arauca'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 001 PENAL DE CIRCUITO ESPECIALIZADO DE ARMENIA',
     url: '/web/juzgado-001-penal-de-circuito-especializado-de-armenia'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 001 PENAL DE CIRCUITO ESPECIALIZADO DE CUNDINAMARCA',
     url: '/web/juzgado-001-penal-de-circuito-especializado-de-cundinamarca'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 001 PENAL DE CIRCUITO ESPECIALIZADO DE FLORENCIA',
     url: '/web/juzgado-001-penal-de-circuito-especializado-de-florencia'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 001 PENAL DE CIRCUITO ESPECIALIZADO DE IBAGUÉ',
     url: '/web/juzgado-001-penal-de-circuito-especializado-de-ibague'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 001 PENAL DE CIRCUITO ESPECIALIZADO DE MANIZALES',
     url: '/web/juzgado-001-penal-de-circuito-especializado-de-manizales'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 001 PENAL DE CIRCUITO ESPECIALIZADO DE MEDELLÍN',
     url: '/web/juzgado-001-penal-de-circuito-especializado-de-medellin'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 001 PENAL DE CIRCUITO ESPECIALIZADO DE MONTERÍA',
     url: '/web/juzgado-001-penal-de-circuito-especializado-de-monteria'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 001 PENAL DE CIRCUITO ESPECIALIZADO DE NEIVA',
     url: '/web/juzgado-001-penal-de-circuito-especializado-de-neiva'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 001 PENAL DE CIRCUITO ESPECIALIZADO DE PEREIRA',
     url: '/web/juzgado-001-penal-de-circuito-especializado-de-pereira'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 001 PENAL DE CIRCUITO ESPECIALIZADO DE POPAYÁN',
     url: '/web/juzgado-001-penal-de-circuito-especializado-de-popayan'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 001 PENAL DE CIRCUITO ESPECIALIZADO DE PUERTO ASÍS',
     url: '/web/juzgado-001-penal-de-circuito-especializado-de-puerto-asis'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 001 PENAL DE CIRCUITO ESPECIALIZADO DE QUIBDÓ',
     url: '/web/juzgado-001-penal-de-circuito-especializado-de-quibdo'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 001 PENAL DE CIRCUITO ESPECIALIZADO DE RIOHACHA',
     url: '/web/juzgado-001-penal-de-circuito-especializado-de-riohacha'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 001 PENAL DE CIRCUITO ESPECIALIZADO DE SANTA MARTA',
     url: '/web/juzgado-001-penal-de-circuito-especializado-de-santa-marta'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 001 PENAL DE CIRCUITO ESPECIALIZADO DE SANTA ROSA DE VITERBO',
     url: '/web/juzgado-001-penal-de-circuito-especializado-de-santa-rosa-de-viterbo'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 001 PENAL DE CIRCUITO ESPECIALIZADO DE SINCELEJO',
     url: '/web/juzgado-001-penal-de-circuito-especializado-de-sincelejo'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 001 PENAL DE CIRCUITO ESPECIALIZADO DE TUMACO',
     url: '/web/juzgado-001-penal-de-circuito-especializado-de-tumaco'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 001 PENAL DE CIRCUITO ESPECIALIZADO DE TUNJA',
     url: '/web/juzgado-001-penal-de-circuito-especializado-de-tunja'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 001 PENAL DE CIRCUITO ESPECIALIZADO DE VILLAVICENCIO',
     url: '/web/juzgado-001-penal-de-circuito-especializado-de-villavicencio'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 001 PENAL DE CIRCUITO ESPECIALIZADO DE YOPAL',
@@ -6730,525 +6704,525 @@ exports.Despachos = [
     url: '/web/juzgado-001-penal-del-circuito-con-funcion-de-conocimiento-de-valledupar'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE ACACÍAS',
     url: '/web/juzgado-001-penal-del-circuito-de-acacias'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE AGUACHICA',
     url: '/web/juzgado-001-penal-del-circuito-de-aguachica'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE AGUADAS',
     url: '/web/juzgado-001-penal-del-circuito-de-aguadas'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE ANDES',
     url: '/web/juzgado-001-penal-del-circuito-de-andes'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE ANSERMA',
     url: '/web/juzgado-001-penal-del-circuito-de-anserma'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE ARAUCA',
     url: '/web/juzgado-001-penal-del-circuito-de-arauca'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE BOLÍVAR',
     url: '/web/juzgado-001-penal-del-circuito-de-bolivar'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE BUENAVENTURA',
     url: '/web/juzgado-001-penal-del-circuito-de-buenaventura'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE BUGA',
     url: '/web/juzgado-001-penal-del-circuito-de-buga'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE CALARCÁ',
     url: '/web/juzgado-001-penal-del-circuito-de-calarca'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE CALDAS',
     url: '/web/juzgado-001-penal-del-circuito-de-caldas'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE CÁQUEZA',
     url: '/web/juzgado-001-penal-del-circuito-de-caqueza'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE CARTAGENA',
     url: '/web/juzgado-001-penal-del-circuito-de-cartagena'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE CERETÉ',
     url: '/web/juzgado-001-penal-del-circuito-de-cerete'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE CHAPARRAL',
     url: '/web/juzgado-001-penal-del-circuito-de-chaparral'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE CHINCHINÁ',
     url: '/web/juzgado-001-penal-del-circuito-de-chinchina'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE CHIQUINQUIRÁ',
     url: '/web/juzgado-001-penal-del-circuito-de-chiquinquira'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE CHIRIGUANÁ',
     url: '/web/juzgado-001-penal-del-circuito-de-chiriguana'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE CHOCONTÁ',
     url: '/web/juzgado-01-penal-del-circuito-de-choconta'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE CIÉNAGA',
     url: '/web/juzgado-001-penal-del-circuito-de-cienaga'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE DOSQUEBRADAS',
     url: '/web/juzgado-001-penal-del-circuito-de-dosquebradas'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE EL SANTUARIO',
     url: '/web/juzgado-001-penal-del-circuito-de-el-santuario'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE ESPINAL',
     url: '/web/juzgado-001-penal-del-circuito-de-espinal'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE FACATATIVÁ',
     url: '/web/juzgado-001-penal-del-circuito-de-facatativa'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE FLORENCIA',
     url: '/web/juzgado-001-penal-del-circuito-de-florencia'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE FRESNO',
     url: '/web/juzgado-001-penal-del-circuito-de-fresno'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE FUNZA',
     url: '/web/juzgado-001-penal-del-circuito-de-funza'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE GACHETÁ',
     url: '/web/juzgado-001-penal-del-circuito-de-gacheta'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE GARAGOA',
     url: '/web/juzgado-001-penal-del-circuito-de-garagoa'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE GRANADA',
     url: '/web/juzgado-001-penal-del-circuito-de-granada'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE GUAMO',
     url: '/web/juzgado-001-penal-del-circuito-de-guamo'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE GUATEQUE',
     url: '/web/juzgado-001-penal-del-circuito-de-guateque'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE HONDA',
     url: '/web/juzgado-001-penal-del-circuito-de-honda'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE ISTMINA',
     url: '/web/juzgado-001-penal-del-circuito-de-istmina'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE ITAGÜÍ',
     url: '/web/juzgado-001-penal-del-circuito-de-itagui'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE LA DORADA',
     url: '/web/juzgado-001-penal-del-circuito-de-la-dorada'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE LA MESA',
     url: '/web/juzgado-001-penal-del-circuito-de-la-mesa'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE LA UNIÓN',
     url: '/web/juzgado-001-penal-del-circuito-de-la-union'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE LÉRIDA',
     url: '/web/juzgado-001-penal-del-circuito-de-lerida'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE LÍBANO',
     url: '/web/juzgado-001-penal-del-circuito-de-libano'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE LORICA',
     url: '/web/juzgado-001-penal-del-circuito-de-lorica'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE MAGANGUÉ',
     url: '/web/juzgado-001-penal-del-circuito-de-magangue'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE MAICAO',
     url: '/web/juzgado-001-penal-del-circuito-de-maicao'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE MANIZALES',
     url: '/web/juzgado-01-penal-del-circuito-de-manizales'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE MELGAR',
     url: '/web/juzgado-001-penal-del-circuito-de-melgar'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE MONIQUIRÁ',
     url: '/web/juzgado-001-penal-del-circuito-de-moniquira'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE MONTERÍA',
     url: '/web/juzgado-001-penal-del-circuito-de-monteria'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE OCAÑA',
     url: '/web/juzgado-001-penal-del-circuito-de-ocana'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE PAMPLONA',
     url: '/web/juzgado-001-penal-del-circuito-de-pamplona'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE PATÍA-EL BORDO',
     url: '/web/juzgado-001-penal-del-circuito-de-patia-el-bordo'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE PUENTE NACIONAL',
     url: '/web/juzgado-001-penal-del-circuito-de-puente-nacional'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE PUERTO BERRÍO',
     url: '/web/juzgado-001-penal-del-circuito-de-puerto-berrio'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE PUERTO BOYACÁ',
     url: '/web/juzgado-001-penal-del-circuito-con-funcion-de-conocimiento-puerto-boyaca'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE PUERTO TEJADA',
     url: '/web/juzgado-001-penal-del-circuito-de-puerto-tejada'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE QUIBDÓ',
     url: '/web/juzgado-001-penal-del-circuito-de-quibdo'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE RIOHACHA',
     url: '/web/juzgado-001-penal-del-circuito-de-riohacha'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE RIOSUCIO',
     url: '/web/juzgado-001-penal-del-circuito-de-riosucio'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE SALAMINA',
     url: '/web/juzgado-001-penal-del-circuito-de-salamina'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE SAN GIL',
     url: '/web/juzgado-001-penal-del-circuito-de-san-gil'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE SANTA MARTA',
     url: '/web/juzgado-001-penal-del-circuito-de-santa-marta'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE SANTA ROSA DE CABAL',
     url: '/web/juzgado-001-penal-del-circuito-de-santa-rosa-de-cabal'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE SANTANDER DE QUILICHAO',
     url: '/web/juzgado-001-penal-del-circuito-de-santander-de-quilichao'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE SARAVENA',
     url: '/web/juzgado-001-penal-del-circuito-de-saravena'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE SIMITÍ ',
     url: '/web/juzgado-001-penal-del-circuito-de-simiti-'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE SINCELEJO',
     url: '/web/juzgado-001-penal-del-circuito-de-sincelejo'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE SOACHA',
     url: '/web/juzgado-001-penal-del-circuito-de-soacha'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE SOCORRO',
     url: '/web/juzgado-001-penal-del-circuito-de-socorro'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE SOGAMOSO',
     url: '/web/juzgado-001-penal-del-circuito-de-sogamoso'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE TUNJA',
     url: '/web/juzgado-001-penal-del-circuito-de-tunja'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE TÚQUERRES',
     url: '/web/juzgado-001-penal-del-circuito-de-tuquerres'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE VÉLEZ',
     url: '/web/juzgado-001-penal-del-circuito-de-velez'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE VILLAVICENCIO',
     url: '/web/juzgado-001-penal-del-circuito-de-villavicencio'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE VILLETA',
     url: '/web/juzgado-01-penal-circuito-cundinamarca-villeta'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE YOPAL',
     url: '/web/juzgado-001-penal-del-circuito-de-yopal'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL DEL CIRCUITO DE ZIPAQUIRÁ',
@@ -7327,7 +7301,7 @@ exports.Despachos = [
     url: '/web/juzgado-001-penal-del-circuito-especializado-en-extincion-de-dominio-de-villavicencio'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL AMBULANTE DE PASTO',
@@ -7469,7 +7443,7 @@ exports.Despachos = [
     url: '/web/juzgado-001-penal-municipal-con-funcion-de-control-de-garantias-de-armenia'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL CON FUNCIÓN DE CONTROL DE GARANTÍAS DE BARRANQUILLA',
@@ -7583,174 +7557,174 @@ exports.Despachos = [
     url: '/web/juzgado-001-penal-municipal-control-de-garantias-de-tunja'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE BUENAVENTURA',
     url: '/web/juzgado-001-penal-municipal-de-buenaventura'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
-    nombre      : 'JUZGADO 001 PENAL MUNICIPAL DE BUGA',
-    url         : '/web/juzgado-001-penal-municipal-de-buga'
+    nombre: 'JUZGADO 001 PENAL MUNICIPAL DE BUGA',
+    url: '/web/juzgado-001-penal-municipal-de-buga'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE CALARCÁ',
     url: '/web/juzgado-001-penal-municipal-de-calarca'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE CHOCONTÁ',
     url: '/web/juzgado-001-penal-municipal-de-choconta'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE DOSQUEBRADAS',
     url: '/web/juzgado-001-penal-municipal-de-dosquebradas'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE FACATATIVÁ',
     url: '/web/juzgado-001-penal-municipal-de-facatativa'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE FLORENCIA',
     url: '/web/juzgado-001-penal-municipal-de-florencia'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE GIRARDOT',
     url: '/web/juzgado-001-penal-municipal-de-girardot'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE IBAGUÉ',
     url: '/web/juzgado-001-penal-municipal-de-ibague'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE ITAGÜÍ',
     url: '/web/juzgado-001-penal-municipal-de-itagui'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE LA MESA',
     url: '/web/juzgado-001-penal-municipal-de-la-mesa'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE LOS PATIOS',
     url: '/web/juzgado-001-penal-municipal-de-los-patios'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE MADRID',
     url: '/web/juzgado-001-penal-municipal-de-madrid'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE MONTERÍA',
     url: '/web/juzgado-001-penal-municipal-de-monteria'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE OCAÑA',
     url: '/web/juzgado-001-penal-municipal-de-ocana'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE PAMPLONA',
     url: '/web/juzgado-001-penal-municipal-de-pamplona'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE PUERTO TEJADA',
     url: '/web/juzgado-001-penal-municipal-de-puerto-tejada'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE ROLDANILLO',
     url: '/web/juzgado-001-penal-municipal-de-roldanillo'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE SANTA ROSA DE CABAL',
     url: '/web/juzgado-001-penal-municipal-de-santa-rosa-de-cabal'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE SEVILLA',
     url: '/web/juzgado-001-penal-municipal-de-sevilla'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE SOGAMOSO',
     url: '/web/juzgado-001-penal-municipal-de-sogamoso'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE TULUÁ',
     url: '/web/juzgado-001-penal-municipal-de-tulua'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE TÚQUERRES',
     url: '/web/juzgado-001-penal-municipal-de-tuquerres'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE UBATÉ',
     url: '/web/juzgado-001-penal-municipal-de-ubate'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 001 PENAL MUNICIPAL DE YOPAL',
@@ -7946,924 +7920,924 @@ exports.Despachos = [
     url: '/web/juzgado-001-penal-municipal-para-adolescentes-con-funcion-de-control-de-garantias-de-yopal'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE ACACÍAS',
     url: '/web/juzgado-01-promiscuo-de-familia-de-acacias'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE AGUACHICA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-aguachica'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE AMAGÁ',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-amaga'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE ANDES',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-andes'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE ANSERMA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-anserma'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE APARTADÓ',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-apartado'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE ARAUCA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-arauca'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE ARCH. DE SAN ANDRÉS',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-arch-de-san-andres'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE BAHÍA SOLANO',
     url: '/web/juzgado-01-promiscuo-de-familia-de-bahia-solano'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE BARBACOAS',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-barbacoas'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE BARRANCABERMEJA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-barrancabermeja'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE BELÉN DE LOS ANDAQUÍES',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-belen-de-los-andaquies'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE BOLÍVAR',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-bolivar'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE BOLÍVAR - ANTIOQUIA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-bolivar-antioquia'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE BUENAVENTURA',
     url: '/web/juzgado-01-promiscuo-de-familia-del-circuito-de-buenaventura'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE BUGA',
     url: '/web/juzgado-01-promiscuo-de-familia-de-buga'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE CALOTO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-caloto'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE CÁQUEZA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-caqueza'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE CARMEN DE BOLÍVAR',
     url: '/web/juzgado-01-promiscuo-familia-de-el-carmen-de-bolivar'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE CARTAGO',
     url: '/web/juzgado-01-familia-del-circuito-de-cartago'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE CAUCASIA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-caucasia'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE CERETÉ',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-cerete'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE CHAPARRAL',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-chaparral'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE CHINCHINÁ',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-chinchina'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE CHINÚ',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-chinu'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE CHIRIGUANÁ',
     url: '/web/juzgado-01-promiscuo-de-familia-de-chiriguana'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE CHOCONTÁ',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-choconta'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE CIÉNAGA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-cienaga'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE CISNEROS',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-cisneros'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE CONCORDIA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-concordia'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE COROZAL',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-corozal'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE DUITAMA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-duitama'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE EL BAGRE',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-el-bagre'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE EL BANCO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-el-banco'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE EL SANTUARIO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-el-santuario'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE ESPINAL',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-espinal'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE FACATATIVÁ',
     url: '/web/juzgado-01-promiscuo-de-familia-de-facatativa'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE FREDONIA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-fredonia'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE FRESNO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-fresno'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE FRONTINO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-frontino'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE FUNDACIÓN',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-fundacion'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE GACHETÁ',
     url: '/web/juzgado-01-promiscuo-de-familia-del-circuito-de-gacheta'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE GARAGOA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-garagoa'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE GIRARDOT',
     url: '/web/juzgado-01-promiscuo-de-familia-del-circuito-de-girardot'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE GRANADA',
     url: '/web/juzgado-01-promiscuo-de-familia-de-granada'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE GUADUAS',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-guaduas'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE GUAMO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-guamo'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE GUAPÍ',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-guapi'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE HONDA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-honda'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE INÍRIDA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-inirida'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE IPIALES',
     url: '/web/juzgado-01-promiscuo-de-familia-de-ipiales'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE ISTMINA',
     url: '/web/juzgado-promiscuo-de-familia-de-istmina'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE ITUANGO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-ituango'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE JERICÓ',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-jerico'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE LA CEJA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-la-ceja'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE LA CRUZ',
     url: '/web/juzgado-promiscuo-de-familia-de-la-cruz'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE LA DORADA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-la-dorada'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE LA MESA',
     url: '/web/juzgado-01-promiscuo-de-familia-del-circuito-de-la-mesa'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE LA PALMA',
     url: '/web/juzgado-01-promiscuo-familia-circuito-de-la-palma'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE LA UNIÓN',
     url: '/web/juzgado-01-promiscuo-de-familia-de-la-union'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE LÉRIDA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-lerida'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE LETICIA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-leticia'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE LÍBANO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-libano'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE LORICA',
     url: '/web/juzgado-01-promiscuo-de-familia-de-lorica'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE LOS PATIOS',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-los-patios'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE MAGANGUÉ',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-magangue'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE MAICAO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-maicao'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE MAJAGUAL',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-majagual'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE MÁLAGA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-malaga'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE MARINILLA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-marinilla'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE MELGAR',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-melgar'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE MIRAFLORES',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-miraflores'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE MITÚ',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-mitu'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE MOMPÓS',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-mompos'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE MONTELÍBANO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-montelibano'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE MONTERREY',
     url: '/web/juzgado-01-promiscuo-de-familia-de-monterrey'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE OCAÑA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-ocana'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE OROCUÉ',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-orocue'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE PACHO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-pacho'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE PALMIRA',
     url: '/web/juzgado-01-promiscuo-de-familia-del-circuito-de-palmira'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE PAMPLONA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-pamplona'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE PATÍA-EL BORDO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-patia-el-bordo'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE PAZ DE ARIPORO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-paz-de-ariporo'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE PLANETA RICA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-planeta-rica'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE PLATO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-plato'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE PUERTO ASÍS',
     url: '/web/juzgado-01-promiscuo-de-familia-de-puerto-asis'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE PUERTO BERRÍO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-puerto-berrio'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE PUERTO BOYACÁ',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-puerto-boyaca'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE PUERTO CARREÑO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-puerto-carreno'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE PUERTO LÓPEZ',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-puerto-lopez'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE PUERTO RICO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-puerto-rico'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE PUERTO TEJADA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-puerto-tejada'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE PURIFICACIÓN',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-purificacion'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE RIOHACHA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-riohacha'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE RIOSUCIO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-riosucio'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE RIOSUCIO - CALDAS',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-riosucio-caldas'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE ROLDANILLO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-roldanillo'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SABANALARGA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-sabanalarga'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SAHAGÚN',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-sahagun'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SALAMINA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-salamina'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SAMANIEGO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-samaniego'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SAN GIL',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-san-gil'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SAN JOSÉ DEL GUAVIARE',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-san-jose-del-guaviare'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SAN JUAN DEL CESAR',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-san-juan-del-cesar'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SAN MARCOS',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-san-marcos'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SAN MARTÍN',
     url: '/web/juzgado-promiscuo-de-familia-de-san-martin'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SANTA BÁRBARA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-santa-barbara'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SANTA ROSA DE OSOS',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-santa-rosa-de-osos'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SANTA ROSA DE VITERBO',
     url: '/web/juzgado-promiscuo-de-familia-de-santa-rosa-de-viterbo'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SANTANDER DE QUILICHAO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-santander-de-quilichao'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SARAVENA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-saravena'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SEGOVIA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-segovia'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SEVILLA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-sevilla'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SIBUNDOY',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-sibundoy'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SILVIA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-silvia'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SIMITÍ',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-simiti'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SOATÁ',
     url: '/web/juzgado-promiscuo-de-familia-de-soata'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SOCORRO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-socorro'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SOGAMOSO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-sogamoso'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SOLEDAD',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-soledad'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE SONSÓN',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-sonson'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE TÁMESIS',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-tamesis'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE TULUÁ',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-tulua'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE TUMACO',
     url: '/web/juzgado-01-promiscuo-de-familia-del-circuito-de-tumaco'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE TÚQUERRES',
     url: '/web/juzgado-promiscuo-de-familia-de-la-tuquerres'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE TURBACO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-turbaco'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE TURBO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-turbo'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE UBATÉ',
     url: '/web/juzgado-01-promiscuo-familia-circuito-de-ubate'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE URRAO',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-urrao'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE VÉLEZ',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-velez'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE VILLETA',
     url: '/web/juzgado-001-promiscuo-de-familia-del-circuito-de-villeta'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 001 PROMISCUO DE FAMILIA DEL CIRCUITO DE YOLOMBÓ',
@@ -17367,1374 +17341,1374 @@ exports.Despachos = [
     url: '/web/juzgado-001-promiscuo-municipal-de-zona-bananera'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE ARAUCA',
     url: '/web/juzgado-02-administrativo-de-arauca'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE ARMENIA',
     url: '/web/juzgado-02-administrativo-de-armenia'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE BARRANCABERMEJA',
     url: '/web/juzgado-02-administrativo-de-barrancabermeja'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE BARRANQUILLA',
     url: '/web/juzgado-02-administrativo-de-barranquilla'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE BUCARAMANGA',
     url: '/web/juzgado-02-administrativo-de-bucaramanga'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE BUENAVENTURA',
     url: '/web/juzgado-02-administrativo-de-buenaventura'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 002 ADMINISTRATIVO DE BUGA',
-    url         : '/web/juzgado-02-administrativo-de-buga'
+    nombre: 'JUZGADO 002 ADMINISTRATIVO DE BUGA',
+    url: '/web/juzgado-02-administrativo-de-buga'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 002 ADMINISTRATIVO DE CALI',
-    url         : '/web/juzgado-02-administrativo-de-cali'
+    nombre: 'JUZGADO 002 ADMINISTRATIVO DE CALI',
+    url: '/web/juzgado-02-administrativo-de-cali'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE CARTAGENA',
     url: '/web/juzgado-02-administrativo-de-cartagena'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE CARTAGO',
     url: '/web/juzgado-02-administrativo-de-cartago'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE CÚCUTA',
     url: '/web/juzgado-02-administrativo-de-cucuta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE DUITAMA',
     url: '/web/juzgado-02-administrativo-de-duitama'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE FACATATIVÁ',
     url: '/web/juzgado-01-administrativo-de-descongestion-de-facatativa'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE FLORENCIA',
     url: '/web/juzgado-02-administrativo-de-florencia'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE GIRARDOT',
     url: '/web/juzgado-02-administrativo-de-girardot'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE IBAGUÉ',
     url: '/web/juzgado-02-administrativo-de-ibague'
   },
   {
-    agrupacion  : 'SECCIÓN PRIMERA - ORAL',
+    agrupacion: 'SECCIÓN PRIMERA - ORAL',
     especialidad: 'SECCIÓN PRIMERA - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE LA SECCIÓN PRIMERA DE BOGOTÁ',
     url: '/web/juzgado-02-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE MANIZALES',
     url: '/web/juzgado-02-administrativo-de-manizales'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-02-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 002 ADMINISTRATIVO DE MOCOA',
-    url         : '/web/juzgado-02-administrativo-de-mocoa'
+    nombre: 'JUZGADO 002 ADMINISTRATIVO DE MOCOA',
+    url: '/web/juzgado-02-administrativo-de-mocoa'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE MONTERÍA',
     url: '/web/juzgado-02-administrativo-de-monteria'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 002 ADMINISTRATIVO DE NEIVA',
-    url         : '/web/juzgado-02-administrativo-de-neiva'
+    nombre: 'JUZGADO 002 ADMINISTRATIVO DE NEIVA',
+    url: '/web/juzgado-02-administrativo-de-neiva'
   },
   {
-    agrupacion  : 'SECCIÓN PRIMERA - ORAL',
+    agrupacion: 'SECCIÓN PRIMERA - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 002 ADMINISTRATIVO DE OCAÑA',
-    url         : '/web/juzgado-002-administrativo-de-ocana'
+    nombre: 'JUZGADO 002 ADMINISTRATIVO DE OCAÑA',
+    url: '/web/juzgado-002-administrativo-de-ocana'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 002 ADMINISTRATIVO DE PASTO',
-    url         : '/web/juzgado-02-administrativo-de-pasto'
+    nombre: 'JUZGADO 002 ADMINISTRATIVO DE PASTO',
+    url: '/web/juzgado-02-administrativo-de-pasto'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE PEREIRA',
     url: '/web/juzgado-02-administrativo-de-pereira'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE POPAYÁN',
     url: '/web/juzgado-02-administrativo-de-popayan'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE QUIBDÓ',
     url: '/web/juzgado-02-administrativo-de-quibdo'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE RIOHACHA',
     url: '/web/juzgado-02-administrativo-del-circuito-de-riohacha'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE SAN GIL',
     url: '/web/juzgado-02-administrativo-de-san-gil'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE SANTA MARTA',
     url: '/web/juzgado-02-administrativo-de-santa-marta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE SINCELEJO',
     url: '/web/juzgado-02-administrativo-de-sincelejo'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE SOGAMOSO',
     url: '/web/juzgado-02-administrativo-de-sogamoso'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE TUMACO',
     url: '/web/juzgado-002-administrativo-de-tumaco'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 002 ADMINISTRATIVO DE TUNJA',
-    url         : '/web/juzgado-02-administrativo-de-tunja'
+    nombre: 'JUZGADO 002 ADMINISTRATIVO DE TUNJA',
+    url: '/web/juzgado-02-administrativo-de-tunja'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 002 ADMINISTRATIVO DE TURBO',
-    url         : '/web/juzgado-701-administrativo-de-descongestion-de-turbo'
+    nombre: 'JUZGADO 002 ADMINISTRATIVO DE TURBO',
+    url: '/web/juzgado-701-administrativo-de-descongestion-de-turbo'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE VALLEDUPAR',
     url: '/web/juzgado-02-administrativo-de-valledupar'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE VILLAVICENCIO',
     url: '/web/juzgado-02-administrativo-de-villavicencio'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 002 ADMINISTRATIVO DE YOPAL',
-    url         : '/web/juzgado-02-administrativo-de-yopal'
+    nombre: 'JUZGADO 002 ADMINISTRATIVO DE YOPAL',
+    url: '/web/juzgado-02-administrativo-de-yopal'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 002 ADMINISTRATIVO DE ZIPAQUIRÁ',
     url: '/web/juzgado-administrativo-de-descongestion-zipaquira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE APARTADÓ',
     url: '/web/juzgado-02-civil-del-circuito-de-apartado'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE ARCH. DE SAN ANDRÉS',
     url: '/web/juzgado-002-civil-del-circuito-de-arch-de-san-andres'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE ARMENIA',
     url: '/web/juzgado-02-civil-del-circuito-de-armenia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE BARRANCABERMEJA',
     url: '/web/juzgado-002-civil-del-circuito-de-barrancabermeja'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE BARRANQUILLA',
     url: '/web/juzgado-002-civil-del-circuito-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL ORALIDAD',
+    agrupacion: 'CIVIL ORALIDAD',
     especialidad: 'CIVIL ORALIDAD',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE BELLO',
     url: '/web/juzgado-002-civil-del-circuito-de-bello'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-02-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE BUCARAMANGA',
     url: '/web/juzgado-002-civil-del-circuito-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE BUENAVENTURA',
     url: '/web/juzgado-002-civil-del-circuito-de-buenaventura'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE BUGA',
     url: '/web/juzgado-02-civil-circuito-de-buga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE CALI',
     url: '/web/juzgado-002-civil-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE CARTAGENA',
     url: '/web/juzgado-002-civil-del-circuito-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE CARTAGO',
     url: '/web/juzgado-002-civil-del-circuito-de-cartago'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE CERETÉ',
     url: '/web/juzgado-002-civil-del-circuito-de-cerete'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE CHIQUINQUIRÁ',
     url: '/web/juzgado-002-civil-del-circuito-de-chiquinquira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE CIÉNAGA',
     url: '/web/juzgado-002-civil-del-circuito-de-cienaga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BARRANQUILLA',
     url: '/web/juzgado-002-civil-del-circuito-de-ejecucion-de-sentencias-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-02-de-ejecucion-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BUCARAMANGA',
     url: '/web/juzgado-02-de-ejecucion-civil-del-circuito-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE CALI',
     url: '/web/juzgado-02-de-ejecucion-civil-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN',
     url: '/web/juzgado-02-de-ejecucion-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE ENVIGADO',
     url: '/web/juzgado-002-civil-del-circuito-de-envigado'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE ESPINAL',
     url: '/web/juzgado-002-civil-del-circuito-de-espinal'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE FACATATIVÁ',
     url: '/web/juzgado-02-civil-del-circuito-de-facatativa'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE FLORENCIA',
     url: '/web/juzgado-002-civil-del-circuito-de-florencia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE FUNZA',
     url: '/web/juzgado-002-civil-del-circuito-de-funza'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE FUSAGASUGÁ',
     url: '/web/juzgado-02-civil-del-circuito-de-fusagasuga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE GARZÓN',
     url: '/web/juzgado-002-civil-del-circuito-de-garzon'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE GIRARDOT',
     url: '/web/juzgado-002-civil-del-circuito-de-girardot'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE GUAMO',
     url: '/web/juzgado-002-civil-del-circuito-de-guamo'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE HONDA',
     url: '/web/juzgado-002-civil-del-circuito-de-honda'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE IBAGUÉ',
     url: '/web/juzgado-002-civil-del-circuito-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE IPIALES',
     url: '/web/juzgado-02-civil-del-circuito-de-ipiales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE ISTMINA',
     url: '/web/juzgado-002-civil-del-circuito-de-istmina'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE ITAGÜÍ',
     url: '/web/juzgado-002-civil-del-circuito-de-itagui'
   },
   {
-    agrupacion  : 'CIVIL - LABORAL',
+    agrupacion: 'CIVIL - LABORAL',
     especialidad: 'CIVIL - LABORAL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE LA DORADA',
     url: '/web/juzgado-02-civil-circuito-de-la-dorada'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE MAGANGUÉ',
     url: '/web/juzgado-02-civil-del-circuito-de-magangue'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE MANIZALES',
     url: '/web/juzgado-002-civil-del-circuito-de-manizales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE MEDELLÍN',
     url: '/web/juzgado-002-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE MELGAR',
     url: '/web/juzgado-002-civil-del-circuito-de-melgar'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE MONTERÍA',
     url: '/web/juzgado-002-civil-del-circuito-de-monteria'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE NEIVA',
     url: '/web/juzgado-02-civil-del-circuito-de-neiva'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE OCAÑA',
     url: '/web/juzgado-002-civil-del-circuito-de-ocana'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE PALMIRA',
     url: '/web/juzgado-002-civil-del-circuito-de-palmira'
   },
   {
-    agrupacion  : 'CIVIL - LABORAL',
+    agrupacion: 'CIVIL - LABORAL',
     especialidad: 'CIVIL - LABORAL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE PAMPLONA',
     url: '/web/juzgado-002-civil-del-circuito-de-pamplona'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE PASTO',
     url: '/web/juzgado-02-civil-del-circuito-de-pasto'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE PEREIRA',
     url: '/web/juzgado-02-civil-del-circuito-de-pereira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE POPAYÁN',
     url: '/web/juzgado-002-civil-del-circuito-de-popayan'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE RIOHACHA',
     url: '/web/juzgado-002-civil-del-circuito-de-riohacha'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE SAN GIL',
     url: '/web/juzgado-002-civil-del-circuito-de-san-gil'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE SANTA MARTA',
     url: '/web/juzgado-002-civil-del-circuito-de-santa-marta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE SANTA ROSA DE VITERBO',
     url: '/web/juzgado-tercero-civil-del-circuito-de-santa-rosa-de-viterbo'
   },
   {
-    agrupacion  : 'CIVIL - LABORAL',
+    agrupacion: 'CIVIL - LABORAL',
     especialidad: 'CIVIL - LABORAL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE SANTANDER DE QUILICHAO',
     url: '/web/juzgado-002-civil-del-circuito-de-santander-de-quilichao'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE SINCELEJO',
     url: '/web/juzgado-002-civil-del-circuito-de-sincelejo'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE SOACHA',
     url: '/web/juzgado-02-civil-del-circuito-de-soacha'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE SOCORRO',
     url: '/web/juzgado-002-civil-del-circuito-de-socorro'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE SOGAMOSO',
     url: '/web/juzgado-02-civil-del-circuito-de-sogamoso'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE SOLEDAD',
     url: '/web/juzgado-002-civil-del-circuito-de-soledad'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE TULUÁ',
     url: '/web/juzgado-02-civil-circuito-de-tulua'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE TUMACO',
     url: '/web/juzgado-002-civil-del-circuito-de-tumaco'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE TUNJA',
     url: '/web/juzgado-002-civil-del-circuito-de-tunja'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE VALLEDUPAR',
     url: '/web/juzgado-02-civil-del-circuito-de-valledupar'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE VÉLEZ',
     url: '/web/juzgado-02-civil-circuito-de-velez'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE VILLAVICENCIO',
     url: '/web/juzgado-02-civil-del-circuito-de-villavicencio'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE YOPAL',
     url: '/web/juzgado-02-civil-del-circuito-de-yopal'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO DE ZIPAQUIRÁ',
     url: '/web/juzgado-02-civil-del-circuito-de-zipaquira'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE ANTIOQUIA',
     url: '/web/juzgado-02-civil-del-circuito-especializado-en-restitucion-de-tierras-de-antioquia'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE APARTADÓ',
     url: '/web/juzgado-02-civil-del-circuito-especializado-en-restitucion-de-tierras-de-apartado'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE CALI',
     url: '/web/juzgado-02-civil-del-circuito-especializado-en-restitucion-de-tierras-de-cali'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE CARMEN DE BOLÍVAR',
     url: '/web/juzgado-02-civil-del-circuito-especializado-en-restitucion-de-tierras-de-carmen-de-bolivar'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE CÚCUTA',
     url: '/web/juzgado-02-civil-del-circuito-especializado-en-restitucion-de-tierras-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE IBAGUÉ',
     url: '/web/juzgado-02-civil-del-circuito-especializado-en-restitucion-de-tierras-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE MOCOA',
     url: '/web/juzgado-002-civil-del-circuito-especializado-en-restitucion-de-tierras-de-mocoa'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE MONTERÍA',
     url: '/web/juzgado-02-civil-del-circuito-especializado-en-restitucion-de-tierras-de-monteria'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE PASTO',
     url: '/web/juzgado-02-civil-del-circuito-especializado-en-restitucion-de-tierras-de-pasto1'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE SANTA MARTA',
     url: '/web/juzgado-02-civil-del-circuito-especializado-en-restitucion-de-tierras-de-santa-marta'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE SINCELEJO',
     url: '/web/juzgado-02-civil-del-circuito-especializado-en-restitucion-de-tierras-de-sincelejo'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE VALLEDUPAR',
     url: '/web/juzgado-02-civil-del-circuito-especializado-en-restitucion-de-tierras-de-valledupar'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE VILLAVICENCIO',
     url: '/web/juzgado-02-civil-del-circuito-especializado-en-restitucion-de-tierras-de-villavicencio'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL DEL CIRCUITO TRANSITORIO DE BOGOTÁ',
     url: '/web/juzgado-002-civil-del-circuito-transitorio-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE APARTADÓ ANTES JUZGADO 003 PROMISCUO MUNICIPAL DE APARTADÓ',
     url: '/web/juzgado-002-civil-municipal-de-apartado'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE ARAUCA, ANTES JUZGADO 002 PROMISCUO MUNICIPAL DE ARAUCA - ARAUCA',
     url: '/web/juzgado-002-promiscuo-municipal-de-arauca'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE ARCH. DE SAN ANDRÉS',
     url: '/web/juzgado-002-civil-municipal-de-arch-de-san-andres'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE ARMENIA',
     url: '/web/juzgado-02-civil-municipal-de-armenia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE BARRANCABERMEJA',
     url: '/web/juzgado-002-civil-municipal-de-barrancabermeja'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE BARRANQUILLA',
     url: '/web/juzgado-002-civil-municipal-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE BELLO',
     url: '/web/juzgado-002-civil-municipal-de-bello'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-02-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-002-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE BUENAVENTURA',
     url: '/web/juzgado-002-civil-municipal-de-buenaventura'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 002 CIVIL MUNICIPAL DE BUGA',
-    url         : '/web/juzgado-002-civil-municipal-de-buga'
+    nombre: 'JUZGADO 002 CIVIL MUNICIPAL DE BUGA',
+    url: '/web/juzgado-002-civil-municipal-de-buga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE CALARCÁ',
     url: '/web/juzgado-002-civil-municipal-de-calarca'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 002 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-002-civil-municipal-de-cali'
+    nombre: 'JUZGADO 002 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-002-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-002-civil-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE CARTAGO',
     url: '/web/juzgado-002-civil-municipal-de-cartago'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE CHAPARRAL',
     url: '/web/juzgado-02-civil-municipal-chaparral'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 002 CIVIL MUNICIPAL DE CHÍA',
-    url         : '/web/juzgado-002-civil-municipal-de-chia'
+    nombre: 'JUZGADO 002 CIVIL MUNICIPAL DE CHÍA',
+    url: '/web/juzgado-002-civil-municipal-de-chia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE CHIQUINQUIRÁ',
     url: '/web/juzgado-002-civil-municipal-de-chiquinquira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE CÚCUTA',
     url: '/web/juzgado-02-civil-municipal-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE DESCONGESTION DE YOPAL',
     url: '/web/juzgado-02-civil-municipal-de-descongestion-de-yopal'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE DOSQUEBRADAS',
     url: '/web/juzgado-002-civil-municipal-de-dosquebradas'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE DUITAMA',
     url: '/web/juzgado-002-civil-municipal-de-duitama'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BARRANQUILLA',
     url: '/web/juzgado-02-de-ejecucion-civil-municipal-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BUCARAMANGA',
     url: '/web/juzgado-02-de-ejecucion-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE CALI',
     url: '/web/juzgado-02-de-ejecucion-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE CARTAGENA',
     url: '/web/juzgado-02-de-ejecucion-civil-municipal-de-cartegena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MANIZALES',
     url: '/web/juzgado-02-de-ejecucion-civil-municipal-de-manizales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN',
     url: '/web/juzgado-02-de-ejecucion-civil-municipal-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE ENVIGADO',
     url: '/web/juzgado-002-civil-municipal-de-envigado'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE ESPINAL',
     url: '/web/juzgado-002-civil-municipal-de-espinal'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE FACATATIVÁ',
     url: '/web/juzgado-002-civil-municipal-de-facatativa'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE FLORENCIA',
     url: '/web/juzgado-002-civil-municipal-de-florencia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE FLORIDABLANCA',
     url: '/web/juzgado-segundo-civil-municipal-de-floridablanca'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE FUNZA',
     url: '/web/juzgado-002-civil-municipal-de-funza'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE FUSAGASUGÁ',
     url: '/web/juzgado-02-civil-municipal-de-fusagasuga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE GARZÓN',
     url: '/web/juzgado-002-civil-municipal-de-garzon'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE GIRARDOT',
     url: '/web/juzgado-02-civil-municipal-de-girardot'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE GIRÓN',
     url: '/web/juzgado-002-civil-municipal-de-giron'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE HONDA',
     url: '/web/juzgado-002-civil-municipal-de-honda'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE IBAGUÉ',
     url: '/web/juzgado-002-civil-municipal-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE IPIALES',
     url: '/web/juzgado-02-civil-municipal-de-oralidad-de-ipiales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE ITAGÜÍ',
     url: '/web/juzgado-002-civil-municipal-de-itagui'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE JAMUNDÍ ANTES JUZGADO 002 PROMISCUO MUNICIPAL DE JAMUNDÍ',
     url: '/web/juzgado-02-civil-municipal-jamundi'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE LETICIA',
     url: '/web/juzgado-002-civil-municipal-de-leticia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE MAICAO - LA GUAJIRA - ANTES - JUZGADO 002 PROMISCUO MUNICIPAL',
     url: '/web/juzgado-002-promiscuo-municipal-de-maicao'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE MANIZALES',
     url: '/web/juzgado-002-civil-municipal-de-manizales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE MEDELLÍN',
     url: '/web/juzgado-002-civil-municipal-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE MOCOA',
     url: '/web/juzgado-02-civil-municipal-de-mocoa'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE MONTERÍA',
     url: '/web/juzgado-002-civil-municipal-de-monteria'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE NEIVA',
     url: '/web/juzgado-02-civil-municipal-de-neiva'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE OCAÑA',
     url: '/web/juzgado-002-civil-municipal-de-ocana'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE PALMIRA',
     url: '/web/juzgado-02-civil-municipal-de-palmira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE PAMPLONA',
     url: '/web/juzgado-02-civil-municipal-de-pamplona'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE PASTO',
     url: '/web/juzgado-02-civil-municipal-de-oralidad-de-pasto'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE PEREIRA',
     url: '/web/juzgado-002-civil-municipal-de-pereira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE PIEDECUESTA',
     url: '/web/juzgado-002-civil-municipal-de-piedecuesta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE PITALITO',
     url: '/web/juzgado-002-civil-municipal-de-pitalito'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE POPAYÁN',
     url: '/web/juzgado-002-civil-municipal-de-popayan'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE PUERTO ASÍS - PUTUMAYO',
     url: '/web/juzgado-002-civil-municipal-de-puerto-asis-putumayo'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE QUIBDÓ',
     url: '/web/juzgado-02-civil-municipal-de-quibdo'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE RIOHACHA',
     url: '/web/juzgado-002-civil-municipal-de-riohacha'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE SANTA MARTA',
     url: '/web/juzgado-002-civil-municipal-de-santa-marta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE SANTA ROSA DE CABAL',
     url: '/web/juzgado-002-civil-municipal-de-santa-rosa-de-cabal'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE SANTANDER DE QUILICHAO',
     url: '/web/juzgado-002-civil-municipal-de-santander-de-quilichao'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE SINCELEJO',
     url: '/web/juzgado-002-civil-municipal-de-sincelejo'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE SOACHA',
     url: '/web/juzgado-02-civil-municipal-de-soacha'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE SOGAMOSO',
     url: '/web/juzgado-002-civil-municipal-de-sogamoso'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE SOLEDAD',
     url: '/web/juzgado-002-civil-municipal-de-soledad'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE TULUÁ',
     url: '/web/juzgado-002-civil-municipal-de-tulua'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE TUMACO',
     url: '/web/juzgado-02-civil-municipal-de-tumaco'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE TUNJA',
     url: '/web/juzgado-002-civil-municipal-de-tunja'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE TÚQUERRES',
     url: '/web/juzgado-02-civil-municipal-de-oralidad-de-tuquerres'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE VALLEDUPAR',
     url: '/web/juzgado-02-civil-municipal-de-valledupar'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE VILLAVICENCIO',
     url: '/web/juzgado-02-civil-municipal-de-villavicencio'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE YOPAL',
     url: '/web/juzgado-02-civil-municipal-de-yopal'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE YUMBO',
     url: '/web/juzgado-002-civil-municipal-de-yumbo'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 CIVIL MUNICIPAL DE ZIPAQUIRÁ',
     url: '/web/juzgado-002-civil-municipal-de-zipaquira'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 DE EJECUCIÓN CIVIL MUNICIPAL DE MONTERÍA',
@@ -18930,188 +18904,188 @@ exports.Despachos = [
     url: '/web/juzgado-002-de-ejecucion-de-penas-y-medidas-de-seguridad-del-circuito-de-calarca-'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 002 DE EJECUCIÓN EN ASUNTOS DE FAMILIA DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-02-ejecucion-de-familia-circuito-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 002 DE FAMILIA DE ARMENIA',
-    url         : '/web/juzgado-02-familia-del-circuito-de-armenia'
+    nombre: 'JUZGADO 002 DE FAMILIA DE ARMENIA',
+    url: '/web/juzgado-02-familia-del-circuito-de-armenia'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 002 DE FAMILIA DE BARRANQUILLA',
     url: '/web/juzgado-002-de-familia-de-barranquilla'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 002 DE FAMILIA DE BELLO',
-    url         : '/web/juzgado-002-de-familia-de-bello'
+    nombre: 'JUZGADO 002 DE FAMILIA DE BELLO',
+    url: '/web/juzgado-002-de-familia-de-bello'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 002 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-002-de-familia-de-bogota'
+    nombre: 'JUZGADO 002 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-002-de-familia-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 002 DE FAMILIA DE BUCARAMANGA',
     url: '/web/juzgado-002-de-familia-de-bucaramanga'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 002 DE FAMILIA DE CALI',
-    url         : '/web/juzgado-02-familia-del-circuito-de-cali'
+    nombre: 'JUZGADO 002 DE FAMILIA DE CALI',
+    url: '/web/juzgado-02-familia-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 002 DE FAMILIA DE CARTAGENA',
-    url         : '/web/juzgado-002-de-familia-de-cartagena'
+    nombre: 'JUZGADO 002 DE FAMILIA DE CARTAGENA',
+    url: '/web/juzgado-002-de-familia-de-cartagena'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 002 DE FAMILIA DE CÚCUTA',
-    url         : '/web/juzgado-02-familia-del-circuito-de-cucuta'
+    nombre: 'JUZGADO 002 DE FAMILIA DE CÚCUTA',
+    url: '/web/juzgado-02-familia-del-circuito-de-cucuta'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 002 DE FAMILIA DE ENVIGADO',
-    url         : '/web/juzgado-002-de-familia-de-envigado'
+    nombre: 'JUZGADO 002 DE FAMILIA DE ENVIGADO',
+    url: '/web/juzgado-002-de-familia-de-envigado'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 002 DE FAMILIA DE FLORENCIA',
-    url         : '/web/juzgado-002-de-familia-de-florencia'
+    nombre: 'JUZGADO 002 DE FAMILIA DE FLORENCIA',
+    url: '/web/juzgado-002-de-familia-de-florencia'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 002 DE FAMILIA DE IBAGUÉ',
-    url         : '/web/juzgado-002-de-familia-de-ibague'
+    nombre: 'JUZGADO 002 DE FAMILIA DE IBAGUÉ',
+    url: '/web/juzgado-002-de-familia-de-ibague'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 002 DE FAMILIA DE ITAGÜÍ',
-    url         : '/web/juzgado-002-de-familia-de-itagui'
+    nombre: 'JUZGADO 002 DE FAMILIA DE ITAGÜÍ',
+    url: '/web/juzgado-002-de-familia-de-itagui'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 002 DE FAMILIA DE MANIZALES',
-    url         : '/web/juzgado-02-familia-del-circuito-de-manizales'
+    nombre: 'JUZGADO 002 DE FAMILIA DE MANIZALES',
+    url: '/web/juzgado-02-familia-del-circuito-de-manizales'
   },
   {
-    agrupacion  : 'FAMILIA ORALIDAD',
+    agrupacion: 'FAMILIA ORALIDAD',
     especialidad: 'FAMILIA ORALIDAD',
-    nombre      : 'JUZGADO 002 DE FAMILIA DE MEDELLÍN',
-    url         : '/web/juzgado-002-de-familia-de-medellin'
+    nombre: 'JUZGADO 002 DE FAMILIA DE MEDELLÍN',
+    url: '/web/juzgado-002-de-familia-de-medellin'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 002 DE FAMILIA DE MONTERÍA',
-    url         : '/web/juzgado-002-de-familia-de-monteria'
+    nombre: 'JUZGADO 002 DE FAMILIA DE MONTERÍA',
+    url: '/web/juzgado-002-de-familia-de-monteria'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 002 DE FAMILIA DE NEIVA',
-    url         : '/web/juzgado-02-familia-del-circuito-de-neiva'
+    nombre: 'JUZGADO 002 DE FAMILIA DE NEIVA',
+    url: '/web/juzgado-02-familia-del-circuito-de-neiva'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 002 DE FAMILIA DE PASTO',
-    url         : '/web/juzgado-002-de-familia-de-pasto'
+    nombre: 'JUZGADO 002 DE FAMILIA DE PASTO',
+    url: '/web/juzgado-002-de-familia-de-pasto'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 002 DE FAMILIA DE PEREIRA',
-    url         : '/web/juzgado-002-de-familia-de-pereira'
+    nombre: 'JUZGADO 002 DE FAMILIA DE PEREIRA',
+    url: '/web/juzgado-002-de-familia-de-pereira'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 002 DE FAMILIA DE POPAYÁN',
-    url         : '/web/juzgado-002-de-familia-de-popayan'
+    nombre: 'JUZGADO 002 DE FAMILIA DE POPAYÁN',
+    url: '/web/juzgado-002-de-familia-de-popayan'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 002 DE FAMILIA DE QUIBDÓ',
-    url         : '/web/juzgado-002-de-familia-de-quibdo'
+    nombre: 'JUZGADO 002 DE FAMILIA DE QUIBDÓ',
+    url: '/web/juzgado-002-de-familia-de-quibdo'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 002 DE FAMILIA DE SANTA MARTA',
     url: '/web/juzgado-002-de-familia-de-santa-marta'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 002 DE FAMILIA DE SINCELEJO',
-    url         : '/web/juzgado-002-de-familia-de-sincelejo'
+    nombre: 'JUZGADO 002 DE FAMILIA DE SINCELEJO',
+    url: '/web/juzgado-002-de-familia-de-sincelejo'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 002 DE FAMILIA DE SOACHA',
-    url         : '/web/juzgado-002-de-familia-de-soacha'
+    nombre: 'JUZGADO 002 DE FAMILIA DE SOACHA',
+    url: '/web/juzgado-002-de-familia-de-soacha'
   },
   {
-    agrupacion  : 'FAMILIA ORALIDAD',
+    agrupacion: 'FAMILIA ORALIDAD',
     especialidad: 'FAMILIA ORALIDAD',
-    nombre      : 'JUZGADO 002 DE FAMILIA DE TUNJA',
-    url         : '/web/juzgado-002-de-familia-de-tunja'
+    nombre: 'JUZGADO 002 DE FAMILIA DE TUNJA',
+    url: '/web/juzgado-002-de-familia-de-tunja'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 002 DE FAMILIA DE VALLEDUPAR',
     url: '/web/juzgado-02-familia-del-circuito-de-valledupar'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 002 DE FAMILIA DE VILLAVICENCIO',
     url: '/web/juzgado-02-familia-del-circuito-de-villavicencio'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 002 DE FAMILIA DE ZIPAQUIRÁ',
-    url         : '/web/juzgado-02-familia-del-circuito-de-zipaquira'
+    nombre: 'JUZGADO 002 DE FAMILIA DE ZIPAQUIRÁ',
+    url: '/web/juzgado-02-familia-del-circuito-de-zipaquira'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 002 DE FAMILIA DEL CIRCUITO DE FUSAGASUGÁ',
     url: '/web/juzgado-002-de-familia-del-circuito-de-fusagasuga'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 002 DE FAMILIA DEL CIRCUITO DE YOPAL',
@@ -19134,7 +19108,7 @@ exports.Despachos = [
     url: '/web/juzgado-002-de-pequenas-causas-y-competencia-multiple-de-bello'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 002 DE PEQUEÑAS CAUSAS Y COMPETENCIA MÚLTIPLE DE BOGOTÁ',
@@ -19301,454 +19275,454 @@ exports.Despachos = [
     url: '/web/juzgado-002-de-pequenas-causas-y-competencia-multiple-de-popayan'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
-    nombre      : 'JUZGADO 002 LABORAL  DE BELLO ',
-    url         : '/web/juzgado-002-laboral-de-bello-'
+    nombre: 'JUZGADO 002 LABORAL  DE BELLO ',
+    url: '/web/juzgado-002-laboral-de-bello-'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE AGUACHICA - CESAR',
     url: '/web/juzgado-002-laboral-del-circuito-de-aguachica'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE APARTADÓ - ANTIOQUIA',
     url: '/web/juzgado-002-laboral-del-circuito-de-apartado'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE ARMENIA - QUINDÍO',
     url: '/web/juzgado-002-laboral-de-armenia'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE BARRANCABERMEJA - SANTANDER',
     url: '/web/juzgado-002-laboral-del-circuito-de-barrancabermeja-santander'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE BARRANQUILLA - ATLÁNTICO',
     url: '/web/juzgado-002-laboral-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-002-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE BUCARAMANGA - SANTANDER',
     url: '/web/juzgado-002-laboral-de-bucaramanga'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE BUENAVENTURA - VALLE DEL CAUCA',
     url: '/web/juzgado-002-laboral-de-buenaventura'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE CALI - VALLE DEL CAUCA',
     url: '/web/juzgado-002-laboral-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE CARTAGENA - BOLÍVAR',
     url: '/web/juzgado-02-laboral-del-circuito-de-cartagena'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE CÚCUTA - NORTE DE SANTANDER',
     url: '/web/juzgado-02-laboral-del-circuito-de-cucuta'
   },
   {
-    agrupacion  : 'JUZGADO LABORAL',
+    agrupacion: 'JUZGADO LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE ENVIGADO - ANTIOQUIA',
     url: '/web/juzgado-002-laboral-del-circuito-de-envigado-antioquia'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE FLORENCIA - CAQUETÁ',
     url: '/web/juzgado-002-laboral-de-florencia'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE IBAGUÉ - TOLIMA',
     url: '/web/juzgado-002-laboral-de-ibague'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE ITAGÜÍ - ANTIOQUIA',
     url: '/web/juzgado-002-laboral-del-circuito-de-itagui'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE LA DORADA - CALDAS',
     url: '/web/juzgado-002-laboral-del-circuito-de-la-dorada-caldas'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE MANIZALES - CALDAS',
     url: '/web/juzgado-02-laboral-del-circuito-de-manizales'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
     url: '/web/juzgado-002-laboral-de-medellin'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE MONTERÍA - CÓRDOBA',
     url: '/web/juzgado-02-laboral-del-circuito-de-monteria'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE NEIVA - HUILA',
     url: '/web/juzgado-002-laboral-de-neiva'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE PALMIRA - VALLE DEL CAUCA',
     url: '/web/juzgado-002-laboral-de-palmira'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE PASTO - NARIÑO',
     url: '/web/juzgado-002-laboral-de-pasto'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE PEREIRA - RISARALDA',
     url: '/web/juzgado-002-laboral-de-pereira'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE POPAYÁN - CAUCA',
     url: '/web/juzgado-002-laboral-de-popayan'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE QUIBDÓ - CHOCÓ',
     url: '/web/juzgado-02-laboral-del-circuito-de-quibdo'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE RIOHACHA - LA GUAJIRA',
     url: '/web/juzgado-002-laboral-de-riohacha'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE SANTA MARTA - MAGDALENA',
     url: '/web/juzgado-002-laboral-de-santa-marta'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE SINCELEJO - SUCRE',
     url: '/web/juzgado-002-laboral-de-sincelejo'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE SOGAMOSO - BOYACÁ',
     url: '/web/juzgado-002-laboral-de-sogamoso'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE TULUÁ - VALLE DEL CAUCA',
     url: '/web/juzgado-02-laboral-del-circuito-de-tulua'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE TUNJA - BOYACÁ',
     url: '/web/juzgado-002-laboral-de-tunja'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE TURBO - ANTIOQUIA',
     url: '/web/juzgado-002-laboral-del-circuito-de-turbo-antioquia'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE VALLEDUPAR - CESAR',
     url: '/web/juzgado-002-laboral-de-valledupar'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE VILLAVICENCIO - META',
     url: '/web/juzgado-002-laboral-de-villavicencio'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE YOPAL - CASANARE',
     url: '/web/juzgado-02-laboral-del-circuito-de-yopal'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO DE ZIPAQUIRÁ - CUNDINAMARCA',
     url: '/web/juzgado-002-laboral-del-circuito-de-zipaquira-cundinamarca'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 LABORAL DEL CIRCUITO TRANSITORIO DE BOGOTÁ',
     url: '/web/juzgado-002-laboral-del-circuito-transitorio-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE BARRANQUILLA',
     url: '/web/juzgado-002-municipal-de-pequenas-causas-laborales-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE BOGOTÁ',
     url: '/web/juzgado-02-de-pequenas-causas-laborales-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE BUCARAMANGA',
     url: '/web/juzgado-002-municipal-de-pequenas-causas-laborales-de-bucaramanga'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE CALI',
     url: '/web/juzgado-02-municipal-de-pequenas-causas-laborales-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE CARTAGENA',
     url: '/web/juzgado-02-municipal-de-pequenas-causas-laborales-de-cartagena'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE CÚCUTA',
     url: '/web/juzgado-02-municipal-de-pequenas-causas-laborales-de-cucuta'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE IBAGUÉ',
     url: '/web/juzgado-02-de-pequenas-causas-laborales-de-ibague'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE MANIZALES',
     url: '/web/juzgado-002-municipal-de-pequenas-causas-laborales-de-manizales'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE MEDELLÍN',
     url: '/web/juzgado-002-municipal-de-pequenas-causas-laborales-de-medellin'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE PASTO',
     url: '/web/juzgado-002-municipal-de-pequenas-causas-laborales-de-pasto'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE PEREIRA',
     url: '/web/juzgado-002-municipal-de-pequenas-causas-laborales-de-pereira'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 002 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE POPAYÁN',
     url: '/web/juzgado-002-municipal-de-pequenas-causas-laborales-de-popayan'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 002 PENAL DE CIRCUITO ESPECIALIZADO DE ANTIOQUIA',
     url: '/web/juzgado-002-penal-de-circuito-especializado-de-antioquia'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 002 PENAL DE CIRCUITO ESPECIALIZADO DE ARAUCA ',
     url: '/web/juzgado-002-penal-de-circuito-especializado-de-arauca-'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 002 PENAL DE CIRCUITO ESPECIALIZADO DE BARRANQUILLA ',
     url: '/web/juzgado-002-penal-de-circuito-especializado-de-barranquilla-'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 002 PENAL DE CIRCUITO ESPECIALIZADO DE BOGOTÁ',
     url: '/web/juzgado-002-penal-de-circuito-especializado-de-bogota'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 002 PENAL DE CIRCUITO ESPECIALIZADO DE CARTAGENA',
     url: '/web/juzgado-002-penal-de-circuito-especializado-de-cartagena'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 002 PENAL DE CIRCUITO ESPECIALIZADO DE CUNDINAMARCA',
     url: '/web/juzgado-002-penal-de-circuito-especializado-de-cundinamarca'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 002 PENAL DE CIRCUITO ESPECIALIZADO DE FLORENCIA',
     url: '/web/juzgado-002-penal-de-circuito-especializado-de-florencia'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 002 PENAL DE CIRCUITO ESPECIALIZADO DE IBAGUÉ',
     url: '/web/juzgado-002-penal-de-circuito-especializado-de-ibague'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 002 PENAL DE CIRCUITO ESPECIALIZADO DE MEDELLÍN',
     url: '/web/juzgado-002-penal-de-circuito-especializado-de-medellin'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 002 PENAL DE CIRCUITO ESPECIALIZADO DE MONTERÍA ',
     url: '/web/juzgado-002-penal-de-circuito-especializado-de-monteria-'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 002 PENAL DE CIRCUITO ESPECIALIZADO DE NEIVA',
     url: '/web/juzgado-002-penal-de-circuito-especializado-de-neiva'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 002 PENAL DE CIRCUITO ESPECIALIZADO DE PEREIRA',
     url: '/web/juzgado-002-penal-de-circuito-especializado-de-pereira'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 002 PENAL DE CIRCUITO ESPECIALIZADO DE QUIBDÓ ',
     url: '/web/juzgado-002-penal-de-circuito-especializado-de-quibdo-'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 002 PENAL DE CIRCUITO ESPECIALIZADO DE SANTA MARTA',
     url: '/web/juzgado-002-penal-de-circuito-especializado-de-santa-marta'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 002 PENAL DE CIRCUITO ESPECIALIZADO ITINERANTE DE PUERTO ASÍS ',
@@ -19924,224 +19898,224 @@ exports.Despachos = [
     url: '/web/juzgado-002-penal-del-circuito-con-funcion-de-conocimiento-de-valledupar'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE APARTADÓ',
     url: '/web/juzgado-002-penal-del-circuito-de-apartado'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE ARAUCA',
     url: '/web/juzgado-002-penal-del-circuito-de-arauca'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE ARCH. DE SAN ANDRÉS',
     url: '/web/juzgado-002-penal-del-circuito-de-arch-de-san-andres'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE BUCARAMANGA',
     url: '/web/juzgado-002-penal-del-circuito-de-bucaramanga'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE CARTAGENA',
     url: '/web/juzgado-002-penal-del-circuito-de-cartagena'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE CHINCHINÁ',
     url: '/web/juzgado-002-penal-del-circuito-de-chinchina'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE CHIQUINQUIRÁ',
     url: '/web/juzgado-002-penal-del-circuito-de-chiquinquira'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE COROZAL ',
     url: '/web/juzgado-002-penal-del-circuito-de-corozal-'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE DOSQUEBRADAS',
     url: '/web/juzgado-002-penal-del-circuito-de-dosquebradas'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE DUITAMA',
     url: '/web/juzgado-002-penal-del-circuito-de-duitama'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE ESPINAL',
     url: '/web/juzgado-002-penal-del-circuito-de-espinal'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE FACATATIVÁ',
     url: '/web/juzgado-002-penal-del-circuito-de-facatativa'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE FLORENCIA',
     url: '/web/juzgado-002-penal-del-circuito-de-florencia'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE FUNZA ',
     url: '/web/juzgado-002-penal-del-circuito-de-funza-'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE FUSAGASUGÁ ',
     url: '/web/juzgado-002-penal-del-circuito-de-fusagasuga-'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE ITAGÜÍ',
     url: '/web/juzgado-002-penal-del-circuito-de-itagui'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE MANIZALES',
     url: '/web/juzgado-002-penal-del-circuito-de-manizales'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE MONTERÍA',
     url: '/web/juzgado-002-penal-del-circuito-de-monteria'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE OCAÑA',
     url: '/web/juzgado-002-penal-del-circuito-de-ocana'
   },
   {
-    agrupacion  : 'JUZGADO PENAL',
+    agrupacion: 'JUZGADO PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE PUERTO TEJADA',
     url: '/web/juzgado-002-penal-del-circuito-de-puerto-tejada'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE QUIBDÓ',
     url: '/web/juzgado-002-penal-del-circuito-de-quibdo'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE RIONEGRO',
     url: '/web/juzgado-002-penal-del-circuito-de-rionegro'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE SAN GIL',
     url: '/web/juzgado-002-penal-del-circuito-de-san-gil'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE SANTANDER DE QUILICHAO',
     url: '/web/juzgado-002-penal-del-circuito-de-santander-de-quilichao'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE SOGAMOSO',
     url: '/web/juzgado-002-penal-del-circuito-de-sogamoso'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE SOLEDAD',
     url: '/web/juzgado-002-penal-del-circuito-de-soledad'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE TURBO',
     url: '/web/juzgado-002-penal-del-circuito-de-turbo'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE VÉLEZ',
     url: '/web/juzgado-002-penal-del-circuito-de-velez'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE VILLAVICENCIO',
     url: '/web/juzgado-002-penal-del-circuito-de-villavicencio'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE YOPAL',
     url: '/web/juzgado-002-penal-del-circuito-de-yopal'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO DE ZIPAQUIRÁ ',
     url: '/web/juzgado-002-penal-del-circuito-de-zipaquira-'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 002 PENAL DEL CIRCUITO ESPECIALIZADO DE TUMACO',
@@ -20274,7 +20248,7 @@ exports.Despachos = [
     url: '/web/juzgado-002-penal-municipal-con-funcion-de-control-de-garantias-de-armenia'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL MUNICIPAL CON FUNCIÓN DE CONTROL DE GARANTÍAS DE BARRANQUILLA',
@@ -20389,126 +20363,126 @@ exports.Despachos = [
     url: '/web/juzgado-002-penal-municipal-con-funciones-mixtas-de-piedecuesta'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL MUNICIPAL DE CALARCÁ',
     url: '/web/juzgado-002-penal-municipal-de-calarca'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-002-penal-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL MUNICIPAL DE DOSQUEBRADAS',
     url: '/web/juzgado-002-penal-municipal-de-dosquebradas'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL MUNICIPAL DE DUITAMA',
     url: '/web/juzgado-002-penal-municipal-de-duitama'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL MUNICIPAL DE FACATATIVÁ',
     url: '/web/juzgado-002-penal-municipal-de-facatativa'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL MUNICIPAL DE FLORENCIA',
     url: '/web/juzgado-002-penal-municipal-de-florencia'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL MUNICIPAL DE FUSAGASUGÁ',
     url: '/web/juzgado-002-penal-municipal-de-fusagasuga'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL MUNICIPAL DE ITAGÜÍ',
     url: '/web/juzgado-002-penal-municipal-de-itagui'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL MUNICIPAL DE LOS PATIOS',
     url: '/web/juzgado-002-penal-municipal-de-los-patios'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL MUNICIPAL DE MONTERÍA',
     url: '/web/juzgado-002-penal-municipal-de-monteria'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL MUNICIPAL DE OCAÑA',
     url: '/web/juzgado-002-penal-municipal-de-ocana'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL MUNICIPAL DE PAMPLONA',
     url: '/web/juzgado-002-penal-municipal-de-pamplona'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL MUNICIPAL DE PUERTO TEJADA',
     url: '/web/juzgado-002-penal-municipal-de-puerto-tejada'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL MUNICIPAL DE SANTANDER DE QUILICHAO',
     url: '/web/juzgado-002-penal-municipal-de-santander-de-quilichao'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL MUNICIPAL DE SINCELEJO',
     url: '/web/juzgado-002-penal-municipal-de-sincelejo'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL MUNICIPAL DE SOLEDAD',
     url: '/web/juzgado-002-penal-municipal-de-soledad'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL MUNICIPAL DE YOPAL',
     url: '/web/juzgado-002-penal-municipal-de-yopal'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 002 PENAL MUNICIPAL DE ZIPAQUIRÁ',
@@ -20713,182 +20687,182 @@ exports.Despachos = [
     url: '/web/juzgado-002-penal-municipalcon-funciones-mixtas-de-giron-'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE APARTADÓ',
     url: '/web/juzgado-002-promiscuo-de-familia-del-circuito-de-apartado'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE ARAUCA',
     url: '/web/juzgado-002-promiscuo-de-familia-del-circuito-de-arauca'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE BARRANCABERMEJA',
     url: '/web/juzgado-002-promiscuo-de-familia-del-circuito-de-barrancabermeja'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE BUENAVENTURA',
     url: '/web/juzgado-002-promiscuo-de-familia-del-circuito-de-buenaventura'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE BUGA',
     url: '/web/juzgado-002-promiscuo-de-familia-del-circuito-de-buga'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE CARTAGO',
     url: '/web/juzgado-02-familia-del-circuito-de-cartago'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE CIÉNAGA',
     url: '/web/juzgado-002-promiscuo-de-familia-del-circuito-de-cienaga'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE DUITAMA',
     url: '/web/juzgado-002-promiscuo-de-familia-del-circuito-de-duitama'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE ESPINAL',
     url: '/web/juzgado-002-promiscuo-de-familia-del-circuito-de-espinal'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE FACATATIVÁ',
     url: '/web/juzgado-02-promiscuo-de-familia-del-circuito-de-facatativa'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE GARZÓN',
     url: '/web/juzgado-002-promiscuo-de-familia-del-circuito-de-garzon'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE GIRARDOT',
     url: '/web/juzgado-002-promiscuo-de-familia-del-circuito-de-girardot'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE IPIALES',
     url: '/web/juzgado-02-promiscuo-de-familia-de-ipiales'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE LA DORADA',
     url: '/web/juzgado-02-promiscuo-familia-circuito-de-la-dorada'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE LOS PATIOS',
     url: '/web/juzgado-002-promiscuo-de-familia-del-circuito-de-los-patios'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE OCAÑA',
     url: '/web/juzgado-002-promiscuo-de-familia-del-circuito-de-ocana'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE PALMIRA',
     url: '/web/juzgado-002-promiscuo-de-familia-del-circuito-de-palmira'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE PAMPLONA',
     url: '/web/juzgado-002-promiscuo-de-familia-del-circuito-de-pamplona'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE SAN ANDRÉS',
     url: '/web/juzgado-002-promiscuo-de-familia-del-circuito-de-san-andres'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE SAN GIL',
     url: '/web/juzgado-002-promiscuo-de-familia-del-circuito-de-san-gil'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE SANTANDER DE QUILICHAO',
     url: '/web/juzgado-002-promiscuo-de-familia-del-circuito-de-santander-de-quilichao'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE SOCORRO',
     url: '/web/juzgado-002-promiscuo-de-familia-del-circuito-de-socorro'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE SOGAMOSO',
     url: '/web/juzgado-02-promiscuo-de-familia-de-sogamoso'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE SOLEDAD',
     url: '/web/juzgado-002-promiscuo-de-familia-del-circuito-de-soledad'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE TULUÁ',
     url: '/web/juzgado-02-promiscuo-de-familia-del-circuito-de-tulua'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 002 PROMISCUO DE FAMILIA DEL CIRCUITO DE VÉLEZ',
@@ -22172,902 +22146,902 @@ exports.Despachos = [
     url: '/web/juzgado-002-promiscuo-municipal-de-zona-bananera'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO  DE ARAUCA ',
     url: '/web/juzgado-003-administrativo-de-arauca-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO  DE TURBO ',
     url: '/web/juzgado-003-administrativo-de-turbo-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO  DE YOPAL ',
     url: '/web/juzgado-003-administrativo-de-yopal-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE ARMENIA',
     url: '/web/juzgado-03-administrativo-de-armenia'
   },
   {
-    agrupacion  : 'JUZGADO ADMINISTRATIVO',
+    agrupacion: 'JUZGADO ADMINISTRATIVO',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE BARRANCABERMEJA',
     url: '/web/juzgado-003-administrativo-de-barrancabermeja'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE BARRANQUILLA',
     url: '/web/juzgado-03-administrativo-de-barranquilla'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE BUCARAMANGA',
     url: '/web/juzgado-03-administrativo-de-bucaramanga'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE BUENAVENTURA',
     url: '/web/juzgado-03-administrativo-de-buenaventura'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 003 ADMINISTRATIVO DE BUGA',
-    url         : '/web/juzgado-03-administrativo-de-buga'
+    nombre: 'JUZGADO 003 ADMINISTRATIVO DE BUGA',
+    url: '/web/juzgado-03-administrativo-de-buga'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 003 ADMINISTRATIVO DE CALI',
-    url         : '/web/juzgado-03-administrativo-de-cali'
+    nombre: 'JUZGADO 003 ADMINISTRATIVO DE CALI',
+    url: '/web/juzgado-03-administrativo-de-cali'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE CARTAGENA',
     url: '/web/juzgado-03-administrativo-de-cartagena'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE CARTAGO',
     url: '/web/juzgado-003-administrativo-de-cartago'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE CÚCUTA',
     url: '/web/juzgado-03-administrativo-de-cucuta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE FACATATIVÁ',
     url: '/web/juzgado-03-administrativo-de-facatativa'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE FLORENCIA',
     url: '/web/juzgado-03-administrativo-de-florencia'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE GIRARDOT',
     url: '/web/juzgado-03-administrativo-oral-de-girardot'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE IBAGUÉ',
     url: '/web/juzgado-03-administrativo-de-ibague'
   },
   {
-    agrupacion  : 'SECCIÓN PRIMERA - ORAL',
+    agrupacion: 'SECCIÓN PRIMERA - ORAL',
     especialidad: 'SECCIÓN PRIMERA - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE LA SECCIÓN PRIMERA DE BOGOTÁ',
     url: '/web/juzgado-03-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE MANIZALES',
     url: '/web/juzgado-03-administrativo-de-manizales'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-03-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE MONTERÍA',
     url: '/web/juzgado-03-administrativo-de-monteria'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 003 ADMINISTRATIVO DE NEIVA',
-    url         : '/web/juzgado-03-administrativo-de-neiva'
+    nombre: 'JUZGADO 003 ADMINISTRATIVO DE NEIVA',
+    url: '/web/juzgado-03-administrativo-de-neiva'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 003 ADMINISTRATIVO DE PASTO',
-    url         : '/web/juzgado-03-administrativo-de-pasto'
+    nombre: 'JUZGADO 003 ADMINISTRATIVO DE PASTO',
+    url: '/web/juzgado-03-administrativo-de-pasto'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE PEREIRA',
     url: '/web/juzgado-03-administrativo-de-pereira'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE POPAYÁN',
     url: '/web/juzgado-03-administrativo-de-popayan'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE QUIBDÓ',
     url: '/web/juzgado-03-administrativo-de-quibdo'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE RIOHACHA',
     url: '/web/juzgado-03-administrativo-de-riohacha'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE SAN GIL',
     url: '/web/juzgado-03-administrativo-de-san-gil'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE SANTA MARTA',
     url: '/web/juzgado-03-administrativo-de-santa-marta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE SINCELEJO',
     url: '/web/juzgado-03-administrativo-de-sincelejo'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 003 ADMINISTRATIVO DE TUNJA',
-    url         : '/web/juzgado-03-administrativo-de-tunja'
+    nombre: 'JUZGADO 003 ADMINISTRATIVO DE TUNJA',
+    url: '/web/juzgado-03-administrativo-de-tunja'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE VALLEDUPAR',
     url: '/web/juzgado-03-administrativo-de-valledupar'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO DE VILLAVICENCIO',
     url: '/web/juzgado-03-administrativo-de-villavicencio'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 003 ADMINISTRATIVO TRANSITORIO DE DUITAMA',
     url: '/web/juzgado-03-administrativo-transitorio-de-duitama'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE ARMENIA',
     url: '/web/juzgado-03-civil-del-circuito-de-armenia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE BARRANQUILLA',
     url: '/web/juzgado-003-civil-del-circuito-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-03-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE BUCARAMANGA',
     url: '/web/juzgado-003-civil-del-circuito-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE BUENAVENTURA',
     url: '/web/juzgado-003-civil-del-circuito-de-buenaventura'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE BUGA',
     url: '/web/juzgado-03-civil-circuito-de-buga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE CALI',
     url: '/web/juzgado-003-civil-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE CARTAGENA',
     url: '/web/juzgado-003-civil-del-circuito-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE CÚCUTA',
     url: '/web/juzgado-03-civil-del-circuito-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE DUITAMA',
     url: '/web/juzgado-03-civil-del-circuito-de-duitama'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-03-de-ejecucion-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE CALI',
     url: '/web/juzgado-03-de-ejecucion-civil-circuito-de-ejecucion-de-sentencias-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN',
     url: '/web/juzgado-03-de-ejecucion-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE ENVIGADO',
     url: '/web/juzgado-003-civil-del-circuito-de-envigado'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE IBAGUÉ',
     url: '/web/juzgado-003-civil-del-circuito-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE MANIZALES',
     url: '/web/juzgado-03-civil-del-circuito-de-manizales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE MEDELLÍN',
     url: '/web/juzgado-003-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE MONTERÍA',
     url: '/web/juzgado-003-civil-del-circuito-de-monteria'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE NEIVA',
     url: '/web/juzgado-003-civil-del-circuito-de-neiva'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE PALMIRA',
     url: '/web/juzgado-003-civil-del-circuito-de-palmira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE PASTO',
     url: '/web/juzgado-03-civil-del-circuito-de-pasto1'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE PEREIRA',
     url: '/web/juzgado-03-civil-del-circuito-de-pereira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE POPAYÁN',
     url: '/web/juzgado-003-civil-del-circuito-de-popayan'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE SANTA MARTA',
     url: '/web/juzgado-003-civil-del-circuito-de-santa-marta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE SINCELEJO',
     url: '/web/juzgado-003-civil-del-circuito-de-sincelejo'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE SOGAMOSO',
     url: '/web/juzgado-03-civil-del-circuito-de-sogamoso'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE TULUÁ',
     url: '/web/juzgado-003-civil-del-circuito-de-tulua'
   },
   {
-    agrupacion  : 'CIVIL ORALIDAD',
+    agrupacion: 'CIVIL ORALIDAD',
     especialidad: 'CIVIL ORALIDAD',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE TUNJA',
     url: '/web/juzgado-03-civil-del-circuito-de-tunja'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE VALLEDUPAR',
     url: '/web/juzgado-03-civil-del-circuito-de-valledupar'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE VILLAVICENCIO',
     url: '/web/juzgado-03-civil-del-circuito-de-villavicencio'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO DE YOPAL',
     url: '/web/juzgado-03-civil-del-circuito-de-yopal'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE BUGA',
     url: '/web/juzgado-03-civil-del-circuito-especializado-en-restitucion-de-tierras-de-buga'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE CALI',
     url: '/web/juzgado-03-civil-del-circuito-especializado-en-restitucion-de-tierras-de-cali'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE CARMEN DE BOLÍVAR',
     url: '/web/juzgado-03-civil-del-circuito-especializado-en-restitucion-de-tierras-de-carmen-de-bolivar'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE IBAGUÉ',
     url: '/web/juzgado-003-civil-del-circuito-especializado-en-restitucion-de-tierras-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCION DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCION DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE MOCOA',
     url: '/web/juzgado-003-civil-del-circuito-especializado-en-restitucion-de-tierras-de-mocoa'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE MONTERÍA',
     url: '/web/juzgado-03-civil-del-circuito-especializado-en-restitucion-de-tierras-de-monteria'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE PASTO',
     url: '/web/juzgado-03-civil-del-circuito-especializado-en-restitucion-de-tierras-de-pasto'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE SANTA MARTA',
     url: '/web/juzgado-003-civil-del-circuito-especializado-en-restitucion-de-tierras-de-santa-marta'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE SINCELEJO',
     url: '/web/juzgado-03-civil-del-circuito-especializado-en-restitucion-de-tierras-de-sincelejo'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE VALLEDUPAR',
     url: '/web/juzgado-03-civil-del-circuito-especializado-en-restitucion-de-tierras-de-valledupar'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL DEL CIRCUITO TRANSITORIO DE BOGOTÁ',
     url: '/web/juzgado-003-civil-del-circuito-transitorio-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE ARCH. DE SAN ANDRÉS',
     url: '/web/juzgado-003-civil-municipal-de-arch-de-san-andres'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE ARMENIA',
     url: '/web/juzgado-03-civil-municipal-de-armenia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE BARRANCABERMEJA',
     url: '/web/juzgado-003-civil-municipal-de-barrancabermeja'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE BARRANQUILLA',
     url: '/web/juzgado-003-civil-municipal-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE BELLO',
     url: '/web/juzgado-003-civil-municipal-de-bello'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-03-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-03-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE BUENAVENTURA',
     url: '/web/juzgado-003-civil-municipal-de-buenaventura'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 003 CIVIL MUNICIPAL DE BUGA',
-    url         : '/web/juzgado-003-civil-municipal-de-buga'
+    nombre: 'JUZGADO 003 CIVIL MUNICIPAL DE BUGA',
+    url: '/web/juzgado-003-civil-municipal-de-buga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 003 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-03-civil-municipal-de-cali'
+    nombre: 'JUZGADO 003 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-03-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-03-civil-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE CARTAGO',
     url: '/web/juzgado-003-civil-municipal-de-cartago'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 003 CIVIL MUNICIPAL DE CHÍA',
-    url         : '/web/juzgado-003-civil-municipal-de-chia'
+    nombre: 'JUZGADO 003 CIVIL MUNICIPAL DE CHÍA',
+    url: '/web/juzgado-003-civil-municipal-de-chia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE CÚCUTA',
     url: '/web/juzgado-03-civil-municipal-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE DOSQUEBRADAS',
     url: '/web/juzgado-003-civil-municipal-de-dosquebradas'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BARRANQUILLA',
     url: '/web/juzgado-03-de-ejecucion-civil-municipal-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-03-de-ejecucion-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BUCARAMANGA',
     url: '/web/juzgado-03-de-ejecucion-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE CALI',
     url: '/web/juzgado-03-de-ejecucion-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE CARTAGENA',
     url: '/web/juzgado-03-de-ejecucion-civil-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN',
     url: '/web/juzgado-03-de-ejecucion-civil-municipal-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE ENVIGADO',
     url: '/web/juzgado-03-civil-municipal-de-envigado'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE ESPINAL',
     url: '/web/juzgado-003-civil-municipal-de-espinal'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE FLORENCIA',
     url: '/web/juzgado-003-civil-municipal-de-florencia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE FLORIDABLANCA, ANTES 002 DE PEQUEÑAS CAUSAS Y COMPETENCIA MÚLTIPLE',
     url: '/web/juzgado-03-civil-municipal-de-floridablanca'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE FUSAGASUGÁ',
     url: '/web/juzgado-003-civil-municipal-de-fusagasuga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE GIRARDOT',
     url: '/web/juzgado-03-civil-municipal-de-girardot'
   },
   {
-    agrupacion  : 'JUZGADOS CIVIL MUNICIPAL',
+    agrupacion: 'JUZGADOS CIVIL MUNICIPAL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE GIRÓN',
     url: '/web/juzgado-003-civil-municipal-de-giron'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE IBAGUÉ',
     url: '/web/juzgado-003-civil-municipal-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE ITAGÜÍ',
     url: '/web/juzgado-003-civil-municipal-de-itagui'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE MANIZALES',
     url: '/web/juzgado-03-civil-municipal-de-manizales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE MEDELLÍN',
     url: '/web/juzgado-03-civil-municipal-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE MONTERÍA',
     url: '/web/juzgado-003-civil-municipal-de-monteria'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE NEIVA',
     url: '/web/juzgado-003-civil-municipal-de-neiva'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE OCAÑA',
     url: '/web/juzgado-003-civil-municipal-de-ocana'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE PALMIRA',
     url: '/web/juzgado-003-civil-municipal-de-palmira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE PASTO',
     url: '/web/juzgado-03-civil-municipal-de-oralidad-de-pasto'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE PEREIRA',
     url: '/web/juzgado-003-civil-municipal-de-pereira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE PIEDECUESTA',
     url: '/web/juzgado-003-civil-municipal-de-piedecuesta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE PITALITO',
     url: '/web/juzgado-003-civil-municipal-de-pitalito'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE POPAYÁN',
     url: '/web/juzgado-003-civil-municipal-de-popayan'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE RIOHACHA',
     url: '/web/juzgado-003-civil-municipal-de-riohacha'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE SANTA MARTA',
     url: '/web/juzgado-003-civil-municipal-de-santa-marta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE SINCELEJO',
     url: '/web/juzgado-003-civil-municipal-de-sincelejo'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE SOACHA',
     url: '/web/juzgado-003-civil-municipal-de-soacha'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE SOGAMOSO',
     url: '/web/juzgado-003-civil-municipal-de-sogamoso'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE SOLEDAD',
     url: '/web/juzgado-003-civil-municipal-de-soledad'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE TULUÁ',
     url: '/web/juzgado-03-civil-municipal-de-tulua'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE TUNJA',
     url: '/web/juzgado-03-civil-municipal-de-oralidad-de-tunja'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE VALLEDUPAR',
     url: '/web/juzgado-03-civil-municipal-de-valledupar'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE VILLAVICENCIO',
     url: '/web/juzgado-03-civil-municipal-de-villavicencio'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE YOPAL',
     url: '/web/juzgado-003-civil-municipal-de-yopal'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 CIVIL MUNICIPAL DE ZIPAQUIRÁ',
     url: '/web/juzgado-003-civil-municipal-de-zipaquira'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 003 DE EJECUCIÓN CIVIL MUNICIPAL DE MONTERÍA',
@@ -23200,132 +23174,132 @@ exports.Despachos = [
     url: '/web/juzgado-003-de-ejecucion-de-penas-y-medidas-de-seguridad-de-villavicencio'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 003 DE EJECUCIÓN EN ASUNTOS DE FAMILIA DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-03-ejecucion-de-familia-circuito-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 003 DE FAMILIA DE ARMENIA',
-    url         : '/web/juzgado-03-familia-del-circuito-de-armenia'
+    nombre: 'JUZGADO 003 DE FAMILIA DE ARMENIA',
+    url: '/web/juzgado-03-familia-del-circuito-de-armenia'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 003 DE FAMILIA DE BARRANQUILLA',
     url: '/web/juzgado-003-de-familia-de-barranquilla'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 003 DE FAMILIA DE BELLO',
-    url         : '/web/juzgado-003-de-familia-de-bello'
+    nombre: 'JUZGADO 003 DE FAMILIA DE BELLO',
+    url: '/web/juzgado-003-de-familia-de-bello'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 003 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-003-de-familia-de-bogota'
+    nombre: 'JUZGADO 003 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-003-de-familia-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 003 DE FAMILIA DE BUCARAMANGA',
     url: '/web/juzgado-003-de-familia-de-bucaramanga'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 003 DE FAMILIA DE CALI',
-    url         : '/web/juzgado-003-de-familia-de-cali'
+    nombre: 'JUZGADO 003 DE FAMILIA DE CALI',
+    url: '/web/juzgado-003-de-familia-de-cali'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 003 DE FAMILIA DE CARTAGENA',
-    url         : '/web/juzgado-03-familia-del-circuito-de-cartagena'
+    nombre: 'JUZGADO 003 DE FAMILIA DE CARTAGENA',
+    url: '/web/juzgado-03-familia-del-circuito-de-cartagena'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 003 DE FAMILIA DE CÚCUTA',
-    url         : '/web/juzgado-03-familia-del-circuito-de-cucuta'
+    nombre: 'JUZGADO 003 DE FAMILIA DE CÚCUTA',
+    url: '/web/juzgado-03-familia-del-circuito-de-cucuta'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 003 DE FAMILIA DE IBAGUÉ',
-    url         : '/web/juzgado-03-familia-del-circuito-de-ibague'
+    nombre: 'JUZGADO 003 DE FAMILIA DE IBAGUÉ',
+    url: '/web/juzgado-03-familia-del-circuito-de-ibague'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 003 DE FAMILIA DE MANIZALES',
-    url         : '/web/juzgado-003-de-familia-de-manizales'
+    nombre: 'JUZGADO 003 DE FAMILIA DE MANIZALES',
+    url: '/web/juzgado-003-de-familia-de-manizales'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 003 DE FAMILIA DE MEDELLÍN',
-    url         : '/web/juzgado-003-de-familia-de-medellin'
+    nombre: 'JUZGADO 003 DE FAMILIA DE MEDELLÍN',
+    url: '/web/juzgado-003-de-familia-de-medellin'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 003 DE FAMILIA DE MONTERÍA',
-    url         : '/web/juzgado-003-de-familia-de-monteria'
+    nombre: 'JUZGADO 003 DE FAMILIA DE MONTERÍA',
+    url: '/web/juzgado-003-de-familia-de-monteria'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 003 DE FAMILIA DE NEIVA',
-    url         : '/web/juzgado-003-de-familia-de-neiva'
+    nombre: 'JUZGADO 003 DE FAMILIA DE NEIVA',
+    url: '/web/juzgado-003-de-familia-de-neiva'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 003 DE FAMILIA DE PASTO',
-    url         : '/web/juzgado-03-familia-del-circuito-de-pasto'
+    nombre: 'JUZGADO 003 DE FAMILIA DE PASTO',
+    url: '/web/juzgado-03-familia-del-circuito-de-pasto'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 003 DE FAMILIA DE PEREIRA',
-    url         : '/web/juzgado-003-de-familia-de-pereira'
+    nombre: 'JUZGADO 003 DE FAMILIA DE PEREIRA',
+    url: '/web/juzgado-003-de-familia-de-pereira'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 003 DE FAMILIA DE POPAYÁN',
-    url         : '/web/juzgado-003-de-familia-de-popayan'
+    nombre: 'JUZGADO 003 DE FAMILIA DE POPAYÁN',
+    url: '/web/juzgado-003-de-familia-de-popayan'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 003 DE FAMILIA DE SANTA MARTA',
     url: '/web/juzgado-003-de-familia-de-santa-marta'
   },
   {
-    agrupacion  : 'FAMILIA ORALIDAD',
+    agrupacion: 'FAMILIA ORALIDAD',
     especialidad: 'FAMILIA ORALIDAD',
-    nombre      : 'JUZGADO 003 DE FAMILIA DE TUNJA',
-    url         : '/web/juzgado-003-de-familia-de-tunja'
+    nombre: 'JUZGADO 003 DE FAMILIA DE TUNJA',
+    url: '/web/juzgado-003-de-familia-de-tunja'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 003 DE FAMILIA DE VALLEDUPAR',
     url: '/web/juzgado-03-familia-del-circuito-de-valledupar'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 003 DE FAMILIA DE VILLAVICENCIO',
@@ -23484,266 +23458,266 @@ exports.Despachos = [
     url: '/web/juzgado-003-de-pequenas-causas-y-competencia-multiple-transitorio-de-sincelejo'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 LABORAL DEL CIRCUITO DE ARMENIA - QUINDÍO',
     url: '/web/juzgado-003-laboral-de-armenia'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 LABORAL DEL CIRCUITO DE BARRANQUILLA - ATLÁNTICO',
     url: '/web/juzgado-003-laboral-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-003-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 LABORAL DEL CIRCUITO DE BUCARAMANGA - SANTANDER',
     url: '/web/juzgado-003-laboral-de-bucaramanga'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 LABORAL DEL CIRCUITO DE BUENAVENTURA - VALLE DEL CAUCA',
     url: '/web/juzgado-003-laboral-de-buenaventura'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 LABORAL DEL CIRCUITO DE CALI - VALLE DEL CAUCA',
     url: '/web/juzgado-003-laboral-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 LABORAL DEL CIRCUITO DE CARTAGENA - BOLÍVAR',
     url: '/web/juzgado-03-laboral-del-circuito-de-cartagena'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 LABORAL DEL CIRCUITO DE CÚCUTA - NORTE DE SANTANDER',
     url: '/web/juzgado-03-laboral-del-circuito-de-cucuta'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 LABORAL DEL CIRCUITO DE IBAGUÉ - TOLIMA',
     url: '/web/juzgado-003-laboral-de-ibague'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 LABORAL DEL CIRCUITO DE MANIZALES - CALDAS',
     url: '/web/juzgado-03-laboral-del-circuito-de-manizales'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
     url: '/web/juzgado-003-laboral-de-medellin'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 LABORAL DEL CIRCUITO DE MONTERÍA - CÓRDOBA',
     url: '/web/juzgado-003-laboral-de-monteria'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 LABORAL DEL CIRCUITO DE NEIVA - HUILA',
     url: '/web/juzgado-003-laboral-de-neiva'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 LABORAL DEL CIRCUITO DE PALMIRA - VALLE DEL CAUCA',
     url: '/web/juzgado-003-laboral-de-palmira'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 LABORAL DEL CIRCUITO DE PASTO - NARIÑO',
     url: '/web/juzgado-003-laboral-de-pasto'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 LABORAL DEL CIRCUITO DE PEREIRA - RISARALDA',
     url: '/web/juzgado-003-laboral-de-pereira'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 LABORAL DEL CIRCUITO DE POPAYÁN - CAUCA',
     url: '/web/juzgado-003-laboral-de-popayan'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 LABORAL DEL CIRCUITO DE SANTA MARTA - MAGDALENA',
     url: '/web/juzgado-003-laboral-de-santa-marta'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 LABORAL DEL CIRCUITO DE SINCELEJO - SUCRE',
     url: '/web/juzgado-003-laboral-de-sincelejo'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 LABORAL DEL CIRCUITO DE TUNJA - BOYACÁ',
     url: '/web/juzgado-003-laboral-de-tunja'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 LABORAL DEL CIRCUITO DE VALLEDUPAR - CESAR',
     url: '/web/juzgado-003-laboral-de-valledupar'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 LABORAL DEL CIRCUITO DE VILLAVICENCIO - META',
     url: '/web/juzgado-003-laboral-de-villavicencio'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE BARRANQUILLA',
     url: '/web/juzgado-003-municipal-de-pequenas-causas-laborales-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE BOGOTÁ',
     url: '/web/juzgado-03-de-pequenas-causas-laborales-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE BUCARAMANGA',
     url: '/web/juzgado-003-municipal-de-pequenas-causas-laborales-de-bucaramanga'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE CALI',
     url: '/web/juzgado-03-municipal-de-pequenas-causas-laborales-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE CARTAGENA',
     url: '/web/juzgado-003-municipal-de-pequenas-causas-laborales-de-cartagena'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 003 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE MEDELLÍN',
     url: '/web/juzgado-003-municipal-de-pequenas-causas-laborales-de-medellin'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 003 PENAL DE CIRCUITO ESPECIALIZADO DE ANTIOQUIA',
     url: '/web/juzgado-003-penal-de-circuito-especializado-de-antioquia'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 003 PENAL DE CIRCUITO ESPECIALIZADO DE BOGOTÁ',
     url: '/web/juzgado-003-penal-de-circuito-especializado-de-bogota'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 003 PENAL DE CIRCUITO ESPECIALIZADO DE BUGA',
     url: '/web/juzgado-003-penal-de-circuito-especializado-de-buga'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 003 PENAL DE CIRCUITO ESPECIALIZADO DE CALI',
     url: '/web/juzgado-003-penal-de-circuito-especializado-de-cali'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 003 PENAL DE CIRCUITO ESPECIALIZADO DE MEDELLÍN',
     url: '/web/juzgado-003-penal-de-circuito-especializado-de-medellin'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 003 PENAL DE CIRCUITO ESPECIALIZADO DE NEIVA',
     url: '/web/juzgado-003-penal-de-circuito-especializado-de-neiva'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 003 PENAL DE CIRCUITO ESPECIALIZADO DE POPAYÁN ',
     url: '/web/juzgado-003-penal-de-circuito-especializado-de-popayan-'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 003 PENAL DE CIRCUITO ESPECIALIZADO DE VILLAVICENCIO',
     url: '/web/juzgado-003-penal-de-circuito-especializado-de-villavicencio'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 003 PENAL DE CIRCUITO ESPECIALIZADO ITINERANTE DE FLORENCIA ',
     url: '/web/juzgado-003-penal-de-circuito-especializado-itinerante-de-florencia-'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 003 PENAL DE CIRCUITO ESPECIALIZADO ITINERANTE DE PEREIRA',
@@ -23849,105 +23823,105 @@ exports.Despachos = [
     url: '/web/juzgado-003-penal-del-circuito-con-funcion-de-conocimiento-de-tunja'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL DEL CIRCUITO DE BUCARAMANGA',
     url: '/web/juzgado-003-penal-del-circuito-de-bucaramanga'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL DEL CIRCUITO DE BUGA',
     url: '/web/juzgado-003-penal-del-circuito-de-buga'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL DEL CIRCUITO DE CARTAGENA',
     url: '/web/juzgado-003-penal-del-circuito-de-cartagena'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL DEL CIRCUITO DE FLORENCIA',
     url: '/web/juzgado-003-penal-del-circuito-de-florencia'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL DEL CIRCUITO DE FUNZA',
     url: '/web/juzgado-003-penal-del-circuito-de-funza'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL DEL CIRCUITO DE MANIZALES',
     url: '/web/juzgado-003-penal-del-circuito-de-manizales'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL DEL CIRCUITO DE MONTERÍA',
     url: '/web/juzgado-003-penal-del-circuito-de-monteria'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL DEL CIRCUITO DE QUIBDÓ ',
     url: '/web/juzgado-003-penal-del-circuito-de-quibdo-'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL DEL CIRCUITO DE RIOHACHA',
     url: '/web/juzgado-003-penal-del-circuito-de-riohacha'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL DEL CIRCUITO DE SINCELEJO',
     url: '/web/juzgado-003-penal-del-circuito-de-sincelejo'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL DEL CIRCUITO DE SOCORRO',
     url: '/web/juzgado-003-penal-del-circuito-de-socorro'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL DEL CIRCUITO DE TULUÁ',
     url: '/web/juzgado-003-penal-del-circuito-de-tulua'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL DEL CIRCUITO DE VALLEDUPAR',
     url: '/web/juzgado-003-penal-del-circuito-de-valledupar'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL DEL CIRCUITO DE VILLAVICENCIO',
     url: '/web/juzgado-003-penal-del-circuito-de-villavicencio'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL DEL CIRCUITO DE YOPAL',
@@ -24161,63 +24135,63 @@ exports.Despachos = [
     url: '/web/juzgado-003-penal-municipal-con-funcion-de-control-de-garantias-de-valledupar'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-003-penal-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL MUNICIPAL DE CHIQUINQUIRÁ',
     url: '/web/juzgado-003-penal-municipal-de-chiquinquira'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL MUNICIPAL DE CÚCUTA',
     url: '/web/juzgado-003-penal-municipal-de-cucuta'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL MUNICIPAL DE DUITAMA',
     url: '/web/juzgado-003-penal-municipal-de-duitama'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL MUNICIPAL DE FLORENCIA',
     url: '/web/juzgado-003-penal-municipal-de-florencia'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL MUNICIPAL DE GIRARDOT',
     url: '/web/juzgado-003-penal-municipal-de-girardot'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL MUNICIPAL DE MONTERÍA',
     url: '/web/juzgado-003-penal-municipal-de-monteria'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL MUNICIPAL DE OCAÑA',
     url: '/web/juzgado-003-penal-municipal-de-ocana'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 003 PENAL MUNICIPAL DE SINCELEJO',
@@ -24314,28 +24288,28 @@ exports.Despachos = [
     url: '/web/juzgado-003-penal-municipal-para-adolescentes-con-funcion-de-control-de-garantias-de-tunja'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 003 PROMISCUO DE FAMILIA DEL CIRCUITO DE BARRANCABERMEJA',
     url: '/web/juzgado-003-promiscuo-de-familia-del-circuito-de-barrancabermeja'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 003 PROMISCUO DE FAMILIA DEL CIRCUITO DE PALMIRA',
     url: '/web/juzgado-003-promiscuo-de-familia-del-circuito-de-palmira'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 003 PROMISCUO DE FAMILIA DEL CIRCUITO DE SOGAMOSO',
     url: '/web/juzgado-03-promiscuo-de-familia-de-sogamoso'
   },
   {
-    agrupacion  : 'PROMISCUO DE FAMILIA',
+    agrupacion: 'PROMISCUO DE FAMILIA',
     especialidad: 'PROMISCUO DE FAMILIA',
     nombre:
       'JUZGADO 003 PROMISCUO DE FAMILIA DEL CIRCUITO DE SOLEDAD',
@@ -24630,629 +24604,629 @@ exports.Despachos = [
     url: '/web/juzgado-003-promiscuo-municipal-de-villa-rosario'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 004 ADMINISTRATIVO  DE RIOHACHA ',
     url: '/web/juzgado-004-administrativo-de-riohacha-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 004 ADMINISTRATIVO DE ARMENIA',
     url: '/web/juzgado-04-administrativo-de-armenia'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 004 ADMINISTRATIVO DE BARRANQUILLA',
     url: '/web/juzgado-04-administrativo-de-barranquilla'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'JUZGADO 004 ADMINISTRATIVO DE BUCARAMANGA',
     url: '/web/juzgado-04-administrativo-de-bucaramanga'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 004 ADMINISTRATIVO DE BUGA',
-    url         : '/web/juzgado-004-administrativo-de-buga'
+    nombre: 'JUZGADO 004 ADMINISTRATIVO DE BUGA',
+    url: '/web/juzgado-004-administrativo-de-buga'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 004 ADMINISTRATIVO DE CALI',
-    url         : '/web/juzgado-04-administrativo-oral-del-circuito-de-cali'
+    nombre: 'JUZGADO 004 ADMINISTRATIVO DE CALI',
+    url: '/web/juzgado-04-administrativo-oral-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 004 ADMINISTRATIVO DE CARTAGENA',
     url: '/web/juzgado-04-administrativo-de-cartagena'
   },
   {
-    agrupacion  : 'JUZGADO ADMINISTRATYIVO',
+    agrupacion: 'JUZGADO ADMINISTRATYIVO',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 004 ADMINISTRATIVO DE CARTAGO',
     url: '/web/juzgado-004-administrativo-de-cartago'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 004 ADMINISTRATIVO DE CÚCUTA',
     url: '/web/juzgado-04-administrativo-de-cucuta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 004 ADMINISTRATIVO DE FACATATIVÁ',
     url: '/web/juzgado-004-administrativo-de-facatativa'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 004 ADMINISTRATIVO DE FLORENCIA',
     url: '/web/juzgado-04-administrativo-de-florencia'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 004 ADMINISTRATIVO DE IBAGUÉ',
     url: '/web/juzgado-04-administrativo-de-ibague'
   },
   {
-    agrupacion  : 'SECCIÓN PRIMERA - ORAL',
+    agrupacion: 'SECCIÓN PRIMERA - ORAL',
     especialidad: 'SECCIÓN PRIMERA - ORAL',
     nombre:
       'JUZGADO 004 ADMINISTRATIVO DE LA SECCIÓN PRIMERA DE BOGOTÁ',
     url: '/web/juzgado-04-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 004 ADMINISTRATIVO DE MANIZALES',
     url: '/web/juzgado-04-administrativo-de-manizales'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 004 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-04-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 004 ADMINISTRATIVO DE MONTERÍA',
     url: '/web/juzgado-04-administrativo-mixto-de-monteria'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 004 ADMINISTRATIVO DE NEIVA',
-    url         : '/web/juzgado-04-administrativo-de-neiva.'
+    nombre: 'JUZGADO 004 ADMINISTRATIVO DE NEIVA',
+    url: '/web/juzgado-04-administrativo-de-neiva.'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 004 ADMINISTRATIVO DE PASTO',
-    url         : '/web/juzgado-04-administrativo-de-pasto'
+    nombre: 'JUZGADO 004 ADMINISTRATIVO DE PASTO',
+    url: '/web/juzgado-04-administrativo-de-pasto'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 004 ADMINISTRATIVO DE PEREIRA',
     url: '/web/juzgado-04-administrativo-de-pereira'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 004 ADMINISTRATIVO DE POPAYÁN',
     url: '/web/juzgado-04-administrativo-de-popayan'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 004 ADMINISTRATIVO DE QUIBDÓ',
     url: '/web/juzgado-04-administrativo-de-quibdo'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 004 ADMINISTRATIVO DE SANTA MARTA',
     url: '/web/juzgado-04-administrativo-de-santa-marta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 004 ADMINISTRATIVO DE SINCELEJO',
     url: '/web/juzgado-04-administrativo-de-sincelejo'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 004 ADMINISTRATIVO DE TUNJA',
-    url         : '/web/juzgado-04-administrativo-de-tunja'
+    nombre: 'JUZGADO 004 ADMINISTRATIVO DE TUNJA',
+    url: '/web/juzgado-04-administrativo-de-tunja'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 004 ADMINISTRATIVO DE TURBO',
-    url         : '/web/juzgado-004-administrativo-de-turbo'
+    nombre: 'JUZGADO 004 ADMINISTRATIVO DE TURBO',
+    url: '/web/juzgado-004-administrativo-de-turbo'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 004 ADMINISTRATIVO DE VALLEDUPAR',
     url: '/web/juzgado-04-administrativo-de-valledupar'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 004 ADMINISTRATIVO DE VILLAVICENCIO',
     url: '/web/juzgado-04-administrativo-de-villavicencio'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'ADMINISTRATIVA',
-    nombre      : 'JUZGADO 004 ADMINISTRATIVO DE YOPAL',
-    url         : '/web/juzgado-004-administrativo-de-yopal'
+    nombre: 'JUZGADO 004 ADMINISTRATIVO DE YOPAL',
+    url: '/web/juzgado-004-administrativo-de-yopal'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO DE BARRANQUILLA',
     url: '/web/juzgado-004-civil-del-circuito-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-04-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO DE BUCARAMANGA',
     url: '/web/juzgado-004-civil-del-circuito-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO DE CALI',
     url: '/web/juzgado-04-civil-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO DE CARTAGENA',
     url: '/web/juzgado-04-civil-del-circuito-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO DE CÚCUTA',
     url: '/web/juzgado-04-civil-del-circuito-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-04-de-ejecucion-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN ',
     url: '/web/juzgado-004-civil-del-circuito-de-ejecucion-de-sentencias-de-medellin-'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO DE IBAGUÉ',
     url: '/web/juzgado-004-civil-del-circuito-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO DE MANIZALES',
     url: '/web/juzgado-004-civil-del-circuito-de-manizales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO DE MEDELLÍN',
     url: '/web/juzgado-004-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO DE MONTERÍA',
     url: '/web/juzgado-04-civil-del-circuito-de-monteria'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO DE NEIVA',
     url: '/web/juzgado-04-civil-del-circuito-de-neiva'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO DE PALMIRA',
     url: '/web/juzgado-004-civil-del-circuito-de-palmira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO DE PASTO',
     url: '/web/juzgado-04-civil-del-circuito-de-pasto'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO DE PEREIRA',
     url: '/web/juzgado-04-civil-del-circuito-de-pereira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO DE POPAYÁN',
     url: '/web/juzgado-004-civil-del-circuito-de-popayan'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO DE SANTA MARTA',
     url: '/web/juzgado-004-civil-del-circuito-de-santa-marta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO DE SINCELEJO',
     url: '/web/juzgado-004-civil-del-circuito-de-sincelejo'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO DE TUNJA',
     url: '/web/juzgado-04-civil-del-circuito-de-tunja'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO DE VALLEDUPAR',
     url: '/web/juzgado-004-civil-del-circuito-de-valledupar'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO DE VILLAVICENCIO',
     url: '/web/juzgado-04-civil-del-circuito-de-villavicencio'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE PASTO',
     url: '/web/juzgado-04-civil-del-circuito-especializado-en-restitucion-de-tierras-de-pasto'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 004 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE SINCELEJO',
     url: '/web/juzgado-04-civil-del-circuito-especializado-en-restitucion-de-tierras-de-sincelejo'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL (J05PCCM) DE SOACHA',
     url: '/web/juzgado-04-civil-municipal-de-soacha'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE ARMENIA',
     url: '/web/juzgado-04-civil-municipal-de-armenia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE BARRANCABERMEJA',
     url: '/web/juzgado-004-civil-municipal-de-barrancabermeja'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE BARRANQUILLA',
     url: '/web/juzgado-004-civil-municipal-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE BELLO ',
     url: '/web/juzgado-004-civil-municipal-de-bello-'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-04-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-04-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE BUENAVENTURA',
     url: '/web/juzgado-004-civil-municipal-de-buenaventura'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 004 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-04-civil-municipal-de-cali'
+    nombre: 'JUZGADO 004 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-04-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-04-civil-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE CÚCUTA',
     url: '/web/juzgado-04-civil-municipal-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE DUITAMA',
     url: '/web/juzgado-004-civil-municipal-de-duitama'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BARRANQUILLA',
     url: '/web/juzgado-04-de-ejecucion-civil-municipal-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-04-de-ejecucion-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BUCARAMANGA',
     url: '/web/juzgado-04-de-ejecucion-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE CALI',
     url: '/web/juzgado-04-de-ejecucion-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN',
     url: '/web/juzgado-04-de-ejecucion-civil-municipal-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE ESPINAL',
     url: '/web/juzgado-004-civil-municipal-de-espinal'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE FLORENCIA',
     url: '/web/juzgado-004-civil-municipal-de-florencia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE FLORIDABLANCA',
     url: '/web/juzgado-04-civil-municipal-de-floridablanca'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE GIRARDOT',
     url: '/web/juzgado-004-civil-municipal-de-girardot'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE IBAGUÉ',
     url: '/web/juzgado-004-civil-municipal-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE MANIZALES',
     url: '/web/juzgado-004-civil-municipal-de-manizales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE MEDELLÍN',
     url: '/web/juzgado-004-civil-municipal-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE MONTERÍA ANTES JUZ 003 PCCM DE MONTERÍA',
     url: '/web/juzgado-004-civil-municipal-de-monteria'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE NEIVA',
     url: '/web/juzgado-004-civil-municipal-de-neiva'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE ORALIDAD DE TUNJA',
     url: '/web/juzgado-04-civil-municipal-de-oralidad-de-tunja'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE PALMIRA',
     url: '/web/juzgado-004-civil-municipal-de-palmira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE PASTO',
     url: '/web/juzgado-04-civil-municipal-de-oralidad-de-pasto'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE PIEDECUESTA',
     url: '/web/juzgado-004-civil-municipal-de-piedecuesta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE SANTA MARTA',
     url: '/web/juzgado-004-civil-municipal-de-santa-marta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE SOGAMOSO',
     url: '/web/juzgado-04-civil-municipal-de-sogamoso'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE SOLEDAD',
     url: '/web/juzgado-004-civil-municipal-de-soledad'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE TULUÁ',
     url: '/web/juzgado-04-civil-municipal-de-tulua'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE VALLEDUPAR',
     url: '/web/juzgado-04-civil-municipal-de-valledupar'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE VILLAVICENCIO',
     url: '/web/juzgado-04-civil-municipal-de-villavicencio'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPAL DE YOPAL',
     url: '/web/juzgado-004-civil-municipal-de-yopal'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 CIVIL MUNICIPALDE PEREIRA',
     url: '/web/juzgado-004-civil-municipalde-pereira'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 004 DE EJECUCIÓN CIVIL MUNICIPAL DE MONTERÍA',
@@ -25340,95 +25314,95 @@ exports.Despachos = [
     url: '/web/juzgado-004-de-ejecucion-de-penas-y-medidas-de-seguridad-de-popayan'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 004 DE FAMILIA DE ARMENIA',
-    url         : '/web/juzgado-04-familia-del-circuito-de-armenia'
+    nombre: 'JUZGADO 004 DE FAMILIA DE ARMENIA',
+    url: '/web/juzgado-04-familia-del-circuito-de-armenia'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 004 DE FAMILIA DE BARRANQUILLA',
     url: '/web/juzgado-004-de-familia-de-barranquilla'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 004 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-04-familia-del-circuito-de-bogota'
+    nombre: 'JUZGADO 004 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-04-familia-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 004 DE FAMILIA DE BUCARAMANGA',
     url: '/web/juzgado-004-de-familia-de-bucaramanga'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 004 DE FAMILIA DE CALI',
-    url         : '/web/juzgado-04-familia-del-circuito-de-cali'
+    nombre: 'JUZGADO 004 DE FAMILIA DE CALI',
+    url: '/web/juzgado-04-familia-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 004 DE FAMILIA DE CARTAGENA',
-    url         : '/web/juzgado-004-de-familia-de-cartagena'
+    nombre: 'JUZGADO 004 DE FAMILIA DE CARTAGENA',
+    url: '/web/juzgado-004-de-familia-de-cartagena'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 004 DE FAMILIA DE CÚCUTA',
-    url         : '/web/juzgado-04-familia-del-circuito-de-cucuta'
+    nombre: 'JUZGADO 004 DE FAMILIA DE CÚCUTA',
+    url: '/web/juzgado-04-familia-del-circuito-de-cucuta'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 004 DE FAMILIA DE IBAGUÉ',
-    url         : '/web/juzgado-04-familia-del-circuito-de-ibague'
+    nombre: 'JUZGADO 004 DE FAMILIA DE IBAGUÉ',
+    url: '/web/juzgado-04-familia-del-circuito-de-ibague'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 004 DE FAMILIA DE MANIZALES',
-    url         : '/web/juzgado-004-de-familia-de-manizales'
+    nombre: 'JUZGADO 004 DE FAMILIA DE MANIZALES',
+    url: '/web/juzgado-004-de-familia-de-manizales'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 004 DE FAMILIA DE NEIVA',
-    url         : '/web/juzgado-04-familia-del-circuito-de-neiva'
+    nombre: 'JUZGADO 004 DE FAMILIA DE NEIVA',
+    url: '/web/juzgado-04-familia-del-circuito-de-neiva'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 004 DE FAMILIA DE PASTO',
-    url         : '/web/juzgado-04-familia-del-circuito-de-pasto'
+    nombre: 'JUZGADO 004 DE FAMILIA DE PASTO',
+    url: '/web/juzgado-04-familia-del-circuito-de-pasto'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 004 DE FAMILIA DE PEREIRA',
-    url         : '/web/juzgado-004-de-familia-de-pereira'
+    nombre: 'JUZGADO 004 DE FAMILIA DE PEREIRA',
+    url: '/web/juzgado-004-de-familia-de-pereira'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 004 DE FAMILIA DE SANTA MARTA',
     url: '/web/juzgado-004-de-familia-de-santa-marta'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 004 DE FAMILIA DE VILLAVICENCIO',
     url: '/web/juzgado-04-familia-del-circuito-de-villavicencio'
   },
   {
-    agrupacion  : 'FAMILIA ORALIDAD',
+    agrupacion: 'FAMILIA ORALIDAD',
     especialidad: 'FAMILIA ORALIDAD',
     nombre:
       'JUZGADO 004 DE FAMILIA ORALIDAD DE MEDELLÍN',
@@ -25539,189 +25513,189 @@ exports.Despachos = [
     url: '/web/juzgado-004-de-pequenas-causas-y-competencia-multiple-transitorio-de-sincelejo'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 004 LABORAL DEL CIRCUITO DE ARMENIA - QUINDÍO',
     url: '/web/juzgado-004-laboral-de-armenia'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 004 LABORAL DEL CIRCUITO DE BARRANQUILLA - ATLÁNTICO',
     url: '/web/juzgado-004-laboral-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 004 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-04-laboral-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 004 LABORAL DEL CIRCUITO DE BUCARAMANGA - SANTANDER',
     url: '/web/juzgado-004-laboral-del-circuito-de-bucaramanga'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 004 LABORAL DEL CIRCUITO DE CALI - VALLE DEL CAUCA',
     url: '/web/juzgado-004-laboral-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 004 LABORAL DEL CIRCUITO DE CARTAGENA - BOLÍVAR',
     url: '/web/juzgado-04-laboral-del-circuito-de-cartagena'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 004 LABORAL DEL CIRCUITO DE CÚCUTA - NORTE DE SANTANDER',
     url: '/web/juzgado-004-laboral-del-circuito-de-cucuta-norte-de-santander'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 004 LABORAL DEL CIRCUITO DE IBAGUÉ - TOLIMA',
     url: '/web/juzgado-04-laboral-del-circuito-de-ibague'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 004 LABORAL DEL CIRCUITO DE MANIZALES - CALDAS',
     url: '/web/juzgado-004-laboral-del-circuito-de-manizales-caldas'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 004 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
     url: '/web/juzgado-004-laboral-de-medellin'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 004 LABORAL DEL CIRCUITO DE MONTERÍA - CÓRDOBA',
     url: '/web/juzgado-004-laboral-de-monteria'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 004 LABORAL DEL CIRCUITO DE NEIVA - HUILA',
     url: '/web/juzgado-004-laboral-del-circuito-de-neiva-huila'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 004 LABORAL DEL CIRCUITO DE PEREIRA - RISARALDA',
     url: '/web/juzgado-004-laboral-de-pereira'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 004 LABORAL DEL CIRCUITO DE SANTA MARTA - MAGDALENA',
     url: '/web/juzgado-004-laboral-de-santa-marta'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 004 LABORAL DEL CIRCUITO DE TUNJA - BOYACÁ',
     url: '/web/juzgado-004-laboral-de-tunja'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 004 LABORAL DEL CIRCUITO DE VALLEDUPAR - CESAR',
     url: '/web/juzgado-004-laboral-de-valledupar'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 004 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE BARRANQUILLA',
     url: '/web/juzgado-004-municipal-de-pequenas-causas-laborales-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 004 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE BOGOTÁ',
     url: '/web/juzgado-04-de-pequenas-causas-laborales-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 004 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE CALI',
     url: '/web/juzgado-04-municipal-de-pequenas-causas-laborales-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 004 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE CARTAGENA',
     url: '/web/juzgado-04-municipal-de-pequenas-causas-laborales-de-cartagena'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 004 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE MEDELLÍN',
     url: '/web/juzgado-004-municipal-de-pequenas-causas-laborales-de-medellin'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 004 PENAL DE CIRCUITO ESPECIALIZADO DE ANTIOQUIA',
     url: '/web/juzgado-004-penal-de-circuito-especializado-de-antioquia'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 004 PENAL DE CIRCUITO ESPECIALIZADO DE BOGOTÁ',
     url: '/web/juzgado-004-penal-de-circuito-especializado-de-bogota'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 004 PENAL DE CIRCUITO ESPECIALIZADO DE MEDELLÍN',
     url: '/web/juzgado-004-penal-de-circuito-especializado-de-medellin'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 004 PENAL DE CIRCUITO ESPECIALIZADO DE VALLEDUPAR',
     url: '/web/juzgado-004-penal-de-circuito-especializado-de-valledupar'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 004 PENAL DE CIRCUITO ESPECIALIZADO DE VILLAVICENCIO',
     url: '/web/juzgado-004-penal-de-circuito-especializado-de-villavicencio'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 004 PENAL DE CIRCUITO ESPECIALIZADO ITINERANTE DE POPAYÁN',
@@ -25773,70 +25747,70 @@ exports.Despachos = [
     url: '/web/juzgado-004-penal-del-circuito-con-funcion-de-conocimiento-de-tunja'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 004 PENAL DEL CIRCUITO DE CARTAGENA',
     url: '/web/juzgado-004-penal-del-circuito-de-cartagena'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 004 PENAL DEL CIRCUITO DE MANIZALES',
     url: '/web/juzgado-004-penal-del-circuito-de-manizales'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 004 PENAL DEL CIRCUITO DE MONTERÍA',
     url: '/web/juzgado-004-penal-del-circuito-de-monteria'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 004 PENAL DEL CIRCUITO DE NEIVA',
     url: '/web/juzgado-004-penal-del-circuito-de-neiva'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 004 PENAL DEL CIRCUITO DE PALMIRA',
     url: '/web/juzgado-004-penal-del-circuito-de-palmira'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 004 PENAL DEL CIRCUITO DE PEREIRA',
     url: '/web/juzgado-004-penal-del-circuito-de-pereira'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 004 PENAL DEL CIRCUITO DE POPAYÁN',
     url: '/web/juzgado-004-penal-del-circuito-de-popayan'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 004 PENAL DEL CIRCUITO DE SANTA MARTA',
     url: '/web/juzgado-004-penal-del-circuito-de-santa-marta'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 004 PENAL DEL CIRCUITO DE SINCELEJO',
     url: '/web/juzgado-004-penal-del-circuito-de-sincelejo'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 004 PENAL DEL CIRCUITO DE VILLAVICENCIO',
@@ -25958,63 +25932,63 @@ exports.Despachos = [
     url: '/web/juzgado-004-penal-municipal-con-funcion-de-control-de-garantias-de-zipaquira'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 004 PENAL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-004-penal-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 004 PENAL MUNICIPAL DE CARTAGO',
     url: '/web/juzgado-004-penal-municipal-de-cartago'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 004 PENAL MUNICIPAL DE CÚCUTA',
     url: '/web/juzgado-004-penal-municipal-de-cucuta'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 004 PENAL MUNICIPAL DE DUITAMA',
     url: '/web/juzgado-004-penal-municipal-de-duitama'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 004 PENAL MUNICIPAL DE FLORENCIA',
     url: '/web/juzgado-004-penal-municipal-de-florencia'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 004 PENAL MUNICIPAL DE MONTERÍA',
     url: '/web/juzgado-004-penal-municipal-de-monteria'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 004 PENAL MUNICIPAL DE SANTA MARTA',
     url: '/web/juzgado-004-penal-municipal-de-santa-marta'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 004 PENAL MUNICIPAL DE SINCELEJO',
     url: '/web/juzgado-004-penal-municipal-de-sincelejo'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 004 PENAL MUNICIPAL MIXTO CON FUNCIÓN DE CONTROL DE GARANTÍAS DE BARRANQUILLA',
@@ -26077,76 +26051,76 @@ exports.Despachos = [
     url: '/web/juzgado-004-transitorio-de-pequenas-causas-y-competencia-multiple-de-popayan'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 005 ADMINISTRATIVO  DE QUIBDÓ ',
     url: '/web/juzgado-005-administrativo-de-quibdo-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'JUZGADO 005 ADMINISTRATIVO DE ARMENIA',
     url: '/web/juzgado-05-administrativo-de-armenia'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 005 ADMINISTRATIVO DE BARRANQUILLA',
     url: '/web/juzgado-05-administrativo-de-barranquilla'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 005 ADMINISTRATIVO DE BUCARAMANGA',
     url: '/web/juzgado-05-administrativo-de-bucaramanga'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 005 ADMINISTRATIVO DE CALI',
-    url         : '/web/juzgado-05-administrativo-de-cali'
+    nombre: 'JUZGADO 005 ADMINISTRATIVO DE CALI',
+    url: '/web/juzgado-05-administrativo-de-cali'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 005 ADMINISTRATIVO DE CARTAGENA',
     url: '/web/juzgado-05-administrativo-de-cartagena'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 005 ADMINISTRATIVO DE CARTAGO',
     url: '/web/juzgado-005-administrativo-de-cartago'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 005 ADMINISTRATIVO DE CÚCUTA',
     url: '/web/juzgado-05-administrativo-de-cucuta'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 005 ADMINISTRATIVO DE FLORENCIA',
     url: '/web/juzgado-005-administrativo-de-florencia'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 005 ADMINISTRATIVO DE IBAGUÉ',
     url: '/web/juzgado-05-administrativo-de-ibague'
   },
   {
-    agrupacion  : 'SECCIÓN PRIMERA - ORAL',
+    agrupacion: 'SECCIÓN PRIMERA - ORAL',
     especialidad: 'SECCIÓN PRIMERA - ORAL',
     nombre:
       'JUZGADO 005 ADMINISTRATIVO DE LA SECCIÓN PRIMERA DE BOGOTÁ',
@@ -26162,422 +26136,422 @@ exports.Despachos = [
     url: '/web/juzgado-02-administrativo-oral-de-descongestion-de-manizales'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 005 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-05-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 005 ADMINISTRATIVO DE MONTERÍA',
     url: '/web/juzgado-05-administrativo-de-monteria'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 005 ADMINISTRATIVO DE NEIVA',
-    url         : '/web/juzgado-05-administrativo-de-neiva'
+    nombre: 'JUZGADO 005 ADMINISTRATIVO DE NEIVA',
+    url: '/web/juzgado-05-administrativo-de-neiva'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 005 ADMINISTRATIVO DE PASTO',
-    url         : '/web/juzgado-05-administrativo-de-pasto'
+    nombre: 'JUZGADO 005 ADMINISTRATIVO DE PASTO',
+    url: '/web/juzgado-05-administrativo-de-pasto'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 005 ADMINISTRATIVO DE PEREIRA',
     url: '/web/juzgado-01-administrativo-oral-de-descongestion-de-pereira'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 005 ADMINISTRATIVO DE POPAYÁN',
     url: '/web/juzgado-05-administrativo-de-popayan'
   },
   {
-    agrupacion  : 'SIN SECCION - ORAL',
+    agrupacion: 'SIN SECCION - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 005 ADMINISTRATIVO DE RIOHACHA',
     url: '/web/juzgado-005-administrativo-de-riohacha'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 005 ADMINISTRATIVO DE SANTA MARTA',
     url: '/web/juzgado-05-administrativo-de-santa-marta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 005 ADMINISTRATIVO DE SINCELEJO',
     url: '/web/juzgado-05-administrativo-de-sincelejo'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 005 ADMINISTRATIVO DE TUNJA',
-    url         : '/web/juzgado-05-administrativo-de-tunja'
+    nombre: 'JUZGADO 005 ADMINISTRATIVO DE TUNJA',
+    url: '/web/juzgado-05-administrativo-de-tunja'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 005 ADMINISTRATIVO DE TURBO',
-    url         : '/web/juzgado-005-administrativo-de-turbo'
+    nombre: 'JUZGADO 005 ADMINISTRATIVO DE TURBO',
+    url: '/web/juzgado-005-administrativo-de-turbo'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 005 ADMINISTRATIVO DE VALLEDUPAR',
     url: '/web/juzgado-05-administrativo-de-valledupar'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 005 ADMINISTRATIVO DE VILLAVICENCIO',
     url: '/web/juzgado-05-administrativo-de-villavicencio'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL DEL CIRCUITO DE BARRANQUILLA',
     url: '/web/juzgado-005-civil-del-circuito-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-5-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL DEL CIRCUITO DE BUCARAMANGA',
     url: '/web/juzgado-005-civil-del-circuito-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL DEL CIRCUITO DE CALI',
     url: '/web/juzgado-05-civil-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL DEL CIRCUITO DE CARTAGENA',
     url: '/web/juzgado-005-civil-del-circuito-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL DEL CIRCUITO DE CÚCUTA',
     url: '/web/juzgado-05-civil-del-circuito-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-05-de-ejecucion-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL DEL CIRCUITO DE IBAGUÉ',
     url: '/web/juzgado-05-civil-circuito-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL DEL CIRCUITO DE MANIZALES',
     url: '/web/juzgado-005-civil-del-circuito-de-manizales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL DEL CIRCUITO DE MEDELLÍN',
     url: '/web/juzgado-005-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL DEL CIRCUITO DE NEIVA',
     url: '/web/juzgado-005-civil-del-circuito-de-neiva'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL DEL CIRCUITO DE PALMIRA',
     url: '/web/juzgado-005-civil-del-circuito-de-palmira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL DEL CIRCUITO DE PEREIRA',
     url: '/web/juzgado-05-civil-del-circuito-de-pereira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL DEL CIRCUITO DE POPAYÁN',
     url: '/web/juzgado-005-civil-del-circuito-de-popayan'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL DEL CIRCUITO DE SANTA MARTA',
     url: '/web/juzgado-005-civil-del-circuito-de-santa-marta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL DEL CIRCUITO DE SINCELEJO',
     url: '/web/juzgado-005-civil-del-circuito-de-sincelejo'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL DEL CIRCUITO DE VALLEDUPAR',
     url: '/web/juzgado-05-civil-del-circuito-de-valledupar'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL DEL CIRCUITO DE VILLAVICENCIO',
     url: '/web/juzgado-05-civil-del-circuito-de-villavicencio'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE ARMENIA',
     url: '/web/juzgado-05-civil-municipal-de-armenia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE BARRANCABERMEJA',
     url: '/web/juzgado-005-civil-municipal-de-barrancabermeja'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE BARRANQUILLA',
     url: '/web/juzgado-005-civil-municipal-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE BELLO',
     url: '/web/juzgado-005-civil-municipal-de-bello'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-05-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-005-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE BUENAVENTURA',
     url: '/web/juzgado-005-civil-municipal-de-buenaventura'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 005 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-005-civil-municipal-de-cali'
+    nombre: 'JUZGADO 005 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-005-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-005-civil-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE CÚCUTA',
     url: '/web/juzgado-05-civil-municipal-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BARRANQUILLA',
     url: '/web/juzgado-05-de-ejecucion-civil-municipal-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-05-de-ejecucion-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BUCARAMANGA',
     url: '/web/juzgado-05-de-ejecucion-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE CALI',
     url: '/web/juzgado-05-de-ejecucion-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN',
     url: '/web/juzgado-05-de-ejecucion-civil-municipal-de-medellin'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE FLORENCIA',
     url: '/web/juzgado-005-civil-municipal-de-florencia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE FLORIDABLANCA',
     url: '/web/juzgado-005-civil-municipal-de-floridablanca'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE IBAGUÉ',
     url: '/web/juzgado-005-civil-municipal-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE MANIZALES',
     url: '/web/juzgado-005-civil-municipal-de-manizales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE MEDELLÍN',
     url: '/web/juzgado-005-civil-municipal-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE MONTERÍA',
     url: '/web/juzgado-005-civil-municipal-de-monteria'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE PALMIRA',
     url: '/web/juzgado-005-civil-municipal-de-palmira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE PASTO',
     url: '/web/juzgado-05-civil-municipal-de-oralidad-de-pasto'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE PEREIRA',
     url: '/web/juzgado-005-civil-municipal-de-pereira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE PIEDECUESTA',
     url: '/web/juzgado-005-civil-municipal-de-piedecuesta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE SANTA MARTA',
     url: '/web/juzgado-005-civil-municipal-de-santa-marta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE TULUÁ',
     url: '/web/juzgado-005-civil-municipal-de-tulua'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE VALLEDUPAR',
     url: '/web/juzgado-05-civil-municipal-de-valledupar'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 CIVIL MUNICIPAL DE VILLAVICENCIO',
     url: '/web/juzgado-05-civil-municipal-de-villavicencio'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 005 DE EJECUCIÓN CIVIL MUNICIPAL DE MONTERÍA',
@@ -26629,72 +26603,72 @@ exports.Despachos = [
     url: '/web/juzgado-005-de-ejecucion-de-penas-y-medidas-de-seguridad-de-cucuta'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 005 DE FAMILIA DE BARRANQUILLA',
     url: '/web/juzgado-005-de-familia-de-barranquilla'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 005 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-005-de-familia-de-bogota'
+    nombre: 'JUZGADO 005 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-005-de-familia-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 005 DE FAMILIA DE BUCARAMANGA',
     url: '/web/juzgado-005-de-familia-de-bucaramanga'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 005 DE FAMILIA DE CALI',
-    url         : '/web/juzgado-05-familia-del-circuito-de-cali'
+    nombre: 'JUZGADO 005 DE FAMILIA DE CALI',
+    url: '/web/juzgado-05-familia-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 005 DE FAMILIA DE CARTAGENA',
-    url         : '/web/juzgado-005-de-familia-de-cartagena'
+    nombre: 'JUZGADO 005 DE FAMILIA DE CARTAGENA',
+    url: '/web/juzgado-005-de-familia-de-cartagena'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 005 DE FAMILIA DE CÚCUTA',
-    url         : '/web/juzgado-05-familia-del-circuito-de-cucuta'
+    nombre: 'JUZGADO 005 DE FAMILIA DE CÚCUTA',
+    url: '/web/juzgado-05-familia-del-circuito-de-cucuta'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 005 DE FAMILIA DE IBAGUÉ',
-    url         : '/web/juzgado-005-de-familia-de-ibague'
+    nombre: 'JUZGADO 005 DE FAMILIA DE IBAGUÉ',
+    url: '/web/juzgado-005-de-familia-de-ibague'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 005 DE FAMILIA DE MANIZALES',
-    url         : '/web/juzgado-05-familia-del-circuito-de-manizales'
+    nombre: 'JUZGADO 005 DE FAMILIA DE MANIZALES',
+    url: '/web/juzgado-05-familia-del-circuito-de-manizales'
   },
   {
-    agrupacion  : 'FAMILIA ORALIDAD',
+    agrupacion: 'FAMILIA ORALIDAD',
     especialidad: 'FAMILIA ORALIDAD',
-    nombre      : 'JUZGADO 005 DE FAMILIA DE MEDELLÍN',
-    url         : '/web/juzgado-005-de-familia-de-medellin'
+    nombre: 'JUZGADO 005 DE FAMILIA DE MEDELLÍN',
+    url: '/web/juzgado-005-de-familia-de-medellin'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 005 DE FAMILIA DE NEIVA',
-    url         : '/web/juzgado-005-de-familia-de-neiva'
+    nombre: 'JUZGADO 005 DE FAMILIA DE NEIVA',
+    url: '/web/juzgado-005-de-familia-de-neiva'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 005 DE FAMILIA DE PASTO',
-    url         : '/web/juzgado-05-familia-del-circuito-de-pasto'
+    nombre: 'JUZGADO 005 DE FAMILIA DE PASTO',
+    url: '/web/juzgado-05-familia-del-circuito-de-pasto'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -26793,140 +26767,140 @@ exports.Despachos = [
     url: '/web/juzgado-06-civil-municipal-de-floridablanca'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 005 LABORAL DEL CIRCUITO DE BARRANQUILLA - ATLÁNTICO',
     url: '/web/juzgado-005-laboral-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 005 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-005-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 005 LABORAL DEL CIRCUITO DE BUCARAMANGA - SANTANDER',
     url: '/web/juzgado-05-laboral-del-circuito-de-bucaramanga'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 005 LABORAL DEL CIRCUITO DE CALI - VALLE DEL CAUCA',
     url: '/web/juzgado-005-laboral-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 005 LABORAL DEL CIRCUITO DE CARTAGENA - BOLÍVAR',
     url: '/web/juzgado-05-laboral-del-circuito-de-cartagena'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 005 LABORAL DEL CIRCUITO DE IBAGUÉ - TOLIMA',
     url: '/web/juzgado-05-laboral-del-circuito-de-ibague'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 005 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
     url: '/web/juzgado-005-laboral-de-medellin'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 005 LABORAL DEL CIRCUITO DE MONTERÍA - CÓRDOBA',
     url: '/web/juzgado-005-laboral-de-monteria'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 005 LABORAL DEL CIRCUITO DE PEREIRA - RISARALDA',
     url: '/web/juzgado-005-laboral-de-pereira'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 005 LABORAL DEL CIRCUITO DE SANTA MARTA - MAGDALENA',
     url: '/web/juzgado-005-laboral-de-santa-marta'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 005 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE BARRANQUILLA',
     url: '/web/juzgado-005-municipal-de-pequenas-causas-laborales-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 005 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE BOGOTÁ',
     url: '/web/juzgado-05-de-pequenas-causas-laborales-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 005 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE CALI',
     url: '/web/juzgado-05-municipal-de-pequenas-causas-laborales-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 005 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE CARTAGENA',
     url: '/web/juzgado-05-municipal-de-pequenas-causas-laborales-de-cartagena'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 005 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE MEDELLÍN',
     url: '/web/juzgado-05-municipal-de-pequenas-causas-laborales-de-medellin'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 005 PENAL DE CIRCUITO ESPECIALIZADO DE ANTIOQUIA ',
     url: '/web/juzgado-005-penal-de-circuito-especializado-de-antioquia-'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 005 PENAL DE CIRCUITO ESPECIALIZADO DE BOGOTÁ',
     url: '/web/juzgado-005-penal-de-circuito-especializado-de-bogota'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 005 PENAL DE CIRCUITO ESPECIALIZADO DE CALI',
     url: '/web/juzgado-005-penal-de-circuito-especializado-de-cali'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 005 PENAL DE CIRCUITO ESPECIALIZADO DE MEDELLÍN',
     url: '/web/juzgado-005-penal-de-circuito-especializado-de-medellin'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 005 PENAL DE CIRCUITO ESPECIALIZADO ITINERANTE DE CÚCUTA ',
@@ -27022,28 +26996,28 @@ exports.Despachos = [
     url: '/web/juzgado-005-penal-del-circuito-con-funcion-de-conocimiento-de-villavicencio'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 005 PENAL DEL CIRCUITO DE MANIZALES',
     url: '/web/juzgado-005-penal-del-circuito-de-manizales'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 005 PENAL DEL CIRCUITO DE NEIVA',
     url: '/web/juzgado-005-penal-del-circuito-de-neiva'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 005 PENAL DEL CIRCUITO DE PALMIRA',
     url: '/web/juzgado-005-penal-del-circuito-de-palmira'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 005 PENAL DEL CIRCUITO DE PEREIRA',
@@ -27158,28 +27132,28 @@ exports.Despachos = [
     url: '/web/juzgado-005-penal-municipal-con-funcion-de-control-de-garantias-de-tulua-'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 005 PENAL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-005-penal-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 005 PENAL MUNICIPAL DE CÚCUTA',
     url: '/web/juzgado-005-penal-municipal-de-cucuta'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 005 PENAL MUNICIPAL DE SINCELEJO',
     url: '/web/juzgado-005-penal-municipal-de-sincelejo'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 005 PENAL MUNICIPAL DE VILLAVICENCIO',
@@ -27203,55 +27177,55 @@ exports.Despachos = [
     url: '/web/juzgado-005-promiscuo-municipal-de-la-dorada'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'JUZGADO 006 ADMINISTRATIVO DE ARMENIA',
     url: '/web/juzgado-06-administrativo-de-armenia'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 006 ADMINISTRATIVO DE BARRANQUILLA',
     url: '/web/juzgado-06-administrativo-de-barranquilla'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 006 ADMINISTRATIVO DE BUCARAMANGA',
     url: '/web/juzgado-06-administrativo-de-bucaramanga'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 006 ADMINISTRATIVO DE CALI',
-    url         : '/web/juzgado-06-administrativo-de-cali'
+    nombre: 'JUZGADO 006 ADMINISTRATIVO DE CALI',
+    url: '/web/juzgado-06-administrativo-de-cali'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 006 ADMINISTRATIVO DE CARTAGENA',
     url: '/web/juzgado-06-administrativo-de-cartagena'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 006 ADMINISTRATIVO DE CÚCUTA',
     url: '/web/juzgado-06-administrativo-de-cucuta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 006 ADMINISTRATIVO DE IBAGUÉ',
     url: '/web/juzgado-06-administrativo-de-ibague'
   },
   {
-    agrupacion  : 'SECCIÓN PRIMERA - ORAL',
+    agrupacion: 'SECCIÓN PRIMERA - ORAL',
     especialidad: 'SECCIÓN PRIMERA - ORAL',
     nombre:
       'JUZGADO 006 ADMINISTRATIVO DE LA SECCIÓN PRIMERA DE BOGOTÁ',
@@ -27267,325 +27241,325 @@ exports.Despachos = [
     url: '/web/juzgado-01-administrativo-oral-de-descongestion-de-manizales'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 006 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-06-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 006 ADMINISTRATIVO DE MONTERÍA',
     url: '/web/juzgado-06-administrativo-de-monteria'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 006 ADMINISTRATIVO DE NEIVA',
-    url         : '/web/juzgado-06-administrativo-de-neiva'
+    nombre: 'JUZGADO 006 ADMINISTRATIVO DE NEIVA',
+    url: '/web/juzgado-06-administrativo-de-neiva'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 006 ADMINISTRATIVO DE PASTO',
-    url         : '/web/juzgado-06-administrativo-de-pasto'
+    nombre: 'JUZGADO 006 ADMINISTRATIVO DE PASTO',
+    url: '/web/juzgado-06-administrativo-de-pasto'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 006 ADMINISTRATIVO DE PEREIRA',
     url: '/web/juzgado-04-administrativo-oral-de-descongestion-de-pereira'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 006 ADMINISTRATIVO DE POPAYÁN',
     url: '/web/juzgado-06-administrativo-de-popayan'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 006 ADMINISTRATIVO DE QUIBDÓ',
     url: '/web/juzgado-006-administrativo-de-quibdo'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 006 ADMINISTRATIVO DE SANTA MARTA',
     url: '/web/juzgado-06-administrativo-de-santa-marta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 006 ADMINISTRATIVO DE SINCELEJO',
     url: '/web/juzgado-06-administrativo-de-sincelejo'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 006 ADMINISTRATIVO DE TUNJA',
-    url         : '/web/juzgado-06-administrativo-de-tunja'
+    nombre: 'JUZGADO 006 ADMINISTRATIVO DE TUNJA',
+    url: '/web/juzgado-06-administrativo-de-tunja'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 006 ADMINISTRATIVO DE VALLEDUPAR',
     url: '/web/juzgado-06-administrativo-de-valledupar'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 006 ADMINISTRATIVO DE VILLAVICENCIO',
     url: '/web/juzgado-06-administrativo-de-villavicencio'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL DEL CIRCUITO DE BARRANQUILLA',
     url: '/web/juzgado-006-civil-del-circuito-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-06-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL DEL CIRCUITO DE BUCARAMANGA',
     url: '/web/juzgado-006-civil-del-circuito-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL DEL CIRCUITO DE CALI',
     url: '/web/juzgado-006-civil-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL DEL CIRCUITO DE CARTAGENA',
     url: '/web/juzgado-006-civil-del-circuito-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL DEL CIRCUITO DE CÚCUTA',
     url: '/web/juzgado-06-civil-del-circuito-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL DEL CIRCUITO DE IBAGUÉ',
     url: '/web/juzgado-006-civil-del-circuito-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL DEL CIRCUITO DE MANIZALES',
     url: '/web/juzgado-006-civil-del-circuito-de-manizales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL DEL CIRCUITO DE MEDELLÍN',
     url: '/web/juzgado-006-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL DEL CIRCUITO DE POPAYÁN',
     url: '/web/juzgado-006-civil-del-circuito-de-popayan'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL DEL CIRCUITO DE SINCELEJO',
     url: '/web/juzgado-006-civil-del-circuito-de-sincelejo'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL DEL CIRCUITO DE VILLAVICENCIO',
     url: '/web/juzgado-006-civil-del-circuito-de-villavicencio'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL MUNICIPAL DE ARMENIA',
     url: '/web/juzgado-06-civil-municipal-de-armenia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL MUNICIPAL DE BARRANQUILLA',
     url: '/web/juzgado-006-civil-municipal-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-006-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-006-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL MUNICIPAL DE BUENAVENTURA',
     url: '/web/juzgado-06-civil-municipal-de-buenaventura'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 006 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-006-civil-municipal-de-cali'
+    nombre: 'JUZGADO 006 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-006-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-006-civil-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL MUNICIPAL DE CÚCUTA',
     url: '/web/juzgado-06-civil-municipal-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BARRANQUILLA',
     url: '/web/juzgado-006-civil-municipal-de-ejecucion-de-sentencias-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-06-de-ejecucion-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BUCARAMANGA',
     url: '/web/juzgado-06-de-ejecucion-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE CALI',
     url: '/web/juzgado-06-de-ejecucion-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN',
     url: '/web/juzgado-06-de-ejecucion-civil-municipal-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL MUNICIPAL DE IBAGUÉ',
     url: '/web/juzgado-006-civil-municipal-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL MUNICIPAL DE MANIZALES',
     url: '/web/juzgado-006-civil-municipal-de-manizales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL MUNICIPAL DE MEDELLÍN',
     url: '/web/juzgado-006-civil-municipal-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL MUNICIPAL DE PALMIRA',
     url: '/web/juzgado-006-civil-municipal-de-palmira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL MUNICIPAL DE PASTO',
     url: '/web/juzgado-06-civil-municipal-de-oralidad-de-pasto'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL MUNICIPAL DE PEREIRA',
     url: '/web/juzgado-006-civil-municipal-de-pereira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL MUNICIPAL DE SANTA MARTA',
     url: '/web/juzgado-006-civil-municipal-de-santa-marta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL MUNICIPAL DE TULUÁ',
     url: '/web/juzgado-006-civil-municipal-de-tulua'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL MUNICIPAL DE TUNJA',
     url: '/web/juzgado-006-civil-municipal-de-tunja'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 006 CIVIL MUNICIPAL DE VILLAVICENCIO',
@@ -27628,60 +27602,60 @@ exports.Despachos = [
     url: '/web/juzgado-006-de-ejecucion-de-penas-y-medidas-de-seguridad-de-ibague'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 006 DE FAMILIA DE BARRANQUILLA',
     url: '/web/juzgado-006-de-familia-de-barranquilla'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 006 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-006-de-familia-de-bogota'
+    nombre: 'JUZGADO 006 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-006-de-familia-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 006 DE FAMILIA DE BUCARAMANGA',
     url: '/web/juzgado-006-de-familia-de-bucaramanga'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 006 DE FAMILIA DE CALI',
-    url         : '/web/juzgado-006-de-familia-de-cali'
+    nombre: 'JUZGADO 006 DE FAMILIA DE CALI',
+    url: '/web/juzgado-006-de-familia-de-cali'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 006 DE FAMILIA DE CARTAGENA',
-    url         : '/web/juzgado-006-de-familia-de-cartagena'
+    nombre: 'JUZGADO 006 DE FAMILIA DE CARTAGENA',
+    url: '/web/juzgado-006-de-familia-de-cartagena'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 006 DE FAMILIA DE IBAGUÉ',
-    url         : '/web/juzgado-006-de-familia-de-ibague'
+    nombre: 'JUZGADO 006 DE FAMILIA DE IBAGUÉ',
+    url: '/web/juzgado-006-de-familia-de-ibague'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 006 DE FAMILIA DE MANIZALES',
-    url         : '/web/juzgado-006-de-familia-de-manizales'
+    nombre: 'JUZGADO 006 DE FAMILIA DE MANIZALES',
+    url: '/web/juzgado-006-de-familia-de-manizales'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 006 DE FAMILIA DE MEDELLÍN',
-    url         : '/web/juzgado-006-de-familia-de-medellin'
+    nombre: 'JUZGADO 006 DE FAMILIA DE MEDELLÍN',
+    url: '/web/juzgado-006-de-familia-de-medellin'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 006 DE FAMILIA DE PASTO',
-    url         : '/web/juzgado-006-de-familia-de-pasto'
+    nombre: 'JUZGADO 006 DE FAMILIA DE PASTO',
+    url: '/web/juzgado-006-de-familia-de-pasto'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -27748,77 +27722,77 @@ exports.Despachos = [
     url: '/web/juzgado-006-de-pequenas-causas-y-competencia-multiple-antes-007-civil-municipal-de-floridablanca'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 006 LABORAL DEL CIRCUITO DE BARRANQUILLA - ATLÁNTICO',
     url: '/web/juzgado-006-laboral-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 006 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-006-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 006 LABORAL DEL CIRCUITO DE BUCARAMANGA - SANTANDER',
     url: '/web/juzgado-006-laboral-de-bucaramanga'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 006 LABORAL DEL CIRCUITO DE CALI - VALLE DEL CAUCA',
     url: '/web/juzgado-006-laboral-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 006 LABORAL DEL CIRCUITO DE CARTAGENA - BOLÍVAR',
     url: '/web/juzgado-06-laboral-del-circuito-de-cartagena'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 006 LABORAL DEL CIRCUITO DE IBAGUÉ - TOLIMA',
     url: '/web/juzgado-06-laboral-del-circuito-de-ibague'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 006 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
     url: '/web/juzgado-006-laboral-de-medellin'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 006 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE BOGOTÁ',
     url: '/web/juzgado-06-de-pequenas-causas-laborales-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 006 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE CALI',
     url: '/web/juzgado-06-municipal-de-pequenas-causas-laborales-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 006 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE MEDELLÍN',
     url: '/web/juzgado-006-municipal-de-pequenas-causas-laborales-de-medellin'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 006 PENAL DE CIRCUITO ESPECIALIZADO DE BOGOTÁ',
@@ -27870,28 +27844,28 @@ exports.Despachos = [
     url: '/web/juzgado-006-penal-del-circuito-con-funcion-de-conocimiento-de-pereira'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 006 PENAL DEL CIRCUITO DE BUCARAMANGA',
     url: '/web/juzgado-006-penal-del-circuito-de-bucaramanga'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 006 PENAL DEL CIRCUITO DE CARTAGENA',
     url: '/web/juzgado-006-penal-del-circuito-de-cartagena'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 006 PENAL DEL CIRCUITO DE MANIZALES',
     url: '/web/juzgado-006-penal-del-circuito-de-manizales'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 006 PENAL DEL CIRCUITO DE VILLAVICENCIO',
@@ -27942,7 +27916,7 @@ exports.Despachos = [
     url: '/web/juzgado-006-penal-municipal-con-funcion-de-control-de-garantias-de-armenia'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 006 PENAL MUNICIPAL CON FUNCIÓN DE CONTROL DE GARANTÍAS DE BARRANQUILLA',
@@ -28012,55 +27986,55 @@ exports.Despachos = [
     url: '/web/juzgado-006-penal-municipal-mixto-leyes-600-906-y-1098-de-soacha'
   },
   {
-    agrupacion  : 'ADMINISTRATIVO',
+    agrupacion: 'ADMINISTRATIVO',
     especialidad: 'ADMINISTRATIVA',
     nombre:
       'JUZGADO 007 ADMINISTRATIVO DE ARMENIA',
     url: '/web/juzgado-007-administrativo-de-armenia'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 007 ADMINISTRATIVO DE BARRANQUILLA',
     url: '/web/juzgado-07-administrativo-de-barranquilla'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 007 ADMINISTRATIVO DE BUCARAMANGA',
     url: '/web/juzgado-07-administrativo-de-bucaramanga'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 007 ADMINISTRATIVO DE CALI',
-    url         : '/web/juzgado-07-administrativo-de-cali'
+    nombre: 'JUZGADO 007 ADMINISTRATIVO DE CALI',
+    url: '/web/juzgado-07-administrativo-de-cali'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 007 ADMINISTRATIVO DE CARTAGENA',
     url: '/web/juzgado-07-administrativo-de-cartagena'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 007 ADMINISTRATIVO DE CÚCUTA',
     url: '/web/juzgado-01-administrativo-oral-de-descongestion-de-cucuta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 007 ADMINISTRATIVO DE IBAGUÉ',
     url: '/web/juzgado-07-administrativo-de-descongestion-de-oralidad-ibague'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 007 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
@@ -28076,269 +28050,269 @@ exports.Despachos = [
     url: '/web/juzgado-02-administrativo-de-descongestion-de-manizales'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 007 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-07-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 007 ADMINISTRATIVO DE MONTERÍA',
     url: '/web/juzgado-02-administrativo-oral-de-descongestion-monteria'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 007 ADMINISTRATIVO DE NEIVA',
-    url         : '/web/juzgado-02-administrativo-de-descongestion-de-neiva'
+    nombre: 'JUZGADO 007 ADMINISTRATIVO DE NEIVA',
+    url: '/web/juzgado-02-administrativo-de-descongestion-de-neiva'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 007 ADMINISTRATIVO DE PASTO',
-    url         : '/web/juzgado-07-administrativo-de-pasto'
+    nombre: 'JUZGADO 007 ADMINISTRATIVO DE PASTO',
+    url: '/web/juzgado-07-administrativo-de-pasto'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 007 ADMINISTRATIVO DE PEREIRA',
     url: '/web/juzgado-01-administrativo-escritural-oral-de-descongestion-de-pereira'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 007 ADMINISTRATIVO DE POPAYÁN',
     url: '/web/juzgado-07-administrativo-de-popayan'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 007 ADMINISTRATIVO DE SANTA MARTA',
     url: '/web/juzgado-07-administrativo-de-santa-marta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 007 ADMINISTRATIVO DE SINCELEJO',
     url: '/web/juzgado-07-administrativo-de-sincelejo'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 007 ADMINISTRATIVO DE TUNJA',
-    url         : '/web/juzgado-07-administrativo-de-tunja'
+    nombre: 'JUZGADO 007 ADMINISTRATIVO DE TUNJA',
+    url: '/web/juzgado-07-administrativo-de-tunja'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 007 ADMINISTRATIVO DE VALLEDUPAR',
     url: '/web/juzgado-07-administrativo-de-valledupar'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 007 ADMINISTRATIVO DE VILLAVICENCIO',
     url: '/web/juzgado-07-administrativo-de-villavicencio'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL DEL CIRCUITO DE BARRANQUILLA',
     url: '/web/juzgado-007-civil-del-circuito-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-007-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL DEL CIRCUITO DE BUCARAMANGA',
     url: '/web/juzgado-007-civil-del-circuito-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL DEL CIRCUITO DE CALI',
     url: '/web/juzgado-007-civil-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL DEL CIRCUITO DE CARTAGENA',
     url: '/web/juzgado-07-civil-del-circuito-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL DEL CIRCUITO DE CÚCUTA',
     url: '/web/juzgado-07-civil-del-circuito-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL DEL CIRCUITO DE MEDELLÍN',
     url: '/web/juzgado-007-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL MUNICIPAL DE ARMENIA',
     url: '/web/juzgado-07-civil-municipal-de-armenia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL MUNICIPAL DE BARRANQUILLA',
     url: '/web/juzgado-007-civil-municipal-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-007-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-07-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL MUNICIPAL DE BUENAVENTURA',
     url: '/web/juzgado-007-civil-municipal-de-buenaventura'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 007 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-007-civil-municipal-de-cali'
+    nombre: 'JUZGADO 007 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-007-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-007-civil-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL MUNICIPAL DE CÚCUTA',
     url: '/web/juzgado-07-civil-municipal-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BARRANQUILLA',
     url: '/web/juzgado-007-civil-municipal-de-ejecucion-de-sentencias-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BUCARAMANGA',
     url: '/web/juzgado-07-de-ejecucion-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE CALI',
     url: '/web/juzgado-07-de-ejecucion-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN',
     url: '/web/juzgado-07-de-ejecucion-civil-municipal-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL MUNICIPAL DE IBAGUÉ',
     url: '/web/juzgado-007-civil-municipal-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL MUNICIPAL DE MANIZALES',
     url: '/web/juzgado-07-civil-municipal-de-manizales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL MUNICIPAL DE MEDELLÍN',
     url: '/web/juzgado-007-civil-municipal-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL MUNICIPAL DE PALMIRA',
     url: '/web/juzgado-007-civil-municipal-de-palmira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL MUNICIPAL DE PASTO',
     url: '/web/juzgado-007-civil-municipal-de-pasto'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL MUNICIPAL DE PEREIRA',
     url: '/web/juzgado-007-civil-municipal-de-pereira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL MUNICIPAL DE TULUÁ',
     url: '/web/juzgado-007-civil-municipal-de-tulua'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 007 CIVIL MUNICIPAL DE VILLAVICENCIO',
@@ -28363,48 +28337,48 @@ exports.Despachos = [
     url: '/web/juzgado-007-de-ejecucion-de-penas-y-medidas-de-seguridad-de-cali'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 007 DE FAMILIA DE BARRANQUILLA',
     url: '/web/juzgado-007-de-familia-de-barranquilla'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 007 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-07-familia-del-circuito-de-bogota'
+    nombre: 'JUZGADO 007 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-07-familia-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 007 DE FAMILIA DE BUCARAMANGA',
     url: '/web/juzgado-07-familia-del-circuito-de-bucaramanga'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 007 DE FAMILIA DE CALI',
-    url         : '/web/juzgado-007-de-familia-de-cali'
+    nombre: 'JUZGADO 007 DE FAMILIA DE CALI',
+    url: '/web/juzgado-007-de-familia-de-cali'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 007 DE FAMILIA DE CARTAGENA',
-    url         : '/web/juzgado-007-de-familia-de-cartagena'
+    nombre: 'JUZGADO 007 DE FAMILIA DE CARTAGENA',
+    url: '/web/juzgado-007-de-familia-de-cartagena'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 007 DE FAMILIA DE MANIZALES',
-    url         : '/web/juzgado-007-de-familia-de-manizales'
+    nombre: 'JUZGADO 007 DE FAMILIA DE MANIZALES',
+    url: '/web/juzgado-007-de-familia-de-manizales'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 007 DE FAMILIA DE MEDELLÍN',
-    url         : '/web/juzgado-007-de-familia-de-medellin'
+    nombre: 'JUZGADO 007 DE FAMILIA DE MEDELLÍN',
+    url: '/web/juzgado-007-de-familia-de-medellin'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -28463,63 +28437,63 @@ exports.Despachos = [
     url: '/web/juzgado-007-de-pequenas-causas-y-competencia-multiple-de-valledupar'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 007 LABORAL DEL CIRCUITO DE BARRANQUILLA - ATLÁNTICO',
     url: '/web/juzgado-007-laboral-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 007 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-007-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 007 LABORAL DEL CIRCUITO DE BUCARAMANGA - SANTANDER',
     url: '/web/juzgado-007-laboral-del-circuito-de-bucaramanga-santander'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 007 LABORAL DEL CIRCUITO DE CALI - VALLE DEL CAUCA',
     url: '/web/juzgado-007-laboral-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 007 LABORAL DEL CIRCUITO DE CARTAGENA - BOLÍVAR',
     url: '/web/juzgado-07-laboral-del-circuito-de-cartagena'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 007 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
     url: '/web/juzgado-07-laboral-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 007 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE BOGOTÁ',
     url: '/web/juzgado-07-de-pequenas-causas-laborales-de-bogota'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 007 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE CALI',
     url: '/web/juzgado-007-municipal-de-pequenas-causas-laborales-de-cali'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 007 PENAL DE CIRCUITO ESPECIALIZADO DE BOGOTÁ',
@@ -28544,28 +28518,28 @@ exports.Despachos = [
     url: '/web/juzgado-007-penal-del-circuito-con-funcion-de-conocimiento-de-palmira'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 007 PENAL DEL CIRCUITO DE IBAGUÉ',
     url: '/web/juzgado-007-penal-del-circuito-de-ibague'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 007 PENAL DEL CIRCUITO DE MANIZALES',
     url: '/web/juzgado-007-penal-del-circuito-de-manizales'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 007 PENAL DEL CIRCUITO DE PEREIRA',
     url: '/web/juzgado-007-penal-del-circuito-de-pereira'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 007 PENAL DEL CIRCUITO DE VILLAVICENCIO',
@@ -28608,7 +28582,7 @@ exports.Despachos = [
     url: '/web/juzgado-007-penal-municipal-con-funcion-de-conocimiento-de-villavicencio'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 007 PENAL MUNICIPAL CON FUNCIÓN DE CONTROL DE GARANTÍAS DE BARRANQUILLA',
@@ -28669,7 +28643,7 @@ exports.Despachos = [
     url: '/web/juzgado-007-penal-municipal-con-funcion-de-control-de-garantias-de-valledupar-'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 007 PENAL MUNICIPAL DE SANTA MARTA',
@@ -28685,62 +28659,62 @@ exports.Despachos = [
     url: '/web/juzgado-007-penal-municipal-para-adolescentes-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 007 TRANSITORIO DE PEQUEÑAS CAUSAS LABORALES DE MEDELLÍN',
     url: '/web/juzgado-007-transitorio-de-pequenas-causas-laborales-de-medellin'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 008  MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE MEDELLÍN ',
     url: '/web/juzgado-008-municipal-de-pequenas-causas-laborales-de-medellin-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 008 ADMINISTRATIVO DE BARRANQUILLA',
     url: '/web/juzgado-08-administrativo-de-barranquilla'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 008 ADMINISTRATIVO DE BUCARAMANGA',
     url: '/web/juzgado-08-administrativo-de-bucaramanga'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 008 ADMINISTRATIVO DE CALI',
-    url         : '/web/juzgado-08-administrativo-de-cali'
+    nombre: 'JUZGADO 008 ADMINISTRATIVO DE CALI',
+    url: '/web/juzgado-08-administrativo-de-cali'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 008 ADMINISTRATIVO DE CARTAGENA',
     url: '/web/juzgado-08-administrativo-de-cartagena'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 008 ADMINISTRATIVO DE CÚCUTA',
     url: '/web/juzgado-02-administrativo-de-descongestion-cucuta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 008 ADMINISTRATIVO DE IBAGUÉ',
     url: '/web/juzgado-08-administrativo-de-ibague'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 008 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
@@ -28756,220 +28730,220 @@ exports.Despachos = [
     url: '/web/juzgado-03-administrativo-de-descongestion-de-manizales'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 008 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-08-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 008 ADMINISTRATIVO DE MONTERÍA',
     url: '/web/juzgado-008-administrativo-de-monteria'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 008 ADMINISTRATIVO DE NEIVA',
-    url         : '/web/juzgado-03-administrativo-de-descongestion-de-neiva'
+    nombre: 'JUZGADO 008 ADMINISTRATIVO DE NEIVA',
+    url: '/web/juzgado-03-administrativo-de-descongestion-de-neiva'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 008 ADMINISTRATIVO DE PASTO',
-    url         : '/web/juzgado-08-administrativo-de-pasto'
+    nombre: 'JUZGADO 008 ADMINISTRATIVO DE PASTO',
+    url: '/web/juzgado-08-administrativo-de-pasto'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 008 ADMINISTRATIVO DE POPAYÁN',
     url: '/web/juzgado-08-administrativo-de-popayan'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'JUZGADO 008 ADMINISTRATIVO DE SANTA MARTA',
     url: '/web/juzgado-08-administrativo-de-santa-marta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 008 ADMINISTRATIVO DE SINCELEJO',
     url: '/web/juzgado-08-administrativo-de-sincelejo'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 008 ADMINISTRATIVO DE TUNJA',
-    url         : '/web/juzgado-08-administrativo-de-tunja'
+    nombre: 'JUZGADO 008 ADMINISTRATIVO DE TUNJA',
+    url: '/web/juzgado-08-administrativo-de-tunja'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 008 ADMINISTRATIVO DE VALLEDUPAR',
     url: '/web/juzgado-08-administrativo-de-valledupar'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'JUZGADO 008 ADMINISTRATIVO DE VILLAVICENCIO',
     url: '/web/juzgado-0-administrativo-mixto-de-villavicencio'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 008 CIVIL DEL CIRCUITO DE BARRANQUILLA',
     url: '/web/juzgado-008-civil-del-circuito-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 008 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-08-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 008 CIVIL DEL CIRCUITO DE BUCARAMANGA',
     url: '/web/juzgado-008-civil-del-circuito-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 008 CIVIL DEL CIRCUITO DE CALI',
     url: '/web/juzgado-08-civil-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 008 CIVIL DEL CIRCUITO DE CARTAGENA',
     url: '/web/juzgado-008-civil-del-circuito-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 008 CIVIL DEL CIRCUITO DE CÚCUTA',
     url: '/web/juzgado-008-civil-del-circuito-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 008 CIVIL DEL CIRCUITO DE MEDELLÍN',
     url: '/web/juzgado-008-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 008 CIVIL MUNICIPAL DE ARMENIA',
     url: '/web/juzgado-08-civil-municipal-de-armenia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 008 CIVIL MUNICIPAL DE BARRANQUILLA',
     url: '/web/juzgado-008-civil-municipal-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 008 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-008-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 008 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-008-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 008 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-08-civil-municipal-de-cali'
+    nombre: 'JUZGADO 008 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-08-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 008 CIVIL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-08-civil-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 008 CIVIL MUNICIPAL DE CÚCUTA',
     url: '/web/juzgado-08-civil-municipal-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 008 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-08-de-ejecucion-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 008 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE CALI',
     url: '/web/juzgado-08-de-ejecucion-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 008 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN',
     url: '/web/juzgado-08-de-ejecucion-civil-municipal-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 008 CIVIL MUNICIPAL DE IBAGUÉ',
     url: '/web/juzgado-008-civil-municipal-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 008 CIVIL MUNICIPAL DE MANIZALES',
     url: '/web/juzgado-08-civil-municipal-de-manizales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 008 CIVIL MUNICIPAL DE MEDELLÍN',
     url: '/web/juzgado-008-civil-municipal-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 008 CIVIL MUNICIPAL DE PEREIRA',
     url: '/web/juzgado-008-civil-municipal-de-pereira'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 008 CIVIL MUNICIPAL DE VILLAVICENCIO',
@@ -28985,36 +28959,36 @@ exports.Despachos = [
     url: '/web/juzgado-008-de-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 008 DE FAMILIA DE BARRANQUILLA',
     url: '/web/juzgado-008-de-familia-de-barranquilla'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 008 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-08-familia-del-circuito-de-bogota'
+    nombre: 'JUZGADO 008 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-08-familia-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 008 DE FAMILIA DE BUCARAMANGA',
     url: '/web/juzgado-008-de-familia-de-bucaramanga'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 008 DE FAMILIA DE CALI',
-    url         : '/web/juzgado-008-de-familia-de-cali'
+    nombre: 'JUZGADO 008 DE FAMILIA DE CALI',
+    url: '/web/juzgado-008-de-familia-de-cali'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 008 DE FAMILIA DE MEDELLÍN',
-    url         : '/web/juzgado-008-de-familia-de-medellin'
+    nombre: 'JUZGADO 008 DE FAMILIA DE MEDELLÍN',
+    url: '/web/juzgado-008-de-familia-de-medellin'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -29057,49 +29031,49 @@ exports.Despachos = [
     url: '/web/juzgado-005-civil-municipal-de-neiva'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 008 LABORAL DEL CIRCUITO DE BARRANQUILLA - ATLÁNTICO',
     url: '/web/juzgado-008-laboral-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 008 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-008-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 008 LABORAL DEL CIRCUITO DE CALI - VALLE DEL CAUCA',
     url: '/web/juzgado-008-laboral-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 008 LABORAL DEL CIRCUITO DE CARTAGENA - BOLÍVAR',
     url: '/web/juzgado-008-laboral-de-cartagena'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 008 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
     url: '/web/juzgado-08-laboral-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 008 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE BOGOTÁ',
     url: '/web/juzgado-08-de-pequenas-causas-laborales-de-bogota'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 008 PENAL DE CIRCUITO ESPECIALIZADO DE BOGOTÁ',
@@ -29160,7 +29134,7 @@ exports.Despachos = [
     url: '/web/juzgado-008-penal-del-circuito-con-funcion-de-conocimiento-de-valledupar'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 008 PENAL DEL CIRCUITO DE BUCARAMANGA',
@@ -29257,14 +29231,14 @@ exports.Despachos = [
     url: '/web/juzgado-008-penal-municipal-con-funcion-de-control-de-garantias-de-popayan'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 008 PENAL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-008-penal-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 008 PENAL MUNICIPAL DE CÚCUTA',
@@ -29280,268 +29254,268 @@ exports.Despachos = [
     url: '/web/juzgado-008-penal-municipal-para-adolescentes-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 009  MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE MEDELLÍN ',
     url: '/web/juzgado-009-municipal-de-pequenas-causas-laborales-de-medellin-'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 009 ADMINISTRATIVO DE BARRANQUILLA',
     url: '/web/juzgado-09-administrativo-de-barranquilla'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 009 ADMINISTRATIVO DE BUCARAMANGA',
     url: '/web/juzgado-09-administrativo-de-bucaramanga'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 009 ADMINISTRATIVO DE CALI',
-    url         : '/web/juzgado-09-administrativo-de-cali'
+    nombre: 'JUZGADO 009 ADMINISTRATIVO DE CALI',
+    url: '/web/juzgado-09-administrativo-de-cali'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 009 ADMINISTRATIVO DE CARTAGENA',
     url: '/web/juzgado-09-administrativo-de-cartagena'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 009 ADMINISTRATIVO DE CÚCUTA',
     url: '/web/juzgado-09-administrativo-de-cucuta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 009 ADMINISTRATIVO DE IBAGUÉ',
     url: '/web/juzgado-09-administrativo-de-ibague'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 009 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-09-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'JUZGADO ADMINISTRATIVO',
+    agrupacion: 'JUZGADO ADMINISTRATIVO',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 009 ADMINISTRATIVO DE MANIZALES',
     url: '/web/juzgado-009-administrativo-de-manizales'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 009 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-09-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'JUZGADO ADMINISTRATIVO',
+    agrupacion: 'JUZGADO ADMINISTRATIVO',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 009 ADMINISTRATIVO DE MONTERÍA',
     url: '/web/juzgado-009-administrativo-de-monteria'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 009 ADMINISTRATIVO DE NEIVA',
-    url         : '/web/juzgado-05-administrativo-de-descongestion-de-neiva'
+    nombre: 'JUZGADO 009 ADMINISTRATIVO DE NEIVA',
+    url: '/web/juzgado-05-administrativo-de-descongestion-de-neiva'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 009 ADMINISTRATIVO DE PASTO',
-    url         : '/web/juzgado-09-administrativo-de-pasto'
+    nombre: 'JUZGADO 009 ADMINISTRATIVO DE PASTO',
+    url: '/web/juzgado-09-administrativo-de-pasto'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 009 ADMINISTRATIVO DE POPAYÁN',
     url: '/web/juzgado-09-administrativo-de-popayan'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'JUZGADO 009 ADMINISTRATIVO DE SANTA MARTA',
     url: '/web/juzgado-009-administrativo-de-santa-marta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 009 ADMINISTRATIVO DE SINCELEJO',
     url: '/web/juzgado-09-administrativo-de-sincelejo'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 009 ADMINISTRATIVO DE TUNJA',
-    url         : '/web/juzgado-09-administrativo-de-tunja'
+    nombre: 'JUZGADO 009 ADMINISTRATIVO DE TUNJA',
+    url: '/web/juzgado-09-administrativo-de-tunja'
   },
   {
-    agrupacion  : 'JUZGADO ADMINISTRATIVO',
+    agrupacion: 'JUZGADO ADMINISTRATIVO',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 009 ADMINISTRATIVO DE VALLEDUPAR',
     url: '/web/juzgado-009-administrativo-de-valledupar'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'JUZGADO 009 ADMINISTRATIVO DE VILLAVICENCIO',
     url: '/web/juzgado-09-administrativo-de-villavicencio'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 009 CIVIL DEL CIRCUITO DE BARRANQUILLA',
     url: '/web/juzgado-009-civil-del-circuito-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 009 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-009-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 009 CIVIL DEL CIRCUITO DE BUCARAMANGA',
     url: '/web/juzgado-009-civil-del-circuito-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 009 CIVIL DEL CIRCUITO DE CALI',
     url: '/web/juzgado-009-civil-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 009 CIVIL DEL CIRCUITO DE CARTAGENA',
     url: '/web/juzgado-009-civil-del-circuito-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 009 CIVIL DEL CIRCUITO DE MEDELLÍN',
     url: '/web/juzgado-09-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 009 CIVIL MUNICIPAL DE ARMENIA',
     url: '/web/juzgado-09-civil-municipal-de-armenia'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 009 CIVIL MUNICIPAL DE BARRANQUILLA',
     url: '/web/juzgado-009-civil-municipal-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 009 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-009-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 009 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-009-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 009 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-09-civil-municipal-de-cali'
+    nombre: 'JUZGADO 009 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-09-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 009 CIVIL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-009-civil-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 009 CIVIL MUNICIPAL DE CÚCUTA',
     url: '/web/juzgado-09-civil-municipal-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 009 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-09-de-ejecucion-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 009 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE CALI',
     url: '/web/juzgado-09-de-ejecucion-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 009 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN',
     url: '/web/juzgado-09-de-ejecucion-civil-municipal-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 009 CIVIL MUNICIPAL DE IBAGUÉ',
     url: '/web/juzgado-009-civil-municipal-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 009 CIVIL MUNICIPAL DE MANIZALES',
     url: '/web/juzgado-09-civil-municipal-de-manizales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 009 CIVIL MUNICIPAL DE MEDELLÍN',
     url: '/web/juzgado-09-civil-municipal-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 009 CIVIL MUNICIPAL DE VILLAVICENCIO',
@@ -29557,29 +29531,29 @@ exports.Despachos = [
     url: '/web/juzgado-009-de-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'JUZGADO 009 DE FAMILIA DE BARRANQUILLA',
     url: '/web/juzgado-009-de-familia-de-barranquilla'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 009 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-009-de-familia-de-bogota'
+    nombre: 'JUZGADO 009 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-009-de-familia-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 009 DE FAMILIA DE CALI',
-    url         : '/web/juzgado-009-de-familia-de-cali'
+    nombre: 'JUZGADO 009 DE FAMILIA DE CALI',
+    url: '/web/juzgado-009-de-familia-de-cali'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 009 DE FAMILIA DE MEDELLÍN',
-    url         : '/web/juzgado-009-de-familia-de-medellin'
+    nombre: 'JUZGADO 009 DE FAMILIA DE MEDELLÍN',
+    url: '/web/juzgado-009-de-familia-de-medellin'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -29614,49 +29588,49 @@ exports.Despachos = [
     url: '/web/juzgado-009-de-pequenas-causas-y-competencia-multiple-de-medellin'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 009 LABORAL DEL CIRCUITO DE BARRANQUILLA - ATLÁNTICO',
     url: '/web/juzgado-009-laboral-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 009 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-009-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 009 LABORAL DEL CIRCUITO DE CALI - VALLE DEL CAUCA',
     url: '/web/juzgado-009-laboral-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 009 LABORAL DEL CIRCUITO DE CARTAGENA - BOLÍVAR',
     url: '/web/juzgado-009-laboral-del-circuito-de-cartagena-bolivar'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 009 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
     url: '/web/juzgado-009-laboral-de-medellin'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 009 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE BOGOTÁ',
     url: '/web/juzgado-09-de-pequenas-causas-laborales-de-bogota'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 009 PENAL DE CIRCUITO ESPECIALIZADO DE BOGOTÁ',
@@ -29690,7 +29664,7 @@ exports.Despachos = [
     url: '/web/juzgado-009-penal-del-circuito-con-funcion-de-conocimiento-de-cucuta'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 009 PENAL DEL CIRCUITO DE BUCARAMANGA',
@@ -29733,7 +29707,7 @@ exports.Despachos = [
     url: '/web/juzgado-009-penal-municipal-con-funcion-de-conocimiento-de-popayan'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 009 PENAL MUNICIPAL CON FUNCIÓN DE CONTROL DE GARANTÍAS DE BARRANQUILLA',
@@ -29767,14 +29741,14 @@ exports.Despachos = [
     url: '/web/juzgado-009-penal-municipal-con-funcion-de-control-de-garantias-de-villavicencio'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 009 PENAL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-009-penal-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 009 PENAL MUNICIPAL DE CÚCUTA',
@@ -29790,213 +29764,213 @@ exports.Despachos = [
     url: '/web/juzgado-009-penal-municipal-para-adolescentes-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 010 ADMINISTRATIVO DE BARRANQUILLA',
     url: '/web/juzgado-10-administrativo-de-barranquilla'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 010 ADMINISTRATIVO DE BUCARAMANGA',
     url: '/web/juzgado-10-administrativo-de-descongestion-de-bucaramanga'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 010 ADMINISTRATIVO DE CALI',
-    url         : '/web/juzgado-10-administrativo-de-cali1'
+    nombre: 'JUZGADO 010 ADMINISTRATIVO DE CALI',
+    url: '/web/juzgado-10-administrativo-de-cali1'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 010 ADMINISTRATIVO DE CARTAGENA',
     url: '/web/juzgado-10-administrativo-de-cartagena'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 010 ADMINISTRATIVO DE CÚCUTA',
     url: '/web/juzgado-10-administrativo-de-cucuta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 010 ADMINISTRATIVO DE IBAGUÉ',
     url: '/web/juzgado-10-administrativo-de-ibague.'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 010 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-10-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 010 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-10-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'JUZGADO ADMINISTRATIVO',
+    agrupacion: 'JUZGADO ADMINISTRATIVO',
     especialidad: 'ADMINISTRATIVA',
     nombre:
       'JUZGADO 010 ADMINISTRATIVO DE MONTERÍA',
     url: '/web/juzgado-010-administrativo-de-monteria'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 010 ADMINISTRATIVO DE NEIVA',
-    url         : '/web/juzgado-010-administrativo-de-neiva'
+    nombre: 'JUZGADO 010 ADMINISTRATIVO DE NEIVA',
+    url: '/web/juzgado-010-administrativo-de-neiva'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 010 ADMINISTRATIVO DE POPAYÁN',
     url: '/web/juzgado-10-administrativo-mixto-de-popayan'
   },
   {
-    agrupacion  : 'ADMINISTRATIVO',
+    agrupacion: 'ADMINISTRATIVO',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 010 ADMINISTRATIVO DE SANTA MARTA',
     url: '/web/juzgado-010-administrativo-de-santa-marta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 010 ADMINISTRATIVO DE SINCELEJO',
     url: '/web/juzgado-010-administrativo-de-sincelejo'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 010 ADMINISTRATIVO DE TUNJA',
-    url         : '/web/juzgado-10-administrativo-de-tunja'
+    nombre: 'JUZGADO 010 ADMINISTRATIVO DE TUNJA',
+    url: '/web/juzgado-10-administrativo-de-tunja'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 010 CIVIL DEL CIRCUITO DE BARRANQUILLA',
     url: '/web/juzgado-010-civil-del-circuito-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 010 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-010-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 010 CIVIL DEL CIRCUITO DE BUCARAMANGA',
     url: '/web/juzgado-10-civil-del-circuito-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 010 CIVIL DEL CIRCUITO DE CALI',
     url: '/web/juzgado-010-civil-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 010 CIVIL DEL CIRCUITO DE MEDELLÍN',
     url: '/web/juzgado-010-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 010 CIVIL MUNICIPAL DE BARRANQUILLA',
     url: '/web/juzgado-010-civil-municipal-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 010 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-010-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 010 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-010-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 010 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-10-civil-municipal-de-cali'
+    nombre: 'JUZGADO 010 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-10-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 010 CIVIL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-010-civil-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 010 CIVIL MUNICIPAL DE CÚCUTA',
     url: '/web/juzgado-10-civil-municipal-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-10-de-ejecucion-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE CALI',
     url: '/web/juzgado10-de-ejecucion-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN',
     url: '/web/juzgado-10-de-ejecucion-civil-municipal-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 010 CIVIL MUNICIPAL DE IBAGUÉ',
     url: '/web/juzgado-010-civil-municipal-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 010 CIVIL MUNICIPAL DE MANIZALES',
     url: '/web/juzgado-010-civil-municipal-de-manizales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 010 CIVIL MUNICIPAL DE MEDELLÍN',
@@ -30012,22 +29986,22 @@ exports.Despachos = [
     url: '/web/juzgado-10-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 010 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-010-de-familia-de-bogota'
+    nombre: 'JUZGADO 010 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-010-de-familia-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 010 DE FAMILIA DE CALI',
-    url         : '/web/juzgado-10-familia-del-circuito-de-cali'
+    nombre: 'JUZGADO 010 DE FAMILIA DE CALI',
+    url: '/web/juzgado-10-familia-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'FAMILIA ORALIDAD',
+    agrupacion: 'FAMILIA ORALIDAD',
     especialidad: 'FAMILIA ORALIDAD',
-    nombre      : 'JUZGADO 010 DE FAMILIA DE MEDELLÍN',
-    url         : '/web/juzgado-010-de-familia-de-medellin'
+    nombre: 'JUZGADO 010 DE FAMILIA DE MEDELLÍN',
+    url: '/web/juzgado-010-de-familia-de-medellin'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -30062,56 +30036,56 @@ exports.Despachos = [
     url: '/web/juzgado-010-de-pequenas-causas-y-competencia-multiple-de-medellin'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 010 LABORAL DEL CIRCUITO DE BARRANQUILLA - ATLÁNTICO',
     url: '/web/juzgado-010-laboral-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 010 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-10-laboral-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 010 LABORAL DEL CIRCUITO DE CALI - VALLE DEL CAUCA',
     url: '/web/juzgado-10-laboral-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 010 LABORAL DEL CIRCUITO DE CARTAGENA - BOLÍVAR',
     url: '/web/juzgado-010-laboral-del-circuito-de-cartagena-bolivar'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 010 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
     url: '/web/juzgado-10-laboral-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 010 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE BOGOTÁ',
     url: '/web/juzgado-10-de-pequenas-causas-laborales-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 010 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE MEDELLÍN',
     url: '/web/juzgado-010-municipal-de-pequenas-causas-laborales-de-medellin'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 010 PENAL DE CIRCUITO ESPECIALIZADO DE BOGOTÁ',
@@ -30172,7 +30146,7 @@ exports.Despachos = [
     url: '/web/juzgado-010-penal-municipal-con-funcion-de-conocimiento-de-santa-marta'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 010 PENAL MUNICIPAL CON FUNCIÓN DE CONTROL DE GARANTÍAS DE BARRANQUILLA',
@@ -30206,7 +30180,7 @@ exports.Despachos = [
     url: '/web/juzgado-010-penal-municipal-con-funcion-de-control-de-garantias-de-neiva'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 010 PENAL MUNICIPAL DE IBAGUÉ',
@@ -30222,172 +30196,172 @@ exports.Despachos = [
     url: '/web/juzgado-010-penal-municipal-para-adolescentes-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 011 ADMINISTRATIVO DE BARRANQUILLA',
     url: '/web/juzgado-11-administrativo-de-barranquilla'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 011 ADMINISTRATIVO DE BUCARAMANGA',
     url: '/web/juzgado-11-administrativo-de-bucaramanga'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 011 ADMINISTRATIVO DE CALI',
-    url         : '/web/juzgado-11-administrativo-de-cali'
+    nombre: 'JUZGADO 011 ADMINISTRATIVO DE CALI',
+    url: '/web/juzgado-11-administrativo-de-cali'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 011 ADMINISTRATIVO DE CARTAGENA',
     url: '/web/juzgado-11-administrativo-de-cartagena'
   },
   {
-    agrupacion  : 'JUZGADO ADMINISTRATIVO',
+    agrupacion: 'JUZGADO ADMINISTRATIVO',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 011 ADMINISTRATIVO DE CÚCUTA',
     url: '/web/juzgado-011-administrativo-de-cucuta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 011 ADMINISTRATIVO DE IBAGUÉ',
     url: '/web/juzgado-11-administrativo-de-ibague'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 011 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-11-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 011 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-11-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 011 ADMINISTRATIVO DE SANTA MARTA',
     url: '/web/juzgado-011-administrativo-de-santa-marta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 011 ADMINISTRATIVO DE TUNJA',
-    url         : '/web/juzgado-11-administrativo-de-tunja'
+    nombre: 'JUZGADO 011 ADMINISTRATIVO DE TUNJA',
+    url: '/web/juzgado-11-administrativo-de-tunja'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 011 CIVIL DEL CIRCUITO DE BARRANQUILLA',
     url: '/web/juzgado-011-civil-del-circuito-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 011 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-011-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 011 CIVIL DEL CIRCUITO DE BUCARAMANGA',
     url: '/web/juzgado-011-civil-del-circuito-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 011 CIVIL DEL CIRCUITO DE CALI',
     url: '/web/juzgado-11-civil-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 011 CIVIL DEL CIRCUITO DE MEDELLÍN',
     url: '/web/juzgado-011-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 011 CIVIL MUNICIPAL DE BARRANQUILLA',
     url: '/web/juzgado-011-civil-municipal-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 011 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-011-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 011 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-11-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 011 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-11-civil-municipal-de-cali'
+    nombre: 'JUZGADO 011 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-11-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 011 CIVIL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-011-civil-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 011 CIVIL MUNICIPAL DE CÚCUTA',
     url: '/web/juzgado-011-civil-municipal-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 011 CIVIL MUNICIPAL DE IBAGUÉ',
     url: '/web/juzgado-011-civil-municipal-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 011 CIVIL MUNICIPAL DE MANIZALES',
     url: '/web/juzgado-011-civil-municipal-de-manizales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 011 CIVIL MUNICIPAL DE MEDELLÍN',
@@ -30403,22 +30377,22 @@ exports.Despachos = [
     url: '/web/juzgado-011-de-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 011 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-011-de-familia-de-bogota'
+    nombre: 'JUZGADO 011 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-011-de-familia-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 011 DE FAMILIA DE CALI',
-    url         : '/web/juzgado-11-familia-del-circuito-de-cali'
+    nombre: 'JUZGADO 011 DE FAMILIA DE CALI',
+    url: '/web/juzgado-11-familia-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 011 DE FAMILIA DE MEDELLÍN',
-    url         : '/web/juzgado-011-de-familia-de-medellin'
+    nombre: 'JUZGADO 011 DE FAMILIA DE MEDELLÍN',
+    url: '/web/juzgado-011-de-familia-de-medellin'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -30445,42 +30419,42 @@ exports.Despachos = [
     url: '/web/juzgado-011-de-pequenas-causas-y-competencia-multiple-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 011 LABORAL DEL CIRCUITO DE BARRANQUILLA - ATLÁNTICO',
     url: '/web/juzgado-011-laboral-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 011 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-011-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 011 LABORAL DEL CIRCUITO DE CALI - VALLE DEL CAUCA',
     url: '/web/juzgado-11-laboral-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 011 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
     url: '/web/juzgado-011-laboral-de-medellin'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 011 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE BOGOTÁ',
     url: '/web/juzgado-11-de-pequenas-causas-laborales-de-bogota'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 011 PENAL DE CIRCUITO ESPECIALIZADO DE BOGOTÁ',
@@ -30505,7 +30479,7 @@ exports.Despachos = [
     url: '/web/juzgado-011-penal-del-circuito-con-funcion-de-conocimiento-de-bucaramanga'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 011 PENAL MUNICIPAL CON FUNCIÓN DE CONOCIMIENTO DE BARRANQUILLA',
@@ -30547,165 +30521,165 @@ exports.Despachos = [
     url: '/web/juzgado-011-penal-municipal-con-funcion-de-control-de-garantias-de-cartagena'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 012 ADMINISTRATIVO DE BARRANQUILLA',
     url: '/web/juzgado-12-administrativo-de-barranquilla'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 012 ADMINISTRATIVO DE BUCARAMANGA',
     url: '/web/juzgado-12-administrativo-de-bucaramanga'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 012 ADMINISTRATIVO DE CALI',
-    url         : '/web/juzgado-12-administrativo-de-cali'
+    nombre: 'JUZGADO 012 ADMINISTRATIVO DE CALI',
+    url: '/web/juzgado-12-administrativo-de-cali'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 012 ADMINISTRATIVO DE CARTAGENA',
     url: '/web/juzgado-12-administrativo-de-cartagena'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 012 ADMINISTRATIVO DE CÚCUTA',
     url: '/web/juzgado-012-administrativo-de-cucuta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 012 ADMINISTRATIVO DE IBAGUÉ',
     url: '/web/juzgado-12-administrativo-de-ibague'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 012 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-12-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 012 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-12-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 012 ADMINISTRATIVO DE TUNJA',
-    url         : '/web/juzgado-12-administrativo-de-tunja'
+    nombre: 'JUZGADO 012 ADMINISTRATIVO DE TUNJA',
+    url: '/web/juzgado-12-administrativo-de-tunja'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 012 CIVIL DEL CIRCUITO DE BARRANQUILLA',
     url: '/web/juzgado-012-civil-del-circuito-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 012 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-012-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 012 CIVIL DEL CIRCUITO DE BUCARAMANGA',
     url: '/web/juzgado-12-civil-del-circuito-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 012 CIVIL DEL CIRCUITO DE CALI',
     url: '/web/juzgado-012-civil-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 012 CIVIL DEL CIRCUITO DE MEDELLÍN',
     url: '/web/juzgado-12-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 012 CIVIL MUNICIPAL DE BARRANQUILLA',
     url: '/web/juzgado-012-civil-municipal-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 012 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-012-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 012 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-012-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 012 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-012-civil-municipal-de-cali'
+    nombre: 'JUZGADO 012 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-012-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 012 CIVIL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-012-civil-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 012 CIVIL MUNICIPAL DE CÚCUTA',
     url: '/web/juzgado-012-civil-municipal-de-cucuta'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 012 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-12-de-ejecucion-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 012 CIVIL MUNICIPAL DE IBAGUÉ',
     url: '/web/juzgado-012-civil-municipal-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 012 CIVIL MUNICIPAL DE MANIZALES',
     url: '/web/juzgado-012-civil-municipal-de-manizales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 012 CIVIL MUNICIPAL DE MEDELLÍN',
@@ -30721,22 +30695,22 @@ exports.Despachos = [
     url: '/web/juzgado-012-de-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 012 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-012-de-familia-de-bogota'
+    nombre: 'JUZGADO 012 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-012-de-familia-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 012 DE FAMILIA DE CALI',
-    url         : '/web/juzgado-12-familia-del-circuito-de-cali'
+    nombre: 'JUZGADO 012 DE FAMILIA DE CALI',
+    url: '/web/juzgado-12-familia-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 012 DE FAMILIA DE MEDELLÍN',
-    url         : '/web/juzgado-012-de-familia-de-medellin'
+    nombre: 'JUZGADO 012 DE FAMILIA DE MEDELLÍN',
+    url: '/web/juzgado-012-de-familia-de-medellin'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -30755,42 +30729,42 @@ exports.Despachos = [
     url: '/web/juzgado-012-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 012 LABORAL DEL CIRCUITO DE BARRANQUILLA - ATLÁNTICO',
     url: '/web/juzgado-012-laboral-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 012 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-012-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 012 LABORAL DEL CIRCUITO DE CALI - VALLE DEL CAUCA',
     url: '/web/juzgado-12-laboral-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 012 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
     url: '/web/juzgado-12-laboral-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 012 MUNICIPAL DE PEQUEÑAS CAUSAS LABORALES DE BOGOTÁ',
     url: '/web/juzgado-12-de-pequenas-causas-laborales-de-bogota'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 012 PENAL DE CIRCUITO ESPECIALIZADO ITINERANTE DE BOGOTÁ ',
@@ -30878,137 +30852,137 @@ exports.Despachos = [
     url: '/web/juzgado-012-penal-municipal-con-funcion-de-control-de-garantias-de-valledupar'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 013 ADMINISTRATIVO DE BARRANQUILLA',
     url: '/web/juzgado-13-administrativo-de-barranquilla'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 013 ADMINISTRATIVO DE BUCARAMANGA',
     url: '/web/juzgado-13-administrativo-de-bucaramanga'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 013 ADMINISTRATIVO DE CALI',
-    url         : '/web/juzgado-13-administrativo-de-cali'
+    nombre: 'JUZGADO 013 ADMINISTRATIVO DE CALI',
+    url: '/web/juzgado-13-administrativo-de-cali'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 013 ADMINISTRATIVO DE CARTAGENA',
     url: '/web/juzgado-13-administrativo-de-cartagena'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 013 ADMINISTRATIVO DE CÚCUTA',
     url: '/web/juzgado-013-administrativo-de-cucuta'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 013 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-13-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 013 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-13-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 013 ADMINISTRATIVO DE TUNJA',
-    url         : '/web/juzgado-13-administrativo-de-tunja'
+    nombre: 'JUZGADO 013 ADMINISTRATIVO DE TUNJA',
+    url: '/web/juzgado-13-administrativo-de-tunja'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 013 CIVIL DEL CIRCUITO DE BARRANQUILLA',
     url: '/web/juzgado-013-civil-del-circuito-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 013 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-013-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 013 CIVIL DEL CIRCUITO DE CALI',
     url: '/web/juzgado-013-civil-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 013 CIVIL DEL CIRCUITO DE MEDELLÍN',
     url: '/web/juzgado-13-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 013 CIVIL MUNICIPAL DE BARRANQUILLA',
     url: '/web/juzgado-013-civil-municipal-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 013 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-013-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 013 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-013-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 013 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-013-civil-municipal-de-cali'
+    nombre: 'JUZGADO 013 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-013-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 013 CIVIL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-013-civil-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-13-de-ejecucion-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 013 CIVIL MUNICIPAL DE IBAGUÉ',
     url: '/web/juzgado-013-civil-municipal-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 013 CIVIL MUNICIPAL DE MEDELLÍN',
@@ -31024,22 +30998,22 @@ exports.Despachos = [
     url: '/web/juzgado-013-de-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 013 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-013-de-familia-de-bogota'
+    nombre: 'JUZGADO 013 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-013-de-familia-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 013 DE FAMILIA DE CALI',
-    url         : '/web/juzgado-13-familia-del-circuito-de-cali'
+    nombre: 'JUZGADO 013 DE FAMILIA DE CALI',
+    url: '/web/juzgado-13-familia-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 013 DE FAMILIA DE MEDELLÍN',
-    url         : '/web/juzgado-013-de-familia-de-medellin'
+    nombre: 'JUZGADO 013 DE FAMILIA DE MEDELLÍN',
+    url: '/web/juzgado-013-de-familia-de-medellin'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -31058,28 +31032,28 @@ exports.Despachos = [
     url: '/web/juzgado-13-de-pequenas-causas-y-competencias-multiples-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 013 LABORAL DEL CIRCUITO DE BARRANQUILLA - ATLÁNTICO',
     url: '/web/juzgado-013-laboral-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 013 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-013-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 013 LABORAL DEL CIRCUITO DE CALI - VALLE DEL CAUCA',
     url: '/web/juzgado-013-laboral-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 013 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
@@ -31149,123 +31123,123 @@ exports.Despachos = [
     url: '/web/juzgado-013-penal-municipal-con-funcion-de-control-de-garantias-de-cali'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 014 ADMINISTRATIVO DE BARRANQUILLA',
     url: '/web/juzgado-14-administrativo-de-barranquilla'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 014 ADMINISTRATIVO DE BUCARAMANGA',
     url: '/web/juzgado-14-administrativo-de-bucaramanga'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 014 ADMINISTRATIVO DE CALI',
-    url         : '/web/juzgado-14-administrativo-de-cali'
+    nombre: 'JUZGADO 014 ADMINISTRATIVO DE CALI',
+    url: '/web/juzgado-14-administrativo-de-cali'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 014 ADMINISTRATIVO DE CARTAGENA',
     url: '/web/juzgado-14-administrativo-de-cartagena'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 014 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-14-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 014 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-14-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 014 ADMINISTRATIVO DE TUNJA',
-    url         : '/web/juzgado-14-administrativo-de-tunja'
+    nombre: 'JUZGADO 014 ADMINISTRATIVO DE TUNJA',
+    url: '/web/juzgado-14-administrativo-de-tunja'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 014 CIVIL DEL CIRCUITO DE BARRANQUILLA',
     url: '/web/juzgado-014-civil-del-circuito-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 014 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-014-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 014 CIVIL DEL CIRCUITO DE CALI',
     url: '/web/juzgado-014-civil-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 014 CIVIL DEL CIRCUITO DE MEDELLÍN',
     url: '/web/juzgado-014-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 014 CIVIL MUNICIPAL DE BARRANQUILLA',
     url: '/web/juzgado-014-civil-municipal-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 014 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-014-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 014 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-14-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 014 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-014-civil-municipal-de-cali'
+    nombre: 'JUZGADO 014 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-014-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 014 CIVIL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-014-civil-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 014 CIVIL MUNICIPAL DE MEDELLÍN',
@@ -31281,22 +31255,22 @@ exports.Despachos = [
     url: '/web/juzgado-014-de-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 014 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-014-de-familia-de-bogota'
+    nombre: 'JUZGADO 014 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-014-de-familia-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 014 DE FAMILIA DE CALI',
-    url         : '/web/juzgado-14-familia-del-circuito-de-cali'
+    nombre: 'JUZGADO 014 DE FAMILIA DE CALI',
+    url: '/web/juzgado-14-familia-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 014 DE FAMILIA DE MEDELLÍN',
-    url         : '/web/juzgado-014-de-familia-de-medellin'
+    nombre: 'JUZGADO 014 DE FAMILIA DE MEDELLÍN',
+    url: '/web/juzgado-014-de-familia-de-medellin'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -31315,28 +31289,28 @@ exports.Despachos = [
     url: '/web/juzgado-014-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 014 LABORAL DEL CIRCUITO DE BARRANQUILLA - ATLÁNTICO',
     url: '/web/juzgado-014-laboral-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 014 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-014-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 014 LABORAL DEL CIRCUITO DE CALI - VALLE DEL CAUCA',
     url: '/web/juzgado-014-laboral-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 014 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
@@ -31406,123 +31380,123 @@ exports.Despachos = [
     url: '/web/juzgado-014-penal-municipal-con-funcion-de-control-de-garantias-de-medellin'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 015 ADMINISTRATIVO DE BARRANQUILLA',
     url: '/web/juzgado-015-administrativo-de-barranquilla'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - MIXTA',
+    agrupacion: 'SIN SECCIÓN - MIXTA',
     especialidad: 'SIN SECCIÓN - MIXTA',
     nombre:
       'JUZGADO 015 ADMINISTRATIVO DE BUCARAMANGA',
     url: '/web/juzgado-15-administrativo-de-bucaramanga'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 015 ADMINISTRATIVO DE CALI',
-    url         : '/web/juzgado-15-administrativo-de-cali'
+    nombre: 'JUZGADO 015 ADMINISTRATIVO DE CALI',
+    url: '/web/juzgado-15-administrativo-de-cali'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 015 ADMINISTRATIVO DE CARTAGENA',
     url: '/web/juzgado-15-administrativo-de-cartagena'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 015 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-15-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 015 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-15-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 015 ADMINISTRATIVO DE TUNJA',
-    url         : '/web/juzgado-15-administrativo-de-tunja'
+    nombre: 'JUZGADO 015 ADMINISTRATIVO DE TUNJA',
+    url: '/web/juzgado-15-administrativo-de-tunja'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 015 CIVIL DEL CIRCUITO DE BARRANQUILLA',
     url: '/web/juzgado-015-civil-del-circuito-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 015 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-15-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 015 CIVIL DEL CIRCUITO DE CALI',
     url: '/web/juzgado-15-civil-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 015 CIVIL DEL CIRCUITO DE MEDELLÍN',
     url: '/web/juzgado-015-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 015 CIVIL MUNICIPAL DE BARRANQUILLA',
     url: '/web/juzgado-015-civil-municipal-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 015 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-015-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 015 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-15-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 015 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-15-civil-municipal-de-cali'
+    nombre: 'JUZGADO 015 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-15-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 015 CIVIL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-015-civil-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 015 CIVIL MUNICIPAL DE MEDELLÍN',
@@ -31538,16 +31512,16 @@ exports.Despachos = [
     url: '/web/juzgado-015-de-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 015 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-015-de-familia-de-bogota'
+    nombre: 'JUZGADO 015 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-015-de-familia-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 015 DE FAMILIA DE MEDELLÍN',
-    url         : '/web/juzgado-015-de-familia-de-medellin'
+    nombre: 'JUZGADO 015 DE FAMILIA DE MEDELLÍN',
+    url: '/web/juzgado-015-de-familia-de-medellin'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -31566,28 +31540,28 @@ exports.Despachos = [
     url: '/web/juzgado-015-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 015 LABORAL DEL CIRCUITO DE BARRANQUILLA - ATLÁNTICO',
     url: '/web/juzgado-015-laboral-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 015 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-015-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 015 LABORAL DEL CIRCUITO DE CALI - VALLE DEL CAUCA',
     url: '/web/juzgado-015-laboral-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 015 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
@@ -31638,96 +31612,96 @@ exports.Despachos = [
     url: '/web/juzgado-015-penal-municipal-con-funcion-de-control-de-garantias-de-bucaramanga'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 015 PENAL MUNICIPAL DE MEDELLÍN',
     url: '/web/juzgado-015-penal-municipal-de-medellin'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 016 ADMINISTRATIVO DE CALI',
-    url         : '/web/juzgado-16-administrativo-oral-del-circuito-de-cali'
+    nombre: 'JUZGADO 016 ADMINISTRATIVO DE CALI',
+    url: '/web/juzgado-16-administrativo-oral-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 016 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-16-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 016 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-16-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 016 CIVIL DEL CIRCUITO DE BARRANQUILLA',
     url: '/web/juzgado-016-civil-del-circuito-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 016 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-16-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 016 CIVIL DEL CIRCUITO DE CALI',
     url: '/web/juzgado-016-civil-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 016 CIVIL DEL CIRCUITO DE MEDELLÍN',
     url: '/web/juzgado-016-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 016 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-016-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 016 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-016-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 016 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-016-civil-municipal-de-cali'
+    nombre: 'JUZGADO 016 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-016-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 016 CIVIL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-16-civil-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-16-de-ejecucion-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 016 CIVIL MUNICIPAL DE MEDELLÍN',
@@ -31743,10 +31717,10 @@ exports.Despachos = [
     url: '/web/juzgado-016-de-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 016 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-016-de-familia-de-bogota'
+    nombre: 'JUZGADO 016 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-016-de-familia-de-bogota'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -31765,28 +31739,28 @@ exports.Despachos = [
     url: '/web/juzgado-016-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 016 LABORAL DEL CIRCUITO DE BARRANQUILLA - ATLÁNTICO',
     url: '/web/juzgado-016-laboral-del-circuito-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 016 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-016-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 016 LABORAL DEL CIRCUITO DE CALI - VALLE DEL CAUCA',
     url: '/web/juzgado-16-laboral-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 016 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
@@ -31802,7 +31776,7 @@ exports.Despachos = [
     url: '/web/juzgado-016-penal-del-circuito-con-funcion-de-conocimiento-de-cali'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 016 PENAL DEL CIRCUITO DE BOGOTÁ',
@@ -31845,82 +31819,82 @@ exports.Despachos = [
     url: '/web/juzgado-016-penal-municipal-con-funcion-de-control-de-garantias-de-cali'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 017 ADMINISTRATIVO DE CALI',
-    url         : '/web/juzgado-17-administrativo-de-cali'
+    nombre: 'JUZGADO 017 ADMINISTRATIVO DE CALI',
+    url: '/web/juzgado-17-administrativo-de-cali'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 017 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-17-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 017 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-17-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 017 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-17-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 017 CIVIL DEL CIRCUITO DE CALI',
     url: '/web/juzgado-017-civil-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 017 CIVIL DEL CIRCUITO DE MEDELLÍN',
     url: '/web/juzgado-017-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 017 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-17-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 017 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-017-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 017 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-017-civil-municipal-de-cali'
+    nombre: 'JUZGADO 017 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-017-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 017 CIVIL MUNICIPAL DE CARTAGENA',
     url: '/web/juzgado-017-civil-municipal-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 017 CIVIL MUNICIPAL DE MEDELLÍN',
@@ -31936,10 +31910,10 @@ exports.Despachos = [
     url: '/web/juzgado-17-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 017 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-017-de-familia-de-bogota'
+    nombre: 'JUZGADO 017 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-017-de-familia-de-bogota'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -31958,21 +31932,21 @@ exports.Despachos = [
     url: '/web/juzgado-017-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 017 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-017-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 017 LABORAL DEL CIRCUITO DE CALI - VALLE DEL CAUCA',
     url: '/web/juzgado-017-laboral-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 017 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
@@ -32006,75 +31980,75 @@ exports.Despachos = [
     url: '/web/juzgado-017-penal-municipal-con-funcion-de-control-de-garantias-de-cartagena'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 018 ADMINISTRATIVO DE CALI',
-    url         : '/web/juzgado-18-administrativo-de-cali'
+    nombre: 'JUZGADO 018 ADMINISTRATIVO DE CALI',
+    url: '/web/juzgado-18-administrativo-de-cali'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 018 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-18-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 018 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-18-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 018 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-018-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 018 CIVIL DEL CIRCUITO DE CALI',
     url: '/web/juzgado-18-civil-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 018 CIVIL DEL CIRCUITO DE MEDELLÍN',
     url: '/web/juzgado-018-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 018 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-018-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 018 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-18-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 018 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-018-civil-municipal-de-cali'
+    nombre: 'JUZGADO 018 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-018-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 018 CIVIL MUNICIPAL DE MEDELLÍN',
@@ -32090,10 +32064,10 @@ exports.Despachos = [
     url: '/web/juzgado-018-de-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 018 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-18-familia-del-circuito-de-bogota'
+    nombre: 'JUZGADO 018 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-18-familia-del-circuito-de-bogota'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -32112,21 +32086,21 @@ exports.Despachos = [
     url: '/web/juzgado-018-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 018 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-018-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 018 LABORAL DEL CIRCUITO DE CALI - VALLE DEL CAUCA',
     url: '/web/juzgado-18-laboral-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 018 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
@@ -32169,75 +32143,75 @@ exports.Despachos = [
     url: '/web/juzgado-018-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 019 ADMINISTRATIVO DE CALI',
-    url         : '/web/juzgado-19-administrativo-de-cali'
+    nombre: 'JUZGADO 019 ADMINISTRATIVO DE CALI',
+    url: '/web/juzgado-19-administrativo-de-cali'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 019 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-19-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 019 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-19-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 019 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-019-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 019 CIVIL DEL CIRCUITO DE CALI',
     url: '/web/juzgado-019-civil-del-circuito-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 019 CIVIL DEL CIRCUITO DE MEDELLÍN',
     url: '/web/juzgado-019-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 019 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-19-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 019 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-019-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 019 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-019-civil-municipal-de-cali'
+    nombre: 'JUZGADO 019 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-019-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 019 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-19-de-ejecucion-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 019 CIVIL MUNICIPAL DE MEDELLÍN',
@@ -32253,10 +32227,10 @@ exports.Despachos = [
     url: '/web/juzgado-019-de-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 019 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-19-familia-del-circuito-de-bogota'
+    nombre: 'JUZGADO 019 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-19-familia-del-circuito-de-bogota'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -32275,21 +32249,21 @@ exports.Despachos = [
     url: '/web/juzgado-019-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 019 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-019-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 019 LABORAL DEL CIRCUITO DE CALI - VALLE DEL CAUCA',
     url: '/web/juzgado-019-laboral-del-circuito-de-cali-valle-del-cauca'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 019 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
@@ -32323,74 +32297,74 @@ exports.Despachos = [
     url: '/web/juzgado-019-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
-    nombre      : 'JUZGADO 019 PENAL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-019-penal-municipal-de-cali'
+    nombre: 'JUZGADO 019 PENAL MUNICIPAL DE CALI',
+    url: '/web/juzgado-019-penal-municipal-de-cali'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 020 ADMINISTRATIVO DE CALI',
-    url         : '/web/juzgado-20-administrativo-de-cali'
+    nombre: 'JUZGADO 020 ADMINISTRATIVO DE CALI',
+    url: '/web/juzgado-20-administrativo-de-cali'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 020 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-20-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 020 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-20-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 020 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-020-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 020 CIVIL DEL CIRCUITO DE MEDELLÍN',
     url: '/web/juzgado-020-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 020 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-020-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 020 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-020-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 020 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-20-civil-municipal-de-cali'
+    nombre: 'JUZGADO 020 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-20-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 020 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/juzgado-20-de-ejecucion-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 020 CIVIL MUNICIPAL DE MEDELLÍN',
@@ -32406,10 +32380,10 @@ exports.Despachos = [
     url: '/web/juzgado-020-de-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 020 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-20-familia-del-circuito-de-bogota'
+    nombre: 'JUZGADO 020 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-20-familia-del-circuito-de-bogota'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -32428,21 +32402,21 @@ exports.Despachos = [
     url: '/web/juzgado-020-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 020 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-020-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 020 LABORAL DEL CIRCUITO DE CALI - VALLE DEL CAUCA',
     url: '/web/juzgado-020-laboral-del-circuito-de-cali-valle-del-cauca'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 020 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
@@ -32476,61 +32450,61 @@ exports.Despachos = [
     url: '/web/juzgado-020-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 021 ADMINISTRATIVO DE CALI',
-    url         : '/web/juzgado-21-administrativo-de-cali'
+    nombre: 'JUZGADO 021 ADMINISTRATIVO DE CALI',
+    url: '/web/juzgado-21-administrativo-de-cali'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 021 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-21-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 021 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-21-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 021 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-021-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 021 CIVIL DEL CIRCUITO DE MEDELLÍN',
     url: '/web/juzgado-021-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 021 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-021-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 021 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-021-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 021 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-21-civil-municipal-de-cali'
+    nombre: 'JUZGADO 021 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-21-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 021 CIVIL MUNICIPAL DE MEDELLÍN',
@@ -32546,10 +32520,10 @@ exports.Despachos = [
     url: '/web/juzgado-021-de-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 021 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-021-de-familia-de-bogota'
+    nombre: 'JUZGADO 021 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-021-de-familia-de-bogota'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -32568,21 +32542,21 @@ exports.Despachos = [
     url: '/web/juzgado-21-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 021 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-21-laboral-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 021 LABORAL DEL CIRCUITO DE CALI - VALLE DEL CAUCA',
     url: '/web/juzgado-021-laboral-del-circuito-de-cali-valle-del-cauca'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 021 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
@@ -32598,55 +32572,55 @@ exports.Despachos = [
     url: '/web/juzgado-021-penal-municipal-con-funcion-de-control-de-garantias-de-bucaramanga'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 022 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-22-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 022 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-22-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 022 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-022-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 022 CIVIL DEL CIRCUITO DE MEDELLÍN',
     url: '/web/juzgado-22-civil-del-circuito-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 022 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-22-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 022 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-022-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 022 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-22-civil-municipal-de-cali'
+    nombre: 'JUZGADO 022 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-22-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 022 CIVIL MUNICIPAL DE MEDELLÍN',
@@ -32662,10 +32636,10 @@ exports.Despachos = [
     url: '/web/juzgado-22-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 022 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-022-de-familia-de-bogota'
+    nombre: 'JUZGADO 022 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-022-de-familia-de-bogota'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -32684,14 +32658,14 @@ exports.Despachos = [
     url: '/web/juzgado-022-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 022 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-022-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 022 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
@@ -32725,54 +32699,54 @@ exports.Despachos = [
     url: '/web/juzgado-022-penal-municipal-con-funcion-de-control-de-garantias-de-medellin'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
-    nombre      : 'JUZGADO 022 PENAL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-022-penal-municipal-de-cali'
+    nombre: 'JUZGADO 022 PENAL MUNICIPAL DE CALI',
+    url: '/web/juzgado-022-penal-municipal-de-cali'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 023 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-23-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 023 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-23-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 023 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-23-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 023 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-23-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 023 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-023-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 023 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-23-civil-municipal-de-cali'
+    nombre: 'JUZGADO 023 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-23-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 023 CIVIL MUNICIPAL DE MEDELLÍN',
@@ -32788,10 +32762,10 @@ exports.Despachos = [
     url: '/web/juzgado-023-de-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 023 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-023-de-familia-de-bogota'
+    nombre: 'JUZGADO 023 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-023-de-familia-de-bogota'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -32810,14 +32784,14 @@ exports.Despachos = [
     url: '/web/juzgado-023-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 023 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-23-laboral-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 023 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
@@ -32851,48 +32825,48 @@ exports.Despachos = [
     url: '/web/juzgado-023-penal-municipal-con-funcion-de-conocimiento-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 024 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-24-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 024 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-24-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 024 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-24-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 024 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-024-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 024 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-024-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 024 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-024-civil-municipal-de-cali'
+    nombre: 'JUZGADO 024 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-024-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 024 CIVIL MUNICIPAL DE MEDELLÍN',
@@ -32908,10 +32882,10 @@ exports.Despachos = [
     url: '/web/juzgado-024-de-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 024 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-24-familia-del-circuito-de-bogota'
+    nombre: 'JUZGADO 024 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-24-familia-del-circuito-de-bogota'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -32930,62 +32904,62 @@ exports.Despachos = [
     url: '/web/juzgado-24-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 024 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-024-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 024 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
     url: '/web/juzgado-024-laboral-de-medellin-'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 025 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-25-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 025 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-25-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 025 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-025-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 025 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-25-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 025 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-25-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 025 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-25-civil-municipal-de-cali'
+    nombre: 'JUZGADO 025 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-25-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 025 CIVIL MUNICIPAL DE MEDELLÍN',
@@ -33001,10 +32975,10 @@ exports.Despachos = [
     url: '/web/juzgado-025-de-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 025 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-025-de-familia-de-bogota'
+    nombre: 'JUZGADO 025 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-025-de-familia-de-bogota'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -33015,14 +32989,14 @@ exports.Despachos = [
     url: '/web/juzgado-25-de-pequenas-causas-y-competencias-multiple-de-kennedy'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 025 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-025-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 025 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
@@ -33047,48 +33021,48 @@ exports.Despachos = [
     url: '/web/juzgado-025-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 026 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-26-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 026 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-26-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 026 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-026-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 026 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-26-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 026 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-26-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 026 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-026-civil-municipal-de-cali'
+    nombre: 'JUZGADO 026 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-026-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 026 CIVIL MUNICIPAL DE MEDELLÍN',
@@ -33104,10 +33078,10 @@ exports.Despachos = [
     url: '/web/juzgado-026-de-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 026 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-26-familia-del-circuito-de-bogota'
+    nombre: 'JUZGADO 026 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-26-familia-del-circuito-de-bogota'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -33118,14 +33092,14 @@ exports.Despachos = [
     url: '/web/juzgado-026-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 026 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-026-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 026 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
@@ -33159,48 +33133,48 @@ exports.Despachos = [
     url: '/web/juzgado-026-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 027 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-27-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 027 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-27-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 027 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-27-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 027 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-027-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 027 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-027-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 027 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-027-civil-municipal-de-cali'
+    nombre: 'JUZGADO 027 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-027-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 027 CIVIL MUNICIPAL DE MEDELLÍN',
@@ -33216,10 +33190,10 @@ exports.Despachos = [
     url: '/web/juzgado-027-de-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 027 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-27-familia-del-circuito-de-bogota'
+    nombre: 'JUZGADO 027 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-27-familia-del-circuito-de-bogota'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -33230,14 +33204,14 @@ exports.Despachos = [
     url: '/web/juzgado-27-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 027 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
     url: '/web/juzgado-027-laboral-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 027 LABORAL DEL CIRCUITO DE MEDELLÍN - ANTIOQUIA',
@@ -33289,48 +33263,48 @@ exports.Despachos = [
     url: '/web/juzgado-027-penal-municipal-con-funcion-de-control-de-garantias-de-cali'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 028 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-28-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 028 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-28-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 028 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-28-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 028 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-28-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 028 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-028-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 028 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-028-civil-municipal-de-cali'
+    nombre: 'JUZGADO 028 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-028-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 028 CIVIL MUNICIPAL DE MEDELLÍN',
@@ -33346,10 +33320,10 @@ exports.Despachos = [
     url: '/web/juzgado-028-de-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 028 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-028-de-familia-de-bogota'
+    nombre: 'JUZGADO 028 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-028-de-familia-de-bogota'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -33360,7 +33334,7 @@ exports.Despachos = [
     url: '/web/juzgado-28-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 028 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
@@ -33375,48 +33349,48 @@ exports.Despachos = [
     url: '/web/juzgado-028-penal-municipal-con-funcion-de-conocimiento-de-bogota-'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 029 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-29-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 029 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-29-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 029 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-029-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 029 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-29-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 029 CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/juzgado-029-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 029 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-029-civil-municipal-de-cali'
+    nombre: 'JUZGADO 029 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-029-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 029 CIVIL MUNICIPAL DE MEDELLÍN',
@@ -33432,10 +33406,10 @@ exports.Despachos = [
     url: '/web/juzgado-029-de-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 029 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-29-familia-del-circuito-de-bogota'
+    nombre: 'JUZGADO 029 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-29-familia-del-circuito-de-bogota'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -33446,7 +33420,7 @@ exports.Despachos = [
     url: '/web/juzgado-29-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 029 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
@@ -33471,38 +33445,38 @@ exports.Despachos = [
     url: '/web/juzgado-029-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 030 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-30-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 030 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-30-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 030 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-30-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 030 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-30-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 030 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-30-civil-municipal-de-cali'
+    nombre: 'JUZGADO 030 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-30-civil-municipal-de-cali'
   },
   {
     agrupacion:
@@ -33514,10 +33488,10 @@ exports.Despachos = [
     url: '/web/juzgado-030-de-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 030 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-030-de-familia-de-bogota'
+    nombre: 'JUZGADO 030 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-030-de-familia-de-bogota'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -33528,7 +33502,7 @@ exports.Despachos = [
     url: '/web/juzgado-30-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 030 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
@@ -33544,41 +33518,41 @@ exports.Despachos = [
     url: '/web/juzgado-030-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA - ORAL',
+    agrupacion: 'SECCIÓN TERCERA - ORAL',
     especialidad: 'SECCIÓN TERCERA - ORAL',
     nombre:
       'JUZGADO 031 ADMINISTRATIVO DE LA SECCIÓN TERCERA DE BOGOTÁ',
     url: '/web/juzgado-31-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 031 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-31-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 031 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-031-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 031 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-031-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 031 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-031-civil-municipal-de-cali'
+    nombre: 'JUZGADO 031 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-031-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 031 CIVIL MUNICIPAL DE MEDELLÍN ',
@@ -33594,10 +33568,10 @@ exports.Despachos = [
     url: '/web/juzgado-031-de-ejecucion-de-penas-y-medidas-de-seguridad-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 031 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-31-familia-del-circuito-de-bogota'
+    nombre: 'JUZGADO 031 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-31-familia-del-circuito-de-bogota'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -33608,7 +33582,7 @@ exports.Despachos = [
     url: '/web/juzgado-31-de-pequenas-causas-y-competencia-multiples-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 031 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
@@ -33633,51 +33607,51 @@ exports.Despachos = [
     url: '/web/juzgado-031-penal-municipal-con-funcion-de-control-de-garantias-de-medellin'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA - ORAL',
+    agrupacion: 'SECCIÓN TERCERA - ORAL',
     especialidad: 'SECCIÓN TERCERA - ORAL',
     nombre:
       'JUZGADO 032 ADMINISTRATIVO DE LA SECCIÓN TERCERA DE BOGOTÁ',
     url: '/web/juzgado-32-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 032 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-32-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 032 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-32-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 032 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-032-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 032 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-032-civil-municipal-de-cali'
+    nombre: 'JUZGADO 032 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-032-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 032 CIVIL MUNICIPAL DE MEDELLÍN',
     url: '/web/juzgado-032-civil-municipal-de-medellin'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 032 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-32-familia-del-circuito-de-bogota'
+    nombre: 'JUZGADO 032 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-32-familia-del-circuito-de-bogota'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -33688,7 +33662,7 @@ exports.Despachos = [
     url: '/web/juzgado-32-de-pequenas-causas-y-competencia-multiple-localidad-barrios-unidos-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 032 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
@@ -33713,51 +33687,51 @@ exports.Despachos = [
     url: '/web/juzgado-032-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA - ORAL',
+    agrupacion: 'SECCIÓN TERCERA - ORAL',
     especialidad: 'SECCIÓN TERCERA - ORAL',
     nombre:
       'JUZGADO 033 ADMINISTRATIVO DE LA SECCIÓN TERCERA DE BOGOTÁ',
     url: '/web/juzgado-33-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 033 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-33-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 033 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-033-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 033 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-033-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 033 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-033-civil-municipal-de-cali'
+    nombre: 'JUZGADO 033 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-033-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 033 CIVIL MUNICIPAL DE MEDELLÍN',
     url: '/web/juzgado-033-civil-municipal-de-medellin'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 033 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-033-de-familia-de-bogota'
+    nombre: 'JUZGADO 033 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-033-de-familia-de-bogota'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -33768,7 +33742,7 @@ exports.Despachos = [
     url: '/web/juzgado-33-de-pequenas-causas-y-competencia-multiple-localidad-chapinero-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 033 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
@@ -33793,44 +33767,44 @@ exports.Despachos = [
     url: '/web/juzgado-033-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA - ORAL',
+    agrupacion: 'SECCIÓN TERCERA - ORAL',
     especialidad: 'SECCIÓN TERCERA - ORAL',
     nombre:
       'JUZGADO 034 ADMINISTRATIVO DE LA SECCIÓN TERCERA DE BOGOTÁ',
     url: '/web/juzgado-34-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 034 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-34-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 034 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-034-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-34-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 034 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-34-civil-municipal-de-cali'
+    nombre: 'JUZGADO 034 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-34-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 034 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-034-de-familia-de-bogota'
+    nombre: 'JUZGADO 034 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-034-de-familia-de-bogota'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -33841,7 +33815,7 @@ exports.Despachos = [
     url: '/web/juzgado-034-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 034 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
@@ -33866,44 +33840,44 @@ exports.Despachos = [
     url: '/web/juzgado-034-penal-municipal-con-funcion-de-conocimiento-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA - ORAL',
+    agrupacion: 'SECCIÓN TERCERA - ORAL',
     especialidad: 'SECCIÓN TERCERA - ORAL',
     nombre:
       'JUZGADO 035 ADMINISTRATIVO DE LA SECCIÓN TERCERA DE BOGOTÁ',
     url: '/web/juzgado-35-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 035 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-35-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 035 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-035-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 035 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-35-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 035 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-035-civil-municipal-de-cali'
+    nombre: 'JUZGADO 035 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-035-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 035 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-035-de-familia-de-bogota'
+    nombre: 'JUZGADO 035 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-035-de-familia-de-bogota'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -33914,7 +33888,7 @@ exports.Despachos = [
     url: '/web/juzgado-035-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 035 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
@@ -33930,44 +33904,44 @@ exports.Despachos = [
     url: '/web/juzgado-035-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA - ORAL',
+    agrupacion: 'SECCIÓN TERCERA - ORAL',
     especialidad: 'SECCIÓN TERCERA - ORAL',
     nombre:
       'JUZGADO 036 ADMINISTRATIVO DE LA SECCIÓN TERCERA DE BOGOTÁ',
     url: '/web/juzgado-36-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 036 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-36-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 036 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-36-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 036 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-036-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 036 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-036-civil-municipal-de-cali'
+    nombre: 'JUZGADO 036 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-036-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 036 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-036-de-familia-de-bogota'
+    nombre: 'JUZGADO 036 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-036-de-familia-de-bogota'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -33978,7 +33952,7 @@ exports.Despachos = [
     url: '/web/juzgado-36-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 036 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
@@ -34003,44 +33977,44 @@ exports.Despachos = [
     url: '/web/juzgado-036-penal-municipal-con-funcion-de-control-de-garantias-de-cali'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA - ORAL',
+    agrupacion: 'SECCIÓN TERCERA - ORAL',
     especialidad: 'SECCIÓN TERCERA - ORAL',
     nombre:
       'JUZGADO 037 ADMINISTRATIVO DE LA SECCIÓN TERCERA DE BOGOTÁ',
     url: '/web/juzgado-37-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 037 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-037-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 037 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-37-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 037 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-37-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'CIVIL',
-    nombre      : 'JUZGADO 037 CIVIL MUNICIPAL DE CALI',
-    url         : '/web/juzgado-037-civil-municipal-de-cali'
+    nombre: 'JUZGADO 037 CIVIL MUNICIPAL DE CALI',
+    url: '/web/juzgado-037-civil-municipal-de-cali'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
-    nombre      : 'JUZGADO 037 DE FAMILIA DE BOGOTÁ',
-    url         : '/web/juzgado-037-de-familia-de-bogota'
+    nombre: 'JUZGADO 037 DE FAMILIA DE BOGOTÁ',
+    url: '/web/juzgado-037-de-familia-de-bogota'
   },
   {
     agrupacion: 'PROMISCUO',
@@ -34051,7 +34025,7 @@ exports.Despachos = [
     url: '/web/juzgado-37-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 037 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
@@ -34067,21 +34041,21 @@ exports.Despachos = [
     url: '/web/juzgado-037-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA - ORAL',
+    agrupacion: 'SECCIÓN TERCERA - ORAL',
     especialidad: 'SECCIÓN TERCERA - ORAL',
     nombre:
       'JUZGADO 038 ADMINISTRATIVO DE LA SECCIÓN TERCERA DE BOGOTÁ',
     url: '/web/juzgado-38-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 038 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-38-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 038 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -34096,7 +34070,7 @@ exports.Despachos = [
     url: '/web/juzgado-038-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 038 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
@@ -34130,21 +34104,21 @@ exports.Despachos = [
     url: '/web/juzgado-038-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN CUARTA - ORAL',
+    agrupacion: 'SECCIÓN CUARTA - ORAL',
     especialidad: 'SECCIÓN CUARTA - ORAL',
     nombre:
       'JUZGADO 039 ADMINISTRATIVO DE LA SECCIÓN CUARTA DE BOGOTÁ',
     url: '/web/juzgado-39-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 039 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-039-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 039 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -34159,7 +34133,7 @@ exports.Despachos = [
     url: '/web/juzgado-039-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 039 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
@@ -34184,28 +34158,28 @@ exports.Despachos = [
     url: '/web/juzgado-039-penal-municipal-con-funcion-de-control-de-garantias-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL DE RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL DE RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 04 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE SANTA MARTA',
     url: '/web/juzgado-04-civil-del-circuito-especializado-en-restitucion-de-tierras-de-santa-marta'
   },
   {
-    agrupacion  : 'SECCIÓN CUARTA - ORAL',
+    agrupacion: 'SECCIÓN CUARTA - ORAL',
     especialidad: 'SECCIÓN CUARTA - ORAL',
     nombre:
       'JUZGADO 040 ADMINISTRATIVO DE LA SECCIÓN CUARTA DE BOGOTÁ',
     url: '/web/juzgado-40-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 040 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-040-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 040 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -34220,7 +34194,7 @@ exports.Despachos = [
     url: '/web/juzgado-040-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 040 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
@@ -34236,21 +34210,21 @@ exports.Despachos = [
     url: '/web/juzgado-040-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN CUARTA - ORAL',
+    agrupacion: 'SECCIÓN CUARTA - ORAL',
     especialidad: 'SECCIÓN CUARTA - ORAL',
     nombre:
       'JUZGADO 041 ADMINISTRATIVO DE LA SECCIÓN CUARTA DE BOGOTÁ',
     url: '/web/juzgado-41-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 041 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-41-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 041 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -34265,7 +34239,7 @@ exports.Despachos = [
     url: '/web/juzgado-041-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 041 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
@@ -34281,21 +34255,21 @@ exports.Despachos = [
     url: '/web/juzgado-041-penal-municipal-con-funcion-de-conocimiento-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN CUARTA - ORAL',
+    agrupacion: 'SECCIÓN CUARTA - ORAL',
     especialidad: 'SECCIÓN CUARTA - ORAL',
     nombre:
       'JUZGADO 042 ADMINISTRATIVO DE LA SECCIÓN CUARTA DE BOGOTÁ',
     url: '/web/juzgado-42-administrativo-de-oralidad-del-circuito-judicial-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 042 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-042-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 042 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -34310,10 +34284,10 @@ exports.Despachos = [
     url: '/web/juzgado-042-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
-    nombre      : 'JUZGADO 042 LABORAL DE BOGOTÁ',
-    url         : '/web/juzgado-042-laboral-de-bogota'
+    nombre: 'JUZGADO 042 LABORAL DE BOGOTÁ',
+    url: '/web/juzgado-042-laboral-de-bogota'
   },
   {
     agrupacion:
@@ -34334,21 +34308,21 @@ exports.Despachos = [
     url: '/web/juzgado-042-penal-municipal-con-funcion-de-control-de-garantias-de-medellin'
   },
   {
-    agrupacion  : 'SECCIÓN CUARTA - ORAL',
+    agrupacion: 'SECCIÓN CUARTA - ORAL',
     especialidad: 'SECCIÓN CUARTA - ORAL',
     nombre:
       'JUZGADO 043 ADMINISTRATIVO DE LA SECCIÓN CUARTA DE BOGOTÁ',
     url: '/web/juzgado-43-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 043 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-043-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 043 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -34364,10 +34338,10 @@ exports.Despachos = [
     url: '/web/juzgado-043-de-pequenas-causas-y-competencia-multiple-de-bogota-'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
-    nombre      : 'JUZGADO 043 LABORAL DE BOGOTÁ',
-    url         : '/web/juzgado-043-laboral-de-bogota'
+    nombre: 'JUZGADO 043 LABORAL DE BOGOTÁ',
+    url: '/web/juzgado-043-laboral-de-bogota'
   },
   {
     agrupacion:
@@ -34397,21 +34371,21 @@ exports.Despachos = [
     url: '/web/juzgado-043-penal-municipal-con-funcion-de-control-de-garantias-de-medellin'
   },
   {
-    agrupacion  : 'SECCIÓN CUARTA - ORAL',
+    agrupacion: 'SECCIÓN CUARTA - ORAL',
     especialidad: 'SECCIÓN CUARTA - ORAL',
     nombre:
       'JUZGADO 044 ADMINISTRATIVO DE LA SECCIÓN CUARTA DE BOGOTÁ',
     url: '/web/juzgado-44-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 044 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-044-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 044 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -34426,7 +34400,7 @@ exports.Despachos = [
     url: '/web/juzgado-044-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 044 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
@@ -34451,31 +34425,31 @@ exports.Despachos = [
     url: '/web/juzgado-044-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN PRIMERA - ORAL',
+    agrupacion: 'SECCIÓN PRIMERA - ORAL',
     especialidad: 'SECCIÓN PRIMERA - ORAL',
     nombre:
       'JUZGADO 045 ADMINISTRATIVO DE LA SECCIÓN PRIMERA DE BOGOTÁ',
     url: '/web/juzgado-45-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 045 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-045-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 045 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-45-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
-    nombre      : 'JUZGADO 045 LABORAL DE BOGOTÁ',
-    url         : '/web/juzgado-045-laboral-de-bogota'
+    nombre: 'JUZGADO 045 LABORAL DE BOGOTÁ',
+    url: '/web/juzgado-045-laboral-de-bogota'
   },
   {
     agrupacion:
@@ -34496,28 +34470,28 @@ exports.Despachos = [
     url: '/web/juzgado-045-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 046 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-46-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 046 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-046-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 046 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-46-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 046 LABORAL DEL CIRCUITO DE BOGOTÁ - BOGOTÁ',
@@ -34533,48 +34507,48 @@ exports.Despachos = [
     url: '/web/juzgado-046-penal-del-circuito-con-funcion-de-conocimiento-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 047 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-47-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 047 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-47-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-047-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
-    nombre      : 'JUZGADO 047 LABORAL DE BOGOTÁ',
-    url         : '/web/juzgado-047-laboral-de-bogota'
+    nombre: 'JUZGADO 047 LABORAL DE BOGOTÁ',
+    url: '/web/juzgado-047-laboral-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 048 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-48-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 048 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-048-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 048 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -34599,21 +34573,21 @@ exports.Despachos = [
     url: '/web/juzgado-048-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 049 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-49-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 049 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-049-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 049 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -34629,7 +34603,7 @@ exports.Despachos = [
     url: '/web/juzgado-049-penal-del-circuito-con-funcion-de-conocimiento-de-bogota'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 049 PENAL DEL CIRCUITO LEY 600 DE BOGOTÁ',
@@ -34645,21 +34619,21 @@ exports.Despachos = [
     url: '/web/juzgado-049-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 050 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-50-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 050 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-50-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 050 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -34675,7 +34649,7 @@ exports.Despachos = [
     url: '/web/juzgado-050-penal-del-circuito-con-funcion-de-conocimiento-de-bogota'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 050 PENAL DEL CIRCUITO DE BOGOTÁ',
@@ -34691,42 +34665,42 @@ exports.Despachos = [
     url: '/web/juzgado-050-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 051 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-51-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 051 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-051-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 051 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-051-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 052 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-52-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 052 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-052-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 052 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -34742,21 +34716,21 @@ exports.Despachos = [
     url: '/web/juzgado-052-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 053 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-53-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 053 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-053-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 053 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -34780,21 +34754,21 @@ exports.Despachos = [
     url: '/web/juzgado-053-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 054 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-54-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 054 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-054-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 054 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -34810,21 +34784,21 @@ exports.Despachos = [
     url: '/web/juzgado-054-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 055 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-55-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 055 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-055-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -34839,21 +34813,21 @@ exports.Despachos = [
     url: '/web/juzgado-055-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 056 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-56-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 056 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-056-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 056 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -34868,7 +34842,7 @@ exports.Despachos = [
     url: '/web/juzgado-056-de-pequenas-causas-y-competencia-multiple'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'JUZGADO 056 PENAL DEL CIRCUITO DE BOGOTÁ',
@@ -34884,14 +34858,14 @@ exports.Despachos = [
     url: '/web/juzgado-056-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA - ORAL',
+    agrupacion: 'SECCIÓN SEGUNDA - ORAL',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 057 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-57-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 057 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -34906,14 +34880,14 @@ exports.Despachos = [
     url: '/web/juzgado-057-penal-del-circuito-con-funcion-de-conocimiento-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA - ORAL',
+    agrupacion: 'SECCIÓN TERCERA - ORAL',
     especialidad: 'SECCIÓN TERCERA - ORAL',
     nombre:
       'JUZGADO 058 ADMINISTRATIVO DE LA SECCIÓN TERCERA DE BOGOTÁ',
     url: '/web/juzgado-58-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 058 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -34929,14 +34903,14 @@ exports.Despachos = [
     url: '/web/juzgado-058-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA - ORAL',
+    agrupacion: 'SECCIÓN TERCERA - ORAL',
     especialidad: 'SECCIÓN TERCERA - ORAL',
     nombre:
       'JUZGADO 059 ADMINISTRATIVO DE LA SECCIÓN TERCERA DE BOGOTÁ',
     url: '/web/juzgado-59-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 059 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -34952,14 +34926,14 @@ exports.Despachos = [
     url: '/web/juzgado-059-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA - ORAL',
+    agrupacion: 'SECCIÓN TERCERA - ORAL',
     especialidad: 'SECCIÓN TERCERA - ORAL',
     nombre:
       'JUZGADO 060 ADMINISTRATIVO DE LA SECCIÓN TERCERA DE BOGOTÁ',
     url: '/web/juzgado-60-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 060 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -34983,42 +34957,42 @@ exports.Despachos = [
     url: '/web/juzgado-060-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA - ORAL',
+    agrupacion: 'SECCIÓN TERCERA - ORAL',
     especialidad: 'SECCIÓN TERCERA - ORAL',
     nombre:
       'JUZGADO 061 ADMINISTRATIVO DE LA SECCION TERCERA DE BOGOTÁ',
     url: '/web/juzgado-61-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 061 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-61-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA - ORAL',
+    agrupacion: 'SECCIÓN TERCERA - ORAL',
     especialidad: 'SECCIÓN TERCERA - ORAL',
     nombre:
       'JUZGADO 062 ADMINISTRATIVO DE LA SECCIÓN TERCERA DE BOGOTÁ',
     url: '/web/juzgado-62-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 062 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-062-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA - ORAL',
+    agrupacion: 'SECCIÓN TERCERA - ORAL',
     especialidad: 'SECCIÓN TERCERA - ORAL',
     nombre:
       'JUZGADO 063 ADMINISTRATIVO DE LA SECCIÓN TERCERA DE BOGOTÁ',
     url: '/web/juzgado-63-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 063 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -35034,14 +35008,14 @@ exports.Despachos = [
     url: '/web/juzgado-063-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA - ORAL',
+    agrupacion: 'SECCIÓN TERCERA - ORAL',
     especialidad: 'SECCIÓN TERCERA - ORAL',
     nombre:
       'JUZGADO 064 ADMINISTRATIVO DE LA SECCIÓN TERCERA DE BOGOTÁ',
     url: '/web/juzgado-64-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -35057,14 +35031,14 @@ exports.Despachos = [
     url: '/web/juzgado-064-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA - ORAL',
+    agrupacion: 'SECCIÓN TERCERA - ORAL',
     especialidad: 'SECCIÓN TERCERA - ORAL',
     nombre:
       'JUZGADO 065 ADMINISTRATIVO DE LA SECCIÓN TERCERA DE BOGOTÁ',
     url: '/web/juzgado-65-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -35080,28 +35054,28 @@ exports.Despachos = [
     url: '/web/juzgado-065-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA - ORAL',
+    agrupacion: 'SECCIÓN TERCERA - ORAL',
     especialidad: 'SECCIÓN TERCERA - ORAL',
     nombre:
       'JUZGADO 066 ADMINISTRATIVO DE LA SECCIÓN TERCERA DE BOGOTÁ',
     url: '/web/juzgado-66-administrativo-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 066 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-066-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'JUZGADO ADMINISTRATIVO',
+    agrupacion: 'JUZGADO ADMINISTRATIVO',
     especialidad: 'SECCIÓN SEGUNDA - ORAL',
     nombre:
       'JUZGADO 067 ADMINISTRATIVO DE LA SECCIÓN SEGUNDA DE BOGOTÁ',
     url: '/web/juzgado-067-administrativo-de-la-seccion-segunda-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 067 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -35126,14 +35100,14 @@ exports.Despachos = [
     url: '/web/juzgado-067-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'SECCIÓN PRIMERA - ORAL',
+    agrupacion: 'SECCIÓN PRIMERA - ORAL',
     especialidad: 'SECCIÓN PRIMERA - ORAL',
     nombre:
       'JUZGADO 068 ADMINISTRATIVO DE LA SECCIÓN PRIMERA DE BOGOTÁ',
     url: '/web/juzgado-068-administrativo-de-la-seccion-primera-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -35148,7 +35122,7 @@ exports.Despachos = [
     url: '/web/juzgado-68-de-pequenas-causas-y-competencia-multiple-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 069 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -35172,7 +35146,7 @@ exports.Despachos = [
     url: '/web/juzgado-069-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -35196,7 +35170,7 @@ exports.Despachos = [
     url: '/web/juzgado-070-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 071 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -35220,7 +35194,7 @@ exports.Despachos = [
     url: '/web/juzgado-071-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 072 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -35244,7 +35218,7 @@ exports.Despachos = [
     url: '/web/juzgado-072-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 073 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -35285,7 +35259,7 @@ exports.Despachos = [
     url: '/web/juzgado-074-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 075 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -35310,7 +35284,7 @@ exports.Despachos = [
     url: '/web/juzgado-75-penal-municipal-funcion-control-garantias-seccional-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 076 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -35326,21 +35300,21 @@ exports.Despachos = [
     url: '/web/juzgado-076-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 077 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-077-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-78-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 079 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -35356,14 +35330,14 @@ exports.Despachos = [
     url: '/web/juzgado-079-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 080 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-080-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 081 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -35379,7 +35353,7 @@ exports.Despachos = [
     url: '/web/juzgado-081-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 082 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -35395,49 +35369,49 @@ exports.Despachos = [
     url: '/web/juzgado-082-penal-municipal-con-funcion-de-control-de-garantias-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 083 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-083-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 084 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-84-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-086-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 087 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-087-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 088 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-088-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 089 CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/juzgado-089-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 090 CIVIL MUNICIPAL DE BOGOTÁ',
@@ -35453,7 +35427,7 @@ exports.Despachos = [
     url: '/web/juzgado-011-penal-municipal-con-funcion-de-conocimiento-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 101 ITINERANTE CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE ANTIOQUIA',
@@ -35568,62 +35542,62 @@ exports.Despachos = [
     url: '/web/juzgado-033-penal-municipal-con-funcion-de-conocimiento-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 401 ADMINISTRATIVO DE MANIZALES',
     url: '/web/juzgado-401-administrativo-de-manizales'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
-    nombre      : 'JUZGADO 401 ADMINISTRATIVO DE YOPAL',
-    url         : '/web/juzgado-401-administrativo-de-yopal'
+    nombre: 'JUZGADO 401 ADMINISTRATIVO DE YOPAL',
+    url: '/web/juzgado-401-administrativo-de-yopal'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 401 ADMINISTRATIVO TRANSITORIO DE MEDELLÍN',
     url: '/web/juzgado-01-administrativo-de-descongestion-de-medellin'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 401 ADMINISTRATIVO TRANSITORIO DE PEREIRA',
     url: '/web/juzgado-401-administrativo-transitorio-de-pereira'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 401 ADMINISTRATIVO TRANSITORIO DE SINCELEJO',
     url: '/web/juzgado-401-administrativo-transitorio-de-sincelejo'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'JUZGADO 401 CIVIL DEL CIRCUITO ESPECIALIZADO EN RESTITUCIÓN DE TIERRAS DE BARRANCABERMEJA',
     url: '/web/juzgado-02-civil-del-circuito-especializado-en-restitucion-de-tierras-de-barrancabermeja'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 401 LABORAL DEL CIRCUITO DE MANIZALES - CALDAS',
     url: '/web/juzgado-401-laboral-del-circuito-de-manizales-caldas'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 402 ADMINISTRATIVO DE MANIZALES',
     url: '/web/juzgado-402-administrativo-de-manizales'
   },
   {
-    agrupacion  : 'JUZGADO ADMINISTRATIVO',
+    agrupacion: 'JUZGADO ADMINISTRATIVO',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 402 ADMINISTRATIVO TRANSITORIO DE MONTERÍA ANTES JUZGADO 401 ADMINISTRATIVO TRANSITORIO',
@@ -35639,494 +35613,494 @@ exports.Despachos = [
     url: '/web/juzgado-402-de-ejecucion-de-penas-y-medidas-de-seguridad-de-ocana'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 403 ADMINISTRATIVO DE MANIZALES',
     url: '/web/juzgado-403-administrativo-de-manizales'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 405 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-405-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 406 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-406-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 407 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-407-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 411 CIVIL MUNICIPAL TRANSITORIO DE YOPAL',
     url: '/web/juzgado-411-civil-municipal-transitorio-de-yopal'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'JUZGADO 411 LABORAL DEL CIRCUITO DE BARRANCABERMEJA - SANTANDER',
     url: '/web/juzgado-411-laboral-de-barrancabermeja'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 411 PENAL DE CIRCUITO ESPECIALIZADO TRANSITORIO DE MONTERÍA',
     url: '/web/juzgado-411-penal-de-circuito-especializado-transitorio-de-monteria'
   },
   {
-    agrupacion  : 'PENAL ESPECIALIZADO',
+    agrupacion: 'PENAL ESPECIALIZADO',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'JUZGADO 411 PENAL DE CIRCUITO ESPECIALIZADO TRANSITORIO DE SANTA MARTA',
     url: '/web/juzgado-411-penal-de-circuito-especializado-transitorio-de-santa-marta'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 412 ADMINISTRATIVO TRANSITORIO DE BOGOTÁ',
     url: '/web/juzgado-412-administrativo-transitorio-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 413 ADMINISTRATIVO TRANSITORIO DE MEDELLÍN',
     url: '/web/juzgado-413-administrativo-transitorio-de-medellin'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO 414 ADMINISTRATIVO DE MEDELLÍN',
     url: '/web/juzgado-412-administrativo-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'JUZGADO 414 CIVIL DEL CIRCUITO DE BOGOTÁ',
     url: '/web/juzgado-414-civil-del-circuito-de-bogota'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'JUZGADO ADMINISTRATIVO TRANSITORIO DE BUCARAMANGA',
     url: '/web/juzgado-administrativo-transitorio-de-bucaramanga'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO ADMINISTRATIVO TRANSITORIO DE TUNJA',
     url: '/web/juzgado-administrativo-transitorio-de-tunja'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO ADMINISTRATIVO TRANSITORIO DE VALLEDUPAR',
     url: '/web/juzgado-administrativo-transitorio-de-valledupar'
   },
   {
-    agrupacion  : 'SIN SECCIÓN - ORAL',
+    agrupacion: 'SIN SECCIÓN - ORAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'JUZGADO ADMINISTRATIVO TRANSITORIO DEL CIRCUITO JUDICIAL DE CALI',
     url: '/web/juzgado-administrativo-transitorio-del-circuito-judicial-de-cali'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'OFICINA DE APOYO A LOS JUZGADOS CIVILES DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BARRANQUILLA',
     url: '/web/oficina-de-apoyo-a-los-juzgados-civiles-del-circuito-de-ejecucion-de-sentencias-de-barranquilla'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'OFICINA DE APOYO A LOS JUZGADOS CIVILES MUNICIPALES DE EJECUCIÓN DE SENTENCIAS DE CARTAGENA',
     url: '/web/oficina-de-apoyo-a-los-juzgados-civil-municipales-de-ejecucion-de-sentencias-de-cartagena'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'OFICINA DE APOYO-PALOQUEMAO',
-    nombre      : 'OFICINA DE APOYO DE FLORENCIA',
-    url         : '/web/oficina-de-apoyo-de-florencia'
+    nombre: 'OFICINA DE APOYO DE FLORENCIA',
+    url: '/web/oficina-de-apoyo-de-florencia'
   },
   {
-    agrupacion  : 'OFICINA JUDICIAL',
+    agrupacion: 'OFICINA JUDICIAL',
     especialidad: 'OFICINA JUDICIAL',
     nombre:
       'OFICINA DE APOYO JUDICIAL DE CARTAGENA',
     url: '/web/oficina-de-apoyo-judicial-de-cartagena'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'OFICINA JUDICIAL',
     nombre:
       'OFICINA DE APOYO JUDICIAL DE LOS JUZGADOS ADMINISTRATIVOS DE CALI',
     url: '/web/oficina-de-apoyo-judicial-de-los-juzgados-administrativos-de-cali'
   },
   {
-    agrupacion  : 'OFICINA JUDICIAL',
+    agrupacion: 'OFICINA JUDICIAL',
     especialidad: 'OFICINA JUDICIAL',
     nombre:
       'OFICINA DE APOYO JUDICIAL DE LOS JUZGADOS ADMINISTRATIVOS DE MEDELLIN',
     url: '/web/oficina-de-apoyo-judicial'
   },
   {
-    agrupacion  : 'OFICINA JUDICIAL',
+    agrupacion: 'OFICINA JUDICIAL',
     especialidad: 'OFICINA JUDICIAL',
-    nombre      : 'OFICINA DE APOYO JUDICIAL DE QUIBDÓ',
-    url         : '/web/oficina-de-apoyo-judicial-de-quibdo'
+    nombre: 'OFICINA DE APOYO JUDICIAL DE QUIBDÓ',
+    url: '/web/oficina-de-apoyo-judicial-de-quibdo'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'OFICINA DE APOYO JUZGADO DE EJECUCIÓN EN ASUNTOS DE FAMILIA DE BOGOTÁ',
     url: '/web/oficina-de-apoyo-juzgado-de-ejecucion-en-asuntos-de-familia-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'OFICINA DE APOYO JUZGADOS CIVILES CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN',
     url: '/web/oficina-de-apoyo-juzgados-civiles-circuito-de-ejecucion-de-sentencias-de-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'OFICINA DE APOYO JUZGADOS CIVILES DEL CIRCUITO DE EJECUCIÓN DE BUCARAMANGA',
     url: '/web/oficina-de-apoyo-juzgados-civiles-del-circuito-de-ejecucion-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'OFICINA DE APOYO JUZGADOS CIVILES DEL CIRCUITO DE EJECUCIÓN DE CALI',
     url: '/web/oficina-de-apoyo-juzgados-civiles-del-circuito-de-ejecucion'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'OFICINA DE APOYO JUZGADOS CIVILES DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ',
     url: '/web/oficina-de-apoyo-juzgados-civiles-del-circuito-de-ejecucion-de-sentencias-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'OFICINA DE APOYO JUZGADOS CIVILES MUNICIPALES DE EJECUCIÓN DE CALI',
     url: '/web/oficina-de-apoyo-juzgados-civiles-municipales-de-ejecucion-de-cali-'
   },
   {
-    agrupacion  : 'OFICINA JUDICIAL',
+    agrupacion: 'OFICINA JUDICIAL',
     especialidad: 'OFICINA JUDICIAL',
     nombre:
       'OFICINA DE APOYO JUZGADOS CIVILES MUNICIPALES DE EJECUCIÓN DE SENTENCIAS DE MEDELLÍN',
     url: '/web/oficina-apoyo-juzgados-civil-municipal-ejecucion-sentencias-medellin'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'OFICINA DE EJECUCIÓN CIVIL MUNICIPAL DE BOGOTÁ',
     url: '/web/oficina-de-ejecucion-civil-municipal-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'OFICINA DE EJECUCIÓN CIVIL MUNICIPAL DE BUCARAMANGA',
     url: '/web/oficina-de-ejecucion-civil-municipal-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'OFICINA DE EJECUCIÓN CIVIL MUNICIPAL DE MANIZALES',
     url: '/web/oficina-de-ejecucion-civil-municipal'
   },
   {
-    agrupacion  : 'OFICINA DE SERVICIOS',
+    agrupacion: 'OFICINA DE SERVICIOS',
     especialidad: 'OFICINA DE SERVICIOS',
     nombre:
       'OFICINA DE SERVICIOS ADMINISTRATIVOS CHINCHINA',
     url: '/web/oficina-de-servicios-administrativos-chinchina'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'OFICINA DE SERVICIOS',
     nombre:
       'OFICINA DE SERVICIOS JUZGADOS ADMINISTRATIVOS DE BUCARAMANGA',
     url: '/web/oficina-de-servicios-juzgados-administrativos-de-bucaramanga'
   },
   {
-    agrupacion  : 'TRIBUNAL ADMINISTRATIVO',
+    agrupacion: 'TRIBUNAL ADMINISTRATIVO',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'PRESIDENCIA TRIBUNAL ADMINISTRATIVO CUNDINAMARCA',
     url: '/web/tribunal-administrativo1'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'PRESIDENCIA TRIBUNAL ADMINISTRATIVO DE META',
     url: '/web/presidencia-tribunal-administrativo-de-meta'
   },
   {
-    agrupacion  : 'RELATORIA',
+    agrupacion: 'RELATORIA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORÍA DEL TRIBUNAL ADMINISTRATIVO DEL TOLIMA',
     url: '/web/relatoria-del-tribunal-administrativo-del-tolima'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORÍA GENERAL DEL TRIBUNAL SUPERIOR DE POPAYÁN',
     url: '/web/relatoria-tribunal-superior-de-popayan'
   },
   {
-    agrupacion  : 'RELATORIA',
+    agrupacion: 'RELATORIA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORIA GENERAL TRIBUNAL SUPERIOR DE ARAUCA',
     url: '/web/relatoria-general-tribunal-superior-de-arauca'
   },
   {
-    agrupacion  : 'RELATORÍA',
+    agrupacion: 'RELATORÍA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORIA GENERAL TRIBUNAL SUPERIOR MEDELLIN',
     url: '/web/relatoria-general-tribunal-superior-medellin'
   },
   {
-    agrupacion  : 'RELATORÍA',
+    agrupacion: 'RELATORÍA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORIA TRIBUNAL ADMINISTRATIVO  DE NARIÑO',
     url: '/web/relatoria-tribunal-administrativo-de-narino'
   },
   {
-    agrupacion  : 'RELATORÍA',
+    agrupacion: 'RELATORÍA',
     especialidad: 'ADMINISTRATIVA',
     nombre:
       'RELATORÍA TRIBUNAL ADMINISTRATIVO DE ARAUCA',
     url: '/web/relatoria-tribunal-administrativo-de-arauca'
   },
   {
-    agrupacion  : 'RELATORIA',
+    agrupacion: 'RELATORIA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORIA TRIBUNAL ADMINISTRATIVO DE BOLÍVAR',
     url: '/web/relatoria-tribunal-administrativo-de-bolivar'
   },
   {
-    agrupacion  : 'RELATORÍA',
+    agrupacion: 'RELATORÍA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORIA TRIBUNAL ADMINISTRATIVO DE BOYACÁ',
     url: '/web/relatoria-tribunal-administrativo-de-boyaca.'
   },
   {
-    agrupacion  : 'RELATORIA',
+    agrupacion: 'RELATORIA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORIA TRIBUNAL ADMINISTRATIVO DE CAQUETÁ',
     url: '/web/relatoria-tribunal-administrativo-de-caqueta'
   },
   {
-    agrupacion  : 'RELATORÍA',
+    agrupacion: 'RELATORÍA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORIA TRIBUNAL ADMINISTRATIVO DE CAUCA',
     url: '/web/relatoria-tribunal-administrativo-del-cauca'
   },
   {
-    agrupacion  : 'RELATRORÍA',
+    agrupacion: 'RELATRORÍA',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'RELATORIA TRIBUNAL ADMINISTRATIVO DE CESAR',
     url: '/web/relatoria-tribunal-administrativo-del-cesar'
   },
   {
-    agrupacion  : 'RELATORIA',
+    agrupacion: 'RELATORIA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORÍA TRIBUNAL ADMINISTRATIVO DE CÓRDOBA',
     url: '/web/relatoria-tribunal-administrativo-de-cordoba'
   },
   {
-    agrupacion  : 'RELATORÍA',
+    agrupacion: 'RELATORÍA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORIA TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/relatoria-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'RELATORIA',
+    agrupacion: 'RELATORIA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORÍA TRIBUNAL ADMINISTRATIVO DE LA GUAJIRA',
     url: '/web/relatoria-tribunal-administrativo-de-la-guajira'
   },
   {
-    agrupacion  : 'RELATORÍA',
+    agrupacion: 'RELATORÍA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORIA TRIBUNAL ADMINISTRATIVO DE MANIZALES',
     url: '/web/relatoria-tribunal-administrativo-de-caldas'
   },
   {
-    agrupacion  : 'RELATORIA',
+    agrupacion: 'RELATORIA',
     especialidad: 'SIN SECCIÓN',
     nombre:
       'RELATORIA TRIBUNAL ADMINISTRATIVO DE META',
     url: '/web/relatoria-tribunal-administrativo-de-meta'
   },
   {
-    agrupacion  : 'RELATORÍA',
+    agrupacion: 'RELATORÍA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORÍA TRIBUNAL ADMINISTRATIVO DE QUINDÍO',
     url: '/web/relatoria-tribunal-administrativo-de-quindio.'
   },
   {
-    agrupacion  : 'RELATORÍA',
+    agrupacion: 'RELATORÍA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORIA TRIBUNAL ADMINISTRATIVO DE RISARALDA',
     url: '/web/relatoria-tribunal-administrativo-de-risaralda'
   },
   {
-    agrupacion  : 'RELATORÍA',
+    agrupacion: 'RELATORÍA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORIA TRIBUNAL ADMINISTRATIVO DE SANTANDER',
     url: '/web/relatoria-tribunal-administrativo-de-santander'
   },
   {
-    agrupacion  : 'RELATORÍA',
+    agrupacion: 'RELATORÍA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORIA TRIBUNAL ADMINISTRATIVO DE VALLE DEL CAUCA',
     url: '/web/relatoria-tribunal-administrativo-de-valle-del-cauca'
   },
   {
-    agrupacion  : 'RELATORÍA',
+    agrupacion: 'RELATORÍA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORÍA TRIBUNAL ADMINISTRATIVO DEL ATLÁNTICO',
     url: '/web/relatoria-tribunal-administrativo-del-atlantico'
   },
   {
-    agrupacion  : 'RELATORÍA',
+    agrupacion: 'RELATORÍA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORIA TRIBUNAL SUPERIOR DE ANTIOQUIA',
     url: '/web/relatoria-tribunal-superior-de-antioquia'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORÍA TRIBUNAL SUPERIOR DE BARRANQUILLA',
     url: '/web/relatoria-tribunal-superior-de-barranquilla'
   },
   {
-    agrupacion  : 'RELATORÍA',
+    agrupacion: 'RELATORÍA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORIA TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/relatoria-tribunal-superior-de-bogota'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORÍA TRIBUNAL SUPERIOR DE BUCARAMANGA',
     url: '/web/relatoria-tribunal-superior-de-bucaramanga'
   },
   {
-    agrupacion  : 'RELATORÍA',
+    agrupacion: 'RELATORÍA',
     especialidad: 'SECRETARÍA GENERAL',
-    nombre      : 'RELATORIA TRIBUNAL SUPERIOR DE CALI',
-    url         : '/web/tribunal-superior-del-distrito-judicial-de-cali'
+    nombre: 'RELATORIA TRIBUNAL SUPERIOR DE CALI',
+    url: '/web/tribunal-superior-del-distrito-judicial-de-cali'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORÍA TRIBUNAL SUPERIOR DE CARTAGENA',
     url: '/web/relatoria-tribunal-superior-de-cartagena'
   },
   {
-    agrupacion  : 'RELATORÍA',
+    agrupacion: 'RELATORÍA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORIA TRIBUNAL SUPERIOR DE CUNDINAMARCA',
     url: '/web/relatoria-tribunal-superior-de-cundinamarca'
   },
   {
-    agrupacion  : 'RELATORÍA',
+    agrupacion: 'RELATORÍA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORIA TRIBUNAL SUPERIOR DE MONTERÍA',
     url: '/web/relatoria-tribunal-superior-de-monteria'
   },
   {
-    agrupacion  : 'RELATORÍA',
+    agrupacion: 'RELATORÍA',
     especialidad: 'CIVIL - FAMILIA - LABORAL',
     nombre:
       'RELATORIA TRIBUNAL SUPERIOR DE NEIVA',
     url: '/web/relatoria-tribunal-superior-de-neiva'
   },
   {
-    agrupacion  : 'RELATORÍA',
+    agrupacion: 'RELATORÍA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORIA TRIBUNAL SUPERIOR DE PASTO',
     url: '/web/relatoria-tribunal-superior-de-pasto'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORÍA TRIBUNAL SUPERIOR DE SANTA ROSA DE VITERBO',
     url: '/web/relatoria-tribunal-superior-de-santa-rosa-de-viterbo'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORÍA TRIBUNAL SUPERIOR DE TUNJA',
     url: '/web/relatoria-tribunal-superior-de-tunja'
   },
   {
-    agrupacion  : 'RELATORÍA',
+    agrupacion: 'RELATORÍA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'RELATORIA TRIBUNAL SUPERIOR VILLAVICENCIO',
@@ -36141,512 +36115,512 @@ exports.Despachos = [
     url: '/web/spa-centro-de-servicios-para-adolescentes-san-gil'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'SALA CIVIL DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/tribunal-superior-de-bogota-sala-civil'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'SALA CIVIL DEL TRIBUNAL SUPERIOR DE MEDELLÍN',
     url: '/web/tribunal-superior-de-medellin-sala-civil'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'SALA CIVIL ESPECIALIZADA EN RESTITUCIÓN DE TIERRAS DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/sala-civil-1-especializada-en-restitucion-de-tierras-de-bogota'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE ANTIOQUIA',
     url: '/web/tribunal-superior-de-antioquia-sala-civil-familia'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE CARTAGENA',
     url: '/web/tribunal-superior-de-cartagena-sala-civil'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE CÚCUTA',
     url: '/web/tribunal-superior-de-cucuta-sala-civil-familia'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE MANIZALES',
     url: '/web/tribunal-superior-de-manizales-sala-civil-familia'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE PASTO',
     url: '/web/tribunal-superior-de-pasto-sala-civil-familia'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE PEREIRA',
     url: '/web/tribunal-superior-de-pereira-sala-civil-familia'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE SANTA MARTA',
     url: '/web/tribunal-superior-de-santa-marta-sala-civil-familia'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA - LABORAL',
+    agrupacion: 'CIVIL - FAMILIA - LABORAL',
     especialidad: 'CIVIL - FAMILIA - LABORAL',
     nombre:
       'SALA CIVIL FAMILIA LABORAL DEL TRIBUNAL SUPERIOR DE RIOHACHA',
     url: '/web/tribunal-superior-de-riohacha-sala-civil-familia'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'CONSULTA Y SERVICIO CIVIL',
-    nombre      : 'SALA DE CONSULTA Y SERVICIO CIVIL',
-    url         : '/web/sala-de-consulta-y-servicio-civil'
+    nombre: 'SALA DE CONSULTA Y SERVICIO CIVIL',
+    url: '/web/sala-de-consulta-y-servicio-civil'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'SALA DE FAMILIA DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/tribunal-superior-de-bogota-sala-de-familia'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'SALA DE FAMILIA DEL TRIBUNAL SUPERIOR DE MEDELLÍN',
     url: '/web/tribunal-superior-de-medellin-sala-de-familia'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'SALA FAMILIA DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/tribunal-superior-de-cali-sala-civil-familia'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'SALA LABORAL DEL TRIBUNAL SUPERIOR DE ANTIOQUIA',
     url: '/web/tribunal-superior-de-antioquia-sala-laboral'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'SALA LABORAL DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/tribunal-superior-de-bogota-sala-laboral'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'SALA LABORAL DEL TRIBUNAL SUPERIOR DE CARTAGENA',
     url: '/web/tribunal-superior-de-cartagena-sala-laboral'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'SALA LABORAL DEL TRIBUNAL SUPERIOR DE CÚCUTA',
     url: '/web/tribunal-superior-de-cucuta-sala-laboral'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'SALA LABORAL DEL TRIBUNAL SUPERIOR DE MANIZALES',
     url: '/web/tribunal-superior-de-manizales-sala-laboral'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'SALA LABORAL DEL TRIBUNAL SUPERIOR DE MEDELLÍN',
     url: '/web/tribunal-superior-de-medellin-sala-laboral'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'SALA LABORAL DEL TRIBUNAL SUPERIOR DE PASTO',
     url: '/web/tribunal-superior-de-pasto-sala-laboral'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'SALA LABORAL DEL TRIBUNAL SUPERIOR DE PEREIRA',
     url: '/web/tribunal-superior-de-pereira-sala-laboral'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'SALA LABORAL DEL TRIBUNAL SUPERIOR DE SANTA MARTA',
     url: '/web/tribunal-superior-de-santa-marta-sala-laboral'
   },
   {
-    agrupacion  : 'PENAL JUSTICIA Y PAZ',
+    agrupacion: 'PENAL JUSTICIA Y PAZ',
     especialidad: 'PENAL JUSTICIA Y PAZ',
     nombre:
       'SALA PENAL DE JUSTICIA Y PAZ DEL TRIBUNAL SUPERIOR DE BARRANQUILLA',
     url: '/web/sala-de-justicia-y-paz-tribunal-superior-de-barranquilla'
   },
   {
-    agrupacion  : 'PENAL JUSTICIA Y PAZ',
+    agrupacion: 'PENAL JUSTICIA Y PAZ',
     especialidad: 'PENAL JUSTICIA Y PAZ',
     nombre:
       'SALA PENAL DE JUSTICIA Y PAZ DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/sala-de-justicia-y-paz-tribunal-superior-de-bogota'
   },
   {
-    agrupacion  : 'PENAL JUSTICIA Y PAZ',
+    agrupacion: 'PENAL JUSTICIA Y PAZ',
     especialidad: 'PENAL JUSTICIA Y PAZ',
     nombre:
       'SALA PENAL DE JUSTICIA Y PAZ DEL TRIBUNAL SUPERIOR DE BUCARAMANGA',
     url: '/web/sala-de-justicia-y-paz-tribunal-superior-de-bucaramanga'
   },
   {
-    agrupacion  : 'PENAL JUSTICIA Y PAZ',
+    agrupacion: 'PENAL JUSTICIA Y PAZ',
     especialidad: 'PENAL JUSTICIA Y PAZ',
     nombre:
       'SALA PENAL DE JUSTICIA Y PAZ DEL TRIBUNAL SUPERIOR DE MEDELLÍN',
     url: '/web/sala-de-justicia-y-paz-tribunal-superior-de-medellin'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'SALA PENAL DEL TRIBUNAL SUPERIOR DE ANTIOQUIA',
     url: '/web/tribunal-superior-de-antioquia-sala-penal'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'SALA PENAL DEL TRIBUNAL SUPERIOR DE ARMENIA',
     url: '/web/tribunal-superior-de-armenia-sala-penal'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'SALA PENAL DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/tribunal-superior-de-bogota-sala-penal'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'SALA PENAL DEL TRIBUNAL SUPERIOR DE CARTAGENA',
     url: '/web/tribunal-superior-de-cartagena-sala-penal'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'SALA PENAL DEL TRIBUNAL SUPERIOR DE CÚCUTA',
     url: '/web/sala-penal-del-tribunal-superior-de-cucuta'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'SALA PENAL DEL TRIBUNAL SUPERIOR DE MANIZALES',
     url: '/web/tribunal-superior-de-manizales-sala-penal'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'SALA PENAL DEL TRIBUNAL SUPERIOR DE MEDELLÍN',
     url: '/web/tribunal-superior-de-medellin-sala-penal'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'SALA PENAL DEL TRIBUNAL SUPERIOR DE PEREIRA',
     url: '/web/tribunal-superior-de-pereira-sala-penal'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'SALA PENAL DEL TRIBUNAL SUPERIOR DE RIOHACHA',
     url: '/web/tribunal-superior-de-riohacha-sala-penal'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'SALA PENAL DEL TRIBUNAL SUPERIOR DE VALLEDUPAR',
     url: '/web/sala-penal-del-tribunal-superior-de-valledupar'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'SECCIÓN CUARTA',
-    nombre      : 'SECCIÓN CUARTA',
-    url         : '/web/seccion-cuarta'
+    nombre: 'SECCIÓN CUARTA',
+    url: '/web/seccion-cuarta'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'SECCIÓN PRIMERA',
-    nombre      : 'SECCIÓN PRIMERA',
-    url         : '/web/seccion-primera'
+    nombre: 'SECCIÓN PRIMERA',
+    url: '/web/seccion-primera'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'SECCIÓN QUINTA',
-    nombre      : 'SECCIÓN QUINTA',
-    url         : '/web/seccion-quinta'
+    nombre: 'SECCIÓN QUINTA',
+    url: '/web/seccion-quinta'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'SECCIÓN SEGUNDA',
-    nombre      : 'SECCIÓN SEGUNDA',
-    url         : '/web/seccion-segunda'
+    nombre: 'SECCIÓN SEGUNDA',
+    url: '/web/seccion-segunda'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'SECCIÓN TERCERA',
-    nombre      : 'SECCIÓN TERCERA',
-    url         : '/web/seccion-tercera'
+    nombre: 'SECCIÓN TERCERA',
+    url: '/web/seccion-tercera'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'SECRETARÍA COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE ANTIOQUIA',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-antioquia'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'SECRETARÍA COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE ATLÁNTICO',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-atlantico'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'SECRETARÍA COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE BOGOTÁ',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-bogota'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'SECRETARÍA COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE BOLÍVAR',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-bolivar'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'SECRETARÍA COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE BOYACÁ',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-boyaca'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'SECRETARÍA COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE CALDAS',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-caldas'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'SECRETARÍA COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE CAQUETÁ',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-caqueta'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'SECRETARÍA COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE CAUCA',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-cauca'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'SECRETARÍA COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE CESAR',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-cesar'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'SECRETARÍA COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE CHOCÓ',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-choco'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'SECRETARÍA COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE CÓRDOBA',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-cordoba'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'SECRETARÍA COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE CUNDINAMARCA',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-cundinamarca'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'SECRETARÍA COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE HUILA',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-huila'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'SECRETARÍA COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE LA GUAJIRA',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-la-guajira'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'SECRETARÍA COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE MAGDALENA',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-magdalena'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'SECRETARÍA COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE META',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-meta'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'SECRETARÍA COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE NARIÑO',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-narino'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'SECRETARÍA COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE NORTE DE SANTANDER',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-norte-de-santander'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'SECRETARÍA COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE SUCRE',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-sucre'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'SECRETARÍA COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE TOLIMA',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-tolima'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'SECRETARÍA COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE VALLE DEL CAUCA',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-valle-del-cauca'
   },
   {
-    agrupacion  : 'DISCIPLINARIA',
+    agrupacion: 'DISCIPLINARIA',
     especialidad: 'DISCIPLINARIA',
     nombre:
       'SECRETARÍA DE LA  COMISIÓN SECCIONAL DE DISCIPLINA JUDICIAL DE SANTANDER',
     url: '/web/secretaria-comision-seccional-de-disciplina-judicial-de-santander'
   },
   {
-    agrupacion  : 'CIVIL',
+    agrupacion: 'CIVIL',
     especialidad: 'CIVIL',
     nombre:
       'SECRETARÍA DE LA SALA CIVIL DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/tribunal-superior-de-cali-sala-civil'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'SECRETARÍA DE LA SALA CIVIL ESPECIALIZADA EN RESTITUCIÓN DE TIERRAS DE CALI',
     url: '/web/secretaria-de-la-sala-civil-especializada-en-restitucion-de-tierras-de-cali'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'SECRETARÍA DE LA SALA CIVIL ESPECIALIZADA EN RESTITUCIÓN DE TIERRAS TRIBUNAL SUPERIOR DE ANTIOQUIA',
     url: '/web/secretaria-de-la-sala-civil-especializada-en-restitucion-de-tierras-tribunal-superior-de-antioquia'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'SECRETARÍA DE LA SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE BARRANQUILLA',
     url: '/web/secretaria-de-la-sala-civil-familia-del-tribunal-superior-de-barranquilla1'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'SECRETARÍA DE LA SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE TUNJA',
     url: '/web/tribunal-superior-de-tunja-sala-de-familia'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA - LABORAL',
+    agrupacion: 'CIVIL - FAMILIA - LABORAL',
     especialidad: 'CIVIL - FAMILIA - LABORAL',
     nombre:
       'SECRETARÍA DE LA SALA CIVIL FAMILIA LABORAL DEL TRIBUNAL SUPERIOR DE ARMENIA',
     url: '/web/tribunal-superior-de-armenia-sala-civil-familia-laboral'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA - LABORAL',
+    agrupacion: 'CIVIL - FAMILIA - LABORAL',
     especialidad: 'CIVIL - FAMILIA - LABORAL',
     nombre:
       'SECRETARÍA DE LA SALA CIVIL FAMILIA LABORAL DEL TRIBUNAL SUPERIOR DE MONTERÍA',
     url: '/web/secretaria-de-la-sala-civil-familia-laboral-del-tribunal-superior-de-monteria'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA - LABORAL',
+    agrupacion: 'CIVIL - FAMILIA - LABORAL',
     especialidad: 'CIVIL - FAMILIA - LABORAL',
     nombre:
       'SECRETARÍA DE LA SALA CIVIL FAMILIA LABORAL DEL TRIBUNAL SUPERIOR DE SINCELEJO',
     url: '/web/secretaria-de-la-sala-civil-familia-laboral-del-tribunal-superior-de-sincelejo'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'SECRETARIA DE LA SALA CIVIL FAMILIA Y AGRARIA DEL TRIBUNAL SUPERIOR DE CUNDINAMARCA',
@@ -36662,685 +36636,685 @@ exports.Despachos = [
     url: '/web/secretaria-de-la-sala-de-extincion-de-dominio-del-tribunal-superior-de-bogota'
   },
   {
-    agrupacion  : 'FAMILIA',
+    agrupacion: 'FAMILIA',
     especialidad: 'FAMILIA',
     nombre:
       'SECRETARIA DE LA SALA DE FAMILIA DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/secretaria-de-la-sala-de-familia-del-tribunal-superior-de-bogota'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'SECRETARÍA DE LA SALA LABORAL DEL TRIBUNAL SUPERIOR DE BARRANQUILLA',
     url: '/web/secretaria-de-la-sala-laboral-del-tribunal-superior-de-barranquilla'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'SECRETARÍA DE LA SALA LABORAL DEL TRIBUNAL SUPERIOR DE BUCARAMANGA',
     url: '/web/tribunal-superior-de-bucaramanga-sala-laboral'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'SECRETARÍA DE LA SALA LABORAL DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/tribunal-superior-de-cali-sala-laboral'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'SECRETARÍA DE LA SALA LABORAL DEL TRIBUNAL SUPERIOR DE TUNJA',
     url: '/web/tribunal-superior-de-tunja-sala-laboral'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'SECRETARÍA DE LA SALA PENAL DEL TRIBUNAL SUPERIOR DE BARRANQUILLA',
     url: '/web/secretaria-de-la-sala-penal-del-tribunal-superior-de-barranquilla'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'SECRETARÍA DE LA SALA PENAL DEL TRIBUNAL SUPERIOR DE BUGA',
     url: '/web/secretaria-de-la-sala-penal-del-tribunal-superior-de-buga'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'SECRETARÍA DE LA SALA PENAL DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/tribunal-superior-de-cali-sala-penal'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'SECRETARÍA DE LA SALA PENAL DEL TRIBUNAL SUPERIOR DE CUNDINAMARCA',
     url: '/web/tribunal-superior-de-cundinamarca-sala-penal'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'SECRETARÍA DE LA SALA PENAL DEL TRIBUNAL SUPERIOR DE FLORENCIA',
     url: '/web/secretaria-de-la-sala-penal-del-tribunal-superior-de-florencia'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'SECRETARÍA DE LA SALA PENAL DEL TRIBUNAL SUPERIOR DE MONTERÍA',
     url: '/web/secretaria-de-la-sala-penal-del-tribunal-superior-de-monteria'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'SECRETARÍA DE LA SALA PENAL DEL TRIBUNAL SUPERIOR DE SAN GIL',
     url: '/web/secretaria-de-la-sala-penal-del-tribunal-superior-de-san-gil'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'SECRETARÍA DE LA SALA PENAL DEL TRIBUNAL SUPERIOR DE SINCELEJO',
     url: '/web/secretaria-de-la-sala-penal-del-tribunal-superior-de-sincelejo'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'SECRETARÍA DE LA SALA PENAL DEL TRIBUNAL SUPERIOR DE TUNJA',
     url: '/web/tribunal-superior-de-tunja-sala-penal'
   },
   {
-    agrupacion  : 'SECRETARIA GENERAL',
+    agrupacion: 'SECRETARIA GENERAL',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'SECRETARÍA DEL TRIBUNAL ADMINISTRATIVO DE LA GUAJIRA',
     url: '/web/secretaria-tribunal-administrativo-de-la-guajira'
   },
   {
-    agrupacion  : '*SECRETARÍA',
+    agrupacion: '*SECRETARÍA',
     especialidad: 'SIN SECCIÓN - ORAL',
     nombre:
       'SECRETARÍA DEL TRIBUNAL ADMINISTRATIVO DE QUINDÍO',
     url: '/web/secretaria-tribunal-administrativo-del-quindio'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA DEL TRIBUNAL ADMINISTRATIVO DEL VALLE DEL CAUCA',
     url: '/web/secretaria-tribunal-administrativo-del-valle-del-cauca'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL 001 DEL TRIBUNAL ADMINISTRATIVO DE SUCRE',
     url: '/web/secretaria-tribunal-administrativo-de-sucre'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL ADMINISTRATIVO DE ANTIOQUIA',
     url: '/web/secretaria-tribunal-administrativo-de-antioquia'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL ADMINISTRATIVO DE CARTAGENA',
     url: '/web/secretaria-tribunal-administrativo-de-bolivar'
   },
   {
-    agrupacion  : 'TRIBUNAL ADMINISTRATIVO',
+    agrupacion: 'TRIBUNAL ADMINISTRATIVO',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/secretaria-general-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL ADMINISTRATIVO DE FLORENCIA',
     url: '/web/secretaria-tribunal-administrativo-de-caqueta'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL ADMINISTRATIVO DE MANIZALES',
     url: '/web/secretaria-tribunal-administrativo-de-caldas'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL ADMINISTRATIVO DE NEIVA',
     url: '/web/secretaria-tribunal-administrativo-del-huila'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL ADMINISTRATIVO DE NORTE DE SANTANDER',
     url: '/web/secretaria-tribunal-administrativo-de-norte-de-santander'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL ADMINISTRATIVO DE PASTO',
     url: '/web/secretaria-tribunal-administrativo-de-narino'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL ADMINISTRATIVO DE QUIBDÓ',
     url: '/web/secretaria-tribunal-administrativo-del-choco'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL ADMINISTRATIVO DE RISARALDA',
     url: '/web/secretaria-tribunal-administrativo-de-risaralda1'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL ADMINISTRATIVO DE TUNJA',
     url: '/web/secretaria-tribunal-administrativo-de-boyaca'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL ADMINISTRATIVO DEL META',
     url: '/web/secretaria-tribunal-administrativo-del-meta'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARIA GENERAL DEL TRIBUNAL SUPERIOR DE ARAUCA',
     url: '/web/tribunal-superior-de-arauca'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE ARMENIA',
     url: '/web/tribunal-superior-de-armenia'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE BARRANQUILLA',
     url: '/web/tribunal-superior-del-distrito-judicial-de-barranquilla'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE BOGOTÁ',
     url: '/web/secretaria-general'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE BUCARAMANGA',
     url: '/web/tribunal-superior-del-distrito-judicial-de-bucaramanga1'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE BUGA',
     url: '/web/tribunal-superior-de-buga'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE CALI',
     url: '/web/secretaria-general-del-tribunal-superior-de-cali'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE CARTAGENA',
     url: '/web/tribunal-superior-del-distrito-judicial-de-cartagena'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE CUNDINAMARCA',
     url: '/web/secretaria-general-presidencia'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE IBAGUÉ',
     url: '/web/tribunal-superior-de-ibague'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE MANIZALES',
     url: '/web/tribunal-superior-del-distrito-judicial-de-caldas'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE MEDELLÍN',
     url: '/web/tribunal-superior-de-medellin'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE MOCOA',
     url: '/web/tribunal-superior-del-distrito-judicial-de-mocoa'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE MONTERÍA',
     url: '/web/tribunal-superior-de-monteria'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE PAMPLONA',
     url: '/web/secretaria-general-del-tribunal-superior-de-pamplona'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE PASTO',
     url: '/web/tribunal-superior-del-distrito-judicial-de-narino'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE PEREIRA',
     url: '/web/tribunal-superior-de-risaralda'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE POPAYÁN',
     url: '/web/tribunal-superior-del-distrito-judicial-de-popayan'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE QUIBDÓ',
     url: '/web/tribunal-superior-de-quibdo'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE RIOHACHA',
     url: '/web/tribunal-superior-del-distrito-judicial-de-riohacha'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE SAN ANDRÉS',
     url: '/web/tribunal-superior-de-san-andres-islas'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE SAN GIL',
     url: '/web/secretaria-general-del-tribunal-superior-de-san-gil'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE SANTA MARTA',
     url: '/web/tribunal-superior-de-santa-marta'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE SANTA ROSA DE VITERBO',
     url: '/web/tribunal-superior-de-santa-rosa-de-viterbo'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE SINCELEJO',
     url: '/web/tribunal-superior-del-distrito-judicial-de-sincelejo'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE TUNJA',
     url: '/web/tribunal-superior-de-tunja'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL DEL TRIBUNAL SUPERIOR DE YOPAL',
     url: '/web/tribunal-superior-de-yopal'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA GENERAL TRIBUNAL ADMINISTRATIVO DE SANTANDER',
     url: '/web/secretaria-tribunal-administrativo-de-santander'
   },
   {
-    agrupacion  : '',
+    agrupacion: '',
     especialidad: 'PENAL ESPECIALIZADO',
     nombre:
       'SECRETARIA JUZGADOS PENAL DEL CIRCUITO ESPECIALIZADO DE MEDELLIN',
     url: '/web/secretaria-juzgados-penal-del-circuito-especializado-de-medellin'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'SECRETARIA PENAL DEL TRIBUNAL SUPERIOR DE BUCARAMANGA',
     url: '/web/tribunal-superior-de-bucaramanga-sala-penal'
   },
   {
-    agrupacion  : 'CIVIL RESTITUCIÓN DE TIERRAS',
+    agrupacion: 'CIVIL RESTITUCIÓN DE TIERRAS',
     especialidad: 'CIVIL RESTITUCIÓN DE TIERRAS',
     nombre:
       'SECRETARÍA SALA CIVIL ESPECIALIZADA EN RESTITUCIÓN DE TIERRAS TRIBUNAL SUPERIOR DE CARTAGENA',
     url: '/web/secretaria-sala-civil-especializada-en-restitucion-de-tierras-tribunal-superior-de-cartagena'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'SECRETARIA SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE BUCARAMANGA',
     url: '/web/tribunal-superior-del-distrito-judicial-de-bucaramanga'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'SECRETARIA SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE BUGA',
     url: '/web/tribunal-superior-de-buga-sala-civil-familia'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'SECRETARÍA SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE IBAGUÉ',
     url: '/web/secretaria-sala-civil-familia-del-tribunal-superior-de-ibague'
   },
   {
-    agrupacion  : 'CIVIL FAMILIA LABORAL',
+    agrupacion: 'CIVIL FAMILIA LABORAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA SALA CIVIL FAMILIA LABORAL DEL TRIBUNAL SUPERIOR DE VALLEDUPAR',
     url: '/web/tribunal-superior-de-valledupar-sala-civil-familia-laboral'
   },
   {
-    agrupacion  : 'CIVIL-FAMILIA-LABORAL',
+    agrupacion: 'CIVIL-FAMILIA-LABORAL',
     especialidad: 'CIVIL - FAMILIA - LABORAL',
     nombre:
       'SECRETARÍA SALA CIVIL-FAMILIA-LABORAL DEL TRIBUNAL SUPERIOR DE FLORENCIA',
     url: '/web/secretaria-sala-civil-familia-laboral-del-tribunal-superior-de-florencia'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'SECRETARIA SALA LABORAL DEL TRIBUNAL SUPERIOR DE BUGA',
     url: '/web/tribunal-superior-de-buga-sala-laboral'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'SECRETARIA SALA LABORAL DEL TRIBUNAL SUPERIOR DE CUNDINAMARCA',
     url: '/web/tribunal-superior-de-cundinamarca-sala-laboral'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'SECRETARIA SALA LABORAL DEL TRIBUNAL SUPERIOR DE IBAGUÉ',
     url: '/web/tribunal-superior-de-ibague-sala-laboral'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'SECRETARIA SALA LABORAL DEL TRIBUNAL SUPERIOR DE POPAYÁN',
     url: '/web/secretaria-sala-laboral'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'SECRETARÍA SALA PENAL DEL TRIBUNAL SUPERIOR DE IBAGUÉ',
     url: '/web/secretaria-sala-penal-del-tribunal-superior-de-ibague'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'SECRETARIA SALA PENAL DEL TRIBUNAL SUPERIOR DE POPAYÁN',
     url: '/web/secretaria-sala-penal'
   },
   {
-    agrupacion  : 'SECCIÓN CUARTA',
+    agrupacion: 'SECCIÓN CUARTA',
     especialidad: 'SECCIÓN CUARTA',
     nombre:
       'SECRETARIA SECCIÓN CUARTA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/secretaria-seccion-cuarta-del-tribunal-administrativo-de-cundinamarca'
   },
   {
-    agrupacion  : 'SECCIÓN PRIMERA',
+    agrupacion: 'SECCIÓN PRIMERA',
     especialidad: 'SECCIÓN PRIMERA',
     nombre:
       'SECRETARIA SECCIÓN PRIMERA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/secretaria-tribunal-administrativo-de-cundinamarca-seccion-primera'
   },
   {
-    agrupacion  : 'SECCIÓN SEGUNDA',
+    agrupacion: 'SECCIÓN SEGUNDA',
     especialidad: 'SECCIÓN SEGUNDA',
     nombre:
       'SECRETARIA SECCIÓN SEGUNDA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/sta-de-cundinamarca-seccion-segunda '
   },
   {
-    agrupacion  : 'SECCIÓN TERCERA',
+    agrupacion: 'SECCIÓN TERCERA',
     especialidad: 'SECCIÓN TERCERA',
     nombre:
       'SECRETARIA SECCIÓN TERCERA DEL TRIBUNAL ADMINISTRATIVO DE CUNDINAMARCA',
     url: '/web/sta-de-cundinamarca-seccion-tercera'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARIA TRIBUNAL ADMINISTRATIVO DE ARAUCA',
     url: '/web/secretaria-tribunal-administrativa-de-arauca'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA TRIBUNAL ADMINISTRATIVO DE ATLÁNTICO',
     url: '/web/secretaria-tribunal-administrativo-del-atlantico'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'CONSTITUCIONAL',
     nombre:
       'SECRETARIA TRIBUNAL ADMINISTRATIVO DE CAUCA',
     url: '/web/secretaria-tribunal-administrativo-del-cauca'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARIA TRIBUNAL ADMINISTRATIVO DE CESAR',
     url: '/web/secretaria-tribunal-administrativo-del-cesar'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARIA TRIBUNAL ADMINISTRATIVO DE CÓRDOBA',
     url: '/web/secretaria-tribunal-administrativo-de-cordoba'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARIA TRIBUNAL ADMINISTRATIVO DE MAGDALENA',
     url: '/web/secretaria-tribunal-administrativo-de-magdalena'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARIA TRIBUNAL ADMINISTRATIVO DE TOLIMA',
     url: '/web/secretaria-tribunal-administrativo-del-tolima'
   },
   {
-    agrupacion  : 'CIVIL-FAMILIA-LABORAL',
+    agrupacion: 'CIVIL-FAMILIA-LABORAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA TRIBUNAL SUPERIOR DE NEIVA SALA CIVIL-FAMILIA-LABORAL',
     url: '/web/tribunal-superior-del-distrito-judicial-de-neiva'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA TRIBUNAL SUPERIOR SAN JOSÉ DEL GUAVIARE',
     url: '/web/secretaria-tribunal-superior-san-jose-del-guaviare'
   },
   {
-    agrupacion  : 'SECRETARÍA',
+    agrupacion: 'SECRETARÍA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'SECRETARÍA ÚNICA DEL TRIBUNAL SUPERIOR DE FLORENCIA',
     url: '/web/tribunal-superior-de-florencia'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA',
     nombre:
       'SECRTARÍA SALA CIVIL FAMILIA DEL TRIBUNAL SUPERIOR DE POPAYÁN',
     url: '/web/secretaria-sala-civil-familia'
   },
   {
-    agrupacion  : 'SIN SECCIÓN',
+    agrupacion: 'SIN SECCIÓN',
     especialidad: 'SIN SECCIÓN',
-    nombre      : 'TRIBUNAL ADMINISTRATIVO DE CASANARE',
-    url         : '/web/secretaria-tribunal-administrativo-de-casanare'
+    nombre: 'TRIBUNAL ADMINISTRATIVO DE CASANARE',
+    url: '/web/secretaria-tribunal-administrativo-de-casanare'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'TRIBUNAL ADMINISTRATIVO DE SAN ANDRÉS - SECRETARIA',
     url: '/web/sta-de-san-andres-providencia-y-santa-catalina'
   },
   {
-    agrupacion  : 'PRESIDENCIA',
+    agrupacion: 'PRESIDENCIA',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'TRIBUNAL SUPERIOR DE ANTIOQUIA - PRESIDENCIA',
     url: '/web/tribunal-superior-de-antioquia'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'TRIBUNAL SUPERIOR DE MEDELLÍN - PRESIDENCIA',
     url: '/web/tribunal-superior-de-medellin-presidencia'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'TRIBUNAL SUPERIOR DE NEIVA - SALA PENAL',
     url: '/web/tribunal-superior-de-neiva-sala-penal'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'TRIBUNAL SUPERIOR DE PASTO - SALA PENAL',
     url: '/web/tribunal-superior-de-pasto-sala-penal'
   },
   {
-    agrupacion  : 'SECRETARÍA GENERAL',
+    agrupacion: 'SECRETARÍA GENERAL',
     especialidad: 'SECRETARÍA GENERAL',
     nombre:
       'TRIBUNAL SUPERIOR DE SAN JOSÉ DEL GUAVIARE',
     url: '/web/tribunal-superior-de-san-jose-del-guaviare'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'TRIBUNAL SUPERIOR DE SANTA MARTA - SALA PENAL',
     url: '/web/tribunal-superior-de-santa-marta-sala-penal'
   },
   {
-    agrupacion  : 'CIVIL - FAMILIA',
+    agrupacion: 'CIVIL - FAMILIA',
     especialidad: 'CIVIL - FAMILIA - LABORAL',
     nombre:
       'TRIBUNAL SUPERIOR DE VILLAVICENCIO SALA CIVIL - FAMILIA',
     url: '/web/tribunal-superior-de-villavicencio-sala-civil-familia'
   },
   {
-    agrupacion  : 'LABORAL',
+    agrupacion: 'LABORAL',
     especialidad: 'LABORAL',
     nombre:
       'TRIBUNAL SUPERIOR DE VILLAVICENCIO SALA LABORAL',
     url: '/web/tribunal-superior-de-villavicencio-sala-laboral'
   },
   {
-    agrupacion  : 'PENAL',
+    agrupacion: 'PENAL',
     especialidad: 'PENAL',
     nombre:
       'TRIBUNAL SUPERIOR DE VILLAVICENCIO SALA PENAL',
@@ -37348,24 +37322,14 @@ exports.Despachos = [
   }
 ];
 
-async function outputDespachos(
-  despachos 
-) {
+async function outputDespachos(despachos) {
   const despachitos = await fs.writeFile(
     'despachos.json',
-    JSON.stringify(
-      despachos 
-    )
+    JSON.stringify(despachos)
   );
 
   return despachitos;
 }
 exports.outputDespachos = outputDespachos;
-outputDespachos(
-  exports.Despachos 
-);
-console.log(
-  outputDespachos(
-    exports.Despachos 
-  ) 
-);
+outputDespachos(exports.Despachos);
+console.log(outputDespachos(exports.Despachos));

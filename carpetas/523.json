@@ -1,4 +1,1 @@
-{
-  "StatusCode": 404,
-  "Message": "No se pueden ver actuaciones de un proceso privado"
-}
+{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"22144.741..93","entregagarantiasAbogado":null,"etapaProcesal":"","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":20990158449,"2":""},"radicado":"2019 -00434","vencimientoPagare":null,"expediente":"11001418907620190043400","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"celular":3123704906},"primerNombre":"LUISA","segundoNombre":"ALEJANDRA","primerApellido":"ESCOBAR","segundoApellido":"ANDRADE","cedula":1014185022,"direccion":"CALLE 90A No 45 A- 05","email":"aleja202007@hotmail.com"},"numero":523,"llaveProceso":"11001418907620190043400","tipoProceso":"HIPOTECARIO"}

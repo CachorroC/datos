@@ -1,32 +1,24 @@
 'use strict';
 
-var __importDefault
-  = ( this && this.__importDefault )
-  || function (
-    mod 
-  ) {
+var __importDefault =
+  (this && this.__importDefault) ||
+  function (mod) {
     return mod && mod.__esModule
       ? mod
       : {
-          default: mod 
+          default: mod
         };
   };
-Object.defineProperty(
-  exports, '__esModule', {
-    value: true
-  } 
-);
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
 
 const carpetas_1 = __importDefault(
-  require(
-    './carpetas' 
-  )
+  require('./carpetas')
 );
 
 const llaves = carpetas_1.default.map(
-  (
-    carpeta 
-  ) => {
+  (carpeta) => {
     return carpeta.llaveProceso.toString();
   }
 );
@@ -40,16 +32,14 @@ async function fetchProcesosRaw() {
       index < llaves.length;
       index++
     ) {
-      const llaveProceso = llaves[ index ];
+      const llaveProceso = llaves[index];
 
       const Request = await fetch(
-        `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${ llaveProceso }&SoloActivos=false`
+        `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${llaveProceso}&SoloActivos=false`
       );
 
-      if ( !Request.ok ) {
-        console.log(
-          Request.statusText 
-        );
+      if (!Request.ok) {
+        console.log(Request.statusText);
 
         continue;
       }
@@ -57,20 +47,14 @@ async function fetchProcesosRaw() {
       const Response = await Request.json();
 
       const procesos = Response.procesos;
-      procesosMap.set(
-        llaveProceso, procesos 
-      );
+      procesosMap.set(llaveProceso, procesos);
 
       continue;
     }
 
-    return Array.from(
-      procesosMap.values() 
-    );
-  } catch ( error ) {
-    console.log(
-      error 
-    );
+    return Array.from(procesosMap.values());
+  } catch (error) {
+    console.log(error);
 
     return error;
   }

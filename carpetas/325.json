@@ -1,4 +1,1 @@
-{
-  "StatusCode": 404,
-  "Message": "No se pueden ver actuaciones de un proceso privado"
-}
+{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"","entregagarantiasAbogado":null,"etapaProcesal":"","fechaPresentacion":"2017-11-02T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":"","2":""},"radicado":"2017 - 00760","vencimientoPagare":null,"expediente":"11001400308020170076000","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"MARCELA","segundoNombre":"PATRICIA","primerApellido":"DIAZ","segundoApellido":"PEREIRA","cedula":30583011,"direccion":"","email":""},"numero":325,"llaveProceso":"11001400308020170076000","tipoProceso":"SINGULAR"}

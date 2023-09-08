@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"10761.991.62","entregagarantiasAbogado":"2017-10-24T00:00:00.000Z","etapaProcesal":"LIQUIDACION","fechaPresentacion":"2017-10-31T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":"AUDIOPRESTAMO","2":"00377815346213420"},"radicado":"2017 - 00184","vencimientoPagare":"2017-07-20T00:00:00.000Z","expediente":"11001400370820170018400","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"PAULA","segundoNombre":"ANDREA","primerApellido":"PINZON","segundoApellido":"OTALVARO","cedula":32730630,"direccion":"CARRERA 65 No 22 A- 43 APARTAMENTO 1002- 5","email":"pa_pinzon@hotmail.com"},"numero":311,"llaveProceso":"11001400370820170018400","tipoProceso":"SINGULAR"}

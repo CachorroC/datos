@@ -69,17 +69,13 @@ export class despachosConvert {
   public static toDespacho(
     json: string
   ): Despacho[] {
-    return JSON.parse(
-      json 
-    );
+    return JSON.parse(json);
   }
 
   public static despachoToJson(
     value: Despacho[]
   ): string {
-    return JSON.stringify(
-      value 
-    );
+    return JSON.stringify(value);
   }
 }
 
@@ -125,32 +121,22 @@ export class Convert {
   public static toIntDepartamentos(
     json: string
   ): IntDepartamentos {
-    return JSON.parse(
-      json 
-    );
+    return JSON.parse(json);
   }
 
   public static intDepartamentosToJson(
     value: IntDepartamentos
   ): string {
-    return JSON.stringify(
-      value 
-    );
+    return JSON.stringify(value);
   }
 
-  public static toResult(
-    json: string 
-  ): Result {
-    return JSON.parse(
-      json 
-    );
+  public static toResult(json: string): Result {
+    return JSON.parse(json);
   }
 
   public static resultToJson(
     value: Result
   ): string {
-    return JSON.stringify(
-      value 
-    );
+    return JSON.stringify(value);
   }
 }

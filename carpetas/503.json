@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"15631.923.00","entregagarantiasAbogado":"2018-10-10T05:00:00.000Z","etapaProcesal":"ADMISIION","fechaPresentacion":null,"municipio":"MANTA","obligacion":{"1":"AUDIOPRESTAMO","2":"3360084365 / 3360084819"},"radicado":"2018 - 00063","vencimientoPagare":null,"expediente":"25436408900120180006300","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"JUAN","segundoNombre":"CARLOS","primerApellido":"LEON","segundoApellido":"MONTENEGRO","cedula":3096755,"direccion":"DIAGONAL 2 No 6 A-29","email":"jclm152@hotmail.com"},"numero":503,"llaveProceso":"25436408900120180006300","tipoProceso":"SINGULAR"}

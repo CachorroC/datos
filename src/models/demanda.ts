@@ -16851,7 +16851,7 @@ function capitalBuilder(
   }
 
   const copTaker = capitalAdeudado.replace(
-    /,\d\d\sCOP/gi,
+    /\sCOP/gi,
     ''
   );
 
@@ -16907,7 +16907,7 @@ export function newJuzgado(
 
         if ( indexOfDesp >= 0 ) {
           console.log(
-            `procesos despacho is in despachos ${ indexOfDesp }`
+            `procesos despacho is in despachos ${ indexOfDesp + 1 }`
           );
         }
 
@@ -16962,21 +16962,13 @@ function setDepartamento(
       const stringDepto = dpt.descripcion;
 
       return (
-        stringDepto.toLowerCase()
-      === departamento.toLowerCase()
+        stringDepto.toLowerCase() === departamento.toLowerCase()
       );
     }
   );
 
   if ( filterDeptos ) {
-    return {
-      idCatalogoDetalle:
-        filterDeptos.idCatalogoDetalle,
-      idCatalogoDetallePadre:
-        filterDeptos.idCatalogoDetallePadre,
-      descripcion: filterDeptos.descripcion,
-      codigo     : filterDeptos.codigo
-    };
+    return filterDeptos.descripcion;
   }
 
   return null;
@@ -17018,16 +17010,10 @@ export class Demanda implements IntDemanda {
         departamento
       );
   }
-  entregaGarantiasAbogado: Date;
-  departamento: {
-    idCatalogoDetalle: number;
-    idCatalogoDetallePadre: number;
-    descripcion: string;
-    codigo: string;
-  } | null;
+  departamento: string | null;
   juzgados: Juzgado[] = [];
   capitalAdeudado: number;
-  entregagarantiasAbogado: Date;
+  entregaGarantiasAbogado: Date;
   etapaProcesal?: string;
   fechaPresentacion?: Date;
   municipio: string;
@@ -17103,61 +17089,61 @@ async function createCarpetasDemanda() {
 
     if ( RequestProcesos.length > 0 ) {
       for ( const proceso of RequestProcesos ) {
-        procesosMap.set(
-          proceso.idProceso,
-          proceso
-        );
-
-        const indexOf
-          = RequestProcesos.indexOf(
+        if ( !proceso.esPrivado ) {
+          procesosMap.set(
+            proceso.idProceso,
             proceso
           );
 
-        const juzgados = newJuzgado(
-          RequestProcesos
-        );
+          const indexOf
+            = RequestProcesos.indexOf(
+              proceso
+            );
 
-        const newCarpeta: IntCarpeta = {
-          category   : carpeta.category,
-          deudor     : newDeudor,
-          numero     : carpeta.numero,
-          tipoProceso: carpeta.tipoProceso,
-          idProceso  : proceso.idProceso,
-          llaveProceso:
-            carpeta.llaveProceso.toString(),
-          categoryTag: categories.indexOf(
-            carpeta.category
-          ),
-          demanda: {
-            ...newDemanda,
-            expediente:
+          const juzgados = newJuzgado(
+            RequestProcesos
+          );
+
+          const newCarpeta: IntCarpeta = {
+            category   : carpeta.category,
+            deudor     : newDeudor,
+            numero     : carpeta.numero,
+            tipoProceso: carpeta.tipoProceso,
+            idProceso  : proceso.idProceso,
+            llaveProceso:
               carpeta.llaveProceso.toString(),
-            juzgados    : juzgados,
-            departamento: null
-          }
-        };
-        fs.writeFile(
-          `carpetas/${ newCarpeta.numero }.${ indexOf }.json`,
-          JSON.stringify(
-            newCarpeta
-          )
-        );
-        newCarpetas.add(
-          newCarpeta
-        );
+            categoryTag: categories.indexOf(
+              carpeta.category
+            ),
+            demanda: {
+              ...newDemanda,
+              expediente:
+                carpeta.llaveProceso.toString(),
+              juzgados: juzgados,
 
-        continue;
+            }
+          };
+          fs.writeFile(
+            `carpetas/${ newCarpeta.numero }.${ indexOf }.json`,
+            JSON.stringify(
+              newCarpeta
+            )
+          );
+          newCarpetas.add(
+            newCarpeta
+          );
+
+          continue;
+        }
       }
     } else if ( RequestProcesos.length === 0 ) {
-      const juzgados: Juzgado[] = [];
 
       const newCarpeta: IntCarpeta = {
         demanda: {
           ...newDemanda,
           expediente:
             carpeta.llaveProceso.toString(),
-          juzgados    : juzgados,
-          departamento: null
+          departamento: carpeta.demanda.departamento
         },
         category   : carpeta.category,
         categoryTag: categories.indexOf(

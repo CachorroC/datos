@@ -29,7 +29,8 @@ export type Category =
   | 'LiosJuridicos'
   | 'Bancolombia'
   | 'Reintegra'
-  | 'Insolvencia';
+  | 'Insolvencia'
+  | 'todos';
 
 export interface DemandaRaw {
   capitalAdeudado: number | string;
@@ -82,13 +83,8 @@ export interface IntTel {
 }
 
 export interface IntDemanda {
-  capitalAdeudado: number | string;
-  departamento: {
-    idCatalogoDetalle: number;
-    idCatalogoDetallePadre: number;
-    descripcion: string;
-    codigo: string;
-  } | null;
+  capitalAdeudado: number;
+  departamento: string | null;
   entregaGarantiasAbogado: Date;
   etapaProcesal?: string;
   fechaPresentacion?: Date;
@@ -108,7 +104,6 @@ export interface Juzgado {
 
 export type TipoProcesoRaw =
   | 'HIPOTECARIO'
-
   | 'PRENDARIO'
   | 'SINGULAR'
   | 'SINGULAR ACUMULADO CON HIPOTECARIO'
@@ -123,7 +118,7 @@ export type TipoProcesoRaw =
   | 'HIPOTECARO'
   | 'SINGULAR ACUMULADO CON HIPOTECARIO CAJA SOCIAL'
   | 'SOACHA'
-  |'ACUMULADO'
+  | 'ACUMULADO'
   | 'HIPOTECARIO ';
 
 export type TipoProceso =

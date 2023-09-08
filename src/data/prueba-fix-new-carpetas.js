@@ -1,64 +1,47 @@
 'use strict';
-Object.defineProperty(
-  exports, '__esModule', {
-    value: true
-  } 
-);
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
 exports.fetchCarpetas = void 0;
 
-const prueba_carpetas_1 = require(
-  '../types/prueba-carpetas' 
-);
+const prueba_carpetas_1 = require('../types/prueba-carpetas');
 
 async function fetchCarpetas() {
   try {
     const request = await fetch(
       'https://app.rsasesorjuridico.com/api/Carpetas'
     );
-    console.log(
-      request.status 
-    );
-    console.log(
-      request.headers 
-    );
+    console.log(request.status);
+    console.log(request.headers);
 
-    if ( !request.ok ) {
+    if (!request.ok) {
       throw new Error(
-        `No pudimos acceder al enddpoint api/Carpetas. por favor revisa qué ocurre ${ request.status }, ${ request.statusText }`
+        `No pudimos acceder al enddpoint api/Carpetas. por favor revisa qué ocurre ${request.status}, ${request.statusText}`
       );
     }
 
     const json = await request.text();
 
-    const carpetas
-      = prueba_carpetas_1.Convert.toIntCarpetas(
+    const carpetas =
+      prueba_carpetas_1.Convert.toIntCarpetas(
         json
       );
 
     return carpetas;
-  } catch ( e ) {
+  } catch (e) {
     {
-      if ( e instanceof Error ) {
+      if (e instanceof Error) {
         console.log(
-          ` error en la conexion network del fetchProceso ${ e.name } : ${ e.message }`
+          ` error en la conexion network del fetchProceso ${e.name} : ${e.message}`
         );
       }
-      console.log(
-        `${ e }` 
-      );
+      console.log(`${e}`);
 
       return null;
     }
   }
 }
 exports.fetchCarpetas = fetchCarpetas;
-fetchCarpetas()
-      .then(
-        (
-          ff 
-        ) => {
-          return console.log(
-            ff 
-          );
-        } 
-      );
+fetchCarpetas().then((ff) => {
+  return console.log(ff);
+});

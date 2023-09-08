@@ -2,6 +2,7 @@
   "name": "datos",
   "packageManager": "pnpm@8.6.11",
   "dependencies": {
+    "@prisma/client": "^5.2.0",
     "@tsconfig/recommended": "^1.0.2",
     "@types/node": "^20.4.5",
     "@typescript-eslint/eslint-plugin": "^6.2.1",
@@ -10,12 +11,17 @@
     "eslint": "^8.46.0",
     "mongodb": "^5.7.0",
     "prettier": "^3.0.0",
+    "prisma": "^5.2.0",
     "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.1.6",
     "zod": "^3.22.2"
   },
   "scripts": {
-    "lint": "eslint  --fix . && tsc"
+    "lint": "eslint  --fix . && tsc",
+    "start": "ts-node-dev --respawn --transpile-only server.ts",
+    "db:migrate": "npx prisma migrate dev --name user-entity --create-only && npx prisma generate",
+    "db:push": "npx prisma db push"
   },
-  "main": "out/carpetas.js"
+  "main": "server.ts"
 }
