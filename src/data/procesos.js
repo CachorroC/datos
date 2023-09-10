@@ -1,9 +1,13 @@
 'use strict';
-Object.defineProperty(exports, '__esModule', {
-  value: true
-});
+Object.defineProperty(
+  exports, '__esModule', {
+    value: true
+  } 
+);
 
-const procesos_1 = require('../procesos');
+const procesos_1 = require(
+  '../procesos' 
+);
 
 async function fetchProcesos(
   llaveProceso,
@@ -11,27 +15,33 @@ async function fetchProcesos(
   _id = 'unknown'
 ) {
   const awaitTime = index * 1000;
-  console.time(index.toString());
-  await (0, procesos_1.sleep)(awaitTime);
-  console.timeEnd(index.toString());
+  console.time(
+    index.toString() 
+  );
+  await ( 0, procesos_1.sleep )(
+    awaitTime 
+  );
+  console.timeEnd(
+    index.toString() 
+  );
 
   try {
     if (
-      llaveProceso.length < 23 ||
-      llaveProceso === 'sin especificar'
+      llaveProceso.length < 23
+      || llaveProceso === 'sin especificar'
     ) {
       throw new Error(
-        `la llaveProceso es menor de 23: ${llaveProceso}`
+        `la llaveProceso es menor de 23: ${ llaveProceso }`
       );
     }
 
     const req = await fetch(
-      `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${llaveProceso}&SoloActivos=false`
+      `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${ llaveProceso }&SoloActivos=false`
     );
 
-    if (!req.ok) {
+    if ( !req.ok ) {
       throw new Error(
-        `la peticion de procesos salió erronea, registra: ${req.status}: ${req.statusText}`
+        `la peticion de procesos salió erronea, registra: ${ req.status }: ${ req.statusText }`
       );
     }
 
@@ -39,23 +49,25 @@ async function fetchProcesos(
 
     const response = {
       llaveProceso: llaveProceso,
-      _id: _id,
-      res: res
+      _id         : _id,
+      res         : res
     };
 
     return response;
-  } catch (e) {
-    if (e instanceof Error) {
+  } catch ( e ) {
+    if ( e instanceof Error ) {
       console.log(
-        ` error en la conexion network del fetchProceso ${e.name} : ${e.message}`
+        ` error en la conexion network del fetchProceso ${ e.name } : ${ e.message }`
       );
     }
-    console.log(`${e}`);
+    console.log(
+      `${ e }` 
+    );
 
     const response = {
       llaveProceso: llaveProceso,
-      _id: _id,
-      res: null
+      _id         : _id,
+      res         : null
     };
 
     return response;
