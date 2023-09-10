@@ -1,1 +1,45 @@
-{"category":"Terminados","deudor":{"tel":{"fijo":8065373,"celular":3134576869},"primerNombre":"ADRIANA","segundoNombre":"MARIA","primerApellido":"PEREZ","segundoApellido":"GOMEZ","cedula":52318314,"direccion":"CALLE 19 A 82 65 TR 4 APARTAMENTO 301 ","email":"adrianitaa@gmail.com"},"numero":285,"tipoProceso":"SINGULAR","idProceso":50720040,"llaveProceso":"11001400300520170132600","categoryTag":5,"demanda":{"juzgados":[{"id":10,"tipo":"JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-10-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":21223.176,"entregaGarantiasAbogado":"2017-09-12T00:00:00.000Z","etapaProcesal":"1.100140030052017e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":6900083898,"1":"4513086465970276 // AUDIOPRESTAMO"},"radicado":"2017 - 01326","vencimientoPagare":"2017-06-10T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001400300520170132600"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": 8065373,
+      "celular": 3134576869
+    },
+    "primerNombre": "ADRIANA",
+    "segundoNombre": "MARIA",
+    "primerApellido": "PEREZ",
+    "segundoApellido": "GOMEZ",
+    "cedula": 52318314,
+    "direccion": "CALLE 19 A 82 65 TR 4 APARTAMENTO 301 ",
+    "email": "adrianitaa@gmail.com"
+  },
+  "numero": 285,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50720040,
+  "llaveProceso": "11001400300520170132600",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 10,
+        "tipo": "JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-10-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 21223.176,
+    "entregaGarantiasAbogado": "2017-09-12T00:00:00.000Z",
+    "etapaProcesal": "1.100140030052017e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": 6900083898,
+      "1": "4513086465970276 // AUDIOPRESTAMO"
+    },
+    "radicado": "2017 - 01326",
+    "vencimientoPagare": [
+      "2017-06-10T00:00:00.000Z"
+    ],
+    "expediente": "11001400300520170132600"
+  }
+}

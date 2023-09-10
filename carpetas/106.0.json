@@ -1,1 +1,38 @@
-{"category":"Reintegra","deudor":{"tel":{},"primerNombre":"DANIEL","primerApellido":"HERNANDEZ","segundoApellido":"GONZALEZ","cedula":501492,"direccion":"CALLE 134 No. 58-58 ","email":"danielher84@gmail.com"},"numero":106,"tipoProceso":"PRENDARIO","idProceso":50514310,"llaveProceso":"11001400305920170048300","categoryTag":2,"demanda":{"juzgados":[{"id":15,"tipo":"JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":16497.281,"entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-06-16T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":12515504,"1":"N/A"},"radicado":"2017 - 00483","vencimientoPagare":"2018-08-28T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001400305920170048300"}}
+{
+  "category": "Reintegra",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "DANIEL",
+    "primerApellido": "HERNANDEZ",
+    "segundoApellido": "GONZALEZ",
+    "cedula": 501492,
+    "direccion": "CALLE 134 No. 58-58 ",
+    "email": "danielher84@gmail.com"
+  },
+  "numero": 106,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 50514310,
+  "llaveProceso": "11001400305920170048300",
+  "categoryTag": 2,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 15,
+        "tipo": "JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 16497.281,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-06-16T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 12515504, "1": "N/A" },
+    "radicado": "2017 - 00483",
+    "vencimientoPagare": [
+      "2018-08-28T00:00:00.000Z"
+    ],
+    "expediente": "11001400305920170048300"
+  }
+}

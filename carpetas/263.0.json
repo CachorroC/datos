@@ -1,1 +1,38 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"ANCIZAR","primerApellido":"GIRALDO","segundoApellido":"BOTERO","cedula":9856710,"direccion":"CARRERA  6 No 8-16 PENSILVANIA","email":"latablita1404@hotmail.com"},"numero":263,"tipoProceso":"PRENDARIO","idProceso":18366380,"llaveProceso":"11001400307020170100700","categoryTag":5,"demanda":{"juzgados":[{"id":70,"tipo":"JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-070-civil-municipal-de-bogota"}],"capitalAdeudado":21435.278,"entregaGarantiasAbogado":"2017-09-22T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":"2017-09-27T00:00:00.000Z","municipio":"PENSILVANIA","obligacion":{"0":12603197,"1":""},"radicado":"2017 - 01007","vencimientoPagare":"2017-09-20T00:00:00.000Z","departamento":null,"expediente":"11001400307020170100700"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ANCIZAR",
+    "primerApellido": "GIRALDO",
+    "segundoApellido": "BOTERO",
+    "cedula": 9856710,
+    "direccion": "CARRERA  6 No 8-16 PENSILVANIA",
+    "email": "latablita1404@hotmail.com"
+  },
+  "numero": 263,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 18366380,
+  "llaveProceso": "11001400307020170100700",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": null,
+    "juzgados": [
+      {
+        "id": 70,
+        "tipo": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-070-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 21435.278,
+    "entregaGarantiasAbogado": "2017-09-22T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": "2017-09-27T00:00:00.000Z",
+    "municipio": "PENSILVANIA",
+    "obligacion": { "0": 12603197, "1": "" },
+    "radicado": "2017 - 01007",
+    "vencimientoPagare": [
+      "2017-09-20T00:00:00.000Z"
+    ],
+    "expediente": "11001400307020170100700"
+  }
+}

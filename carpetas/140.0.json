@@ -1,1 +1,39 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"JHON","segundoNombre":"FABER","primerApellido":"FORIGUA","segundoApellido":"GARCIA","cedula":80933170,"direccion":"CARRERA 8 # 13 - 34 SUR BLOQUE 6 APTO 101","email":"Jfcomercializadorajb@hotmail.com"},"numero":140,"tipoProceso":"PRENDARIO","idProceso":50921080,"llaveProceso":"11001400307720170056800","categoryTag":5,"demanda":{"juzgados":[{"id":12,"tipo":"JUZGADO 012 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-12-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":38664.283,"entregaGarantiasAbogado":"2017-06-28T00:00:00.000Z","etapaProcesal":"1.100140030772017e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":12480702,"1":"N/A"},"radicado":"2017 - 00568","vencimientoPagare":"2020-06-12T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001400307720170056800"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JHON",
+    "segundoNombre": "FABER",
+    "primerApellido": "FORIGUA",
+    "segundoApellido": "GARCIA",
+    "cedula": 80933170,
+    "direccion": "CARRERA 8 # 13 - 34 SUR BLOQUE 6 APTO 101",
+    "email": "Jfcomercializadorajb@hotmail.com"
+  },
+  "numero": 140,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 50921080,
+  "llaveProceso": "11001400307720170056800",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 12,
+        "tipo": "JUZGADO 012 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-12-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 38664.283,
+    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
+    "etapaProcesal": "1.100140030772017e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 12480702, "1": "N/A" },
+    "radicado": "2017 - 00568",
+    "vencimientoPagare": [
+      "2020-06-12T00:00:00.000Z"
+    ],
+    "expediente": "11001400307720170056800"
+  }
+}

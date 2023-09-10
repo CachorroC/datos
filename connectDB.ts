@@ -1,14 +1,12 @@
 import { PrismaClient } from '@prisma/client';
 
-
 export const prisma = new PrismaClient(
   {
     log: [
       'info'
     ]
-  }
+  } 
 );
-
 
 async function connectDB() {
   try {
@@ -18,11 +16,11 @@ async function connectDB() {
     );
   } catch ( error ) {
     console.log(
-      error
+      error 
     );
     await prisma.$disconnect();
     process.exit(
-      1
+      1 
     );
   } finally {
     await prisma.$disconnect();

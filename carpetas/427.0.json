@@ -1,1 +1,39 @@
-{"category":"Reintegra","deudor":{"tel":{},"primerNombre":"JUAN","segundoNombre":"CAMILO","primerApellido":"CHINGATE","segundoApellido":"PENAGOS","cedula":1069738339,"direccion":"VEREDA LA 22 KILOMETRO 30 (CAJICA) // VEREDA SUBIA NORTE, PARTE BAJA, FINCA EL RINCON LOTE 2 (GRANADA- CUND): VEREDA SUBIA NORTE PARTE BAJA FINCA EL RINCON LOTE 2 (GRANADA - CUND)","email":"N/A"},"numero":427,"tipoProceso":"PRENDARIO","idProceso":86157021,"llaveProceso":"25126408900220180004800","categoryTag":2,"demanda":{"juzgados":[{"id":2,"tipo":"JUZGADO 002 PROMISCUO MUNICIPAL DE CAJICÁ ","url":"https://www.ramajudicial.gov.cojuzgado-002-promiscuo-municipal-de-cajicá-"}],"capitalAdeudado":21049.112,"entregaGarantiasAbogado":"2018-01-19T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2018-02-01T00:00:00.000Z","municipio":"CAJICA","obligacion":{"0":12730779,"1":"N/A"},"radicado":"2018 - 00048","vencimientoPagare":"2021-01-16T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"25126408900220180004800"}}
+{
+  "category": "Reintegra",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JUAN",
+    "segundoNombre": "CAMILO",
+    "primerApellido": "CHINGATE",
+    "segundoApellido": "PENAGOS",
+    "cedula": 1069738339,
+    "direccion": "VEREDA LA 22 KILOMETRO 30 (CAJICA) // VEREDA SUBIA NORTE, PARTE BAJA, FINCA EL RINCON LOTE 2 (GRANADA- CUND): VEREDA SUBIA NORTE PARTE BAJA FINCA EL RINCON LOTE 2 (GRANADA - CUND)",
+    "email": "N/A"
+  },
+  "numero": 427,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 86157021,
+  "llaveProceso": "25126408900220180004800",
+  "categoryTag": 2,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 2,
+        "tipo": "JUZGADO 002 PROMISCUO MUNICIPAL DE CAJICÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-002-promiscuo-municipal-de-cajicá-"
+      }
+    ],
+    "capitalAdeudado": 21049.112,
+    "entregaGarantiasAbogado": "2018-01-19T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-02-01T00:00:00.000Z",
+    "municipio": "CAJICA",
+    "obligacion": { "0": 12730779, "1": "N/A" },
+    "radicado": "2018 - 00048",
+    "vencimientoPagare": [
+      "2021-01-16T00:00:00.000Z"
+    ],
+    "expediente": "25126408900220180004800"
+  }
+}

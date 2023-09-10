@@ -1,1 +1,42 @@
-{"category":"Terminados","deudor":{"tel":{"celular":3005146155},"primerNombre":"HUMBERTO","segundoNombre":"ENRIQUE","primerApellido":"AVENA","segundoApellido":"CORRALES","cedula":78076295,"direccion":"cl 106 No. 50-21 BOGOTA","email":"havena@ingeobrasas.com"},"numero":67,"tipoProceso":"PRENDARIO","idProceso":28881194,"llaveProceso":"11001310301720170036000","categoryTag":5,"demanda":{"juzgados":[{"id":1,"tipo":"JUZGADO 001 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-del-circuito-de-bogota"}],"capitalAdeudado":173618.623,"entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","etapaProcesal":"1.10014003047201e+50","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":"5303716461821906//5306948999859317//12611392","1":"4513072520491185//0377815106380054//12496791"},"radicado":"2017 - 00360","vencimientoPagare":"2018-06-23T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001310301720170036000"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": { "celular": 3005146155 },
+    "primerNombre": "HUMBERTO",
+    "segundoNombre": "ENRIQUE",
+    "primerApellido": "AVENA",
+    "segundoApellido": "CORRALES",
+    "cedula": 78076295,
+    "direccion": "cl 106 No. 50-21 BOGOTA",
+    "email": "havena@ingeobrasas.com"
+  },
+  "numero": 67,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 28881194,
+  "llaveProceso": "11001310301720170036000",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-del-circuito-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 173618.623,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "etapaProcesal": "1.10014003047201e+50",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": "5303716461821906//5306948999859317//12611392",
+      "1": "4513072520491185//0377815106380054//12496791"
+    },
+    "radicado": "2017 - 00360",
+    "vencimientoPagare": [
+      "2018-06-23T00:00:00.000Z"
+    ],
+    "expediente": "11001310301720170036000"
+  }
+}

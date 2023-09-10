@@ -1,1 +1,32 @@
-{"demanda":{"juzgados":[],"capitalAdeudado":56386.936,"entregaGarantiasAbogado":"2020-04-25T00:00:00.000Z","etapaProcesal":"2017 - 01162","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":12703441,"1":"N/A"},"radicado":"PRENDARIO","vencimientoPagare":"2017-08-22T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"EDIFICIO EJECUCION"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"celular":3178195535},"primerNombre":"CARLOS","segundoNombre":"JAVIER","primerApellido":"BECERRA","segundoApellido":"BENAVIDES","cedula":7226283,"direccion":"CARRERA 11A # 17 - 24 SANTA BARBARA ","email":"cajux@hotmail.com"},"numero":251,"llaveProceso":"EDIFICIO EJECUCION","tipoProceso":"PRENDARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 56386.936,
+    "entregaGarantiasAbogado": "2020-04-25T00:00:00.000Z",
+    "etapaProcesal": "2017 - 01162",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 12703441, "1": "N/A" },
+    "radicado": "PRENDARIO",
+    "vencimientoPagare": [
+      "2017-08-22T00:00:00.000Z"
+    ],
+    "expediente": "EDIFICIO EJECUCION"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "celular": 3178195535 },
+    "primerNombre": "CARLOS",
+    "segundoNombre": "JAVIER",
+    "primerApellido": "BECERRA",
+    "segundoApellido": "BENAVIDES",
+    "cedula": 7226283,
+    "direccion": "CARRERA 11A # 17 - 24 SANTA BARBARA ",
+    "email": "cajux@hotmail.com"
+  },
+  "numero": 251,
+  "llaveProceso": "EDIFICIO EJECUCION",
+  "tipoProceso": "PRENDARIO"
+}

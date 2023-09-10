@@ -1,1 +1,46 @@
-{"category":"Reintegra","deudor":{"tel":{"fijo":8003961,"celular":3174409073},"primerNombre":"LUIS","segundoNombre":"AUGUSTO","primerApellido":"SANCHEZ","segundoApellido":"ORTIZ","cedula":79505982,"direccion":"CALLE 168 No 8 G - 61 BLOQUE  5 APARTAMENTO  102","email":"luissanchez69@live.com"},"numero":344,"tipoProceso":"SINGULAR","idProceso":50763460,"llaveProceso":"11001400303320170147400","categoryTag":2,"demanda":{"juzgados":[{"id":2,"tipo":"JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":19977.436,"entregaGarantiasAbogado":"2017-09-29T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-10-06T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":"377815565830854  4513071889404813","1":"5176409000345363    5306946666855816"},"radicado":"2017 - 01474","vencimientoPagare":null,"departamento":"CUNDINAMARCA","expediente":"11001400303320170147400"}}
+{
+  "category": "Reintegra",
+  "deudor": {
+    "tel": {
+      "fijo": 8003961,
+      "celular": 3174409073
+    },
+    "primerNombre": "LUIS",
+    "segundoNombre": "AUGUSTO",
+    "primerApellido": "SANCHEZ",
+    "segundoApellido": "ORTIZ",
+    "cedula": 79505982,
+    "direccion": "CALLE 168 No 8 G - 61 BLOQUE  5 APARTAMENTO  102",
+    "email": "luissanchez69@live.com"
+  },
+  "numero": 344,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50763460,
+  "llaveProceso": "11001400303320170147400",
+  "categoryTag": 2,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 2,
+        "tipo": "JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 19977.436,
+    "entregaGarantiasAbogado": "2017-09-29T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-10-06T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": "377815565830854  4513071889404813",
+      "1": "5176409000345363    5306946666855816"
+    },
+    "radicado": "2017 - 01474",
+    "vencimientoPagare": [
+      "2019-09-12T05:00:00.000Z",
+      "2020-05-03T05:00:00.000Z"
+    ],
+    "expediente": "11001400303320170147400"
+  }
+}

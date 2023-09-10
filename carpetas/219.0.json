@@ -1,1 +1,38 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"BLAS","primerApellido":"LAITON","segundoApellido":"PATIÑO","cedula":80921416,"direccion":"CARRERA 99A # 61A - 19 CASA 61","email":"layton_blas@live.com"},"numero":219,"tipoProceso":"HIPOTECARIO","idProceso":50704760,"llaveProceso":"11001400307220170107500","categoryTag":5,"demanda":{"juzgados":[{"id":72,"tipo":"JUZGADO 072 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-072-civil-municipal-de-bogota"}],"capitalAdeudado":50891.805,"entregaGarantiasAbogado":"2017-09-04T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-09-11T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":25214,"1":""},"radicado":"2017 - 01075","vencimientoPagare":"2032-07-19T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001400307220170107500"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "BLAS",
+    "primerApellido": "LAITON",
+    "segundoApellido": "PATIÑO",
+    "cedula": 80921416,
+    "direccion": "CARRERA 99A # 61A - 19 CASA 61",
+    "email": "layton_blas@live.com"
+  },
+  "numero": 219,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50704760,
+  "llaveProceso": "11001400307220170107500",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 72,
+        "tipo": "JUZGADO 072 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-072-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 50891.805,
+    "entregaGarantiasAbogado": "2017-09-04T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-11T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 25214, "1": "" },
+    "radicado": "2017 - 01075",
+    "vencimientoPagare": [
+      "2032-07-19T00:00:00.000Z"
+    ],
+    "expediente": "11001400307220170107500"
+  }
+}

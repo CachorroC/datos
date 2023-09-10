@@ -1,1 +1,31 @@
-{"demanda":{"juzgados":[],"capitalAdeudado":17141.891,"entregaGarantiasAbogado":"2018-05-23T00:00:00.000Z","etapaProcesal":"ADMISION","fechaPresentacion":"2018-05-31T00:00:00.000Z","municipio":"SOACHA","obligacion":{"0":20990156079,"1":""},"radicado":"2018 - 00609","vencimientoPagare":"2032-09-18T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"25899408900120180060900"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"celular":3102762216},"primerNombre":"YANETH","primerApellido":"MILLAN","segundoApellido":"PRIETO","cedula":52064928,"direccion":"CARRERA 5 No 7-40 SUR","email":"janeth2609@hotmail.com"},"numero":441,"llaveProceso":"25899408900120180060900","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 17141.891,
+    "entregaGarantiasAbogado": "2018-05-23T00:00:00.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-05-31T00:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": { "0": 20990156079, "1": "" },
+    "radicado": "2018 - 00609",
+    "vencimientoPagare": [
+      "2032-09-18T00:00:00.000Z"
+    ],
+    "expediente": "25899408900120180060900"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "celular": 3102762216 },
+    "primerNombre": "YANETH",
+    "primerApellido": "MILLAN",
+    "segundoApellido": "PRIETO",
+    "cedula": 52064928,
+    "direccion": "CARRERA 5 No 7-40 SUR",
+    "email": "janeth2609@hotmail.com"
+  },
+  "numero": 441,
+  "llaveProceso": "25899408900120180060900",
+  "tipoProceso": "HIPOTECARIO"
+}

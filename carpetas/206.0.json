@@ -1,1 +1,40 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"EDGAR","segundoNombre":"MARTINEZ","primerApellido":"VELANDIA","segundoApellido":"","cedula":80729141,"direccion":"CARRERA 17 F 71A - 95 SUR  CASA 239","email":"edgar_julian@hotmail.com"},"numero":206,"tipoProceso":"HIPOTECARIO","idProceso":17944250,"llaveProceso":"11001400306420170146900","categoryTag":5,"demanda":{"juzgados":[{"id":64,"tipo":"JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-064-civil-municipal-de-bogota"}],"capitalAdeudado":30556.16,"entregaGarantiasAbogado":"2017-08-29T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":"2017-09-05T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":120356,"1":1590082995},"radicado":"2017 - 01469","vencimientoPagare":null,"departamento":"CUNDINAMARCA","expediente":"11001400306420170146900"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "EDGAR",
+    "segundoNombre": "MARTINEZ",
+    "primerApellido": "VELANDIA",
+    "segundoApellido": "",
+    "cedula": 80729141,
+    "direccion": "CARRERA 17 F 71A - 95 SUR  CASA 239",
+    "email": "edgar_julian@hotmail.com"
+  },
+  "numero": 206,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 17944250,
+  "llaveProceso": "11001400306420170146900",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 64,
+        "tipo": "JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-064-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 30556.16,
+    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": "2017-09-05T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": 120356,
+      "1": 1590082995
+    },
+    "radicado": "2017 - 01469",
+    "vencimientoPagare": null,
+    "expediente": "11001400306420170146900"
+  }
+}

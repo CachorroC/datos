@@ -1,1 +1,39 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"JAVIER","segundoNombre":"ORLANDO","primerApellido":"GOMEZ","segundoApellido":"DIAZ","cedula":79893549,"direccion":"CALLE 76 C SUR 1H 27 ","email":"jaorgodi@hotmail.com"},"numero":245,"tipoProceso":"HIPOTECARIO","idProceso":9083003,"llaveProceso":"11001400303820170095700","categoryTag":5,"demanda":{"juzgados":[{"id":38,"tipo":"JUZGADO 038 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-038-civil-municipal-de-bogota"}],"capitalAdeudado":35432.721,"entregaGarantiasAbogado":"2017-09-06T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":"2017-09-19T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":103058,"1":""},"radicado":"2017 - 00957","vencimientoPagare":"2022-11-21T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001400303820170095700"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JAVIER",
+    "segundoNombre": "ORLANDO",
+    "primerApellido": "GOMEZ",
+    "segundoApellido": "DIAZ",
+    "cedula": 79893549,
+    "direccion": "CALLE 76 C SUR 1H 27 ",
+    "email": "jaorgodi@hotmail.com"
+  },
+  "numero": 245,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 9083003,
+  "llaveProceso": "11001400303820170095700",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 38,
+        "tipo": "JUZGADO 038 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-038-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 35432.721,
+    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 103058, "1": "" },
+    "radicado": "2017 - 00957",
+    "vencimientoPagare": [
+      "2022-11-21T00:00:00.000Z"
+    ],
+    "expediente": "11001400303820170095700"
+  }
+}

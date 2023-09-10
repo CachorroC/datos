@@ -1,1 +1,39 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"NESTOR","segundoNombre":"GERMAN","primerApellido":"URREGO","segundoApellido":"AGUILERA","cedula":80513085,"direccion":"CALLE 77 # 84 - 34","email":"ngurrero@hotmail.com"},"numero":226,"tipoProceso":"PRENDARIO","idProceso":17050494,"llaveProceso":"11001400305520170094300","categoryTag":5,"demanda":{"juzgados":[{"id":55,"tipo":"JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-55-civil-municipal-de-bogota"}],"capitalAdeudado":19290.331,"entregaGarantiasAbogado":"2017-09-06T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-09-13T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":12583959,"1":""},"radicado":"2017 - 00943","vencimientoPagare":"2017-08-31T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001400305520170094300"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "NESTOR",
+    "segundoNombre": "GERMAN",
+    "primerApellido": "URREGO",
+    "segundoApellido": "AGUILERA",
+    "cedula": 80513085,
+    "direccion": "CALLE 77 # 84 - 34",
+    "email": "ngurrero@hotmail.com"
+  },
+  "numero": 226,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 17050494,
+  "llaveProceso": "11001400305520170094300",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 55,
+        "tipo": "JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-55-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 19290.331,
+    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-13T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 12583959, "1": "" },
+    "radicado": "2017 - 00943",
+    "vencimientoPagare": [
+      "2017-08-31T00:00:00.000Z"
+    ],
+    "expediente": "11001400305520170094300"
+  }
+}

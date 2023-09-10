@@ -1,1 +1,31 @@
-{"demanda":{"juzgados":[],"capitalAdeudado":26468.936,"entregaGarantiasAbogado":"2017-11-16T00:00:00.000Z","etapaProcesal":"2.526940890012017e+22","fechaPresentacion":null,"municipio":"FACATATIVA","obligacion":{"0":12722464,"1":"N/A"},"radicado":"2017 - 00744","vencimientoPagare":"2020-11-10T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"25269400300120170074400"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"ALEXANDER","primerApellido":"PRADA","segundoApellido":"PALMAR","cedula":1070950842,"direccion":"CARRERA 4 B  SUR No 4 - 30  FACATATIVA","email":"pradalexander@hotmail.com"},"numero":386,"llaveProceso":"25269400300120170074400","tipoProceso":"PRENDARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 26468.936,
+    "entregaGarantiasAbogado": "2017-11-16T00:00:00.000Z",
+    "etapaProcesal": "2.526940890012017e+22",
+    "fechaPresentacion": null,
+    "municipio": "FACATATIVA",
+    "obligacion": { "0": 12722464, "1": "N/A" },
+    "radicado": "2017 - 00744",
+    "vencimientoPagare": [
+      "2020-11-10T00:00:00.000Z"
+    ],
+    "expediente": "25269400300120170074400"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ALEXANDER",
+    "primerApellido": "PRADA",
+    "segundoApellido": "PALMAR",
+    "cedula": 1070950842,
+    "direccion": "CARRERA 4 B  SUR No 4 - 30  FACATATIVA",
+    "email": "pradalexander@hotmail.com"
+  },
+  "numero": 386,
+  "llaveProceso": "25269400300120170074400",
+  "tipoProceso": "PRENDARIO"
+}

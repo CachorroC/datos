@@ -1,1 +1,39 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"ERIK","segundoNombre":"RICARDO","primerApellido":"PINTO","segundoApellido":"RODRIGUEZ","cedula":80865782,"direccion":"","email":"CALLE 64 C No 105 D- 36 PISO 3"},"numero":513,"tipoProceso":"SINGULAR","idProceso":65707550,"llaveProceso":"11001400304420190016500","categoryTag":5,"demanda":{"juzgados":[{"id":11,"tipo":"JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":40290.738,"entregaGarantiasAbogado":"2018-11-07T00:00:00.000Z","etapaProcesal":"01/02/2019","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":"","1":""},"radicado":"2019 - 00165","vencimientoPagare":"1899-12-30T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001400304420190016500"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ERIK",
+    "segundoNombre": "RICARDO",
+    "primerApellido": "PINTO",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": 80865782,
+    "direccion": "",
+    "email": "CALLE 64 C No 105 D- 36 PISO 3"
+  },
+  "numero": 513,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 65707550,
+  "llaveProceso": "11001400304420190016500",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 11,
+        "tipo": "JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 40290.738,
+    "entregaGarantiasAbogado": "2018-11-07T00:00:00.000Z",
+    "etapaProcesal": "01/02/2019",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "0": "", "1": "" },
+    "radicado": "2019 - 00165",
+    "vencimientoPagare": [
+      "1899-12-30T00:00:00.000Z"
+    ],
+    "expediente": "11001400304420190016500"
+  }
+}

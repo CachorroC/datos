@@ -1,1 +1,45 @@
-{"category":"Terminados","deudor":{"tel":{"fijo":4647087,"celular":3112441540},"primerNombre":"DIEGO","segundoNombre":"FERNEY","primerApellido":"VERGARA","segundoApellido":"VALDERRAMA ","cedula":80111672,"direccion":"CALLE 51  SUR No  80 - 24","email":"diegovergarav@hotmail.com"},"numero":350,"tipoProceso":"SINGULAR","idProceso":11224353,"llaveProceso":"11001400305020170135700","categoryTag":5,"demanda":{"juzgados":[{"id":50,"tipo":"JUZGADO 050 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-50-civil-municipal-de-bogota"}],"capitalAdeudado":24965.682,"entregaGarantiasAbogado":"2017-11-15T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-11-23T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":"6740081982 / 451308007555923","1":5303717744146285},"radicado":"2017 - 01357","vencimientoPagare":"2020-05-05T00:00:00.000Z","departamento":null,"expediente":"11001400305020170135700"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": 4647087,
+      "celular": 3112441540
+    },
+    "primerNombre": "DIEGO",
+    "segundoNombre": "FERNEY",
+    "primerApellido": "VERGARA",
+    "segundoApellido": "VALDERRAMA ",
+    "cedula": 80111672,
+    "direccion": "CALLE 51  SUR No  80 - 24",
+    "email": "diegovergarav@hotmail.com"
+  },
+  "numero": 350,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 11224353,
+  "llaveProceso": "11001400305020170135700",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": null,
+    "juzgados": [
+      {
+        "id": 50,
+        "tipo": "JUZGADO 050 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-50-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 24965.682,
+    "entregaGarantiasAbogado": "2017-11-15T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-11-23T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": "6740081982 / 451308007555923",
+      "1": 5303717744146285
+    },
+    "radicado": "2017 - 01357",
+    "vencimientoPagare": [
+      "2020-05-05T00:00:00.000Z"
+    ],
+    "expediente": "11001400305020170135700"
+  }
+}

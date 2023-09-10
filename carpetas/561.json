@@ -1,1 +1,38 @@
-{"demanda":{"juzgados":[],"capitalAdeudado":null,"entregaGarantiasAbogado":"2023-07-26T00:00:00.000Z","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":6520089408,"2":"TARJETA MASTER CARD No. 5303720118094313 Y TARJETA AMERICAN No. 0377844026948428"},"radicado":"2023 - 00884","vencimientoPagare":null,"departamento":"CUNDINAMARCA","expediente":""},"category":"Bancolombia","categoryTag":1,"deudor":{"tel":{"fijo":7848056,"celular":3153208374},"primerNombre":"LUZ","segundoNombre":"JANNETH","primerApellido":"RODRIGUEZ","segundoApellido":"MORENO","cedula":52278914,"direccion":"Carrera 87 No. 48 – 50 Sur Casa 26 Conjunto Residencial Alameda de San José II","email":"lurodrig@corona.com.co  jrodriguez2805@hotmail.com"},"numero":561,"llaveProceso":"","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 6520089408,
+      "2": "TARJETA MASTER CARD No. 5303720118094313 Y TARJETA AMERICAN No. 0377844026948428"
+    },
+    "radicado": "2023 - 00884",
+    "vencimientoPagare": [
+      "2026-02-03T05:00:00.000Z",
+      null
+    ],
+    "expediente": ""
+  },
+  "category": "Bancolombia",
+  "categoryTag": 1,
+  "deudor": {
+    "tel": {
+      "fijo": 7848056,
+      "celular": 3153208374
+    },
+    "primerNombre": "LUZ",
+    "segundoNombre": "JANNETH",
+    "primerApellido": "RODRIGUEZ",
+    "segundoApellido": "MORENO",
+    "cedula": 52278914,
+    "direccion": "Carrera 87 No. 48 – 50 Sur Casa 26 Conjunto Residencial Alameda de San José II",
+    "email": "lurodrig@corona.com.co  jrodriguez2805@hotmail.com"
+  },
+  "numero": 561,
+  "llaveProceso": "",
+  "tipoProceso": "SINGULAR"
+}

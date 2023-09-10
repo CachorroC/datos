@@ -1,1 +1,42 @@
-{"category":"Terminados","deudor":{"tel":{"fijo":4006426,"celular":3142403097},"primerNombre":"DORA","segundoNombre":"AIDE","primerApellido":"PEÑA","segundoApellido":"PEÑA ","cedula":52432989,"direccion":"CALLE 70C # 111D - 06","email":"aide116455@hotmail.com"},"numero":166,"tipoProceso":"PRENDARIO","idProceso":50666380,"llaveProceso":"11001400300920170083700","categoryTag":5,"demanda":{"juzgados":[{"id":15,"tipo":"JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":30526.136,"entregaGarantiasAbogado":"2017-08-22T00:00:00.000Z","etapaProcesal":"1.100140030092017e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":12752576,"1":"N/A"},"radicado":"2017 - 00837","vencimientoPagare":"2020-08-16T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001400300920170083700"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": 4006426,
+      "celular": 3142403097
+    },
+    "primerNombre": "DORA",
+    "segundoNombre": "AIDE",
+    "primerApellido": "PEÑA",
+    "segundoApellido": "PEÑA ",
+    "cedula": 52432989,
+    "direccion": "CALLE 70C # 111D - 06",
+    "email": "aide116455@hotmail.com"
+  },
+  "numero": 166,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 50666380,
+  "llaveProceso": "11001400300920170083700",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 15,
+        "tipo": "JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 30526.136,
+    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
+    "etapaProcesal": "1.100140030092017e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 12752576, "1": "N/A" },
+    "radicado": "2017 - 00837",
+    "vencimientoPagare": [
+      "2020-08-16T00:00:00.000Z"
+    ],
+    "expediente": "11001400300920170083700"
+  }
+}

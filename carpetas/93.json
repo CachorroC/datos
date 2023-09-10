@@ -1,1 +1,32 @@
-{"demanda":{"juzgados":[],"capitalAdeudado":37074.975,"entregaGarantiasAbogado":"2017-06-28T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-06-20T00:00:00.000Z","municipio":"CAJICA","obligacion":{"0":166689,"1":""},"radicado":"2017 - 00496","vencimientoPagare":"2031-08-06T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"25126408900120170049600"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"VIVIAN","segundoNombre":"PAOLA","primerApellido":"BRUGES","segundoApellido":"MEDINA","cedula":1140835529,"direccion":"CALLE 133 # 53 - 365CJ LOMAS DE (BARRANQUILLA)","email":"vivibruges@hotmail.com"},"numero":93,"llaveProceso":"25126408900120170049600","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 37074.975,
+    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
+    "municipio": "CAJICA",
+    "obligacion": { "0": 166689, "1": "" },
+    "radicado": "2017 - 00496",
+    "vencimientoPagare": [
+      "2031-08-06T00:00:00.000Z"
+    ],
+    "expediente": "25126408900120170049600"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "VIVIAN",
+    "segundoNombre": "PAOLA",
+    "primerApellido": "BRUGES",
+    "segundoApellido": "MEDINA",
+    "cedula": 1140835529,
+    "direccion": "CALLE 133 # 53 - 365CJ LOMAS DE (BARRANQUILLA)",
+    "email": "vivibruges@hotmail.com"
+  },
+  "numero": 93,
+  "llaveProceso": "25126408900120170049600",
+  "tipoProceso": "HIPOTECARIO"
+}

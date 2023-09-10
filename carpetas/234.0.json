@@ -1,1 +1,43 @@
-{"category":"Terminados","deudor":{"tel":{"fijo":7451585,"celular":3052392765},"primerNombre":"MAURICIO","segundoNombre":"ALEXANDER","primerApellido":"AGUIRRE","segundoApellido":"BERMUDEZ","cedula":16940930,"direccion":"CALLE 152 12 35 INT 7","email":"mauricio.aguirre@bav.sabmiller"},"numero":234,"tipoProceso":"SINGULAR","idProceso":9334913,"llaveProceso":"11001400304320170120500","categoryTag":5,"demanda":{"juzgados":[{"id":43,"tipo":"JUZGADO 043 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-43-civil-municipal-de-bogota"}],"capitalAdeudado":15414.194,"entregaGarantiasAbogado":"2017-09-06T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-09-18T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":"377815075274932 / 5176400101402245","1":"5303729008808054 // AUDIOPRESTAMO"},"radicado":"2017-01205","vencimientoPagare":null,"departamento":null,"expediente":"11001400304320170120500"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": 7451585,
+      "celular": 3052392765
+    },
+    "primerNombre": "MAURICIO",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "AGUIRRE",
+    "segundoApellido": "BERMUDEZ",
+    "cedula": 16940930,
+    "direccion": "CALLE 152 12 35 INT 7",
+    "email": "mauricio.aguirre@bav.sabmiller"
+  },
+  "numero": 234,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 9334913,
+  "llaveProceso": "11001400304320170120500",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": null,
+    "juzgados": [
+      {
+        "id": 43,
+        "tipo": "JUZGADO 043 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-43-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 15414.194,
+    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-18T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": "377815075274932 / 5176400101402245",
+      "1": "5303729008808054 // AUDIOPRESTAMO"
+    },
+    "radicado": "2017-01205",
+    "vencimientoPagare": null,
+    "expediente": "11001400304320170120500"
+  }
+}

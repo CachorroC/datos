@@ -1,1 +1,42 @@
-{"category":"Terminados","deudor":{"tel":{"fijo":4610722,"celular":3103789233},"primerNombre":"CESAR","segundoNombre":"AUGUSTO","primerApellido":"GIL","segundoApellido":"GALLEGO","cedula":79693495,"direccion":"DIAGONAL 2A SUER # 78L - 81 APTO 501B","email":"carolcecesar@gmail.com"},"numero":119,"tipoProceso":"SINGULAR","idProceso":50633790,"llaveProceso":"11001400301420170098800","categoryTag":5,"demanda":{"juzgados":[{"id":14,"tipo":"JUZGADO 014 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-014-civil-municipal-de-bogota"}],"capitalAdeudado":20987.589,"entregaGarantiasAbogado":"2017-08-04T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-08-11T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":450087082,"1":""},"radicado":"2017 - 00988","vencimientoPagare":"2019-05-13T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001400301420170098800"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": 4610722,
+      "celular": 3103789233
+    },
+    "primerNombre": "CESAR",
+    "segundoNombre": "AUGUSTO",
+    "primerApellido": "GIL",
+    "segundoApellido": "GALLEGO",
+    "cedula": 79693495,
+    "direccion": "DIAGONAL 2A SUER # 78L - 81 APTO 501B",
+    "email": "carolcecesar@gmail.com"
+  },
+  "numero": 119,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50633790,
+  "llaveProceso": "11001400301420170098800",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 14,
+        "tipo": "JUZGADO 014 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-014-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 20987.589,
+    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-11T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 450087082, "1": "" },
+    "radicado": "2017 - 00988",
+    "vencimientoPagare": [
+      "2019-05-13T00:00:00.000Z"
+    ],
+    "expediente": "11001400301420170098800"
+  }
+}

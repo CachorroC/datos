@@ -1,1 +1,37 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"SANDRA","segundoNombre":"PATRICIA","primerApellido":"SANCHEZ","segundoApellido":"VELASQUEZ","cedula":52102754,"direccion":"CALLE 6 B No 80 G-95 TORRE 5 APARTAMENTO 717","email":"spatriciasanchez2011@hotmail.com"},"numero":364,"tipoProceso":"HIPOTECARIO","idProceso":50923290,"llaveProceso":"11001400307320170164700","categoryTag":5,"demanda":{"juzgados":[{"id":73,"tipo":"JUZGADO 073 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-073-civil-municipal-de-bogota"}],"capitalAdeudado":60161.467,"entregaGarantiasAbogado":"2017-12-06T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":144698,"1":""},"radicado":"2017 - 01647","vencimientoPagare":null,"departamento":"CUNDINAMARCA","expediente":"11001400307320170164700"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "SANDRA",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "SANCHEZ",
+    "segundoApellido": "VELASQUEZ",
+    "cedula": 52102754,
+    "direccion": "CALLE 6 B No 80 G-95 TORRE 5 APARTAMENTO 717",
+    "email": "spatriciasanchez2011@hotmail.com"
+  },
+  "numero": 364,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50923290,
+  "llaveProceso": "11001400307320170164700",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 73,
+        "tipo": "JUZGADO 073 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-073-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 60161.467,
+    "entregaGarantiasAbogado": "2017-12-06T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 144698, "1": "" },
+    "radicado": "2017 - 01647",
+    "vencimientoPagare": [null],
+    "expediente": "11001400307320170164700"
+  }
+}

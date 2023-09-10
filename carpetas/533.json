@@ -1,1 +1,33 @@
-{"demanda":{"juzgados":[],"capitalAdeudado":56987.693,"entregaGarantiasAbogado":"2017-11-14T00:00:00.000Z","etapaProcesal":"EJECUCION","fechaPresentacion":null,"municipio":"SOACHA","obligacion":{"0":1680097436,"1":148653},"radicado":"2018 - 00060","vencimientoPagare":null,"departamento":"CUNDINAMARCA","expediente":"2575440030042018000600"},"category":"Bancolombia","categoryTag":1,"deudor":{"tel":{},"primerNombre":"JAIRO","segundoNombre":"ALFONSO","primerApellido":"PARDO","segundoApellido":"JAIMES","cedula":79522009,"direccion":"DIAGONAL 28 No 33-27  TORRE 7 APART 203  SOACHA","email":"jairopardo8-11-70@hotmail.com"},"numero":533,"llaveProceso":"2575440030042018000600","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 56987.693,
+    "entregaGarantiasAbogado": "2017-11-14T00:00:00.000Z",
+    "etapaProcesal": "EJECUCION",
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": {
+      "0": 1680097436,
+      "1": 148653
+    },
+    "radicado": "2018 - 00060",
+    "vencimientoPagare": [null],
+    "expediente": "2575440030042018000600"
+  },
+  "category": "Bancolombia",
+  "categoryTag": 1,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JAIRO",
+    "segundoNombre": "ALFONSO",
+    "primerApellido": "PARDO",
+    "segundoApellido": "JAIMES",
+    "cedula": 79522009,
+    "direccion": "DIAGONAL 28 No 33-27  TORRE 7 APART 203  SOACHA",
+    "email": "jairopardo8-11-70@hotmail.com"
+  },
+  "numero": 533,
+  "llaveProceso": "2575440030042018000600",
+  "tipoProceso": "HIPOTECARIO"
+}

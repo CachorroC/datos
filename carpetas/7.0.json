@@ -1,1 +1,39 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"JOSE","segundoNombre":"RICARDO","primerApellido":"PRIETO","segundoApellido":"CRUZ","cedula":79733852,"direccion":"CALLE 21 BIS SUR No. 88-58 BOGOTA","email":"N/A"},"numero":7,"tipoProceso":"PRENDARIO","idProceso":62733402,"llaveProceso":"11001310302720170037400","categoryTag":5,"demanda":{"juzgados":[{"id":27,"tipo":"JUZGADO 027 CIVIL DEL CIRCUITO DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-27-civil-del-circuito-de-bogota"}],"capitalAdeudado":134026.609,"entregaGarantiasAbogado":"2017-05-11T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-05-24T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":2553057,"1":""},"radicado":"2017 - 00374","vencimientoPagare":"2020-04-26T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001310302720170037400"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JOSE",
+    "segundoNombre": "RICARDO",
+    "primerApellido": "PRIETO",
+    "segundoApellido": "CRUZ",
+    "cedula": 79733852,
+    "direccion": "CALLE 21 BIS SUR No. 88-58 BOGOTA",
+    "email": "N/A"
+  },
+  "numero": 7,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 62733402,
+  "llaveProceso": "11001310302720170037400",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 27,
+        "tipo": "JUZGADO 027 CIVIL DEL CIRCUITO DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-27-civil-del-circuito-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 134026.609,
+    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-05-24T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 2553057, "1": "" },
+    "radicado": "2017 - 00374",
+    "vencimientoPagare": [
+      "2020-04-26T00:00:00.000Z"
+    ],
+    "expediente": "11001310302720170037400"
+  }
+}

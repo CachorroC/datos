@@ -97,7 +97,7 @@ var __importDefault
     return mod && mod.__esModule
       ? mod
       : {
-          default: mod
+          default: mod 
         };
   };
 Object.defineProperty(
@@ -113,12 +113,6 @@ exports.getProcesosbyLLaveProceso
 const carpetas_1 = __importDefault(
   require(
     './carpetas' 
-  )
-);
-
-const procesos_1 = __importDefault(
-  require(
-    './procesos' 
   )
 );
 
@@ -151,61 +145,106 @@ exports.llavesProceso = carpetas_1.default.map(
 async function getProcesosbyLLaveProceso() {
   const procesosMap = new Map();
 
-  const llavesLength
-    = exports.llavesProceso.length;
+  const llavesLength = exports.idProcesos.length;
   console.log(
     `hay ${ llavesLength } llaves` 
   );
 
-  /*
-    for ( const llave of llavesProceso ) {
-  
-      const indexOf = llavesProceso.indexOf(
-        llave
-      );
-      console.log(
-        indexOf
-      );
-         console.time(
-        indexOf.toString()
-      );
-      await sleep(
-        1000
-      );
-      console.timeEnd(
-        indexOf.toString()
-      );
-  
-      const procesos= await fetchProcesos(
-        llave.llaveProceso, indexOf, llave._id
-      );
-      procesosMap.set(
-        indexOf, procesos
-      );
-  
-      continue;
-    }
-  
-    const procesosArray = Array.from(
-      procesosMap.values()
-    );
-    */
-  const procesosArray = exports.llavesProceso.map(
-    async (
-      llave, index 
-    ) => {
-      const procesos = await ( 0,
-      procesos_1.default )(
-        llave.llaveProceso,
-        index,
-        llave._id
+  const errores = [];
+
+  const noerrores = [];
+
+  for ( const proceso of exports.idProcesos ) {
+    const {
+      idProceso 
+    } = proceso;
+
+    const indexOf
+      = exports.idProcesos.indexOf(
+        proceso 
       );
 
-      return procesos;
+    try {
+      const request = await fetch(
+        `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${ idProceso }`
+      );
+      console.log(
+        request.headers 
+      );
+      fs.writeFile(
+        `carpetas/${ indexOf }headers.json`,
+        JSON.stringify(
+          request.headers 
+        )
+      );
+
+      const json = await request.json();
+      fs.writeFile(
+        `carpetas/${ indexOf }json.json`,
+        JSON.stringify(
+          json 
+        )
+      );
+      noerrores.push(
+        json 
+      );
+    } catch ( error ) {
+      errores.push(
+        error 
+      );
+
+      if ( error instanceof Error ) {
+        fs.writeFile(
+          `carpetas/${ indexOf }nameError.json`,
+          JSON.stringify(
+            error.name 
+          )
+        );
+        fs.writeFile(
+          `carpetas/${ indexOf }messageError.json`,
+          JSON.stringify(
+            error.message 
+          )
+        );
+        console.log(
+          `${ idProceso }: error en la conexion network del fetchActuaciones => ${ error.name } : ${ error.message }`
+        );
+      }
+      fs.writeFile(
+        `carpetas/${ indexOf }error.json`,
+        `${ JSON.stringify(
+          error 
+        ) }`
+      );
+      console.log(
+        `${ idProceso }: : error en la conexion network del fetchActuaciones  =>  ${ error }`
+      );
     }
+  }
+  console.log(
+    errores 
   );
   fs.writeFile(
-    'procesosbyidsleepInfetch.json',
+    'errores.json',
+    JSON.stringify(
+      errores 
+    )
+  );
+  console.log(
+    noerrores 
+  );
+  fs.writeFile(
+    'noerrores.json',
+    JSON.stringify(
+      noerrores 
+    )
+  );
+
+  const procesosArray = Array.from(
+    procesosMap.values()
+  );
+  fs.writeFile(
+    'procesosArray.json',
     JSON.stringify(
       procesosArray 
     )

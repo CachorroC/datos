@@ -1,1 +1,35 @@
-{"demanda":{"juzgados":[],"capitalAdeudado":21740.168,"entregaGarantiasAbogado":"2017-09-11T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-09-19T00:00:00.000Z","municipio":"SOACHA","obligacion":{"0":20990182990,"1":""},"radicado":"2017 - 00903","vencimientoPagare":"2023-04-20T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"25754418900220180036300"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":4805457,"celular":3223968514},"primerNombre":"JOHN","segundoNombre":"HADER","primerApellido":"OTALVARO","segundoApellido":" ROMO","cedula":79793904,"direccion":"CALLE 183 No11 -55 BLOQUE 9 APARTAMENTO 102","email":"johnhader70@hotmail.com"},"numero":242,"llaveProceso":"25754418900220180036300","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 21740.168,
+    "entregaGarantiasAbogado": "2017-09-11T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": { "0": 20990182990, "1": "" },
+    "radicado": "2017 - 00903",
+    "vencimientoPagare": [
+      "2023-04-20T00:00:00.000Z"
+    ],
+    "expediente": "25754418900220180036300"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {
+      "fijo": 4805457,
+      "celular": 3223968514
+    },
+    "primerNombre": "JOHN",
+    "segundoNombre": "HADER",
+    "primerApellido": "OTALVARO",
+    "segundoApellido": " ROMO",
+    "cedula": 79793904,
+    "direccion": "CALLE 183 No11 -55 BLOQUE 9 APARTAMENTO 102",
+    "email": "johnhader70@hotmail.com"
+  },
+  "numero": 242,
+  "llaveProceso": "25754418900220180036300",
+  "tipoProceso": "HIPOTECARIO"
+}

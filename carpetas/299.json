@@ -1,1 +1,35 @@
-{"demanda":{"juzgados":[],"capitalAdeudado":28432.149,"entregaGarantiasAbogado":"2017-10-13T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":null,"municipio":"SOACHA","obligacion":{"0":6980085637,"1":120353},"radicado":"2017 - 00346","vencimientoPagare":"2017-07-15T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"25754400300320170034600"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"ROBERTO","segundoNombre":"STIVENSON","primerApellido":"ACERO","segundoApellido":"BARON","cedula":80879280,"direccion":"CARRERA 9 ESTE No 36-59 SUR  SOACHA","email":"roberto.g12@hotmail.com"},"numero":299,"llaveProceso":"25754400300320170034600","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 28432.149,
+    "entregaGarantiasAbogado": "2017-10-13T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": {
+      "0": 6980085637,
+      "1": 120353
+    },
+    "radicado": "2017 - 00346",
+    "vencimientoPagare": [
+      "2017-07-15T00:00:00.000Z"
+    ],
+    "expediente": "25754400300320170034600"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ROBERTO",
+    "segundoNombre": "STIVENSON",
+    "primerApellido": "ACERO",
+    "segundoApellido": "BARON",
+    "cedula": 80879280,
+    "direccion": "CARRERA 9 ESTE No 36-59 SUR  SOACHA",
+    "email": "roberto.g12@hotmail.com"
+  },
+  "numero": 299,
+  "llaveProceso": "25754400300320170034600",
+  "tipoProceso": "HIPOTECARIO"
+}

@@ -1,1 +1,44 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"LUZ","segundoNombre":"DARY","primerApellido":"HURTADO","segundoApellido":"RIOS","cedula":36458257,"direccion":"CARRERA 98B # 14 - 06 CASA 155","email":"luzdary.hurtado.rios@hotmail.com"},"numero":215,"tipoProceso":"HIPOTECARIO","idProceso":50776700,"llaveProceso":"11001400300820170127300","categoryTag":5,"demanda":{"juzgados":[{"id":8,"tipo":"JUZGADO 008 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-008-civil-municipal-de-bogota"},{"id":8,"tipo":"JUZGADO 008 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-008-civil-municipal-de-bogota"}],"capitalAdeudado":12241.665,"entregaGarantiasAbogado":"2017-08-23T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-09-04T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":85677,"1":""},"radicado":"2017 - 01273","vencimientoPagare":"2017-03-30T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001400300820170127300"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "LUZ",
+    "segundoNombre": "DARY",
+    "primerApellido": "HURTADO",
+    "segundoApellido": "RIOS",
+    "cedula": 36458257,
+    "direccion": "CARRERA 98B # 14 - 06 CASA 155",
+    "email": "luzdary.hurtado.rios@hotmail.com"
+  },
+  "numero": 215,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50776700,
+  "llaveProceso": "11001400300820170127300",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 8,
+        "tipo": "JUZGADO 008 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-008-civil-municipal-de-bogota"
+      },
+      {
+        "id": 8,
+        "tipo": "JUZGADO 008 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-008-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 12241.665,
+    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 85677, "1": "" },
+    "radicado": "2017 - 01273",
+    "vencimientoPagare": [
+      "2017-03-30T00:00:00.000Z"
+    ],
+    "expediente": "11001400300820170127300"
+  }
+}

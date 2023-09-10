@@ -1,1 +1,38 @@
-{"demanda":{"juzgados":[],"capitalAdeudado":null,"entregaGarantiasAbogado":"2021-08-18T00:00:00.000Z","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":6670095919,"2":"102800851 X T.C. MASTER 5303710105146382 Y T.C. AMERICAN 0377816042003354"},"radicado":"","vencimientoPagare":null,"departamento":"CUNDINAMARCA","expediente":""},"category":"Bancolombia","categoryTag":1,"deudor":{"tel":{"fijo":4074724,"celular":3506837545},"primerNombre":"INDIRA","segundoNombre":"MAYERLY","primerApellido":"FLOREZ","segundoApellido":"CASTRO","cedula":1068973010,"direccion":"CL 26 A SUR 12 L 21 Piso 3o. Barrio san José Sur","email":"mayeflor21@hotmail.com"},"numero":577,"llaveProceso":"","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2021-08-18T00:00:00.000Z",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 6670095919,
+      "2": "102800851 X T.C. MASTER 5303710105146382 Y T.C. AMERICAN 0377816042003354"
+    },
+    "radicado": "",
+    "vencimientoPagare": [
+      "2026-02-04T05:00:00.000Z",
+      "2026-07-04T05:00:00.000Z"
+    ],
+    "expediente": ""
+  },
+  "category": "Bancolombia",
+  "categoryTag": 1,
+  "deudor": {
+    "tel": {
+      "fijo": 4074724,
+      "celular": 3506837545
+    },
+    "primerNombre": "INDIRA",
+    "segundoNombre": "MAYERLY",
+    "primerApellido": "FLOREZ",
+    "segundoApellido": "CASTRO",
+    "cedula": 1068973010,
+    "direccion": "CL 26 A SUR 12 L 21 Piso 3o. Barrio san José Sur",
+    "email": "mayeflor21@hotmail.com"
+  },
+  "numero": 577,
+  "llaveProceso": "",
+  "tipoProceso": "SINGULAR"
+}

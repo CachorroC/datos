@@ -1,1 +1,40 @@
-{"category":"Terminados","deudor":{"tel":{"fijo":4316891,"celular":3125757941},"primerNombre":"CARLOS","segundoNombre":"GIOVANNY","primerApellido":"RONDON","segundoApellido":"GARCIA ","cedula":80820336,"direccion":"CALLE 89A BIS B 113 - 23 ","email":"carlosrondon2008@hotmail.com"},"numero":133,"tipoProceso":"HIPOTECARIO","idProceso":50651910,"llaveProceso":"11001400301220170095000","categoryTag":5,"demanda":{"juzgados":[{"id":20,"tipo":"JUZGADO 020 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-20-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":24624.884,"entregaGarantiasAbogado":"2017-08-11T00:00:00.000Z","etapaProcesal":"1.100140030122017e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":130201,"1":""},"radicado":"2017 - 00950","vencimientoPagare":null,"departamento":"CUNDINAMARCA","expediente":"11001400301220170095000"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": 4316891,
+      "celular": 3125757941
+    },
+    "primerNombre": "CARLOS",
+    "segundoNombre": "GIOVANNY",
+    "primerApellido": "RONDON",
+    "segundoApellido": "GARCIA ",
+    "cedula": 80820336,
+    "direccion": "CALLE 89A BIS B 113 - 23 ",
+    "email": "carlosrondon2008@hotmail.com"
+  },
+  "numero": 133,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50651910,
+  "llaveProceso": "11001400301220170095000",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 20,
+        "tipo": "JUZGADO 020 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-20-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 24624.884,
+    "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
+    "etapaProcesal": "1.100140030122017e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 130201, "1": "" },
+    "radicado": "2017 - 00950",
+    "vencimientoPagare": null,
+    "expediente": "11001400301220170095000"
+  }
+}

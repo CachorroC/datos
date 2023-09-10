@@ -1,1 +1,35 @@
-{"demanda":{"juzgados":[],"capitalAdeudado":null,"entregaGarantiasAbogado":"2023-09-05T00:00:00.000Z","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":"Q 0000000046668139027001","2":377815602619302},"radicado":"","vencimientoPagare":null,"departamento":"CUNDINAMARCA","expediente":""},"category":"Bancolombia","categoryTag":1,"deudor":{"tel":{"fijo":3031161,"celular":3124781732},"primerNombre":"ALBA","segundoNombre":"YANETH","primerApellido":"APARICIO","segundoApellido":"SANDOVAL","cedula":46668139,"direccion":" Carrera 53 C No. 4 C 63 ","email":"yaneth_apar@hotmail.com"},"numero":583,"llaveProceso":"","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2023-09-05T00:00:00.000Z",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "Q 0000000046668139027001",
+      "2": 377815602619302
+    },
+    "radicado": "",
+    "vencimientoPagare": [null, null],
+    "expediente": ""
+  },
+  "category": "Bancolombia",
+  "categoryTag": 1,
+  "deudor": {
+    "tel": {
+      "fijo": 3031161,
+      "celular": 3124781732
+    },
+    "primerNombre": "ALBA",
+    "segundoNombre": "YANETH",
+    "primerApellido": "APARICIO",
+    "segundoApellido": "SANDOVAL",
+    "cedula": 46668139,
+    "direccion": " Carrera 53 C No. 4 C 63 ",
+    "email": "yaneth_apar@hotmail.com"
+  },
+  "numero": 583,
+  "llaveProceso": "",
+  "tipoProceso": "SINGULAR"
+}

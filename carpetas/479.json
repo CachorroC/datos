@@ -1,1 +1,33 @@
-{"demanda":{"juzgados":[],"capitalAdeudado":12821.536,"entregaGarantiasAbogado":"2018-08-23T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2018-06-09T05:00:00.000Z","municipio":"TABIO","obligacion":{"0":4594250481433800,"1":5303720342826530},"radicado":"2018 - 00171","vencimientoPagare":null,"departamento":"CUNDINAMARCA","expediente":"25785418900120180017100"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"TANIA","segundoNombre":"CONSUELO","primerApellido":"BOTIA","segundoApellido":"CORREA","cedula":39809183,"direccion":"CALLE 8 No 0-105  TABIO","email":"tani_botia@hotmail.com"},"numero":479,"llaveProceso":"25785418900120180017100","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 12821.536,
+    "entregaGarantiasAbogado": "2018-08-23T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2018-06-09T05:00:00.000Z",
+    "municipio": "TABIO",
+    "obligacion": {
+      "0": 4594250481433800,
+      "1": 5303720342826530
+    },
+    "radicado": "2018 - 00171",
+    "vencimientoPagare": null,
+    "expediente": "25785418900120180017100"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "TANIA",
+    "segundoNombre": "CONSUELO",
+    "primerApellido": "BOTIA",
+    "segundoApellido": "CORREA",
+    "cedula": 39809183,
+    "direccion": "CALLE 8 No 0-105  TABIO",
+    "email": "tani_botia@hotmail.com"
+  },
+  "numero": 479,
+  "llaveProceso": "25785418900120180017100",
+  "tipoProceso": "SINGULAR"
+}

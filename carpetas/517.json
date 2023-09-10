@@ -1,1 +1,31 @@
-{"demanda":{"juzgados":[],"capitalAdeudado":0,"entregaGarantiasAbogado":null,"etapaProcesal":"","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":"","1":"16262273,30"},"radicado":"2019 - 00162","vencimientoPagare":"1899-12-30T00:00:00.000Z","departamento":"CUNDINAMARCA ","expediente":"11001418901020190016200"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"MARYLU","primerApellido":"VALENCIA","segundoApellido":"SUAREZ","cedula":52470211,"direccion":"","email":"CARRERA 53A # 4F-67"},"numero":517,"llaveProceso":"11001418901020190016200","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA ",
+    "juzgados": [],
+    "capitalAdeudado": 0,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "0": "", "1": "16262273,30" },
+    "radicado": "2019 - 00162",
+    "vencimientoPagare": [
+      "1899-12-30T00:00:00.000Z"
+    ],
+    "expediente": "11001418901020190016200"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "MARYLU",
+    "primerApellido": "VALENCIA",
+    "segundoApellido": "SUAREZ",
+    "cedula": 52470211,
+    "direccion": "",
+    "email": "CARRERA 53A # 4F-67"
+  },
+  "numero": 517,
+  "llaveProceso": "11001418901020190016200",
+  "tipoProceso": "HIPOTECARIO"
+}

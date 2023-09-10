@@ -1,1 +1,40 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"YENNY","segundoNombre":"MARCELA","primerApellido":"GOMEZ","segundoApellido":"OLARTE","cedula":52434815,"direccion":"CALLE 43 SUR No 51F-23 PISO 2","email":"yemargol@yahoo.es"},"numero":455,"tipoProceso":"SINGULAR","idProceso":9093813,"llaveProceso":"11001400303820180083500","categoryTag":5,"demanda":{"juzgados":[{"id":38,"tipo":"JUZGADO 038 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-038-civil-municipal-de-bogota"}],"capitalAdeudado":14997.448,"entregaGarantiasAbogado":"2018-06-29T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2018-07-06T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":"AUDIOPRESTAMO","1":""},"radicado":"2018 - 00835","vencimientoPagare":null,"departamento":"CUNDINAMARCA","expediente":"11001400303820180083500"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "YENNY",
+    "segundoNombre": "MARCELA",
+    "primerApellido": "GOMEZ",
+    "segundoApellido": "OLARTE",
+    "cedula": 52434815,
+    "direccion": "CALLE 43 SUR No 51F-23 PISO 2",
+    "email": "yemargol@yahoo.es"
+  },
+  "numero": 455,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 9093813,
+  "llaveProceso": "11001400303820180083500",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 38,
+        "tipo": "JUZGADO 038 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-038-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 14997.448,
+    "entregaGarantiasAbogado": "2018-06-29T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2018-07-06T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": "AUDIOPRESTAMO",
+      "1": ""
+    },
+    "radicado": "2018 - 00835",
+    "vencimientoPagare": null,
+    "expediente": "11001400303820180083500"
+  }
+}

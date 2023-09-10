@@ -1,1 +1,37 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"JENNIFER","segundoNombre":"ALEJANDRA","primerApellido":"MOGOLLÓN","segundoApellido":"BERNAL ","cedula":52818428,"direccion":"CALLE 24D # 72A - 81  CASA 9","email":"alejandramogollonbernal@gmail.com"},"numero":229,"tipoProceso":"HIPOTECARIO","idProceso":19211240,"llaveProceso":"11001400306820170124000","categoryTag":5,"demanda":{"juzgados":[{"id":68,"tipo":"JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota"}],"capitalAdeudado":102825.603,"entregaGarantiasAbogado":"2017-09-04T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":141432,"1":""},"radicado":"2017 - 01240","vencimientoPagare":null,"departamento":"CUNDINAMARCA","expediente":"11001400306820170124000"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JENNIFER",
+    "segundoNombre": "ALEJANDRA",
+    "primerApellido": "MOGOLLÓN",
+    "segundoApellido": "BERNAL ",
+    "cedula": 52818428,
+    "direccion": "CALLE 24D # 72A - 81  CASA 9",
+    "email": "alejandramogollonbernal@gmail.com"
+  },
+  "numero": 229,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 19211240,
+  "llaveProceso": "11001400306820170124000",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 68,
+        "tipo": "JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 102825.603,
+    "entregaGarantiasAbogado": "2017-09-04T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 141432, "1": "" },
+    "radicado": "2017 - 01240",
+    "vencimientoPagare": null,
+    "expediente": "11001400306820170124000"
+  }
+}

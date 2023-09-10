@@ -91,7 +91,7 @@ export interface IntDemanda {
   municipio: string;
   obligacion: { [key: string]: number | string };
   radicado: string;
-  vencimientoPagare?: Date;
+  vencimientoPagare: Date[] | null;
   expediente?: string;
   juzgados: Juzgado[];
 }

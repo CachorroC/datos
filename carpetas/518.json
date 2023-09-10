@@ -1,1 +1,33 @@
-{"demanda":{"juzgados":[],"capitalAdeudado":12203.649,"entregaGarantiasAbogado":"2019-01-30T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":377816507543324,"1":4513070013675100},"radicado":"2019 - 00162","vencimientoPagare":null,"departamento":"CUNDINAMARCA ","expediente":"11001418900920190016200"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"celular":3124487509},"primerNombre":"JORGE","segundoNombre":"IVAN","primerApellido":"AVENDAÑO","segundoApellido":"VANEGAS","cedula":80222254,"direccion":"CARRERA 86 # 77 - 35 INT 13 APTO 339","email":"CYBERGEORGE82@HOTMAIL.COM"},"numero":518,"llaveProceso":"11001418900920190016200","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA ",
+    "juzgados": [],
+    "capitalAdeudado": 12203.649,
+    "entregaGarantiasAbogado": "2019-01-30T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": 377816507543324,
+      "1": 4513070013675100
+    },
+    "radicado": "2019 - 00162",
+    "vencimientoPagare": null,
+    "expediente": "11001418900920190016200"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "celular": 3124487509 },
+    "primerNombre": "JORGE",
+    "segundoNombre": "IVAN",
+    "primerApellido": "AVENDAÑO",
+    "segundoApellido": "VANEGAS",
+    "cedula": 80222254,
+    "direccion": "CARRERA 86 # 77 - 35 INT 13 APTO 339",
+    "email": "CYBERGEORGE82@HOTMAIL.COM"
+  },
+  "numero": 518,
+  "llaveProceso": "11001418900920190016200",
+  "tipoProceso": "SINGULAR"
+}

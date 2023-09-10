@@ -1,1 +1,39 @@
-{"category":"Terminados","deudor":{"tel":{"celular":3004975278},"primerNombre":"LEILA","segundoNombre":"JOHANNA","primerApellido":"MARTINEZ","segundoApellido":"MORA","cedula":57452535,"direccion":"CALLE 102 # 15 - 58 APTO 204","email":"lei.m@hotmail.com"},"numero":101,"tipoProceso":"PRENDARIO","idProceso":50540650,"llaveProceso":"11001400301020170065301","categoryTag":5,"demanda":{"juzgados":[{"id":10,"tipo":"JUZGADO 010 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-010-civil-municipal-de-bogota"}],"capitalAdeudado":54468.401,"entregaGarantiasAbogado":"2017-06-28T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-06-29T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":12545412,"1":""},"radicado":"2017 - 00653","vencimientoPagare":"2017-06-13T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001400301020170065301"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": { "celular": 3004975278 },
+    "primerNombre": "LEILA",
+    "segundoNombre": "JOHANNA",
+    "primerApellido": "MARTINEZ",
+    "segundoApellido": "MORA",
+    "cedula": 57452535,
+    "direccion": "CALLE 102 # 15 - 58 APTO 204",
+    "email": "lei.m@hotmail.com"
+  },
+  "numero": 101,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 50540650,
+  "llaveProceso": "11001400301020170065301",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 10,
+        "tipo": "JUZGADO 010 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-010-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 54468.401,
+    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-29T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 12545412, "1": "" },
+    "radicado": "2017 - 00653",
+    "vencimientoPagare": [
+      "2017-06-13T00:00:00.000Z"
+    ],
+    "expediente": "11001400301020170065301"
+  }
+}

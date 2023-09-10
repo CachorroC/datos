@@ -1,1 +1,42 @@
-{"category":"Terminados","deudor":{"tel":{"fijo":3002766,"celular":3002908272},"primerNombre":"EDNA","segundoNombre":"MILENA","primerApellido":"MUÑOZ","segundoApellido":"SANCHEZ","cedula":52818134,"direccion":"CALLE 181C # 11 - 75 TORRE 3 APTO 302","email":"ednita22ms@hotmail.com"},"numero":137,"tipoProceso":"HIPOTECARIO","idProceso":10410303,"llaveProceso":"11001400304720170171300","categoryTag":5,"demanda":{"juzgados":[{"id":47,"tipo":"JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-047-civil-municipal-de-bogota"}],"capitalAdeudado":19926.084,"entregaGarantiasAbogado":"2017-08-15T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-08-23T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":235349,"1":""},"radicado":"2017 - 01713","vencimientoPagare":"2023-10-31T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001400304720170171300"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": 3002766,
+      "celular": 3002908272
+    },
+    "primerNombre": "EDNA",
+    "segundoNombre": "MILENA",
+    "primerApellido": "MUÑOZ",
+    "segundoApellido": "SANCHEZ",
+    "cedula": 52818134,
+    "direccion": "CALLE 181C # 11 - 75 TORRE 3 APTO 302",
+    "email": "ednita22ms@hotmail.com"
+  },
+  "numero": 137,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 10410303,
+  "llaveProceso": "11001400304720170171300",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 47,
+        "tipo": "JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-047-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 19926.084,
+    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-23T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 235349, "1": "" },
+    "radicado": "2017 - 01713",
+    "vencimientoPagare": [
+      "2023-10-31T00:00:00.000Z"
+    ],
+    "expediente": "11001400304720170171300"
+  }
+}

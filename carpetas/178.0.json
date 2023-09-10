@@ -1,1 +1,45 @@
-{"category":"Terminados","deudor":{"tel":{"fijo":7675057,"celular":3156780088},"primerNombre":"MARYLUZ","segundoNombre":"OCASIONES","primerApellido":"PINZON","segundoApellido":"","cedula":37861286,"direccion":"DIAGONAL 52# 3 - 24 APTO 50 ","email":"maryluzocasiones1104.p@hotmail.com"},"numero":178,"tipoProceso":"PRENDARIO","idProceso":112657130,"llaveProceso":"11001400306620170122100","categoryTag":5,"demanda":{"juzgados":[{"id":66,"tipo":"JUZGADO 066 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-066-civil-municipal-de-bogota"}],"capitalAdeudado":39243.095,"entregaGarantiasAbogado":"2017-08-22T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-08-28T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":4099831431615063,"1":"5303715050478433 // 5306940349167962 // 12641256"},"radicado":"2017 - 01221","vencimientoPagare":"2017-08-15T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001400306620170122100"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": 7675057,
+      "celular": 3156780088
+    },
+    "primerNombre": "MARYLUZ",
+    "segundoNombre": "OCASIONES",
+    "primerApellido": "PINZON",
+    "segundoApellido": "",
+    "cedula": 37861286,
+    "direccion": "DIAGONAL 52# 3 - 24 APTO 50 ",
+    "email": "maryluzocasiones1104.p@hotmail.com"
+  },
+  "numero": 178,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 112657130,
+  "llaveProceso": "11001400306620170122100",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 66,
+        "tipo": "JUZGADO 066 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-066-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 39243.095,
+    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": 4099831431615063,
+      "1": "5303715050478433 // 5306940349167962 // 12641256"
+    },
+    "radicado": "2017 - 01221",
+    "vencimientoPagare": [
+      "2017-08-15T00:00:00.000Z"
+    ],
+    "expediente": "11001400306620170122100"
+  }
+}

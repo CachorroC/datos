@@ -6,22 +6,22 @@ const uri
 
 export const carpetasCollection = async () => {
   const client = new MongoClient(
-    uri
+    uri 
   );
 
   if ( !client ) {
     throw new Error(
-      'no hay cliente mongólico'
+      'no hay cliente mongólico' 
     );
   }
 
   const db = client.db(
-    'RyS'
+    'RyS' 
   );
 
   const carpetas
     = db.collection<IntCarpeta>(
-      'Carpetas'
+      'Carpetas' 
     );
 
   return carpetas;
@@ -31,18 +31,19 @@ export async function insertNewCarpetas(
   carpetas: IntCarpeta[]
 ) {
   const nCarps = JSON.stringify(
-    carpetas
+    carpetas 
   );
 
   const collection = await carpetasCollection();
 
-  const insertManyCarpetas =    await collection.insertMany(
-    JSON.parse(
-      nCarps
-    )
-  );
+  const insertManyCarpetas
+    = await collection.insertMany(
+      JSON.parse(
+        nCarps 
+      )
+    );
   console.log(
-    insertManyCarpetas.insertedCount
+    insertManyCarpetas.insertedCount 
   );
 
   return insertManyCarpetas.acknowledged;

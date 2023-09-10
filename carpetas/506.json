@@ -1,1 +1,35 @@
-{"demanda":{"juzgados":[],"capitalAdeudado":15426.759,"entregaGarantiasAbogado":"2018-10-25T00:00:00.000Z","etapaProcesal":"1.100140030042021e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":"5,49157039248288E+016","1":"N/A"},"radicado":"2021- 00611","vencimientoPagare":"2021-04-06T05:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001418903120180138000"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"EDWIN","segundoNombre":"CAMILO","primerApellido":"SARMIENTO","segundoApellido":"GOMEZ","cedula":1023891419,"direccion":"CARRERA 3 No 6-25 SUR TORRE 6 APTO 104","email":"edwin.sarmiento@altipal.com"},"numero":506,"llaveProceso":"11001418903120180138000","tipoProceso":"ACUMULADO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 15426.759,
+    "entregaGarantiasAbogado": "2018-10-25T00:00:00.000Z",
+    "etapaProcesal": "1.100140030042021e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": "5,49157039248288E+016",
+      "1": "N/A"
+    },
+    "radicado": "2021- 00611",
+    "vencimientoPagare": [
+      "2021-04-06T05:00:00.000Z"
+    ],
+    "expediente": "11001418903120180138000"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "EDWIN",
+    "segundoNombre": "CAMILO",
+    "primerApellido": "SARMIENTO",
+    "segundoApellido": "GOMEZ",
+    "cedula": 1023891419,
+    "direccion": "CARRERA 3 No 6-25 SUR TORRE 6 APTO 104",
+    "email": "edwin.sarmiento@altipal.com"
+  },
+  "numero": 506,
+  "llaveProceso": "11001418903120180138000",
+  "tipoProceso": "ACUMULADO"
+}

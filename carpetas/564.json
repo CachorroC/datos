@@ -1,1 +1,31 @@
-{"demanda":{"juzgados":[],"capitalAdeudado":null,"entregaGarantiasAbogado":"2023-07-26T00:00:00.000Z","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":9460085166,"2":"N/A"},"radicado":"2023 - 01280","vencimientoPagare":"2026-03-08T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":""},"category":"Bancolombia","categoryTag":1,"deudor":{"tel":{"celular":3125642401},"primerNombre":"JORGE","segundoNombre":"ALEX","primerApellido":"ABADIA","segundoApellido":"CARRILLO","cedula":79399032,"direccion":"Transversal 77 N 7A -16 Int 9 // Carrera 69 No. 31 - 68","email":"abadiajorgesa@gmail.com"},"numero":564,"llaveProceso":"","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 9460085166, "2": "N/A" },
+    "radicado": "2023 - 01280",
+    "vencimientoPagare": [
+      "2026-03-08T00:00:00.000Z"
+    ],
+    "expediente": ""
+  },
+  "category": "Bancolombia",
+  "categoryTag": 1,
+  "deudor": {
+    "tel": { "celular": 3125642401 },
+    "primerNombre": "JORGE",
+    "segundoNombre": "ALEX",
+    "primerApellido": "ABADIA",
+    "segundoApellido": "CARRILLO",
+    "cedula": 79399032,
+    "direccion": "Transversal 77 N 7A -16 Int 9 // Carrera 69 No. 31 - 68",
+    "email": "abadiajorgesa@gmail.com"
+  },
+  "numero": 564,
+  "llaveProceso": "",
+  "tipoProceso": "SINGULAR"
+}

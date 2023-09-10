@@ -40,12 +40,18 @@ exports.carpetasCollection = carpetasCollection;
 async function insertNewCarpetas(
   carpetas 
 ) {
+  const nCarps = JSON.stringify(
+    carpetas 
+  );
+
   const collection = await ( 0,
   exports.carpetasCollection )();
 
   const insertManyCarpetas
     = await collection.insertMany(
-      carpetas 
+      JSON.parse(
+        nCarps 
+      )
     );
   console.log(
     insertManyCarpetas.insertedCount 

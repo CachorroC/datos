@@ -1,1 +1,41 @@
-{"category":"Reintegra","deudor":{"tel":{"fijo":5642974,"celular":3218180993},"primerNombre":"GUILLERMO","primerApellido":"GONZALEZ","segundoApellido":"TAGUA","cedula":12254068,"direccion":"CARRERA 30 No.68 J-08 SUR","email":"guillermogonzalez_tagua@hotmail.com"},"numero":179,"tipoProceso":"SINGULAR","idProceso":50760030,"llaveProceso":"11001400301120170108400","categoryTag":2,"demanda":{"juzgados":[{"id":2,"tipo":"JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":12687.427,"entregaGarantiasAbogado":"2017-08-01T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-07-21T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":5670085162,"1":"N/A"},"radicado":"2017 - 01084","vencimientoPagare":"2019-11-02T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001400301120170108400"}}
+{
+  "category": "Reintegra",
+  "deudor": {
+    "tel": {
+      "fijo": 5642974,
+      "celular": 3218180993
+    },
+    "primerNombre": "GUILLERMO",
+    "primerApellido": "GONZALEZ",
+    "segundoApellido": "TAGUA",
+    "cedula": 12254068,
+    "direccion": "CARRERA 30 No.68 J-08 SUR",
+    "email": "guillermogonzalez_tagua@hotmail.com"
+  },
+  "numero": 179,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50760030,
+  "llaveProceso": "11001400301120170108400",
+  "categoryTag": 2,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 2,
+        "tipo": "JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 12687.427,
+    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-07-21T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 5670085162, "1": "N/A" },
+    "radicado": "2017 - 01084",
+    "vencimientoPagare": [
+      "2019-11-02T00:00:00.000Z"
+    ],
+    "expediente": "11001400301120170108400"
+  }
+}

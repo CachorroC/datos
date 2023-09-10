@@ -1,1 +1,40 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"MARIO","segundoNombre":"ANDRES","primerApellido":"BOJACA","segundoApellido":"CRUZ","cedula":80792132,"direccion":"marioabc_83@hotmail.com","email":"44955363/31249909451"},"numero":75,"tipoProceso":"HIPOTECARIO","idProceso":50526190,"llaveProceso":"11001400305820170091800","categoryTag":5,"demanda":{"juzgados":[{"id":18,"tipo":"JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":0,"entregaGarantiasAbogado":"2017-12-31T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":44690,"1":"320 096597"},"radicado":"2017 - 00918","vencimientoPagare":null,"departamento":"CUNDINAMARCA","expediente":"11001400305820170091800"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "MARIO",
+    "segundoNombre": "ANDRES",
+    "primerApellido": "BOJACA",
+    "segundoApellido": "CRUZ",
+    "cedula": 80792132,
+    "direccion": "marioabc_83@hotmail.com",
+    "email": "44955363/31249909451"
+  },
+  "numero": 75,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50526190,
+  "llaveProceso": "11001400305820170091800",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 18,
+        "tipo": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 0,
+    "entregaGarantiasAbogado": "2017-12-31T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": 44690,
+      "1": "320 096597"
+    },
+    "radicado": "2017 - 00918",
+    "vencimientoPagare": null,
+    "expediente": "11001400305820170091800"
+  }
+}

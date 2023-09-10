@@ -1,1 +1,37 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"JOSE","segundoNombre":"ALFREDO","primerApellido":"RIAÑO","segundoApellido":"MALDONADO","cedula":19270589,"direccion":"CALLE 52 A BIS  No 35 B 41 SUR ","email":"conjuexeu@hotmail.com"},"numero":97,"tipoProceso":"HIPOTECARIO","idProceso":77695680,"llaveProceso":"11001400308520160031900","categoryTag":5,"demanda":{"juzgados":[{"id":85,"tipo":"JUZGADO 085 CIVIL MUNICIPAL DE BOGOTÁ ","url":"https://www.ramajudicial.gov.cojuzgado-085-civil-municipal-de-bogotá-"}],"capitalAdeudado":79862.886,"entregaGarantiasAbogado":"2017-09-20T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":20990137187,"1":""},"radicado":"2016 - 00319","vencimientoPagare":null,"departamento":null,"expediente":"11001400308520160031900"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JOSE",
+    "segundoNombre": "ALFREDO",
+    "primerApellido": "RIAÑO",
+    "segundoApellido": "MALDONADO",
+    "cedula": 19270589,
+    "direccion": "CALLE 52 A BIS  No 35 B 41 SUR ",
+    "email": "conjuexeu@hotmail.com"
+  },
+  "numero": 97,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 77695680,
+  "llaveProceso": "11001400308520160031900",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": null,
+    "juzgados": [
+      {
+        "id": 85,
+        "tipo": "JUZGADO 085 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-085-civil-municipal-de-bogotá-"
+      }
+    ],
+    "capitalAdeudado": 79862.886,
+    "entregaGarantiasAbogado": "2017-09-20T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 20990137187, "1": "" },
+    "radicado": "2016 - 00319",
+    "vencimientoPagare": null,
+    "expediente": "11001400308520160031900"
+  }
+}

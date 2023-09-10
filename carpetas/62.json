@@ -1,1 +1,35 @@
-{"demanda":{"departamento":{"idCatalogoDetalle":13,"idCatalogoDetallePadre":1,"descripcion":"CUNDINAMARCA","codigo":"25"},"capitalAdeudado":"15445371,43","entregagarantiasAbogado":"2017-06-12T00:00:00.000Z","etapaProcesal":"SENTENCIA","fechaPresentacion":"2017-06-21T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"1":"320 093516","2":""},"radicado":"2017 - 00537","vencimientoPagare":"2022-01-31T00:00:00.000Z","expediente":" 11001400306320180016800","juzgados":[]},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"celular":3138253554},"primerNombre":"LUIS","segundoNombre":"EDUARDO","primerApellido":"CARRANZA","segundoApellido":"BUSTOS","cedula":80722943,"direccion":"DIAGONAL 60 SUR NO. 28-I 72 INTERIOR 3 APTO 204","email":" "},"numero":62,"llaveProceso":" 11001400306320180016800","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": {
+      "idCatalogoDetalle": 13,
+      "idCatalogoDetallePadre": 1,
+      "descripcion": "CUNDINAMARCA",
+      "codigo": "25"
+    },
+    "capitalAdeudado": "15445371,43",
+    "entregagarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-06-21T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "1": "320 093516", "2": "" },
+    "radicado": "2017 - 00537",
+    "vencimientoPagare": "2022-01-31T00:00:00.000Z",
+    "expediente": " 11001400306320180016800",
+    "juzgados": []
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "celular": 3138253554 },
+    "primerNombre": "LUIS",
+    "segundoNombre": "EDUARDO",
+    "primerApellido": "CARRANZA",
+    "segundoApellido": "BUSTOS",
+    "cedula": 80722943,
+    "direccion": "DIAGONAL 60 SUR NO. 28-I 72 INTERIOR 3 APTO 204",
+    "email": " "
+  },
+  "numero": 62,
+  "llaveProceso": " 11001400306320180016800",
+  "tipoProceso": "HIPOTECARIO"
+}

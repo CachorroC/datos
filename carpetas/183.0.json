@@ -1,1 +1,39 @@
-{"category":"Bancolombia","deudor":{"tel":{},"primerNombre":"WILSON","segundoNombre":"ALFONSO","primerApellido":"JIMENEZ","segundoApellido":"MENDIETA ","cedula":11185630,"direccion":"CARRERA 81C # 2B - 80 PISO 2 ","email":"grupocomerciallasabana@hotmail.com"},"numero":183,"tipoProceso":"SINGULAR","idProceso":50621670,"llaveProceso":"11001400300120170100100","categoryTag":1,"demanda":{"juzgados":[{"id":17,"tipo":"JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":25833.335,"entregaGarantiasAbogado":"2017-08-01T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-08-08T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":2150091504,"1":"N/A"},"radicado":"2017 - 01001","vencimientoPagare":"2019-11-03T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001400300120170100100"}}
+{
+  "category": "Bancolombia",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "WILSON",
+    "segundoNombre": "ALFONSO",
+    "primerApellido": "JIMENEZ",
+    "segundoApellido": "MENDIETA ",
+    "cedula": 11185630,
+    "direccion": "CARRERA 81C # 2B - 80 PISO 2 ",
+    "email": "grupocomerciallasabana@hotmail.com"
+  },
+  "numero": 183,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50621670,
+  "llaveProceso": "11001400300120170100100",
+  "categoryTag": 1,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 17,
+        "tipo": "JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 25833.335,
+    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-08-08T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 2150091504, "1": "N/A" },
+    "radicado": "2017 - 01001",
+    "vencimientoPagare": [
+      "2019-11-03T00:00:00.000Z"
+    ],
+    "expediente": "11001400300120170100100"
+  }
+}

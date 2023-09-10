@@ -1,1 +1,30 @@
-{"demanda":{"juzgados":[],"capitalAdeudado":0,"entregaGarantiasAbogado":null,"etapaProcesal":"","fechaPresentacion":null,"municipio":"SOACHA","obligacion":{"0":"","1":""},"radicado":"2019 - 00911","vencimientoPagare":null,"departamento":"CUNDINAMARCA","expediente":"25754418900120190091100"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"MIGUEL","segundoNombre":"ANGEL","primerApellido":"AGUASACO","segundoApellido":"PEÑUELA","cedula":1022336662,"direccion":"","email":""},"numero":550,"llaveProceso":"25754418900120190091100","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 0,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "",
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": { "0": "", "1": "" },
+    "radicado": "2019 - 00911",
+    "vencimientoPagare": null,
+    "expediente": "25754418900120190091100"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "MIGUEL",
+    "segundoNombre": "ANGEL",
+    "primerApellido": "AGUASACO",
+    "segundoApellido": "PEÑUELA",
+    "cedula": 1022336662,
+    "direccion": "",
+    "email": ""
+  },
+  "numero": 550,
+  "llaveProceso": "25754418900120190091100",
+  "tipoProceso": "HIPOTECARIO"
+}

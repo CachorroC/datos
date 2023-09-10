@@ -1,1 +1,39 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"MARIA","segundoNombre":"DEL","primerApellido":"CARMEN","segundoApellido":"CHAPARRO LEMUS","cedula":41672170,"direccion":"CARRERA 50A # 68 - 39 ","email":"carmenzachaparro@outlook.com"},"numero":98,"tipoProceso":"HIPOTECARIO","idProceso":50543070,"llaveProceso":"11001400301120170062300","categoryTag":5,"demanda":{"juzgados":[{"id":11,"tipo":"JUZGADO 011 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-011-civil-municipal-de-bogota"}],"capitalAdeudado":0,"entregaGarantiasAbogado":"2017-06-28T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-06-29T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":190459,"1":""},"radicado":"2017 - 00623","vencimientoPagare":"2030-01-25T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001400301120170062300"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "MARIA",
+    "segundoNombre": "DEL",
+    "primerApellido": "CARMEN",
+    "segundoApellido": "CHAPARRO LEMUS",
+    "cedula": 41672170,
+    "direccion": "CARRERA 50A # 68 - 39 ",
+    "email": "carmenzachaparro@outlook.com"
+  },
+  "numero": 98,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50543070,
+  "llaveProceso": "11001400301120170062300",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 11,
+        "tipo": "JUZGADO 011 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-011-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 0,
+    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-29T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 190459, "1": "" },
+    "radicado": "2017 - 00623",
+    "vencimientoPagare": [
+      "2030-01-25T00:00:00.000Z"
+    ],
+    "expediente": "11001400301120170062300"
+  }
+}

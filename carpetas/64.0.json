@@ -1,1 +1,42 @@
-{"category":"Insolvencia","deudor":{"tel":{"fijo":3157900,"celular":3157900006},"primerNombre":"RAFAEL","segundoNombre":"ERNESTO","primerApellido":"CADENA","segundoApellido":"PARGA","cedula":79891952,"direccion":"CARRERA 13 A No. 150-25 INT 3 APTO 203","email":"rafael.cadena@signsas.com"},"numero":64,"tipoProceso":"PRENDARIO","idProceso":50517510,"llaveProceso":"11001400302920170055700","categoryTag":4,"demanda":{"juzgados":[{"id":29,"tipo":"JUZGADO 029 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-29-civil-municipal-de-bogota"}],"capitalAdeudado":32926.699,"entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","etapaProcesal":"1.100140030292017e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":125348220,"1":"N/A"},"radicado":"2017 - 00557","vencimientoPagare":"2017-10-22T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001400302920170055700"}}
+{
+  "category": "Insolvencia",
+  "deudor": {
+    "tel": {
+      "fijo": 3157900,
+      "celular": 3157900006
+    },
+    "primerNombre": "RAFAEL",
+    "segundoNombre": "ERNESTO",
+    "primerApellido": "CADENA",
+    "segundoApellido": "PARGA",
+    "cedula": 79891952,
+    "direccion": "CARRERA 13 A No. 150-25 INT 3 APTO 203",
+    "email": "rafael.cadena@signsas.com"
+  },
+  "numero": 64,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 50517510,
+  "llaveProceso": "11001400302920170055700",
+  "categoryTag": 4,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 29,
+        "tipo": "JUZGADO 029 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-29-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 32926.699,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "etapaProcesal": "1.100140030292017e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 125348220, "1": "N/A" },
+    "radicado": "2017 - 00557",
+    "vencimientoPagare": [
+      "2017-10-22T00:00:00.000Z"
+    ],
+    "expediente": "11001400302920170055700"
+  }
+}

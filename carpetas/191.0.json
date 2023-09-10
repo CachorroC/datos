@@ -1,1 +1,42 @@
-{"category":"Reintegra","deudor":{"tel":{"fijo":2376454,"celular":3004525014},"primerNombre":"JOHN","segundoNombre":"ALEXANDER","primerApellido":"VALENCIA","segundoApellido":"MARQUEZ","cedula":80231798,"direccion":"CARRERA 32 B # 2 - 64 ","email":"jhon.valencia@jvtel.com.co"},"numero":191,"tipoProceso":"SINGULAR","idProceso":51357750,"llaveProceso":"11001400307920170108200","categoryTag":2,"demanda":{"juzgados":[{"id":1,"tipo":"JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":87649.981,"entregaGarantiasAbogado":"2017-08-11T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-08-23T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":1220084112,"1":"N/A"},"radicado":"2017 - 01082","vencimientoPagare":"2020-11-30T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001400307920170108200"}}
+{
+  "category": "Reintegra",
+  "deudor": {
+    "tel": {
+      "fijo": 2376454,
+      "celular": 3004525014
+    },
+    "primerNombre": "JOHN",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "VALENCIA",
+    "segundoApellido": "MARQUEZ",
+    "cedula": 80231798,
+    "direccion": "CARRERA 32 B # 2 - 64 ",
+    "email": "jhon.valencia@jvtel.com.co"
+  },
+  "numero": 191,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 51357750,
+  "llaveProceso": "11001400307920170108200",
+  "categoryTag": 2,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 87649.981,
+    "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-08-23T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 1220084112, "1": "N/A" },
+    "radicado": "2017 - 01082",
+    "vencimientoPagare": [
+      "2020-11-30T00:00:00.000Z"
+    ],
+    "expediente": "11001400307920170108200"
+  }
+}

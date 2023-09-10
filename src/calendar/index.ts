@@ -1,5 +1,3 @@
-
-
 export const nombreDiasSemana = [
   'Mimingo',
   'Lunes',
@@ -9,7 +7,7 @@ export const nombreDiasSemana = [
   'Viernes'
 ];
 
-export   const nombresDeMeses = [
+export const nombresDeMeses = [
   'Enero',
   'Febrero',
   'Marzo',
@@ -21,10 +19,10 @@ export   const nombresDeMeses = [
   'Septiembre',
   'Octubre',
   'Noviembre',
-  'Diciembre',
+  'Diciembre'
 ];
 
-export function CalendarBuilder () {
+export function CalendarBuilder() {
   const rows = new Set();
 
   const todayNow = new Date();
@@ -33,56 +31,70 @@ export function CalendarBuilder () {
 
   const currentMonth = todayNow.getMonth();
 
-
   const currentYear = todayNow.getFullYear();
 
-
-
   const firstDayofMonth = new Date(
-    currentYear, currentMonth, 1
+    currentYear,
+    currentMonth,
+    1
   )
         .getDay();
 
   const firstDateofMonth = new Date(
-    currentYear, currentMonth, 1
+    currentYear,
+    currentMonth,
+    1
   );
 
-  const firstWeekDayofMonth = firstDateofMonth.getDay();
+  const firstWeekDayofMonth
+    = firstDateofMonth.getDay();
 
   const lastDateofMonth = new Date(
-    currentYear, currentMonth +1, 0
+    currentYear,
+    currentMonth + 1,
+    0
   )
         .getDate();
 
   const lastDayofMonth = new Date(
     currentYear,
     currentMonth,
-    lastDateofMonth,
+    lastDateofMonth
   )
         .getDay();
 
   const lastDateofPastMonth = new Date(
-    currentYear, currentMonth, 0
+    currentYear,
+    currentMonth,
+    0
   )
         .getDate();
 
-  for ( let dayBefore = firstDayofMonth; dayBefore > 0; dayBefore-- ) {
-    const href = `${ currentYear }-${ currentMonth-1 }-${ lastDateofPastMonth - dayBefore +1 }`;
+  for (
+    let dayBefore = firstDayofMonth;
+    dayBefore > 0;
+    dayBefore--
+  ) {
+    const href = `${ currentYear }-${
+      currentMonth - 1
+    }-${ lastDateofPastMonth - dayBefore + 1 }`;
     rows.add(
       {
         href     : href,
         current  : false,
         dayOfWeek: new Date(
-          href
+          href 
         )
               .getDay()
-      }
+      } 
     );
   }
 
-  for ( let dayInMonth = 1; dayInMonth <= lastDateofMonth; dayInMonth++ ) {
-
-
+  for (
+    let dayInMonth = 1;
+    dayInMonth <= lastDateofMonth;
+    dayInMonth++
+  ) {
     const href = `${ currentYear }-${ currentMonth }-${ dayInMonth }`;
 
     rows.add(
@@ -90,16 +102,18 @@ export function CalendarBuilder () {
         href     : href,
         current  : true,
         dayOfWeek: new Date(
-          href
+          href 
         )
               .getDay()
-      }
+      } 
     );
   }
 
-  for ( let dayAfterMonth = lastDayofMonth; dayAfterMonth < 6; dayAfterMonth++ ) {
-
-
+  for (
+    let dayAfterMonth = lastDayofMonth;
+    dayAfterMonth < 6;
+    dayAfterMonth++
+  ) {
     const href = `${ currentYear }-${ currentMonth }-${ dayAfterMonth }`;
 
     rows.add(
@@ -107,19 +121,18 @@ export function CalendarBuilder () {
         href     : href,
         current  : false,
         dayOfWeek: new Date(
-          href
+          href 
         )
               .getDay()
-      }
+      } 
     );
   }
 
   return Array.from(
-    rows
+    rows 
   );
 }
 
-
 console.log(
-  CalendarBuilder()
+  CalendarBuilder() 
 );

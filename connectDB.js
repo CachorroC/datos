@@ -1,7 +1,7 @@
 'use strict';
 Object.defineProperty(
   exports, '__esModule', {
-    value: true 
+    value: true
   } 
 );
 exports.prisma = void 0;
@@ -21,7 +21,7 @@ async function connectDB() {
   try {
     await exports.prisma.$connect();
     console.log(
-      '? Database connected successfully' 
+      '? Database connected successfully'
     );
   } catch ( error ) {
     console.log(

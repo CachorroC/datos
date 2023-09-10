@@ -1,1 +1,38 @@
-{"demanda":{"juzgados":[],"capitalAdeudado":51606.071,"entregaGarantiasAbogado":"2017-11-14T00:00:00.000Z","etapaProcesal":"1.100140030202017e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":2330087192,"1":2330087423},"radicado":"EDIFICIO EJECUCION","vencimientoPagare":"2020-02-02T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"2017 - 01477"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":2724305,"celular":3134664560},"primerNombre":"JOSE","segundoNombre":"ANTONIO","primerApellido":"MONTEALEGRE","segundoApellido":"HERNANDEZ","cedula":79512506,"direccion":"CALLE 24 No 24 - 16  SUR","email":"yulypgarcia.montplas@gmail.com"},"numero":416,"llaveProceso":"2017 - 01477","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 51606.071,
+    "entregaGarantiasAbogado": "2017-11-14T00:00:00.000Z",
+    "etapaProcesal": "1.100140030202017e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": 2330087192,
+      "1": 2330087423
+    },
+    "radicado": "EDIFICIO EJECUCION",
+    "vencimientoPagare": [
+      "2020-02-02T00:00:00.000Z"
+    ],
+    "expediente": "2017 - 01477"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {
+      "fijo": 2724305,
+      "celular": 3134664560
+    },
+    "primerNombre": "JOSE",
+    "segundoNombre": "ANTONIO",
+    "primerApellido": "MONTEALEGRE",
+    "segundoApellido": "HERNANDEZ",
+    "cedula": 79512506,
+    "direccion": "CALLE 24 No 24 - 16  SUR",
+    "email": "yulypgarcia.montplas@gmail.com"
+  },
+  "numero": 416,
+  "llaveProceso": "2017 - 01477",
+  "tipoProceso": "SINGULAR"
+}

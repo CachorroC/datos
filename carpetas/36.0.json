@@ -1,1 +1,39 @@
-{"category":"Terminados","deudor":{"tel":{"celular":3012419992},"primerNombre":"SANDRA","segundoNombre":"PATRICIA","primerApellido":"AGUDELO","segundoApellido":"MONTAGUT","cedula":52314251,"direccion":"CALLE 49 SUR No. 89 B-30 Etapa 1 CAsa1","email":"N/A"},"numero":36,"tipoProceso":"HIPOTECARIO","idProceso":112625340,"llaveProceso":"11001400306620170089200","categoryTag":5,"demanda":{"juzgados":[{"id":66,"tipo":"JUZGADO 066 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-066-civil-municipal-de-bogota"}],"capitalAdeudado":9633.585,"entregaGarantiasAbogado":"2017-06-06T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-06-14T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":65758,"1":""},"radicado":"2017 - 00892","vencimientoPagare":"2017-09-15T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001400306620170089200"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": { "celular": 3012419992 },
+    "primerNombre": "SANDRA",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "AGUDELO",
+    "segundoApellido": "MONTAGUT",
+    "cedula": 52314251,
+    "direccion": "CALLE 49 SUR No. 89 B-30 Etapa 1 CAsa1",
+    "email": "N/A"
+  },
+  "numero": 36,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 112625340,
+  "llaveProceso": "11001400306620170089200",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 66,
+        "tipo": "JUZGADO 066 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-066-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 9633.585,
+    "entregaGarantiasAbogado": "2017-06-06T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-14T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 65758, "1": "" },
+    "radicado": "2017 - 00892",
+    "vencimientoPagare": [
+      "2017-09-15T00:00:00.000Z"
+    ],
+    "expediente": "11001400306620170089200"
+  }
+}

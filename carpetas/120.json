@@ -1,1 +1,30 @@
-{"demanda":{"juzgados":[],"capitalAdeudado":13906.249,"entregaGarantiasAbogado":"2017-08-04T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-08-11T00:00:00.000Z","municipio":"SOACHA","obligacion":{"0":6240082776,"1":"N/A"},"radicado":"2017 - 00755","vencimientoPagare":"2021-04-12T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"25754418900320170075500"},"category":"Bancolombia","categoryTag":1,"deudor":{"tel":{},"primerNombre":"JENCELL","primerApellido":"E.U.","cedula":900212673,"direccion":"CARRERA 3 # 29A - 02 ","email":"N/A"},"numero":120,"llaveProceso":"25754418900320170075500","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 13906.249,
+    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-08-11T00:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": { "0": 6240082776, "1": "N/A" },
+    "radicado": "2017 - 00755",
+    "vencimientoPagare": [
+      "2021-04-12T00:00:00.000Z"
+    ],
+    "expediente": "25754418900320170075500"
+  },
+  "category": "Bancolombia",
+  "categoryTag": 1,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JENCELL",
+    "primerApellido": "E.U.",
+    "cedula": 900212673,
+    "direccion": "CARRERA 3 # 29A - 02 ",
+    "email": "N/A"
+  },
+  "numero": 120,
+  "llaveProceso": "25754418900320170075500",
+  "tipoProceso": "SINGULAR"
+}

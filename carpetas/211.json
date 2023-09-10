@@ -1,1 +1,31 @@
-{"demanda":{"juzgados":[],"capitalAdeudado":36520.799,"entregaGarantiasAbogado":"2017-08-24T00:00:00.000Z","etapaProcesal":"2.528640030012018e+22","fechaPresentacion":null,"municipio":"MOSQUERA","obligacion":{"0":166601,"1":"N/A"},"radicado":"2018 - 00105","vencimientoPagare":"2028-08-02T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"25473400300120180010500"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"SAUL","primerApellido":"BARBOSA","segundoApellido":"RAMIREZ","cedula":17652071,"direccion":"CARRERA 4A # 11 - 44 FUNZA","email":"marimar832010@hotmail.com"},"numero":211,"llaveProceso":"25473400300120180010500","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 36520.799,
+    "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
+    "etapaProcesal": "2.528640030012018e+22",
+    "fechaPresentacion": null,
+    "municipio": "MOSQUERA",
+    "obligacion": { "0": 166601, "1": "N/A" },
+    "radicado": "2018 - 00105",
+    "vencimientoPagare": [
+      "2028-08-02T00:00:00.000Z"
+    ],
+    "expediente": "25473400300120180010500"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "SAUL",
+    "primerApellido": "BARBOSA",
+    "segundoApellido": "RAMIREZ",
+    "cedula": 17652071,
+    "direccion": "CARRERA 4A # 11 - 44 FUNZA",
+    "email": "marimar832010@hotmail.com"
+  },
+  "numero": 211,
+  "llaveProceso": "25473400300120180010500",
+  "tipoProceso": "HIPOTECARIO"
+}

@@ -1,4 +1,5 @@
-import { IntDepartamentos, Despacho } from '../types/rama-judicial';
+import { IntDepartamentos,
+         Despacho } from '../types/rama-judicial';
 
 export async function getDepartamentos() {
   try {
@@ -18,7 +19,7 @@ export async function getDepartamentos() {
     return Respose;
   } catch ( error ) {
     console.log(
-      error
+      error 
     );
 
     return null;
@@ -41,7 +42,7 @@ export async function getDespachos() {
     return Response;
   } catch ( error ) {
     console.log(
-      `error en el despacho: ${ error }`
+      `error en el despacho: ${ error }` 
     );
 
     return [];

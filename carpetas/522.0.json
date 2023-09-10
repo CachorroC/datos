@@ -1,1 +1,39 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"ARMANDO","primerApellido":"RODRIGUEZ","segundoApellido":"RODRIGUEZ","cedula":79359896,"direccion":"CALLE 42 C No 78  A-17 SUR","email":"dorapia@hotmail.com"},"numero":522,"tipoProceso":"HIPOTECARIO","idProceso":39001450,"llaveProceso":"11001400306820190100400","categoryTag":5,"demanda":{"juzgados":[{"id":68,"tipo":"JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota"}],"capitalAdeudado":29723.047,"entregaGarantiasAbogado":"2019-02-12T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":20990146891,"1":450091594},"radicado":"2019 - 01004","vencimientoPagare":null,"departamento":"CUNDINAMARCA","expediente":"11001400306820190100400"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ARMANDO",
+    "primerApellido": "RODRIGUEZ",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": 79359896,
+    "direccion": "CALLE 42 C No 78  A-17 SUR",
+    "email": "dorapia@hotmail.com"
+  },
+  "numero": 522,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 39001450,
+  "llaveProceso": "11001400306820190100400",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 68,
+        "tipo": "JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 29723.047,
+    "entregaGarantiasAbogado": "2019-02-12T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": 20990146891,
+      "1": 450091594
+    },
+    "radicado": "2019 - 01004",
+    "vencimientoPagare": [null],
+    "expediente": "11001400306820190100400"
+  }
+}

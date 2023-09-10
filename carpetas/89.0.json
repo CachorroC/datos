@@ -1,1 +1,39 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"JULIAN","segundoNombre":"ARMANDO","primerApellido":"ACOSTA","segundoApellido":"RODRIGUEZ","cedula":1030551366,"direccion":"CARRERA 78P BIS # 33A - 91 SUR","email":"jvargas88@hotmail.com"},"numero":89,"tipoProceso":"PRENDARIO","idProceso":18162740,"llaveProceso":"11001400306520170093400","categoryTag":5,"demanda":{"juzgados":[{"id":65,"tipo":"JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-65-civil-municipal-de-bogota"}],"capitalAdeudado":8451.598,"entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","etapaProcesal":"ADMISION","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":12431049,"1":""},"radicado":"2017 - 00615","vencimientoPagare":"2017-06-09T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001400306520170093400"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JULIAN",
+    "segundoNombre": "ARMANDO",
+    "primerApellido": "ACOSTA",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": 1030551366,
+    "direccion": "CARRERA 78P BIS # 33A - 91 SUR",
+    "email": "jvargas88@hotmail.com"
+  },
+  "numero": 89,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 18162740,
+  "llaveProceso": "11001400306520170093400",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 65,
+        "tipo": "JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-65-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 8451.598,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 12431049, "1": "" },
+    "radicado": "2017 - 00615",
+    "vencimientoPagare": [
+      "2017-06-09T00:00:00.000Z"
+    ],
+    "expediente": "11001400306520170093400"
+  }
+}

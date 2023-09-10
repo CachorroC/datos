@@ -1,1 +1,39 @@
-{"category":"Terminados","deudor":{"tel":{"celular":3133809713},"primerNombre":"ESTELIO","segundoNombre":"DE JESUS","primerApellido":" ROLDAN","segundoApellido":"POZO","cedula":15319344,"direccion":"CALLE 42 A BIS SUR No. 90A -64","email":"N/A"},"numero":105,"tipoProceso":"SINGULAR","idProceso":50593940,"llaveProceso":"11001400300720170111300","categoryTag":5,"demanda":{"juzgados":[{"id":7,"tipo":"JUZGADO 007 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-007-civil-municipal-de-bogota"}],"capitalAdeudado":13688.162,"entregaGarantiasAbogado":"2017-07-19T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":5850082368,"1":""},"radicado":"2017 - 01113","vencimientoPagare":"2020-04-27T00:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001400300720170111300"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": { "celular": 3133809713 },
+    "primerNombre": "ESTELIO",
+    "segundoNombre": "DE JESUS",
+    "primerApellido": " ROLDAN",
+    "segundoApellido": "POZO",
+    "cedula": 15319344,
+    "direccion": "CALLE 42 A BIS SUR No. 90A -64",
+    "email": "N/A"
+  },
+  "numero": 105,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50593940,
+  "llaveProceso": "11001400300720170111300",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 7,
+        "tipo": "JUZGADO 007 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-007-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 13688.162,
+    "entregaGarantiasAbogado": "2017-07-19T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 5850082368, "1": "" },
+    "radicado": "2017 - 01113",
+    "vencimientoPagare": [
+      "2020-04-27T00:00:00.000Z"
+    ],
+    "expediente": "11001400300720170111300"
+  }
+}

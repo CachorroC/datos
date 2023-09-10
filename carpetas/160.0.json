@@ -1,1 +1,42 @@
-{"category":"Terminados","deudor":{"tel":{"fijo":6047182,"celular":3118411820},"primerNombre":"JAIRO","segundoNombre":"ALBERTO","primerApellido":"CARRILLO","segundoApellido":"SALINAS ","cedula":79387342,"direccion":"CALLE 28A SUR # 28A - 18","email":"jairocarrillosa@hotmail.com"},"numero":160,"tipoProceso":"SINGULAR","idProceso":51542360,"llaveProceso":"11001400307820170076200","categoryTag":5,"demanda":{"juzgados":[{"id":78,"tipo":"JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-78-civil-municipal-de-bogota"}],"capitalAdeudado":12000,"entregaGarantiasAbogado":"2017-08-22T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-08-28T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":103083921,"1":""},"radicado":"2017 - 00762","vencimientoPagare":"+020149-07-12T05:00:00.000Z","departamento":"CUNDINAMARCA","expediente":"11001400307820170076200"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": 6047182,
+      "celular": 3118411820
+    },
+    "primerNombre": "JAIRO",
+    "segundoNombre": "ALBERTO",
+    "primerApellido": "CARRILLO",
+    "segundoApellido": "SALINAS ",
+    "cedula": 79387342,
+    "direccion": "CALLE 28A SUR # 28A - 18",
+    "email": "jairocarrillosa@hotmail.com"
+  },
+  "numero": 160,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 51542360,
+  "llaveProceso": "11001400307820170076200",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 78,
+        "tipo": "JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-78-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 12000,
+    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 103083921, "1": "" },
+    "radicado": "2017 - 00762",
+    "vencimientoPagare": [
+      "2014-07-12T05:00:00.000Z"
+    ],
+    "expediente": "11001400307820170076200"
+  }
+}
