@@ -1,3 +1,4 @@
+
 import connecDB, { prisma } from './connectDB';
 
 // ConnectDB
@@ -11,12 +12,12 @@ async function main() {
         name : 'John Doe',
         email: 'johndoe@gmail.com'
       }
-    } 
+    }
   );
   console.log(
     JSON.stringify(
-      user, undefined, 2 
-    ) 
+      user, undefined, 2
+    )
   );
 }
 
@@ -24,18 +25,18 @@ main()
       .then(
         async () => {
           await prisma.$disconnect();
-        } 
+        }
       )
       .catch(
         async (
-          e 
+          e
         ) => {
           console.error(
-            e 
+            e
           );
           await prisma.$disconnect();
           process.exit(
-            1 
+            1
           );
-        } 
+        }
       );
