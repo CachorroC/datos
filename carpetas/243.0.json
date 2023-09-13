@@ -1,1 +1,42 @@
-{"category":"Reintegra","deudor":{"tel":{"fijo":1111111,"celular":3222223988},"primerNombre":"MARIA","segundoNombre":"OLGA","primerApellido":"CASTAÑEDA","segundoApellido":"PERUGACHI ","cedula":300388244,"direccion":"CALLE 15 # 15 - 45 ","email":"N/A"},"numero":243,"tipoProceso":"PRENDARIO","idProceso":50675410,"llaveProceso":"11001400306920170084500","categoryTag":2,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":17,"tipo":"JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":46109.381,"entregaGarantiasAbogado":"2017-08-25T00:00:00.000Z","etapaProcesal":"EN EJECUCIÓN LIQUIDACIÓN CREDITO SOLICITADA A COVINOC","fechaPresentacion":"2017-08-31T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":12577419,"1":"N/A"},"radicado":"2017 - 00845","vencimientoPagare":["2020-08-11T00:00:00.000Z"],"expediente":"11001400306920170084500"}}
+{
+  "category": "Reintegra",
+  "deudor": {
+    "tel": {
+      "fijo": 1111111,
+      "celular": 3222223988
+    },
+    "primerNombre": "MARIA",
+    "segundoNombre": "OLGA",
+    "primerApellido": "CASTAÑEDA",
+    "segundoApellido": "PERUGACHI ",
+    "cedula": 300388244,
+    "direccion": "CALLE 15 # 15 - 45 ",
+    "email": "N/A"
+  },
+  "numero": 243,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 50675410,
+  "llaveProceso": "11001400306920170084500",
+  "categoryTag": 2,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 17,
+        "tipo": "JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 46109.381,
+    "entregaGarantiasAbogado": "2017-08-25T00:00:00.000Z",
+    "etapaProcesal": "EN EJECUCIÓN LIQUIDACIÓN CREDITO SOLICITADA A COVINOC",
+    "fechaPresentacion": "2017-08-31T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 12577419, "1": "N/A" },
+    "radicado": "2017 - 00845",
+    "vencimientoPagare": [
+      "2020-08-11T00:00:00.000Z"
+    ],
+    "expediente": "11001400306920170084500"
+  }
+}

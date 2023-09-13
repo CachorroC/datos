@@ -1,1 +1,42 @@
-{"category":"Reintegra","deudor":{"tel":{},"primerNombre":"JOSE","segundoNombre":"AHINSONJOBER","primerApellido":"TORO","segundoApellido":"VARGAS","cedula":12229243,"direccion":"AVENIDA 1 DE MAYO No 29-06 ","email":"serdiajo@gmail.com"},"numero":289,"tipoProceso":"SINGULAR","idProceso":50711570,"llaveProceso":"11001400301820170152200","categoryTag":2,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":16,"tipo":"JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-16-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":14645.611,"entregaGarantiasAbogado":"2017-09-11T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-09-14T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":5306940432740470,"1":"N/A"},"radicado":"2017 - 01522","vencimientoPagare":["2020-03-22T00:00:00.000Z"],"expediente":"11001400301820170152200"}}
+{
+  "category": "Reintegra",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JOSE",
+    "segundoNombre": "AHINSONJOBER",
+    "primerApellido": "TORO",
+    "segundoApellido": "VARGAS",
+    "cedula": 12229243,
+    "direccion": "AVENIDA 1 DE MAYO No 29-06 ",
+    "email": "serdiajo@gmail.com"
+  },
+  "numero": 289,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50711570,
+  "llaveProceso": "11001400301820170152200",
+  "categoryTag": 2,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 16,
+        "tipo": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-16-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 14645.611,
+    "entregaGarantiasAbogado": "2017-09-11T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-09-14T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": 5306940432740470,
+      "1": "N/A"
+    },
+    "radicado": "2017 - 01522",
+    "vencimientoPagare": [
+      "2020-03-22T00:00:00.000Z"
+    ],
+    "expediente": "11001400301820170152200"
+  }
+}

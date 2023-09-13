@@ -1,1 +1,38 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":71966.685,"entregaGarantiasAbogado":"2017-08-22T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":null,"municipio":"TOCANCIPA","obligacion":{"0":175217,"1":5303718084430842},"radicado":"2017 - 00494","vencimientoPagare":["2034-09-06T05:00:00.000Z"],"expediente":"25817418900120170049400"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":3213559,"celular":3142125039},"primerNombre":"WILDER","segundoNombre":"DE","primerApellido":"JESUS","segundoApellido":"ROMAN GRISALES","cedula":4547635,"direccion":"CALLE 10 # 8 - 07 TOCANCIPA","email":"wilderj11@yahoo.com"},"numero":189,"llaveProceso":"25817418900120170049400","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 71966.685,
+    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "TOCANCIPA",
+    "obligacion": {
+      "0": 175217,
+      "1": 5303718084430842
+    },
+    "radicado": "2017 - 00494",
+    "vencimientoPagare": [
+      "2034-09-06T05:00:00.000Z"
+    ],
+    "expediente": "25817418900120170049400"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {
+      "fijo": 3213559,
+      "celular": 3142125039
+    },
+    "primerNombre": "WILDER",
+    "segundoNombre": "DE",
+    "primerApellido": "JESUS",
+    "segundoApellido": "ROMAN GRISALES",
+    "cedula": 4547635,
+    "direccion": "CALLE 10 # 8 - 07 TOCANCIPA",
+    "email": "wilderj11@yahoo.com"
+  },
+  "numero": 189,
+  "llaveProceso": "25817418900120170049400",
+  "tipoProceso": "HIPOTECARIO"
+}

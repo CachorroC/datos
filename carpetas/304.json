@@ -1,1 +1,31 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":61821.425,"entregaGarantiasAbogado":"2017-10-18T00:00:00.000Z","etapaProcesal":"1.100140030732017e+22","fechaPresentacion":"0269-01-01T04:56:16.000Z","municipio":"BOGOTA","obligacion":{"0":134175,"1":""},"radicado":"BOGOTA","vencimientoPagare":["2025-11-26T00:00:00.000Z"],"expediente":"2017 - 01411"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"celular":3212414138},"primerNombre":"FERNANDO","primerApellido":"GONZALEZ","segundoApellido":"TELLEZ","cedula":79892240,"direccion":"CALLE 76 A SUR No 1 B - 40 ESTE","email":"ferchog01@yahoo.es"},"numero":304,"llaveProceso":"2017 - 01411","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 61821.425,
+    "entregaGarantiasAbogado": "2017-10-18T00:00:00.000Z",
+    "etapaProcesal": "1.100140030732017e+22",
+    "fechaPresentacion": "0269-01-01T04:56:16.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 134175, "1": "" },
+    "radicado": "BOGOTA",
+    "vencimientoPagare": [
+      "2025-11-26T00:00:00.000Z"
+    ],
+    "expediente": "2017 - 01411"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": { "celular": 3212414138 },
+    "primerNombre": "FERNANDO",
+    "primerApellido": "GONZALEZ",
+    "segundoApellido": "TELLEZ",
+    "cedula": 79892240,
+    "direccion": "CALLE 76 A SUR No 1 B - 40 ESTE",
+    "email": "ferchog01@yahoo.es"
+  },
+  "numero": 304,
+  "llaveProceso": "2017 - 01411",
+  "tipoProceso": "SINGULAR"
+}

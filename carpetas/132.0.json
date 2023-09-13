@@ -1,1 +1,43 @@
-{"category":"Terminados","deudor":{"tel":{"fijo":8023973,"celular":3214033971},"primerNombre":"JOVANI","segundoNombre":"EMILIO","primerApellido":"RESTREPO","segundoApellido":"RAMIREZ","cedula":80049317,"direccion":"CARRERA 145 # 144C - 72 TORRE 9 APTO 9","email":"jovanirestrepo@hotmail.com"},"numero":132,"tipoProceso":"HIPOTECARIO","idProceso":19209750,"llaveProceso":"11001400306820170105100","categoryTag":5,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":68,"tipo":"JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota"}],"capitalAdeudado":57161.766,"entregaGarantiasAbogado":"2017-08-11T00:00:00.000Z","etapaProcesal":"SENTENCIA","fechaPresentacion":"2017-08-23T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":"1770990 // 4513076455160970","1":5303711546384996},"radicado":"2017 - 01051","vencimientoPagare":null,"expediente":"11001400306820170105100"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": 8023973,
+      "celular": 3214033971
+    },
+    "primerNombre": "JOVANI",
+    "segundoNombre": "EMILIO",
+    "primerApellido": "RESTREPO",
+    "segundoApellido": "RAMIREZ",
+    "cedula": 80049317,
+    "direccion": "CARRERA 145 # 144C - 72 TORRE 9 APTO 9",
+    "email": "jovanirestrepo@hotmail.com"
+  },
+  "numero": 132,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 19209750,
+  "llaveProceso": "11001400306820170105100",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 68,
+        "tipo": "JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 57161.766,
+    "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-08-23T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": "1770990 // 4513076455160970",
+      "1": 5303711546384996
+    },
+    "radicado": "2017 - 01051",
+    "vencimientoPagare": null,
+    "expediente": "11001400306820170105100"
+  }
+}

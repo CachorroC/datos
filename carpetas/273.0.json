@@ -1,1 +1,39 @@
-{"category":"Insolvencia","deudor":{"tel":{},"primerNombre":"SONIA","segundoNombre":"MARCELA","primerApellido":"MOLINA","segundoApellido":"QUIMBAYO","cedula":1024479389,"direccion":"CALLE 67 No 17 C-63 SUR","email":"sonymarce20@hotmail.com"},"numero":273,"tipoProceso":"HIPOTECARIO","idProceso":113353750,"llaveProceso":"11001400306420180102900","categoryTag":4,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":64,"tipo":"JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-064-civil-municipal-de-bogota"}],"capitalAdeudado":65355.736,"entregaGarantiasAbogado":"2017-09-25T00:00:00.000Z","etapaProcesal":"1.100140030642018e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":156791,"1":"N/A"},"radicado":"2018 - 01029","vencimientoPagare":["2022-05-10T05:00:00.000Z"],"expediente":"11001400306420180102900"}}
+{
+  "category": "Insolvencia",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "SONIA",
+    "segundoNombre": "MARCELA",
+    "primerApellido": "MOLINA",
+    "segundoApellido": "QUIMBAYO",
+    "cedula": 1024479389,
+    "direccion": "CALLE 67 No 17 C-63 SUR",
+    "email": "sonymarce20@hotmail.com"
+  },
+  "numero": 273,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 113353750,
+  "llaveProceso": "11001400306420180102900",
+  "categoryTag": 4,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 64,
+        "tipo": "JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-064-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 65355.736,
+    "entregaGarantiasAbogado": "2017-09-25T00:00:00.000Z",
+    "etapaProcesal": "1.100140030642018e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 156791, "1": "N/A" },
+    "radicado": "2018 - 01029",
+    "vencimientoPagare": [
+      "2022-05-10T05:00:00.000Z"
+    ],
+    "expediente": "11001400306420180102900"
+  }
+}

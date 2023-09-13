@@ -1,1 +1,45 @@
-{"category":"Terminados","deudor":{"tel":{"fijo":7900454,"celular":3138551970},"primerNombre":"GLADYS","segundoNombre":"HERNANDEZ","primerApellido":"LOPEZ","segundoApellido":"","cedula":52039387,"direccion":"DIAGONAL 62 C No. 19-C-12 ACACIA SAN","email":"gladys12357@hotmail.com"},"numero":56,"tipoProceso":"HIPOTECARIO","idProceso":29071084,"llaveProceso":"11001400302720140070300","categoryTag":5,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":3,"tipo":"JUZGADO 003 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-03-de-ejecucion-civil-del-circuito-de-bogota"}],"capitalAdeudado":116728.485,"entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","etapaProcesal":"1.100140030272014e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":"2273 320157242","1":"N/A"},"radicado":"2014 - 00703","vencimientoPagare":["2022-10-19T00:00:00.000Z"],"expediente":"11001400302720140070300"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": 7900454,
+      "celular": 3138551970
+    },
+    "primerNombre": "GLADYS",
+    "segundoNombre": "HERNANDEZ",
+    "primerApellido": "LOPEZ",
+    "segundoApellido": "",
+    "cedula": 52039387,
+    "direccion": "DIAGONAL 62 C No. 19-C-12 ACACIA SAN",
+    "email": "gladys12357@hotmail.com"
+  },
+  "numero": 56,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 29071084,
+  "llaveProceso": "11001400302720140070300",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 3,
+        "tipo": "JUZGADO 003 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-03-de-ejecucion-civil-del-circuito-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 116728.485,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "etapaProcesal": "1.100140030272014e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": "2273 320157242",
+      "1": "N/A"
+    },
+    "radicado": "2014 - 00703",
+    "vencimientoPagare": [
+      "2022-10-19T00:00:00.000Z"
+    ],
+    "expediente": "11001400302720140070300"
+  }
+}

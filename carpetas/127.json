@@ -1,1 +1,36 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":51302.541,"entregaGarantiasAbogado":"2017-08-01T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-10-27T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":6670083892,"1":12074022},"radicado":"2017 - 00735","vencimientoPagare":[null,null],"expediente":"11001400308020170073500"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":3614483,"celular":3124498840},"primerNombre":"ZOILA","segundoNombre":"IRENE","primerApellido":"SUAVITA","segundoApellido":"DE TRILLERAS","cedula":41610065,"direccion":"CARRERA 23 # 20 - 40 SUR","email":"albertotrilleras@hotmail.com"},"numero":127,"llaveProceso":"11001400308020170073500","tipoProceso":"PRENDARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 51302.541,
+    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-10-27T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": 6670083892,
+      "1": 12074022
+    },
+    "radicado": "2017 - 00735",
+    "vencimientoPagare": [null, null],
+    "expediente": "11001400308020170073500"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {
+      "fijo": 3614483,
+      "celular": 3124498840
+    },
+    "primerNombre": "ZOILA",
+    "segundoNombre": "IRENE",
+    "primerApellido": "SUAVITA",
+    "segundoApellido": "DE TRILLERAS",
+    "cedula": 41610065,
+    "direccion": "CARRERA 23 # 20 - 40 SUR",
+    "email": "albertotrilleras@hotmail.com"
+  },
+  "numero": 127,
+  "llaveProceso": "11001400308020170073500",
+  "tipoProceso": "PRENDARIO"
+}

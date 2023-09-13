@@ -100,12 +100,8 @@ export class carpetaConvert {
     json: string
   ): IntCarpeta {
     return cast(
-      JSON.parse(
-        json 
-      ),
-      r(
-        'IntCarpeta' 
-      )
+      JSON.parse(json),
+      r('IntCarpeta')
     );
   }
 
@@ -113,37 +109,21 @@ export class carpetaConvert {
     value: IntCarpeta
   ): string {
     return JSON.stringify(
-      uncast(
-        value, r(
-          'IntCarpeta' 
-        ) 
-      ),
+      uncast(value, r('IntCarpeta')),
       null,
       2
     );
   }
 
-  public static toDemanda(
-    json: string 
-  ): Demanda {
-    return cast(
-      JSON.parse(
-        json 
-      ), r(
-        'Demanda' 
-      ) 
-    );
+  public static toDemanda(json: string): Demanda {
+    return cast(JSON.parse(json), r('Demanda'));
   }
 
   public static demandaToJson(
     value: Demanda
   ): string {
     return JSON.stringify(
-      uncast(
-        value, r(
-          'Demanda' 
-        ) 
-      ),
+      uncast(value, r('Demanda')),
       null,
       2
     );
@@ -153,12 +133,8 @@ export class carpetaConvert {
     json: string
   ): Departamento {
     return cast(
-      JSON.parse(
-        json 
-      ),
-      r(
-        'Departamento' 
-      )
+      JSON.parse(json),
+      r('Departamento')
     );
   }
 
@@ -166,89 +142,47 @@ export class carpetaConvert {
     value: Departamento
   ): string {
     return JSON.stringify(
-      uncast(
-        value, r(
-          'Departamento' 
-        ) 
-      ),
+      uncast(value, r('Departamento')),
       null,
       2
     );
   }
 
-  public static toJuzgado(
-    json: string 
-  ): Juzgado {
-    return cast(
-      JSON.parse(
-        json 
-      ), r(
-        'Juzgado' 
-      ) 
-    );
+  public static toJuzgado(json: string): Juzgado {
+    return cast(JSON.parse(json), r('Juzgado'));
   }
 
   public static juzgadoToJson(
     value: Juzgado
   ): string {
     return JSON.stringify(
-      uncast(
-        value, r(
-          'Juzgado' 
-        ) 
-      ),
+      uncast(value, r('Juzgado')),
       null,
       2
     );
   }
 
-  public static toDeudor(
-    json: string 
-  ): Deudor {
-    return cast(
-      JSON.parse(
-        json 
-      ), r(
-        'Deudor' 
-      ) 
-    );
+  public static toDeudor(json: string): Deudor {
+    return cast(JSON.parse(json), r('Deudor'));
   }
 
   public static deudorToJson(
     value: Deudor
   ): string {
     return JSON.stringify(
-      uncast(
-        value, r(
-          'Deudor' 
-        ) 
-      ),
+      uncast(value, r('Deudor')),
       null,
       2
     );
   }
 
-  public static toTel(
-    json: string 
-  ): Tel {
-    return cast(
-      JSON.parse(
-        json 
-      ), r(
-        'Tel' 
-      ) 
-    );
+  public static toTel(json: string): Tel {
+    return cast(JSON.parse(json), r('Tel'));
   }
 
-  public static telToJson(
-    value: Tel 
-  ): string {
+  public static telToJson(value: Tel): string {
     return JSON.stringify(
-      uncast(
-        value, r(
-          'Tel' 
-        ) 
-      ),
+      uncast(value, r('Tel')),
       null,
       2
     );
@@ -261,104 +195,74 @@ function invalidValue(
   key: any,
   parent: any = ''
 ): never {
-  const prettyTyp = prettyTypeName(
-    typ 
-  );
+  const prettyTyp = prettyTypeName(typ);
 
   const parentText = parent
-    ? ` on ${ parent }`
+    ? ` on ${parent}`
     : '';
 
-  const keyText = key
-    ? ` for key "${ key }"`
-    : '';
+  const keyText = key ? ` for key "${key}"` : '';
 
   throw Error(
-    `Invalid value${ keyText }${ parentText }. Expected ${ prettyTyp } but got ${ JSON.stringify(
+    `Invalid value${keyText}${parentText}. Expected ${prettyTyp} but got ${JSON.stringify(
       val
-    ) }`
+    )}`
   );
 }
 
-function prettyTypeName(
-  typ: any 
-): string {
-  if ( Array.isArray(
-    typ 
-  ) ) {
+function prettyTypeName(typ: any): string {
+  if (Array.isArray(typ)) {
     if (
-      typ.length === 2
-      && typ[ 0 ] === undefined
+      typ.length === 2 &&
+      typ[0] === undefined
     ) {
-      return `an optional ${ prettyTypeName(
-        typ[ 1 ]
-      ) }`;
+      return `an optional ${prettyTypeName(
+        typ[1]
+      )}`;
     }
 
-    return `one of [${ typ
-          .map(
-            (
-              a 
-            ) => {
-              return prettyTypeName(
-                a 
-              );
-            } 
-          )
-          .join(
-            ', ' 
-          ) }]`;
+    return `one of [${typ
+      .map((a) => {
+        return prettyTypeName(a);
+      })
+      .join(', ')}]`;
   } else if (
-    typeof typ === 'object'
-    && typ.literal !== undefined
+    typeof typ === 'object' &&
+    typ.literal !== undefined
   ) {
     return typ.literal;
   }
 
   const typeOfTyp = typeof typ;
-  console.log(
-    typeOfTyp 
-  );
+  console.log(typeOfTyp);
 
   return typeOfTyp;
 }
 
-function jsonToJSProps(
-  typ: any 
-): any {
-  if ( typ.jsonToJS === undefined ) {
+function jsonToJSProps(typ: any): any {
+  if (typ.jsonToJS === undefined) {
     const map: any = {};
-    typ.props.forEach(
-      (
-        p: any 
-      ) => {
-        return ( map[ p.json ] = {
-          key: p.js,
-          typ: p.typ
-        } );
-      } 
-    );
+    typ.props.forEach((p: any) => {
+      return (map[p.json] = {
+        key: p.js,
+        typ: p.typ
+      });
+    });
     typ.jsonToJS = map;
   }
 
   return typ.jsonToJS;
 }
 
-function jsToJSONProps(
-  typ: any 
-): any {
-  if ( typ.jsToJSON === undefined ) {
+function jsToJSONProps(typ: any): any {
+  if (typ.jsToJSON === undefined) {
     const map: any = {};
-    typ.props.forEach(
-      (
-        p: any 
-      ) => {
-        return ( map[ p.js ] = {
-          key: p.json,
-          typ: p.typ
-        } );
-      } 
-    );
+    typ.props.forEach((p: any) => {
+      return (map[p.js] = {
+        key: p.json,
+        typ: p.typ
+      });
+    });
     typ.jsToJSON = map;
   }
 
@@ -376,13 +280,11 @@ function transform(
     typ: string,
     val: any
   ): any {
-    if ( typeof typ === typeof val ) {
+    if (typeof typ === typeof val) {
       return val;
     }
 
-    return invalidValue(
-      typ, val, key, parent 
-    );
+    return invalidValue(typ, val, key, parent);
   }
 
   function transformUnion(
@@ -392,43 +294,31 @@ function transform(
     // val must validate against one typ in typs
     const l = typs.length;
 
-    for ( let i = 0; i < l; i++ ) {
-      const typ = typs[ i ];
+    for (let i = 0; i < l; i++) {
+      const typ = typs[i];
 
       try {
-        return transform(
-          val, typ, getProps 
-        );
-      } catch ( _ ) {
+        return transform(val, typ, getProps);
+      } catch (_) {
         /* empty */
       }
     }
 
-    return invalidValue(
-      typs, val, key, parent 
-    );
+    return invalidValue(typs, val, key, parent);
   }
 
   function transformEnum(
     cases: string[],
     val: any
   ): any {
-    if ( cases.indexOf(
-      val 
-    ) !== -1 ) {
+    if (cases.indexOf(val) !== -1) {
       return val;
     }
 
     return invalidValue(
-      cases.map(
-        (
-          a 
-        ) => {
-          return l(
-            a 
-          );
-        } 
-      ),
+      cases.map((a) => {
+        return l(a);
+      }),
       val,
       key,
       parent
@@ -440,48 +330,30 @@ function transform(
     val: any
   ): any {
     // val must be an array with no invalid elements
-    if ( !Array.isArray(
-      val 
-    ) ) {
+    if (!Array.isArray(val)) {
       return invalidValue(
-        l(
-          'array' 
-        ),
+        l('array'),
         val,
         key,
         parent
       );
     }
 
-    return val.map(
-      (
-        el 
-      ) => {
-        return transform(
-          el, typ, getProps 
-        );
-      } 
-    );
+    return val.map((el) => {
+      return transform(el, typ, getProps);
+    });
   }
 
-  function transformDate(
-    val: any 
-  ): any {
-    if ( val === null ) {
+  function transformDate(val: any): any {
+    if (val === null) {
       return null;
     }
 
-    const d = new Date(
-      val 
-    );
+    const d = new Date(val);
 
-    if ( isNaN(
-      d.valueOf() 
-    ) ) {
+    if (isNaN(d.valueOf())) {
       return invalidValue(
-        l(
-          'Date' 
-        ),
+        l('Date'),
         val,
         key,
         parent
@@ -497,16 +369,12 @@ function transform(
     val: any
   ): any {
     if (
-      val === null
-      || typeof val !== 'object'
-      || Array.isArray(
-        val 
-      )
+      val === null ||
+      typeof val !== 'object' ||
+      Array.isArray(val)
     ) {
       return invalidValue(
-        l(
-          ref || 'object' 
-        ),
+        l(ref || 'object'),
         val,
         key,
         parent
@@ -514,193 +382,143 @@ function transform(
     }
 
     const result: any = {};
-    Object.getOwnPropertyNames(
-      props 
-    )
-          .forEach(
-            (
-              key 
-            ) => {
-              const prop = props[ key ];
+    Object.getOwnPropertyNames(props).forEach(
+      (key) => {
+        const prop = props[key];
 
-              const v
-          = Object.prototype.hasOwnProperty.call(
+        const v =
+          Object.prototype.hasOwnProperty.call(
             val,
             key
           )
-            ? val[ key ]
+            ? val[key]
             : undefined;
-              result[ prop.key ] = transform(
-                v,
-                prop.typ,
-                getProps,
-                key,
-                ref
-              );
-            }
-          );
-    Object.getOwnPropertyNames(
-      val 
-    )
-          .forEach(
-            (
-              key 
-            ) => {
-              if (
-                !Object.prototype.hasOwnProperty.call(
-                  props,
-                  key
-                )
-              ) {
-                result[ key ] = val[ key ];
-              }
-            }
-          );
+        result[prop.key] = transform(
+          v,
+          prop.typ,
+          getProps,
+          key,
+          ref
+        );
+      }
+    );
+    Object.getOwnPropertyNames(val).forEach(
+      (key) => {
+        if (
+          !Object.prototype.hasOwnProperty.call(
+            props,
+            key
+          )
+        ) {
+          result[key] = val[key];
+        }
+      }
+    );
 
     return result;
   }
 
-  if ( typ === 'any' ) {
+  if (typ === 'any') {
     return val;
   }
 
-  if ( typ === null ) {
-    if ( val === null ) {
+  if (typ === null) {
+    if (val === null) {
       return val;
     }
 
-    return invalidValue(
-      typ, val, key, parent 
-    );
+    return invalidValue(typ, val, key, parent);
   }
 
-  if ( typ === false ) {
-    return invalidValue(
-      typ, val, key, parent 
-    );
+  if (typ === false) {
+    return invalidValue(typ, val, key, parent);
   }
   let ref: any = undefined;
 
   while (
-    typeof typ === 'object'
-    && typ.ref !== undefined
+    typeof typ === 'object' &&
+    typ.ref !== undefined
   ) {
     ref = typ.ref;
-    typ = typeMap[ typ.ref ];
+    typ = typeMap[typ.ref];
   }
 
-  if ( Array.isArray(
-    typ 
-  ) ) {
-    return transformEnum(
-      typ, val 
-    );
+  if (Array.isArray(typ)) {
+    return transformEnum(typ, val);
   }
 
-  if ( typeof typ === 'object' ) {
+  if (typeof typ === 'object') {
     return Object.prototype.hasOwnProperty.call(
       typ,
       'unionMembers'
     )
-      ? transformUnion(
-        typ.unionMembers, val 
-      )
+      ? transformUnion(typ.unionMembers, val)
       : Object.prototype.hasOwnProperty.call(
-        typ,
-        'arrayItems'
-      )
-        ? transformArray(
-          typ.arrayItems, val 
+          typ,
+          'arrayItems'
         )
-        : Object.prototype.hasOwnProperty.call(
+      ? transformArray(typ.arrayItems, val)
+      : Object.prototype.hasOwnProperty.call(
           typ,
           'props'
         )
-          ? transformObject(
-            getProps(
-              typ 
-            ),
-            typ.additional,
-            val
-          )
-          : invalidValue(
-            typ, val, key, parent 
-          );
+      ? transformObject(
+          getProps(typ),
+          typ.additional,
+          val
+        )
+      : invalidValue(typ, val, key, parent);
   }
 
   // Numbers can be parsed by Date but shouldn't be.
-  if ( typ === Date && typeof val !== 'number' ) {
-    return transformDate(
-      val 
-    );
+  if (typ === Date && typeof val !== 'number') {
+    return transformDate(val);
   }
 
-  return transformPrimitive(
-    typ, val 
-  );
+  return transformPrimitive(typ, val);
 }
 
-function cast<T>(
-  val: any, typ: any 
-): T {
-  return transform(
-    val, typ, jsonToJSProps 
-  );
+function cast<T>(val: any, typ: any): T {
+  return transform(val, typ, jsonToJSProps);
 }
 
-function uncast<T>(
-  val: T, typ: any 
-): any {
-  return transform(
-    val, typ, jsToJSONProps 
-  );
+function uncast<T>(val: T, typ: any): any {
+  return transform(val, typ, jsToJSONProps);
 }
 
-function l(
-  typ: any 
-) {
+function l(typ: any) {
   return {
     literal: typ
   };
 }
 
-function a(
-  typ: any 
-) {
+function a(typ: any) {
   return {
     arrayItems: typ
   };
 }
 
-function u(
-  ...typs: any[] 
-) {
+function u(...typs: any[]) {
   return {
     unionMembers: typs
   };
 }
 
-function o(
-  props: any[], additional: any 
-) {
+function o(props: any[], additional: any) {
   return {
     props,
     additional
   };
 }
 
-function m(
-  additional: any 
-) {
+function m(additional: any) {
   return {
     props: [],
     additional
   };
 }
 
-function r(
-  name: string 
-) {
+function r(name: string) {
   return {
     ref: name
   };
@@ -711,58 +529,48 @@ const typeMap: any = {
     [
       {
         json: '_id',
-        js  : '_id',
-        typ : ''
+        js: '_id',
+        typ: ''
       },
       {
         json: 'demanda',
-        js  : 'demanda',
-        typ : r(
-          'Demanda' 
-        )
+        js: 'demanda',
+        typ: r('Demanda')
       },
       {
         json: 'category',
-        js  : 'category',
-        typ : r(
-          'Category' 
-        )
+        js: 'category',
+        typ: r('Category')
       },
       {
         json: 'deudor',
-        js  : 'deudor',
-        typ : r(
-          'Deudor' 
-        )
+        js: 'deudor',
+        typ: r('Deudor')
       },
       {
         json: 'numero',
-        js  : 'numero',
-        typ : 0
+        js: 'numero',
+        typ: 0
       },
       {
         json: 'llaveProceso',
-        js  : 'llaveProceso',
-        typ : ''
+        js: 'llaveProceso',
+        typ: ''
       },
       {
         json: 'tipoProceso',
-        js  : 'tipoProceso',
-        typ : r(
-          'TipoProceso' 
-        )
+        js: 'tipoProceso',
+        typ: r('TipoProceso')
       },
       {
         json: 'idProceso',
-        js  : 'idProceso',
-        typ : 0
+        js: 'idProceso',
+        typ: 0
       },
       {
         json: 'fecha',
-        js  : 'fecha',
-        typ : u(
-          undefined, Date 
-        )
+        js: 'fecha',
+        typ: u(undefined, Date)
       }
     ],
     false
@@ -771,74 +579,58 @@ const typeMap: any = {
     [
       {
         json: 'departamento',
-        js  : 'departamento',
-        typ : u(
-          r(
-            'Departamento' 
-          ), null 
-        )
+        js: 'departamento',
+        typ: u(r('Departamento'), null)
       },
       {
         json: 'capitalAdeudado',
-        js  : 'capitalAdeudado',
-        typ : u(
-          3.14, null 
-        )
+        js: 'capitalAdeudado',
+        typ: u(3.14, null)
       },
       {
         json: 'entregagarantiasAbogado',
-        js  : 'entregagarantiasAbogado',
-        typ : Date
+        js: 'entregagarantiasAbogado',
+        typ: Date
       },
       {
         json: 'etapaProcesal',
-        js  : 'etapaProcesal',
-        typ : u(
-          null, '' 
-        )
+        js: 'etapaProcesal',
+        typ: u(null, '')
       },
       {
         json: 'fechaPresentacion',
-        js  : 'fechaPresentacion',
-        typ : ''
+        js: 'fechaPresentacion',
+        typ: ''
       },
       {
         json: 'municipio',
-        js  : 'municipio',
-        typ : ''
+        js: 'municipio',
+        typ: ''
       },
       {
         json: 'obligacion',
-        js  : 'obligacion',
-        typ : m(
-          u(
-            3.14, '' 
-          ) 
-        )
+        js: 'obligacion',
+        typ: m(u(3.14, ''))
       },
       {
         json: 'radicado',
-        js  : 'radicado',
-        typ : ''
+        js: 'radicado',
+        typ: ''
       },
       {
         json: 'vencimientoPagare',
-        js  : 'vencimientoPagare',
-        typ : ''
+        js: 'vencimientoPagare',
+        typ: ''
       },
       {
         json: 'expediente',
-        js  : 'expediente',
-        typ : ''
+        js: 'expediente',
+        typ: ''
       },
       {
         json: 'juzgados',
-        js  : 'juzgados',
-        typ : a(
-          r(
-            'Juzgado' 
-          ) 
-        )
+        js: 'juzgados',
+        typ: a(r('Juzgado'))
       }
     ],
     false
@@ -847,25 +639,23 @@ const typeMap: any = {
     [
       {
         json: 'idCatalogoDetalle',
-        js  : 'idCatalogoDetalle',
-        typ : 0
+        js: 'idCatalogoDetalle',
+        typ: 0
       },
       {
         json: 'idCatalogoDetallePadre',
-        js  : 'idCatalogoDetallePadre',
-        typ : 0
+        js: 'idCatalogoDetallePadre',
+        typ: 0
       },
       {
         json: 'descripcion',
-        js  : 'descripcion',
-        typ : r(
-          'Descripcion' 
-        )
+        js: 'descripcion',
+        typ: r('Descripcion')
       },
       {
         json: 'codigo',
-        js  : 'codigo',
-        typ : ''
+        js: 'codigo',
+        typ: ''
       }
     ],
     false
@@ -874,18 +664,18 @@ const typeMap: any = {
     [
       {
         json: 'id',
-        js  : 'id',
-        typ : 0
+        js: 'id',
+        typ: 0
       },
       {
         json: 'tipo',
-        js  : 'tipo',
-        typ : ''
+        js: 'tipo',
+        typ: ''
       },
       {
         json: 'url',
-        js  : 'url',
-        typ : ''
+        js: 'url',
+        typ: ''
       }
     ],
     false
@@ -894,47 +684,43 @@ const typeMap: any = {
     [
       {
         json: 'tel',
-        js  : 'tel',
-        typ : r(
-          'Tel' 
-        )
+        js: 'tel',
+        typ: r('Tel')
       },
       {
         json: 'primerNombre',
-        js  : 'primerNombre',
-        typ : ''
+        js: 'primerNombre',
+        typ: ''
       },
       {
         json: 'segundoNombre',
-        js  : 'segundoNombre',
-        typ : ''
+        js: 'segundoNombre',
+        typ: ''
       },
       {
         json: 'primerApellido',
-        js  : 'primerApellido',
-        typ : ''
+        js: 'primerApellido',
+        typ: ''
       },
       {
         json: 'segundoApellido',
-        js  : 'segundoApellido',
-        typ : ''
+        js: 'segundoApellido',
+        typ: ''
       },
       {
         json: 'cedula',
-        js  : 'cedula',
-        typ : u(
-          0, null 
-        )
+        js: 'cedula',
+        typ: u(0, null)
       },
       {
         json: 'direccion',
-        js  : 'direccion',
-        typ : ''
+        js: 'direccion',
+        typ: ''
       },
       {
         json: 'email',
-        js  : 'email',
-        typ : ''
+        js: 'email',
+        typ: ''
       }
     ],
     false
@@ -943,21 +729,13 @@ const typeMap: any = {
     [
       {
         json: 'fijo',
-        js  : 'fijo',
-        typ : u(
-          a(
-            0 
-          ), null 
-        )
+        js: 'fijo',
+        typ: u(a(0), null)
       },
       {
         json: 'celular',
-        js  : 'celular',
-        typ : u(
-          a(
-            0 
-          ), null 
-        )
+        js: 'celular',
+        typ: u(a(0), null)
       }
     ],
     false
@@ -969,10 +747,7 @@ const typeMap: any = {
     'Reintegra',
     'Terminados'
   ],
-  Descripcion: [
-    'CUNDINAMARCA',
-    'TOLIMA'
-  ],
+  Descripcion: ['CUNDINAMARCA', 'TOLIMA'],
   TipoProceso: [
     'HIPOTECARIA',
     'HIPOTECARIO',

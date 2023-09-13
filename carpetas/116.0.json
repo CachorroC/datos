@@ -1,1 +1,45 @@
-{"category":"Terminados","deudor":{"tel":{"fijo":3579028,"celular":3164355892},"primerNombre":"ANA","segundoNombre":"KARINA","primerApellido":"MANTILLA","segundoApellido":"PARDO","cedula":52548162,"direccion":"CARRERA 51A # 127 - 75 APTO 1102 ","email":"karinamantilla@hotmail.com"},"numero":116,"tipoProceso":"PRENDARIO","idProceso":50624030,"llaveProceso":"11001400301020170083000","categoryTag":5,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":10,"tipo":"JUZGADO 010 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-010-civil-municipal-de-bogota"}],"capitalAdeudado":18077.141,"entregaGarantiasAbogado":"2017-08-01T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-08-08T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":12001404,"1":"4513070579287120."},"radicado":"2017 - 00830","vencimientoPagare":["2017-07-26T00:00:00.000Z"],"expediente":"11001400301020170083000"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": 3579028,
+      "celular": 3164355892
+    },
+    "primerNombre": "ANA",
+    "segundoNombre": "KARINA",
+    "primerApellido": "MANTILLA",
+    "segundoApellido": "PARDO",
+    "cedula": 52548162,
+    "direccion": "CARRERA 51A # 127 - 75 APTO 1102 ",
+    "email": "karinamantilla@hotmail.com"
+  },
+  "numero": 116,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 50624030,
+  "llaveProceso": "11001400301020170083000",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 10,
+        "tipo": "JUZGADO 010 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-010-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 18077.141,
+    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-08T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": 12001404,
+      "1": "4513070579287120."
+    },
+    "radicado": "2017 - 00830",
+    "vencimientoPagare": [
+      "2017-07-26T00:00:00.000Z"
+    ],
+    "expediente": "11001400301020170083000"
+  }
+}

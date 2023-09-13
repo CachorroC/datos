@@ -1,1 +1,35 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":0,"entregaGarantiasAbogado":"2017-05-30T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-06-08T00:00:00.000Z","municipio":"FUSAGASUGA","obligacion":{"0":127011,"1":""},"radicado":"2017 - 00369","vencimientoPagare":["2025-09-03T00:00:00.000Z"],"expediente":"25290400300120170036900"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":8671269,"celular":3102301734},"primerNombre":"MARIA","segundoNombre":"SOCORRO","primerApellido":"TORRES","segundoApellido":"DE GONZALEZ","cedula":20563933,"direccion":"CALLE 17 No 8-41 APTO 101 FUSAGASUGA","email":"anyelicllau2006@hotmail.com"},"numero":28,"llaveProceso":"25290400300120170036900","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 0,
+    "entregaGarantiasAbogado": "2017-05-30T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-08T00:00:00.000Z",
+    "municipio": "FUSAGASUGA",
+    "obligacion": { "0": 127011, "1": "" },
+    "radicado": "2017 - 00369",
+    "vencimientoPagare": [
+      "2025-09-03T00:00:00.000Z"
+    ],
+    "expediente": "25290400300120170036900"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {
+      "fijo": 8671269,
+      "celular": 3102301734
+    },
+    "primerNombre": "MARIA",
+    "segundoNombre": "SOCORRO",
+    "primerApellido": "TORRES",
+    "segundoApellido": "DE GONZALEZ",
+    "cedula": 20563933,
+    "direccion": "CALLE 17 No 8-41 APTO 101 FUSAGASUGA",
+    "email": "anyelicllau2006@hotmail.com"
+  },
+  "numero": 28,
+  "llaveProceso": "25290400300120170036900",
+  "tipoProceso": "HIPOTECARIO"
+}

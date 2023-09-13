@@ -1,1 +1,42 @@
-{"category":"Terminados","deudor":{"tel":{"fijo":2478114,"celular":3115672367},"primerNombre":"LUIS","segundoNombre":"ADOLFO","primerApellido":"PEÑA","segundoApellido":"ARCINIEGAS ","cedula":19438068,"direccion":"CARRERA 29 No 12  A - 46  ","email":"luisadopa@gmail.com"},"numero":83,"tipoProceso":"PRENDARIO","idProceso":50738970,"llaveProceso":"11001400301920170102500","categoryTag":5,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":19,"tipo":"JUZGADO 019 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-19-civil-municipal-de-bogota"}],"capitalAdeudado":14272.971,"entregaGarantiasAbogado":"2017-09-22T00:00:00.000Z","etapaProcesal":"1.100140030192017e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":12436479,"1":""},"radicado":"2017 - 01025","vencimientoPagare":["2017-09-20T00:00:00.000Z"],"expediente":"11001400301920170102500"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": 2478114,
+      "celular": 3115672367
+    },
+    "primerNombre": "LUIS",
+    "segundoNombre": "ADOLFO",
+    "primerApellido": "PEÑA",
+    "segundoApellido": "ARCINIEGAS ",
+    "cedula": 19438068,
+    "direccion": "CARRERA 29 No 12  A - 46  ",
+    "email": "luisadopa@gmail.com"
+  },
+  "numero": 83,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 50738970,
+  "llaveProceso": "11001400301920170102500",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 19,
+        "tipo": "JUZGADO 019 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-19-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 14272.971,
+    "entregaGarantiasAbogado": "2017-09-22T00:00:00.000Z",
+    "etapaProcesal": "1.100140030192017e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 12436479, "1": "" },
+    "radicado": "2017 - 01025",
+    "vencimientoPagare": [
+      "2017-09-20T00:00:00.000Z"
+    ],
+    "expediente": "11001400301920170102500"
+  }
+}

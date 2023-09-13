@@ -1,1 +1,31 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":47230.309,"entregaGarantiasAbogado":"2017-10-28T00:00:00.000Z","etapaProcesal":"SENTENCIA","fechaPresentacion":"2017-11-01T00:00:00.000Z","municipio":"SOACHA","obligacion":{"0":170453,"1":""},"radicado":"2017 - 00364","vencimientoPagare":["2033-12-05T00:00:00.000Z"],"expediente":"25754400300320170036400"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"BLADIMIR","primerApellido":"GUTIERREZ","segundoApellido":"CIFUENTES","cedula":80203869,"direccion":"CALLE 34 A SUR No 13 - 46  SOACHA","email":"bladimir0612@hotmail.com"},"numero":315,"llaveProceso":"25754400300320170036400","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 47230.309,
+    "entregaGarantiasAbogado": "2017-10-28T00:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-11-01T00:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": { "0": 170453, "1": "" },
+    "radicado": "2017 - 00364",
+    "vencimientoPagare": [
+      "2033-12-05T00:00:00.000Z"
+    ],
+    "expediente": "25754400300320170036400"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "BLADIMIR",
+    "primerApellido": "GUTIERREZ",
+    "segundoApellido": "CIFUENTES",
+    "cedula": 80203869,
+    "direccion": "CALLE 34 A SUR No 13 - 46  SOACHA",
+    "email": "bladimir0612@hotmail.com"
+  },
+  "numero": 315,
+  "llaveProceso": "25754400300320170036400",
+  "tipoProceso": "HIPOTECARIO"
+}

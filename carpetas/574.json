@@ -1,1 +1,37 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":null,"entregaGarantiasAbogado":"2023-08-17T00:00:00.000Z","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":"2370110350 // 1410093357","2":"43206562 T.C. VISA 4513080146836311 // 82377390 T.C. AMERICAN 0377816058360201"},"radicado":"","vencimientoPagare":["2026-02-04T05:00:00.000Z",null,"2026-07-04T05:00:00.000Z","2026-07-04T05:00:00.000Z"],"expediente":""},"category":"Bancolombia","categoryTag":1,"deudor":{"tel":{"celular":3007547824},"primerNombre":"INGRID","segundoNombre":"LIZETH","primerApellido":"PATARROYO","segundoApellido":"BAEZ","cedula":1014214413,"direccion":"CARRERA 85 L # 63B-42 CONJUNTO RESIDENCIAL PORTALES DE VILLALUZ ETAPA 1","email":"ingridpatarroyobaez@gmail.com"},"numero":574,"llaveProceso":"","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2023-08-17T00:00:00.000Z",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "2370110350 // 1410093357",
+      "2": "43206562 T.C. VISA 4513080146836311 // 82377390 T.C. AMERICAN 0377816058360201"
+    },
+    "radicado": "",
+    "vencimientoPagare": [
+      "2026-02-04T05:00:00.000Z",
+      null,
+      "2026-07-04T05:00:00.000Z",
+      "2026-07-04T05:00:00.000Z"
+    ],
+    "expediente": ""
+  },
+  "category": "Bancolombia",
+  "categoryTag": 1,
+  "deudor": {
+    "tel": { "celular": 3007547824 },
+    "primerNombre": "INGRID",
+    "segundoNombre": "LIZETH",
+    "primerApellido": "PATARROYO",
+    "segundoApellido": "BAEZ",
+    "cedula": 1014214413,
+    "direccion": "CARRERA 85 L # 63B-42 CONJUNTO RESIDENCIAL PORTALES DE VILLALUZ ETAPA 1",
+    "email": "ingridpatarroyobaez@gmail.com"
+  },
+  "numero": 574,
+  "llaveProceso": "",
+  "tipoProceso": "SINGULAR"
+}

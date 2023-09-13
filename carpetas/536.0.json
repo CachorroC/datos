@@ -1,1 +1,42 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"BLANCA","segundoNombre":"LILIA","primerApellido":"BRAVO","segundoApellido":"PAEZ","cedula":39544073,"direccion":"CALLE 64 C No 105-88","email":"blancall21@hotmail.com"},"numero":536,"tipoProceso":"SINGULAR","idProceso":51173430,"llaveProceso":"11001400302020180047900","categoryTag":5,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":17,"tipo":"JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":18772.902,"entregaGarantiasAbogado":"2018-04-26T00:00:00.000Z","etapaProcesal":"1.100140030202018e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":4513072334510690,"1":5491580398400380},"radicado":"2018 - 00479","vencimientoPagare":["2020-08-02T00:00:00.000Z"],"expediente":"11001400302020180047900"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "BLANCA",
+    "segundoNombre": "LILIA",
+    "primerApellido": "BRAVO",
+    "segundoApellido": "PAEZ",
+    "cedula": 39544073,
+    "direccion": "CALLE 64 C No 105-88",
+    "email": "blancall21@hotmail.com"
+  },
+  "numero": 536,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 51173430,
+  "llaveProceso": "11001400302020180047900",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 17,
+        "tipo": "JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 18772.902,
+    "entregaGarantiasAbogado": "2018-04-26T00:00:00.000Z",
+    "etapaProcesal": "1.100140030202018e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": 4513072334510690,
+      "1": 5491580398400380
+    },
+    "radicado": "2018 - 00479",
+    "vencimientoPagare": [
+      "2020-08-02T00:00:00.000Z"
+    ],
+    "expediente": "11001400302020180047900"
+  }
+}

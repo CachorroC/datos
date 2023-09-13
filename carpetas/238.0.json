@@ -1,1 +1,43 @@
-{"category":"Terminados","deudor":{"tel":{"fijo":2362747,"celular":3106289389},"primerNombre":"FREDY","segundoNombre":"ALEXANDER","primerApellido":"RUDA","segundoApellido":"ARIAS","cedula":7181490,"direccion":"","email":"blamblemooo1@gmail.com"},"numero":238,"tipoProceso":"HIPOTECARIO","idProceso":9334093,"llaveProceso":"11001400304320170110600","categoryTag":5,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":43,"tipo":"JUZGADO 043 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-43-civil-municipal-de-bogota"}],"capitalAdeudado":60433.884,"entregaGarantiasAbogado":"2017-09-11T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":"2017-09-19T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":12541785,"1":186378},"radicado":"2017 - 01106","vencimientoPagare":["2017-05-09T05:00:00.000Z",null],"expediente":"11001400304320170110600"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": 2362747,
+      "celular": 3106289389
+    },
+    "primerNombre": "FREDY",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "RUDA",
+    "segundoApellido": "ARIAS",
+    "cedula": 7181490,
+    "direccion": "",
+    "email": "blamblemooo1@gmail.com"
+  },
+  "numero": 238,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 9334093,
+  "llaveProceso": "11001400304320170110600",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 43,
+        "tipo": "JUZGADO 043 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-43-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 60433.884,
+    "entregaGarantiasAbogado": "2017-09-11T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 12541785, "1": 186378 },
+    "radicado": "2017 - 01106",
+    "vencimientoPagare": [
+      "2017-05-09T05:00:00.000Z",
+      null
+    ],
+    "expediente": "11001400304320170110600"
+  }
+}

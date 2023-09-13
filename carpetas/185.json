@@ -1,1 +1,36 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":41262.275,"entregaGarantiasAbogado":"2017-08-11T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":null,"municipio":"SOACHA","obligacion":{"0":"    ","1":20990158916},"radicado":"2017 - 00283","vencimientoPagare":null,"expediente":"25754400300320170028300"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":3351000,"celular":3103397090},"primerNombre":"WILLIAM","segundoNombre":"GIOVANNI","primerApellido":"DORADO","segundoApellido":"FERNANDEZ","cedula":10294828,"direccion":"CARRERA 4 ESTE # 38 - 56","email":"willdany@hotmail.com"},"numero":185,"llaveProceso":"25754400300320170028300","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 41262.275,
+    "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": {
+      "0": "    ",
+      "1": 20990158916
+    },
+    "radicado": "2017 - 00283",
+    "vencimientoPagare": null,
+    "expediente": "25754400300320170028300"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {
+      "fijo": 3351000,
+      "celular": 3103397090
+    },
+    "primerNombre": "WILLIAM",
+    "segundoNombre": "GIOVANNI",
+    "primerApellido": "DORADO",
+    "segundoApellido": "FERNANDEZ",
+    "cedula": 10294828,
+    "direccion": "CARRERA 4 ESTE # 38 - 56",
+    "email": "willdany@hotmail.com"
+  },
+  "numero": 185,
+  "llaveProceso": "25754400300320170028300",
+  "tipoProceso": "HIPOTECARIO"
+}

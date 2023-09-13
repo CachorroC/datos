@@ -1,1 +1,51 @@
-{"category":"Reintegra","deudor":{"tel":{"fijo":4658342,"celular":3015004499},"primerNombre":"JOSE","segundoNombre":"ANTONIO","primerApellido":"CASTILLO","segundoApellido":"CORTES","cedula":343334,"direccion":"CARRERA 50 # 113 - 09","email":"N/A"},"numero":210,"tipoProceso":"SINGULAR","idProceso":51006610,"llaveProceso":"11001400302120180016300","categoryTag":2,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":21,"tipo":"JUZGADO 021 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-021-civil-municipal-de-bogota"},{"id":21,"tipo":"JUZGADO 021 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-021-civil-municipal-de-bogota"}],"capitalAdeudado":10555.422,"entregaGarantiasAbogado":"2017-08-22T00:00:00.000Z","etapaProcesal":"EJECUCION","fechaPresentacion":"2017-08-28T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":377813597718262,"1":"4513070908078111 // 5303714709873201 "},"radicado":"2018 - 00163","vencimientoPagare":["2020-05-01T05:00:00.000Z","2020-05-01T05:00:00.000Z"],"expediente":"11001400302120180016300"}}
+{
+  "category": "Reintegra",
+  "deudor": {
+    "tel": {
+      "fijo": 4658342,
+      "celular": 3015004499
+    },
+    "primerNombre": "JOSE",
+    "segundoNombre": "ANTONIO",
+    "primerApellido": "CASTILLO",
+    "segundoApellido": "CORTES",
+    "cedula": 343334,
+    "direccion": "CARRERA 50 # 113 - 09",
+    "email": "N/A"
+  },
+  "numero": 210,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 51006610,
+  "llaveProceso": "11001400302120180016300",
+  "categoryTag": 2,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 21,
+        "tipo": "JUZGADO 021 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-021-civil-municipal-de-bogota"
+      },
+      {
+        "id": 21,
+        "tipo": "JUZGADO 021 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-021-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 10555.422,
+    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
+    "etapaProcesal": "EJECUCION",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": 377813597718262,
+      "1": "4513070908078111 // 5303714709873201 "
+    },
+    "radicado": "2018 - 00163",
+    "vencimientoPagare": [
+      "2020-05-01T05:00:00.000Z",
+      "2020-05-01T05:00:00.000Z"
+    ],
+    "expediente": "11001400302120180016300"
+  }
+}

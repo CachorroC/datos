@@ -1,1 +1,39 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"NOHORA","segundoNombre":"ESPERANZA","primerApellido":"BARRERO","segundoApellido":"RODRIGUEZ","cedula":65706810,"direccion":"CALLE 12 # 2C - 55 SENDEROS DE FUNZA // CALLE 50 SUR # 93D - 38","email":"nonbaro@hotmail.com"},"numero":383,"tipoProceso":"HIPOTECARIO","idProceso":51176440,"llaveProceso":"11001400302620180047900","categoryTag":5,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":26,"tipo":"JUZGADO 026 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-26-civil-municipal-de-bogota"}],"capitalAdeudado":14735.254,"entregaGarantiasAbogado":"2018-01-18T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":null,"municipio":"KENNEDY","obligacion":{"0":116650,"1":""},"radicado":"2018 - 00479","vencimientoPagare":["2024-03-16T00:00:00.000Z"],"expediente":"11001400302620180047900"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "NOHORA",
+    "segundoNombre": "ESPERANZA",
+    "primerApellido": "BARRERO",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": 65706810,
+    "direccion": "CALLE 12 # 2C - 55 SENDEROS DE FUNZA // CALLE 50 SUR # 93D - 38",
+    "email": "nonbaro@hotmail.com"
+  },
+  "numero": 383,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 51176440,
+  "llaveProceso": "11001400302620180047900",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 26,
+        "tipo": "JUZGADO 026 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-26-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 14735.254,
+    "entregaGarantiasAbogado": "2018-01-18T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "KENNEDY",
+    "obligacion": { "0": 116650, "1": "" },
+    "radicado": "2018 - 00479",
+    "vencimientoPagare": [
+      "2024-03-16T00:00:00.000Z"
+    ],
+    "expediente": "11001400302620180047900"
+  }
+}

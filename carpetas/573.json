@@ -1,1 +1,38 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":null,"entregaGarantiasAbogado":"2023-08-04T00:00:00.000Z","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":4020084965,"2":100260717},"radicado":"","vencimientoPagare":[null,"2026-04-08T05:00:00.000Z"],"expediente":""},"category":"Bancolombia","categoryTag":1,"deudor":{"tel":{"fijo":4152969,"celular":3203369576},"primerNombre":"SANDRA","segundoNombre":"PATRICIA","primerApellido":"GALVIS","segundoApellido":"ALMANZA","cedula":52327261,"direccion":"CR 104 No 13D 77 CS 241 Conjunto Residencial Sabanagrande 1 ","email":"galvis-almanza@hotmail.com"},"numero":573,"llaveProceso":"","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 4020084965,
+      "2": 100260717
+    },
+    "radicado": "",
+    "vencimientoPagare": [
+      null,
+      "2026-04-08T05:00:00.000Z"
+    ],
+    "expediente": ""
+  },
+  "category": "Bancolombia",
+  "categoryTag": 1,
+  "deudor": {
+    "tel": {
+      "fijo": 4152969,
+      "celular": 3203369576
+    },
+    "primerNombre": "SANDRA",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "GALVIS",
+    "segundoApellido": "ALMANZA",
+    "cedula": 52327261,
+    "direccion": "CR 104 No 13D 77 CS 241 Conjunto Residencial Sabanagrande 1 ",
+    "email": "galvis-almanza@hotmail.com"
+  },
+  "numero": 573,
+  "llaveProceso": "",
+  "tipoProceso": "SINGULAR"
+}

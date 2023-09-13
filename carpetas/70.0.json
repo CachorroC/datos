@@ -1,1 +1,38 @@
-{"category":"Terminados","deudor":{"tel":{"celular":3152248920},"primerNombre":"CESAR","primerApellido":"AUGUSTO","segundoApellido":"ARIAS","cedula":14250539,"direccion":"CALLE 54 # 22 - 50 ","email":"ariascesaraugustoarias@gmail.com"},"numero":70,"tipoProceso":"PRENDARIO","idProceso":65640840,"llaveProceso":"11001400308520170108400","categoryTag":5,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":85,"tipo":"JUZGADO 085 CIVIL MUNICIPAL DE BOGOTÁ ","url":"https://www.ramajudicial.gov.cojuzgado-085-civil-municipal-de-bogotá-"}],"capitalAdeudado":74069.982,"entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","etapaProcesal":"1.1001400308520171e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":12587175,"1":"N/A"},"radicado":"2017 - 01084","vencimientoPagare":["2017-06-07T00:00:00.000Z"],"expediente":"11001400308520170108400"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": { "celular": 3152248920 },
+    "primerNombre": "CESAR",
+    "primerApellido": "AUGUSTO",
+    "segundoApellido": "ARIAS",
+    "cedula": 14250539,
+    "direccion": "CALLE 54 # 22 - 50 ",
+    "email": "ariascesaraugustoarias@gmail.com"
+  },
+  "numero": 70,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 65640840,
+  "llaveProceso": "11001400308520170108400",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 85,
+        "tipo": "JUZGADO 085 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-085-civil-municipal-de-bogotá-"
+      }
+    ],
+    "capitalAdeudado": 74069.982,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "etapaProcesal": "1.1001400308520171e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 12587175, "1": "N/A" },
+    "radicado": "2017 - 01084",
+    "vencimientoPagare": [
+      "2017-06-07T00:00:00.000Z"
+    ],
+    "expediente": "11001400308520170108400"
+  }
+}

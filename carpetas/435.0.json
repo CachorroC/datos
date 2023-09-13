@@ -1,1 +1,39 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"MARIBEL","segundoNombre":"REVELO","primerApellido":"QUIROGA","segundoApellido":"","cedula":1012341563,"direccion":"CALLE 62A SUR-No 73C-21 T 1 APTO 202","email":"marysqs@hotmail.com"},"numero":435,"tipoProceso":"HIPOTECARIO","idProceso":51205750,"llaveProceso":"11001400301620180057300","categoryTag":5,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":16,"tipo":"JUZGADO 016 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-016-civil-municipal-de-bogota"}],"capitalAdeudado":null,"entregaGarantiasAbogado":"2018-05-16T00:00:00.000Z","etapaProcesal":"ADMISION","fechaPresentacion":"2018-05-22T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":20990131392,"1":""},"radicado":"2018 - 00573","vencimientoPagare":["2025-08-18T00:00:00.000Z"],"expediente":"11001400301620180057300"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "MARIBEL",
+    "segundoNombre": "REVELO",
+    "primerApellido": "QUIROGA",
+    "segundoApellido": "",
+    "cedula": 1012341563,
+    "direccion": "CALLE 62A SUR-No 73C-21 T 1 APTO 202",
+    "email": "marysqs@hotmail.com"
+  },
+  "numero": 435,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 51205750,
+  "llaveProceso": "11001400301620180057300",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 16,
+        "tipo": "JUZGADO 016 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-016-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2018-05-16T00:00:00.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-05-22T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 20990131392, "1": "" },
+    "radicado": "2018 - 00573",
+    "vencimientoPagare": [
+      "2025-08-18T00:00:00.000Z"
+    ],
+    "expediente": "11001400301620180057300"
+  }
+}

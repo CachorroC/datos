@@ -1,1 +1,39 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"BETTY","segundoNombre":"STEPHANI","primerApellido":"TORRES","segundoApellido":"ROJAS","cedula":53015307,"direccion":"CL 146A # 53A - 10 APT 102","email":"stephanytorresrojas@gmail.com"},"numero":71,"tipoProceso":"PRENDARIO","idProceso":10404913,"llaveProceso":"11001400304720170106500","categoryTag":5,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":47,"tipo":"JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-047-civil-municipal-de-bogota"}],"capitalAdeudado":24193.522,"entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","etapaProcesal":"1.100140030472017e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":12615209,"1":""},"radicado":"2017 - 01065","vencimientoPagare":["2017-06-07T00:00:00.000Z"],"expediente":"11001400304720170106500"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "BETTY",
+    "segundoNombre": "STEPHANI",
+    "primerApellido": "TORRES",
+    "segundoApellido": "ROJAS",
+    "cedula": 53015307,
+    "direccion": "CL 146A # 53A - 10 APT 102",
+    "email": "stephanytorresrojas@gmail.com"
+  },
+  "numero": 71,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 10404913,
+  "llaveProceso": "11001400304720170106500",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 47,
+        "tipo": "JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-047-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 24193.522,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "etapaProcesal": "1.100140030472017e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 12615209, "1": "" },
+    "radicado": "2017 - 01065",
+    "vencimientoPagare": [
+      "2017-06-07T00:00:00.000Z"
+    ],
+    "expediente": "11001400304720170106500"
+  }
+}

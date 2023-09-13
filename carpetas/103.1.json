@@ -1,1 +1,47 @@
-{"category":"Reintegra","deudor":{"tel":{"celular":3216066052},"primerNombre":"EDUARDO","segundoNombre":"ENRIQUE","primerApellido":"ARANGO","segundoApellido":"CHACON","cedula":16831314,"direccion":"CARRERA 74 No. 25 G-69","email":"kikearango@hotmail.com"},"numero":103,"tipoProceso":"SINGULAR","idProceso":81869501,"llaveProceso":"11001400308220170068000","categoryTag":2,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":18,"tipo":"JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"},{"id":82,"tipo":"JUZGADO 082 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-082-civil-municipal-de-bogota"}],"capitalAdeudado":43921.469,"entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-06-16T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":"1800088189//377813488630162","1":"4513071987853655//5303715363121332"},"radicado":"2017-00680","vencimientoPagare":["2019-05-13T00:00:00.000Z"],"expediente":"11001400308220170068000"}}
+{
+  "category": "Reintegra",
+  "deudor": {
+    "tel": { "celular": 3216066052 },
+    "primerNombre": "EDUARDO",
+    "segundoNombre": "ENRIQUE",
+    "primerApellido": "ARANGO",
+    "segundoApellido": "CHACON",
+    "cedula": 16831314,
+    "direccion": "CARRERA 74 No. 25 G-69",
+    "email": "kikearango@hotmail.com"
+  },
+  "numero": 103,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 81869501,
+  "llaveProceso": "11001400308220170068000",
+  "categoryTag": 2,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 18,
+        "tipo": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"
+      },
+      {
+        "id": 82,
+        "tipo": "JUZGADO 082 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-082-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 43921.469,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-06-16T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": "1800088189//377813488630162",
+      "1": "4513071987853655//5303715363121332"
+    },
+    "radicado": "2017-00680",
+    "vencimientoPagare": [
+      "2019-05-13T00:00:00.000Z"
+    ],
+    "expediente": "11001400308220170068000"
+  }
+}

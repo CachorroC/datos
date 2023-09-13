@@ -1,1 +1,34 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":null,"entregaGarantiasAbogado":"2023-08-24T00:00:00.000Z","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":"22273 320177358","2":2470088213},"radicado":"","vencimientoPagare":["2034-12-09T05:00:00.000Z",null],"expediente":""},"category":"Bancolombia","categoryTag":1,"deudor":{"tel":{"celular":3116509661},"primerNombre":"ANGELICA","primerApellido":"GODOY","segundoApellido":"GUTIERREZ","cedula":52760611,"direccion":"Carrera 145 144 C 72 Torre 7 Apartamento 904 Conjunto Residencial Almenara P.H  de la ciudad de Bogotá","email":"angelicagodoygutierrez@gmail.com"},"numero":581,"llaveProceso":"","tipoProceso":"HIPOTECARIA"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2023-08-24T00:00:00.000Z",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "22273 320177358",
+      "2": 2470088213
+    },
+    "radicado": "",
+    "vencimientoPagare": [
+      "2034-12-09T05:00:00.000Z",
+      null
+    ],
+    "expediente": ""
+  },
+  "category": "Bancolombia",
+  "categoryTag": 1,
+  "deudor": {
+    "tel": { "celular": 3116509661 },
+    "primerNombre": "ANGELICA",
+    "primerApellido": "GODOY",
+    "segundoApellido": "GUTIERREZ",
+    "cedula": 52760611,
+    "direccion": "Carrera 145 144 C 72 Torre 7 Apartamento 904 Conjunto Residencial Almenara P.H  de la ciudad de Bogotá",
+    "email": "angelicagodoygutierrez@gmail.com"
+  },
+  "numero": 581,
+  "llaveProceso": "",
+  "tipoProceso": "HIPOTECARIA"
+}

@@ -1,1 +1,29 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":23041.704,"entregaGarantiasAbogado":"2018-09-13T00:00:00.000Z","etapaProcesal":"ADMISION","fechaPresentacion":null,"municipio":"SOACHA","obligacion":{"0":20990126542,"1":""},"radicado":"2018 - 01008","vencimientoPagare":[null],"expediente":"25754418900320180100800"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"ORLANDO","primerApellido":"SILVA","segundoApellido":"CALDERON","cedula":80257279,"direccion":"CALLE 72 G- SUR No 35-13 SUR","email":"jjanzola@hotmail.com"},"numero":489,"llaveProceso":"25754418900320180100800","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 23041.704,
+    "entregaGarantiasAbogado": "2018-09-13T00:00:00.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": { "0": 20990126542, "1": "" },
+    "radicado": "2018 - 01008",
+    "vencimientoPagare": [null],
+    "expediente": "25754418900320180100800"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ORLANDO",
+    "primerApellido": "SILVA",
+    "segundoApellido": "CALDERON",
+    "cedula": 80257279,
+    "direccion": "CALLE 72 G- SUR No 35-13 SUR",
+    "email": "jjanzola@hotmail.com"
+  },
+  "numero": 489,
+  "llaveProceso": "25754418900320180100800",
+  "tipoProceso": "HIPOTECARIO"
+}

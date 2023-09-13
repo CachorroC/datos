@@ -1,1 +1,32 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":15720.013,"entregaGarantiasAbogado":"2018-08-03T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2018-09-08T05:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":2010085214,"1":3778151023327},"radicado":"2018 - 00389","vencimientoPagare":[null],"expediente":"11001418900920180038900"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"SERGIO","primerApellido":"ESPINEL","segundoApellido":"CORREAL","cedula":91250936,"direccion":"CARRERA 7 D No 151-40 APTO 101","email":"sergioespinel5@gmail.com"},"numero":472,"llaveProceso":"11001418900920180038900","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 15720.013,
+    "entregaGarantiasAbogado": "2018-08-03T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2018-09-08T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": 2010085214,
+      "1": 3778151023327
+    },
+    "radicado": "2018 - 00389",
+    "vencimientoPagare": [null],
+    "expediente": "11001418900920180038900"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "SERGIO",
+    "primerApellido": "ESPINEL",
+    "segundoApellido": "CORREAL",
+    "cedula": 91250936,
+    "direccion": "CARRERA 7 D No 151-40 APTO 101",
+    "email": "sergioespinel5@gmail.com"
+  },
+  "numero": 472,
+  "llaveProceso": "11001418900920180038900",
+  "tipoProceso": "SINGULAR"
+}

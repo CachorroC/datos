@@ -1,0 +1,35 @@
+{
+  "category": "Terminados",
+  "categoryTag": 5,
+  "demanda": {
+    "capitalAdeudado": 40589.422,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "expediente": "2530740030012017025000",
+    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
+    "juzgados": [],
+    "municipio": "GIRARDOT",
+    "obligacion": {
+      "0": "2273 320145954",
+      "1": ""
+    },
+    "radicado": "2017 - 00250",
+    "vencimientoPagare": [
+      "2026-11-28T00:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "cedula": 39581581,
+    "direccion": "MZ 7 CS 6 UB HDA/ GIRARDOT",
+    "email": "34|",
+    "primerApellido": "JIMENEZ",
+    "primerNombre": "ALEXANDRA",
+    "segundoApellido": "AGUILAR",
+    "segundoNombre": "MILENA",
+    "tel": {}
+  },
+  "llaveProceso": "2530740030012017025000",
+  "numero": 1,
+  "tipoProceso": "HIPOTECARIO"
+}

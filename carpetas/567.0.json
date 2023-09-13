@@ -1,1 +1,41 @@
-{"category":"Bancolombia","deudor":{"tel":{"fijo":7766244,"celular":3144005060},"primerNombre":"WILSON","segundoNombre":"DE","primerApellido":"JESUS","segundoApellido":"MOLINA QUIRAMA","cedula":94254761,"direccion":"Calle 71 F No. 78 C - 50 Sur","email":"wilsonmolina16@hotmail.com"},"numero":567,"tipoProceso":"SINGULAR","idProceso":132161470,"llaveProceso":"11001400307520230128400","categoryTag":1,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":75,"tipo":"JUZGADO 075 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-75-civil-municipal-de-bogota"}],"capitalAdeudado":null,"entregaGarantiasAbogado":"2023-07-26T00:00:00.000Z","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":1000094307,"2":"N/A"},"radicado":"2023 - 01284","vencimientoPagare":["2027-08-02T00:00:00.000Z"],"expediente":"11001400307520230128400"}}
+{
+  "category": "Bancolombia",
+  "deudor": {
+    "tel": {
+      "fijo": 7766244,
+      "celular": 3144005060
+    },
+    "primerNombre": "WILSON",
+    "segundoNombre": "DE",
+    "primerApellido": "JESUS",
+    "segundoApellido": "MOLINA QUIRAMA",
+    "cedula": 94254761,
+    "direccion": "Calle 71 F No. 78 C - 50 Sur",
+    "email": "wilsonmolina16@hotmail.com"
+  },
+  "numero": 567,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 132161470,
+  "llaveProceso": "11001400307520230128400",
+  "categoryTag": 1,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 75,
+        "tipo": "JUZGADO 075 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-75-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "1": 1000094307, "2": "N/A" },
+    "radicado": "2023 - 01284",
+    "vencimientoPagare": [
+      "2027-08-02T00:00:00.000Z"
+    ],
+    "expediente": "11001400307520230128400"
+  }
+}

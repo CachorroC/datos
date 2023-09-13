@@ -1,1 +1,42 @@
-{"category":"Reintegra","deudor":{"tel":{"fijo":4412100,"celular":3124885346},"primerNombre":"MARIA","segundoNombre":"MARIN","primerApellido":"DE","segundoApellido":"OROZCO","cedula":25126734,"direccion":"CARRERA 103 A  No 77D-22 MOLINOS- BOGOTA","email":"mauriciosamu1128@gmail.com"},"numero":452,"tipoProceso":"SINGULAR","idProceso":50989890,"llaveProceso":"11001400305920180009000","categoryTag":2,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":7,"tipo":"JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":22244.76,"entregaGarantiasAbogado":"2018-01-29T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2018-05-02T05:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":1740087269,"1":"N/A"},"radicado":"2018 - 00090","vencimientoPagare":["2020-07-03T05:00:00.000Z"],"expediente":"11001400305920180009000"}}
+{
+  "category": "Reintegra",
+  "deudor": {
+    "tel": {
+      "fijo": 4412100,
+      "celular": 3124885346
+    },
+    "primerNombre": "MARIA",
+    "segundoNombre": "MARIN",
+    "primerApellido": "DE",
+    "segundoApellido": "OROZCO",
+    "cedula": 25126734,
+    "direccion": "CARRERA 103 A  No 77D-22 MOLINOS- BOGOTA",
+    "email": "mauriciosamu1128@gmail.com"
+  },
+  "numero": 452,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50989890,
+  "llaveProceso": "11001400305920180009000",
+  "categoryTag": 2,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 7,
+        "tipo": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 22244.76,
+    "entregaGarantiasAbogado": "2018-01-29T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-05-02T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 1740087269, "1": "N/A" },
+    "radicado": "2018 - 00090",
+    "vencimientoPagare": [
+      "2020-07-03T05:00:00.000Z"
+    ],
+    "expediente": "11001400305920180009000"
+  }
+}

@@ -1,1 +1,35 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":43211,"entregaGarantiasAbogado":null,"etapaProcesal":"43217","fechaPresentacion":"2018-05-11T00:00:00.000Z","municipio":"CHIA","obligacion":{"0":5303711851549150,"1":"20,453,625,97"},"radicado":"2018 - 00237","vencimientoPagare":["1899-12-30T00:00:00.000Z"],"expediente":"25175410300120180023700"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"ALVARO","segundoNombre":"HERNAN","primerApellido":"RUIZ","segundoApellido":"HERNANDEZ","cedula":73133278,"direccion":"","email":"CALLE 1 SUR No 5A- 179 CASA 26 "},"numero":419,"llaveProceso":"25175410300120180023700","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 43211,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "43217",
+    "fechaPresentacion": "2018-05-11T00:00:00.000Z",
+    "municipio": "CHIA",
+    "obligacion": {
+      "0": 5303711851549150,
+      "1": "20,453,625,97"
+    },
+    "radicado": "2018 - 00237",
+    "vencimientoPagare": [
+      "1899-12-30T00:00:00.000Z"
+    ],
+    "expediente": "25175410300120180023700"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ALVARO",
+    "segundoNombre": "HERNAN",
+    "primerApellido": "RUIZ",
+    "segundoApellido": "HERNANDEZ",
+    "cedula": 73133278,
+    "direccion": "",
+    "email": "CALLE 1 SUR No 5A- 179 CASA 26 "
+  },
+  "numero": 419,
+  "llaveProceso": "25175410300120180023700",
+  "tipoProceso": "SINGULAR"
+}

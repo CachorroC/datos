@@ -1,1 +1,35 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":55186.03,"entregaGarantiasAbogado":"2017-09-29T00:00:00.000Z","etapaProcesal":"LIQUIDACION","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":"200828  / 4513070087585399","1":55303710092258330},"radicado":"2017 - 01330","vencimientoPagare":["2017-08-04T00:00:00.000Z"],"expediente":"11001400303920170133000"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"YEIMMY","segundoNombre":"CAROLINA","primerApellido":"FINO","segundoApellido":"BALLEN","cedula":35427969,"direccion":"CARRERA 91 No 157 B - 82  TORRE 2 APARTAMENTO 40","email":"carof111@hotmail.com"},"numero":291,"llaveProceso":"11001400303920170133000","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 55186.03,
+    "entregaGarantiasAbogado": "2017-09-29T00:00:00.000Z",
+    "etapaProcesal": "LIQUIDACION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": "200828  / 4513070087585399",
+      "1": 55303710092258330
+    },
+    "radicado": "2017 - 01330",
+    "vencimientoPagare": [
+      "2017-08-04T00:00:00.000Z"
+    ],
+    "expediente": "11001400303920170133000"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "YEIMMY",
+    "segundoNombre": "CAROLINA",
+    "primerApellido": "FINO",
+    "segundoApellido": "BALLEN",
+    "cedula": 35427969,
+    "direccion": "CARRERA 91 No 157 B - 82  TORRE 2 APARTAMENTO 40",
+    "email": "carof111@hotmail.com"
+  },
+  "numero": 291,
+  "llaveProceso": "11001400303920170133000",
+  "tipoProceso": "HIPOTECARIO"
+}

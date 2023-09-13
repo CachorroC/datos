@@ -1,1 +1,44 @@
-{"category":"Bancolombia","deudor":{"tel":{"fijo":7574806,"celular":3164336320},"primerNombre":"JAVIER","segundoNombre":"ALEJANDRO","primerApellido":"CARRERA","segundoApellido":"SIACHOQUE","cedula":79780047,"direccion":"Carrera 13 A No. 113 42 Apartamento 207 Santa Paula // Carrera 11 No. 112 – 65 // Calle 119 No. 7 – 14 Consultorio 617 // Calle 85 A No. 21 - 51","email":"carrerasiachoque@yahoo.com"},"numero":575,"tipoProceso":"SINGULAR","idProceso":132663050,"llaveProceso":"11001400300620230086400","categoryTag":1,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":6,"tipo":"JUZGADO 006 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-006-civil-municipal-de-bogota"}],"capitalAdeudado":null,"entregaGarantiasAbogado":"2023-08-17T00:00:00.000Z","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":"Q 0000000079780047027001","2":"N/A"},"radicado":"2023 - 00864","vencimientoPagare":["2026-04-02T00:00:00.000Z"],"expediente":"11001400300620230086400"}}
+{
+  "category": "Bancolombia",
+  "deudor": {
+    "tel": {
+      "fijo": 7574806,
+      "celular": 3164336320
+    },
+    "primerNombre": "JAVIER",
+    "segundoNombre": "ALEJANDRO",
+    "primerApellido": "CARRERA",
+    "segundoApellido": "SIACHOQUE",
+    "cedula": 79780047,
+    "direccion": "Carrera 13 A No. 113 42 Apartamento 207 Santa Paula // Carrera 11 No. 112 – 65 // Calle 119 No. 7 – 14 Consultorio 617 // Calle 85 A No. 21 - 51",
+    "email": "carrerasiachoque@yahoo.com"
+  },
+  "numero": 575,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 132663050,
+  "llaveProceso": "11001400300620230086400",
+  "categoryTag": 1,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 6,
+        "tipo": "JUZGADO 006 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-006-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2023-08-17T00:00:00.000Z",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": "Q 0000000079780047027001",
+      "2": "N/A"
+    },
+    "radicado": "2023 - 00864",
+    "vencimientoPagare": [
+      "2026-04-02T00:00:00.000Z"
+    ],
+    "expediente": "11001400300620230086400"
+  }
+}

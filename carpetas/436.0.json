@@ -1,1 +1,40 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"JUAN","segundoNombre":"CAMILO","primerApellido":"BAQUERO","segundoApellido":"BUTTNER","cedula":79145374,"direccion":"TRANSVERSAL 2A No 67-71","email":"jcbaquerob@gmail.com"},"numero":436,"tipoProceso":"SINGULAR","idProceso":17724160,"llaveProceso":"11001400306320180075600","categoryTag":5,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":63,"tipo":"JUZGADO 063 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-63-civil-municipal-de-bogota"}],"capitalAdeudado":null,"entregaGarantiasAbogado":"2018-05-23T00:00:00.000Z","etapaProcesal":"ADMISION","fechaPresentacion":"2018-05-31T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":5491585909873,"1":"AUDIOPRESTAMO"},"radicado":"2018 - 00756","vencimientoPagare":null,"expediente":"11001400306320180075600"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JUAN",
+    "segundoNombre": "CAMILO",
+    "primerApellido": "BAQUERO",
+    "segundoApellido": "BUTTNER",
+    "cedula": 79145374,
+    "direccion": "TRANSVERSAL 2A No 67-71",
+    "email": "jcbaquerob@gmail.com"
+  },
+  "numero": 436,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 17724160,
+  "llaveProceso": "11001400306320180075600",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 63,
+        "tipo": "JUZGADO 063 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-63-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2018-05-23T00:00:00.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-05-31T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": 5491585909873,
+      "1": "AUDIOPRESTAMO"
+    },
+    "radicado": "2018 - 00756",
+    "vencimientoPagare": null,
+    "expediente": "11001400306320180075600"
+  }
+}

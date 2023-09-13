@@ -1,1 +1,38 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"FERNANDO","primerApellido":"VERA","segundoApellido":"FARFAN","cedula":14320811,"direccion":"CARRERA 145 # 142F - 60  CASA 164","email":"verafarfan@hotmail.com"},"numero":212,"tipoProceso":"HIPOTECARIO","idProceso":10134513,"llaveProceso":"11001400304620170103500","categoryTag":5,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":46,"tipo":"JUZGADO 046 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-46-civil-municipal-de-bogota"}],"capitalAdeudado":12660.698,"entregaGarantiasAbogado":"2017-08-29T00:00:00.000Z","etapaProcesal":"","fechaPresentacion":"2017-09-04T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":99873,"1":""},"radicado":"2017 - 01035","vencimientoPagare":["2017-05-09T00:00:00.000Z"],"expediente":"11001400304620170103500"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "FERNANDO",
+    "primerApellido": "VERA",
+    "segundoApellido": "FARFAN",
+    "cedula": 14320811,
+    "direccion": "CARRERA 145 # 142F - 60  CASA 164",
+    "email": "verafarfan@hotmail.com"
+  },
+  "numero": 212,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 10134513,
+  "llaveProceso": "11001400304620170103500",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 46,
+        "tipo": "JUZGADO 046 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-46-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 12660.698,
+    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
+    "etapaProcesal": "",
+    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 99873, "1": "" },
+    "radicado": "2017 - 01035",
+    "vencimientoPagare": [
+      "2017-05-09T00:00:00.000Z"
+    ],
+    "expediente": "11001400304620170103500"
+  }
+}

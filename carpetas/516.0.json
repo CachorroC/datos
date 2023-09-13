@@ -1,1 +1,40 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"ALVARO","segundoNombre":"LUIS","primerApellido":"ASPRILLA","segundoApellido":"LUCUMI","cedula":79245905,"direccion":"CALLE 116 A- 70G-48 APTO 204","email":"asplucal@gmail.com"},"numero":516,"tipoProceso":"SINGULAR","idProceso":51786190,"llaveProceso":"11001418901420190019000","categoryTag":5,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":14,"tipo":"JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ","url":"https://www.ramajudicial.gov.cojuzgado-014-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"}],"capitalAdeudado":16800.337,"entregaGarantiasAbogado":"2018-11-01T00:00:00.000Z","etapaProcesal":"ADMISION","fechaPresentacion":"2019-01-02T05:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":3778164677886080,"1":530372013262050},"radicado":"2019 - 00190","vencimientoPagare":null,"expediente":"11001418901420190019000"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ALVARO",
+    "segundoNombre": "LUIS",
+    "primerApellido": "ASPRILLA",
+    "segundoApellido": "LUCUMI",
+    "cedula": 79245905,
+    "direccion": "CALLE 116 A- 70G-48 APTO 204",
+    "email": "asplucal@gmail.com"
+  },
+  "numero": 516,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 51786190,
+  "llaveProceso": "11001418901420190019000",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 14,
+        "tipo": "JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-014-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
+      }
+    ],
+    "capitalAdeudado": 16800.337,
+    "entregaGarantiasAbogado": "2018-11-01T00:00:00.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2019-01-02T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": 3778164677886080,
+      "1": 530372013262050
+    },
+    "radicado": "2019 - 00190",
+    "vencimientoPagare": null,
+    "expediente": "11001418901420190019000"
+  }
+}

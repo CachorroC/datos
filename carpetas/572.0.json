@@ -1,1 +1,45 @@
-{"category":"Bancolombia","deudor":{"tel":{"fijo":6154763,"celular":3102997350},"primerNombre":"JAIME","segundoNombre":"ENRIQUE","primerApellido":"QUINTERO","segundoApellido":"MENDOZA","cedula":9527771,"direccion":"CL 134 16 50 AP 104 Edificio Verona Barrio Contador Bogotá","email":"jaimequinterom1@hotmail.com"},"numero":572,"tipoProceso":"SINGULAR","idProceso":1829856154,"llaveProceso":"11001400305520230074600","categoryTag":1,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":55,"tipo":"JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-55-civil-municipal-de-bogota"}],"capitalAdeudado":null,"entregaGarantiasAbogado":"2023-08-04T00:00:00.000Z","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"1":1910090586,"2":94351552},"radicado":"2023 - 00746","vencimientoPagare":[null,"2026-03-08T05:00:00.000Z"],"expediente":"11001400305520230074600"}}
+{
+  "category": "Bancolombia",
+  "deudor": {
+    "tel": {
+      "fijo": 6154763,
+      "celular": 3102997350
+    },
+    "primerNombre": "JAIME",
+    "segundoNombre": "ENRIQUE",
+    "primerApellido": "QUINTERO",
+    "segundoApellido": "MENDOZA",
+    "cedula": 9527771,
+    "direccion": "CL 134 16 50 AP 104 Edificio Verona Barrio Contador Bogotá",
+    "email": "jaimequinterom1@hotmail.com"
+  },
+  "numero": 572,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 1829856154,
+  "llaveProceso": "11001400305520230074600",
+  "categoryTag": 1,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 55,
+        "tipo": "JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-55-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "1": 1910090586,
+      "2": 94351552
+    },
+    "radicado": "2023 - 00746",
+    "vencimientoPagare": [
+      null,
+      "2026-03-08T05:00:00.000Z"
+    ],
+    "expediente": "11001400305520230074600"
+  }
+}

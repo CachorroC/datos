@@ -1,1 +1,42 @@
-{"category":"Insolvencia","deudor":{"tel":{"fijo":6087374,"celular":3104865508},"primerNombre":"CARLOS","segundoNombre":"GERMAN","primerApellido":"RUGE","segundoApellido":"CASTAÑEDA","cedula":79861754,"direccion":"CALLE 72 A No  74 A - 77  ","email":"carlosgrugec@hotmail.com "},"numero":287,"tipoProceso":"PRENDARIO","idProceso":50242270,"llaveProceso":"11001400301620170015700","categoryTag":4,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":2,"tipo":"JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":44309.785,"entregaGarantiasAbogado":"2017-10-04T00:00:00.000Z","etapaProcesal":"1.100140037162017e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":12592504,"1":"N/A"},"radicado":"2017 - 00157","vencimientoPagare":["2020-09-29T00:00:00.000Z"],"expediente":"11001400301620170015700"}}
+{
+  "category": "Insolvencia",
+  "deudor": {
+    "tel": {
+      "fijo": 6087374,
+      "celular": 3104865508
+    },
+    "primerNombre": "CARLOS",
+    "segundoNombre": "GERMAN",
+    "primerApellido": "RUGE",
+    "segundoApellido": "CASTAÑEDA",
+    "cedula": 79861754,
+    "direccion": "CALLE 72 A No  74 A - 77  ",
+    "email": "carlosgrugec@hotmail.com "
+  },
+  "numero": 287,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 50242270,
+  "llaveProceso": "11001400301620170015700",
+  "categoryTag": 4,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 2,
+        "tipo": "JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 44309.785,
+    "entregaGarantiasAbogado": "2017-10-04T00:00:00.000Z",
+    "etapaProcesal": "1.100140037162017e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 12592504, "1": "N/A" },
+    "radicado": "2017 - 00157",
+    "vencimientoPagare": [
+      "2020-09-29T00:00:00.000Z"
+    ],
+    "expediente": "11001400301620170015700"
+  }
+}

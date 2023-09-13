@@ -1,1 +1,35 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":25303.069,"entregaGarantiasAbogado":"2017-08-24T00:00:00.000Z","etapaProcesal":"SENTENCIA","fechaPresentacion":"2017-08-30T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":138546,"1":""},"radicado":"2017 - 0991","vencimientoPagare":["2026-05-04T00:00:00.000Z"],"expediente":"1100140030122017099100"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":4429545,"celular":3118280782},"primerNombre":"DOUGLAS","segundoNombre":"FABIAN","primerApellido":"SIZA","segundoApellido":"CORTES","cedula":80244664,"direccion":"CARRERA 95 BIS # 90A - 12 ","email":"gufo2299@hotmail.com"},"numero":195,"llaveProceso":"1100140030122017099100","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 25303.069,
+    "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-08-30T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 138546, "1": "" },
+    "radicado": "2017 - 0991",
+    "vencimientoPagare": [
+      "2026-05-04T00:00:00.000Z"
+    ],
+    "expediente": "1100140030122017099100"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {
+      "fijo": 4429545,
+      "celular": 3118280782
+    },
+    "primerNombre": "DOUGLAS",
+    "segundoNombre": "FABIAN",
+    "primerApellido": "SIZA",
+    "segundoApellido": "CORTES",
+    "cedula": 80244664,
+    "direccion": "CARRERA 95 BIS # 90A - 12 ",
+    "email": "gufo2299@hotmail.com"
+  },
+  "numero": 195,
+  "llaveProceso": "1100140030122017099100",
+  "tipoProceso": "HIPOTECARIO"
+}

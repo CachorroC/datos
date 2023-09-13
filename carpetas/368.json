@@ -1,1 +1,31 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":36307.716,"entregaGarantiasAbogado":"2017-12-11T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":null,"municipio":"GIRARDOT","obligacion":{"0":6841,"1":""},"radicado":"2018 - 00066","vencimientoPagare":["2026-02-05T05:00:00.000Z"],"expediente":"25307400300120180006600"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"CAROLINA","primerApellido":"MARTINEZ","segundoApellido":"CALDERON","cedula":39577914,"direccion":"CARRERA 19 No 13-20 GIRARDOT","email":"caro_23mc@hotmail.com"},"numero":368,"llaveProceso":"25307400300120180006600","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 36307.716,
+    "entregaGarantiasAbogado": "2017-12-11T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "GIRARDOT",
+    "obligacion": { "0": 6841, "1": "" },
+    "radicado": "2018 - 00066",
+    "vencimientoPagare": [
+      "2026-02-05T05:00:00.000Z"
+    ],
+    "expediente": "25307400300120180006600"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "CAROLINA",
+    "primerApellido": "MARTINEZ",
+    "segundoApellido": "CALDERON",
+    "cedula": 39577914,
+    "direccion": "CARRERA 19 No 13-20 GIRARDOT",
+    "email": "caro_23mc@hotmail.com"
+  },
+  "numero": 368,
+  "llaveProceso": "25307400300120180006600",
+  "tipoProceso": "HIPOTECARIO"
+}

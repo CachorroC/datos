@@ -1,1 +1,43 @@
-{"category":"Terminados","deudor":{"tel":{"fijo":6356262,"celular":3013377704},"primerNombre":"MIGUEL","segundoNombre":"ALEJANDRO","primerApellido":"GARCIA","segundoApellido":"RODRIGUEZ","cedula":79134529,"direccion":"CARRERA 79 No 19A - 28. APARTAMENTO 1102","email":"aeljogarcia69@gmail.com"},"numero":393,"tipoProceso":"SINGULAR","idProceso":9088093,"llaveProceso":"11001400303820180014900","categoryTag":5,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":38,"tipo":"JUZGADO 038 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-038-civil-municipal-de-bogota"}],"capitalAdeudado":25857.393,"entregaGarantiasAbogado":"2018-01-29T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2018-05-02T05:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":377816034306740,"1":""},"radicado":"2018 - 00149","vencimientoPagare":null,"expediente":"11001400303820180014900"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": 6356262,
+      "celular": 3013377704
+    },
+    "primerNombre": "MIGUEL",
+    "segundoNombre": "ALEJANDRO",
+    "primerApellido": "GARCIA",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": 79134529,
+    "direccion": "CARRERA 79 No 19A - 28. APARTAMENTO 1102",
+    "email": "aeljogarcia69@gmail.com"
+  },
+  "numero": 393,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 9088093,
+  "llaveProceso": "11001400303820180014900",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 38,
+        "tipo": "JUZGADO 038 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-038-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 25857.393,
+    "entregaGarantiasAbogado": "2018-01-29T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2018-05-02T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": 377816034306740,
+      "1": ""
+    },
+    "radicado": "2018 - 00149",
+    "vencimientoPagare": null,
+    "expediente": "11001400303820180014900"
+  }
+}

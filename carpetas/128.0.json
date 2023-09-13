@@ -1,1 +1,39 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"MARIA","segundoNombre":"GLADYS","primerApellido":"","segundoApellido":"GONZALEZ SOSA","cedula":52385097,"direccion":"CALLE 62B SUR # 70 F - 45","email":"mariagladyys@hotmail.com"},"numero":128,"tipoProceso":"SINGULAR","idProceso":51463930,"llaveProceso":"11001400307820170073300","categoryTag":5,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":7,"tipo":"JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":13149.185,"entregaGarantiasAbogado":"2017-08-15T00:00:00.000Z","etapaProcesal":"SENTENCIA","fechaPresentacion":"2017-08-18T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":4060080684,"1":""},"radicado":"2017 - 00733","vencimientoPagare":["2018-05-11T00:00:00.000Z"],"expediente":"11001400307820170073300"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "MARIA",
+    "segundoNombre": "GLADYS",
+    "primerApellido": "",
+    "segundoApellido": "GONZALEZ SOSA",
+    "cedula": 52385097,
+    "direccion": "CALLE 62B SUR # 70 F - 45",
+    "email": "mariagladyys@hotmail.com"
+  },
+  "numero": 128,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 51463930,
+  "llaveProceso": "11001400307820170073300",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 7,
+        "tipo": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 13149.185,
+    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-08-18T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 4060080684, "1": "" },
+    "radicado": "2017 - 00733",
+    "vencimientoPagare": [
+      "2018-05-11T00:00:00.000Z"
+    ],
+    "expediente": "11001400307820170073300"
+  }
+}

@@ -1,1 +1,39 @@
-{"category":"Reintegra","deudor":{"tel":{"fijo":4062925},"primerNombre":"RHONALD","segundoNombre":"MEZA","primerApellido":"TARAPUES","segundoApellido":"","cedula":1087781966,"direccion":"CARRERA 73 A BIS No. 2 A-32 SUR BOGOTA","email":"mezaronald@yahoo.com"},"numero":86,"tipoProceso":"SINGULAR","idProceso":111939890,"llaveProceso":"11001400302220170056700","categoryTag":2,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":2,"tipo":"JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":null,"entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-06-14T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":2250084171,"1":"N/A"},"radicado":"2017-00567","vencimientoPagare":["2018-11-11T00:00:00.000Z"],"expediente":"11001400302220170056700"}}
+{
+  "category": "Reintegra",
+  "deudor": {
+    "tel": { "fijo": 4062925 },
+    "primerNombre": "RHONALD",
+    "segundoNombre": "MEZA",
+    "primerApellido": "TARAPUES",
+    "segundoApellido": "",
+    "cedula": 1087781966,
+    "direccion": "CARRERA 73 A BIS No. 2 A-32 SUR BOGOTA",
+    "email": "mezaronald@yahoo.com"
+  },
+  "numero": 86,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 111939890,
+  "llaveProceso": "11001400302220170056700",
+  "categoryTag": 2,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 2,
+        "tipo": "JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-06-14T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 2250084171, "1": "N/A" },
+    "radicado": "2017-00567",
+    "vencimientoPagare": [
+      "2018-11-11T00:00:00.000Z"
+    ],
+    "expediente": "11001400302220170056700"
+  }
+}

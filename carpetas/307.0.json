@@ -1,1 +1,42 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"CARLOS","segundoNombre":"ARTURO","primerApellido":"CASTAÑO","segundoApellido":"ALDANA","cedula":79309509,"direccion":"TRANSVERSAL 70 G No 63-52 SUR APTO 27 TORRE 2","email":"cac.marketing@hotmail.com"},"numero":307,"tipoProceso":"HIPOTECARIO","idProceso":50800110,"llaveProceso":"11001400303620170112500","categoryTag":5,"demanda":{"departamento":null,"juzgados":[{"id":1,"tipo":"JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":70693.047,"entregaGarantiasAbogado":"2017-10-20T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-10-24T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":190522,"1":4594250022871300},"radicado":"2017 - 01125","vencimientoPagare":["2031-01-27T00:00:00.000Z"],"expediente":"11001400303620170112500"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "CARLOS",
+    "segundoNombre": "ARTURO",
+    "primerApellido": "CASTAÑO",
+    "segundoApellido": "ALDANA",
+    "cedula": 79309509,
+    "direccion": "TRANSVERSAL 70 G No 63-52 SUR APTO 27 TORRE 2",
+    "email": "cac.marketing@hotmail.com"
+  },
+  "numero": 307,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50800110,
+  "llaveProceso": "11001400303620170112500",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": null,
+    "juzgados": [
+      {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 70693.047,
+    "entregaGarantiasAbogado": "2017-10-20T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-10-24T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": 190522,
+      "1": 4594250022871300
+    },
+    "radicado": "2017 - 01125",
+    "vencimientoPagare": [
+      "2031-01-27T00:00:00.000Z"
+    ],
+    "expediente": "11001400303620170112500"
+  }
+}

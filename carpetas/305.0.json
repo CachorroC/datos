@@ -1,1 +1,38 @@
-{"category":"Terminados","deudor":{"tel":{},"primerNombre":"FERNANDO","primerApellido":"RINCON","segundoApellido":"RODRIGUEZ","cedula":19479861,"direccion":"DIAGONAL 5 D BIS No 44 A -45","email":"serinconr@hotmail.com"},"numero":305,"tipoProceso":"PRENDARIO","idProceso":51701110,"llaveProceso":"11001400308220170125600","categoryTag":5,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":19,"tipo":"JUZGADO 019 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-19-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":11961.381,"entregaGarantiasAbogado":"2017-10-17T00:00:00.000Z","etapaProcesal":"1.100140030822017e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":12048231,"1":"N/A"},"radicado":"2017 - 01256","vencimientoPagare":["2020-10-11T00:00:00.000Z"],"expediente":"11001400308220170125600"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "FERNANDO",
+    "primerApellido": "RINCON",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": 19479861,
+    "direccion": "DIAGONAL 5 D BIS No 44 A -45",
+    "email": "serinconr@hotmail.com"
+  },
+  "numero": 305,
+  "tipoProceso": "PRENDARIO",
+  "idProceso": 51701110,
+  "llaveProceso": "11001400308220170125600",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 19,
+        "tipo": "JUZGADO 019 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-19-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 11961.381,
+    "entregaGarantiasAbogado": "2017-10-17T00:00:00.000Z",
+    "etapaProcesal": "1.100140030822017e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 12048231, "1": "N/A" },
+    "radicado": "2017 - 01256",
+    "vencimientoPagare": [
+      "2020-10-11T00:00:00.000Z"
+    ],
+    "expediente": "11001400308220170125600"
+  }
+}

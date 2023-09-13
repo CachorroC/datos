@@ -1,1 +1,45 @@
-{"category":"Reintegra","deudor":{"tel":{"fijo":5360278,"celular":3108540511},"primerNombre":"SANDRA","segundoNombre":"","primerApellido":"LILIANA","segundoApellido":"CRUZ BELTRAN","cedula":52155023,"direccion":"CALLE 86A No 95A-15 APTO 108","email":"mediconta@gmail.com"},"numero":537,"tipoProceso":"SINGULAR","idProceso":89137980,"llaveProceso":"11001400305120180085000","categoryTag":2,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":4,"tipo":"JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-04-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":20353.079,"entregaGarantiasAbogado":"2018-06-28T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2018-07-06T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":2270085292,"1":3778131949466660},"radicado":"2018 - 00850","vencimientoPagare":["2022-02-02T00:00:00.000Z"],"expediente":"11001400305120180085000"}}
+{
+  "category": "Reintegra",
+  "deudor": {
+    "tel": {
+      "fijo": 5360278,
+      "celular": 3108540511
+    },
+    "primerNombre": "SANDRA",
+    "segundoNombre": "",
+    "primerApellido": "LILIANA",
+    "segundoApellido": "CRUZ BELTRAN",
+    "cedula": 52155023,
+    "direccion": "CALLE 86A No 95A-15 APTO 108",
+    "email": "mediconta@gmail.com"
+  },
+  "numero": 537,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 89137980,
+  "llaveProceso": "11001400305120180085000",
+  "categoryTag": 2,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 4,
+        "tipo": "JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-04-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 20353.079,
+    "entregaGarantiasAbogado": "2018-06-28T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-07-06T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": 2270085292,
+      "1": 3778131949466660
+    },
+    "radicado": "2018 - 00850",
+    "vencimientoPagare": [
+      "2022-02-02T00:00:00.000Z"
+    ],
+    "expediente": "11001400305120180085000"
+  }
+}

@@ -1,1 +1,30 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":0,"entregaGarantiasAbogado":null,"etapaProcesal":"15/08/2018","fechaPresentacion":null,"municipio":"SOACHA","obligacion":{"0":"","1":""},"radicado":"2018 - 00855","vencimientoPagare":null,"expediente":"25754418900320180085500"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"SANDRA","segundoNombre":"MILENA","primerApellido":"VEGA","segundoApellido":"AVILA","cedula":52725153,"direccion":"","email":"TRANSVERSAL 2 ESTE No 32B-80 SUR "},"numero":473,"llaveProceso":"25754418900320180085500","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 0,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "15/08/2018",
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": { "0": "", "1": "" },
+    "radicado": "2018 - 00855",
+    "vencimientoPagare": null,
+    "expediente": "25754418900320180085500"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "SANDRA",
+    "segundoNombre": "MILENA",
+    "primerApellido": "VEGA",
+    "segundoApellido": "AVILA",
+    "cedula": 52725153,
+    "direccion": "",
+    "email": "TRANSVERSAL 2 ESTE No 32B-80 SUR "
+  },
+  "numero": 473,
+  "llaveProceso": "25754418900320180085500",
+  "tipoProceso": "HIPOTECARIO"
+}

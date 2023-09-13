@@ -1,1 +1,30 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":38393.691,"entregaGarantiasAbogado":"2017-08-17T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":490098495,"1":128775},"radicado":"2017 - 01532","vencimientoPagare":[null,null],"expediente":"1100140030732017015300"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"DIANA","segundoNombre":"PATRICIA","primerApellido":"SANCHEZ","segundoApellido":"SALCEDO ","cedula":53053612,"direccion":"TRANVERSAL 142 # 150 - 50 CASA 2 ET 8 ","email":"baldini@mybosi.com"},"numero":192,"llaveProceso":"1100140030732017015300","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 38393.691,
+    "entregaGarantiasAbogado": "2017-08-17T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 490098495, "1": 128775 },
+    "radicado": "2017 - 01532",
+    "vencimientoPagare": [null, null],
+    "expediente": "1100140030732017015300"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "DIANA",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "SANCHEZ",
+    "segundoApellido": "SALCEDO ",
+    "cedula": 53053612,
+    "direccion": "TRANVERSAL 142 # 150 - 50 CASA 2 ET 8 ",
+    "email": "baldini@mybosi.com"
+  },
+  "numero": 192,
+  "llaveProceso": "1100140030732017015300",
+  "tipoProceso": "HIPOTECARIO"
+}

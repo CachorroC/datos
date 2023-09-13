@@ -1,1 +1,42 @@
-{"category":"Terminados","deudor":{"tel":{"celular":3175921396},"primerNombre":"MARIA","segundoNombre":"CAROLINA","primerApellido":"MARTINEZ","segundoApellido":"VERA","cedula":37549188,"direccion":"CARRERA 54C No. 143-A-90//CARRERA 54C No. 143-A-90 APTO 213 TORRE 2 CONJUNTO RESIDENCIAL BARCELONA PH","email":"caromartinezvera@gmail.com"},"numero":51,"tipoProceso":"SINGULAR","idProceso":50537040,"llaveProceso":"11001400300920170060700","categoryTag":5,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":9,"tipo":"JUZGADO 009 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-009-civil-municipal-de-bogota"}],"capitalAdeudado":0,"entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-06-23T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":"6610083691//161451//3778815787383070","1":"5303715153971258//4513076874137526//AUDIOPRESTAMO"},"radicado":"2017 - 00607","vencimientoPagare":["2017-02-21T00:00:00.000Z"],"expediente":"11001400300920170060700"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": { "celular": 3175921396 },
+    "primerNombre": "MARIA",
+    "segundoNombre": "CAROLINA",
+    "primerApellido": "MARTINEZ",
+    "segundoApellido": "VERA",
+    "cedula": 37549188,
+    "direccion": "CARRERA 54C No. 143-A-90//CARRERA 54C No. 143-A-90 APTO 213 TORRE 2 CONJUNTO RESIDENCIAL BARCELONA PH",
+    "email": "caromartinezvera@gmail.com"
+  },
+  "numero": 51,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 50537040,
+  "llaveProceso": "11001400300920170060700",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 9,
+        "tipo": "JUZGADO 009 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-009-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 0,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-23T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": "6610083691//161451//3778815787383070",
+      "1": "5303715153971258//4513076874137526//AUDIOPRESTAMO"
+    },
+    "radicado": "2017 - 00607",
+    "vencimientoPagare": [
+      "2017-02-21T00:00:00.000Z"
+    ],
+    "expediente": "11001400300920170060700"
+  }
+}

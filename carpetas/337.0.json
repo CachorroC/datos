@@ -1,1 +1,42 @@
-{"category":"Insolvencia","deudor":{"tel":{"fijo":7651426,"celular":3115030138},"primerNombre":"HECTOR","segundoNombre":"ALFONSO","primerApellido":"TORRES","segundoApellido":"RIOS","cedula":79666742,"direccion":"TRANSVERSAL 17 No  64 F - 04 CASA 1 BIFAMILIAR MARLY","email":"rubypaez71@hotmail.com"},"numero":337,"tipoProceso":"HIPOTECARIO","idProceso":50857820,"llaveProceso":"11001400300620170096400","categoryTag":4,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":4,"tipo":"JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-04-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":99119.191,"entregaGarantiasAbogado":"2017-11-16T00:00:00.000Z","etapaProcesal":"1.100140030062017e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":140085,"1":"N/A"},"radicado":"2017 - 00964","vencimientoPagare":["2026-06-22T00:00:00.000Z"],"expediente":"11001400300620170096400"}}
+{
+  "category": "Insolvencia",
+  "deudor": {
+    "tel": {
+      "fijo": 7651426,
+      "celular": 3115030138
+    },
+    "primerNombre": "HECTOR",
+    "segundoNombre": "ALFONSO",
+    "primerApellido": "TORRES",
+    "segundoApellido": "RIOS",
+    "cedula": 79666742,
+    "direccion": "TRANSVERSAL 17 No  64 F - 04 CASA 1 BIFAMILIAR MARLY",
+    "email": "rubypaez71@hotmail.com"
+  },
+  "numero": 337,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 50857820,
+  "llaveProceso": "11001400300620170096400",
+  "categoryTag": 4,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 4,
+        "tipo": "JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-04-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 99119.191,
+    "entregaGarantiasAbogado": "2017-11-16T00:00:00.000Z",
+    "etapaProcesal": "1.100140030062017e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 140085, "1": "N/A" },
+    "radicado": "2017 - 00964",
+    "vencimientoPagare": [
+      "2026-06-22T00:00:00.000Z"
+    ],
+    "expediente": "11001400300620170096400"
+  }
+}

@@ -1,1 +1,30 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":0,"entregaGarantiasAbogado":null,"etapaProcesal":"","fechaPresentacion":null,"municipio":"SOACHA","obligacion":{"0":"","1":""},"radicado":"2021 - 00153","vencimientoPagare":null,"expediente":"25754400300120210015300"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"JOSE","segundoNombre":"EDGAR","primerApellido":"ACHURI","segundoApellido":"GONZALEZ","cedula":348774,"direccion":"","email":""},"numero":547,"llaveProceso":"25754400300120210015300","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 0,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "",
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": { "0": "", "1": "" },
+    "radicado": "2021 - 00153",
+    "vencimientoPagare": null,
+    "expediente": "25754400300120210015300"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JOSE",
+    "segundoNombre": "EDGAR",
+    "primerApellido": "ACHURI",
+    "segundoApellido": "GONZALEZ",
+    "cedula": 348774,
+    "direccion": "",
+    "email": ""
+  },
+  "numero": 547,
+  "llaveProceso": "25754400300120210015300",
+  "tipoProceso": "SINGULAR"
+}

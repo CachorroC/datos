@@ -1,1 +1,33 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":0,"entregaGarantiasAbogado":null,"etapaProcesal":"10/10/2017 // 13/03/2018","fechaPresentacion":null,"municipio":"ARBELAEZ","obligacion":{"0":"","1":"112.243.598.43"},"radicado":"2018 - 00049","vencimientoPagare":null,"expediente":"25053408900120180004900"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"YENNY","segundoNombre":"MARGOTH","primerApellido":"LARA","segundoApellido":"MUÑOZ","cedula":1069712582,"direccion":"","email":" CALLE 34 No 2 - 15 SOACHA"},"numero":281,"llaveProceso":"25053408900120180004900","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 0,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "10/10/2017 // 13/03/2018",
+    "fechaPresentacion": null,
+    "municipio": "ARBELAEZ",
+    "obligacion": {
+      "0": "",
+      "1": "112.243.598.43"
+    },
+    "radicado": "2018 - 00049",
+    "vencimientoPagare": null,
+    "expediente": "25053408900120180004900"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "YENNY",
+    "segundoNombre": "MARGOTH",
+    "primerApellido": "LARA",
+    "segundoApellido": "MUÑOZ",
+    "cedula": 1069712582,
+    "direccion": "",
+    "email": " CALLE 34 No 2 - 15 SOACHA"
+  },
+  "numero": 281,
+  "llaveProceso": "25053408900120180004900",
+  "tipoProceso": "HIPOTECARIO"
+}

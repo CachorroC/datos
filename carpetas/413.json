@@ -1,1 +1,32 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":21470.052,"entregaGarantiasAbogado":"2018-04-12T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2018-04-26T00:00:00.000Z","municipio":"SOACHA ","obligacion":{"0":20990182990,"1":""},"radicado":"2018 - 00363","vencimientoPagare":["2035-04-20T00:00:00.000Z"],"expediente":"25754418900220180036300"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"LUISA","segundoNombre":"FERNANDA","primerApellido":"SALAZAR","segundoApellido":" PATARROYO","cedula":1018430139,"direccion":"CARRERA 38 No 14-93 BLOQUE 9 APTO 102","email":"luifermkt889@hotmail.com"},"numero":413,"llaveProceso":"25754418900220180036300","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 21470.052,
+    "entregaGarantiasAbogado": "2018-04-12T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2018-04-26T00:00:00.000Z",
+    "municipio": "SOACHA ",
+    "obligacion": { "0": 20990182990, "1": "" },
+    "radicado": "2018 - 00363",
+    "vencimientoPagare": [
+      "2035-04-20T00:00:00.000Z"
+    ],
+    "expediente": "25754418900220180036300"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "LUISA",
+    "segundoNombre": "FERNANDA",
+    "primerApellido": "SALAZAR",
+    "segundoApellido": " PATARROYO",
+    "cedula": 1018430139,
+    "direccion": "CARRERA 38 No 14-93 BLOQUE 9 APTO 102",
+    "email": "luifermkt889@hotmail.com"
+  },
+  "numero": 413,
+  "llaveProceso": "25754418900220180036300",
+  "tipoProceso": "HIPOTECARIO"
+}

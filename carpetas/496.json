@@ -1,1 +1,35 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":27373.832,"entregaGarantiasAbogado":"2018-09-18T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2018-04-10T05:00:00.000Z","municipio":"CHIA","obligacion":{"0":"AUDIOPRESTAMO","1":5491570347356810},"radicado":"2018 - 00602","vencimientoPagare":[null,"2021-07-05T05:00:00.000Z"],"expediente":"25175408900320180060200"},"category":"Bancolombia","categoryTag":1,"deudor":{"tel":{},"primerNombre":"MODESTO","primerApellido":"PINEDA","segundoApellido":"PEREZ","cedula":13222728,"direccion":"CARRERA 6 No 6-59","email":"mopadinco@yahoo.com"},"numero":496,"llaveProceso":"25175408900320180060200","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 27373.832,
+    "entregaGarantiasAbogado": "2018-09-18T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-04-10T05:00:00.000Z",
+    "municipio": "CHIA",
+    "obligacion": {
+      "0": "AUDIOPRESTAMO",
+      "1": 5491570347356810
+    },
+    "radicado": "2018 - 00602",
+    "vencimientoPagare": [
+      null,
+      "2021-07-05T05:00:00.000Z"
+    ],
+    "expediente": "25175408900320180060200"
+  },
+  "category": "Bancolombia",
+  "categoryTag": 1,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "MODESTO",
+    "primerApellido": "PINEDA",
+    "segundoApellido": "PEREZ",
+    "cedula": 13222728,
+    "direccion": "CARRERA 6 No 6-59",
+    "email": "mopadinco@yahoo.com"
+  },
+  "numero": 496,
+  "llaveProceso": "25175408900320180060200",
+  "tipoProceso": "SINGULAR"
+}

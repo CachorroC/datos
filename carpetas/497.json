@@ -1,1 +1,31 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":23678.92,"entregaGarantiasAbogado":"2018-09-26T00:00:00.000Z","etapaProcesal":"ADMISION","fechaPresentacion":"2018-03-10T05:00:00.000Z","municipio":"ZIPAQUIRA","obligacion":{"0":20990142568,"1":""},"radicado":"2018 - 00435","vencimientoPagare":["2018-09-02T00:00:00.000Z"],"expediente":"25899410300120180043500"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{},"primerNombre":"ROQUE","primerApellido":"ANTONIO","segundoApellido":"SANCHEZ","cedula":11339859,"direccion":"CARRERA 11 No 24 A-21 APTO 30 RINCON DEL ZIPA","email":"mluisa_06@hotmail.com"},"numero":497,"llaveProceso":"25899410300120180043500","tipoProceso":"HIPOTECARIO"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 23678.92,
+    "entregaGarantiasAbogado": "2018-09-26T00:00:00.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-03-10T05:00:00.000Z",
+    "municipio": "ZIPAQUIRA",
+    "obligacion": { "0": 20990142568, "1": "" },
+    "radicado": "2018 - 00435",
+    "vencimientoPagare": [
+      "2018-09-02T00:00:00.000Z"
+    ],
+    "expediente": "25899410300120180043500"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ROQUE",
+    "primerApellido": "ANTONIO",
+    "segundoApellido": "SANCHEZ",
+    "cedula": 11339859,
+    "direccion": "CARRERA 11 No 24 A-21 APTO 30 RINCON DEL ZIPA",
+    "email": "mluisa_06@hotmail.com"
+  },
+  "numero": 497,
+  "llaveProceso": "25899410300120180043500",
+  "tipoProceso": "HIPOTECARIO"
+}

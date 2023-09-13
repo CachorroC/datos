@@ -1,1 +1,36 @@
-{"demanda":{"departamento":"CUNDINAMARCA","juzgados":[],"capitalAdeudado":16147.359,"entregaGarantiasAbogado":"2018-08-31T00:00:00.000Z","etapaProcesal":"ADMISION","fechaPresentacion":"2018-11-09T05:00:00.000Z","municipio":"TENJO","obligacion":{"0":"3450084783 / 3450084855","1":"AUDIOPRESTAMO"},"radicado":"2018 - 00335","vencimientoPagare":[null],"expediente":"25799418900120180033500"},"category":"Terminados","categoryTag":5,"deudor":{"tel":{"fijo":8646896,"celular":3202340560},"primerNombre":"FABIO","segundoNombre":"HERNANDO","primerApellido":"PASTOR","segundoApellido":"PASTOR","cedula":3199064,"direccion":"CARRERA 4  No  1F-52  TENJO","email":"juristenjo@hotmail.com"},"numero":478,"llaveProceso":"25799418900120180033500","tipoProceso":"SINGULAR"}
+{
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [],
+    "capitalAdeudado": 16147.359,
+    "entregaGarantiasAbogado": "2018-08-31T00:00:00.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-11-09T05:00:00.000Z",
+    "municipio": "TENJO",
+    "obligacion": {
+      "0": "3450084783 / 3450084855",
+      "1": "AUDIOPRESTAMO"
+    },
+    "radicado": "2018 - 00335",
+    "vencimientoPagare": [null],
+    "expediente": "25799418900120180033500"
+  },
+  "category": "Terminados",
+  "categoryTag": 5,
+  "deudor": {
+    "tel": {
+      "fijo": 8646896,
+      "celular": 3202340560
+    },
+    "primerNombre": "FABIO",
+    "segundoNombre": "HERNANDO",
+    "primerApellido": "PASTOR",
+    "segundoApellido": "PASTOR",
+    "cedula": 3199064,
+    "direccion": "CARRERA 4  No  1F-52  TENJO",
+    "email": "juristenjo@hotmail.com"
+  },
+  "numero": 478,
+  "llaveProceso": "25799418900120180033500",
+  "tipoProceso": "SINGULAR"
+}

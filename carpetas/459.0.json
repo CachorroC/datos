@@ -1,1 +1,38 @@
-{"category":"Terminados","deudor":{"tel":{"celular":3108121876},"primerNombre":"CESAR","primerApellido":"ARMANDO","segundoApellido":"VANEGAS","cedula":79857627,"direccion":"CALLE 131  No 109-13","email":"cesarvanegas1425@gmail.com"},"numero":459,"tipoProceso":"SINGULAR","idProceso":64641230,"llaveProceso":"11001400305320180094500","categoryTag":5,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":6,"tipo":"JUZGADO 006 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-06-de-ejecucion-civil-municipal-de-bogota"}],"capitalAdeudado":32492.443,"entregaGarantiasAbogado":"2018-07-16T00:00:00.000Z","etapaProcesal":"ADMISION","fechaPresentacion":"2018-07-23T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":5470085449,"1":""},"radicado":"2018 - 00945","vencimientoPagare":["2024-06-30T00:00:00.000Z"],"expediente":"11001400305320180094500"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": { "celular": 3108121876 },
+    "primerNombre": "CESAR",
+    "primerApellido": "ARMANDO",
+    "segundoApellido": "VANEGAS",
+    "cedula": 79857627,
+    "direccion": "CALLE 131  No 109-13",
+    "email": "cesarvanegas1425@gmail.com"
+  },
+  "numero": 459,
+  "tipoProceso": "SINGULAR",
+  "idProceso": 64641230,
+  "llaveProceso": "11001400305320180094500",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 6,
+        "tipo": "JUZGADO 006 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-06-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 32492.443,
+    "entregaGarantiasAbogado": "2018-07-16T00:00:00.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-07-23T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 5470085449, "1": "" },
+    "radicado": "2018 - 00945",
+    "vencimientoPagare": [
+      "2024-06-30T00:00:00.000Z"
+    ],
+    "expediente": "11001400305320180094500"
+  }
+}

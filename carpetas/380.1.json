@@ -1,1 +1,47 @@
-{"category":"Terminados","deudor":{"tel":{"fijo":5686327,"celular":3157236856},"primerNombre":"JHON","segundoNombre":"ALEXANDER","primerApellido":"ALARCON","segundoApellido":"GALVIS","cedula":79804965,"direccion":"CALLE 36C No 3A - 25","email":"jhondoblea@hotmail.com"},"numero":380,"tipoProceso":"HIPOTECARIO","idProceso":81806941,"llaveProceso":"11001400308120180011100","categoryTag":5,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":5,"tipo":"JUZGADO 005 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-05-de-ejecucion-civil-municipal-de-bogota"},{"id":81,"tipo":"JUZGADO 081 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-081-civil-municipal-de-bogota"}],"capitalAdeudado":40292.98,"entregaGarantiasAbogado":"2018-01-11T00:00:00.000Z","etapaProcesal":"1.100140030812018e+22","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"0":155380,"1":"N/A"},"radicado":"2018 - 00111","vencimientoPagare":["2027-08-31T00:00:00.000Z"],"expediente":"11001400308120180011100"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": 5686327,
+      "celular": 3157236856
+    },
+    "primerNombre": "JHON",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "ALARCON",
+    "segundoApellido": "GALVIS",
+    "cedula": 79804965,
+    "direccion": "CALLE 36C No 3A - 25",
+    "email": "jhondoblea@hotmail.com"
+  },
+  "numero": 380,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 81806941,
+  "llaveProceso": "11001400308120180011100",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 5,
+        "tipo": "JUZGADO 005 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-05-de-ejecucion-civil-municipal-de-bogota"
+      },
+      {
+        "id": 81,
+        "tipo": "JUZGADO 081 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-081-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 40292.98,
+    "entregaGarantiasAbogado": "2018-01-11T00:00:00.000Z",
+    "etapaProcesal": "1.100140030812018e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "0": 155380, "1": "N/A" },
+    "radicado": "2018 - 00111",
+    "vencimientoPagare": [
+      "2027-08-31T00:00:00.000Z"
+    ],
+    "expediente": "11001400308120180011100"
+  }
+}

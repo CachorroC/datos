@@ -1,1 +1,50 @@
-{"category":"Terminados","deudor":{"tel":{"fijo":7562457,"celular":3182221747},"primerNombre":"JHON","segundoNombre":"FREDY","primerApellido":"MURILLO","segundoApellido":"DAZA ","cedula":79787268,"direccion":"CALLE 26 # 103 - 09 ","email":"ingedibutec@gmail.com"},"numero":176,"tipoProceso":"HIPOTECARIO","idProceso":112783650,"llaveProceso":"11001400300420170080100","categoryTag":5,"demanda":{"departamento":"CUNDINAMARCA","juzgados":[{"id":4,"tipo":"JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota"},{"id":4,"tipo":"JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota"}],"capitalAdeudado":20211.828,"entregaGarantiasAbogado":"2017-08-16T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-08-28T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"0":113835,"1":377813623621787},"radicado":"2017 - 00801","vencimientoPagare":["2023-11-27T00:00:00.000Z"],"expediente":"11001400300420170080100"}}
+{
+  "category": "Terminados",
+  "deudor": {
+    "tel": {
+      "fijo": 7562457,
+      "celular": 3182221747
+    },
+    "primerNombre": "JHON",
+    "segundoNombre": "FREDY",
+    "primerApellido": "MURILLO",
+    "segundoApellido": "DAZA ",
+    "cedula": 79787268,
+    "direccion": "CALLE 26 # 103 - 09 ",
+    "email": "ingedibutec@gmail.com"
+  },
+  "numero": 176,
+  "tipoProceso": "HIPOTECARIO",
+  "idProceso": 112783650,
+  "llaveProceso": "11001400300420170080100",
+  "categoryTag": 5,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "juzgados": [
+      {
+        "id": 4,
+        "tipo": "JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota"
+      },
+      {
+        "id": 4,
+        "tipo": "JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota"
+      }
+    ],
+    "capitalAdeudado": 20211.828,
+    "entregaGarantiasAbogado": "2017-08-16T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "0": 113835,
+      "1": 377813623621787
+    },
+    "radicado": "2017 - 00801",
+    "vencimientoPagare": [
+      "2023-11-27T00:00:00.000Z"
+    ],
+    "expediente": "11001400300420170080100"
+  }
+}
