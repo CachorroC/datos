@@ -1,174 +1,319 @@
 'use strict';
-var __createBinding =
-  (this && this.__createBinding) ||
-  (Object.create
-    ? function (o, m, k, k2) {
-        if (k2 === undefined) k2 = k;
-        var desc =
-          Object.getOwnPropertyDescriptor(m, k);
-        if (
-          !desc ||
-          ('get' in desc
+var __createBinding
+  = ( this && this.__createBinding )
+  || ( Object.create
+    ? function (
+      o, m, k, k2 
+    ) {
+      if ( k2 === undefined ) {
+        k2 = k;
+      }
+      var desc
+          = Object.getOwnPropertyDescriptor(
+            m, k 
+          );
+
+      if (
+        !desc
+          || ( 'get' in desc
             ? !m.__esModule
-            : desc.writable || desc.configurable)
-        ) {
-          desc = {
-            enumerable: true,
-            get: function () {
-              return m[k];
-            }
-          };
-        }
-        Object.defineProperty(o, k2, desc);
-      }
-    : function (o, m, k, k2) {
-        if (k2 === undefined) k2 = k;
-        o[k2] = m[k];
-      });
-var __setModuleDefault =
-  (this && this.__setModuleDefault) ||
-  (Object.create
-    ? function (o, v) {
-        Object.defineProperty(o, 'default', {
+            : desc.writable || desc.configurable )
+      ) {
+        desc = {
           enumerable: true,
-          value: v
-        });
+          get       : function () {
+            return m[ k ];
+          }
+        };
       }
-    : function (o, v) {
-        o['default'] = v;
-      });
-var __importStar =
-  (this && this.__importStar) ||
-  function (mod) {
-    if (mod && mod.__esModule) return mod;
+      Object.defineProperty(
+        o, k2, desc 
+      );
+    }
+    : function (
+      o, m, k, k2 
+    ) {
+      if ( k2 === undefined ) {
+        k2 = k;
+      }
+      o[ k2 ] = m[ k ];
+    } );
+var __setModuleDefault
+  = ( this && this.__setModuleDefault )
+  || ( Object.create
+    ? function (
+      o, v 
+    ) {
+      Object.defineProperty(
+        o, 'default', {
+          enumerable: true,
+          value     : v
+        } 
+      );
+    }
+    : function (
+      o, v 
+    ) {
+      o[ 'default' ] = v;
+    } );
+
+var __importStar
+  = ( this && this.__importStar )
+  || function (
+    mod 
+  ) {
+    if ( mod && mod.__esModule ) {
+      return mod;
+    }
     var result = {};
-    if (mod != null)
-      for (var k in mod)
+
+    if ( mod != null ) {
+      for ( var k in mod ) {
         if (
-          k !== 'default' &&
-          Object.prototype.hasOwnProperty.call(
+          k !== 'default'
+          && Object.prototype.hasOwnProperty.call(
             mod,
             k
           )
-        )
-          __createBinding(result, mod, k);
-    __setModuleDefault(result, mod);
+        ) {
+          __createBinding(
+            result, mod, k 
+          );
+        }
+      }
+    }
+    __setModuleDefault(
+      result, mod 
+    );
+
     return result;
   };
-var __importDefault =
-  (this && this.__importDefault) ||
-  function (mod) {
+
+var __importDefault
+  = ( this && this.__importDefault )
+  || function (
+    mod 
+  ) {
     return mod && mod.__esModule
       ? mod
-      : { default: mod };
+      : {
+          default: mod 
+        };
   };
-Object.defineProperty(exports, '__esModule', {
-  value: true
-});
-exports.Demanda = exports.juzgadosByProceso =
-  void 0;
+Object.defineProperty(
+  exports, '__esModule', {
+    value: true
+  } 
+);
+exports.Demanda = exports.juzgadosByProceso
+  = void 0;
+
 const procesos_1 = __importStar(
-  require('../procesos')
+  require(
+    '../procesos' 
+  )
 );
-const despachos_1 = require('../despachos');
-const deudor_1 = require('./deudor');
-const fs = __importStar(require('fs/promises'));
-const __1 = require('..');
+
+const despachos_1 = require(
+  '../despachos' 
+);
+
+const deudor_1 = require(
+  './deudor' 
+);
+
+const fs = __importStar(
+  require(
+    'fs/promises' 
+  ) 
+);
+
+const __1 = require(
+  '..' 
+);
+
 const carpetas_raw_1 = __importDefault(
-  require('../data/carpetas-raw')
+  require(
+    '../data/carpetas-raw' 
+  )
 );
+
 const departamentos_1 = __importDefault(
-  require('../data/departamentos')
+  require(
+    '../data/departamentos' 
+  )
 );
-const carpeta_1 = require('./carpeta');
+
+const carpeta_1 = require(
+  './carpeta' 
+);
+
 function vencimientoPagareFixer(
   rawVencimientoPagare
 ) {
   const matcherPagare = rawVencimientoPagare
-    .toString()
-    .match(/\d{1,4}(\/|-)\d{1,2}(\/|-)\d{1,4}/g);
-  console.log(matcherPagare?.length);
-  if (!matcherPagare) {
+        .toString()
+        .match(
+          /\d{1,4}(\/|-)\d{1,2}(\/|-)\d{1,4}/g 
+        );
+  console.log(
+    matcherPagare?.length 
+  );
+
+  if ( !matcherPagare ) {
     return null;
   }
-  const newDates = matcherPagare.map((pagare) => {
-    console.log(pagare);
-    return new Date(pagare);
-  });
+
+  const newDates = matcherPagare.map(
+    (
+      pagare 
+    ) => {
+      console.log(
+        pagare 
+      );
+
+      return new Date(
+        pagare 
+      );
+    } 
+  );
+
   return newDates;
 }
-function capitalBuilder(capitalAdeudado) {
-  if (typeof capitalAdeudado === 'number') {
+
+function capitalBuilder(
+  capitalAdeudado 
+) {
+  if ( typeof capitalAdeudado === 'number' ) {
     return capitalAdeudado;
   }
+
   const copTaker = capitalAdeudado.replace(
     /\sCOP/gi,
     ''
   );
-  const dotTaker = copTaker.replace('.', '');
-  console.log(dotTaker);
-  return Number(dotTaker);
+
+  const dotTaker = copTaker.replace(
+    '.', '' 
+  );
+  console.log(
+    dotTaker 
+  );
+
+  return Number(
+    dotTaker 
+  );
 }
-function juzgadosByProceso(procesos) {
+
+function juzgadosByProceso(
+  procesos 
+) {
   const juzgados = new Set();
-  for (const proceso of procesos) {
-    const newJ = new NewJuzgado(proceso);
-    juzgados.add(newJ);
+
+  for ( const proceso of procesos ) {
+    const newJ = new NewJuzgado(
+      proceso 
+    );
+    juzgados.add(
+      newJ 
+    );
   }
-  return Array.from(juzgados);
+
+  return Array.from(
+    juzgados 
+  );
 }
 exports.juzgadosByProceso = juzgadosByProceso;
-function setDepartamento(departamento) {
+
+function setDepartamento(
+  departamento 
+) {
   const deptos = departamentos_1.default.result;
-  const filterDeptos = deptos.find((dpt) => {
-    const stringDepto = dpt.descripcion;
-    return (
-      stringDepto.toLowerCase() ===
-      departamento.toLowerCase()
-    );
-  });
-  if (filterDeptos) {
+
+  const filterDeptos = deptos.find(
+    (
+      dpt 
+    ) => {
+      const stringDepto = dpt.descripcion;
+
+      return (
+        stringDepto.toLowerCase()
+      === departamento.toLowerCase()
+      );
+    } 
+  );
+
+  if ( filterDeptos ) {
     return filterDeptos.descripcion;
   }
+
   return null;
 }
 class NewJuzgado {
-  constructor(proceso) {
-    const matchedDespacho =
-      despachos_1.Despachos.find((despacho) => {
-        const nDesp = despacho.nombre
-          .toLowerCase()
-          .normalize('NFD')
-          .replace(/\p{Diacritic}/gu, '')
-          .trim();
-        const pDesp = proceso.despacho
-          .toLowerCase()
-          .normalize('NFD')
-          .replace(/\p{Diacritic}/gu, '')
-          .trim();
-        const indexOfDesp = nDesp.indexOf(pDesp);
-        if (indexOfDesp >= 0) {
-          console.log(
-            `procesos despacho is in despachos ${
-              indexOfDesp + 1
-            }`
+  constructor(
+    proceso 
+  ) {
+    const matchedDespacho
+      = despachos_1.Despachos.find(
+        (
+          despacho 
+        ) => {
+          const nDesp = despacho.nombre
+                .toLowerCase()
+                .normalize(
+                  'NFD' 
+                )
+                .replace(
+                  /\p{Diacritic}/gu, '' 
+                )
+                .trim();
+
+          const pDesp = proceso.despacho
+                .toLowerCase()
+                .normalize(
+                  'NFD' 
+                )
+                .replace(
+                  /\p{Diacritic}/gu, '' 
+                )
+                .trim();
+
+          const indexOfDesp = nDesp.indexOf(
+            pDesp 
           );
-        }
-        return nDesp === pDesp;
-      });
+
+          if ( indexOfDesp >= 0 ) {
+            console.log(
+              `procesos despacho is in despachos ${
+                indexOfDesp + 1
+              }`
+            );
+          }
+
+          return nDesp === pDesp;
+        } 
+      );
+
     const nameN = matchedDespacho
       ? matchedDespacho.nombre
       : proceso.despacho;
-    const matchedId = nameN.match(/\d+/g);
-    this.id = Number(matchedId?.toString());
-    (this.tipo = matchedDespacho
+
+    const matchedId = nameN.match(
+      /\d+/g 
+    );
+    this.id = Number(
+      matchedId?.toString() 
+    );
+    ( this.tipo = matchedDespacho
       ? matchedDespacho.nombre
-      : proceso.despacho),
-      (this.url = matchedDespacho
-        ? `https://www.ramajudicial.gov.co${matchedDespacho.url}`
-        : `https://www.ramajudicial.gov.co${proceso.despacho
-            .replaceAll(' ', '-')
-            .toLowerCase()}`);
+      : proceso.despacho ),
+    ( this.url = matchedDespacho
+      ? `https://www.ramajudicial.gov.co${ matchedDespacho.url }`
+      : `https://www.ramajudicial.gov.co${ proceso.despacho
+            .replaceAll(
+              ' ', '-' 
+            )
+            .toLowerCase() }` );
   }
   id;
   tipo;
@@ -191,10 +336,11 @@ class Demanda {
     juzgados,
     llaveProceso
   ) {
-    if (llaveProceso) {
-      const stringTypeofLlaveProceso =
-        typeof llaveProceso === 'string';
-      if (stringTypeofLlaveProceso) {
+    if ( llaveProceso ) {
+      const stringTypeofLlaveProceso
+        = typeof llaveProceso === 'string';
+
+      if ( stringTypeofLlaveProceso ) {
         this.expediente = llaveProceso;
       } else {
         this.expediente = llaveProceso.toString();
@@ -206,8 +352,8 @@ class Demanda {
     this.entregaGarantiasAbogado = new Date(
       entregaGarantiasAbogado
     );
-    this.etapaProcesal =
-      etapaProcesal?.toString();
+    this.etapaProcesal
+      = etapaProcesal?.toString();
     this.fechaPresentacion = new Date(
       fechaPresentacion ?? ''
     );
@@ -215,10 +361,14 @@ class Demanda {
     this.municipio = municipio;
     this.obligacion = obligacion;
     this.radicado = radicado.toString();
-    this.vencimientoPagare =
-      vencimientoPagareFixer(vencimientoPagare);
-    this.departamento =
-      setDepartamento(departamento);
+    this.vencimientoPagare
+      = vencimientoPagareFixer(
+        vencimientoPagare 
+      );
+    this.departamento
+      = setDepartamento(
+        departamento 
+      );
   }
   departamento;
   juzgados;
@@ -232,66 +382,92 @@ class Demanda {
   vencimientoPagare;
 }
 exports.Demanda = Demanda;
+
 async function createCarpetasDemanda() {
   const procesosMap = new Map();
+
   const newCarpetas = new Set();
-  for (const carpeta of carpetas_raw_1.default) {
+
+  for ( const carpeta of carpetas_raw_1.default ) {
     const awaitTime = 200;
-    const now = new Date().getTime();
+
+    const now = new Date()
+          .getTime();
+
     const masTarde = now + awaitTime;
+
     const outputTime = new Date(
       masTarde
-    ).toLocaleDateString('es-CO', {
-      hour: 'numeric',
-      minute: 'numeric',
-      hour12: true
-    });
+    )
+          .toLocaleDateString(
+            'es-CO', {
+              hour  : 'numeric',
+              minute: 'numeric',
+              hour12: true
+            } 
+          );
     console.log(
-      `estará listo a las ${outputTime}`
+      `estará listo a las ${ outputTime }`
     );
-    await (0, procesos_1.sleep)(awaitTime);
+    await ( 0, procesos_1.sleep )(
+      awaitTime 
+    );
     console.log(
-      `carpetas has a length of ${carpetas_raw_1.default.length} and you are in carpeta number ${carpeta.numero}`
+      `carpetas has a length of ${ carpetas_raw_1.default.length } and you are in carpeta number ${ carpeta.numero }`
     );
-    const RequestProcesos = await (0,
-    procesos_1.default)({
-      llaveProceso:
+
+    const RequestProcesos = await ( 0,
+    procesos_1.default )(
+      {
+        llaveProceso:
         carpeta.llaveProceso.toString()
-    });
+      } 
+    );
+
     const newDeudor = new deudor_1.Deudor(
       carpeta.deudor
     );
-    console.log(newDeudor.tel.celular);
+    console.log(
+      newDeudor.tel.celular 
+    );
+
     const newDemanda = new Demanda(
       carpeta.demanda,
       [],
       carpeta.llaveProceso
     );
-    if (RequestProcesos.length > 0) {
-      for (const proceso of RequestProcesos) {
-        if (proceso.esPrivado) {
+
+    if ( RequestProcesos.length > 0 ) {
+      for ( const proceso of RequestProcesos ) {
+        if ( proceso.esPrivado ) {
           continue;
         }
         procesosMap.set(
           proceso.idProceso,
           proceso
         );
-        const indexOf =
-          RequestProcesos.indexOf(proceso);
+
+        const indexOf
+          = RequestProcesos.indexOf(
+            proceso 
+          );
+
         const juzgados = juzgadosByProceso(
           RequestProcesos
         );
+
         const newDemanda = new Demanda(
           carpeta.demanda,
           juzgados,
           carpeta.llaveProceso
         );
+
         const newCarpeta = {
-          category: carpeta.category,
-          deudor: newDeudor,
-          numero: carpeta.numero,
+          category   : carpeta.category,
+          deudor     : newDeudor,
+          numero     : carpeta.numero,
           tipoProceso: carpeta.tipoProceso,
-          idProceso: proceso.idProceso,
+          idProceso  : proceso.idProceso,
           llaveProceso:
             carpeta.llaveProceso.toString(),
           categoryTag:
@@ -305,12 +481,16 @@ async function createCarpetasDemanda() {
           }
         };
         fs.writeFile(
-          `carpetas/${newCarpeta.numero}.${indexOf}.json`,
-          JSON.stringify(newCarpeta)
+          `carpetas/${ newCarpeta.numero }.${ indexOf }.json`,
+          JSON.stringify(
+            newCarpeta 
+          )
         );
-        newCarpetas.add(newCarpeta);
+        newCarpetas.add(
+          newCarpeta 
+        );
       }
-    } else if (RequestProcesos.length === 0) {
+    } else if ( RequestProcesos.length === 0 ) {
       const newCarpeta = {
         demanda: {
           ...newDemanda,
@@ -319,7 +499,7 @@ async function createCarpetasDemanda() {
           departamento:
             carpeta.demanda.departamento
         },
-        category: carpeta.category,
+        category   : carpeta.category,
         categoryTag: carpeta_1.categories.indexOf(
           carpeta.category
         ),
@@ -330,41 +510,76 @@ async function createCarpetasDemanda() {
         tipoProceso: carpeta.tipoProceso
       };
       fs.writeFile(
-        `carpetas/${newCarpeta.numero}.carpeta.json`,
-        JSON.stringify(newCarpeta)
+        `carpetas/${ newCarpeta.numero }.carpeta.json`,
+        JSON.stringify(
+          newCarpeta 
+        )
       );
-      newCarpetas.add(newCarpeta);
+      newCarpetas.add(
+        newCarpeta 
+      );
     }
   }
+
   const newProcesosArray = Array.from(
     procesosMap.values()
   );
   fs.writeFile(
     'procesosData.json',
-    JSON.stringify(newProcesosArray)
+    JSON.stringify(
+      newProcesosArray 
+    )
   );
-  const newCarpetasArray =
-    Array.from(newCarpetas);
-  const insertCarpetas = await (0,
-  __1.insertNewCarpetas)(newCarpetasArray);
-  console.log(insertCarpetas);
+
+  const newCarpetasArray
+    = Array.from(
+      newCarpetas 
+    );
+
+  const insertCarpetas = await ( 0,
+  __1.insertNewCarpetas )(
+    newCarpetasArray 
+  );
+  console.log(
+    insertCarpetas 
+  );
+
   return newCarpetasArray;
 }
 console.log(
   createCarpetasDemanda()
-    .then(
-      (ff) => {
-        fs.writeFile(
-          'newCarpetasFinal.json',
-          JSON.stringify(ff)
-        );
-        return console.log(ff);
-      },
-      (rr) => {
-        return console.log(rr);
-      }
-    )
-    .catch((err) => {
-      return console.log(JSON.stringify(err));
-    })
+        .then(
+          (
+            ff 
+          ) => {
+            fs.writeFile(
+              'newCarpetasFinal.json',
+              JSON.stringify(
+                ff 
+              )
+            );
+
+            return console.log(
+              ff 
+            );
+          },
+          (
+            rr 
+          ) => {
+            return console.log(
+              rr 
+            );
+          }
+        )
+        .catch(
+          (
+            err 
+          ) => {
+            return console.log(
+              JSON.stringify(
+                err 
+              ) 
+            );
+          } 
+        )
 );

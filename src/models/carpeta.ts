@@ -1,11 +1,9 @@
-import {
-  Category,
-  IntCarpeta,
-  IntCarpetaRaw,
-  IntDemanda,
-  IntDeudor,
-  TipoProcesoRaw
-} from '../types/carpetas';
+import { Category,
+         IntCarpeta,
+         IntCarpetaRaw,
+         IntDemanda,
+         IntDeudor,
+         TipoProcesoRaw } from '../types/carpetas';
 import { Demanda } from './demanda';
 import { Deudor } from './deudor';
 
@@ -19,18 +17,20 @@ export const categories = [
 ];
 
 export class Carpeta implements IntCarpeta {
-  constructor({
-    llaveProceso,
-    category,
-    deudor,
-    demanda,
-    tipoProceso,
-    numero
-  }: IntCarpetaRaw) {
-    const stringLlaveProceso =
-      typeof llaveProceso === 'string';
+  constructor(
+    {
+      llaveProceso,
+      category,
+      deudor,
+      demanda,
+      tipoProceso,
+      numero
+    }: IntCarpetaRaw 
+  ) {
+    const stringLlaveProceso
+      = typeof llaveProceso === 'string';
 
-    if (stringLlaveProceso) {
+    if ( stringLlaveProceso ) {
       this.llaveProceso = llaveProceso;
     } else {
       this.llaveProceso = llaveProceso.toString();
@@ -38,9 +38,13 @@ export class Carpeta implements IntCarpeta {
     this.category = category;
     this.numero = numero;
     this.tipoProceso = tipoProceso;
-    this.categoryTag =
-      categories.indexOf(category);
-    this.deudor = new Deudor(deudor);
+    this.categoryTag
+      = categories.indexOf(
+        category 
+      );
+    this.deudor = new Deudor(
+      deudor 
+    );
     this.demanda = new Demanda(
       demanda,
       [],
@@ -55,7 +59,9 @@ export class Carpeta implements IntCarpeta {
   numero: number;
   tipoProceso: TipoProcesoRaw;
 
-  set llaveProceso(x: string) {
+  set llaveProceso(
+    x: string 
+  ) {
     this.llaveProceso = x;
   }
   get llaveProceso() {
