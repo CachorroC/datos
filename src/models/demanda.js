@@ -16,6 +16,8 @@ function vencimientoPagareFixer(
 ) {
   const stringer = `${ rawVencimientoPagare }`;
 
+  const pagaresDateSet = new Set();
+
   const matcherPagare = stringer.split(
     '//' 
   );
@@ -23,21 +25,22 @@ function vencimientoPagareFixer(
     matcherPagare?.length 
   );
 
-  if ( !matcherPagare ) {
-    return null;
+  for ( const pagare of matcherPagare ) {
+    const stringDate = new Date(
+      pagare 
+    );
+
+    if ( !stringDate ) {
+      continue;
+    }
+
+    pagaresDateSet.add(
+      stringDate 
+    );
   }
 
-  return matcherPagare.map(
-    (
-      pagare 
-    ) => {
-      console.log(
-        pagare 
-      );
-      return new Date(
-        pagare 
-      );
-    } 
+  return Array.from(
+    pagaresDateSet 
   );
 }
 
