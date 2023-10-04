@@ -1,19 +1,10 @@
 {
-  "demanda": {
-    "departamento": "CUNDINAMARCA",
-    "juzgados": [],
-    "capitalAdeudado": 16585.595,
-    "entregaGarantiasAbogado": "2018-11-30T00:00:00.000Z",
-    "etapaProcesal": "",
-    "fechaPresentacion": null,
-    "municipio": "COTA",
-    "obligacion": { "0": 8270082134, "1": "" },
-    "radicado": "2018 - 01002",
-    "vencimientoPagare": [null],
-    "expediente": "25214400300120180100200"
-  },
+  "idProcesos": [],
+  "numero": 509,
+  "cc": 20401209,
+  "llaveProceso": "25214400300120180100200",
   "category": "Terminados",
-  "categoryTag": 5,
+  "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {},
     "primerNombre": "DIANA",
@@ -24,7 +15,19 @@
     "direccion": "CALLE 7 No 5-31",
     "email": "todostienenzero@hotmail.com"
   },
-  "numero": 509,
-  "llaveProceso": "25214400300120180100200",
-  "tipoProceso": "SINGULAR"
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "COTA",
+    "obligacion": { "A": 8270082134 },
+    "radicado": "2018 - 01002",
+    "vencimientoPagare": [null],
+    "expediente": "25214400300120180100200",
+    "juzgados": []
+  }
 }

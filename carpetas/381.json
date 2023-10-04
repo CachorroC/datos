@@ -1,24 +1,10 @@
 {
-  "demanda": {
-    "departamento": {
-      "idCatalogoDetalle": 13,
-      "idCatalogoDetallePadre": 1,
-      "descripcion": "CUNDINAMARCA",
-      "codigo": "25"
-    },
-    "capitalAdeudado": "24878276,25",
-    "entregagarantiasAbogado": null,
-    "etapaProcesal": "ADMISION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": { "1": 155586, "2": "" },
-    "radicado": "2018 - 00075",
-    "vencimientoPagare": "2027-09-06T00:00:00.000Z",
-    "expediente": "11001400304120180007500",
-    "juzgados": []
-  },
+  "idProcesos": [19431801],
+  "numero": 381,
+  "cc": 1032396480,
+  "llaveProceso": "11001400304120180007500",
   "category": "Terminados",
-  "categoryTag": 5,
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "celular": 3203430311 },
     "primerNombre": "NIELCEN",
@@ -26,10 +12,30 @@
     "primerApellido": "MARIN",
     "segundoApellido": "MELO",
     "cedula": 1032396480,
-    "direccion": "CARRERA 81 B No 66 - 51 CASA 139 TERRAZA DE CASTILLA // TRV 70 G # 63 - 52 SUR APTO 604 BL 5 ",
+    "direccion": "CARRERA 81 B No 66 - 51 CASA 139 TERRAZA DE CASTILLA // TRV 70 G # 63 - 52 SUR APTO 604 BL 5",
     "email": "nimary20@hotmail.com"
   },
-  "numero": 381,
-  "llaveProceso": "11001400304120180007500",
-  "tipoProceso": "HIPOTECARIO"
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 155586 },
+    "radicado": "2018 - 00075",
+    "vencimientoPagare": [
+      "2027-09-06T00:00:00.000Z"
+    ],
+    "expediente": "11001400304120180007500",
+    "juzgados": [
+      {
+        "id": 41,
+        "tipo": "JUZGADO 041 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-041-civil-municipal-de-bogota"
+      }
+    ]
+  }
 }

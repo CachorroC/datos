@@ -1,1 +1,40 @@
-{"idProcesos":[50593640],"numero":164,"cc":14255996,"llaveProceso":"11001400304520170090500","category":"Reintegra","tipoProceso":"SINGULAR","deudor":{"tel":{"celular":3102785072},"primerNombre":"JOSE","segundoNombre":"URIEL","primerApellido":"RUIZ","segundoApellido":"DIAZ","cedula":14255996,"direccion":"CARRERA 82 A No. 6B-30 CASA 36"},"demanda":{"capitalAdeudado":25519.225,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-07-19T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-09-01T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-07-21T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":6240082772},"radicado":"2017 - 00905","vencimientoPagare":["2019-09-30T00:00:00.000Z"],"expediente":"11001400304520170090500","juzgados":[{"id":2,"tipo":"JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50593640],
+  "numero": 164,
+  "cc": 14255996,
+  "llaveProceso": "11001400304520170090500",
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": { "celular": 3102785072 },
+    "primerNombre": "JOSE",
+    "segundoNombre": "URIEL",
+    "primerApellido": "RUIZ",
+    "segundoApellido": "DIAZ",
+    "cedula": 14255996,
+    "direccion": "CARRERA 82 A No. 6B-30 CASA 36"
+  },
+  "demanda": {
+    "capitalAdeudado": 25519.225,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-07-19T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-01T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-07-21T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 6240082772 },
+    "radicado": "2017 - 00905",
+    "vencimientoPagare": [
+      "2019-09-30T00:00:00.000Z"
+    ],
+    "expediente": "11001400304520170090500",
+    "juzgados": [
+      {
+        "id": 2,
+        "tipo": "JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

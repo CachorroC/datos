@@ -1,1 +1,44 @@
-{"numero":367,"cc":79416270,"llaveProceso":"11001400307820170123500","idProcesos":[],"category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":6481255,"celular":3144899865},"primerNombre":"ANDRES","segundoNombre":"ANTONIO","primerApellido":"","segundoApellido":"AMEZQUITA PAEZ","cedula":79416270,"direccion":"CALLE 130 C BIS A No 99-49","email":"amezquitapaa@gmail.com"},"demanda":{"capitalAdeudado":29419.277,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-01-12T05:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-12-12T05:00:00.000Z","etapaProcesal":"11001400307820170123500","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":168725},"radicado":"2017 - 01235","vencimientoPagare":null,"expediente":"11001400307820170123500","juzgados":[]}}
+{
+  "idProcesos": [88297260],
+  "numero": 367,
+  "cc": 79416270,
+  "llaveProceso": "11001400307820170123500",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 6481255,
+      "celular": 3144899865
+    },
+    "primerNombre": "ANDRES",
+    "segundoNombre": "ANTONIO",
+    "primerApellido": "",
+    "segundoApellido": "AMEZQUITA PAEZ",
+    "cedula": 79416270,
+    "direccion": "CALLE 130 C BIS A No 99-49",
+    "email": "amezquitapaa@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 29419.277,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-01-12T05:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-12-12T05:00:00.000Z",
+    "etapaProcesal": "11001400307820170123500",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 168725 },
+    "radicado": "2017 - 01235",
+    "vencimientoPagare": [
+      "2033-10-10T05:00:00.000Z"
+    ],
+    "expediente": "11001400307820170123500",
+    "juzgados": [
+      {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

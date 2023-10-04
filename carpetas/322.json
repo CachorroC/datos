@@ -1,1 +1,44 @@
-{"numero":322,"cc":63395806,"llaveProceso":"11001400308620170120500","idProcesos":[],"category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":5205695,"celular":3112326151},"primerNombre":"CLAUDIA","segundoNombre":"YAMILE","primerApellido":"SUAREZ","segundoApellido":"POBLADOR","cedula":63395806,"direccion":"CALLE 127 C - No  2 B - 18  APARTAMENTO 101","email":"claudiasuarezp@gmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-10-25T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":"2017-11-07T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":155766},"radicado":"2017 - 01205","vencimientoPagare":null,"expediente":"11001400308620170120500","juzgados":[]}}
+{
+  "idProcesos": [81891881],
+  "numero": 322,
+  "cc": 63395806,
+  "llaveProceso": "11001400308620170120500",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 5205695,
+      "celular": 3112326151
+    },
+    "primerNombre": "CLAUDIA",
+    "segundoNombre": "YAMILE",
+    "primerApellido": "SUAREZ",
+    "segundoApellido": "POBLADOR",
+    "cedula": 63395806,
+    "direccion": "CALLE 127 C - No  2 B - 18  APARTAMENTO 101",
+    "email": "claudiasuarezp@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-10-25T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": "2017-11-07T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 155766 },
+    "radicado": "2017 - 01205",
+    "vencimientoPagare": [
+      "2027-09-11T00:00:00.000Z"
+    ],
+    "expediente": "11001400308620170120500",
+    "juzgados": [
+      {
+        "id": 86,
+        "tipo": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

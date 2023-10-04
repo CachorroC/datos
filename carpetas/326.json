@@ -1,1 +1,44 @@
-{"numero":326,"cc":19352146,"llaveProceso":"11001400303420170147100","idProcesos":[],"category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":7102329,"celular":3138267838},"primerNombre":"JORGE","segundoNombre":"ELIECER","primerApellido":"GOMEZ","segundoApellido":"LOPEZ","cedula":19352146,"direccion":"DIAGONAL 58 No 28 - 72    APARTAMENTO 603 INTERIOR 6","email":"elpotegomez@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-10-27T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-12-04T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-11-02T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":103162},"radicado":"2017 - 01471","vencimientoPagare":null,"expediente":"11001400303420170147100","juzgados":[]}}
+{
+  "idProcesos": [50834080],
+  "numero": 326,
+  "cc": 19352146,
+  "llaveProceso": "11001400303420170147100",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 7102329,
+      "celular": 3138267838
+    },
+    "primerNombre": "JORGE",
+    "segundoNombre": "ELIECER",
+    "primerApellido": "GOMEZ",
+    "segundoApellido": "LOPEZ",
+    "cedula": 19352146,
+    "direccion": "DIAGONAL 58 No 28 - 72    APARTAMENTO 603 INTERIOR 6",
+    "email": "elpotegomez@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-10-27T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-12-04T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-11-02T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 103162 },
+    "radicado": "2017 - 01471",
+    "vencimientoPagare": [
+      "2022-11-26T00:00:00.000Z"
+    ],
+    "expediente": "11001400303420170147100",
+    "juzgados": [
+      {
+        "id": 34,
+        "tipo": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

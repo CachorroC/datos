@@ -1,1 +1,45 @@
-{"numero":255,"cc":23946115,"llaveProceso":"11001400301220170102100","idProcesos":[],"category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"YEIMI","segundoNombre":"ZORAIDA","primerApellido":"PEREZ","segundoApellido":"ACEVEDO","cedula":23946115,"direccion":"DIAGONAL 136 BIS # 3 - 80 SUR "},"demanda":{"capitalAdeudado":15311.681,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-01T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-09-05T00:00:00.000Z","etapaProcesal":"11001400301220170102100","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":940082843},"radicado":"2017 - 01021","vencimientoPagare":null,"expediente":"11001400301220170102100","juzgados":[]}}
+{
+  "idProcesos": [50692560, 73154161],
+  "numero": 255,
+  "cc": 23946115,
+  "llaveProceso": "11001400301220170102100",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "YEIMI",
+    "segundoNombre": "ZORAIDA",
+    "primerApellido": "PEREZ",
+    "segundoApellido": "ACEVEDO",
+    "cedula": 23946115,
+    "direccion": "DIAGONAL 136 BIS # 3 - 80 SUR"
+  },
+  "demanda": {
+    "capitalAdeudado": 15311.681,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-01T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-05T00:00:00.000Z",
+    "etapaProcesal": "11001400301220170102100",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 940082843 },
+    "radicado": "2017 - 01021",
+    "vencimientoPagare": [
+      "2019-07-19T00:00:00.000Z"
+    ],
+    "expediente": "11001400301220170102100",
+    "juzgados": [
+      {
+        "id": 14,
+        "tipo": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota"
+      },
+      {
+        "id": 12,
+        "tipo": "JUZGADO 012 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-012-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

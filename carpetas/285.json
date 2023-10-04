@@ -1,1 +1,47 @@
-{"numero":285,"cc":52318314,"llaveProceso":"11001400300520170132600","idProcesos":[],"category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{"fijo":8065373,"celular":3134576869},"primerNombre":"ADRIANA","segundoNombre":"MARIA","primerApellido":"PEREZ","segundoApellido":"GOMEZ","cedula":52318314,"direccion":"CALLE 19 A 82 65 TR 4 APARTAMENTO 301 ","email":"adrianitaa@gmail.com"},"demanda":{"capitalAdeudado":21223.176,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-12T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-09-18T00:00:00.000Z","etapaProcesal":"11001400300520170132600","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":6900083898,"B":"4513086465970276 // AUDIOPRESTAMO"},"radicado":"2017 - 01326","vencimientoPagare":null,"expediente":"11001400300520170132600","juzgados":[]}}
+{
+  "idProcesos": [50720040],
+  "numero": 285,
+  "cc": 52318314,
+  "llaveProceso": "11001400300520170132600",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 8065373,
+      "celular": 3134576869
+    },
+    "primerNombre": "ADRIANA",
+    "segundoNombre": "MARIA",
+    "primerApellido": "PEREZ",
+    "segundoApellido": "GOMEZ",
+    "cedula": 52318314,
+    "direccion": "CALLE 19 A 82 65 TR 4 APARTAMENTO 301",
+    "email": "adrianitaa@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 21223.176,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-12T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-18T00:00:00.000Z",
+    "etapaProcesal": "11001400300520170132600",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "A": 6900083898,
+      "B": "4513086465970276 // AUDIOPRESTAMO"
+    },
+    "radicado": "2017 - 01326",
+    "vencimientoPagare": [
+      "2017-06-10T00:00:00.000Z"
+    ],
+    "expediente": "11001400300520170132600",
+    "juzgados": [
+      {
+        "id": 10,
+        "tipo": "JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-10-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

@@ -1,4 +1,41 @@
 {
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
+  "idProcesos": [113353750],
+  "numero": 273,
+  "cc": 1024479389,
+  "llaveProceso": "11001400306420180102900",
+  "category": "Insolvencia",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "SONIA",
+    "segundoNombre": "MARCELA",
+    "primerApellido": "MOLINA",
+    "segundoApellido": "QUIMBAYO",
+    "cedula": 1024479389,
+    "direccion": "CALLE 67 No 17 C-63 SUR",
+    "email": "sonymarce20@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 65355.736,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-05-10T05:00:00.000Z",
+    "etapaProcesal": "11001400306420180102900",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 156791 },
+    "radicado": "2018 - 01029",
+    "vencimientoPagare": [
+      "2022-05-10T05:00:00.000Z"
+    ],
+    "expediente": "11001400306420180102900",
+    "juzgados": [
+      {
+        "id": 64,
+        "tipo": "JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-064-civil-municipal-de-bogota"
+      }
+    ]
+  }
 }

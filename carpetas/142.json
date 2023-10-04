@@ -1,1 +1,31 @@
-{"numero":142,"cc":36184358,"llaveProceso":"25286310300120170074200","idProcesos":[],"category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"DEISY","segundoNombre":"POLANIA","primerApellido":"CUELLAR","segundoApellido":"","cedula":36184358,"direccion":"CARREA 2 # 21 - 55 TO 402 J FUNZA"},"demanda":{"capitalAdeudado":123933432.79,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-11T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-10-09T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-08-23T00:00:00.000Z","municipio":"FUNZA","obligacion":{"A":20990186969},"radicado":"2017 - 00742","vencimientoPagare":null,"expediente":"25286310300120170074200","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 142,
+  "cc": 36184358,
+  "llaveProceso": "25286310300120170074200",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "DEISY",
+    "primerApellido": "POLANIA",
+    "segundoApellido": "CUELLAR",
+    "cedula": 36184358,
+    "direccion": "CARREA 2 # 21 - 55 TO 402 J FUNZA"
+  },
+  "demanda": {
+    "capitalAdeudado": 123933432.79,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-10-09T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-23T00:00:00.000Z",
+    "municipio": "FUNZA",
+    "obligacion": { "A": 20990186969 },
+    "radicado": "2017 - 00742",
+    "vencimientoPagare": null,
+    "expediente": "25286310300120170074200",
+    "juzgados": []
+  }
+}

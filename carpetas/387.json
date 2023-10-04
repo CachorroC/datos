@@ -1,1 +1,46 @@
-{"idProcesos":[106185210],"numero":387,"cc":91263617,"llaveProceso":"11001400305020170133600","category":"Reintegra","tipoProceso":"SINGULAR","deudor":{"tel":{"fijo":4251180,"celular":3118066048},"primerNombre":"LEONARDO","primerApellido":"SANABRIA","segundoApellido":"SANABRIA","cedula":91263617,"direccion":"CARRERA 85  B No  23 B - 69  INTERIOR 7 APARTAMENTO  314","email":"leo.sanabria@live.com.mx"},"demanda":{"capitalAdeudado":36331.525,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-11-09T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2018-02-12T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-11-20T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":2500085167,"B":"AUDIOPRESTAMO"},"radicado":"2017 - 01336","vencimientoPagare":["2019-05-05T00:00:00.000Z"],"expediente":"11001400305020170133600","juzgados":[{"id":14,"tipo":"JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [106185210],
+  "numero": 387,
+  "cc": 91263617,
+  "llaveProceso": "11001400305020170133600",
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 4251180,
+      "celular": 3118066048
+    },
+    "primerNombre": "LEONARDO",
+    "primerApellido": "SANABRIA",
+    "segundoApellido": "SANABRIA",
+    "cedula": 91263617,
+    "direccion": "CARRERA 85  B No  23 B - 69  INTERIOR 7 APARTAMENTO  314",
+    "email": "leo.sanabria@live.com.mx"
+  },
+  "demanda": {
+    "capitalAdeudado": 36331.525,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-11-09T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-02-12T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-11-20T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "A": 2500085167,
+      "B": "AUDIOPRESTAMO"
+    },
+    "radicado": "2017 - 01336",
+    "vencimientoPagare": [
+      "2019-05-05T00:00:00.000Z"
+    ],
+    "expediente": "11001400305020170133600",
+    "juzgados": [
+      {
+        "id": 14,
+        "tipo": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

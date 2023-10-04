@@ -1,1 +1,40 @@
-{"idProcesos":[112625340],"numero":36,"cc":52314251,"llaveProceso":"11001400306620170089200","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"celular":3012419992},"primerNombre":"SANDRA","segundoNombre":"PATRICIA","primerApellido":"AGUDELO","segundoApellido":"MONTAGUT","cedula":52314251,"direccion":"CALLE 49 SUR No. 89 B-30 Etapa 1 CAsa1"},"demanda":{"capitalAdeudado":9633585,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-06-06T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-06-28T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-06-14T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":65758},"radicado":"2017 - 00892","vencimientoPagare":["2017-09-15T00:00:00.000Z"],"expediente":"11001400306620170089200","juzgados":[{"id":66,"tipo":"JUZGADO 066 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-066-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [112625340],
+  "numero": 36,
+  "cc": 52314251,
+  "llaveProceso": "11001400306620170089200",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": { "celular": 3012419992 },
+    "primerNombre": "SANDRA",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "AGUDELO",
+    "segundoApellido": "MONTAGUT",
+    "cedula": 52314251,
+    "direccion": "CALLE 49 SUR No. 89 B-30 Etapa 1 CAsa1"
+  },
+  "demanda": {
+    "capitalAdeudado": 9633585,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-06T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-06-28T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-14T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 65758 },
+    "radicado": "2017 - 00892",
+    "vencimientoPagare": [
+      "2017-09-15T00:00:00.000Z"
+    ],
+    "expediente": "11001400306620170089200",
+    "juzgados": [
+      {
+        "id": 66,
+        "tipo": "JUZGADO 066 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-066-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

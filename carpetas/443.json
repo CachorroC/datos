@@ -1,4 +1,42 @@
 {
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
+  "idProcesos": [51264250],
+  "numero": 443,
+  "cc": 80424051,
+  "llaveProceso": "11001400301020180078400",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": { "celular": 3502092709 },
+    "primerNombre": "DIEGO",
+    "segundoNombre": "FERNANDO",
+    "primerApellido": "BENITEZ",
+    "segundoApellido": "ALVARADO",
+    "cedula": 80424051,
+    "direccion": "CARRERA 10 No 12-32, APTO 230 TORRE 8",
+    "email": "dieben71@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-05-08T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-06-19T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "A": "AUDIOPRESTAMO",
+      "B": 1740087509
+    },
+    "radicado": "2018 - 00784",
+    "vencimientoPagare": null,
+    "expediente": "11001400301020180078400",
+    "juzgados": [
+      {
+        "id": 10,
+        "tipo": "JUZGADO 010 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-010-civil-municipal-de-bogota"
+      }
+    ]
+  }
 }

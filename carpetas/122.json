@@ -1,1 +1,43 @@
-{"numero":122,"cc":52543321,"llaveProceso":"11001400304020170119300","idProcesos":[],"category":"Terminados","tipoProceso":"SINGULAR ACUM HIPOTECARIO","deudor":{"tel":{},"primerNombre":"","segundoNombre":"PAOLA","primerApellido":"ANDREA","segundoApellido":"FERNANDEZ RINCON","cedula":52543321,"email":"CALLE 1H # 32A - 17"},"demanda":{"capitalAdeudado":42951,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"42958","fechaPresentacion":"2017-09-13T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":4513073601094195,"B":"15774711,08"},"radicado":"2017 - 01193","vencimientoPagare":null,"expediente":"11001400304020170119300","juzgados":[]}}
+{
+  "idProcesos": [19148931],
+  "numero": 122,
+  "cc": 52543321,
+  "llaveProceso": "11001400304020170119300",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR ACUM HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "",
+    "segundoNombre": "PAOLA",
+    "primerApellido": "ANDREA",
+    "segundoApellido": "FERNANDEZ RINCON",
+    "cedula": 52543321,
+    "email": "CALLE 1H # 32A - 17"
+  },
+  "demanda": {
+    "capitalAdeudado": 42951,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "42958",
+    "fechaPresentacion": "2017-09-13T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "A": 4513073601094195,
+      "B": "15774711,08"
+    },
+    "radicado": "2017 - 01193",
+    "vencimientoPagare": [
+      "+135435-01-01T05:00:00.000Z"
+    ],
+    "expediente": "11001400304020170119300",
+    "juzgados": [
+      {
+        "id": 40,
+        "tipo": "JUZGADO 040 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-40-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

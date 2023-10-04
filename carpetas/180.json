@@ -1,1 +1,34 @@
-{"numero":180,"cc":21016631,"llaveProceso":"25878418900120170021800","idProcesos":[],"category":"Terminados","tipoProceso":"PRENDARIO","deudor":{"tel":{},"primerNombre":"ALCIRA","segundoNombre":"DELIA","primerApellido":"SAENZ","segundoApellido":"GARAVIS","cedula":21016631,"direccion":"CALLE 3 # 5 - 31 VIOTA"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-22T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-09-18T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-08-29T00:00:00.000Z","municipio":"VIOTA","obligacion":{"A":12594582},"radicado":"2017 - 00218","vencimientoPagare":null,"expediente":"25878418900120170021800","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 180,
+  "cc": 21016631,
+  "llaveProceso": "25878418900120170021800",
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ALCIRA",
+    "segundoNombre": "DELIA",
+    "primerApellido": "SAENZ",
+    "segundoApellido": "GARAVIS",
+    "cedula": 21016631,
+    "direccion": "CALLE 3 # 5 - 31 VIOTA"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-18T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-29T00:00:00.000Z",
+    "municipio": "VIOTA",
+    "obligacion": { "A": 12594582 },
+    "radicado": "2017 - 00218",
+    "vencimientoPagare": [
+      "2017-08-15T00:00:00.000Z"
+    ],
+    "expediente": "25878418900120170021800",
+    "juzgados": []
+  }
+}

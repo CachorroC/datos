@@ -6,22 +6,22 @@ const uri
 
 export const carpetasCollection = async () => {
   const client = new MongoClient(
-    uri
+    uri 
   );
 
   if ( !client ) {
     throw new Error(
-      'no hay cliente mongólico'
+      'no hay cliente mongólico' 
     );
   }
 
   const db = client.db(
-    'RyS'
+    'RyS' 
   );
 
   const carpetas
     = db.collection<IntCarpeta>(
-      'Carpetas'
+      'Carpetas' 
     );
 
   return carpetas;

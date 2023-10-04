@@ -1,33 +1,32 @@
 {
-  "demanda": {
-    "departamento": "CUNDINAMARCA",
-    "juzgados": [],
-    "capitalAdeudado": 26503.795,
-    "entregaGarantiasAbogado": "2018-09-06T00:00:00.000Z",
-    "etapaProcesal": "2.575441890032019e+22",
-    "fechaPresentacion": null,
-    "municipio": "SOACHA",
-    "obligacion": {
-      "0": 20990157739,
-      "1": "N/A"
-    },
-    "radicado": "2019 - 00270",
-    "vencimientoPagare": [null],
-    "expediente": "25754418900320190027000"
-  },
+  "idProcesos": [],
+  "numero": 484,
+  "cc": 30339083,
+  "llaveProceso": "25754418900320190027000",
   "category": "Terminados",
-  "categoryTag": 5,
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {},
     "primerNombre": "JENNY",
-    "segundoNombre": " ANDREA",
-    "primerApellido": "AVILA GARZON",
-    "segundoApellido": "",
+    "segundoNombre": "",
+    "primerApellido": "ANDREA",
+    "segundoApellido": "AVILA GARZON",
     "cedula": 30339083,
-    "direccion": "CARRERA 7A No  2-94 SUR",
-    "email": "N/A"
+    "direccion": "CARRERA 7A No  2-94 SUR"
   },
-  "numero": 484,
-  "llaveProceso": "25754418900320190027000",
-  "tipoProceso": "HIPOTECARIO"
+  "demanda": {
+    "capitalAdeudado": 26503.795,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-06-09T05:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "25754418900320190027000",
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": { "A": 20990157739 },
+    "radicado": "2019 - 00270",
+    "vencimientoPagare": [null],
+    "expediente": "25754418900320190027000",
+    "juzgados": []
+  }
 }

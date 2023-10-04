@@ -1,24 +1,10 @@
 {
-  "demanda": {
-    "departamento": "CUNDINAMARCA",
-    "juzgados": [],
-    "capitalAdeudado": 16881.706,
-    "entregaGarantiasAbogado": "2018-08-03T00:00:00.000Z",
-    "etapaProcesal": "1.100141890042018e+22",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": {
-      "0": 3880083739,
-      "1": 377813300070688
-    },
-    "radicado": "2018 - 00384",
-    "vencimientoPagare": [
-      "2020-06-08T00:00:00.000Z"
-    ],
-    "expediente": "11001408900420180038400"
-  },
+  "idProcesos": [],
+  "numero": 468,
+  "cc": 79719969,
+  "llaveProceso": "11001408900420180038400",
   "category": "Terminados",
-  "categoryTag": 5,
+  "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": 2400591,
@@ -32,7 +18,24 @@
     "direccion": "CALLE 63 BIS No 69 a-29",
     "email": "cenp11@hotmail.com"
   },
-  "numero": 468,
-  "llaveProceso": "11001408900420180038400",
-  "tipoProceso": "SINGULAR"
+  "demanda": {
+    "capitalAdeudado": 16881.706,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-08-03T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-08-09T00:00:00.000Z",
+    "etapaProcesal": "11001418900420180038400",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "A": 3880083739,
+      "B": 377813300070688
+    },
+    "radicado": "2018 - 00384",
+    "vencimientoPagare": [
+      "2020-06-08T00:00:00.000Z"
+    ],
+    "expediente": "11001408900420180038400",
+    "juzgados": []
+  }
 }

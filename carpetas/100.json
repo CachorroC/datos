@@ -1,1 +1,38 @@
-{"idProcesos":[],"numero":100,"cc":80430881,"llaveProceso":"25430418900120170068400","category":"Terminados","tipoProceso":"PRENDARIO","deudor":{"tel":{"celular":3143190799},"primerNombre":"JHON","segundoNombre":"JAIRO","primerApellido":"RUBIO","segundoApellido":"ORTIZ","cedula":80430881,"direccion":"CALLE 8 # 1 - 92E MADRID","email":"jojaro07@hotmail.com"},"demanda":{"capitalAdeudado":17280.117,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-06-28T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-07-25T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-06-29T00:00:00.000Z","municipio":"MADRID","obligacion":{"A":377813893568486,"B":12484407},"radicado":"2017 - 00684","vencimientoPagare":["2017-06-13T00:00:00.000Z"],"expediente":"25430418900120170068400","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 100,
+  "cc": 80430881,
+  "llaveProceso": "25430418900120170068400",
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": { "celular": 3143190799 },
+    "primerNombre": "JHON",
+    "segundoNombre": "JAIRO",
+    "primerApellido": "RUBIO",
+    "segundoApellido": "ORTIZ",
+    "cedula": 80430881,
+    "direccion": "CALLE 8 # 1 - 92E MADRID",
+    "email": "jojaro07@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 17280.117,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-07-25T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-29T00:00:00.000Z",
+    "municipio": "MADRID",
+    "obligacion": {
+      "A": 377813893568486,
+      "B": 12484407
+    },
+    "radicado": "2017 - 00684",
+    "vencimientoPagare": [
+      "2017-06-13T00:00:00.000Z"
+    ],
+    "expediente": "25430418900120170068400",
+    "juzgados": []
+  }
+}

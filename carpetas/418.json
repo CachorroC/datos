@@ -1,33 +1,36 @@
 {
-  "demanda": {
-    "departamento": "CUNDINAMARCA",
-    "juzgados": [],
-    "capitalAdeudado": 23159.598,
-    "entregaGarantiasAbogado": "2018-04-12T00:00:00.000Z",
-    "etapaProcesal": "ADMISION",
-    "fechaPresentacion": null,
-    "municipio": "FACATATIVA",
-    "obligacion": {
-      "0": 377816809738564,
-      "1": 451387592504913
-    },
-    "radicado": "2018 - 00246",
-    "vencimientoPagare": null,
-    "expediente": "25269400300120180024600"
-  },
+  "idProcesos": [],
+  "numero": 418,
+  "cc": 35521020,
+  "llaveProceso": "25269400300120180024600",
   "category": "Terminados",
-  "categoryTag": 5,
+  "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {},
     "primerNombre": "AURA",
     "segundoNombre": "LETICIA",
     "primerApellido": "GAMEZ",
-    "segundoApellido": "ROJAS ",
+    "segundoApellido": "ROJAS",
     "cedula": 35521020,
-    "direccion": "CALLE 11B- No 10-21  ",
+    "direccion": "CALLE 11B- No 10-21",
     "email": "aurag2599@hotmail.com"
   },
-  "numero": 418,
-  "llaveProceso": "25269400300120180024600",
-  "tipoProceso": "SINGULAR"
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-04-12T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": null,
+    "municipio": "FACATATIVA",
+    "obligacion": {
+      "A": 377816809738564,
+      "B": 451387592504913
+    },
+    "radicado": "2018 - 00246",
+    "vencimientoPagare": null,
+    "expediente": "25269400300120180024600",
+    "juzgados": []
+  }
 }

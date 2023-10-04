@@ -1,22 +1,10 @@
 {
-  "demanda": {
-    "departamento": "CUNDINAMARCA",
-    "juzgados": [],
-    "capitalAdeudado": 46371.154,
-    "entregaGarantiasAbogado": "2019-08-20T00:00:00.000Z",
-    "etapaProcesal": "2.543040030012019e+22",
-    "fechaPresentacion": null,
-    "municipio": "MADRID",
-    "obligacion": {
-      "0": "2273 320186673",
-      "1": "N/A"
-    },
-    "radicado": "2019 - 01160",
-    "vencimientoPagare": [null],
-    "expediente": "25473400100120190116000"
-  },
+  "idProcesos": [],
+  "numero": 528,
+  "cc": 1065564377,
+  "llaveProceso": "25473400100120190116000",
   "category": "Terminados",
-  "categoryTag": 5,
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {},
     "primerNombre": "YOLADIS",
@@ -27,7 +15,19 @@
     "direccion": "CALLE  23 No 12-50 CASA 16 INT 12 MANZANA 1 CONJUNTO QUINTAS DE ZARAGOZA",
     "email": "yoladisb@hotmail.com"
   },
-  "numero": 528,
-  "llaveProceso": "25473400100120190116000",
-  "tipoProceso": "HIPOTECARIO"
+  "demanda": {
+    "capitalAdeudado": 46371.154,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2019-02-09T05:00:00.000Z",
+    "etapaProcesal": "25430400300120190116000",
+    "fechaPresentacion": null,
+    "municipio": "MADRID",
+    "obligacion": { "A": "2273 320186673" },
+    "radicado": "2019 - 01160",
+    "vencimientoPagare": [null],
+    "expediente": "25473400100120190116000",
+    "juzgados": []
+  }
 }

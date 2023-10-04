@@ -1,21 +1,10 @@
 {
-  "demanda": {
-    "departamento": "CUNDINAMARCA",
-    "juzgados": [],
-    "capitalAdeudado": 96608.106,
-    "entregaGarantiasAbogado": "2017-05-19T00:00:00.000Z",
-    "etapaProcesal": "2.532031890012017e+22",
-    "fechaPresentacion": null,
-    "municipio": "GUADUAS",
-    "obligacion": { "0": 7910080321, "1": "N/A" },
-    "radicado": "2017 - 00195",
-    "vencimientoPagare": [
-      "2017-04-11T00:00:00.000Z"
-    ],
-    "expediente": "25320310300120170019500"
-  },
+  "idProcesos": [],
+  "numero": 27,
+  "cc": 79004127,
+  "llaveProceso": "25320310300120170019500",
   "category": "Insolvencia",
-  "categoryTag": 4,
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {},
     "primerNombre": "",
@@ -24,9 +13,23 @@
     "segundoApellido": "MAHECHA",
     "cedula": 79004127,
     "direccion": "CALLE 4 No. 14-161 GUADUAS (CUNDINAMARCA)",
-    "email": "347,620"
+    "email": "347620"
   },
-  "numero": 27,
-  "llaveProceso": "25320310300120170019500",
-  "tipoProceso": "HIPOTECARIO"
+  "demanda": {
+    "capitalAdeudado": 96608.106,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-05-19T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-05-31T00:00:00.000Z",
+    "etapaProcesal": "25320318900120170019500",
+    "fechaPresentacion": null,
+    "municipio": "GUADUAS",
+    "obligacion": { "A": 7910080321 },
+    "radicado": "2017 - 00195",
+    "vencimientoPagare": [
+      "2017-04-11T00:00:00.000Z"
+    ],
+    "expediente": "25320310300120170019500",
+    "juzgados": []
+  }
 }

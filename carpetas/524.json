@@ -1,4 +1,39 @@
 {
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
+  "idProcesos": [70545740],
+  "numero": 524,
+  "cc": 52433839,
+  "llaveProceso": "11001400307520190100800",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": { "celular": 3213987669 },
+    "primerNombre": "INGRIT",
+    "segundoNombre": "YOHANA",
+    "primerApellido": "VASQUEZ",
+    "segundoApellido": "ROJAS",
+    "cedula": 52433839,
+    "direccion": "CARRERA 15 # 33-17",
+    "email": "grpte@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": "2019-04-06T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 20990138197 },
+    "radicado": "2019 - 01008",
+    "vencimientoPagare": [null],
+    "expediente": "11001400307520190100800",
+    "juzgados": [
+      {
+        "id": 75,
+        "tipo": "JUZGADO 075 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-75-civil-municipal-de-bogota"
+      }
+    ]
+  }
 }

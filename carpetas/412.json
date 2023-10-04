@@ -1,21 +1,10 @@
 {
-  "demanda": {
-    "departamento": "CUNDINAMARCA",
-    "juzgados": [],
-    "capitalAdeudado": 19865.454,
-    "entregaGarantiasAbogado": "2018-04-16T00:00:00.000Z",
-    "etapaProcesal": "ADMISION",
-    "fechaPresentacion": "2018-04-26T00:00:00.000Z",
-    "municipio": "SOACHA",
-    "obligacion": { "0": 20990147276, "1": "" },
-    "radicado": "2018 - 00364",
-    "vencimientoPagare": [
-      "2026-12-28T00:00:00.000Z"
-    ],
-    "expediente": "25754418900220180036400"
-  },
+  "idProcesos": [],
+  "numero": 412,
+  "cc": 80896755,
+  "llaveProceso": "25754418900220180036400",
   "category": "Terminados",
-  "categoryTag": 5,
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "celular": 3204063623 },
     "primerNombre": "FABIO",
@@ -26,7 +15,21 @@
     "direccion": "CARRERA 7C- No 02-85 SUR",
     "email": "fabiop0917@hotmail.com"
   },
-  "numero": 412,
-  "llaveProceso": "25754418900220180036400",
-  "tipoProceso": "HIPOTECARIO"
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-04-16T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-04-26T00:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": { "A": 20990147276 },
+    "radicado": "2018 - 00364",
+    "vencimientoPagare": [
+      "2026-12-28T00:00:00.000Z"
+    ],
+    "expediente": "25754418900220180036400",
+    "juzgados": []
+  }
 }

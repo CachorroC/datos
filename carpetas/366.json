@@ -1,1 +1,39 @@
-{"numero":366,"cc":53094561,"llaveProceso":"11001400300920170136100","idProcesos":[],"category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"YURI","segundoNombre":"ANDREA","primerApellido":"GONZALEZ","segundoApellido":"TORRES","cedula":53094561,"direccion":"CARRERA 87 K No 70-44 SUR","email":"yurisita_05@hotmail.com"},"demanda":{"capitalAdeudado":19041.643,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-11-12T05:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"11001400300920170136100","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":134032},"radicado":"2017 - 01361","vencimientoPagare":null,"expediente":"11001400300920170136100","juzgados":[]}}
+{
+  "idProcesos": [50925430],
+  "numero": 366,
+  "cc": 53094561,
+  "llaveProceso": "11001400300920170136100",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "YURI",
+    "segundoNombre": "ANDREA",
+    "primerApellido": "GONZALEZ",
+    "segundoApellido": "TORRES",
+    "cedula": 53094561,
+    "direccion": "CARRERA 87 K No 70-44 SUR",
+    "email": "yurisita_05@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 19041.643,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-11-12T05:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "11001400300920170136100",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 134032 },
+    "radicado": "2017 - 01361",
+    "vencimientoPagare": [null],
+    "expediente": "11001400300920170136100",
+    "juzgados": [
+      {
+        "id": 4,
+        "tipo": "JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-04-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

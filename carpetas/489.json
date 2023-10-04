@@ -1,19 +1,10 @@
 {
-  "demanda": {
-    "departamento": "CUNDINAMARCA",
-    "juzgados": [],
-    "capitalAdeudado": 23041.704,
-    "entregaGarantiasAbogado": "2018-09-13T00:00:00.000Z",
-    "etapaProcesal": "ADMISION",
-    "fechaPresentacion": null,
-    "municipio": "SOACHA",
-    "obligacion": { "0": 20990126542, "1": "" },
-    "radicado": "2018 - 01008",
-    "vencimientoPagare": [null],
-    "expediente": "25754418900320180100800"
-  },
+  "idProcesos": [],
+  "numero": 489,
+  "cc": 80257279,
+  "llaveProceso": "25754418900320180100800",
   "category": "Terminados",
-  "categoryTag": 5,
+  "tipoProceso": "HIPOTECARIA",
   "deudor": {
     "tel": {},
     "primerNombre": "ORLANDO",
@@ -23,7 +14,19 @@
     "direccion": "CALLE 72 G- SUR No 35-13 SUR",
     "email": "jjanzola@hotmail.com"
   },
-  "numero": 489,
-  "llaveProceso": "25754418900320180100800",
-  "tipoProceso": "HIPOTECARIO"
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": { "A": 20990126542 },
+    "radicado": "2018 - 01008",
+    "vencimientoPagare": [null],
+    "expediente": "25754418900320180100800",
+    "juzgados": []
+  }
 }

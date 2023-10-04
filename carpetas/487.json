@@ -1,109 +1,40 @@
 {
-  "actuaciones": [
-    {
-      "idRegActuacion": 565848290,
-      "llaveProceso": "11001400307720180085400",
-      "consActuacion": 7,
-      "fechaActuacion": "2018-09-18T00:00:00",
-      "actuacion": "Fijacion estado",
-      "anotacion": "Actuación registrada el 18/09/2018 a las 14:56:59.",
-      "fechaInicial": "2018-09-19T00:00:00",
-      "fechaFinal": "2018-09-19T00:00:00",
-      "fechaRegistro": "2018-09-18T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 7
+  "idProcesos": [51278930],
+  "numero": 487,
+  "cc": 80473211,
+  "llaveProceso": "11001400301420180078900",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "GABRIEL",
+    "primerApellido": "MENDOZA",
+    "segundoApellido": "MORINELLY",
+    "cedula": 80473211,
+    "email": "CARRERA 102 B No 151-15 TORRE 2  APTO 1309"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "20-09-2018",
+    "fechaPresentacion": "2018-02-10T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "A": 4513089091236580,
+      "B": "12.028.842.57"
     },
-    {
-      "idRegActuacion": 856768210,
-      "llaveProceso": "11001400307720180085400",
-      "consActuacion": 6,
-      "fechaActuacion": "2018-09-18T00:00:00",
-      "actuacion": "Auto termina proceso por Pago",
-      "anotacion": null,
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2018-09-18T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 7
-    },
-    {
-      "idRegActuacion": 856768200,
-      "llaveProceso": "11001400307720180085400",
-      "consActuacion": 5,
-      "fechaActuacion": "2018-09-13T00:00:00",
-      "actuacion": "Al despacho",
-      "anotacion": null,
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2018-09-13T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 7
-    },
-    {
-      "idRegActuacion": 565848280,
-      "llaveProceso": "11001400307720180085400",
-      "consActuacion": 4,
-      "fechaActuacion": "2018-08-10T00:00:00",
-      "actuacion": "Fijacion estado",
-      "anotacion": "Actuación registrada el 10/08/2018 a las 16:08:17.",
-      "fechaInicial": "2018-08-13T00:00:00",
-      "fechaFinal": "2018-08-13T00:00:00",
-      "fechaRegistro": "2018-08-10T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 7
-    },
-    {
-      "idRegActuacion": 856768190,
-      "llaveProceso": "11001400307720180085400",
-      "consActuacion": 3,
-      "fechaActuacion": "2018-08-10T00:00:00",
-      "actuacion": "Auto libra mandamiento ejecutivo",
-      "anotacion": "OFICIO A INMUEBLE",
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2018-08-10T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 7
-    },
-    {
-      "idRegActuacion": 856768180,
-      "llaveProceso": "11001400307720180085400",
-      "consActuacion": 2,
-      "fechaActuacion": "2018-08-02T00:00:00",
-      "actuacion": "Al despacho",
-      "anotacion": null,
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2018-08-02T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 7
-    },
-    {
-      "idRegActuacion": 856768170,
-      "llaveProceso": "11001400307720180085400",
-      "consActuacion": 1,
-      "fechaActuacion": "2018-08-01T00:00:00",
-      "actuacion": " Radicación de Proceso",
-      "anotacion": "Actuación de  Radicación de Proceso  realizada el 01/08/2018 a las 14:09:42",
-      "fechaInicial": "2018-08-01T00:00:00",
-      "fechaFinal": "2018-08-01T00:00:00",
-      "fechaRegistro": "2018-08-01T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 7
-    }
-  ],
-  "paginacion": {
-    "cantidadRegistros": 7,
-    "registrosPagina": 40,
-    "cantidadPaginas": 1,
-    "pagina": 1,
-    "paginas": null
+    "radicado": "2018 - 00789",
+    "vencimientoPagare": [null],
+    "expediente": "11001400301420180078900",
+    "juzgados": [
+      {
+        "id": 14,
+        "tipo": "JUZGADO 014 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-014-civil-municipal-de-bogota"
+      }
+    ]
   }
 }

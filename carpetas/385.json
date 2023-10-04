@@ -1,34 +1,39 @@
 {
-  "demanda": {
-    "departamento": {
-      "idCatalogoDetalle": 13,
-      "idCatalogoDetallePadre": 1,
-      "descripcion": "CUNDINAMARCA",
-      "codigo": "25"
-    },
-    "capitalAdeudado": "15344.261",
-    "entregagarantiasAbogado": "2018-01-19T00:00:00.000Z",
-    "etapaProcesal": "",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": { "1": 9450082795, "2": "" },
-    "radicado": "2018 - 00074",
-    "vencimientoPagare": "2019-07-29T00:00:00.000Z",
-    "expediente": "11001400303520180007400",
-    "juzgados": []
-  },
+  "idProcesos": [50980350],
+  "numero": 385,
+  "cc": 406547,
+  "llaveProceso": "11001400303520180007400",
   "category": "Terminados",
-  "categoryTag": 5,
+  "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {},
     "primerNombre": "AVELINO",
     "primerApellido": "SIERRA",
     "segundoApellido": "SIERRA",
     "cedula": 406547,
-    "direccion": "TRANVERSAL 11A # 9A - 13 ",
-    "email": "N/A"
+    "direccion": "TRANVERSAL 11A # 9A - 13"
   },
-  "numero": 385,
-  "llaveProceso": "11001400303520180007400",
-  "tipoProceso": "SINGULAR"
+  "demanda": {
+    "capitalAdeudado": 15344.261,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-01-19T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-01-30T00:00:00.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 9450082795 },
+    "radicado": "2018 - 00074",
+    "vencimientoPagare": [
+      "2019-07-29T00:00:00.000Z"
+    ],
+    "expediente": "11001400303520180007400",
+    "juzgados": [
+      {
+        "id": 35,
+        "tipo": "JUZGADO 035 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-35-civil-municipal-de-bogota"
+      }
+    ]
+  }
 }

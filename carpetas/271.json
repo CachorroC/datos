@@ -1,1 +1,32 @@
-{"numero":271,"cc":52850427,"llaveProceso":"11001400405420170099000","idProcesos":[],"category":"Terminados","tipoProceso":"PRENDARIO","deudor":{"tel":{},"primerNombre":"AURA","segundoNombre":"GEOVANA","primerApellido":"RODRIGUEZ","segundoApellido":"MORA","cedula":52850427,"email":"CARRERA 16 No  24 - 34 APARTAMENTO 302"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"05-10-2017","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"B":"39.495.993.87"},"radicado":"2017 - 00990","vencimientoPagare":null,"expediente":"11001400405420170099000","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 271,
+  "cc": 52850427,
+  "llaveProceso": "11001400405420170099000",
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "AURA",
+    "segundoNombre": "GEOVANA",
+    "primerApellido": "RODRIGUEZ",
+    "segundoApellido": "MORA",
+    "cedula": 52850427,
+    "email": "CARRERA 16 No  24 - 34 APARTAMENTO 302"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "05-10-2017",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "B": "39.495.993.87" },
+    "radicado": "2017 - 00990",
+    "vencimientoPagare": [null],
+    "expediente": "11001400405420170099000",
+    "juzgados": []
+  }
+}

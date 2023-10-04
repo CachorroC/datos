@@ -1,1 +1,46 @@
-{"numero":178,"cc":37861286,"llaveProceso":"11001400306620170122100","idProcesos":[],"category":"Terminados","tipoProceso":"PRENDARO","deudor":{"tel":{"fijo":7675057,"celular":3156780088},"primerNombre":"MARYLUZ","segundoNombre":"OCASIONES","primerApellido":"PINZON","segundoApellido":"","cedula":37861286,"direccion":"DIAGONAL 52# 3 - 24 APTO 50 ","email":"maryluzocasiones1104.p@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-22T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-09-06T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-08-28T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":4099831431615063,"B":"5303715050478433 // 5306940349167962 // 12641256"},"radicado":"2017 - 01221","vencimientoPagare":null,"expediente":"11001400306620170122100","juzgados":[]}}
+{
+  "idProcesos": [112657130],
+  "numero": 178,
+  "cc": 37861286,
+  "llaveProceso": "11001400306620170122100",
+  "category": "Terminados",
+  "tipoProceso": "PRENDARO",
+  "deudor": {
+    "tel": {
+      "fijo": 7675057,
+      "celular": 3156780088
+    },
+    "primerNombre": "MARYLUZ",
+    "primerApellido": "OCASIONES",
+    "segundoApellido": "PINZON",
+    "cedula": 37861286,
+    "direccion": "DIAGONAL 52# 3 - 24 APTO 50",
+    "email": "maryluzocasiones1104.p@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-06T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "A": 4099831431615063,
+      "B": "5303715050478433 // 5306940349167962 // 12641256"
+    },
+    "radicado": "2017 - 01221",
+    "vencimientoPagare": [
+      "2017-08-15T00:00:00.000Z"
+    ],
+    "expediente": "11001400306620170122100",
+    "juzgados": [
+      {
+        "id": 66,
+        "tipo": "JUZGADO 066 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-066-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

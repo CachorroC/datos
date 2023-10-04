@@ -1,21 +1,10 @@
 {
-  "demanda": {
-    "departamento": "CUNDINAMARCA",
-    "juzgados": [],
-    "capitalAdeudado": 11224.313,
-    "entregaGarantiasAbogado": "2018-01-11T00:00:00.000Z",
-    "etapaProcesal": "",
-    "fechaPresentacion": null,
-    "municipio": "SAN JUAN DE RIOSECO",
-    "obligacion": { "0": 3720086711, "1": "" },
-    "radicado": "2018 - 00004",
-    "vencimientoPagare": [
-      "2019-09-08T00:00:00.000Z"
-    ],
-    "expediente": "25662408900120180000400"
-  },
+  "idProcesos": [],
+  "numero": 382,
+  "cc": 80403235,
+  "llaveProceso": "25662408900120180000400",
   "category": "Terminados",
-  "categoryTag": 5,
+  "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "celular": 3107518479 },
     "primerNombre": "CARLOS",
@@ -23,10 +12,23 @@
     "primerApellido": "LANCHEROS",
     "segundoApellido": "BARRAGAN",
     "cedula": 80403235,
-    "direccion": "CARRERA 4 NO 5 - 02 SAN JUAN DE RIO SECO",
-    "email": "N/A"
+    "direccion": "CARRERA 4 NO 5 - 02 SAN JUAN DE RIO SECO"
   },
-  "numero": 382,
-  "llaveProceso": "25662408900120180000400",
-  "tipoProceso": "SINGULAR"
+  "demanda": {
+    "capitalAdeudado": 11224313,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-11-01T05:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "SAN JUAN DE RIOSECO",
+    "obligacion": { "A": 3720086711 },
+    "radicado": "2018 - 00004",
+    "vencimientoPagare": [
+      "2019-09-08T00:00:00.000Z"
+    ],
+    "expediente": "25662408900120180000400",
+    "juzgados": []
+  }
 }

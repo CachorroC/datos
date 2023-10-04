@@ -1,22 +1,10 @@
 {
-  "demanda": {
-    "departamento": "CUNDINAMARCA",
-    "juzgados": [],
-    "capitalAdeudado": 15631.923,
-    "entregaGarantiasAbogado": "2018-10-10T00:00:00.000Z",
-    "etapaProcesal": "ADMISIION",
-    "fechaPresentacion": null,
-    "municipio": "MANTA",
-    "obligacion": {
-      "0": "AUDIOPRESTAMO",
-      "1": "3360084365 / 3360084819"
-    },
-    "radicado": "2018 - 00063",
-    "vencimientoPagare": null,
-    "expediente": "25436408900120180006300"
-  },
+  "idProcesos": [],
+  "numero": 503,
+  "cc": 3096755,
+  "llaveProceso": "25436408900120180006300",
   "category": "Terminados",
-  "categoryTag": 5,
+  "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {},
     "primerNombre": "JUAN",
@@ -27,7 +15,22 @@
     "direccion": "DIAGONAL 2 No 6 A-29",
     "email": "jclm152@hotmail.com"
   },
-  "numero": 503,
-  "llaveProceso": "25436408900120180006300",
-  "tipoProceso": "SINGULAR"
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-10-10T05:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-07-11T05:00:00.000Z",
+    "etapaProcesal": "ADMISIION",
+    "fechaPresentacion": null,
+    "municipio": "MANTA",
+    "obligacion": {
+      "A": "AUDIOPRESTAMO",
+      "B": "3360084365 / 3360084819"
+    },
+    "radicado": "2018 - 00063",
+    "vencimientoPagare": null,
+    "expediente": "25436408900120180006300",
+    "juzgados": []
+  }
 }

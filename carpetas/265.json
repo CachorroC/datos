@@ -1,24 +1,9 @@
 {
-  "demanda": {
-    "departamento": "CUNDINAMARCA",
-    "juzgados": [],
-    "capitalAdeudado": 115224.736,
-    "entregaGarantiasAbogado": "2017-09-21T00:00:00.000Z",
-    "etapaProcesal": "1.100140030632018e+22",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": {
-      "0": 186718,
-      "1": "3778153354915637 / 4513079095670572"
-    },
-    "radicado": "2018 - 00650",
-    "vencimientoPagare": [
-      "2020-05-04T00:00:00.000Z"
-    ],
-    "expediente": "1100140030202100050100"
-  },
+  "numero": 265,
+  "cc": 7601476,
+  "llaveProceso": "1100140030202100050100",
   "category": "Insolvencia",
-  "categoryTag": 4,
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 3018759,
@@ -32,7 +17,24 @@
     "direccion": "CARRERA 90 C No 6A - 31   - CASA 148",
     "email": "jsanchezargote@gmail.com"
   },
-  "numero": 265,
-  "llaveProceso": "1100140030202100050100",
-  "tipoProceso": "HIPOTECARIO"
+  "demanda": {
+    "capitalAdeudado": 115224.736,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-21T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-27T00:00:00.000Z",
+    "etapaProcesal": "11001400306320180065000",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "A": 186718,
+      "B": "3778153354915637 / 4513079095670572"
+    },
+    "radicado": "2018 - 00650",
+    "vencimientoPagare": [
+      "2020-05-04T00:00:00.000Z"
+    ],
+    "expediente": "1100140030202100050100",
+    "juzgados": null
+  }
 }

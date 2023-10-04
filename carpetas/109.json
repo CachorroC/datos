@@ -1,1 +1,41 @@
-{"idProcesos":[50990990],"numero":109,"cc":1018428090,"llaveProceso":"11001400302420180011900","category":"Terminados","tipoProceso":"PRENDARIO","deudor":{"tel":{"celular":3045449490},"primerNombre":"OSCAR","segundoNombre":"IVAN","primerApellido":"AGUDELO","segundoApellido":"MORA","cedula":1018428090,"direccion":"CARRERA 3 D # 32A - 69 SUR ","email":"oscar.agudelo@crcom.gov.co"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-01T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2018-04-03T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-08-08T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":12491571},"radicado":"2018 - 00119","vencimientoPagare":["2017-07-26T00:00:00.000Z"],"expediente":"11001400302420180011900","juzgados":[{"id":24,"tipo":"JUZGADO 024 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-024-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50990990],
+  "numero": 109,
+  "cc": 1018428090,
+  "llaveProceso": "11001400302420180011900",
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": { "celular": 3045449490 },
+    "primerNombre": "OSCAR",
+    "segundoNombre": "IVAN",
+    "primerApellido": "AGUDELO",
+    "segundoApellido": "MORA",
+    "cedula": 1018428090,
+    "direccion": "CARRERA 3 D # 32A - 69 SUR",
+    "email": "oscar.agudelo@crcom.gov.co"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-04-03T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-08T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 12491571 },
+    "radicado": "2018 - 00119",
+    "vencimientoPagare": [
+      "2017-07-26T00:00:00.000Z"
+    ],
+    "expediente": "11001400302420180011900",
+    "juzgados": [
+      {
+        "id": 24,
+        "tipo": "JUZGADO 024 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-024-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

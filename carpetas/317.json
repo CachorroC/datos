@@ -1,1 +1,38 @@
-{"numero":317,"cc":80251653,"llaveProceso":"11001400301820170181300","idProcesos":[],"category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"WILSON","primerApellido":"JAVIER","segundoApellido":"SANCHEZ","cedula":80251653,"direccion":"CALLE 62 G  No 75 g - 18 sur","email":"wilsoningind@yahoo.es"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-10-31T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2018-02-01T00:00:00.000Z","etapaProcesal":"LIQUIDACION","fechaPresentacion":"2017-11-07T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":123326},"radicado":"2017 - 01813","vencimientoPagare":null,"expediente":"11001400301820170181300","juzgados":[]}}
+{
+  "idProcesos": [50832550],
+  "numero": 317,
+  "cc": 80251653,
+  "llaveProceso": "11001400301820170181300",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "WILSON",
+    "primerApellido": "JAVIER",
+    "segundoApellido": "SANCHEZ",
+    "cedula": 80251653,
+    "direccion": "CALLE 62 G  No 75 g - 18 sur",
+    "email": "wilsoningind@yahoo.es"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-10-31T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-02-01T00:00:00.000Z",
+    "etapaProcesal": "LIQUIDACION",
+    "fechaPresentacion": "2017-11-07T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 123326 },
+    "radicado": "2017 - 01813",
+    "vencimientoPagare": [null],
+    "expediente": "11001400301820170181300",
+    "juzgados": [
+      {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

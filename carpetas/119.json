@@ -1,1 +1,44 @@
-{"numero":119,"cc":79693495,"llaveProceso":"11001400301420170098800","idProcesos":[],"category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{"fijo":4610722,"celular":3103789233},"primerNombre":"CESAR","segundoNombre":"AUGUSTO","primerApellido":"GIL","segundoApellido":"GALLEGO","cedula":79693495,"direccion":"DIAGONAL 2A SUER # 78L - 81 APTO 501B","email":"carolcecesar@gmail.com"},"demanda":{"capitalAdeudado":20987589,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-04T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-09-19T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-08-11T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":450087082},"radicado":"2017 - 00988","vencimientoPagare":null,"expediente":"11001400301420170098800","juzgados":[]}}
+{
+  "idProcesos": [50633790],
+  "numero": 119,
+  "cc": 79693495,
+  "llaveProceso": "11001400301420170098800",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 4610722,
+      "celular": 3103789233
+    },
+    "primerNombre": "CESAR",
+    "segundoNombre": "AUGUSTO",
+    "primerApellido": "GIL",
+    "segundoApellido": "GALLEGO",
+    "cedula": 79693495,
+    "direccion": "DIAGONAL 2A SUER # 78L - 81 APTO 501B",
+    "email": "carolcecesar@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 20987589,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-19T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-11T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 450087082 },
+    "radicado": "2017 - 00988",
+    "vencimientoPagare": [
+      "2019-05-13T00:00:00.000Z"
+    ],
+    "expediente": "11001400301420170098800",
+    "juzgados": [
+      {
+        "id": 14,
+        "tipo": "JUZGADO 014 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-014-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

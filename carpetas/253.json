@@ -1,1 +1,44 @@
-{"numero":253,"cc":1013604409,"llaveProceso":"11001400302520170099800","idProcesos":[],"category":"Terminados","tipoProceso":"PRENDARIO","deudor":{"tel":{"fijo":3521314,"celular":3115197002},"primerNombre":"JORGE","segundoNombre":"EDUARDO","primerApellido":"ACOSTA","segundoApellido":"CORREDOR","cedula":1013604409,"direccion":"CALLE 47 SUR No 27-81 ","email":"jan_2504@hotmail.com"},"demanda":{"capitalAdeudado":15114.966,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-07T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-09-14T00:00:00.000Z","etapaProcesal":"11001400302520170099800","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":12395327},"radicado":"2017 - 00998","vencimientoPagare":null,"expediente":"11001400302520170099800","juzgados":[]}}
+{
+  "idProcesos": [50708840],
+  "numero": 253,
+  "cc": 1013604409,
+  "llaveProceso": "11001400302520170099800",
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 3521314,
+      "celular": 3115197002
+    },
+    "primerNombre": "JORGE",
+    "segundoNombre": "EDUARDO",
+    "primerApellido": "ACOSTA",
+    "segundoApellido": "CORREDOR",
+    "cedula": 1013604409,
+    "direccion": "CALLE 47 SUR No 27-81",
+    "email": "jan_2504@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 15114.966,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-07T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-14T00:00:00.000Z",
+    "etapaProcesal": "11001400302520170099800",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 12395327 },
+    "radicado": "2017 - 00998",
+    "vencimientoPagare": [
+      "2020-09-04T00:00:00.000Z"
+    ],
+    "expediente": "11001400302520170099800",
+    "juzgados": [
+      {
+        "id": 4,
+        "tipo": "JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-04-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

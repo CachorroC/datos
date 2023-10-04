@@ -1,1 +1,38 @@
-{"numero":240,"cc":180145973,"llaveProceso":"25754418900220170082900","idProcesos":[],"category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":5774513,"celular":3134293286},"primerNombre":"CESAR","segundoNombre":"ALIRIO","primerApellido":"MORENO","segundoApellido":"MONGUI","cedula":180145973,"direccion":"CARRERA 8 No 3-33","email":"cesarramm09@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":"2017-09-19T00:00:00.000Z","municipio":"SOACHA","obligacion":{"A":140122},"radicado":"2017 - 00829","vencimientoPagare":null,"expediente":"25754418900220170082900","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 240,
+  "cc": 180145973,
+  "llaveProceso": "25754418900220170082900",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 5774513,
+      "celular": 3134293286
+    },
+    "primerNombre": "CESAR",
+    "segundoNombre": "ALIRIO",
+    "primerApellido": "MORENO",
+    "segundoApellido": "MONGUI",
+    "cedula": 180145973,
+    "direccion": "CARRERA 8 No 3-33",
+    "email": "cesarramm09@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": { "A": 140122 },
+    "radicado": "2017 - 00829",
+    "vencimientoPagare": [
+      "2026-06-23T00:00:00.000Z"
+    ],
+    "expediente": "25754418900220170082900",
+    "juzgados": []
+  }
+}

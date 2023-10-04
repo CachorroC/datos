@@ -1,1 +1,40 @@
-{"idProcesos":[86212271],"numero":76,"cc":20493423,"llaveProceso":"25183400300120170011900","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{"celular":3112110025},"primerNombre":"ESTELA","primerApellido":"MARIN","segundoApellido":"GARZÓN","cedula":20493423,"direccion":"CALLE 8 # 2 - 32 CHOCONTA","email":"stellamarin23@hotmail.com"},"demanda":{"capitalAdeudado":17517.434,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-06-21T00:00:00.000Z","etapaProcesal":"25183400300120170011900","fechaPresentacion":null,"municipio":"CHOCONTA","obligacion":{"A":2660080368},"radicado":"2017 - 00119","vencimientoPagare":["2019-07-21T00:00:00.000Z"],"expediente":"25183400300120170011900","juzgados":[{"id":1,"tipo":"JUZGADO 001 CIVIL MUNICIPAL DE CHOCONTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-001-civil-municipal-de-choconta"}]}}
+{
+  "idProcesos": [86212271],
+  "numero": 76,
+  "cc": 20493423,
+  "llaveProceso": "25183400300120170011900",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": { "celular": 3112110025 },
+    "primerNombre": "ESTELA",
+    "primerApellido": "MARIN",
+    "segundoApellido": "GARZÓN",
+    "cedula": 20493423,
+    "direccion": "CALLE 8 # 2 - 32 CHOCONTA",
+    "email": "stellamarin23@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 17517.434,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-06-21T00:00:00.000Z",
+    "etapaProcesal": "25183400300120170011900",
+    "fechaPresentacion": null,
+    "municipio": "CHOCONTA",
+    "obligacion": { "A": 2660080368 },
+    "radicado": "2017 - 00119",
+    "vencimientoPagare": [
+      "2019-07-21T00:00:00.000Z"
+    ],
+    "expediente": "25183400300120170011900",
+    "juzgados": [
+      {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE CHOCONTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-001-civil-municipal-de-choconta"
+      }
+    ]
+  }
+}

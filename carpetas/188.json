@@ -1,1 +1,43 @@
-{"numero":188,"cc":1019029250,"llaveProceso":"11001400306720170126900","idProcesos":[],"category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"DIEGO","segundoNombre":"ARMANDO","primerApellido":"AREVALO","segundoApellido":"VELANDIA","cedula":1019029250,"email":"CARRERA 86 # 77A - 28 "},"demanda":{"capitalAdeudado":42969,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"42967","fechaPresentacion":"2018-02-12T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":5303710467974930,"B":"31660690,17"},"radicado":"2017 - 01269","vencimientoPagare":null,"expediente":"11001400306720170126900","juzgados":[]}}
+{
+  "idProcesos": [51452530],
+  "numero": 188,
+  "cc": 1019029250,
+  "llaveProceso": "11001400306720170126900",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "DIEGO",
+    "segundoNombre": "ARMANDO",
+    "primerApellido": "AREVALO",
+    "segundoApellido": "VELANDIA",
+    "cedula": 1019029250,
+    "email": "CARRERA 86 # 77A - 28"
+  },
+  "demanda": {
+    "capitalAdeudado": 42969,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "42967",
+    "fechaPresentacion": "2018-02-12T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "A": 5303710467974930,
+      "B": "31660690,17"
+    },
+    "radicado": "2017 - 01269",
+    "vencimientoPagare": [
+      "+170638-01-01T05:00:00.000Z"
+    ],
+    "expediente": "11001400306720170126900",
+    "juzgados": [
+      {
+        "id": 7,
+        "tipo": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

@@ -1,1 +1,34 @@
-{"numero":99,"cc":79996551,"llaveProceso":"1100141037512017111000","category":"Terminados","tipoProceso":"PRENDARIO","deudor":{"tel":{},"primerNombre":"YONI","segundoNombre":"ALEXANDER","primerApellido":"RESTREPO","segundoApellido":"PEÑUELA","cedula":79996551,"direccion":"TRANSVERSAL 78A # 71A - 71 SUR"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-06-28T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2018-01-24T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-08-08T05:00:00.000Z","municipio":"KENNEDY","obligacion":{"A":5306934855078754,"B":12378896},"radicado":"2017 - 01110","vencimientoPagare":[null],"expediente":"1100141037512017111000","juzgados":null}}
+{
+  "numero": 99,
+  "cc": 79996551,
+  "llaveProceso": "1100141037512017111000",
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "YONI",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "RESTREPO",
+    "segundoApellido": "PEÑUELA",
+    "cedula": 79996551,
+    "direccion": "TRANSVERSAL 78A # 71A - 71 SUR"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-01-24T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-08T05:00:00.000Z",
+    "municipio": "KENNEDY",
+    "obligacion": {
+      "A": 5306934855078754,
+      "B": 12378896
+    },
+    "radicado": "2017 - 01110",
+    "vencimientoPagare": [null],
+    "expediente": "1100141037512017111000",
+    "juzgados": null
+  }
+}

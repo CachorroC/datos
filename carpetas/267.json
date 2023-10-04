@@ -1,1 +1,40 @@
-{"numero":267,"cc":52102735,"llaveProceso":"11001400306220170122900","idProcesos":[],"category":"Terminados","tipoProceso":"PRENDARIO","deudor":{"tel":{},"primerNombre":"ANA","segundoNombre":"FABIOLA","primerApellido":"CARDOZO","segundoApellido":"HERREÑO","cedula":52102735,"direccion":"CARRERA 5 C BIS No  54 - 06 SUR"},"demanda":{"capitalAdeudado":32830.09,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-22T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-09-27T00:00:00.000Z","etapaProcesal":"11001400306220170122900","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":12547875},"radicado":"2017 - 01229","vencimientoPagare":null,"expediente":"11001400306220170122900","juzgados":[]}}
+{
+  "idProcesos": [50741270],
+  "numero": 267,
+  "cc": 52102735,
+  "llaveProceso": "11001400306220170122900",
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ANA",
+    "segundoNombre": "FABIOLA",
+    "primerApellido": "CARDOZO",
+    "segundoApellido": "HERREÑO",
+    "cedula": 52102735,
+    "direccion": "CARRERA 5 C BIS No  54 - 06 SUR"
+  },
+  "demanda": {
+    "capitalAdeudado": 32830.09,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-22T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-27T00:00:00.000Z",
+    "etapaProcesal": "11001400306220170122900",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 12547875 },
+    "radicado": "2017 - 01229",
+    "vencimientoPagare": [
+      "2020-09-20T00:00:00.000Z"
+    ],
+    "expediente": "11001400306220170122900",
+    "juzgados": [
+      {
+        "id": 19,
+        "tipo": "JUZGADO 019 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-19-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

@@ -1,1 +1,41 @@
-{"numero":228,"cc":80740039,"llaveProceso":"11001400301820170151700","idProcesos":[],"category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"FABIAN","segundoNombre":"ALEXANDER","primerApellido":"GIL","segundoApellido":"GIL ","cedula":80740039,"direccion":"CALLE 48B SUR # 6C - 06 ","email":"fabianalexanderg@yahoo.es"},"demanda":{"capitalAdeudado":13622.019,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-04T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-09-13T00:00:00.000Z","etapaProcesal":"11001400301820170151700","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":119098},"radicado":"2017 - 01517","vencimientoPagare":null,"expediente":"11001400301820170151700","juzgados":[]}}
+{
+  "idProcesos": [50710250],
+  "numero": 228,
+  "cc": 80740039,
+  "llaveProceso": "11001400301820170151700",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "FABIAN",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "GIL",
+    "segundoApellido": "GIL",
+    "cedula": 80740039,
+    "direccion": "CALLE 48B SUR # 6C - 06",
+    "email": "fabianalexanderg@yahoo.es"
+  },
+  "demanda": {
+    "capitalAdeudado": 13622.019,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-04T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-13T00:00:00.000Z",
+    "etapaProcesal": "11001400301820170151700",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 119098 },
+    "radicado": "2017 - 01517",
+    "vencimientoPagare": [
+      "2024-06-03T00:00:00.000Z"
+    ],
+    "expediente": "11001400301820170151700",
+    "juzgados": [
+      {
+        "id": 16,
+        "tipo": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-16-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

@@ -1,1 +1,44 @@
-{"numero":354,"cc":80032437,"llaveProceso":"11001310304520170035900","idProcesos":[],"category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":6854161,"celular":3003813863},"primerNombre":"BERNARDO","segundoNombre":"ANIBAL","primerApellido":"GIL","segundoApellido":"TORRES","cedula":80032437,"direccion":"CARRERA 102 No 155 - 19 INTERIOR 5 APARTAMENTO  230","email":"bagilt@yahoo.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-11-24T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2018-01-31T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-11-29T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":199177},"radicado":"2017 - 00359","vencimientoPagare":null,"expediente":"11001310304520170035900","juzgados":[]}}
+{
+  "idProcesos": [62939862],
+  "numero": 354,
+  "cc": 80032437,
+  "llaveProceso": "11001310304520170035900",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 6854161,
+      "celular": 3003813863
+    },
+    "primerNombre": "BERNARDO",
+    "segundoNombre": "ANIBAL",
+    "primerApellido": "GIL",
+    "segundoApellido": "TORRES",
+    "cedula": 80032437,
+    "direccion": "CARRERA 102 No 155 - 19 INTERIOR 5 APARTAMENTO  230",
+    "email": "bagilt@yahoo.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-11-24T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-01-31T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-11-29T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 199177 },
+    "radicado": "2017 - 00359",
+    "vencimientoPagare": [
+      "2037-03-01T00:00:00.000Z"
+    ],
+    "expediente": "11001310304520170035900",
+    "juzgados": [
+      {
+        "id": 45,
+        "tipo": "JUZGADO 045 CIVIL DEL CIRCUITO DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-045-civil-del-circuito-de-bogota"
+      }
+    ]
+  }
+}

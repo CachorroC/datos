@@ -1,1 +1,47 @@
-{"idProcesos":[132372990],"numero":557,"cc":71685758,"llaveProceso":"11001400301720230078200","category":"Bancolombia","tipoProceso":"SINGULAR","deudor":{"tel":{"fijo":6485655,"celular":3002985587},"primerNombre":"CARLOS","primerApellido":"HERNEY","segundoApellido":"QUINTERO","cedula":71685758,"direccion":"KR 32 A 1 19 BARRIO SANTA MATILDE","email":"cahequi8097@gmail.com fundaoyuki@gmail.com"},"demanda":{"capitalAdeudado":49329.779,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2023-07-26T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":840093593,"B":"PAGARE SIN NUMERO T. AMERICAN EXPRESS 0377844069636757"},"radicado":"2023 - 00782","vencimientoPagare":[null,"2026-04-03T05:00:00.000Z"],"expediente":"11001400301720230078200","juzgados":[{"id":17,"tipo":"JUZGADO 017 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-17-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [132372990],
+  "numero": 557,
+  "cc": 71685758,
+  "llaveProceso": "11001400301720230078200",
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 6485655,
+      "celular": 3002985587
+    },
+    "primerNombre": "CARLOS",
+    "primerApellido": "HERNEY",
+    "segundoApellido": "QUINTERO",
+    "cedula": 71685758,
+    "direccion": "KR 32 A 1 19 BARRIO SANTA MATILDE",
+    "email": "cahequi8097@gmail.com fundaoyuki@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 49329.779,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "A": 840093593,
+      "B": "PAGARE SIN NUMERO T. AMERICAN EXPRESS 0377844069636757"
+    },
+    "radicado": "2023 - 00782",
+    "vencimientoPagare": [
+      null,
+      "2026-04-03T05:00:00.000Z"
+    ],
+    "expediente": "11001400301720230078200",
+    "juzgados": [
+      {
+        "id": 17,
+        "tipo": "JUZGADO 017 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-17-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

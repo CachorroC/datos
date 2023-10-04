@@ -4,22 +4,18 @@
 //
 //   const CarpetaRaw = Convert.toCarpetaRaw(json);
 
-export interface TrulyCruda
-{
-  llaveProceso?:  string;
+export interface TrulyCruda {
+  llaveProceso?: string;
   demanda: DemandaRaw;
   deudor: DeudorRaw;
   numero: number;
 }
 
-export interface CarpetaRaw extends TrulyCruda{
+export interface CarpetaRaw extends TrulyCruda {
   category: Category;
-
 }
 
-export interface IntCarpeta
-{
-
+export interface IntCarpeta {
   numero: number;
   cc?: number;
   llaveProceso?: string;
@@ -40,7 +36,6 @@ export interface flatCarpeta {
   numero: number;
   tipoProceso: TipoProcesoRaw;
 
-
   capitalAdeudado: number;
   departamento: string | null;
   entregaGarantiasAbogado: Date;
@@ -56,8 +51,8 @@ export interface flatCarpeta {
 
 export type Obligacion = {
   A?: string | number;
-  B?: string | number
-}
+  B?: string | number;
+};
 
 export type Category =
   | 'Terminados'
@@ -73,7 +68,7 @@ export interface DemandaRaw {
   departamento?: DepartamentoRaw;
   entregaGarantiasAbogado?: number | string;
   tipoProceso: TipoProcesoRaw;
-  mandamientoPago?: string ;
+  mandamientoPago?: string;
   etapaProcesal?: number | string;
   fechaPresentacion?: number | string;
   municipio?: string;
@@ -97,12 +92,13 @@ export type DepartamentoRaw =
   | 'CUNDINNAMARCA '
   | 'BOYACÁ'
   | 'CUNDINAMRCA'
-  | 'CNDINAMARCA'| '';
+  | 'CNDINAMARCA'
+  | '';
 
 export interface DeudorRaw {
   cedula: number | string;
   direccion?: number | string;
-  email?:number | string;
+  email?: number | string;
   nombre: string;
   telefono?: number | string;
 }
@@ -129,10 +125,10 @@ export interface IntDemanda {
   entregaGarantiasAbogado?: Date | null;
   tipoProceso: TipoProcesoRaw;
   mandamientoPago: Date | null;
-  etapaProcesal: string |null;
+  etapaProcesal: string | null;
   fechaPresentacion: Date | null;
   municipio: string | null;
-  obligacion:Obligacion | null;
+  obligacion: Obligacion | null;
   radicado: string | null;
   vencimientoPagare: Date[] | null;
   expediente: string | null;

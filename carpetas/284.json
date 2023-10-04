@@ -1,1 +1,32 @@
-{"numero":284,"cc":93119101,"llaveProceso":"25214400300120170070400","idProcesos":[],"category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"ARMANDO","segundoNombre":"BARRIOS","primerApellido":"VARGAS","segundoApellido":"","cedula":93119101,"direccion":"VEREDA EL TIME  ( COTA )","email":"abarriosleg@yahoo.es"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-27T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":"2017-10-10T00:00:00.000Z","municipio":"COTA","obligacion":{"A":300093754},"radicado":"2017 - 00704","vencimientoPagare":null,"expediente":"25214400300120170070400","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 284,
+  "cc": 93119101,
+  "llaveProceso": "25214400300120170070400",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ARMANDO",
+    "primerApellido": "BARRIOS",
+    "segundoApellido": "VARGAS",
+    "cedula": 93119101,
+    "direccion": "VEREDA EL TIME  ( COTA )",
+    "email": "abarriosleg@yahoo.es"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-27T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": "2017-10-10T00:00:00.000Z",
+    "municipio": "COTA",
+    "obligacion": { "A": 300093754 },
+    "radicado": "2017 - 00704",
+    "vencimientoPagare": null,
+    "expediente": "25214400300120170070400",
+    "juzgados": []
+  }
+}

@@ -1,19 +1,10 @@
 {
-  "demanda": {
-    "departamento": "CUNDINAMARCA",
-    "juzgados": [],
-    "capitalAdeudado": 17247.376,
-    "entregaGarantiasAbogado": "2018-01-23T00:00:00.000Z",
-    "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": "2018-09-02T05:00:00.000Z",
-    "municipio": "GIRARDOT",
-    "obligacion": { "0": 6590084682, "1": "" },
-    "radicado": "2018 - 00075",
-    "vencimientoPagare": [null],
-    "expediente": "25307400300220180007500"
-  },
+  "idProcesos": [],
+  "numero": 400,
+  "cc": 79652256,
+  "llaveProceso": "25307400300220180007500",
   "category": "Terminados",
-  "categoryTag": 5,
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {},
     "primerNombre": "OSCAR",
@@ -24,7 +15,19 @@
     "direccion": "XARRERA 2 No 10-30B CENTENARIO - GIRARDOT",
     "email": "ocaelmejor@yahoo.es"
   },
-  "numero": 400,
-  "llaveProceso": "25307400300220180007500",
-  "tipoProceso": "HIPOTECARIO"
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2018-09-02T05:00:00.000Z",
+    "municipio": "GIRARDOT",
+    "obligacion": { "A": 6590084682 },
+    "radicado": "2018 - 00075",
+    "vencimientoPagare": [null],
+    "expediente": "25307400300220180007500",
+    "juzgados": []
+  }
 }

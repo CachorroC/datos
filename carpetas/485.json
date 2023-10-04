@@ -1,22 +1,10 @@
 {
-  "demanda": {
-    "departamento": "CUNDINAMARCA",
-    "juzgados": [],
-    "capitalAdeudado": 16492.041,
-    "entregaGarantiasAbogado": "2018-09-03T00:00:00.000Z",
-    "etapaProcesal": "ADMISION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": {
-      "0": "AUDIOPRETAMO / 377815771894801",
-      "1": 4513074250577090
-    },
-    "radicado": "2018 - 00761",
-    "vencimientoPagare": null,
-    "expediente": "11001418900820180076100"
-  },
+  "idProcesos": [],
+  "numero": 485,
+  "cc": 52115085,
+  "llaveProceso": "11001418900820180076100",
   "category": "Terminados",
-  "categoryTag": 5,
+  "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": 3468511,
@@ -30,7 +18,22 @@
     "direccion": "CALLE 75 A No 110C-17",
     "email": "margobus2003@yahoo.com"
   },
-  "numero": 485,
-  "llaveProceso": "11001418900820180076100",
-  "tipoProceso": "SINGULAR"
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-03-09T05:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "A": "AUDIOPRETAMO / 377815771894801",
+      "B": 4513074250577090
+    },
+    "radicado": "2018 - 00761",
+    "vencimientoPagare": null,
+    "expediente": "11001418900820180076100",
+    "juzgados": []
+  }
 }

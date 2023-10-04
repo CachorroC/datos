@@ -1,1 +1,44 @@
-{"numero":307,"cc":79309509,"llaveProceso":"11001400303620170112500","idProcesos":[],"category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"CARLOS","segundoNombre":"ARTURO","primerApellido":"CASTAÑO","segundoApellido":"ALDANA","cedula":79309509,"direccion":"TRANSVERSAL 70 G No 63-52 SUR APTO 27 TORRE 2","email":"cac.marketing@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-10-20T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-11-02T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-10-24T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":190522,"B":4594250022871300},"radicado":"2017 - 01125","vencimientoPagare":null,"expediente":"11001400303620170112500","juzgados":[]}}
+{
+  "idProcesos": [50800110],
+  "numero": 307,
+  "cc": 79309509,
+  "llaveProceso": "11001400303620170112500",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "CARLOS",
+    "segundoNombre": "ARTURO",
+    "primerApellido": "CASTAÑO",
+    "segundoApellido": "ALDANA",
+    "cedula": 79309509,
+    "direccion": "TRANSVERSAL 70 G No 63-52 SUR APTO 27 TORRE 2",
+    "email": "cac.marketing@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-10-20T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-11-02T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-10-24T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "A": 190522,
+      "B": 4594250022871300
+    },
+    "radicado": "2017 - 01125",
+    "vencimientoPagare": [
+      "2031-01-27T00:00:00.000Z"
+    ],
+    "expediente": "11001400303620170112500",
+    "juzgados": [
+      {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

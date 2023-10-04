@@ -1,24 +1,10 @@
 {
-  "demanda": {
-    "departamento": "CUNDINAMARCA",
-    "juzgados": [],
-    "capitalAdeudado": 0,
-    "entregaGarantiasAbogado": null,
-    "etapaProcesal": "09/08/2018",
-    "fechaPresentacion": "2018-09-07T00:00:00.000Z",
-    "municipio": "SOACHA",
-    "obligacion": {
-      "0": "",
-      "1": "21.955.632.15"
-    },
-    "radicado": "2018 - 00841",
-    "vencimientoPagare": [
-      "1899-12-30T00:00:00.000Z"
-    ],
-    "expediente": "25754418900320180084100"
-  },
+  "idProcesos": [],
+  "numero": 470,
+  "cc": 52711938,
+  "llaveProceso": "25754418900320180084100",
   "category": "Terminados",
-  "categoryTag": 5,
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {},
     "primerNombre": "ELIANA",
@@ -26,10 +12,21 @@
     "primerApellido": "LOZANO",
     "segundoApellido": "ARTURO",
     "cedula": 52711938,
-    "direccion": "",
     "email": "TRANSVERSAL 2A No 74B-62 SUR"
   },
-  "numero": 470,
-  "llaveProceso": "25754418900320180084100",
-  "tipoProceso": "HIPOTECARIO"
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "09-08-2018",
+    "fechaPresentacion": "2018-09-07T00:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": { "B": "21.955.632.15" },
+    "radicado": "2018 - 00841",
+    "vencimientoPagare": [null],
+    "expediente": "25754418900320180084100",
+    "juzgados": []
+  }
 }

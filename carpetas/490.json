@@ -1,24 +1,10 @@
 {
-  "demanda": {
-    "departamento": "CUNDINAMARCA",
-    "juzgados": [],
-    "capitalAdeudado": 0,
-    "entregaGarantiasAbogado": null,
-    "etapaProcesal": "20/09/2018",
-    "fechaPresentacion": "2018-02-11T05:00:00.000Z",
-    "municipio": "SOACHA",
-    "obligacion": {
-      "0": "",
-      "1": "17.506.316.71"
-    },
-    "radicado": "2018 - 00988",
-    "vencimientoPagare": [
-      "1899-12-30T00:00:00.000Z"
-    ],
-    "expediente": "25754418900120180098800"
-  },
+  "idProcesos": [],
+  "numero": 490,
+  "cc": 80052004,
+  "llaveProceso": "25754418900120180098800",
   "category": "Terminados",
-  "categoryTag": 5,
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {},
     "primerNombre": "DIEGO",
@@ -29,7 +15,19 @@
     "direccion": "396776067",
     "email": "TRANSVERSAL 18 C- No 9C-11 SUR MANZANA 5 CASA 134"
   },
-  "numero": 490,
-  "llaveProceso": "25754418900120180098800",
-  "tipoProceso": "HIPOTECARIO"
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "20-09-2018",
+    "fechaPresentacion": "2018-02-11T05:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": { "B": "17.506.316.71" },
+    "radicado": "2018 - 00988",
+    "vencimientoPagare": [null],
+    "expediente": "25754418900120180098800",
+    "juzgados": []
+  }
 }

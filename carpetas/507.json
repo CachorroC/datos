@@ -1,24 +1,10 @@
 {
-  "demanda": {
-    "departamento": "CUNDINAMARCA",
-    "juzgados": [],
-    "capitalAdeudado": 0,
-    "entregaGarantiasAbogado": null,
-    "etapaProcesal": "2.584341030012018e+22",
-    "fechaPresentacion": null,
-    "municipio": "UBATE",
-    "obligacion": {
-      "0": 3380087493,
-      "1": "21.876.281,00"
-    },
-    "radicado": "2018 - 00499",
-    "vencimientoPagare": [
-      "1899-12-30T00:00:00.000Z"
-    ],
-    "expediente": ""
-  },
+  "idProcesos": [],
+  "numero": 507,
+  "cc": 80468168,
+  "llaveProceso": "25843410300120180049900",
   "category": "Terminados",
-  "categoryTag": 5,
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {},
     "primerNombre": "WILLIAM",
@@ -26,10 +12,24 @@
     "primerApellido": "YOVANY",
     "segundoApellido": "CASALLAS ROMERO",
     "cedula": 80468168,
-    "direccion": "",
     "email": "CARRERA 4 A No 16 B-14  TORRE2"
   },
-  "numero": 507,
-  "llaveProceso": "",
-  "tipoProceso": "HIPOTECARIO"
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "UBATE",
+    "obligacion": {
+      "A": 3380087493,
+      "B": "21.876.281,00"
+    },
+    "radicado": "2018 - 00499",
+    "vencimientoPagare": [null],
+    "expediente": "25843410300120180049900",
+    "juzgados": []
+  }
 }

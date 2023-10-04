@@ -11,24 +11,25 @@ export async function createCarpetasDemanda() {
   const procesosMap = new Map<
     number,
     intProceso
-    >();
-
+  >();
 
   const newCarpetas = new Set<IntCarpeta>();
 
   for ( const rawCarpeta of Carpetas ) {
-    const indexOfCarpeta = Carpetas.indexOf(
-      rawCarpeta
-    );
+    const indexOfCarpeta
+      = Carpetas.indexOf(
+        rawCarpeta 
+      );
 
-    const carpeta = categoryAssignment(
-      rawCarpeta
-    );
+    const carpeta
+      = categoryAssignment(
+        rawCarpeta 
+      );
 
     const awaitTime = 500;
 
     await sleep(
-      awaitTime
+      awaitTime 
     );
     console.log(
       `carpetas has a length of ${ Carpetas.length } and you are in carpeta number ${ indexOfCarpeta }`
@@ -40,30 +41,31 @@ export async function createCarpetasDemanda() {
 
     if ( RequestProcesos ) {
       const newCarpeta = new Carpeta(
-        carpeta, RequestProcesos
+        carpeta,
+        RequestProcesos
       );
       newCarpetas.add(
-        newCarpeta
+        newCarpeta 
       );
       fs.writeFile(
         `carpetas/${ newCarpeta.numero }.json`,
         JSON.stringify(
-          newCarpeta
+          newCarpeta 
         )
       );
       continue;
     }
 
     const newCarpeta = new Carpeta(
-      carpeta
+      carpeta 
     );
     newCarpetas.add(
-      newCarpeta
+      newCarpeta 
     );
     fs.writeFile(
       `carpetas/${ newCarpeta.numero }.json`,
       JSON.stringify(
-        newCarpeta
+        newCarpeta 
       )
     );
     continue;
@@ -76,61 +78,59 @@ export async function createCarpetasDemanda() {
   fs.writeFile(
     'procesosData.json',
     JSON.stringify(
-      newProcesosArray
+      newProcesosArray 
     )
   );
 
   const newCarpetasArray
     = Array.from(
-      newCarpetas
+      newCarpetas 
     );
 
   const insertCarpetas = await insertNewCarpetas(
     newCarpetasArray
   );
   console.log(
-    insertCarpetas
+    insertCarpetas 
   );
 
   return newCarpetasArray;
 }
 
-
-
 console.log(
   createCarpetasDemanda()
         .then(
           (
-            ff
+            ff 
           ) => {
             fs.writeFile(
               'newCarpetasFinal.json',
               JSON.stringify(
-                ff
+                ff 
               )
             );
 
             return console.log(
-              ff
+              ff 
             );
           },
           (
-            rr
+            rr 
           ) => {
             return console.log(
-              rr
+              rr 
             );
           }
         )
         .catch(
           (
-            err
+            err 
           ) => {
             return console.log(
               JSON.stringify(
-                err
-              )
+                err 
+              ) 
             );
-          }
+          } 
         )
 );

@@ -1,1 +1,41 @@
-{"numero":332,"cc":91284725,"llaveProceso":"25754400100420180009800","idProcesos":[],"category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":9032416,"celular":3168017488},"primerNombre":"MIGUEL","segundoNombre":"ANTONIO","primerApellido":"SANCHEZ","segundoApellido":"MARROQUIN","cedula":91284725,"direccion":"CARRERA 7 A  No  2 A - 35 TORRE 10 APARTAMENTO 303","email":"nichemen@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-11-08T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":null,"municipio":"SOACHA","obligacion":{"A":"161947 /377813179503108","B":377813223799561},"radicado":"2018   00098","vencimientoPagare":null,"expediente":"25754400100420180009800","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 332,
+  "cc": 91284725,
+  "llaveProceso": "25754400100420180009800",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 9032416,
+      "celular": 3168017488
+    },
+    "primerNombre": "MIGUEL",
+    "segundoNombre": "ANTONIO",
+    "primerApellido": "SANCHEZ",
+    "segundoApellido": "MARROQUIN",
+    "cedula": 91284725,
+    "direccion": "CARRERA 7 A  No  2 A - 35 TORRE 10 APARTAMENTO 303",
+    "email": "nichemen@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-11-08T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": {
+      "A": "161947 /377813179503108",
+      "B": 377813223799561
+    },
+    "radicado": "2018   00098",
+    "vencimientoPagare": [
+      "2017-06-05T00:00:00.000Z"
+    ],
+    "expediente": "25754400100420180009800",
+    "juzgados": []
+  }
+}

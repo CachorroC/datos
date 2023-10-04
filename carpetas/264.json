@@ -1,1 +1,35 @@
-{"numero":264,"cc":3058707,"llaveProceso":"25736408900120170016600","idProcesos":[],"category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{"celular":3105683065},"primerNombre":"HECTOR","segundoNombre":"JULIO","primerApellido":"GARZON","segundoApellido":"PEÑA","cedula":3058707,"direccion":"VEREDA POTRERO LARGO  GUATAVITA","email":"N / A"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-20T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-10-12T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-09-28T00:00:00.000Z","municipio":"SESQUILE","obligacion":{"A":3360084994},"radicado":"2017 - 00166","vencimientoPagare":null,"expediente":"25736408900120170016600","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 264,
+  "cc": 3058707,
+  "llaveProceso": "25736408900120170016600",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": { "celular": 3105683065 },
+    "primerNombre": "HECTOR",
+    "segundoNombre": "JULIO",
+    "primerApellido": "GARZON",
+    "segundoApellido": "PEÑA",
+    "cedula": 3058707,
+    "direccion": "VEREDA POTRERO LARGO  GUATAVITA",
+    "email": "N / A"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-20T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-10-12T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-28T00:00:00.000Z",
+    "municipio": "SESQUILE",
+    "obligacion": { "A": 3360084994 },
+    "radicado": "2017 - 00166",
+    "vencimientoPagare": [
+      "2017-08-04T00:00:00.000Z"
+    ],
+    "expediente": "25736408900120170016600",
+    "juzgados": []
+  }
+}

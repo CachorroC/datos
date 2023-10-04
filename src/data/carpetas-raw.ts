@@ -10,7 +10,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-06-02',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 2530444,
+        A: 2530444
       },
       fechaPresentacion: '2017-05-24',
       radicado         : '2017 - 00884',
@@ -37,7 +37,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-07-10',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12330030,
+        A: 12330030
       },
       fechaPresentacion: '2017-06-20',
       radicado         : '2017 - 00836',
@@ -63,9 +63,10 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-11-07',
       municipio              : 'MESITAS',
       obligacion             : {
-        A: 7300080586,
+        A: 7300080586
       },
-      fechaPresentacion: '15-06-2017 // 29-08-2017',
+      fechaPresentacion:
+        '15-06-2017 // 29-08-2017',
       radicado         : '2017-00239',
       tipoProceso      : 'SINGULAR',
       vencimientoPagare: '2019-07-05'
@@ -88,7 +89,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-08',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: 6240082776,
+        A: 6240082776
       },
       fechaPresentacion: '2017-08-11',
       radicado         : '2017 - 00755',
@@ -113,7 +114,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-18',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 136962,
+        A: 136962
       },
       fechaPresentacion: '2017-08-28',
       radicado         : '2017 - 00903',
@@ -140,7 +141,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-05',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 2150091504,
+        A: 2150091504
       },
       fechaPresentacion: '2017-08-08',
       radicado         : '2017 - 01001',
@@ -166,7 +167,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-21',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 148931,
+        A: 148931
       },
       fechaPresentacion: '2017-09-18',
       radicado         : '2017 - 01134',
@@ -194,7 +195,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-01-16',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 4670083154,
+        A: 4670083154
       },
       fechaPresentacion: '10-10-2017',
       radicado         : '2017 - 01391',
@@ -221,7 +222,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-02-09',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 174366,
+        A: 174366
       },
       fechaPresentacion: '10-10-2017',
       radicado         : '2017 - 01394',
@@ -332,7 +333,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-03-01',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 87823,
+        A: 87823
       },
       fechaPresentacion: '22-02-2018',
       radicado         : '2018 - 00236',
@@ -359,7 +360,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-03-22',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 4550087219,
+        A: 4550087219
       },
       fechaPresentacion: '2018-02-28',
       radicado         : '2018 - 00221',
@@ -470,7 +471,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2019-01-17',
       municipio              : 'LA CALERA',
       obligacion             : {
-        A: 2490084469,
+        A: 2490084469
       },
       fechaPresentacion: '07-12-2018',
       radicado         : '2018 - 00371',
@@ -500,7 +501,7 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: '2020-10-07',
       radicado         : '2020 - 00535',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula: 51813018,
@@ -525,7 +526,7 @@ const Carpetas: TrulyCruda[] = [
         B: 4594260446916180
       },
       radicado   : '2020-1021',
-      tipoProceso: 'SINGULAR',
+      tipoProceso: 'SINGULAR'
     },
     deudor: {
       cedula   : 900520023,
@@ -570,7 +571,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'FUSAGASUGA',
       obligacion: {
-        A: 2640096179,
+        A: 2640096179
       },
       radicado         : '2023 - 00371',
       tipoProceso      : 'SINGULAR',
@@ -580,7 +581,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 1075211773,
       direccion: 'KR 1 2 41 Fusagasugá',
       email    : 'jonathansoldier@hotmail.com',
-      nombre   : 'PEDRO JONATHAN RAMIREZ GOMEZ',
+      nombre   : 'PEDRO JONATHAN RAMIREZ GOMEZ'
     },
     llaveProceso: '25312400300320230037100',
     numero      : 551
@@ -619,7 +620,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 130089828,
+        A: 130089828
       },
       radicado         : '2023 - 01088',
       tipoProceso      : 'SINGULAR',
@@ -630,7 +631,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'Carrera 7 # 180 75 // Carrera 8 A No. 182 - 12',
       email : 'lxndrlaverde@gmail.com',
-      nombre: 'JOSE ALEXANDER LAVERDE PENAGOS',
+      nombre: 'JOSE ALEXANDER LAVERDE PENAGOS'
     },
     llaveProceso: '11001400308320230108800',
     numero      : 553
@@ -670,7 +671,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 1920089307,
+        A: 1920089307
       },
       radicado         : '2023 - 00904',
       tipoProceso      : 'SINGULAR',
@@ -775,7 +776,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 1080103378,
+        A: 1080103378
       },
       radicado         : ' 2023 - 00886',
       tipoProceso      : 'SINGULAR',
@@ -893,7 +894,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 7718318,
       direccion: 'Carrera 57 No. 60 A - 20',
       email    : 'milugo1111@hotmail.com',
-      nombre   : 'MILTON MARINO LUGO GOMEZ',
+      nombre   : 'MILTON MARINO LUGO GOMEZ'
     },
     llaveProceso: '11001418903220230061200',
     numero      : 563
@@ -906,7 +907,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 9460085166,
+        A: 9460085166
       },
       radicado         : '2023 - 01280',
       tipoProceso      : 'SINGULAR',
@@ -931,7 +932,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 1010090492,
+        A: 1010090492
       },
       radicado         : '2023 - 01273',
       tipoProceso      : 'SINGULAR',
@@ -956,7 +957,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 6620091753,
+        A: 6620091753
       },
       radicado         : '2023 - 01243',
       tipoProceso      : 'SINGULAR',
@@ -981,7 +982,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 1000094307,
+        A: 1000094307
       },
       radicado         : '2023 - 01284',
       tipoProceso      : 'SINGULAR',
@@ -1032,7 +1033,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 2990086384,
+        A: 2990086384
       },
       radicado         : '2023 - 00167',
       tipoProceso      : 'SINGULAR',
@@ -1056,7 +1057,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 3990086952,
+        A: 3990086952
       },
       radicado         : '2023 - 01465',
       tipoProceso      : 'SINGULAR',
@@ -1082,7 +1083,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'MOSQUERA',
       obligacion: {
-        A: 1380089168,
+        A: 1380089168
       },
       radicado         : '2023 - 01289',
       tipoProceso      : 'SINGULAR',
@@ -1186,7 +1187,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 'Q \'0000000079780047027001',
+        A: 'Q \'0000000079780047027001'
       },
       radicado         : '2023 - 00864',
       tipoProceso      : 'SINGULAR',
@@ -1372,7 +1373,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'MADRID',
       obligacion: {
-        A: 3830095609,
+        A: 3830095609
       },
       radicado         : '2023 - 01295',
       tipoProceso      : 'SINGULAR',
@@ -1423,7 +1424,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 149899724,
+        A: 149899724
       },
 
       tipoProceso      : 'SINGULAR',
@@ -1467,11 +1468,11 @@ const Carpetas: TrulyCruda[] = [
   },
   {
     demanda: {
-      tipoProceso: 'HIPOTECARIO',
+      tipoProceso: 'HIPOTECARIO'
     },
     deudor: {
       cedula: 35507149,
-      nombre: 'MARIA NANCY PINEDA LEON',
+      nombre: 'MARIA NANCY PINEDA LEON'
     },
     numero: 586
   },
@@ -1484,7 +1485,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-07-21',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 2453698,
+        A: 2453698
       },
       fechaPresentacion: '2017-05-24',
       radicado         : '2017 - 00849',
@@ -1510,7 +1511,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-08-14',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12705806,
+        A: 12705806
       },
       fechaPresentacion: '2017-05-30',
       radicado         : '2017 - 00335',
@@ -1538,7 +1539,8 @@ const Carpetas: TrulyCruda[] = [
         A: 4280019446,
         B: '5406915580101610 4513077620518209//20990166568'
       },
-      fechaPresentacion: '8-06-2017 // 12-04-2018',
+      fechaPresentacion:
+        '8-06-2017 // 12-04-2018',
       radicado         : '2018- 00384',
       tipoProceso      : 'SINGULAR',
       vencimientoPagare: '2028-08-01'
@@ -1591,11 +1593,11 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-07-28',
       municipio              : 'ANAPOIMA',
       obligacion             : {
-        A: 3840082880,
+        A: 3840082880
       },
       fechaPresentacion: '2017-05-31',
       radicado         : '2017 - 00108',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula: 1072421639,
@@ -1676,7 +1678,7 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: '2017-06-13',
       radicado         : '2017-00760',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula   : 14273737,
@@ -1698,7 +1700,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-07-27',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 4200023595,
+        A: 4200023595
       },
       fechaPresentacion: '13-06-2017//21-07-17',
       radicado         : '2017-00419',
@@ -1752,7 +1754,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-06',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 2250084171,
+        A: 2250084171
       },
       fechaPresentacion: '2017-06-14',
       radicado         : '2017-00567',
@@ -1806,7 +1808,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-07-19',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12515504,
+        A: 12515504
       },
       fechaPresentacion: '2017-06-16',
       radicado         : '2017 - 00483',
@@ -1859,7 +1861,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-08-30',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 420087224,
+        A: 420087224
       },
       fechaPresentacion: '2017-06-20',
       radicado         : '2017 - 00566',
@@ -1886,9 +1888,10 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-14',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 300093705,
+        A: 300093705
       },
-      fechaPresentacion: '20-06-2017 // 28-08-2017',
+      fechaPresentacion:
+        '20-06-2017 // 28-08-2017',
       radicado         : '2017 - 01520',
       tipoProceso      : 'SINGULAR',
       vencimientoPagare: '2020-11-27'
@@ -1911,7 +1914,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-01',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 6240082772,
+        A: 6240082772
       },
       fechaPresentacion: '2017-07-21',
       radicado         : '2017 - 00905',
@@ -1992,7 +1995,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-11-15',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 5670085162,
+        A: 5670085162
       },
       fechaPresentacion: '2017-07-21',
       radicado         : '2017 - 01084',
@@ -2021,7 +2024,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago: '2017-08-14',
       municipio      : 'BOGOTA',
       obligacion     : {
-        A: 8470081213,
+        A: 8470081213
       },
       fechaPresentacion: '2017-08-08',
       radicado         : '2017 - 00807',
@@ -2046,7 +2049,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-19',
       municipio              : 'CHIA',
       obligacion             : {
-        A: 1680097051,
+        A: 1680097051
       },
       fechaPresentacion: '2017-08-15',
       radicado         : '2017 - 00412',
@@ -2072,7 +2075,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-13',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 1220084112,
+        A: 1220084112
       },
       fechaPresentacion: '2017-08-23',
       radicado         : '2017 - 01082',
@@ -2099,7 +2102,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-02-15',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12750180,
+        A: 12750180
       },
       fechaPresentacion: '2017-08-23',
       radicado         : '2017 - 01750',
@@ -2126,7 +2129,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-19',
       municipio              : 'MELGAR',
       obligacion             : {
-        A: 12650694,
+        A: 12650694
       },
       fechaPresentacion: '2017-08-31',
       radicado         : '2017 - 00259',
@@ -2154,7 +2157,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-12',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12743098,
+        A: 12743098
       },
       fechaPresentacion: '2017-08-30',
       radicado         : '2017 - 01063',
@@ -2181,7 +2184,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago: '2017-09-19',
       municipio      : 'BOGOTA',
       obligacion     : {
-        A: 430103841,
+        A: 430103841
       },
       fechaPresentacion: '2017-08-28',
       radicado         : '2017 - 00971',
@@ -2208,7 +2211,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-12',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: 12725973,
+        A: 12725973
       },
       fechaPresentacion: '2017-08-28',
       radicado         : '2017 - 00265',
@@ -2219,7 +2222,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 80357801,
       direccion: 'CALLE 34 # 1A - 40 CASA 247',
       email    : 'jeovanyrojas@outlook.com',
-      nombre   : 'JEOVANY ROJAS CRUZ',
+      nombre   : 'JEOVANY ROJAS CRUZ'
     },
     llaveProceso: '25754400300220170026500',
     numero      : 208
@@ -2347,7 +2350,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago: '2017-10-05',
       municipio      : 'BOGOTA',
       obligacion     : {
-        A: 12577419,
+        A: 12577419
       },
       fechaPresentacion: '2017-08-31',
       radicado         : '2017 - 00845',
@@ -2458,7 +2461,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-13',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 2330087057,
+        A: 2330087057
       },
       fechaPresentacion: '2017-09-04',
       radicado         : '2017 - 01058',
@@ -2484,7 +2487,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-12-12',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 8920084662,
+        A: 8920084662
       },
       fechaPresentacion: '2017-09-19',
       radicado         : '2017 - 01279',
@@ -2511,7 +2514,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-12',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12711612,
+        A: 12711612
       },
       fechaPresentacion: '2017-09-19',
       radicado         : '2017 - 01195',
@@ -2537,7 +2540,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-26',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 5306940432740470,
+        A: 5306940432740470
       },
       fechaPresentacion: '2017-09-14',
       radicado         : '2017 - 01522',
@@ -2563,7 +2566,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-17',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 300094317,
+        A: 300094317
       },
       fechaPresentacion: '2017-09-21',
       radicado         : '2017 - 00128',
@@ -2591,7 +2594,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-25',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12676248,
+        A: 12676248
       },
       fechaPresentacion: '2017-09-21',
       radicado         : '2017 - 00924',
@@ -2619,7 +2622,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago: '2017-10-02',
       municipio      : 'BOGOTA',
       obligacion     : {
-        A: 12389160,
+        A: 12389160
       },
       fechaPresentacion: '2017-09-21',
       radicado         : '2017 - 01113',
@@ -2671,7 +2674,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-20',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 'AUDIOPRESTAMO',
+        A: 'AUDIOPRESTAMO'
       },
       fechaPresentacion: '10-10-2017',
       radicado         : '2017 - 01306',
@@ -2698,7 +2701,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-11-09',
       municipio              : 'CAPARRAPI',
       obligacion             : {
-        A: 7910080245,
+        A: 7910080245
       },
       fechaPresentacion: '2017-10-19',
       radicado         : '2017 - 00096',
@@ -2784,7 +2787,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-25',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 4280023383,
+        A: 4280023383
       },
       fechaPresentacion: '2017-10-17',
       radicado         : '2017 - 01016',
@@ -2810,7 +2813,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-20',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 3880082626,
+        A: 3880082626
       },
       fechaPresentacion: '2017-10-12',
       radicado         : '2017 - 00975',
@@ -2864,7 +2867,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-11-29',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 2290098960,
+        A: 2290098960
       },
       fechaPresentacion: '2017-10-31',
       radicado         : '2017-1208',
@@ -2973,7 +2976,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-06',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 10000090724,
+        A: 10000090724
       },
       fechaPresentacion: '2017-11-21',
       radicado         : '2017 - 01623',
@@ -3084,7 +3087,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-02-26',
       municipio              : 'CAJICA',
       obligacion             : {
-        A: 12730779,
+        A: 12730779
       },
       fechaPresentacion: '2018-02-01',
       radicado         : '2018 - 00048',
@@ -3110,7 +3113,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-02-26',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 1740087269,
+        A: 1740087269
       },
       fechaPresentacion: '05-02-2018',
       radicado         : '2018 - 00090',
@@ -3138,7 +3141,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-02-26',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 'AUDIOPRESTAMO',
+        A: 'AUDIOPRESTAMO'
       },
       fechaPresentacion: '05-02-2018',
       radicado         : '2018 - 00111',
@@ -3194,7 +3197,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-03-22',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: 1000090987,
+        A: 1000090987
       },
       fechaPresentacion: '2018-02-22',
       radicado         : '2018 - 00113',
@@ -3220,7 +3223,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-05-08',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 'AUDIOPRESTAMO',
+        A: 'AUDIOPRESTAMO'
       },
       fechaPresentacion: '2018-04-25',
       radicado         : '2018 - 00475',
@@ -3300,7 +3303,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2019-06-19',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 4594260107010410,
+        A: 4594260107010410
       },
       fechaPresentacion: '24-10-2018',
       radicado         : '2019 - 01085',
@@ -3357,7 +3360,7 @@ const Carpetas: TrulyCruda[] = [
         B: 4513070445120640
       },
       radicado   : '2020 - 00289',
-      tipoProceso: 'SINGULAR',
+      tipoProceso: 'SINGULAR'
     },
     deudor: {
       cedula   : 11337530,
@@ -3545,7 +3548,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-11-27',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12541235,
+        A: 12541235
       },
       fechaPresentacion: '2017-10-12',
       radicado         : '2017 - 01002',
@@ -3600,7 +3603,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '22-0617',
       municipio              : 'GIRARDOT',
       obligacion             : {
-        A: '2273 320145954',
+        A: '2273 320145954'
       },
       fechaPresentacion: '2017-05-30',
       radicado         : '2017 - 00250',
@@ -3655,7 +3658,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-02-02',
       municipio              : 'CAJICA',
       obligacion             : {
-        A: 12204943,
+        A: 12204943
       },
       fechaPresentacion: '2018-09-28',
       radicado         : '2017 - 00715',
@@ -3680,7 +3683,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: '2273 320158101',
+        A: '2273 320158101'
       },
       fechaPresentacion: '2017-05-30',
       radicado         : '2017 - 00720',
@@ -3707,7 +3710,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-05',
       municipio              : 'GUASCA',
       obligacion             : {
-        A: '2273 320172490',
+        A: '2273 320172490'
       },
       fechaPresentacion: '2017-06-05',
       radicado         : '2017 - 00168',
@@ -3732,7 +3735,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'NOTIFICACION',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: '2273 320111490',
+        A: '2273 320111490'
       },
       fechaPresentacion: '2017-05-30',
       radicado         : '2017 -00444',
@@ -3757,7 +3760,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'NOTIFICACION',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 2553057,
+        A: 2553057
       },
       fechaPresentacion: '2017-05-24',
       radicado         : '2017 - 00374',
@@ -3782,7 +3785,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'NOTIFICACION',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 2008124,
+        A: 2008124
       },
       fechaPresentacion: '2017-05-24',
       radicado         : '2017 - 00667',
@@ -3808,7 +3811,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-20',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: '2290099308    /2170086682',
+        A: '2290099308    /2170086682'
       },
       fechaPresentacion: '2017-09-25',
       radicado         : '2017 - 00998',
@@ -3834,7 +3837,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'SUBA',
       obligacion             : {
-        A: 2405037,
+        A: 2405037
       },
       fechaPresentacion: '2017-05-24',
       radicado         : '2017 - 00909',
@@ -3859,7 +3862,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-18',
       municipio              : 'FACATATIVA',
       obligacion             : {
-        A: 2273320140425,
+        A: 2273320140425
       },
       fechaPresentacion: '2017-05-30',
       radicado         : '2017 - 00488/ 2018 - 00158',
@@ -3886,7 +3889,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2007-06-02',
       municipio              : 'VIANI',
       obligacion             : {
-        A: 3720087139,
+        A: 3720087139
       },
       fechaPresentacion: '2017-05-31',
       radicado         : '2017 - 00020',
@@ -3910,7 +3913,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'SIBATE',
       obligacion: {
-        A: 4517,
+        A: 4517
       },
       fechaPresentacion: '2017-09-27',
       radicado         : '2017 - 00284',
@@ -3937,11 +3940,11 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-06-01',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 2450966,
+        A: 2450966
       },
       fechaPresentacion: '2017-05-24',
       radicado         : '2017 - 00654',
-      tipoProceso      : 'PRENDARIO',
+      tipoProceso      : 'PRENDARIO'
     },
     deudor: {
       cedula: 1098678636,
@@ -3962,7 +3965,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-08-22',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: '2273 320131950',
+        A: '2273 320131950'
       },
       fechaPresentacion: '2017-05-30',
       radicado         : '2017 - 00480',
@@ -4014,7 +4017,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 103560,
+        A: 103560
       },
       fechaPresentacion: '25-09-2017',
       radicado         : '2017 - 01755',
@@ -4040,7 +4043,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-06-09',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 2551197,
+        A: 2551197
       },
       fechaPresentacion: '2017-05-24',
       radicado         : '2017 - 00483',
@@ -4149,7 +4152,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-07-11',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 20990116310,
+        A: 20990116310
       },
       fechaPresentacion: '2017-05-30',
       radicado         : '2017 - 00827',
@@ -4173,7 +4176,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-06-28',
       municipio              : 'FUSAGASUGA',
       obligacion             : {
-        A: 127011,
+        A: 127011
       },
       fechaPresentacion: '2017-06-08',
       radicado         : '2017 - 00369',
@@ -4199,7 +4202,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'NOTIFICACION',
       municipio              : 'CHIA',
       obligacion             : {
-        A: 179301,
+        A: 179301
       },
       fechaPresentacion: '2017-09-26',
       radicado         : '2017 - 00511',
@@ -4224,7 +4227,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-10',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 146247,
+        A: 146247
       },
       radicado         : '2017 - 00951',
       tipoProceso      : 'HIPOTECARIO',
@@ -4308,7 +4311,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-06-21',
       municipio              : 'GIRARDOT',
       obligacion             : {
-        A: 23595,
+        A: 23595
       },
       fechaPresentacion: '2017-06-08',
       radicado         : '2017 - 00330',
@@ -4335,7 +4338,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-06-28',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 65758,
+        A: 65758
       },
       fechaPresentacion: '2017-06-14',
       radicado         : '2017 - 00892',
@@ -4361,7 +4364,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-08-11',
       municipio              : 'SIBATE',
       obligacion             : {
-        A: 12548843,
+        A: 12548843
       },
       fechaPresentacion: '09-06-2017//27-07-17',
       radicado         : '2017 - 00217',
@@ -4420,7 +4423,7 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: '2017-06-13',
       radicado         : '2017 - 00903',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula   : 79982488,
@@ -4469,7 +4472,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-08-30',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 186924,
+        A: 186924
       },
       fechaPresentacion: '11-08-147',
       radicado         : '2017 - 01190',
@@ -4496,7 +4499,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-08-24',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 377813731599891,
+        A: 377813731599891
       },
       fechaPresentacion: '2017-06-23',
       radicado         : '2017 - 00882',
@@ -4522,7 +4525,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-25',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 377813731599891,
+        A: 377813731599891
       },
       fechaPresentacion: '2017-08-11',
       radicado         : '2017 - 00882',
@@ -4574,7 +4577,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-26',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12549338,
+        A: 12549338
       },
       fechaPresentacion:
         'TERMINO ERRADAMENTE POR PAGO TOTAL',
@@ -4601,7 +4604,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: '320 149552',
+        A: '320 149552'
       },
       fechaPresentacion: '2017-06-20',
       radicado         : '2017 - 00644',
@@ -4631,7 +4634,8 @@ const Carpetas: TrulyCruda[] = [
         A: '1800088260//377813230167802',
         B: 4513070115042991
       },
-      fechaPresentacion: '16-06-2017 // 08-06-2018',
+      fechaPresentacion:
+        '16-06-2017 // 08-06-2018',
       radicado         : '2018 - 00614',
       tipoProceso      : 'SINGULAR',
       vencimientoPagare: '2019-06-01'
@@ -4708,7 +4712,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-07-31',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: '320 131802',
+        A: '320 131802'
       },
       fechaPresentacion: '2017-06-21',
       radicado         : '2017 - 00975',
@@ -4735,7 +4739,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-08-25',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 320095437,
+        A: 320095437
       },
       fechaPresentacion: '2017-06-21',
       radicado         : '2017 - 01138',
@@ -4790,7 +4794,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-06-22',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: '2273 320157242',
+        A: '2273 320157242'
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2014 - 00703',
@@ -4822,7 +4826,7 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: '2017-06-15',
       radicado         : '2017 - 00512',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula: 39556705,
@@ -4843,7 +4847,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 490098936,
+        A: 490098936
       },
       fechaPresentacion: '2017-09-26',
       radicado         : '2017 - 01064',
@@ -4919,7 +4923,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-03-21',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: '320 093516',
+        A: '320 093516'
       },
       fechaPresentacion: '2017-06-21',
       radicado         : '2017 - 00537',
@@ -4946,7 +4950,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-12-15',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 145608,
+        A: 145608
       },
       fechaPresentacion: '2017-09-19',
       radicado         : '2017 - 00089',
@@ -4972,7 +4976,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-06-15',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12730628,
+        A: 12730628
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 00776',
@@ -4998,7 +5002,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-07-27',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12525003,
+        A: 12525003
       },
       fechaPresentacion: '2017-07-21',
       radicado         : '2017 - 00702',
@@ -5078,7 +5082,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-06-14',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12587175,
+        A: 12587175
       },
       fechaPresentacion: 'SENTENCIA',
       radicado         : '2017 - 01084',
@@ -5104,7 +5108,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-06-20',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12615209,
+        A: 12615209
       },
       fechaPresentacion: 'NOTIFICACION',
       radicado         : '2017 - 01065',
@@ -5129,7 +5133,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-12-14',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 2474005,
+        A: 2474005
       },
       fechaPresentacion: '2017-06-16',
       radicado         : '2017 - 01241',
@@ -5140,7 +5144,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 1030545462,
       direccion: 'CARRERA 88 # 26 - 68',
       email    : '1988fac@gmail.com',
-      nombre   : 'NESTOR FABIAN ESPITIA FRAILE',
+      nombre   : 'NESTOR FABIAN ESPITIA FRAILE'
     },
     llaveProceso: '11001400306020170124100',
     numero      : 72
@@ -5154,7 +5158,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-06-14',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12537545,
+        A: 12537545
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 00575',
@@ -5181,7 +5185,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-07-25',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12185017,
+        A: 12185017
       },
       fechaPresentacion: '2017-06-15',
       radicado         : '2017 - 00507',
@@ -5217,7 +5221,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 80792132,
       direccion: 'marioabc_83@hotmail.com',
       email    : '44955363-31249909451',
-      nombre   : 'MARIO ANDRES BOJACA CRUZ',
+      nombre   : 'MARIO ANDRES BOJACA CRUZ'
     },
     llaveProceso: '11001400305820170091800',
     numero      : 75
@@ -5231,7 +5235,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-06-21',
       municipio              : 'CHOCONTA',
       obligacion             : {
-        A: 2660080368,
+        A: 2660080368
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 00119',
@@ -5314,7 +5318,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-06-16',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 3890084585,
+        A: 3890084585
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 00892',
@@ -5341,7 +5345,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-06-22',
       municipio              : 'TOCANCIPA',
       obligacion             : {
-        A: 377816861734105,
+        A: 377816861734105
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 00351',
@@ -5367,7 +5371,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-06-21',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 1680096092,
+        A: 1680096092
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 00554',
@@ -5393,7 +5397,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'NOTIFICACION',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 1980094471,
+        A: 1980094471
       },
       fechaPresentacion: '2017-06-20',
       radicado         : '2017 - 01065',
@@ -5417,7 +5421,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : '11001400301920170102500',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12436479,
+        A: 12436479
       },
       fechaPresentacion:
         'EL 4 DE ABRIL DE 2019 SE DEVOLVIERON GARANTIAS A AECSA S.A. // EL 27-03-2019 SE RADICO EN EL SIM OFICIO DE LEVANTAMIENTO DE MEDIDA CAUTELAR DE EMBARGO SOBRE VEHICULO // EL 26 DE ABRIL DE 2019 SE ARCHIVO EL PROCESO EN LA CAJA 631 EL 19 DE MARZO 2019',
@@ -5472,7 +5476,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-07-27',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 2150091074,
+        A: 2150091074
       },
       fechaPresentacion: '2017-06-20',
       radicado         : '2017 - 00561',
@@ -5496,7 +5500,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago: '2017-06-28',
       municipio      : 'BOGOTA',
       obligacion     : {
-        A: 12488415,
+        A: 12488415
       },
       fechaPresentacion: '2017-06-20',
       radicado         : '2017 - 00528',
@@ -5521,9 +5525,10 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12431049,
+        A: 12431049
       },
-      fechaPresentacion: '21-07-2017 // 18-09-2017',
+      fechaPresentacion:
+        '21-07-2017 // 18-09-2017',
       radicado         : '2017 - 00615',
       tipoProceso      : 'PRENDARIO',
       vencimientoPagare: '2017-06-09'
@@ -5550,9 +5555,10 @@ const Carpetas: TrulyCruda[] = [
         A: '05-04-2018 15-01-2021',
         B: 2500083807
       },
-      fechaPresentacion: '11001400301420180040600',
-      radicado         : '2018 - 00406',
-      tipoProceso      : 'SINGULAR',
+      fechaPresentacion:
+        '11001400301420180040600',
+      radicado   : '2018 - 00406',
+      tipoProceso: 'SINGULAR'
     },
     deudor: {
       cedula   : 79456791,
@@ -5601,7 +5607,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-05',
       municipio              : 'CAJICA',
       obligacion             : {
-        A: 166689,
+        A: 166689
       },
       fechaPresentacion: '2017-06-20',
       radicado         : '2017 - 00496',
@@ -5628,7 +5634,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 177994,
+        A: 177994
       },
       fechaPresentacion: '2017-06-29',
       radicado         : '2017 - 00591',
@@ -5654,7 +5660,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-07-10',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12099135,
+        A: 12099135
       },
       fechaPresentacion: '2017-06-29',
       radicado         : '2017 - 00575',
@@ -5706,18 +5712,17 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-01-12',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 20990137187,
+        A: 20990137187
       },
       radicado   : '2016 - 00319',
-      tipoProceso: 'HIPOTECARIO',
+      tipoProceso: 'HIPOTECARIO'
     },
     deudor: {
-      cedula: 19270589,
-      direccion:
-        'CALLE 52 A BIS  No 35 B 41 SUR',
-      email   : 'conjuexeu@hotmail.com',
-      nombre  : 'JOSE ALFREDO RIAÑO MALDONADO',
-      telefono: 2388711
+      cedula   : 19270589,
+      direccion: 'CALLE 52 A BIS  No 35 B 41 SUR',
+      email    : 'conjuexeu@hotmail.com',
+      nombre   : 'JOSE ALFREDO RIAÑO MALDONADO',
+      telefono : 2388711
     },
     llaveProceso: '11001400308520160031900',
     numero      : 97
@@ -5730,7 +5735,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-08',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 190459,
+        A: 190459
       },
       fechaPresentacion: '2017-06-29',
       radicado         : '2017 - 00623',
@@ -5809,7 +5814,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-08-03',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12545412,
+        A: 12545412
       },
       fechaPresentacion: '2017-06-29',
       radicado         : '2017 - 00653',
@@ -5862,7 +5867,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-07-21',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 5850082368,
+        A: 5850082368
       },
       fechaPresentacion: 'ADMISION',
       radicado         : '2017 - 01113',
@@ -5915,7 +5920,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-04-03',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12491571,
+        A: 12491571
       },
       fechaPresentacion: '2017-08-08',
       radicado         : '2018 - 00119',
@@ -5941,7 +5946,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-06-20',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 430103643,
+        A: 430103643
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 00774',
@@ -5965,7 +5970,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 12156526,
+        A: 12156526
       },
       fechaPresentacion: '2017-08-08',
       radicado         : '2017 - 00712',
@@ -6018,7 +6023,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '8-08-2017 // 29-11-2017',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 860669,
+        A: 860669
       },
       fechaPresentacion: 'LIQUIDACION',
       radicado         : '2017 - 01817',
@@ -6071,7 +6076,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-01-23',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 129471,
+        A: 129471
       },
       fechaPresentacion: '2017-08-08',
       radicado         : '2017 - 00809',
@@ -6153,7 +6158,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-19',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 450087082,
+        A: 450087082
       },
       fechaPresentacion: '2017-08-11',
       radicado         : '2017 - 00988',
@@ -6237,9 +6242,8 @@ const Carpetas: TrulyCruda[] = [
       vencimientoPagare: '2419-10-07'
     },
     deudor: {
-      cedula: 79547983,
-      email:
-        'DIAGONAL 146 # 136A - 79 IN 3 AP 3',
+      cedula  : 79547983,
+      email   : 'DIAGONAL 146 # 136A - 79 IN 3 AP 3',
       nombre  : 'GUSTAVO SANTAMARIA MOSQUERA',
       telefono: 'gustavo_santamaria@hotmail.com'
     },
@@ -6258,15 +6262,14 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: '2017-08-16',
       radicado         : '2017 - 01180',
-      tipoProceso      : 'HIPOTECARIO',
+      tipoProceso      : 'HIPOTECARIO'
     },
     deudor: {
-      cedula: 40025572,
-      direccion:
-        'CALLE 181 # 17B 47 SAN ANTONIO',
-      email   : 'eariasseguros@hotmail.com',
-      nombre  : 'BLANCA EDELMIRA ARIAS MELO',
-      telefono: '6749599 // 3202092701'
+      cedula   : 40025572,
+      direccion: 'CALLE 181 # 17B 47 SAN ANTONIO',
+      email    : 'eariasseguros@hotmail.com',
+      nombre   : 'BLANCA EDELMIRA ARIAS MELO',
+      telefono : '6749599 // 3202092701'
     },
     llaveProceso: '11001400303320170118000',
     numero      : 124
@@ -6285,7 +6288,7 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: 'LIQUIDACION',
       radicado         : '2017 - 00762',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula: 79834592,
@@ -6334,7 +6337,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-08-25',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 4060080684,
+        A: 4060080684
       },
       fechaPresentacion: '2017-08-18',
       radicado         : '2017 - 00733',
@@ -6389,11 +6392,11 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-08-29',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 377815132099546,
+        A: 377815132099546
       },
       fechaPresentacion: '2017-08-18',
       radicado         : '2017 - 01153',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula   : 77010352,
@@ -6444,7 +6447,7 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: '2017-08-23',
       radicado         : '2017 - 01051',
-      tipoProceso      : 'HIPOTECARIO',
+      tipoProceso      : 'HIPOTECARIO'
     },
     deudor: {
       cedula: 80049317,
@@ -6466,11 +6469,11 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-08-22',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 130201,
+        A: 130201
       },
       fechaPresentacion: 'LIQUIDACION',
       radicado         : '2017 - 00950',
-      tipoProceso      : 'HIPOTECARIO',
+      tipoProceso      : 'HIPOTECARIO'
     },
     deudor: {
       cedula   : 80820336,
@@ -6518,7 +6521,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-06-29',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 410086468,
+        A: 410086468
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 00639',
@@ -6544,7 +6547,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-11-21',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 132651,
+        A: 132651
       },
       fechaPresentacion: '2017-08-23',
       radicado         : '2017 - 01491',
@@ -6570,7 +6573,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-12-01',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 235349,
+        A: 235349
       },
       fechaPresentacion: '2017-08-23',
       radicado         : '2017 - 01713',
@@ -6597,7 +6600,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-08-31',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 156979,
+        A: 156979
       },
       fechaPresentacion: '2017-08-22',
       radicado         : '2017 - 01160',
@@ -6623,11 +6626,11 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-29',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 146579,
+        A: 146579
       },
       fechaPresentacion: '2017-08-23',
       radicado         : '2017 - 00793',
-      tipoProceso      : 'HIPOTECARIO',
+      tipoProceso      : 'HIPOTECARIO'
     },
     deudor: {
       cedula   : 20896387,
@@ -6648,7 +6651,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-06-29',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12480702,
+        A: 12480702
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 00568',
@@ -6674,7 +6677,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'NOTIFICACION',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 156285,
+        A: 156285
       },
       fechaPresentacion: '2017-08-22',
       radicado         : '2017 - 01100',
@@ -6701,11 +6704,11 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-09',
       municipio              : 'FUNZA',
       obligacion             : {
-        A: 20990186969,
+        A: 20990186969
       },
       fechaPresentacion: '2017-08-23',
       radicado         : '2017 - 00742',
-      tipoProceso      : 'HIPOTECARIO',
+      tipoProceso      : 'HIPOTECARIO'
     },
     deudor: {
       cedula: 36184358,
@@ -6726,7 +6729,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-14',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 4280023643,
+        A: 4280023643
       },
       fechaPresentacion: '2017-08-22',
       radicado         : '2017 - 01089',
@@ -6752,7 +6755,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-08-22',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 1980094643,
+        A: 1980094643
       },
       fechaPresentacion:
         'LIQUIDACIÓN DEL CRÉDITO SOLICITADA',
@@ -6835,7 +6838,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-08-22',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 4800902204,
+        A: 4800902204
       },
       fechaPresentacion: 'EJECUCION',
       radicado         : '2017 - 00747',
@@ -6863,7 +6866,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-08-22',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12447813,
+        A: 12447813
       },
       fechaPresentacion: '2017-08-22',
       radicado         : '2017 - 00813',
@@ -6889,7 +6892,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'SOACHA',
       obligacion: {
-        A: 155176,
+        A: 155176
       },
       fechaPresentacion: '2017-08-22',
       radicado         : '2017 - 00256',
@@ -6916,7 +6919,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-19',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: 180394,
+        A: 180394
       },
       fechaPresentacion: '2017-08-28',
       radicado         : '2017 - 00249',
@@ -6946,14 +6949,14 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: '2017-08-28',
       radicado         : '2017 - 01135',
-      tipoProceso      : 'HIPOTECARIO',
+      tipoProceso      : 'HIPOTECARIO'
     },
     deudor: {
       cedula: 88227428,
       direccion:
         'CALLE 180 # 12A - 16 INT 3 APT 202 ETAPA 3 // CALLE 137 # 91 - 40 INT 5 APTO 404',
       email : 'higuitac@gmail.com',
-      nombre: 'ANDRES FELIPE HIGUITA CARDONA',
+      nombre: 'ANDRES FELIPE HIGUITA CARDONA'
     },
     llaveProceso: '11001400307320170113500',
     numero      : 151
@@ -6967,7 +6970,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-09-05',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 180950,
+        A: 180950
       },
       fechaPresentacion:
         'DESDE EL 25-03-2022 APARECE OFICIO CORREGIDO SIN TRAMITAR Y PASA A LA LETRA',
@@ -6996,11 +6999,11 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-04-04',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: 179883,
+        A: 179883
       },
       fechaPresentacion: '2017-08-28',
       radicado         : '2017 - 00714',
-      tipoProceso      : 'HIPOTECARIO',
+      tipoProceso      : 'HIPOTECARIO'
     },
     deudor: {
       cedula: 52230614,
@@ -7035,7 +7038,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'CALLE 7 # 5 - 29 TORRE 8 APTO 303',
       email : 'ruedacarlos47@gmail.com',
-      nombre: 'CARLOS ARTURO RUEDA ALZATE',
+      nombre: 'CARLOS ARTURO RUEDA ALZATE'
     },
     llaveProceso: '11001400308320170071700',
     numero      : 155
@@ -7076,12 +7079,12 @@ const Carpetas: TrulyCruda[] = [
       obligacion       : {},
       fechaPresentacion: '2017-08-28',
       radicado         : '2017 - 00889',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula: 19146821,
 
-      nombre: 'LUIS ALBERTO MENDOZA CASTAÑO',
+      nombre: 'LUIS ALBERTO MENDOZA CASTAÑO'
     },
     llaveProceso: '11001400301120170088900',
     numero      : 157
@@ -7121,7 +7124,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 11932772,
+        A: 11932772
       },
       fechaPresentacion: '2017-08-28',
       radicado         : '2017 - 01333',
@@ -7148,7 +7151,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '31-08-2017',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 103083921,
+        A: 103083921
       },
       fechaPresentacion: '2017-08-28',
       radicado         : '2017 - 00762',
@@ -7173,7 +7176,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'MOSQUERA',
       obligacion: {
-        A: 169486,
+        A: 169486
       },
       fechaPresentacion: '2017-08-31',
       radicado         : '2017 - 00956',
@@ -7184,9 +7187,8 @@ const Carpetas: TrulyCruda[] = [
       cedula: 79335809,
       direccion:
         'CALLE 23 # 5 - 23 CASA 4 INT 10',
-      email: 'norina@reservalaboral.com.co',
-      nombre:
-        'RICARDO ALBERTO BELTRAN HERNANDEZ',
+      email   : 'norina@reservalaboral.com.co',
+      nombre  : 'RICARDO ALBERTO BELTRAN HERNANDEZ',
       telefono: '3153808 // 3153808376'
     },
     llaveProceso: '25286310300120170095600',
@@ -7239,7 +7241,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'CALLE 7 # 5 - 29 TORRE 8 APTO 303',
       email : 'ruedacarlos47@gmail.com',
-      nombre: 'CARLOS ARTURO RUEDA ALZATE',
+      nombre: 'CARLOS ARTURO RUEDA ALZATE'
     },
     llaveProceso: '25473418900120170092400',
     numero      : 163
@@ -7253,7 +7255,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-08-20',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12752576,
+        A: 12752576
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 00837',
@@ -7280,7 +7282,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-12-06',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 197033,
+        A: 197033
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 00710',
@@ -7308,7 +7310,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-26',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 116942,
+        A: 116942
       },
       fechaPresentacion: '2017-08-28',
       radicado         : '2017 - 00872',
@@ -7339,7 +7341,7 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: '2017-08-28',
       radicado         : '2017 - 01114',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula   : 55303731,
@@ -7359,7 +7361,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 12766386,
+        A: 12766386
       },
       fechaPresentacion: '2017-08-28',
       radicado         : '2017 - 00863',
@@ -7371,7 +7373,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'CALLE 59C SUR # 87K - 64 APTO 1016',
       email : 'jlaura00@hotmail.com',
-      nombre: 'MARITZA NATALI RODRIGUEZ URREA',
+      nombre: 'MARITZA NATALI RODRIGUEZ URREA'
     },
     llaveProceso: '11001400308620170086300',
     numero      : 171
@@ -7385,7 +7387,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '05-0/2017',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 11895200,
+        A: 11895200
       },
       fechaPresentacion: '2017-08-28',
       radicado         : '2017 - 00850',
@@ -7395,9 +7397,8 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula   : 52475256,
       direccion: 'CARRERA 79B # 45 - 19 SUR',
-      nombre:
-        'ADRIANA DEL PILAR ALFONSO BAQUERO',
-      telefono: 6967694
+      nombre   : 'ADRIANA DEL PILAR ALFONSO BAQUERO',
+      telefono : 6967694
     },
     llaveProceso: '11001400302720170085000',
     numero      : 172
@@ -7410,7 +7411,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-08-28',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 166760,
+        A: 166760
       },
       fechaPresentacion: 'NOTIFICACION',
       radicado         : '2017 - 01161',
@@ -7437,7 +7438,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'SOACHA',
       obligacion: {
-        A: 20990117740,
+        A: 20990117740
       },
       fechaPresentacion: '2017-08-31',
       radicado         : '2017 - 00761',
@@ -7491,7 +7492,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-01',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 2290099501,
+        A: 2290099501
       },
       fechaPresentacion: '2017-08-28',
       radicado         : '2017 - 01041',
@@ -7544,7 +7545,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-18',
       municipio              : 'VIOTA',
       obligacion             : {
-        A: 12594582,
+        A: 12594582
       },
       fechaPresentacion: '2017-08-29',
       radicado         : '2017 - 00218',
@@ -7569,7 +7570,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-05',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12569604,
+        A: 12569604
       },
       fechaPresentacion: '2017-08-28',
       radicado         : '2017 - 00115',
@@ -7595,7 +7596,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-08-08',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 2150091504,
+        A: 2150091504
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 01001',
@@ -7624,7 +7625,7 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: 'NOTIFICACION',
       radicado         : '2017 - 00283',
-      tipoProceso      : 'HIPOTECARIO',
+      tipoProceso      : 'HIPOTECARIO'
     },
     deudor: {
       cedula   : 10294828,
@@ -7779,7 +7780,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-25',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12601534,
+        A: 12601534
       },
       fechaPresentacion: '2017-08-31',
       radicado         : '2017 - 01297',
@@ -7806,7 +7807,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-19',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 138546,
+        A: 138546
       },
       fechaPresentacion: '2017-08-30',
       radicado         : '2017 - 0991',
@@ -7860,7 +7861,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-21',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 11705210,
+        A: 11705210
       },
       fechaPresentacion: '2017-09-04',
       radicado         : '2017 - 01086',
@@ -7885,7 +7886,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 167542,
+        A: 167542
       },
       fechaPresentacion: '2017-09-04',
       radicado         : '2017 - 01329',
@@ -7911,7 +7912,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-04',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 168737,
+        A: 168737
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 01012',
@@ -7938,7 +7939,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-04',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 151374,
+        A: 151374
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 01287',
@@ -7963,7 +7964,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-11',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 179104,
+        A: 179104
       },
       fechaPresentacion: '2017-09-04',
       radicado         : '2017 - 01060',
@@ -8017,7 +8018,7 @@ const Carpetas: TrulyCruda[] = [
         '18-10-2017                16-11-2017        07-02-2018',
       municipio : 'BOGOTA',
       obligacion: {
-        A: 112910,
+        A: 112910
       },
       fechaPresentacion: '2017-09-05',
       radicado         : '2017 - 01024',
@@ -8044,7 +8045,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-06',
       municipio              : 'MOSQUERA',
       obligacion             : {
-        A: 166601,
+        A: 166601
       },
       fechaPresentacion:
         'NOTIFICACIÓN CERTIMAIL A MARIA NUBIA MARTINEZ CELY',
@@ -8070,7 +8071,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 99873,
+        A: 99873
       },
       fechaPresentacion: '2017-09-04',
       radicado         : '2017 - 01035',
@@ -8097,7 +8098,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-12-13',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 85712,
+        A: 85712
       },
       fechaPresentacion: '2017-09-04',
       radicado         : '2017 - 01488',
@@ -8122,7 +8123,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'SOACHA',
       obligacion: {
-        A: 147381,
+        A: 147381
       },
       fechaPresentacion: '2017-09-04',
       radicado         : '2017 - 00867',
@@ -8149,7 +8150,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-11-03',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 85677,
+        A: 85677
       },
       fechaPresentacion: '2017-09-04',
       radicado         : '2017 - 01273',
@@ -8205,7 +8206,7 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: '2017-09-11',
       radicado         : '2017 - 00840',
-      tipoProceso      : 'HIPOTECARIO',
+      tipoProceso      : 'HIPOTECARIO'
     },
     deudor: {
       cedula   : 12402596,
@@ -8225,7 +8226,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-18',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 25214,
+        A: 25214
       },
       fechaPresentacion: '2017-09-11',
       radicado         : '2017 - 01075',
@@ -8251,7 +8252,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-12',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 112462,
+        A: 112462
       },
       fechaPresentacion: '2017-09-11',
       radicado         : '2017 - 01509',
@@ -8277,7 +8278,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-04',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 20990095881,
+        A: 20990095881
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 01157',
@@ -8303,7 +8304,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-12',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 96356,
+        A: 96356
       },
       fechaPresentacion: '2017-09-04',
       radicado         : '2017 - 00858',
@@ -8330,7 +8331,7 @@ const Carpetas: TrulyCruda[] = [
         '23-11-2017       23-01-2018',
       municipio : 'LA MESA',
       obligacion: {
-        A: 4600,
+        A: 4600
       },
       fechaPresentacion: '2017-09-08',
       radicado         : '2017 - 00407',
@@ -8357,11 +8358,11 @@ const Carpetas: TrulyCruda[] = [
         '30-11-2017                  06-02-2018',
       municipio : 'BOGOTA',
       obligacion: {
-        A: 141663,
+        A: 141663
       },
       fechaPresentacion: '2017-09-04',
       radicado         : '2017 - 01163',
-      tipoProceso      : 'HIPOTECARIO',
+      tipoProceso      : 'HIPOTECARIO'
     },
     deudor: {
       cedula: 79815721,
@@ -8382,7 +8383,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-27',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12583959,
+        A: 12583959
       },
       fechaPresentacion: '2017-09-13',
       radicado         : '2017 - 00943',
@@ -8408,7 +8409,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-13',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12499205,
+        A: 12499205
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 01249',
@@ -8433,7 +8434,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-13',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 119098,
+        A: 119098
       },
       fechaPresentacion: 'EJECUCION',
       radicado         : '2017 - 01517',
@@ -8458,11 +8459,11 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 141432,
+        A: 141432
       },
       fechaPresentacion: '1309-2017',
       radicado         : '2017 - 01240',
-      tipoProceso      : 'HIPOTECARIO',
+      tipoProceso      : 'HIPOTECARIO'
     },
     deudor: {
       cedula   : 52818428,
@@ -8484,7 +8485,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-08-30',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12519174,
+        A: 12519174
       },
       fechaPresentacion:
         'SUSPENDIDO CENTRO DE CONCILIACIÓN',
@@ -8524,7 +8525,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 1022943195,
       direccion: 'marcelaipuzsuarez@hotmail.com',
       email    : '7493169 / 7672067',
-      nombre   : 'DIANA MARCELA IPUZ SUAREZ Y OTRO',
+      nombre   : 'DIANA MARCELA IPUZ SUAREZ Y OTRO'
     },
     llaveProceso: '11001418900920170008900',
     numero      : 231
@@ -8538,7 +8539,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-19',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 162559,
+        A: 162559
       },
       fechaPresentacion: '2017-09-18',
       radicado         : '2017 - 00879',
@@ -8569,7 +8570,7 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: '2017-09-18',
       radicado         : '2017-01205',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula   : 16940930,
@@ -8591,7 +8592,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-21',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 159497,
+        A: 159497
       },
       fechaPresentacion: '2017-09-18',
       radicado         : '2017 - 01362',
@@ -8616,7 +8617,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'TENJO',
       obligacion: {
-        A: 151792,
+        A: 151792
       },
       fechaPresentacion: '2017-09-19',
       radicado         : '2017 - 00247',
@@ -8666,7 +8667,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'SOACHA',
       obligacion: {
-        A: 140122,
+        A: 140122
       },
       fechaPresentacion: '2017-09-19',
       radicado         : '2017 - 00829',
@@ -8692,7 +8693,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-26',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 18000088458,
+        A: 18000088458
       },
       fechaPresentacion: '2017-09-19',
       radicado         : '2017 - 01044',
@@ -8719,7 +8720,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-06',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: 20990182990,
+        A: 20990182990
       },
       fechaPresentacion: '2017-09-19',
       radicado         : '2017 - 00903',
@@ -8746,7 +8747,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-10',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 161786,
+        A: 161786
       },
       fechaPresentacion: '2017-09-19',
       radicado         : '2017 - 01006',
@@ -8771,7 +8772,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 103058,
+        A: 103058
       },
       fechaPresentacion: '2017-09-19',
       radicado         : '2017 - 00957',
@@ -8796,7 +8797,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 113645,
+        A: 113645
       },
       fechaPresentacion: '2017-09-19',
       radicado         : '2018 - 00242',
@@ -8847,7 +8848,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-04',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 130619,
+        A: 130619
       },
       fechaPresentacion: '2017-09-14',
       radicado         : '2017 - 00871',
@@ -8900,7 +8901,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : 'EJECUCIÓN',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12703441,
+        A: 12703441
       },
       radicado         : '2017 - 01162',
       tipoProceso      : 'PRENDARIO',
@@ -8926,7 +8927,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-25',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 147600,
+        A: 147600
       },
       fechaPresentacion: '2017-09-14',
       radicado         : '2017 - 01236',
@@ -8952,7 +8953,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-14',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12395327,
+        A: 12395327
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 00998',
@@ -8979,7 +8980,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-05',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 940082843,
+        A: 940082843
       },
       fechaPresentacion: 'EJECUCION',
       radicado         : '2017 - 01021',
@@ -9032,7 +9033,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-18',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 20990083482,
+        A: 20990083482
       },
       fechaPresentacion: '2017-09-21',
       radicado         : '2017 - 00138',
@@ -9058,7 +9059,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-11-01',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 153884,
+        A: 153884
       },
       fechaPresentacion: '2017-09-21',
       radicado         : '2017 - 01256',
@@ -9112,7 +9113,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-05',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12686980,
+        A: 12686980
       },
       fechaPresentacion: '2017-09-27',
       radicado         : '2017 - 01116',
@@ -9166,7 +9167,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'PENSILVANIA',
       obligacion: {
-        A: 12603197,
+        A: 12603197
       },
       fechaPresentacion: '2017-09-27',
       radicado         : '2017 - 01007',
@@ -9192,7 +9193,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-12',
       municipio              : 'SESQUILE',
       obligacion             : {
-        A: 3360084994,
+        A: 3360084994
       },
       fechaPresentacion: '2017-09-28',
       radicado         : '2017 - 00166',
@@ -9219,7 +9220,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-11-07',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12468489,
+        A: 12468489
       },
       fechaPresentacion: '2017-09-27',
       radicado         : '2017 - 01219',
@@ -9245,7 +9246,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-09-27',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12547875,
+        A: 12547875
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 01229',
@@ -9271,7 +9272,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '5-10-2017',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12649406,
+        A: 12649406
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 01475',
@@ -9297,7 +9298,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '20-04-2018',
       municipio              : 'FUNZA',
       obligacion             : {
-        A: 182524,
+        A: 182524
       },
       fechaPresentacion: 'TERMINO POR PAGO TOTAL',
       radicado         : '2018 - 00421',
@@ -9322,7 +9323,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 12327160,
+        A: 12327160
       },
       fechaPresentacion: '05-10-2017',
       radicado         : '2017 - 01139',
@@ -9374,7 +9375,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '09-10-2017',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12381866,
+        A: 12381866
       },
       fechaPresentacion: '05-10-2017',
       radicado         : '2017 - 00763',
@@ -9400,7 +9401,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '09-11-2017',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 109481,
+        A: 109481
       },
       fechaPresentacion: '05-10-2017',
       radicado         : '2017 - 01484',
@@ -9425,7 +9426,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'SOACHA',
       obligacion: {
-        A: 20990124579,
+        A: 20990124579
       },
       fechaPresentacion: '05-10-2017',
       radicado         : '2017 - 00969',
@@ -9451,7 +9452,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'SOACHA',
       obligacion: {
-        A: 190886,
+        A: 190886
       },
       fechaPresentacion: '05-10-2017',
       radicado         : '2017 - 00381',
@@ -9529,7 +9530,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-01-19',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 1860086996,
+        A: 1860086996
       },
       fechaPresentacion: 'RT',
       radicado         : '2017 - 01140',
@@ -9555,11 +9556,11 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'COTA',
       obligacion: {
-        A: 300093754,
+        A: 300093754
       },
       fechaPresentacion: '2017-10-10',
       radicado         : '2017 - 00704',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula   : 93119101,
@@ -9608,7 +9609,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 138027,
+        A: 138027
       },
       fechaPresentacion: '2017-10-06',
       radicado         : '2017 - 01133',
@@ -9634,7 +9635,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-17',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 83616,
+        A: 83616
       },
       fechaPresentacion: '2017-10-06',
       radicado         : '2017 - 00975',
@@ -9689,7 +9690,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-17',
       municipio              : 'KENNEDY',
       obligacion             : {
-        A: 12445450,
+        A: 12445450
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 01291',
@@ -9716,7 +9717,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-20',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 155487,
+        A: 155487
       },
       fechaPresentacion: '2017-10-17',
       radicado         : '2017 - 00986',
@@ -9769,7 +9770,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'FUNZA',
       obligacion             : {
-        A: 12245382,
+        A: 12245382
       },
       fechaPresentacion: '2017-10-18',
       radicado         : '2017 - 00816',
@@ -9819,7 +9820,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'FUNZA',
       obligacion: {
-        A: 159541,
+        A: 159541
       },
       fechaPresentacion: '2017-10-19',
       radicado         : '2017 - 01003',
@@ -9874,7 +9875,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '08-11-17',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 134175,
+        A: 134175
       },
       fechaPresentacion:
         'SIN LEVANTAMIENTO DE MEDIDSA CAUTELAR  PAQUETE 269',
@@ -9901,7 +9902,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : '11001400308220170125600',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12048231,
+        A: 12048231
       },
       radicado         : '2017 - 01256',
       tipoProceso      : 'PRENDARIO',
@@ -9926,7 +9927,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-24',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 11788203,
+        A: 11788203
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 01490',
@@ -9981,7 +9982,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-11-27',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 143579,
+        A: 143579
       },
       fechaPresentacion: '2017-10-24',
       radicado         : '2017 - 01176',
@@ -10063,7 +10064,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-11-30',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 82317,
+        A: 82317
       },
       fechaPresentacion: '2017-10-21',
       radicado         : '2017 - 01140',
@@ -10090,7 +10091,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-31',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 3000093979,
+        A: 3000093979
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 01049',
@@ -10116,7 +10117,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'TERMINADO',
       municipio              : 'CAJICA',
       obligacion             : {
-        A: 161979,
+        A: 161979
       },
       fechaPresentacion: '2017-11-08',
       radicado         : '2017 - 00768',
@@ -10143,7 +10144,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-02-13',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: 170453,
+        A: 170453
       },
       fechaPresentacion: '2017-11-01',
       radicado         : '2017 - 00364',
@@ -10170,7 +10171,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-02-01',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 123326,
+        A: 123326
       },
       fechaPresentacion: '2017-11-07',
       radicado         : '2017 - 01813',
@@ -10229,7 +10230,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula   : 33307437,
       direccion: ' CARRERA 2 No 1 - 23  cajica',
-      nombre   : 'GLORIA ANGELICA PRASCA MEJIA',
+      nombre   : 'GLORIA ANGELICA PRASCA MEJIA'
     },
     llaveProceso: '25126400300120170075600',
     numero      : 319
@@ -10243,7 +10244,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-11-08',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12727553,
+        A: 12727553
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 01312',
@@ -10270,9 +10271,10 @@ const Carpetas: TrulyCruda[] = [
         '19-12-2017          22-032017 REFORMA',
       municipio : 'BOGOTA',
       obligacion: {
-        A: 2150091479,
+        A: 2150091479
       },
-      fechaPresentacion: '7-11-2017  13-12-17 2DA VEZ',
+      fechaPresentacion:
+        '7-11-2017  13-12-17 2DA VEZ',
       radicado         : '2017 - 01367',
       tipoProceso      : 'SINGULAR',
       vencimientoPagare: '2018-09-21'
@@ -10295,7 +10297,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 155766,
+        A: 155766
       },
       fechaPresentacion: '2017-11-07',
       radicado         : '2017 - 01205',
@@ -10322,7 +10324,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-01-22',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 90669,
+        A: 90669
       },
       fechaPresentacion: '2017-11-02',
       radicado         : '2017 - 01509',
@@ -10376,12 +10378,12 @@ const Carpetas: TrulyCruda[] = [
       obligacion       : {},
       fechaPresentacion: '2017-11-02',
       radicado         : '2017 - 00760',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula: 30583011,
 
-      nombre: 'MARCELA PATRICIA DIAZ PEREIRA',
+      nombre: 'MARCELA PATRICIA DIAZ PEREIRA'
     },
     llaveProceso: '11001400308020170076000',
     numero      : 325
@@ -10395,7 +10397,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-12-04',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 103162,
+        A: 103162
       },
       fechaPresentacion: '2017-11-02',
       radicado         : '2017 - 01471',
@@ -10425,13 +10427,13 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: '14-11-2017',
       radicado         : '2017 - 01369',
-      tipoProceso      : 'HIPOTECARIO',
+      tipoProceso      : 'HIPOTECARIO'
     },
     deudor: {
       cedula   : 94524378,
       direccion: 'jose.daniel.escobar@hotmail.co',
       email    : '6332400 / 3155459543',
-      nombre   : 'JOSE DANIEL ESCOBAR PATIÑO',
+      nombre   : 'JOSE DANIEL ESCOBAR PATIÑO'
     },
     llaveProceso: '11001400301220170136900',
     numero      : 327
@@ -10445,7 +10447,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-11-09',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 79669,
+        A: 79669
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 01596',
@@ -10472,7 +10474,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 156888,
+        A: 156888
       },
       fechaPresentacion: '2017-11-14',
       radicado         : '2017 - 01218',
@@ -10524,7 +10526,8 @@ const Carpetas: TrulyCruda[] = [
         A: '161947 /377813179503108',
         B: 377813223799561
       },
-      fechaPresentacion: '16-11-2017 // 15-03-2018',
+      fechaPresentacion:
+        '16-11-2017 // 15-03-2018',
       radicado         : '2018   00098',
       tipoProceso      : 'HIPOTECARIO',
       vencimientoPagare: '2017-06-05'
@@ -10550,7 +10553,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago: '2018-01-15',
       municipio      : 'BOGOTA',
       obligacion     : {
-        A: 12710799,
+        A: 12710799
       },
       fechaPresentacion: '2018-01-15',
       radicado         : '2017 - 01317',
@@ -10580,7 +10583,8 @@ const Carpetas: TrulyCruda[] = [
         A: 4020082793,
         B: 4513070099197613
       },
-      fechaPresentacion: '21-11-2017       6-02-2018',
+      fechaPresentacion:
+        '21-11-2017       6-02-2018',
       radicado         : '2018 - 00118',
       tipoProceso      : 'SINGULAR',
       vencimientoPagare: '2020-11-30'
@@ -10605,7 +10609,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-11-27',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 530092248,
+        A: 530092248
       },
       fechaPresentacion: '2017-11-20',
       radicado         : '2017 - 01756',
@@ -10658,7 +10662,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-10',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 6690082032,
+        A: 6690082032
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 01014',
@@ -10765,7 +10769,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-11-22',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 2290097439,
+        A: 2290097439
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 01476',
@@ -10826,7 +10830,7 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: '2017-11-21',
       radicado         : '2017 - 01525',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula: 41888857,
@@ -10849,7 +10853,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-12-04',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 140864,
+        A: 140864
       },
       fechaPresentacion: '2017-11-23',
       radicado         : '2017 - 01272',
@@ -10955,7 +10959,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-01-31',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 199177,
+        A: 199177
       },
       fechaPresentacion: '2017-11-29',
       radicado         : '2017 - 00359',
@@ -10982,7 +10986,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-12-14',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 136483,
+        A: 136483
       },
       fechaPresentacion: '2017-11-27',
       radicado         : '2017 - 01526',
@@ -11009,7 +11013,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '17-01-2019',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 162697,
+        A: 162697
       },
       fechaPresentacion:
         'EL 7 DE SEPTIEMBRE DE 2018 SE TERMINO PROCESO POR PAGO CUOTAS EN MORA // EL 17 DE ENERO DE 2019 SE DEVOLVIERON GARANTIAS A AECSA S.A. // EL 21-09-2018 SE HIZO LEVANTAMIENTO DE MEDIDAS CAUTELARES SEGÚN CERTIFICADO',
@@ -11037,7 +11041,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '19-02-2018',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 146999,
+        A: 146999
       },
       fechaPresentacion: '12-12-2017',
       radicado         : '2017 - 01378',
@@ -11064,7 +11068,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '02-02-2018',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 71141,
+        A: 71141
       },
       fechaPresentacion: '07-12-2017',
       radicado         : '2017 - 01786',
@@ -11090,7 +11094,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 116252,
+        A: 116252
       },
       fechaPresentacion: '12-12-2017',
       radicado         : '2017 - 01452',
@@ -11116,7 +11120,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '08-03-2018',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: 165609,
+        A: 165609
       },
       fechaPresentacion: '12-12-2017',
       radicado         : '2018 - 00031',
@@ -11168,7 +11172,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '18-01-2018',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 144698,
+        A: 144698
       },
       fechaPresentacion: '14-12-2017',
       radicado         : '2017 - 01647',
@@ -11194,7 +11198,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 106172,
+        A: 106172
       },
       fechaPresentacion: '14-12-2017',
       radicado         : '2018 - 00140',
@@ -11221,7 +11225,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '15-12-2017',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 134032,
+        A: 134032
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 01361',
@@ -11247,7 +11251,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '12-12-2017',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 168725,
+        A: 168725
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2017 - 01235',
@@ -11274,9 +11278,10 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '19-02-2018',
       municipio              : 'GIRARDOT',
       obligacion             : {
-        A: 6841,
+        A: 6841
       },
-      fechaPresentacion: '18-12-2017     09-02-2018',
+      fechaPresentacion:
+        '18-12-2017     09-02-2018',
       radicado         : '2018 - 00066',
       tipoProceso      : 'HIPOTECARIO',
       vencimientoPagare: '02-05-2026'
@@ -11326,7 +11331,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: 120770,
+        A: 120770
       },
       fechaPresentacion: '19-01-2018',
       radicado         : '2018 - 00070',
@@ -11358,7 +11363,7 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: '22-01-2018',
       radicado         : '2018 - 00005',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula   : 79616846,
@@ -11378,7 +11383,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'NOTIFICACION',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 121543,
+        A: 121543
       },
       fechaPresentacion: '22-01-2018',
       radicado         : '2018 - 00067',
@@ -11405,7 +11410,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-02-16',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 179854,
+        A: 179854
       },
       fechaPresentacion: '22-01-2018',
       radicado         : '2018 - 00123',
@@ -11431,7 +11436,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-01-29',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 2150091493,
+        A: 2150091493
       },
       fechaPresentacion: '24-01-2018',
       radicado         : '2018 - 00107',
@@ -11481,7 +11486,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '24-01-2018',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 155380,
+        A: 155380
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2018 - 00111',
@@ -11508,7 +11513,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2022-05-04',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 155380,
+        A: 155380
       },
       fechaPresentacion:
         'EL 2-07-2021 EL JUZGADO DECRETA TERMINACION PROCESO POR PAGO CUOTAS EN MORA //EL 30-08-2022 SE DEVOLVIERON GARANTIAS Y DESGLOSE A AECSA // EL 4-05-2022 LA OFICIAN DE REGISTRO LEVANTO MEDIDA CAUTELAR DE EMBARGO',
@@ -11535,7 +11540,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 155586,
+        A: 155586
       },
       fechaPresentacion: '24-01-2018',
       radicado         : '2018 - 00075',
@@ -11561,7 +11566,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '25-01-2018',
       municipio              : 'SAN JUAN DE RIOSECO',
       obligacion             : {
-        A: 3720086711,
+        A: 3720086711
       },
       fechaPresentacion: 'NOTIFICACION',
       radicado         : '2018 - 00004',
@@ -11587,9 +11592,10 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-05-22',
       municipio              : 'KENNEDY',
       obligacion             : {
-        A: 116650,
+        A: 116650
       },
-      fechaPresentacion: '26-01-2018 //02-04-2018',
+      fechaPresentacion:
+        '26-01-2018 //02-04-2018',
       radicado         : '2018 - 00479',
       tipoProceso      : 'HIPOTECARIO',
       vencimientoPagare: '2024-03-16'
@@ -11615,7 +11621,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-02-15',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 130026,
+        A: 130026
       },
       fechaPresentacion: '2018-01-30',
       radicado         : '2018 - 00110',
@@ -11641,7 +11647,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-01-30',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 9450082795,
+        A: 9450082795
       },
       fechaPresentacion: 'NOTIFICACION',
       radicado         : '2018 - 00074',
@@ -11665,7 +11671,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : '25269408900120170074400',
       municipio              : 'FACATATIVA',
       obligacion             : {
-        A: 12722464,
+        A: 12722464
       },
       radicado         : '2017 - 00744',
       tipoProceso      : 'PRENDARIO',
@@ -11717,12 +11723,12 @@ const Carpetas: TrulyCruda[] = [
       municipio  : 'BOGOTA',
       obligacion : {},
       radicado   : '2018 - 00121',
-      tipoProceso: 'SINGULAR',
+      tipoProceso: 'SINGULAR'
     },
     deudor: {
       cedula: 79874218,
 
-      nombre: 'MIGUEL ANGEL GRANADOS GUTIERREZ',
+      nombre: 'MIGUEL ANGEL GRANADOS GUTIERREZ'
     },
     llaveProceso: '11001400307020180012100',
     numero      : 389
@@ -11735,7 +11741,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '05-02-2018',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 161684,
+        A: 161684
       },
       fechaPresentacion: 'LIQUIDACION',
       radicado         : '2018 - 00129',
@@ -11762,11 +11768,11 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '22-03-2018',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 377816034306740,
+        A: 377816034306740
       },
       fechaPresentacion: '05-02-2018',
       radicado         : '2018 - 00149',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula: 79134529,
@@ -11788,7 +11794,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '22-03-2018',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 165720,
+        A: 165720
       },
       fechaPresentacion: '05-02-2018',
       radicado         : '2018 - 00299',
@@ -11813,7 +11819,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 60144000242,
+        A: 60144000242
       },
       fechaPresentacion: '05-02-2018',
       radicado         : '2018 - 00090',
@@ -11840,7 +11846,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '06-02-2018',
       municipio              : 'MOSQUERA',
       obligacion             : {
-        A: 430104535,
+        A: 430104535
       },
       fechaPresentacion: 'CURADOR AD LITEM',
       radicado         : '2018 - 00106',
@@ -11867,7 +11873,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '10-04-2018',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: 171882,
+        A: 171882
       },
       fechaPresentacion: '07-02-2018',
       radicado         : '2018 - 00064',
@@ -11894,7 +11900,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '26-04-2018',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 161174,
+        A: 161174
       },
       fechaPresentacion: '08-02-2018',
       radicado         : '2018 - 00132',
@@ -11921,7 +11927,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '16-02-2018// ACLARACION',
       municipio              : 'GIRARDOT',
       obligacion             : {
-        A: 6590084682,
+        A: 6590084682
       },
       fechaPresentacion: ' 09-02-2018',
       radicado         : '2018 - 00075',
@@ -11947,7 +11953,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 142837,
+        A: 142837
       },
       fechaPresentacion: '20-02-2018',
       radicado         : '2018-0237',
@@ -11973,7 +11979,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '26-02-2018',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 154048,
+        A: 154048
       },
       fechaPresentacion: '20-02-2018',
       radicado         : '2018 - 00218',
@@ -11998,7 +12004,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 141356,
+        A: 141356
       },
       fechaPresentacion: '20-02-2018',
       radicado         : '2018-0191',
@@ -12025,7 +12031,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '14-03-2018',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: 167362,
+        A: 167362
       },
       fechaPresentacion: '21-02-2018',
       radicado         : '2018 - 00177',
@@ -12051,7 +12057,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '01-03-2018',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 112507,
+        A: 112507
       },
       fechaPresentacion: '23-02-2018',
       radicado         : '2018 - 00205',
@@ -12076,7 +12082,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '03-04-2018',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 152654,
+        A: 152654
       },
       fechaPresentacion: '22-02-2018',
       radicado         : '2018 - 00264',
@@ -12102,7 +12108,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-05-07',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 450089940,
+        A: 450089940
       },
       fechaPresentacion: '03-04-2018',
       radicado         : '2018 - 00370',
@@ -12128,7 +12134,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-05-18',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: 20990175542,
+        A: 20990175542
       },
       fechaPresentacion: '2018-04-26',
       radicado         : '2018-0365',
@@ -12154,7 +12160,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: 20990147276,
+        A: 20990147276
       },
       fechaPresentacion: '2018-04-26',
       radicado         : '2018 - 00364',
@@ -12180,7 +12186,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-05-18',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: 20990182990,
+        A: 20990182990
       },
       fechaPresentacion: '2018-04-26',
       radicado         : '2018 - 00363',
@@ -12291,7 +12297,7 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: '19//04-2018',
       radicado         : '2018 - 00246',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula   : 35521020,
@@ -12336,11 +12342,11 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-05-11',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 4099840209665970,
+        A: 4099840209665970
       },
       fechaPresentacion: '2018-04-27',
       radicado         : '2018 - 00617',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula: 79837700,
@@ -12362,7 +12368,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-04-25',
       municipio              : 'kENNEDY',
       obligacion             : {
-        A: 2099120807,
+        A: 2099120807
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2018 - 00602',
@@ -12417,7 +12423,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2019-07-04',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 6980085367,
+        A: 6980085367
       },
       fechaPresentacion:
         'EL 4-09-2019 SE DEVUELVE DESGLOSE CON GARANTIAS A AECSA // EL 18-03-2019 EL JUZGADO DA POR TERMINADO PROCESO POR PAGO CUOTAS EN MORA // EL 2-11-2022 SE PIDIO CERTIFICADO CON LEVANTAMIENTO DE MEDIDA CAUTELAR',
@@ -12444,7 +12450,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-05-23',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 20990126656,
+        A: 20990126656
       },
       fechaPresentacion: '2018-05-08',
       radicado         : '2018 - 00674',
@@ -12476,7 +12482,7 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: '2018-04-08',
       radicado         : '2018 - 00476',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula   : 19395095,
@@ -12497,11 +12503,11 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-06-15',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 377814411512303,
+        A: 377814411512303
       },
       fechaPresentacion: '2018-05-08',
       radicado         : '2018 - 00520',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula   : 1019016622,
@@ -12522,11 +12528,11 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-05-18',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 4594250085795500,
+        A: 4594250085795500
       },
       fechaPresentacion: '08-05-20184',
       radicado         : '2018 - 00612',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula: 10260455,
@@ -12547,7 +12553,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 20990162905,
+        A: 20990162905
       },
       fechaPresentacion: '2018-05-08',
       radicado         : '2018 - 00404',
@@ -12645,7 +12651,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 20990085420,
+        A: 20990085420
       },
       fechaPresentacion: '2018-05-22',
       radicado         : '2018 - 00999',
@@ -12671,7 +12677,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 20990131392,
+        A: 20990131392
       },
       fechaPresentacion: '2018-05-22',
       radicado         : '2018 - 00573',
@@ -12702,7 +12708,7 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: '2018-05-31',
       radicado         : '2018 - 00756',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula   : 79145374,
@@ -12750,11 +12756,11 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'EXCEPCIONES',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 15400866488,
+        A: 15400866488
       },
       fechaPresentacion: '2018-05-31',
       radicado         : '2018 - 00210',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula   : 52132383,
@@ -12774,7 +12780,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: 20990165412,
+        A: 20990165412
       },
       fechaPresentacion: '2018-05-31',
       radicado         : '2018 - 00555',
@@ -12798,11 +12804,11 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 1330085524,
+        A: 1330085524
       },
       fechaPresentacion: '2018-05-31',
       radicado         : '2018 - 00223',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula: 30387764,
@@ -12823,7 +12829,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: 20990156079,
+        A: 20990156079
       },
       fechaPresentacion: '2018-05-31',
       radicado         : '2018 - 00609',
@@ -12880,7 +12886,7 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: '2018-06-19',
       radicado         : '2018 - 00784',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula: 80424051,
@@ -12927,7 +12933,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-06-19',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: 20990165615,
+        A: 20990165615
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2018 - 00572',
@@ -12976,7 +12982,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 1010082679,
+        A: 1010082679
       },
       radicado         : '2018 - 00711',
       tipoProceso      : 'SINGULAR',
@@ -13000,7 +13006,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '26-0772018',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 'AUDIOPRESTAMO',
+        A: 'AUDIOPRESTAMO'
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2018 - 00810',
@@ -13054,7 +13060,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '04-07-2018',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 20990160362,
+        A: 20990160362
       },
       fechaPresentacion: '2018-06-26',
       radicado         : '2018 - 00647',
@@ -13085,7 +13091,7 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: 'LIQUIDACION',
       radicado         : '2018 - 00711',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula   : 1032389993,
@@ -13106,11 +13112,11 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-10-23',
       municipio              : 'FUNZA',
       obligacion             : {
-        A: 5303728778961290,
+        A: 5303728778961290
       },
       fechaPresentacion: '2018-07-03',
       radicado         : '2018 - 00841',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula: 79892208,
@@ -13160,11 +13166,11 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-08-02',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 'AUDIOPRESTAMO',
+        A: 'AUDIOPRESTAMO'
       },
       fechaPresentacion: '2018-07-06',
       radicado         : '2018 - 00835',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula   : 52434815,
@@ -13185,9 +13191,10 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-07-06',
       municipio              : 'KENNEDY',
       obligacion             : {
-        A: 10044000104,
+        A: 10044000104
       },
-      fechaPresentacion: 'PENDIENTE CURADOR AD LITEM',
+      fechaPresentacion:
+        'PENDIENTE CURADOR AD LITEM',
       radicado         : '2018 - 01121',
       tipoProceso      : 'SINGULAR',
       vencimientoPagare: '2021-01-29'
@@ -13238,7 +13245,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-08-23',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 5470085449,
+        A: 5470085449
       },
       fechaPresentacion: '2018-07-23',
       radicado         : '2018 - 00945',
@@ -13288,7 +13295,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-07-18',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 6980086687,
+        A: 6980086687
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2018 - 00959',
@@ -13315,7 +13322,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-07-12',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: 20990165644,
+        A: 20990165644
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2018 - 00700',
@@ -13343,7 +13350,8 @@ const Carpetas: TrulyCruda[] = [
       obligacion     : {
         B: '19.080.628.51'
       },
-      fechaPresentacion: '22-08-2018 EN CORRECCION',
+      fechaPresentacion:
+        '22-08-2018 EN CORRECCION',
       radicado         : '2018 - 00664',
       tipoProceso      : 'HIPOTECARIO',
       vencimientoPagare: '#FMT'
@@ -13393,7 +13401,8 @@ const Carpetas: TrulyCruda[] = [
         A: 5303720477397800,
         B: '19,774,658,00'
       },
-      fechaPresentacion: '27-09-2018 EN CORRECCION',
+      fechaPresentacion:
+        '27-09-2018 EN CORRECCION',
       radicado         : '2018 - 00832',
       tipoProceso      : 'SINGULAR',
       vencimientoPagare: '#FMT'
@@ -13444,7 +13453,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-09-21',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 21581018168,
+        A: 21581018168
       },
       fechaPresentacion: '2018-08-09',
       radicado         : '2017 - 00922',
@@ -13493,7 +13502,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-10-17',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 20990097950,
+        A: 20990097950
       },
       fechaPresentacion: '09-08-2018',
       radicado         : '2018 - 00712',
@@ -13545,7 +13554,7 @@ const Carpetas: TrulyCruda[] = [
       municipio      : 'SOACHA',
       obligacion     : {},
       radicado       : '2018 - 00855',
-      tipoProceso    : 'HIPOTECARIO',
+      tipoProceso    : 'HIPOTECARIO'
     },
     deudor: {
       cedula  : 52725153,
@@ -13564,7 +13573,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 20990125162,
+        A: 20990125162
       },
       fechaPresentacion: '10-09-2018',
       radicado         : '2018 - 01271',
@@ -13592,7 +13601,7 @@ const Carpetas: TrulyCruda[] = [
         B: '28.251.567.19'
       },
       radicado   : 'O',
-      tipoProceso: 'HIPOTECARIA',
+      tipoProceso: 'HIPOTECARIA'
     },
     deudor: {
       cedula  : 1081395456,
@@ -13643,7 +13652,7 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: '6-09-2018',
       radicado         : '2018 - 00171',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula   : 39809183,
@@ -13664,11 +13673,11 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '27-09-2018',
       municipio              : 'kENNEDY',
       obligacion             : {
-        A: 'AUDIOPRESTAMO',
+        A: 'AUDIOPRESTAMO'
       },
       fechaPresentacion: '13-09-2018',
       radicado         : '2019 - 00276',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula: 80019013,
@@ -13691,11 +13700,11 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '08-10-2018',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 20990114419,
+        A: 20990114419
       },
       fechaPresentacion: '13-09-2018',
       radicado         : '2018 - 00936',
-      tipoProceso      : 'HIPOTECARIO',
+      tipoProceso      : 'HIPOTECARIO'
     },
     deudor: {
       cedula: 52380535,
@@ -13716,7 +13725,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 5860083295,
+        A: 5860083295
       },
       fechaPresentacion: '13-09-2018',
       radicado         : '2018 - 01370',
@@ -13741,7 +13750,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '18-09-2018',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: 20990157739,
+        A: 20990157739
       },
       fechaPresentacion: 'NOTIFICACIÓN',
       radicado         : '2019 - 00270',
@@ -13770,7 +13779,7 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: '18-09-2018',
       radicado         : '2018 - 00761',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula   : 52115085,
@@ -13790,11 +13799,11 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 2330066914,
+        A: 2330066914
       },
       fechaPresentacion: '18-09-2018',
       radicado         : '2018 - 00210',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula: 40776578,
@@ -13865,7 +13874,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: 20990126542,
+        A: 20990126542
       },
       fechaPresentacion: '20-09-2018',
       radicado         : '2018 - 01008',
@@ -13918,17 +13927,16 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '03-10-2018',
       municipio              : 'SESQUILE',
       obligacion             : {
-        A: 3360085515,
+        A: 3360085515
       },
       fechaPresentacion: '25-09-2018',
       radicado         : '2018 - 00135',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula   : 22444794,
       direccion: 'CALLE 22 No 1-137',
-      nombre:
-        'MARIBEL DEL ROSARIO RIVERA JIMENEZ',
+      nombre   : 'MARIBEL DEL ROSARIO RIVERA JIMENEZ'
     },
     llaveProceso: '25736408900120180013500',
     numero      : 492
@@ -13941,11 +13949,11 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'SUBSANA',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 20990155357,
+        A: 20990155357
       },
       fechaPresentacion: '29-09-2018',
       radicado         : '2018 - 01817',
-      tipoProceso      : 'HIPOTECARIO',
+      tipoProceso      : 'HIPOTECARIO'
     },
     deudor: {
       cedula   : 53103504,
@@ -13966,7 +13974,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '25-10-2018',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: 2099010135501,
+        A: 2099010135501
       },
       fechaPresentacion: '26-09-2018',
       radicado         : '2018 - 01022',
@@ -14020,7 +14028,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : 'ADMISION',
       municipio              : 'ZIPAQUIRA',
       obligacion             : {
-        A: 20990142568,
+        A: 20990142568
       },
       fechaPresentacion: '3-10-2018',
       radicado         : '2018 - 00435',
@@ -14108,7 +14116,7 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: '25-10-2018',
       radicado         : '2018 - 00063',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula   : 3096755,
@@ -14155,7 +14163,8 @@ const Carpetas: TrulyCruda[] = [
         A: '377813291831031 // 377815026183364',
         B: '4099830041795208 /53037110111724925'
       },
-      fechaPresentacion: 'LIQUIDACION DEL CRÉDITO',
+      fechaPresentacion:
+        'LIQUIDACION DEL CRÉDITO',
       radicado         : '2018 - 02462',
       tipoProceso      : 'SINGULAR',
       vencimientoPagare: '04-06-2021 //04-06-2021'
@@ -14180,7 +14189,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '30-11-2018',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: '5,49157039248288E+016',
+        A: '5,49157039248288E+016'
       },
       fechaPresentacion: 'ADMITIENDO HIPOTECARIO',
       radicado         : '2021- 00611',
@@ -14233,7 +14242,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'COTA',
       obligacion: {
-        A: 8270082134,
+        A: 8270082134
       },
       fechaPresentacion: 'ADMISION',
       radicado         : '2018 - 01002',
@@ -14244,7 +14253,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 20401209,
       direccion: 'CALLE 7 No 5-31',
       email    : 'todostienenzero@hotmail.com',
-      nombre   : 'DIANA CAROLINA PRADO FIQUITIVA',
+      nombre   : 'DIANA CAROLINA PRADO FIQUITIVA'
     },
     llaveProceso: '25214400300120180100200',
     numero      : 509
@@ -14283,7 +14292,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'SOACHA',
       obligacion: {
-        A: 20990201453,
+        A: 20990201453
       },
       fechaPresentacion: 'ADMISION',
       radicado         : '2018 - 00416',
@@ -14387,7 +14396,7 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: '01-02-2019',
       radicado         : '2019 - 00190',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula   : 79245905,
@@ -14434,7 +14443,7 @@ const Carpetas: TrulyCruda[] = [
         B: 4513070013675100
       },
       radicado   : '2019 - 00162',
-      tipoProceso: 'SINGULAR',
+      tipoProceso: 'SINGULAR'
     },
     deudor: {
       cedula: 80222254,
@@ -14456,7 +14465,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '6-02-2019',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: '2273 320150109',
+        A: '2273 320150109'
       },
       fechaPresentacion:
         'EL 3-12-2020 EL JUZGADO DECRETO TERMINACION PROCESO POR PAGO CUOTAS EN MORA // EL 12-05-2021 SE RETIRARON GARANTIAS DEL JUZGADO // EL 29-04-2021 SE ENVIO OFICIO A OFICINA DE REGISTRO // EL 22-09-2021 SUPERNOTARIADO LO DEVOLVIO POR NO PAGO // EL 11-11-2021 SE SOLICITO CERTIFICADO Y ESTA PENDIENTE LEVANTAMIENTO DE MEDIDA CAUTELAR //PAGAR DESGLOSE Y RETIRAR OFICIO PARA RADICAR LEVANTAMIENTO',
@@ -14483,7 +14492,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal          : '11001418905520190028700',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 5470086745,
+        A: 5470086745
       },
       fechaPresentacion: '26-02-2019',
       radicado         : '2019 - 00287',
@@ -14509,11 +14518,11 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 4099830177563670,
+        A: 4099830177563670
       },
       fechaPresentacion: '15-02-2019',
       radicado         : '2019 - 00235',
-      tipoProceso      : 'SINGULAR',
+      tipoProceso      : 'SINGULAR'
     },
     deudor: {
       cedula   : 40050052,
@@ -14560,7 +14569,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 20990158449,
+        A: 20990158449
       },
       radicado         : '2019 -00434',
       tipoProceso      : 'HIPOTECARIO',
@@ -14584,7 +14593,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 20990138197,
+        A: 20990138197
       },
       fechaPresentacion: '04-06-2019',
       radicado         : '2019 - 01008',
@@ -14608,7 +14617,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'BOGOTA',
       obligacion: {
-        A: 20990151954,
+        A: 20990151954
       },
       fechaPresentacion: '04-06-2019',
       radicado         : '2019 - 00496',
@@ -14634,7 +14643,7 @@ const Carpetas: TrulyCruda[] = [
 
       municipio : 'CHIA',
       obligacion: {
-        A: 9320086222,
+        A: 9320086222
       },
       fechaPresentacion: '5-06-2019',
       radicado         : '2019 - 00304',
@@ -14690,7 +14699,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2-09-2019',
       municipio              : 'MADRID',
       obligacion             : {
-        A: '2273 320186673',
+        A: '2273 320186673'
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2019 - 01160',
@@ -14795,7 +14804,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2018-05-22',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 4099840046475270,
+        A: 4099840046475270
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2018 - 00577',
@@ -14847,12 +14856,12 @@ const Carpetas: TrulyCruda[] = [
       municipio  : 'BOGOTA',
       obligacion : {},
       radicado   : 'SIN NUMERO',
-      tipoProceso: 'SINGULAR',
+      tipoProceso: 'SINGULAR'
     },
     deudor: {
       cedula: 79295686,
 
-      nombre: 'JAIRO ALDANA VILLAMIZAR',
+      nombre: 'JAIRO ALDANA VILLAMIZAR'
     },
     numero: 545
   },
@@ -14863,12 +14872,12 @@ const Carpetas: TrulyCruda[] = [
       municipio  : 'SOACHA',
       obligacion : {},
       radicado   : '2021 - 00153',
-      tipoProceso: 'SINGULAR',
+      tipoProceso: 'SINGULAR'
     },
     deudor: {
       cedula: 348774,
 
-      nombre: 'JOSE EDGAR ACHURI GONZALEZ',
+      nombre: 'JOSE EDGAR ACHURI GONZALEZ'
     },
     llaveProceso: '25754400300120210015300',
     numero      : 547
@@ -14880,12 +14889,12 @@ const Carpetas: TrulyCruda[] = [
       municipio  : 'BOGOTA',
       obligacion : {},
       radicado   : '2017 - 01024',
-      tipoProceso: 'PRENDARIO',
+      tipoProceso: 'PRENDARIO'
     },
     deudor: {
       cedula: 23270185,
 
-      nombre: 'CLARA PATRICIA PEÑA BELTRAN',
+      nombre: 'CLARA PATRICIA PEÑA BELTRAN'
     },
     llaveProceso: '11001400300820170102400',
     numero      : 548
@@ -14897,12 +14906,12 @@ const Carpetas: TrulyCruda[] = [
       municipio  : 'BOGOTA',
       obligacion : {},
       radicado   : 'SIN NUMERO',
-      tipoProceso: 'HIPOTECARIO',
+      tipoProceso: 'HIPOTECARIO'
     },
     deudor: {
       cedula: 79405147,
 
-      nombre: 'JOSE ANTONIO BEJARANO CARREÑO',
+      nombre: 'JOSE ANTONIO BEJARANO CARREÑO'
     },
     numero: 549
   },
@@ -14913,12 +14922,12 @@ const Carpetas: TrulyCruda[] = [
       municipio  : 'SOACHA',
       obligacion : {},
       radicado   : '2019 - 00911',
-      tipoProceso: 'HIPOTECARIO',
+      tipoProceso: 'HIPOTECARIO'
     },
     deudor: {
       cedula: 1022336662,
 
-      nombre: 'MIGUEL ANGEL AGUASACO PEÑUELA',
+      nombre: 'MIGUEL ANGEL AGUASACO PEÑUELA'
     },
     llaveProceso: '25754418900120190091100',
     numero      : 550
@@ -14932,7 +14941,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-05-31',
       municipio              : 'GUADUAS',
       obligacion             : {
-        A: 7910080321,
+        A: 7910080321
       },
       fechaPresentacion: 'CENTRO DE CONCILIACION',
       radicado         : '2017 - 00195',
@@ -14959,7 +14968,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-06-15',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 125348220,
+        A: 125348220
       },
       fechaPresentacion:
         'PROCESO DE REESTRUCTURACION SUPER SOCIEDADES',
@@ -15048,7 +15057,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '05-10-2017',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 156791,
+        A: 156791
       },
       fechaPresentacion: 'EJECUCIÓN',
       radicado         : '2018 - 01029',
@@ -15074,7 +15083,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-10-06',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 12592504,
+        A: 12592504
       },
       fechaPresentacion: 'PROCESO DE INSOLVENCIA',
       radicado         : '2017 - 00157',
@@ -15101,7 +15110,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-11-20',
       municipio              : 'BOGOTA',
       obligacion             : {
-        A: 140085,
+        A: 140085
       },
       fechaPresentacion: 'PORCESO DE INSOLVENCUA',
       radicado         : '2017 - 00964',
@@ -15225,7 +15234,7 @@ const Carpetas: TrulyCruda[] = [
       },
       fechaPresentacion: '2019-12-12',
       radicado         : '2017 - 00453',
-      tipoProceso      : 'HIPOTECARIO',
+      tipoProceso      : 'HIPOTECARIO'
     },
     deudor: {
       cedula   : 52328942,
@@ -15248,11 +15257,11 @@ const Carpetas: TrulyCruda[] = [
         'RADICADO LEVANTAMIENTO MEDIDA',
       municipio : 'BOGOTA',
       obligacion: {
-        A: 20990135265,
+        A: 20990135265
       },
       fechaPresentacion: '2017-10-25',
       radicado         : '2017 - 01164',
-      tipoProceso      : 'HIPOTECARIO',
+      tipoProceso      : 'HIPOTECARIO'
     },
     deudor: {
       cedula: 53131901,

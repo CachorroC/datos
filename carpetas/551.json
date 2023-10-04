@@ -1,1 +1,35 @@
-{"idProcesos":[],"numero":551,"cc":1075211773,"llaveProceso":"25312400300320230037100","category":"Bancolombia","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"PEDRO","segundoNombre":"JONATHAN","primerApellido":"RAMIREZ","segundoApellido":"GOMEZ","cedula":1075211773,"direccion":"KR 1 2 41 Fusagasugá","email":"jonathansoldier@hotmail.com"},"demanda":{"capitalAdeudado":28018.855,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2023-06-20T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":null,"municipio":"FUSAGASUGA","obligacion":{"A":2640096179},"radicado":"2023 - 00371","vencimientoPagare":["2028-03-08T00:00:00.000Z"],"expediente":"25312400300320230037100","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 551,
+  "cc": 1075211773,
+  "llaveProceso": "25312400300320230037100",
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "PEDRO",
+    "segundoNombre": "JONATHAN",
+    "primerApellido": "RAMIREZ",
+    "segundoApellido": "GOMEZ",
+    "cedula": 1075211773,
+    "direccion": "KR 1 2 41 Fusagasugá",
+    "email": "jonathansoldier@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 28018.855,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-06-20T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "FUSAGASUGA",
+    "obligacion": { "A": 2640096179 },
+    "radicado": "2023 - 00371",
+    "vencimientoPagare": [
+      "2028-03-08T00:00:00.000Z"
+    ],
+    "expediente": "25312400300320230037100",
+    "juzgados": []
+  }
+}

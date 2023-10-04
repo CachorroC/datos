@@ -1,1 +1,32 @@
-{"numero":331,"cc":1016043191,"llaveProceso":"11001410375220170130000","idProcesos":[],"category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"CHRISTIAN","segundoNombre":"DARIO","primerApellido":"RUIZ","segundoApellido":"AVELLANEDA","cedula":1016043191,"email":"CALLE 23 SUR No 96 - 82"},"demanda":{"capitalAdeudado":43041,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"43053","fechaPresentacion":"2018-01-16T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"B":"10.670.890.00"},"radicado":"2017 - 01300","vencimientoPagare":null,"expediente":"11001410375220170130000","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 331,
+  "cc": 1016043191,
+  "llaveProceso": "11001410375220170130000",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "CHRISTIAN",
+    "segundoNombre": "DARIO",
+    "primerApellido": "RUIZ",
+    "segundoApellido": "AVELLANEDA",
+    "cedula": 1016043191,
+    "email": "CALLE 23 SUR No 96 - 82"
+  },
+  "demanda": {
+    "capitalAdeudado": 43041,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "43053",
+    "fechaPresentacion": "2018-01-16T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "B": "10.670.890.00" },
+    "radicado": "2017 - 01300",
+    "vencimientoPagare": [null],
+    "expediente": "11001410375220170130000",
+    "juzgados": []
+  }
+}

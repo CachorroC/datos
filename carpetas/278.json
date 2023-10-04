@@ -1,1 +1,42 @@
-{"idProcesos":[112945420],"numero":278,"cc":35506033,"llaveProceso":"11001400303720170139100","category":"Bancolombia","tipoProceso":"SINGULAR","deudor":{"tel":{"fijo":4357832,"celular":3103430010},"primerNombre":"LUZ","segundoNombre":"DARY","primerApellido":"PUERTA","segundoApellido":"JARAMILLO","cedula":35506033,"direccion":"CARRERA  101  No 71 B - 53","email":"natis-rolita@hotmail.con"},"demanda":{"capitalAdeudado":12347.548,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-28T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2018-01-16T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-10-10T05:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":4670083154},"radicado":"2017 - 01391","vencimientoPagare":[null],"expediente":"11001400303720170139100","juzgados":[{"id":11,"tipo":"JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [112945420],
+  "numero": 278,
+  "cc": 35506033,
+  "llaveProceso": "11001400303720170139100",
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 4357832,
+      "celular": 3103430010
+    },
+    "primerNombre": "LUZ",
+    "segundoNombre": "DARY",
+    "primerApellido": "PUERTA",
+    "segundoApellido": "JARAMILLO",
+    "cedula": 35506033,
+    "direccion": "CARRERA  101  No 71 B - 53",
+    "email": "natis-rolita@hotmail.con"
+  },
+  "demanda": {
+    "capitalAdeudado": 12347.548,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-28T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-01-16T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-10-10T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 4670083154 },
+    "radicado": "2017 - 01391",
+    "vencimientoPagare": [null],
+    "expediente": "11001400303720170139100",
+    "juzgados": [
+      {
+        "id": 11,
+        "tipo": "JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

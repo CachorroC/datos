@@ -1,21 +1,10 @@
 {
-  "demanda": {
-    "departamento": "CUNDINAMARCA",
-    "juzgados": [],
-    "capitalAdeudado": 23110.934,
-    "entregaGarantiasAbogado": "2018-08-15T00:00:00.000Z",
-    "etapaProcesal": "ADMISION",
-    "fechaPresentacion": "2018-10-09T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": { "0": 20990125162, "1": "" },
-    "radicado": "2018 - 01271",
-    "vencimientoPagare": [
-      "2030-04-01T05:00:00.000Z"
-    ],
-    "expediente": "11001418903220180127100"
-  },
+  "idProcesos": [],
+  "numero": 474,
+  "cc": 52788376,
+  "llaveProceso": "11001418903220180127100",
   "category": "Terminados",
-  "categoryTag": 5,
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 4383117,
@@ -29,7 +18,21 @@
     "direccion": "TRANSVERSAL 83 A No 73-10   ALMERIA",
     "email": "katiusaka79@gmail.com"
   },
-  "numero": 474,
-  "llaveProceso": "11001418903220180127100",
-  "tipoProceso": "HIPOTECARIO"
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-10-09T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 20990125162 },
+    "radicado": "2018 - 01271",
+    "vencimientoPagare": [
+      "2030-04-01T05:00:00.000Z"
+    ],
+    "expediente": "11001418903220180127100",
+    "juzgados": []
+  }
 }

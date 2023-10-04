@@ -12,29 +12,28 @@ function vencimientoPagareFixer(
   const stringer = `${ rawVencimientoPagare }`;
 
   const matcherPagare = stringer.split(
-    '//'
+    '//' 
   );
   console.log(
-    matcherPagare?.length
+    matcherPagare?.length 
   );
 
   if ( !matcherPagare ) {
     return null;
   }
 
-
   return matcherPagare.map(
     (
-      pagare
+      pagare 
     ) => {
       console.log(
-        pagare
+        pagare 
       );
 
       return new Date(
-        pagare
+        pagare 
       );
-    }
+    } 
   );
 }
 
@@ -51,14 +50,14 @@ function capitalBuilder(
   );
 
   const dotTaker = copTaker.replace(
-    '.', ''
+    '.', '' 
   );
   console.log(
-    dotTaker
+    dotTaker 
   );
 
   return Number(
-    dotTaker
+    dotTaker 
   );
 }
 
@@ -73,48 +72,48 @@ export function juzgadosByProceso(
 
   for ( const proceso of procesos ) {
     const newJ = new NewJuzgado(
-      proceso
+      proceso 
     );
     juzgados.add(
-      newJ
+      newJ 
     );
   }
 
   return Array.from(
-    juzgados
+    juzgados 
   );
 }
 
 class NewJuzgado implements Juzgado {
   constructor(
-    proceso: intProceso
+    proceso: intProceso 
   ) {
     const matchedDespacho = Despachos.find(
       (
-        despacho
+        despacho 
       ) => {
         const nDesp = despacho.nombre
               .toLowerCase()
               .normalize(
-                'NFD'
+                'NFD' 
               )
               .replace(
-                /\p{Diacritic}/gu, ''
+                /\p{Diacritic}/gu, '' 
               )
               .trim();
 
         const pDesp = proceso.despacho
               .toLowerCase()
               .normalize(
-                'NFD'
+                'NFD' 
               )
               .replace(
-                /\p{Diacritic}/gu, ''
+                /\p{Diacritic}/gu, '' 
               )
               .trim();
 
         const indexOfDesp = nDesp.indexOf(
-          pDesp
+          pDesp 
         );
 
         if ( indexOfDesp >= 0 ) {
@@ -134,11 +133,11 @@ class NewJuzgado implements Juzgado {
       : proceso.despacho;
 
     const matchedId = nameN.match(
-      /\d+/g
+      /\d+/g 
     );
 
     this.id = Number(
-      matchedId?.toString()
+      matchedId?.toString() 
     );
     ( this.tipo = matchedDespacho
       ? matchedDespacho.nombre
@@ -147,7 +146,7 @@ class NewJuzgado implements Juzgado {
       ? `https://www.ramajudicial.gov.co${ matchedDespacho.url }`
       : `https://www.ramajudicial.gov.co${ proceso.despacho
             .replaceAll(
-              ' ', '-'
+              ' ', '-' 
             )
             .toLowerCase() }` );
   }
@@ -157,7 +156,6 @@ class NewJuzgado implements Juzgado {
 }
 
 export class Demanda implements IntDemanda {
-
   constructor(
     {
       capitalAdeudado,
@@ -172,7 +170,7 @@ export class Demanda implements IntDemanda {
       vencimientoPagare
     }: DemandaRaw,
     llaveProceso?: string,
-    RequestProcesos?: intProceso[],
+    RequestProcesos?: intProceso[]
   ) {
     this.expediente = llaveProceso
       ? llaveProceso
@@ -183,23 +181,23 @@ export class Demanda implements IntDemanda {
         ? capitalAdeudado
         : 0
     );
-    this.entregaGarantiasAbogado = entregaGarantiasAbogado
-      ? new Date(
-        entregaGarantiasAbogado
-      )
-      : null;
-    this.etapaProcesal
-      = etapaProcesal
-        ? `${ etapaProcesal }`
+    this.entregaGarantiasAbogado
+      = entregaGarantiasAbogado
+        ? new Date(
+          entregaGarantiasAbogado 
+        )
         : null;
+    this.etapaProcesal = etapaProcesal
+      ? `${ etapaProcesal }`
+      : null;
     this.fechaPresentacion = fechaPresentacion
       ? new Date(
-        fechaPresentacion
+        fechaPresentacion 
       )
       : null;
     this.juzgados = RequestProcesos
       ? juzgadosByProceso(
-        RequestProcesos
+        RequestProcesos 
       )
       : null;
     this.municipio = municipio
@@ -207,7 +205,7 @@ export class Demanda implements IntDemanda {
       : null;
     this.mandamientoPago = mandamientoPago
       ? new Date(
-        mandamientoPago
+        mandamientoPago 
       )
       : null;
 
@@ -217,20 +215,21 @@ export class Demanda implements IntDemanda {
     this.radicado = radicado
       ? `${ radicado }`
       : null;
-    this.vencimientoPagare
-      = vencimientoPagare
-        ? vencimientoPagareFixer(
-          vencimientoPagare
-        )
-        : null;
-    this.departamento
-      = departamento
-        ? departamento
-        : null;
+    this.vencimientoPagare = vencimientoPagare
+      ? vencimientoPagareFixer(
+        vencimientoPagare 
+      )
+      : null;
+    this.departamento = departamento
+      ? departamento
+      : null;
   }
   capitalAdeudado: number | null;
   departamento: string | null;
-  entregaGarantiasAbogado?: Date | null | undefined;
+  entregaGarantiasAbogado?:
+    | Date
+    | null
+    | undefined;
   tipoProceso: TipoProcesoRaw = 'SINGULAR';
   mandamientoPago: Date | null;
   etapaProcesal: string | null;
@@ -241,5 +240,4 @@ export class Demanda implements IntDemanda {
   vencimientoPagare: Date[] | null;
   expediente: string | null;
   juzgados: Juzgado[] | null;
-
 }

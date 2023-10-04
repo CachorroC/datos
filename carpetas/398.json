@@ -1,19 +1,10 @@
 {
-  "demanda": {
-    "departamento": "CUNDINAMARCA",
-    "juzgados": [],
-    "capitalAdeudado": 52854.078,
-    "entregaGarantiasAbogado": "2018-01-24T00:00:00.000Z",
-    "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": "2018-07-02T05:00:00.000Z",
-    "municipio": "SOACHA",
-    "obligacion": { "0": 171882, "1": "" },
-    "radicado": "2018 - 00064",
-    "vencimientoPagare": [null],
-    "expediente": "25754400300120180006400"
-  },
+  "idProcesos": [],
+  "numero": 398,
+  "cc": 52465659,
+  "llaveProceso": "25754400300120180006400",
   "category": "Terminados",
-  "categoryTag": 5,
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "celular": 3214771295 },
     "primerNombre": "LILIANA",
@@ -24,7 +15,19 @@
     "direccion": "CARRERA 87 BIS No 50 SUR-75 PISO 2",
     "email": "liancridana@hotmail.com"
   },
-  "numero": 398,
-  "llaveProceso": "25754400300120180006400",
-  "tipoProceso": "HIPOTECARIO"
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-10-04T05:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2018-07-02T05:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": { "A": 171882 },
+    "radicado": "2018 - 00064",
+    "vencimientoPagare": [null],
+    "expediente": "25754400300120180006400",
+    "juzgados": []
+  }
 }

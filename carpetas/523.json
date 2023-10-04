@@ -1,19 +1,10 @@
 {
-  "demanda": {
-    "departamento": "CUNDINAMARCA",
-    "juzgados": [],
-    "capitalAdeudado": 22144.741,
-    "entregaGarantiasAbogado": "2019-02-26T00:00:00.000Z",
-    "etapaProcesal": "",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": { "0": 20990158449, "1": "" },
-    "radicado": "2019 -00434",
-    "vencimientoPagare": [null],
-    "expediente": "11001418907620190043400"
-  },
+  "idProcesos": [],
+  "numero": 523,
+  "cc": 1014185022,
+  "llaveProceso": "11001418907620190043400",
   "category": "Terminados",
-  "categoryTag": 5,
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "celular": 3123704906 },
     "primerNombre": "LUISA",
@@ -24,7 +15,19 @@
     "direccion": "CALLE 90A No 45 A- 05",
     "email": "aleja202007@hotmail.com"
   },
-  "numero": 523,
-  "llaveProceso": "11001418907620190043400",
-  "tipoProceso": "HIPOTECARIO"
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 20990158449 },
+    "radicado": "2019 -00434",
+    "vencimientoPagare": [null],
+    "expediente": "11001418907620190043400",
+    "juzgados": []
+  }
 }

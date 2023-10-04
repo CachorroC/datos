@@ -1,1 +1,48 @@
-{"idProcesos":[132645230],"numero":577,"cc":1068973010,"llaveProceso":"11001418904120230021200","category":"Bancolombia","tipoProceso":"SINGULAR","deudor":{"tel":{"fijo":4074724,"celular":3506837545},"primerNombre":"INDIRA","segundoNombre":"MAYERLY","primerApellido":"FLOREZ","segundoApellido":"CASTRO","cedula":1068973010,"direccion":"CL 26 A SUR 12 L 21 Piso 3o. Barrio san José Sur","email":"mayeflor21@hotmail.com"},"demanda":{"capitalAdeudado":26690.131,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2021-08-18T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":6670095919,"B":"102800851 X T.C. MASTER 5303710105146382 Y T.C. AMERICAN 0377816042003354"},"radicado":"2023 - 00212","vencimientoPagare":["2026-02-04T05:00:00.000Z","2026-07-04T05:00:00.000Z"],"expediente":"11001418904120230021200","juzgados":[{"id":41,"tipo":"JUZGADO 041 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ","url":"https://www.ramajudicial.gov.cojuzgado-041-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"}]}}
+{
+  "idProcesos": [132645230],
+  "numero": 577,
+  "cc": 1068973010,
+  "llaveProceso": "11001418904120230021200",
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 4074724,
+      "celular": 3506837545
+    },
+    "primerNombre": "INDIRA",
+    "segundoNombre": "MAYERLY",
+    "primerApellido": "FLOREZ",
+    "segundoApellido": "CASTRO",
+    "cedula": 1068973010,
+    "direccion": "CL 26 A SUR 12 L 21 Piso 3o. Barrio san José Sur",
+    "email": "mayeflor21@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 26690.131,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2021-08-18T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": {
+      "A": 6670095919,
+      "B": "102800851 X T.C. MASTER 5303710105146382 Y T.C. AMERICAN 0377816042003354"
+    },
+    "radicado": "2023 - 00212",
+    "vencimientoPagare": [
+      "2026-02-04T05:00:00.000Z",
+      "2026-07-04T05:00:00.000Z"
+    ],
+    "expediente": "11001418904120230021200",
+    "juzgados": [
+      {
+        "id": 41,
+        "tipo": "JUZGADO 041 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-041-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
+      }
+    ]
+  }
+}

@@ -1,19 +1,10 @@
 {
-  "demanda": {
-    "departamento": "CUNDINAMARCA",
-    "juzgados": [],
-    "capitalAdeudado": 12456.703,
-    "entregaGarantiasAbogado": "2018-09-18T00:00:00.000Z",
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "SESQUILE",
-    "obligacion": { "0": 3360085515, "1": "" },
-    "radicado": "2018 - 00135",
-    "vencimientoPagare": null,
-    "expediente": "25736408900120180013500"
-  },
+  "idProcesos": [],
+  "numero": 492,
+  "cc": 22444794,
+  "llaveProceso": "25736408900120180013500",
   "category": "Terminados",
-  "categoryTag": 5,
+  "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {},
     "primerNombre": "MARIBEL",
@@ -21,10 +12,21 @@
     "primerApellido": "ROSARIO",
     "segundoApellido": "RIVERA JIMENEZ",
     "cedula": 22444794,
-    "direccion": "CALLE 22 No 1-137",
-    "email": ""
+    "direccion": "CALLE 22 No 1-137"
   },
-  "numero": 492,
-  "llaveProceso": "25736408900120180013500",
-  "tipoProceso": "SINGULAR"
+  "demanda": {
+    "capitalAdeudado": 12456.703,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-03-10T05:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "SESQUILE",
+    "obligacion": { "A": 3360085515 },
+    "radicado": "2018 - 00135",
+    "vencimientoPagare": null,
+    "expediente": "25736408900120180013500",
+    "juzgados": []
+  }
 }

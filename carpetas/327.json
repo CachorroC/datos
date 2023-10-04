@@ -1,1 +1,39 @@
-{"numero":327,"cc":94524378,"llaveProceso":"11001400301220170136900","idProcesos":[],"category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"JOSE","segundoNombre":"DANIEL","primerApellido":"ESCOBAR","segundoApellido":"PATIÑO","cedula":94524378,"direccion":"jose.daniel.escobar@hotmail.co","email":"6332400 / 3155459543"},"demanda":{"capitalAdeudado":0,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":"2017-11-14T00:00:00.000Z","etapaProcesal":null,"fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":43945,"B":80517},"radicado":"2017 - 01369","vencimientoPagare":null,"expediente":"11001400301220170136900","juzgados":[]}}
+{
+  "idProcesos": [50848760],
+  "numero": 327,
+  "cc": 94524378,
+  "llaveProceso": "11001400301220170136900",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JOSE",
+    "segundoNombre": "DANIEL",
+    "primerApellido": "ESCOBAR",
+    "segundoApellido": "PATIÑO",
+    "cedula": 94524378,
+    "direccion": "jose.daniel.escobar@hotmail.co",
+    "email": "6332400 / 3155459543"
+  },
+  "demanda": {
+    "capitalAdeudado": 0,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-11-14T00:00:00.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 43945, "B": 80517 },
+    "radicado": "2017 - 01369",
+    "vencimientoPagare": null,
+    "expediente": "11001400301220170136900",
+    "juzgados": [
+      {
+        "id": 12,
+        "tipo": "JUZGADO 012 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-012-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

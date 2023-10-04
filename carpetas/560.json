@@ -1,1 +1,47 @@
-{"idProcesos":[159311631],"numero":560,"cc":1129565798,"llaveProceso":"08001418901820230073500","category":"Bancolombia","tipoProceso":"SINGULAR","deudor":{"tel":{"fijo":3930210,"celular":3043463859},"primerNombre":"HANSEL","primerApellido":"MARTINEZ","segundoApellido":"BARROS","cedula":1129565798,"direccion":"CR 51 43 04 Barrio Abajo Barranquilla // Carrera 71 No. 88A - 31 Barranquilla // Calle 42 A No. 46 - 04 Barrio El Parque en Soledad (Atlantico)","email":"inghanselmartinez@hotmail.com"},"demanda":{"capitalAdeudado":40696.764,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2023-07-26T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":null,"municipio":"BARRANQUILLA","obligacion":{"A":4770111750,"B":"PAGARÉ SIN NÚMERO T. MASTER CARD 5303720229555616 // T. VISA 4513070377907980"},"radicado":"2023 - 00735","vencimientoPagare":["2026-06-03T05:00:00.000Z","2026-04-07T05:00:00.000Z"],"expediente":"08001418901820230073500","juzgados":[{"id":18,"tipo":"JUZGADO 018 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BARRANQUILLA ","url":"https://www.ramajudicial.gov.cojuzgado-018-de-pequeñas-causas--y-competencia-múltiple-de-barranquilla-"}]}}
+{
+  "idProcesos": [159311631],
+  "numero": 560,
+  "cc": 1129565798,
+  "llaveProceso": "08001418901820230073500",
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 3930210,
+      "celular": 3043463859
+    },
+    "primerNombre": "HANSEL",
+    "primerApellido": "MARTINEZ",
+    "segundoApellido": "BARROS",
+    "cedula": 1129565798,
+    "direccion": "CR 51 43 04 Barrio Abajo Barranquilla // Carrera 71 No. 88A - 31 Barranquilla // Calle 42 A No. 46 - 04 Barrio El Parque en Soledad (Atlantico)",
+    "email": "inghanselmartinez@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 40696.764,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BARRANQUILLA",
+    "obligacion": {
+      "A": 4770111750,
+      "B": "PAGARÉ SIN NÚMERO T. MASTER CARD 5303720229555616 // T. VISA 4513070377907980"
+    },
+    "radicado": "2023 - 00735",
+    "vencimientoPagare": [
+      "2026-06-03T05:00:00.000Z",
+      "2026-04-07T05:00:00.000Z"
+    ],
+    "expediente": "08001418901820230073500",
+    "juzgados": [
+      {
+        "id": 18,
+        "tipo": "JUZGADO 018 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BARRANQUILLA ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-018-de-pequeñas-causas--y-competencia-múltiple-de-barranquilla-"
+      }
+    ]
+  }
+}

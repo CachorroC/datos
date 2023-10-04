@@ -1,1 +1,38 @@
-{"numero":300,"cc":79617611,"llaveProceso":"25286400300120170081600","idProcesos":[],"category":"Terminados","tipoProceso":"PRENDARIO","deudor":{"tel":{"fijo":2623688,"celular":3174280231},"primerNombre":"FABIO","segundoNombre":"EDILBERTO","primerApellido":"JARA","segundoApellido":"SANCHEZ","cedula":79617611,"direccion":"CARRERA 3 E No 11-60 INTERIOR 9 CASA 2  FUNZA","email":"fabiojara@gmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-10-12T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"ADMISION","fechaPresentacion":"2017-10-18T00:00:00.000Z","municipio":"FUNZA","obligacion":{"A":12245382},"radicado":"2017 - 00816","vencimientoPagare":null,"expediente":"25286400300120170081600","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 300,
+  "cc": 79617611,
+  "llaveProceso": "25286400300120170081600",
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 2623688,
+      "celular": 3174280231
+    },
+    "primerNombre": "FABIO",
+    "segundoNombre": "EDILBERTO",
+    "primerApellido": "JARA",
+    "segundoApellido": "SANCHEZ",
+    "cedula": 79617611,
+    "direccion": "CARRERA 3 E No 11-60 INTERIOR 9 CASA 2  FUNZA",
+    "email": "fabiojara@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-10-12T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2017-10-18T00:00:00.000Z",
+    "municipio": "FUNZA",
+    "obligacion": { "A": 12245382 },
+    "radicado": "2017 - 00816",
+    "vencimientoPagare": [
+      "2017-05-26T00:00:00.000Z"
+    ],
+    "expediente": "25286400300120170081600",
+    "juzgados": []
+  }
+}

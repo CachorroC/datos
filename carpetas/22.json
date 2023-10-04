@@ -1,1 +1,40 @@
-{"idProcesos":[51935790],"numero":22,"cc":80073174,"llaveProceso":"11001400308520170084900","category":"Reintegra","tipoProceso":"PRENDARIO","deudor":{"tel":{},"primerNombre":"JOSE","segundoNombre":"EDWIN","primerApellido":"GARCES","segundoApellido":"ARDILA","cedula":80073174,"direccion":"CALLE 160 No. 58-75 TORRE 6 APTO 503 BOGOTA /// YOPAL CASANARE"},"demanda":{"capitalAdeudado":29690.679,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-05-11T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-07-21T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-05-24T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":2453698},"radicado":"2017 - 00849","vencimientoPagare":["2020-04-26T00:00:00.000Z"],"expediente":"11001400308520170084900","juzgados":[{"id":11,"tipo":"JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [51935790],
+  "numero": 22,
+  "cc": 80073174,
+  "llaveProceso": "11001400308520170084900",
+  "category": "Reintegra",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JOSE",
+    "segundoNombre": "EDWIN",
+    "primerApellido": "GARCES",
+    "segundoApellido": "ARDILA",
+    "cedula": 80073174,
+    "direccion": "CALLE 160 No. 58-75 TORRE 6 APTO 503 BOGOTA /// YOPAL CASANARE"
+  },
+  "demanda": {
+    "capitalAdeudado": 29690.679,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-07-21T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-05-24T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 2453698 },
+    "radicado": "2017 - 00849",
+    "vencimientoPagare": [
+      "2020-04-26T00:00:00.000Z"
+    ],
+    "expediente": "11001400308520170084900",
+    "juzgados": [
+      {
+        "id": 11,
+        "tipo": "JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

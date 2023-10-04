@@ -1,34 +1,40 @@
 {
-  "demanda": {
-    "departamento": {
-      "idCatalogoDetalle": 13,
-      "idCatalogoDetallePadre": 1,
-      "descripcion": "CUNDINAMARCA",
-      "codigo": "25"
-    },
-    "capitalAdeudado": 13503258,
-    "entregagarantiasAbogado": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": { "1": 2150091493, "2": "" },
-    "radicado": "2018 - 00107",
-    "vencimientoPagare": "2018-09-27T00:00:00.000Z",
-    "expediente": "11001400304620180010700",
-    "juzgados": []
-  },
+  "idProcesos": [10138483],
+  "numero": 377,
+  "cc": 40356325,
+  "llaveProceso": "11001400304620180010700",
   "category": "Terminados",
-  "categoryTag": 5,
+  "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {},
     "primerNombre": "GLADIS",
     "primerApellido": "VELASQUEZ",
     "segundoApellido": "CASTRO",
     "cedula": 40356325,
-    "direccion": "CARRERA 79D 36 - 74 ",
+    "direccion": "CARRERA 79D 36 - 74",
     "email": "sacave22@gmail.com"
   },
-  "numero": 377,
-  "llaveProceso": "11001400304620180010700",
-  "tipoProceso": "SINGULAR"
+  "demanda": {
+    "capitalAdeudado": 13503258,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-01-29T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": { "A": 2150091493 },
+    "radicado": "2018 - 00107",
+    "vencimientoPagare": [
+      "2018-09-27T00:00:00.000Z"
+    ],
+    "expediente": "11001400304620180010700",
+    "juzgados": [
+      {
+        "id": 46,
+        "tipo": "JUZGADO 046 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-46-civil-municipal-de-bogota"
+      }
+    ]
+  }
 }

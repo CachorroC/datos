@@ -26,23 +26,25 @@ export class Carpeta implements IntCarpeta {
       deudor,
       demanda,
       numero
-    }: CarpetaRaw, RequestProcesos?: intProceso[]
+    }: CarpetaRaw,
+    RequestProcesos?: intProceso[]
   ) {
     this.llaveProceso = llaveProceso;
     this.category = category;
     this.numero = numero;
-    this.tipoProceso = demanda.tipoProceso as TipoProceso;
+    this.tipoProceso
+      = demanda.tipoProceso as TipoProceso;
     this.deudor = new Deudor(
-      deudor
+      deudor 
     );
     this.cc = Number(
-      deudor.cedula
+      deudor.cedula 
     );
 
     if ( RequestProcesos ) {
       this.idProcesos = RequestProcesos.map(
         (
-          proceso
+          proceso 
         ) => {
           return proceso.idProceso;
         }
@@ -50,17 +52,18 @@ export class Carpeta implements IntCarpeta {
       this.demanda = new Demanda(
         demanda,
         llaveProceso,
-        RequestProcesos,
+        RequestProcesos
       );
     } else {
       this.demanda = new Demanda(
-        demanda,  llaveProceso
+        demanda,
+        llaveProceso
       );
     }
   }
   numero: number;
-  cc?: number ;
-  llaveProceso?: string ;
+  cc?: number;
+  llaveProceso?: string;
 
   category: Category;
   tipoProceso: TipoProceso;
@@ -75,12 +78,13 @@ export class Carpeta implements IntCarpeta {
         : ' ' );
 
     const apellidos = this.deudor.segundoApellido
-      ? this.deudor.primerApellido + ' ' + this.deudor.segundoApellido
+      ? this.deudor.primerApellido
+        + ' '
+        + this.deudor.segundoApellido
       : this.deudor.primerApellido;
 
     const rawName = nombres + apellidos;
 
     return rawName;
   }
-
 }

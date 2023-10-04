@@ -6,34 +6,34 @@ export class Tel implements IntTel {
   fijo?: number;
   celular?: number;
   constructor(
-    telefono: string
+    telefono: string 
   ) {
     const celularStringArray
       = telefono.match(
-        /\d{10}/g
+        /\d{10}/g 
       );
 
     const fijoStringArray
       = telefono.match(
-        /\d{7}\s/g
+        /\d{7}\s/g 
       );
 
     const celularNumber = celularStringArray?.map(
       (
-        f
+        f 
       ) => {
         return Number(
-          f
+          f 
         );
       }
     );
 
     const fijoNumber = fijoStringArray?.map(
       (
-        f
+        f 
       ) => {
         return Number(
-          f
+          f 
         );
       }
     );
@@ -52,13 +52,13 @@ export class Deudor implements IntDeudor {
       email,
       nombre,
       telefono = ''
-    }: DeudorRaw
+    }: DeudorRaw 
   ) {
     const stringCedula
       = typeof cedula === 'string';
     this.cedula = stringCedula
       ? Number(
-        cedula
+        cedula 
       )
       : cedula;
     this.direccion = direccion?.toString();
@@ -70,7 +70,7 @@ export class Deudor implements IntDeudor {
     );
 
     const nameStringArray = nombre.split(
-      ' '
+      ' ' 
     );
 
     const nameArrayLength
@@ -80,19 +80,19 @@ export class Deudor implements IntDeudor {
             case 4:
               this.primerNombre
           = nameStringArray[ 0 ].replace(
-                  ' ', ''
+                  ' ', '' 
                 );
               this.segundoNombre
           = nameStringArray[ 1 ].replace(
-                  ' ', ''
+                  ' ', '' 
                 );
               this.primerApellido
           = nameStringArray[ 2 ].replace(
-                  ' ', ''
+                  ' ', '' 
                 );
               this.segundoApellido
           = nameStringArray[ 3 ].replace(
-                  ' ', ''
+                  ' ', '' 
                 );
 
               break;
@@ -100,12 +100,12 @@ export class Deudor implements IntDeudor {
             case 2:
               this.primerNombre
           = nameStringArray[ 0 ].replace(
-                  ' ', ''
+                  ' ', '' 
                 );
 
               this.primerApellido
           = nameStringArray[ 1 ].replace(
-                  ' ', ''
+                  ' ', '' 
                 );
 
               break;
@@ -113,7 +113,7 @@ export class Deudor implements IntDeudor {
             case 1:
               this.primerNombre
           = nameStringArray[ 0 ].replace(
-                  ' ', ''
+                  ' ', '' 
                 );
               this.primerApellido = 'sin especificar';
 
@@ -122,15 +122,15 @@ export class Deudor implements IntDeudor {
             case 3:
               this.primerNombre
           = nameStringArray[ 0 ].replace(
-                  ' ', ''
+                  ' ', '' 
                 );
               this.primerApellido
           = nameStringArray[ 1 ].replace(
-                  ' ', ''
+                  ' ', '' 
                 );
               this.segundoApellido
           = nameStringArray[ 2 ].replace(
-                  ' ', ''
+                  ' ', '' 
                 );
 
               break;
@@ -138,15 +138,15 @@ export class Deudor implements IntDeudor {
             case 5:
               this.primerNombre
           = nameStringArray[ 0 ].replace(
-                  ' ', ''
+                  ' ', '' 
                 );
               this.segundoNombre
           = nameStringArray[ 1 ].replace(
-                  ' ', ''
+                  ' ', '' 
                 );
               this.primerApellido
           = nameStringArray[ 2 ].replace(
-                  ' ', ''
+                  ' ', '' 
                 );
               this.segundoApellido = `${ nameStringArray[ 3 ].replace(
                 ' ',
@@ -161,7 +161,7 @@ export class Deudor implements IntDeudor {
             case 6:
               this.primerNombre
           = nameStringArray[ 0 ].replace(
-                  ' ', ''
+                  ' ', '' 
                 );
               this.segundoNombre = `${ nameStringArray[ 1 ].replace(
                 ' ',
@@ -179,7 +179,7 @@ export class Deudor implements IntDeudor {
               ) }`;
               this.segundoApellido
           = nameStringArray[ 5 ].replace(
-                  ' ', ''
+                  ' ', '' 
                 );
 
               break;
@@ -187,19 +187,19 @@ export class Deudor implements IntDeudor {
             default:
               this.primerNombre
           = nameStringArray[ 0 ].replace(
-                  ' ', ''
+                  ' ', '' 
                 );
               this.segundoNombre
           = nameStringArray[ 1 ].replace(
-                  ' ', ''
+                  ' ', '' 
                 );
               this.primerApellido
           = nameStringArray[ 2 ].replace(
-                  ' ', ''
+                  ' ', '' 
                 );
               this.segundoApellido
           = nameStringArray[ 3 ].replace(
-                  ' ', ''
+                  ' ', '' 
                 );
 
               break;
