@@ -90,6 +90,7 @@ export async function getProcesosbyLLaveProceso() {
           `${ idProceso }: error en la conexion network del fetchActuaciones => ${ error.name } : ${ error.message }`
         );
       }
+
       fs.writeFile(
         `carpetas/${ indexOf }error.json`,
         `${ JSON.stringify(
@@ -101,6 +102,7 @@ export async function getProcesosbyLLaveProceso() {
       );
     }
   }
+
   console.log(
     errores 
   );

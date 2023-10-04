@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":135,"cc":5654542,"llaveProceso":"11001400300420170063900","idProcesos":[],"category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{"fijo":6045701,"celular":3007704166},"primerNombre":"RUBER","segundoNombre":"ANDRES","primerApellido":"VALENZUELA","segundoApellido":"SIERRA","cedula":5654542,"direccion":"CARRERA 16 # 10 - 30 "},"demanda":{"capitalAdeudado":12203.589,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-06-28T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-06-29T00:00:00.000Z","etapaProcesal":"11001400300420170063900","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":410086468},"radicado":"2017 - 00639","vencimientoPagare":null,"expediente":"11001400300420170063900","juzgados":[]}}

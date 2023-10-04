@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":200,"cc":79582683,"llaveProceso":"11001400301220170101200","idProcesos":[],"category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":7600199,"celular":3103770989},"primerNombre":"ALEXANDER","primerApellido":"ROJAS","segundoApellido":"CASTAÑEDA","cedula":79582683,"direccion":"TRANVERSAL 16A # 42 - 58 SUR","email":"mmx4b@msn.com"},"demanda":{"capitalAdeudado":34506.455,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-28T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-09-04T00:00:00.000Z","etapaProcesal":"11001400301220170101200","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":168737},"radicado":"2017 - 01012","vencimientoPagare":null,"expediente":"11001400301220170101200","juzgados":[]}}

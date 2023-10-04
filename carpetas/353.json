@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":353,"cc":19297891,"llaveProceso":"11001400307320170156300","idProcesos":[],"category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"RICARDO","primerApellido":"ARIAS","segundoApellido":"GUZMAN","cedula":19297891,"direccion":"CALLE 1 H  No 29 - 73","email":"ricardoagi1955@gmail.com"},"demanda":{"capitalAdeudado":24172.047,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-11-16T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-11-27T00:00:00.000Z","etapaProcesal":null,"fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":"4513082447756537-4513085528567731","B":"5303728067784305/"},"radicado":"2017 - 01563","vencimientoPagare":null,"expediente":"11001400307320170156300","juzgados":[]}}

@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":169,"cc":23553904,"llaveProceso":"11001400300320170126400","idProcesos":[],"category":"Reintegra","tipoProceso":"PRENDARIO","deudor":{"tel":{},"primerNombre":"RITA","segundoNombre":"BLANCO","primerApellido":"DE","segundoApellido":"GOMEZ","cedula":23553904,"direccion":"Carrera 67 No. 65-22 sur Torre 15 Apto 559","email":"dorancy1@hotmail.com"},"demanda":{"capitalAdeudado":13144.437,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-01T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-08-03T00:00:00.000Z","etapaProcesal":"NOTIFICACION ","fechaPresentacion":"2017-07-21T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":12498762,"B":"audioprestamo"},"radicado":"2017 - 01264","vencimientoPagare":null,"expediente":"11001400300320170126400","juzgados":[]}}

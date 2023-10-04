@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":340,"cc":79573945,"llaveProceso":"11001400306020170101400","idProcesos":[],"category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"WILLIAM","segundoNombre":"CORTES","primerApellido":"ROJAS","segundoApellido":"","cedula":79573945,"direccion":"CARRERA 19  No 56 A  SUR - 72","email":"cubrimage@hotmail.com"},"demanda":{"capitalAdeudado":14986.915,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-10-04T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-10-10T00:00:00.000Z","etapaProcesal":"11001400306020170101400","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":6690082032},"radicado":"2017 - 01014","vencimientoPagare":null,"expediente":"11001400306020170101400","juzgados":[]}}

@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":366,"cc":53094561,"llaveProceso":"11001400300920170136100","idProcesos":[],"category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"YURI","segundoNombre":"ANDREA","primerApellido":"GONZALEZ","segundoApellido":"TORRES","cedula":53094561,"direccion":"CARRERA 87 K No 70-44 SUR","email":"yurisita_05@hotmail.com"},"demanda":{"capitalAdeudado":19041.643,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-11-12T05:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"11001400300920170136100","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":134032},"radicado":"2017 - 01361","vencimientoPagare":null,"expediente":"11001400300920170136100","juzgados":[]}}

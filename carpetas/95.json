@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":95,"cc":1015410386,"llaveProceso":"11001400302820170057500","idProcesos":[],"category":"Terminados","tipoProceso":"PRENDARIO","deudor":{"tel":{},"primerNombre":"EDWIN","segundoNombre":"JHOBANI","primerApellido":"PEREZ","segundoApellido":"PITA","cedula":1015410386,"direccion":"CARRERA 40B # 1 - 61 ","email":"edwinperez8302@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-06-28T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-07-10T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-06-29T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":12099135},"radicado":"2017 - 00575","vencimientoPagare":null,"expediente":"11001400302820170057500","juzgados":[]}}

@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":282,"cc":19255260,"llaveProceso":"11001400301520170139400","idProcesos":[],"category":"Bancolombia","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":4170527,"celular":3125024008},"primerNombre":"MATIAS","segundoNombre":"HUMBERTO","primerApellido":"AVILA","segundoApellido":"AGUILAR","cedula":19255260,"direccion":"CALLE 2 C No 62 - 20","email":"maifren_13@yahoo.es"},"demanda":{"capitalAdeudado":66362.959,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-21T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2018-02-09T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-10-10T05:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":174366},"radicado":"2017 - 01394","vencimientoPagare":null,"expediente":"11001400301520170139400","juzgados":[]}}

@@ -1,4 +1,1 @@
-{
-  "StatusCode": 404,
-  "Message": "No se pueden ver actuaciones de un proceso privado"
-}
+{"numero":177,"cc":79327475,"llaveProceso":"11001400304520170104100","idProcesos":[],"category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"LEONARDY","primerApellido":"HERRERA","segundoApellido":"ROJAS","cedula":79327475,"direccion":"CARRERA 85 # 52 - 05 SUR ","email":"leonardyherrera@yahoo.com"},"demanda":{"capitalAdeudado":18696053,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-24T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-09-01T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-08-28T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":2290099501},"radicado":"2017 - 01041","vencimientoPagare":null,"expediente":"11001400304520170104100","juzgados":[]}}

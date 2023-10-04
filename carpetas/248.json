@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":248,"cc":19475788,"llaveProceso":"11001400305920170087100","idProcesos":[],"category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"celular":3193196261},"primerNombre":"HENRY","primerApellido":"CARRANZA","segundoApellido":"ALBA","cedula":19475788,"direccion":"CALLE 31 SUR No 12-33 ","email":"hemacarblan@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-07T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-10-04T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-09-14T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":130619},"radicado":"2017 - 00871","vencimientoPagare":null,"expediente":"11001400305920170087100","juzgados":[]}}

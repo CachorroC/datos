@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":130,"cc":77010352,"llaveProceso":"11001400306420170115300","idProcesos":[],"category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{"fijo":6371679,"celular":3125855939},"primerNombre":"ARMANDO","segundoNombre":"ENRIQUE","primerApellido":"ROSADO","segundoApellido":"MESTRE","cedula":77010352,"direccion":"CALLE 116 # 11C - 15 APTO 104","email":"arosadomestre@yahoo.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-15T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-08-29T00:00:00.000Z","etapaProcesal":"LIQUIDACION","fechaPresentacion":"2017-08-18T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":377815132099546},"radicado":"2017 - 01153","vencimientoPagare":null,"expediente":"11001400306420170115300","juzgados":[]}}

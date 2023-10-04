@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":159,"cc":98389962,"llaveProceso":"11001400307320170133300","idProcesos":[],"category":"Terminados","tipoProceso":"PRENDARIO","deudor":{"tel":{"celular":3125586008},"primerNombre":"ALLAN","segundoNombre":"FREDY","primerApellido":"TOBAR","segundoApellido":"ENCISO ","cedula":98389962,"direccion":"CARRERA 14 # 11 - 14 SUR BLOQUE 10 ","email":"allantobar@gmail.com"},"demanda":{"capitalAdeudado":18653826,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-22T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":"2017-08-28T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":11932772},"radicado":"2017 - 01333","vencimientoPagare":null,"expediente":"11001400307320170133300","juzgados":[]}}

@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":167,"cc":79688268,"llaveProceso":"11001310301020170071000","idProcesos":[],"category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":4589855,"celular":3196564315},"primerNombre":"","segundoNombre":"JOSE MAURICIO","primerApellido":"GONZALEZ CALDERON","segundoApellido":"","cedula":79688268,"direccion":"CARRERA 83A # 116A - 72 CASA 214","email":"maurgonzal@yahoo.com"},"demanda":{"capitalAdeudado":118940.346,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-22T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-12-06T00:00:00.000Z","etapaProcesal":"11001310301020170071000","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":197033},"radicado":"2017 - 00710","vencimientoPagare":null,"expediente":"11001310301020170071000","juzgados":[]}}

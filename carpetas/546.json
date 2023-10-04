@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":546,"cc":1116782267,"llaveProceso":"11001400300220170100200","idProcesos":[],"category":"Reintegra","tipoProceso":"PRENDARIO","deudor":{"tel":{"celular":3005941798},"primerNombre":"JOGLI","segundoNombre":"JOAQUIN","primerApellido":"OTERO","segundoApellido":"VARGAS","cedula":1116782267,"direccion":"DIAGONAL 2 No 79 F -04","email":"juanotero1989@gmail.com"},"demanda":{"capitalAdeudado":41372.568,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-10-06T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-11-27T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-10-12T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":12541235},"radicado":"2017 - 01002","vencimientoPagare":null,"expediente":"11001400300220170100200","juzgados":[]}}

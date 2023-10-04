@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":194,"cc":52790965,"llaveProceso":"11001400303520170129700","idProcesos":[],"category":"Terminados","tipoProceso":"PRENDARIO","deudor":{"tel":{"celular":3107976282},"primerNombre":"FABIOLA","primerApellido":"MARTINEZ","segundoApellido":"RUEDA","cedula":52790965,"direccion":"CALLE 20C # 106 - 27 APTO 202 INT 13 ","email":"fabiola_19805@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-28T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-09-25T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-08-31T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":12601534},"radicado":"2017 - 01297","vencimientoPagare":null,"expediente":"11001400303520170129700","juzgados":[]}}

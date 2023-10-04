@@ -59,6 +59,7 @@ export default async function fetchProcesos(
         ` error en la conexion network del fetchProceso ${ e.name } : ${ e.message }`
       );
     }
+
     console.log(
       `${ e }` 
     );

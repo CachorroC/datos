@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":85,"cc":39673896,"llaveProceso":"11001400303420170083400","idProcesos":[],"category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"SANDRA","segundoNombre":"PATRICIA","primerApellido":"MALAVER","segundoApellido":"ALVAREZ","cedula":39673896,"direccion":"CALLE 143 # 118 - 15 APTO 503 INT 2 ","email":"sma9511@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-07-10T00:00:00.000Z","etapaProcesal":"SENTENCIA","fechaPresentacion":"2017-06-20T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":6820082421,"B":"377815190381158 // 530371010816"},"radicado":"2017 - 00834","vencimientoPagare":null,"expediente":"11001400303420170083400","juzgados":[]}}

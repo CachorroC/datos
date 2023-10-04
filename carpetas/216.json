@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":216,"cc":51833717,"llaveProceso":"11001400300520170125500","idProcesos":[],"category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"BLANCA","segundoNombre":"JANETH","primerApellido":"PINZON","segundoApellido":"SUAREZ","cedula":51833717,"email":"CARRERA 123 # 131 - 32 "},"demanda":{"capitalAdeudado":42977,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"42982","fechaPresentacion":"2017-10-23T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"B":"13401112,61"},"radicado":"2017 - 01255","vencimientoPagare":null,"expediente":"11001400300520170125500","juzgados":[]}}

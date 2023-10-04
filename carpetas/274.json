@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":274,"cc":80312466,"llaveProceso":"11001400300720170148400","idProcesos":[],"category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":6915340,"celular":3178134824},"primerNombre":"ANDRES","segundoNombre":"GUILLERMO","primerApellido":"ACEVEDO","segundoApellido":"BORRAEZ","cedula":80312466,"direccion":"carrera 28 No  84 - 36","email":"andresacevedo24@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":"2017-09-11T05:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-05-10T05:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":109481},"radicado":"2017 - 01484","vencimientoPagare":null,"expediente":"11001400300720170148400","juzgados":[]}}

@@ -1,26 +1,19 @@
 import { DemandaRaw,
-         DepartamentoRaw,
-         IntCarpeta,
          IntDemanda,
-         Juzgado } from '../types/carpetas';
-import fetchProceso, { sleep } from '../procesos';
+         Juzgado,
+         Obligacion,
+         TipoProcesoRaw } from '../types/carpetas';
 import { Despachos } from '../despachos';
-import { Deudor } from './deudor';
-import * as fs from 'fs/promises';
 import { intProceso } from '../types/procesos';
-import { insertNewCarpetas } from '..';
-import Carpetas from '../data/carpetas-raw';
-import Departamentos from '../data/departamentos';
-import { categories } from './carpeta';
 
 function vencimientoPagareFixer(
   rawVencimientoPagare: string | number
 ) {
-  const matcherPagare = rawVencimientoPagare
-        .toString()
-        .match(
-          /\d{1,4}(\/|-)\d{1,2}(\/|-)\d{1,4}/g
-        );
+  const stringer = `${ rawVencimientoPagare }`;
+
+  const matcherPagare = stringer.match(
+    /\/\//g
+  );
   console.log(
     matcherPagare?.length
   );
@@ -89,30 +82,6 @@ export function juzgadosByProceso(
   );
 }
 
-function setDepartamento(
-  departamento: DepartamentoRaw
-) {
-  const deptos = Departamentos.result;
-
-  const filterDeptos = deptos.find(
-    (
-      dpt
-    ) => {
-      const stringDepto = dpt.descripcion;
-
-      return (
-        stringDepto.toLowerCase()
-      === departamento.toLowerCase()
-      );
-    }
-  );
-
-  if ( filterDeptos ) {
-    return filterDeptos.descripcion;
-  }
-
-  return null;
-}
 class NewJuzgado implements Juzgado {
   constructor(
     proceso: intProceso
@@ -185,7 +154,7 @@ class NewJuzgado implements Juzgado {
 }
 
 export class Demanda implements IntDemanda {
-  expediente?: string;
+
   constructor(
     {
       capitalAdeudado,
@@ -193,12 +162,13 @@ export class Demanda implements IntDemanda {
       etapaProcesal,
       departamento,
       fechaPresentacion,
+      mandamientoPago,
       municipio,
       obligacion,
       radicado,
       vencimientoPagare
     }: DemandaRaw,
-    juzgados: Juzgado[],
+    RequestProcesos: intProceso[] = [],
     llaveProceso?: string | number
   ) {
     if ( llaveProceso ) {
@@ -210,245 +180,70 @@ export class Demanda implements IntDemanda {
       } else {
         this.expediente = llaveProceso.toString();
       }
+    } else {
+      this.expediente = null;
     }
+
     this.capitalAdeudado = capitalBuilder(
       capitalAdeudado
+        ? capitalAdeudado
+        : 0
     );
-    this.entregaGarantiasAbogado = new Date(
-      entregaGarantiasAbogado
-    );
+    this.entregaGarantiasAbogado = entregaGarantiasAbogado
+      ? new Date(
+        entregaGarantiasAbogado
+      )
+      : null;
     this.etapaProcesal
-      = etapaProcesal?.toString();
-    this.fechaPresentacion = new Date(
-      fechaPresentacion ?? ''
+      = etapaProcesal
+        ? `${ etapaProcesal }`
+        : null;
+    this.fechaPresentacion = fechaPresentacion
+      ? new Date(
+        fechaPresentacion
+      )
+      : null;
+    this.juzgados = juzgadosByProceso(
+      RequestProcesos
     );
-    this.juzgados = juzgados;
-    this.municipio = municipio;
+    this.municipio = municipio
+      ? municipio
+      : null;
+    this.mandamientoPago = mandamientoPago
+      ? new Date(
+        mandamientoPago
+      )
+      : null;
 
-    this.obligacion = obligacion;
-    this.radicado = radicado.toString();
+    this.obligacion = obligacion
+      ? obligacion
+      : null;
+    this.radicado = radicado
+      ? `${ radicado }`
+      : null;
     this.vencimientoPagare
-      = vencimientoPagareFixer(
-        vencimientoPagare
-      );
+      = vencimientoPagare
+        ? vencimientoPagareFixer(
+          vencimientoPagare
+        )
+        : null;
     this.departamento
-      = setDepartamento(
-        departamento
-      );
+      = departamento
+        ? departamento
+        : null;
   }
+  capitalAdeudado: number | null;
   departamento: string | null;
-  juzgados: Juzgado[];
-  capitalAdeudado: number;
-  entregaGarantiasAbogado: Date;
-  etapaProcesal?: string;
-  fechaPresentacion?: Date;
-  municipio: string;
-  obligacion: { [key: string]: string | number };
-  radicado: string;
+  entregaGarantiasAbogado?: Date | null | undefined;
+  tipoProceso: TipoProcesoRaw = 'SINGULAR';
+  mandamientoPago: Date | null;
+  etapaProcesal: string | null;
+  fechaPresentacion: Date | null;
+  municipio: string | null;
+  obligacion: Obligacion | null;
+  radicado: string | null;
   vencimientoPagare: Date[] | null;
+  expediente: string | null;
+  juzgados: Juzgado[] | null;
+
 }
-
-async function createCarpetasDemanda() {
-  const procesosMap = new Map<
-    number,
-    intProceso
-  >();
-
-  const newCarpetas = new Set<IntCarpeta>();
-
-  for ( const carpeta of Carpetas ) {
-    const awaitTime = 200;
-
-    const now = new Date()
-          .getTime();
-
-    const masTarde = now + awaitTime;
-
-    const outputTime = new Date(
-      masTarde
-    )
-          .toLocaleDateString(
-            'es-CO', {
-              hour  : 'numeric',
-              minute: 'numeric',
-              hour12: true
-            }
-          );
-    console.log(
-      `estará listo a las ${ outputTime }`
-    );
-
-    await sleep(
-      awaitTime
-    );
-    console.log(
-      `carpetas has a length of ${ Carpetas.length } and you are in carpeta number ${ carpeta.numero }`
-    );
-
-    const RequestProcesos = await fetchProceso(
-      {
-        llaveProceso:
-        carpeta.llaveProceso.toString()
-      }
-    );
-
-    const newDeudor = new Deudor(
-      carpeta.deudor
-    );
-    console.log(
-      newDeudor.tel.celular
-    );
-
-    const newDemanda = new Demanda(
-      carpeta.demanda,
-      [],
-      carpeta.llaveProceso
-    );
-
-    if ( RequestProcesos.length > 0 ) {
-      for ( const proceso of RequestProcesos ) {
-        if ( proceso.esPrivado ) {
-          continue;
-        }
-
-        procesosMap.set(
-          proceso.idProceso,
-          proceso
-        );
-
-        const indexOf
-          = RequestProcesos.indexOf(
-            proceso
-          );
-
-        const juzgados = juzgadosByProceso(
-          RequestProcesos
-        );
-
-        const newDemanda = new Demanda(
-          carpeta.demanda,
-          juzgados,
-          carpeta.llaveProceso
-        );
-
-        const newCarpeta: IntCarpeta = {
-          category   : carpeta.category,
-          deudor     : newDeudor,
-          numero     : carpeta.numero,
-          tipoProceso: carpeta.demanda.tipoProceso,
-          idProceso  : proceso.idProceso,
-          llaveProceso:
-            carpeta.llaveProceso.toString(),
-          categoryTag: categories.indexOf(
-            carpeta.category
-          ),
-          demanda: {
-            ...newDemanda,
-            expediente:
-              carpeta.llaveProceso.toString()
-          }
-        };
-        fs.writeFile(
-          `carpetas/${ newCarpeta.numero }.${ indexOf }.json`,
-          JSON.stringify(
-            newCarpeta
-          )
-        );
-        newCarpetas.add(
-          newCarpeta
-        );
-      }
-    } else if ( RequestProcesos.length === 0 ) {
-      const newCarpeta = {
-        demanda: {
-          ...newDemanda,
-          expediente:
-            carpeta.llaveProceso.toString(),
-          departamento:
-            carpeta.demanda.departamento
-        },
-        category   : carpeta.category,
-        categoryTag: categories.indexOf(
-          carpeta.category
-        ),
-        deudor: newDeudor,
-        numero: carpeta.numero,
-        llaveProceso:
-          carpeta.llaveProceso.toString(),
-        tipoProceso: carpeta.tipoProceso
-      };
-      fs.writeFile(
-        `carpetas/${ newCarpeta.numero }.carpeta.json`,
-        JSON.stringify(
-          newCarpeta
-        )
-      );
-      newCarpetas.add(
-        newCarpeta
-      );
-    }
-  }
-
-  const newProcesosArray = Array.from(
-    procesosMap.values()
-  );
-
-  fs.writeFile(
-    'procesosData.json',
-    JSON.stringify(
-      newProcesosArray
-    )
-  );
-
-  const newCarpetasArray
-    = Array.from(
-      newCarpetas
-    );
-
-  const insertCarpetas = await insertNewCarpetas(
-    newCarpetasArray
-  );
-  console.log(
-    insertCarpetas
-  );
-
-  return newCarpetasArray;
-}
-
-console.log(
-  createCarpetasDemanda()
-        .then(
-          (
-            ff
-          ) => {
-            fs.writeFile(
-              'newCarpetasFinal.json',
-              JSON.stringify(
-                ff
-              )
-            );
-
-            return console.log(
-              ff
-            );
-          },
-          (
-            rr
-          ) => {
-            return console.log(
-              rr
-            );
-          }
-        )
-        .catch(
-          (
-            err
-          ) => {
-            return console.log(
-              JSON.stringify(
-                err
-              )
-            );
-          }
-        )
-);

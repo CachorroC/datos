@@ -1,4 +1,4 @@
-import { CarpetaRaw } from '../types/carpetas';
+import { CarpetaRaw, TrulyCruda } from '../types/carpetas';
 
 const carpetasBancolombia = [
   16,
@@ -607,8 +607,8 @@ const carpetasLiosJuridicos = [
 
 
 export function categoryAssignment (
-  carpeta: CarpetaRaw
-) {
+  carpeta: TrulyCruda
+): CarpetaRaw {
   const {
     numero
   } = carpeta;
@@ -636,38 +636,38 @@ export function categoryAssignment (
   if ( numeroInBancolombia ) {
     return {
       ...carpeta,
-      category   : 'Bancolombia',
-      categoryTag: 1
+      category: 'Bancolombia',
+
     };
   } else if ( numeroInReintegra ) {
     return {
       ...carpeta,
-      category   : 'Reintegra',
-      categoryTag: 2
+      category: 'Reintegra',
+
     };
   } else if ( numeroInLiosJuridicos ) {
     return {
       ...carpeta,
-      category   : 'LiosJuridicos',
-      categoryTag: 3
+      category: 'LiosJuridicos',
+
     };
   } else if ( numeroInInsolvencia ) {
     return {
       ...carpeta,
-      category   : 'Insolvencia',
-      categoryTag: 4
+      category: 'Insolvencia',
+
     };
   } else if ( numeroInTerminados ) {
     return {
       ...carpeta,
-      category   : 'Terminados',
-      categoryTag: 5
+      category: 'Terminados',
+
     };
   }
 
   return {
     ...carpeta,
-    category   : 'sin Especificar',
-    categoryTag: 0
+    category: 'sin Especificar',
+
   };
 }

@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":532,"cc":900520023,"llaveProceso":"11001400306820200102100","idProcesos":[],"category":"Bancolombia","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"DIMOIN","primerApellido":"COLOMBIA","segundoApellido":"S.A.S.","cedula":900520023,"direccion":"AV BOYACA 63D - 26 OFICINA 103"},"demanda":{"capitalAdeudado":15324.57,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2020-09-05T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"CONTESTACIÓN DEMANDA","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":65886140334,"B":4594260446916180},"radicado":"2020-1021","vencimientoPagare":null,"expediente":"11001400306820200102100","juzgados":[]}}

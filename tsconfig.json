@@ -3,7 +3,7 @@
   "display": "Node LTS",
   "_version": "18.1.0",
   "compilerOptions": {
-    "lib": ["es2023"],
+    "lib": ["es2023", "DOM", "DOM.Iterable"],
     "module": "node16",
     "target": "es2022",
     "strict": true,

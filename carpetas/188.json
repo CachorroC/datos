@@ -1,4 +1,1 @@
-{
-  "StatusCode": 404,
-  "Message": "No se pueden ver actuaciones de un proceso privado"
-}
+{"numero":188,"cc":1019029250,"llaveProceso":"11001400306720170126900","idProcesos":[],"category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"DIEGO","segundoNombre":"ARMANDO","primerApellido":"AREVALO","segundoApellido":"VELANDIA","cedula":1019029250,"email":"CARRERA 86 # 77A - 28 "},"demanda":{"capitalAdeudado":42969,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"42967","fechaPresentacion":"2018-02-12T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":5303710467974930,"B":"31660690,17"},"radicado":"2017 - 01269","vencimientoPagare":null,"expediente":"11001400306720170126900","juzgados":[]}}

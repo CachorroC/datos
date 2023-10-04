@@ -65,6 +65,7 @@ export type Category =
   | 'Bancolombia'
   | 'Reintegra'
   | 'Insolvencia'
+  | 'sin Especificar'
   | 'todos';
 
 export interface DemandaRaw {
@@ -123,19 +124,19 @@ export interface IntTel {
 }
 
 export interface IntDemanda {
-  capitalAdeudado: number;
+  capitalAdeudado: number | null;
   departamento: string | null;
-  entregaGarantiasAbogado: Date;
+  entregaGarantiasAbogado?: Date | null;
   tipoProceso: TipoProcesoRaw;
-  mandamientoPago: Date;
-  etapaProcesal?: string;
-  fechaPresentacion?: Date;
-  municipio: string;
-  obligacion:Obligacion;
-  radicado: string;
+  mandamientoPago: Date | null;
+  etapaProcesal: string |null;
+  fechaPresentacion: Date | null;
+  municipio: string | null;
+  obligacion:Obligacion | null;
+  radicado: string | null;
   vencimientoPagare: Date[] | null;
-  expediente?: string;
-  juzgados: Juzgado[];
+  expediente: string | null;
+  juzgados: Juzgado[] | null;
 }
 
 export interface Juzgado {

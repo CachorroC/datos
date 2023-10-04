@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":458,"cc":52271112,"llaveProceso":"11001400303720180011100","idProcesos":[],"category":"Reintegra","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"SANDRA","segundoNombre":"PATRICIA","primerApellido":"BELTRAN","segundoApellido":"OVIEDO ","cedula":52271112,"direccion":"CARRERA 101 No 70 A-14 INTERIOR 1 APARTAMENTO 408","email":"saraja.7@hotmail.com"},"demanda":{"capitalAdeudado":17502.203,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2018-01-29T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2018-02-26T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2018-05-02T05:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":"AUDIOPRESTAMO"},"radicado":"2018 - 00111","vencimientoPagare":null,"expediente":"11001400303720180011100","juzgados":[]}}

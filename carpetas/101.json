@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":101,"cc":57452535,"llaveProceso":"11001400301020170065301","idProcesos":[],"category":"Terminados","tipoProceso":"PRENDARIO","deudor":{"tel":{"celular":3004975278},"primerNombre":"LEILA","segundoNombre":"JOHANNA","primerApellido":"MARTINEZ","segundoApellido":"MORA","cedula":57452535,"direccion":"CALLE 102 # 15 - 58 APTO 204","email":"lei.m@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-06-28T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-08-03T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-06-29T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":12545412},"radicado":"2017 - 00653","vencimientoPagare":null,"expediente":"11001400301020170065301","juzgados":[]}}

@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":277,"cc":39687966,"llaveProceso":"11001400308320170098000","idProcesos":[],"category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"OLGA","segundoNombre":"LUCIA","primerApellido":"HERAZO","segundoApellido":"PERDOMO ","cedula":39687966,"direccion":"DIAGONAL 76 # 6 - 12 APTO 604","email":"olgalucia.herazo@gmail.com"},"demanda":{"capitalAdeudado":23454.012,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-01T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-09-06T00:00:00.000Z","etapaProcesal":"11001400308320170098000","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":1710090192,"B":"AUDIOPRESTAMO"},"radicado":"2017 - 00980","vencimientoPagare":null,"expediente":"11001400308320170098000","juzgados":[]}}

@@ -447,6 +447,7 @@ function transform(
       typ, val, key, parent 
     );
   }
+
   let ref: any = undefined;
 
   while (

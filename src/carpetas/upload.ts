@@ -1,26 +1,27 @@
 import { MongoClient } from 'mongodb';
+import { IntCarpeta } from '../types/carpetas';
 
 const uri
   = 'mongodb+srv://cachorro_cami:Tengo1amo@cluster0.ffbyjzl.mongodb.net/?retryWrites=true&w=majority';
 
 export const carpetasCollection = async () => {
   const client = new MongoClient(
-    uri 
+    uri
   );
 
   if ( !client ) {
     throw new Error(
-      'no hay cliente mongólico' 
+      'no hay cliente mongólico'
     );
   }
 
   const db = client.db(
-    'RyS' 
+    'RyS'
   );
 
   const carpetas
     = db.collection<IntCarpeta>(
-      'Carpetas' 
+      'Carpetas'
     );
 
   return carpetas;

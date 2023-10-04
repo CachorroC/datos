@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":43,"cc":11188351,"llaveProceso":"11001400301220170088200","idProcesos":[],"category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{"celular":3124041113},"primerNombre":"JOSE","segundoNombre":"FREDDY","primerApellido":"VARGAS","segundoApellido":"RUIZ","cedula":11188351,"direccion":"CARRERA 80 No. 67-41 CALLE 66 No. 113-C- 45 APTO 404 INTERIOR 4 SEVILLA REAL CONJUNTO RESIDENCIAL"},"demanda":{"capitalAdeudado":2078.52,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-08-24T00:00:00.000Z","etapaProcesal":"ADMISION","fechaPresentacion":"2017-06-23T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":377813731599891},"radicado":"2017 - 00882","vencimientoPagare":null,"expediente":"11001400301220170088200","juzgados":[]}}

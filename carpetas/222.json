@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":222,"cc":79332273,"llaveProceso":"11001400302820170085800","idProcesos":[],"category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":5705869,"celular":3005705869},"primerNombre":"DUFRESNY","primerApellido":"AUGUSTO","segundoApellido":"PINILLA","cedula":79332273,"direccion":"CARRERA 13 # 155 - 88 CASA 39","email":"htcolombia@gmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-30T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-09-12T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-09-04T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":96356},"radicado":"2017 - 00858","vencimientoPagare":null,"expediente":"11001400302820170085800","juzgados":[]}}

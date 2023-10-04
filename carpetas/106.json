@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":106,"cc":501492,"llaveProceso":"11001400305920170048300","idProcesos":[],"category":"Reintegra","tipoProceso":"PRENDARIO","deudor":{"tel":{},"primerNombre":"DANIEL","primerApellido":"HERNANDEZ","segundoApellido":"GONZALEZ","cedula":501492,"direccion":"CALLE 134 No. 58-58 ","email":"danielher84@gmail.com"},"demanda":{"capitalAdeudado":16497.281,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-07-19T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-06-16T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":12515504},"radicado":"2017 - 00483","vencimientoPagare":null,"expediente":"11001400305920170048300","juzgados":[]}}

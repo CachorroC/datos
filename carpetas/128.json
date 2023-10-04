@@ -1,4 +1,1 @@
-{
-  "StatusCode": 404,
-  "Message": "No se pueden ver actuaciones de un proceso privado"
-}
+{"numero":128,"cc":52385097,"llaveProceso":"11001400307820170073300","idProcesos":[],"category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"MARIA","segundoNombre":"GLADYS","primerApellido":"","segundoApellido":"GONZALEZ SOSA","cedula":52385097,"direccion":"CALLE 62B SUR # 70 F - 45","email":"mariagladyys@hotmail.com"},"demanda":{"capitalAdeudado":13149.185,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-15T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-08-25T00:00:00.000Z","etapaProcesal":"SENTENCIA","fechaPresentacion":"2017-08-18T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":4060080684},"radicado":"2017 - 00733","vencimientoPagare":null,"expediente":"11001400307820170073300","juzgados":[]}}

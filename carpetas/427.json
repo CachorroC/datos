@@ -1,4 +1,1 @@
-{
-  "StatusCode": 500,
-  "Message": "Object reference not set to an instance of an object."
-}
+{"numero":427,"cc":1069738339,"llaveProceso":"25126408900220180004800","idProcesos":[],"category":"Reintegra","tipoProceso":"PRENDARIO","deudor":{"tel":{},"primerNombre":"JUAN","segundoNombre":"CAMILO","primerApellido":"CHINGATE","segundoApellido":"PENAGOS","cedula":1069738339,"direccion":"VEREDA LA 22 KILOMETRO 30 (CAJICA) // VEREDA SUBIA NORTE, PARTE BAJA, FINCA EL RINCON LOTE 2 (GRANADA- CUND): VEREDA SUBIA NORTE PARTE BAJA FINCA EL RINCON LOTE 2 (GRANADA - CUND)"},"demanda":{"capitalAdeudado":21049.112,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2018-01-19T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2018-02-26T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2018-02-01T00:00:00.000Z","municipio":"CAJICA","obligacion":{"A":12730779},"radicado":"2018 - 00048","vencimientoPagare":null,"expediente":"25126408900220180004800","juzgados":[]}}
