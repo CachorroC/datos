@@ -3,9 +3,9 @@
 //
 //   import { Convert } from "./file";
 //
-//   const intCarpetaRaw = Convert.toIntCarpetaRaw(json);
+//   const CarpetaRaw = Convert.toCarpetaRaw(json);
 Object.defineProperty(
   exports, '__esModule', {
     value: true
-  } 
+  }
 );

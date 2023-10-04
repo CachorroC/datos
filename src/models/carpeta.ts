@@ -1,6 +1,6 @@
 import { Category,
          IntCarpeta,
-         IntCarpetaRaw,
+         CarpetaRaw,
          IntDemanda,
          IntDeudor,
          TipoProcesoRaw } from '../types/carpetas';
@@ -23,9 +23,9 @@ export class Carpeta implements IntCarpeta {
       category,
       deudor,
       demanda,
-      tipoProceso,
+
       numero
-    }: IntCarpetaRaw 
+    }: CarpetaRaw
   ) {
     const stringLlaveProceso
       = typeof llaveProceso === 'string';
@@ -33,17 +33,17 @@ export class Carpeta implements IntCarpeta {
     if ( stringLlaveProceso ) {
       this.llaveProceso = llaveProceso;
     } else {
-      this.llaveProceso = llaveProceso.toString();
+      this.llaveProceso = llaveProceso?.toString();
     }
     this.category = category;
     this.numero = numero;
-    this.tipoProceso = tipoProceso;
+    this.tipoProceso = demanda.tipoProceso;
     this.categoryTag
       = categories.indexOf(
-        category 
+        category
       );
     this.deudor = new Deudor(
-      deudor 
+      deudor
     );
     this.demanda = new Demanda(
       demanda,
@@ -59,12 +59,5 @@ export class Carpeta implements IntCarpeta {
   numero: number;
   tipoProceso: TipoProcesoRaw;
 
-  set llaveProceso(
-    x: string 
-  ) {
-    this.llaveProceso = x;
-  }
-  get llaveProceso() {
-    return this.llaveProceso;
-  }
+  llaveProceso?: string;
 }

@@ -1,27 +1,62 @@
 // To parse this data:
 //
-//   import { Convert } from "./file";
+//   import { Convert } from "./file
 //
-//   const intCarpetaRaw = Convert.toIntCarpetaRaw(json);
+//   const CarpetaRaw = Convert.toCarpetaRaw(json);
 
-export interface IntCarpetaRaw {
-  llaveProceso: number | string;
-  category: Category;
+export interface TrulyCruda
+{
+  llaveProceso?: number | string;
   demanda: DemandaRaw;
   deudor: DeudorRaw;
   numero: number;
-  tipoProceso: TipoProcesoRaw;
 }
 
-export interface IntCarpeta {
+export interface CarpetaRaw extends TrulyCruda{
+  category: Category;
+
+}
+
+export interface IntCarpeta
+{
+
+  numero: number;
+  cc?: number;
   llaveProceso?: string;
+  idProcesos?: number[];
+  category: Category;
+  tipoProceso: TipoProceso;
+  nombre: string;
+  deudor: IntDeudor;
+  demanda: IntDemanda;
+}
+
+export interface flatCarpeta {
+  llaveProceso?: string;
+  idProcesos?: number[];
   category: Category;
   categoryTag: number;
-  demanda: IntDemanda;
   deudor: IntDeudor;
   numero: number;
   tipoProceso: TipoProcesoRaw;
-  idProceso?: number;
+
+
+  capitalAdeudado: number;
+  departamento: string | null;
+  entregaGarantiasAbogado: Date;
+  mandamientoPago: Date;
+  etapaProcesal?: string;
+  fechaPresentacion?: Date;
+  municipio: string;
+  obligacion: Obligacion;
+  radicado: string;
+  vencimientoPagare: Date[];
+  juzgados: Juzgado[];
+}
+
+export type Obligacion = {
+  A?: string | number;
+  B?: string | number
 }
 
 export type Category =
@@ -33,15 +68,20 @@ export type Category =
   | 'todos';
 
 export interface DemandaRaw {
-  capitalAdeudado: number | string;
-  departamento: DepartamentoRaw;
-  entregaGarantiasAbogado: number | string;
+  capitalAdeudado?: number | string;
+  departamento?: DepartamentoRaw;
+  entregaGarantiasAbogado?: number | string;
+  tipoProceso: TipoProcesoRaw;
+  mandamientoPago?: string ;
   etapaProcesal?: number | string;
   fechaPresentacion?: number | string;
-  municipio: string;
-  obligacion: { [key: string]: number | string };
-  radicado: number | string;
-  vencimientoPagare: number | string;
+  municipio?: string;
+  obligacion?: {
+    A?: number | string;
+    B?: number | string;
+  };
+  radicado?: number | string;
+  vencimientoPagare?: number | string;
 }
 
 export type DepartamentoRaw =
@@ -56,14 +96,14 @@ export type DepartamentoRaw =
   | 'CUNDINNAMARCA '
   | 'BOYACÁ'
   | 'CUNDINAMRCA'
-  | 'CNDINAMARCA';
+  | 'CNDINAMARCA'| '';
 
 export interface DeudorRaw {
   cedula: number | string;
-  direccion: number | string;
-  email: number | string;
+  direccion?: number | string;
+  email?:number | string;
   nombre: string;
-  telefono: number | string;
+  telefono?: number | string;
 }
 
 export interface IntDeudor {
@@ -86,10 +126,12 @@ export interface IntDemanda {
   capitalAdeudado: number;
   departamento: string | null;
   entregaGarantiasAbogado: Date;
+  tipoProceso: TipoProcesoRaw;
+  mandamientoPago: Date;
   etapaProcesal?: string;
   fechaPresentacion?: Date;
   municipio: string;
-  obligacion: { [key: string]: number | string };
+  obligacion:Obligacion;
   radicado: string;
   vencimientoPagare: Date[] | null;
   expediente?: string;
