@@ -39,15 +39,20 @@ async function createCarpetasDemanda() {
     for (const rawCarpeta of carpetas_raw_1.default) {
         const indexOfCarpeta = carpetas_raw_1.default.indexOf(rawCarpeta);
         const carpeta = (0, categories_1.categoryAssignment)(rawCarpeta);
-        const awaitTime = 200;
+        const awaitTime = 500;
         await (0, procesos_1.sleep)(awaitTime);
         console.log(`carpetas has a length of ${carpetas_raw_1.default.length} and you are in carpeta number ${indexOfCarpeta}`);
-        const RequestProcesos = await (0, procesos_1.default)({
-            llaveProceso: ` ${carpeta.llaveProceso}`
-        });
-        const newCarpeta = new carpeta_1.Carpeta(carpeta, RequestProcesos);
-        fs.writeFile(`carpetas/${newCarpeta.numero}.json`, JSON.stringify(newCarpeta));
+        const RequestProcesos = await (0, procesos_1.default)(carpeta.llaveProceso);
+        if (RequestProcesos) {
+            const newCarpeta = new carpeta_1.Carpeta(carpeta, RequestProcesos);
+            newCarpetas.add(newCarpeta);
+            fs.writeFile(`carpetas/${newCarpeta.numero}.json`, JSON.stringify(newCarpeta));
+            continue;
+        }
+        const newCarpeta = new carpeta_1.Carpeta(carpeta);
         newCarpetas.add(newCarpeta);
+        fs.writeFile(`carpetas/${newCarpeta.numero}.json`, JSON.stringify(newCarpeta));
+        continue;
     }
     const newProcesosArray = Array.from(procesosMap.values());
     fs.writeFile('procesosData.json', JSON.stringify(newProcesosArray));

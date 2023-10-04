@@ -1,11 +1,11 @@
 import { intConsultaNumeroRadicacion } from './types/procesos';
 
 export function sleep(
-  ms: number 
+  ms: number
 ) {
   return new Promise(
     (
-      resolve 
+      resolve
     ) => {
       const now = new Date()
             .getTime();
@@ -20,57 +20,60 @@ export function sleep(
                 hour  : 'numeric',
                 minute: 'numeric',
                 hour12: true
-              } 
+              }
             );
       console.log(
         `salió del timeout y empezo el fetch a las   ${ outputTime }`
       );
 
       return setTimeout(
-        resolve, ms 
+        resolve, ms
       );
-    } 
+    }
   );
 }
 
 export default async function fetchProceso(
-  {
-    llaveProceso
-  }: {
-  llaveProceso: string;
-} 
+  llaveProceso?: string
 ) {
-  if (
-    llaveProceso.length < 23
-    || llaveProceso === 'sin especificar'
-  ) {
-    return [];
-  }
-
   try {
+    if ( !llaveProceso  ) {
+      throw new Error(
+        'no hay llaveProceso'
+      );
+    }
+
+    if ( llaveProceso.length > 23 ) {
+      throw new Error(
+        `llaveProceso más de 23 digitos: ${ llaveProceso }`
+      );
+
+    }
+
     const req = await fetch(
       `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${ llaveProceso }&SoloActivos=false`
     );
 
     if ( !req.ok ) {
-      console.log(
-        req.headers 
+      throw new Error(
+        `request not ok ${ llaveProceso }, status: ${ req.status }`
       );
 
-      return [];
     }
 
     const res
       = ( await req.json() ) as intConsultaNumeroRadicacion;
 
-    const procesos = res.procesos;
+    const {
+      procesos
+    } = res;
 
     return procesos;
   } catch ( error ) {
     console.log(
-      error 
+      error
     );
 
-    return [];
+    return null;
   }
 }

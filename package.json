@@ -20,7 +20,7 @@
   },
   "scripts": {
     "lint": "eslint  --fix . && tsc",
-    "start": "ts-node-dev --respawn --transpile-only server.ts",
+    "start": "ts-node-dev --respawn --transpile-only src/main.ts",
     "db:migrate": "npx prisma migrate dev --name user-entity --create-only && npx prisma generate",
     "db:push": "npx prisma db push"
   },

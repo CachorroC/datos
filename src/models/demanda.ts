@@ -11,8 +11,8 @@ function vencimientoPagareFixer(
 ) {
   const stringer = `${ rawVencimientoPagare }`;
 
-  const matcherPagare = stringer.match(
-    /\/\//g
+  const matcherPagare = stringer.split(
+    '//'
   );
   console.log(
     matcherPagare?.length
@@ -22,7 +22,8 @@ function vencimientoPagareFixer(
     return null;
   }
 
-  const newDates = matcherPagare.map(
+
+  return matcherPagare.map(
     (
       pagare
     ) => {
@@ -35,8 +36,6 @@ function vencimientoPagareFixer(
       );
     }
   );
-
-  return newDates;
 }
 
 function capitalBuilder(
@@ -66,6 +65,10 @@ function capitalBuilder(
 export function juzgadosByProceso(
   procesos: intProceso[]
 ) {
+  if ( procesos.length === 0 ) {
+    return [];
+  }
+
   const juzgados = new Set<Juzgado>();
 
   for ( const proceso of procesos ) {
@@ -168,21 +171,12 @@ export class Demanda implements IntDemanda {
       radicado,
       vencimientoPagare
     }: DemandaRaw,
-    RequestProcesos: intProceso[] = [],
-    llaveProceso?: string | number
+    llaveProceso?: string,
+    RequestProcesos?: intProceso[],
   ) {
-    if ( llaveProceso ) {
-      const stringTypeofLlaveProceso
-        = typeof llaveProceso === 'string';
-
-      if ( stringTypeofLlaveProceso ) {
-        this.expediente = llaveProceso;
-      } else {
-        this.expediente = llaveProceso.toString();
-      }
-    } else {
-      this.expediente = null;
-    }
+    this.expediente = llaveProceso
+      ? llaveProceso
+      : null;
 
     this.capitalAdeudado = capitalBuilder(
       capitalAdeudado
@@ -203,9 +197,11 @@ export class Demanda implements IntDemanda {
         fechaPresentacion
       )
       : null;
-    this.juzgados = juzgadosByProceso(
-      RequestProcesos
-    );
+    this.juzgados = RequestProcesos
+      ? juzgadosByProceso(
+        RequestProcesos
+      )
+      : null;
     this.municipio = municipio
       ? municipio
       : null;

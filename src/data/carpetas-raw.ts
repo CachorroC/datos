@@ -48,7 +48,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 1032432802,
       direccion: 'CARRERA 95 # 138 - 58',
       email    : 'orduzcrit2@hotmail.com',
-      nombre   : 'LUIS ESNEIDER ORDUZ FARFAN ',
+      nombre   : 'LUIS ESNEIDER ORDUZ FARFAN',
       telefono : 'F 4712921'
     },
     llaveProceso: '11001400303420170083600',
@@ -97,7 +97,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 900212673,
-      direccion: 'CARRERA 3 # 29A - 02 ',
+      direccion: 'CARRERA 3 # 29A - 02',
       nombre   : 'JENCELL E.U.',
       telefono : 'F 5753416'
     },
@@ -122,9 +122,9 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 52189873,
-      direccion: 'CALLE 74G # 80 - 58 SUR ',
+      direccion: 'CALLE 74G # 80 - 58 SUR',
       email    : 'darnelly-74@hotmail.com',
-      nombre   : 'DARNELLY HERNANDEZ MARTINEZ ',
+      nombre   : 'DARNELLY HERNANDEZ MARTINEZ',
       telefono:
         'F 4530972                 CEL 3144189224'
     },
@@ -149,9 +149,9 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 11185630,
-      direccion: 'CARRERA 81C # 2B - 80 PISO 2 ',
+      direccion: 'CARRERA 81C # 2B - 80 PISO 2',
       email    : 'grupocomerciallasabana@hotmail.com',
-      nombre   : 'WILSON ALFONSO JIMENEZ MENDIETA ',
+      nombre   : 'WILSON ALFONSO JIMENEZ MENDIETA',
       telefono : 'F 5714329'
     },
     llaveProceso: '11001400300120170100100',
@@ -177,7 +177,7 @@ const Carpetas: TrulyCruda[] = [
       cedula: 79853115,
       direccion:
         'DIAGONAL 56 BIS 84 A 10 SUR TR 1',
-      email : 'fanor.diaz@gmail.com ',
+      email : 'fanor.diaz@gmail.com',
       nombre: 'FANOR DIAZ AGUDELO',
       telefono:
         'F 8060271                CEL 3212406193'
@@ -261,7 +261,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'CALLE 64 SUR  No 85 B - 40  APARTAMENTO  104',
       email : 'ars.09@hotmail.com',
-      nombre: 'ANDERSON REVELO SANTOS ',
+      nombre: 'ANDERSON REVELO SANTOS',
       telefono:
         'F 4725511              CEL 3118526428'
     },
@@ -287,9 +287,9 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 79388145,
-      direccion: 'CARRERA 72 A- No 9 - 44  ',
+      direccion: 'CARRERA 72 A- No 9 - 44',
       email    : 'li_bcar@hotmail.com',
-      nombre   : 'LIBARDO ALFONSO GONZALEZ TRIVIÑO ',
+      nombre   : 'LIBARDO ALFONSO GONZALEZ TRIVIÑO',
       telefono : 'F 2928108'
     },
     llaveProceso: '11001400302120170153200',
@@ -603,7 +603,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 1023874668,
-      direccion: 'CL 49 A BIS SUR No. 5 N 10  ',
+      direccion: 'CL 49 A BIS SUR No. 5 N 10',
       email    : 'oscar2794@hotmail.com',
       nombre   : 'OSCAR MAURICIO GOMEZ MENDOZA',
       telefono : 'F 2043773'
@@ -680,7 +680,7 @@ const Carpetas: TrulyCruda[] = [
       cedula: 53130409,
       direccion:
         'CL 55 BIS 16 48 Apartamento 702 Edificio Bangkok',
-      email   : 'jsquiroga72@hotmail.com ',
+      email   : 'jsquiroga72@hotmail.com',
       nombre  : 'JEIMMY SOLEY QUIROGA RAMIREZ',
       telefono: 'F 3917539 CELULAR 3506509064'
     },
@@ -735,7 +735,7 @@ const Carpetas: TrulyCruda[] = [
         'KR 32 A 1 19 BARRIO SANTA MATILDE',
       email:
         'cahequi8097@gmail.com fundaoyuki@gmail.com',
-      nombre  : 'CARLOS HERNEY QUINTERO ',
+      nombre  : 'CARLOS HERNEY QUINTERO',
       telefono: 'F 6485655 CELULAR 3002985587'
     },
     llaveProceso: '11001400301720230078200',
@@ -891,7 +891,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 7718318,
-      direccion: 'Carrera 57 No. 60 A - 20 ',
+      direccion: 'Carrera 57 No. 60 A - 20',
       email    : 'milugo1111@hotmail.com',
       nombre   : 'MILTON MARINO LUGO GOMEZ',
     },
@@ -1040,7 +1040,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 52514115,
-      direccion: 'TV 96 B 20 D 70 CASA 3  ',
+      direccion: 'TV 96 B 20 D 70 CASA 3',
       email    : 'dsilvarar28@gmail.com',
       nombre   : 'DIANA PATRICIA SILVARA RODRIGUEZ',
       telefono : 'CELULAR 3203477527'
@@ -1143,7 +1143,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 52327261,
       direccion:
-        'CR 104 No 13D 77 CS 241 Conjunto Residencial Sabanagrande 1 ',
+        'CR 104 No 13D 77 CS 241 Conjunto Residencial Sabanagrande 1',
       email   : 'galvis-almanza@hotmail.com',
       nombre  : 'SANDRA PATRICIA GALVIS ALMANZA',
       telefono: 'F 4152969 CELULAR 3203369576'
@@ -1305,7 +1305,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 1024481233,
       direccion: 'Calle 114 No. 6 A 92',
       email    : 'suenopandapijamas@gmail.com',
-      nombre   : 'ANDREA CAROLINA DIAZ BARRETO ',
+      nombre   : 'ANDREA CAROLINA DIAZ BARRETO',
       telefono : 'F 8027134 CELULAR 3108012331'
     },
     numero: 579
@@ -1407,7 +1407,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 46668139,
-      direccion: ' Carrera 53 C No. 4 C 63 ',
+      direccion: ' Carrera 53 C No. 4 C 63',
       email    : 'yaneth_apar@hotmail.com',
       nombre   : 'ALBA YANETH APARICIO SANDOVAL',
       telefono : 'FIJO 3031161 CELULAR 3124781732'
@@ -1506,7 +1506,7 @@ const Carpetas: TrulyCruda[] = [
       capitalAdeudado        : '107.818.114 COP',
       departamento           : 'CUNDINAMARCA',
       entregaGarantiasAbogado: '2017-05-19',
-      etapaProcesal          : 'EJECUCIÓN ',
+      etapaProcesal          : 'EJECUCIÓN',
       mandamientoPago        : '2017-08-14',
       municipio              : 'BOGOTA',
       obligacion             : {
@@ -1630,7 +1630,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'Carrera 2B No.14-04 BARRIO VILLA ALEJANDRA CHOCONTA',
       email   : 'alvaro.r@live.com',
-      nombre  : ' ALVARO RODRIGUEZ ALONSO ',
+      nombre  : ' ALVARO RODRIGUEZ ALONSO',
       telefono: 'CEL 3166182970'
     },
     llaveProceso: '25183400300120170010600',
@@ -1655,7 +1655,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 52129551,
-      direccion: 'CALLE 61 J No. 17D - 55 Sur ',
+      direccion: 'CALLE 61 J No. 17D - 55 Sur',
       nombre   : 'ANA RITA GUZMAN GOMEZ',
       telefono : 'CEL 32291500487'
     },
@@ -1682,7 +1682,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 14273737,
       direccion: 'CALLE 23 D No.107-32 BOGOTA',
       email    : 'lejopaerez@hotmail.com',
-      nombre   : ' JOSÉ URIEL PAEREZ PERDOMO ',
+      nombre   : ' JOSÉ URIEL PAEREZ PERDOMO',
       telefono:
         'F 4183276               CEL 3228293322'
     },
@@ -1764,7 +1764,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'CARRERA 73 A BIS No. 2 A-32 SUR BOGOTA',
       email   : 'mezaronald@yahoo.com',
-      nombre  : 'RHONALD MEZA TARAPUES ',
+      nombre  : 'RHONALD MEZA TARAPUES',
       telefono: 'F 4062925  7496611'
     },
     llaveProceso: '11001400302220170056700',
@@ -1815,7 +1815,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 501492,
-      direccion: 'CALLE 134 No. 58-58 ',
+      direccion: 'CALLE 134 No. 58-58',
       email    : 'danielher84@gmail.com',
       nombre   : 'DANIEL HERNANDEZ GONZALEZ',
       telefono : 'F 2716567'
@@ -1960,7 +1960,7 @@ const Carpetas: TrulyCruda[] = [
       capitalAdeudado        : '13.144.437 COP',
       departamento           : 'CUNDINAMARCA',
       entregaGarantiasAbogado: '2017-08-01',
-      etapaProcesal          : 'NOTIFICACION ',
+      etapaProcesal          : 'NOTIFICACION',
       mandamientoPago        : '2017-08-03',
       municipio              : 'BOGOTA',
       obligacion             : {
@@ -2057,7 +2057,7 @@ const Carpetas: TrulyCruda[] = [
       cedula: 24134505,
       direccion:
         'CALLE 29 A # 2 - 76 APTO 304 CHIA',
-      nombre  : ' CELY MARGOTH ROJAS VELANDIA ',
+      nombre  : ' CELY MARGOTH ROJAS VELANDIA',
       telefono: 'F 5267343'
     },
     llaveProceso: '25175408900220170041200',
@@ -2081,7 +2081,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 80231798,
-      direccion: 'CARRERA 32 B # 2 - 64 ',
+      direccion: 'CARRERA 32 B # 2 - 64',
       email    : 'jhon.valencia@jvtel.com.co',
       nombre   : 'JOHN ALEXANDER VALENCIA MARQUEZ',
       telefono:
@@ -2138,7 +2138,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'VEREDA BOQUERON , FINCA LA MILAGROSA, MUNICIPIO FUSA // CALLE 3 # 37 - 21 BARRIO SICAMORO, MELGAR',
       email : 'liliaramirez17@gmail.com',
-      nombre: 'MARTHA LILIANA RAMIREZ COLORADO ',
+      nombre: 'MARTHA LILIANA RAMIREZ COLORADO',
       telefono:
         'CEL 3108612781        CEL 3502772711'
     },
@@ -2165,7 +2165,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 46679232,
       direccion: 'CARRERA 34 # 9 - 60',
       email    : 'carito220@hotmail.es',
-      nombre   : 'FLOR ESPERANZA GUTIERREZ ',
+      nombre   : 'FLOR ESPERANZA GUTIERREZ',
       telefono : 'F 5754502'
     },
     llaveProceso: '11001400304520170106300',
@@ -2243,9 +2243,9 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 79852094,
-      direccion: 'CARRERA 68M # 37D - 47 SUR ',
+      direccion: 'CARRERA 68M # 37D - 47 SUR',
       email    : 'cesa861@hotmail.com',
-      nombre   : 'CESAR ALFONSO UMAÑA CAÑON ',
+      nombre   : 'CESAR ALFONSO UMAÑA CAÑON',
       telefono:
         'F 31006108               CEL 3212406004'
     },
@@ -2299,9 +2299,9 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 17174720,
-      direccion: 'CALLE 159 # 15 - 45 ',
+      direccion: 'CALLE 159 # 15 - 45',
       email    : 'gerardomoncada70@hotmail.com',
-      nombre   : ' GERARDO ANTONIO MONCADA VEGA  ',
+      nombre   : ' GERARDO ANTONIO MONCADA VEGA',
       telefono:
         'F 3349755                 CEL 3153330306'
     },
@@ -2328,9 +2328,9 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 11313124,
       direccion:
-        'CALLE 145 # 46 - 13 APTO 202 INT 5 ',
+        'CALLE 145 # 46 - 13 APTO 202 INT 5',
       email : 'jotorres@perosnalsoft.com.co',
-      nombre: 'JOSE LUIS TORRES TAMAYO ',
+      nombre: 'JOSE LUIS TORRES TAMAYO',
       telefono:
         'F 3138216              CEL 3138216786'
     },
@@ -2356,8 +2356,8 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 300388244,
-      direccion: 'CALLE 15 # 15 - 45 ',
-      nombre   : 'MARIA OLGA CASTAÑEDA PERUGACHI ',
+      direccion: 'CALLE 15 # 15 - 45',
+      nombre   : 'MARIA OLGA CASTAÑEDA PERUGACHI',
       telefono:
         'F 1111111              CEL 32222239883 3143072762'
     },
@@ -2384,9 +2384,9 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 19069228,
-      direccion: 'CARRERA 15 # 188 - 39 ',
+      direccion: 'CARRERA 15 # 188 - 39',
       email    : 'jorgemar24@gmail.com',
-      nombre   : 'JORGE ALBERTO MARTINEZ BENDEK ',
+      nombre   : 'JORGE ALBERTO MARTINEZ BENDEK',
       telefono:
         'F 6701643              CEL 3134749213'
     },
@@ -2546,7 +2546,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 12229243,
-      direccion: 'AVENIDA 1 DE MAYO No 29-06 ',
+      direccion: 'AVENIDA 1 DE MAYO No 29-06',
       email    : 'serdiajo@gmail.com',
       nombre   : 'JOSE AHINSONJOBER TORO VARGAS',
       telefono : 'F 4651401'
@@ -2575,7 +2575,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'DIAGONAL 82 A SUR No 7C 19  ESTE',
       email : 'kellyo.1508@hotmail.com',
-      nombre: 'JOHN FREDY HERREÑO RAMIREZ ',
+      nombre: 'JOHN FREDY HERREÑO RAMIREZ',
       telefono:
         'F 7641957                CEL 3124102'
     },
@@ -2738,7 +2738,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'CALLE 168 No 8 G - 61 BLOQUE  5 APARTAMENTO  102',
       email : 'luissanchez69@live.com',
-      nombre: ' LUIS AUGUSTO SANCHEZ ORTIZ ',
+      nombre: ' LUIS AUGUSTO SANCHEZ ORTIZ',
       telefono:
         'F 8003961              CEL 3174409073'
     },
@@ -2794,7 +2794,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 71992491,
       direccion:
-        'TRANSVERSAL 2 C BIS No 97 B-05 SUR ',
+        'TRANSVERSAL 2 C BIS No 97 B-05 SUR',
       nombre  : 'MARIO DE JESUS OSSA PULGARIN',
       telefono: 'F 7673180'
     },
@@ -2928,7 +2928,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 71603563,
-      direccion: 'CARRERA 82  No  19 - 20 ',
+      direccion: 'CARRERA 82  No  19 - 20',
       email    : 'gilbertojaime@hotmail.com',
       nombre   : 'GILBERTO JAIME BETANCOURT',
       telefono : 'F 3138547'
@@ -3013,7 +3013,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         ' CARRERA 11 No  144 - 22 APARTAMENTO 301',
       email   : 'nescri64@hotmail.com',
-      nombre  : 'NESTOR ALBERTO CRISTANCHO LOPEZ ',
+      nombre  : 'NESTOR ALBERTO CRISTANCHO LOPEZ',
       telefono: 'F 5266894'
     },
     llaveProceso: '11001400307820170116400',
@@ -3150,7 +3150,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'CARRERA 101 No 70 A-14 INTERIOR 1 APARTAMENTO 408',
       email   : 'saraja.7@hotmail.com',
-      nombre  : 'SANDRA PATRICIA BELTRAN OVIEDO ',
+      nombre  : 'SANDRA PATRICIA BELTRAN OVIEDO',
       telefono: 'F 6607900'
     },
     llaveProceso: '11001400303720180011100',
@@ -3203,7 +3203,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 4281808,
-      direccion: 'CALLE 1 A No 13-30  SOACHA ',
+      direccion: 'CALLE 1 A No 13-30  SOACHA',
       email    : 'eedibrando600@hotmail.com',
       nombre   : 'JOSE LIBRANDO CANDELA MUNEVAR',
       telefono : 'F 7113967   '
@@ -3270,7 +3270,7 @@ const Carpetas: TrulyCruda[] = [
       capitalAdeudado        : '15.086.199 COP',
       departamento           : 'CUNDINAMARCA',
       entregaGarantiasAbogado: '2018-04-16',
-      etapaProcesal          : 'EJECUCION ',
+      etapaProcesal          : 'EJECUCION',
       mandamientoPago        : '2018-05-23',
       municipio              : 'BOGOTA',
       obligacion             : {
@@ -4208,7 +4208,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 80814800,
-      direccion: 'CARRERA  9 No 19 - 59 CHIA ',
+      direccion: 'CARRERA  9 No 19 - 59 CHIA',
       email    : 'whitman.najarramirez@hotmail.com',
       nombre   : 'WHITMAN JEFERSON NAJAR RAMIREZ',
       telefono : 8638680
@@ -4293,7 +4293,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'CALLE 401 SUR 72 L -40 CRISTALES  BOGOTA',
       email   : 'snaluistol@gmail.com',
-      nombre  : 'NINI JOHANA CORTES MONROY ',
+      nombre  : 'NINI JOHANA CORTES MONROY',
       telefono: '4762591//3118113651'
     },
     llaveProceso: '11001400308220170064900',
@@ -4349,7 +4349,7 @@ const Carpetas: TrulyCruda[] = [
       nombre  : 'SANDRA PATRICIA AGUDELO MONTAGUT',
       telefono: '4189692//3012419992'
     },
-    llaveProceso: ' \'11001400306620170089200',
+    llaveProceso: '11001400306620170089200',
     numero      : 36
   },
   {
@@ -4453,7 +4453,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 19173252,
       direccion:
-        'CALLE 70 No. 113 b - 40  BARRIO RIVIERA ',
+        'CALLE 70 No. 113 b - 40  BARRIO RIVIERA',
       nombre  : 'JOSÉ ENRIQUE RIAÑO HENRIQUEZ',
       telefono: 5401243
     },
@@ -4559,7 +4559,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula   : 4042105,
       direccion: 'SIN INFORMACION',
-      nombre   : 'EDISON PALMA CARDENAL ',
+      nombre   : 'EDISON PALMA CARDENAL',
       telefono : 3123142449
     },
     llaveProceso: '11001400301920170052800',
@@ -4585,9 +4585,9 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 52837630,
       direccion:
-        'CARRERA  39 B No  27 A - 40 SUR ',
+        'CARRERA  39 B No  27 A - 40 SUR',
       email   : 'jennyadrianapt@gmail.com',
-      nombre  : 'JENNY ADRIANA PATARROYO TORRES ',
+      nombre  : 'JENNY ADRIANA PATARROYO TORRES',
       telefono: 'F 2031266'
     },
     llaveProceso: '11001400303520170142500',
@@ -4638,9 +4638,9 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 52444244,
-      direccion: 'CARRERA 54 C No. 143 S-90 ',
+      direccion: 'CARRERA 54 C No. 143 S-90',
       email    : 'gloriaaz@yahoo.com',
-      nombre   : 'GLORIA ASTRID RODRÍGUEZ BAQUERO ',
+      nombre   : 'GLORIA ASTRID RODRÍGUEZ BAQUERO',
       telefono : '3893349//3212062887'
     },
     llaveProceso: '11001400303420180061400',
@@ -4718,7 +4718,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 53051476,
       direccion:
-        'calle 64 No. 85-60 INTERIOR 1 LOTE 19 MANZANA 36 URBANIZACION LA ISABELA  ETAPA IIcalle 64 I No. 86-60 ',
+        'calle 64 No. 85-60 INTERIOR 1 LOTE 19 MANZANA 36 URBANIZACION LA ISABELA  ETAPA IIcalle 64 I No. 86-60',
       email   : 'dimarce1513@hotmail.com',
       nombre  : 'DIANA MARCELA SANCHEZ LOZANO',
       telefono: '2241552//3212307798'
@@ -4775,7 +4775,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'CALLE 11 A No. 3-29 URBANIZACION EL PORVENIR MADRID',
       email   : 'faride1109@yahoo.com',
-      nombre  : 'DOUGLAS AYURE RIOS ',
+      nombre  : 'DOUGLAS AYURE RIOS',
       telefono: '8252559//3124488945'
     },
     llaveProceso: '25430400300120170108700',
@@ -4802,7 +4802,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'DIAGONAL 62 C No. 19-C-12 ACACIA SAN',
       email : 'gladys12357@hotmail.com',
-      nombre: 'GLADYS HERNANDEZ LOPEZ ',
+      nombre: 'GLADYS HERNANDEZ LOPEZ',
       telefono:
         'F 7900454              CEL 3138551970'
     },
@@ -4829,7 +4829,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'AVDA 80 No. 60-95  RIO INTERIOR 3 APTO 11',
       email   : 'ceciliaaponte@hotmail.com',
-      nombre  : 'CARMEN CECILIA APONTE ZAMBRANO ',
+      nombre  : 'CARMEN CECILIA APONTE ZAMBRANO',
       telefono: '7500346//3102279518'
     },
     llaveProceso: '11001400302820170051200',
@@ -4877,7 +4877,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula  : 1032373332,
       email   : 'CRA 77 A No. 63f-47 piso 2',
-      nombre  : 'LADY JOHANNA BAYONA GARCÍA  ',
+      nombre  : 'LADY JOHANNA BAYONA GARCÍA',
       telefono: 'lady.bayona@Ifgcolombia.com'
     },
     llaveProceso: '11001400302020170090100',
@@ -4907,7 +4907,7 @@ const Carpetas: TrulyCruda[] = [
       nombre   : 'JUAN PABLO RUBIO ESGUERRA',
       telefono : 8000178
     },
-    llaveProceso: ' \'11001400304620170055700',
+    llaveProceso: '11001400304620170055700',
     numero      : 61
   },
   {
@@ -4930,11 +4930,11 @@ const Carpetas: TrulyCruda[] = [
       cedula: 80722943,
       direccion:
         'DIAGONAL 60 SUR NO. 28-I 72 INTERIOR 3 APTO 204',
-      email   : ' ',
+      email   : '',
       nombre  : 'LUIS EDUARDO CARRANZA BUSTOS',
       telefono: '7417183//3138253554'
     },
-    llaveProceso: ' \'11001400306320180016800',
+    llaveProceso: '11001400306320180016800',
     numero      : 62
   },
   {
@@ -4960,7 +4960,7 @@ const Carpetas: TrulyCruda[] = [
       nombre   : 'DIANA MARCELA IPUZ SUAREZ',
       telefono : '7493169 / 7672067'
     },
-    llaveProceso: ' \'11001418900920170008900',
+    llaveProceso: '11001418900920170008900',
     numero      : 63
   },
   {
@@ -5087,7 +5087,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 14250539,
-      direccion: 'CALLE 54 # 22 - 50 ',
+      direccion: 'CALLE 54 # 22 - 50',
       email    : 'ariascesaraugustoarias@gmail.com',
       nombre   : 'CESAR AUGUSTO ARIAS',
       telefono : 'CEL 3152248920'
@@ -5166,7 +5166,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'CARRERA 55 A No. 165-27 int 7 apto 102',
       email   : 'mrocha@hotmail.com',
-      nombre  : 'SONIA MAZUERA ',
+      nombre  : 'SONIA MAZUERA',
       telefono: 'F 2333333 4432706'
     },
     llaveProceso: '11001400300420170057500',
@@ -5324,7 +5324,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 38289111,
       direccion:
-        'DIAGONAL 2 # 64A - 65 INT 1 APTO 401 ',
+        'DIAGONAL 2 # 64A - 65 INT 1 APTO 401',
       email   : 'ccctina0218@gmail.com',
       nombre  : 'CRISTINA CASTAÑO CASTILLO',
       telefono: 'F 2653927'
@@ -5427,9 +5427,9 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 19438068,
-      direccion: 'CARRERA 29 No 12  A - 46  ',
+      direccion: 'CARRERA 29 No 12  A - 46',
       email    : 'luisadopa@gmail.com',
-      nombre   : 'LUIS ADOLFO PEÑA ARCINIEGAS ',
+      nombre   : 'LUIS ADOLFO PEÑA ARCINIEGAS',
       telefono : '2478114 /3115672367'
     },
     llaveProceso: '11001400301920170102500',
@@ -5455,7 +5455,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 39673896,
       direccion:
-        'CALLE 143 # 118 - 15 APTO 503 INT 2 ',
+        'CALLE 143 # 118 - 15 APTO 503 INT 2',
       email   : 'sma9511@hotmail.com',
       nombre  : 'SANDRA PATRICIA MALAVER ALVAREZ',
       telefono: 7466151
@@ -5481,7 +5481,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 4198210,
-      direccion: 'CALLE 39 I # 72F - 53 SUR ',
+      direccion: 'CALLE 39 I # 72F - 53 SUR',
       email    : 'omar690501@hotmail.com',
       nombre   : 'OMAR ESPITIA REYES',
       telefono : 7109935
@@ -5586,7 +5586,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 52214536,
       direccion: 'CARRERA 40A # 1H - 06',
       email    : 'magda-mile@hotmail.com',
-      nombre   : 'MAGDA MILENA SALINAS RODRIGUEZ ',
+      nombre   : 'MAGDA MILENA SALINAS RODRIGUEZ',
       telefono : 'F 8142058'
     },
     llaveProceso: '11001400301320170084100',
@@ -5625,7 +5625,7 @@ const Carpetas: TrulyCruda[] = [
       departamento           : 'CUNDINAMARCA',
       entregaGarantiasAbogado: '2017-06-28',
       etapaProcesal          : 'NOTIFICACION',
-      mandamientoPago        : ' ',
+      mandamientoPago        : '',
       municipio              : 'BOGOTA',
       obligacion             : {
         A: 177994,
@@ -5637,7 +5637,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 1030527169,
-      direccion: 'CARRERA 70C # 1A - 86 SUR ',
+      direccion: 'CARRERA 70C # 1A - 86 SUR',
       email    : 'o',
       nombre   : 'AIDA YURANI GRIJALBA MARTINEZ',
       telefono : 2607867
@@ -5663,7 +5663,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 1015410386,
-      direccion: 'CARRERA 40B # 1 - 61 ',
+      direccion: 'CARRERA 40B # 1 - 61',
       email    : 'edwinperez8302@hotmail.com',
       nombre   : 'EDWIN JHOBANI PEREZ PITA',
       telefono : 4758582
@@ -5689,7 +5689,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 52818959,
-      direccion: 'CARRERA 72 # 57B - 50 ',
+      direccion: 'CARRERA 72 # 57B - 50',
       email    : 'bluemoontauro@hotmail.com',
       nombre   : 'YURANNY POLANCO CESPEDES',
       telefono : 4638445
@@ -5714,7 +5714,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 19270589,
       direccion:
-        'CALLE 52 A BIS  No 35 B 41 SUR ',
+        'CALLE 52 A BIS  No 35 B 41 SUR',
       email   : 'conjuexeu@hotmail.com',
       nombre  : 'JOSE ALFREDO RIAÑO MALDONADO',
       telefono: 2388711
@@ -5739,7 +5739,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 41672170,
-      direccion: 'CARRERA 50A # 68 - 39 ',
+      direccion: 'CARRERA 50A # 68 - 39',
       email    : 'carmenzachaparro@outlook.com',
       nombre   : 'MARIA DEL CARMEN CHAPARRO LEMUS',
       telefono : 2501908
@@ -5898,7 +5898,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 80112954,
       direccion:
-        'DIAGONAL 52 B SUER # 5C - 20 ESTE ',
+        'DIAGONAL 52 B SUER # 5C - 20 ESTE',
       email   : 'efrain.martinez.1021@hotmail.com',
       nombre  : 'HANYELO EFRAIN MARTINEZ TURRIAGO',
       telefono: '5936306 // 3176550987'
@@ -5924,7 +5924,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 1018428090,
-      direccion: 'CARRERA 3 D # 32A - 69 SUR ',
+      direccion: 'CARRERA 3 D # 32A - 69 SUR',
       email    : 'oscar.agudelo@crcom.gov.co',
       nombre   : 'OSCAR IVAN AGUDELO MORA',
       telefono : 3045449490
@@ -6080,7 +6080,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 52174728,
-      direccion: 'CARRERA 80 # 41G - 09 SUR ',
+      direccion: 'CARRERA 80 # 41G - 09 SUR',
       email    : 'jucana92@hotmail.com',
       nombre   : 'SILVIA MARIA VALENZUELA VELASQUEZ',
       telefono : '5741561 // 3212344417'
@@ -6108,7 +6108,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 52548162,
       direccion:
-        'CARRERA 51A # 127 - 75 APTO 1102 ',
+        'CARRERA 51A # 127 - 75 APTO 1102',
       email   : 'karinamantilla@hotmail.com',
       nombre  : 'ANA KARINA MANTILLA PARDO',
       telefono: '3579028 // 3164355892'
@@ -6239,7 +6239,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 79547983,
       email:
-        'DIAGONAL 146 # 136A - 79 IN 3 AP 3 ',
+        'DIAGONAL 146 # 136A - 79 IN 3 AP 3',
       nombre  : 'GUSTAVO SANTAMARIA MOSQUERA',
       telefono: 'gustavo_santamaria@hotmail.com'
     },
@@ -6263,7 +6263,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 40025572,
       direccion:
-        'CALLE 181 # 17B 47 SAN ANTONIO ',
+        'CALLE 181 # 17B 47 SAN ANTONIO',
       email   : 'eariasseguros@hotmail.com',
       nombre  : 'BLANCA EDELMIRA ARIAS MELO',
       telefono: '6749599 // 3202092701'
@@ -6290,7 +6290,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 79834592,
       direccion:
-        'CALLE 34 # 2- 07 TORRE 23 APTO 101 ',
+        'CALLE 34 # 2- 07 TORRE 23 APTO 101',
       email   : 'japp161@hotmail.com',
       nombre  : 'YONNY ARTURO PINZON PULIDO',
       telefono: '8211035 // 3138725407'
@@ -6474,9 +6474,9 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 80820336,
-      direccion: 'CALLE 89A BIS B 113 - 23 ',
+      direccion: 'CALLE 89A BIS B 113 - 23',
       email    : 'carlosrondon2008@hotmail.com',
-      nombre   : 'CARLOS GIOVANNY RONDON GARCIA ',
+      nombre   : 'CARLOS GIOVANNY RONDON GARCIA',
       telefono : '4316891 // 3125757941'
     },
     llaveProceso: '11001400301220170095000',
@@ -6527,7 +6527,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 5654542,
-      direccion: 'CARRERA 16 # 10 - 30 ',
+      direccion: 'CARRERA 16 # 10 - 30',
       nombre   : 'RUBER ANDRES VALENZUELA SIERRA',
       telefono:
         'F 6045701              CEL 3007704166'
@@ -6606,9 +6606,9 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 52323645,
-      direccion: 'CARRERA 19 # 22C - 75 ',
+      direccion: 'CARRERA 19 # 22C - 75',
       email    : 'ybarrantes@gmail.com',
-      nombre   : 'FLOR YAMILE BARRANTES CARO ',
+      nombre   : 'FLOR YAMILE BARRANTES CARO',
       telefono : '5471164 // 3103446498'
     },
     llaveProceso: '11001400306420170116000',
@@ -6631,7 +6631,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 20896387,
-      direccion: 'CARRERA 32 # 18 - 31 SUR ',
+      direccion: 'CARRERA 32 # 18 - 31 SUR',
       email    : 'jose_agudelo@juancarpas.edu.com',
       nombre   : 'ANA EMILCE ROJAS SARMIENTO',
       telefono : '7502262 // 3204955563'
@@ -6711,7 +6711,7 @@ const Carpetas: TrulyCruda[] = [
       cedula: 36184358,
       direccion:
         'CARREA 2 # 21 - 55 TO 402 J FUNZA',
-      nombre  : 'DEISY POLANIA CUELLAR ',
+      nombre  : 'DEISY POLANIA CUELLAR',
       telefono: 3882131
     },
     llaveProceso: '25286310300120170074200',
@@ -6763,7 +6763,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula   : 52581513,
       direccion: 'CALLE 136A # 100A - 07',
-      nombre   : 'MARIA FILOMENA GONZALES SALAS ',
+      nombre   : 'MARIA FILOMENA GONZALES SALAS',
       telefono : 'CEL 3124794983'
     },
     llaveProceso: '11001400302620170087200',
@@ -6847,7 +6847,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'CALLE 75 # 89B - 09 APTO 104 TORRE 8',
       email : 'andreslaiton@hotmail.com',
-      nombre: 'MILTON ANDRES LAITON RINCON ',
+      nombre: 'MILTON ANDRES LAITON RINCON',
       telefono:
         'F 6320923              CEL 3133912606'
     },
@@ -6873,8 +6873,8 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 79505815,
       direccion:
-        'AERONAUTICA CIVIL AVENIDA CALLE 26 # 106 - 33 ',
-      email   : 'nestorg1969@hotmail.com ',
+        'AERONAUTICA CIVIL AVENIDA CALLE 26 # 106 - 33',
+      email   : 'nestorg1969@hotmail.com',
       nombre  : 'NESTOR GERARDO OSORIO MORALES',
       telefono: '4109980 // 6255975'
     },
@@ -6925,9 +6925,9 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 79988076,
-      direccion: 'CALLE 136 # 157 - 91 ',
+      direccion: 'CALLE 136 # 157 - 91',
       email    : 'g.o75@hotmail.com',
-      nombre   : 'VICTOR TRIANA ALARCON ',
+      nombre   : 'VICTOR TRIANA ALARCON',
       telefono : '3156448 // 3156448156'
     },
     llaveProceso: '2575440030012017024900',
@@ -6953,7 +6953,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'CALLE 180 # 12A - 16 INT 3 APT 202 ETAPA 3 // CALLE 137 # 91 - 40 INT 5 APTO 404',
       email : 'higuitac@gmail.com',
-      nombre: 'ANDRES FELIPE HIGUITA CARDONA ',
+      nombre: 'ANDRES FELIPE HIGUITA CARDONA',
     },
     llaveProceso: '11001400307320170113500',
     numero      : 151
@@ -7035,7 +7035,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'CALLE 7 # 5 - 29 TORRE 8 APTO 303',
       email : 'ruedacarlos47@gmail.com',
-      nombre: 'CARLOS ARTURO RUEDA ALZATE ',
+      nombre: 'CARLOS ARTURO RUEDA ALZATE',
     },
     llaveProceso: '11001400308320170071700',
     numero      : 155
@@ -7060,7 +7060,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 52431512,
       direccion:
-        'CARRERA 10 # 5 - 62 TORRE 7 APTO 127 ',
+        'CARRERA 10 # 5 - 62 TORRE 7 APTO 127',
       email   : 'gerencia@logimontacargas.com',
       nombre  : 'MARTHA PATRICIA MORALES SARMIENTO',
       telefono: 'F 8295963'
@@ -7131,9 +7131,9 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 98389962,
       direccion:
-        'CARRERA 14 # 11 - 14 SUR BLOQUE 10 ',
+        'CARRERA 14 # 11 - 14 SUR BLOQUE 10',
       email   : 'allantobar@gmail.com',
-      nombre  : 'ALLAN FREDY TOBAR ENCISO ',
+      nombre  : 'ALLAN FREDY TOBAR ENCISO',
       telefono: 3125586008
     },
     llaveProceso: '11001400307320170133300',
@@ -7159,7 +7159,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 79387342,
       direccion: 'CALLE 28A SUR # 28A - 18',
       email    : 'jairocarrillosa@hotmail.com',
-      nombre   : 'JAIRO ALBERTO CARRILLO SALINAS ',
+      nombre   : 'JAIRO ALBERTO CARRILLO SALINAS',
       telefono : '6047182 // 3118411820'
     },
     llaveProceso: '11001400307820170076200',
@@ -7183,10 +7183,10 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 79335809,
       direccion:
-        'CALLE 23 # 5 - 23 CASA 4 INT 10 ',
+        'CALLE 23 # 5 - 23 CASA 4 INT 10',
       email: 'norina@reservalaboral.com.co',
       nombre:
-        'RICARDO ALBERTO BELTRAN HERNANDEZ ',
+        'RICARDO ALBERTO BELTRAN HERNANDEZ',
       telefono: '3153808 // 3153808376'
     },
     llaveProceso: '25286310300120170095600',
@@ -7211,7 +7211,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula  : 900432476,
       email   : 7514006,
-      nombre  : 'MANHATTAN DOTACIONES S.A.S ',
+      nombre  : 'MANHATTAN DOTACIONES S.A.S',
       telefono: 'OK'
     },
     llaveProceso: '11001400304120170094600',
@@ -7239,7 +7239,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'CALLE 7 # 5 - 29 TORRE 8 APTO 303',
       email : 'ruedacarlos47@gmail.com',
-      nombre: 'CARLOS ARTURO RUEDA ALZATE ',
+      nombre: 'CARLOS ARTURO RUEDA ALZATE',
     },
     llaveProceso: '25473418900120170092400',
     numero      : 163
@@ -7264,7 +7264,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 52432989,
       direccion: 'CALLE 70C # 111D - 06',
       email    : 'aide116455@hotmail.com',
-      nombre   : 'DORA AIDE PEÑA PEÑA ',
+      nombre   : 'DORA AIDE PEÑA PEÑA',
       telefono:
         'F 54006426            CEL 3142403097'
     },
@@ -7292,7 +7292,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'CARRERA 83A # 116A - 72 CASA 214',
       email : 'maurgonzal@yahoo.com',
-      nombre: ' JOSE MAURICIO GONZALEZ CALDERON ',
+      nombre: ' JOSE MAURICIO GONZALEZ CALDERON',
       telefono:
         'F 4589855              CEL 3196564315'
     },
@@ -7319,7 +7319,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 21046826,
       direccion: 'CARRERA 7 # 71 - 24',
       email    : 'sergio830@hotmail.com',
-      nombre   : 'MARIA STELLA HERNANDEZ BELTRAN ',
+      nombre   : 'MARIA STELLA HERNANDEZ BELTRAN',
       telefono : '6861327 // 3164673352'
     },
     llaveProceso: '11001400301920170087200',
@@ -7345,7 +7345,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 55303731,
       direccion: 'CALLE 138 # 11B - 16 APTO 401',
       email    : 'isagarcia@hotmail.com',
-      nombre   : 'ISABEL CRISTINA GARCIA DURAN ',
+      nombre   : 'ISABEL CRISTINA GARCIA DURAN',
       telefono : '5514126 // 3006509338'
     },
     llaveProceso: '11001400301320170111400',
@@ -7396,7 +7396,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 52475256,
       direccion: 'CARRERA 79B # 45 - 19 SUR',
       nombre:
-        'ADRIANA DEL PILAR ALFONSO BAQUERO ',
+        'ADRIANA DEL PILAR ALFONSO BAQUERO',
       telefono: 6967694
     },
     llaveProceso: '11001400302720170085000',
@@ -7449,7 +7449,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'CALLE 36 # 1 ESTE - 81 BLOQUE 21 CASA 11 SOACHA',
       email   : 'omarfula@hotmail.com',
-      nombre  : 'OMAR GUSTAVO FULA AVILA ',
+      nombre  : 'OMAR GUSTAVO FULA AVILA',
       telefono: '8212461 // 3118866968'
     },
     llaveProceso: '25754418900220170076100',
@@ -7474,9 +7474,9 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 79787268,
-      direccion: 'CALLE 26 # 103 - 09 ',
+      direccion: 'CALLE 26 # 103 - 09',
       email    : 'ingedibutec@gmail.com',
-      nombre   : 'JHON FREDY MURILLO DAZA ',
+      nombre   : 'JHON FREDY MURILLO DAZA',
       telefono : '7562457 // 3182221747'
     },
     llaveProceso: '11001400300420170080100',
@@ -7500,7 +7500,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 79327475,
-      direccion: 'CARRERA 85 # 52 - 05 SUR ',
+      direccion: 'CARRERA 85 # 52 - 05 SUR',
       email    : 'leonardyherrera@yahoo.com',
       nombre   : 'LEONARDY HERRERA ROJAS',
       telefono : 4663467
@@ -7527,9 +7527,9 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 37861286,
-      direccion: 'DIAGONAL 52# 3 - 24 APTO 50 ',
+      direccion: 'DIAGONAL 52# 3 - 24 APTO 50',
       email    : 'maryluzocasiones1104.p@hotmail.com',
-      nombre   : 'MARYLUZ OCASIONES PINZON ',
+      nombre   : 'MARYLUZ OCASIONES PINZON',
       telefono : '7675057 // 3156780088'
     },
     llaveProceso: '11001400306620170122100',
@@ -7578,9 +7578,9 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 1033783222,
-      direccion: 'CALLE 69J # 20B - 52 ',
+      direccion: 'CALLE 69J # 20B - 52',
       email    : 'leoguegar@hotmail.com',
-      nombre   : 'LEONARDO ALIRIO GARCIA GUERRERO ',
+      nombre   : 'LEONARDO ALIRIO GARCIA GUERRERO',
       telefono : '7177769 // 3103048137 '
     },
     llaveProceso: '11001418901020170011500',
@@ -7604,9 +7604,9 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 11185630,
-      direccion: 'CARRERA 81C # 2B - 80 PISO 2 ',
+      direccion: 'CARRERA 81C # 2B - 80 PISO 2',
       email    : 'grupocomerciallasabana@hotmail.com',
-      nombre   : 'WILSON ALFONSO JIMENEZ MENDIETA ',
+      nombre   : 'WILSON ALFONSO JIMENEZ MENDIETA',
       telefono : 'F 5714329'
     },
     llaveProceso: '11001400300120170100100',
@@ -7620,8 +7620,7 @@ const Carpetas: TrulyCruda[] = [
       mandamientoPago        : '2017-08-28',
       municipio              : 'SOACHA',
       obligacion             : {
-        A: '    ',
-        B: 20990158916
+        A: 20990158916
       },
       fechaPresentacion: 'NOTIFICACION',
       radicado         : '2017 - 00283',
@@ -7658,9 +7657,9 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 39624423,
       direccion:
-        'CARRERA 6 # 16A - 84 FUSAGASUGA ',
-      email : '  ',
-      nombre: 'YAZMIN ALVARADO PINZON ',
+        'CARRERA 6 # 16A - 84 FUSAGASUGA',
+      email : '',
+      nombre: 'YAZMIN ALVARADO PINZON',
       telefono:
         'F 8717658               CEL 3138851725'
     },
@@ -7684,7 +7683,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula  : 1019029250,
-      email   : 'CARRERA 86 # 77A - 28 ',
+      email   : 'CARRERA 86 # 77A - 28',
       nombre  : 'DIEGO ARMANDO AREVALO VELANDIA',
       telefono: 'arevalodiego77@gmail.com'
     },
@@ -7735,8 +7734,8 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula   : 79909315,
       direccion: 41537019,
-      email    : 'CARRERA 18C # 121 - 40 ',
-      nombre   : 'VICTOR EDUARDO  MORA ESPINOSA ',
+      email    : 'CARRERA 18C # 121 - 40',
+      nombre   : 'VICTOR EDUARDO  MORA ESPINOSA',
       telefono : 'victormor84@outlook.com'
     },
     llaveProceso: '25286400300120170078100',
@@ -7763,9 +7762,9 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 53053612,
       direccion:
-        'TRANVERSAL 142 # 150 - 50 CASA 2 ET 8 ',
+        'TRANVERSAL 142 # 150 - 50 CASA 2 ET 8',
       email   : 'baldini@mybosi.com',
-      nombre  : 'DIANA PATRICIA SANCHEZ SALCEDO ',
+      nombre  : 'DIANA PATRICIA SANCHEZ SALCEDO',
       telefono: 2572857
     },
     llaveProceso: '1100140030732017015300',
@@ -7790,7 +7789,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 52790965,
       direccion:
-        'CALLE 20C # 106 - 27 APTO 202 INT 13 ',
+        'CALLE 20C # 106 - 27 APTO 202 INT 13',
       email   : 'fabiola_19805@hotmail.com',
       nombre  : 'FABIOLA MARTINEZ RUEDA',
       telefono: 3107976282
@@ -7816,7 +7815,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 80244664,
-      direccion: 'CARRERA 95 BIS # 90A - 12 ',
+      direccion: 'CARRERA 95 BIS # 90A - 12',
       email    : 'gufo2299@hotmail.com',
       nombre   : 'DOUGLAS FABIAN SIZA CORTES',
       telefono : '4429545 // 3118280782'
@@ -7895,7 +7894,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 1012318156,
-      direccion: 'CARRERA 80M # 74 - 04 SUR ',
+      direccion: 'CARRERA 80M # 74 - 04 SUR',
       email    : 'hectormanuelverdolaga@gmail.com',
       nombre   : 'HECTOR MANUEL RAMIREZ PUENTES',
       telefono : '3142498 // 3142998727'
@@ -7948,7 +7947,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 52488943,
-      direccion: 'CALLE 89 # 98 - 27 ',
+      direccion: 'CALLE 89 # 98 - 27',
       email    : 'tocami96@hotmail.com',
       nombre   : 'SONIA MIREYA PANTOJA SANDOVAL',
       telefono : 'F 2287856'
@@ -8002,7 +8001,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'CARRERA 17 F 71A - 95 SUR  CASA 239',
       email   : 'edgar_julian@hotmail.com',
-      nombre  : 'EDGAR MARTINEZ VELANDIA ',
+      nombre  : 'EDGAR MARTINEZ VELANDIA',
       telefono: 7902763
     },
     llaveProceso: '11001400306420170146900',
@@ -8134,7 +8133,7 @@ const Carpetas: TrulyCruda[] = [
       cedula: 52702559,
       direccion:
         'CALLE 6D # 5 - 60 MANZANA C CASA 17',
-      email   : 'jennyprm@hotmail.com ',
+      email   : 'jennyprm@hotmail.com',
       nombre  : 'YENNY PATRICIA RUBIO MAHECHA',
       telefono: '7290666 // 3204297147'
     },
@@ -8185,7 +8184,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula  : 51833717,
-      email   : 'CARRERA 123 # 131 - 32 ',
+      email   : 'CARRERA 123 # 131 - 32',
       nombre  : 'BLANCA JANETH PINZON SUAREZ',
       telefono: 'janethpinzon@hotmail.com'
     },
@@ -8261,7 +8260,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 51726361,
-      direccion: 'AVENIDA CALLE 34 # 58 - 51 ',
+      direccion: 'AVENIDA CALLE 34 # 58 - 51',
       email    : 'mariae131@hotmail.com',
       nombre   : 'MARIA EUGENIA SALCEDO PINEDA',
       telefono : '7842477 // 3144468420 '
@@ -8287,7 +8286,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 52192430,
-      direccion: 'CARRERA 81A # 54 - 32 ',
+      direccion: 'CARRERA 81A # 54 - 32',
       nombre   : 'BEATRIZ HELENA MACHADO',
       telefono:
         'F 4506940                  CEL 3103025587'
@@ -8367,7 +8366,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 79815721,
       direccion:
-        'CARRERA 88 C # 62 - 09 SUR APTO 104 ',
+        'CARRERA 88 C # 62 - 09 SUR APTO 104',
       nombre  : 'LUIS OCTAVIO ROJAS VALBUENA',
       telefono: 7232380
     },
@@ -8443,9 +8442,9 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 80740039,
-      direccion: 'CALLE 48B SUR # 6C - 06 ',
+      direccion: 'CALLE 48B SUR # 6C - 06',
       email    : 'fabianalexanderg@yahoo.es',
-      nombre   : 'FABIAN ALEXANDER GIL GIL ',
+      nombre   : 'FABIAN ALEXANDER GIL GIL',
       telefono : 'F 7609920'
     },
     llaveProceso: '11001400301820170151700',
@@ -8470,7 +8469,7 @@ const Carpetas: TrulyCruda[] = [
       direccion: 'CALLE 24D # 72A - 81  CASA 9',
       email    : 'alejandramogollonbernal@gmail.com',
       nombre:
-        'JENNIFER ALEJANDRA MOGOLLÓN BERNAL ',
+        'JENNIFER ALEJANDRA MOGOLLÓN BERNAL',
       telefono: 4166717
     },
     llaveProceso: '11001400306820170124000',
@@ -8601,8 +8600,8 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 3165933,
-      direccion: 'CARRERA 81 F 71F 56 ',
-      email    : 'rigoberto-moreno20@hotmail.com ',
+      direccion: 'CARRERA 81 F 71F 56',
+      email    : 'rigoberto-moreno20@hotmail.com',
       nombre   : 'RIGOBERTO MORENO OLAYA',
       telefono : '7191321 /3123836799'
     },
@@ -8781,7 +8780,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 79893549,
-      direccion: 'CALLE 76 C SUR 1H 27 ',
+      direccion: 'CALLE 76 C SUR 1H 27',
       email    : 'jaorgodi@hotmail.com',
       nombre   : 'JAVIER ORLANDO GOMEZ DIAZ',
       telefono : 2389440
@@ -8857,7 +8856,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 19475788,
-      direccion: 'CALLE 31 SUR No 12-33 ',
+      direccion: 'CALLE 31 SUR No 12-33',
       email    : 'hemacarblan@hotmail.com',
       nombre   : 'HENRY CARRANZA ALBA',
       telefono : '4070342/ 3193196261'
@@ -8910,7 +8909,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 7226283,
       direccion:
-        'CARRERA 11A # 17 - 24 SANTA BARBARA ',
+        'CARRERA 11A # 17 - 24 SANTA BARBARA',
       email   : 'cajux@hotmail.com',
       nombre  : 'CARLOS JAVIER BECERRA BENAVIDES',
       telefono: 'CEL 3178195535'
@@ -8962,7 +8961,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 1013604409,
-      direccion: 'CALLE 47 SUR No 27-81 ',
+      direccion: 'CALLE 47 SUR No 27-81',
       email    : 'jan_2504@hotmail.com',
       nombre   : 'JORGE EDUARDO ACOSTA CORREDOR',
       telefono:
@@ -8989,7 +8988,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 23946115,
-      direccion: 'DIAGONAL 136 BIS # 3 - 80 SUR ',
+      direccion: 'DIAGONAL 136 BIS # 3 - 80 SUR',
       nombre   : 'YEIMI ZORAIDA PEREZ ACEVEDO',
       telefono : 'F 2593579'
     },
@@ -9070,7 +9069,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 52770471,
       direccion: 'CARRERA 87 F - No 26-74 SUR',
       email    : 'nelly_ruiz1980@hotmail.com',
-      nombre   : 'LUZ NELLY RUIZ LARA ',
+      nombre   : 'LUZ NELLY RUIZ LARA',
       telefono : 4505648
     },
     llaveProceso: '11001400303920170125600',
@@ -9096,7 +9095,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 11384155,
       direccion:
-        'CARRERA 4 ESTE 4-42  FUSAGASUGA ',
+        'CARRERA 4 ESTE 4-42  FUSAGASUGA',
       email   : 'heralvarezpa@misena.edu.co',
       nombre  : 'HERNAN ALVAREZ PARDO',
       telefono: 3133854
@@ -9296,7 +9295,7 @@ const Carpetas: TrulyCruda[] = [
       departamento           : 'CUNDINAMARCA',
       entregaGarantiasAbogado: '21-09-2017',
       mandamientoPago        : '20-04-2018',
-      municipio              : 'FUNZA ',
+      municipio              : 'FUNZA',
       obligacion             : {
         A: 182524,
       },
@@ -9307,7 +9306,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 80162950,
-      direccion: 'CARRERA 16 No 14 - 36 ',
+      direccion: 'CARRERA 16 No 14 - 36',
       email    : 'ju@yahoo.es',
       nombre   : 'JUAN CARLOS ORTIZ CUERVO',
       telefono : 5490735
@@ -9462,7 +9461,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 79200345,
       direccion:
-        'CARRERA 5  No 5 - 30 APARTAMENTO 202 SOACHA ',
+        'CARRERA 5  No 5 - 30 APARTAMENTO 202 SOACHA',
       email   : 'nelson_mayorga@outlook.com',
       nombre  : 'NELSON MAYORGA GOMEZ',
       telefono: '9008364 / 3204283595'
@@ -9491,7 +9490,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 39687966,
       direccion: 'DIAGONAL 76 # 6 - 12 APTO 604',
       email    : 'olgalucia.herazo@gmail.com',
-      nombre   : 'OLGA LUCIA HERAZO PERDOMO ',
+      nombre   : 'OLGA LUCIA HERAZO PERDOMO',
       telefono : 'F 2120692'
     },
     llaveProceso: '11001400308320170098000',
@@ -9566,7 +9565,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 93119101,
       direccion: 'VEREDA EL TIME  ( COTA )',
       email    : 'abarriosleg@yahoo.es',
-      nombre   : 'ARMANDO BARRIOS VARGAS ',
+      nombre   : 'ARMANDO BARRIOS VARGAS',
       telefono : 3380250
     },
     llaveProceso: '25214400300120170070400',
@@ -9592,7 +9591,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 52318314,
       direccion:
-        'CALLE 19 A 82 65 TR 4 APARTAMENTO 301 ',
+        'CALLE 19 A 82 65 TR 4 APARTAMENTO 301',
       email : 'adrianitaa@gmail.com',
       nombre: 'ADRIANA MARIA PEREZ GOMEZ',
       telefono:
@@ -9618,7 +9617,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 20371142,
-      direccion: 'DIAGONAL  15 B No 104 - 46 ',
+      direccion: 'DIAGONAL  15 B No 104 - 46',
       email    : 'isafrevi@hotmail.com',
       nombre   : 'VIVIANA MARCELA ROA VIVAS',
       telefono : 8454465
@@ -9857,7 +9856,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 1118532643,
-      direccion: 'CARRERA 16 No 66 A 16 ',
+      direccion: 'CARRERA 16 No 66 A 16',
       email:
         'willintong950@gmail.com  rafaelalfonsocamachovelandia@gmail.com',
       nombre: 'RAFAEL ALFONSO CAMACHO VELANDIA',
@@ -10019,7 +10018,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 19332163,
-      direccion: 'CARRERA 69 C No 98A -50 ',
+      direccion: 'CARRERA 69 C No 98A -50',
       email    : 'hencast@hotmail.com',
       nombre   : 'HENRY NOEL CASTELBLANCO SOSA',
       telefono : 4424940
@@ -10076,7 +10075,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'CARRERA 87 D No 42 A 20 SUR INTERIOR 6',
       email   : 'pedrosebastin394@hotmail.com',
-      nombre  : 'PEDRO PABLO SARMIENTO MAYORGA ',
+      nombre  : 'PEDRO PABLO SARMIENTO MAYORGA',
       telefono: 8138756
     },
     llaveProceso: '11001418904320170114000',
@@ -10563,7 +10562,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'CALLE 55 No 78 -74  APARTAMENTO 1110',
       email   : 'ahidaguevara@gmail.com',
-      nombre  : '  AHIDA LUCERO GUEVARA BECERRA ',
+      nombre  : '  AHIDA LUCERO GUEVARA BECERRA',
       telefono: 3049740
     },
     llaveProceso: '11001400306320170131700',
@@ -10670,7 +10669,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 79573945,
       direccion: 'CARRERA 19  No 56 A  SUR - 72',
       email    : 'cubrimage@hotmail.com',
-      nombre   : 'WILLIAM CORTES ROJAS ',
+      nombre   : 'WILLIAM CORTES ROJAS',
       telefono : 'F 2054674'
     },
     llaveProceso: '11001400306020170101400',
@@ -10721,7 +10720,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula: 91240362,
-      email : 'CARRERA 87 No  17 - 59 ',
+      email : 'CARRERA 87 No  17 - 59',
       nombre:
         'GABRIEL AUGUSTO CASTILLO CASTELBLANCO',
       telefono:
@@ -10776,7 +10775,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 51974282,
       direccion:
-        'CALLE 128 C No 45 - 08 INTERIOR 22 ',
+        'CALLE 128 C No 45 - 08 INTERIOR 22',
       email : 'sjpradag@yahoo.es',
       nombre: 'SANDRA JEANNETTE PRADA GUTIERREZ',
       telefono:
@@ -10889,7 +10888,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 80111672,
       direccion: 'CALLE 51  SUR No  80 - 24',
       email    : 'diegovergarav@hotmail.com',
-      nombre   : 'DIEGO FERNEY VERGARA VALDERRAMA ',
+      nombre   : 'DIEGO FERNEY VERGARA VALDERRAMA',
       telefono : '4647087 / 3112441540'
     },
     llaveProceso: '11001400305020170135700',
@@ -11048,7 +11047,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 1012330386,
       direccion:
-        'CALLE 79 SUR No 77 L- 72 INT 59 ',
+        'CALLE 79 SUR No 77 L- 72 INT 59',
       email   : 'disayuri@hotmail.com',
       nombre  : 'DIANA SAYURI RODRIGUEZ GARCIA',
       telefono: '4493410/ 313241'
@@ -11076,7 +11075,7 @@ const Carpetas: TrulyCruda[] = [
       cedula: 79357895,
       direccion:
         'CARRERA 123 No 13 - 85 casa 364',
-      email   : ' ',
+      email   : '',
       nombre  : 'JOSE DAVID PEÑA SAAVEDRA',
       telefono: '31665335 / 3165335 / 3165335586'
     },
@@ -11337,7 +11336,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 51953414,
       direccion:
-        'TRANSVERSAL 49 # 3 - 92 CASA 360 ZAPAN 3 ',
+        'TRANSVERSAL 49 # 3 - 92 CASA 360 ZAPAN 3',
       email   : 'janethrpinzon@gmail.com',
       nombre  : 'JANETH RUBIELA GORDILLO PINZON',
       telefono: '6795197//3152482331'
@@ -11389,7 +11388,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 80850549,
       direccion:
-        'CALLE 2 SUR 16 - 36 MANZANA 104 // CARRERA 96 D 6 - 55 CADA 81 ET 1 ',
+        'CALLE 2 SUR 16 - 36 MANZANA 104 // CARRERA 96 D 6 - 55 CADA 81 ET 1',
       email   : 'jjhoan_27@hotmail.com',
       nombre  : 'JHOAN ANTONIO BARAJAS MONTENEGRO',
       telefono: 7384582
@@ -11441,7 +11440,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 40356325,
-      direccion: 'CARRERA 79D 36 - 74 ',
+      direccion: 'CARRERA 79D 36 - 74',
       email    : 'sacave22@gmail.com',
       nombre   : 'GLADIS VELASQUEZ CASTRO',
       telefono : 3118206
@@ -11465,7 +11464,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 11346521,
       email:
-        'DIAGINAL 51A 59 A - 17 APARTAMENTO 1 ',
+        'DIAGINAL 51A 59 A - 17 APARTAMENTO 1',
       nombre: 'NELSON YESITH MORENO LEON',
       telefono:
         'yesith.moreno@correo.policia.gov.co'
@@ -11546,7 +11545,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 1032396480,
       direccion:
-        'CARRERA 81 B No 66 - 51 CASA 139 TERRAZA DE CASTILLA // TRV 70 G # 63 - 52 SUR APTO 604 BL 5 ',
+        'CARRERA 81 B No 66 - 51 CASA 139 TERRAZA DE CASTILLA // TRV 70 G # 63 - 52 SUR APTO 604 BL 5',
       email   : 'nimary20@hotmail.com',
       nombre  : 'NIELCEN MARISOL MARIN MELO',
       telefono: 3203430311
@@ -11651,7 +11650,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 406547,
-      direccion: 'TRANVERSAL 11A # 9A - 13 ',
+      direccion: 'TRANVERSAL 11A # 9A - 13',
       nombre   : 'AVELINO SIERRA SIERRA',
       telefono : 235426
     },
@@ -12179,7 +12178,7 @@ const Carpetas: TrulyCruda[] = [
       entregaGarantiasAbogado: '2018-04-12',
       etapaProcesal          : 'NOTIFICACION',
       mandamientoPago        : '2018-05-18',
-      municipio              : 'SOACHA ',
+      municipio              : 'SOACHA',
       obligacion             : {
         A: 20990182990,
       },
@@ -12296,9 +12295,9 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 35521020,
-      direccion: 'CALLE 11B- No 10-21  ',
+      direccion: 'CALLE 11B- No 10-21',
       email    : 'aurag2599@hotmail.com',
-      nombre   : 'AURA LETICIA GAMEZ ROJAS ',
+      nombre   : 'AURA LETICIA GAMEZ ROJAS',
       telefono : 6104622
     },
     llaveProceso: '25269400300120180024600',
@@ -12321,7 +12320,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula  : 73133278,
-      email   : 'CALLE 1 SUR No 5A- 179 CASA 26 ',
+      email   : 'CALLE 1 SUR No 5A- 179 CASA 26',
       nombre  : 'ALVARO HERNAN RUIZ HERNANDEZ',
       telefono: 'alvarohernandezruiz@yahoo.es'
     },
@@ -12403,7 +12402,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'CARRER 1 ESTE No 67 A - 60 SUR  APTO 103 TORRE 7',
       email   : 'andrespedraza12933@gmail.com',
-      nombre  : 'ANDRES PEDRAZA GARCIA ',
+      nombre  : 'ANDRES PEDRAZA GARCIA',
       telefono: 6949499
     },
     llaveProceso: '11001400301920180044300',
@@ -12684,7 +12683,7 @@ const Carpetas: TrulyCruda[] = [
       direccion:
         'CALLE 62A SUR-No 73C-21 T 1 APTO 202',
       email   : 'marysqs@hotmail.com',
-      nombre  : 'MARIBEL REVELO QUIROGA ',
+      nombre  : 'MARIBEL REVELO QUIROGA',
       telefono: 7383907
     },
     llaveProceso: '11001400301620180057300',
@@ -13353,7 +13352,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 51944991,
       direccion: 51944991,
       email    : 'TRANSVERSAL 4B No 3-75   CASA 44',
-      nombre   : 'RICARDO ARMANDO CELIS ANGEL ',
+      nombre   : 'RICARDO ARMANDO CELIS ANGEL',
       telefono : 'maria.elizabeth2903@hotmail.co'
     },
     llaveProceso: '25754418900220180066400',
@@ -13550,7 +13549,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula  : 52725153,
-      email   : 'TRANSVERSAL 2 ESTE No 32B-80 SUR ',
+      email   : 'TRANSVERSAL 2 ESTE No 32B-80 SUR',
       nombre  : 'SANDRA MILENA VEGA AVILA',
       telefono: 'protegeservicios@hotmail.com'
     },
@@ -13752,7 +13751,7 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula   : 30339083,
       direccion: 'CARRERA 7A No  2-94 SUR',
-      nombre   : 'JENNY  ANDREA AVILA GARZON ',
+      nombre   : 'JENNY  ANDREA AVILA GARZON',
       telefono : 'F 6690738'
     },
     llaveProceso: '25754418900320190027000',
@@ -14223,7 +14222,7 @@ const Carpetas: TrulyCruda[] = [
       nombre  : 'WILLIAM  YOVANY CASALLAS ROMERO',
       telefono: 'wcasallas@hotmail.com'
     },
-    llaveProceso: '\'25843410300120180049900',
+    llaveProceso: '25843410300120180049900',
     numero      : 507
   },
   {
@@ -14462,7 +14461,7 @@ const Carpetas: TrulyCruda[] = [
       fechaPresentacion:
         'EL 3-12-2020 EL JUZGADO DECRETO TERMINACION PROCESO POR PAGO CUOTAS EN MORA // EL 12-05-2021 SE RETIRARON GARANTIAS DEL JUZGADO // EL 29-04-2021 SE ENVIO OFICIO A OFICINA DE REGISTRO // EL 22-09-2021 SUPERNOTARIADO LO DEVOLVIO POR NO PAGO // EL 11-11-2021 SE SOLICITO CERTIFICADO Y ESTA PENDIENTE LEVANTAMIENTO DE MEDIDA CAUTELAR //PAGAR DESGLOSE Y RETIRAR OFICIO PARA RADICAR LEVANTAMIENTO',
       radicado         : '2019 - 00551',
-      tipoProceso      : 'HIPOTECARIO ',
+      tipoProceso      : 'HIPOTECARIO',
       vencimientoPagare: '23-03-2027'
     },
     deudor: {
@@ -14754,7 +14753,7 @@ const Carpetas: TrulyCruda[] = [
       cedula   : 51918944,
       direccion: 'CALLE 55 SUR 24C-28 APTO 502',
       email    : 'amandagaitan@hotmail.com',
-      nombre   : 'AMANDA LUCIA GAITAN RINCÓN ',
+      nombre   : 'AMANDA LUCIA GAITAN RINCÓN',
       telefono : 2823872
     },
     llaveProceso: '11001400306920200082300',
@@ -15084,8 +15083,8 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 79861754,
-      direccion: 'CALLE 72 A No  74 A - 77  ',
-      email    : 'carlosgrugec@hotmail.com ',
+      direccion: 'CALLE 72 A No  74 A - 77',
+      email    : 'carlosgrugec@hotmail.com',
       nombre   : 'CARLOS GERMAN RUGE CASTAÑEDA',
       telefono:
         'F 6087374              CEL 3104865508'
@@ -15202,9 +15201,9 @@ const Carpetas: TrulyCruda[] = [
     deudor: {
       cedula: 79840930,
       direccion:
-        'CARRERA 79 BIS A # 73 - 92 SUR APTO 304 INT 3 ',
+        'CARRERA 79 BIS A # 73 - 92 SUR APTO 304 INT 3',
       email   : 'gabriel.eml@hotmail.com',
-      nombre  : 'GABRIEL EDUARDO MEJIA LADINO ',
+      nombre  : 'GABRIEL EDUARDO MEJIA LADINO',
       telefono: '7347505 // 3112945552'
     },
     llaveProceso: '11001400303620170084100',
@@ -15230,7 +15229,7 @@ const Carpetas: TrulyCruda[] = [
     },
     deudor: {
       cedula   : 52328942,
-      direccion: 'CALLE 58 # 45 - 86 ',
+      direccion: 'CALLE 58 # 45 - 86',
       email    : 'casas_castillo@hotmail.com',
       nombre   : 'DIANA VANESSA NARANJO HERNANDEZ',
       telefono : '2256952 // 3108096132'
@@ -15333,7 +15332,7 @@ const Carpetas: TrulyCruda[] = [
       etapaProcesal:
         'EL 22-08-2018 EL JUZGADO DECRETO LA TERMINACIÓN DEL PROCESO POR PAGO CUOTAS EN MORA DE LA OBLIGACIÓN HIPOTECARIA //  SE ENVIO SOLICITUD DESARCHIVE EL 18 DE AGOSOTO DE 2023 A ARCHIVO CENTRAL .',
       mandamientoPago:
-        '18 AGOSTO SE ENVIO SOLICTUD DESARCHIVE A ARCHIVO CENTRAL ',
+        '18 AGOSTO SE ENVIO SOLICTUD DESARCHIVE A ARCHIVO CENTRAL',
       municipio : 'BOGOTA',
       obligacion: {
         A: 118010,

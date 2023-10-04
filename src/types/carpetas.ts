@@ -6,7 +6,7 @@
 
 export interface TrulyCruda
 {
-  llaveProceso?: number | string;
+  llaveProceso?:  string;
   demanda: DemandaRaw;
   deudor: DeudorRaw;
   numero: number;

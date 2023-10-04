@@ -4,16 +4,15 @@ exports.Demanda = exports.juzgadosByProceso = void 0;
 const despachos_1 = require("../despachos");
 function vencimientoPagareFixer(rawVencimientoPagare) {
     const stringer = `${rawVencimientoPagare}`;
-    const matcherPagare = stringer.match(/\/\//g);
+    const matcherPagare = stringer.split('//');
     console.log(matcherPagare?.length);
     if (!matcherPagare) {
         return null;
     }
-    const newDates = matcherPagare.map((pagare) => {
+    return matcherPagare.map((pagare) => {
         console.log(pagare);
         return new Date(pagare);
     });
-    return newDates;
 }
 function capitalBuilder(capitalAdeudado) {
     if (typeof capitalAdeudado === 'number') {
@@ -25,6 +24,9 @@ function capitalBuilder(capitalAdeudado) {
     return Number(dotTaker);
 }
 function juzgadosByProceso(procesos) {
+    if (procesos.length === 0) {
+        return [];
+    }
     const juzgados = new Set();
     for (const proceso of procesos) {
         const newJ = new NewJuzgado(proceso);
@@ -71,19 +73,10 @@ class NewJuzgado {
     url;
 }
 class Demanda {
-    constructor({ capitalAdeudado, entregaGarantiasAbogado, etapaProcesal, departamento, fechaPresentacion, mandamientoPago, municipio, obligacion, radicado, vencimientoPagare }, RequestProcesos = [], llaveProceso) {
-        if (llaveProceso) {
-            const stringTypeofLlaveProceso = typeof llaveProceso === 'string';
-            if (stringTypeofLlaveProceso) {
-                this.expediente = llaveProceso;
-            }
-            else {
-                this.expediente = llaveProceso.toString();
-            }
-        }
-        else {
-            this.expediente = null;
-        }
+    constructor({ capitalAdeudado, entregaGarantiasAbogado, etapaProcesal, departamento, fechaPresentacion, mandamientoPago, municipio, obligacion, radicado, vencimientoPagare }, llaveProceso, RequestProcesos) {
+        this.expediente = llaveProceso
+            ? llaveProceso
+            : null;
         this.capitalAdeudado = capitalBuilder(capitalAdeudado
             ? capitalAdeudado
             : 0);
@@ -97,7 +90,9 @@ class Demanda {
         this.fechaPresentacion = fechaPresentacion
             ? new Date(fechaPresentacion)
             : null;
-        this.juzgados = juzgadosByProceso(RequestProcesos);
+        this.juzgados = RequestProcesos
+            ? juzgadosByProceso(RequestProcesos)
+            : null;
         this.municipio = municipio
             ? municipio
             : null;

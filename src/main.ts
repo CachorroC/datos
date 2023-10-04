@@ -25,7 +25,7 @@ export async function createCarpetasDemanda() {
       rawCarpeta
     );
 
-    const awaitTime = 200;
+    const awaitTime = 500;
 
     await sleep(
       awaitTime
@@ -35,14 +35,30 @@ export async function createCarpetasDemanda() {
     );
 
     const RequestProcesos = await fetchProceso(
-      {
-        llaveProceso:
-      ` ${ carpeta.llaveProceso }`
-      }
+      carpeta.llaveProceso
     );
 
+    if ( RequestProcesos ) {
+      const newCarpeta = new Carpeta(
+        carpeta, RequestProcesos
+      );
+      newCarpetas.add(
+        newCarpeta
+      );
+      fs.writeFile(
+        `carpetas/${ newCarpeta.numero }.json`,
+        JSON.stringify(
+          newCarpeta
+        )
+      );
+      continue;
+    }
+
     const newCarpeta = new Carpeta(
-      carpeta, RequestProcesos
+      carpeta
+    );
+    newCarpetas.add(
+      newCarpeta
     );
     fs.writeFile(
       `carpetas/${ newCarpeta.numero }.json`,
@@ -50,11 +66,7 @@ export async function createCarpetasDemanda() {
         newCarpeta
       )
     );
-    newCarpetas.add(
-      newCarpeta
-    );
-
-
+    continue;
   }
 
   const newProcesosArray = Array.from(

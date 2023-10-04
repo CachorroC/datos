@@ -3,7 +3,6 @@ import { Category,
          CarpetaRaw,
          IntDemanda,
          IntDeudor,
-
          TipoProceso } from '../types/carpetas';
 import { intProceso } from '../types/procesos';
 import { Demanda } from './demanda';
@@ -19,6 +18,7 @@ export const categories = [
 ];
 
 export class Carpeta implements IntCarpeta {
+  idProcesos?: number[];
   constructor(
     {
       llaveProceso,
@@ -26,56 +26,42 @@ export class Carpeta implements IntCarpeta {
       deudor,
       demanda,
       numero
-    }: CarpetaRaw, RequestProcesos? : intProceso[]
+    }: CarpetaRaw, RequestProcesos?: intProceso[]
   ) {
-    const stringLlaveProceso
-      = typeof llaveProceso === 'string';
-
-    if ( stringLlaveProceso ) {
-      this.llaveProceso = llaveProceso;
-    } else {
-      this.llaveProceso = llaveProceso?.toString();
-    }
-
+    this.llaveProceso = llaveProceso;
     this.category = category;
     this.numero = numero;
     this.tipoProceso = demanda.tipoProceso as TipoProceso;
-
     this.deudor = new Deudor(
       deudor
-    );
-    this.demanda = new Demanda(
-      demanda,
-      RequestProcesos,
-      llaveProceso
     );
     this.cc = Number(
       deudor.cedula
     );
 
     if ( RequestProcesos ) {
-      const idProcesosSet = new Set<number>();
-
-      for ( const proceso of RequestProcesos ) {
-        if ( proceso.esPrivado ) {
-          continue;
+      this.idProcesos = RequestProcesos.map(
+        (
+          proceso
+        ) => {
+          return proceso.idProceso;
         }
-
-        idProcesosSet.add(
-          proceso.idProceso
-        );
-
-      }
-
-      this.idProcesos = Array.from(
-        idProcesosSet
+      );
+      this.demanda = new Demanda(
+        demanda,
+        llaveProceso,
+        RequestProcesos,
+      );
+    } else {
+      this.demanda = new Demanda(
+        demanda,  llaveProceso
       );
     }
   }
   numero: number;
   cc?: number ;
   llaveProceso?: string ;
-  idProcesos?: number[] ;
+
   category: Category;
   tipoProceso: TipoProceso;
 
