@@ -29,7 +29,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.createCarpetasDemanda = void 0;
 const _1 = require(".");
 const carpetas_raw_1 = __importDefault(require("./data/carpetas-raw"));
-const categories_1 = require("./data/categories");
+const categories_1 = require("./models/categories");
 const carpeta_1 = require("./models/carpeta");
 const procesos_1 = __importStar(require("./procesos"));
 const fs = __importStar(require("fs/promises"));

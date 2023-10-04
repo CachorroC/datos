@@ -35,59 +35,59 @@ class Deudor {
         switch (nameArrayLength) {
             case 4:
                 this.primerNombre
-                    = nameStringArray[0].replace(' ', '');
+                    = nameStringArray[0];
                 this.segundoNombre
-                    = nameStringArray[1].replace(' ', '');
+                    = nameStringArray[1];
                 this.primerApellido
-                    = nameStringArray[2].replace(' ', '');
+                    = nameStringArray[2];
                 this.segundoApellido
-                    = nameStringArray[3].replace(' ', '');
+                    = nameStringArray[3];
                 break;
             case 2:
                 this.primerNombre
-                    = nameStringArray[0].replace(' ', '');
+                    = nameStringArray[0];
                 this.primerApellido
-                    = nameStringArray[1].replace(' ', '');
+                    = nameStringArray[1];
                 break;
             case 1:
                 this.primerNombre
-                    = nameStringArray[0].replace(' ', '');
+                    = nameStringArray[0];
                 this.primerApellido = 'sin especificar';
                 break;
             case 3:
                 this.primerNombre
-                    = nameStringArray[0].replace(' ', '');
+                    = nameStringArray[0];
                 this.primerApellido
-                    = nameStringArray[1].replace(' ', '');
+                    = nameStringArray[1];
                 this.segundoApellido
-                    = nameStringArray[2].replace(' ', '');
+                    = nameStringArray[2];
                 break;
             case 5:
                 this.primerNombre
-                    = nameStringArray[0].replace(' ', '');
+                    = nameStringArray[0];
                 this.segundoNombre
-                    = nameStringArray[1].replace(' ', '');
+                    = nameStringArray[1];
                 this.primerApellido
-                    = nameStringArray[2].replace(' ', '');
+                    = nameStringArray[2];
                 this.segundoApellido = `${nameStringArray[3].replace(' ', '')} ${nameStringArray[4].replace(' ', '')}`;
                 break;
             case 6:
                 this.primerNombre
-                    = nameStringArray[0].replace(' ', '');
+                    = nameStringArray[0];
                 this.segundoNombre = `${nameStringArray[1].replace(' ', '')} ${nameStringArray[2].replace(' ', '')}`;
                 this.primerApellido = `${nameStringArray[3].replace(' ', '')} ${nameStringArray[4].replace(' ', '')}`;
                 this.segundoApellido
-                    = nameStringArray[5].replace(' ', '');
+                    = nameStringArray[5];
                 break;
             default:
                 this.primerNombre
-                    = nameStringArray[0].replace(' ', '');
+                    = nameStringArray[0];
                 this.segundoNombre
-                    = nameStringArray[1].replace(' ', '');
+                    = nameStringArray[1];
                 this.primerApellido
-                    = nameStringArray[2].replace(' ', '');
+                    = nameStringArray[2];
                 this.segundoApellido
-                    = nameStringArray[3].replace(' ', '');
+                    = nameStringArray[3];
                 break;
         }
     }

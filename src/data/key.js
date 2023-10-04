@@ -22,60 +22,54 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getProcesosbyLLaveProceso = exports.llavesProceso = exports.idProcesos = void 0;
-const carpetas_1 = __importDefault(require("./carpetas"));
+exports.CarpetasFetcher = exports.fetchActuaciones = void 0;
+const fix_1 = require("../lib/fix");
 const fs = __importStar(require("fs/promises"));
-exports.idProcesos = carpetas_1.default.map((carpeta) => {
-    return {
-        idProceso: carpeta.idProceso,
-        _id: carpeta._id
-    };
-});
-exports.llavesProceso = carpetas_1.default.map((carpeta) => {
-    return {
-        llaveProceso: carpeta.llaveProceso,
-        _id: carpeta._id
-    };
-});
-async function getProcesosbyLLaveProceso() {
-    const procesosMap = new Map();
-    const llavesLength = exports.idProcesos.length;
-    console.log(`hay ${llavesLength} llaves`);
-    const errores = [];
-    const noerrores = [];
-    for (const proceso of exports.idProcesos) {
-        const { idProceso } = proceso;
-        const indexOf = exports.idProcesos.indexOf(proceso);
-        try {
-            const request = await fetch(`https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${idProceso}`);
-            console.log(request.headers);
-            fs.writeFile(`carpetas/${indexOf}headers.json`, JSON.stringify(request.headers));
-            const json = await request.json();
-            fs.writeFile(`carpetas/${indexOf}json.json`, JSON.stringify(json));
-            noerrores.push(json);
+async function fetchActuaciones(idProceso, index) {
+    try {
+        await (0, fix_1.sleep)(index);
+        const request = await fetch(`https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${idProceso}`);
+        if (!request.ok) {
+            const json = (await request.json());
+            throw new Error(` status: ${request.status}, text: ${request.statusText}, json: ${JSON.stringify(json)}`);
         }
-        catch (error) {
-            errores.push(error);
-            if (error instanceof Error) {
-                fs.writeFile(`carpetas/${indexOf}nameError.json`, JSON.stringify(error.name));
-                fs.writeFile(`carpetas/${indexOf}messageError.json`, JSON.stringify(error.message));
-                console.log(`${idProceso}: error en la conexion network del fetchActuaciones => ${error.name} : ${error.message}`);
-            }
-            fs.writeFile(`carpetas/${indexOf}error.json`, `${JSON.stringify(error)}`);
-            console.log(`${idProceso}: : error en la conexion network del fetchActuaciones  =>  ${error}`);
-        }
+        const json = (await request.json());
+        return json;
     }
-    console.log(errores);
-    fs.writeFile('errores.json', JSON.stringify(errores));
-    console.log(noerrores);
-    fs.writeFile('noerrores.json', JSON.stringify(noerrores));
-    const procesosArray = Array.from(procesosMap.values());
-    fs.writeFile('procesosArray.json', JSON.stringify(procesosArray));
-    return procesosArray;
+    catch (error) {
+        if (error instanceof Error) {
+            console.log(`${idProceso}: error en la fetchActuaciones => ${error.name} : ${error.message}`);
+            return null;
+        }
+        console.log(`${idProceso}: : error en la  fetchActuaciones  =>  ${error}`);
+        return null;
+    }
 }
-exports.getProcesosbyLLaveProceso = getProcesosbyLLaveProceso;
-getProcesosbyLLaveProceso();
+exports.fetchActuaciones = fetchActuaciones;
+async function CarpetasFetcher() {
+    const carpetasActuacionesMap = new Map();
+    const archivoCarpetas = await fs.readFile('./carpetas.json', 'utf-8');
+    console.log(archivoCarpetas);
+    const Carpetas = (JSON.parse(archivoCarpetas));
+    for (const carpeta of Carpetas) {
+        const indexOfCarpeta = Carpetas.indexOf(carpeta);
+        console.log(indexOfCarpeta);
+        if (!carpeta.idProcesos) {
+            continue;
+        }
+        for (const idProceso of carpeta.idProcesos) {
+            const actuaciones = await fetchActuaciones(idProceso, indexOfCarpeta);
+            if (!actuaciones) {
+                continue;
+            }
+            carpetasActuacionesMap.set(idProceso, actuaciones);
+        }
+        continue;
+    }
+    const ReturnerArray = Array.from(carpetasActuacionesMap.values());
+    fs.writeFile('./Actuaciones.json', JSON.stringify(ReturnerArray));
+    return ReturnerArray;
+}
+exports.CarpetasFetcher = CarpetasFetcher;
+CarpetasFetcher();

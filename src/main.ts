@@ -1,6 +1,6 @@
 import { insertNewCarpetas } from '.';
 import Carpetas from './data/carpetas-raw';
-import { categoryAssignment } from './data/categories';
+import { categoryAssignment } from './models/categories';
 import { Carpeta } from './models/carpeta';
 import fetchProceso, { sleep } from './procesos';
 import { IntCarpeta } from './types/carpetas';
