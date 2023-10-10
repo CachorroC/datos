@@ -776,7 +776,9 @@
         "2020087484 // 4594250317705437 //5303723260933890"
       ],
       "radicado": "2020 - 00535",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400304220200053500",
       "juzgados": [
         {
@@ -815,7 +817,9 @@
         65886140334, 4594260446916180
       ],
       "radicado": "2020-1021",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400306820200102100",
       "juzgados": [
         {
@@ -2358,7 +2362,9 @@
       "municipio": null,
       "obligacion": [],
       "radicado": null,
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": null,
       "juzgados": null
     }
@@ -2564,7 +2570,9 @@
       "municipio": "ANAPOIMA",
       "obligacion": [3840082880],
       "radicado": "2017 - 00108",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "25035408900120170010800",
       "juzgados": []
     }
@@ -2690,7 +2698,9 @@
         "4513080225477441//5303720124048311"
       ],
       "radicado": "2017-00760",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400304220170076000",
       "juzgados": [
         {
@@ -5291,7 +5301,9 @@
         377814085773793, 4513070445120640
       ],
       "radicado": "2020 - 00289",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "2589940010020200028900",
       "juzgados": null
     }
@@ -6168,7 +6180,9 @@
       "municipio": "BOGOTA",
       "obligacion": [2450966],
       "radicado": "2017 - 00654",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400307220170065400",
       "juzgados": [
         {
@@ -6846,7 +6860,9 @@
         "4513074699689599//5303710402241209"
       ],
       "radicado": "2017 - 00903",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400306520170090300",
       "juzgados": [
         {
@@ -7455,7 +7471,9 @@
         "4513072329336110//5303713387599294"
       ],
       "radicado": "2017 - 00512",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400302820170051200",
       "juzgados": [
         {
@@ -8585,7 +8603,9 @@
         2500083807
       ],
       "radicado": "2018 - 00406",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400303120180040600",
       "juzgados": [
         {
@@ -8822,7 +8842,9 @@
       "municipio": "BOGOTA",
       "obligacion": [20990137187],
       "radicado": "2016 - 00319",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400308520160031900",
       "juzgados": [
         {
@@ -9697,7 +9719,9 @@
       "municipio": "BOGOTA",
       "obligacion": [153313, 377815399826276],
       "radicado": "2017 - 01180",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400303320170118000",
       "juzgados": [
         {
@@ -9742,7 +9766,9 @@
         "4513075306389036 // 5303715369427808"
       ],
       "radicado": "2017 - 00762",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "25754418900320170076200",
       "juzgados": []
     }
@@ -9896,7 +9922,9 @@
       "municipio": "BOGOTA",
       "obligacion": [377815132099546],
       "radicado": "2017 - 01153",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400306420170115300",
       "juzgados": [
         {
@@ -9975,7 +10003,9 @@
         5303711546384996
       ],
       "radicado": "2017 - 01051",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400306820170105100",
       "juzgados": [
         {
@@ -10017,7 +10047,9 @@
       "municipio": "BOGOTA",
       "obligacion": [130201],
       "radicado": "2017 - 00950",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400301220170095000",
       "juzgados": [
         {
@@ -10277,7 +10309,9 @@
       "municipio": "BOGOTA",
       "obligacion": [146579],
       "radicado": "2017 - 00793",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400306120170079300",
       "juzgados": [
         {
@@ -10393,7 +10427,9 @@
       "municipio": "FUNZA",
       "obligacion": [20990186969],
       "radicado": "2017 - 00742",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "25286310300120170074200",
       "juzgados": []
     }
@@ -10765,7 +10801,9 @@
         337815690656158
       ],
       "radicado": "2017 - 01135",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400307320170113500",
       "juzgados": [
         {
@@ -10843,7 +10881,9 @@
       "municipio": "SOACHA",
       "obligacion": [179883],
       "radicado": "2017 - 00714",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "25754418900220170071400",
       "juzgados": []
     }
@@ -10944,7 +10984,9 @@
       "municipio": "BOGOTA",
       "obligacion": [],
       "radicado": "2017 - 00889",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400301120170088900",
       "juzgados": [
         {
@@ -11353,7 +11395,9 @@
         4513075095312892, 5303718444914360
       ],
       "radicado": "2017 - 01114",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400301320170111400",
       "juzgados": [
         {
@@ -11812,7 +11856,9 @@
       "municipio": "SOACHA",
       "obligacion": [20990158916],
       "radicado": "2017 - 00283",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "25754400300320170028300",
       "juzgados": []
     }
@@ -12676,7 +12722,9 @@
         "0377813642739792"
       ],
       "radicado": "2017 - 00840",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400300220170084000",
       "juzgados": [
         {
@@ -12918,7 +12966,9 @@
       "municipio": "BOGOTA",
       "obligacion": [141663],
       "radicado": "2017 - 01163",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400301320170116300",
       "juzgados": [
         {
@@ -13079,7 +13129,9 @@
       "municipio": "BOGOTA",
       "obligacion": [141432],
       "radicado": "2017 - 01240",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400306820170124000",
       "juzgados": [
         {
@@ -13240,7 +13292,9 @@
         "5303729008808054 // AUDIOPRESTAMO"
       ],
       "radicado": "2017-01205",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400304320170120500",
       "juzgados": [
         {
@@ -14708,7 +14762,9 @@
       "municipio": "COTA",
       "obligacion": [300093754],
       "radicado": "2017 - 00704",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "25214400300120170070400",
       "juzgados": []
     }
@@ -15921,7 +15977,9 @@
       "municipio": "BOGOTA",
       "obligacion": [],
       "radicado": "2017 - 00760",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400308020170076000",
       "juzgados": []
     }
@@ -15998,7 +16056,9 @@
       "municipio": "BOGOTA",
       "obligacion": [43945, 80517],
       "radicado": "2017 - 01369",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400301220170136900",
       "juzgados": [
         {
@@ -16626,7 +16686,9 @@
         "AUDIOPRESTAMO"
       ],
       "radicado": "2017 - 01525",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400303920170152500",
       "juzgados": []
     }
@@ -17424,7 +17486,9 @@
         4513087158442953, 5306966000650228
       ],
       "radicado": "2018 - 00005",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "25599400300120180000500",
       "juzgados": []
     }
@@ -17988,7 +18052,9 @@
       "municipio": "BOGOTA",
       "obligacion": [],
       "radicado": "2018 - 00121",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400307020180012100",
       "juzgados": [
         {
@@ -18069,7 +18135,9 @@
       "municipio": "BOGOTA",
       "obligacion": [377816034306740],
       "radicado": "2018 - 00149",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400303820180014900",
       "juzgados": [
         {
@@ -18833,7 +18901,9 @@
         377816809738564, 451387592504913
       ],
       "radicado": "2018 - 00246",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "25269400300120180024600",
       "juzgados": []
     }
@@ -18900,7 +18970,9 @@
       "municipio": "BOGOTA",
       "obligacion": [4099840209665970],
       "radicado": "2018 - 00617",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400307520180061700",
       "juzgados": []
     }
@@ -19078,7 +19150,9 @@
         "3,77813198955955E+016"
       ],
       "radicado": "2018 - 00476",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400306820180047600",
       "juzgados": [
         {
@@ -19117,7 +19191,9 @@
       "municipio": "BOGOTA",
       "obligacion": [377814411512303],
       "radicado": "2018 - 00520",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400302420180052000",
       "juzgados": [
         {
@@ -19158,7 +19234,9 @@
       "municipio": "BOGOTA",
       "obligacion": [4594250085795500],
       "radicado": "2018 - 00612",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400306520180061200",
       "juzgados": [
         {
@@ -19446,7 +19524,9 @@
         "AUDIOPRESTAMO"
       ],
       "radicado": "2018 - 00756",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400306320180075600",
       "juzgados": [
         {
@@ -19521,7 +19601,9 @@
       "municipio": "BOGOTA",
       "obligacion": [15400866488],
       "radicado": "2018 - 00210",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001418900620180021000",
       "juzgados": []
     }
@@ -19588,7 +19670,9 @@
       "municipio": "BOGOTA",
       "obligacion": [1330085524],
       "radicado": "2018 - 00223",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001408900820180022300",
       "juzgados": []
     }
@@ -19699,7 +19783,9 @@
       "municipio": "BOGOTA",
       "obligacion": ["AUDIOPRESTAMO", 1740087509],
       "radicado": "2018 - 00784",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400301020180078400",
       "juzgados": [
         {
@@ -20015,7 +20101,9 @@
         377813280714347, 4513070073578510
       ],
       "radicado": "2018 - 00711",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400305620180071100",
       "juzgados": [
         {
@@ -20053,7 +20141,9 @@
       "municipio": "FUNZA",
       "obligacion": [5303728778961290],
       "radicado": "2018 - 00841",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "25286400300120180084100",
       "juzgados": []
     }
@@ -20132,7 +20222,9 @@
       "municipio": "BOGOTA",
       "obligacion": ["AUDIOPRESTAMO"],
       "radicado": "2018 - 00835",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400303820180083500",
       "juzgados": [
         {
@@ -20697,7 +20789,9 @@
       "municipio": "SOACHA",
       "obligacion": [],
       "radicado": "2018 - 00855",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "25754418900320180085500",
       "juzgados": []
     }
@@ -20766,7 +20860,9 @@
       "municipio": "BOGOTA",
       "obligacion": ["28.251.567.19"],
       "radicado": "O",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001418901220180064200",
       "juzgados": []
     }
@@ -20840,7 +20936,9 @@
         4594250481433800, 5303720342826530
       ],
       "radicado": "2018 - 00171",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "25785418900120180017100",
       "juzgados": []
     }
@@ -20876,7 +20974,9 @@
       "municipio": "kENNEDY",
       "obligacion": ["AUDIOPRESTAMO"],
       "radicado": "2019 - 00276",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001410375120190027600",
       "juzgados": []
     }
@@ -20909,7 +21009,9 @@
       "municipio": "BOGOTA",
       "obligacion": [20990114419],
       "radicado": "2018 - 00936",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400307120180093600",
       "juzgados": [
         {
@@ -21018,7 +21120,9 @@
         4513074250577090
       ],
       "radicado": "2018 - 00761",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001418900820180076100",
       "juzgados": []
     }
@@ -21051,7 +21155,9 @@
       "municipio": "BOGOTA",
       "obligacion": [2330066914],
       "radicado": "2018 - 00210",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001418900520180021000",
       "juzgados": []
     }
@@ -21220,7 +21326,9 @@
       "municipio": "SESQUILE",
       "obligacion": [3360085515],
       "radicado": "2018 - 00135",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "25736408900120180013500",
       "juzgados": []
     }
@@ -21253,7 +21361,9 @@
       "municipio": "BOGOTA",
       "obligacion": [20990155357],
       "radicado": "2018 - 01817",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001410375120180181700",
       "juzgados": []
     }
@@ -21479,7 +21589,9 @@
         "3360084365 / 3360084819"
       ],
       "radicado": "2018 - 00063",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "25436408900120180006300",
       "juzgados": []
     }
@@ -21863,7 +21975,9 @@
         3778164677886080, 530372013262050
       ],
       "radicado": "2019 - 00190",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001418901420190019000",
       "juzgados": [
         {
@@ -21935,7 +22049,9 @@
         377816507543324, 4513070013675100
       ],
       "radicado": "2019 - 00162",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001418900920190016200",
       "juzgados": []
     }
@@ -22046,7 +22162,9 @@
       "municipio": "BOGOTA",
       "obligacion": [4099830177563670],
       "radicado": "2019 - 00235",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001418901220190023500",
       "juzgados": []
     }
@@ -22536,7 +22654,9 @@
       "municipio": "BOGOTA",
       "obligacion": [],
       "radicado": "SIN NUMERO",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": null,
       "juzgados": null
     }
@@ -22567,7 +22687,9 @@
       "municipio": "SOACHA",
       "obligacion": [],
       "radicado": "2021 - 00153",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "25754400300120210015300",
       "juzgados": []
     }
@@ -22598,7 +22720,9 @@
       "municipio": "BOGOTA",
       "obligacion": [],
       "radicado": "2017 - 01024",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400300820170102400",
       "juzgados": [
         {
@@ -22633,7 +22757,9 @@
       "municipio": "BOGOTA",
       "obligacion": [],
       "radicado": "SIN NUMERO",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": null,
       "juzgados": null
     }
@@ -22664,7 +22790,9 @@
       "municipio": "SOACHA",
       "obligacion": [],
       "radicado": "2019 - 00911",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "25754418900120190091100",
       "juzgados": []
     }
@@ -23131,7 +23259,9 @@
       "municipio": "BOGOTA",
       "obligacion": [182540, "AUDIOPRESTAMO"],
       "radicado": "2017 - 00453",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001310303720170045300",
       "juzgados": [
         {
@@ -23174,7 +23304,9 @@
       "municipio": "BOGOTA",
       "obligacion": [20990135265],
       "radicado": "2017 - 01164",
-      "vencimientoPagare": null,
+      "vencimientoPagare": [
+        "2015-01-01T00:00:00.000Z"
+      ],
       "expediente": "11001400304520170116400",
       "juzgados": [
         {

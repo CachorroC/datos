@@ -6,9 +6,13 @@ import { Despachos } from '../despachos';
 import { intProceso } from '../types/procesos';
 
 function vencimientoPagareFixer(
-  rawVencimientoPagare: string | number
+  rawVencimientoPagare?: string | number
 ) {
-  const stringer = `${ rawVencimientoPagare }`;
+  const stringer = `${
+    rawVencimientoPagare
+      ? rawVencimientoPagare
+      : '2015-01-01'
+  }`;
 
   const pagaresDateSet = new Set<Date>();
 
@@ -238,11 +242,10 @@ export class Demanda implements IntDemanda {
     this.radicado = radicado
       ? `${ radicado }`
       : null;
-    this.vencimientoPagare = vencimientoPagare
-      ? vencimientoPagareFixer(
+    this.vencimientoPagare
+      = vencimientoPagareFixer(
         vencimientoPagare 
-      )
-      : null;
+      );
     this.departamento = departamento
       ? departamento
       : null;

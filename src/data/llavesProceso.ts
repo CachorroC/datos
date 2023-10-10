@@ -1,16 +1,18 @@
 import { intConsultaNumeroRadicacion } from '../types/procesos';
 import Carpetas from './carpetas';
 
-const llaves = Carpetas.map(
-  (
-    carpeta 
-  ) => {
-    return carpeta.llaveProceso.toString();
-  } 
-);
-
 async function fetchProcesosRaw() {
   try {
+    const carps = await Carpetas();
+
+    const llaves = carps.map(
+      (
+        carpeta 
+      ) => {
+        return carpeta.llaveProceso;
+      } 
+    );
+
     const procesosMap = new Map();
 
     for (

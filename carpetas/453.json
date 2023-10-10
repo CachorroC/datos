@@ -25,7 +25,9 @@
     "municipio": "FUNZA",
     "obligacion": [5303728778961290],
     "radicado": "2018 - 00841",
-    "vencimientoPagare": null,
+    "vencimientoPagare": [
+      "2015-01-01T00:00:00.000Z"
+    ],
     "expediente": "25286400300120180084100",
     "juzgados": []
   }
