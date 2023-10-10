@@ -1,1 +1,35 @@
-{"idProcesos":[],"numero":425,"cc":52498444,"llaveProceso":"11001400307520180067400","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"SANDRA","segundoNombre":"RAQUEL LOPEZ","primerApellido":"DE MESA","segundoApellido":"OSES","cedula":52498444,"direccion":"CARRERA 29 No 40 A-53  APTO 604","email":"sandralopezdemesa@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2018-04-25T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2018-05-23T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2018-05-08T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":20990126656},"radicado":"2018 - 00674","vencimientoPagare":["2025-02-24T00:00:00.000Z"],"expediente":"11001400307520180067400","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 425,
+  "cc": 52498444,
+  "llaveProceso": "11001400307520180067400",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "SANDRA",
+    "segundoNombre": "RAQUEL LOPEZ",
+    "primerApellido": "DE MESA",
+    "segundoApellido": "OSES",
+    "cedula": 52498444,
+    "direccion": "CARRERA 29 No 40 A-53  APTO 604",
+    "email": "sandralopezdemesa@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-04-25T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-05-23T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2018-05-08T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [20990126656],
+    "radicado": "2018 - 00674",
+    "vencimientoPagare": [
+      "2025-02-24T00:00:00.000Z"
+    ],
+    "expediente": "11001400307520180067400",
+    "juzgados": []
+  }
+}

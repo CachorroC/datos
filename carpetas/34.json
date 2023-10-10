@@ -1,1 +1,35 @@
-{"idProcesos":[],"numero":34,"cc":1070612757,"llaveProceso":"25307400300320170033000","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"celular":3006308169},"primerNombre":"KAREN","segundoNombre":"JULIETH","primerApellido":"PINZON","segundoApellido":"GUTIERREZ","cedula":1070612757,"direccion":"M 7 TORRE 6 APTO 404 GIRARDOT// CALLE 3 No. 27-01 edificio torr 6 manzana 7 ciudadela Cafam del Sol apto 404","email":"kjpg_11@hotmail.com"},"demanda":{"capitalAdeudado":26815877,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-06-06T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-06-21T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-06-08T00:00:00.000Z","municipio":"GIRARDOT","obligacion":{"A":23595},"radicado":"2017 - 00330","vencimientoPagare":["2036-04-26T00:00:00.000Z"],"expediente":"25307400300320170033000","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 34,
+  "cc": 1070612757,
+  "llaveProceso": "25307400300320170033000",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": { "celular": 3006308169 },
+    "primerNombre": "KAREN",
+    "segundoNombre": "JULIETH",
+    "primerApellido": "PINZON",
+    "segundoApellido": "GUTIERREZ",
+    "cedula": 1070612757,
+    "direccion": "M 7 TORRE 6 APTO 404 GIRARDOT// CALLE 3 No. 27-01 edificio torr 6 manzana 7 ciudadela Cafam del Sol apto 404",
+    "email": "kjpg_11@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 26815877,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-06T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-06-21T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-08T00:00:00.000Z",
+    "municipio": "GIRARDOT",
+    "obligacion": [23595],
+    "radicado": "2017 - 00330",
+    "vencimientoPagare": [
+      "2036-04-26T00:00:00.000Z"
+    ],
+    "expediente": "25307400300320170033000",
+    "juzgados": []
+  }
+}

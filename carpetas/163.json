@@ -1,1 +1,33 @@
-{"idProcesos":[],"numero":163,"cc":71557211,"llaveProceso":"25473418900120170092400","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"CARLOS","segundoNombre":"ARTURO","primerApellido":"RUEDA","segundoApellido":"ALZATE","cedula":71557211,"direccion":"CALLE 7 # 5 - 29 TORRE 8 APTO 303","email":"ruedacarlos47@gmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-04T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-10-06T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-08-28T00:00:00.000Z","municipio":"MOSQUERA","obligacion":{"A":4513082821740149,"B":20990170294},"radicado":"2017 - 00924","vencimientoPagare":[null],"expediente":"25473418900120170092400","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 163,
+  "cc": 71557211,
+  "llaveProceso": "25473418900120170092400",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "CARLOS",
+    "segundoNombre": "ARTURO",
+    "primerApellido": "RUEDA",
+    "segundoApellido": "ALZATE",
+    "cedula": 71557211,
+    "direccion": "CALLE 7 # 5 - 29 TORRE 8 APTO 303",
+    "email": "ruedacarlos47@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-10-06T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "municipio": "MOSQUERA",
+    "obligacion": [4513082821740149, 20990170294],
+    "radicado": "2017 - 00924",
+    "vencimientoPagare": [null],
+    "expediente": "25473418900120170092400",
+    "juzgados": []
+  }
+}

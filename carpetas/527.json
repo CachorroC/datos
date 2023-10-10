@@ -1,1 +1,42 @@
-{"idProcesos":[],"numero":527,"cc":80654935,"llaveProceso":"25286400300120190041800","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":8233553,"celular":3108090708},"primerNombre":"JAIRO","segundoNombre":"MARCELO","primerApellido":"GUIZA","segundoApellido":"RODRIGUEZ","cedula":80654935,"direccion":"CALLE 7A #7A-15 FUNZA","email":"jmarcelo_78@yahoo.com // samvari12@gmail.com"},"demanda":{"capitalAdeudado":29140.667,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":"2019-05-06T05:00:00.000Z","etapaProcesal":"25286400300120190041800","fechaPresentacion":null,"municipio":"FUNZA","obligacion":{"A":"2273 320097153","B":"REF 42796745"},"radicado":"2019 - 00418","vencimientoPagare":["2022-03-01T05:00:00.000Z",null],"expediente":"25286400300120190041800","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 527,
+  "cc": 80654935,
+  "llaveProceso": "25286400300120190041800",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 8233553,
+      "celular": 3108090708
+    },
+    "primerNombre": "JAIRO",
+    "segundoNombre": "MARCELO",
+    "primerApellido": "GUIZA",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": 80654935,
+    "direccion": "CALLE 7A #7A-15 FUNZA",
+    "email": "jmarcelo_78@yahoo.com // samvari12@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 29140.667,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2019-05-06T05:00:00.000Z",
+    "etapaProcesal": "25286400300120190041800",
+    "fechaPresentacion": null,
+    "municipio": "FUNZA",
+    "obligacion": [
+      "2273 320097153",
+      "REF 42796745"
+    ],
+    "radicado": "2019 - 00418",
+    "vencimientoPagare": [
+      "2022-03-01T05:00:00.000Z",
+      null
+    ],
+    "expediente": "25286400300120190041800",
+    "juzgados": []
+  }
+}

@@ -1,1 +1,45 @@
-{"idProcesos":[17942390],"numero":78,"cc":7711481,"llaveProceso":"11001400306420170123100","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{"celular":3158939957},"primerNombre":"JAIME","segundoNombre":"EDISON","primerApellido":"SANTOS","segundoApellido":"MARTIN","cedula":7711481,"direccion":"CALLE 44D # 45 - 45 APTO 904 INT 7U","email":"santosjaime07@yahoo.es"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"ADMISION","fechaPresentacion":"2017-06-20T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":5303729451744848,"B":"0377816394649010"},"radicado":"2017 - 01231","vencimientoPagare":["2016-05-07T05:00:00.000Z",null],"expediente":"11001400306420170123100","juzgados":[{"id":64,"tipo":"JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-064-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [17942390],
+  "numero": 78,
+  "cc": 7711481,
+  "llaveProceso": "11001400306420170123100",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": { "celular": 3158939957 },
+    "primerNombre": "JAIME",
+    "segundoNombre": "EDISON",
+    "primerApellido": "SANTOS",
+    "segundoApellido": "MARTIN",
+    "cedula": 7711481,
+    "direccion": "CALLE 44D # 45 - 45 APTO 904 INT 7U",
+    "email": "santosjaime07@yahoo.es"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      5303729451744848,
+      "0377816394649010"
+    ],
+    "radicado": "2017 - 01231",
+    "vencimientoPagare": [
+      "2016-05-07T05:00:00.000Z",
+      null
+    ],
+    "expediente": "11001400306420170123100",
+    "juzgados": [
+      {
+        "id": 64,
+        "tipo": "JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-064-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

@@ -1,1 +1,34 @@
-{"idProcesos":[],"numero":131,"cc":52830770,"llaveProceso":"25754418900120170077400","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"ROCIO","segundoNombre":"ALEIDA","primerApellido":"ORTIZ","segundoApellido":"BARRETO","cedula":52830770,"email":"CARRERA 9 ESTE # 36 - 40 CASA 34"},"demanda":{"capitalAdeudado":42965,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"42965","fechaPresentacion":"2017-09-05T00:00:00.000Z","municipio":"SOACHA","obligacion":{"B":"16924662,77"},"radicado":"2017 - 00774","vencimientoPagare":["2192-12-15T00:00:00.000Z"],"expediente":"25754418900120170077400","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 131,
+  "cc": 52830770,
+  "llaveProceso": "25754418900120170077400",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ROCIO",
+    "segundoNombre": "ALEIDA",
+    "primerApellido": "ORTIZ",
+    "segundoApellido": "BARRETO",
+    "cedula": 52830770,
+    "email": "CARRERA 9 ESTE # 36 - 40 CASA 34"
+  },
+  "demanda": {
+    "capitalAdeudado": 42965,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "42965",
+    "fechaPresentacion": "2017-09-05T00:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": ["16924662,77"],
+    "radicado": "2017 - 00774",
+    "vencimientoPagare": [
+      "2192-12-15T00:00:00.000Z"
+    ],
+    "expediente": "25754418900120170077400",
+    "juzgados": []
+  }
+}

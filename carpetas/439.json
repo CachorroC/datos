@@ -1,1 +1,34 @@
-{"idProcesos":[],"numero":439,"cc":79812352,"llaveProceso":"25899400300320180055500","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"celular":3123170535},"primerNombre":"MIGUEL","segundoNombre":"ESNEYDER","primerApellido":"DEVIA","segundoApellido":"CEPEDA","cedula":79812352,"direccion":"TRANSVERSAL 78 No 68A-15 SUR"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2018-05-15T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"ADMISION","fechaPresentacion":"2018-05-31T00:00:00.000Z","municipio":"SOACHA","obligacion":{"A":20990165412},"radicado":"2018 - 00555","vencimientoPagare":["2028-06-26T00:00:00.000Z"],"expediente":"25899400300320180055500","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 439,
+  "cc": 79812352,
+  "llaveProceso": "25899400300320180055500",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": { "celular": 3123170535 },
+    "primerNombre": "MIGUEL",
+    "segundoNombre": "ESNEYDER",
+    "primerApellido": "DEVIA",
+    "segundoApellido": "CEPEDA",
+    "cedula": 79812352,
+    "direccion": "TRANSVERSAL 78 No 68A-15 SUR"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-05-15T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-05-31T00:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": [20990165412],
+    "radicado": "2018 - 00555",
+    "vencimientoPagare": [
+      "2028-06-26T00:00:00.000Z"
+    ],
+    "expediente": "25899400300320180055500",
+    "juzgados": []
+  }
+}

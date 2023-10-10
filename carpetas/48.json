@@ -1,1 +1,41 @@
-{"idProcesos":[50746150],"numero":48,"cc":52837630,"llaveProceso":"11001400303520170142500","category":"Terminados","tipoProceso":"PRENDARIO","deudor":{"tel":{},"primerNombre":"JENNY","segundoNombre":"ADRIANA","primerApellido":"PATARROYO","segundoApellido":"TORRES","cedula":52837630,"direccion":"CARRERA  39 B No  27 A - 40 SUR","email":"jennyadrianapt@gmail.com"},"demanda":{"capitalAdeudado":28468.389,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-18T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-09-26T00:00:00.000Z","etapaProcesal":"11001400303520170142500","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":12549338},"radicado":"2017 - 01425","vencimientoPagare":["2017-09-12T00:00:00.000Z"],"expediente":"11001400303520170142500","juzgados":[{"id":18,"tipo":"JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50746150],
+  "numero": 48,
+  "cc": 52837630,
+  "llaveProceso": "11001400303520170142500",
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JENNY",
+    "segundoNombre": "ADRIANA",
+    "primerApellido": "PATARROYO",
+    "segundoApellido": "TORRES",
+    "cedula": 52837630,
+    "direccion": "CARRERA  39 B No  27 A - 40 SUR",
+    "email": "jennyadrianapt@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 28468.389,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-26T00:00:00.000Z",
+    "etapaProcesal": "11001400303520170142500",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [12549338],
+    "radicado": "2017 - 01425",
+    "vencimientoPagare": [
+      "2017-09-12T00:00:00.000Z"
+    ],
+    "expediente": "11001400303520170142500",
+    "juzgados": [
+      {
+        "id": 18,
+        "tipo": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

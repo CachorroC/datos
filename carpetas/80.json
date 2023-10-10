@@ -1,1 +1,35 @@
-{"idProcesos":[],"numero":80,"cc":79882688,"llaveProceso":"25817418900120170035100","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"JORGE","segundoNombre":"ANDRES","primerApellido":"PORRAS","segundoApellido":"VARGAS","cedula":79882688,"direccion":"CALLE 11 # 4 - 39 TOCANCIPA","email":"joranpo@hotmail.com"},"demanda":{"capitalAdeudado":16208.319,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-06-22T00:00:00.000Z","etapaProcesal":"25817408900120170035100","fechaPresentacion":null,"municipio":"TOCANCIPA","obligacion":{"A":377816861734105},"radicado":"2017 - 00351","vencimientoPagare":["2019-09-01T00:00:00.000Z"],"expediente":"25817418900120170035100","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 80,
+  "cc": 79882688,
+  "llaveProceso": "25817418900120170035100",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JORGE",
+    "segundoNombre": "ANDRES",
+    "primerApellido": "PORRAS",
+    "segundoApellido": "VARGAS",
+    "cedula": 79882688,
+    "direccion": "CALLE 11 # 4 - 39 TOCANCIPA",
+    "email": "joranpo@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 16208.319,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-06-22T00:00:00.000Z",
+    "etapaProcesal": "25817408900120170035100",
+    "fechaPresentacion": null,
+    "municipio": "TOCANCIPA",
+    "obligacion": [377816861734105],
+    "radicado": "2017 - 00351",
+    "vencimientoPagare": [
+      "2019-09-01T00:00:00.000Z"
+    ],
+    "expediente": "25817418900120170035100",
+    "juzgados": []
+  }
+}

@@ -1,1 +1,38 @@
-{"idProcesos":[],"numero":161,"cc":79335809,"llaveProceso":"25286310300120170095600","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":3153808,"celular":3153808376},"primerNombre":"RICARDO","segundoNombre":"ALBERTO","primerApellido":"BELTRAN","segundoApellido":"HERNANDEZ","cedula":79335809,"direccion":"CALLE 23 # 5 - 23 CASA 4 INT 10","email":"norina@reservalaboral.com.co"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-24T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":"2017-08-31T00:00:00.000Z","municipio":"MOSQUERA","obligacion":{"A":169486},"radicado":"2017 - 00956","vencimientoPagare":["2033-10-31T00:00:00.000Z"],"expediente":"25286310300120170095600","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 161,
+  "cc": 79335809,
+  "llaveProceso": "25286310300120170095600",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 3153808,
+      "celular": 3153808376
+    },
+    "primerNombre": "RICARDO",
+    "segundoNombre": "ALBERTO",
+    "primerApellido": "BELTRAN",
+    "segundoApellido": "HERNANDEZ",
+    "cedula": 79335809,
+    "direccion": "CALLE 23 # 5 - 23 CASA 4 INT 10",
+    "email": "norina@reservalaboral.com.co"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": "2017-08-31T00:00:00.000Z",
+    "municipio": "MOSQUERA",
+    "obligacion": [169486],
+    "radicado": "2017 - 00956",
+    "vencimientoPagare": [
+      "2033-10-31T00:00:00.000Z"
+    ],
+    "expediente": "25286310300120170095600",
+    "juzgados": []
+  }
+}

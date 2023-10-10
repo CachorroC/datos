@@ -1,1 +1,35 @@
-{"idProcesos":[],"numero":511,"cc":52851677,"llaveProceso":"25754400300220180041600","category":"Terminados","tipoProceso":"SOACHA","deudor":{"tel":{},"primerNombre":"DIANA","segundoNombre":"MARJORIE","primerApellido":"ROMERO","segundoApellido":"MONTOYA","cedula":52851677,"direccion":"CARRRA 102 No 69-22","email":"dhyanitaco@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":null,"municipio":"SOACHA","obligacion":{"A":20990201453},"radicado":"2018 - 00416","vencimientoPagare":["2018-12-04T05:00:00.000Z"],"expediente":"25754400300220180041600","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 511,
+  "cc": 52851677,
+  "llaveProceso": "25754400300220180041600",
+  "category": "Terminados",
+  "tipoProceso": "SOACHA",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "DIANA",
+    "segundoNombre": "MARJORIE",
+    "primerApellido": "ROMERO",
+    "segundoApellido": "MONTOYA",
+    "cedula": 52851677,
+    "direccion": "CARRRA 102 No 69-22",
+    "email": "dhyanitaco@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": [20990201453],
+    "radicado": "2018 - 00416",
+    "vencimientoPagare": [
+      "2018-12-04T05:00:00.000Z"
+    ],
+    "expediente": "25754400300220180041600",
+    "juzgados": []
+  }
+}

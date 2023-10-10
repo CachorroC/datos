@@ -1,1 +1,40 @@
-{"idProcesos":[51205750],"numero":435,"cc":1012341563,"llaveProceso":"11001400301620180057300","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"MARIBEL","primerApellido":"REVELO","segundoApellido":"QUIROGA","cedula":1012341563,"direccion":"CALLE 62A SUR-No 73C-21 T 1 APTO 202","email":"marysqs@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2018-05-16T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"ADMISION","fechaPresentacion":"2018-05-22T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":20990131392},"radicado":"2018 - 00573","vencimientoPagare":["2025-08-18T00:00:00.000Z"],"expediente":"11001400301620180057300","juzgados":[{"id":16,"tipo":"JUZGADO 016 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-016-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [51205750],
+  "numero": 435,
+  "cc": 1012341563,
+  "llaveProceso": "11001400301620180057300",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "MARIBEL",
+    "primerApellido": "REVELO",
+    "segundoApellido": "QUIROGA",
+    "cedula": 1012341563,
+    "direccion": "CALLE 62A SUR-No 73C-21 T 1 APTO 202",
+    "email": "marysqs@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-05-16T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-05-22T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [20990131392],
+    "radicado": "2018 - 00573",
+    "vencimientoPagare": [
+      "2025-08-18T00:00:00.000Z"
+    ],
+    "expediente": "11001400301620180057300",
+    "juzgados": [
+      {
+        "id": 16,
+        "tipo": "JUZGADO 016 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-016-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

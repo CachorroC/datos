@@ -1,1 +1,39 @@
-{"idProcesos":[51342910],"numero":465,"cc":79789409,"llaveProceso":"11001400307720180085400","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"GIOVANNY","primerApellido":"DURAN","segundoApellido":"ANTONIO","cedula":79789409,"direccion":"CALLE 105 SUR No 2-22 ESTE"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2018-07-29T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"ADMISION","fechaPresentacion":"2018-07-31T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":209900149557,"B":377815750421170},"radicado":"2018 - 00854","vencimientoPagare":["2027-03-02T00:00:00.000Z"],"expediente":"11001400307720180085400","juzgados":[{"id":77,"tipo":"JUZGADO 077 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-077-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [51342910],
+  "numero": 465,
+  "cc": 79789409,
+  "llaveProceso": "11001400307720180085400",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "GIOVANNY",
+    "primerApellido": "DURAN",
+    "segundoApellido": "ANTONIO",
+    "cedula": 79789409,
+    "direccion": "CALLE 105 SUR No 2-22 ESTE"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-07-29T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-07-31T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [209900149557, 377815750421170],
+    "radicado": "2018 - 00854",
+    "vencimientoPagare": [
+      "2027-03-02T00:00:00.000Z"
+    ],
+    "expediente": "11001400307720180085400",
+    "juzgados": [
+      {
+        "id": 77,
+        "tipo": "JUZGADO 077 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-077-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

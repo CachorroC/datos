@@ -1,1 +1,39 @@
-{"idProcesos":[9093813],"numero":455,"cc":52434815,"llaveProceso":"11001400303820180083500","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"YENNY","segundoNombre":"MARCELA","primerApellido":"GOMEZ","segundoApellido":"OLARTE","cedula":52434815,"direccion":"CALLE 43 SUR No 51F-23 PISO 2","email":"yemargol@yahoo.es"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2018-06-29T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2018-08-02T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2018-07-06T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":"AUDIOPRESTAMO"},"radicado":"2018 - 00835","vencimientoPagare":null,"expediente":"11001400303820180083500","juzgados":[{"id":38,"tipo":"JUZGADO 038 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-038-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [9093813],
+  "numero": 455,
+  "cc": 52434815,
+  "llaveProceso": "11001400303820180083500",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "YENNY",
+    "segundoNombre": "MARCELA",
+    "primerApellido": "GOMEZ",
+    "segundoApellido": "OLARTE",
+    "cedula": 52434815,
+    "direccion": "CALLE 43 SUR No 51F-23 PISO 2",
+    "email": "yemargol@yahoo.es"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-06-29T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-08-02T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2018-07-06T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": ["AUDIOPRESTAMO"],
+    "radicado": "2018 - 00835",
+    "vencimientoPagare": null,
+    "expediente": "11001400303820180083500",
+    "juzgados": [
+      {
+        "id": 38,
+        "tipo": "JUZGADO 038 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-038-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

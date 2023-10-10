@@ -1,1 +1,35 @@
-{"numero":404,"cc":1013586083,"llaveProceso":"257544189003201800177","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":2035780,"celular":3102259717},"primerNombre":"CESAR","segundoNombre":"AUGUSTO","primerApellido":"PINEDA","segundoApellido":"RIOS","cedula":1013586083,"direccion":"DIAGONAL 18 B No 44-24","email":"cesar.rios_30@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"SENTENCIA","fechaPresentacion":null,"municipio":"SOACHA","obligacion":{"A":167362},"radicado":"2018 - 00177","vencimientoPagare":[null],"expediente":"257544189003201800177","juzgados":null}}
+{
+  "numero": 404,
+  "cc": 1013586083,
+  "llaveProceso": "257544189003201800177",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 2035780,
+      "celular": 3102259717
+    },
+    "primerNombre": "CESAR",
+    "segundoNombre": "AUGUSTO",
+    "primerApellido": "PINEDA",
+    "segundoApellido": "RIOS",
+    "cedula": 1013586083,
+    "direccion": "DIAGONAL 18 B No 44-24",
+    "email": "cesar.rios_30@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": [167362],
+    "radicado": "2018 - 00177",
+    "vencimientoPagare": [null],
+    "expediente": "257544189003201800177",
+    "juzgados": null
+  }
+}

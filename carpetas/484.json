@@ -1,1 +1,32 @@
-{"idProcesos":[],"numero":484,"cc":30339083,"llaveProceso":"25754418900320190027000","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"JENNY","segundoNombre":"","primerApellido":"ANDREA","segundoApellido":"AVILA GARZON","cedula":30339083,"direccion":"CARRERA 7A No  2-94 SUR"},"demanda":{"capitalAdeudado":26503.795,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2018-06-09T05:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"25754418900320190027000","fechaPresentacion":null,"municipio":"SOACHA","obligacion":{"A":20990157739},"radicado":"2019 - 00270","vencimientoPagare":[null],"expediente":"25754418900320190027000","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 484,
+  "cc": 30339083,
+  "llaveProceso": "25754418900320190027000",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JENNY",
+    "segundoNombre": "",
+    "primerApellido": "ANDREA",
+    "segundoApellido": "AVILA GARZON",
+    "cedula": 30339083,
+    "direccion": "CARRERA 7A No  2-94 SUR"
+  },
+  "demanda": {
+    "capitalAdeudado": 26503.795,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-06-09T05:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "25754418900320190027000",
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": [20990157739],
+    "radicado": "2019 - 00270",
+    "vencimientoPagare": [null],
+    "expediente": "25754418900320190027000",
+    "juzgados": []
+  }
+}

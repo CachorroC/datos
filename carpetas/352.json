@@ -1,1 +1,45 @@
-{"idProcesos":[51499790,81847081],"numero":352,"cc":71992491,"llaveProceso":"11001400307620170101600","category":"Reintegra","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"MARIO","segundoNombre":"DE","primerApellido":"JESUS","segundoApellido":"OSSA PULGARIN","cedula":71992491,"direccion":"TRANSVERSAL 2 C BIS No 97 B-05 SUR"},"demanda":{"capitalAdeudado":11853.652,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-29T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-10-25T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-10-17T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":4280023383},"radicado":"2017 - 01016","vencimientoPagare":["2019-05-20T00:00:00.000Z"],"expediente":"11001400307620170101600","juzgados":[{"id":17,"tipo":"JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"},{"id":76,"tipo":"JUZGADO 076 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-76-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [51499790, 81847081],
+  "numero": 352,
+  "cc": 71992491,
+  "llaveProceso": "11001400307620170101600",
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "MARIO",
+    "segundoNombre": "DE",
+    "primerApellido": "JESUS",
+    "segundoApellido": "OSSA PULGARIN",
+    "cedula": 71992491,
+    "direccion": "TRANSVERSAL 2 C BIS No 97 B-05 SUR"
+  },
+  "demanda": {
+    "capitalAdeudado": 11853.652,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-29T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-10-25T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-10-17T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [4280023383],
+    "radicado": "2017 - 01016",
+    "vencimientoPagare": [
+      "2019-05-20T00:00:00.000Z"
+    ],
+    "expediente": "11001400307620170101600",
+    "juzgados": [
+      {
+        "id": 17,
+        "tipo": "JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"
+      },
+      {
+        "id": 76,
+        "tipo": "JUZGADO 076 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-76-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

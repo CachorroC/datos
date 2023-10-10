@@ -1,1 +1,49 @@
-{"idProcesos":[50687430],"numero":249,"cc":19069228,"llaveProceso":"11001400301620170087500","category":"Reintegra","tipoProceso":"SINGULAR","deudor":{"tel":{"fijo":6701643,"celular":3134749213},"primerNombre":"JORGE","segundoNombre":"ALBERTO","primerApellido":"MARTINEZ","segundoApellido":"BENDEK","cedula":19069228,"direccion":"CARRERA 15 # 188 - 39","email":"jorgemar24@gmail.com"},"demanda":{"capitalAdeudado":44933.312,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-23T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-09-11T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-09-04T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":377813517259835,"B":"377814405234039 // 45130727777594186 // 5491572487025564 // AUDIOPRESTAMO"},"radicado":"2017 - 00875","vencimientoPagare":[null,"2020-05-05T05:00:00.000Z",null],"expediente":"11001400301620170087500","juzgados":[{"id":18,"tipo":"JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50687430],
+  "numero": 249,
+  "cc": 19069228,
+  "llaveProceso": "11001400301620170087500",
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 6701643,
+      "celular": 3134749213
+    },
+    "primerNombre": "JORGE",
+    "segundoNombre": "ALBERTO",
+    "primerApellido": "MARTINEZ",
+    "segundoApellido": "BENDEK",
+    "cedula": 19069228,
+    "direccion": "CARRERA 15 # 188 - 39",
+    "email": "jorgemar24@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 44933.312,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-11T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      377813517259835,
+      "377814405234039 // 45130727777594186 // 5491572487025564 // AUDIOPRESTAMO"
+    ],
+    "radicado": "2017 - 00875",
+    "vencimientoPagare": [
+      null,
+      "2020-05-05T05:00:00.000Z",
+      null
+    ],
+    "expediente": "11001400301620170087500",
+    "juzgados": [
+      {
+        "id": 18,
+        "tipo": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

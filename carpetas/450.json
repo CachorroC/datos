@@ -1,1 +1,41 @@
-{"idProcesos":[51571520],"numero":450,"cc":53133179,"llaveProceso":"11001400307820180064700","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"KELLY","segundoNombre":"YOHANNA","primerApellido":"MURCIA","segundoApellido":"DUCON","cedula":53133179,"direccion":"CALLE 63 SUR No 78 J-38 TORRE 4 APTO 603","email":"kellyohamd@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2018-06-19T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2018-04-07T05:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2018-06-26T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":20990160362},"radicado":"2018 - 00647","vencimientoPagare":["2021-01-22T00:00:00.000Z"],"expediente":"11001400307820180064700","juzgados":[{"id":78,"tipo":"JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-78-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [51571520],
+  "numero": 450,
+  "cc": 53133179,
+  "llaveProceso": "11001400307820180064700",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "KELLY",
+    "segundoNombre": "YOHANNA",
+    "primerApellido": "MURCIA",
+    "segundoApellido": "DUCON",
+    "cedula": 53133179,
+    "direccion": "CALLE 63 SUR No 78 J-38 TORRE 4 APTO 603",
+    "email": "kellyohamd@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-06-19T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-04-07T05:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2018-06-26T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [20990160362],
+    "radicado": "2018 - 00647",
+    "vencimientoPagare": [
+      "2021-01-22T00:00:00.000Z"
+    ],
+    "expediente": "11001400307820180064700",
+    "juzgados": [
+      {
+        "id": 78,
+        "tipo": "JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-78-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

@@ -1,1 +1,39 @@
-{"idProcesos":[50907660],"numero":321,"cc":52391771,"llaveProceso":"11001400301620170136700","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"ADELA","primerApellido":"BARAJAS","segundoApellido":"MORENO","cedula":52391771,"direccion":"TRANSVERSAL 78 B No 6 B - 20 APARTAMENTO 101"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-11-02T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"NOTIFICACION","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":2150091479},"radicado":"2017 - 01367","vencimientoPagare":["2018-09-21T00:00:00.000Z"],"expediente":"11001400301620170136700","juzgados":[{"id":9,"tipo":"JUZGADO 009 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-09-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50907660],
+  "numero": 321,
+  "cc": 52391771,
+  "llaveProceso": "11001400301620170136700",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ADELA",
+    "primerApellido": "BARAJAS",
+    "segundoApellido": "MORENO",
+    "cedula": 52391771,
+    "direccion": "TRANSVERSAL 78 B No 6 B - 20 APARTAMENTO 101"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-11-02T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [2150091479],
+    "radicado": "2017 - 01367",
+    "vencimientoPagare": [
+      "2018-09-21T00:00:00.000Z"
+    ],
+    "expediente": "11001400301620170136700",
+    "juzgados": [
+      {
+        "id": 9,
+        "tipo": "JUZGADO 009 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-09-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

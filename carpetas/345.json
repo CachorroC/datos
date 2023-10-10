@@ -1,1 +1,44 @@
-{"idProcesos":[50866270],"numero":345,"cc":51974282,"llaveProceso":"11001400304520170147600","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{"fijo":7216691,"celular":3204900530},"primerNombre":"SANDRA","segundoNombre":"JEANNETTE","primerApellido":"PRADA","segundoApellido":"GUTIERREZ","cedula":51974282,"direccion":"CALLE 128 C No 45 - 08 INTERIOR 22","email":"sjpradag@yahoo.es"},"demanda":{"capitalAdeudado":12944.433,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-11-15T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-11-22T00:00:00.000Z","etapaProcesal":"11001400304520170147600","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":2290097439},"radicado":"2017 - 01476","vencimientoPagare":["2019-06-05T00:00:00.000Z"],"expediente":"11001400304520170147600","juzgados":[{"id":1,"tipo":"JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50866270],
+  "numero": 345,
+  "cc": 51974282,
+  "llaveProceso": "11001400304520170147600",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 7216691,
+      "celular": 3204900530
+    },
+    "primerNombre": "SANDRA",
+    "segundoNombre": "JEANNETTE",
+    "primerApellido": "PRADA",
+    "segundoApellido": "GUTIERREZ",
+    "cedula": 51974282,
+    "direccion": "CALLE 128 C No 45 - 08 INTERIOR 22",
+    "email": "sjpradag@yahoo.es"
+  },
+  "demanda": {
+    "capitalAdeudado": 12944.433,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-11-15T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-11-22T00:00:00.000Z",
+    "etapaProcesal": "11001400304520170147600",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [2290097439],
+    "radicado": "2017 - 01476",
+    "vencimientoPagare": [
+      "2019-06-05T00:00:00.000Z"
+    ],
+    "expediente": "11001400304520170147600",
+    "juzgados": [
+      {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

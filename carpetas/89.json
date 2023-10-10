@@ -1,1 +1,41 @@
-{"idProcesos":[18162740],"numero":89,"cc":1030551366,"llaveProceso":"11001400306520170093400","category":"Terminados","tipoProceso":"PRENDARIO","deudor":{"tel":{},"primerNombre":"JULIAN","segundoNombre":"ARMANDO","primerApellido":"ACOSTA","segundoApellido":"RODRIGUEZ","cedula":1030551366,"direccion":"CARRERA 78P BIS # 33A - 91 SUR","email":"jvargas88@hotmail.com"},"demanda":{"capitalAdeudado":8451598,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"ADMISION","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":12431049},"radicado":"2017 - 00615","vencimientoPagare":["2017-06-09T00:00:00.000Z"],"expediente":"11001400306520170093400","juzgados":[{"id":65,"tipo":"JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-65-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [18162740],
+  "numero": 89,
+  "cc": 1030551366,
+  "llaveProceso": "11001400306520170093400",
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JULIAN",
+    "segundoNombre": "ARMANDO",
+    "primerApellido": "ACOSTA",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": 1030551366,
+    "direccion": "CARRERA 78P BIS # 33A - 91 SUR",
+    "email": "jvargas88@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 8451598,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [12431049],
+    "radicado": "2017 - 00615",
+    "vencimientoPagare": [
+      "2017-06-09T00:00:00.000Z"
+    ],
+    "expediente": "11001400306520170093400",
+    "juzgados": [
+      {
+        "id": 65,
+        "tipo": "JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-65-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

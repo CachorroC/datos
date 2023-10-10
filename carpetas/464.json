@@ -1,1 +1,33 @@
-{"idProcesos":[],"numero":464,"cc":51944991,"llaveProceso":"25754418900220180066400","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"RICARDO","segundoNombre":"ARMANDO","primerApellido":"CELIS","segundoApellido":"ANGEL","cedula":51944991,"direccion":"51944991","email":"TRANSVERSAL 4B No 3-75   CASA 44"},"demanda":{"capitalAdeudado":43293,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":null,"municipio":"SOACHA","obligacion":{"B":"19.080.628.51"},"radicado":"2018 - 00664","vencimientoPagare":[null],"expediente":"25754418900220180066400","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 464,
+  "cc": 51944991,
+  "llaveProceso": "25754418900220180066400",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "RICARDO",
+    "segundoNombre": "ARMANDO",
+    "primerApellido": "CELIS",
+    "segundoApellido": "ANGEL",
+    "cedula": 51944991,
+    "direccion": "51944991",
+    "email": "TRANSVERSAL 4B No 3-75   CASA 44"
+  },
+  "demanda": {
+    "capitalAdeudado": 43293,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": ["19.080.628.51"],
+    "radicado": "2018 - 00664",
+    "vencimientoPagare": [null],
+    "expediente": "25754418900220180066400",
+    "juzgados": []
+  }
+}

@@ -1,1 +1,35 @@
-{"idProcesos":[],"numero":259,"cc":52770471,"llaveProceso":"11001400303920170125600","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"LUZ","segundoNombre":"NELLY","primerApellido":"RUIZ","segundoApellido":"LARA","cedula":52770471,"direccion":"CARRERA 87 F - No 26-74 SUR","email":"nelly_ruiz1980@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-13T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-11-01T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-09-21T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":153884},"radicado":"2017 - 01256","vencimientoPagare":["2017-04-23T00:00:00.000Z"],"expediente":"11001400303920170125600","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 259,
+  "cc": 52770471,
+  "llaveProceso": "11001400303920170125600",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "LUZ",
+    "segundoNombre": "NELLY",
+    "primerApellido": "RUIZ",
+    "segundoApellido": "LARA",
+    "cedula": 52770471,
+    "direccion": "CARRERA 87 F - No 26-74 SUR",
+    "email": "nelly_ruiz1980@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-13T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-11-01T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-21T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [153884],
+    "radicado": "2017 - 01256",
+    "vencimientoPagare": [
+      "2017-04-23T00:00:00.000Z"
+    ],
+    "expediente": "11001400303920170125600",
+    "juzgados": []
+  }
+}

@@ -1,1 +1,47 @@
-{"idProcesos":[128433271],"numero":201,"cc":51733931,"llaveProceso":"11001400307920170114200","category":"Insolvencia","tipoProceso":"SINGULAR","deudor":{"tel":{"fijo":6256456,"celular":3108711046},"primerNombre":"PIEDAD","segundoNombre":"MARITZA OLGA","primerApellido":"ROCIO PRIETO","segundoApellido":"VARGAS","cedula":51733931,"direccion":"CALLE 127D # 21 - 80 APTO 105","email":"sebantialbeltransprieto@hotmail.com"},"demanda":{"capitalAdeudado":27602.952,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-23T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-09-04T00:00:00.000Z","etapaProcesal":"11001400307920170114200","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":377816483778266,"B":4513080485378479},"radicado":"2017 - 01142","vencimientoPagare":[null,"2020-06-03T05:00:00.000Z"],"expediente":"11001400307920170114200","juzgados":[{"id":40,"tipo":"JUZGADO 040 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-40-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [128433271],
+  "numero": 201,
+  "cc": 51733931,
+  "llaveProceso": "11001400307920170114200",
+  "category": "Insolvencia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 6256456,
+      "celular": 3108711046
+    },
+    "primerNombre": "PIEDAD",
+    "segundoNombre": "MARITZA OLGA",
+    "primerApellido": "ROCIO PRIETO",
+    "segundoApellido": "VARGAS",
+    "cedula": 51733931,
+    "direccion": "CALLE 127D # 21 - 80 APTO 105",
+    "email": "sebantialbeltransprieto@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 27602.952,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-04T00:00:00.000Z",
+    "etapaProcesal": "11001400307920170114200",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      377816483778266, 4513080485378479
+    ],
+    "radicado": "2017 - 01142",
+    "vencimientoPagare": [
+      null,
+      "2020-06-03T05:00:00.000Z"
+    ],
+    "expediente": "11001400307920170114200",
+    "juzgados": [
+      {
+        "id": 40,
+        "tipo": "JUZGADO 040 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-40-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

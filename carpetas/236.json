@@ -1,1 +1,37 @@
-{"idProcesos":[],"numero":236,"cc":3165933,"llaveProceso":"11001400308520170136200","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":7191321,"celular":3123836799},"primerNombre":"RIGOBERTO","primerApellido":"MORENO","segundoApellido":"OLAYA","cedula":3165933,"direccion":"CARRERA 81 F 71F 56","email":"rigoberto-moreno20@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-06T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-09-21T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-09-18T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":159497},"radicado":"2017 - 01362","vencimientoPagare":["2032-12-21T00:00:00.000Z"],"expediente":"11001400308520170136200","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 236,
+  "cc": 3165933,
+  "llaveProceso": "11001400308520170136200",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 7191321,
+      "celular": 3123836799
+    },
+    "primerNombre": "RIGOBERTO",
+    "primerApellido": "MORENO",
+    "segundoApellido": "OLAYA",
+    "cedula": 3165933,
+    "direccion": "CARRERA 81 F 71F 56",
+    "email": "rigoberto-moreno20@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-21T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-18T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [159497],
+    "radicado": "2017 - 01362",
+    "vencimientoPagare": [
+      "2032-12-21T00:00:00.000Z"
+    ],
+    "expediente": "11001400308520170136200",
+    "juzgados": []
+  }
+}

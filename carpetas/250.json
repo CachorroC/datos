@@ -1,1 +1,40 @@
-{"idProcesos":[],"numero":250,"cc":72165243,"llaveProceso":"25758418900120170059900","category":"Terminados","tipoProceso":"PRENDARIO","deudor":{"tel":{"fijo":8715525,"celular":3135348199},"primerNombre":"FRANCISCO","primerApellido":"CONTRERAS","segundoApellido":"RAMIREZ","cedula":72165243,"direccion":"CALLE 3 A No 5-56 APARTAAMENTO 101 SOPO","email":"vivipu@hotmail.com.co"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-04T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-11-16T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-09-14T00:00:00.000Z","municipio":"SOPO","obligacion":{"A":"37781325203 /4513088996703762","B":"5303729275150891 /12642123"},"radicado":"2017 - 00599","vencimientoPagare":["2017-08-29T00:00:00.000Z"],"expediente":"25758418900120170059900","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 250,
+  "cc": 72165243,
+  "llaveProceso": "25758418900120170059900",
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 8715525,
+      "celular": 3135348199
+    },
+    "primerNombre": "FRANCISCO",
+    "primerApellido": "CONTRERAS",
+    "segundoApellido": "RAMIREZ",
+    "cedula": 72165243,
+    "direccion": "CALLE 3 A No 5-56 APARTAAMENTO 101 SOPO",
+    "email": "vivipu@hotmail.com.co"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-04T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-11-16T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-14T00:00:00.000Z",
+    "municipio": "SOPO",
+    "obligacion": [
+      "37781325203 /4513088996703762",
+      "5303729275150891 /12642123"
+    ],
+    "radicado": "2017 - 00599",
+    "vencimientoPagare": [
+      "2017-08-29T00:00:00.000Z"
+    ],
+    "expediente": "25758418900120170059900",
+    "juzgados": []
+  }
+}

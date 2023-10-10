@@ -1,1 +1,45 @@
-{"idProcesos":[50688820],"numero":154,"cc":79840930,"llaveProceso":"11001400303620170084100","category":"LiosJuridicos","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":7347505,"celular":3112945552},"primerNombre":"GABRIEL","segundoNombre":"EDUARDO","primerApellido":"MEJIA","segundoApellido":"LADINO","cedula":79840930,"direccion":"CARRERA 79 BIS A # 73 - 92 SUR APTO 304 INT 3","email":"gabriel.eml@hotmail.com"},"demanda":{"capitalAdeudado":29366625.4,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-23T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"EL 11-07-2018 EL JUZGADO DECRETA TERMINACION PROCESO POR PAGO CUOTAS EN MORA // EL 5-09-2018 SE DEVOLVIERON GARANTIAS A AECSA S.A. // 30-08-2022 NO SE HAN LEVANTADO MEDIDAS CAUTELARES// PAGAR DESARCHIVE Y TRAMITAR OFICIO RECIENTE // ARCHIVO DEFINITIVO 596-2018","fechaPresentacion":"2018-09-05T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":5670083032,"B":"377813199287708 // 4513075700372455 // 123470"},"radicado":"2017 - 00841","vencimientoPagare":[null,null],"expediente":"11001400303620170084100","juzgados":[{"id":36,"tipo":"JUZGADO 036 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-036-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50688820],
+  "numero": 154,
+  "cc": 79840930,
+  "llaveProceso": "11001400303620170084100",
+  "category": "LiosJuridicos",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 7347505,
+      "celular": 3112945552
+    },
+    "primerNombre": "GABRIEL",
+    "segundoNombre": "EDUARDO",
+    "primerApellido": "MEJIA",
+    "segundoApellido": "LADINO",
+    "cedula": 79840930,
+    "direccion": "CARRERA 79 BIS A # 73 - 92 SUR APTO 304 INT 3",
+    "email": "gabriel.eml@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 29366625.4,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "EL 11-07-2018 EL JUZGADO DECRETA TERMINACION PROCESO POR PAGO CUOTAS EN MORA // EL 5-09-2018 SE DEVOLVIERON GARANTIAS A AECSA S.A. // 30-08-2022 NO SE HAN LEVANTADO MEDIDAS CAUTELARES// PAGAR DESARCHIVE Y TRAMITAR OFICIO RECIENTE // ARCHIVO DEFINITIVO 596-2018",
+    "fechaPresentacion": "2018-09-05T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      5670083032,
+      "377813199287708 // 4513075700372455 // 123470"
+    ],
+    "radicado": "2017 - 00841",
+    "vencimientoPagare": [null, null],
+    "expediente": "11001400303620170084100",
+    "juzgados": [
+      {
+        "id": 36,
+        "tipo": "JUZGADO 036 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-036-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

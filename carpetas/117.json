@@ -1,1 +1,41 @@
-{"idProcesos":[50522530],"numero":117,"cc":19386444,"llaveProceso":"11001400307020170056600","category":"Reintegra","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"NICOLAS","segundoNombre":"FERNANDO","primerApellido":"MONTOYA","segundoApellido":"CORREA","cedula":19386444,"direccion":"CALLE 18 # 19 - 75 / CALLE 26 NTE No. 5A - 54 Cali - Valle //CR 60 D 97 85 BRR ANDES BOGOTA","email":"3176677592"},"demanda":{"capitalAdeudado":17256.863,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-08-30T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-06-20T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":420087224},"radicado":"2017 - 00566","vencimientoPagare":["2019-01-21T00:00:00.000Z"],"expediente":"11001400307020170056600","juzgados":[{"id":14,"tipo":"JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50522530],
+  "numero": 117,
+  "cc": 19386444,
+  "llaveProceso": "11001400307020170056600",
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "NICOLAS",
+    "segundoNombre": "FERNANDO",
+    "primerApellido": "MONTOYA",
+    "segundoApellido": "CORREA",
+    "cedula": 19386444,
+    "direccion": "CALLE 18 # 19 - 75 / CALLE 26 NTE No. 5A - 54 Cali - Valle //CR 60 D 97 85 BRR ANDES BOGOTA",
+    "email": "3176677592"
+  },
+  "demanda": {
+    "capitalAdeudado": 17256.863,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-08-30T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [420087224],
+    "radicado": "2017 - 00566",
+    "vencimientoPagare": [
+      "2019-01-21T00:00:00.000Z"
+    ],
+    "expediente": "11001400307020170056600",
+    "juzgados": [
+      {
+        "id": 14,
+        "tipo": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

@@ -1,1 +1,42 @@
-{"idProcesos":[10416913],"numero":246,"cc":79805533,"llaveProceso":"11001400304720180024200","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":7696884,"celular":3204979488},"primerNombre":"EDWIN","primerApellido":"BUITRAGO","segundoApellido":"VILLAMIL","cedula":79805533,"direccion":"CARRERA 26 No 44-76 SUR"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-13T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":"2017-09-19T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":113645},"radicado":"2018 - 00242","vencimientoPagare":["2023-11-21T00:00:00.000Z"],"expediente":"11001400304720180024200","juzgados":[{"id":47,"tipo":"JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-047-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [10416913],
+  "numero": 246,
+  "cc": 79805533,
+  "llaveProceso": "11001400304720180024200",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 7696884,
+      "celular": 3204979488
+    },
+    "primerNombre": "EDWIN",
+    "primerApellido": "BUITRAGO",
+    "segundoApellido": "VILLAMIL",
+    "cedula": 79805533,
+    "direccion": "CARRERA 26 No 44-76 SUR"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-13T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [113645],
+    "radicado": "2018 - 00242",
+    "vencimientoPagare": [
+      "2023-11-21T00:00:00.000Z"
+    ],
+    "expediente": "11001400304720180024200",
+    "juzgados": [
+      {
+        "id": 47,
+        "tipo": "JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-047-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

@@ -1,1 +1,38 @@
-{"idProcesos":[],"numero":121,"cc":19453362,"llaveProceso":"25430400300120180027300","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"JAIME","segundoNombre":"ORLANDO","primerApellido":"LUGO","segundoApellido":"RODRIGUEZ","cedula":19453362,"direccion":"CARRERA 22 A # 8D - 08 SUR","email":"orlandolugo.r@gmail.com"},"demanda":{"capitalAdeudado":55929.373,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-04T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2018-05-16T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-08-11T00:00:00.000Z","municipio":"MADRID","obligacion":{"A":"451305630938242.","B":"20990179915 // AUDIOPRESTAMO "},"radicado":"2018 - 00273","vencimientoPagare":["2029-12-26T00:00:00.000Z"],"expediente":"25430400300120180027300","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 121,
+  "cc": 19453362,
+  "llaveProceso": "25430400300120180027300",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JAIME",
+    "segundoNombre": "ORLANDO",
+    "primerApellido": "LUGO",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": 19453362,
+    "direccion": "CARRERA 22 A # 8D - 08 SUR",
+    "email": "orlandolugo.r@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 55929.373,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-05-16T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-11T00:00:00.000Z",
+    "municipio": "MADRID",
+    "obligacion": [
+      "451305630938242.",
+      "20990179915 // AUDIOPRESTAMO "
+    ],
+    "radicado": "2018 - 00273",
+    "vencimientoPagare": [
+      "2029-12-26T00:00:00.000Z"
+    ],
+    "expediente": "25430400300120180027300",
+    "juzgados": []
+  }
+}

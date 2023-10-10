@@ -1,1 +1,41 @@
-{"idProcesos":[51029180],"numero":405,"cc":79396995,"llaveProceso":"11001400302120180023600","category":"Bancolombia","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":4244358,"celular":3108844560},"primerNombre":"ARTURO","primerApellido":"LINCE","segundoApellido":"GOMEZ","cedula":79396995,"direccion":"CALLE 12 A No 71 B - 60","email":"arthurlingo64@hotmail.com"},"demanda":{"capitalAdeudado":22592.583,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2018-02-05T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2018-03-01T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":87823},"radicado":"2018 - 00236","vencimientoPagare":[null],"expediente":"11001400302120180023600","juzgados":[{"id":13,"tipo":"JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-13-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [51029180],
+  "numero": 405,
+  "cc": 79396995,
+  "llaveProceso": "11001400302120180023600",
+  "category": "Bancolombia",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 4244358,
+      "celular": 3108844560
+    },
+    "primerNombre": "ARTURO",
+    "primerApellido": "LINCE",
+    "segundoApellido": "GOMEZ",
+    "cedula": 79396995,
+    "direccion": "CALLE 12 A No 71 B - 60",
+    "email": "arthurlingo64@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 22592.583,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-02-05T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-03-01T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [87823],
+    "radicado": "2018 - 00236",
+    "vencimientoPagare": [null],
+    "expediente": "11001400302120180023600",
+    "juzgados": [
+      {
+        "id": 13,
+        "tipo": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-13-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

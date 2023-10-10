@@ -1,1 +1,38 @@
-{"idProcesos":[51020000],"numero":378,"cc":11346521,"llaveProceso":"11001400301120180018100","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"NELSON","segundoNombre":"YESITH","primerApellido":"MORENO","segundoApellido":"LEON","cedula":11346521,"email":"DIAGINAL 51A 59 A - 17 APARTAMENTO 1"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"11346521","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"B":"15270162,48"},"radicado":"2018 - 00181","vencimientoPagare":[null],"expediente":"11001400301120180018100","juzgados":[{"id":11,"tipo":"JUZGADO 011 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-011-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [51020000],
+  "numero": 378,
+  "cc": 11346521,
+  "llaveProceso": "11001400301120180018100",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "NELSON",
+    "segundoNombre": "YESITH",
+    "primerApellido": "MORENO",
+    "segundoApellido": "LEON",
+    "cedula": 11346521,
+    "email": "DIAGINAL 51A 59 A - 17 APARTAMENTO 1"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "11346521",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": ["15270162,48"],
+    "radicado": "2018 - 00181",
+    "vencimientoPagare": [null],
+    "expediente": "11001400301120180018100",
+    "juzgados": [
+      {
+        "id": 11,
+        "tipo": "JUZGADO 011 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-011-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

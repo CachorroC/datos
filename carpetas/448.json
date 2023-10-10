@@ -1,1 +1,41 @@
-{"idProcesos":[51282150],"numero":448,"cc":79342337,"llaveProceso":"11001400301220180081000","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"LUIS","segundoNombre":"ALFREDO","primerApellido":"NIÑO","segundoApellido":"GARCIA","cedula":79342337,"direccion":"CALLE 113 SUR No 3-30 ESTE","email":"ngluisalfredo@gmail.com"},"demanda":{"capitalAdeudado":14744.174,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2018-06-21T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"11001400301220180081000","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":"AUDIOPRESTAMO"},"radicado":"2018 - 00810","vencimientoPagare":["2021-01-15T00:00:00.000Z"],"expediente":"11001400301220180081000","juzgados":[{"id":16,"tipo":"JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-16-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [51282150],
+  "numero": 448,
+  "cc": 79342337,
+  "llaveProceso": "11001400301220180081000",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "LUIS",
+    "segundoNombre": "ALFREDO",
+    "primerApellido": "NIÑO",
+    "segundoApellido": "GARCIA",
+    "cedula": 79342337,
+    "direccion": "CALLE 113 SUR No 3-30 ESTE",
+    "email": "ngluisalfredo@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 14744.174,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-06-21T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "11001400301220180081000",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": ["AUDIOPRESTAMO"],
+    "radicado": "2018 - 00810",
+    "vencimientoPagare": [
+      "2021-01-15T00:00:00.000Z"
+    ],
+    "expediente": "11001400301220180081000",
+    "juzgados": [
+      {
+        "id": 16,
+        "tipo": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-16-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

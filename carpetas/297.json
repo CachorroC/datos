@@ -1,1 +1,34 @@
-{"idProcesos":[],"numero":297,"cc":6006685,"llaveProceso":"15842408900120170009500","category":"Reintegra","tipoProceso":"SINGULAR","deudor":{"tel":{"celular":3123077900},"primerNombre":"MIGUEL","segundoNombre":"ANGEL","primerApellido":"MARTINEZ","segundoApellido":"HUERTAS","cedula":6006685,"direccion":"CALLE 5 A No 6 - 23 UMBITA"},"demanda":{"capitalAdeudado":28485.816,"departamento":"BOYACÁ","entregaGarantiasAbogado":"2017-09-21T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-10-23T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-12-10T05:00:00.000Z","municipio":"UMBITA","obligacion":{"A":5450082766,"B":5450083252},"radicado":"2017 - 00095","vencimientoPagare":["2019-10-07T05:00:00.000Z"],"expediente":"15842408900120170009500","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 297,
+  "cc": 6006685,
+  "llaveProceso": "15842408900120170009500",
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": { "celular": 3123077900 },
+    "primerNombre": "MIGUEL",
+    "segundoNombre": "ANGEL",
+    "primerApellido": "MARTINEZ",
+    "segundoApellido": "HUERTAS",
+    "cedula": 6006685,
+    "direccion": "CALLE 5 A No 6 - 23 UMBITA"
+  },
+  "demanda": {
+    "capitalAdeudado": 28485.816,
+    "departamento": "BOYACÁ",
+    "entregaGarantiasAbogado": "2017-09-21T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-10-23T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-12-10T05:00:00.000Z",
+    "municipio": "UMBITA",
+    "obligacion": [5450082766, 5450083252],
+    "radicado": "2017 - 00095",
+    "vencimientoPagare": [
+      "2019-10-07T05:00:00.000Z"
+    ],
+    "expediente": "15842408900120170009500",
+    "juzgados": []
+  }
+}

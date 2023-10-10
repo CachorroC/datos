@@ -1,1 +1,42 @@
-{"idProcesos":[50643180],"numero":124,"cc":40025572,"llaveProceso":"11001400303320170118000","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":6749599,"celular":3202092701},"primerNombre":"BLANCA","segundoNombre":"EDELMIRA","primerApellido":"ARIAS","segundoApellido":"MELO","cedula":40025572,"direccion":"CALLE 181 # 17B 47 SAN ANTONIO","email":"eariasseguros@hotmail.com"},"demanda":{"capitalAdeudado":0,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-09T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":"2017-08-16T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":153313,"B":377815399826276},"radicado":"2017 - 01180","vencimientoPagare":null,"expediente":"11001400303320170118000","juzgados":[{"id":33,"tipo":"JUZGADO 033 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-033-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50643180],
+  "numero": 124,
+  "cc": 40025572,
+  "llaveProceso": "11001400303320170118000",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 6749599,
+      "celular": 3202092701
+    },
+    "primerNombre": "BLANCA",
+    "segundoNombre": "EDELMIRA",
+    "primerApellido": "ARIAS",
+    "segundoApellido": "MELO",
+    "cedula": 40025572,
+    "direccion": "CALLE 181 # 17B 47 SAN ANTONIO",
+    "email": "eariasseguros@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 0,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-09T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": "2017-08-16T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [153313, 377815399826276],
+    "radicado": "2017 - 01180",
+    "vencimientoPagare": null,
+    "expediente": "11001400303320170118000",
+    "juzgados": [
+      {
+        "id": 33,
+        "tipo": "JUZGADO 033 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-033-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

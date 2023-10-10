@@ -1,1 +1,45 @@
-{"idProcesos":[1829856154],"numero":572,"cc":9527771,"llaveProceso":"11001400305520230074600","category":"Bancolombia","tipoProceso":"SINGULAR","deudor":{"tel":{"fijo":6154763,"celular":3102997350},"primerNombre":"JAIME","segundoNombre":"ENRIQUE","primerApellido":"QUINTERO","segundoApellido":"MENDOZA","cedula":9527771,"direccion":"CL 134 16 50 AP 104 Edificio Verona Barrio Contador Bogotá","email":"jaimequinterom1@hotmail.com"},"demanda":{"capitalAdeudado":91487.785,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2023-08-04T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":1910090586,"B":94351552},"radicado":"2023 - 00746","vencimientoPagare":[null,"2026-03-08T05:00:00.000Z"],"expediente":"11001400305520230074600","juzgados":[{"id":55,"tipo":"JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-55-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [1829856154],
+  "numero": 572,
+  "cc": 9527771,
+  "llaveProceso": "11001400305520230074600",
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 6154763,
+      "celular": 3102997350
+    },
+    "primerNombre": "JAIME",
+    "segundoNombre": "ENRIQUE",
+    "primerApellido": "QUINTERO",
+    "segundoApellido": "MENDOZA",
+    "cedula": 9527771,
+    "direccion": "CL 134 16 50 AP 104 Edificio Verona Barrio Contador Bogotá",
+    "email": "jaimequinterom1@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 91487.785,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [1910090586, 94351552],
+    "radicado": "2023 - 00746",
+    "vencimientoPagare": [
+      null,
+      "2026-03-08T05:00:00.000Z"
+    ],
+    "expediente": "11001400305520230074600",
+    "juzgados": [
+      {
+        "id": 55,
+        "tipo": "JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-55-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

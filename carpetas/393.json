@@ -1,1 +1,42 @@
-{"idProcesos":[9088093],"numero":393,"cc":79134529,"llaveProceso":"11001400303820180014900","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{"fijo":6356262,"celular":3013377704},"primerNombre":"MIGUEL","segundoNombre":"ALEJANDRO","primerApellido":"GARCIA","segundoApellido":"RODRIGUEZ","cedula":79134529,"direccion":"CARRERA 79 No 19A - 28. APARTAMENTO 1102","email":"aeljogarcia69@gmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"NOTIFICACION","fechaPresentacion":"2018-05-02T05:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":377816034306740},"radicado":"2018 - 00149","vencimientoPagare":null,"expediente":"11001400303820180014900","juzgados":[{"id":38,"tipo":"JUZGADO 038 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-038-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [9088093],
+  "numero": 393,
+  "cc": 79134529,
+  "llaveProceso": "11001400303820180014900",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 6356262,
+      "celular": 3013377704
+    },
+    "primerNombre": "MIGUEL",
+    "segundoNombre": "ALEJANDRO",
+    "primerApellido": "GARCIA",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": 79134529,
+    "direccion": "CARRERA 79 No 19A - 28. APARTAMENTO 1102",
+    "email": "aeljogarcia69@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2018-05-02T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [377816034306740],
+    "radicado": "2018 - 00149",
+    "vencimientoPagare": null,
+    "expediente": "11001400303820180014900",
+    "juzgados": [
+      {
+        "id": 38,
+        "tipo": "JUZGADO 038 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-038-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

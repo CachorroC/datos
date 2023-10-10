@@ -1,1 +1,39 @@
-{"idProcesos":[50518680],"numero":110,"cc":46677093,"llaveProceso":"11001400304520170077400","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"MARLENE","primerApellido":"RONCANCIO","segundoApellido":"BENITEZ","cedula":46677093,"direccion":"CALLE 33 SUR No. 82 B-06"},"demanda":{"capitalAdeudado":25119.879,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-06-20T00:00:00.000Z","etapaProcesal":"11001400304520170077400","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":430103643},"radicado":"2017 - 00774","vencimientoPagare":["2019-07-18T00:00:00.000Z"],"expediente":"11001400304520170077400","juzgados":[{"id":14,"tipo":"JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50518680],
+  "numero": 110,
+  "cc": 46677093,
+  "llaveProceso": "11001400304520170077400",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "MARLENE",
+    "primerApellido": "RONCANCIO",
+    "segundoApellido": "BENITEZ",
+    "cedula": 46677093,
+    "direccion": "CALLE 33 SUR No. 82 B-06"
+  },
+  "demanda": {
+    "capitalAdeudado": 25119.879,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-06-20T00:00:00.000Z",
+    "etapaProcesal": "11001400304520170077400",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [430103643],
+    "radicado": "2017 - 00774",
+    "vencimientoPagare": [
+      "2019-07-18T00:00:00.000Z"
+    ],
+    "expediente": "11001400304520170077400",
+    "juzgados": [
+      {
+        "id": 14,
+        "tipo": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

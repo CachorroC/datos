@@ -1,1 +1,44 @@
-{"idProcesos":[51465700],"numero":407,"cc":79328264,"llaveProceso":"11001400307820170116400","category":"Reintegra","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"NESTOR","segundoNombre":"ALBERTO","primerApellido":"CRISTANCHO","segundoApellido":"LOPEZ","cedula":79328264,"direccion":" CARRERA 11 No  144 - 22 APARTAMENTO 301","email":"nescri64@hotmail.com"},"demanda":{"capitalAdeudado":31100.999,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-11-16T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2018-12-01T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-11-27T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":3550083774,"B":"4513082972339 / 5303714867753385"},"radicado":"2017 - 01164","vencimientoPagare":["2024-01-26T00:00:00.000Z"],"expediente":"11001400307820170116400","juzgados":[{"id":16,"tipo":"JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-16-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [51465700],
+  "numero": 407,
+  "cc": 79328264,
+  "llaveProceso": "11001400307820170116400",
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "NESTOR",
+    "segundoNombre": "ALBERTO",
+    "primerApellido": "CRISTANCHO",
+    "segundoApellido": "LOPEZ",
+    "cedula": 79328264,
+    "direccion": " CARRERA 11 No  144 - 22 APARTAMENTO 301",
+    "email": "nescri64@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 31100.999,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-11-16T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-12-01T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-11-27T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      3550083774,
+      "4513082972339 / 5303714867753385"
+    ],
+    "radicado": "2017 - 01164",
+    "vencimientoPagare": [
+      "2024-01-26T00:00:00.000Z"
+    ],
+    "expediente": "11001400307820170116400",
+    "juzgados": [
+      {
+        "id": 16,
+        "tipo": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-16-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

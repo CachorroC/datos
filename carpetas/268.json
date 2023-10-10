@@ -1,1 +1,39 @@
-{"idProcesos":[50764160],"numero":268,"cc":79592811,"llaveProceso":"11001400303520170147500","category":"Terminados","tipoProceso":"PRENDARIO","deudor":{"tel":{},"primerNombre":"JORGE","segundoNombre":"HUGO","primerApellido":"LEAL","segundoApellido":"SERRATO","cedula":79592811,"direccion":"CARRERA 72 No 23 - 24 APARTAMENTO 402  I","email":"johuleal@gmail.com"},"demanda":{"capitalAdeudado":48855.784,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":"2017-05-10T05:00:00.000Z","etapaProcesal":"11001400303520170147500","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":12649406},"radicado":"2017 - 01475","vencimientoPagare":[null],"expediente":"11001400303520170147500","juzgados":[{"id":10,"tipo":"JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-10-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50764160],
+  "numero": 268,
+  "cc": 79592811,
+  "llaveProceso": "11001400303520170147500",
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JORGE",
+    "segundoNombre": "HUGO",
+    "primerApellido": "LEAL",
+    "segundoApellido": "SERRATO",
+    "cedula": 79592811,
+    "direccion": "CARRERA 72 No 23 - 24 APARTAMENTO 402  I",
+    "email": "johuleal@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 48855.784,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-05-10T05:00:00.000Z",
+    "etapaProcesal": "11001400303520170147500",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [12649406],
+    "radicado": "2017 - 01475",
+    "vencimientoPagare": [null],
+    "expediente": "11001400303520170147500",
+    "juzgados": [
+      {
+        "id": 10,
+        "tipo": "JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-10-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

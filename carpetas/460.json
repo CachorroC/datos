@@ -1,1 +1,39 @@
-{"idProcesos":[18852280],"numero":460,"cc":79424825,"llaveProceso":"11001400306620190040900","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"JORGE","segundoNombre":"ABDOLONIO","primerApellido":"GUERRERO","segundoApellido":"HERNANDEZ","cedula":79424825,"direccion":"52205842","email":"DIAGONAL 31 No 24-63 SUR"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"43294","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"B":"16.399.509.25"},"radicado":"2019 - 00409","vencimientoPagare":[null],"expediente":"11001400306620190040900","juzgados":[{"id":66,"tipo":"JUZGADO 066 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-066-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [18852280],
+  "numero": 460,
+  "cc": 79424825,
+  "llaveProceso": "11001400306620190040900",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JORGE",
+    "segundoNombre": "ABDOLONIO",
+    "primerApellido": "GUERRERO",
+    "segundoApellido": "HERNANDEZ",
+    "cedula": 79424825,
+    "direccion": "52205842",
+    "email": "DIAGONAL 31 No 24-63 SUR"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "43294",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": ["16.399.509.25"],
+    "radicado": "2019 - 00409",
+    "vencimientoPagare": [null],
+    "expediente": "11001400306620190040900",
+    "juzgados": [
+      {
+        "id": 66,
+        "tipo": "JUZGADO 066 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-066-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

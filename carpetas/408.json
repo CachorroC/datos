@@ -1,1 +1,35 @@
-{"idProcesos":[],"numero":408,"cc":80792987,"llaveProceso":"11001400308120180026400","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"JHON","segundoNombre":"ALEXANDER","primerApellido":"BEJARANO","segundoApellido":"FONSECA","cedula":80792987,"direccion":"CALLE 4 D No 39 C-22","email":"jhonbeja227@gmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":"2018-03-04T05:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":152654},"radicado":"2018 - 00264","vencimientoPagare":["2018-06-06T05:00:00.000Z"],"expediente":"11001400308120180026400","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 408,
+  "cc": 80792987,
+  "llaveProceso": "11001400308120180026400",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JHON",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "BEJARANO",
+    "segundoApellido": "FONSECA",
+    "cedula": 80792987,
+    "direccion": "CALLE 4 D No 39 C-22",
+    "email": "jhonbeja227@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-03-04T05:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [152654],
+    "radicado": "2018 - 00264",
+    "vencimientoPagare": [
+      "2018-06-06T05:00:00.000Z"
+    ],
+    "expediente": "11001400308120180026400",
+    "juzgados": []
+  }
+}

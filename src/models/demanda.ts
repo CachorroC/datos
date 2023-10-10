@@ -1,7 +1,6 @@
 import { DemandaRaw,
          IntDemanda,
          Juzgado,
-         Obligacion,
          TipoProcesoRaw } from '../types/carpetas';
 import { Despachos } from '../despachos';
 import { intProceso } from '../types/procesos';
@@ -174,6 +173,28 @@ export class Demanda implements IntDemanda {
     llaveProceso?: string,
     RequestProcesos?: intProceso[]
   ) {
+    const obligacionesSet = new Set<
+      string | number
+    >();
+
+    if ( obligacion ) {
+      const {
+        A, B 
+      } = obligacion;
+
+      if ( A ) {
+        obligacionesSet.add(
+          A 
+        );
+      }
+
+      if ( B ) {
+        obligacionesSet.add(
+          B 
+        );
+      }
+    }
+
     this.expediente = llaveProceso
       ? llaveProceso
       : null;
@@ -211,9 +232,9 @@ export class Demanda implements IntDemanda {
       )
       : null;
 
-    this.obligacion = obligacion
-      ? obligacion
-      : null;
+    this.obligacion = Array.from(
+      obligacionesSet 
+    );
     this.radicado = radicado
       ? `${ radicado }`
       : null;
@@ -237,7 +258,7 @@ export class Demanda implements IntDemanda {
   etapaProcesal: string | null;
   fechaPresentacion: Date | null;
   municipio: string | null;
-  obligacion: Obligacion | null;
+  obligacion: ( number | string )[];
   radicado: string | null;
   vencimientoPagare: Date[] | null;
   expediente: string | null;

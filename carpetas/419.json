@@ -1,1 +1,35 @@
-{"idProcesos":[],"numero":419,"cc":73133278,"llaveProceso":"25175410300120180023700","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"ALVARO","segundoNombre":"HERNAN","primerApellido":"RUIZ","segundoApellido":"HERNANDEZ","cedula":73133278,"email":"CALLE 1 SUR No 5A- 179 CASA 26"},"demanda":{"capitalAdeudado":43211,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"43217","fechaPresentacion":"2018-05-11T00:00:00.000Z","municipio":"CHIA","obligacion":{"A":5303711851549150,"B":"20,453,625,97"},"radicado":"2018 - 00237","vencimientoPagare":[null],"expediente":"25175410300120180023700","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 419,
+  "cc": 73133278,
+  "llaveProceso": "25175410300120180023700",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "ALVARO",
+    "segundoNombre": "HERNAN",
+    "primerApellido": "RUIZ",
+    "segundoApellido": "HERNANDEZ",
+    "cedula": 73133278,
+    "email": "CALLE 1 SUR No 5A- 179 CASA 26"
+  },
+  "demanda": {
+    "capitalAdeudado": 43211,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "43217",
+    "fechaPresentacion": "2018-05-11T00:00:00.000Z",
+    "municipio": "CHIA",
+    "obligacion": [
+      5303711851549150,
+      "20,453,625,97"
+    ],
+    "radicado": "2018 - 00237",
+    "vencimientoPagare": [null],
+    "expediente": "25175410300120180023700",
+    "juzgados": []
+  }
+}

@@ -1,1 +1,41 @@
-{"idProcesos":[50921080],"numero":140,"cc":80933170,"llaveProceso":"11001400307720170056800","category":"Terminados","tipoProceso":"PRENDARIO","deudor":{"tel":{},"primerNombre":"JHON","segundoNombre":"FABER","primerApellido":"FORIGUA","segundoApellido":"GARCIA","cedula":80933170,"direccion":"CARRERA 8 # 13 - 34 SUR BLOQUE 6 APTO 101","email":"Jfcomercializadorajb@hotmail.com"},"demanda":{"capitalAdeudado":38664.283,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-06-28T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-06-29T00:00:00.000Z","etapaProcesal":"11001400307720170056800","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":12480702},"radicado":"2017 - 00568","vencimientoPagare":["2020-06-12T00:00:00.000Z"],"expediente":"11001400307720170056800","juzgados":[{"id":12,"tipo":"JUZGADO 012 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-12-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50921080],
+  "numero": 140,
+  "cc": 80933170,
+  "llaveProceso": "11001400307720170056800",
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JHON",
+    "segundoNombre": "FABER",
+    "primerApellido": "FORIGUA",
+    "segundoApellido": "GARCIA",
+    "cedula": 80933170,
+    "direccion": "CARRERA 8 # 13 - 34 SUR BLOQUE 6 APTO 101",
+    "email": "Jfcomercializadorajb@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 38664.283,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-06-29T00:00:00.000Z",
+    "etapaProcesal": "11001400307720170056800",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [12480702],
+    "radicado": "2017 - 00568",
+    "vencimientoPagare": [
+      "2020-06-12T00:00:00.000Z"
+    ],
+    "expediente": "11001400307720170056800",
+    "juzgados": [
+      {
+        "id": 12,
+        "tipo": "JUZGADO 012 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-12-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

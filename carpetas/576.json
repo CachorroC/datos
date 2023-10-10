@@ -1,1 +1,45 @@
-{"idProcesos":[132581550],"numero":576,"cc":1020754305,"llaveProceso":"11001400300520230084300","category":"Bancolombia","tipoProceso":"SINGULAR","deudor":{"tel":{"celular":3188015288},"primerNombre":"JUAN","segundoNombre":"CAMILO","primerApellido":"VELASQUEZ","segundoApellido":"PEREIRA","cedula":1020754305,"direccion":"Carrera 15 No. 127 - 32 Apartamento 105 Portaldel Country","email":"jcamilovp@gmail.com"},"demanda":{"capitalAdeudado":94472.793,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2023-08-17T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":4610082832,"B":"Q '0000001020754305027001"},"radicado":"2023 - 00843","vencimientoPagare":["2026-02-04T05:00:00.000Z",null],"expediente":"11001400300520230084300","juzgados":[{"id":5,"tipo":"JUZGADO 005 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-05-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [132581550],
+  "numero": 576,
+  "cc": 1020754305,
+  "llaveProceso": "11001400300520230084300",
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": { "celular": 3188015288 },
+    "primerNombre": "JUAN",
+    "segundoNombre": "CAMILO",
+    "primerApellido": "VELASQUEZ",
+    "segundoApellido": "PEREIRA",
+    "cedula": 1020754305,
+    "direccion": "Carrera 15 No. 127 - 32 Apartamento 105 Portaldel Country",
+    "email": "jcamilovp@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 94472.793,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-08-17T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      4610082832,
+      "Q '0000001020754305027001"
+    ],
+    "radicado": "2023 - 00843",
+    "vencimientoPagare": [
+      "2026-02-04T05:00:00.000Z",
+      null
+    ],
+    "expediente": "11001400300520230084300",
+    "juzgados": [
+      {
+        "id": 5,
+        "tipo": "JUZGADO 005 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-05-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

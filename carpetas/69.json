@@ -1,1 +1,40 @@
-{"idProcesos":[50593100],"numero":69,"cc":53008703,"llaveProceso":"11001400300620170041900","category":"Reintegra","tipoProceso":"SINGULAR","deudor":{"tel":{"fijo":7507842},"primerNombre":"DERLY","segundoNombre":"CATHERINE","primerApellido":"CASTRO","segundoApellido":"IZQUIERDO","cedula":53008703,"direccion":"CARRERA 5 No. 30 - 77"},"demanda":{"capitalAdeudado":83955.014,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-06-08T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-07-27T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":4200023595},"radicado":"2017-00419","vencimientoPagare":["2019-08-12T00:00:00.000Z"],"expediente":"11001400300620170041900","juzgados":[{"id":11,"tipo":"JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50593100],
+  "numero": 69,
+  "cc": 53008703,
+  "llaveProceso": "11001400300620170041900",
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": { "fijo": 7507842 },
+    "primerNombre": "DERLY",
+    "segundoNombre": "CATHERINE",
+    "primerApellido": "CASTRO",
+    "segundoApellido": "IZQUIERDO",
+    "cedula": 53008703,
+    "direccion": "CARRERA 5 No. 30 - 77"
+  },
+  "demanda": {
+    "capitalAdeudado": 83955.014,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-08T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-07-27T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [4200023595],
+    "radicado": "2017-00419",
+    "vencimientoPagare": [
+      "2019-08-12T00:00:00.000Z"
+    ],
+    "expediente": "11001400300620170041900",
+    "juzgados": [
+      {
+        "id": 11,
+        "tipo": "JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

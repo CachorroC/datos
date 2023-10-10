@@ -1,1 +1,41 @@
-{"idProcesos":[50905230],"numero":356,"cc":53119460,"llaveProceso":"11001400302420170170800","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":4707082},"primerNombre":"SONIA","segundoNombre":"XIMENA","primerApellido":"RODRIGUEZ","segundoApellido":"SANCHEZ","cedula":53119460,"direccion":"CARRERA 81 B No  19 B- 50 APARTAMENTO 601","email":"ximenars29@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-11-28T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"11001400302420170170800","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":162697},"radicado":"2017 - 01708","vencimientoPagare":["2017-08-03T00:00:00.000Z"],"expediente":"11001400302420170170800","juzgados":[{"id":24,"tipo":"JUZGADO 024 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-024-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50905230],
+  "numero": 356,
+  "cc": 53119460,
+  "llaveProceso": "11001400302420170170800",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": { "fijo": 4707082 },
+    "primerNombre": "SONIA",
+    "segundoNombre": "XIMENA",
+    "primerApellido": "RODRIGUEZ",
+    "segundoApellido": "SANCHEZ",
+    "cedula": 53119460,
+    "direccion": "CARRERA 81 B No  19 B- 50 APARTAMENTO 601",
+    "email": "ximenars29@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-11-28T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "11001400302420170170800",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [162697],
+    "radicado": "2017 - 01708",
+    "vencimientoPagare": [
+      "2017-08-03T00:00:00.000Z"
+    ],
+    "expediente": "11001400302420170170800",
+    "juzgados": [
+      {
+        "id": 24,
+        "tipo": "JUZGADO 024 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-024-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

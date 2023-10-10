@@ -1,1 +1,39 @@
-{"idProcesos":[18367590],"numero":318,"cc":51673703,"llaveProceso":"11001400307020170116400","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"SONIA","primerApellido":"JANETH","segundoApellido":"RODRIGUEZ","cedula":51673703,"email":"CALLE 52 SUR No 97 C - 20"},"demanda":{"capitalAdeudado":43033,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"43041","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"B":"14.703.952.55"},"radicado":"2017 - 01164","vencimientoPagare":["+121594-01-01T05:00:00.000Z"],"expediente":"11001400307020170116400","juzgados":[{"id":70,"tipo":"JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-070-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [18367590],
+  "numero": 318,
+  "cc": 51673703,
+  "llaveProceso": "11001400307020170116400",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "SONIA",
+    "primerApellido": "JANETH",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": 51673703,
+    "email": "CALLE 52 SUR No 97 C - 20"
+  },
+  "demanda": {
+    "capitalAdeudado": 43033,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "43041",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": ["14.703.952.55"],
+    "radicado": "2017 - 01164",
+    "vencimientoPagare": [
+      "+121594-01-01T05:00:00.000Z"
+    ],
+    "expediente": "11001400307020170116400",
+    "juzgados": [
+      {
+        "id": 70,
+        "tipo": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-070-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

@@ -1,1 +1,44 @@
-{"idProcesos":[97088411,109959053],"numero":125,"cc":74338870,"llaveProceso":"11001400304720170152000","category":"Reintegra","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"MILCIADES","primerApellido":"GALINDO","segundoApellido":"CASTEBLANCO","cedula":74338870,"direccion":"CARRERA 18 # 12 - 72"},"demanda":{"capitalAdeudado":21613.985,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-09-14T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":300093705},"radicado":"2017 - 01520","vencimientoPagare":["2020-11-27T00:00:00.000Z"],"expediente":"11001400304720170152000","juzgados":[{"id":47,"tipo":"JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-047-civil-municipal-de-bogota"},{"id":47,"tipo":"JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-047-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [97088411, 109959053],
+  "numero": 125,
+  "cc": 74338870,
+  "llaveProceso": "11001400304720170152000",
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "MILCIADES",
+    "primerApellido": "GALINDO",
+    "segundoApellido": "CASTEBLANCO",
+    "cedula": 74338870,
+    "direccion": "CARRERA 18 # 12 - 72"
+  },
+  "demanda": {
+    "capitalAdeudado": 21613.985,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-14T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [300093705],
+    "radicado": "2017 - 01520",
+    "vencimientoPagare": [
+      "2020-11-27T00:00:00.000Z"
+    ],
+    "expediente": "11001400304720170152000",
+    "juzgados": [
+      {
+        "id": 47,
+        "tipo": "JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-047-civil-municipal-de-bogota"
+      },
+      {
+        "id": 47,
+        "tipo": "JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-047-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

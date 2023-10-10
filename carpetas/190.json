@@ -1,1 +1,35 @@
-{"idProcesos":[],"numero":190,"cc":79909315,"llaveProceso":"25286400300120170078100","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"VICTOR","segundoNombre":"EDUARDO","primerApellido":"","segundoApellido":"MORA ESPINOSA","cedula":79909315,"direccion":"41537019","email":"CARRERA 18C # 121 - 40"},"demanda":{"capitalAdeudado":42971,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"42977","fechaPresentacion":"2017-12-07T00:00:00.000Z","municipio":"FUNZA","obligacion":{"B":"18539423,59"},"radicado":"2017 - 00781","vencimientoPagare":["+152366-01-01T05:00:00.000Z"],"expediente":"25286400300120170078100","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 190,
+  "cc": 79909315,
+  "llaveProceso": "25286400300120170078100",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "VICTOR",
+    "segundoNombre": "EDUARDO",
+    "primerApellido": "",
+    "segundoApellido": "MORA ESPINOSA",
+    "cedula": 79909315,
+    "direccion": "41537019",
+    "email": "CARRERA 18C # 121 - 40"
+  },
+  "demanda": {
+    "capitalAdeudado": 42971,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "42977",
+    "fechaPresentacion": "2017-12-07T00:00:00.000Z",
+    "municipio": "FUNZA",
+    "obligacion": ["18539423,59"],
+    "radicado": "2017 - 00781",
+    "vencimientoPagare": [
+      "+152366-01-01T05:00:00.000Z"
+    ],
+    "expediente": "25286400300120170078100",
+    "juzgados": []
+  }
+}

@@ -1,1 +1,33 @@
-{"idProcesos":[],"numero":440,"cc":30387764,"llaveProceso":"11001408900820180022300","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{"celular":3107996508},"primerNombre":"BLANCA","segundoNombre":"ESTHER","primerApellido":"QUIROGA","segundoApellido":"GIRALDO","cedula":30387764,"direccion":"CARRERA 13 No 13-24 OFICINA 625","email":"quirogag8878@gmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2018-05-29T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"ADMISION","fechaPresentacion":"2018-05-31T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":1330085524},"radicado":"2018 - 00223","vencimientoPagare":null,"expediente":"11001408900820180022300","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 440,
+  "cc": 30387764,
+  "llaveProceso": "11001408900820180022300",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": { "celular": 3107996508 },
+    "primerNombre": "BLANCA",
+    "segundoNombre": "ESTHER",
+    "primerApellido": "QUIROGA",
+    "segundoApellido": "GIRALDO",
+    "cedula": 30387764,
+    "direccion": "CARRERA 13 No 13-24 OFICINA 625",
+    "email": "quirogag8878@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-05-29T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-05-31T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [1330085524],
+    "radicado": "2018 - 00223",
+    "vencimientoPagare": null,
+    "expediente": "11001408900820180022300",
+    "juzgados": []
+  }
+}

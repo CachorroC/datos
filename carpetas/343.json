@@ -1,1 +1,41 @@
-{"idProcesos":[],"numero":343,"cc":80803306,"llaveProceso":"11001400303920170151700","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{"fijo":5470813,"celular":3188426582},"primerNombre":"EDUARDO","segundoNombre":"ALFONSO","primerApellido":"RICO","segundoApellido":"JIMENEZ","cedula":80803306,"direccion":"CALLE 22 L  No 123 A - 35","email":"magia.orfen@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-01T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2018-01-31T00:00:00.000Z","etapaProcesal":"SENTENCIA","fechaPresentacion":"2017-11-17T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":"23110089362 / 2044038","B":"8291213 / 3131312135"},"radicado":"2017 - 01517","vencimientoPagare":["2019-07-07T00:00:00.000Z"],"expediente":"11001400303920170151700","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 343,
+  "cc": 80803306,
+  "llaveProceso": "11001400303920170151700",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 5470813,
+      "celular": 3188426582
+    },
+    "primerNombre": "EDUARDO",
+    "segundoNombre": "ALFONSO",
+    "primerApellido": "RICO",
+    "segundoApellido": "JIMENEZ",
+    "cedula": 80803306,
+    "direccion": "CALLE 22 L  No 123 A - 35",
+    "email": "magia.orfen@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-01T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-01-31T00:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-11-17T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "23110089362 / 2044038",
+      "8291213 / 3131312135"
+    ],
+    "radicado": "2017 - 01517",
+    "vencimientoPagare": [
+      "2019-07-07T00:00:00.000Z"
+    ],
+    "expediente": "11001400303920170151700",
+    "juzgados": []
+  }
+}

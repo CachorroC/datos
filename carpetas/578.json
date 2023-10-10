@@ -1,1 +1,36 @@
-{"idProcesos":[],"numero":578,"cc":35422519,"llaveProceso":"25899400300220230044200","category":"Bancolombia","tipoProceso":"SINGULAR","deudor":{"tel":{"celular":3203172020},"primerNombre":"DIANA","segundoNombre":"CRISTINA","primerApellido":"AREVALO","segundoApellido":"ARBOLEDA","cedula":35422519,"direccion":" CL 4 16 10 AP 201 Barrio Algarra III","email":"dicrisare@gmail.com"},"demanda":{"capitalAdeudado":140332.319,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2021-08-18T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":null,"municipio":"ZIPAQUIRA","obligacion":{"A":3320096675,"B":"83942050 X T.C MASTER 5491580158404844 Y AMERICAN 377816059851588"},"radicado":"2023 - 00442","vencimientoPagare":[null,null],"expediente":"25899400300220230044200","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 578,
+  "cc": 35422519,
+  "llaveProceso": "25899400300220230044200",
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": { "celular": 3203172020 },
+    "primerNombre": "DIANA",
+    "segundoNombre": "CRISTINA",
+    "primerApellido": "AREVALO",
+    "segundoApellido": "ARBOLEDA",
+    "cedula": 35422519,
+    "direccion": " CL 4 16 10 AP 201 Barrio Algarra III",
+    "email": "dicrisare@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 140332.319,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2021-08-18T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "ZIPAQUIRA",
+    "obligacion": [
+      3320096675,
+      "83942050 X T.C MASTER 5491580158404844 Y AMERICAN 377816059851588"
+    ],
+    "radicado": "2023 - 00442",
+    "vencimientoPagare": [null, null],
+    "expediente": "25899400300220230044200",
+    "juzgados": []
+  }
+}

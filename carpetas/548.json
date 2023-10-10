@@ -1,1 +1,37 @@
-{"idProcesos":[50665190],"numero":548,"cc":23270185,"llaveProceso":"11001400300820170102400","category":"Terminados","tipoProceso":"PRENDARIO","deudor":{"tel":{},"primerNombre":"CLARA","segundoNombre":"PATRICIA","primerApellido":"PEÑA","segundoApellido":"BELTRAN","cedula":23270185},"demanda":{"capitalAdeudado":0,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{},"radicado":"2017 - 01024","vencimientoPagare":null,"expediente":"11001400300820170102400","juzgados":[{"id":8,"tipo":"JUZGADO 008 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-008-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50665190],
+  "numero": 548,
+  "cc": 23270185,
+  "llaveProceso": "11001400300820170102400",
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "CLARA",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "PEÑA",
+    "segundoApellido": "BELTRAN",
+    "cedula": 23270185
+  },
+  "demanda": {
+    "capitalAdeudado": 0,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [],
+    "radicado": "2017 - 01024",
+    "vencimientoPagare": null,
+    "expediente": "11001400300820170102400",
+    "juzgados": [
+      {
+        "id": 8,
+        "tipo": "JUZGADO 008 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-008-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

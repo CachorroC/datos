@@ -1,1 +1,29 @@
-{"numero":549,"cc":79405147,"category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"JOSE","segundoNombre":"ANTONIO","primerApellido":"BEJARANO","segundoApellido":"CARREÑO","cedula":79405147},"demanda":{"capitalAdeudado":0,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{},"radicado":"SIN NUMERO","vencimientoPagare":null,"expediente":null,"juzgados":null}}
+{
+  "numero": 549,
+  "cc": 79405147,
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "JOSE",
+    "segundoNombre": "ANTONIO",
+    "primerApellido": "BEJARANO",
+    "segundoApellido": "CARREÑO",
+    "cedula": 79405147
+  },
+  "demanda": {
+    "capitalAdeudado": 0,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [],
+    "radicado": "SIN NUMERO",
+    "vencimientoPagare": null,
+    "expediente": null,
+    "juzgados": null
+  }
+}

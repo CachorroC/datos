@@ -1,1 +1,44 @@
-{"idProcesos":[28842484],"numero":167,"cc":79688268,"llaveProceso":"11001310301020170071000","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":4589855,"celular":3196564315},"primerNombre":"","segundoNombre":"JOSE","primerApellido":"MAURICIO","segundoApellido":"GONZALEZ CALDERON","cedula":79688268,"direccion":"CARRERA 83A # 116A - 72 CASA 214","email":"maurgonzal@yahoo.com"},"demanda":{"capitalAdeudado":118940.346,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-22T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-12-06T00:00:00.000Z","etapaProcesal":"11001310301020170071000","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":197033},"radicado":"2017 - 00710","vencimientoPagare":["2031-10-07T00:00:00.000Z"],"expediente":"11001310301020170071000","juzgados":[{"id":2,"tipo":"JUZGADO 002 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-del-circuito-de-bogota"}]}}
+{
+  "idProcesos": [28842484],
+  "numero": 167,
+  "cc": 79688268,
+  "llaveProceso": "11001310301020170071000",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 4589855,
+      "celular": 3196564315
+    },
+    "primerNombre": "",
+    "segundoNombre": "JOSE",
+    "primerApellido": "MAURICIO",
+    "segundoApellido": "GONZALEZ CALDERON",
+    "cedula": 79688268,
+    "direccion": "CARRERA 83A # 116A - 72 CASA 214",
+    "email": "maurgonzal@yahoo.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 118940.346,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-12-06T00:00:00.000Z",
+    "etapaProcesal": "11001310301020170071000",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [197033],
+    "radicado": "2017 - 00710",
+    "vencimientoPagare": [
+      "2031-10-07T00:00:00.000Z"
+    ],
+    "expediente": "11001310301020170071000",
+    "juzgados": [
+      {
+        "id": 2,
+        "tipo": "JUZGADO 002 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-del-circuito-de-bogota"
+      }
+    ]
+  }
+}

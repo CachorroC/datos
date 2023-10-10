@@ -1,1 +1,49 @@
-{"idProcesos":[51918100,81806941],"numero":380,"cc":79804965,"llaveProceso":"11001400308120180011100","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":5686327,"celular":3157236856},"primerNombre":"JHON","segundoNombre":"ALEXANDER","primerApellido":"ALARCON","segundoApellido":"GALVIS","cedula":79804965,"direccion":"CALLE 36C No 3A - 25","email":"jhondoblea@hotmail.com"},"demanda":{"capitalAdeudado":40292.98,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2018-11-01T05:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2022-05-04T00:00:00.000Z","etapaProcesal":"11001400308120180011100","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":155380},"radicado":"2018 - 00111","vencimientoPagare":["2027-08-31T00:00:00.000Z"],"expediente":"11001400308120180011100","juzgados":[{"id":5,"tipo":"JUZGADO 005 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-05-de-ejecucion-civil-municipal-de-bogota"},{"id":81,"tipo":"JUZGADO 081 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-081-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [51918100, 81806941],
+  "numero": 380,
+  "cc": 79804965,
+  "llaveProceso": "11001400308120180011100",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 5686327,
+      "celular": 3157236856
+    },
+    "primerNombre": "JHON",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "ALARCON",
+    "segundoApellido": "GALVIS",
+    "cedula": 79804965,
+    "direccion": "CALLE 36C No 3A - 25",
+    "email": "jhondoblea@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 40292.98,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-11-01T05:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2022-05-04T00:00:00.000Z",
+    "etapaProcesal": "11001400308120180011100",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [155380],
+    "radicado": "2018 - 00111",
+    "vencimientoPagare": [
+      "2027-08-31T00:00:00.000Z"
+    ],
+    "expediente": "11001400308120180011100",
+    "juzgados": [
+      {
+        "id": 5,
+        "tipo": "JUZGADO 005 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-05-de-ejecucion-civil-municipal-de-bogota"
+      },
+      {
+        "id": 81,
+        "tipo": "JUZGADO 081 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-081-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

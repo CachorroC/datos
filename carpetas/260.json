@@ -1,1 +1,34 @@
-{"idProcesos":[],"numero":260,"cc":11384155,"llaveProceso":"25290400300120170063400","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"HERNAN","primerApellido":"ALVAREZ","segundoApellido":"PARDO","cedula":11384155,"direccion":"CARRERA 4 ESTE 4-42  FUSAGASUGA","email":"heralvarezpa@misena.edu.co"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-18T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-10-18T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-09-27T00:00:00.000Z","municipio":"FUSAGASUGA","obligacion":{"A":132687,"B":3778133800181884},"radicado":"2017 - 00634","vencimientoPagare":["2017-09-12T00:00:00.000Z"],"expediente":"25290400300120170063400","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 260,
+  "cc": 11384155,
+  "llaveProceso": "25290400300120170063400",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "HERNAN",
+    "primerApellido": "ALVAREZ",
+    "segundoApellido": "PARDO",
+    "cedula": 11384155,
+    "direccion": "CARRERA 4 ESTE 4-42  FUSAGASUGA",
+    "email": "heralvarezpa@misena.edu.co"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-10-18T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-27T00:00:00.000Z",
+    "municipio": "FUSAGASUGA",
+    "obligacion": [132687, 3778133800181884],
+    "radicado": "2017 - 00634",
+    "vencimientoPagare": [
+      "2017-09-12T00:00:00.000Z"
+    ],
+    "expediente": "25290400300120170063400",
+    "juzgados": []
+  }
+}

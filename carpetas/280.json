@@ -1,1 +1,42 @@
-{"idProcesos":[50875780],"numero":280,"cc":19447966,"llaveProceso":"11001400300920170127900","category":"Reintegra","tipoProceso":"SINGULAR","deudor":{"tel":{"fijo":4789274,"celular":3125826241},"primerNombre":"JOSE","segundoNombre":"HERNANDO","primerApellido":"SANCHEZ","segundoApellido":"VALBUENA","cedula":19447966,"direccion":"CR 12B 24-37 SUR","email":"jhernandosanchez@yahoo.es"},"demanda":{"capitalAdeudado":11796.195,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-11T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-12-12T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-09-19T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":8920084662},"radicado":"2017 - 01279","vencimientoPagare":[null],"expediente":"11001400300920170127900","juzgados":[{"id":18,"tipo":"JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50875780],
+  "numero": 280,
+  "cc": 19447966,
+  "llaveProceso": "11001400300920170127900",
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 4789274,
+      "celular": 3125826241
+    },
+    "primerNombre": "JOSE",
+    "segundoNombre": "HERNANDO",
+    "primerApellido": "SANCHEZ",
+    "segundoApellido": "VALBUENA",
+    "cedula": 19447966,
+    "direccion": "CR 12B 24-37 SUR",
+    "email": "jhernandosanchez@yahoo.es"
+  },
+  "demanda": {
+    "capitalAdeudado": 11796.195,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-11T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-12-12T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [8920084662],
+    "radicado": "2017 - 01279",
+    "vencimientoPagare": [null],
+    "expediente": "11001400300920170127900",
+    "juzgados": [
+      {
+        "id": 18,
+        "tipo": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

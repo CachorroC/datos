@@ -1,1 +1,41 @@
-{"idProcesos":[51465090],"numero":358,"cc":1116782267,"llaveProceso":"11001400307820170097500","category":"Reintegra","tipoProceso":"SINGULAR","deudor":{"tel":{"celular":3005941798},"primerNombre":"JOGLI","segundoNombre":"JOAQUIN","primerApellido":"OTERO","segundoApellido":"VARGAS","cedula":1116782267,"direccion":"DIAGONAL 2  No 79 F- 04","email":"juanotero1989@gmail.com"},"demanda":{"capitalAdeudado":22130.224,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-10-06T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-10-20T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-10-12T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":3880082626},"radicado":"2017 - 00975","vencimientoPagare":["2019-02-26T00:00:00.000Z"],"expediente":"11001400307820170097500","juzgados":[{"id":12,"tipo":"JUZGADO 012 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-12-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [51465090],
+  "numero": 358,
+  "cc": 1116782267,
+  "llaveProceso": "11001400307820170097500",
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": { "celular": 3005941798 },
+    "primerNombre": "JOGLI",
+    "segundoNombre": "JOAQUIN",
+    "primerApellido": "OTERO",
+    "segundoApellido": "VARGAS",
+    "cedula": 1116782267,
+    "direccion": "DIAGONAL 2  No 79 F- 04",
+    "email": "juanotero1989@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 22130.224,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-10-06T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-10-20T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-10-12T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [3880082626],
+    "radicado": "2017 - 00975",
+    "vencimientoPagare": [
+      "2019-02-26T00:00:00.000Z"
+    ],
+    "expediente": "11001400307820170097500",
+    "juzgados": [
+      {
+        "id": 12,
+        "tipo": "JUZGADO 012 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-12-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

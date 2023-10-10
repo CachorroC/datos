@@ -1,1 +1,44 @@
-{"idProcesos":[50674600],"numero":173,"cc":79878252,"llaveProceso":"11001400301520170116100","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":7230139,"celular":3114901649},"primerNombre":"DIEGO","segundoNombre":"ALEXANDER","primerApellido":"CAYCEDO","segundoApellido":"OCHOA","cedula":79878252,"direccion":"CALLE 69A SUR # 104 - 18 CASA 177","email":"diegoc8a@gmail.com"},"demanda":{"capitalAdeudado":41576.997,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-24T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-08-28T00:00:00.000Z","etapaProcesal":null,"fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":166760},"radicado":"2017 - 01161","vencimientoPagare":["2028-08-09T00:00:00.000Z"],"expediente":"11001400301520170116100","juzgados":[{"id":15,"tipo":"JUZGADO 015 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-015-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50674600],
+  "numero": 173,
+  "cc": 79878252,
+  "llaveProceso": "11001400301520170116100",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 7230139,
+      "celular": 3114901649
+    },
+    "primerNombre": "DIEGO",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "CAYCEDO",
+    "segundoApellido": "OCHOA",
+    "cedula": 79878252,
+    "direccion": "CALLE 69A SUR # 104 - 18 CASA 177",
+    "email": "diegoc8a@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 41576.997,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-08-28T00:00:00.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [166760],
+    "radicado": "2017 - 01161",
+    "vencimientoPagare": [
+      "2028-08-09T00:00:00.000Z"
+    ],
+    "expediente": "11001400301520170116100",
+    "juzgados": [
+      {
+        "id": 15,
+        "tipo": "JUZGADO 015 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-015-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

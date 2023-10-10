@@ -1,1 +1,46 @@
-{"idProcesos":[132964260],"numero":580,"cc":19488050,"llaveProceso":"11001418904420230023900","category":"Bancolombia","tipoProceso":"SINGULAR","deudor":{"tel":{"celular":3103052825},"primerNombre":"JOSE","segundoNombre":"IGNACIO","primerApellido":"GALEANO","segundoApellido":"ALVARADO","cedula":19488050,"direccion":"Transversal 78 No. 40J - 14 Sur","email":"joseignaciogaleanoa@gmail.com"},"demanda":{"capitalAdeudado":42647.591,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2023-08-24T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":790100533,"B":"790101375 Y 101380449 X T.C. AMERICAN 0377844056881358"},"radicado":"2023 - 0239","vencimientoPagare":[null,"2026-04-04T05:00:00.000Z","2026-05-08T05:00:00.000Z"],"expediente":"11001418904420230023900","juzgados":[{"id":44,"tipo":"JUZGADO 044 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ","url":"https://www.ramajudicial.gov.cojuzgado-044-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"}]}}
+{
+  "idProcesos": [132964260],
+  "numero": 580,
+  "cc": 19488050,
+  "llaveProceso": "11001418904420230023900",
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": { "celular": 3103052825 },
+    "primerNombre": "JOSE",
+    "segundoNombre": "IGNACIO",
+    "primerApellido": "GALEANO",
+    "segundoApellido": "ALVARADO",
+    "cedula": 19488050,
+    "direccion": "Transversal 78 No. 40J - 14 Sur",
+    "email": "joseignaciogaleanoa@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 42647.591,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-08-24T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      790100533,
+      "790101375 Y 101380449 X T.C. AMERICAN 0377844056881358"
+    ],
+    "radicado": "2023 - 0239",
+    "vencimientoPagare": [
+      null,
+      "2026-04-04T05:00:00.000Z",
+      "2026-05-08T05:00:00.000Z"
+    ],
+    "expediente": "11001418904420230023900",
+    "juzgados": [
+      {
+        "id": 44,
+        "tipo": "JUZGADO 044 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-044-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
+      }
+    ]
+  }
+}

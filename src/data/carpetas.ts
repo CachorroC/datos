@@ -1,19 +1,18 @@
 import { IntCarpeta } from '../types/carpetas';
 import * as fs from 'fs/promises';
 
-
-async function Carpetas (){
+async function Carpetas() {
   try {
-
     const archivoCarpetas = await fs.readFile(
-      './carpetas.json', 'utf-8'
+      './carpetas.json',
+      'utf-8'
     );
-    return ( JSON.parse(
+    return JSON.parse(
       archivoCarpetas
-    ) ) as IntCarpeta[];
+    ) as IntCarpeta[];
   } catch ( error ) {
     console.log(
-      error
+      error 
     );
     return [];
   }

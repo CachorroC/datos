@@ -1,1 +1,39 @@
-{"idProcesos":[51177440],"numero":428,"cc":1019016622,"llaveProceso":"11001400302420180052000","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"SERGIO","segundoNombre":"LIBARDO","primerApellido":"ESPINOSA","segundoApellido":"GOMEZ","cedula":1019016622,"direccion":"CARRERA 47 A No 118-08 OF 106","email":"gioser.87@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2018-04-30T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2018-06-15T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2018-05-08T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":377814411512303},"radicado":"2018 - 00520","vencimientoPagare":null,"expediente":"11001400302420180052000","juzgados":[{"id":17,"tipo":"JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [51177440],
+  "numero": 428,
+  "cc": 1019016622,
+  "llaveProceso": "11001400302420180052000",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "SERGIO",
+    "segundoNombre": "LIBARDO",
+    "primerApellido": "ESPINOSA",
+    "segundoApellido": "GOMEZ",
+    "cedula": 1019016622,
+    "direccion": "CARRERA 47 A No 118-08 OF 106",
+    "email": "gioser.87@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-04-30T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-06-15T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2018-05-08T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [377814411512303],
+    "radicado": "2018 - 00520",
+    "vencimientoPagare": null,
+    "expediente": "11001400302420180052000",
+    "juzgados": [
+      {
+        "id": 17,
+        "tipo": "JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

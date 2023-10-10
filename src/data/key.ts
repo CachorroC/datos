@@ -1,9 +1,7 @@
-
 import { sleep } from '../lib/fix';
 import { IntCarpeta } from '../types/carpetas';
 import { intConsultaActuaciones } from '../types/procesos';
 import * as fs from 'fs/promises';
-
 
 interface ErrorActuacion {
   StatusCode: number;
@@ -20,7 +18,8 @@ export async function fetchActuaciones(
     );
 
     if ( !request.ok ) {
-      const errorJson = ( await request.json() ) as ErrorActuacion;
+      const errorJson
+        = ( await request.json() ) as ErrorActuacion;
 
       return errorJson;
     }
@@ -36,7 +35,7 @@ export async function fetchActuaciones(
   } catch ( error ) {
     if ( error instanceof Error ) {
       console.log(
-        `${ idProceso }: error en la fetchActuaciones => ${ error.name } : ${ error.message }`,
+        `${ idProceso }: error en la fetchActuaciones => ${ error.name } : ${ error.message }`
       );
 
       return {
@@ -52,41 +51,48 @@ export async function fetchActuaciones(
     return {
       StatusCode: 500,
       Message   : JSON.stringify(
-        error
+        error 
       )
     };
   }
 }
 
-
-export async function CarpetasFetcher () {
-  const carpetasActuacionesMap = new Map<number, ErrorActuacion>();
+export async function CarpetasFetcher() {
+  const carpetasActuacionesMap = new Map<
+    number,
+    ErrorActuacion
+  >();
 
   const archivoCarpetas = await fs.readFile(
-    './carpetas.json', 'utf-8'
+    './carpetas.json',
+    'utf-8'
   );
 
-  const Carpetas = ( JSON.parse(
+  const Carpetas = JSON.parse(
     archivoCarpetas
-  ) ) as IntCarpeta[];
+  ) as IntCarpeta[];
 
   console.log(
-    Carpetas
+    Carpetas 
   );
 
   for ( const carpeta of Carpetas ) {
-    const indexOfCarpeta = Carpetas.indexOf(
-      carpeta
-    );
+    const indexOfCarpeta
+      = Carpetas.indexOf(
+        carpeta 
+      );
 
     await sleep(
-      200
+      200 
     );
     console.log(
-      indexOfCarpeta
+      indexOfCarpeta 
     );
 
-    if ( !carpeta.idProcesos || carpeta.idProcesos.length === 0 ) {
+    if (
+      !carpeta.idProcesos
+      || carpeta.idProcesos.length === 0
+    ) {
       console.log(
         'la carpeta no tiene idProcesos'
       );
@@ -94,14 +100,16 @@ export async function CarpetasFetcher () {
     }
 
     for ( const idProceso of carpeta.idProcesos ) {
-      const actuaciones = await fetchActuaciones(
-        idProceso
-      );
+      const actuaciones
+        = await fetchActuaciones(
+          idProceso 
+        );
       console.log(
-        actuaciones
+        actuaciones 
       );
       carpetasActuacionesMap.set(
-        idProceso, actuaciones
+        idProceso,
+        actuaciones
       );
     }
 
@@ -112,12 +120,12 @@ export async function CarpetasFetcher () {
     carpetasActuacionesMap.values()
   );
   fs.writeFile(
-    './Actuaciones.json', JSON.stringify(
-      ReturnerArray
+    './Actuaciones.json',
+    JSON.stringify(
+      ReturnerArray 
     )
   );
   return ReturnerArray;
 }
-
 
 CarpetasFetcher();

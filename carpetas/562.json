@@ -1,1 +1,38 @@
-{"numero":562,"cc":17139148,"llaveProceso":"1100141890342023098500","category":"Bancolombia","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"MARIO","segundoNombre":"HERNAN","primerApellido":"SALAMANCA","segundoApellido":"PATIÑO","cedula":17139148,"direccion":"Carrera 80 No. 8 - 11 Torre 3 Interior 5 Apartamento 519 Torres de Santa Barbara Conjunto Residencial","email":"ajasalama@gmail.com"},"demanda":{"capitalAdeudado":25252.953,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2023-07-26T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":9960086465,"B":"TARJETA DE CREDITO MASTER CARD 5303720132348190"},"radicado":"2023 - 00985","vencimientoPagare":["2026-10-05T05:00:00.000Z","2026-06-03T05:00:00.000Z"],"expediente":"1100141890342023098500","juzgados":null}}
+{
+  "numero": 562,
+  "cc": 17139148,
+  "llaveProceso": "1100141890342023098500",
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "MARIO",
+    "segundoNombre": "HERNAN",
+    "primerApellido": "SALAMANCA",
+    "segundoApellido": "PATIÑO",
+    "cedula": 17139148,
+    "direccion": "Carrera 80 No. 8 - 11 Torre 3 Interior 5 Apartamento 519 Torres de Santa Barbara Conjunto Residencial",
+    "email": "ajasalama@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 25252.953,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      9960086465,
+      "TARJETA DE CREDITO MASTER CARD 5303720132348190"
+    ],
+    "radicado": "2023 - 00985",
+    "vencimientoPagare": [
+      "2026-10-05T05:00:00.000Z",
+      "2026-06-03T05:00:00.000Z"
+    ],
+    "expediente": "1100141890342023098500",
+    "juzgados": null
+  }
+}

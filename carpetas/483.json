@@ -1,1 +1,32 @@
-{"idProcesos":[],"numero":483,"cc":19459237,"llaveProceso":"11001418903220180137000","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"WILSON","segundoNombre":"RICARDO","primerApellido":"ESCOBAR","segundoApellido":"ESCOBAR","cedula":19459237,"direccion":"CALLE 71 A No 69A-11 APTO  301"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2018-03-09T05:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"ADMISION","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":5860083295},"radicado":"2018 - 01370","vencimientoPagare":[null],"expediente":"11001418903220180137000","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 483,
+  "cc": 19459237,
+  "llaveProceso": "11001418903220180137000",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "WILSON",
+    "segundoNombre": "RICARDO",
+    "primerApellido": "ESCOBAR",
+    "segundoApellido": "ESCOBAR",
+    "cedula": 19459237,
+    "direccion": "CALLE 71 A No 69A-11 APTO  301"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-03-09T05:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [5860083295],
+    "radicado": "2018 - 01370",
+    "vencimientoPagare": [null],
+    "expediente": "11001418903220180137000",
+    "juzgados": []
+  }
+}

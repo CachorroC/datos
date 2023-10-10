@@ -1,1 +1,46 @@
-{"idProcesos":[50776700,81589821],"numero":215,"cc":36458257,"llaveProceso":"11001400300820170127300","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"LUZ","segundoNombre":"DARY","primerApellido":"HURTADO","segundoApellido":"RIOS","cedula":36458257,"direccion":"CARRERA 98B # 14 - 06 CASA 155","email":"luzdary.hurtado.rios@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-23T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-11-03T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-09-04T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":85677},"radicado":"2017 - 01273","vencimientoPagare":["2017-03-30T00:00:00.000Z"],"expediente":"11001400300820170127300","juzgados":[{"id":8,"tipo":"JUZGADO 008 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-008-civil-municipal-de-bogota"},{"id":8,"tipo":"JUZGADO 008 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-008-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50776700, 81589821],
+  "numero": 215,
+  "cc": 36458257,
+  "llaveProceso": "11001400300820170127300",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "LUZ",
+    "segundoNombre": "DARY",
+    "primerApellido": "HURTADO",
+    "segundoApellido": "RIOS",
+    "cedula": 36458257,
+    "direccion": "CARRERA 98B # 14 - 06 CASA 155",
+    "email": "luzdary.hurtado.rios@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-11-03T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [85677],
+    "radicado": "2017 - 01273",
+    "vencimientoPagare": [
+      "2017-03-30T00:00:00.000Z"
+    ],
+    "expediente": "11001400300820170127300",
+    "juzgados": [
+      {
+        "id": 8,
+        "tipo": "JUZGADO 008 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-008-civil-municipal-de-bogota"
+      },
+      {
+        "id": 8,
+        "tipo": "JUZGADO 008 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-008-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

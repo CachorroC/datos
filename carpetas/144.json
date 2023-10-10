@@ -1,1 +1,45 @@
-{"idProcesos":[50652400,81647161],"numero":144,"cc":52581513,"llaveProceso":"11001400302620170087200","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{"celular":3124794983},"primerNombre":"MARIA","segundoNombre":"FILOMENA","primerApellido":"GONZALES","segundoApellido":"SALAS","cedula":52581513,"direccion":"CALLE 136A # 100A - 07"},"demanda":{"capitalAdeudado":10481.215,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-16T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-08-22T00:00:00.000Z","etapaProcesal":"11001400302620170087200","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":1980094643},"radicado":"2017 - 00872","vencimientoPagare":["2020-10-26T00:00:00.000Z"],"expediente":"11001400302620170087200","juzgados":[{"id":26,"tipo":"JUZGADO 026 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-26-civil-municipal-de-bogota"},{"id":26,"tipo":"JUZGADO 026 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-26-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50652400, 81647161],
+  "numero": 144,
+  "cc": 52581513,
+  "llaveProceso": "11001400302620170087200",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": { "celular": 3124794983 },
+    "primerNombre": "MARIA",
+    "segundoNombre": "FILOMENA",
+    "primerApellido": "GONZALES",
+    "segundoApellido": "SALAS",
+    "cedula": 52581513,
+    "direccion": "CALLE 136A # 100A - 07"
+  },
+  "demanda": {
+    "capitalAdeudado": 10481.215,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-16T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-08-22T00:00:00.000Z",
+    "etapaProcesal": "11001400302620170087200",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [1980094643],
+    "radicado": "2017 - 00872",
+    "vencimientoPagare": [
+      "2020-10-26T00:00:00.000Z"
+    ],
+    "expediente": "11001400302620170087200",
+    "juzgados": [
+      {
+        "id": 26,
+        "tipo": "JUZGADO 026 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-26-civil-municipal-de-bogota"
+      },
+      {
+        "id": 26,
+        "tipo": "JUZGADO 026 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-26-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

@@ -1,1 +1,45 @@
-{"idProcesos":[132018670],"numero":558,"cc":52531016,"llaveProceso":"11001400305920230031500","category":"Bancolombia","tipoProceso":"SINGULAR","deudor":{"tel":{"celular":3106736494},"primerNombre":"CLAUDIA","segundoNombre":"MARCELA","primerApellido":"ARIAS","segundoApellido":"LÓPEZ","cedula":52531016,"direccion":"Calle 18 N 86 55 Etapa 1 Torre 5 Apartamento 403 Conjunto Residencial Parque de Ostente","email":"marcearias@yahoo.com"},"demanda":{"capitalAdeudado":46537.671,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2023-07-26T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":3880005183,"B":"PAGARE SIN NUMERO T. MASTER CARD 5303720122061696"},"radicado":"2023 -  00315","vencimientoPagare":[null,"2026-04-03T05:00:00.000Z"],"expediente":"11001400305920230031500","juzgados":[{"id":59,"tipo":"JUZGADO 059 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-59-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [132018670],
+  "numero": 558,
+  "cc": 52531016,
+  "llaveProceso": "11001400305920230031500",
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": { "celular": 3106736494 },
+    "primerNombre": "CLAUDIA",
+    "segundoNombre": "MARCELA",
+    "primerApellido": "ARIAS",
+    "segundoApellido": "LÓPEZ",
+    "cedula": 52531016,
+    "direccion": "Calle 18 N 86 55 Etapa 1 Torre 5 Apartamento 403 Conjunto Residencial Parque de Ostente",
+    "email": "marcearias@yahoo.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 46537.671,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      3880005183,
+      "PAGARE SIN NUMERO T. MASTER CARD 5303720122061696"
+    ],
+    "radicado": "2023 -  00315",
+    "vencimientoPagare": [
+      null,
+      "2026-04-03T05:00:00.000Z"
+    ],
+    "expediente": "11001400305920230031500",
+    "juzgados": [
+      {
+        "id": 59,
+        "tipo": "JUZGADO 059 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-59-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

@@ -1,1 +1,33 @@
-{"idProcesos":[],"numero":155,"cc":71557211,"llaveProceso":"11001400308320170071700","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"CARLOS","segundoNombre":"ARTURO","primerApellido":"RUEDA","segundoApellido":"ALZATE","cedula":71557211,"direccion":"CALLE 7 # 5 - 29 TORRE 8 APTO 303","email":"ruedacarlos47@gmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-04T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-09-04T00:00:00.000Z","etapaProcesal":"NOTIFICACION","fechaPresentacion":"2017-08-11T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":4513082821740149,"B":20990170294},"radicado":"2017 - 00717","vencimientoPagare":[null],"expediente":"11001400308320170071700","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 155,
+  "cc": 71557211,
+  "llaveProceso": "11001400308320170071700",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "CARLOS",
+    "segundoNombre": "ARTURO",
+    "primerApellido": "RUEDA",
+    "segundoApellido": "ALZATE",
+    "cedula": 71557211,
+    "direccion": "CALLE 7 # 5 - 29 TORRE 8 APTO 303",
+    "email": "ruedacarlos47@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-04T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-11T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [4513082821740149, 20990170294],
+    "radicado": "2017 - 00717",
+    "vencimientoPagare": [null],
+    "expediente": "11001400308320170071700",
+    "juzgados": []
+  }
+}

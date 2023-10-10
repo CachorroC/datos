@@ -1,1 +1,37 @@
-{"idProcesos":[],"numero":362,"cc":52031089,"llaveProceso":"25754400300220180003100","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":7553091,"celular":3007553091},"primerNombre":"YANETH","primerApellido":"HERNANDEZ","segundoApellido":"SUAREZ","cedula":52031089,"direccion":"CARRERA 80 J No 73-27","email":"HERNANDEZ_YANETH@HOTMAIL.COM"},"demanda":{"capitalAdeudado":42269.61,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-05-12T05:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2018-08-03T05:00:00.000Z","etapaProcesal":"SENTENCIA","fechaPresentacion":"2017-12-12T05:00:00.000Z","municipio":"SOACHA","obligacion":{"A":165609},"radicado":"2018 - 00031","vencimientoPagare":["2036-03-07T05:00:00.000Z"],"expediente":"25754400300220180003100","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 362,
+  "cc": 52031089,
+  "llaveProceso": "25754400300220180003100",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 7553091,
+      "celular": 3007553091
+    },
+    "primerNombre": "YANETH",
+    "primerApellido": "HERNANDEZ",
+    "segundoApellido": "SUAREZ",
+    "cedula": 52031089,
+    "direccion": "CARRERA 80 J No 73-27",
+    "email": "HERNANDEZ_YANETH@HOTMAIL.COM"
+  },
+  "demanda": {
+    "capitalAdeudado": 42269.61,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-05-12T05:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-08-03T05:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-12-12T05:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": [165609],
+    "radicado": "2018 - 00031",
+    "vencimientoPagare": [
+      "2036-03-07T05:00:00.000Z"
+    ],
+    "expediente": "25754400300220180003100",
+    "juzgados": []
+  }
+}

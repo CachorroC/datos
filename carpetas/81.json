@@ -1,1 +1,40 @@
-{"idProcesos":[50527610],"numero":81,"cc":900789612,"llaveProceso":"11001400303620170055400","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"DS&D","segundoNombre":"SOLUCIONES","primerApellido":"CONSTRUCTIVAS","segundoApellido":"S.A.S.","cedula":900789612,"direccion":"CARRERA 7 # 171A - 14 LA CALERA"},"demanda":{"capitalAdeudado":17337.417,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-06-21T00:00:00.000Z","etapaProcesal":"11001400303620170055400","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":1680096092},"radicado":"2017 - 00554","vencimientoPagare":["2018-10-26T00:00:00.000Z"],"expediente":"11001400303620170055400","juzgados":[{"id":17,"tipo":"JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50527610],
+  "numero": 81,
+  "cc": 900789612,
+  "llaveProceso": "11001400303620170055400",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "DS&D",
+    "segundoNombre": "SOLUCIONES",
+    "primerApellido": "CONSTRUCTIVAS",
+    "segundoApellido": "S.A.S.",
+    "cedula": 900789612,
+    "direccion": "CARRERA 7 # 171A - 14 LA CALERA"
+  },
+  "demanda": {
+    "capitalAdeudado": 17337.417,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-06-21T00:00:00.000Z",
+    "etapaProcesal": "11001400303620170055400",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [1680096092],
+    "radicado": "2017 - 00554",
+    "vencimientoPagare": [
+      "2018-10-26T00:00:00.000Z"
+    ],
+    "expediente": "11001400303620170055400",
+    "juzgados": [
+      {
+        "id": 17,
+        "tipo": "JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

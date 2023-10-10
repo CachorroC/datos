@@ -6,34 +6,34 @@ export class Tel implements IntTel {
   fijo?: number;
   celular?: number;
   constructor(
-    telefono: string
+    telefono: string 
   ) {
     const celularStringArray
       = telefono.match(
-        /\d{10}/g
+        /\d{10}/g 
       );
 
     const fijoStringArray
       = telefono.match(
-        /\d{7}\s/g
+        /\d{7}\s/g 
       );
 
     const celularNumber = celularStringArray?.map(
       (
-        f
+        f 
       ) => {
         return Number(
-          f
+          f 
         );
       }
     );
 
     const fijoNumber = fijoStringArray?.map(
       (
-        f
+        f 
       ) => {
         return Number(
-          f
+          f 
         );
       }
     );
@@ -52,13 +52,13 @@ export class Deudor implements IntDeudor {
       email,
       nombre,
       telefono = ''
-    }: DeudorRaw
+    }: DeudorRaw 
   ) {
     const stringCedula
       = typeof cedula === 'string';
     this.cedula = stringCedula
       ? Number(
-        cedula
+        cedula 
       )
       : cedula;
     this.direccion = direccion?.toString();
@@ -70,7 +70,7 @@ export class Deudor implements IntDeudor {
     );
 
     const nameStringArray = nombre.split(
-      ' '
+      ' ' 
     );
 
     const nameArrayLength
@@ -78,50 +78,37 @@ export class Deudor implements IntDeudor {
 
     switch ( nameArrayLength ) {
             case 4:
-              this.primerNombre
-          = nameStringArray[ 0 ];
-              this.segundoNombre
-          = nameStringArray[ 1 ];
-              this.primerApellido
-          = nameStringArray[ 2 ];
-              this.segundoApellido
-          = nameStringArray[ 3 ];
+              this.primerNombre = nameStringArray[ 0 ];
+              this.segundoNombre = nameStringArray[ 1 ];
+              this.primerApellido = nameStringArray[ 2 ];
+              this.segundoApellido = nameStringArray[ 3 ];
 
               break;
 
             case 2:
-              this.primerNombre
-          = nameStringArray[ 0 ];
+              this.primerNombre = nameStringArray[ 0 ];
 
-              this.primerApellido
-          = nameStringArray[ 1 ];
+              this.primerApellido = nameStringArray[ 1 ];
 
               break;
 
             case 1:
-              this.primerNombre
-          = nameStringArray[ 0 ];
+              this.primerNombre = nameStringArray[ 0 ];
               this.primerApellido = 'sin especificar';
 
               break;
 
             case 3:
-              this.primerNombre
-          = nameStringArray[ 0 ];
-              this.primerApellido
-          = nameStringArray[ 1 ];
-              this.segundoApellido
-          = nameStringArray[ 2 ];
+              this.primerNombre = nameStringArray[ 0 ];
+              this.primerApellido = nameStringArray[ 1 ];
+              this.segundoApellido = nameStringArray[ 2 ];
 
               break;
 
             case 5:
-              this.primerNombre
-          = nameStringArray[ 0 ];
-              this.segundoNombre
-          = nameStringArray[ 1 ];
-              this.primerApellido
-          = nameStringArray[ 2 ];
+              this.primerNombre = nameStringArray[ 0 ];
+              this.segundoNombre = nameStringArray[ 1 ];
+              this.primerApellido = nameStringArray[ 2 ];
               this.segundoApellido = `${ nameStringArray[ 3 ].replace(
                 ' ',
                 ''
@@ -133,8 +120,7 @@ export class Deudor implements IntDeudor {
               break;
 
             case 6:
-              this.primerNombre
-          = nameStringArray[ 0 ];
+              this.primerNombre = nameStringArray[ 0 ];
               this.segundoNombre = `${ nameStringArray[ 1 ].replace(
                 ' ',
                 ''
@@ -149,20 +135,15 @@ export class Deudor implements IntDeudor {
                 ' ',
                 ''
               ) }`;
-              this.segundoApellido
-          = nameStringArray[ 5 ];
+              this.segundoApellido = nameStringArray[ 5 ];
 
               break;
 
             default:
-              this.primerNombre
-          = nameStringArray[ 0 ];
-              this.segundoNombre
-          = nameStringArray[ 1 ];
-              this.primerApellido
-          = nameStringArray[ 2 ];
-              this.segundoApellido
-          = nameStringArray[ 3 ];
+              this.primerNombre = nameStringArray[ 0 ];
+              this.segundoNombre = nameStringArray[ 1 ];
+              this.primerApellido = nameStringArray[ 2 ];
+              this.segundoApellido = nameStringArray[ 3 ];
 
               break;
     }

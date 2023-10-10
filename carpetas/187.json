@@ -1,1 +1,38 @@
-{"idProcesos":[],"numero":187,"cc":39624423,"llaveProceso":"25290400300220170055200","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{"fijo":8717658,"celular":3138851725},"primerNombre":"YAZMIN","primerApellido":"ALVARADO","segundoApellido":"PINZON","cedula":39624423,"direccion":"CARRERA 6 # 16A - 84 FUSAGASUGA","email":""},"demanda":{"capitalAdeudado":10928.053,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-23T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-08-28T00:00:00.000Z","etapaProcesal":"25290400300220170055200","fechaPresentacion":null,"municipio":"FUSAGASUGA","obligacion":{"A":4513070122193330,"B":"AUDIOPRESTAMO"},"radicado":"2017 - 00552","vencimientoPagare":[null,null],"expediente":"25290400300220170055200","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 187,
+  "cc": 39624423,
+  "llaveProceso": "25290400300220170055200",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 8717658,
+      "celular": 3138851725
+    },
+    "primerNombre": "YAZMIN",
+    "primerApellido": "ALVARADO",
+    "segundoApellido": "PINZON",
+    "cedula": 39624423,
+    "direccion": "CARRERA 6 # 16A - 84 FUSAGASUGA",
+    "email": ""
+  },
+  "demanda": {
+    "capitalAdeudado": 10928.053,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-08-28T00:00:00.000Z",
+    "etapaProcesal": "25290400300220170055200",
+    "fechaPresentacion": null,
+    "municipio": "FUSAGASUGA",
+    "obligacion": [
+      4513070122193330,
+      "AUDIOPRESTAMO"
+    ],
+    "radicado": "2017 - 00552",
+    "vencimientoPagare": [null, null],
+    "expediente": "25290400300220170055200",
+    "juzgados": []
+  }
+}

@@ -1,1 +1,31 @@
-{"idProcesos":[],"numero":325,"cc":30583011,"llaveProceso":"11001400308020170076000","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"MARCELA","segundoNombre":"PATRICIA","primerApellido":"DIAZ","segundoApellido":"PEREIRA","cedula":30583011},"demanda":{"capitalAdeudado":0,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":"2017-11-02T00:00:00.000Z","municipio":"BOGOTA","obligacion":{},"radicado":"2017 - 00760","vencimientoPagare":null,"expediente":"11001400308020170076000","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 325,
+  "cc": 30583011,
+  "llaveProceso": "11001400308020170076000",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "MARCELA",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "DIAZ",
+    "segundoApellido": "PEREIRA",
+    "cedula": 30583011
+  },
+  "demanda": {
+    "capitalAdeudado": 0,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": "2017-11-02T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [],
+    "radicado": "2017 - 00760",
+    "vencimientoPagare": null,
+    "expediente": "11001400308020170076000",
+    "juzgados": []
+  }
+}

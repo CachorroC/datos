@@ -1,1 +1,40 @@
-{"idProcesos":[51463110],"numero":313,"cc":80490307,"llaveProceso":"11001400307820170104900","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{},"primerNombre":"MAURICIO","primerApellido":"PEREZ","segundoApellido":"PLAZAS","cedula":80490307,"direccion":"DIAGONAL 68 SUR No 37-69 INT 136","email":"mauricioperez7314@hotmail.com"},"demanda":{"capitalAdeudado":12521.212,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-10-25T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-10-31T00:00:00.000Z","etapaProcesal":"11001400307820170104900","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":3000093979},"radicado":"2017 - 01049","vencimientoPagare":["2017-06-22T00:00:00.000Z"],"expediente":"11001400307820170104900","juzgados":[{"id":15,"tipo":"JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [51463110],
+  "numero": 313,
+  "cc": 80490307,
+  "llaveProceso": "11001400307820170104900",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "MAURICIO",
+    "primerApellido": "PEREZ",
+    "segundoApellido": "PLAZAS",
+    "cedula": 80490307,
+    "direccion": "DIAGONAL 68 SUR No 37-69 INT 136",
+    "email": "mauricioperez7314@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 12521.212,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-10-25T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-10-31T00:00:00.000Z",
+    "etapaProcesal": "11001400307820170104900",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [3000093979],
+    "radicado": "2017 - 01049",
+    "vencimientoPagare": [
+      "2017-06-22T00:00:00.000Z"
+    ],
+    "expediente": "11001400307820170104900",
+    "juzgados": [
+      {
+        "id": 15,
+        "tipo": "JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

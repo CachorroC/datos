@@ -1,1 +1,29 @@
-{"numero":586,"cc":35507149,"category":"Bancolombia","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"MARIA","segundoNombre":"NANCY","primerApellido":"PINEDA","segundoApellido":"LEON","cedula":35507149},"demanda":{"capitalAdeudado":0,"departamento":null,"entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":null,"municipio":null,"obligacion":null,"radicado":null,"vencimientoPagare":null,"expediente":null,"juzgados":null}}
+{
+  "numero": 586,
+  "cc": 35507149,
+  "category": "Bancolombia",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "MARIA",
+    "segundoNombre": "NANCY",
+    "primerApellido": "PINEDA",
+    "segundoApellido": "LEON",
+    "cedula": 35507149
+  },
+  "demanda": {
+    "capitalAdeudado": 0,
+    "departamento": null,
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": null,
+    "obligacion": [],
+    "radicado": null,
+    "vencimientoPagare": null,
+    "expediente": null,
+    "juzgados": null
+  }
+}

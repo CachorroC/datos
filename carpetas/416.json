@@ -1,1 +1,44 @@
-{"idProcesos":[50873000],"numero":416,"cc":79512506,"llaveProceso":"11001400302020170147700","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{"fijo":2724305,"celular":3134664560},"primerNombre":"JOSE","segundoNombre":"ANTONIO","primerApellido":"MONTEALEGRE","segundoApellido":"HERNANDEZ","cedula":79512506,"direccion":"CALLE 24 No 24 - 16  SUR","email":"yulypgarcia.montplas@gmail.com"},"demanda":{"capitalAdeudado":51606.071,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-11-14T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-11-24T00:00:00.000Z","etapaProcesal":null,"fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":2330087192,"B":2330087423},"radicado":"2017 - 01477","vencimientoPagare":["2020-02-02T00:00:00.000Z"],"expediente":"11001400302020170147700","juzgados":[{"id":7,"tipo":"JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50873000],
+  "numero": 416,
+  "cc": 79512506,
+  "llaveProceso": "11001400302020170147700",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 2724305,
+      "celular": 3134664560
+    },
+    "primerNombre": "JOSE",
+    "segundoNombre": "ANTONIO",
+    "primerApellido": "MONTEALEGRE",
+    "segundoApellido": "HERNANDEZ",
+    "cedula": 79512506,
+    "direccion": "CALLE 24 No 24 - 16  SUR",
+    "email": "yulypgarcia.montplas@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 51606.071,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-11-14T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-11-24T00:00:00.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [2330087192, 2330087423],
+    "radicado": "2017 - 01477",
+    "vencimientoPagare": [
+      "2020-02-02T00:00:00.000Z"
+    ],
+    "expediente": "11001400302020170147700",
+    "juzgados": [
+      {
+        "id": 7,
+        "tipo": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

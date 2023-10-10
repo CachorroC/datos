@@ -1,1 +1,41 @@
-{"idProcesos":[50875060],"numero":355,"cc":80800763,"llaveProceso":"11001400301720170152600","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"NELSON","segundoNombre":"IVAN","primerApellido":"SEGURA","segundoApellido":"MENDEZ","cedula":80800763,"direccion":"CARRERA 98 A No 15 A -70 INTERIOR 18 APARTAMENTO 6","email":"nelsonivansegura@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":"2017-12-14T00:00:00.000Z","etapaProcesal":"SENTENCIA","fechaPresentacion":"2017-11-27T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":136483},"radicado":"2017 - 01526","vencimientoPagare":["2026-02-21T00:00:00.000Z"],"expediente":"11001400301720170152600","juzgados":[{"id":17,"tipo":"JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50875060],
+  "numero": 355,
+  "cc": 80800763,
+  "llaveProceso": "11001400301720170152600",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "NELSON",
+    "segundoNombre": "IVAN",
+    "primerApellido": "SEGURA",
+    "segundoApellido": "MENDEZ",
+    "cedula": 80800763,
+    "direccion": "CARRERA 98 A No 15 A -70 INTERIOR 18 APARTAMENTO 6",
+    "email": "nelsonivansegura@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-12-14T00:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-11-27T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [136483],
+    "radicado": "2017 - 01526",
+    "vencimientoPagare": [
+      "2026-02-21T00:00:00.000Z"
+    ],
+    "expediente": "11001400301720170152600",
+    "juzgados": [
+      {
+        "id": 17,
+        "tipo": "JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

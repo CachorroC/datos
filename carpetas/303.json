@@ -1,1 +1,47 @@
-{"idProcesos":[50778160],"numero":303,"cc":1118532643,"llaveProceso":"11001400303020170157900","category":"Terminados","tipoProceso":"SINGULAR","deudor":{"tel":{"fijo":7170610,"celular":3202777672},"primerNombre":"RAFAEL","segundoNombre":"ALFONSO","primerApellido":"CAMACHO","segundoApellido":"VELANDIA","cedula":1118532643,"direccion":"CARRERA 16 No 66 A 16","email":"willintong950@gmail.com  rafaelalfonsocamachovelandia@gmail.com"},"demanda":{"capitalAdeudado":12534.383,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-16T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-10-12T00:00:00.000Z","etapaProcesal":"11001400303020170157900","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":"2620088246 / 3777813457586759","B":4594250105313477},"radicado":"2017 - 01579","vencimientoPagare":["2020-07-14T00:00:00.000Z"],"expediente":"11001400303020170157900","juzgados":[{"id":10,"tipo":"JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-10-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50778160],
+  "numero": 303,
+  "cc": 1118532643,
+  "llaveProceso": "11001400303020170157900",
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 7170610,
+      "celular": 3202777672
+    },
+    "primerNombre": "RAFAEL",
+    "segundoNombre": "ALFONSO",
+    "primerApellido": "CAMACHO",
+    "segundoApellido": "VELANDIA",
+    "cedula": 1118532643,
+    "direccion": "CARRERA 16 No 66 A 16",
+    "email": "willintong950@gmail.com  rafaelalfonsocamachovelandia@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 12534.383,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-16T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-10-12T00:00:00.000Z",
+    "etapaProcesal": "11001400303020170157900",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "2620088246 / 3777813457586759",
+      4594250105313477
+    ],
+    "radicado": "2017 - 01579",
+    "vencimientoPagare": [
+      "2020-07-14T00:00:00.000Z"
+    ],
+    "expediente": "11001400303020170157900",
+    "juzgados": [
+      {
+        "id": 10,
+        "tipo": "JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-10-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

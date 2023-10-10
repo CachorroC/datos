@@ -1,1 +1,33 @@
-{"idProcesos":[],"numero":493,"cc":53103504,"llaveProceso":"11001410375120180181700","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{},"primerNombre":"KELLY","segundoNombre":"YULIANA","primerApellido":"QUINTERO","segundoApellido":"FIERRO","cedula":53103504,"direccion":"CALLE 7 No 87B-90","email":"juliana.4455@hotmail.com"},"demanda":{"capitalAdeudado":null,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2018-06-09T05:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"SUBSANA","fechaPresentacion":null,"municipio":"BOGOTA","obligacion":{"A":20990155357},"radicado":"2018 - 01817","vencimientoPagare":null,"expediente":"11001410375120180181700","juzgados":[]}}
+{
+  "idProcesos": [],
+  "numero": 493,
+  "cc": 53103504,
+  "llaveProceso": "11001410375120180181700",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {},
+    "primerNombre": "KELLY",
+    "segundoNombre": "YULIANA",
+    "primerApellido": "QUINTERO",
+    "segundoApellido": "FIERRO",
+    "cedula": 53103504,
+    "direccion": "CALLE 7 No 87B-90",
+    "email": "juliana.4455@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-06-09T05:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "SUBSANA",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [20990155357],
+    "radicado": "2018 - 01817",
+    "vencimientoPagare": null,
+    "expediente": "11001410375120180181700",
+    "juzgados": []
+  }
+}

@@ -1,1 +1,41 @@
-{"idProcesos":[50980370],"numero":384,"cc":80026753,"llaveProceso":"11001400305620180011000","category":"Terminados","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"celular":3202116040},"primerNombre":"DIEGO","segundoNombre":"JAVIER","primerApellido":"GALINDO","segundoApellido":"MEJIA","cedula":80026753,"direccion":"TRANSVERSAL 73 # 11B - 77 INT 2 APTO 504","email":"d8003galindo@gmail.com"},"demanda":{"capitalAdeudado":30413.921,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2018-01-24T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2018-02-15T00:00:00.000Z","etapaProcesal":"SENTENCIA","fechaPresentacion":"2018-01-30T00:00:00.000Z","municipio":"BOGOTA","obligacion":{"A":130026},"radicado":"2018 - 00110","vencimientoPagare":["2025-06-07T00:00:00.000Z"],"expediente":"11001400305620180011000","juzgados":[{"id":2,"tipo":"JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "idProcesos": [50980370],
+  "numero": 384,
+  "cc": 80026753,
+  "llaveProceso": "11001400305620180011000",
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": { "celular": 3202116040 },
+    "primerNombre": "DIEGO",
+    "segundoNombre": "JAVIER",
+    "primerApellido": "GALINDO",
+    "segundoApellido": "MEJIA",
+    "cedula": 80026753,
+    "direccion": "TRANSVERSAL 73 # 11B - 77 INT 2 APTO 504",
+    "email": "d8003galindo@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 30413.921,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-01-24T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-02-15T00:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2018-01-30T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [130026],
+    "radicado": "2018 - 00110",
+    "vencimientoPagare": [
+      "2025-06-07T00:00:00.000Z"
+    ],
+    "expediente": "11001400305620180011000",
+    "juzgados": [
+      {
+        "id": 2,
+        "tipo": "JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}
