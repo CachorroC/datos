@@ -1,12 +1,12 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25473400100120190116000",
   "numero": 528,
   "cc": 1065564377,
-  "llaveProceso": "25473400100120190116000",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "YOLADIS",
     "segundoNombre": "ESTHER",
     "primerApellido": "BLANCO",

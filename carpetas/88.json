@@ -1,12 +1,17 @@
 {
+  "_llaveProceso": "1100140030820170052800",
   "numero": 88,
   "cc": 51890871,
-  "llaveProceso": "1100140030820170052800",
+  "idProcesos": null,
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": { "celular": 3103126814 },
+    "tel": {
+      "fijo": null,
+      "celular": 3103126814
+    },
     "primerNombre": "IDALY",
+    "segundoNombre": null,
     "primerApellido": "FERRO",
     "segundoApellido": "CARDONA",
     "cedula": 51890871,

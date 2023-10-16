@@ -1,12 +1,15 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001418902120230128000",
   "numero": 564,
   "cc": 79399032,
-  "llaveProceso": "11001418902120230128000",
+  "idProcesos": [],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3125642401 },
+    "tel": {
+      "fijo": null,
+      "celular": 3125642401
+    },
     "primerNombre": "JORGE",
     "segundoNombre": "ALEX",
     "primerApellido": "ABADIA",

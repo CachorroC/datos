@@ -1,8 +1,8 @@
 {
-  "idProcesos": [51042800],
+  "_llaveProceso": "11001400305620180022100",
   "numero": 409,
   "cc": 900545720,
-  "llaveProceso": "11001400305620180022100",
+  "idProcesos": [51042800],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -11,6 +11,7 @@
       "celular": 3107982028
     },
     "primerNombre": "CREAS",
+    "segundoNombre": null,
     "primerApellido": "CONSULTORES",
     "segundoApellido": "S.A.S",
     "cedula": 900545720,

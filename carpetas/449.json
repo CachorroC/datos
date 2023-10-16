@@ -1,8 +1,8 @@
 {
-  "idProcesos": [51275960],
+  "_llaveProceso": "11001400301720180070500",
   "numero": 449,
   "cc": 4271429,
-  "llaveProceso": "11001400301720180070500",
+  "idProcesos": [51275960],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -15,7 +15,8 @@
     "primerApellido": "TELLEZ",
     "segundoApellido": "ROJAS",
     "cedula": 4271429,
-    "direccion": "DIAGONAL 85 No 85A-22"
+    "direccion": "DIAGONAL 85 No 85A-22",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 14170.111,

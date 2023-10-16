@@ -1,12 +1,15 @@
 {
-  "idProcesos": [160042431],
+  "_llaveProceso": "25430400300120230129500",
   "numero": 582,
   "cc": 7228260,
-  "llaveProceso": "25430400300120230129500",
+  "idProcesos": [160042431],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3133073186 },
+    "tel": {
+      "fijo": null,
+      "celular": 3133073186
+    },
     "primerNombre": "PEDRO",
     "segundoNombre": "ANTONIO",
     "primerApellido": "DUARTE",

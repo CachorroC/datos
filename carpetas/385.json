@@ -1,17 +1,19 @@
 {
-  "idProcesos": [50980350],
+  "_llaveProceso": "11001400303520180007400",
   "numero": 385,
   "cc": 406547,
-  "llaveProceso": "11001400303520180007400",
+  "idProcesos": [50980350],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "AVELINO",
+    "segundoNombre": null,
     "primerApellido": "SIERRA",
     "segundoApellido": "SIERRA",
     "cedula": 406547,
-    "direccion": "TRANVERSAL 11A # 9A - 13"
+    "direccion": "TRANVERSAL 11A # 9A - 13",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 15344.261,

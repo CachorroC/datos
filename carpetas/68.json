@@ -1,18 +1,22 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25899400300220170027000",
   "numero": 68,
   "cc": 35412591,
-  "llaveProceso": "25899400300220170027000",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "celular": 3114720151 },
+    "tel": {
+      "fijo": null,
+      "celular": 3114720151
+    },
     "primerNombre": "MARTHA",
     "segundoNombre": "STELLA",
     "primerApellido": "GOMEZ",
     "segundoApellido": "BOLIVAR",
     "cedula": 35412591,
-    "direccion": "CARRERA 7 No. 25-51 BQ/ TO 9 APTO 104 PARQUE RESIDENCIAL VILLAZO ZIPAQUIRA"
+    "direccion": "CARRERA 7 No. 25-51 BQ/ TO 9 APTO 104 PARQUE RESIDENCIAL VILLAZO ZIPAQUIRA",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 16302.625,

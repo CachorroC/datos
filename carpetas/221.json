@@ -1,8 +1,8 @@
 {
-  "idProcesos": [50684250],
+  "_llaveProceso": "11001400301320170115700",
   "numero": 221,
   "cc": 52192430,
-  "llaveProceso": "11001400301320170115700",
+  "idProcesos": [50684250],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
@@ -11,10 +11,12 @@
       "celular": 3103025587
     },
     "primerNombre": "BEATRIZ",
+    "segundoNombre": null,
     "primerApellido": "HELENA",
     "segundoApellido": "MACHADO",
     "cedula": 52192430,
-    "direccion": "CARRERA 81A # 54 - 32"
+    "direccion": "CARRERA 81A # 54 - 32",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 15864.394,

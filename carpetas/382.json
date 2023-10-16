@@ -1,18 +1,22 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25662408900120180000400",
   "numero": 382,
   "cc": 80403235,
-  "llaveProceso": "25662408900120180000400",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3107518479 },
+    "tel": {
+      "fijo": null,
+      "celular": 3107518479
+    },
     "primerNombre": "CARLOS",
     "segundoNombre": "ALBERTO",
     "primerApellido": "LANCHEROS",
     "segundoApellido": "BARRAGAN",
     "cedula": 80403235,
-    "direccion": "CARRERA 4 NO 5 - 02 SAN JUAN DE RIO SECO"
+    "direccion": "CARRERA 4 NO 5 - 02 SAN JUAN DE RIO SECO",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 11224313,

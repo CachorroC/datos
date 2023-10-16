@@ -1,12 +1,12 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25899400300320180042900",
   "numero": 498,
   "cc": 80546020,
-  "llaveProceso": "25899400300320180042900",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JOSE",
     "segundoNombre": "ALEXANDER",
     "primerApellido": "BECERRA",

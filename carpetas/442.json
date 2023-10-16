@@ -1,12 +1,12 @@
 {
-  "idProcesos": [51462640],
+  "_llaveProceso": "11001400307820180062300",
   "numero": 442,
   "cc": 80183322,
-  "llaveProceso": "11001400307820180062300",
+  "idProcesos": [51462640],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JULIAN",
     "segundoNombre": "FELIPE",
     "primerApellido": "ECHEVERRY",

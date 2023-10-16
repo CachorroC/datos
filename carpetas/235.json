@@ -1,8 +1,8 @@
 {
-  "idProcesos": [50716620],
+  "_llaveProceso": "11001400300820170113400",
   "numero": 235,
   "cc": 79853115,
-  "llaveProceso": "11001400300820170113400",
+  "idProcesos": [50716620],
   "category": "Bancolombia",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
@@ -11,6 +11,7 @@
       "celular": 3212406193
     },
     "primerNombre": "FANOR",
+    "segundoNombre": null,
     "primerApellido": "DIAZ",
     "segundoApellido": "AGUDELO",
     "cedula": 79853115,

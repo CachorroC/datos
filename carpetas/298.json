@@ -1,12 +1,15 @@
 {
-  "idProcesos": [51570460],
+  "_llaveProceso": "11001400307820170098600",
   "numero": 298,
   "cc": 79659040,
-  "llaveProceso": "11001400307820170098600",
+  "idProcesos": [51570460],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "celular": 3164700074 },
+    "tel": {
+      "fijo": null,
+      "celular": 3164700074
+    },
     "primerNombre": "HECTOR",
     "segundoNombre": "GABRIEL",
     "primerApellido": "RAMIREZ",

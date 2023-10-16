@@ -1,13 +1,14 @@
 {
-  "idProcesos": [51500810],
+  "_llaveProceso": "11001400307620180005200",
   "numero": 376,
   "cc": 11203111,
-  "llaveProceso": "11001400307620180005200",
+  "idProcesos": [51500810],
   "category": "LiosJuridicos",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ROBERTO",
+    "segundoNombre": null,
     "primerApellido": "RICO",
     "segundoApellido": "RUIZ",
     "cedula": 11203111,

@@ -1,12 +1,15 @@
 {
-  "idProcesos": [17942390],
+  "_llaveProceso": "11001400306420170123100",
   "numero": 78,
   "cc": 7711481,
-  "llaveProceso": "11001400306420170123100",
+  "idProcesos": [17942390],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3158939957 },
+    "tel": {
+      "fijo": null,
+      "celular": 3158939957
+    },
     "primerNombre": "JAIME",
     "segundoNombre": "EDISON",
     "primerApellido": "SANTOS",

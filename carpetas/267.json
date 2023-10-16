@@ -1,18 +1,19 @@
 {
-  "idProcesos": [50741270],
+  "_llaveProceso": "11001400306220170122900",
   "numero": 267,
   "cc": 52102735,
-  "llaveProceso": "11001400306220170122900",
+  "idProcesos": [50741270],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ANA",
     "segundoNombre": "FABIOLA",
     "primerApellido": "CARDOZO",
     "segundoApellido": "HERREÑO",
     "cedula": 52102735,
-    "direccion": "CARRERA 5 C BIS No  54 - 06 SUR"
+    "direccion": "CARRERA 5 C BIS No  54 - 06 SUR",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 32830.09,

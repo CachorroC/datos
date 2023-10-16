@@ -1,12 +1,12 @@
 {
-  "idProcesos": [50769660, 81620291],
+  "_llaveProceso": "11001400302120170153200",
   "numero": 310,
   "cc": 79388145,
-  "llaveProceso": "11001400302120170153200",
+  "idProcesos": [50769660, 81620291],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "LIBARDO",
     "segundoNombre": "ALFONSO",
     "primerApellido": "GONZALEZ",

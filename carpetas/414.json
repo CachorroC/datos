@@ -1,13 +1,14 @@
 {
-  "idProcesos": [65703460],
+  "_llaveProceso": "11001400304420180056600",
   "numero": 414,
   "cc": 51712277,
-  "llaveProceso": "11001400304420180056600",
+  "idProcesos": [65703460],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ELDA",
+    "segundoNombre": null,
     "primerApellido": "YANET",
     "segundoApellido": "CORTES",
     "cedula": 51712277,

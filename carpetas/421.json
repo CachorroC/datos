@@ -1,13 +1,14 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001400307520180061700",
   "numero": 421,
   "cc": 79837700,
-  "llaveProceso": "11001400307520180061700",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ALEXANDER",
+    "segundoNombre": null,
     "primerApellido": "MUÑOZ",
     "segundoApellido": "ORTIZ",
     "cedula": 79837700,

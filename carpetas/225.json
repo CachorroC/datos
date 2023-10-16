@@ -1,18 +1,19 @@
 {
-  "idProcesos": [50683550],
+  "_llaveProceso": "11001400301320170116300",
   "numero": 225,
   "cc": 79815721,
-  "llaveProceso": "11001400301320170116300",
+  "idProcesos": [50683550],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "LUIS",
     "segundoNombre": "OCTAVIO",
     "primerApellido": "ROJAS",
     "segundoApellido": "VALBUENA",
     "cedula": 79815721,
-    "direccion": "CARRERA 88 C # 62 - 09 SUR APTO 104"
+    "direccion": "CARRERA 88 C # 62 - 09 SUR APTO 104",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": null,

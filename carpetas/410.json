@@ -1,12 +1,12 @@
 {
-  "idProcesos": [51103200],
+  "_llaveProceso": "11001400303520180037000",
   "numero": 410,
   "cc": 52304124,
-  "llaveProceso": "11001400303520180037000",
+  "idProcesos": [51103200],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JENNY",
     "segundoNombre": "LILIANA",
     "primerApellido": "MONTOYA",

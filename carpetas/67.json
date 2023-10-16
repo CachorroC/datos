@@ -1,12 +1,15 @@
 {
-  "idProcesos": [28881194],
+  "_llaveProceso": "11001310301720170036000",
   "numero": 67,
   "cc": 78076295,
-  "llaveProceso": "11001310301720170036000",
+  "idProcesos": [28881194],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": { "celular": 3005146155 },
+    "tel": {
+      "fijo": null,
+      "celular": 3005146155
+    },
     "primerNombre": "HUMBERTO",
     "segundoNombre": "ENRIQUE",
     "primerApellido": "AVENA",

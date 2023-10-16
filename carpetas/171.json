@@ -1,12 +1,12 @@
 {
-  "idProcesos": [81888701],
+  "_llaveProceso": "11001400308620170086300",
   "numero": 171,
   "cc": 1024468871,
-  "llaveProceso": "11001400308620170086300",
+  "idProcesos": [81888701],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MARITZA",
     "segundoNombre": "NATALI",
     "primerApellido": "RODRIGUEZ",

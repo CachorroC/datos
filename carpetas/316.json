@@ -1,12 +1,12 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25754400300120170032300",
   "numero": 316,
   "cc": 8799171,
-  "llaveProceso": "25754400300120170032300",
+  "idProcesos": [],
   "category": "Bancolombia",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MANUEL",
     "segundoNombre": "ENRIQUE",
     "primerApellido": "ARTEAGA",

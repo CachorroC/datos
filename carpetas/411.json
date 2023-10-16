@@ -1,13 +1,14 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25754418900220180036500",
   "numero": 411,
   "cc": 1032362698,
-  "llaveProceso": "25754418900220180036500",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "NATALI",
+    "segundoNombre": null,
     "primerApellido": "VASQUEZ",
     "segundoApellido": "RUBIO",
     "cedula": 1032362698,

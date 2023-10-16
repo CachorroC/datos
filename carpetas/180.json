@@ -1,18 +1,19 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25878418900120170021800",
   "numero": 180,
   "cc": 21016631,
-  "llaveProceso": "25878418900120170021800",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ALCIRA",
     "segundoNombre": "DELIA",
     "primerApellido": "SAENZ",
     "segundoApellido": "GARAVIS",
     "cedula": 21016631,
-    "direccion": "CALLE 3 # 5 - 31 VIOTA"
+    "direccion": "CALLE 3 # 5 - 31 VIOTA",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": null,

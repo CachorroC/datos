@@ -1,18 +1,19 @@
 {
-  "idProcesos": [51277500],
+  "_llaveProceso": "11001400300520180071100",
   "numero": 447,
   "cc": 79698506,
-  "llaveProceso": "11001400300520180071100",
+  "idProcesos": [51277500],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "CARLOS",
     "segundoNombre": "ANTONIO",
     "primerApellido": "PACHECO",
     "segundoApellido": "TORRES",
     "cedula": 79698506,
-    "direccion": "CARRERA 80 BIS A No 70A-15"
+    "direccion": "CARRERA 80 BIS A No 70A-15",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": null,

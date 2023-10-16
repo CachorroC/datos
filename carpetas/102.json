@@ -1,18 +1,22 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25245408900120170023900",
   "numero": 102,
   "cc": 1070329396,
-  "llaveProceso": "25245408900120170023900",
+  "idProcesos": [],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3114456631 },
+    "tel": {
+      "fijo": null,
+      "celular": 3114456631
+    },
     "primerNombre": "ERIKA",
     "segundoNombre": "ALEJANDRA",
     "primerApellido": "QUINTERO",
     "segundoApellido": "REYES",
     "cedula": 1070329396,
-    "direccion": "CALL 2 No. 8-40 EL COLEGIO"
+    "direccion": "CALL 2 No. 8-40 EL COLEGIO",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 50000,

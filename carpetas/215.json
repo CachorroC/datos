@@ -1,12 +1,12 @@
 {
-  "idProcesos": [50776700, 81589821],
+  "_llaveProceso": "11001400300820170127300",
   "numero": 215,
   "cc": 36458257,
-  "llaveProceso": "11001400300820170127300",
+  "idProcesos": [50776700, 81589821],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "LUZ",
     "segundoNombre": "DARY",
     "primerApellido": "HURTADO",

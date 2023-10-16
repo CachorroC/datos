@@ -1,17 +1,22 @@
 {
-  "idProcesos": [82112341],
+  "_llaveProceso": "11001418900320170090900",
   "numero": 10,
   "cc": 52396019,
-  "llaveProceso": "11001418900320170090900",
+  "idProcesos": [82112341],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": { "celular": 3202705987 },
+    "tel": {
+      "fijo": null,
+      "celular": 3202705987
+    },
     "primerNombre": "MARINA",
+    "segundoNombre": null,
     "primerApellido": "MORALES",
     "segundoApellido": "HERNANDEZ",
     "cedula": 52396019,
-    "direccion": "CARRERA 109A No. 148-91 BOGOTA"
+    "direccion": "CARRERA 109A No. 148-91 BOGOTA",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 15946.341,

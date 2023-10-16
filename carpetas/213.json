@@ -1,11 +1,12 @@
 {
+  "_llaveProceso": "110014003088220170148800",
   "numero": 213,
   "cc": 52325613,
-  "llaveProceso": "110014003088220170148800",
+  "idProcesos": null,
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MYRIAM",
     "segundoNombre": "CONSUELO",
     "primerApellido": "RIOS",

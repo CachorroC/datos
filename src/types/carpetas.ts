@@ -27,6 +27,18 @@ export interface IntCarpeta {
   demanda: IntDemanda;
 }
 
+export interface IntCarpetaPrueba {
+  numero: number;
+  cc: number;
+  llaveProceso: string | null;
+  idProcesos: number[] | null;
+  category: Category;
+  tipoProceso: TipoProceso;
+  nombre: string;
+  deudor: IntDeudorPrueba;
+  demanda: IntDemandaPrueba;
+}
+
 export interface flatCarpeta {
   llaveProceso?: string;
   idProcesos?: number[];
@@ -114,9 +126,25 @@ export interface IntDeudor {
   tel: IntTel;
 }
 
+export interface IntDeudorPrueba {
+  cedula: number;
+  direccion: string | null;
+  email: string | null;
+  primerNombre: string;
+  segundoNombre: string | null;
+  primerApellido: string;
+  segundoApellido: string | null;
+  tel: IntTelPrueba;
+}
+
 export interface IntTel {
   fijo?: number;
   celular?: number;
+}
+
+export interface IntTelPrueba {
+  fijo: number | null;
+  celular: number | null;
 }
 
 export interface IntDemanda {
@@ -128,7 +156,23 @@ export interface IntDemanda {
   etapaProcesal: string | null;
   fechaPresentacion: Date | null;
   municipio: string | null;
-  obligacion: ( number | string )[];
+  obligacion: (number | string)[];
+  radicado: string | null;
+  vencimientoPagare: Date[] | null;
+  expediente: string | null;
+  juzgados: Juzgado[] | null;
+}
+
+export interface IntDemandaPrueba {
+  capitalAdeudado: number | null;
+  departamento: string | null;
+  entregaGarantiasAbogado: Date | null;
+  tipoProceso: TipoProceso;
+  mandamientoPago: Date | null;
+  etapaProcesal: string | null;
+  fechaPresentacion: Date | null;
+  municipio: string | null;
+  obligacion: (number | string)[] | null;
   radicado: string | null;
   vencimientoPagare: Date[] | null;
   expediente: string | null;

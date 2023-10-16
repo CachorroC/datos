@@ -1,17 +1,19 @@
 {
-  "idProcesos": [18370510],
+  "_llaveProceso": "11001400307020180012100",
   "numero": 389,
   "cc": 79874218,
-  "llaveProceso": "11001400307020180012100",
+  "idProcesos": [18370510],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MIGUEL",
     "segundoNombre": "ANGEL",
     "primerApellido": "GRANADOS",
     "segundoApellido": "GUTIERREZ",
-    "cedula": 79874218
+    "cedula": 79874218,
+    "direccion": null,
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 0,

@@ -1,17 +1,19 @@
 {
-  "idProcesos": [50699960],
+  "_llaveProceso": "11001400300220170084000",
   "numero": 218,
   "cc": 12402596,
-  "llaveProceso": "11001400300220170084000",
+  "idProcesos": [50699960],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ELIO",
+    "segundoNombre": null,
     "primerApellido": "ALVARADO",
     "segundoApellido": "HERNANDEZ",
     "cedula": 12402596,
-    "direccion": "CALLE 144 # 136A - 45"
+    "direccion": "CALLE 144 # 136A - 45",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": null,

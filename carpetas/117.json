@@ -1,12 +1,12 @@
 {
-  "idProcesos": [50522530],
+  "_llaveProceso": "11001400307020170056600",
   "numero": 117,
   "cc": 19386444,
-  "llaveProceso": "11001400307020170056600",
+  "idProcesos": [50522530],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "NICOLAS",
     "segundoNombre": "FERNANDO",
     "primerApellido": "MONTOYA",

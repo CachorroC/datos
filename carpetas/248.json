@@ -1,13 +1,17 @@
 {
-  "idProcesos": [50715970],
+  "_llaveProceso": "11001400305920170087100",
   "numero": 248,
   "cc": 19475788,
-  "llaveProceso": "11001400305920170087100",
+  "idProcesos": [50715970],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "celular": 3193196261 },
+    "tel": {
+      "fijo": null,
+      "celular": 3193196261
+    },
     "primerNombre": "HENRY",
+    "segundoNombre": null,
     "primerApellido": "CARRANZA",
     "segundoApellido": "ALBA",
     "cedula": 19475788,

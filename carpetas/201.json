@@ -1,8 +1,8 @@
 {
-  "idProcesos": [128433271],
+  "_llaveProceso": "11001400307920170114200",
   "numero": 201,
   "cc": 51733931,
-  "llaveProceso": "11001400307920170114200",
+  "idProcesos": [128433271],
   "category": "Insolvencia",
   "tipoProceso": "SINGULAR",
   "deudor": {

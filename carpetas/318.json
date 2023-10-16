@@ -1,16 +1,18 @@
 {
-  "idProcesos": [18367590],
+  "_llaveProceso": "11001400307020170116400",
   "numero": 318,
   "cc": 51673703,
-  "llaveProceso": "11001400307020170116400",
+  "idProcesos": [18367590],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "SONIA",
+    "segundoNombre": null,
     "primerApellido": "JANETH",
     "segundoApellido": "RODRIGUEZ",
     "cedula": 51673703,
+    "direccion": null,
     "email": "CALLE 52 SUR No 97 C - 20"
   },
   "demanda": {

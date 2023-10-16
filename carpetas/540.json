@@ -1,8 +1,8 @@
 {
-  "idProcesos": [51341610],
+  "_llaveProceso": "11001400301420180092900",
   "numero": 540,
   "cc": 3242760,
-  "llaveProceso": "11001400301420180092900",
+  "idProcesos": [51341610],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {

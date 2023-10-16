@@ -1,13 +1,14 @@
 {
-  "idProcesos": [50859050],
+  "_llaveProceso": "11001400300420170126600",
   "numero": 390,
   "cc": 71603563,
-  "llaveProceso": "11001400300420170126600",
+  "idProcesos": [50859050],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "GILBERTO",
+    "segundoNombre": null,
     "primerApellido": "JAIME",
     "segundoApellido": "BETANCOURT",
     "cedula": 71603563,

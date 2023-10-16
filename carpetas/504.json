@@ -1,17 +1,19 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25740410300120180037000",
   "numero": 504,
   "cc": 52432037,
-  "llaveProceso": "25740410300120180037000",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ANA",
     "segundoNombre": "DEL",
     "primerApellido": "PILAR",
     "segundoApellido": "MENDEZ AMAYA",
-    "cedula": 52432037
+    "cedula": 52432037,
+    "direccion": null,
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": null,

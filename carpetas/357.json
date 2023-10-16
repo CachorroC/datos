@@ -1,12 +1,12 @@
 {
-  "idProcesos": [17054094],
+  "_llaveProceso": "11001400305520170137800",
   "numero": 357,
   "cc": 1012330386,
-  "llaveProceso": "11001400305520170137800",
+  "idProcesos": [17054094],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "DIANA",
     "segundoNombre": "SAYURI",
     "primerApellido": "RODRIGUEZ",

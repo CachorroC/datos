@@ -1,12 +1,12 @@
 {
-  "idProcesos": [17325724],
+  "_llaveProceso": "11001400305620170059100",
   "numero": 94,
   "cc": 1030527169,
-  "llaveProceso": "11001400305620170059100",
+  "idProcesos": [17325724],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "AIDA",
     "segundoNombre": "YURANI",
     "primerApellido": "GRIJALBA",

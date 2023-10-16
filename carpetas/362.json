@@ -1,8 +1,8 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25754400300220180003100",
   "numero": 362,
   "cc": 52031089,
-  "llaveProceso": "25754400300220180003100",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
@@ -11,6 +11,7 @@
       "celular": 3007553091
     },
     "primerNombre": "YANETH",
+    "segundoNombre": null,
     "primerApellido": "HERNANDEZ",
     "segundoApellido": "SUAREZ",
     "cedula": 52031089,

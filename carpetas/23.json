@@ -1,12 +1,15 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25307400300120170033700",
   "numero": 23,
   "cc": 11207272,
-  "llaveProceso": "25307400300120170033700",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": { "celular": 3186899839 },
+    "tel": {
+      "fijo": null,
+      "celular": 3186899839
+    },
     "primerNombre": "EDER",
     "segundoNombre": "ALEXIS",
     "primerApellido": "HERRERA",

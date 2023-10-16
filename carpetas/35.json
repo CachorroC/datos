@@ -1,12 +1,15 @@
 {
-  "idProcesos": [50477000],
+  "_llaveProceso": "11001400302620170051100",
   "numero": 35,
   "cc": 7226201,
-  "llaveProceso": "11001400302620170051100",
+  "idProcesos": [50477000],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3106199094 },
+    "tel": {
+      "fijo": null,
+      "celular": 3106199094
+    },
     "primerNombre": "LUIS",
     "segundoNombre": "CARLOS",
     "primerApellido": "GUTIERREZ",

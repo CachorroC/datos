@@ -1,13 +1,14 @@
 {
-  "idProcesos": [51701110],
+  "_llaveProceso": "11001400308220170125600",
   "numero": 305,
   "cc": 19479861,
-  "llaveProceso": "11001400308220170125600",
+  "idProcesos": [51701110],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "FERNANDO",
+    "segundoNombre": null,
     "primerApellido": "RINCON",
     "segundoApellido": "RODRIGUEZ",
     "cedula": 19479861,

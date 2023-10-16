@@ -1,18 +1,19 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25126408900220170071500",
   "numero": 3,
   "cc": 1018441487,
-  "llaveProceso": "25126408900220170071500",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MARIA",
     "segundoNombre": "CLAUDIA",
     "primerApellido": "REATIGA",
     "segundoApellido": "URREA",
     "cedula": 1018441487,
-    "direccion": "CARRERA 2 E No 1 A  - 60 CASA 126 - CAJICA"
+    "direccion": "CARRERA 2 E No 1 A  - 60 CASA 126 - CAJICA",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": null,

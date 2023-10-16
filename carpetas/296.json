@@ -1,12 +1,12 @@
 {
-  "idProcesos": [127797581, 127797591],
+  "_llaveProceso": "11001410375220170129100",
   "numero": 296,
   "cc": 86074992,
-  "llaveProceso": "11001410375220170129100",
+  "idProcesos": [127797581, 127797591],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "DIDIER",
     "segundoNombre": "HARVEY",
     "primerApellido": "PRADA",

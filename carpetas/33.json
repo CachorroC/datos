@@ -1,12 +1,15 @@
 {
-  "idProcesos": [81869251],
+  "_llaveProceso": "11001400308220170064900",
   "numero": 33,
   "cc": 28936365,
-  "llaveProceso": "11001400308220170064900",
+  "idProcesos": [81869251],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3118113651 },
+    "tel": {
+      "fijo": null,
+      "celular": 3118113651
+    },
     "primerNombre": "NINI",
     "segundoNombre": "JOHANA",
     "primerApellido": "CORTES",

@@ -1,12 +1,12 @@
 {
-  "idProcesos": [132020490],
+  "_llaveProceso": "11001418903220230061200",
   "numero": 563,
   "cc": 7718318,
-  "llaveProceso": "11001418903220230061200",
+  "idProcesos": [132020490],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MILTON",
     "segundoNombre": "MARINO",
     "primerApellido": "LUGO",

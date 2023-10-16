@@ -1,12 +1,12 @@
 {
-  "idProcesos": [51816100, 135801811],
+  "_llaveProceso": "11001418901420190065600",
   "numero": 463,
   "cc": 52883958,
-  "llaveProceso": "11001418901420190065600",
+  "idProcesos": [51816100, 135801811],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "LEIDY",
     "segundoNombre": "YANETH",
     "primerApellido": "VIDAL",

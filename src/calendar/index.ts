@@ -37,8 +37,7 @@ export function CalendarBuilder() {
     currentYear,
     currentMonth,
     1
-  )
-        .getDay();
+  ).getDay();
 
   const firstDateofMonth = new Date(
     currentYear,
@@ -46,48 +45,40 @@ export function CalendarBuilder() {
     1
   );
 
-  const firstWeekDayofMonth
-    = firstDateofMonth.getDay();
+  const firstWeekDayofMonth =
+    firstDateofMonth.getDay();
 
   const lastDateofMonth = new Date(
     currentYear,
     currentMonth + 1,
     0
-  )
-        .getDate();
+  ).getDate();
 
   const lastDayofMonth = new Date(
     currentYear,
     currentMonth,
     lastDateofMonth
-  )
-        .getDay();
+  ).getDay();
 
   const lastDateofPastMonth = new Date(
     currentYear,
     currentMonth,
     0
-  )
-        .getDate();
+  ).getDate();
 
   for (
     let dayBefore = firstDayofMonth;
     dayBefore > 0;
     dayBefore--
   ) {
-    const href = `${ currentYear }-${
+    const href = `${currentYear}-${
       currentMonth - 1
-    }-${ lastDateofPastMonth - dayBefore + 1 }`;
-    rows.add(
-      {
-        href     : href,
-        current  : false,
-        dayOfWeek: new Date(
-          href 
-        )
-              .getDay()
-      } 
-    );
+    }-${lastDateofPastMonth - dayBefore + 1}`;
+    rows.add({
+      href: href,
+      current: false,
+      dayOfWeek: new Date(href).getDay()
+    });
   }
 
   for (
@@ -95,18 +86,13 @@ export function CalendarBuilder() {
     dayInMonth <= lastDateofMonth;
     dayInMonth++
   ) {
-    const href = `${ currentYear }-${ currentMonth }-${ dayInMonth }`;
+    const href = `${currentYear}-${currentMonth}-${dayInMonth}`;
 
-    rows.add(
-      {
-        href     : href,
-        current  : true,
-        dayOfWeek: new Date(
-          href 
-        )
-              .getDay()
-      } 
-    );
+    rows.add({
+      href: href,
+      current: true,
+      dayOfWeek: new Date(href).getDay()
+    });
   }
 
   for (
@@ -114,25 +100,16 @@ export function CalendarBuilder() {
     dayAfterMonth < 6;
     dayAfterMonth++
   ) {
-    const href = `${ currentYear }-${ currentMonth }-${ dayAfterMonth }`;
+    const href = `${currentYear}-${currentMonth}-${dayAfterMonth}`;
 
-    rows.add(
-      {
-        href     : href,
-        current  : false,
-        dayOfWeek: new Date(
-          href 
-        )
-              .getDay()
-      } 
-    );
+    rows.add({
+      href: href,
+      current: false,
+      dayOfWeek: new Date(href).getDay()
+    });
   }
 
-  return Array.from(
-    rows 
-  );
+  return Array.from(rows);
 }
 
-console.log(
-  CalendarBuilder() 
-);
+console.log(CalendarBuilder());

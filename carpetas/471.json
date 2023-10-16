@@ -1,7 +1,8 @@
 {
+  "_llaveProceso": "1100140030152018007100",
   "numero": 471,
   "cc": 80742720,
-  "llaveProceso": "1100140030152018007100",
+  "idProcesos": null,
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
@@ -10,6 +11,7 @@
       "celular": 3166997083
     },
     "primerNombre": "ADRIANA",
+    "segundoNombre": null,
     "primerApellido": "MIREYA",
     "segundoApellido": "AGUILAR",
     "cedula": 80742720,

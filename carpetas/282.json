@@ -1,8 +1,8 @@
 {
-  "idProcesos": [50777890],
+  "_llaveProceso": "11001400301520170139400",
   "numero": 282,
   "cc": 19255260,
-  "llaveProceso": "11001400301520170139400",
+  "idProcesos": [50777890],
   "category": "Bancolombia",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {

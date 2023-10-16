@@ -1,16 +1,18 @@
 {
-  "idProcesos": [51278930],
+  "_llaveProceso": "11001400301420180078900",
   "numero": 487,
   "cc": 80473211,
-  "llaveProceso": "11001400301420180078900",
+  "idProcesos": [51278930],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "GABRIEL",
+    "segundoNombre": null,
     "primerApellido": "MENDOZA",
     "segundoApellido": "MORINELLY",
     "cedula": 80473211,
+    "direccion": null,
     "email": "CARRERA 102 B No 151-15 TORRE 2  APTO 1309"
   },
   "demanda": {

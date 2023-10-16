@@ -1,12 +1,15 @@
 {
-  "idProcesos": [51465090],
+  "_llaveProceso": "11001400307820170097500",
   "numero": 358,
   "cc": 1116782267,
-  "llaveProceso": "11001400307820170097500",
+  "idProcesos": [51465090],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3005941798 },
+    "tel": {
+      "fijo": null,
+      "celular": 3005941798
+    },
     "primerNombre": "JOGLI",
     "segundoNombre": "JOAQUIN",
     "primerApellido": "OTERO",

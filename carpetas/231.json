@@ -1,12 +1,12 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001418900920170008900",
   "numero": 231,
   "cc": 1022943195,
-  "llaveProceso": "11001418900920170008900",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "DIANA",
     "segundoNombre": "MARCELA IPUZ",
     "primerApellido": "SUAREZ Y",

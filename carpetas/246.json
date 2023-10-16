@@ -1,8 +1,8 @@
 {
-  "idProcesos": [10416913],
+  "_llaveProceso": "11001400304720180024200",
   "numero": 246,
   "cc": 79805533,
-  "llaveProceso": "11001400304720180024200",
+  "idProcesos": [10416913],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
@@ -11,10 +11,12 @@
       "celular": 3204979488
     },
     "primerNombre": "EDWIN",
+    "segundoNombre": null,
     "primerApellido": "BUITRAGO",
     "segundoApellido": "VILLAMIL",
     "cedula": 79805533,
-    "direccion": "CARRERA 26 No 44-76 SUR"
+    "direccion": "CARRERA 26 No 44-76 SUR",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": null,

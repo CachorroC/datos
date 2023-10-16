@@ -1,8 +1,8 @@
 {
-  "idProcesos": [9334093],
+  "_llaveProceso": "11001400304320170110600",
   "numero": 238,
   "cc": 7181490,
-  "llaveProceso": "11001400304320170110600",
+  "idProcesos": [9334093],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
@@ -15,6 +15,7 @@
     "primerApellido": "RUDA",
     "segundoApellido": "ARIAS",
     "cedula": 7181490,
+    "direccion": null,
     "email": "blamblemooo1@gmail.com"
   },
   "demanda": {

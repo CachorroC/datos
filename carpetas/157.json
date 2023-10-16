@@ -1,17 +1,19 @@
 {
-  "idProcesos": [50668030],
+  "_llaveProceso": "11001400301120170088900",
   "numero": 157,
   "cc": 19146821,
-  "llaveProceso": "11001400301120170088900",
+  "idProcesos": [50668030],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "LUIS",
     "segundoNombre": "ALBERTO",
     "primerApellido": "MENDOZA",
     "segundoApellido": "CASTAÑO",
-    "cedula": 19146821
+    "cedula": 19146821,
+    "direccion": null,
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 0,

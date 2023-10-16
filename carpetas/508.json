@@ -1,12 +1,15 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25377408900120180037100",
   "numero": 508,
   "cc": 11230400,
-  "llaveProceso": "25377408900120180037100",
+  "idProcesos": [],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3123703828 },
+    "tel": {
+      "fijo": null,
+      "celular": 3123703828
+    },
     "primerNombre": "JOSE",
     "segundoNombre": "ALFONSO",
     "primerApellido": "VASQUEZ",

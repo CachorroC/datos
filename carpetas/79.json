@@ -1,13 +1,14 @@
 {
-  "idProcesos": [50514570],
+  "_llaveProceso": "11001400303320170089200",
   "numero": 79,
   "cc": 38289111,
-  "llaveProceso": "11001400303320170089200",
+  "idProcesos": [50514570],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "CRISTINA",
+    "segundoNombre": null,
     "primerApellido": "CASTAÑO",
     "segundoApellido": "CASTILLO",
     "cedula": 38289111,

@@ -1,18 +1,22 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25899400300320180055500",
   "numero": 439,
   "cc": 79812352,
-  "llaveProceso": "25899400300320180055500",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "celular": 3123170535 },
+    "tel": {
+      "fijo": null,
+      "celular": 3123170535
+    },
     "primerNombre": "MIGUEL",
     "segundoNombre": "ESNEYDER",
     "primerApellido": "DEVIA",
     "segundoApellido": "CEPEDA",
     "cedula": 79812352,
-    "direccion": "TRANSVERSAL 78 No 68A-15 SUR"
+    "direccion": "TRANSVERSAL 78 No 68A-15 SUR",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": null,

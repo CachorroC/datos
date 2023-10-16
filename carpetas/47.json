@@ -1,18 +1,22 @@
 {
-  "idProcesos": [50521190],
+  "_llaveProceso": "11001400300620170030200",
   "numero": 47,
   "cc": 52129551,
-  "llaveProceso": "11001400300620170030200",
+  "idProcesos": [50521190],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3229150048 },
+    "tel": {
+      "fijo": null,
+      "celular": 3229150048
+    },
     "primerNombre": "ANA",
     "segundoNombre": "RITA",
     "primerApellido": "GUZMAN",
     "segundoApellido": "GOMEZ",
     "cedula": 52129551,
-    "direccion": "CALLE 61 J No. 17D - 55 Sur"
+    "direccion": "CALLE 61 J No. 17D - 55 Sur",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 21530.598,

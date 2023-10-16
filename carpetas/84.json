@@ -1,8 +1,8 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001400303920170080000",
   "numero": 84,
   "cc": 79108747,
-  "llaveProceso": "11001400303920170080000",
+  "idProcesos": [],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -11,6 +11,7 @@
       "celular": 3118802970
     },
     "primerNombre": "EDGAR",
+    "segundoNombre": null,
     "primerApellido": "HERNANDEZ",
     "segundoApellido": "RUBIO",
     "cedula": 79108747,

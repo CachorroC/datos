@@ -1,18 +1,19 @@
 {
-  "idProcesos": [110568033],
+  "_llaveProceso": "11001400305120170111300",
   "numero": 295,
   "cc": 36536419,
-  "llaveProceso": "11001400305120170111300",
+  "idProcesos": [110568033],
   "category": "Reintegra",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "RITA",
     "segundoNombre": "CECILIA",
     "primerApellido": "FERNANDEZ",
     "segundoApellido": "IBAÑEZ",
     "cedula": 36536419,
-    "direccion": "CALLE 124 No  20-76 APARTAMENTO 503"
+    "direccion": "CALLE 124 No  20-76 APARTAMENTO 503",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 25845.669,

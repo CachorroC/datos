@@ -1,13 +1,14 @@
 {
-  "idProcesos": [65700110],
+  "_llaveProceso": "11001400306320170092400",
   "numero": 294,
   "cc": 79292743,
-  "llaveProceso": "11001400306320170092400",
+  "idProcesos": [65700110],
   "category": "Reintegra",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "HERNANDO",
+    "segundoNombre": null,
     "primerApellido": "PULECIO",
     "segundoApellido": "PAREDES",
     "cedula": 79292743,

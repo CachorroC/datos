@@ -1,18 +1,19 @@
 {
-  "idProcesos": [80553011, 1805257424],
+  "_llaveProceso": "11001310301120170033500",
   "numero": 25,
   "cc": 3197274,
-  "llaveProceso": "11001310301120170033500",
+  "idProcesos": [80553011, 1805257424],
   "category": "Reintegra",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "OMAR",
     "segundoNombre": "DARIO",
     "primerApellido": "ZEA",
     "segundoApellido": "GALVIS",
     "cedula": 3197274,
-    "direccion": "CL 14 No. 10 - 45 Bucaramanga"
+    "direccion": "CL 14 No. 10 - 45 Bucaramanga",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 107818.114,

@@ -1,7 +1,8 @@
 {
+  "_llaveProceso": "1100140030202100050100",
   "numero": 265,
   "cc": 7601476,
-  "llaveProceso": "1100140030202100050100",
+  "idProcesos": null,
   "category": "Insolvencia",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {

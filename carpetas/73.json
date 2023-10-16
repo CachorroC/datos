@@ -1,14 +1,16 @@
 {
-  "idProcesos": [50508870],
+  "_llaveProceso": "11001400300420170057500",
   "numero": 73,
   "cc": 31877993,
-  "llaveProceso": "11001400300420170057500",
+  "idProcesos": [50508870],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": { "fijo": 2333333 },
+    "tel": { "fijo": 2333333, "celular": null },
     "primerNombre": "SONIA",
+    "segundoNombre": null,
     "primerApellido": "MAZUERA",
+    "segundoApellido": null,
     "cedula": 31877993,
     "direccion": "CARRERA 55 A No. 165-27 int 7 apto 102",
     "email": "mrocha@hotmail.com"

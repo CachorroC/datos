@@ -1,11 +1,12 @@
 {
+  "_llaveProceso": "1100141890342023098500",
   "numero": 562,
   "cc": 17139148,
-  "llaveProceso": "1100141890342023098500",
+  "idProcesos": null,
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MARIO",
     "segundoNombre": "HERNAN",
     "primerApellido": "SALAMANCA",

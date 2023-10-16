@@ -1,14 +1,19 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001400307920180087200",
   "numero": 457,
   "cc": 900237555,
-  "llaveProceso": "11001400307920180087200",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3108881287 },
+    "tel": {
+      "fijo": null,
+      "celular": 3108881287
+    },
     "primerNombre": "SOLINCON",
+    "segundoNombre": null,
     "primerApellido": "LIMITADA",
+    "segundoApellido": null,
     "cedula": 900237555,
     "direccion": "CARRERA 58 No 15-54 PISO 2",
     "email": "solinconltda@yahoo.es"

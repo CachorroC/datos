@@ -1,12 +1,12 @@
 {
-  "idProcesos": [50521480, 81728891],
+  "_llaveProceso": "11001400303420170083600",
   "numero": 90,
   "cc": 1032432802,
-  "llaveProceso": "11001400303420170083600",
+  "idProcesos": [50521480, 81728891],
   "category": "Bancolombia",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "LUIS",
     "segundoNombre": "ESNEIDER",
     "primerApellido": "ORDUZ",

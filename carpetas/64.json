@@ -1,8 +1,8 @@
 {
-  "idProcesos": [50517510],
+  "_llaveProceso": "11001400302920170055700",
   "numero": 64,
   "cc": 79891952,
-  "llaveProceso": "11001400302920170055700",
+  "idProcesos": [50517510],
   "category": "Insolvencia",
   "tipoProceso": "PRENDARIO",
   "deudor": {

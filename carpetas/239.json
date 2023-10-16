@@ -1,18 +1,19 @@
 {
-  "idProcesos": [9877803],
+  "_llaveProceso": "11001400304520170116400",
   "numero": 239,
   "cc": 53131901,
-  "llaveProceso": "11001400304520170116400",
+  "idProcesos": [9877803],
   "category": "LiosJuridicos",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "NIDIA",
     "segundoNombre": "JACQUELINE",
     "primerApellido": "RIVEROS",
     "segundoApellido": "ARAQUE",
     "cedula": 53131901,
-    "direccion": "CARRERA 88C  63 SUR 67 TORRE 5 APARTAMENTO 1"
+    "direccion": "CARRERA 88C  63 SUR 67 TORRE 5 APARTAMENTO 1",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": null,

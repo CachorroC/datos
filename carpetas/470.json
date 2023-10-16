@@ -1,17 +1,18 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25754418900320180084100",
   "numero": 470,
   "cc": 52711938,
-  "llaveProceso": "25754418900320180084100",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ELIANA",
     "segundoNombre": "JANNETH",
     "primerApellido": "LOZANO",
     "segundoApellido": "ARTURO",
     "cedula": 52711938,
+    "direccion": null,
     "email": "TRANSVERSAL 2A No 74B-62 SUR"
   },
   "demanda": {

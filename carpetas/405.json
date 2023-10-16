@@ -1,8 +1,8 @@
 {
-  "idProcesos": [51029180],
+  "_llaveProceso": "11001400302120180023600",
   "numero": 405,
   "cc": 79396995,
-  "llaveProceso": "11001400302120180023600",
+  "idProcesos": [51029180],
   "category": "Bancolombia",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
@@ -11,6 +11,7 @@
       "celular": 3108844560
     },
     "primerNombre": "ARTURO",
+    "segundoNombre": null,
     "primerApellido": "LINCE",
     "segundoApellido": "GOMEZ",
     "cedula": 79396995,

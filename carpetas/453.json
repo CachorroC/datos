@@ -1,13 +1,14 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25286400300120180084100",
   "numero": 453,
   "cc": 79892208,
-  "llaveProceso": "25286400300120180084100",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "RICARDO",
+    "segundoNombre": null,
     "primerApellido": "RUEDA",
     "segundoApellido": "MELO",
     "cedula": 79892208,

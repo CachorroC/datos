@@ -1,13 +1,14 @@
 {
-  "idProcesos": [50788330],
+  "_llaveProceso": "11001400306020170101400",
   "numero": 340,
   "cc": 79573945,
-  "llaveProceso": "11001400306020170101400",
+  "idProcesos": [50788330],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "WILLIAM",
+    "segundoNombre": null,
     "primerApellido": "CORTES",
     "segundoApellido": "ROJAS",
     "cedula": 79573945,

@@ -1,18 +1,22 @@
 {
-  "idProcesos": [112625340],
+  "_llaveProceso": "11001400306620170089200",
   "numero": 36,
   "cc": 52314251,
-  "llaveProceso": "11001400306620170089200",
+  "idProcesos": [112625340],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "celular": 3012419992 },
+    "tel": {
+      "fijo": null,
+      "celular": 3012419992
+    },
     "primerNombre": "SANDRA",
     "segundoNombre": "PATRICIA",
     "primerApellido": "AGUDELO",
     "segundoApellido": "MONTAGUT",
     "cedula": 52314251,
-    "direccion": "CALLE 49 SUR No. 89 B-30 Etapa 1 CAsa1"
+    "direccion": "CALLE 49 SUR No. 89 B-30 Etapa 1 CAsa1",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 9633585,

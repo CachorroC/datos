@@ -1,12 +1,12 @@
 {
-  "idProcesos": [112013800],
+  "_llaveProceso": "11001400307020190055100",
   "numero": 519,
   "cc": 1030529007,
-  "llaveProceso": "11001400307020190055100",
+  "idProcesos": [112013800],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "LEIDY",
     "segundoNombre": "CATALINA",
     "primerApellido": "LOSADA",

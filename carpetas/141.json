@@ -1,8 +1,8 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001400303920170110000",
   "numero": 141,
   "cc": 79412583,
-  "llaveProceso": "11001400303920170110000",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
@@ -19,7 +19,7 @@
     "email": "edgardavid302@hotmail.com"
   },
   "demanda": {
-    "capitalAdeudado": 28130302.27,
+    "capitalAdeudado": 2813030227,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
     "tipoProceso": "SINGULAR",

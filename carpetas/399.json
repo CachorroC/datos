@@ -1,12 +1,12 @@
 {
-  "idProcesos": [8833783],
+  "_llaveProceso": "11001400303720180013200",
   "numero": 399,
   "cc": 79704579,
-  "llaveProceso": "11001400303720180013200",
+  "idProcesos": [8833783],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "GIOVANNI",
     "segundoNombre": "",
     "primerApellido": "PERDOMO",

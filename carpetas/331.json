@@ -1,17 +1,18 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001410375220170130000",
   "numero": 331,
   "cc": 1016043191,
-  "llaveProceso": "11001410375220170130000",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "CHRISTIAN",
     "segundoNombre": "DARIO",
     "primerApellido": "RUIZ",
     "segundoApellido": "AVELLANEDA",
     "cedula": 1016043191,
+    "direccion": null,
     "email": "CALLE 23 SUR No 96 - 82"
   },
   "demanda": {

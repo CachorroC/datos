@@ -1,16 +1,19 @@
 {
-  "idProcesos": [51154840, 81649171],
+  "_llaveProceso": "11001400300620180045400",
   "numero": 500,
   "cc": null,
-  "llaveProceso": "11001400300620180045400",
+  "idProcesos": [51154840, 81649171],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "SMARTITECH",
+    "segundoNombre": null,
     "primerApellido": "S.A.S",
+    "segundoApellido": null,
     "cedula": null,
-    "direccion": "CARRERA 13 No 73-33"
+    "direccion": "CARRERA 13 No 73-33",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 15086.199,

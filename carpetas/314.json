@@ -1,13 +1,14 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25126408900220170076800",
   "numero": 314,
   "cc": 1075655673,
-  "llaveProceso": "25126408900220170076800",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "TATIANA",
+    "segundoNombre": null,
     "primerApellido": "RAMON",
     "segundoApellido": "PEPICANO",
     "cedula": 1075655673,

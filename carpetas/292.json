@@ -1,12 +1,12 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001410375220170012800",
   "numero": 292,
   "cc": 80205694,
-  "llaveProceso": "11001410375220170012800",
+  "idProcesos": [],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "fijo": 7641957 },
+    "tel": { "fijo": 7641957, "celular": null },
     "primerNombre": "JOHN",
     "segundoNombre": "FREDY",
     "primerApellido": "HERREÑO",

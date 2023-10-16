@@ -1,18 +1,19 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25175408900220170041200",
   "numero": 186,
   "cc": 24134505,
-  "llaveProceso": "25175408900220170041200",
+  "idProcesos": [],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "",
     "segundoNombre": "CELY",
     "primerApellido": "MARGOTH",
     "segundoApellido": "ROJAS VELANDIA",
     "cedula": 24134505,
-    "direccion": "CALLE 29 A # 2 - 76 APTO 304 CHIA"
+    "direccion": "CALLE 29 A # 2 - 76 APTO 304 CHIA",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 13319.13,

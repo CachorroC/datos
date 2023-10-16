@@ -1,12 +1,15 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25175400300120190030400",
   "numero": 526,
   "cc": 1072642976,
-  "llaveProceso": "25175400300120190030400",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3202954313 },
+    "tel": {
+      "fijo": null,
+      "celular": 3202954313
+    },
     "primerNombre": "CRISTIAN",
     "segundoNombre": "DAVID",
     "primerApellido": "GUTIERREZ",

@@ -1,12 +1,12 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001400306720170161300",
   "numero": 309,
   "cc": 19332163,
-  "llaveProceso": "11001400306720170161300",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "HENRY",
     "segundoNombre": "NOEL",
     "primerApellido": "CASTELBLANCO",

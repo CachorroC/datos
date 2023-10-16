@@ -1,13 +1,17 @@
 {
-  "idProcesos": [50679230],
+  "_llaveProceso": "11001400303520170129700",
   "numero": 194,
   "cc": 52790965,
-  "llaveProceso": "11001400303520170129700",
+  "idProcesos": [50679230],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": { "celular": 3107976282 },
+    "tel": {
+      "fijo": null,
+      "celular": 3107976282
+    },
     "primerNombre": "FABIOLA",
+    "segundoNombre": null,
     "primerApellido": "MARTINEZ",
     "segundoApellido": "RUEDA",
     "cedula": 52790965,

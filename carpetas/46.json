@@ -1,12 +1,15 @@
 {
-  "idProcesos": [86212261],
+  "_llaveProceso": "25183400300120170010600",
   "numero": 46,
   "cc": 11251297,
-  "llaveProceso": "25183400300120170010600",
+  "idProcesos": [86212261],
   "category": "Reintegra",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": { "celular": 3166182970 },
+    "tel": {
+      "fijo": null,
+      "celular": 3166182970
+    },
     "primerNombre": "",
     "segundoNombre": "ALVARO",
     "primerApellido": "RODRIGUEZ",

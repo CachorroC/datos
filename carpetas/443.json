@@ -1,12 +1,15 @@
 {
-  "idProcesos": [51264250],
+  "_llaveProceso": "11001400301020180078400",
   "numero": 443,
   "cc": 80424051,
-  "llaveProceso": "11001400301020180078400",
+  "idProcesos": [51264250],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3502092709 },
+    "tel": {
+      "fijo": null,
+      "celular": 3502092709
+    },
     "primerNombre": "DIEGO",
     "segundoNombre": "FERNANDO",
     "primerApellido": "BENITEZ",

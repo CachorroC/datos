@@ -1,8 +1,8 @@
 {
-  "idProcesos": [50688520],
+  "_llaveProceso": "11001400302820170085800",
   "numero": 222,
   "cc": 79332273,
-  "llaveProceso": "11001400302820170085800",
+  "idProcesos": [50688520],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
@@ -11,6 +11,7 @@
       "celular": 3005705869
     },
     "primerNombre": "DUFRESNY",
+    "segundoNombre": null,
     "primerApellido": "AUGUSTO",
     "segundoApellido": "PINILLA",
     "cedula": 79332273,

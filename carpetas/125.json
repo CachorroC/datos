@@ -1,17 +1,19 @@
 {
-  "idProcesos": [97088411, 109959053],
+  "_llaveProceso": "11001400304720170152000",
   "numero": 125,
   "cc": 74338870,
-  "llaveProceso": "11001400304720170152000",
+  "idProcesos": [97088411, 109959053],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MILCIADES",
+    "segundoNombre": null,
     "primerApellido": "GALINDO",
     "segundoApellido": "CASTEBLANCO",
     "cedula": 74338870,
-    "direccion": "CARRERA 18 # 12 - 72"
+    "direccion": "CARRERA 18 # 12 - 72",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 21613.985,

@@ -1,13 +1,14 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25290400300120170063400",
   "numero": 260,
   "cc": 11384155,
-  "llaveProceso": "25290400300120170063400",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "HERNAN",
+    "segundoNombre": null,
     "primerApellido": "ALVAREZ",
     "segundoApellido": "PARDO",
     "cedula": 11384155,

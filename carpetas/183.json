@@ -1,12 +1,12 @@
 {
-  "idProcesos": [50621670],
+  "_llaveProceso": "11001400300120170100100",
   "numero": 183,
   "cc": 11185630,
-  "llaveProceso": "11001400300120170100100",
+  "idProcesos": [50621670],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "WILSON",
     "segundoNombre": "ALFONSO",
     "primerApellido": "JIMENEZ",

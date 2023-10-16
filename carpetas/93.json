@@ -1,12 +1,12 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25126408900120170049600",
   "numero": 93,
   "cc": 1140835529,
-  "llaveProceso": "25126408900120170049600",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "VIVIAN",
     "segundoNombre": "PAOLA",
     "primerApellido": "BRUGES",

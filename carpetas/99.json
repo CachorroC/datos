@@ -1,17 +1,19 @@
 {
+  "_llaveProceso": "1100141037512017111000",
   "numero": 99,
   "cc": 79996551,
-  "llaveProceso": "1100141037512017111000",
+  "idProcesos": null,
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "YONI",
     "segundoNombre": "ALEXANDER",
     "primerApellido": "RESTREPO",
     "segundoApellido": "PEÑUELA",
     "cedula": 79996551,
-    "direccion": "TRANSVERSAL 78A # 71A - 71 SUR"
+    "direccion": "TRANSVERSAL 78A # 71A - 71 SUR",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": null,

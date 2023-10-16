@@ -1,13 +1,14 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25754418900320180100800",
   "numero": 489,
   "cc": 80257279,
-  "llaveProceso": "25754418900320180100800",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIA",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ORLANDO",
+    "segundoNombre": null,
     "primerApellido": "SILVA",
     "segundoApellido": "CALDERON",
     "cedula": 80257279,

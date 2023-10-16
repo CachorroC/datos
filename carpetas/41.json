@@ -1,12 +1,15 @@
 {
-  "idProcesos": [50632350],
+  "_llaveProceso": "11001400303520170119000",
   "numero": 41,
   "cc": 52991801,
-  "llaveProceso": "11001400303520170119000",
+  "idProcesos": [50632350],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "celular": 3103247337 },
+    "tel": {
+      "fijo": null,
+      "celular": 3103247337
+    },
     "primerNombre": "YENCY",
     "segundoNombre": "KARINA",
     "primerApellido": "CASTIBLANCO",

@@ -1,12 +1,12 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001418900620180021000",
   "numero": 438,
   "cc": 52132383,
-  "llaveProceso": "11001418900620180021000",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "LUZ",
     "segundoNombre": "DARY",
     "primerApellido": "VELANDIA",

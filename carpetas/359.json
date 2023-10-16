@@ -1,8 +1,8 @@
 {
-  "idProcesos": [18169790],
+  "_llaveProceso": "11001400306520170178600",
   "numero": 359,
   "cc": 79357895,
-  "llaveProceso": "11001400306520170178600",
+  "idProcesos": [18169790],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
@@ -16,7 +16,7 @@
     "segundoApellido": "SAAVEDRA",
     "cedula": 79357895,
     "direccion": "CARRERA 123 No 13 - 85 casa 364",
-    "email": ""
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": null,

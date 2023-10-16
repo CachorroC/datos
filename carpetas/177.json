@@ -1,13 +1,14 @@
 {
-  "idProcesos": [9876793],
+  "_llaveProceso": "11001400304520170104100",
   "numero": 177,
   "cc": 79327475,
-  "llaveProceso": "11001400304520170104100",
+  "idProcesos": [9876793],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "LEONARDY",
+    "segundoNombre": null,
     "primerApellido": "HERRERA",
     "segundoApellido": "ROJAS",
     "cedula": 79327475,

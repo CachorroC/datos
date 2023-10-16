@@ -1,12 +1,12 @@
 {
-  "idProcesos": [17718250],
+  "_llaveProceso": "11001400306320170131700",
   "numero": 333,
   "cc": 52085839,
-  "llaveProceso": "11001400306320170131700",
+  "idProcesos": [17718250],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "",
     "segundoNombre": " AHIDA",
     "primerApellido": "LUCERO GUEVARA",

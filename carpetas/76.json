@@ -1,13 +1,17 @@
 {
-  "idProcesos": [86212271],
+  "_llaveProceso": "25183400300120170011900",
   "numero": 76,
   "cc": 20493423,
-  "llaveProceso": "25183400300120170011900",
+  "idProcesos": [86212271],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3112110025 },
+    "tel": {
+      "fijo": null,
+      "celular": 3112110025
+    },
     "primerNombre": "ESTELA",
+    "segundoNombre": null,
     "primerApellido": "MARIN",
     "segundoApellido": "GARZÓN",
     "cedula": 20493423,

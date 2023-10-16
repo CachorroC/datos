@@ -1,12 +1,15 @@
 {
-  "idProcesos": [10681823],
+  "_llaveProceso": "11001400304820170050700",
   "numero": 74,
   "cc": 79789620,
-  "llaveProceso": "11001400304820170050700",
+  "idProcesos": [10681823],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": { "celular": 3138327713 },
+    "tel": {
+      "fijo": null,
+      "celular": 3138327713
+    },
     "primerNombre": "CARLOS",
     "segundoNombre": "ANDRÉS",
     "primerApellido": "BORRAY",

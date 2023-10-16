@@ -1,12 +1,12 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25473400300120170077700",
   "numero": 156,
   "cc": 52431512,
-  "llaveProceso": "25473400300120170077700",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MARTHA",
     "segundoNombre": "PATRICIA",
     "primerApellido": "MORALES",

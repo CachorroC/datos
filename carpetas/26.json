@@ -1,16 +1,22 @@
 {
-  "idProcesos": [18161830],
+  "_llaveProceso": "11001400306520170082700",
   "numero": 26,
   "cc": 52744376,
-  "llaveProceso": "11001400306520170082700",
+  "idProcesos": [18161830],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "celular": 3183517022 },
+    "tel": {
+      "fijo": null,
+      "celular": 3183517022
+    },
     "primerNombre": "YUDY",
+    "segundoNombre": null,
     "primerApellido": "RODRIGUEZ",
+    "segundoApellido": null,
     "cedula": 52744376,
-    "direccion": "CALLE 67 No.86A-49 BOGOTA"
+    "direccion": "CALLE 67 No.86A-49 BOGOTA",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 17307.303,

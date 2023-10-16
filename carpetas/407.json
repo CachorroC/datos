@@ -1,12 +1,12 @@
 {
-  "idProcesos": [51465700],
+  "_llaveProceso": "11001400307820170116400",
   "numero": 407,
   "cc": 79328264,
-  "llaveProceso": "11001400307820170116400",
+  "idProcesos": [51465700],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "NESTOR",
     "segundoNombre": "ALBERTO",
     "primerApellido": "CRISTANCHO",

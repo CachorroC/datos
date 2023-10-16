@@ -1,11 +1,12 @@
 {
+  "_llaveProceso": "110014003015201800459",
   "numero": 424,
   "cc": 79742224,
-  "llaveProceso": "110014003015201800459",
+  "idProcesos": null,
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JAIME",
     "segundoNombre": "LEONARDO",
     "primerApellido": "SOSA",

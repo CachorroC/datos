@@ -1,12 +1,12 @@
 {
-  "idProcesos": [50846930],
+  "_llaveProceso": "11001400302620170129300",
   "numero": 328,
   "cc": 52907317,
-  "llaveProceso": "11001400302620170129300",
+  "idProcesos": [50846930],
   "category": "LiosJuridicos",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "SANDRA",
     "segundoNombre": "MILENA",
     "primerApellido": "BARRETO",

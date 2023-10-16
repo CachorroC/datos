@@ -1,18 +1,19 @@
 {
-  "idProcesos": [86157021],
+  "_llaveProceso": "25126408900220180004800",
   "numero": 427,
   "cc": 1069738339,
-  "llaveProceso": "25126408900220180004800",
+  "idProcesos": [86157021],
   "category": "Reintegra",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JUAN",
     "segundoNombre": "CAMILO",
     "primerApellido": "CHINGATE",
     "segundoApellido": "PENAGOS",
     "cedula": 1069738339,
-    "direccion": "VEREDA LA 22 KILOMETRO 30 (CAJICA) // VEREDA SUBIA NORTE, PARTE BAJA, FINCA EL RINCON LOTE 2 (GRANADA- CUND): VEREDA SUBIA NORTE PARTE BAJA FINCA EL RINCON LOTE 2 (GRANADA - CUND)"
+    "direccion": "VEREDA LA 22 KILOMETRO 30 (CAJICA) // VEREDA SUBIA NORTE, PARTE BAJA, FINCA EL RINCON LOTE 2 (GRANADA- CUND): VEREDA SUBIA NORTE PARTE BAJA FINCA EL RINCON LOTE 2 (GRANADA - CUND)",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 21049.112,

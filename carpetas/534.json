@@ -1,11 +1,15 @@
 {
+  "_llaveProceso": "2589940010020200028900",
   "numero": 534,
   "cc": 11337530,
-  "llaveProceso": "2589940010020200028900",
+  "idProcesos": null,
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3115159670 },
+    "tel": {
+      "fijo": null,
+      "celular": 3115159670
+    },
     "primerNombre": "PEDRO",
     "segundoNombre": "JULIO",
     "primerApellido": "TRIVIÑO",

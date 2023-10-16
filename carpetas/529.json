@@ -1,13 +1,14 @@
 {
-  "idProcesos": [66898433],
+  "_llaveProceso": "11001400305220190110300",
   "numero": 529,
   "cc": 2976219,
-  "llaveProceso": "11001400305220190110300",
+  "idProcesos": [66898433],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "GONZALO",
+    "segundoNombre": null,
     "primerApellido": "CONTRERAS",
     "segundoApellido": "POVEDA",
     "cedula": 2976219,

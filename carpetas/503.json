@@ -1,12 +1,12 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25436408900120180006300",
   "numero": 503,
   "cc": 3096755,
-  "llaveProceso": "25436408900120180006300",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JUAN",
     "segundoNombre": "CARLOS",
     "primerApellido": "LEON",

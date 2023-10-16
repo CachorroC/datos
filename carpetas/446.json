@@ -1,15 +1,18 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25899418900120180057300",
   "numero": 446,
   "cc": 79725365,
-  "llaveProceso": "25899418900120180057300",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "RICARDO",
+    "segundoNombre": null,
     "primerApellido": "CUSPOCA",
+    "segundoApellido": null,
     "cedula": 79725365,
+    "direccion": null,
     "email": "CALLE 36 No 69-56 SUR. B CARVAJAL"
   },
   "demanda": {

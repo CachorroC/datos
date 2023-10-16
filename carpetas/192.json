@@ -1,11 +1,12 @@
 {
+  "_llaveProceso": "1100140030732017015300",
   "numero": 192,
   "cc": 53053612,
-  "llaveProceso": "1100140030732017015300",
+  "idProcesos": null,
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "DIANA",
     "segundoNombre": "PATRICIA",
     "primerApellido": "SANCHEZ",

@@ -1,17 +1,18 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001400405420170099000",
   "numero": 271,
   "cc": 52850427,
-  "llaveProceso": "11001400405420170099000",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "AURA",
     "segundoNombre": "GEOVANA",
     "primerApellido": "RODRIGUEZ",
     "segundoApellido": "MORA",
     "cedula": 52850427,
+    "direccion": null,
     "email": "CARRERA 16 No  24 - 34 APARTAMENTO 302"
   },
   "demanda": {

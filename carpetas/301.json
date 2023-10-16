@@ -1,17 +1,18 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25322418900120180002200",
   "numero": 301,
   "cc": 35220385,
-  "llaveProceso": "25322418900120180002200",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "BLANCA",
     "segundoNombre": "YOLANDA",
     "primerApellido": "ACOSTA",
     "segundoApellido": "RODRIGUEZ",
     "cedula": 35220385,
+    "direccion": null,
     "email": "CALLE 1 A - No 6-68 PORTAL  GUASCA"
   },
   "demanda": {

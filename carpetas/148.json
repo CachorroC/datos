@@ -1,12 +1,12 @@
 {
-  "idProcesos": [50653560],
+  "_llaveProceso": "11001400300920170081300",
   "numero": 148,
   "cc": 79505815,
-  "llaveProceso": "11001400300920170081300",
+  "idProcesos": [50653560],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": { "fijo": 4109980 },
+    "tel": { "fijo": 4109980, "celular": null },
     "primerNombre": "NESTOR",
     "segundoNombre": "GERARDO",
     "primerApellido": "OSORIO",

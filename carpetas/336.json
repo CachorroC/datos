@@ -1,12 +1,12 @@
 {
-  "idProcesos": [50861670],
+  "_llaveProceso": "11001400303020170175600",
   "numero": 336,
   "cc": 79860814,
-  "llaveProceso": "11001400303020170175600",
+  "idProcesos": [50861670],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JOSE",
     "segundoNombre": "ALFREDO",
     "primerApellido": "CARDOZO",

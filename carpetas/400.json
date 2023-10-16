@@ -1,12 +1,12 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25307400300220180007500",
   "numero": 400,
   "cc": 79652256,
-  "llaveProceso": "25307400300220180007500",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "OSCAR",
     "segundoNombre": "GUILLERMO",
     "primerApellido": "LOZANO",

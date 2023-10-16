@@ -1,6 +1,8 @@
 {
+  "_llaveProceso": null,
   "numero": 579,
   "cc": 1024481233,
+  "idProcesos": null,
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {

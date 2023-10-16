@@ -1,12 +1,12 @@
 {
-  "idProcesos": [51463930],
+  "_llaveProceso": "11001400307820170073300",
   "numero": 128,
   "cc": 52385097,
-  "llaveProceso": "11001400307820170073300",
+  "idProcesos": [51463930],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MARIA",
     "segundoNombre": "GLADYS",
     "primerApellido": "",

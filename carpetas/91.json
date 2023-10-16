@@ -1,12 +1,12 @@
 {
-  "idProcesos": [51092120],
+  "_llaveProceso": "11001400303120180040600",
   "numero": 91,
   "cc": 79456791,
-  "llaveProceso": "11001400303120180040600",
+  "idProcesos": [51092120],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JAIME",
     "segundoNombre": "JESUS",
     "primerApellido": "REYES",

@@ -1,18 +1,19 @@
 {
-  "idProcesos": [95877041],
+  "_llaveProceso": "11001410375120180112100",
   "numero": 456,
   "cc": 26407097,
-  "llaveProceso": "11001410375120180112100",
+  "idProcesos": [95877041],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ANA",
     "segundoNombre": "LUCIA",
     "primerApellido": "YAÑEZ",
     "segundoApellido": "VARGAS (FALLECIDA)",
     "cedula": 26407097,
-    "direccion": "CALLE  57B BIS No 99B-64 SUR BOSA SANTA FE"
+    "direccion": "CALLE  57B BIS No 99B-64 SUR BOSA SANTA FE",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 24310.47,

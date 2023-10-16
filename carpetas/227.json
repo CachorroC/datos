@@ -1,18 +1,19 @@
 {
-  "idProcesos": [50714320],
+  "_llaveProceso": "11001400301520170124900",
   "numero": 227,
   "cc": 23550435,
-  "llaveProceso": "11001400301520170124900",
+  "idProcesos": [50714320],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ROSA",
     "segundoNombre": "ELENA",
     "primerApellido": "MARTINEZ",
     "segundoApellido": "DE DUITAMA",
     "cedula": 23550435,
-    "direccion": "CARRERA 50 # 2A - 4 APTO 101"
+    "direccion": "CARRERA 50 # 2A - 4 APTO 101",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 18546.821,

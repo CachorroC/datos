@@ -1,8 +1,8 @@
 {
-  "idProcesos": [50738970],
+  "_llaveProceso": "11001400301920170102500",
   "numero": 83,
   "cc": 19438068,
-  "llaveProceso": "11001400301920170102500",
+  "idProcesos": [50738970],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {

@@ -1,13 +1,14 @@
 {
-  "idProcesos": [10134513],
+  "_llaveProceso": "11001400304620170103500",
   "numero": 212,
   "cc": 14320811,
-  "llaveProceso": "11001400304620170103500",
+  "idProcesos": [10134513],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "FERNANDO",
+    "segundoNombre": null,
     "primerApellido": "VERA",
     "segundoApellido": "FARFAN",
     "cedula": 14320811,

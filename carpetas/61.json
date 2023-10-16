@@ -1,12 +1,12 @@
 {
-  "idProcesos": [10130443],
+  "_llaveProceso": "11001400304620170055700",
   "numero": 61,
   "cc": 80197126,
-  "llaveProceso": "11001400304620170055700",
+  "idProcesos": [10130443],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JUAN",
     "segundoNombre": "PABLO",
     "primerApellido": "RUBIO",

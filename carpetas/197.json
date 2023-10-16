@@ -1,12 +1,12 @@
 {
-  "idProcesos": [9877173],
+  "_llaveProceso": "11001400304520170108600",
   "numero": 197,
   "cc": 79457880,
-  "llaveProceso": "11001400304520170108600",
+  "idProcesos": [9877173],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MARIO",
     "segundoNombre": "JEAN",
     "primerApellido": "PINZON",

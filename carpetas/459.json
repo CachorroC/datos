@@ -1,13 +1,17 @@
 {
-  "idProcesos": [64641230],
+  "_llaveProceso": "11001400305320180094500",
   "numero": 459,
   "cc": 79857627,
-  "llaveProceso": "11001400305320180094500",
+  "idProcesos": [64641230],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3108121876 },
+    "tel": {
+      "fijo": null,
+      "celular": 3108121876
+    },
     "primerNombre": "CESAR",
+    "segundoNombre": null,
     "primerApellido": "ARMANDO",
     "segundoApellido": "VANEGAS",
     "cedula": 79857627,

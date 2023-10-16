@@ -1,13 +1,14 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001400308420180009000",
   "numero": 395,
   "cc": 2869326,
-  "llaveProceso": "11001400308420180009000",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JORGE",
+    "segundoNombre": null,
     "primerApellido": "BERMEO",
     "segundoApellido": "ROJAS",
     "cedula": 2869326,

@@ -1,8 +1,8 @@
 {
-  "idProcesos": [50684220],
+  "_llaveProceso": "11001400300820170106000",
   "numero": 203,
   "cc": 80380775,
-  "llaveProceso": "11001400300820170106000",
+  "idProcesos": [50684220],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
@@ -11,6 +11,7 @@
       "celular": 3118264932
     },
     "primerNombre": "GONZALO",
+    "segundoNombre": null,
     "primerApellido": "VILLABON",
     "segundoApellido": "MARTINEZ",
     "cedula": 80380775,

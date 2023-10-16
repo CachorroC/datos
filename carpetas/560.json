@@ -1,8 +1,8 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "08001418901820230073500",
   "numero": 560,
   "cc": 1129565798,
-  "llaveProceso": "08001418901820230073500",
+  "idProcesos": [],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -11,6 +11,7 @@
       "celular": 3043463859
     },
     "primerNombre": "HANSEL",
+    "segundoNombre": null,
     "primerApellido": "MARTINEZ",
     "segundoApellido": "BARROS",
     "cedula": 1129565798,

@@ -1,15 +1,19 @@
 {
+  "_llaveProceso": null,
   "numero": 586,
   "cc": 35507149,
+  "idProcesos": null,
   "category": "Bancolombia",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MARIA",
     "segundoNombre": "NANCY",
     "primerApellido": "PINEDA",
     "segundoApellido": "LEON",
-    "cedula": 35507149
+    "cedula": 35507149,
+    "direccion": null,
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 0,

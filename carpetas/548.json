@@ -1,17 +1,19 @@
 {
-  "idProcesos": [50665190],
+  "_llaveProceso": "11001400300820170102400",
   "numero": 548,
   "cc": 23270185,
-  "llaveProceso": "11001400300820170102400",
+  "idProcesos": [50665190],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "CLARA",
     "segundoNombre": "PATRICIA",
     "primerApellido": "PEÑA",
     "segundoApellido": "BELTRAN",
-    "cedula": 23270185
+    "cedula": 23270185,
+    "direccion": null,
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 0,

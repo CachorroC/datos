@@ -1,8 +1,8 @@
 {
-  "idProcesos": [51497380],
+  "_llaveProceso": "11001400307620170063500",
   "numero": 165,
   "cc": 86057132,
-  "llaveProceso": "11001400307620170063500",
+  "idProcesos": [51497380],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -11,7 +11,9 @@
       "celular": 3125312823
     },
     "primerNombre": "FREDY",
+    "segundoNombre": null,
     "primerApellido": "MENESES",
+    "segundoApellido": null,
     "cedula": 86057132,
     "direccion": "Carrera 40 D No. 1H-28",
     "email": "imagenfmr@yahoo.com"

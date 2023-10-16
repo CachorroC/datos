@@ -1,8 +1,8 @@
 {
-  "idProcesos": [28907104],
+  "_llaveProceso": "11001310302120170047100",
   "numero": 196,
   "cc": 80130064,
-  "llaveProceso": "11001310302120170047100",
+  "idProcesos": [28907104],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
@@ -11,7 +11,9 @@
       "celular": 3157303099
     },
     "primerNombre": "JAIRO",
+    "segundoNombre": null,
     "primerApellido": "TIBATA",
+    "segundoApellido": null,
     "cedula": 80130064,
     "direccion": "TRANSVERSAL 5Q  # 48P - 06 SUR",
     "email": "jairotibata@hotmail.com"

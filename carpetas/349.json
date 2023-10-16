@@ -1,13 +1,17 @@
 {
-  "idProcesos": [50869240],
+  "_llaveProceso": "11001400302720170127200",
   "numero": 349,
   "cc": 30746589,
-  "llaveProceso": "11001400302720170127200",
+  "idProcesos": [50869240],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "celular": 3155831999 },
+    "tel": {
+      "fijo": null,
+      "celular": 3155831999
+    },
     "primerNombre": "LILIANA",
+    "segundoNombre": null,
     "primerApellido": "GARCIA",
     "segundoApellido": "ROSERO",
     "cedula": 30746589,

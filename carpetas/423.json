@@ -1,13 +1,14 @@
 {
-  "idProcesos": [51149980],
+  "_llaveProceso": "11001400301920180044300",
   "numero": 423,
   "cc": 80059977,
-  "llaveProceso": "11001400301920180044300",
+  "idProcesos": [51149980],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ANDRES",
+    "segundoNombre": null,
     "primerApellido": "PEDRAZA",
     "segundoApellido": "GARCIA",
     "cedula": 80059977,

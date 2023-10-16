@@ -1,13 +1,14 @@
 {
-  "idProcesos": [50869770],
+  "_llaveProceso": "11001400302120170175500",
   "numero": 19,
   "cc": 80001905,
-  "llaveProceso": "11001400302120170175500",
+  "idProcesos": [50869770],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ELIACID",
+    "segundoNombre": null,
     "primerApellido": "CHAVES",
     "segundoApellido": "OBANDO",
     "cedula": 80001905,

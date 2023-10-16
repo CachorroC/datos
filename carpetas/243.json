@@ -1,8 +1,8 @@
 {
-  "idProcesos": [50675410],
+  "_llaveProceso": "11001400306920170084500",
   "numero": 243,
   "cc": 300388244,
-  "llaveProceso": "11001400306920170084500",
+  "idProcesos": [50675410],
   "category": "Reintegra",
   "tipoProceso": "PRENDARIO",
   "deudor": {
@@ -15,7 +15,8 @@
     "primerApellido": "CASTAÑEDA",
     "segundoApellido": "PERUGACHI",
     "cedula": 300388244,
-    "direccion": "CALLE 15 # 15 - 45"
+    "direccion": "CALLE 15 # 15 - 45",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 46109.381,

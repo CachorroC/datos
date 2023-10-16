@@ -1,12 +1,12 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25785418900120180017100",
   "numero": 479,
   "cc": 39809183,
-  "llaveProceso": "25785418900120180017100",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "TANIA",
     "segundoNombre": "CONSUELO",
     "primerApellido": "BOTIA",

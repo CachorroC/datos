@@ -1,13 +1,14 @@
 {
-  "idProcesos": [18366380],
+  "_llaveProceso": "11001400307020170100700",
   "numero": 263,
   "cc": 9856710,
-  "llaveProceso": "11001400307020170100700",
+  "idProcesos": [18366380],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ANCIZAR",
+    "segundoNombre": null,
     "primerApellido": "GIRALDO",
     "segundoApellido": "BOTERO",
     "cedula": 9856710,

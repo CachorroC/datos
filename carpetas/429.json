@@ -1,8 +1,8 @@
 {
-  "idProcesos": [18175150],
+  "_llaveProceso": "11001400306520180061200",
   "numero": 429,
   "cc": 10260455,
-  "llaveProceso": "11001400306520180061200",
+  "idProcesos": [18175150],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -11,6 +11,7 @@
       "celular": 3157637045
     },
     "primerNombre": "ARCANGEL",
+    "segundoNombre": null,
     "primerApellido": "HERNANDEZ",
     "segundoApellido": "RODRIGUEZ",
     "cedula": 10260455,

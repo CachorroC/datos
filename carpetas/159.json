@@ -1,12 +1,15 @@
 {
-  "idProcesos": [50765090],
+  "_llaveProceso": "11001400307320170133300",
   "numero": 159,
   "cc": 98389962,
-  "llaveProceso": "11001400307320170133300",
+  "idProcesos": [50765090],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": { "celular": 3125586008 },
+    "tel": {
+      "fijo": null,
+      "celular": 3125586008
+    },
     "primerNombre": "ALLAN",
     "segundoNombre": "FREDY",
     "primerApellido": "TOBAR",

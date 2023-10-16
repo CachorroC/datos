@@ -1,13 +1,17 @@
 {
-  "idProcesos": [132789600],
+  "_llaveProceso": "11001400303320230105600",
   "numero": 581,
   "cc": 52760611,
-  "llaveProceso": "11001400303320230105600",
+  "idProcesos": [132789600],
   "category": "Bancolombia",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "celular": 3116509661 },
+    "tel": {
+      "fijo": null,
+      "celular": 3116509661
+    },
     "primerNombre": "ANGELICA",
+    "segundoNombre": null,
     "primerApellido": "GODOY",
     "segundoApellido": "GUTIERREZ",
     "cedula": 52760611,

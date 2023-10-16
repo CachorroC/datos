@@ -1,17 +1,18 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25754418900120170077400",
   "numero": 131,
   "cc": 52830770,
-  "llaveProceso": "25754418900120170077400",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ROCIO",
     "segundoNombre": "ALEIDA",
     "primerApellido": "ORTIZ",
     "segundoApellido": "BARRETO",
     "cedula": 52830770,
+    "direccion": null,
     "email": "CARRERA 9 ESTE # 36 - 40 CASA 34"
   },
   "demanda": {

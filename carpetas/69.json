@@ -1,18 +1,19 @@
 {
-  "idProcesos": [50593100],
+  "_llaveProceso": "11001400300620170041900",
   "numero": 69,
   "cc": 53008703,
-  "llaveProceso": "11001400300620170041900",
+  "idProcesos": [50593100],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "fijo": 7507842 },
+    "tel": { "fijo": 7507842, "celular": null },
     "primerNombre": "DERLY",
     "segundoNombre": "CATHERINE",
     "primerApellido": "CASTRO",
     "segundoApellido": "IZQUIERDO",
     "cedula": 53008703,
-    "direccion": "CARRERA 5 No. 30 - 77"
+    "direccion": "CARRERA 5 No. 30 - 77",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 83955.014,

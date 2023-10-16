@@ -1,12 +1,15 @@
 {
-  "idProcesos": [12003633],
+  "_llaveProceso": "11001400305320170145600",
   "numero": 118,
   "cc": 19308014,
-  "llaveProceso": "11001400305320170145600",
+  "idProcesos": [12003633],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "celular": 3103358755 },
+    "tel": {
+      "fijo": null,
+      "celular": 3103358755
+    },
     "primerNombre": "JAIME",
     "segundoNombre": "ORLANDO",
     "primerApellido": "PEÑA",

@@ -1,13 +1,14 @@
 {
-  "idProcesos": [50704760],
+  "_llaveProceso": "11001400307220170107500",
   "numero": 219,
   "cc": 80921416,
-  "llaveProceso": "11001400307220170107500",
+  "idProcesos": [50704760],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "BLAS",
+    "segundoNombre": null,
     "primerApellido": "LAITON",
     "segundoApellido": "PATIÑO",
     "cedula": 80921416,

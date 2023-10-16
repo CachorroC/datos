@@ -1,12 +1,12 @@
 {
-  "idProcesos": [51571520],
+  "_llaveProceso": "11001400307820180064700",
   "numero": 450,
   "cc": 53133179,
-  "llaveProceso": "11001400307820180064700",
+  "idProcesos": [51571520],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "KELLY",
     "segundoNombre": "YOHANNA",
     "primerApellido": "MURCIA",

@@ -1,18 +1,22 @@
 {
-  "idProcesos": [50652400, 81647161],
+  "_llaveProceso": "11001400302620170087200",
   "numero": 144,
   "cc": 52581513,
-  "llaveProceso": "11001400302620170087200",
+  "idProcesos": [50652400, 81647161],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3124794983 },
+    "tel": {
+      "fijo": null,
+      "celular": 3124794983
+    },
     "primerNombre": "MARIA",
     "segundoNombre": "FILOMENA",
     "primerApellido": "GONZALES",
     "segundoApellido": "SALAS",
     "cedula": 52581513,
-    "direccion": "CALLE 136A # 100A - 07"
+    "direccion": "CALLE 136A # 100A - 07",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 10481.215,

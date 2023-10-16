@@ -1,12 +1,12 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25754400300220180041600",
   "numero": 511,
   "cc": 52851677,
-  "llaveProceso": "25754400300220180041600",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SOACHA",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "DIANA",
     "segundoNombre": "MARJORIE",
     "primerApellido": "ROMERO",

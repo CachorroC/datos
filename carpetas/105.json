@@ -1,18 +1,22 @@
 {
-  "idProcesos": [50593940],
+  "_llaveProceso": "11001400300720170111300",
   "numero": 105,
   "cc": 15319344,
-  "llaveProceso": "11001400300720170111300",
+  "idProcesos": [50593940],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3133809713 },
+    "tel": {
+      "fijo": null,
+      "celular": 3133809713
+    },
     "primerNombre": "ESTELIO",
     "segundoNombre": "DE JESUS",
     "primerApellido": " ROLDAN",
     "segundoApellido": "POZO",
     "cedula": 15319344,
-    "direccion": "CALLE 42 A BIS SUR No. 90A -64"
+    "direccion": "CALLE 42 A BIS SUR No. 90A -64",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 13688.162,

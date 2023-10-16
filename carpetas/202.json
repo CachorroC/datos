@@ -1,12 +1,12 @@
 {
-  "idProcesos": [51937670],
+  "_llaveProceso": "11001400308520170128700",
   "numero": 202,
   "cc": 52488943,
-  "llaveProceso": "11001400308520170128700",
+  "idProcesos": [51937670],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "SONIA",
     "segundoNombre": "MIREYA",
     "primerApellido": "PANTOJA",

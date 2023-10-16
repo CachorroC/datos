@@ -1,12 +1,12 @@
 {
-  "idProcesos": [11227193],
+  "_llaveProceso": "11001400305020180012900",
   "numero": 391,
   "cc": 52190973,
-  "llaveProceso": "11001400305020180012900",
+  "idProcesos": [11227193],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "YANETH",
     "segundoNombre": "BIBIANA",
     "primerApellido": "VARGAS",

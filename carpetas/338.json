@@ -1,18 +1,19 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25148408900120170009600",
   "numero": 338,
   "cc": 20427976,
-  "llaveProceso": "25148408900120170009600",
+  "idProcesos": [],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "BLANCA",
     "segundoNombre": "MELBA",
     "primerApellido": "MOYANO",
     "segundoApellido": "BELTRAN",
     "cedula": 20427976,
-    "direccion": "CARRERA 3 No 9 - 02 /08  CAPARRAPI (CUNDINAMARCA)"
+    "direccion": "CARRERA 3 No 9 - 02 /08  CAPARRAPI (CUNDINAMARCA)",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 42530.688,

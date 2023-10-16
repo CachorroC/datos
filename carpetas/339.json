@@ -1,12 +1,12 @@
 {
-  "idProcesos": [50858360],
+  "_llaveProceso": "11001400305620170119500",
   "numero": 339,
   "cc": 91072102,
-  "llaveProceso": "11001400305620170119500",
+  "idProcesos": [50858360],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "LUIS",
     "segundoNombre": "ALFONSO",
     "primerApellido": "MOJICA",

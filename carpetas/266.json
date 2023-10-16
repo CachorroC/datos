@@ -1,12 +1,15 @@
 {
-  "idProcesos": [50739310],
+  "_llaveProceso": "11001400302020170121900",
   "numero": 266,
   "cc": 71192974,
-  "llaveProceso": "11001400302020170121900",
+  "idProcesos": [50739310],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": { "celular": 3138085772 },
+    "tel": {
+      "fijo": null,
+      "celular": 3138085772
+    },
     "primerNombre": "JULIAN",
     "segundoNombre": "DE",
     "primerApellido": "JESUS",

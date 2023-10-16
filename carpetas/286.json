@@ -1,13 +1,14 @@
 {
-  "idProcesos": [50721470, 127748331],
+  "_llaveProceso": "11001400301720170119500",
   "numero": 286,
   "cc": 80259791,
-  "llaveProceso": "11001400301720170119500",
+  "idProcesos": [50721470, 127748331],
   "category": "Reintegra",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ALIRIO",
+    "segundoNombre": null,
     "primerApellido": "HEREDIA",
     "segundoApellido": "BUITRAGO",
     "cedula": 80259791,

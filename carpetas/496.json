@@ -1,13 +1,14 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25175408900320180060200",
   "numero": 496,
   "cc": 13222728,
-  "llaveProceso": "25175408900320180060200",
+  "idProcesos": [],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MODESTO",
+    "segundoNombre": null,
     "primerApellido": "PINEDA",
     "segundoApellido": "PEREZ",
     "cedula": 13222728,

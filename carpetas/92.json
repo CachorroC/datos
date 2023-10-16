@@ -1,12 +1,12 @@
 {
-  "idProcesos": [50525440],
+  "_llaveProceso": "11001400301320170084100",
   "numero": 92,
   "cc": 52214536,
-  "llaveProceso": "11001400301320170084100",
+  "idProcesos": [50525440],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MAGDA",
     "segundoNombre": "MILENA",
     "primerApellido": "SALINAS",

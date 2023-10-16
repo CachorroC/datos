@@ -1,8 +1,8 @@
 {
-  "idProcesos": [17608484],
+  "_llaveProceso": "11001400305720170128900",
   "numero": 341,
   "cc": 19294251,
-  "llaveProceso": "11001400305720170128900",
+  "idProcesos": [17608484],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -11,6 +11,7 @@
       "celular": 3102124649
     },
     "primerNombre": "MARIO",
+    "segundoNombre": null,
     "primerApellido": "VELEZ",
     "segundoApellido": "PARRA",
     "cedula": 19294251,

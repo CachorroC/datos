@@ -1,12 +1,15 @@
 {
-  "idProcesos": [132964260],
+  "_llaveProceso": "11001418904420230023900",
   "numero": 580,
   "cc": 19488050,
-  "llaveProceso": "11001418904420230023900",
+  "idProcesos": [132964260],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3103052825 },
+    "tel": {
+      "fijo": null,
+      "celular": 3103052825
+    },
     "primerNombre": "JOSE",
     "segundoNombre": "IGNACIO",
     "primerApellido": "GALEANO",

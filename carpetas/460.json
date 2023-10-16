@@ -1,12 +1,12 @@
 {
-  "idProcesos": [18852280],
+  "_llaveProceso": "11001400306620190040900",
   "numero": 460,
   "cc": 79424825,
-  "llaveProceso": "11001400306620190040900",
+  "idProcesos": [18852280],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JORGE",
     "segundoNombre": "ABDOLONIO",
     "primerApellido": "GUERRERO",

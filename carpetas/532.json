@@ -1,17 +1,19 @@
 {
-  "idProcesos": [112628300],
+  "_llaveProceso": "11001400306820200102100",
   "numero": 532,
   "cc": 900520023,
-  "llaveProceso": "11001400306820200102100",
+  "idProcesos": [112628300],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "DIMOIN",
+    "segundoNombre": null,
     "primerApellido": "COLOMBIA",
     "segundoApellido": "S.A.S.",
     "cedula": 900520023,
-    "direccion": "AV BOYACA 63D - 26 OFICINA 103"
+    "direccion": "AV BOYACA 63D - 26 OFICINA 103",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 15324.57,

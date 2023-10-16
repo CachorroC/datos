@@ -1,17 +1,22 @@
 {
-  "idProcesos": [74646350],
+  "_llaveProceso": "11001400301920170052800",
   "numero": 45,
   "cc": 4042105,
-  "llaveProceso": "11001400301920170052800",
+  "idProcesos": [74646350],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3123142449 },
+    "tel": {
+      "fijo": null,
+      "celular": 3123142449
+    },
     "primerNombre": "EDISON",
+    "segundoNombre": null,
     "primerApellido": "PALMA",
     "segundoApellido": "CARDENAL",
     "cedula": 4042105,
-    "direccion": "SIN INFORMACION"
+    "direccion": "SIN INFORMACION",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 11832595,

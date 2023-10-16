@@ -1,17 +1,19 @@
 {
-  "idProcesos": [50527120],
+  "_llaveProceso": "11001400300320170106500",
   "numero": 82,
   "cc": 13921619,
-  "llaveProceso": "11001400300320170106500",
+  "idProcesos": [50527120],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "RAFAEL",
+    "segundoNombre": null,
     "primerApellido": "GONZALEZ",
     "segundoApellido": "OLEJUA",
     "cedula": 13921619,
-    "direccion": "CALLE 89 # 95G- 26"
+    "direccion": "CALLE 89 # 95G- 26",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 39576493,

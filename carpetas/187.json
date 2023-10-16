@@ -1,8 +1,8 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25290400300220170055200",
   "numero": 187,
   "cc": 39624423,
-  "llaveProceso": "25290400300220170055200",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -11,11 +11,12 @@
       "celular": 3138851725
     },
     "primerNombre": "YAZMIN",
+    "segundoNombre": null,
     "primerApellido": "ALVARADO",
     "segundoApellido": "PINZON",
     "cedula": 39624423,
     "direccion": "CARRERA 6 # 16A - 84 FUSAGASUGA",
-    "email": ""
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 10928.053,

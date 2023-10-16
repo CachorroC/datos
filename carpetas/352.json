@@ -1,18 +1,19 @@
 {
-  "idProcesos": [51499790, 81847081],
+  "_llaveProceso": "11001400307620170101600",
   "numero": 352,
   "cc": 71992491,
-  "llaveProceso": "11001400307620170101600",
+  "idProcesos": [51499790, 81847081],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MARIO",
     "segundoNombre": "DE",
     "primerApellido": "JESUS",
     "segundoApellido": "OSSA PULGARIN",
     "cedula": 71992491,
-    "direccion": "TRANSVERSAL 2 C BIS No 97 B-05 SUR"
+    "direccion": "TRANSVERSAL 2 C BIS No 97 B-05 SUR",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 11853.652,

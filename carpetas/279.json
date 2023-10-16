@@ -1,18 +1,22 @@
 {
-  "idProcesos": [112758450],
+  "_llaveProceso": "11001400300820170105800",
   "numero": 279,
   "cc": 1069745324,
-  "llaveProceso": "11001400300820170105800",
+  "idProcesos": [112758450],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3115964170 },
+    "tel": {
+      "fijo": null,
+      "celular": 3115964170
+    },
     "primerNombre": "ANDRES",
     "segundoNombre": "FELIPE",
     "primerApellido": "GUTIERREZ",
     "segundoApellido": "TRUJILLO",
     "cedula": 1069745324,
-    "direccion": "CALLE 14A SUR # 11M - 18 CASA 22"
+    "direccion": "CALLE 14A SUR # 11M - 18 CASA 22",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 14404.721,

@@ -1,12 +1,15 @@
 {
-  "idProcesos": [70545740],
+  "_llaveProceso": "11001400307520190100800",
   "numero": 524,
   "cc": 52433839,
-  "llaveProceso": "11001400307520190100800",
+  "idProcesos": [70545740],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "celular": 3213987669 },
+    "tel": {
+      "fijo": null,
+      "celular": 3213987669
+    },
     "primerNombre": "INGRIT",
     "segundoNombre": "YOHANA",
     "primerApellido": "VASQUEZ",

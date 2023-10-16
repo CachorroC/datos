@@ -1,13 +1,14 @@
 {
-  "idProcesos": [50873850],
+  "_llaveProceso": "11001400307320170156300",
   "numero": 353,
   "cc": 19297891,
-  "llaveProceso": "11001400307320170156300",
+  "idProcesos": [50873850],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "RICARDO",
+    "segundoNombre": null,
     "primerApellido": "ARIAS",
     "segundoApellido": "GUZMAN",
     "cedula": 19297891,

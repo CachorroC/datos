@@ -1,12 +1,15 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25785418900120170010200",
   "numero": 38,
   "cc": 39808625,
-  "llaveProceso": "25785418900120170010200",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3142310966 },
+    "tel": {
+      "fijo": null,
+      "celular": 3142310966
+    },
     "primerNombre": "LUZ",
     "segundoNombre": "MIRYAM",
     "primerApellido": "GUTÍERREZ",

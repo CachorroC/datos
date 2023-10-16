@@ -1,12 +1,15 @@
 {
-  "idProcesos": [114256610],
+  "_llaveProceso": "11001400304320180038400",
   "numero": 32,
   "cc": 1022940572,
-  "llaveProceso": "11001400304320180038400",
+  "idProcesos": [114256610],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3134775602 },
+    "tel": {
+      "fijo": null,
+      "celular": 3134775602
+    },
     "primerNombre": "",
     "segundoNombre": "JONATHAN ANDRES",
     "primerApellido": " BERNAL",

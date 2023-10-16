@@ -1,12 +1,12 @@
 {
-  "idProcesos": [11227303],
+  "_llaveProceso": "11001400305020180014000",
   "numero": 365,
   "cc": 79861680,
-  "llaveProceso": "11001400305020180014000",
+  "idProcesos": [11227303],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "RICHARD",
     "segundoNombre": "CAMILO",
     "primerApellido": "IRIARTE",

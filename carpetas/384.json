@@ -1,12 +1,15 @@
 {
-  "idProcesos": [50980370],
+  "_llaveProceso": "11001400305620180011000",
   "numero": 384,
   "cc": 80026753,
-  "llaveProceso": "11001400305620180011000",
+  "idProcesos": [50980370],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "celular": 3202116040 },
+    "tel": {
+      "fijo": null,
+      "celular": 3202116040
+    },
     "primerNombre": "DIEGO",
     "segundoNombre": "JAVIER",
     "primerApellido": "GALINDO",

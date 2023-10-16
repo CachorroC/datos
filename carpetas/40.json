@@ -1,18 +1,19 @@
 {
-  "idProcesos": [50506330],
+  "_llaveProceso": "11001400303420170080900",
   "numero": 40,
   "cc": 19173252,
-  "llaveProceso": "11001400303420170080900",
+  "idProcesos": [50506330],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JOSÉ",
     "segundoNombre": "ENRIQUE",
     "primerApellido": "RIAÑO",
     "segundoApellido": "HENRIQUEZ",
     "cedula": 19173252,
-    "direccion": "CALLE 70 No. 113 b - 40  BARRIO RIVIERA"
+    "direccion": "CALLE 70 No. 113 b - 40  BARRIO RIVIERA",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 19865254,

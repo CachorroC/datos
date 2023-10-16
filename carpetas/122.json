@@ -1,17 +1,18 @@
 {
-  "idProcesos": [19148931],
+  "_llaveProceso": "11001400304020170119300",
   "numero": 122,
   "cc": 52543321,
-  "llaveProceso": "11001400304020170119300",
+  "idProcesos": [19148931],
   "category": "Terminados",
   "tipoProceso": "SINGULAR ACUM HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "",
     "segundoNombre": "PAOLA",
     "primerApellido": "ANDREA",
     "segundoApellido": "FERNANDEZ RINCON",
     "cedula": 52543321,
+    "direccion": null,
     "email": "CALLE 1H # 32A - 17"
   },
   "demanda": {

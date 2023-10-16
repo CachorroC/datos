@@ -1,12 +1,12 @@
 {
-  "idProcesos": [81895161],
+  "_llaveProceso": "11001400308620180006700",
   "numero": 374,
   "cc": 80850549,
-  "llaveProceso": "11001400308620180006700",
+  "idProcesos": [81895161],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JHOAN",
     "segundoNombre": "ANTONIO",
     "primerApellido": "BARAJAS",

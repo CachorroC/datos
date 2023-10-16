@@ -1,17 +1,22 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25867418900120170002000",
   "numero": 13,
   "cc": 447028,
-  "llaveProceso": "25867418900120170002000",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3106890300 },
+    "tel": {
+      "fijo": null,
+      "celular": 3106890300
+    },
     "primerNombre": "PASCUAL",
+    "segundoNombre": null,
     "primerApellido": "ORTEGA",
     "segundoApellido": "ENCISO",
     "cedula": 447028,
-    "direccion": "FINCA EL HOSPICIO VIANI"
+    "direccion": "FINCA EL HOSPICIO VIANI",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 23326974,

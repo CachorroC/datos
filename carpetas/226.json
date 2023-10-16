@@ -1,12 +1,12 @@
 {
-  "idProcesos": [17050494],
+  "_llaveProceso": "11001400305520170094300",
   "numero": 226,
   "cc": 80513085,
-  "llaveProceso": "11001400305520170094300",
+  "idProcesos": [17050494],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "NESTOR",
     "segundoNombre": "GERMAN",
     "primerApellido": "URREGO",

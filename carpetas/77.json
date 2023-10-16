@@ -1,8 +1,8 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25754418900120170083700",
   "numero": 77,
   "cc": 1030554218,
-  "llaveProceso": "25754418900120170083700",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR ACUMULADO CON HIPOTECARIO",
   "deudor": {

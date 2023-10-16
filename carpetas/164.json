@@ -1,18 +1,22 @@
 {
-  "idProcesos": [50593640],
+  "_llaveProceso": "11001400304520170090500",
   "numero": 164,
   "cc": 14255996,
-  "llaveProceso": "11001400304520170090500",
+  "idProcesos": [50593640],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3102785072 },
+    "tel": {
+      "fijo": null,
+      "celular": 3102785072
+    },
     "primerNombre": "JOSE",
     "segundoNombre": "URIEL",
     "primerApellido": "RUIZ",
     "segundoApellido": "DIAZ",
     "cedula": 14255996,
-    "direccion": "CARRERA 82 A No. 6B-30 CASA 36"
+    "direccion": "CARRERA 82 A No. 6B-30 CASA 36",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 25519.225,

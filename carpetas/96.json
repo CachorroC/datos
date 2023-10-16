@@ -1,13 +1,14 @@
 {
-  "idProcesos": [11998913],
+  "_llaveProceso": "11001400305320170087100",
   "numero": 96,
   "cc": 52818959,
-  "llaveProceso": "11001400305320170087100",
+  "idProcesos": [11998913],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "YURANNY",
+    "segundoNombre": null,
     "primerApellido": "POLANCO",
     "segundoApellido": "CESPEDES",
     "cedula": 52818959,

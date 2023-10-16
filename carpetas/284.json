@@ -1,13 +1,14 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25214400300120170070400",
   "numero": 284,
   "cc": 93119101,
-  "llaveProceso": "25214400300120170070400",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ARMANDO",
+    "segundoNombre": null,
     "primerApellido": "BARRIOS",
     "segundoApellido": "VARGAS",
     "cedula": 93119101,

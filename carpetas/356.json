@@ -1,12 +1,12 @@
 {
-  "idProcesos": [50905230],
+  "_llaveProceso": "11001400302420170170800",
   "numero": 356,
   "cc": 53119460,
-  "llaveProceso": "11001400302420170170800",
+  "idProcesos": [50905230],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "fijo": 4707082 },
+    "tel": { "fijo": 4707082, "celular": null },
     "primerNombre": "SONIA",
     "segundoNombre": "XIMENA",
     "primerApellido": "RODRIGUEZ",

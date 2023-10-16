@@ -1,17 +1,18 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25754418900320180135200",
   "numero": 512,
   "cc": 1014200510,
-  "llaveProceso": "25754418900320180135200",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "SANDRA",
     "segundoNombre": "MILENA",
     "primerApellido": "MORALES",
     "segundoApellido": "GARCIA",
     "cedula": 1014200510,
+    "direccion": null,
     "email": "CALLE 93 No 94 N -16"
   },
   "demanda": {

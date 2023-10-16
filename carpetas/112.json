@@ -1,8 +1,8 @@
 {
-  "idProcesos": [112880210],
+  "_llaveProceso": "11001400302020170097400",
   "numero": 112,
   "cc": 23993605,
-  "llaveProceso": "11001400302020170097400",
+  "idProcesos": [112880210],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
@@ -15,7 +15,8 @@
     "primerApellido": "SOTELO",
     "segundoApellido": "TORRES",
     "cedula": 23993605,
-    "direccion": "CARRERA 129 # 131 - 03"
+    "direccion": "CARRERA 129 # 131 - 03",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 98478.181,

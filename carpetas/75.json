@@ -1,12 +1,12 @@
 {
-  "idProcesos": [50526190],
+  "_llaveProceso": "11001400305820170091800",
   "numero": 75,
   "cc": 80792132,
-  "llaveProceso": "11001400305820170091800",
+  "idProcesos": [50526190],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MARIO",
     "segundoNombre": "ANDRES",
     "primerApellido": "BOJACA",

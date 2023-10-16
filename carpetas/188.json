@@ -1,17 +1,18 @@
 {
-  "idProcesos": [51452530],
+  "_llaveProceso": "11001400306720170126900",
   "numero": 188,
   "cc": 1019029250,
-  "llaveProceso": "11001400306720170126900",
+  "idProcesos": [51452530],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "DIEGO",
     "segundoNombre": "ARMANDO",
     "primerApellido": "AREVALO",
     "segundoApellido": "VELANDIA",
     "cedula": 1019029250,
+    "direccion": null,
     "email": "CARRERA 86 # 77A - 28"
   },
   "demanda": {

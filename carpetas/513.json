@@ -1,17 +1,18 @@
 {
-  "idProcesos": [65707550],
+  "_llaveProceso": "11001400304420190016500",
   "numero": 513,
   "cc": 80865782,
-  "llaveProceso": "11001400304420190016500",
+  "idProcesos": [65707550],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ERIK",
     "segundoNombre": "RICARDO",
     "primerApellido": "PINTO",
     "segundoApellido": "RODRIGUEZ",
     "cedula": 80865782,
+    "direccion": null,
     "email": "CALLE 64 C No 105 D- 36 PISO 3"
   },
   "demanda": {

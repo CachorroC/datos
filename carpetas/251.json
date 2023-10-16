@@ -1,12 +1,15 @@
 {
-  "idProcesos": [50685530],
+  "_llaveProceso": "11001400301320170116200",
   "numero": 251,
   "cc": 7226283,
-  "llaveProceso": "11001400301320170116200",
+  "idProcesos": [50685530],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": { "celular": 3178195535 },
+    "tel": {
+      "fijo": null,
+      "celular": 3178195535
+    },
     "primerNombre": "CARLOS",
     "segundoNombre": "JAVIER",
     "primerApellido": "BECERRA",

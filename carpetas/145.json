@@ -1,12 +1,12 @@
 {
-  "idProcesos": [65086550],
+  "_llaveProceso": "11001400305520170081700",
   "numero": 145,
   "cc": 79714749,
-  "llaveProceso": "11001400305520170081700",
+  "idProcesos": [65086550],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JHON",
     "segundoNombre": "JAMINTON",
     "primerApellido": "FUENTES",
@@ -16,7 +16,7 @@
     "email": "joja1114@hotmail.com"
   },
   "demanda": {
-    "capitalAdeudado": 53995817.72,
+    "capitalAdeudado": 5399581772,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
     "tipoProceso": "SINGULAR",

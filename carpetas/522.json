@@ -1,13 +1,14 @@
 {
-  "idProcesos": [39001450],
+  "_llaveProceso": "11001400306820190100400",
   "numero": 522,
   "cc": 79359896,
-  "llaveProceso": "11001400306820190100400",
+  "idProcesos": [39001450],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ARMANDO",
+    "segundoNombre": null,
     "primerApellido": "RODRIGUEZ",
     "segundoApellido": "RODRIGUEZ",
     "cedula": 79359896,

@@ -1,18 +1,19 @@
 {
-  "idProcesos": [50527610],
+  "_llaveProceso": "11001400303620170055400",
   "numero": 81,
   "cc": 900789612,
-  "llaveProceso": "11001400303620170055400",
+  "idProcesos": [50527610],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "DS&D",
     "segundoNombre": "SOLUCIONES",
     "primerApellido": "CONSTRUCTIVAS",
     "segundoApellido": "S.A.S.",
     "cedula": 900789612,
-    "direccion": "CARRERA 7 # 171A - 14 LA CALERA"
+    "direccion": "CARRERA 7 # 171A - 14 LA CALERA",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 17337.417,

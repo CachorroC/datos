@@ -1,13 +1,14 @@
 {
-  "idProcesos": [50782960],
+  "_llaveProceso": "11001400301720170133600",
   "numero": 361,
   "cc": 53064513,
-  "llaveProceso": "11001400301720170133600",
+  "idProcesos": [50782960],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "NATALIA",
+    "segundoNombre": null,
     "primerApellido": "CUESTAS",
     "segundoApellido": "MONDRAGON",
     "cedula": 53064513,

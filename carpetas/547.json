@@ -1,17 +1,19 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25754400300120210015300",
   "numero": 547,
   "cc": 348774,
-  "llaveProceso": "25754400300120210015300",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JOSE",
     "segundoNombre": "EDGAR",
     "primerApellido": "ACHURI",
     "segundoApellido": "GONZALEZ",
-    "cedula": 348774
+    "cedula": 348774,
+    "direccion": null,
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 0,

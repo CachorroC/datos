@@ -1,12 +1,12 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25320310300120170019500",
   "numero": 27,
   "cc": 79004127,
-  "llaveProceso": "25320310300120170019500",
+  "idProcesos": [],
   "category": "Insolvencia",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "",
     "segundoNombre": "NORBEY",
     "primerApellido": "LOMBANA",

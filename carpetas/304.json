@@ -1,13 +1,17 @@
 {
-  "idProcesos": [50801260],
+  "_llaveProceso": "11001400307320170141100",
   "numero": 304,
   "cc": 79892240,
-  "llaveProceso": "11001400307320170141100",
+  "idProcesos": [50801260],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3212414138 },
+    "tel": {
+      "fijo": null,
+      "celular": 3212414138
+    },
     "primerNombre": "FERNANDO",
+    "segundoNombre": null,
     "primerApellido": "GONZALEZ",
     "segundoApellido": "TELLEZ",
     "cedula": 79892240,

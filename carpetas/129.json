@@ -1,8 +1,8 @@
 {
-  "idProcesos": [9333743],
+  "_llaveProceso": "11001400304320170106400",
   "numero": 129,
   "cc": 41709257,
-  "llaveProceso": "11001400304320170106400",
+  "idProcesos": [9333743],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -11,7 +11,9 @@
       "celular": 3184581490
     },
     "primerNombre": "ELENA",
+    "segundoNombre": null,
     "primerApellido": "QUIÑONES",
+    "segundoApellido": null,
     "cedula": 41709257,
     "direccion": "CALLE 150A # 101 - 20 TORRE 3 APTO 802",
     "email": "ele41709257@hotmail.com"

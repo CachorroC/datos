@@ -1,12 +1,12 @@
 {
-  "idProcesos": [50745490],
+  "_llaveProceso": "11001400303420170123600",
   "numero": 252,
   "cc": 1023863956,
-  "llaveProceso": "11001400303420170123600",
+  "idProcesos": [50745490],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ANGEL",
     "segundoNombre": "JOVANI",
     "primerApellido": "SUAREZ",

@@ -1,8 +1,8 @@
 {
-  "idProcesos": [50771340],
+  "_llaveProceso": "11001400304020170150900",
   "numero": 220,
   "cc": 51726361,
-  "llaveProceso": "11001400304020170150900",
+  "idProcesos": [50771340],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {

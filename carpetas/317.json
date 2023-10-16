@@ -1,13 +1,14 @@
 {
-  "idProcesos": [50832550],
+  "_llaveProceso": "11001400301820170181300",
   "numero": 317,
   "cc": 80251653,
-  "llaveProceso": "11001400301820170181300",
+  "idProcesos": [50832550],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "WILSON",
+    "segundoNombre": null,
     "primerApellido": "JAVIER",
     "segundoApellido": "SANCHEZ",
     "cedula": 80251653,

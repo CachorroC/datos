@@ -1,17 +1,19 @@
 {
-  "idProcesos": [50817380, 81647611],
+  "_llaveProceso": "11001400302220170120800",
   "numero": 369,
   "cc": 900336193,
-  "llaveProceso": "11001400302220170120800",
+  "idProcesos": [50817380, 81647611],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "INVERSION",
+    "segundoNombre": null,
     "primerApellido": "RIVOLI",
     "segundoApellido": "S.A.S.",
     "cedula": 900336193,
-    "direccion": "CARRERA 24 G No20-35 SUR"
+    "direccion": "CARRERA 24 G No20-35 SUR",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 34749.647,

@@ -1,16 +1,19 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25754418900320170075500",
   "numero": 120,
   "cc": 900212673,
-  "llaveProceso": "25754418900320170075500",
+  "idProcesos": [],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JENCELL",
+    "segundoNombre": null,
     "primerApellido": "E.U.",
+    "segundoApellido": null,
     "cedula": 900212673,
-    "direccion": "CARRERA 3 # 29A - 02"
+    "direccion": "CARRERA 3 # 29A - 02",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 13906.249,

@@ -1,12 +1,15 @@
 {
-  "idProcesos": [132240890],
+  "_llaveProceso": "11001418907520230016700",
   "numero": 569,
   "cc": 52514115,
-  "llaveProceso": "11001418907520230016700",
+  "idProcesos": [132240890],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3203477527 },
+    "tel": {
+      "fijo": null,
+      "celular": 3203477527
+    },
     "primerNombre": "DIANA",
     "segundoNombre": "PATRICIA",
     "primerApellido": "SILVARA",

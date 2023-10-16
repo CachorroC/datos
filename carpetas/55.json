@@ -1,13 +1,17 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25430400300120170108700",
   "numero": 55,
   "cc": 80353430,
-  "llaveProceso": "25430400300120170108700",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3124488945 },
+    "tel": {
+      "fijo": null,
+      "celular": 3124488945
+    },
     "primerNombre": "DOUGLAS",
+    "segundoNombre": null,
     "primerApellido": "AYURE",
     "segundoApellido": "RIOS",
     "cedula": 80353430,

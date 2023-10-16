@@ -1,12 +1,12 @@
 {
-  "idProcesos": [10955643],
+  "_llaveProceso": "11001400304920180019100",
   "numero": 403,
   "cc": 52361215,
-  "llaveProceso": "11001400304920180019100",
+  "idProcesos": [10955643],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "CLAUDIA",
     "segundoNombre": "YANETH",
     "primerApellido": "VALENCIA",

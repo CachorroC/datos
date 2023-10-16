@@ -1,12 +1,15 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001408900820180022300",
   "numero": 440,
   "cc": 30387764,
-  "llaveProceso": "11001408900820180022300",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3107996508 },
+    "tel": {
+      "fijo": null,
+      "celular": 3107996508
+    },
     "primerNombre": "BLANCA",
     "segundoNombre": "ESTHER",
     "primerApellido": "QUIROGA",

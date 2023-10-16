@@ -1,18 +1,19 @@
 {
-  "idProcesos": [62733402],
+  "_llaveProceso": "11001310302720170037400",
   "numero": 7,
   "cc": 79733852,
-  "llaveProceso": "11001310302720170037400",
+  "idProcesos": [62733402],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JOSE",
     "segundoNombre": "RICARDO",
     "primerApellido": "PRIETO",
     "segundoApellido": "CRUZ",
     "cedula": 79733852,
-    "direccion": "CALLE 21 BIS SUR No. 88-58 BOGOTA"
+    "direccion": "CALLE 21 BIS SUR No. 88-58 BOGOTA",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 134026609,

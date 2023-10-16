@@ -1,12 +1,15 @@
 {
-  "idProcesos": [50593320],
+  "_llaveProceso": "11001400301920170070200",
   "numero": 66,
   "cc": 66841096,
-  "llaveProceso": "11001400301920170070200",
+  "idProcesos": [50593320],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": { "celular": 3144113614 },
+    "tel": {
+      "fijo": null,
+      "celular": 3144113614
+    },
     "primerNombre": "SANDRA",
     "segundoNombre": "PATRICIA",
     "primerApellido": "SUAREZ",

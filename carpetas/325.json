@@ -1,17 +1,19 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001400308020170076000",
   "numero": 325,
   "cc": 30583011,
-  "llaveProceso": "11001400308020170076000",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MARCELA",
     "segundoNombre": "PATRICIA",
     "primerApellido": "DIAZ",
     "segundoApellido": "PEREIRA",
-    "cedula": 30583011
+    "cedula": 30583011,
+    "direccion": null,
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 0,

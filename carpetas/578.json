@@ -1,12 +1,15 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25899400300220230044200",
   "numero": 578,
   "cc": 35422519,
-  "llaveProceso": "25899400300220230044200",
+  "idProcesos": [],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3203172020 },
+    "tel": {
+      "fijo": null,
+      "celular": 3203172020
+    },
     "primerNombre": "DIANA",
     "segundoNombre": "CRISTINA",
     "primerApellido": "AREVALO",

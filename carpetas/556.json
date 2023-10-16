@@ -1,13 +1,17 @@
 {
-  "idProcesos": [159336301],
+  "_llaveProceso": "25430400300120230112700",
   "numero": 556,
   "cc": 1022335014,
-  "llaveProceso": "25430400300120230112700",
+  "idProcesos": [159336301],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3023193548 },
+    "tel": {
+      "fijo": null,
+      "celular": 3023193548
+    },
     "primerNombre": "CIRO",
+    "segundoNombre": null,
     "primerApellido": "ERQUILIAN",
     "segundoApellido": "ONOFRE",
     "cedula": 1022335014,

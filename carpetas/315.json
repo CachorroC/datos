@@ -1,13 +1,14 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25754400300320170036400",
   "numero": 315,
   "cc": 80203869,
-  "llaveProceso": "25754400300320170036400",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "BLADIMIR",
+    "segundoNombre": null,
     "primerApellido": "GUTIERREZ",
     "segundoApellido": "CIFUENTES",
     "cedula": 80203869,

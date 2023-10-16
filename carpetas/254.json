@@ -1,8 +1,8 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25175408900320170047700",
   "numero": 254,
   "cc": 52344904,
-  "llaveProceso": "25175408900320170047700",
+  "idProcesos": [],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -11,6 +11,7 @@
       "celular": 3103291690
     },
     "primerNombre": "YOHAIRA",
+    "segundoNombre": null,
     "primerApellido": "PRADO",
     "segundoApellido": "VALOYES",
     "cedula": 52344904,

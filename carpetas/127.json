@@ -1,6 +1,8 @@
 {
+  "_llaveProceso": null,
   "numero": 127,
   "cc": 41610065,
+  "idProcesos": null,
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {

@@ -1,13 +1,14 @@
 {
-  "idProcesos": [50725030],
+  "_llaveProceso": "11001400302320170104400",
   "numero": 241,
   "cc": 900535464,
-  "llaveProceso": "11001400302320170104400",
+  "idProcesos": [50725030],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "PUBLI",
+    "segundoNombre": null,
     "primerApellido": "MAGIC",
     "segundoApellido": "S..A.S.",
     "cedula": 900535464,

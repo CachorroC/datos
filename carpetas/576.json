@@ -1,12 +1,15 @@
 {
-  "idProcesos": [132581550],
+  "_llaveProceso": "11001400300520230084300",
   "numero": 576,
   "cc": 1020754305,
-  "llaveProceso": "11001400300520230084300",
+  "idProcesos": [132581550],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3188015288 },
+    "tel": {
+      "fijo": null,
+      "celular": 3188015288
+    },
     "primerNombre": "JUAN",
     "segundoNombre": "CAMILO",
     "primerApellido": "VELASQUEZ",

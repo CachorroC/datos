@@ -1,13 +1,14 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001418900920180038900",
   "numero": 472,
   "cc": 91250936,
-  "llaveProceso": "11001418900920180038900",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "SERGIO",
+    "segundoNombre": null,
     "primerApellido": "ESPINEL",
     "segundoApellido": "CORREAL",
     "cedula": 91250936,

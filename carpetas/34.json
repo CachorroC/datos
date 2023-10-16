@@ -1,12 +1,15 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25307400300320170033000",
   "numero": 34,
   "cc": 1070612757,
-  "llaveProceso": "25307400300320170033000",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "celular": 3006308169 },
+    "tel": {
+      "fijo": null,
+      "celular": 3006308169
+    },
     "primerNombre": "KAREN",
     "segundoNombre": "JULIETH",
     "primerApellido": "PINZON",

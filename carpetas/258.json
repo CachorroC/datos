@@ -1,12 +1,12 @@
 {
-  "idProcesos": [50692590],
+  "_llaveProceso": "11001400301320170117800",
   "numero": 258,
   "cc": 51740544,
-  "llaveProceso": "11001400301320170117800",
+  "idProcesos": [50692590],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "SOL",
     "segundoNombre": "JUDITH",
     "primerApellido": "BUITRAGO",

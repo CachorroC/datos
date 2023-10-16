@@ -1,13 +1,17 @@
 {
-  "idProcesos": [121826111],
+  "_llaveProceso": "25307400300320210053900",
   "numero": 480,
   "cc": 39575032,
-  "llaveProceso": "25307400300320210053900",
+  "idProcesos": [121826111],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3152573448 },
+    "tel": {
+      "fijo": null,
+      "celular": 3152573448
+    },
     "primerNombre": "ADRIANA",
+    "segundoNombre": null,
     "primerApellido": "VANEGAS",
     "segundoApellido": "PEÑA",
     "cedula": 39575032,

@@ -1,8 +1,8 @@
 {
-  "idProcesos": [50760030],
+  "_llaveProceso": "11001400301120170108400",
   "numero": 179,
   "cc": 12254068,
-  "llaveProceso": "11001400301120170108400",
+  "idProcesos": [50760030],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -11,6 +11,7 @@
       "celular": 3218180993
     },
     "primerNombre": "GUILLERMO",
+    "segundoNombre": null,
     "primerApellido": "GONZALEZ",
     "segundoApellido": "TAGUA",
     "cedula": 12254068,

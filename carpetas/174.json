@@ -1,8 +1,8 @@
 {
-  "idProcesos": [112048180],
+  "_llaveProceso": "11001400302520170090300",
   "numero": 174,
   "cc": 52189873,
-  "llaveProceso": "11001400302520170090300",
+  "idProcesos": [112048180],
   "category": "Bancolombia",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
@@ -11,6 +11,7 @@
       "celular": 3144189224
     },
     "primerNombre": "DARNELLY",
+    "segundoNombre": null,
     "primerApellido": "HERNANDEZ",
     "segundoApellido": "MARTINEZ",
     "cedula": 52189873,

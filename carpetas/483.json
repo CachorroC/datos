@@ -1,18 +1,19 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001418903220180137000",
   "numero": 483,
   "cc": 19459237,
-  "llaveProceso": "11001418903220180137000",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "WILSON",
     "segundoNombre": "RICARDO",
     "primerApellido": "ESCOBAR",
     "segundoApellido": "ESCOBAR",
     "cedula": 19459237,
-    "direccion": "CALLE 71 A No 69A-11 APTO  301"
+    "direccion": "CALLE 71 A No 69A-11 APTO  301",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": null,

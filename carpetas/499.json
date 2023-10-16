@@ -1,13 +1,14 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001418901320190070800",
   "numero": 499,
   "cc": 3208569,
-  "llaveProceso": "11001418901320190070800",
+  "idProcesos": [],
   "category": "Bancolombia",
   "tipoProceso": "HIPOTECARO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "FLORESMIRO",
+    "segundoNombre": null,
     "primerApellido": "APONTE",
     "segundoApellido": "ACOSTA",
     "cedula": 3208569,

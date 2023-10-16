@@ -1,12 +1,15 @@
 {
-  "idProcesos": [19222160],
+  "_llaveProceso": "11001400306820180099900",
   "numero": 434,
   "cc": 80429531,
-  "llaveProceso": "11001400306820180099900",
+  "idProcesos": [19222160],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "celular": 3193862544 },
+    "tel": {
+      "fijo": null,
+      "celular": 3193862544
+    },
     "primerNombre": "FRANCISCO",
     "segundoNombre": "JAVIER",
     "primerApellido": "GIL",

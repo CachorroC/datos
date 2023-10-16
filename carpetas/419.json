@@ -1,17 +1,18 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25175410300120180023700",
   "numero": 419,
   "cc": 73133278,
-  "llaveProceso": "25175410300120180023700",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ALVARO",
     "segundoNombre": "HERNAN",
     "primerApellido": "RUIZ",
     "segundoApellido": "HERNANDEZ",
     "cedula": 73133278,
+    "direccion": null,
     "email": "CALLE 1 SUR No 5A- 179 CASA 26"
   },
   "demanda": {

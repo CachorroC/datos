@@ -1,12 +1,12 @@
 {
-  "idProcesos": [50466490],
+  "_llaveProceso": "11001400302220170048300",
   "numero": 20,
   "cc": 94482258,
-  "llaveProceso": "11001400302220170048300",
+  "idProcesos": [50466490],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ANDRES",
     "segundoNombre": "MAURICIO FERNANDEZ",
     "primerApellido": "DE SOTO",

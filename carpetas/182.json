@@ -1,12 +1,12 @@
 {
-  "idProcesos": [50621670],
+  "_llaveProceso": "11001400300120170100100",
   "numero": 182,
   "cc": 11185630,
-  "llaveProceso": "11001400300120170100100",
+  "idProcesos": [50621670],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "WILSON",
     "segundoNombre": "ALFONSO",
     "primerApellido": "JIMENEZ",

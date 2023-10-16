@@ -1,17 +1,18 @@
 {
-  "idProcesos": [9342243],
+  "_llaveProceso": "11001400304320180047400",
   "numero": 415,
   "cc": 1024479982,
-  "llaveProceso": "11001400304320180047400",
+  "idProcesos": [9342243],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "INGRID",
     "segundoNombre": "CATHERINE",
     "primerApellido": "TAPIAS",
     "segundoApellido": "RICO",
     "cedula": 1024479982,
+    "direccion": null,
     "email": "CALLE 61 SUR No 20 D-60 INT11  APTO 501"
   },
   "demanda": {

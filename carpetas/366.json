@@ -1,12 +1,12 @@
 {
-  "idProcesos": [50925430],
+  "_llaveProceso": "11001400300920170136100",
   "numero": 366,
   "cc": 53094561,
-  "llaveProceso": "11001400300920170136100",
+  "idProcesos": [50925430],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "YURI",
     "segundoNombre": "ANDREA",
     "primerApellido": "GONZALEZ",

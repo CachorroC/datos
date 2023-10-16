@@ -1,13 +1,17 @@
 {
-  "idProcesos": [65640840],
+  "_llaveProceso": "11001400308520170108400",
   "numero": 70,
   "cc": 14250539,
-  "llaveProceso": "11001400308520170108400",
+  "idProcesos": [65640840],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": { "celular": 3152248920 },
+    "tel": {
+      "fijo": null,
+      "celular": 3152248920
+    },
     "primerNombre": "CESAR",
+    "segundoNombre": null,
     "primerApellido": "AUGUSTO",
     "segundoApellido": "ARIAS",
     "cedula": 14250539,

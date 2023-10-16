@@ -1,11 +1,12 @@
 {
+  "_llaveProceso": "2575440030042018000600",
   "numero": 533,
   "cc": 79522009,
-  "llaveProceso": "2575440030042018000600",
+  "idProcesos": null,
   "category": "Bancolombia",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JAIRO",
     "segundoNombre": "ALFONSO",
     "primerApellido": "PARDO",

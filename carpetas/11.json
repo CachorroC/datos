@@ -1,13 +1,17 @@
 {
-  "idProcesos": [50508570],
+  "_llaveProceso": "11001400303720170083900",
   "numero": 11,
   "cc": 80743147,
-  "llaveProceso": "11001400303720170083900",
+  "idProcesos": [50508570],
   "category": "LiosJuridicos",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": { "celular": 3209229120 },
+    "tel": {
+      "fijo": null,
+      "celular": 3209229120
+    },
     "primerNombre": "JAVIER",
+    "segundoNombre": null,
     "primerApellido": "ROMERO",
     "segundoApellido": "REYES",
     "cedula": 80743147,

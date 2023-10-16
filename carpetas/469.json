@@ -1,8 +1,8 @@
 {
-  "idProcesos": [18376650],
+  "_llaveProceso": "11001400307020180092200",
   "numero": 469,
   "cc": 46667409,
-  "llaveProceso": "11001400307020180092200",
+  "idProcesos": [18376650],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -15,7 +15,8 @@
     "primerApellido": "VALDERRAMA",
     "segundoApellido": "TUTA",
     "cedula": 46667409,
-    "direccion": "CALLE 43 No 80F-20"
+    "direccion": "CALLE 43 No 80F-20",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": null,

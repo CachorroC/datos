@@ -1,17 +1,18 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25843410300120180049900",
   "numero": 507,
   "cc": 80468168,
-  "llaveProceso": "25843410300120180049900",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "WILLIAM",
     "segundoNombre": "",
     "primerApellido": "YOVANY",
     "segundoApellido": "CASALLAS ROMERO",
     "cedula": 80468168,
+    "direccion": null,
     "email": "CARRERA 4 A No 16 B-14  TORRE2"
   },
   "demanda": {

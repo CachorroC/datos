@@ -1,12 +1,15 @@
 {
-  "idProcesos": [50537040],
+  "_llaveProceso": "11001400300920170060700",
   "numero": 51,
   "cc": 37549188,
-  "llaveProceso": "11001400300920170060700",
+  "idProcesos": [50537040],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3175921396 },
+    "tel": {
+      "fijo": null,
+      "celular": 3175921396
+    },
     "primerNombre": "MARIA",
     "segundoNombre": "CAROLINA",
     "primerApellido": "MARTINEZ",

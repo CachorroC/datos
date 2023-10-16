@@ -1,11 +1,15 @@
 {
+  "_llaveProceso": "2590400300220170063100",
   "numero": 262,
   "cc": 1069737167,
-  "llaveProceso": "2590400300220170063100",
+  "idProcesos": null,
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3103247146 },
+    "tel": {
+      "fijo": null,
+      "celular": 3103247146
+    },
     "primerNombre": "RAFAEL",
     "segundoNombre": "ANDRES",
     "primerApellido": "MORENO",

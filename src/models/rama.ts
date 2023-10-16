@@ -1,5 +1,7 @@
-import { IntDepartamentos,
-         Despacho } from '../types/rama-judicial';
+import {
+  IntDepartamentos,
+  Despacho
+} from '../types/rama-judicial';
 
 export async function getDepartamentos() {
   try {
@@ -7,20 +9,18 @@ export async function getDepartamentos() {
       'https://procesojudicial.ramajudicial.gov.co/demandaenlinea/Demanda/Departamento'
     );
 
-    if ( !Request.ok ) {
+    if (!Request.ok) {
       throw new Error(
         'no pudimos obtener la lista de departamentos disponibles'
       );
     }
 
-    const Respose
-      = ( await Request.json() ) as IntDepartamentos;
+    const Respose =
+      (await Request.json()) as IntDepartamentos;
 
     return Respose;
-  } catch ( error ) {
-    console.log(
-      error 
-    );
+  } catch (error) {
+    console.log(error);
 
     return null;
   }
@@ -32,18 +32,16 @@ export async function getDespachos() {
       'https://www.ramajudicial.gov.co/directorioPortal-portlet/api/jsonws/servicioapidirectorio/get-despacho-distritos.18'
     );
 
-    if ( !Request.ok ) {
+    if (!Request.ok) {
       return [];
     }
 
-    const Response
-      = ( await Request.json() ) as Despacho[];
+    const Response =
+      (await Request.json()) as Despacho[];
 
     return Response;
-  } catch ( error ) {
-    console.log(
-      `error en el despacho: ${ error }` 
-    );
+  } catch (error) {
+    console.log(`error en el despacho: ${error}`);
 
     return [];
   }

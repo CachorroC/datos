@@ -1,12 +1,15 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001418900420230088600",
   "numero": 559,
   "cc": 80219425,
-  "llaveProceso": "11001418900420230088600",
+  "idProcesos": [],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3112633806 },
+    "tel": {
+      "fijo": null,
+      "celular": 3112633806
+    },
     "primerNombre": "EDWIN",
     "segundoNombre": "ALEXANDER",
     "primerApellido": "SALCEDO",

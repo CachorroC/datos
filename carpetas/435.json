@@ -1,13 +1,14 @@
 {
-  "idProcesos": [51205750],
+  "_llaveProceso": "11001400301620180057300",
   "numero": 435,
   "cc": 1012341563,
-  "llaveProceso": "11001400301620180057300",
+  "idProcesos": [51205750],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MARIBEL",
+    "segundoNombre": null,
     "primerApellido": "REVELO",
     "segundoApellido": "QUIROGA",
     "cedula": 1012341563,

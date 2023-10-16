@@ -1,13 +1,14 @@
 {
-  "idProcesos": [50726160],
+  "_llaveProceso": "11001400300720170141000",
   "numero": 256,
   "cc": 79881862,
-  "llaveProceso": "11001400300720170141000",
+  "idProcesos": [50726160],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "FREDDY",
+    "segundoNombre": null,
     "primerApellido": "ARIAS",
     "segundoApellido": "MARTINEZ",
     "cedula": 79881862,

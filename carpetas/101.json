@@ -1,12 +1,15 @@
 {
-  "idProcesos": [50540650],
+  "_llaveProceso": "11001400301020170065301",
   "numero": 101,
   "cc": 57452535,
-  "llaveProceso": "11001400301020170065301",
+  "idProcesos": [50540650],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": { "celular": 3004975278 },
+    "tel": {
+      "fijo": null,
+      "celular": 3004975278
+    },
     "primerNombre": "LEILA",
     "segundoNombre": "JOHANNA",
     "primerApellido": "MARTINEZ",

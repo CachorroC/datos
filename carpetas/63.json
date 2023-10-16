@@ -1,12 +1,12 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001418900920170008900",
   "numero": 63,
   "cc": 1022943195,
-  "llaveProceso": "11001418900920170008900",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "fijo": 7493169 },
+    "tel": { "fijo": 7493169, "celular": null },
     "primerNombre": "DIANA",
     "segundoNombre": "MARCELA",
     "primerApellido": "IPUZ",
@@ -16,7 +16,7 @@
     "email": "marcelaipuzsuarez@hotmail.com"
   },
   "demanda": {
-    "capitalAdeudado": 20600721.7,
+    "capitalAdeudado": 206007217,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
     "tipoProceso": "SINGULAR",

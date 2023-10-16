@@ -1,12 +1,12 @@
 {
-  "idProcesos": [50921080],
+  "_llaveProceso": "11001400307720170056800",
   "numero": 140,
   "cc": 80933170,
-  "llaveProceso": "11001400307720170056800",
+  "idProcesos": [50921080],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JHON",
     "segundoNombre": "FABER",
     "primerApellido": "FORIGUA",

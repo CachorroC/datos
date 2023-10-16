@@ -1,17 +1,18 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25053408900120180004900",
   "numero": 281,
   "cc": 1069712582,
-  "llaveProceso": "25053408900120180004900",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "YENNY",
     "segundoNombre": "MARGOTH",
     "primerApellido": "LARA",
     "segundoApellido": "MUÑOZ",
     "cedula": 1069712582,
+    "direccion": null,
     "email": " CALLE 34 No 2 - 15 SOACHA"
   },
   "demanda": {

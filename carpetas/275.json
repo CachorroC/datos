@@ -1,8 +1,8 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25754408900320170096900",
   "numero": 275,
   "cc": 39670695,
-  "llaveProceso": "25754408900320170096900",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
@@ -11,7 +11,9 @@
       "celular": 3208100658
     },
     "primerNombre": "HORTENCIA",
+    "segundoNombre": null,
     "primerApellido": "GARZON",
+    "segundoApellido": null,
     "cedula": 39670695,
     "direccion": "TRANSVERSAL 4 B No 3 - 64 sur  APTO 473  SOACHA",
     "email": "rokerita19748@hotmail.com"

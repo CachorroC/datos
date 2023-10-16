@@ -1,17 +1,18 @@
 {
-  "idProcesos": [50858060],
+  "_llaveProceso": "11001400301220170140000",
   "numero": 342,
   "cc": 91240362,
-  "llaveProceso": "11001400301220170140000",
+  "idProcesos": [50858060],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "GABRIEL",
     "segundoNombre": "AUGUSTO",
     "primerApellido": "CASTILLO",
     "segundoApellido": "CASTELBLANCO",
     "cedula": 91240362,
+    "direccion": null,
     "email": "CARRERA 87 No  17 - 59"
   },
   "demanda": {

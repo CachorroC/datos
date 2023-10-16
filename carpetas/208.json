@@ -1,13 +1,14 @@
 {
-  "idProcesos": [86374941],
+  "_llaveProceso": "25754400300220170026500",
   "numero": 208,
   "cc": 80357801,
-  "llaveProceso": "25754400300220170026500",
+  "idProcesos": [86374941],
   "category": "Reintegra",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JEOVANY",
+    "segundoNombre": null,
     "primerApellido": "ROJAS",
     "segundoApellido": "CRUZ",
     "cedula": 80357801,

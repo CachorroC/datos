@@ -1,12 +1,15 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25386400300120170040700",
   "numero": 224,
   "cc": 52616509,
-  "llaveProceso": "25386400300120170040700",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "celular": 3114881698 },
+    "tel": {
+      "fijo": null,
+      "celular": 3114881698
+    },
     "primerNombre": "MARIA",
     "segundoNombre": "ROSA",
     "primerApellido": "ZARATE",

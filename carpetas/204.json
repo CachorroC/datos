@@ -1,13 +1,14 @@
 {
-  "idProcesos": [110120573],
+  "_llaveProceso": "11001400304520170106300",
   "numero": 204,
   "cc": 46679232,
-  "llaveProceso": "11001400304520170106300",
+  "idProcesos": [110120573],
   "category": "Reintegra",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "FLOR",
+    "segundoNombre": null,
     "primerApellido": "ESPERANZA",
     "segundoApellido": "GUTIERREZ",
     "cedula": 46679232,

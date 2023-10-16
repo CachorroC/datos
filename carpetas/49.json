@@ -1,12 +1,15 @@
 {
-  "idProcesos": [11486153],
+  "_llaveProceso": "11001400305120170064400",
   "numero": 49,
   "cc": 79532034,
-  "llaveProceso": "11001400305120170064400",
+  "idProcesos": [11486153],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "celular": 3165275725 },
+    "tel": {
+      "fijo": null,
+      "celular": 3165275725
+    },
     "primerNombre": "JOSE",
     "segundoNombre": "ISRAEL",
     "primerApellido": "MONROY",

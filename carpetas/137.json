@@ -1,8 +1,8 @@
 {
-  "idProcesos": [10410303],
+  "_llaveProceso": "11001400304720170171300",
   "numero": 137,
   "cc": 52818134,
-  "llaveProceso": "11001400304720170171300",
+  "idProcesos": [10410303],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
@@ -19,7 +19,7 @@
     "email": "ednita22ms@hotmail.com"
   },
   "demanda": {
-    "capitalAdeudado": 19926084.89,
+    "capitalAdeudado": 1992608489,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
     "tipoProceso": "SINGULAR",

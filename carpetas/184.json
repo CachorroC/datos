@@ -1,18 +1,19 @@
 {
-  "idProcesos": [50623380, 81652411],
+  "_llaveProceso": "11001400302520170080700",
   "numero": 184,
   "cc": 17650971,
-  "llaveProceso": "11001400302520170080700",
+  "idProcesos": [50623380, 81652411],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JUAN",
     "segundoNombre": "CARLOS",
     "primerApellido": "TOVAR",
     "segundoApellido": "TOLEDO",
     "cedula": 17650971,
-    "direccion": "CARRERA 86 # 69 H - 40"
+    "direccion": "CARRERA 86 # 69 H - 40",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 22277.206,

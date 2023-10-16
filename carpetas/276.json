@@ -1,8 +1,8 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25754400300420170038100",
   "numero": 276,
   "cc": 79200345,
-  "llaveProceso": "25754400300420170038100",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
@@ -11,6 +11,7 @@
       "celular": 3204283595
     },
     "primerNombre": "NELSON",
+    "segundoNombre": null,
     "primerApellido": "MAYORGA",
     "segundoApellido": "GOMEZ",
     "cedula": 79200345,

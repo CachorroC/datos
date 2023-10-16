@@ -1,18 +1,19 @@
 {
-  "idProcesos": [51935790],
+  "_llaveProceso": "11001400308520170084900",
   "numero": 22,
   "cc": 80073174,
-  "llaveProceso": "11001400308520170084900",
+  "idProcesos": [51935790],
   "category": "Reintegra",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JOSE",
     "segundoNombre": "EDWIN",
     "primerApellido": "GARCES",
     "segundoApellido": "ARDILA",
     "cedula": 80073174,
-    "direccion": "CALLE 160 No. 58-75 TORRE 6 APTO 503 BOGOTA /// YOPAL CASANARE"
+    "direccion": "CALLE 160 No. 58-75 TORRE 6 APTO 503 BOGOTA /// YOPAL CASANARE",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 29690.679,

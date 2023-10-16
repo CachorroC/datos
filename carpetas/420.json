@@ -1,8 +1,8 @@
 {
-  "idProcesos": [65701460],
+  "_llaveProceso": "11001400306320170129000",
   "numero": 420,
   "cc": 52773230,
-  "llaveProceso": "11001400306320170129000",
+  "idProcesos": [65701460],
   "category": "Reintegra",
   "tipoProceso": "HMM PISO 1",
   "deudor": {

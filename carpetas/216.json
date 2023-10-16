@@ -1,17 +1,18 @@
 {
-  "idProcesos": [50682020],
+  "_llaveProceso": "11001400300520170125500",
   "numero": 216,
   "cc": 51833717,
-  "llaveProceso": "11001400300520170125500",
+  "idProcesos": [50682020],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "BLANCA",
     "segundoNombre": "JANETH",
     "primerApellido": "PINZON",
     "segundoApellido": "SUAREZ",
     "cedula": 51833717,
+    "direccion": null,
     "email": "CARRERA 123 # 131 - 32"
   },
   "demanda": {

@@ -1,17 +1,18 @@
 {
-  "idProcesos": [50584210],
+  "_llaveProceso": "11001400302020170090100",
   "numero": 60,
   "cc": 1032373332,
-  "llaveProceso": "11001400302020170090100",
+  "idProcesos": [50584210],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "LADY",
     "segundoNombre": "JOHANNA",
     "primerApellido": "BAYONA",
     "segundoApellido": "GARCÍA",
     "cedula": 1032373332,
+    "direccion": null,
     "email": "CRA 77 A No. 63f-47 piso 2"
   },
   "demanda": {

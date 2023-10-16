@@ -1,15 +1,19 @@
 {
+  "_llaveProceso": null,
   "numero": 549,
   "cc": 79405147,
+  "idProcesos": null,
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JOSE",
     "segundoNombre": "ANTONIO",
     "primerApellido": "BEJARANO",
     "segundoApellido": "CARREÑO",
-    "cedula": 79405147
+    "cedula": 79405147,
+    "direccion": null,
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 0,

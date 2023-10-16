@@ -1,12 +1,12 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001400303920170133000",
   "numero": 291,
   "cc": 35427969,
-  "llaveProceso": "11001400303920170133000",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "YEIMMY",
     "segundoNombre": "CAROLINA",
     "primerApellido": "FINO",

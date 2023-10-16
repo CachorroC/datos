@@ -1,13 +1,14 @@
 {
-  "idProcesos": [10138483],
+  "_llaveProceso": "11001400304620180010700",
   "numero": 377,
   "cc": 40356325,
-  "llaveProceso": "11001400304620180010700",
+  "idProcesos": [10138483],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "GLADIS",
+    "segundoNombre": null,
     "primerApellido": "VELASQUEZ",
     "segundoApellido": "CASTRO",
     "cedula": 40356325,

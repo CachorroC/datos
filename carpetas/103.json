@@ -1,12 +1,15 @@
 {
-  "idProcesos": [51619370, 81869501],
+  "_llaveProceso": "11001400308220170068000",
   "numero": 103,
   "cc": 16831314,
-  "llaveProceso": "11001400308220170068000",
+  "idProcesos": [51619370, 81869501],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3216066052 },
+    "tel": {
+      "fijo": null,
+      "celular": 3216066052
+    },
     "primerNombre": "EDUARDO",
     "segundoNombre": "ENRIQUE",
     "primerApellido": "ARANGO",

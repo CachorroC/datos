@@ -1,18 +1,19 @@
 {
-  "idProcesos": [51034000],
+  "_llaveProceso": "11001400300220180020500",
   "numero": 406,
   "cc": 8510459,
-  "llaveProceso": "11001400300220180020500",
+  "idProcesos": [51034000],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "SANTIAGO",
     "segundoNombre": "JAVIER",
     "primerApellido": "SARABIA",
     "segundoApellido": "JIMENEZ",
     "cedula": 8510459,
-    "direccion": "CALLE 86 A SUR No 80K-40"
+    "direccion": "CALLE 86 A SUR No 80K-40",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": null,

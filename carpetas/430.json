@@ -1,12 +1,15 @@
 {
-  "idProcesos": [17487020, 50678323],
+  "_llaveProceso": "11001410300120180040400",
   "numero": 430,
   "cc": 1024517216,
-  "llaveProceso": "11001410300120180040400",
+  "idProcesos": [17487020, 50678323],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "celular": 3112907361 },
+    "tel": {
+      "fijo": null,
+      "celular": 3112907361
+    },
     "primerNombre": "JHONATAN",
     "segundoNombre": "ALEJANDRO",
     "primerApellido": "",

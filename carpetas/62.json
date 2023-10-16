@@ -1,19 +1,22 @@
 {
-  "idProcesos": [51018210],
+  "_llaveProceso": "11001400306320180016800",
   "numero": 62,
   "cc": 80722943,
-  "llaveProceso": "11001400306320180016800",
+  "idProcesos": [51018210],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "celular": 3138253554 },
+    "tel": {
+      "fijo": null,
+      "celular": 3138253554
+    },
     "primerNombre": "LUIS",
     "segundoNombre": "EDUARDO",
     "primerApellido": "CARRANZA",
     "segundoApellido": "BUSTOS",
     "cedula": 80722943,
     "direccion": "DIAGONAL 60 SUR NO. 28-I 72 INTERIOR 3 APTO 204",
-    "email": ""
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": null,

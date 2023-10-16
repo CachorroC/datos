@@ -1,7 +1,8 @@
 {
+  "_llaveProceso": "2547340030012023012900",
   "numero": 571,
   "cc": 53132436,
-  "llaveProceso": "2547340030012023012900",
+  "idProcesos": null,
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {

@@ -1,18 +1,22 @@
 {
-  "idProcesos": [50468310],
+  "_llaveProceso": "11001400307220170065400",
   "numero": 15,
   "cc": 1098678636,
-  "llaveProceso": "11001400307220170065400",
+  "idProcesos": [50468310],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": { "celular": 3155112901 },
+    "tel": {
+      "fijo": null,
+      "celular": 3155112901
+    },
     "primerNombre": "SILVIA",
     "segundoNombre": "SUSANA",
     "primerApellido": "SIERRA",
     "segundoApellido": "CASTAÑEDA",
     "cedula": 1098678636,
-    "direccion": "CARRERA 78 F 50 INTERIOR 2 AP/ CA 101"
+    "direccion": "CARRERA 78 F 50 INTERIOR 2 AP/ CA 101",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 24792093,

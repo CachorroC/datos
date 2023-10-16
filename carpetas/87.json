@@ -1,13 +1,14 @@
 {
-  "idProcesos": [10130493],
+  "_llaveProceso": "11001400304620170056100",
   "numero": 87,
   "cc": 4198210,
-  "llaveProceso": "11001400304620170056100",
+  "idProcesos": [10130493],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "OMAR",
+    "segundoNombre": null,
     "primerApellido": "ESPITIA",
     "segundoApellido": "REYES",
     "cedula": 4198210,

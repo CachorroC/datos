@@ -1,12 +1,12 @@
 {
-  "idProcesos": [113353750],
+  "_llaveProceso": "11001400306420180102900",
   "numero": 273,
   "cc": 1024479389,
-  "llaveProceso": "11001400306420180102900",
+  "idProcesos": [113353750],
   "category": "Insolvencia",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "SONIA",
     "segundoNombre": "MARCELA",
     "primerApellido": "MOLINA",

@@ -1,8 +1,8 @@
 {
-  "idProcesos": [51006610, 81643141],
+  "_llaveProceso": "11001400302120180016300",
   "numero": 210,
   "cc": 343334,
-  "llaveProceso": "11001400302120180016300",
+  "idProcesos": [51006610, 81643141],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -15,7 +15,8 @@
     "primerApellido": "CASTILLO",
     "segundoApellido": "CORTES",
     "cedula": 343334,
-    "direccion": "CARRERA 50 # 113 - 09"
+    "direccion": "CARRERA 50 # 113 - 09",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 10555.422,

@@ -1,13 +1,17 @@
 {
-  "idProcesos": [50596080],
+  "_llaveProceso": "11001400300620170041700",
   "numero": 104,
   "cc": 51922135,
-  "llaveProceso": "11001400300620170041700",
+  "idProcesos": [50596080],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3103230563 },
+    "tel": {
+      "fijo": null,
+      "celular": 3103230563
+    },
     "primerNombre": "NANCY",
+    "segundoNombre": null,
     "primerApellido": "HERRERA",
     "segundoApellido": "MENDEZ",
     "cedula": 51922135,

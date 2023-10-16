@@ -1,13 +1,14 @@
 {
-  "idProcesos": [50514310],
+  "_llaveProceso": "11001400305920170048300",
   "numero": 106,
   "cc": 501492,
-  "llaveProceso": "11001400305920170048300",
+  "idProcesos": [50514310],
   "category": "Reintegra",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "DANIEL",
+    "segundoNombre": null,
     "primerApellido": "HERNANDEZ",
     "segundoApellido": "GONZALEZ",
     "cedula": 501492,

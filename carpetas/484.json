@@ -1,18 +1,19 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25754418900320190027000",
   "numero": 484,
   "cc": 30339083,
-  "llaveProceso": "25754418900320190027000",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JENNY",
     "segundoNombre": "",
     "primerApellido": "ANDREA",
     "segundoApellido": "AVILA GARZON",
     "cedula": 30339083,
-    "direccion": "CARRERA 7A No  2-94 SUR"
+    "direccion": "CARRERA 7A No  2-94 SUR",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 26503.795,

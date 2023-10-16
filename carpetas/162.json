@@ -1,16 +1,18 @@
 {
-  "idProcesos": [52159350],
+  "_llaveProceso": "11001400304120170094600",
   "numero": 162,
   "cc": 900432476,
-  "llaveProceso": "11001400304120170094600",
+  "idProcesos": [52159350],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MANHATTAN",
+    "segundoNombre": null,
     "primerApellido": "DOTACIONES",
     "segundoApellido": "S.A.S",
     "cedula": 900432476,
+    "direccion": null,
     "email": "7514006"
   },
   "demanda": {

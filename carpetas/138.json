@@ -1,8 +1,8 @@
 {
-  "idProcesos": [17941850],
+  "_llaveProceso": "11001400306420170116000",
   "numero": 138,
   "cc": 52323645,
-  "llaveProceso": "11001400306420170116000",
+  "idProcesos": [17941850],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
@@ -19,7 +19,7 @@
     "email": "ybarrantes@gmail.com"
   },
   "demanda": {
-    "capitalAdeudado": 45758347.68,
+    "capitalAdeudado": 4575834768,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
     "tipoProceso": "SINGULAR",

@@ -1,18 +1,19 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25175400300320170026900",
   "numero": 18,
   "cc": 79205977,
-  "llaveProceso": "25175400300320170026900",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "LUIS",
     "segundoNombre": "ENRIQUE",
     "primerApellido": "ACOSTA",
     "segundoApellido": "CHAVARRIA",
     "cedula": 79205977,
-    "direccion": "cra 4 No. 5-51 Chía"
+    "direccion": "cra 4 No. 5-51 Chía",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 67068123,

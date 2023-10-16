@@ -1,12 +1,12 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001400303920170152500",
   "numero": 347,
   "cc": 41888857,
-  "llaveProceso": "11001400303920170152500",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "fijo": 2869149 },
+    "tel": { "fijo": 2869149, "celular": null },
     "primerNombre": "MARIA",
     "segundoNombre": "ELENA",
     "primerApellido": "ZULUAGA",

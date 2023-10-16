@@ -1,12 +1,12 @@
 {
-  "idProcesos": [51642990, 114399551],
+  "_llaveProceso": "11001400301720190017900",
   "numero": 514,
   "cc": 19496623,
-  "llaveProceso": "11001400301720190017900",
+  "idProcesos": [51642990, 114399551],
   "category": "Insolvencia",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MANUEL",
     "segundoNombre": "ALBERTO",
     "primerApellido": "LEON",

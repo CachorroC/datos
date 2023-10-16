@@ -1,12 +1,12 @@
 {
-  "idProcesos": [28937944],
+  "_llaveProceso": "11001310302520170073600",
   "numero": 108,
   "cc": 79558732,
-  "llaveProceso": "11001310302520170073600",
+  "idProcesos": [28937944],
   "category": "Reintegra",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MIGUEL",
     "segundoNombre": "ANGEL",
     "primerApellido": "HUERTAS",

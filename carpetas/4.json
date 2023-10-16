@@ -1,12 +1,15 @@
 {
-  "idProcesos": [11997693],
+  "_llaveProceso": "11001400305320170072000",
   "numero": 4,
   "cc": 93437973,
-  "llaveProceso": "11001400305320170072000",
+  "idProcesos": [11997693],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "celular": 3182165543 },
+    "tel": {
+      "fijo": null,
+      "celular": 3182165543
+    },
     "primerNombre": "DIPSON",
     "segundoNombre": "EUSEBIO",
     "primerApellido": "SANCHEZ",

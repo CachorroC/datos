@@ -1,17 +1,19 @@
 {
-  "idProcesos": [50907660],
+  "_llaveProceso": "11001400301620170136700",
   "numero": 321,
   "cc": 52391771,
-  "llaveProceso": "11001400301620170136700",
+  "idProcesos": [50907660],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ADELA",
+    "segundoNombre": null,
     "primerApellido": "BARAJAS",
     "segundoApellido": "MORENO",
     "cedula": 52391771,
-    "direccion": "TRANSVERSAL 78 B No 6 B - 20 APARTAMENTO 101"
+    "direccion": "TRANSVERSAL 78 B No 6 B - 20 APARTAMENTO 101",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": null,

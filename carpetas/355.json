@@ -1,12 +1,12 @@
 {
-  "idProcesos": [50875060],
+  "_llaveProceso": "11001400301720170152600",
   "numero": 355,
   "cc": 80800763,
-  "llaveProceso": "11001400301720170152600",
+  "idProcesos": [50875060],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "NELSON",
     "segundoNombre": "IVAN",
     "primerApellido": "SEGURA",

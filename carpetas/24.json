@@ -1,12 +1,15 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25299418900120170002400",
   "numero": 24,
   "cc": 3034074,
-  "llaveProceso": "25299418900120170002400",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3102354541 },
+    "tel": {
+      "fijo": null,
+      "celular": 3102354541
+    },
     "primerNombre": "WILSON",
     "segundoNombre": "ARMANDO",
     "primerApellido": "RODRIGUEZ",

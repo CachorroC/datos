@@ -1,12 +1,12 @@
 {
-  "idProcesos": [50711570],
+  "_llaveProceso": "11001400301820170152200",
   "numero": 289,
   "cc": 12229243,
-  "llaveProceso": "11001400301820170152200",
+  "idProcesos": [50711570],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JOSE",
     "segundoNombre": "AHINSONJOBER",
     "primerApellido": "TORO",

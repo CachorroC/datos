@@ -1,12 +1,12 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25817418900120170035100",
   "numero": 80,
   "cc": 79882688,
-  "llaveProceso": "25817418900120170035100",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JORGE",
     "segundoNombre": "ANDRES",
     "primerApellido": "PORRAS",

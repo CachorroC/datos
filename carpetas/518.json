@@ -1,12 +1,15 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001418900920190016200",
   "numero": 518,
   "cc": 80222254,
-  "llaveProceso": "11001418900920190016200",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3124487509 },
+    "tel": {
+      "fijo": null,
+      "celular": 3124487509
+    },
     "primerNombre": "JORGE",
     "segundoNombre": "IVAN",
     "primerApellido": "AVENDAÑO",

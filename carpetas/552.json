@@ -1,12 +1,12 @@
 {
-  "idProcesos": [130946630],
+  "_llaveProceso": "11001400300420230062200",
   "numero": 552,
   "cc": 1023874668,
-  "llaveProceso": "11001400300420230062200",
+  "idProcesos": [130946630],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "OSCAR",
     "segundoNombre": "MAURICIO",
     "primerApellido": "GOMEZ",

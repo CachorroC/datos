@@ -1,12 +1,15 @@
 {
-  "idProcesos": [132018670],
+  "_llaveProceso": "11001400305920230031500",
   "numero": 558,
   "cc": 52531016,
-  "llaveProceso": "11001400305920230031500",
+  "idProcesos": [132018670],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3106736494 },
+    "tel": {
+      "fijo": null,
+      "celular": 3106736494
+    },
     "primerNombre": "CLAUDIA",
     "segundoNombre": "MARCELA",
     "primerApellido": "ARIAS",

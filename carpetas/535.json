@@ -1,12 +1,12 @@
 {
-  "idProcesos": [112082810],
+  "_llaveProceso": "11001400306920200082300",
   "numero": 535,
   "cc": 51918944,
-  "llaveProceso": "11001400306920200082300",
+  "idProcesos": [112082810],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "AMANDA",
     "segundoNombre": "LUCIA",
     "primerApellido": "GAITAN",

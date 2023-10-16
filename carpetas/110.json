@@ -1,17 +1,19 @@
 {
-  "idProcesos": [50518680],
+  "_llaveProceso": "11001400304520170077400",
   "numero": 110,
   "cc": 46677093,
-  "llaveProceso": "11001400304520170077400",
+  "idProcesos": [50518680],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MARLENE",
+    "segundoNombre": null,
     "primerApellido": "RONCANCIO",
     "segundoApellido": "BENITEZ",
     "cedula": 46677093,
-    "direccion": "CALLE 33 SUR No. 82 B-06"
+    "direccion": "CALLE 33 SUR No. 82 B-06",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 25119.879,

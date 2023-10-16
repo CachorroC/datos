@@ -1,13 +1,14 @@
 {
-  "idProcesos": [51463110],
+  "_llaveProceso": "11001400307820170104900",
   "numero": 313,
   "cc": 80490307,
-  "llaveProceso": "11001400307820170104900",
+  "idProcesos": [51463110],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "MAURICIO",
+    "segundoNombre": null,
     "primerApellido": "PEREZ",
     "segundoApellido": "PLAZAS",
     "cedula": 80490307,

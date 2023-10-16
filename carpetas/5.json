@@ -1,12 +1,15 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25322418900120170016800",
   "numero": 5,
   "cc": 20645940,
-  "llaveProceso": "25322418900120170016800",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "celular": 3217662673 },
+    "tel": {
+      "fijo": null,
+      "celular": 3217662673
+    },
     "primerNombre": "FANY",
     "segundoNombre": "PATRICIA",
     "primerApellido": "AVELLANEDA",

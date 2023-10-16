@@ -1,12 +1,12 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001418903120180138000",
   "numero": 506,
   "cc": 1023891419,
-  "llaveProceso": "11001418903120180138000",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR ACUMULADO CON HIPOTECARIO CAJA SOCIAL",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "EDWIN",
     "segundoNombre": "CAMILO",
     "primerApellido": "SARMIENTO",

@@ -1,12 +1,15 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001418900520230134200",
   "numero": 574,
   "cc": 1014214413,
-  "llaveProceso": "11001418900520230134200",
+  "idProcesos": [],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3007547824 },
+    "tel": {
+      "fijo": null,
+      "celular": 3007547824
+    },
     "primerNombre": "INGRID",
     "segundoNombre": "LIZETH",
     "primerApellido": "PATARROYO",

@@ -1,8 +1,8 @@
 {
-  "idProcesos": [112657130],
+  "_llaveProceso": "11001400306620170122100",
   "numero": 178,
   "cc": 37861286,
-  "llaveProceso": "11001400306620170122100",
+  "idProcesos": [112657130],
   "category": "Terminados",
   "tipoProceso": "PRENDARO",
   "deudor": {
@@ -11,6 +11,7 @@
       "celular": 3156780088
     },
     "primerNombre": "MARYLUZ",
+    "segundoNombre": null,
     "primerApellido": "OCASIONES",
     "segundoApellido": "PINZON",
     "cedula": 37861286,

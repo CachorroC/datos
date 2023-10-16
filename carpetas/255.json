@@ -1,18 +1,19 @@
 {
-  "idProcesos": [50692560, 73154161],
+  "_llaveProceso": "11001400301220170102100",
   "numero": 255,
   "cc": 23946115,
-  "llaveProceso": "11001400301220170102100",
+  "idProcesos": [50692560, 73154161],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "YEIMI",
     "segundoNombre": "ZORAIDA",
     "primerApellido": "PEREZ",
     "segundoApellido": "ACEVEDO",
     "cedula": 23946115,
-    "direccion": "DIAGONAL 136 BIS # 3 - 80 SUR"
+    "direccion": "DIAGONAL 136 BIS # 3 - 80 SUR",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 15311.681,

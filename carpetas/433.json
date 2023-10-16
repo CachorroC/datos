@@ -1,17 +1,18 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25899400300120180022200",
   "numero": 433,
   "cc": 3116420,
-  "llaveProceso": "25899400300120180022200",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "JORGE",
     "segundoNombre": "ALBERTO",
     "primerApellido": "BELTRAN",
     "segundoApellido": "PAEZ",
     "cedula": 3116420,
+    "direccion": null,
     "email": "CALLE 3 No 17-36"
   },
   "demanda": {

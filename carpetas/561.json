@@ -1,8 +1,8 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001418900420230088400",
   "numero": 561,
   "cc": 52278914,
-  "llaveProceso": "11001418900420230088400",
+  "idProcesos": [],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {

@@ -1,18 +1,22 @@
 {
-  "idProcesos": [50631800],
+  "_llaveProceso": "11001400301220170088200",
   "numero": 44,
   "cc": 11188351,
-  "llaveProceso": "11001400301220170088200",
+  "idProcesos": [50631800],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "celular": 3124041113 },
+    "tel": {
+      "fijo": null,
+      "celular": 3124041113
+    },
     "primerNombre": "JOSE",
     "segundoNombre": "FREDDY",
     "primerApellido": "VARGAS",
     "segundoApellido": "RUIZ",
     "cedula": 11188351,
-    "direccion": "CARRERA 80 No. 67-41 CALLE 66 No. 113-C- 45 APTO 404 INTERIOR 4 SEVILLA REAL CONJUNTO RESIDENCIAL"
+    "direccion": "CARRERA 80 No. 67-41 CALLE 66 No. 113-C- 45 APTO 404 INTERIOR 4 SEVILLA REAL CONJUNTO RESIDENCIAL",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 2078.52,

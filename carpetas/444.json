@@ -1,17 +1,18 @@
 {
-  "idProcesos": [19161681],
+  "_llaveProceso": "11001400304020180089600",
   "numero": 444,
   "cc": 79562532,
-  "llaveProceso": "11001400304020180089600",
+  "idProcesos": [19161681],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "PABLO",
     "segundoNombre": "CESAR",
     "primerApellido": "SOACHA",
     "segundoApellido": "MORALES",
     "cedula": 79562532,
+    "direccion": null,
     "email": "CALLE 34 No 34C- 38 SUR"
   },
   "demanda": {

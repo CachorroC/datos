@@ -1,12 +1,12 @@
 {
-  "idProcesos": [51176440],
+  "_llaveProceso": "11001400302620180047900",
   "numero": 383,
   "cc": 65706810,
-  "llaveProceso": "11001400302620180047900",
+  "idProcesos": [51176440],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "NOHORA",
     "segundoNombre": "ESPERANZA",
     "primerApellido": "BARRERO",

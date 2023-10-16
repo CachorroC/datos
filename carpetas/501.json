@@ -1,13 +1,14 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "11001400305520180131600",
   "numero": 501,
   "cc": 830105220,
-  "llaveProceso": "11001400305520180131600",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ASOCIACION",
+    "segundoNombre": null,
     "primerApellido": "AGROPECUARIA",
     "segundoApellido": "UCEBUL",
     "cedula": 830105220,

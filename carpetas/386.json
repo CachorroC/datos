@@ -1,13 +1,14 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25269400300120170074400",
   "numero": 386,
   "cc": 1070950842,
-  "llaveProceso": "25269400300120170074400",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "ALEXANDER",
+    "segundoNombre": null,
     "primerApellido": "PRADA",
     "segundoApellido": "PALMAR",
     "cedula": 1070950842,

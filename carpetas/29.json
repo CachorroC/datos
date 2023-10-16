@@ -1,12 +1,12 @@
 {
-  "idProcesos": [],
+  "_llaveProceso": "25175400300120170051100",
   "numero": 29,
   "cc": 80814800,
-  "llaveProceso": "25175400300120170051100",
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": {},
+    "tel": { "fijo": null, "celular": null },
     "primerNombre": "WHITMAN",
     "segundoNombre": "JEFERSON",
     "primerApellido": "NAJAR",

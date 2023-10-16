@@ -1,18 +1,22 @@
 {
-  "idProcesos": [50465740],
+  "_llaveProceso": "11001400301420170066700",
   "numero": 8,
   "cc": 79642493,
-  "llaveProceso": "11001400301420170066700",
+  "idProcesos": [50465740],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": { "celular": 3106980002 },
+    "tel": {
+      "fijo": null,
+      "celular": 3106980002
+    },
     "primerNombre": "JOSE",
     "segundoNombre": "WILSON",
     "primerApellido": "ROJAS",
     "segundoApellido": "VALDES",
     "cedula": 79642493,
-    "direccion": "CALLE 118 No. 18-65 APTO 504 ANAYA EL PARQUE BOGOTA"
+    "direccion": "CALLE 118 No. 18-65 APTO 504 ANAYA EL PARQUE BOGOTA",
+    "email": null
   },
   "demanda": {
     "capitalAdeudado": 25758.912,

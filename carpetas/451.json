@@ -1,12 +1,15 @@
 {
-  "idProcesos": [51296960],
+  "_llaveProceso": "11001400305620180071100",
   "numero": 451,
   "cc": 1032389993,
-  "llaveProceso": "11001400305620180071100",
+  "idProcesos": [51296960],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "celular": 3209393337 },
+    "tel": {
+      "fijo": null,
+      "celular": 3209393337
+    },
     "primerNombre": "JOSE",
     "segundoNombre": "JEISSON",
     "primerApellido": "GALINDO",

@@ -1,8 +1,8 @@
 {
-  "idProcesos": [51315290, 57718874],
+  "_llaveProceso": "11001310303720170045300",
   "numero": 217,
   "cc": 52328942,
-  "llaveProceso": "11001310303720170045300",
+  "idProcesos": [51315290, 57718874],
   "category": "LiosJuridicos",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
