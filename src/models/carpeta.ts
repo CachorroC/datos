@@ -1,20 +1,16 @@
-import {
-  Category,
-  IntCarpeta,
-  CarpetaRaw,
-  IntDemanda,
-  IntDeudor,
-  TipoProceso,
-  IntCarpetaPrueba,
-  IntDemandaPrueba,
-  IntDeudorPrueba,
-  Codeudor
-} from '../types/carpetas';
+import { Category,
+         IntCarpeta,
+         CarpetaRaw,
+         IntDemanda,
+         IntDeudor,
+         TipoProceso,
+         IntCarpetaPrueba,
+         IntDemandaPrueba,
+         IntDeudorPrueba,
+         Codeudor } from '../types/carpetas';
 import { intProceso } from '../types/procesos';
-import {
-  Demanda,
-  DemandaPrueba
-} from './demanda';
+import { Demanda,
+         DemandaPrueba } from './demanda';
 import { Deudor, DeudorPrueba } from './deudor';
 
 export const categories = [
@@ -44,12 +40,16 @@ export class Carpeta implements IntCarpeta {
       : null;
     this.category = category;
     this.numero = numero;
-    this.tipoProceso =
-      demanda.tipoProceso as TipoProceso;
-    this.deudor = new Deudor(deudor);
-    this.cc = Number(deudor.cedula);
+    this.tipoProceso
+      = demanda.tipoProceso as TipoProceso;
+    this.deudor = new Deudor(
+      deudor 
+    );
+    this.cc = Number(
+      deudor.cedula 
+    );
 
-    if (RequestProcesos) {
+    if ( RequestProcesos ) {
       this.demanda = new Demanda(
         demanda,
         llaveProceso,
@@ -71,16 +71,16 @@ export class Carpeta implements IntCarpeta {
   deudor: IntDeudor;
   demanda: IntDemanda;
   get nombre() {
-    const nombres =
-      this.deudor.primerNombre +
-      (this.deudor.segundoNombre
+    const nombres
+      = this.deudor.primerNombre
+      + ( this.deudor.segundoNombre
         ? ' ' + this.deudor.segundoNombre
-        : ' ');
+        : ' ' );
 
     const apellidos = this.deudor.segundoApellido
-      ? this.deudor.primerApellido +
-        ' ' +
-        this.deudor.segundoApellido
+      ? this.deudor.primerApellido
+        + ' '
+        + this.deudor.segundoApellido
       : this.deudor.primerApellido;
 
     const rawName = nombres + apellidos;
@@ -88,12 +88,14 @@ export class Carpeta implements IntCarpeta {
     return rawName;
   }
 
-  set llaveProceso(llave: string) {
+  set llaveProceso(
+    llave: string 
+  ) {
     const fixedllave = llave.trim();
 
     const llaveLength = fixedllave.length;
 
-    if (llaveLength < 23) {
+    if ( llaveLength < 23 ) {
       throw new Error(
         'la llaveProceso para esta clase es menor a 23 caracteres'
       );
@@ -109,8 +111,7 @@ export class Carpeta implements IntCarpeta {
 }
 
 export class CarpetaPrueba
-  implements IntCarpetaPrueba
-{
+implements IntCarpetaPrueba {
   llaveProceso: string | null;
 
   constructor(
@@ -130,14 +131,20 @@ export class CarpetaPrueba
     this.category = category;
     this.codeudor = codeudor;
     this.numero = numero;
-    this.tipoProceso =
-      demanda.tipoProceso as TipoProceso;
-    this.deudor = new DeudorPrueba(deudor);
-    this.cc = Number(deudor.cedula);
+    this.tipoProceso
+      = demanda.tipoProceso as TipoProceso;
+    this.deudor = new DeudorPrueba(
+      deudor 
+    );
+    this.cc = Number(
+      deudor.cedula 
+    );
 
-    if (RequestProcesos) {
+    if ( RequestProcesos ) {
       this.idProcesos = RequestProcesos.map(
-        (proceso) => {
+        (
+          proceso 
+        ) => {
           return proceso.idProceso;
         }
       );
@@ -164,16 +171,16 @@ export class CarpetaPrueba
   codeudor?: Codeudor;
   demanda: IntDemandaPrueba;
   get nombre() {
-    const nombres =
-      this.deudor.primerNombre +
-      (this.deudor.segundoNombre
+    const nombres
+      = this.deudor.primerNombre
+      + ( this.deudor.segundoNombre
         ? ' ' + this.deudor.segundoNombre
-        : ' ');
+        : ' ' );
 
     const apellidos = this.deudor.segundoApellido
-      ? this.deudor.primerApellido +
-        ' ' +
-        this.deudor.segundoApellido
+      ? this.deudor.primerApellido
+        + ' '
+        + this.deudor.segundoApellido
       : this.deudor.primerApellido;
 
     const rawName = nombres + apellidos;
@@ -181,12 +188,14 @@ export class CarpetaPrueba
     return rawName;
   }
 
-  set _llaveProceso(llave: string) {
+  set _llaveProceso(
+    llave: string 
+  ) {
     const fixedllave = llave.trim();
 
     const llaveLength = fixedllave.length;
 
-    if (llaveLength < 23) {
+    if ( llaveLength < 23 ) {
       throw new Error(
         'la llaveProceso para esta clase es menor a 23 caracteres'
       );

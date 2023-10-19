@@ -172,7 +172,7 @@ export interface IntDemanda {
   etapaProcesal: string | null;
   fechaPresentacion: Date | null;
   municipio: string | null;
-  obligacion: (number | string)[];
+  obligacion: ( number | string )[];
   radicado: string | null;
   vencimientoPagare: Date[] | null;
   expediente: string | null;
@@ -188,7 +188,7 @@ export interface IntDemandaPrueba {
   etapaProcesal: string | null;
   fechaPresentacion: Date | null;
   municipio: string | null;
-  obligacion: (number | string)[] | null;
+  obligacion: ( number | string )[] | null;
   radicado: string | null;
   vencimientoPagare: Date[] | null;
   expediente: string | null;
