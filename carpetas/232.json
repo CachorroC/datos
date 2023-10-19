@@ -1,18 +1,18 @@
 {
-  "_llaveProceso": "11001400304820170087900",
+  "llaveProceso": "11001400304820170087900",
   "numero": 232,
   "cc": 1023868827,
   "idProcesos": [10684603],
   "category": "Terminados",
-  "tipoProceso": " HIPOTECARIO",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "SANDRA",
-    "segundoNombre": "MILENA",
-    "primerApellido": "CUBILLOS",
-    "segundoApellido": "LINARES",
+    "primerNombre": "sandra",
+    "segundoNombre": "milena",
+    "primerApellido": "cubillos",
+    "segundoApellido": "linares",
     "cedula": 1023868827,
-    "direccion": "calle 39 SUR 9B 29 ESTE",
+    "direccion": "calle 39 sur 9b 29 este",
     "email": "sandrujs2009@hotmail.com"
   },
   "demanda": {

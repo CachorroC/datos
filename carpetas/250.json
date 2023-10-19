@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25758418900120170059900",
+  "llaveProceso": "25758418900120170059900",
   "numero": 250,
   "cc": 72165243,
   "idProcesos": [],
@@ -10,13 +10,19 @@
       "fijo": 8715525,
       "celular": 3135348199
     },
-    "primerNombre": "FRANCISCO",
+    "primerNombre": "francisco",
     "segundoNombre": null,
-    "primerApellido": "CONTRERAS",
-    "segundoApellido": "RAMIREZ",
+    "primerApellido": "contreras",
+    "segundoApellido": "ramirez",
     "cedula": 72165243,
-    "direccion": "CALLE 3 A No 5-56 APARTAAMENTO 101 SOPO",
+    "direccion": "calle 3 a no 5-56 apartaamento 101 sopo",
     "email": "vivipu@hotmail.com.co"
+  },
+  "codeudor": {
+    "cedula": 52454328,
+    "direccion": "CALLE 3 No 5-56 APARTAMENTO 101 SOPO",
+    "nombre": "viviana andrea arboleda hernandez",
+    "telefono": 8715525
   },
   "demanda": {
     "capitalAdeudado": null,

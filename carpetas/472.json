@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418900920180038900",
+  "llaveProceso": "11001418900920180038900",
   "numero": 472,
   "cc": 91250936,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "SERGIO",
+    "primerNombre": "sergio",
     "segundoNombre": null,
-    "primerApellido": "ESPINEL",
-    "segundoApellido": "CORREAL",
+    "primerApellido": "espinel",
+    "segundoApellido": "correal",
     "cedula": 91250936,
-    "direccion": "CARRERA 7 D No 151-40 APTO 101",
+    "direccion": "carrera 7 d no 151-40 apto 101",
     "email": "sergioespinel5@gmail.com"
   },
   "demanda": {

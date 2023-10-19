@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305020180012900",
+  "llaveProceso": "11001400305020180012900",
   "numero": 391,
   "cc": 52190973,
   "idProcesos": [11227193],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "YANETH",
-    "segundoNombre": "BIBIANA",
-    "primerApellido": "VARGAS",
-    "segundoApellido": "CANO",
+    "primerNombre": "yaneth",
+    "segundoNombre": "bibiana",
+    "primerApellido": "vargas",
+    "segundoApellido": "cano",
     "cedula": 52190973,
-    "direccion": "AVENIDA(CALLE) 68 SUR No 70D-71, APARTAMENTO 1302",
+    "direccion": "avenida(calle) 68 sur no 70d-71 apartamento 1302",
     "email": "bibianvargas@gmail.com"
   },
   "demanda": {

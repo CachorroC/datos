@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300620180045400",
+  "llaveProceso": "11001400300620180045400",
   "numero": 500,
   "cc": null,
   "idProcesos": [51154840, 81649171],
@@ -7,20 +7,26 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "SMARTITECH",
+    "primerNombre": "smartitech",
     "segundoNombre": null,
-    "primerApellido": "S.A.S",
+    "primerApellido": "s.a.s",
     "segundoApellido": null,
     "cedula": null,
-    "direccion": "CARRERA 13 No 73-33",
+    "direccion": "carrera 13 no 73-33",
     "email": null
+  },
+  "codeudor": {
+    "cedula": 1032408735,
+    "direccion": "CALLE 67 D - No 66 A-03",
+    "nombre": "edisson armando karl buitrago cabrera",
+    "telefono": 2501533
   },
   "demanda": {
     "capitalAdeudado": 15086.199,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2018-04-16T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-05-23T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "EJECUCION",
     "fechaPresentacion": "2018-04-27T00:00:00.000Z",
     "municipio": "BOGOTA",

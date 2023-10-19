@@ -4,9 +4,18 @@
 //
 //   const CarpetaRaw = Convert.toCarpetaRaw(json);
 
+import { intConsultaActuaciones } from './procesos';
+
+export interface ErrorActuacion {
+  StatusCode: number;
+  Message: string;
+  data?: intConsultaActuaciones;
+}
+
 export interface TrulyCruda {
   llaveProceso?: string;
   demanda: DemandaRaw;
+  codeudor?: Codeudor;
   deudor: DeudorRaw;
   numero: number;
 }
@@ -75,11 +84,18 @@ export type Category =
   | 'sin Especificar'
   | 'todos';
 
+export interface Codeudor {
+  cedula?: number | string;
+  nombre?: number | string;
+  direccion?: number | string;
+  telefono?: number | string;
+}
+
 export interface DemandaRaw {
   capitalAdeudado?: number | string;
   departamento?: DepartamentoRaw;
   entregaGarantiasAbogado?: number | string;
-  tipoProceso: TipoProcesoRaw;
+  tipoProceso?: TipoProcesoRaw;
   mandamientoPago?: string;
   etapaProcesal?: number | string;
   fechaPresentacion?: number | string;
@@ -156,7 +172,7 @@ export interface IntDemanda {
   etapaProcesal: string | null;
   fechaPresentacion: Date | null;
   municipio: string | null;
-  obligacion: (number | string)[];
+  obligacion: ( number | string )[];
   radicado: string | null;
   vencimientoPagare: Date[] | null;
   expediente: string | null;
@@ -172,7 +188,7 @@ export interface IntDemandaPrueba {
   etapaProcesal: string | null;
   fechaPresentacion: Date | null;
   municipio: string | null;
-  obligacion: (number | string)[] | null;
+  obligacion: ( number | string )[] | null;
   radicado: string | null;
   vencimientoPagare: Date[] | null;
   expediente: string | null;

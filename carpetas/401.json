@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400302520180023700",
+  "llaveProceso": "11001400302520180023700",
   "numero": 401,
   "cc": 52357813,
   "idProcesos": [51025410],
@@ -10,12 +10,12 @@
       "fijo": 7232225,
       "celular": 3112572775
     },
-    "primerNombre": "SANDRA",
-    "segundoNombre": "PATRICIA",
+    "primerNombre": "sandra",
+    "segundoNombre": "patricia",
     "primerApellido": "",
-    "segundoApellido": "OJEDA RODRIGUEZ",
+    "segundoApellido": "ojeda rodriguez",
     "cedula": 52357813,
-    "direccion": "CALLE 50 SUR No 87 D- 81",
+    "direccion": "calle 50 sur no 87 d- 81",
     "email": "dandraojeda_5@hotmail.com"
   },
   "demanda": {

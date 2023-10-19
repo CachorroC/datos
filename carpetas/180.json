@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25878418900120170021800",
+  "llaveProceso": "25878418900120170021800",
   "numero": 180,
   "cc": 21016631,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ALCIRA",
-    "segundoNombre": "DELIA",
-    "primerApellido": "SAENZ",
-    "segundoApellido": "GARAVIS",
+    "primerNombre": "alcira",
+    "segundoNombre": "delia",
+    "primerApellido": "saenz",
+    "segundoApellido": "garavis",
     "cedula": 21016631,
-    "direccion": "CALLE 3 # 5 - 31 VIOTA",
+    "direccion": "calle 3 # 5 - 31 viota",
     "email": null
   },
   "demanda": {

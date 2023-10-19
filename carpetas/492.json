@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25736408900120180013500",
+  "llaveProceso": "25736408900120180013500",
   "numero": 492,
   "cc": 22444794,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MARIBEL",
-    "segundoNombre": "DEL",
-    "primerApellido": "ROSARIO",
-    "segundoApellido": "RIVERA JIMENEZ",
+    "primerNombre": "maribel",
+    "segundoNombre": "del",
+    "primerApellido": "rosario",
+    "segundoApellido": "rivera jimenez",
     "cedula": 22444794,
-    "direccion": "CALLE 22 No 1-137",
+    "direccion": "calle 22 no 1-137",
     "email": null
   },
   "demanda": {

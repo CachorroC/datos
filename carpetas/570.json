@@ -1,8 +1,8 @@
 {
-  "_llaveProceso": "11001418901420230146500",
+  "llaveProceso": "11001418907520230016700",
   "numero": 570,
   "cc": 21386342,
-  "idProcesos": [132234840],
+  "idProcesos": [132240890],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -10,12 +10,12 @@
       "fijo": 2977768,
       "celular": 3163096532
     },
-    "primerNombre": "MARTHA",
-    "segundoNombre": "CECILIA",
-    "primerApellido": "OSPINA",
-    "segundoApellido": "ARENAS",
+    "primerNombre": "martha",
+    "segundoNombre": "cecilia",
+    "primerApellido": "ospina",
+    "segundoApellido": "arenas",
     "cedula": 21386342,
-    "direccion": "Av Suba No. 136-80 Bl B Ap 502 Cerros de Suba – Gratamira //Kr 75 No. 65 - 78 Ap 402 Edificio Montreal P.H. Medellín // Vereda Potrerito ?",
+    "direccion": "av suba no. 136-80 bl b ap 502 cerros de suba – gratamira //kr 75 no. 65 - 78 ap 402 edificio montreal p.h. medellín // vereda potrerito ?",
     "email": "martacospina@hotmail.com"
   },
   "demanda": {
@@ -32,12 +32,12 @@
     "vencimientoPagare": [
       "2026-03-18T00:00:00.000Z"
     ],
-    "expediente": "11001418901420230146500",
+    "expediente": "11001418907520230016700",
     "juzgados": [
       {
-        "id": 14,
-        "tipo": "JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
-        "url": "https://www.ramajudicial.gov.cojuzgado-014-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
+        "id": 75,
+        "tipo": "JUZGADO 075 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-075-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308120230141400",
+  "llaveProceso": "11001400308120230141400",
   "numero": 583,
   "cc": 46668139,
   "idProcesos": [133187160],
@@ -10,12 +10,12 @@
       "fijo": 3031161,
       "celular": 3124781732
     },
-    "primerNombre": "ALBA",
-    "segundoNombre": "YANETH",
-    "primerApellido": "APARICIO",
-    "segundoApellido": "SANDOVAL",
+    "primerNombre": "alba",
+    "segundoNombre": "yaneth",
+    "primerApellido": "aparicio",
+    "segundoApellido": "sandoval",
     "cedula": 46668139,
-    "direccion": " Carrera 53 C No. 4 C 63",
+    "direccion": "carrera 53 c no. 4 c 63",
     "email": "yaneth_apar@hotmail.com"
   },
   "demanda": {
@@ -28,7 +28,7 @@
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
-      "Q '0000000046668139027001",
+      "Q 0000000046668139027001",
       "0377815602619302"
     ],
     "radicado": "2023 - 01414",

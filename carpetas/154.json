@@ -1,31 +1,36 @@
 {
-  "_llaveProceso": "11001400303620170084100",
+  "llaveProceso": "11001400303620170084100",
   "numero": 154,
   "cc": 79840930,
   "idProcesos": [50688820],
-  "category": "LiosJuridicos",
-  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
   "deudor": {
     "tel": {
       "fijo": 7347505,
       "celular": 3112945552
     },
-    "primerNombre": "GABRIEL",
-    "segundoNombre": "EDUARDO",
-    "primerApellido": "MEJIA",
-    "segundoApellido": "LADINO",
+    "primerNombre": "gabriel",
+    "segundoNombre": "eduardo",
+    "primerApellido": "mejia",
+    "segundoApellido": "ladino",
     "cedula": 79840930,
-    "direccion": "CARRERA 79 BIS A # 73 - 92 SUR APTO 304 INT 3",
+    "direccion": "carrera 79 bis a # 73 - 92 sur apto 304 int 3",
     "email": "gabriel.eml@hotmail.com"
   },
+  "codeudor": {
+    "cedula": 53114743,
+    "direccion": "DIAGONAL 73A SUR # 78 - 40 CASA 11",
+    "nombre": "eldora andrea triana silva",
+    "telefono": 3143903
+  },
   "demanda": {
-    "capitalAdeudado": 293666254,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": "EL 11-07-2018 EL JUZGADO DECRETA TERMINACION PROCESO POR PAGO CUOTAS EN MORA // EL 5-09-2018 SE DEVOLVIERON GARANTIAS A AECSA S.A. // 30-08-2022 NO SE HAN LEVANTADO MEDIDAS CAUTELARES// PAGAR DESARCHIVE Y TRAMITAR OFICIO RECIENTE // ARCHIVO DEFINITIVO 596-2018",
-    "fechaPresentacion": "2018-09-05T00:00:00.000Z",
+    "mandamientoPago": "2018-09-05T00:00:00.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       5670083032,

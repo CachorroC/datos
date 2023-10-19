@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306420170113800",
+  "llaveProceso": "11001400306420170113800",
   "numero": 54,
   "cc": 38261511,
   "idProcesos": [17941680],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3138615288
     },
-    "primerNombre": "OLGA",
+    "primerNombre": "olga",
     "segundoNombre": null,
-    "primerApellido": "GALLEGO",
+    "primerApellido": "gallego",
     "segundoApellido": null,
     "cedula": 38261511,
-    "direccion": "CARRERA 87D No. 48-03 SUR//DIAGONAL 49 No. 85-79 SUR TORRE 10 APARTAMENTO 2",
+    "direccion": "carrera 87d no. 48-03 sur//diagonal 49 no. 85-79 sur torre 10 apartamento 2",
     "email": "olgagallego63@hotmail.com"
   },
   "demanda": {

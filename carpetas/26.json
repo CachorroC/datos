@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306520170082700",
+  "llaveProceso": "11001400306520170082700",
   "numero": 26,
   "cc": 52744376,
   "idProcesos": [18161830],
@@ -10,13 +10,19 @@
       "fijo": null,
       "celular": 3183517022
     },
-    "primerNombre": "YUDY",
+    "primerNombre": "yudy",
     "segundoNombre": null,
-    "primerApellido": "RODRIGUEZ",
+    "primerApellido": "rodriguez",
     "segundoApellido": null,
     "cedula": 52744376,
-    "direccion": "CALLE 67 No.86A-49 BOGOTA",
+    "direccion": "calle 67 no.86a-49 bogota",
     "email": null
+  },
+  "codeudor": {
+    "cedula": 79504113,
+    "direccion": "CALLE 67 No.86 A-49 BOGOTA",
+    "nombre": "pedro antonio torres riaño",
+    "telefono": 2232710
   },
   "demanda": {
     "capitalAdeudado": 17307.303,

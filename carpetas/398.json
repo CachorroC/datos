@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754400300120180006400",
+  "llaveProceso": "25754400300120180006400",
   "numero": 398,
   "cc": 52465659,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3214771295
     },
-    "primerNombre": "LILIANA",
-    "segundoNombre": "ANDREA",
-    "primerApellido": "ERAZO",
-    "segundoApellido": "LOPEZ",
+    "primerNombre": "liliana",
+    "segundoNombre": "andrea",
+    "primerApellido": "erazo",
+    "segundoApellido": "lopez",
     "cedula": 52465659,
-    "direccion": "CARRERA 87 BIS No 50 SUR-75 PISO 2",
+    "direccion": "carrera 87 bis no 50 sur-75 piso 2",
     "email": "liancridana@hotmail.com"
   },
   "demanda": {

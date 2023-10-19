@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25286310300120170074200",
+  "llaveProceso": "25286310300120170074200",
   "numero": 142,
   "cc": 36184358,
   "idProcesos": [],
@@ -7,16 +7,16 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "DEISY",
+    "primerNombre": "deisy",
     "segundoNombre": null,
-    "primerApellido": "POLANIA",
-    "segundoApellido": "CUELLAR",
+    "primerApellido": "polania",
+    "segundoApellido": "cuellar",
     "cedula": 36184358,
-    "direccion": "CARREA 2 # 21 - 55 TO 402 J FUNZA",
+    "direccion": "carrea 2 # 21 - 55 to 402 j funza",
     "email": null
   },
   "demanda": {
-    "capitalAdeudado": 12393343279,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
     "tipoProceso": "SINGULAR",

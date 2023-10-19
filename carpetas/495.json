@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300320180123600",
+  "llaveProceso": "11001400300320180123600",
   "numero": 495,
   "cc": 17099495,
   "idProcesos": [51431830],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "PABLO",
-    "segundoNombre": "ELIAS",
-    "primerApellido": "MENDOZA",
-    "segundoApellido": "MURILLO",
+    "primerNombre": "pablo",
+    "segundoNombre": "elias",
+    "primerApellido": "mendoza",
+    "segundoApellido": "murillo",
     "cedula": 17099495,
-    "direccion": "CALLE 29 No 23-46  TORRE 1 APTO 701",
+    "direccion": "calle 29 no 23-46  torre 1 apto 701",
     "email": "pablomendoza44@gmail.com"
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
-    "etapaProcesal": "11001400300320180123600",
+    "etapaProcesal": "1.100140030032018e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [

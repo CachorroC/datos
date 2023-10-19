@@ -1,8 +1,8 @@
 {
-  "_llaveProceso": "11001418904120230021200",
+  "llaveProceso": "11001400300520230084300",
   "numero": 577,
   "cc": 1068973010,
-  "idProcesos": [132645230],
+  "idProcesos": [132581550],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -10,12 +10,12 @@
       "fijo": 4074724,
       "celular": 3506837545
     },
-    "primerNombre": "INDIRA",
-    "segundoNombre": "MAYERLY",
-    "primerApellido": "FLOREZ",
-    "segundoApellido": "CASTRO",
+    "primerNombre": "indira",
+    "segundoNombre": "mayerly",
+    "primerApellido": "florez",
+    "segundoApellido": "castro",
     "cedula": 1068973010,
-    "direccion": "CL 26 A SUR 12 L 21 Piso 3o. Barrio san José Sur",
+    "direccion": "cl 26 a sur 12 l 21 piso 3o. barrio san josé sur",
     "email": "mayeflor21@hotmail.com"
   },
   "demanda": {
@@ -36,12 +36,12 @@
       "2026-02-04T05:00:00.000Z",
       "2026-07-04T05:00:00.000Z"
     ],
-    "expediente": "11001418904120230021200",
+    "expediente": "11001400300520230084300",
     "juzgados": [
       {
-        "id": 41,
-        "tipo": "JUZGADO 041 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
-        "url": "https://www.ramajudicial.gov.cojuzgado-041-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
+        "id": 5,
+        "tipo": "JUZGADO 005 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-05-civil-municipal-de-bogota"
       }
     ]
   }

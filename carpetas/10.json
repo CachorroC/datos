@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418900320170090900",
+  "llaveProceso": "11001418900320170090900",
   "numero": 10,
   "cc": 52396019,
   "idProcesos": [82112341],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3202705987
     },
-    "primerNombre": "MARINA",
+    "primerNombre": "marina",
     "segundoNombre": null,
-    "primerApellido": "MORALES",
-    "segundoApellido": "HERNANDEZ",
+    "primerApellido": "morales",
+    "segundoApellido": "hernandez",
     "cedula": 52396019,
-    "direccion": "CARRERA 109A No. 148-91 BOGOTA",
+    "direccion": "carrera 109a no. 148-91 bogota",
     "email": null
   },
   "demanda": {

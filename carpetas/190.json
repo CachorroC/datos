@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25286400300120170078100",
+  "llaveProceso": "25286400300120170078100",
   "numero": 190,
   "cc": 79909315,
   "idProcesos": [],
@@ -7,16 +7,22 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "VICTOR",
-    "segundoNombre": "EDUARDO",
+    "primerNombre": "victor",
+    "segundoNombre": "eduardo",
     "primerApellido": "",
-    "segundoApellido": "MORA ESPINOSA",
+    "segundoApellido": "mora espinosa",
     "cedula": 79909315,
     "direccion": "41537019",
     "email": "CARRERA 18C # 121 - 40"
   },
+  "codeudor": {
+    "cedula": "MARIA DEL CARMEN ESPINOSA",
+    "direccion": 48364,
+    "nombre": 8262523,
+    "telefono": "CALLE 21 # 6A - 14"
+  },
   "demanda": {
-    "capitalAdeudado": 42971,
+    "capitalAdeudado": 43,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
@@ -24,7 +30,7 @@
     "etapaProcesal": "42977",
     "fechaPresentacion": "2017-12-07T00:00:00.000Z",
     "municipio": "FUNZA",
-    "obligacion": ["18539423,59"],
+    "obligacion": [1853942359],
     "radicado": "2017 - 00781",
     "vencimientoPagare": [
       "+152366-01-01T05:00:00.000Z"

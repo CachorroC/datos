@@ -1,19 +1,23 @@
 {
-  "_llaveProceso": "110014003088220170148800",
+  "llaveProceso": "110014003088220170148800",
   "numero": 213,
   "cc": 52325613,
-  "idProcesos": null,
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MYRIAM",
-    "segundoNombre": "CONSUELO",
-    "primerApellido": "RIOS",
-    "segundoApellido": "FONSECA",
+    "primerNombre": "myriam",
+    "segundoNombre": "consuelo",
+    "primerApellido": "rios",
+    "segundoApellido": "fonseca",
     "cedula": 52325613,
-    "direccion": "CARRERA 98B # 14 - 06 CASA 166",
+    "direccion": "carrera 98b # 14 - 06 casa 166",
     "email": "miricu143@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 79846140,
+    "nombre": "oscar gonzalez gonzalez"
   },
   "demanda": {
     "capitalAdeudado": null,

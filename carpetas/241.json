@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400302320170104400",
+  "llaveProceso": "11001400302320170104400",
   "numero": 241,
   "cc": 900535464,
   "idProcesos": [50725030],
@@ -7,17 +7,23 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "PUBLI",
+    "primerNombre": "publi",
     "segundoNombre": null,
-    "primerApellido": "MAGIC",
-    "segundoApellido": "S..A.S.",
+    "primerApellido": "magic",
+    "segundoApellido": "s..a.s.",
     "cedula": 900535464,
-    "direccion": "CARRERA 8 BIS A No 151-86 APARTAMENTO 201",
+    "direccion": "carrera 8 bis a no 151-86 apartamento 201",
     "email": "publi.magic@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 1020787803,
+    "direccion": "CARRERA 8A BIS No 151-86 BARRIO CEDRO",
+    "nombre": "angelica paola castillo garcia",
+    "telefono": 4791494
   },
   "demanda": {
     "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
+    "departamento": "CUNDINNAMARCA",
     "entregaGarantiasAbogado": "2017-09-11T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-10-26T00:00:00.000Z",

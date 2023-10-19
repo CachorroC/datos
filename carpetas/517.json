@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418901020190016200",
+  "llaveProceso": "11001418901020190016200",
   "numero": 517,
   "cc": 52470211,
   "idProcesos": [],
@@ -7,14 +7,15 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MARYLU",
+    "primerNombre": "marylu",
     "segundoNombre": null,
-    "primerApellido": "VALENCIA",
-    "segundoApellido": "SUAREZ",
+    "primerApellido": "valencia",
+    "segundoApellido": "suarez",
     "cedula": 52470211,
     "direccion": null,
     "email": "CARRERA 53A # 4F-67"
   },
+  "codeudor": { "direccion": "17-05-2022" },
   "demanda": {
     "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
@@ -24,7 +25,7 @@
     "etapaProcesal": null,
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
-    "obligacion": ["16262273,30"],
+    "obligacion": [1626227330],
     "radicado": "2019 - 00162",
     "vencimientoPagare": [null],
     "expediente": "11001418901020190016200",

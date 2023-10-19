@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25817418900120170035100",
+  "llaveProceso": "25817418900120170035100",
   "numero": 80,
   "cc": 79882688,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JORGE",
-    "segundoNombre": "ANDRES",
-    "primerApellido": "PORRAS",
-    "segundoApellido": "VARGAS",
+    "primerNombre": "jorge",
+    "segundoNombre": "andres",
+    "primerApellido": "porras",
+    "segundoApellido": "vargas",
     "cedula": 79882688,
-    "direccion": "CALLE 11 # 4 - 39 TOCANCIPA",
+    "direccion": "calle 11 # 4 - 39 tocancipa",
     "email": "joranpo@hotmail.com"
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-06-22T00:00:00.000Z",
-    "etapaProcesal": "25817408900120170035100",
+    "etapaProcesal": "2.581740890012017e+22",
     "fechaPresentacion": null,
     "municipio": "TOCANCIPA",
     "obligacion": [377816861734105],

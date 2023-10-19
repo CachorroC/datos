@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303320170089200",
+  "llaveProceso": "11001400303320170089200",
   "numero": 79,
   "cc": 38289111,
   "idProcesos": [50514570],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "CRISTINA",
+    "primerNombre": "cristina",
     "segundoNombre": null,
-    "primerApellido": "CASTAÑO",
-    "segundoApellido": "CASTILLO",
+    "primerApellido": "castaño",
+    "segundoApellido": "castillo",
     "cedula": 38289111,
-    "direccion": "DIAGONAL 2 # 64A - 65 INT 1 APTO 401",
+    "direccion": "diagonal 2 # 64a - 65 int 1 apto 401",
     "email": "ccctina0218@gmail.com"
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-06-16T00:00:00.000Z",
-    "etapaProcesal": "11001400303320170089200",
+    "etapaProcesal": "1.100140030332017e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [3890084585],

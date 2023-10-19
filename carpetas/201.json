@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307920170114200",
+  "llaveProceso": "11001400307920170114200",
   "numero": 201,
   "cc": 51733931,
   "idProcesos": [128433271],
@@ -10,12 +10,12 @@
       "fijo": 6256456,
       "celular": 3108711046
     },
-    "primerNombre": "PIEDAD",
-    "segundoNombre": "MARITZA OLGA",
-    "primerApellido": "ROCIO PRIETO",
-    "segundoApellido": "VARGAS",
+    "primerNombre": "piedad",
+    "segundoNombre": "maritza olga",
+    "primerApellido": "rocio prieto",
+    "segundoApellido": "vargas",
     "cedula": 51733931,
-    "direccion": "CALLE 127D # 21 - 80 APTO 105",
+    "direccion": "calle 127d # 21 - 80 apto 105",
     "email": "sebantialbeltransprieto@hotmail.com"
   },
   "demanda": {
@@ -24,7 +24,7 @@
     "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-09-04T00:00:00.000Z",
-    "etapaProcesal": "11001400307920170114200",
+    "etapaProcesal": "1.100140030792017e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [

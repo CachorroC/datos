@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308520170159600",
+  "llaveProceso": "11001400308520170159600",
   "numero": 329,
   "cc": 10180062,
   "idProcesos": [65614470],
@@ -10,13 +10,19 @@
       "fijo": 2287430,
       "celular": 3107584138
     },
-    "primerNombre": "REINALDO",
-    "segundoNombre": "ADRIAN",
-    "primerApellido": "MELENDEZ",
-    "segundoApellido": " VARON",
+    "primerNombre": "reinaldo",
+    "segundoNombre": "adrian",
+    "primerApellido": "melendez",
+    "segundoApellido": " varon",
     "cedula": 10180062,
-    "direccion": "AVENIDA CALLE 153 No 119 -40 INTERIOR 1 CASA 17 BOSQUES DE CAMINO VERDE AGRUPACION 2",
+    "direccion": "avenida calle 153 no 119 -40 interior 1 casa 17 bosques de camino verde agrupacion 2",
     "email": "reinaldomelen@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 52079975,
+    "direccion": "AVENIDA CALLE 153 No 119 -40 INTERIOR 1 CASA 17 BOSQUES DE CAMINO VERDE AGRUPACION 2",
+    "nombre": "yeny patricia podada romero",
+    "telefono": "F 2287430"
   },
   "demanda": {
     "capitalAdeudado": 13537.828,
@@ -24,7 +30,7 @@
     "entregaGarantiasAbogado": "2017-11-01T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-11-09T00:00:00.000Z",
-    "etapaProcesal": "11001400308520170159600",
+    "etapaProcesal": "1.1001400308520171e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [79669],

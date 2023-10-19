@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306520180061200",
+  "llaveProceso": "11001400306520180061200",
   "numero": 429,
   "cc": 10260455,
   "idProcesos": [18175150],
@@ -10,12 +10,12 @@
       "fijo": 7644527,
       "celular": 3157637045
     },
-    "primerNombre": "ARCANGEL",
+    "primerNombre": "arcangel",
     "segundoNombre": null,
-    "primerApellido": "HERNANDEZ",
-    "segundoApellido": "RODRIGUEZ",
+    "primerApellido": "hernandez",
+    "segundoApellido": "rodriguez",
     "cedula": 10260455,
-    "direccion": "DIAGONAL 82 BIS SUR No 5 A-50 ESTE",
+    "direccion": "diagonal 82 bis sur no 5 a-50 este",
     "email": "arcangel0605@hotmail.com"
   },
   "demanda": {

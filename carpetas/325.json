@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308020170076000",
+  "llaveProceso": "11001400308020170076000",
   "numero": 325,
   "cc": 30583011,
   "idProcesos": [],
@@ -7,10 +7,10 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MARCELA",
-    "segundoNombre": "PATRICIA",
-    "primerApellido": "DIAZ",
-    "segundoApellido": "PEREIRA",
+    "primerNombre": "marcela",
+    "segundoNombre": "patricia",
+    "primerApellido": "diaz",
+    "segundoApellido": "pereira",
     "cedula": 30583011,
     "direccion": null,
     "email": null

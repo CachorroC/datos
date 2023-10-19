@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300620170041700",
+  "llaveProceso": "11001400300620170041700",
   "numero": 104,
   "cc": 51922135,
   "idProcesos": [50596080],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3103230563
     },
-    "primerNombre": "NANCY",
+    "primerNombre": "nancy",
     "segundoNombre": null,
-    "primerApellido": "HERRERA",
-    "segundoApellido": "MENDEZ",
+    "primerApellido": "herrera",
+    "segundoApellido": "mendez",
     "cedula": 51922135,
-    "direccion": "CARRERA 73 No. 87-07 APARTAMENTO 211 TORRE 6",
+    "direccion": "carrera 73 no. 87-07 apartamento 211 torre 6",
     "email": "nancy_herrera2@hotmail.es"
   },
   "demanda": {

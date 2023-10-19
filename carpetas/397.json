@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25473400300120180010600",
+  "llaveProceso": "25473400300120180010600",
   "numero": 397,
   "cc": 13812570,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JOSE",
-    "segundoNombre": "DE",
-    "primerApellido": "JESUS",
-    "segundoApellido": "TAPIAS ESTEVEZ",
+    "primerNombre": "jose",
+    "segundoNombre": "de",
+    "primerApellido": "jesus",
+    "segundoApellido": "tapias estevez",
     "cedula": 13812570,
-    "direccion": "CALLE 12A No 1B ESTE-80 MANZANA 2 CASA MOSQUERA",
+    "direccion": "calle 12a no 1b este-80 manzana 2 casa mosquera",
     "email": "jtapias@pastasdoria.com"
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2018-06-02T05:00:00.000Z",
-    "etapaProcesal": "25473400300120180010600",
+    "etapaProcesal": "2.547340030012018e+22",
     "fechaPresentacion": null,
     "municipio": "MOSQUERA",
     "obligacion": [430104535],

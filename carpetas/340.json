@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306020170101400",
+  "llaveProceso": "11001400306020170101400",
   "numero": 340,
   "cc": 79573945,
   "idProcesos": [50788330],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "WILLIAM",
+    "primerNombre": "william",
     "segundoNombre": null,
-    "primerApellido": "CORTES",
-    "segundoApellido": "ROJAS",
+    "primerApellido": "cortes",
+    "segundoApellido": "rojas",
     "cedula": 79573945,
-    "direccion": "CARRERA 19  No 56 A  SUR - 72",
+    "direccion": "carrera 19  no 56 a  sur - 72",
     "email": "cubrimage@hotmail.com"
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": "2017-10-04T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-10-10T00:00:00.000Z",
-    "etapaProcesal": "11001400306020170101400",
+    "etapaProcesal": "1.100140030602017e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [6690082032],

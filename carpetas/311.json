@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400370820170018400",
+  "llaveProceso": "11001400370820170018400",
   "numero": 311,
   "cc": 32730630,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "PAULA",
-    "segundoNombre": "ANDREA",
-    "primerApellido": "PINZON",
-    "segundoApellido": "OTALVARO",
+    "primerNombre": "paula",
+    "segundoNombre": "andrea",
+    "primerApellido": "pinzon",
+    "segundoApellido": "otalvaro",
     "cedula": 32730630,
-    "direccion": "CARRERA 65 No 22 A- 43 APARTAMENTO 1002- 5",
+    "direccion": "carrera 65 no 22 a- 43 apartamento 1002- 5",
     "email": "pa_pinzon@hotmail.com"
   },
   "demanda": {

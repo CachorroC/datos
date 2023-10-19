@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308520170084900",
+  "llaveProceso": "11001400308520170084900",
   "numero": 22,
   "cc": 80073174,
   "idProcesos": [51935790],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JOSE",
-    "segundoNombre": "EDWIN",
-    "primerApellido": "GARCES",
-    "segundoApellido": "ARDILA",
+    "primerNombre": "jose",
+    "segundoNombre": "edwin",
+    "primerApellido": "garces",
+    "segundoApellido": "ardila",
     "cedula": 80073174,
-    "direccion": "CALLE 160 No. 58-75 TORRE 6 APTO 503 BOGOTA /// YOPAL CASANARE",
+    "direccion": "calle 160 no. 58-75 torre 6 apto 503 bogota /// yopal casanare",
     "email": null
   },
   "demanda": {

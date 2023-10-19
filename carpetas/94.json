@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305620170059100",
+  "llaveProceso": "11001400305620170059100",
   "numero": 94,
   "cc": 1030527169,
   "idProcesos": [17325724],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "AIDA",
-    "segundoNombre": "YURANI",
-    "primerApellido": "GRIJALBA",
-    "segundoApellido": "MARTINEZ",
+    "primerNombre": "aida",
+    "segundoNombre": "yurani",
+    "primerApellido": "grijalba",
+    "segundoApellido": "martinez",
     "cedula": 1030527169,
-    "direccion": "CARRERA 70C # 1A - 86 SUR",
+    "direccion": "carrera 70c # 1a - 86 sur",
     "email": "o"
   },
   "demanda": {

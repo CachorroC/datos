@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754400300320170036400",
+  "llaveProceso": "25754400300320170036400",
   "numero": 315,
   "cc": 80203869,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "BLADIMIR",
+    "primerNombre": "bladimir",
     "segundoNombre": null,
-    "primerApellido": "GUTIERREZ",
-    "segundoApellido": "CIFUENTES",
+    "primerApellido": "gutierrez",
+    "segundoApellido": "cifuentes",
     "cedula": 80203869,
-    "direccion": "CALLE 34 A SUR No 13 - 46  SOACHA",
+    "direccion": "calle 34 a sur no 13 - 46  soacha",
     "email": "bladimir0612@hotmail.com"
   },
   "demanda": {

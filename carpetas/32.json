@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304320180038400",
+  "llaveProceso": "11001400304320180038400",
   "numero": 32,
   "cc": 1022940572,
   "idProcesos": [114256610],
@@ -10,13 +10,19 @@
       "fijo": null,
       "celular": 3134775602
     },
-    "primerNombre": "",
-    "segundoNombre": "JONATHAN ANDRES",
-    "primerApellido": " BERNAL",
-    "segundoApellido": "PARRA",
+    "primerNombre": "jonathan",
+    "segundoNombre": "andres",
+    "primerApellido": "",
+    "segundoApellido": "bernal parra",
     "cedula": 1022940572,
-    "direccion": "CALLE 36 B SUR No. 11-25 APTO 1307 BOGOTA",
+    "direccion": "calle 36 b sur no. 11-25 apto 1307 bogota",
     "email": "jhonannicky@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 1023881288,
+    "direccion": "CARRERA 4 A ESTE No. 30-13 SUR BOGOTA",
+    "nombre": "johanna mercedes medina santander",
+    "telefono": "2067151//3015485509"
   },
   "demanda": {
     "capitalAdeudado": 54812,

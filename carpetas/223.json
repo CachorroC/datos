@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305520170086000",
+  "llaveProceso": "11001400305520170086000",
   "numero": 223,
   "cc": 17174720,
   "idProcesos": [86524020],
@@ -10,12 +10,12 @@
       "fijo": 3349755,
       "celular": 3153330306
     },
-    "primerNombre": "",
-    "segundoNombre": "GERARDO",
-    "primerApellido": "ANTONIO",
-    "segundoApellido": "MONCADA VEGA",
+    "primerNombre": "gerardo",
+    "segundoNombre": "antonio",
+    "primerApellido": "moncada",
+    "segundoApellido": "vega",
     "cedula": 17174720,
-    "direccion": "CALLE 159 # 15 - 45",
+    "direccion": "calle 159 # 15 - 45",
     "email": "gerardomoncada70@hotmail.com"
   },
   "demanda": {
@@ -32,7 +32,11 @@
       "377816208286710 // 4513083951499464 // 5176407001878614 // 5303720129694960 // AUDIOPRESTAMO"
     ],
     "radicado": "2017 - 00860",
-    "vencimientoPagare": [null],
+    "vencimientoPagare": [
+      null,
+      "2020-05-05T05:00:00.000Z",
+      null
+    ],
     "expediente": "11001400305520170086000",
     "juzgados": [
       {

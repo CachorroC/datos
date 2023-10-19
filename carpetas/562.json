@@ -1,18 +1,18 @@
 {
-  "_llaveProceso": "1100141890342023098500",
+  "llaveProceso": "11001418900420230088400",
   "numero": 562,
   "cc": 17139148,
-  "idProcesos": null,
+  "idProcesos": [],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MARIO",
-    "segundoNombre": "HERNAN",
-    "primerApellido": "SALAMANCA",
-    "segundoApellido": "PATIÑO",
+    "primerNombre": "mario",
+    "segundoNombre": "hernan",
+    "primerApellido": "salamanca",
+    "segundoApellido": "patiño",
     "cedula": 17139148,
-    "direccion": "Carrera 80 No. 8 - 11 Torre 3 Interior 5 Apartamento 519 Torres de Santa Barbara Conjunto Residencial",
+    "direccion": "carrera 80 no. 8 - 11 torre 3 interior 5 apartamento 519 torres de santa barbara conjunto residencial",
     "email": "ajasalama@gmail.com"
   },
   "demanda": {
@@ -33,7 +33,7 @@
       "2026-10-05T05:00:00.000Z",
       "2026-06-03T05:00:00.000Z"
     ],
-    "expediente": "1100141890342023098500",
-    "juzgados": null
+    "expediente": "11001418900420230088400",
+    "juzgados": []
   }
 }

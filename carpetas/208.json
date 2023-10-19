@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754400300220170026500",
+  "llaveProceso": "25754400300220170026500",
   "numero": 208,
   "cc": 80357801,
   "idProcesos": [86374941],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JEOVANY",
+    "primerNombre": "jeovany",
     "segundoNombre": null,
-    "primerApellido": "ROJAS",
-    "segundoApellido": "CRUZ",
+    "primerApellido": "rojas",
+    "segundoApellido": "cruz",
     "cedula": 80357801,
-    "direccion": "CALLE 34 # 1A - 40 CASA 247",
+    "direccion": "calle 34 # 1a - 40 casa 247",
     "email": "jeovanyrojas@outlook.com"
   },
   "demanda": {

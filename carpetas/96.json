@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305320170087100",
+  "llaveProceso": "11001400305320170087100",
   "numero": 96,
   "cc": 52818959,
   "idProcesos": [11998913],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "YURANNY",
+    "primerNombre": "yuranny",
     "segundoNombre": null,
-    "primerApellido": "POLANCO",
-    "segundoApellido": "CESPEDES",
+    "primerApellido": "polanco",
+    "segundoApellido": "cespedes",
     "cedula": 52818959,
-    "direccion": "CARRERA 72 # 57B - 50",
+    "direccion": "carrera 72 # 57b - 50",
     "email": "bluemoontauro@hotmail.com"
   },
   "demanda": {

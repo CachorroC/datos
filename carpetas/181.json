@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418901020170011500",
+  "llaveProceso": "11001418901020170011500",
   "numero": 181,
   "cc": 1033783222,
   "idProcesos": [82132851],
@@ -10,12 +10,12 @@
       "fijo": 7177769,
       "celular": 3103048137
     },
-    "primerNombre": "LEONARDO",
-    "segundoNombre": "ALIRIO",
-    "primerApellido": "GARCIA",
-    "segundoApellido": "GUERRERO",
+    "primerNombre": "leonardo",
+    "segundoNombre": "alirio",
+    "primerApellido": "garcia",
+    "segundoApellido": "guerrero",
     "cedula": 1033783222,
-    "direccion": "CALLE 69J # 20B - 52",
+    "direccion": "calle 69j # 20b - 52",
     "email": "leoguegar@hotmail.com"
   },
   "demanda": {

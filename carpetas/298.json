@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307820170098600",
+  "llaveProceso": "11001400307820170098600",
   "numero": 298,
   "cc": 79659040,
   "idProcesos": [51570460],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3164700074
     },
-    "primerNombre": "HECTOR",
-    "segundoNombre": "GABRIEL",
-    "primerApellido": "RAMIREZ",
-    "segundoApellido": "BOHORQUEZ",
+    "primerNombre": "hector",
+    "segundoNombre": "gabriel",
+    "primerApellido": "ramirez",
+    "segundoApellido": "bohorquez",
     "cedula": 79659040,
-    "direccion": " CALLE 58 A SUR No 18 B -35 INT 6",
+    "direccion": "calle 58 a sur no 18 b -35 int 6",
     "email": "gabrielisag61@hotmail.com"
   },
   "demanda": {

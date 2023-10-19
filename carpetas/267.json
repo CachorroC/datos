@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306220170122900",
+  "llaveProceso": "11001400306220170122900",
   "numero": 267,
   "cc": 52102735,
   "idProcesos": [50741270],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ANA",
-    "segundoNombre": "FABIOLA",
-    "primerApellido": "CARDOZO",
-    "segundoApellido": "HERREÑO",
+    "primerNombre": "ana",
+    "segundoNombre": "fabiola",
+    "primerApellido": "cardozo",
+    "segundoApellido": "herreño",
     "cedula": 52102735,
-    "direccion": "CARRERA 5 C BIS No  54 - 06 SUR",
+    "direccion": "carrera 5 c bis no  54 - 06 sur",
     "email": null
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": "2017-09-22T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-09-27T00:00:00.000Z",
-    "etapaProcesal": "11001400306220170122900",
+    "etapaProcesal": "1.100140030622017e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [12547875],

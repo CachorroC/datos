@@ -1,16 +1,16 @@
 {
-  "_llaveProceso": null,
+  "llaveProceso": null,
   "numero": 545,
   "cc": 79295686,
-  "idProcesos": null,
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JAIRO",
+    "primerNombre": "jairo",
     "segundoNombre": null,
-    "primerApellido": "ALDANA",
-    "segundoApellido": "VILLAMIZAR",
+    "primerApellido": "aldana",
+    "segundoApellido": "villamizar",
     "cedula": 79295686,
     "direccion": null,
     "email": null

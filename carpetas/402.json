@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306420180021800",
+  "llaveProceso": "11001400306420180021800",
   "numero": 402,
   "cc": 39766624,
   "idProcesos": [17948440],
@@ -10,12 +10,12 @@
       "fijo": 4596827,
       "celular": 3205307727
     },
-    "primerNombre": "BLANCA",
-    "segundoNombre": "CECILIA",
-    "primerApellido": "ARDILA",
-    "segundoApellido": "HUERTAS",
+    "primerNombre": "blanca",
+    "segundoNombre": "cecilia",
+    "primerApellido": "ardila",
+    "segundoApellido": "huertas",
     "cedula": 39766624,
-    "direccion": "CALLE 92 SUR No 14 A 57",
+    "direccion": "calle 92 sur no 14 a 57",
     "email": "geraldin316@hotmail.com"
   },
   "demanda": {

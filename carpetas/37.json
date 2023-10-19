@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25740418900120170021700",
+  "llaveProceso": "25740418900120170021700",
   "numero": 37,
   "cc": 1030536736,
   "idProcesos": [],
@@ -10,13 +10,19 @@
       "fijo": null,
       "celular": 3208091862
     },
-    "primerNombre": "LUIS",
-    "segundoNombre": "ALBERTO",
-    "primerApellido": "ALFONSO",
-    "segundoApellido": "GIRALDO",
+    "primerNombre": "luis",
+    "segundoNombre": "alberto",
+    "primerApellido": "alfonso",
+    "segundoApellido": "giraldo",
+    "cedula": 1030536736,
+    "direccion": "calle 14 mo. 8 -04 barrio san juan sibate",
+    "email": "luis.alfonso@correo.polica.gov.co"
+  },
+  "codeudor": {
     "cedula": 1030536736,
     "direccion": "CALLE 14 Mo. 8 -04 BARRIO SAN JUAN SIBATE",
-    "email": "luis.alfonso@correo.polica.gov.co"
+    "nombre": "luis alberto afonso giraldo",
+    "telefono": 3208091862
   },
   "demanda": {
     "capitalAdeudado": null,

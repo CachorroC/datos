@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418901220180095100",
+  "llaveProceso": "11001418901220180095100",
   "numero": 543,
   "cc": 51579807,
   "idProcesos": [64673240],
@@ -7,20 +7,20 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ROSALIA",
-    "segundoNombre": "CHARRY",
+    "primerNombre": "rosalia",
+    "segundoNombre": "charry",
     "primerApellido": "",
-    "segundoApellido": "SARMIENTO",
+    "segundoApellido": "sarmiento",
     "cedula": 51579807,
-    "direccion": "CALLE 19 A No 82 - 65 INT 6 APTO 503",
+    "direccion": "calle 19 a no 82 - 65 int 6 apto 503",
     "email": "rochi2656@hotmail.com"
   },
   "demanda": {
     "capitalAdeudado": 24849.682,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-09-03T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2018-10-10T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2019-01-11T00:00:00.000Z",
+    "mandamientoPago": "2019-11-01T05:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",

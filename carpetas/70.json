@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308520170108400",
+  "llaveProceso": "11001400308520170108400",
   "numero": 70,
   "cc": 14250539,
   "idProcesos": [65640840],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3152248920
     },
-    "primerNombre": "CESAR",
+    "primerNombre": "cesar",
     "segundoNombre": null,
-    "primerApellido": "AUGUSTO",
-    "segundoApellido": "ARIAS",
+    "primerApellido": "augusto",
+    "segundoApellido": "arias",
     "cedula": 14250539,
-    "direccion": "CALLE 54 # 22 - 50",
+    "direccion": "calle 54 # 22 - 50",
     "email": "ariascesaraugustoarias@gmail.com"
   },
   "demanda": {
@@ -24,7 +24,7 @@
     "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-06-14T00:00:00.000Z",
-    "etapaProcesal": "11001400308520170108400",
+    "etapaProcesal": "1.1001400308520171e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [12587175],

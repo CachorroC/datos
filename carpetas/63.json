@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418900920170008900",
+  "llaveProceso": "11001418900920170008900",
   "numero": 63,
   "cc": 1022943195,
   "idProcesos": [],
@@ -7,16 +7,22 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": 7493169, "celular": null },
-    "primerNombre": "DIANA",
-    "segundoNombre": "MARCELA",
-    "primerApellido": "IPUZ",
-    "segundoApellido": "SUAREZ",
+    "primerNombre": "diana",
+    "segundoNombre": "marcela",
+    "primerApellido": "ipuz",
+    "segundoApellido": "suarez",
     "cedula": 1022943195,
-    "direccion": "CALLE 72B BIS No 5A 22 SUR",
+    "direccion": "calle 72b bis no 5a 22 sur",
     "email": "marcelaipuzsuarez@hotmail.com"
   },
+  "codeudor": {
+    "cedula": 1032416632,
+    "direccion": "CALLE 67 C SUR 1B ESTE  APARTAMENTO 404 TORRE 2",
+    "nombre": "jhonny hernando beltran salcedo",
+    "telefono": "7493169 /3185405968"
+  },
   "demanda": {
-    "capitalAdeudado": 206007217,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
     "tipoProceso": "SINGULAR",

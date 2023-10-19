@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25473400300120170077700",
+  "llaveProceso": "25473400300120170077700",
   "numero": 156,
   "cc": 52431512,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MARTHA",
-    "segundoNombre": "PATRICIA",
-    "primerApellido": "MORALES",
-    "segundoApellido": "SARMIENTO",
+    "primerNombre": "martha",
+    "segundoNombre": "patricia",
+    "primerApellido": "morales",
+    "segundoApellido": "sarmiento",
     "cedula": 52431512,
-    "direccion": "CARRERA 10 # 5 - 62 TORRE 7 APTO 127",
+    "direccion": "carrera 10 # 5 - 62 torre 7 apto 127",
     "email": "gerencia@logimontacargas.com"
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-08-28T00:00:00.000Z",
-    "etapaProcesal": "25473400300120170077700",
+    "etapaProcesal": "2.547340030012017e+22",
     "fechaPresentacion": null,
     "municipio": "MOSQUERA",
     "obligacion": [12519120, 12549733],

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306820170105100",
+  "llaveProceso": "11001400306820170105100",
   "numero": 132,
   "cc": 80049317,
   "idProcesos": [19209750],
@@ -10,13 +10,19 @@
       "fijo": 8023973,
       "celular": 3214033971
     },
-    "primerNombre": "JOVANI",
-    "segundoNombre": "EMILIO",
-    "primerApellido": "RESTREPO",
-    "segundoApellido": "RAMIREZ",
+    "primerNombre": "jovani",
+    "segundoNombre": "emilio",
+    "primerApellido": "restrepo",
+    "segundoApellido": "ramirez",
     "cedula": 80049317,
-    "direccion": "CARRERA 145 # 144C - 72 TORRE 9 APTO 9",
+    "direccion": "carrera 145 # 144c - 72 torre 9 apto 9",
     "email": "jovanirestrepo@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 63476244,
+    "direccion": "CALLE 142C # 141B - 60 LOCAL 9",
+    "nombre": "rubin emilce rojas calderon",
+    "telefono": 8023973
   },
   "demanda": {
     "capitalAdeudado": null,

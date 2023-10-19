@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25599400300120180000500",
+  "llaveProceso": "25599400300120180000500",
   "numero": 373,
   "cc": 79616846,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3112764286
     },
-    "primerNombre": "RODRIGO",
-    "segundoNombre": "ALBERTO",
-    "primerApellido": "RUIZ",
-    "segundoApellido": "VILLALBA",
+    "primerNombre": "rodrigo",
+    "segundoNombre": "alberto",
+    "primerApellido": "ruiz",
+    "segundoApellido": "villalba",
     "cedula": 79616846,
-    "direccion": "CARRERA 5 # 12 - 53 APULO",
+    "direccion": "carrera 5 # 12 - 53 apulo",
     "email": "rodrigo_ruiz33@hotmail.com"
   },
   "demanda": {

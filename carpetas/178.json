@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306620170122100",
+  "llaveProceso": "11001400306620170122100",
   "numero": 178,
   "cc": 37861286,
   "idProcesos": [112657130],
@@ -10,12 +10,12 @@
       "fijo": 7675057,
       "celular": 3156780088
     },
-    "primerNombre": "MARYLUZ",
+    "primerNombre": "maryluz",
     "segundoNombre": null,
-    "primerApellido": "OCASIONES",
-    "segundoApellido": "PINZON",
+    "primerApellido": "ocasiones",
+    "segundoApellido": "pinzon",
     "cedula": 37861286,
-    "direccion": "DIAGONAL 52# 3 - 24 APTO 50",
+    "direccion": "diagonal 52# 3 - 24 apto 50",
     "email": "maryluzocasiones1104.p@hotmail.com"
   },
   "demanda": {

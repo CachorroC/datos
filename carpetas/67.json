@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001310301720170036000",
+  "llaveProceso": "11001310301720170036000",
   "numero": 67,
   "cc": 78076295,
   "idProcesos": [28881194],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3005146155
     },
-    "primerNombre": "HUMBERTO",
-    "segundoNombre": "ENRIQUE",
-    "primerApellido": "AVENA",
-    "segundoApellido": "CORRALES",
+    "primerNombre": "humberto",
+    "segundoNombre": "enrique",
+    "primerApellido": "avena",
+    "segundoApellido": "corrales",
     "cedula": 78076295,
-    "direccion": "cl 106 No. 50-21 BOGOTA",
+    "direccion": "cl 106 no. 50-21 bogota",
     "email": "havena@ingeobrasas.com"
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300920170060700",
+  "llaveProceso": "11001400300920170060700",
   "numero": 51,
   "cc": 37549188,
   "idProcesos": [50537040],
@@ -10,13 +10,18 @@
       "fijo": null,
       "celular": 3175921396
     },
-    "primerNombre": "MARIA",
-    "segundoNombre": "CAROLINA",
-    "primerApellido": "MARTINEZ",
-    "segundoApellido": "VERA",
+    "primerNombre": "maria",
+    "segundoNombre": "carolina",
+    "primerApellido": "martinez",
+    "segundoApellido": "vera",
     "cedula": 37549188,
-    "direccion": "CARRERA 54C No. 143-A-90//CARRERA 54C No. 143-A-90 APTO 213 TORRE 2 CONJUNTO RESIDENCIAL BARCELONA PH",
+    "direccion": "carrera 54c no. 143-a-90//carrera 54c no. 143-a-90 apto 213 torre 2 conjunto residencial barcelona ph",
     "email": "caromartinezvera@gmail.com"
+  },
+  "codeudor": {
+    "cedula": 79948168,
+    "direccion": "CARRERA 54C No. 143-A-90",
+    "nombre": "danilo humberto marroquin salas"
   },
   "demanda": {
     "capitalAdeudado": 0,

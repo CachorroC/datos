@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305620180022100",
+  "llaveProceso": "11001400305620180022100",
   "numero": 409,
   "cc": 900545720,
   "idProcesos": [51042800],
@@ -10,13 +10,19 @@
       "fijo": 8626344,
       "celular": 3107982028
     },
-    "primerNombre": "CREAS",
+    "primerNombre": "creas",
     "segundoNombre": null,
-    "primerApellido": "CONSULTORES",
-    "segundoApellido": "S.A.S",
+    "primerApellido": "consultores",
+    "segundoApellido": "s.a.s",
     "cedula": 900545720,
-    "direccion": "CARRERA 50 1# 47 - 50 INT 1 APTO 101",
+    "direccion": "carrera 50 1# 47 - 50 int 1 apto 101",
     "email": "andibarracosta@gmail.com"
+  },
+  "codeudor": {
+    "cedula": 12192291,
+    "direccion": "CALLE 56 # 17 - 03 CASA 65 NEIVA",
+    "nombre": "andres enrique ibarra acosta",
+    "telefono": "F 8626344"
   },
   "demanda": {
     "capitalAdeudado": 11949.471,

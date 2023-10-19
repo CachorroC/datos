@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304520170106300",
+  "llaveProceso": "11001400304520170106300",
   "numero": 204,
   "cc": 46679232,
   "idProcesos": [110120573],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "FLOR",
+    "primerNombre": "flor",
     "segundoNombre": null,
-    "primerApellido": "ESPERANZA",
-    "segundoApellido": "GUTIERREZ",
+    "primerApellido": "esperanza",
+    "segundoApellido": "gutierrez",
     "cedula": 46679232,
-    "direccion": "CARRERA 34 # 9 - 60",
+    "direccion": "carrera 34 # 9 - 60",
     "email": "carito220@hotmail.es"
   },
   "demanda": {

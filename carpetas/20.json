@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400302220170048300",
+  "llaveProceso": "11001400302220170048300",
   "numero": 20,
   "cc": 94482258,
   "idProcesos": [50466490],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ANDRES",
-    "segundoNombre": "MAURICIO FERNANDEZ",
-    "primerApellido": "DE SOTO",
-    "segundoApellido": "DOMINGUEZ",
+    "primerNombre": "andres",
+    "segundoNombre": "mauricio fernandez",
+    "primerApellido": "de soto",
+    "segundoApellido": "dominguez",
     "cedula": 94482258,
-    "direccion": "Carrera 72 R No. 37-90 SUR",
+    "direccion": "carrera 72 r no. 37-90 sur",
     "email": "sotocolombiano@gmail.com"
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418900920190016200",
+  "llaveProceso": "11001418900920190016200",
   "numero": 518,
   "cc": 80222254,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3124487509
     },
-    "primerNombre": "JORGE",
-    "segundoNombre": "IVAN",
-    "primerApellido": "AVENDAÑO",
-    "segundoApellido": "VANEGAS",
+    "primerNombre": "jorge",
+    "segundoNombre": "ivan",
+    "primerApellido": "avendaño",
+    "segundoApellido": "vanegas",
     "cedula": 80222254,
-    "direccion": "CARRERA 86 # 77 - 35 INT 13 APTO 339",
+    "direccion": "carrera 86 # 77 - 35 int 13 apto 339",
     "email": "CYBERGEORGE82@HOTMAIL.COM"
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305320170145600",
+  "llaveProceso": "11001400305320170145600",
   "numero": 118,
   "cc": 19308014,
   "idProcesos": [12003633],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3103358755
     },
-    "primerNombre": "JAIME",
-    "segundoNombre": "ORLANDO",
-    "primerApellido": "PEÑA",
-    "segundoApellido": "ROJAS",
+    "primerNombre": "jaime",
+    "segundoNombre": "orlando",
+    "primerApellido": "peña",
+    "segundoApellido": "rojas",
     "cedula": 19308014,
-    "direccion": "TRANSVERSAL 119 # 151A - 51 TORRE 11 APTO 602",
+    "direccion": "transversal 119 # 151a - 51 torre 11 apto 602",
     "email": "plangeluchis@gmail.com"
   },
   "demanda": {

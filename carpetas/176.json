@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300420170080100",
+  "llaveProceso": "11001400300420170080100",
   "numero": 176,
   "cc": 79787268,
   "idProcesos": [112783650, 81628051],
@@ -10,12 +10,12 @@
       "fijo": 7562457,
       "celular": 3182221747
     },
-    "primerNombre": "JHON",
-    "segundoNombre": "FREDY",
-    "primerApellido": "MURILLO",
-    "segundoApellido": "DAZA",
+    "primerNombre": "jhon",
+    "segundoNombre": "fredy",
+    "primerApellido": "murillo",
+    "segundoApellido": "daza",
     "cedula": 79787268,
-    "direccion": "CALLE 26 # 103 - 09",
+    "direccion": "calle 26 # 103 - 09",
     "email": "ingedibutec@gmail.com"
   },
   "demanda": {

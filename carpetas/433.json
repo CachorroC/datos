@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25899400300120180022200",
+  "llaveProceso": "25899400300120180022200",
   "numero": 433,
   "cc": 3116420,
   "idProcesos": [],
@@ -7,16 +7,16 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JORGE",
-    "segundoNombre": "ALBERTO",
-    "primerApellido": "BELTRAN",
-    "segundoApellido": "PAEZ",
+    "primerNombre": "jorge",
+    "segundoNombre": "alberto",
+    "primerApellido": "beltran",
+    "segundoApellido": "paez",
     "cedula": 3116420,
     "direccion": null,
     "email": "CALLE 3 No 17-36"
   },
   "demanda": {
-    "capitalAdeudado": 43237,
+    "capitalAdeudado": 43,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
@@ -24,7 +24,7 @@
     "etapaProcesal": null,
     "fechaPresentacion": null,
     "municipio": "ZIPAQUIRA",
-    "obligacion": ["24,057,365,00"],
+    "obligacion": [2405736500],
     "radicado": "2018 - 00222",
     "vencimientoPagare": [null],
     "expediente": "25899400300120180022200",

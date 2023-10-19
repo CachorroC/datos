@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307820170116400",
+  "llaveProceso": "11001400307820170116400",
   "numero": 407,
   "cc": 79328264,
   "idProcesos": [51465700],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "NESTOR",
-    "segundoNombre": "ALBERTO",
-    "primerApellido": "CRISTANCHO",
-    "segundoApellido": "LOPEZ",
+    "primerNombre": "nestor",
+    "segundoNombre": "alberto",
+    "primerApellido": "cristancho",
+    "segundoApellido": "lopez",
     "cedula": 79328264,
-    "direccion": " CARRERA 11 No  144 - 22 APARTAMENTO 301",
+    "direccion": "carrera 11 no  144 - 22 apartamento 301",
     "email": "nescri64@hotmail.com"
   },
   "demanda": {

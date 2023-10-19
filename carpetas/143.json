@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303420170108900",
+  "llaveProceso": "11001400303420170108900",
   "numero": 143,
   "cc": 1023904524,
   "idProcesos": [50654580],
@@ -7,13 +7,19 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "PAOLA",
-    "segundoNombre": "ANDREA",
-    "primerApellido": "RODRIGUEZ",
-    "segundoApellido": "MORALES",
+    "primerNombre": "paola",
+    "segundoNombre": "andrea",
+    "primerApellido": "rodriguez",
+    "segundoApellido": "morales",
     "cedula": 1023904524,
-    "direccion": "CALLE 22C SUR # 5 - 54",
+    "direccion": "calle 22c sur # 5 - 54",
     "email": "dalila_paito@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 5568506,
+    "direccion": "CALLE 22C SUR # 5 - 54",
+    "nombre": "jose manuel ardila",
+    "telefono": 8136733
   },
   "demanda": {
     "capitalAdeudado": 9079297,

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307520180067400",
+  "llaveProceso": "11001400307520180067400",
   "numero": 425,
   "cc": 52498444,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "SANDRA",
-    "segundoNombre": "RAQUEL LOPEZ",
-    "primerApellido": "DE MESA",
-    "segundoApellido": "OSES",
+    "primerNombre": "sandra",
+    "segundoNombre": "raquel lopez",
+    "primerApellido": "de mesa",
+    "segundoApellido": "oses",
     "cedula": 52498444,
-    "direccion": "CARRERA 29 No 40 A-53  APTO 604",
+    "direccion": "carrera 29 no 40 a-53  apto 604",
     "email": "sandralopezdemesa@hotmail.com"
   },
   "demanda": {

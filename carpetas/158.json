@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25899310300120170039300",
+  "llaveProceso": "25899310300120170039300",
   "numero": 158,
   "cc": 80808819,
   "idProcesos": [],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JULIAN",
-    "segundoNombre": "JHOHANY",
-    "primerApellido": "GALLEGO",
-    "segundoApellido": "MONTES",
+    "primerNombre": "julian",
+    "segundoNombre": "jhohany",
+    "primerApellido": "gallego",
+    "segundoApellido": "montes",
     "cedula": 80808819,
-    "direccion": "CARRERA 3 ESTE # 6B - 36 CHIA",
+    "direccion": "carrera 3 este # 6b - 36 chia",
     "email": "jjgallego14@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 53911221,
+    "direccion": "CARRERA 3 ESTE # 6B - 36 CHIA",
+    "nombre": "luz angela poveda ramos",
+    "telefono": 8393651
   },
   "demanda": {
     "capitalAdeudado": 183128.611,
@@ -21,7 +27,7 @@
     "entregaGarantiasAbogado": "2017-08-17T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-08-29T00:00:00.000Z",
-    "etapaProcesal": "25899310300120170039300",
+    "etapaProcesal": "2.589931030012017e+22",
     "fechaPresentacion": null,
     "municipio": "ZIPAQUIRA",
     "obligacion": [

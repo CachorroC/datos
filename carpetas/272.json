@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300620170076300",
+  "llaveProceso": "11001400300620170076300",
   "numero": 272,
   "cc": 80406979,
   "idProcesos": [50760770],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "LUIS",
-    "segundoNombre": "FERNANDO",
-    "primerApellido": "GUTIERREZ",
-    "segundoApellido": "RODRIGUEZ",
+    "primerNombre": "luis",
+    "segundoNombre": "fernando",
+    "primerApellido": "gutierrez",
+    "segundoApellido": "rodriguez",
     "cedula": 80406979,
-    "direccion": "CALLE 9 No 1 - 32     TABIO",
+    "direccion": "calle 9 no 1 - 32     tabio",
     "email": "nellyandreabotiab@hotmail.com"
   },
   "demanda": {

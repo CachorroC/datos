@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25843410300120180049900",
+  "llaveProceso": "258434003001201E+22",
   "numero": 507,
   "cc": 80468168,
   "idProcesos": [],
@@ -7,27 +7,28 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "WILLIAM",
+    "primerNombre": "william",
     "segundoNombre": "",
-    "primerApellido": "YOVANY",
-    "segundoApellido": "CASALLAS ROMERO",
+    "primerApellido": "yovany",
+    "segundoApellido": "casallas romero",
     "cedula": 80468168,
     "direccion": null,
     "email": "CARRERA 4 A No 16 B-14  TORRE2"
   },
+  "codeudor": { "direccion": "6-08-2018" },
   "demanda": {
     "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
-    "etapaProcesal": null,
+    "etapaProcesal": "2.584341030012018e+22",
     "fechaPresentacion": null,
     "municipio": "UBATE",
-    "obligacion": [3380087493, "21.876.281,00"],
+    "obligacion": [3380087493, "21.876.28100"],
     "radicado": "2018 - 00499",
     "vencimientoPagare": [null],
-    "expediente": "25843410300120180049900",
-    "juzgados": []
+    "expediente": "258434003001201E+22",
+    "juzgados": null
   }
 }

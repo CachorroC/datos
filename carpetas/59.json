@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400302520170106400",
+  "llaveProceso": "11001400302520170106400",
   "numero": 59,
   "cc": 52341348,
   "idProcesos": [50738440],
@@ -10,13 +10,19 @@
       "fijo": 6977403,
       "celular": 3103161197
     },
-    "primerNombre": "NANCY",
-    "segundoNombre": "RODRIGUEZ",
+    "primerNombre": "nancy",
+    "segundoNombre": "rodriguez",
     "primerApellido": "",
-    "segundoApellido": "GOMEZ",
+    "segundoApellido": "gomez",
     "cedula": 52341348,
-    "direccion": "CALLE 70 C No 105 H - 06",
+    "direccion": "calle 70 c no 105 h - 06",
     "email": "nancyta1905@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 52801359,
+    "direccion": "CALLE 70 C - No 105 H - 06",
+    "nombre": "nubia rodriguez gomez",
+    "telefono": 3102876473
   },
   "demanda": {
     "capitalAdeudado": null,

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303020170181700",
+  "llaveProceso": "11001400303020170181700",
   "numero": 113,
   "cc": 53178044,
   "idProcesos": [50883240],
@@ -10,13 +10,19 @@
       "fijo": 6210512,
       "celular": 3167289932
     },
-    "primerNombre": "SANDRA",
-    "segundoNombre": "BIBIANA",
-    "primerApellido": "URREGO",
-    "segundoApellido": "MAYORGA",
+    "primerNombre": "sandra",
+    "segundoNombre": "bibiana",
+    "primerApellido": "urrego",
+    "segundoApellido": "mayorga",
     "cedula": 53178044,
-    "direccion": "CALLE 153 # 97B - 30 CASA ALTA",
+    "direccion": "calle 153 # 97b - 30 casa alta",
     "email": "bibi0225@hotmail.es"
+  },
+  "codeudor": {
+    "cedula": 28052816,
+    "direccion": "CALLE 153 # 97B - 30 CASA ALTA",
+    "nombre": "miriam mayorga",
+    "telefono": 6210515
   },
   "demanda": {
     "capitalAdeudado": 16305.609,
@@ -24,7 +30,7 @@
     "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
-    "etapaProcesal": "11001400303020170181700",
+    "etapaProcesal": "1.100140030302017e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [860669],

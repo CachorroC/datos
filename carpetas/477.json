@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300420180047500",
+  "llaveProceso": "11001400300420180047500",
   "numero": 477,
   "cc": 79568543,
   "idProcesos": [51149410],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ADOLFO",
+    "primerNombre": "adolfo",
     "segundoNombre": "",
-    "primerApellido": "LEON",
-    "segundoApellido": "DAZA FERNANDEZ",
+    "primerApellido": "leon",
+    "segundoApellido": "daza fernandez",
     "cedula": 79568543,
-    "direccion": "CALLE 60 No 38-26 APTO 301",
+    "direccion": "calle 60 no 38-26 apto 301",
     "email": "adolfo.daza@gmail.com"
   },
   "demanda": {

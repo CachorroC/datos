@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25473400100120190116000",
+  "llaveProceso": "25473400100120190116000",
   "numero": 528,
   "cc": 1065564377,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "YOLADIS",
-    "segundoNombre": "ESTHER",
-    "primerApellido": "BLANCO",
-    "segundoApellido": "LOPEZ",
+    "primerNombre": "yoladis",
+    "segundoNombre": "esther",
+    "primerApellido": "blanco",
+    "segundoApellido": "lopez",
     "cedula": 1065564377,
-    "direccion": "CALLE  23 No 12-50 CASA 16 INT 12 MANZANA 1 CONJUNTO QUINTAS DE ZARAGOZA",
+    "direccion": "calle  23 no 12-50 casa 16 int 12 manzana 1 conjunto quintas de zaragoza",
     "email": "yoladisb@hotmail.com"
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2019-02-09T05:00:00.000Z",
-    "etapaProcesal": "25430400300120190116000",
+    "etapaProcesal": "2.543040030012019e+22",
     "fechaPresentacion": null,
     "municipio": "MADRID",
     "obligacion": ["2273 320186673"],

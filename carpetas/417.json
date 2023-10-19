@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307120170125000",
+  "llaveProceso": "11001400307120170125000",
   "numero": 417,
   "cc": 19275068,
   "idProcesos": [64793050],
@@ -10,26 +10,29 @@
       "fijo": 2511959,
       "celular": 3105638608
     },
-    "primerNombre": "OSCAR",
-    "segundoNombre": "HUMBERTO",
-    "primerApellido": "GOMEZ",
-    "segundoApellido": "CHUCHIN",
+    "primerNombre": "oscar",
+    "segundoNombre": "humberto",
+    "primerApellido": "gomez",
+    "segundoApellido": "chuchin",
     "cedula": 19275068,
-    "direccion": "CALLE 71 A No 70 B-11",
+    "direccion": "calle 71 a no 70 b-11",
     "email": "oscarmultibog@hotmail.com"
   },
   "demanda": {
     "capitalAdeudado": 40942.872,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-11-19T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-02-20T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-06-12T05:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [5740084511, 6390082501],
     "radicado": "2017 - 01250",
-    "vencimientoPagare": [null],
+    "vencimientoPagare": [
+      "2021-02-09T05:00:00.000Z",
+      "2021-03-01T05:00:00.000Z"
+    ],
     "expediente": "11001400307120170125000",
     "juzgados": [
       {

@@ -1,18 +1,18 @@
 {
-  "_llaveProceso": "2530740030012017025000",
+  "llaveProceso": "2530740030012017025000",
   "numero": 1,
   "cc": 39581581,
-  "idProcesos": null,
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ALEXANDRA",
-    "segundoNombre": "MILENA",
-    "primerApellido": "JIMENEZ",
-    "segundoApellido": "AGUILAR",
+    "primerNombre": "alexandra",
+    "segundoNombre": "milena",
+    "primerApellido": "jimenez",
+    "segundoApellido": "aguilar",
     "cedula": 39581581,
-    "direccion": "MZ 7 CS 6 UB HDA/ GIRARDOT",
+    "direccion": "mz 7 cs 6 ub hda/ girardot",
     "email": "34|"
   },
   "demanda": {

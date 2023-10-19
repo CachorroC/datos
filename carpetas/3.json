@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25126408900220170071500",
+  "llaveProceso": "25126408900220170071500",
   "numero": 3,
   "cc": 1018441487,
   "idProcesos": [],
@@ -7,16 +7,16 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MARIA",
-    "segundoNombre": "CLAUDIA",
-    "primerApellido": "REATIGA",
-    "segundoApellido": "URREA",
+    "primerNombre": "maria",
+    "segundoNombre": "claudia",
+    "primerApellido": "reatiga",
+    "segundoApellido": "urrea",
     "cedula": 1018441487,
-    "direccion": "CARRERA 2 E No 1 A  - 60 CASA 126 - CAJICA",
+    "direccion": "carrera 2 e no 1 a  - 60 casa 126 - cajica",
     "email": null
   },
   "demanda": {
-    "capitalAdeudado": null,
+    "capitalAdeudado": 33175.721,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
     "tipoProceso": "SINGULAR",

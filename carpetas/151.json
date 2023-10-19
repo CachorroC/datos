@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307320170113500",
+  "llaveProceso": "11001400307320170113500",
   "numero": 151,
   "cc": 88227428,
   "idProcesos": [50667490],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ANDRES",
-    "segundoNombre": "FELIPE",
-    "primerApellido": "HIGUITA",
-    "segundoApellido": "CARDONA",
+    "primerNombre": "andres",
+    "segundoNombre": "felipe",
+    "primerApellido": "higuita",
+    "segundoApellido": "cardona",
     "cedula": 88227428,
-    "direccion": "CALLE 180 # 12A - 16 INT 3 APT 202 ETAPA 3 // CALLE 137 # 91 - 40 INT 5 APTO 404",
+    "direccion": "calle 180 # 12a - 16 int 3 apt 202 etapa 3 // calle 137 # 91 - 40 int 5 apto 404",
     "email": "higuitac@gmail.com"
   },
   "demanda": {

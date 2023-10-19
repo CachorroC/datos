@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303820180014900",
+  "llaveProceso": "11001400303820180014900",
   "numero": 393,
   "cc": 79134529,
   "idProcesos": [9088093],
@@ -10,12 +10,12 @@
       "fijo": 6356262,
       "celular": 3013377704
     },
-    "primerNombre": "MIGUEL",
-    "segundoNombre": "ALEJANDRO",
-    "primerApellido": "GARCIA",
-    "segundoApellido": "RODRIGUEZ",
+    "primerNombre": "miguel",
+    "segundoNombre": "alejandro",
+    "primerApellido": "garcia",
+    "segundoApellido": "rodriguez",
     "cedula": 79134529,
-    "direccion": "CARRERA 79 No 19A - 28. APARTAMENTO 1102",
+    "direccion": "carrera 79 no 19a - 28. apartamento 1102",
     "email": "aeljogarcia69@gmail.com"
   },
   "demanda": {

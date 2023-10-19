@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301620180057300",
+  "llaveProceso": "11001400301620180057300",
   "numero": 435,
   "cc": 1012341563,
   "idProcesos": [51205750],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MARIBEL",
+    "primerNombre": "maribel",
     "segundoNombre": null,
-    "primerApellido": "REVELO",
-    "segundoApellido": "QUIROGA",
+    "primerApellido": "revelo",
+    "segundoApellido": "quiroga",
     "cedula": 1012341563,
-    "direccion": "CALLE 62A SUR-No 73C-21 T 1 APTO 202",
+    "direccion": "calle 62a sur-no 73c-21 t 1 apto 202",
     "email": "marysqs@hotmail.com"
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25740418900120170028400",
+  "llaveProceso": "25740418900120170028400",
   "numero": 14,
   "cc": 52441656,
   "idProcesos": [],
@@ -10,16 +10,16 @@
       "fijo": 5295780,
       "celular": 3133743400
     },
-    "primerNombre": "ELSA",
-    "segundoNombre": "MILENA",
-    "primerApellido": "SOSA",
-    "segundoApellido": " ROMERO",
+    "primerNombre": "elsa",
+    "segundoNombre": "milena",
+    "primerApellido": "sosa",
+    "segundoApellido": " romero",
     "cedula": 52441656,
-    "direccion": "TRANSVERSAL 6 B  No 12 A - 18   SIBATE",
-    "email": "elmisosro1@hotmail,com"
+    "direccion": "transversal 6 b  no 12 a - 18   sibate",
+    "email": "elmisosro1@hotmailcom"
   },
   "demanda": {
-    "capitalAdeudado": null,
+    "capitalAdeudado": 15987.259,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2017-09-19T00:00:00.000Z",
     "tipoProceso": "SINGULAR",

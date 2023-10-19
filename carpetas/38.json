@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25785418900120170010200",
+  "llaveProceso": "25785418900120170010200",
   "numero": 38,
   "cc": 39808625,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3142310966
     },
-    "primerNombre": "LUZ",
-    "segundoNombre": "MIRYAM",
-    "primerApellido": "GUTÍERREZ",
-    "segundoApellido": "MARTÍNEZ",
+    "primerNombre": "luz",
+    "segundoNombre": "miryam",
+    "primerApellido": "gutíerrez",
+    "segundoApellido": "martínez",
     "cedula": 39808625,
-    "direccion": "CALLE 2 No. 1-24 CASA 2 TABIO",
+    "direccion": "calle 2 no. 1-24 casa 2 tabio",
     "email": "hjg296@hotmail.com"
   },
   "demanda": {

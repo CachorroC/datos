@@ -1,0 +1,44 @@
+{
+  "llaveProceso": null,
+  "numero": 592,
+  "cc": 79888775,
+  "idProcesos": [],
+  "category": "Bancolombia",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 4575011,
+      "celular": 3209005114
+    },
+    "primerNombre": "marcel",
+    "segundoNombre": "leonardo",
+    "primerApellido": "machado",
+    "segundoApellido": "romero",
+    "cedula": 79888775,
+    "direccion": "calle 6 sur no. 24 - 180 ap 1203 to 7 conjunto residencial \"la prosperidad - fontana 3 p.h. madrid - cundinamarca",
+    "email": "marcel-leo@hotmail.com dillavivi@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 52791903,
+    "direccion": "CALLE 6 SUR No. 24 - 180 AP 1203 TO 7 CONJUNTO RESIDENCIAL LA PROSPERIDAD - FONTANA 3 P.H.",
+    "nombre": "viviana martinez arias",
+    "telefono": "F 4575011 CELULAR 3209005114"
+  },
+  "demanda": {
+    "capitalAdeudado": 104393.034,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-10-13T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "MADRID",
+    "obligacion": [90000179396],
+    "radicado": null,
+    "vencimientoPagare": [
+      "2052-02-21T00:00:00.000Z"
+    ],
+    "expediente": null,
+    "juzgados": null
+  }
+}

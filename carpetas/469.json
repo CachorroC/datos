@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307020180092200",
+  "llaveProceso": "11001400307020180092200",
   "numero": 469,
   "cc": 46667409,
   "idProcesos": [18376650],
@@ -10,12 +10,12 @@
       "fijo": 8117033,
       "celular": 3123178629
     },
-    "primerNombre": "LUZ",
-    "segundoNombre": "MYRIAM",
-    "primerApellido": "VALDERRAMA",
-    "segundoApellido": "TUTA",
+    "primerNombre": "luz",
+    "segundoNombre": "myriam",
+    "primerApellido": "valderrama",
+    "segundoApellido": "tuta",
     "cedula": 46667409,
-    "direccion": "CALLE 43 No 80F-20",
+    "direccion": "calle 43 no 80f-20",
     "email": null
   },
   "demanda": {

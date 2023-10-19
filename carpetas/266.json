@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400302020170121900",
+  "llaveProceso": "11001400302020170121900",
   "numero": 266,
   "cc": 71192974,
   "idProcesos": [50739310],
@@ -10,17 +10,17 @@
       "fijo": null,
       "celular": 3138085772
     },
-    "primerNombre": "JULIAN",
-    "segundoNombre": "DE",
-    "primerApellido": "JESUS",
-    "segundoApellido": "ISAZA AGUIRRE",
+    "primerNombre": "julian",
+    "segundoNombre": "de",
+    "primerApellido": "jesus",
+    "segundoApellido": "isaza aguirre",
     "cedula": 71192974,
-    "direccion": "CARRERA 24 H No 23 A - 08 SUR",
+    "direccion": "carrera 24 h no 23 a - 08 sur",
     "email": "mayaconfecciones1@gmail.com"
   },
   "demanda": {
     "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
+    "departamento": "CUNDINNAMARCA",
     "entregaGarantiasAbogado": "2017-09-22T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-11-07T00:00:00.000Z",

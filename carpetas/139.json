@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306120170079300",
+  "llaveProceso": "11001400306120170079300",
   "numero": 139,
   "cc": 20896387,
   "idProcesos": [50655580],
@@ -10,13 +10,19 @@
       "fijo": 7502262,
       "celular": 3204955563
     },
-    "primerNombre": "ANA",
-    "segundoNombre": "EMILCE",
-    "primerApellido": "ROJAS",
-    "segundoApellido": "SARMIENTO",
+    "primerNombre": "ana",
+    "segundoNombre": "emilce",
+    "primerApellido": "rojas",
+    "segundoApellido": "sarmiento",
     "cedula": 20896387,
-    "direccion": "CARRERA 32 # 18 - 31 SUR",
+    "direccion": "carrera 32 # 18 - 31 sur",
     "email": "jose_agudelo@juancarpas.edu.com"
+  },
+  "codeudor": {
+    "cedula": "18153551 DNI",
+    "direccion": "CARRERA 32 # 18 - 31 SUR",
+    "nombre": "jose maria villacampa ainsa",
+    "telefono": 3204955563
   },
   "demanda": {
     "capitalAdeudado": 91986.323,

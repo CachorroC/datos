@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301220170095000",
+  "llaveProceso": "11001400301220170095000",
   "numero": 133,
   "cc": 80820336,
   "idProcesos": [50651910],
@@ -10,13 +10,19 @@
       "fijo": 4316891,
       "celular": 3125757941
     },
-    "primerNombre": "CARLOS",
-    "segundoNombre": "GIOVANNY",
-    "primerApellido": "RONDON",
-    "segundoApellido": "GARCIA",
+    "primerNombre": "carlos",
+    "segundoNombre": "giovanny",
+    "primerApellido": "rondon",
+    "segundoApellido": "garcia",
     "cedula": 80820336,
-    "direccion": "CALLE 89A BIS B 113 - 23",
+    "direccion": "calle 89a bis b 113 - 23",
     "email": "carlosrondon2008@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 1014188433,
+    "direccion": "CALLE 70 A BIS A 116 C 21  BLOQUE 9",
+    "nombre": "lida arcelia perez gomez",
+    "telefono": "6417865 // 3112288329"
   },
   "demanda": {
     "capitalAdeudado": 24624.884,
@@ -24,7 +30,7 @@
     "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-08-22T00:00:00.000Z",
-    "etapaProcesal": "11001400301220170095000",
+    "etapaProcesal": "1.100140030122017e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [130201],

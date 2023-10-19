@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301520170124900",
+  "llaveProceso": "11001400301520170124900",
   "numero": 227,
   "cc": 23550435,
   "idProcesos": [50714320],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ROSA",
-    "segundoNombre": "ELENA",
-    "primerApellido": "MARTINEZ",
-    "segundoApellido": "DE DUITAMA",
+    "primerNombre": "rosa",
+    "segundoNombre": "elena",
+    "primerApellido": "martinez",
+    "segundoApellido": "de duitama",
     "cedula": 23550435,
-    "direccion": "CARRERA 50 # 2A - 4 APTO 101",
+    "direccion": "carrera 50 # 2a - 4 apto 101",
     "email": null
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": "2017-09-04T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-09-13T00:00:00.000Z",
-    "etapaProcesal": "11001400301520170124900",
+    "etapaProcesal": "1.100140030152017e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [12499205],

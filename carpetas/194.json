@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303520170129700",
+  "llaveProceso": "11001400303520170129700",
   "numero": 194,
   "cc": 52790965,
   "idProcesos": [50679230],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3107976282
     },
-    "primerNombre": "FABIOLA",
+    "primerNombre": "fabiola",
     "segundoNombre": null,
-    "primerApellido": "MARTINEZ",
-    "segundoApellido": "RUEDA",
+    "primerApellido": "martinez",
+    "segundoApellido": "rueda",
     "cedula": 52790965,
-    "direccion": "CALLE 20C # 106 - 27 APTO 202 INT 13",
+    "direccion": "calle 20c # 106 - 27 apto 202 int 13",
     "email": "fabiola_19805@hotmail.com"
   },
   "demanda": {

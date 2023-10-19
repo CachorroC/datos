@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304720170152000",
+  "llaveProceso": "11001400304720170152000",
   "numero": 125,
   "cc": 74338870,
   "idProcesos": [97088411, 109959053],
@@ -7,13 +7,19 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MILCIADES",
+    "primerNombre": "milciades",
     "segundoNombre": null,
-    "primerApellido": "GALINDO",
-    "segundoApellido": "CASTEBLANCO",
+    "primerApellido": "galindo",
+    "segundoApellido": "casteblanco",
     "cedula": 74338870,
-    "direccion": "CARRERA 18 # 12 - 72",
+    "direccion": "carrera 18 # 12 - 72",
     "email": null
+  },
+  "codeudor": {
+    "cedula": 1098436221,
+    "direccion": "CALEE 4 # 20 - 85",
+    "nombre": "german alonso sanchez pico",
+    "telefono": 3155275805
   },
   "demanda": {
     "capitalAdeudado": 21613.985,

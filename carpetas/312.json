@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418904320170114000",
+  "llaveProceso": "11001418904320170114000",
   "numero": 312,
   "cc": 80394456,
   "idProcesos": [],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "PEDRO",
-    "segundoNombre": "PABLO",
-    "primerApellido": "SARMIENTO",
-    "segundoApellido": "MAYORGA",
+    "primerNombre": "pedro",
+    "segundoNombre": "pablo",
+    "primerApellido": "sarmiento",
+    "segundoApellido": "mayorga",
     "cedula": 80394456,
-    "direccion": "CARRERA 87 D No 42 A 20 SUR INTERIOR 6",
+    "direccion": "carrera 87 d no 42 a 20 sur interior 6",
     "email": "pedrosebastin394@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 28949691,
+    "direccion": "CARRERA 87 D No 42 A-20 SUR IN 6 C",
+    "nombre": "yolanda rativa mesa",
+    "telefono": 3202780646
   },
   "demanda": {
     "capitalAdeudado": null,

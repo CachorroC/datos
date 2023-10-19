@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400302520170099800",
+  "llaveProceso": "11001400302520170099800",
   "numero": 253,
   "cc": 1013604409,
   "idProcesos": [50708840],
@@ -10,12 +10,12 @@
       "fijo": 3521314,
       "celular": 3115197002
     },
-    "primerNombre": "JORGE",
-    "segundoNombre": "EDUARDO",
-    "primerApellido": "ACOSTA",
-    "segundoApellido": "CORREDOR",
+    "primerNombre": "jorge",
+    "segundoNombre": "eduardo",
+    "primerApellido": "acosta",
+    "segundoApellido": "corredor",
     "cedula": 1013604409,
-    "direccion": "CALLE 47 SUR No 27-81",
+    "direccion": "calle 47 sur no 27-81",
     "email": "jan_2504@hotmail.com"
   },
   "demanda": {
@@ -24,7 +24,7 @@
     "entregaGarantiasAbogado": "2017-09-07T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-09-14T00:00:00.000Z",
-    "etapaProcesal": "11001400302520170099800",
+    "etapaProcesal": "1.100140030252017e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [12395327],

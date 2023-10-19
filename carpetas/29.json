@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25175400300120170051100",
+  "llaveProceso": "25175400300120170051100",
   "numero": 29,
   "cc": 80814800,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "WHITMAN",
-    "segundoNombre": "JEFERSON",
-    "primerApellido": "NAJAR",
-    "segundoApellido": "RAMIREZ",
+    "primerNombre": "whitman",
+    "segundoNombre": "jeferson",
+    "primerApellido": "najar",
+    "segundoApellido": "ramirez",
     "cedula": 80814800,
-    "direccion": "CARRERA  9 No 19 - 59 CHIA",
+    "direccion": "carrera  9 no 19 - 59 chia",
     "email": "whitman.najarramirez@hotmail.com"
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305520170094300",
+  "llaveProceso": "11001400305520170094300",
   "numero": 226,
   "cc": 80513085,
   "idProcesos": [17050494],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "NESTOR",
-    "segundoNombre": "GERMAN",
-    "primerApellido": "URREGO",
-    "segundoApellido": "AGUILERA",
+    "primerNombre": "nestor",
+    "segundoNombre": "german",
+    "primerApellido": "urrego",
+    "segundoApellido": "aguilera",
     "cedula": 80513085,
-    "direccion": "CALLE 77 # 84 - 34",
+    "direccion": "calle 77 # 84 - 34",
     "email": "ngurrero@hotmail.com"
   },
   "demanda": {

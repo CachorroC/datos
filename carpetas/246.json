@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304720180024200",
+  "llaveProceso": "11001400304720180024200",
   "numero": 246,
   "cc": 79805533,
   "idProcesos": [10416913],
@@ -10,13 +10,19 @@
       "fijo": 7696884,
       "celular": 3204979488
     },
-    "primerNombre": "EDWIN",
+    "primerNombre": "edwin",
     "segundoNombre": null,
-    "primerApellido": "BUITRAGO",
-    "segundoApellido": "VILLAMIL",
+    "primerApellido": "buitrago",
+    "segundoApellido": "villamil",
     "cedula": 79805533,
-    "direccion": "CARRERA 26 No 44-76 SUR",
+    "direccion": "carrera 26 no 44-76 sur",
     "email": null
+  },
+  "codeudor": {
+    "cedula": 52228840,
+    "direccion": "CARRERA 26 No 44-76 SUR",
+    "nombre": "sandra janneth buitago bernal",
+    "telefono": "7692061 /2077527"
   },
   "demanda": {
     "capitalAdeudado": null,

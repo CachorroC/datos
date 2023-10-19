@@ -1,8 +1,8 @@
 {
-  "_llaveProceso": "11001400306320230162700",
+  "llaveProceso": "11001400307520230128400",
   "numero": 568,
   "cc": 1033739670,
-  "idProcesos": [132206000],
+  "idProcesos": [132161470],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -10,12 +10,12 @@
       "fijo": 6243064,
       "celular": 3046243064
     },
-    "primerNombre": "LORENA",
-    "segundoNombre": "GUISELLE",
-    "primerApellido": "CHAPARRO",
-    "segundoApellido": "LEAL",
+    "primerNombre": "lorena",
+    "segundoNombre": "guiselle",
+    "primerApellido": "chaparro",
+    "segundoApellido": "leal",
     "cedula": 1033739670,
-    "direccion": "Calle 71 No. 46-08 Sur",
+    "direccion": "calle 71 no. 46-08 sur",
     "email": "lorena19081@hotmail.com"
   },
   "demanda": {
@@ -33,12 +33,12 @@
     ],
     "radicado": "2023 - 01627",
     "vencimientoPagare": [null, null],
-    "expediente": "11001400306320230162700",
+    "expediente": "11001400307520230128400",
     "juzgados": [
       {
-        "id": 63,
-        "tipo": "JUZGADO 063 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-63-civil-municipal-de-bogota"
+        "id": 75,
+        "tipo": "JUZGADO 075 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-75-civil-municipal-de-bogota"
       }
     ]
   }

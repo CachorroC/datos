@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25799418900120180033500",
+  "llaveProceso": "25799418900120180033500",
   "numero": 478,
   "cc": 3199064,
   "idProcesos": [],
@@ -10,13 +10,19 @@
       "fijo": 8646896,
       "celular": 3202340560
     },
-    "primerNombre": "FABIO",
-    "segundoNombre": "HERNANDO",
-    "primerApellido": "PASTOR",
-    "segundoApellido": "PASTOR",
+    "primerNombre": "fabio",
+    "segundoNombre": "hernando",
+    "primerApellido": "pastor",
+    "segundoApellido": "pastor",
     "cedula": 3199064,
-    "direccion": "CARRERA 4  No  1F-52  TENJO",
+    "direccion": "carrera 4  no  1f-52  tenjo",
     "email": "juristenjo@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 19360879,
+    "direccion": "CALLE 4 A No 1-46 CASA 43",
+    "nombre": "leonardo augusto camacho gonzalez",
+    "telefono": "8830921 / 3202785286"
   },
   "demanda": {
     "capitalAdeudado": null,

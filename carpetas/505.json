@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418902520180246200",
+  "llaveProceso": "11001418902520180246200",
   "numero": 505,
   "cc": 80156570,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "WILLIAM",
+    "primerNombre": "william",
     "segundoNombre": "",
-    "primerApellido": "GIOVANNY",
-    "segundoApellido": "GARZON LOPEZ",
+    "primerApellido": "giovanny",
+    "segundoApellido": "garzon lopez",
     "cedula": 80156570,
-    "direccion": "CALLE 53 SUR No 82-38 CASA LADRILLO",
+    "direccion": "calle 53 sur no 82-38 casa ladrillo",
     "email": "organizacionapply@gmail.com"
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
-    "etapaProcesal": "11001410375120180246200",
+    "etapaProcesal": "1.100141037512018e+22",
     "fechaPresentacion": null,
     "municipio": "KENNEDY",
     "obligacion": [

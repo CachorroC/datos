@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001310301020170071000",
+  "llaveProceso": "11001310301020170071000",
   "numero": 167,
   "cc": 79688268,
   "idProcesos": [28842484],
@@ -10,13 +10,19 @@
       "fijo": 4589855,
       "celular": 3196564315
     },
-    "primerNombre": "",
-    "segundoNombre": "JOSE",
-    "primerApellido": "MAURICIO",
-    "segundoApellido": "GONZALEZ CALDERON",
+    "primerNombre": "jose",
+    "segundoNombre": "mauricio",
+    "primerApellido": "gonzalez",
+    "segundoApellido": "calderon",
     "cedula": 79688268,
-    "direccion": "CARRERA 83A # 116A - 72 CASA 214",
+    "direccion": "carrera 83a # 116a - 72 casa 214",
     "email": "maurgonzal@yahoo.com"
+  },
+  "codeudor": {
+    "cedula": 51856840,
+    "direccion": "CARRERA 83A # 116A - 72 CASA 214",
+    "nombre": "rosalina ayala perez",
+    "telefono": 4589855
   },
   "demanda": {
     "capitalAdeudado": 118940.346,
@@ -24,7 +30,7 @@
     "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-12-06T00:00:00.000Z",
-    "etapaProcesal": "11001310301020170071000",
+    "etapaProcesal": "1.100131030102017e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [197033],

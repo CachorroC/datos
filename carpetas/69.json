@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300620170041900",
+  "llaveProceso": "11001400300620170041900",
   "numero": 69,
   "cc": 53008703,
   "idProcesos": [50593100],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": 7507842, "celular": null },
-    "primerNombre": "DERLY",
-    "segundoNombre": "CATHERINE",
-    "primerApellido": "CASTRO",
-    "segundoApellido": "IZQUIERDO",
+    "primerNombre": "derly",
+    "segundoNombre": "catherine",
+    "primerApellido": "castro",
+    "segundoApellido": "izquierdo",
     "cedula": 53008703,
-    "direccion": "CARRERA 5 No. 30 - 77",
+    "direccion": "carrera 5 no. 30 - 77",
     "email": null
   },
   "demanda": {

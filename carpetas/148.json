@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300920170081300",
+  "llaveProceso": "11001400300920170081300",
   "numero": 148,
   "cc": 79505815,
   "idProcesos": [50653560],
@@ -7,13 +7,17 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": 4109980, "celular": null },
-    "primerNombre": "NESTOR",
-    "segundoNombre": "GERARDO",
-    "primerApellido": "OSORIO",
-    "segundoApellido": "MORALES",
+    "primerNombre": "nestor",
+    "segundoNombre": "gerardo",
+    "primerApellido": "osorio",
+    "segundoApellido": "morales",
     "cedula": 79505815,
-    "direccion": "AERONAUTICA CIVIL AVENIDA CALLE 26 # 106 - 33",
+    "direccion": "aeronautica civil avenida calle 26 # 106 - 33",
     "email": "nestorg1969@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 55162346,
+    "nombre": "libna audy garzon gutierrez"
   },
   "demanda": {
     "capitalAdeudado": 30873492,

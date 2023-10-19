@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25126408900120170049600",
+  "llaveProceso": "25126408900120170049600",
   "numero": 93,
   "cc": 1140835529,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "VIVIAN",
-    "segundoNombre": "PAOLA",
-    "primerApellido": "BRUGES",
-    "segundoApellido": "MEDINA",
+    "primerNombre": "vivian",
+    "segundoNombre": "paola",
+    "primerApellido": "bruges",
+    "segundoApellido": "medina",
     "cedula": 1140835529,
-    "direccion": "CALLE 133 # 53 - 365CJ LOMAS DE (BARRANQUILLA)",
+    "direccion": "calle 133 # 53 - 365cj lomas de (barranquilla)",
     "email": "vivibruges@hotmail.com"
   },
   "demanda": {

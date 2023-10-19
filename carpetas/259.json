@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303920170125600",
+  "llaveProceso": "11001400303920170125600",
   "numero": 259,
   "cc": 52770471,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "LUZ",
-    "segundoNombre": "NELLY",
-    "primerApellido": "RUIZ",
-    "segundoApellido": "LARA",
+    "primerNombre": "luz",
+    "segundoNombre": "nelly",
+    "primerApellido": "ruiz",
+    "segundoApellido": "lara",
     "cedula": 52770471,
-    "direccion": "CARRERA 87 F - No 26-74 SUR",
+    "direccion": "carrera 87 f - no 26-74 sur",
     "email": "nelly_ruiz1980@hotmail.com"
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400405420170099000",
+  "llaveProceso": "11001400405420170099000",
   "numero": 271,
   "cc": 52850427,
   "idProcesos": [],
@@ -7,14 +7,15 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "AURA",
-    "segundoNombre": "GEOVANA",
-    "primerApellido": "RODRIGUEZ",
-    "segundoApellido": "MORA",
+    "primerNombre": "aura",
+    "segundoNombre": "geovana",
+    "primerApellido": "rodriguez",
+    "segundoApellido": "mora",
     "cedula": 52850427,
     "direccion": null,
     "email": "CARRERA 16 No  24 - 34 APARTAMENTO 302"
   },
+  "codeudor": { "direccion": "22-09-2017" },
   "demanda": {
     "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",

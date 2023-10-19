@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304320170106400",
+  "llaveProceso": "11001400304320170106400",
   "numero": 129,
   "cc": 41709257,
   "idProcesos": [9333743],
@@ -10,12 +10,12 @@
       "fijo": 6928962,
       "celular": 3184581490
     },
-    "primerNombre": "ELENA",
+    "primerNombre": "elena",
     "segundoNombre": null,
-    "primerApellido": "QUIÑONES",
+    "primerApellido": "quiñones",
     "segundoApellido": null,
     "cedula": 41709257,
-    "direccion": "CALLE 150A # 101 - 20 TORRE 3 APTO 802",
+    "direccion": "calle 150a # 101 - 20 torre 3 apto 802",
     "email": "ele41709257@hotmail.com"
   },
   "demanda": {

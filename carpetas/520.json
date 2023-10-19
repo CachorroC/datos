@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307320190028700",
+  "llaveProceso": "11001400307320190028700",
   "numero": 520,
   "cc": 92554673,
   "idProcesos": [51718410],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "RAFAEL",
-    "segundoNombre": "ADOLFO",
-    "primerApellido": "PAEZ",
-    "segundoApellido": "ORTEGA",
+    "primerNombre": "rafael",
+    "segundoNombre": "adolfo",
+    "primerApellido": "paez",
+    "segundoApellido": "ortega",
     "cedula": 92554673,
-    "direccion": "CARRERA 123 No 130C- 56  TORRE 52 APTO 201",
+    "direccion": "carrera 123 no 130c- 56  torre 52 apto 201",
     "email": "farapaeos@gmail.com"
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
-    "etapaProcesal": "11001418905520190028700",
+    "etapaProcesal": "1.100141890552019e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [5470086745],

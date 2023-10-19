@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306420170115300",
+  "llaveProceso": "11001400306420170115300",
   "numero": 130,
   "cc": 77010352,
   "idProcesos": [50648690],
@@ -10,12 +10,12 @@
       "fijo": 6371679,
       "celular": 3125855939
     },
-    "primerNombre": "ARMANDO",
-    "segundoNombre": "ENRIQUE",
-    "primerApellido": "ROSADO",
-    "segundoApellido": "MESTRE",
+    "primerNombre": "armando",
+    "segundoNombre": "enrique",
+    "primerApellido": "rosado",
+    "segundoApellido": "mestre",
     "cedula": 77010352,
-    "direccion": "CALLE 116 # 11C - 15 APTO 104",
+    "direccion": "calle 116 # 11c - 15 apto 104",
     "email": "arosadomestre@yahoo.com"
   },
   "demanda": {

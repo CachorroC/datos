@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308320230108800",
+  "llaveProceso": "11001400308320230108800",
   "numero": 553,
   "cc": 80220698,
   "idProcesos": [130908640],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JOSE",
-    "segundoNombre": "ALEXANDER",
-    "primerApellido": "LAVERDE",
-    "segundoApellido": "PENAGOS",
+    "primerNombre": "jose",
+    "segundoNombre": "alexander",
+    "primerApellido": "laverde",
+    "segundoApellido": "penagos",
     "cedula": 80220698,
-    "direccion": "Carrera 7 # 180 75 // Carrera 8 A No. 182 - 12",
+    "direccion": "carrera 7 # 180 75 // carrera 8 a no. 182 - 12",
     "email": "lxndrlaverde@gmail.com"
   },
   "demanda": {

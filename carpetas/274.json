@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300720170148400",
+  "llaveProceso": "11001400300720170148400",
   "numero": 274,
   "cc": 80312466,
   "idProcesos": [50760230],
@@ -10,12 +10,12 @@
       "fijo": 6915340,
       "celular": 3178134824
     },
-    "primerNombre": "ANDRES",
-    "segundoNombre": "GUILLERMO",
-    "primerApellido": "ACEVEDO",
-    "segundoApellido": "BORRAEZ",
+    "primerNombre": "andres",
+    "segundoNombre": "guillermo",
+    "primerApellido": "acevedo",
+    "segundoApellido": "borraez",
     "cedula": 80312466,
-    "direccion": "carrera 28 No  84 - 36",
+    "direccion": "carrera 28 no  84 - 36",
     "email": "andresacevedo24@hotmail.com"
   },
   "demanda": {

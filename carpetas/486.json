@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418900520180021000",
+  "llaveProceso": "11001418900520180021000",
   "numero": 486,
   "cc": 40776578,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "SANDRA",
-    "segundoNombre": "PATRICIA",
-    "primerApellido": "LONDOÑO",
-    "segundoApellido": "MURCIA",
+    "primerNombre": "sandra",
+    "segundoNombre": "patricia",
+    "primerApellido": "londoño",
+    "segundoApellido": "murcia",
     "cedula": 40776578,
-    "direccion": "CARRERA 26B No 28-30  SUR INT 2",
+    "direccion": "carrera 26b no 28-30  sur int 2",
     "email": "salonmur@hotmail.com"
   },
   "demanda": {

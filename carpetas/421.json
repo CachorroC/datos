@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307520180061700",
+  "llaveProceso": "11001400307520180061700",
   "numero": 421,
   "cc": 79837700,
   "idProcesos": [],
@@ -7,14 +7,15 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ALEXANDER",
+    "primerNombre": "alexander",
     "segundoNombre": null,
-    "primerApellido": "MUÑOZ",
-    "segundoApellido": "ORTIZ",
+    "primerApellido": "muñoz",
+    "segundoApellido": "ortiz",
     "cedula": 79837700,
-    "direccion": "DIAGONAL 2 No 79 A-45 BLOQ 2 APTO 402",
+    "direccion": "diagonal 2 no 79 a-45 bloq 2 apto 402",
     "email": "alexmortiz76@yahoo.com"
   },
+  "codeudor": { "telefono": 4514661 },
   "demanda": {
     "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",

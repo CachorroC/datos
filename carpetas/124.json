@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303320170118000",
+  "llaveProceso": "11001400303320170118000",
   "numero": 124,
   "cc": 40025572,
   "idProcesos": [50643180],
@@ -10,12 +10,12 @@
       "fijo": 6749599,
       "celular": 3202092701
     },
-    "primerNombre": "BLANCA",
-    "segundoNombre": "EDELMIRA",
-    "primerApellido": "ARIAS",
-    "segundoApellido": "MELO",
+    "primerNombre": "blanca",
+    "segundoNombre": "edelmira",
+    "primerApellido": "arias",
+    "segundoApellido": "melo",
     "cedula": 40025572,
-    "direccion": "CALLE 181 # 17B 47 SAN ANTONIO",
+    "direccion": "calle 181 # 17b 47 san antonio",
     "email": "eariasseguros@hotmail.com"
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304020170119300",
+  "llaveProceso": "11001400304020170119300",
   "numero": 122,
   "cc": 52543321,
   "idProcesos": [19148931],
@@ -7,16 +7,16 @@
   "tipoProceso": "SINGULAR ACUM HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "",
-    "segundoNombre": "PAOLA",
-    "primerApellido": "ANDREA",
-    "segundoApellido": "FERNANDEZ RINCON",
+    "primerNombre": "paola",
+    "segundoNombre": "andrea",
+    "primerApellido": "fernandez",
+    "segundoApellido": "rincon",
     "cedula": 52543321,
     "direccion": null,
     "email": "CALLE 1H # 32A - 17"
   },
   "demanda": {
-    "capitalAdeudado": 42951,
+    "capitalAdeudado": 43,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
@@ -24,10 +24,7 @@
     "etapaProcesal": "42958",
     "fechaPresentacion": "2017-09-13T00:00:00.000Z",
     "municipio": "BOGOTA",
-    "obligacion": [
-      4513073601094195,
-      "15774711,08"
-    ],
+    "obligacion": [4513073601094195, 1577471108],
     "radicado": "2017 - 01193",
     "vencimientoPagare": [
       "+135435-01-01T05:00:00.000Z"

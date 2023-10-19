@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305420170071200",
+  "llaveProceso": "11001400305420170071200",
   "numero": 111,
   "cc": 1020743892,
   "idProcesos": [12251233],
@@ -10,12 +10,12 @@
       "fijo": 2131545,
       "celular": 3014347540
     },
-    "primerNombre": "KAREN",
-    "segundoNombre": "VIVIANA",
-    "primerApellido": "CASTAÑO",
-    "segundoApellido": "CORONADO",
+    "primerNombre": "karen",
+    "segundoNombre": "viviana",
+    "primerApellido": "castaño",
+    "segundoApellido": "coronado",
     "cedula": 1020743892,
-    "direccion": "CALLE 141 # 7B - 50 APTO 501",
+    "direccion": "calle 141 # 7b - 50 apto 501",
     "email": "karenvivicastano@gmail.com"
   },
   "demanda": {

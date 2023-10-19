@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400302420180014300",
+  "llaveProceso": "11001400302420180014300",
   "numero": 371,
   "cc": 39765816,
   "idProcesos": [51002530],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MARTHA",
-    "segundoNombre": "ANDREA",
-    "primerApellido": "MORA",
-    "segundoApellido": "COLLAZOS",
+    "primerNombre": "martha",
+    "segundoNombre": "andrea",
+    "primerApellido": "mora",
+    "segundoApellido": "collazos",
     "cedula": 39765816,
-    "direccion": "CALLE 50 SUR 93 D- 38 APTO 401 TORRE 6",
+    "direccion": "calle 50 sur 93 d- 38 apto 401 torre 6",
     "email": "andreato1a@hotmaul.com"
   },
   "demanda": {

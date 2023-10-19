@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300820170102400",
+  "llaveProceso": "11001400300820170102400",
   "numero": 548,
   "cc": 23270185,
   "idProcesos": [50665190],
@@ -7,10 +7,10 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "CLARA",
-    "segundoNombre": "PATRICIA",
-    "primerApellido": "PEÑA",
-    "segundoApellido": "BELTRAN",
+    "primerNombre": "clara",
+    "segundoNombre": "patricia",
+    "primerApellido": "peña",
+    "segundoApellido": "beltran",
     "cedula": 23270185,
     "direccion": null,
     "email": null

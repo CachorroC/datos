@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300320170088400",
+  "llaveProceso": "11001400300320170088400",
   "numero": 16,
   "cc": 1077969975,
   "idProcesos": [50468620, 113956611],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3212337597
     },
-    "primerNombre": "YESID",
+    "primerNombre": "yesid",
     "segundoNombre": null,
-    "primerApellido": "ALBEIRO",
-    "segundoApellido": "RAMOS",
+    "primerApellido": "albeiro",
+    "segundoApellido": "ramos",
     "cedula": 1077969975,
-    "direccion": "CARRERA 77B No. 68B - 19 BARRIO SANTA HELENITA",
+    "direccion": "carrera 77b no 68b - 19 barrio santa helenita",
     "email": "yess_Id@hotmail.com"
   },
   "demanda": {

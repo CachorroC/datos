@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25320310300120170019500",
+  "llaveProceso": "25320310300120170019500",
   "numero": 27,
   "cc": 79004127,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "",
-    "segundoNombre": "NORBEY",
-    "primerApellido": "LOMBANA",
-    "segundoApellido": "MAHECHA",
+    "primerNombre": "norbey",
+    "segundoNombre": null,
+    "primerApellido": "lombana",
+    "segundoApellido": "mahecha",
     "cedula": 79004127,
-    "direccion": "CALLE 4 No. 14-161 GUADUAS (CUNDINAMARCA)",
+    "direccion": "calle 4 no. 14-161 guaduas (cundinamarca)",
     "email": "347620"
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": "2017-05-19T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-05-31T00:00:00.000Z",
-    "etapaProcesal": "25320318900120170019500",
+    "etapaProcesal": "2.532031890012017e+22",
     "fechaPresentacion": null,
     "municipio": "GUADUAS",
     "obligacion": [7910080321],

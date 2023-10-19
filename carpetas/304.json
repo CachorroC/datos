@@ -1,21 +1,20 @@
 {
-  "_llaveProceso": "11001400307320170141100",
+  "llaveProceso": "11001400307320170141100",
   "numero": 304,
   "cc": 79892240,
   "idProcesos": [50801260],
   "category": "Terminados",
-  "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3212414138
     },
-    "primerNombre": "FERNANDO",
+    "primerNombre": "fernando",
     "segundoNombre": null,
-    "primerApellido": "GONZALEZ",
-    "segundoApellido": "TELLEZ",
+    "primerApellido": "gonzalez",
+    "segundoApellido": "tellez",
     "cedula": 79892240,
-    "direccion": "CALLE 76 A SUR No 1 B - 40 ESTE",
+    "direccion": "calle 76 a sur no 1 b - 40 este",
     "email": "ferchog01@yahoo.es"
   },
   "demanda": {

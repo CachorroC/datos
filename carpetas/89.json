@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306520170093400",
+  "llaveProceso": "11001400306520170093400",
   "numero": 89,
   "cc": 1030551366,
   "idProcesos": [18162740],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JULIAN",
-    "segundoNombre": "ARMANDO",
-    "primerApellido": "ACOSTA",
-    "segundoApellido": "RODRIGUEZ",
+    "primerNombre": "julian",
+    "segundoNombre": "armando",
+    "primerApellido": "acosta",
+    "segundoApellido": "rodriguez",
     "cedula": 1030551366,
-    "direccion": "CARRERA 78P BIS # 33A - 91 SUR",
+    "direccion": "carrera 78p bis # 33a - 91 sur",
     "email": "jvargas88@hotmail.com"
   },
   "demanda": {

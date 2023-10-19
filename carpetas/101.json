@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301020170065301",
+  "llaveProceso": "11001400301020170065301",
   "numero": 101,
   "cc": 57452535,
   "idProcesos": [50540650],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3004975278
     },
-    "primerNombre": "LEILA",
-    "segundoNombre": "JOHANNA",
-    "primerApellido": "MARTINEZ",
-    "segundoApellido": "MORA",
+    "primerNombre": "leila",
+    "segundoNombre": "johanna",
+    "primerApellido": "martinez",
+    "segundoApellido": "mora",
     "cedula": 57452535,
-    "direccion": "CALLE 102 # 15 - 58 APTO 204",
+    "direccion": "calle 102 # 15 - 58 apto 204",
     "email": "lei.m@hotmail.com"
   },
   "demanda": {

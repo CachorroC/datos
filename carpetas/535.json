@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306920200082300",
+  "llaveProceso": "11001400306920200082300",
   "numero": 535,
   "cc": 51918944,
   "idProcesos": [112082810],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "AMANDA",
-    "segundoNombre": "LUCIA",
-    "primerApellido": "GAITAN",
-    "segundoApellido": "RINCÓN",
+    "primerNombre": "amanda",
+    "segundoNombre": "lucia",
+    "primerApellido": "gaitan",
+    "segundoApellido": "rincón",
     "cedula": 51918944,
-    "direccion": "CALLE 55 SUR 24C-28 APTO 502",
+    "direccion": "calle 55 sur 24c-28 apto 502",
     "email": "amandagaitan@hotmail.com"
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": "2020-09-25T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
-    "etapaProcesal": "11001400306920200082300",
+    "etapaProcesal": "1.10014003069202e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [370091753, 3700700231],

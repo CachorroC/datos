@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301520170116100",
+  "llaveProceso": "11001400301520170116100",
   "numero": 173,
   "cc": 79878252,
   "idProcesos": [50674600],
@@ -10,13 +10,19 @@
       "fijo": 7230139,
       "celular": 3114901649
     },
-    "primerNombre": "DIEGO",
-    "segundoNombre": "ALEXANDER",
-    "primerApellido": "CAYCEDO",
-    "segundoApellido": "OCHOA",
+    "primerNombre": "diego",
+    "segundoNombre": "alexander",
+    "primerApellido": "caycedo",
+    "segundoApellido": "ochoa",
     "cedula": 79878252,
-    "direccion": "CALLE 69A SUR # 104 - 18 CASA 177",
+    "direccion": "calle 69a sur # 104 - 18 casa 177",
     "email": "diegoc8a@gmail.com"
+  },
+  "codeudor": {
+    "cedula": 52792026,
+    "direccion": "CALLE 69A SUR # 104 - 18 CASA 177",
+    "nombre": "ivonne maritza castillo blanco",
+    "telefono": 7856815
   },
   "demanda": {
     "capitalAdeudado": 41576.997,

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308120180026400",
+  "llaveProceso": "11001400308120180026400",
   "numero": 408,
   "cc": 80792987,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JHON",
-    "segundoNombre": "ALEXANDER",
-    "primerApellido": "BEJARANO",
-    "segundoApellido": "FONSECA",
+    "primerNombre": "jhon",
+    "segundoNombre": "alexander",
+    "primerApellido": "bejarano",
+    "segundoApellido": "fonseca",
     "cedula": 80792987,
-    "direccion": "CALLE 4 D No 39 C-22",
+    "direccion": "calle 4 d no 39 c-22",
     "email": "jhonbeja227@gmail.com"
   },
   "demanda": {

@@ -1,8 +1,8 @@
 {
-  "_llaveProceso": "1100140030442017099800",
+  "llaveProceso": "1100140030442017099800",
   "numero": 9,
   "cc": 1020731500,
-  "idProcesos": null,
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -10,16 +10,16 @@
       "fijo": 731500,
       "celular": 1020731500
     },
-    "primerNombre": "DANIELA",
-    "segundoNombre": "ALEJANDRA",
-    "primerApellido": "CARDENAS",
-    "segundoApellido": "RODRIGUEZ",
+    "primerNombre": "daniela",
+    "segundoNombre": "alejandra",
+    "primerApellido": "cardenas",
+    "segundoApellido": "rodriguez",
     "cedula": 1020731500,
-    "direccion": "DIAGONAL 77  B No 19 A - 73",
+    "direccion": "diagonal 77  b no 19 a - 73",
     "email": "dany_aleja@hotmail.com"
   },
   "demanda": {
-    "capitalAdeudado": null,
+    "capitalAdeudado": 78071.921,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2017-09-19T00:00:00.000Z",
     "tipoProceso": "SINGULAR",

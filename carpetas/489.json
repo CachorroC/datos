@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754418900320180100800",
+  "llaveProceso": "25754418900320180100800",
   "numero": 489,
   "cc": 80257279,
   "idProcesos": [],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIA",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ORLANDO",
+    "primerNombre": "orlando",
     "segundoNombre": null,
-    "primerApellido": "SILVA",
-    "segundoApellido": "CALDERON",
+    "primerApellido": "silva",
+    "segundoApellido": "calderon",
     "cedula": 80257279,
-    "direccion": "CALLE 72 G- SUR No 35-13 SUR",
+    "direccion": "calle 72 g- sur no 35-13 sur",
     "email": "jjanzola@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 10336884340,
+    "direccion": "TRANSVERSAL 4B No 3-75 CASA 87",
+    "nombre": "luz mery salcedo espinosa",
+    "telefono": 7308097
   },
   "demanda": {
     "capitalAdeudado": null,

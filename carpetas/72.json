@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306020170124100",
+  "llaveProceso": "11001400306020170124100",
   "numero": 72,
   "cc": 1030545462,
   "idProcesos": [50880040],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "NESTOR",
-    "segundoNombre": "FABIAN",
-    "primerApellido": "ESPITIA",
-    "segundoApellido": "FRAILE",
+    "primerNombre": "nestor",
+    "segundoNombre": "fabian",
+    "primerApellido": "espitia",
+    "segundoApellido": "fraile",
     "cedula": 1030545462,
-    "direccion": "CARRERA 88 # 26 - 68",
+    "direccion": "carrera 88 # 26 - 68",
     "email": "1988fac@gmail.com"
   },
   "demanda": {

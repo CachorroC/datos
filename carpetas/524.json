@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307520190100800",
+  "llaveProceso": "11001400307520190100800",
   "numero": 524,
   "cc": 52433839,
   "idProcesos": [70545740],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3213987669
     },
-    "primerNombre": "INGRIT",
-    "segundoNombre": "YOHANA",
-    "primerApellido": "VASQUEZ",
-    "segundoApellido": "ROJAS",
+    "primerNombre": "ingrit",
+    "segundoNombre": "yohana",
+    "primerApellido": "vasquez",
+    "segundoApellido": "rojas",
     "cedula": 52433839,
-    "direccion": "CARRERA 15 # 33-17",
+    "direccion": "carrera 15 # 33-17",
     "email": "grpte@hotmail.com"
   },
   "demanda": {

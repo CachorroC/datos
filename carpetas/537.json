@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305120180085000",
+  "llaveProceso": "11001400305120180085000",
   "numero": 537,
   "cc": 52155023,
   "idProcesos": [89137980],
@@ -10,12 +10,12 @@
       "fijo": 5360278,
       "celular": 3108540511
     },
-    "primerNombre": "SANDRA",
+    "primerNombre": "sandra",
     "segundoNombre": "",
-    "primerApellido": "LILIANA",
-    "segundoApellido": "CRUZ BELTRAN",
+    "primerApellido": "liliana",
+    "segundoApellido": "cruz beltran",
     "cedula": 52155023,
-    "direccion": "CALLE 86A No 95A-15 APTO 108",
+    "direccion": "calle 86a no 95a-15 apto 108",
     "email": "mediconta@gmail.com"
   },
   "demanda": {
@@ -27,7 +27,9 @@
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2018-07-06T00:00:00.000Z",
     "municipio": "BOGOTA",
-    "obligacion": [2270085292, 3778131949466660],
+    "obligacion": [
+      2270085292, 3.77813194946666e29
+    ],
     "radicado": "2018 - 00850",
     "vencimientoPagare": [
       "2022-02-02T00:00:00.000Z"

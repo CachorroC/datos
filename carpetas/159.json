@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307320170133300",
+  "llaveProceso": "11001400307320170133300",
   "numero": 159,
   "cc": 98389962,
   "idProcesos": [50765090],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3125586008
     },
-    "primerNombre": "ALLAN",
-    "segundoNombre": "FREDY",
-    "primerApellido": "TOBAR",
-    "segundoApellido": "ENCISO",
+    "primerNombre": "allan",
+    "segundoNombre": "fredy",
+    "primerApellido": "tobar",
+    "segundoApellido": "enciso",
     "cedula": 98389962,
-    "direccion": "CARRERA 14 # 11 - 14 SUR BLOQUE 10",
+    "direccion": "carrera 14 # 11 - 14 sur bloque 10",
     "email": "allantobar@gmail.com"
   },
   "demanda": {

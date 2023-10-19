@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301920170070200",
+  "llaveProceso": "11001400301920170070200",
   "numero": 66,
   "cc": 66841096,
   "idProcesos": [50593320],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3144113614
     },
-    "primerNombre": "SANDRA",
-    "segundoNombre": "PATRICIA",
-    "primerApellido": "SUAREZ",
-    "segundoApellido": "GALVIS",
+    "primerNombre": "sandra",
+    "segundoNombre": "patricia",
+    "primerApellido": "suarez",
+    "segundoApellido": "galvis",
     "cedula": 66841096,
-    "direccion": "CARRERA 22 No. 161-26 PISO 2",
+    "direccion": "carrera 22 no. 161-26 piso 2",
     "email": "sansuarez.ga@gmail.com"
   },
   "demanda": {

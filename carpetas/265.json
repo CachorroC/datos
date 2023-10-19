@@ -1,8 +1,8 @@
 {
-  "_llaveProceso": "1100140030202100050100",
+  "llaveProceso": "1100140030202100050100",
   "numero": 265,
   "cc": 7601476,
-  "idProcesos": null,
+  "idProcesos": [],
   "category": "Insolvencia",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
@@ -10,12 +10,12 @@
       "fijo": 3018759,
       "celular": 3118027001
     },
-    "primerNombre": "JULIO",
-    "segundoNombre": "RENE",
-    "primerApellido": "SANCHEZ",
-    "segundoApellido": "ARGOTE",
+    "primerNombre": "julio",
+    "segundoNombre": "rene",
+    "primerApellido": "sanchez",
+    "segundoApellido": "argote",
     "cedula": 7601476,
-    "direccion": "CARRERA 90 C No 6A - 31   - CASA 148",
+    "direccion": "carrera 90 c no 6a - 31   - casa 148",
     "email": "jsanchezargote@gmail.com"
   },
   "demanda": {
@@ -24,7 +24,7 @@
     "entregaGarantiasAbogado": "2017-09-21T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-09-27T00:00:00.000Z",
-    "etapaProcesal": "11001400306320180065000",
+    "etapaProcesal": "1.100140030632018e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [

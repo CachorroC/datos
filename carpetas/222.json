@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400302820170085800",
+  "llaveProceso": "11001400302820170085800",
   "numero": 222,
   "cc": 79332273,
   "idProcesos": [50688520],
@@ -10,13 +10,19 @@
       "fijo": 5705869,
       "celular": 3005705869
     },
-    "primerNombre": "DUFRESNY",
+    "primerNombre": "dufresny",
     "segundoNombre": null,
-    "primerApellido": "AUGUSTO",
-    "segundoApellido": "PINILLA",
+    "primerApellido": "augusto",
+    "segundoApellido": "pinilla",
     "cedula": 79332273,
-    "direccion": "CARRERA 13 # 155 - 88 CASA 39",
+    "direccion": "carrera 13 # 155 - 88 casa 39",
     "email": "htcolombia@gmail.com"
+  },
+  "codeudor": {
+    "cedula": 51922265,
+    "direccion": "CARRERA 25A # 155 - 88",
+    "nombre": "lucy stella osma rodriguez",
+    "telefono": "6443645 // 7584507"
   },
   "demanda": {
     "capitalAdeudado": null,

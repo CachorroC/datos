@@ -1,8 +1,8 @@
 {
-  "_llaveProceso": "11001400306520230124300",
+  "llaveProceso": "11001400306920230127300",
   "numero": 566,
   "cc": 1013622120,
-  "idProcesos": [132262030],
+  "idProcesos": [132041720],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -10,12 +10,12 @@
       "fijo": 7156426,
       "celular": 3203203196
     },
-    "primerNombre": "JOHAN",
-    "segundoNombre": "ANDRES",
-    "primerApellido": "QUIROGA",
-    "segundoApellido": "GALEANO",
+    "primerNombre": "johan",
+    "segundoNombre": "andres",
+    "primerApellido": "quiroga",
+    "segundoApellido": "galeano",
     "cedula": 1013622120,
-    "direccion": "Carrera 46 A No. 22 C - 36 Sur // Avenida 92 No. 15 - 40",
+    "direccion": "carrera 46 a no. 22 c - 36 sur // avenida 92 no. 15 - 40",
     "email": "johanesquiroga@gmail.com"
   },
   "demanda": {
@@ -32,12 +32,12 @@
     "vencimientoPagare": [
       "2026-02-28T00:00:00.000Z"
     ],
-    "expediente": "11001400306520230124300",
+    "expediente": "11001400306920230127300",
     "juzgados": [
       {
-        "id": 65,
-        "tipo": "JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-65-civil-municipal-de-bogota"
+        "id": 69,
+        "tipo": "JUZGADO 069 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-69-civil-municipal-de-bogota"
       }
     ]
   }

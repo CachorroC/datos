@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304620170056100",
+  "llaveProceso": "11001400304620170056100",
   "numero": 87,
   "cc": 4198210,
   "idProcesos": [10130493],
@@ -7,13 +7,19 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "OMAR",
+    "primerNombre": "omar",
     "segundoNombre": null,
-    "primerApellido": "ESPITIA",
-    "segundoApellido": "REYES",
+    "primerApellido": "espitia",
+    "segundoApellido": "reyes",
     "cedula": 4198210,
-    "direccion": "CALLE 39 I # 72F - 53 SUR",
+    "direccion": "calle 39 i # 72f - 53 sur",
     "email": "omar690501@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 46676055,
+    "direccion": "CARRERA 68K # 38 SUR - 42",
+    "nombre": "nohemi sanchez forero",
+    "telefono": 2048159
   },
   "demanda": {
     "capitalAdeudado": 11777235,

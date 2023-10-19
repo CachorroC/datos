@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25899418900120180057300",
+  "llaveProceso": "25899418900120180057300",
   "numero": 446,
   "cc": 79725365,
   "idProcesos": [],
@@ -7,16 +7,17 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "RICARDO",
+    "primerNombre": "ricardo",
     "segundoNombre": null,
-    "primerApellido": "CUSPOCA",
+    "primerApellido": "cuspoca",
     "segundoApellido": null,
     "cedula": 79725365,
     "direccion": null,
     "email": "CALLE 36 No 69-56 SUR. B CARVAJAL"
   },
+  "codeudor": { "direccion": 45523 },
   "demanda": {
-    "capitalAdeudado": 43265,
+    "capitalAdeudado": 43,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
@@ -24,7 +25,7 @@
     "etapaProcesal": null,
     "fechaPresentacion": null,
     "municipio": "SOACHA",
-    "obligacion": ["16.392,987.23"],
+    "obligacion": ["16.392987.23"],
     "radicado": "2018 - 00573",
     "vencimientoPagare": [null],
     "expediente": "25899418900120180057300",

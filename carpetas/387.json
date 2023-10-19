@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305020170133600",
+  "llaveProceso": "11001400305020170133600",
   "numero": 387,
   "cc": 91263617,
   "idProcesos": [106185210],
@@ -10,12 +10,12 @@
       "fijo": 4251180,
       "celular": 3118066048
     },
-    "primerNombre": "LEONARDO",
+    "primerNombre": "leonardo",
     "segundoNombre": null,
-    "primerApellido": "SANABRIA",
-    "segundoApellido": "SANABRIA",
+    "primerApellido": "sanabria",
+    "segundoApellido": "sanabria",
     "cedula": 91263617,
-    "direccion": "CARRERA 85  B No  23 B - 69  INTERIOR 7 APARTAMENTO  314",
+    "direccion": "carrera 85  b no  23 b - 69  interior 7 apartamento  314",
     "email": "leo.sanabria@live.com.mx"
   },
   "demanda": {

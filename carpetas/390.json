@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300420170126600",
+  "llaveProceso": "11001400300420170126600",
   "numero": 390,
   "cc": 71603563,
   "idProcesos": [50859050],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "GILBERTO",
+    "primerNombre": "gilberto",
     "segundoNombre": null,
-    "primerApellido": "JAIME",
-    "segundoApellido": "BETANCOURT",
+    "primerApellido": "jaime",
+    "segundoApellido": "betancourt",
     "cedula": 71603563,
-    "direccion": "CARRERA 82  No  19 - 20",
+    "direccion": "carrera 82  no  19 - 20",
     "email": "gilbertojaime@hotmail.com"
   },
   "demanda": {

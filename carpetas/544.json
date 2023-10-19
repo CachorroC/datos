@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304320190215900",
+  "llaveProceso": "11001400304320190215900",
   "numero": 544,
   "cc": 52018939,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": 8055915,
       "celular": 3112925970
     },
-    "primerNombre": "SONIA",
-    "segundoNombre": "ANGELICA",
-    "primerApellido": "LOPEZ",
-    "segundoApellido": "ORTIZ",
+    "primerNombre": "sonia",
+    "segundoNombre": "angelica",
+    "primerApellido": "lopez",
+    "segundoApellido": "ortiz",
     "cedula": 52018939,
-    "direccion": "CALLE 78 D 110-22 INTERIOR 16",
+    "direccion": "calle 78 d 110-22 interior 16",
     "email": "sonialo.ejm@gmail.com"
   },
   "demanda": {
@@ -24,7 +24,7 @@
     "entregaGarantiasAbogado": "2019-04-12T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
-    "etapaProcesal": "11001400306120190215900",
+    "etapaProcesal": "1.100140030612019e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [1800092546, 1800092544],

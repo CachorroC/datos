@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303920170151700",
+  "llaveProceso": "11001400303920170151700",
   "numero": 343,
   "cc": 80803306,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": 5470813,
       "celular": 3188426582
     },
-    "primerNombre": "EDUARDO",
-    "segundoNombre": "ALFONSO",
-    "primerApellido": "RICO",
-    "segundoApellido": "JIMENEZ",
+    "primerNombre": "eduardo",
+    "segundoNombre": "alfonso",
+    "primerApellido": "rico",
+    "segundoApellido": "jimenez",
     "cedula": 80803306,
-    "direccion": "CALLE 22 L  No 123 A - 35",
+    "direccion": "calle 22 l  no 123 a - 35",
     "email": "magia.orfen@hotmail.com"
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754400300220180007000",
+  "llaveProceso": "25754400300220180007000",
   "numero": 372,
   "cc": 51953414,
   "idProcesos": [],
@@ -10,13 +10,17 @@
       "fijo": null,
       "celular": 3152482331
     },
-    "primerNombre": "JANETH",
-    "segundoNombre": "RUBIELA",
-    "primerApellido": "GORDILLO",
-    "segundoApellido": "PINZON",
+    "primerNombre": "janeth",
+    "segundoNombre": "rubiela",
+    "primerApellido": "gordillo",
+    "segundoApellido": "pinzon",
     "cedula": 51953414,
-    "direccion": "TRANSVERSAL 49 # 3 - 92 CASA 360 ZAPAN 3",
+    "direccion": "transversal 49 # 3 - 92 casa 360 zapan 3",
     "email": "janethrpinzon@gmail.com"
+  },
+  "codeudor": {
+    "cedula": 1014202066,
+    "nombre": "carlos andres suarez gordillo"
   },
   "demanda": {
     "capitalAdeudado": 17921.982,

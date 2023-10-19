@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303620190049600",
+  "llaveProceso": "11001400303620190049600",
   "numero": 525,
   "cc": 1030543356,
   "idProcesos": [51974830],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MAGDA",
-    "segundoNombre": "LORENA",
-    "primerApellido": "RIASCOS",
-    "segundoApellido": "DIAZ",
+    "primerNombre": "magda",
+    "segundoNombre": "lorena",
+    "primerApellido": "riascos",
+    "segundoApellido": "diaz",
     "cedula": 1030543356,
-    "direccion": "CALLE 48 SUR 87-86 TORRE 16 APTO 261",
+    "direccion": "calle 48 sur 87-86 torre 16 apto 261",
     "email": "magda.riascos.diaz@gmail.com"
   },
   "demanda": {

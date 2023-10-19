@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301420170066700",
+  "llaveProceso": "11001400301420170066700",
   "numero": 8,
   "cc": 79642493,
   "idProcesos": [50465740],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3106980002
     },
-    "primerNombre": "JOSE",
-    "segundoNombre": "WILSON",
-    "primerApellido": "ROJAS",
-    "segundoApellido": "VALDES",
+    "primerNombre": "jose",
+    "segundoNombre": "wilson",
+    "primerApellido": "rojas",
+    "segundoApellido": "valdes",
     "cedula": 79642493,
-    "direccion": "CALLE 118 No. 18-65 APTO 504 ANAYA EL PARQUE BOGOTA",
+    "direccion": "calle 118 no. 18-65 apto 504 anaya el parque bogota",
     "email": null
   },
   "demanda": {

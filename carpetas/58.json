@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304220170076000",
+  "llaveProceso": "11001400304220170076000",
   "numero": 58,
   "cc": 14273737,
   "idProcesos": [50517060],
@@ -10,12 +10,12 @@
       "fijo": 4183276,
       "celular": 3228293322
     },
-    "primerNombre": "",
-    "segundoNombre": "JOSÉ",
-    "primerApellido": "URIEL",
-    "segundoApellido": "PAEREZ PERDOMO",
+    "primerNombre": "josé",
+    "segundoNombre": "uriel",
+    "primerApellido": "paerez",
+    "segundoApellido": "perdomo",
     "cedula": 14273737,
-    "direccion": "CALLE 23 D No.107-32 BOGOTA",
+    "direccion": "calle 23 d no.107-32 bogota",
     "email": "lejopaerez@hotmail.com"
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306420170149000",
+  "llaveProceso": "11001400306420170149000",
   "numero": 306,
   "cc": 7217446,
   "idProcesos": [50812320],
@@ -10,12 +10,12 @@
       "fijo": 2953878,
       "celular": 3102050752
     },
-    "primerNombre": "JORGE",
-    "segundoNombre": "ARTURO",
-    "primerApellido": "JIMENEZ",
-    "segundoApellido": "LEAL",
+    "primerNombre": "jorge",
+    "segundoNombre": "arturo",
+    "primerApellido": "jimenez",
+    "segundoApellido": "leal",
     "cedula": 7217446,
-    "direccion": "CALLE 127 B No 19-60 APTO 402",
+    "direccion": "calle 127 b no 19-60 apto 402",
     "email": "N MI"
   },
   "demanda": {
@@ -24,7 +24,7 @@
     "entregaGarantiasAbogado": "2017-10-20T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-10-24T00:00:00.000Z",
-    "etapaProcesal": "11001400306420170149000",
+    "etapaProcesal": "1.1001400306420171e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [11788203],

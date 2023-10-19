@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303720170083900",
+  "llaveProceso": "11001400303720170083900",
   "numero": 11,
   "cc": 80743147,
   "idProcesos": [50508570],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3209229120
     },
-    "primerNombre": "JAVIER",
+    "primerNombre": "javier",
     "segundoNombre": null,
-    "primerApellido": "ROMERO",
-    "segundoApellido": "REYES",
+    "primerApellido": "romero",
+    "segundoApellido": "reyes",
     "cedula": 80743147,
-    "direccion": "CRA 18 H No. 76 A-53 SUR BOGOTA",
+    "direccion": "cra 18 h no. 76 a-53 sur bogota",
     "email": "sandrapatriciajoya-2545@hotmail.com"
   },
   "demanda": {

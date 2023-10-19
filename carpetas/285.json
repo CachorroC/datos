@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300520170132600",
+  "llaveProceso": "11001400300520170132600",
   "numero": 285,
   "cc": 52318314,
   "idProcesos": [50720040],
@@ -10,12 +10,12 @@
       "fijo": 8065373,
       "celular": 3134576869
     },
-    "primerNombre": "ADRIANA",
-    "segundoNombre": "MARIA",
-    "primerApellido": "PEREZ",
-    "segundoApellido": "GOMEZ",
+    "primerNombre": "adriana",
+    "segundoNombre": "maria",
+    "primerApellido": "perez",
+    "segundoApellido": "gomez",
     "cedula": 52318314,
-    "direccion": "CALLE 19 A 82 65 TR 4 APARTAMENTO 301",
+    "direccion": "calle 19 a 82 65 tr 4 apartamento 301",
     "email": "adrianitaa@gmail.com"
   },
   "demanda": {
@@ -24,7 +24,7 @@
     "entregaGarantiasAbogado": "2017-09-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-09-18T00:00:00.000Z",
-    "etapaProcesal": "11001400300520170132600",
+    "etapaProcesal": "1.100140030052017e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [

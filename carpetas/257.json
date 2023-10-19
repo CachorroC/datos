@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418900720170013800",
+  "llaveProceso": "11001418900720170013800",
   "numero": 257,
   "cc": 79706920,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "PAUL",
+    "primerNombre": "paul",
     "segundoNombre": null,
-    "primerApellido": "RICHARD",
-    "segundoApellido": "CAICEDO",
+    "primerApellido": "richard",
+    "segundoApellido": "caicedo",
     "cedula": 79706920,
-    "direccion": "CALLE 8 A No 88B - 31 ETAPA 7 CASA 196",
+    "direccion": "calle 8 a no 88b - 31 etapa 7 casa 196",
     "email": null
   },
   "demanda": {

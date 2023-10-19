@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300220180020500",
+  "llaveProceso": "11001400300220180020500",
   "numero": 406,
   "cc": 8510459,
   "idProcesos": [51034000],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "SANTIAGO",
-    "segundoNombre": "JAVIER",
-    "primerApellido": "SARABIA",
-    "segundoApellido": "JIMENEZ",
+    "primerNombre": "santiago",
+    "segundoNombre": "javier",
+    "primerApellido": "sarabia",
+    "segundoApellido": "jimenez",
     "cedula": 8510459,
-    "direccion": "CALLE 86 A SUR No 80K-40",
+    "direccion": "calle 86 a sur no 80k-40",
     "email": null
   },
   "demanda": {

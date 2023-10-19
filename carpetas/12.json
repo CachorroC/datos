@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25269400300220180015800",
+  "llaveProceso": "25269400300220180015800",
   "numero": 12,
   "cc": 11436632,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3214791915
     },
-    "primerNombre": "OSCAR",
-    "segundoNombre": "MANUEL",
-    "primerApellido": "TRIVIÑO",
-    "segundoApellido": "GARCIA",
+    "primerNombre": "oscar",
+    "segundoNombre": "manuel",
+    "primerApellido": "triviño",
+    "segundoApellido": "garcia",
     "cedula": 11436632,
-    "direccion": "CALLE 2 E 1 A-85 SUR FACATATIVA",
+    "direccion": "calle 2 e 1 a-85 sur facatativa",
     "email": "triracso25@hotmail.com"
   },
   "demanda": {

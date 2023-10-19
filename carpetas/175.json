@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754418900220170076100",
+  "llaveProceso": "25754418900220170076100",
   "numero": 175,
   "cc": 91354321,
   "idProcesos": [],
@@ -10,13 +10,19 @@
       "fijo": 8212461,
       "celular": 3118866968
     },
-    "primerNombre": "OMAR",
-    "segundoNombre": "GUSTAVO",
-    "primerApellido": "FULA",
-    "segundoApellido": "AVILA",
+    "primerNombre": "omar",
+    "segundoNombre": "gustavo",
+    "primerApellido": "fula",
+    "segundoApellido": "avila",
     "cedula": 91354321,
-    "direccion": "CALLE 36 # 1 ESTE - 81 BLOQUE 21 CASA 11 SOACHA",
+    "direccion": "calle 36 # 1 este - 81 bloque 21 casa 11 soacha",
     "email": "omarfula@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 53065435,
+    "direccion": "CALLE 36 # 1 - 81 CASA 11 BLOQUE 21",
+    "nombre": "luz helena solano ardila",
+    "telefono": "3118570587 // 7515699"
   },
   "demanda": {
     "capitalAdeudado": null,

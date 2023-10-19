@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301020170083000",
+  "llaveProceso": "11001400301020170083000",
   "numero": 116,
   "cc": 52548162,
   "idProcesos": [50624030],
@@ -10,13 +10,17 @@
       "fijo": 3579028,
       "celular": 3164355892
     },
-    "primerNombre": "ANA",
-    "segundoNombre": "KARINA",
-    "primerApellido": "MANTILLA",
-    "segundoApellido": "PARDO",
+    "primerNombre": "ana",
+    "segundoNombre": "karina",
+    "primerApellido": "mantilla",
+    "segundoApellido": "pardo",
     "cedula": 52548162,
-    "direccion": "CARRERA 51A # 127 - 75 APTO 1102",
+    "direccion": "carrera 51a # 127 - 75 apto 1102",
     "email": "karinamantilla@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 79781289,
+    "nombre": "diego fernando delgado acosta"
   },
   "demanda": {
     "capitalAdeudado": 18077.141,

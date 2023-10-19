@@ -1,8 +1,8 @@
 {
-  "_llaveProceso": "1100140030820170052800",
+  "llaveProceso": "1100140030820170052800",
   "numero": 88,
   "cc": 51890871,
-  "idProcesos": null,
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "PRENDARIO",
   "deudor": {
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3103126814
     },
-    "primerNombre": "IDALY",
+    "primerNombre": "idaly",
     "segundoNombre": null,
-    "primerApellido": "FERRO",
-    "segundoApellido": "CARDONA",
+    "primerApellido": "ferro",
+    "segundoApellido": "cardona",
     "cedula": 51890871,
-    "direccion": "calle 6 No. 4-07 BOGOTA",
+    "direccion": "calle 6 no. 4-07 bogota",
     "email": "lasmi40@hotmail.com"
   },
   "demanda": {

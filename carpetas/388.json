@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301720180011100",
+  "llaveProceso": "11001400301720180011100",
   "numero": 388,
   "cc": 52644132,
   "idProcesos": [50993830],
@@ -10,12 +10,12 @@
       "fijo": 6126610,
       "celular": 3124575163
     },
-    "primerNombre": "XIMENA",
+    "primerNombre": "ximena",
     "segundoNombre": "",
-    "primerApellido": "ESCOBAR",
-    "segundoApellido": "PUCCETI",
+    "primerApellido": "escobar",
+    "segundoApellido": "pucceti",
     "cedula": 52644132,
-    "direccion": "CARRERA 14 B No 119 - 30  BOGOTA",
+    "direccion": "carrera 14 b no 119 - 30  bogota",
     "email": "ximpucci1@hotmail.com"
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25799418900120170024700",
+  "llaveProceso": "25799418900120170024700",
   "numero": 237,
   "cc": 80237050,
   "idProcesos": [],
@@ -10,13 +10,19 @@
       "fijo": 8656241,
       "celular": 3114602334
     },
-    "primerNombre": "NUMAEL",
-    "segundoNombre": "AUGUSTO",
-    "primerApellido": "GONZALEZ",
-    "segundoApellido": "SALGUERO",
+    "primerNombre": "numael",
+    "segundoNombre": "augusto",
+    "primerApellido": "gonzalez",
+    "segundoApellido": "salguero",
     "cedula": 80237050,
-    "direccion": "CARRERA 9 No 3-93",
+    "direccion": "carrera 9 no 3-93",
     "email": "numasue@gmail.com"
+  },
+  "codeudor": {
+    "cedula": 1078366269,
+    "direccion": "CARRERA 9 No 3-93",
+    "nombre": "ingrid dayhana forero palacios",
+    "telefono": "8656241 /3124269483"
   },
   "demanda": {
     "capitalAdeudado": null,

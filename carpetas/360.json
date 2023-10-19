@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400302320170145200",
+  "llaveProceso": "11001400302320170145200",
   "numero": 360,
   "cc": 52327561,
   "idProcesos": [50915500],
@@ -10,12 +10,12 @@
       "fijo": 7416881,
       "celular": 3002261859
     },
-    "primerNombre": "NOHORA",
-    "segundoNombre": "DEL",
-    "primerApellido": "PILAR",
-    "segundoApellido": "VARGAS BERNAL",
+    "primerNombre": "nohora",
+    "segundoNombre": "del",
+    "primerApellido": "pilar",
+    "segundoApellido": "vargas bernal",
     "cedula": 52327561,
-    "direccion": "CARRERA 110 C No 77- 15",
+    "direccion": "carrera 110 c no 77- 15",
     "email": "jana578@hotmail.com"
   },
   "demanda": {

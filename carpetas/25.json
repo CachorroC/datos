@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001310301120170033500",
+  "llaveProceso": "11001310301120170033500",
   "numero": 25,
   "cc": 3197274,
   "idProcesos": [80553011, 1805257424],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "OMAR",
-    "segundoNombre": "DARIO",
-    "primerApellido": "ZEA",
-    "segundoApellido": "GALVIS",
+    "primerNombre": "omar",
+    "segundoNombre": "dario",
+    "primerApellido": "zea",
+    "segundoApellido": "galvis",
     "cedula": 3197274,
-    "direccion": "CL 14 No. 10 - 45 Bucaramanga",
+    "direccion": "cl 14 no. 10 - 45 bucaramanga",
     "email": null
   },
   "demanda": {

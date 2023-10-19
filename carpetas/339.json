@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305620170119500",
+  "llaveProceso": "11001400305620170119500",
   "numero": 339,
   "cc": 91072102,
   "idProcesos": [50858360],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "LUIS",
-    "segundoNombre": "ALFONSO",
-    "primerApellido": "MOJICA",
-    "segundoApellido": "ZAMBRANO",
+    "primerNombre": "luis",
+    "segundoNombre": "alfonso",
+    "primerApellido": "mojica",
+    "segundoApellido": "zambrano",
     "cedula": 91072102,
-    "direccion": "CARRERA 53 No 153 - 84  INTERIOR 5 APARTAMENTO  204",
+    "direccion": "carrera 53 no 153 - 84  interior 5 apartamento  204",
     "email": "alfonso.mojica@sumatronicltda.com"
   },
   "demanda": {

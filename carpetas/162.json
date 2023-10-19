@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304120170094600",
+  "llaveProceso": "11001400304120170094600",
   "numero": 162,
   "cc": 900432476,
   "idProcesos": [52159350],
@@ -7,13 +7,19 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MANHATTAN",
+    "primerNombre": "manhattan",
     "segundoNombre": null,
-    "primerApellido": "DOTACIONES",
-    "segundoApellido": "S.A.S",
+    "primerApellido": "dotaciones",
+    "segundoApellido": "s.a.s",
     "cedula": 900432476,
     "direccion": null,
     "email": "7514006"
+  },
+  "codeudor": {
+    "cedula": "CARRERA 34 # 34 - 71 SUR INT 10",
+    "direccion": 4738129,
+    "nombre": 52076347,
+    "telefono": "CARMEN ALICIA RAMIREZ CHURQUE"
   },
   "demanda": {
     "capitalAdeudado": 0,

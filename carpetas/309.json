@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306720170161300",
+  "llaveProceso": "11001400306720170161300",
   "numero": 309,
   "cc": 19332163,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "HENRY",
-    "segundoNombre": "NOEL",
-    "primerApellido": "CASTELBLANCO",
-    "segundoApellido": "SOSA",
+    "primerNombre": "henry",
+    "segundoNombre": "noel",
+    "primerApellido": "castelblanco",
+    "segundoApellido": "sosa",
     "cedula": 19332163,
-    "direccion": "CARRERA 69 C No 98A -50",
+    "direccion": "carrera 69 c no 98a -50",
     "email": "hencast@hotmail.com"
   },
   "demanda": {

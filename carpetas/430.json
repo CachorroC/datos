@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001410300120180040400",
+  "llaveProceso": "11001410300120180040400",
   "numero": 430,
   "cc": 1024517216,
   "idProcesos": [17487020, 50678323],
@@ -10,13 +10,19 @@
       "fijo": null,
       "celular": 3112907361
     },
-    "primerNombre": "JHONATAN",
-    "segundoNombre": "ALEJANDRO",
+    "primerNombre": "jhonatan",
+    "segundoNombre": "alejandro",
     "primerApellido": "",
-    "segundoApellido": "CUELLAR ARIAS",
+    "segundoApellido": "cuellar arias",
     "cedula": 1024517216,
-    "direccion": "DIAGONAL 68 D No 70C-31",
+    "direccion": "diagonal 68 d no 70c-31",
     "email": "alejaso1291@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 1024527755,
+    "direccion": "DIAGONAL 68D No 70C-31",
+    "nombre": "jessica alexandra santos avendaño",
+    "telefono": 3134216520
   },
   "demanda": {
     "capitalAdeudado": null,

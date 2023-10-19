@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303720170150900",
+  "llaveProceso": "11001400303720170150900",
   "numero": 323,
   "cc": 11319802,
   "idProcesos": [8830323],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "LUIS",
-    "segundoNombre": "FERNANDO",
-    "primerApellido": "MEDINA",
-    "segundoApellido": "POTES",
+    "primerNombre": "luis",
+    "segundoNombre": "fernando",
+    "primerApellido": "medina",
+    "segundoApellido": "potes",
     "cedula": 11319802,
-    "direccion": "CALLE 40 SUR  No  72 G -01  APARTAMENTO 101",
+    "direccion": "calle 40 sur  no  72 g -01  apartamento 101",
     "email": "fermedina11@gmail.com"
+  },
+  "codeudor": {
+    "cedula": 52121666,
+    "direccion": "CALLE  51 No 31 - 96 SUR",
+    "nombre": "claudia janneth ortiz alfonso",
+    "telefono": 3176363780
   },
   "demanda": {
     "capitalAdeudado": null,

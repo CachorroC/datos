@@ -1,8 +1,8 @@
 {
-  "_llaveProceso": null,
+  "llaveProceso": null,
   "numero": 579,
   "cc": 1024481233,
-  "idProcesos": null,
+  "idProcesos": [],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -10,12 +10,12 @@
       "fijo": 8027134,
       "celular": 3108012331
     },
-    "primerNombre": "ANDREA",
-    "segundoNombre": "CAROLINA",
-    "primerApellido": "DIAZ",
-    "segundoApellido": "BARRETO",
+    "primerNombre": "andrea",
+    "segundoNombre": "carolina",
+    "primerApellido": "diaz",
+    "segundoApellido": "barreto",
     "cedula": 1024481233,
-    "direccion": "Calle 114 No. 6 A 92",
+    "direccion": "calle 114 no. 6 a 92",
     "email": "suenopandapijamas@gmail.com"
   },
   "demanda": {

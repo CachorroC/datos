@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304220200053500",
+  "llaveProceso": "11001400304220200053500",
   "numero": 531,
   "cc": 51813018,
   "idProcesos": [128164881],
@@ -10,13 +10,19 @@
       "fijo": 6139147,
       "celular": 3134386087
     },
-    "primerNombre": "SANDRA",
-    "segundoNombre": "LEONOR",
-    "primerApellido": "PAEZ",
-    "segundoApellido": "MURCIA",
+    "primerNombre": "sandra",
+    "segundoNombre": "leonor",
+    "primerApellido": "paez",
+    "segundoApellido": "murcia",
     "cedula": 51813018,
-    "direccion": "KR 81 No. 127 A - 46 CONJUNTO MONTE AZUL BOGOTA",
+    "direccion": "kr 81 no. 127 a - 46 conjunto monte azul bogota",
     "email": "yadelcis@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 19299851,
+    "direccion": "KR 81 No. 127 - 46 Torre 1 Apt 401",
+    "nombre": "marco tulio sanchez medina",
+    "telefono": 6139147
   },
   "demanda": {
     "capitalAdeudado": 35608.653,

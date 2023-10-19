@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307020170121800",
+  "llaveProceso": "11001400307020170121800",
   "numero": 330,
   "cc": 80185084,
   "idProcesos": [113385910],
@@ -10,13 +10,19 @@
       "fijo": 6822121,
       "celular": 3176822122
     },
-    "primerNombre": "NELSON",
-    "segundoNombre": "ARBEY",
-    "primerApellido": "CANGREJO",
-    "segundoApellido": "SUAREZ",
+    "primerNombre": "nelson",
+    "segundoNombre": "arbey",
+    "primerApellido": "cangrejo",
+    "segundoApellido": "suarez",
     "cedula": 80185084,
-    "direccion": "CARRERA 95 A  No 136 - 47 APARTAMENTO 401 BLOQUE 3",
+    "direccion": "carrera 95 a  no 136 - 47 apartamento 401 bloque 3",
     "email": "arby3920@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 1022956167,
+    "direccion": "CARRRA 1 D ESTE No 64 - 29 SUR APTO 6",
+    "nombre": "jackellin gonzalez vargas",
+    "telefono": 3144200
   },
   "demanda": {
     "capitalAdeudado": null,

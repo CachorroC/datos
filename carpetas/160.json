@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307820170076200",
+  "llaveProceso": "11001400307820170076200",
   "numero": 160,
   "cc": 79387342,
   "idProcesos": [51542360],
@@ -10,12 +10,12 @@
       "fijo": 6047182,
       "celular": 3118411820
     },
-    "primerNombre": "JAIRO",
-    "segundoNombre": "ALBERTO",
-    "primerApellido": "CARRILLO",
-    "segundoApellido": "SALINAS",
+    "primerNombre": "jairo",
+    "segundoNombre": "alberto",
+    "primerApellido": "carrillo",
+    "segundoApellido": "salinas",
     "cedula": 79387342,
-    "direccion": "CALLE 28A SUR # 28A - 18",
+    "direccion": "calle 28a sur # 28a - 18",
     "email": "jairocarrillosa@hotmail.com"
   },
   "demanda": {

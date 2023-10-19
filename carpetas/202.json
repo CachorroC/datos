@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308520170128700",
+  "llaveProceso": "11001400308520170128700",
   "numero": 202,
   "cc": 52488943,
   "idProcesos": [51937670],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "SONIA",
-    "segundoNombre": "MIREYA",
-    "primerApellido": "PANTOJA",
-    "segundoApellido": "SANDOVAL",
+    "primerNombre": "sonia",
+    "segundoNombre": "mireya",
+    "primerApellido": "pantoja",
+    "segundoApellido": "sandoval",
     "cedula": 52488943,
-    "direccion": "CALLE 89 # 98 - 27",
+    "direccion": "calle 89 # 98 - 27",
     "email": "tocami96@hotmail.com"
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": "2017-08-28T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-09-04T00:00:00.000Z",
-    "etapaProcesal": "11001400308520170128700",
+    "etapaProcesal": "1.1001400308520171e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [151374],

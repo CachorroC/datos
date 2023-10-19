@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303420180061400",
+  "llaveProceso": "11001400303420180061400",
   "numero": 50,
   "cc": 52444244,
   "idProcesos": [51259250],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3212062887
     },
-    "primerNombre": "GLORIA",
-    "segundoNombre": "ASTRID",
-    "primerApellido": "RODRÍGUEZ",
-    "segundoApellido": "BAQUERO",
+    "primerNombre": "gloria",
+    "segundoNombre": "astrid",
+    "primerApellido": "rodríguez",
+    "segundoApellido": "baquero",
     "cedula": 52444244,
-    "direccion": "CARRERA 54 C No. 143 S-90",
+    "direccion": "carrera 54 c no. 143 s-90",
     "email": "gloriaaz@yahoo.com"
   },
   "demanda": {

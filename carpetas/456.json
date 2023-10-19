@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001410375120180112100",
+  "llaveProceso": "11001410375120180112100",
   "numero": 456,
   "cc": 26407097,
   "idProcesos": [95877041],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ANA",
-    "segundoNombre": "LUCIA",
-    "primerApellido": "YAÑEZ",
-    "segundoApellido": "VARGAS (FALLECIDA)",
+    "primerNombre": "ana",
+    "segundoNombre": "lucia",
+    "primerApellido": "yañez",
+    "segundoApellido": "vargas (fallecida)",
     "cedula": 26407097,
-    "direccion": "CALLE  57B BIS No 99B-64 SUR BOSA SANTA FE",
+    "direccion": "calle  57b bis no 99b-64 sur bosa santa fe",
     "email": null
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": "2018-06-29T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2018-07-06T00:00:00.000Z",
-    "etapaProcesal": "11001410375120180112100",
+    "etapaProcesal": "1.100141037512018e+22",
     "fechaPresentacion": null,
     "municipio": "KENNEDY",
     "obligacion": [10044000104],

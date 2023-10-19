@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303920170133000",
+  "llaveProceso": "11001400303920170133000",
   "numero": 291,
   "cc": 35427969,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "YEIMMY",
-    "segundoNombre": "CAROLINA",
-    "primerApellido": "FINO",
-    "segundoApellido": "BALLEN",
+    "primerNombre": "yeimmy",
+    "segundoNombre": "carolina",
+    "primerApellido": "fino",
+    "segundoApellido": "ballen",
     "cedula": 35427969,
-    "direccion": "CARRERA 91 No 157 B - 82  TORRE 2 APARTAMENTO 40",
+    "direccion": "carrera 91 no 157 b - 82  torre 2 apartamento 40",
     "email": "carof111@hotmail.com"
   },
   "demanda": {

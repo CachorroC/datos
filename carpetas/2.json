@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001310304320170055400",
+  "llaveProceso": "11001310304320170055400",
   "numero": 2,
   "cc": 1026259010,
   "idProcesos": [52281244],
@@ -10,13 +10,19 @@
       "fijo": 3935996,
       "celular": 3142064177
     },
-    "primerNombre": "EDWIN",
-    "segundoNombre": "ANDRES",
-    "primerApellido": "CUERVO",
-    "segundoApellido": "VERDUGO",
+    "primerNombre": "edwin",
+    "segundoNombre": "andres",
+    "primerApellido": "cuervo",
+    "segundoApellido": "verdugo",
     "cedula": 1026259010,
-    "direccion": "DIAGONAL 77 B No 119 A-73  INTERIOR 1 APARTAMENTO 602",
+    "direccion": "diagonal 77 b no 119 a-73  interior 1 apartamento 602",
     "email": "edwin06cuervo@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 1070587091,
+    "direccion": "CARRERA 8 BIS No 151-19 APARTAMENTO 105",
+    "nombre": "diana lorena sanchez jimenez",
+    "telefono": 2165272
   },
   "demanda": {
     "capitalAdeudado": 162012.163,

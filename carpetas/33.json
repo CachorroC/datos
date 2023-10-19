@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308220170064900",
+  "llaveProceso": "11001400308220170064900",
   "numero": 33,
   "cc": 28936365,
   "idProcesos": [81869251],
@@ -10,13 +10,19 @@
       "fijo": null,
       "celular": 3118113651
     },
-    "primerNombre": "NINI",
-    "segundoNombre": "JOHANA",
-    "primerApellido": "CORTES",
-    "segundoApellido": "MONROY",
+    "primerNombre": "nini",
+    "segundoNombre": "johana",
+    "primerApellido": "cortes",
+    "segundoApellido": "monroy",
+    "cedula": 28936365,
+    "direccion": "calle 401 sur 72 l -40 cristales  bogota",
+    "email": "snaluistol@gmail.com"
+  },
+  "codeudor": {
     "cedula": 28936365,
     "direccion": "CALLE 401 SUR 72 L -40 CRISTALES  BOGOTA",
-    "email": "snaluistol@gmail.com"
+    "nombre": "nini cortes",
+    "telefono": 3134775602
   },
   "demanda": {
     "capitalAdeudado": null,

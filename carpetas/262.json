@@ -1,8 +1,8 @@
 {
-  "_llaveProceso": "2590400300220170063100",
+  "llaveProceso": "2590400300220170063100",
   "numero": 262,
   "cc": 1069737167,
-  "idProcesos": null,
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -10,13 +10,18 @@
       "fijo": null,
       "celular": 3103247146
     },
-    "primerNombre": "RAFAEL",
-    "segundoNombre": "ANDRES",
-    "primerApellido": "MORENO",
-    "segundoApellido": "ZAMORA",
+    "primerNombre": "rafael",
+    "segundoNombre": "andres",
+    "primerApellido": "moreno",
+    "segundoApellido": "zamora",
     "cedula": 1069737167,
-    "direccion": "DIAGONAL 1C No 25B -18  FUSAGASUGA",
+    "direccion": "diagonal 1c no 25b -18  fusagasuga",
     "email": "rafael_moreno.z@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": "11.383.194",
+    "direccion": "DIAGONAL 1C No 25 B - 18  FUSAGASUFA",
+    "nombre": "rafael antonio moreno franco"
   },
   "demanda": {
     "capitalAdeudado": null,

@@ -1,0 +1,42 @@
+{
+  "llaveProceso": null,
+  "numero": 587,
+  "cc": 80933163,
+  "idProcesos": [],
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 3542468,
+      "celular": 3143688700
+    },
+    "primerNombre": "edgar",
+    "segundoNombre": "mauricio",
+    "primerApellido": "vera",
+    "segundoApellido": "rodriguez",
+    "cedula": 80933163,
+    "direccion": "carrera 54 no. 4 a - 33 barrio galan - bogotá",
+    "email": "maovera23@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 34080.282,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-10-03T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "Q 0000000080933163027001",
+      83083574
+    ],
+    "radicado": null,
+    "vencimientoPagare": [
+      null,
+      "2026-05-06T05:00:00.000Z"
+    ],
+    "expediente": null,
+    "juzgados": null
+  }
+}

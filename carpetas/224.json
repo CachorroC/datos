@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25386400300120170040700",
+  "llaveProceso": "25386400300120170040700",
   "numero": 224,
   "cc": 52616509,
   "idProcesos": [],
@@ -10,13 +10,19 @@
       "fijo": null,
       "celular": 3114881698
     },
-    "primerNombre": "MARIA",
-    "segundoNombre": "ROSA",
-    "primerApellido": "ZARATE",
-    "segundoApellido": "CORTES",
+    "primerNombre": "maria",
+    "segundoNombre": "rosa",
+    "primerApellido": "zarate",
+    "segundoApellido": "cortes",
     "cedula": 52616509,
-    "direccion": "CALLE 5 # 21 - 76",
+    "direccion": "calle 5 # 21 - 76",
     "email": "mariarosacortes2233@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 74181815,
+    "direccion": "CALLE 4 # 26 - 38",
+    "nombre": "gilberanio suarez rodriguez",
+    "telefono": 8471503
   },
   "demanda": {
     "capitalAdeudado": null,

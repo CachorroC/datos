@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754400300220180003100",
+  "llaveProceso": "25754400300220180003100",
   "numero": 362,
   "cc": 52031089,
   "idProcesos": [],
@@ -10,16 +10,16 @@
       "fijo": 7553091,
       "celular": 3007553091
     },
-    "primerNombre": "YANETH",
+    "primerNombre": "yaneth",
     "segundoNombre": null,
-    "primerApellido": "HERNANDEZ",
-    "segundoApellido": "SUAREZ",
+    "primerApellido": "hernandez",
+    "segundoApellido": "suarez",
     "cedula": 52031089,
-    "direccion": "CARRERA 80 J No 73-27",
+    "direccion": "carrera 80 j no 73-27",
     "email": "HERNANDEZ_YANETH@HOTMAIL.COM"
   },
   "demanda": {
-    "capitalAdeudado": 42269.61,
+    "capitalAdeudado": 4226.961,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2017-05-12T05:00:00.000Z",
     "tipoProceso": "SINGULAR",

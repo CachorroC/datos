@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307620170063500",
+  "llaveProceso": "11001400307620170063500",
   "numero": 165,
   "cc": 86057132,
   "idProcesos": [51497380],
@@ -10,12 +10,12 @@
       "fijo": 4088069,
       "celular": 3125312823
     },
-    "primerNombre": "FREDY",
+    "primerNombre": "fredy",
     "segundoNombre": null,
-    "primerApellido": "MENESES",
+    "primerApellido": "meneses",
     "segundoApellido": null,
     "cedula": 86057132,
-    "direccion": "Carrera 40 D No. 1H-28",
+    "direccion": "carrera 40 d no. 1h-28",
     "email": "imagenfmr@yahoo.com"
   },
   "demanda": {

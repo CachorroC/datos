@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418903220180127100",
+  "llaveProceso": "11001418903220180127100",
   "numero": 474,
   "cc": 52788376,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": 4383117,
       "celular": 3144765126
     },
-    "primerNombre": "NADIA",
-    "segundoNombre": "KATERINE",
-    "primerApellido": "MORENO",
-    "segundoApellido": "CAMACHO",
+    "primerNombre": "nadia",
+    "segundoNombre": "katerine",
+    "primerApellido": "moreno",
+    "segundoApellido": "camacho",
     "cedula": 52788376,
-    "direccion": "TRANSVERSAL 83 A No 73-10   ALMERIA",
+    "direccion": "transversal 83 a no 73-10   almeria",
     "email": "katiusaka79@gmail.com"
   },
   "demanda": {

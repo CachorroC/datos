@@ -1,8 +1,8 @@
 {
-  "_llaveProceso": "11001400300520230084300",
+  "llaveProceso": "11001400300620230086400",
   "numero": 576,
   "cc": 1020754305,
-  "idProcesos": [132581550],
+  "idProcesos": [132663050],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3188015288
     },
-    "primerNombre": "JUAN",
-    "segundoNombre": "CAMILO",
-    "primerApellido": "VELASQUEZ",
-    "segundoApellido": "PEREIRA",
+    "primerNombre": "juan",
+    "segundoNombre": "camilo",
+    "primerApellido": "velasquez",
+    "segundoApellido": "pereira",
     "cedula": 1020754305,
-    "direccion": "Carrera 15 No. 127 - 32 Apartamento 105 Portaldel Country",
+    "direccion": "carrera 15 no. 127 - 32 apartamento 105 portaldel country",
     "email": "jcamilovp@gmail.com"
   },
   "demanda": {
@@ -29,19 +29,19 @@
     "municipio": "BOGOTA",
     "obligacion": [
       4610082832,
-      "Q '0000001020754305027001"
+      "Q 0000001020754305027001"
     ],
     "radicado": "2023 - 00843",
     "vencimientoPagare": [
       "2026-02-04T05:00:00.000Z",
       null
     ],
-    "expediente": "11001400300520230084300",
+    "expediente": "11001400300620230086400",
     "juzgados": [
       {
-        "id": 5,
-        "tipo": "JUZGADO 005 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-05-civil-municipal-de-bogota"
+        "id": 6,
+        "tipo": "JUZGADO 006 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-006-civil-municipal-de-bogota"
       }
     ]
   }

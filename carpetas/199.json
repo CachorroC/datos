@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "73449408900220170025900",
+  "llaveProceso": "73449408900220170025900",
   "numero": 199,
   "cc": 1106893308,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": 8612781,
       "celular": 3108612781
     },
-    "primerNombre": "MARTHA",
-    "segundoNombre": "LILIANA",
-    "primerApellido": "RAMIREZ",
-    "segundoApellido": "COLORADO",
+    "primerNombre": "martha",
+    "segundoNombre": "liliana",
+    "primerApellido": "ramirez",
+    "segundoApellido": "colorado",
     "cedula": 1106893308,
-    "direccion": "VEREDA BOQUERON , FINCA LA MILAGROSA, MUNICIPIO FUSA // CALLE 3 # 37 - 21 BARRIO SICAMORO, MELGAR",
+    "direccion": "vereda boqueron  finca la milagrosa municipio fusa // calle 3 # 37 - 21 barrio sicamoro melgar",
     "email": "liliaramirez17@gmail.com"
   },
   "demanda": {

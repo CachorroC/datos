@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307320170164700",
+  "llaveProceso": "11001400307320170164700",
   "numero": 364,
   "cc": 52102754,
   "idProcesos": [50923290],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "SANDRA",
-    "segundoNombre": "PATRICIA",
-    "primerApellido": "SANCHEZ",
-    "segundoApellido": "VELASQUEZ",
+    "primerNombre": "sandra",
+    "segundoNombre": "patricia",
+    "primerApellido": "sanchez",
+    "segundoApellido": "velasquez",
     "cedula": 52102754,
-    "direccion": "CALLE 6 B No 80 G-95 TORRE 5 APARTAMENTO 717",
+    "direccion": "calle 6 b no 80 g-95 torre 5 apartamento 717",
     "email": "spatriciasanchez2011@hotmail.com"
   },
   "demanda": {

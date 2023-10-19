@@ -1,8 +1,8 @@
 {
-  "_llaveProceso": "2589940010020200028900",
+  "llaveProceso": "2589940010020200028900",
   "numero": 534,
   "cc": 11337530,
-  "idProcesos": null,
+  "idProcesos": [],
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -10,17 +10,17 @@
       "fijo": null,
       "celular": 3115159670
     },
-    "primerNombre": "PEDRO",
-    "segundoNombre": "JULIO",
-    "primerApellido": "TRIVIÑO",
-    "segundoApellido": "VALBUENA",
+    "primerNombre": "pedro",
+    "segundoNombre": "julio",
+    "primerApellido": "triviño",
+    "segundoApellido": "valbuena",
     "cedula": 11337530,
-    "direccion": "VEREDA SAN JORGE ZIPAQUIRA",
+    "direccion": "vereda san jorge zipaquira",
     "email": "maribelbonita86@hotmail.com"
   },
   "demanda": {
     "capitalAdeudado": 33000.833,
-    "departamento": "CUNDINAMARCA",
+    "departamento": "CNDINAMARCA",
     "entregaGarantiasAbogado": "2020-09-05T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
@@ -28,7 +28,7 @@
     "fechaPresentacion": null,
     "municipio": "ZIPAQUIRA",
     "obligacion": [
-      377814085773793, 4513070445120640
+      377814085773793, 4.51307044512064e29
     ],
     "radicado": "2020 - 00289",
     "vencimientoPagare": [

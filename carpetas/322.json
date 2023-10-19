@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308620170120500",
+  "llaveProceso": "11001400308620170120500",
   "numero": 322,
   "cc": 63395806,
   "idProcesos": [81891881],
@@ -10,12 +10,12 @@
       "fijo": 5205695,
       "celular": 3112326151
     },
-    "primerNombre": "CLAUDIA",
-    "segundoNombre": "YAMILE",
-    "primerApellido": "SUAREZ",
-    "segundoApellido": "POBLADOR",
+    "primerNombre": "claudia",
+    "segundoNombre": "yamile",
+    "primerApellido": "suarez",
+    "segundoApellido": "poblador",
     "cedula": 63395806,
-    "direccion": "CALLE 127 C - No  2 B - 18  APARTAMENTO 101",
+    "direccion": "calle 127 c - no  2 b - 18  apartamento 101",
     "email": "claudiasuarezp@gmail.com"
   },
   "demanda": {

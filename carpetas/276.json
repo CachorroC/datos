@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754400300420170038100",
+  "llaveProceso": "25754400300420170038100",
   "numero": 276,
   "cc": 79200345,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": 9008364,
       "celular": 3204283595
     },
-    "primerNombre": "NELSON",
+    "primerNombre": "nelson",
     "segundoNombre": null,
-    "primerApellido": "MAYORGA",
-    "segundoApellido": "GOMEZ",
+    "primerApellido": "mayorga",
+    "segundoApellido": "gomez",
     "cedula": 79200345,
-    "direccion": "CARRERA 5  No 5 - 30 APARTAMENTO 202 SOACHA",
+    "direccion": "carrera 5  no 5 - 30 apartamento 202 soacha",
     "email": "nelson_mayorga@outlook.com"
   },
   "demanda": {

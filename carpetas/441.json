@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25899408900120180060900",
+  "llaveProceso": "25899408900120180060900",
   "numero": 441,
   "cc": 52064928,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3102762216
     },
-    "primerNombre": "YANETH",
+    "primerNombre": "yaneth",
     "segundoNombre": null,
-    "primerApellido": "MILLAN",
-    "segundoApellido": "PRIETO",
+    "primerApellido": "millan",
+    "segundoApellido": "prieto",
     "cedula": 52064928,
-    "direccion": "CARRERA 5 No 7-40 SUR",
+    "direccion": "carrera 5 no 7-40 sur",
     "email": "janeth2609@hotmail.com"
   },
   "demanda": {

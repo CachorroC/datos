@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303320230105600",
+  "llaveProceso": "11001400303320230105600",
   "numero": 581,
   "cc": 52760611,
   "idProcesos": [132789600],
@@ -10,13 +10,19 @@
       "fijo": null,
       "celular": 3116509661
     },
-    "primerNombre": "ANGELICA",
-    "segundoNombre": null,
-    "primerApellido": "GODOY",
-    "segundoApellido": "GUTIERREZ",
+    "primerNombre": "angelica",
+    "segundoNombre": "godoy",
+    "primerApellido": "gutierrez",
+    "segundoApellido": "y",
     "cedula": 52760611,
-    "direccion": "Carrera 145 144 C 72 Torre 7 Apartamento 904 Conjunto Residencial Almenara P.H  de la ciudad de Bogotá",
+    "direccion": "carrera 145 144 c 72 torre 7 apartamento 904 conjunto residencial almenara p.h  de la ciudad de bogotá",
     "email": "angelicagodoygutierrez@gmail.com"
+  },
+  "codeudor": {
+    "cedula": 80798225,
+    "direccion": "Carrera 145 144 C 72 TR 7 AP 904 Conjunto Residencial Almenara P.H",
+    "nombre": "edison andres tuta forero",
+    "telefono": "CELULAR 3116509661"
   },
   "demanda": {
     "capitalAdeudado": 51081.164,

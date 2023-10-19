@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25307400300320170033000",
+  "llaveProceso": "25307400300320170033000",
   "numero": 34,
   "cc": 1070612757,
   "idProcesos": [],
@@ -10,13 +10,16 @@
       "fijo": null,
       "celular": 3006308169
     },
-    "primerNombre": "KAREN",
-    "segundoNombre": "JULIETH",
-    "primerApellido": "PINZON",
-    "segundoApellido": "GUTIERREZ",
+    "primerNombre": "karen",
+    "segundoNombre": "julieth",
+    "primerApellido": "pinzon",
+    "segundoApellido": "gutierrez",
     "cedula": 1070612757,
-    "direccion": "M 7 TORRE 6 APTO 404 GIRARDOT// CALLE 3 No. 27-01 edificio torr 6 manzana 7 ciudadela Cafam del Sol apto 404",
+    "direccion": "m 7 torre 6 apto 404 girardot// calle 3 no. 27-01 edificio torr 6 manzana 7 ciudadela cafam del sol apto 404",
     "email": "kjpg_11@hotmail.com"
+  },
+  "codeudor": {
+    "telefono": "4762591//3118113651"
   },
   "demanda": {
     "capitalAdeudado": 26815877,

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308120180058300",
+  "llaveProceso": "11001400308120180058300",
   "numero": 432,
   "cc": 52757086,
   "idProcesos": [51914550, 81863401],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "LILIA",
-    "segundoNombre": "YANIRA",
-    "primerApellido": "DIAZ",
-    "segundoApellido": "CARO",
+    "primerNombre": "lilia",
+    "segundoNombre": "yanira",
+    "primerApellido": "diaz",
+    "segundoApellido": "caro",
     "cedula": 52757086,
-    "direccion": "CARRERA 5 N BIS No 49-31 SUR",
+    "direccion": "carrera 5 n bis no 49-31 sur",
     "email": "yannisf25@hotmail.com"
   },
   "demanda": {

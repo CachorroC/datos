@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301020180078400",
+  "llaveProceso": "11001400301020180078400",
   "numero": 443,
   "cc": 80424051,
   "idProcesos": [51264250],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3502092709
     },
-    "primerNombre": "DIEGO",
-    "segundoNombre": "FERNANDO",
-    "primerApellido": "BENITEZ",
-    "segundoApellido": "ALVARADO",
+    "primerNombre": "diego",
+    "segundoNombre": "fernando",
+    "primerApellido": "benitez",
+    "segundoApellido": "alvarado",
     "cedula": 80424051,
-    "direccion": "CARRERA 10 No 12-32, APTO 230 TORRE 8",
+    "direccion": "carrera 10 no 12-32 apto 230 torre 8",
     "email": "dieben71@gmail.com"
   },
   "demanda": {

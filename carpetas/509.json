@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25214400300120180100200",
+  "llaveProceso": "25214400300120180100200",
   "numero": 509,
   "cc": 20401209,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "DIANA",
-    "segundoNombre": "CAROLINA",
-    "primerApellido": "PRADO",
-    "segundoApellido": "FIQUITIVA",
+    "primerNombre": "diana",
+    "segundoNombre": "carolina",
+    "primerApellido": "prado",
+    "segundoApellido": "fiquitiva",
     "cedula": 20401209,
-    "direccion": "CALLE 7 No 5-31",
+    "direccion": "calle 7 no 5-31",
     "email": "todostienenzero@hotmail.com"
   },
   "demanda": {

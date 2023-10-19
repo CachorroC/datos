@@ -1,8 +1,8 @@
 {
-  "_llaveProceso": "25899400300220230044200",
+  "llaveProceso": "11001418904120230021200",
   "numero": 578,
   "cc": 35422519,
-  "idProcesos": [],
+  "idProcesos": [132645230],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3203172020
     },
-    "primerNombre": "DIANA",
-    "segundoNombre": "CRISTINA",
-    "primerApellido": "AREVALO",
-    "segundoApellido": "ARBOLEDA",
+    "primerNombre": "diana",
+    "segundoNombre": "cristina",
+    "primerApellido": "arevalo",
+    "segundoApellido": "arboleda",
     "cedula": 35422519,
-    "direccion": " CL 4 16 10 AP 201 Barrio Algarra III",
+    "direccion": "cl 4 16 10 ap 201 barrio algarra iii",
     "email": "dicrisare@gmail.com"
   },
   "demanda": {
@@ -33,7 +33,13 @@
     ],
     "radicado": "2023 - 00442",
     "vencimientoPagare": [null, null],
-    "expediente": "25899400300220230044200",
-    "juzgados": []
+    "expediente": "11001418904120230021200",
+    "juzgados": [
+      {
+        "id": 41,
+        "tipo": "JUZGADO 041 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-041-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
+      }
+    ]
   }
 }

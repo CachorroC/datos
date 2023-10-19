@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307220170107500",
+  "llaveProceso": "11001400307220170107500",
   "numero": 219,
   "cc": 80921416,
   "idProcesos": [50704760],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "BLAS",
+    "primerNombre": "blas",
     "segundoNombre": null,
-    "primerApellido": "LAITON",
-    "segundoApellido": "PATIÑO",
+    "primerApellido": "laiton",
+    "segundoApellido": "patiño",
     "cedula": 80921416,
-    "direccion": "CARRERA 99A # 61A - 19 CASA 61",
+    "direccion": "carrera 99a # 61a - 19 casa 61",
     "email": "layton_blas@live.com"
   },
   "demanda": {

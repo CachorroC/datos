@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418901620190108500",
+  "llaveProceso": "11001418901620190108500",
   "numero": 502,
   "cc": 1023861016,
   "idProcesos": [86958040],
@@ -7,24 +7,24 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ANGELICA",
-    "segundoNombre": "NATHALY",
-    "primerApellido": "ROZO",
-    "segundoApellido": "FRANCO",
+    "primerNombre": "angelica",
+    "segundoNombre": "nathaly",
+    "primerApellido": "rozo",
+    "segundoApellido": "franco",
     "cedula": 1023861016,
-    "direccion": "TRANSVERSAL 70G SUR-68-52 TORRE 18 APARTAMENTO 1401",
+    "direccion": "transversal 70g sur-68-52 torre 18 apartamento 1401",
     "email": "Anrf1985@hotmail.com"
   },
   "demanda": {
     "capitalAdeudado": 10930.1,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
+    "entregaGarantiasAbogado": "2018-12-10T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2019-06-19T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
-    "obligacion": [4594260107010410],
+    "obligacion": [4.59426010701041e29],
     "radicado": "2019 - 01085",
     "vencimientoPagare": [
       "2021-05-01T05:00:00.000Z"

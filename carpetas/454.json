@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308420180067300",
+  "llaveProceso": "11001400308420180067300",
   "numero": 454,
   "cc": 80089235,
   "idProcesos": [112068890],
@@ -10,12 +10,12 @@
       "fijo": 2863225,
       "celular": 3114473402
     },
-    "primerNombre": "NICOLAS",
-    "segundoNombre": "ERNESTO",
-    "primerApellido": "COCOMA",
-    "segundoApellido": "ARCINIEGAS",
+    "primerNombre": "nicolas",
+    "segundoNombre": "ernesto",
+    "primerApellido": "cocoma",
+    "segundoApellido": "arciniegas",
     "cedula": 80089235,
-    "direccion": "CALLE 151 No 14A-32 APTO 10",
+    "direccion": "calle 151 no 14a-32 apto 10",
     "email": "cocomarnico@gmail.com"
   },
   "demanda": {
@@ -24,7 +24,7 @@
     "entregaGarantiasAbogado": "2018-06-26T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2018-06-29T00:00:00.000Z",
-    "etapaProcesal": "11001400308420180067300",
+    "etapaProcesal": "1.100140030842018e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [

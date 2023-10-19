@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305920170087100",
+  "llaveProceso": "11001400305920170087100",
   "numero": 248,
   "cc": 19475788,
   "idProcesos": [50715970],
@@ -10,13 +10,19 @@
       "fijo": null,
       "celular": 3193196261
     },
-    "primerNombre": "HENRY",
+    "primerNombre": "henry",
     "segundoNombre": null,
-    "primerApellido": "CARRANZA",
-    "segundoApellido": "ALBA",
+    "primerApellido": "carranza",
+    "segundoApellido": "alba",
     "cedula": 19475788,
-    "direccion": "CALLE 31 SUR No 12-33",
+    "direccion": "calle 31 sur no 12-33",
     "email": "hemacarblan@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 1013592416,
+    "direccion": "CALLE 31 C SUR No 14A33",
+    "nombre": "felipe andres carranza blanco",
+    "telefono": "4786479 /3142987388"
   },
   "demanda": {
     "capitalAdeudado": null,

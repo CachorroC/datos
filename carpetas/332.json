@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754400100420180009800",
+  "llaveProceso": "25754400100420180009800",
   "numero": 332,
   "cc": 91284725,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": 9032416,
       "celular": 3168017488
     },
-    "primerNombre": "MIGUEL",
-    "segundoNombre": "ANTONIO",
-    "primerApellido": "SANCHEZ",
-    "segundoApellido": "MARROQUIN",
+    "primerNombre": "miguel",
+    "segundoNombre": "antonio",
+    "primerApellido": "sanchez",
+    "segundoApellido": "marroquin",
     "cedula": 91284725,
-    "direccion": "CARRERA 7 A  No  2 A - 35 TORRE 10 APARTAMENTO 303",
+    "direccion": "carrera 7 a  no  2 a - 35 torre 10 apartamento 303",
     "email": "nichemen@hotmail.com"
   },
   "demanda": {

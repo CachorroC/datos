@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305920170048300",
+  "llaveProceso": "11001400305920170048300",
   "numero": 106,
   "cc": 501492,
   "idProcesos": [50514310],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "DANIEL",
+    "primerNombre": "daniel",
     "segundoNombre": null,
-    "primerApellido": "HERNANDEZ",
-    "segundoApellido": "GONZALEZ",
+    "primerApellido": "hernandez",
+    "segundoApellido": "gonzalez",
     "cedula": 501492,
-    "direccion": "CALLE 134 No. 58-58",
+    "direccion": "calle 134 no. 58-58",
     "email": "danielher84@gmail.com"
   },
   "demanda": {

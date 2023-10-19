@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25817418900120170049400",
+  "llaveProceso": "25817418900120170049400",
   "numero": 189,
   "cc": 4547635,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": 3213559,
       "celular": 3142125039
     },
-    "primerNombre": "WILDER",
-    "segundoNombre": "DE",
-    "primerApellido": "JESUS",
-    "segundoApellido": "ROMAN GRISALES",
+    "primerNombre": "wilder",
+    "segundoNombre": "de",
+    "primerApellido": "jesus",
+    "segundoApellido": "roman grisales",
     "cedula": 4547635,
-    "direccion": "CALLE 10 # 8 - 07 TOCANCIPA",
+    "direccion": "calle 10 # 8 - 07 tocancipa",
     "email": "wilderj11@yahoo.com"
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303820180083500",
+  "llaveProceso": "11001400303820180083500",
   "numero": 455,
   "cc": 52434815,
   "idProcesos": [9093813],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "YENNY",
-    "segundoNombre": "MARCELA",
-    "primerApellido": "GOMEZ",
-    "segundoApellido": "OLARTE",
+    "primerNombre": "yenny",
+    "segundoNombre": "marcela",
+    "primerApellido": "gomez",
+    "segundoApellido": "olarte",
     "cedula": 52434815,
-    "direccion": "CALLE 43 SUR No 51F-23 PISO 2",
+    "direccion": "calle 43 sur no 51f-23 piso 2",
     "email": "yemargol@yahoo.es"
   },
   "demanda": {

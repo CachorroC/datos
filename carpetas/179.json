@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301120170108400",
+  "llaveProceso": "11001400301120170108400",
   "numero": 179,
   "cc": 12254068,
   "idProcesos": [50760030],
@@ -10,13 +10,19 @@
       "fijo": 5642974,
       "celular": 3218180993
     },
-    "primerNombre": "GUILLERMO",
+    "primerNombre": "guillermo",
     "segundoNombre": null,
-    "primerApellido": "GONZALEZ",
-    "segundoApellido": "TAGUA",
+    "primerApellido": "gonzalez",
+    "segundoApellido": "tagua",
     "cedula": 12254068,
-    "direccion": "CARRERA 30 No.68 J-08 SUR",
+    "direccion": "carrera 30 no.68 j-08 sur",
     "email": "guillermogonzalez_tagua@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 12254177,
+    "direccion": "DIAGONAL 68 J No.26-15 SUR",
+    "nombre": "javier gonzalez tagua",
+    "telefono": "5643632//3125598323"
   },
   "demanda": {
     "capitalAdeudado": 12687.427,

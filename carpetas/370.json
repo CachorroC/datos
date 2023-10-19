@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400302020170155600",
+  "llaveProceso": "11001400302020170155600",
   "numero": 370,
   "cc": 52840906,
   "idProcesos": [50918350],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "LILIAN",
-    "segundoNombre": "ANDREA",
-    "primerApellido": "HERNANDEZ",
-    "segundoApellido": "SUAREZ",
+    "primerNombre": "lilian",
+    "segundoNombre": "andrea",
+    "primerApellido": "hernandez",
+    "segundoApellido": "suarez",
     "cedula": 52840906,
-    "direccion": "CARRERA 51 B No 18-28 SUR",
+    "direccion": "carrera 51 b no 18-28 sur",
     "email": "hernandezsuarez28@hotmail.com"
   },
   "demanda": {

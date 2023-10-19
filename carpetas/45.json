@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301920170052800",
+  "llaveProceso": "11001400301920170052800",
   "numero": 45,
   "cc": 4042105,
   "idProcesos": [74646350],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3123142449
     },
-    "primerNombre": "EDISON",
+    "primerNombre": "edison",
     "segundoNombre": null,
-    "primerApellido": "PALMA",
-    "segundoApellido": "CARDENAL",
+    "primerApellido": "palma",
+    "segundoApellido": "cardenal",
     "cedula": 4042105,
-    "direccion": "SIN INFORMACION",
+    "direccion": "sin informacion",
     "email": null
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308220170125600",
+  "llaveProceso": "11001400308220170125600",
   "numero": 305,
   "cc": 19479861,
   "idProcesos": [51701110],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "FERNANDO",
+    "primerNombre": "fernando",
     "segundoNombre": null,
-    "primerApellido": "RINCON",
-    "segundoApellido": "RODRIGUEZ",
+    "primerApellido": "rincon",
+    "segundoApellido": "rodriguez",
     "cedula": 19479861,
-    "direccion": "DIAGONAL 5 D BIS No 44 A -45",
+    "direccion": "diagonal 5 d bis no 44 a -45",
     "email": "serinconr@hotmail.com"
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": "2017-10-17T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
-    "etapaProcesal": "11001400308220170125600",
+    "etapaProcesal": "1.100140030822017e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [12048231],

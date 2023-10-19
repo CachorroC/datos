@@ -1,18 +1,18 @@
 {
-  "_llaveProceso": "1100140030732017015300",
+  "llaveProceso": "1100140030732017015300",
   "numero": 192,
   "cc": 53053612,
-  "idProcesos": null,
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "DIANA",
-    "segundoNombre": "PATRICIA",
-    "primerApellido": "SANCHEZ",
-    "segundoApellido": "SALCEDO",
+    "primerNombre": "diana",
+    "segundoNombre": "patricia",
+    "primerApellido": "sanchez",
+    "segundoApellido": "salcedo",
     "cedula": 53053612,
-    "direccion": "TRANVERSAL 142 # 150 - 50 CASA 2 ET 8",
+    "direccion": "tranversal 142 # 150 - 50 casa 2 et 8",
     "email": "baldini@mybosi.com"
   },
   "demanda": {

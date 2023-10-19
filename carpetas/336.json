@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303020170175600",
+  "llaveProceso": "11001400303020170175600",
   "numero": 336,
   "cc": 79860814,
   "idProcesos": [50861670],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JOSE",
-    "segundoNombre": "ALFREDO",
-    "primerApellido": "CARDOZO",
-    "segundoApellido": "RODRIGUEZ",
+    "primerNombre": "jose",
+    "segundoNombre": "alfredo",
+    "primerApellido": "cardozo",
+    "segundoApellido": "rodriguez",
     "cedula": 79860814,
-    "direccion": "CALLE 63 No   26 - 10",
+    "direccion": "calle 63 no   26 - 10",
     "email": "catirimorales79@hotmail.com"
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305920230031500",
+  "llaveProceso": "11001400305920230031500",
   "numero": 558,
   "cc": 52531016,
   "idProcesos": [132018670],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3106736494
     },
-    "primerNombre": "CLAUDIA",
-    "segundoNombre": "MARCELA",
-    "primerApellido": "ARIAS",
-    "segundoApellido": "LÓPEZ",
+    "primerNombre": "claudia",
+    "segundoNombre": "marcela",
+    "primerApellido": "arias",
+    "segundoApellido": "lópez",
     "cedula": 52531016,
-    "direccion": "Calle 18 N 86 55 Etapa 1 Torre 5 Apartamento 403 Conjunto Residencial Parque de Ostente",
+    "direccion": "calle 18 n 86 55 etapa 1 torre 5 apartamento 403 conjunto residencial parque de ostente",
     "email": "marcearias@yahoo.com"
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400302520170080700",
+  "llaveProceso": "11001400302520170080700",
   "numero": 184,
   "cc": 17650971,
   "idProcesos": [50623380, 81652411],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JUAN",
-    "segundoNombre": "CARLOS",
-    "primerApellido": "TOVAR",
-    "segundoApellido": "TOLEDO",
+    "primerNombre": "juan",
+    "segundoNombre": "carlos",
+    "primerApellido": "tovar",
+    "segundoApellido": "toledo",
     "cedula": 17650971,
-    "direccion": "CARRERA 86 # 69 H - 40",
+    "direccion": "carrera 86 # 69 h - 40",
     "email": null
   },
   "demanda": {

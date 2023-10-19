@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307320170154500",
+  "llaveProceso": "11001400307320170154500",
   "numero": 346,
   "cc": 1019101174,
   "idProcesos": [50866190],
@@ -10,12 +10,12 @@
       "fijo": 4668308,
       "celular": 3016393345
     },
-    "primerNombre": "PAULA",
-    "segundoNombre": "ANDREA",
-    "primerApellido": "GOMEZ",
-    "segundoApellido": "LOPEZ",
+    "primerNombre": "paula",
+    "segundoNombre": "andrea",
+    "primerApellido": "gomez",
+    "segundoApellido": "lopez",
     "cedula": 1019101174,
-    "direccion": "CALLE 13 B No 72 A - 40 INRERIOR  2 APARTAMENTO 402",
+    "direccion": "calle 13 b no 72 a - 40 inrerior  2 apartamento 402",
     "email": "paulisgomez94@gmail.com"
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305620180011000",
+  "llaveProceso": "11001400305620180011000",
   "numero": 384,
   "cc": 80026753,
   "idProcesos": [50980370],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3202116040
     },
-    "primerNombre": "DIEGO",
-    "segundoNombre": "JAVIER",
-    "primerApellido": "GALINDO",
-    "segundoApellido": "MEJIA",
+    "primerNombre": "diego",
+    "segundoNombre": "javier",
+    "primerApellido": "galindo",
+    "segundoApellido": "mejia",
     "cedula": 80026753,
-    "direccion": "TRANSVERSAL 73 # 11B - 77 INT 2 APTO 504",
+    "direccion": "transversal 73 # 11b - 77 int 2 apto 504",
     "email": "d8003galindo@gmail.com"
   },
   "demanda": {

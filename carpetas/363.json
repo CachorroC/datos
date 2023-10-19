@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754400300220170040900",
+  "llaveProceso": "25754400300220170040900",
   "numero": 363,
   "cc": 52645617,
   "idProcesos": [],
@@ -7,14 +7,15 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MARIA",
-    "segundoNombre": "LILIANA",
-    "primerApellido": "CASTAÑEDA",
-    "segundoApellido": "ZAPATA",
+    "primerNombre": "maria",
+    "segundoNombre": "liliana",
+    "primerApellido": "castañeda",
+    "segundoApellido": "zapata",
     "cedula": 52645617,
     "direccion": null,
     "email": "CARRERA 4 A ESTE No 38 - 56 CASA 127 SOACHA"
   },
+  "codeudor": { "direccion": "27-07-2028" },
   "demanda": {
     "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",

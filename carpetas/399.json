@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303720180013200",
+  "llaveProceso": "11001400303720180013200",
   "numero": 399,
   "cc": 79704579,
   "idProcesos": [8833783],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "GIOVANNI",
+    "primerNombre": "giovanni",
     "segundoNombre": "",
-    "primerApellido": "PERDOMO",
-    "segundoApellido": "QUIROGA",
+    "primerApellido": "perdomo",
+    "segundoApellido": "quiroga",
     "cedula": 79704579,
-    "direccion": "CARRER PUBICHAS CASA 27 D EXTERIOR",
+    "direccion": "carrer pubichas casa 27 d exterior",
     "email": "giogol5@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 1030559747,
+    "direccion": "CARRERA 11 ESTE No 12 SUR-48",
+    "nombre": "angelica maria torres quiroga",
+    "telefono": 3372263
   },
   "demanda": {
     "capitalAdeudado": null,

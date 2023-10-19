@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400302420170170800",
+  "llaveProceso": "11001400302420170170800",
   "numero": 356,
   "cc": 53119460,
   "idProcesos": [50905230],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": 4707082, "celular": null },
-    "primerNombre": "SONIA",
-    "segundoNombre": "XIMENA",
-    "primerApellido": "RODRIGUEZ",
-    "segundoApellido": "SANCHEZ",
+    "primerNombre": "sonia",
+    "segundoNombre": "ximena",
+    "primerApellido": "rodriguez",
+    "segundoApellido": "sanchez",
     "cedula": 53119460,
-    "direccion": "CARRERA 81 B No  19 B- 50 APARTAMENTO 601",
+    "direccion": "carrera 81 b no  19 b- 50 apartamento 601",
     "email": "ximenars29@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 80732347,
+    "direccion": "CARRERA 81 B No  19 B- 50 APARTAMENTO 601",
+    "nombre": "yeiser alexis florez coronado",
+    "telefono": "4707082 / 3143227603"
   },
   "demanda": {
     "capitalAdeudado": null,
@@ -21,7 +27,7 @@
     "entregaGarantiasAbogado": "2017-11-28T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
-    "etapaProcesal": "11001400302420170170800",
+    "etapaProcesal": "1.100140030242017e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [162697],

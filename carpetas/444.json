@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304020180089600",
+  "llaveProceso": "11001400304020180089600",
   "numero": 444,
   "cc": 79562532,
   "idProcesos": [19161681],
@@ -7,10 +7,10 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "PABLO",
-    "segundoNombre": "CESAR",
-    "primerApellido": "SOACHA",
-    "segundoApellido": "MORALES",
+    "primerNombre": "pablo",
+    "segundoNombre": "cesar",
+    "primerApellido": "soacha",
+    "segundoApellido": "morales",
     "cedula": 79562532,
     "direccion": null,
     "email": "CALLE 34 No 34C- 38 SUR"
@@ -24,10 +24,7 @@
     "etapaProcesal": "43270",
     "fechaPresentacion": "2018-06-26T00:00:00.000Z",
     "municipio": "BOGOTA",
-    "obligacion": [
-      377816279930352,
-      "36,820,559,51"
-    ],
+    "obligacion": [377816279930352, 3682055951],
     "radicado": "2018 - 00896",
     "vencimientoPagare": [null],
     "expediente": "11001400304020180089600",

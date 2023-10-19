@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308220180096400",
+  "llaveProceso": "11001400308220180096400",
   "numero": 541,
   "cc": 79533771,
   "idProcesos": [52160520, 112967583],
@@ -7,26 +7,26 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JOSE",
-    "segundoNombre": "RAMON",
-    "primerApellido": "ESTRADA",
-    "segundoApellido": "CASTILLO",
+    "primerNombre": "jose",
+    "segundoNombre": "ramon",
+    "primerApellido": "estrada",
+    "segundoApellido": "castillo",
     "cedula": 79533771,
-    "direccion": "CARRERA 81 G No 48-03 SUR",
+    "direccion": "carrera 81 g no 48-03 sur",
     "email": "jrestradacastillo@gmail.com"
   },
   "demanda": {
     "capitalAdeudado": 39855.851,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-08-31T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-09-17T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2018-10-09T05:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       "AUDIOPRESTAMO",
-      5491580436291960
+      5.49158043629196e29
     ],
     "radicado": "2018 - 00964",
     "vencimientoPagare": [

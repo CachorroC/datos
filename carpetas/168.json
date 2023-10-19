@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301920170087200",
+  "llaveProceso": "11001400301920170087200",
   "numero": 168,
   "cc": 21046826,
   "idProcesos": [50667300],
@@ -10,13 +10,19 @@
       "fijo": 6861327,
       "celular": 3164673352
     },
-    "primerNombre": "MARIA",
-    "segundoNombre": "STELLA",
-    "primerApellido": "HERNANDEZ",
-    "segundoApellido": "BELTRAN",
+    "primerNombre": "maria",
+    "segundoNombre": "stella",
+    "primerApellido": "hernandez",
+    "segundoApellido": "beltran",
     "cedula": 21046826,
-    "direccion": "CARRERA 7 # 71 - 24",
+    "direccion": "carrera 7 # 71 - 24",
     "email": "sergio830@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 53067291,
+    "direccion": "CARRERA 102B # 140A - 45 SEGUNDO PISO",
+    "nombre": "cindy mabel alvarado hernandez",
+    "telefono": 8033725
   },
   "demanda": {
     "capitalAdeudado": null,

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305220170080900",
+  "llaveProceso": "11001400305220170080900",
   "numero": 115,
   "cc": 52174728,
   "idProcesos": [11719343],
@@ -10,12 +10,12 @@
       "fijo": 5741561,
       "celular": 3212344417
     },
-    "primerNombre": "SILVIA",
-    "segundoNombre": "MARIA",
-    "primerApellido": "VALENZUELA",
-    "segundoApellido": "VELASQUEZ",
+    "primerNombre": "silvia",
+    "segundoNombre": "maria",
+    "primerApellido": "valenzuela",
+    "segundoApellido": "velasquez",
     "cedula": 52174728,
-    "direccion": "CARRERA 80 # 41G - 09 SUR",
+    "direccion": "carrera 80 # 41g - 09 sur",
     "email": "jucana92@hotmail.com"
   },
   "demanda": {

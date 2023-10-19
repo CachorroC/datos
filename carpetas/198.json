@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304020170132900",
+  "llaveProceso": "11001400304020170132900",
   "numero": 198,
   "cc": 1012318156,
   "idProcesos": [19150031],
@@ -10,12 +10,12 @@
       "fijo": 3142498,
       "celular": 3142998727
     },
-    "primerNombre": "HECTOR",
-    "segundoNombre": "MANUEL",
-    "primerApellido": "RAMIREZ",
-    "segundoApellido": "PUENTES",
+    "primerNombre": "hector",
+    "segundoNombre": "manuel",
+    "primerApellido": "ramirez",
+    "segundoApellido": "puentes",
     "cedula": 1012318156,
-    "direccion": "CARRERA 80M # 74 - 04 SUR",
+    "direccion": "carrera 80m # 74 - 04 sur",
     "email": "hectormanuelverdolaga@gmail.com"
   },
   "demanda": {

@@ -1,8 +1,8 @@
 {
-  "_llaveProceso": "11001418900920230131000",
+  "llaveProceso": "11001400305520230074600",
   "numero": 573,
   "cc": 52327261,
-  "idProcesos": [],
+  "idProcesos": [1829856154],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -10,12 +10,12 @@
       "fijo": 4152969,
       "celular": 3203369576
     },
-    "primerNombre": "SANDRA",
-    "segundoNombre": "PATRICIA",
-    "primerApellido": "GALVIS",
-    "segundoApellido": "ALMANZA",
+    "primerNombre": "sandra",
+    "segundoNombre": "patricia",
+    "primerApellido": "galvis",
+    "segundoApellido": "almanza",
     "cedula": 52327261,
-    "direccion": "CR 104 No 13D 77 CS 241 Conjunto Residencial Sabanagrande 1",
+    "direccion": "cr 104 no 13d 77 cs 241 conjunto residencial sabanagrande 1",
     "email": "galvis-almanza@hotmail.com"
   },
   "demanda": {
@@ -33,7 +33,13 @@
       null,
       "2026-04-08T05:00:00.000Z"
     ],
-    "expediente": "11001418900920230131000",
-    "juzgados": []
+    "expediente": "11001400305520230074600",
+    "juzgados": [
+      {
+        "id": 55,
+        "tipo": "JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-55-civil-municipal-de-bogota"
+      }
+    ]
   }
 }

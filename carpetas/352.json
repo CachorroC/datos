@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307620170101600",
+  "llaveProceso": "11001400307620170101600",
   "numero": 352,
   "cc": 71992491,
   "idProcesos": [51499790, 81847081],
@@ -7,17 +7,23 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MARIO",
-    "segundoNombre": "DE",
-    "primerApellido": "JESUS",
-    "segundoApellido": "OSSA PULGARIN",
+    "primerNombre": "mario",
+    "segundoNombre": "de",
+    "primerApellido": "jesus",
+    "segundoApellido": "ossa pulgarin",
     "cedula": 71992491,
-    "direccion": "TRANSVERSAL 2 C BIS No 97 B-05 SUR",
+    "direccion": "transversal 2 c bis no 97 b-05 sur",
     "email": null
+  },
+  "codeudor": {
+    "cedula": 24764240,
+    "direccion": "TRANSVERSAL 2 C BIS No 97 B -05 SUR",
+    "nombre": "blanca nubia lopez cifuentes",
+    "telefono": 3144245852
   },
   "demanda": {
     "capitalAdeudado": 11853.652,
-    "departamento": "CUNDINAMARCA",
+    "departamento": "CUNDINAMRCA",
     "entregaGarantiasAbogado": "2017-09-29T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-10-25T00:00:00.000Z",

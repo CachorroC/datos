@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001408900420180038400",
+  "llaveProceso": "11001408900420180038400",
   "numero": 468,
   "cc": 79719969,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": 2400591,
       "celular": 3102438242
     },
-    "primerNombre": "CARLOS",
-    "segundoNombre": "EDUARDO",
-    "primerApellido": "NARANJO",
-    "segundoApellido": "PIÑEROS",
+    "primerNombre": "carlos",
+    "segundoNombre": "eduardo",
+    "primerApellido": "naranjo",
+    "segundoApellido": "piñeros",
     "cedula": 79719969,
-    "direccion": "CALLE 63 BIS No 69 a-29",
+    "direccion": "calle 63 bis no 69 a-29",
     "email": "cenp11@hotmail.com"
   },
   "demanda": {
@@ -24,7 +24,7 @@
     "entregaGarantiasAbogado": "2018-08-03T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2018-08-09T00:00:00.000Z",
-    "etapaProcesal": "11001418900420180038400",
+    "etapaProcesal": "1.100141890042018e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [3880083739, 377813300070688],

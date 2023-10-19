@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400302120170175500",
+  "llaveProceso": "11001400302120170175500",
   "numero": 19,
   "cc": 80001905,
   "idProcesos": [50869770],
@@ -7,17 +7,23 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ELIACID",
+    "primerNombre": "eliacid",
     "segundoNombre": null,
-    "primerApellido": "CHAVES",
-    "segundoApellido": "OBANDO",
+    "primerApellido": "chaves",
+    "segundoApellido": "obando",
     "cedula": 80001905,
-    "direccion": "CALLE 42 SUR No 87 C -18  INTERIOR 2 APARTAMENTO 203",
+    "direccion": "calle 42 sur no 87 c -18  interior 2 apartamento 203",
     "email": "eliacid@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 52171586,
+    "direccion": "CARRERA 88 C No 42 - 20 SUR",
+    "nombre": "sandra patricia rodriiguez rodrriiguez",
+    "telefono": 4062058
   },
   "demanda": {
     "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
+    "departamento": "CUNDINNAMARCA",
     "entregaGarantiasAbogado": "2017-09-19T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,

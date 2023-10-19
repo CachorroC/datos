@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400302720180057700",
+  "llaveProceso": "11001400302720180057700",
   "numero": 538,
   "cc": 41564331,
   "idProcesos": [51206070],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "GLORIA",
-    "segundoNombre": "GIRALDO",
-    "primerApellido": "DE",
-    "segundoApellido": "ROVIDA",
+    "primerNombre": "gloria",
+    "segundoNombre": "giraldo",
+    "primerApellido": "de",
+    "segundoApellido": "rovida",
     "cedula": 41564331,
-    "direccion": "CALLE 40 No 8-86",
+    "direccion": "calle 40 no 8-86",
     "email": "grovida@gmail.com"
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": "2018-05-17T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2018-05-22T00:00:00.000Z",
-    "etapaProcesal": "11001400302720180057700",
+    "etapaProcesal": "1.100140030272018e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [4099840046475270],

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25785418900120180017100",
+  "llaveProceso": "25785418900120180017100",
   "numero": 479,
   "cc": 39809183,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "TANIA",
-    "segundoNombre": "CONSUELO",
-    "primerApellido": "BOTIA",
-    "segundoApellido": "CORREA",
+    "primerNombre": "tania",
+    "segundoNombre": "consuelo",
+    "primerApellido": "botia",
+    "segundoApellido": "correa",
     "cedula": 39809183,
-    "direccion": "CALLE 8 No 0-105  TABIO",
+    "direccion": "calle 8 no 0-105  tabio",
     "email": "tani_botia@hotmail.com"
   },
   "demanda": {

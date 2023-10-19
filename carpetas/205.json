@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301220170097100",
+  "llaveProceso": "11001400301220170097100",
   "numero": 205,
   "cc": 51856244,
   "idProcesos": [50669130],
@@ -10,13 +10,19 @@
       "fijo": 7616370,
       "celular": 3143313269
     },
-    "primerNombre": "NELIDA",
-    "segundoNombre": "DEL",
-    "primerApellido": "CARMEN",
-    "segundoApellido": "RIVERA MESA",
+    "primerNombre": "nelida",
+    "segundoNombre": "del",
+    "primerApellido": "carmen",
+    "segundoApellido": "rivera mesa",
     "cedula": 51856244,
-    "direccion": "CARRERA 2A BIS A ESTE # 89A  SUR",
+    "direccion": "carrera 2a bis a este # 89a  sur",
     "email": null
+  },
+  "codeudor": {
+    "cedula": 79604259,
+    "direccion": "CARRERA 138A # 142B - 11",
+    "nombre": "fabio alberto rivera mesa",
+    "telefono": 3118869672
   },
   "demanda": {
     "capitalAdeudado": 14068.639,

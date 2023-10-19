@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25899400300220170027000",
+  "llaveProceso": "25899400300220170027000",
   "numero": 68,
   "cc": 35412591,
   "idProcesos": [],
@@ -10,14 +10,15 @@
       "fijo": null,
       "celular": 3114720151
     },
-    "primerNombre": "MARTHA",
-    "segundoNombre": "STELLA",
-    "primerApellido": "GOMEZ",
-    "segundoApellido": "BOLIVAR",
+    "primerNombre": "martha",
+    "segundoNombre": "stella",
+    "primerApellido": "gomez",
+    "segundoApellido": "bolivar",
     "cedula": 35412591,
-    "direccion": "CARRERA 7 No. 25-51 BQ/ TO 9 APTO 104 PARQUE RESIDENCIAL VILLAZO ZIPAQUIRA",
+    "direccion": "carrera 7 no. 25-51 bq/ to 9 apto 104 parque residencial villazo zipaquira",
     "email": null
   },
+  "codeudor": { "cedula": 11337901 },
   "demanda": {
     "capitalAdeudado": 16302.625,
     "departamento": "CUNDINAMARCA",

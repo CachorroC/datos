@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306820200102100",
+  "llaveProceso": "11001400306820200102100",
   "numero": 532,
   "cc": 900520023,
   "idProcesos": [112628300],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "DIMOIN",
+    "primerNombre": "dimoin",
     "segundoNombre": null,
-    "primerApellido": "COLOMBIA",
-    "segundoApellido": "S.A.S.",
+    "primerApellido": "colombia",
+    "segundoApellido": "s.a.s.",
     "cedula": 900520023,
-    "direccion": "AV BOYACA 63D - 26 OFICINA 103",
+    "direccion": "av boyaca 63d - 26 oficina 103",
     "email": null
   },
   "demanda": {
@@ -24,7 +24,9 @@
     "etapaProcesal": "CONTESTACIÓN DEMANDA",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
-    "obligacion": [65886140334, 4594260446916180],
+    "obligacion": [
+      65886140334, 4.59426044691618e29
+    ],
     "radicado": "2020-1021",
     "vencimientoPagare": [
       "2015-01-01T00:00:00.000Z"

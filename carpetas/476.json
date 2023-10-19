@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418901220180064200",
+  "llaveProceso": "11001418901220180064200",
   "numero": 476,
   "cc": 1081395456,
   "idProcesos": [],
@@ -7,10 +7,10 @@
   "tipoProceso": "HIPOTECARIA",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ARNULFO",
+    "primerNombre": "arnulfo",
     "segundoNombre": null,
-    "primerApellido": "PASTES",
-    "segundoApellido": "DAZA",
+    "primerApellido": "pastes",
+    "segundoApellido": "daza",
     "cedula": 1081395456,
     "direccion": null,
     "email": "CARRERA 24B No 44-24"

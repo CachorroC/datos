@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25430400300120230129500",
+  "llaveProceso": "25430400300120230129500",
   "numero": 582,
   "cc": 7228260,
   "idProcesos": [160042431],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3133073186
     },
-    "primerNombre": "PEDRO",
-    "segundoNombre": "ANTONIO",
-    "primerApellido": "DUARTE",
-    "segundoApellido": "VARGAS",
+    "primerNombre": "pedro",
+    "segundoNombre": "antonio",
+    "primerApellido": "duarte",
+    "segundoApellido": "vargas",
     "cedula": 7228260,
-    "direccion": "Calle 23 No. 12 - 50 Bloque 14 Apto 15 Madrid (Cundinamarca)",
+    "direccion": "calle 23 no. 12 - 50 bloque 14 apto 15 madrid (cundinamarca)",
     "email": "duartepedroantonio@hotmail.com"
   },
   "demanda": {

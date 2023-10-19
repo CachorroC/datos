@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306520170178600",
+  "llaveProceso": "11001400306520170178600",
   "numero": 359,
   "cc": 79357895,
   "idProcesos": [18169790],
@@ -10,16 +10,16 @@
       "fijo": 1665335,
       "celular": 3165335586
     },
-    "primerNombre": "JOSE",
-    "segundoNombre": "DAVID",
-    "primerApellido": "PEÑA",
-    "segundoApellido": "SAAVEDRA",
+    "primerNombre": "jose",
+    "segundoNombre": "david",
+    "primerApellido": "peña",
+    "segundoApellido": "saavedra",
     "cedula": 79357895,
-    "direccion": "CARRERA 123 No 13 - 85 casa 364",
+    "direccion": "carrera 123 no 13 - 85 casa 364",
     "email": null
   },
   "demanda": {
-    "capitalAdeudado": null,
+    "capitalAdeudado": 872532.175,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",

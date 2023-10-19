@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304920180019100",
+  "llaveProceso": "11001400304920180019100",
   "numero": 403,
   "cc": 52361215,
   "idProcesos": [10955643],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "CLAUDIA",
-    "segundoNombre": "YANETH",
-    "primerApellido": "VALENCIA",
-    "segundoApellido": "AYA",
+    "primerNombre": "claudia",
+    "segundoNombre": "yaneth",
+    "primerApellido": "valencia",
+    "segundoApellido": "aya",
     "cedula": 52361215,
-    "direccion": "DIAGONAL 77 B No 123 A- 43 CASA 173",
+    "direccion": "diagonal 77 b no 123 a- 43 casa 173",
     "email": "claudia.1120@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 21046617,
+    "direccion": "CARRERA 89 B No 85 B-25",
+    "nombre": "bertha judith aya de valencia",
+    "telefono": "74881010 / 3202269928"
   },
   "demanda": {
     "capitalAdeudado": null,

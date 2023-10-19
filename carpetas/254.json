@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25175408900320170047700",
+  "llaveProceso": "25175408900320170047700",
   "numero": 254,
   "cc": 52344904,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": 8615372,
       "celular": 3103291690
     },
-    "primerNombre": "YOHAIRA",
+    "primerNombre": "yohaira",
     "segundoNombre": null,
-    "primerApellido": "PRADO",
-    "segundoApellido": "VALOYES",
+    "primerApellido": "prado",
+    "segundoApellido": "valoyes",
     "cedula": 52344904,
-    "direccion": "CARRERA 9A 14F - 28C - UNIDAD 22 CHIA",
+    "direccion": "carrera 9a 14f - 28c - unidad 22 chia",
     "email": "yohairapadro@gmail.com"
   },
   "demanda": {

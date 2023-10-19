@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754400300320170021100",
+  "llaveProceso": "25754400300320170021100",
   "numero": 31,
   "cc": 79590985,
   "idProcesos": [],
@@ -10,13 +10,19 @@
       "fijo": 7793347,
       "celular": 3014192323
     },
-    "primerNombre": "JORGE",
+    "primerNombre": "jorge",
     "segundoNombre": null,
-    "primerApellido": "PEREZ",
+    "primerApellido": "perez",
     "segundoApellido": null,
     "cedula": 79590985,
-    "direccion": "CARRERA 13 sur No. 49-37 soacha y venida 19 nO. 118-95 ofc 411",
+    "direccion": "carrera 13 sur no. 49-37 soacha y venida 19 no. 118-95 ofc 411",
     "email": "jpkafu@gmail.com"
+  },
+  "codeudor": {
+    "cedula": 28550572,
+    "direccion": "CARRERA 13 SUR No. 49-37",
+    "nombre": "blanca senet pineda",
+    "telefono": 3012692815
   },
   "demanda": {
     "capitalAdeudado": null,

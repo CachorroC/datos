@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418901420190065600",
+  "llaveProceso": "11001418901420190065600",
   "numero": 463,
   "cc": 52883958,
   "idProcesos": [51816100, 135801811],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "LEIDY",
-    "segundoNombre": "YANETH",
-    "primerApellido": "VIDAL",
-    "segundoApellido": "RODRIGUEZ",
+    "primerNombre": "leidy",
+    "segundoNombre": "yaneth",
+    "primerApellido": "vidal",
+    "segundoApellido": "rodriguez",
     "cedula": 52883958,
-    "direccion": "DIAGONAL 2 No 21 B-20",
+    "direccion": "diagonal 2 no 21 b-20",
     "email": "leidyyaneth.lyv@gmail.com"
   },
   "demanda": {

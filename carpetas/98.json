@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301120170062300",
+  "llaveProceso": "11001400301120170062300",
   "numero": 98,
   "cc": 41672170,
   "idProcesos": [50543070],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MARIA",
-    "segundoNombre": "DEL",
-    "primerApellido": "CARMEN",
-    "segundoApellido": "CHAPARRO LEMUS",
+    "primerNombre": "maria",
+    "segundoNombre": "del",
+    "primerApellido": "carmen",
+    "segundoApellido": "chaparro lemus",
     "cedula": 41672170,
-    "direccion": "CARRERA 50A # 68 - 39",
+    "direccion": "carrera 50a # 68 - 39",
     "email": "carmenzachaparro@outlook.com"
   },
   "demanda": {

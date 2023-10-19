@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306420170123100",
+  "llaveProceso": "11001400306420170123100",
   "numero": 78,
   "cc": 7711481,
   "idProcesos": [17942390],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3158939957
     },
-    "primerNombre": "JAIME",
-    "segundoNombre": "EDISON",
-    "primerApellido": "SANTOS",
-    "segundoApellido": "MARTIN",
+    "primerNombre": "jaime",
+    "segundoNombre": "edison",
+    "primerApellido": "santos",
+    "segundoApellido": "martin",
     "cedula": 7711481,
-    "direccion": "CALLE 44D # 45 - 45 APTO 904 INT 7U",
+    "direccion": "calle 44d # 45 - 45 apto 904 int 7u",
     "email": "santosjaime07@yahoo.es"
   },
   "demanda": {

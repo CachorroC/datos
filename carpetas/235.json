@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300820170113400",
+  "llaveProceso": "11001400300820170113400",
   "numero": 235,
   "cc": 79853115,
   "idProcesos": [50716620],
@@ -10,12 +10,12 @@
       "fijo": 8060271,
       "celular": 3212406193
     },
-    "primerNombre": "FANOR",
+    "primerNombre": "fanor",
     "segundoNombre": null,
-    "primerApellido": "DIAZ",
-    "segundoApellido": "AGUDELO",
+    "primerApellido": "diaz",
+    "segundoApellido": "agudelo",
     "cedula": 79853115,
-    "direccion": "DIAGONAL 56 BIS 84 A 10 SUR TR 1",
+    "direccion": "diagonal 56 bis 84 a 10 sur tr 1",
     "email": "fanor.diaz@gmail.com"
   },
   "demanda": {

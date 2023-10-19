@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301820170152200",
+  "llaveProceso": "11001400301820170152200",
   "numero": 289,
   "cc": 12229243,
   "idProcesos": [50711570],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JOSE",
-    "segundoNombre": "AHINSONJOBER",
-    "primerApellido": "TORO",
-    "segundoApellido": "VARGAS",
+    "primerNombre": "jose",
+    "segundoNombre": "ahinsonjober",
+    "primerApellido": "toro",
+    "segundoApellido": "vargas",
     "cedula": 12229243,
-    "direccion": "AVENIDA 1 DE MAYO No 29-06",
+    "direccion": "avenida 1 de mayo no 29-06",
     "email": "serdiajo@gmail.com"
   },
   "demanda": {
@@ -24,7 +24,7 @@
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-09-14T00:00:00.000Z",
     "municipio": "BOGOTA",
-    "obligacion": [5306940432740470],
+    "obligacion": [5.30694043274047e29],
     "radicado": "2017 - 01522",
     "vencimientoPagare": [
       "2020-03-22T00:00:00.000Z"

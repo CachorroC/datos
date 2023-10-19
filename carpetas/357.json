@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305520170137800",
+  "llaveProceso": "11001400305520170137800",
   "numero": 357,
   "cc": 1012330386,
   "idProcesos": [17054094],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "DIANA",
-    "segundoNombre": "SAYURI",
-    "primerApellido": "RODRIGUEZ",
-    "segundoApellido": "GARCIA",
+    "primerNombre": "diana",
+    "segundoNombre": "sayuri",
+    "primerApellido": "rodriguez",
+    "segundoApellido": "garcia",
     "cedula": 1012330386,
-    "direccion": "CALLE 79 SUR No 77 L- 72 INT 59",
+    "direccion": "calle 79 sur no 77 l- 72 int 59",
     "email": "disayuri@hotmail.com"
   },
   "demanda": {

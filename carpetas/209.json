@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306420170119100",
+  "llaveProceso": "11001400306420170119100",
   "numero": 209,
   "cc": 79852094,
   "idProcesos": [50672820],
@@ -10,12 +10,12 @@
       "fijo": 1006108,
       "celular": 3212406004
     },
-    "primerNombre": "CESAR",
-    "segundoNombre": "ALFONSO",
-    "primerApellido": "UMAÑA",
-    "segundoApellido": "CAÑON",
+    "primerNombre": "cesar",
+    "segundoNombre": "alfonso",
+    "primerApellido": "umaña",
+    "segundoApellido": "cañon",
     "cedula": 79852094,
-    "direccion": "CARRERA 68M # 37D - 47 SUR",
+    "direccion": "carrera 68m # 37d - 47 sur",
     "email": "cesa861@hotmail.com"
   },
   "demanda": {

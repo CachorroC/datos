@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301620170087500",
+  "llaveProceso": "11001400301620170087500",
   "numero": 249,
   "cc": 19069228,
   "idProcesos": [50687430],
@@ -10,12 +10,12 @@
       "fijo": 6701643,
       "celular": 3134749213
     },
-    "primerNombre": "JORGE",
-    "segundoNombre": "ALBERTO",
-    "primerApellido": "MARTINEZ",
-    "segundoApellido": "BENDEK",
+    "primerNombre": "jorge",
+    "segundoNombre": "alberto",
+    "primerApellido": "martinez",
+    "segundoApellido": "bendek",
     "cedula": 19069228,
-    "direccion": "CARRERA 15 # 188 - 39",
+    "direccion": "carrera 15 # 188 - 39",
     "email": "jorgemar24@gmail.com"
   },
   "demanda": {

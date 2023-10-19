@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308120180011100",
+  "llaveProceso": "11001400308120180011100",
   "numero": 379,
   "cc": 79804965,
   "idProcesos": [51918100, 81806941],
@@ -10,12 +10,12 @@
       "fijo": 5686327,
       "celular": 3157236856
     },
-    "primerNombre": "JHON",
-    "segundoNombre": "ALEXANDER",
-    "primerApellido": "ALARCON",
-    "segundoApellido": "GALVIS",
+    "primerNombre": "jhon",
+    "segundoNombre": "alexander",
+    "primerApellido": "alarcon",
+    "segundoApellido": "galvis",
     "cedula": 79804965,
-    "direccion": "CALLE 36C No 3A - 25",
+    "direccion": "calle 36c no 3a - 25",
     "email": "jhondoblea@hotmail.com"
   },
   "demanda": {
@@ -24,7 +24,7 @@
     "entregaGarantiasAbogado": "2018-11-01T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
-    "etapaProcesal": "11001400308120180011100",
+    "etapaProcesal": "1.100140030812018e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [155380],

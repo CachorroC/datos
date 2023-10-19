@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754418900220180066400",
+  "llaveProceso": "25754418900220180066400",
   "numero": 464,
   "cc": 51944991,
   "idProcesos": [],
@@ -7,16 +7,22 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "RICARDO",
-    "segundoNombre": "ARMANDO",
-    "primerApellido": "CELIS",
-    "segundoApellido": "ANGEL",
+    "primerNombre": "ricardo",
+    "segundoNombre": "armando",
+    "primerApellido": "celis",
+    "segundoApellido": "angel",
     "cedula": 51944991,
     "direccion": "51944991",
     "email": "TRANSVERSAL 4B No 3-75   CASA 44"
   },
+  "codeudor": {
+    "cedula": "MARIA ELIZABETH GAVIRIA OSPINA",
+    "direccion": 45689,
+    "nombre": 3632557,
+    "telefono": "TRANSVERSAL 48 No 3-75 MANZAN 5 CASA 44"
+  },
   "demanda": {
-    "capitalAdeudado": 43293,
+    "capitalAdeudado": 43,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25473400300120180010500",
+  "llaveProceso": "25473400300120180010500",
   "numero": 211,
   "cc": 17652071,
   "idProcesos": [],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "SAUL",
+    "primerNombre": "saul",
     "segundoNombre": null,
-    "primerApellido": "BARBOSA",
-    "segundoApellido": "RAMIREZ",
+    "primerApellido": "barbosa",
+    "segundoApellido": "ramirez",
     "cedula": 17652071,
-    "direccion": "CARRERA 4A # 11 - 44 FUNZA",
+    "direccion": "carrera 4a # 11 - 44 funza",
     "email": "marimar832010@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 52901502,
+    "direccion": "CARRERA 4 # 11 - 44 // CL 64 D No. 69-22",
+    "nombre": "maria nubia martinez cely",
+    "telefono": 7555569
   },
   "demanda": {
     "capitalAdeudado": 36520.799,
@@ -21,7 +27,7 @@
     "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-09-06T00:00:00.000Z",
-    "etapaProcesal": "25286400300120180010500",
+    "etapaProcesal": "2.528640030012018e+22",
     "fechaPresentacion": null,
     "municipio": "MOSQUERA",
     "obligacion": [166601],

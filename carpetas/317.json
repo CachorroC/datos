@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301820170181300",
+  "llaveProceso": "11001400301820170181300",
   "numero": 317,
   "cc": 80251653,
   "idProcesos": [50832550],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "WILSON",
+    "primerNombre": "wilson",
     "segundoNombre": null,
-    "primerApellido": "JAVIER",
-    "segundoApellido": "SANCHEZ",
+    "primerApellido": "javier",
+    "segundoApellido": "sanchez",
     "cedula": 80251653,
-    "direccion": "CALLE 62 G  No 75 g - 18 sur",
+    "direccion": "calle 62 g  no 75 g - 18 sur",
     "email": "wilsoningind@yahoo.es"
+  },
+  "codeudor": {
+    "cedula": 53089914,
+    "direccion": "CALLE  62G No 75 G-18 SUR",
+    "nombre": "yinet esneda gaviria gaviria",
+    "telefono": 5971320
   },
   "demanda": {
     "capitalAdeudado": null,

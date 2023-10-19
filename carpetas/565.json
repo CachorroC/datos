@@ -1,8 +1,8 @@
 {
-  "_llaveProceso": "11001400306920230127300",
+  "llaveProceso": "11001418902120230128000",
   "numero": 565,
   "cc": 1061047348,
-  "idProcesos": [132041720],
+  "idProcesos": [],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -10,12 +10,12 @@
       "fijo": 7442510,
       "celular": 3058819253
     },
-    "primerNombre": "SANDRA",
-    "segundoNombre": "MILENA",
-    "primerApellido": "PALACIO",
-    "segundoApellido": "RIVERA",
+    "primerNombre": "sandra",
+    "segundoNombre": "milena",
+    "primerApellido": "palacio",
+    "segundoApellido": "rivera",
     "cedula": 1061047348,
-    "direccion": "Transversal 96 B No. 20 D - 70 Casa 23 Conjunto Residencial Casas del Portal de Hayuelos",
+    "direccion": "transversal 96 b no. 20 d - 70 casa 23 conjunto residencial casas del portal de hayuelos",
     "email": "sammy_1722@hotmail.es"
   },
   "demanda": {
@@ -32,13 +32,7 @@
     "vencimientoPagare": [
       "2026-03-09T00:00:00.000Z"
     ],
-    "expediente": "11001400306920230127300",
-    "juzgados": [
-      {
-        "id": 69,
-        "tipo": "JUZGADO 069 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-69-civil-municipal-de-bogota"
-      }
-    ]
+    "expediente": "11001418902120230128000",
+    "juzgados": []
   }
 }

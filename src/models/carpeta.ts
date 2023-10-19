@@ -1,19 +1,16 @@
-import {
-  Category,
-  IntCarpeta,
-  CarpetaRaw,
-  IntDemanda,
-  IntDeudor,
-  TipoProceso,
-  IntCarpetaPrueba,
-  IntDemandaPrueba,
-  IntDeudorPrueba
-} from '../types/carpetas';
+import { Category,
+         IntCarpeta,
+         CarpetaRaw,
+         IntDemanda,
+         IntDeudor,
+         TipoProceso,
+         IntCarpetaPrueba,
+         IntDemandaPrueba,
+         IntDeudorPrueba,
+         Codeudor } from '../types/carpetas';
 import { intProceso } from '../types/procesos';
-import {
-  Demanda,
-  DemandaPrueba
-} from './demanda';
+import { Demanda,
+         DemandaPrueba } from './demanda';
 import { Deudor, DeudorPrueba } from './deudor';
 
 export const categories = [
@@ -43,12 +40,16 @@ export class Carpeta implements IntCarpeta {
       : null;
     this.category = category;
     this.numero = numero;
-    this.tipoProceso =
-      demanda.tipoProceso as TipoProceso;
-    this.deudor = new Deudor(deudor);
-    this.cc = Number(deudor.cedula);
+    this.tipoProceso
+      = demanda.tipoProceso as TipoProceso;
+    this.deudor = new Deudor(
+      deudor 
+    );
+    this.cc = Number(
+      deudor.cedula 
+    );
 
-    if (RequestProcesos) {
+    if ( RequestProcesos ) {
       this.demanda = new Demanda(
         demanda,
         llaveProceso,
@@ -70,16 +71,16 @@ export class Carpeta implements IntCarpeta {
   deudor: IntDeudor;
   demanda: IntDemanda;
   get nombre() {
-    const nombres =
-      this.deudor.primerNombre +
-      (this.deudor.segundoNombre
+    const nombres
+      = this.deudor.primerNombre
+      + ( this.deudor.segundoNombre
         ? ' ' + this.deudor.segundoNombre
-        : ' ');
+        : ' ' );
 
     const apellidos = this.deudor.segundoApellido
-      ? this.deudor.primerApellido +
-        ' ' +
-        this.deudor.segundoApellido
+      ? this.deudor.primerApellido
+        + ' '
+        + this.deudor.segundoApellido
       : this.deudor.primerApellido;
 
     const rawName = nombres + apellidos;
@@ -87,12 +88,14 @@ export class Carpeta implements IntCarpeta {
     return rawName;
   }
 
-  set llaveProceso(llave: string) {
+  set llaveProceso(
+    llave: string 
+  ) {
     const fixedllave = llave.trim();
 
     const llaveLength = fixedllave.length;
 
-    if (llaveLength < 23) {
+    if ( llaveLength < 23 ) {
       throw new Error(
         'la llaveProceso para esta clase es menor a 23 caracteres'
       );
@@ -108,13 +111,13 @@ export class Carpeta implements IntCarpeta {
 }
 
 export class CarpetaPrueba
-  implements IntCarpetaPrueba
-{
-  _llaveProceso: string | null;
+implements IntCarpetaPrueba {
+  llaveProceso: string | null;
 
   constructor(
     {
       llaveProceso,
+      codeudor,
       category,
       deudor,
       demanda,
@@ -122,19 +125,26 @@ export class CarpetaPrueba
     }: CarpetaRaw,
     RequestProcesos?: intProceso[]
   ) {
-    this._llaveProceso = llaveProceso
+    this.llaveProceso = llaveProceso
       ? llaveProceso
       : null;
     this.category = category;
+    this.codeudor = codeudor;
     this.numero = numero;
-    this.tipoProceso =
-      demanda.tipoProceso as TipoProceso;
-    this.deudor = new DeudorPrueba(deudor);
-    this.cc = Number(deudor.cedula);
+    this.tipoProceso
+      = demanda.tipoProceso as TipoProceso;
+    this.deudor = new DeudorPrueba(
+      deudor 
+    );
+    this.cc = Number(
+      deudor.cedula 
+    );
 
-    if (RequestProcesos) {
+    if ( RequestProcesos ) {
       this.idProcesos = RequestProcesos.map(
-        (proceso) => {
+        (
+          proceso 
+        ) => {
           return proceso.idProceso;
         }
       );
@@ -145,7 +155,7 @@ export class CarpetaPrueba
         RequestProcesos
       );
     } else {
-      this.idProcesos = null;
+      this.idProcesos = [];
       this.demanda = new DemandaPrueba(
         demanda,
         llaveProceso
@@ -154,22 +164,23 @@ export class CarpetaPrueba
   }
   numero: number;
   cc: number;
-  idProcesos: number[] | null;
+  idProcesos: number[];
   category: Category;
   tipoProceso: TipoProceso;
   deudor: IntDeudorPrueba;
+  codeudor?: Codeudor;
   demanda: IntDemandaPrueba;
   get nombre() {
-    const nombres =
-      this.deudor.primerNombre +
-      (this.deudor.segundoNombre
+    const nombres
+      = this.deudor.primerNombre
+      + ( this.deudor.segundoNombre
         ? ' ' + this.deudor.segundoNombre
-        : ' ');
+        : ' ' );
 
     const apellidos = this.deudor.segundoApellido
-      ? this.deudor.primerApellido +
-        ' ' +
-        this.deudor.segundoApellido
+      ? this.deudor.primerApellido
+        + ' '
+        + this.deudor.segundoApellido
       : this.deudor.primerApellido;
 
     const rawName = nombres + apellidos;
@@ -177,22 +188,22 @@ export class CarpetaPrueba
     return rawName;
   }
 
-  set llaveProceso(llave: string) {
+  set _llaveProceso(
+    llave: string 
+  ) {
     const fixedllave = llave.trim();
 
     const llaveLength = fixedllave.length;
 
-    if (llaveLength < 23) {
+    if ( llaveLength < 23 ) {
       throw new Error(
         'la llaveProceso para esta clase es menor a 23 caracteres'
       );
     }
 
-    this._llaveProceso = fixedllave;
+    this.llaveProceso = fixedllave;
   }
-  get llaveProceso() {
-    return (
-      this._llaveProceso ?? 'Sin especificar'
-    );
+  get _llaveProceso() {
+    return this.llaveProceso ?? 'Sin especificar';
   }
 }

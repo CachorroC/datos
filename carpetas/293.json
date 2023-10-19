@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304820170097400",
+  "llaveProceso": "11001400304820170097400",
   "numero": 293,
   "cc": 1032383389,
   "idProcesos": [50762570],
@@ -10,12 +10,12 @@
       "fijo": 4725511,
       "celular": 3118526428
     },
-    "primerNombre": "ANDERSON",
+    "primerNombre": "anderson",
     "segundoNombre": null,
-    "primerApellido": "REVELO",
-    "segundoApellido": "SANTOS",
+    "primerApellido": "revelo",
+    "segundoApellido": "santos",
     "cedula": 1032383389,
-    "direccion": "CALLE 64 SUR  No 85 B - 40  APARTAMENTO  104",
+    "direccion": "calle 64 sur  no 85 b - 40  apartamento  104",
     "email": "ars.09@hotmail.com"
   },
   "demanda": {

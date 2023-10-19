@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300620170030200",
+  "llaveProceso": "11001400300620170030200",
   "numero": 47,
   "cc": 52129551,
   "idProcesos": [50521190],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3229150048
     },
-    "primerNombre": "ANA",
-    "segundoNombre": "RITA",
-    "primerApellido": "GUZMAN",
-    "segundoApellido": "GOMEZ",
+    "primerNombre": "ana",
+    "segundoNombre": "rita",
+    "primerApellido": "guzman",
+    "segundoApellido": "gomez",
     "cedula": 52129551,
-    "direccion": "CALLE 61 J No. 17D - 55 Sur",
+    "direccion": "calle 61 j no. 17d - 55 sur",
     "email": null
   },
   "demanda": {

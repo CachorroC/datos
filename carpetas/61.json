@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304620170055700",
+  "llaveProceso": "11001400304620170055700",
   "numero": 61,
   "cc": 80197126,
   "idProcesos": [10130443],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JUAN",
-    "segundoNombre": "PABLO",
-    "primerApellido": "RUBIO",
-    "segundoApellido": "ESGUERRA",
+    "primerNombre": "juan",
+    "segundoNombre": "pablo",
+    "primerApellido": "rubio",
+    "segundoApellido": "esguerra",
     "cedula": 80197126,
-    "direccion": "CALLE 165 No. 74 C-07 CASA 1",
+    "direccion": "calle 165 no. 74 c-07 casa 1",
     "email": "arqrasjuan1989@htmail.com"
   },
   "demanda": {

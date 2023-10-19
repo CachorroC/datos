@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306320170131700",
+  "llaveProceso": "11001400306320170131700",
   "numero": 333,
   "cc": 52085839,
   "idProcesos": [17718250],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "",
-    "segundoNombre": " AHIDA",
-    "primerApellido": "LUCERO GUEVARA",
-    "segundoApellido": "BECERRA",
+    "primerNombre": "ahida",
+    "segundoNombre": "lucero",
+    "primerApellido": "guevara",
+    "segundoApellido": "becerra",
     "cedula": 52085839,
-    "direccion": "CALLE 55 No 78 -74  APARTAMENTO 1110",
+    "direccion": "calle 55 no 78 -74  apartamento 1110",
     "email": "ahidaguevara@gmail.com"
   },
   "demanda": {

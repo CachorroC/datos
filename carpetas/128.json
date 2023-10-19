@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307820170073300",
+  "llaveProceso": "11001400307820170073300",
   "numero": 128,
   "cc": 52385097,
   "idProcesos": [51463930],
@@ -7,13 +7,17 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MARIA",
-    "segundoNombre": "GLADYS",
+    "primerNombre": "maria",
+    "segundoNombre": "gladys",
     "primerApellido": "",
-    "segundoApellido": "GONZALEZ SOSA",
+    "segundoApellido": "gonzalez sosa",
     "cedula": 52385097,
-    "direccion": "CALLE 62B SUR # 70 F - 45",
+    "direccion": "calle 62b sur # 70 f - 45",
     "email": "mariagladyys@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": "52768380/",
+    "nombre": "luz mery gonzalez sosa"
   },
   "demanda": {
     "capitalAdeudado": 13149.185,

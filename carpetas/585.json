@@ -1,8 +1,8 @@
 {
-  "_llaveProceso": null,
+  "llaveProceso": "11001418907020230039900",
   "numero": 585,
   "cc": 41336003,
-  "idProcesos": null,
+  "idProcesos": [133932120],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -10,12 +10,12 @@
       "fijo": 3543562,
       "celular": 3143644918
     },
-    "primerNombre": "MARIA",
-    "segundoNombre": "GEORGINA",
-    "primerApellido": "FORERO",
-    "segundoApellido": "DE MENDOZA",
+    "primerNombre": "maria",
+    "segundoNombre": "georgina",
+    "primerApellido": "forero",
+    "segundoApellido": "de mendoza",
     "cedula": 41336003,
-    "direccion": " Calle 152 No. 12C - 12 TORRE 1 APTO 704 Conjunto Residencial ENTRECEDROS en Bogotá y/o Carrera 19 A No. 159 -70-84 Interior 4 Apto 503 Conjunto Residencial Sauces del Norte",
+    "direccion": "calle 152 no. 12c - 12 torre 1 apto 704 conjunto residencial entrecedros en bogotá y/o carrera 19 a no. 159 -70-84 interior 4 apto 503 conjunto residencial sauces del norte",
     "email": "adrifor_co@hotmail.com"
   },
   "demanda": {
@@ -31,13 +31,19 @@
       31035862,
       "377816195788645 X TC AMERICAN // 4099843107499631 X T.C. VISA"
     ],
-    "radicado": null,
+    "radicado": "2023-399",
     "vencimientoPagare": [
       null,
       null,
       "2026-07-05T05:00:00.000Z"
     ],
-    "expediente": null,
-    "juzgados": null
+    "expediente": "11001418907020230039900",
+    "juzgados": [
+      {
+        "id": 70,
+        "tipo": "JUZGADO 070 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-070-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
+      }
+    ]
   }
 }

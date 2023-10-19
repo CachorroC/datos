@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25662408900120180000400",
+  "llaveProceso": "25662408900120180000400",
   "numero": 382,
   "cc": 80403235,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3107518479
     },
-    "primerNombre": "CARLOS",
-    "segundoNombre": "ALBERTO",
-    "primerApellido": "LANCHEROS",
-    "segundoApellido": "BARRAGAN",
+    "primerNombre": "carlos",
+    "segundoNombre": "alberto",
+    "primerApellido": "lancheros",
+    "segundoApellido": "barragan",
     "cedula": 80403235,
-    "direccion": "CARRERA 4 NO 5 - 02 SAN JUAN DE RIO SECO",
+    "direccion": "carrera 4 no 5 - 02 san juan de rio seco",
     "email": null
   },
   "demanda": {

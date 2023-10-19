@@ -1,8 +1,8 @@
 {
-  "_llaveProceso": "1100140030122017099100",
+  "llaveProceso": "1100140030122017099100",
   "numero": 195,
   "cc": 80244664,
-  "idProcesos": null,
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
@@ -10,13 +10,19 @@
       "fijo": 4429545,
       "celular": 3118280782
     },
-    "primerNombre": "DOUGLAS",
-    "segundoNombre": "FABIAN",
-    "primerApellido": "SIZA",
-    "segundoApellido": "CORTES",
+    "primerNombre": "douglas",
+    "segundoNombre": "fabian",
+    "primerApellido": "siza",
+    "segundoApellido": "cortes",
     "cedula": 80244664,
-    "direccion": "CARRERA 95 BIS # 90A - 12",
+    "direccion": "carrera 95 bis # 90a - 12",
     "email": "gufo2299@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 52347132,
+    "direccion": "CARRERA 6 # 23 - 70 BLOQUE 29 CASA 34",
+    "nombre": "johanna esmeralda pulido duran",
+    "telefono": "8222969 // 3112842488"
   },
   "demanda": {
     "capitalAdeudado": null,

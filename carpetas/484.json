@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754418900320190027000",
+  "llaveProceso": "25754418900320190027000",
   "numero": 484,
   "cc": 30339083,
   "idProcesos": [],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JENNY",
+    "primerNombre": "jenny",
     "segundoNombre": "",
-    "primerApellido": "ANDREA",
-    "segundoApellido": "AVILA GARZON",
+    "primerApellido": "andrea",
+    "segundoApellido": "avila garzon",
     "cedula": 30339083,
-    "direccion": "CARRERA 7A No  2-94 SUR",
+    "direccion": "carrera 7a no  2-94 sur",
     "email": null
+  },
+  "codeudor": {
+    "cedula": 14277736,
+    "direccion": "CALLE 68 C No 2-04 SUR ESTE",
+    "nombre": "nelson mendez verjan",
+    "telefono": "F 2000631"
   },
   "demanda": {
     "capitalAdeudado": 26503.795,
@@ -21,7 +27,7 @@
     "entregaGarantiasAbogado": "2018-06-09T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
-    "etapaProcesal": "25754418900320190027000",
+    "etapaProcesal": "2.575441890032019e+22",
     "fechaPresentacion": null,
     "municipio": "SOACHA",
     "obligacion": [20990157739],

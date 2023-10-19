@@ -1,22 +1,27 @@
 {
-  "_llaveProceso": "11001400302020170147700",
+  "llaveProceso": "11001400302020170147700",
   "numero": 416,
   "cc": 79512506,
   "idProcesos": [50873000],
   "category": "Terminados",
-  "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": 2724305,
       "celular": 3134664560
     },
-    "primerNombre": "JOSE",
-    "segundoNombre": "ANTONIO",
-    "primerApellido": "MONTEALEGRE",
-    "segundoApellido": "HERNANDEZ",
+    "primerNombre": "jose",
+    "segundoNombre": "antonio",
+    "primerApellido": "montealegre",
+    "segundoApellido": "hernandez",
     "cedula": 79512506,
-    "direccion": "CALLE 24 No 24 - 16  SUR",
+    "direccion": "calle 24 no 24 - 16  sur",
     "email": "yulypgarcia.montplas@gmail.com"
+  },
+  "codeudor": {
+    "cedula": 52730300,
+    "direccion": "CALLE 24 No 24-26 SUR",
+    "nombre": "yuli marcela peña garcia",
+    "telefono": "CEL 3103018266"
   },
   "demanda": {
     "capitalAdeudado": 51606.071,
@@ -24,7 +29,7 @@
     "entregaGarantiasAbogado": "2017-11-14T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-11-24T00:00:00.000Z",
-    "etapaProcesal": null,
+    "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [2330087192, 2330087423],

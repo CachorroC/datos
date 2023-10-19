@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308520160031900",
+  "llaveProceso": "11001400308520160031900",
   "numero": 97,
   "cc": 19270589,
   "idProcesos": [77695680],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JOSE",
-    "segundoNombre": "ALFREDO",
-    "primerApellido": "RIAÑO",
-    "segundoApellido": "MALDONADO",
+    "primerNombre": "jose",
+    "segundoNombre": "alfredo",
+    "primerApellido": "riaño",
+    "segundoApellido": "maldonado",
     "cedula": 19270589,
-    "direccion": "CALLE 52 A BIS  No 35 B 41 SUR",
+    "direccion": "calle 52 a bis  no 35 b 41 sur",
     "email": "conjuexeu@hotmail.com"
   },
   "demanda": {

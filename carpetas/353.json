@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307320170156300",
+  "llaveProceso": "11001400307320170156300",
   "numero": 353,
   "cc": 19297891,
   "idProcesos": [50873850],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "RICARDO",
+    "primerNombre": "ricardo",
     "segundoNombre": null,
-    "primerApellido": "ARIAS",
-    "segundoApellido": "GUZMAN",
+    "primerApellido": "arias",
+    "segundoApellido": "guzman",
     "cedula": 19297891,
-    "direccion": "CALLE 1 H  No 29 - 73",
+    "direccion": "calle 1 h  no 29 - 73",
     "email": "ricardoagi1955@gmail.com"
   },
   "demanda": {

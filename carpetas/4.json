@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305320170072000",
+  "llaveProceso": "11001400305320170072000",
   "numero": 4,
   "cc": 93437973,
   "idProcesos": [11997693],
@@ -10,16 +10,16 @@
       "fijo": null,
       "celular": 3182165543
     },
-    "primerNombre": "DIPSON",
-    "segundoNombre": "EUSEBIO",
-    "primerApellido": "SANCHEZ",
-    "segundoApellido": "CASTIBLANCO",
+    "primerNombre": "dipson",
+    "segundoNombre": "eusebio",
+    "primerApellido": "sanchez",
+    "segundoApellido": "castiblanco",
     "cedula": 93437973,
-    "direccion": "CARRERA 104 No. 12  B-94 BOGOTA",
+    "direccion": "carrera 104 no. 12  b-94 bogota",
     "email": "dipsonsanchez16@g0mail.com"
   },
   "demanda": {
-    "capitalAdeudado": 29925624,
+    "capitalAdeudado": 29925.624,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
     "tipoProceso": "SINGULAR",

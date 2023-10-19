@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308120180051400",
+  "llaveProceso": "11001400308120180051400",
   "numero": 530,
   "cc": 35455606,
   "idProcesos": [51918470],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MARIA",
-    "segundoNombre": "CLARA",
-    "primerApellido": "REYES",
-    "segundoApellido": "REYES",
+    "primerNombre": "maria",
+    "segundoNombre": "clara",
+    "primerApellido": "reyes",
+    "segundoApellido": "reyes",
     "cedula": 35455606,
-    "direccion": "CALLE 175 No 70-40",
+    "direccion": "calle 175 no 70-40",
     "email": "mariaclarareyes@hotmail.com"
   },
   "demanda": {
@@ -25,7 +25,7 @@
     "fechaPresentacion": "2018-04-25T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
-      40998833882814000, 5303729887314280
+      4.0998833882814e30, 5.30372988731428e29
     ],
     "radicado": "2018 - 00514",
     "vencimientoPagare": [

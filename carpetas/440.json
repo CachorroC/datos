@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001408900820180022300",
+  "llaveProceso": "11001408900820180022300",
   "numero": 440,
   "cc": 30387764,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3107996508
     },
-    "primerNombre": "BLANCA",
-    "segundoNombre": "ESTHER",
-    "primerApellido": "QUIROGA",
-    "segundoApellido": "GIRALDO",
+    "primerNombre": "blanca",
+    "segundoNombre": "esther",
+    "primerApellido": "quiroga",
+    "segundoApellido": "giraldo",
     "cedula": 30387764,
-    "direccion": "CARRERA 13 No 13-24 OFICINA 625",
+    "direccion": "carrera 13 no 13-24 oficina 625",
     "email": "quirogag8878@gmail.com"
   },
   "demanda": {

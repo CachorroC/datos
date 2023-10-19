@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754400300320170028300",
+  "llaveProceso": "25754400300320170028300",
   "numero": 185,
   "cc": 10294828,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": 3351000,
       "celular": 3103397090
     },
-    "primerNombre": "WILLIAM",
-    "segundoNombre": "GIOVANNI",
-    "primerApellido": "DORADO",
-    "segundoApellido": "FERNANDEZ",
+    "primerNombre": "william",
+    "segundoNombre": "giovanni",
+    "primerApellido": "dorado",
+    "segundoApellido": "fernandez",
     "cedula": 10294828,
-    "direccion": "CARRERA 4 ESTE # 38 - 56",
+    "direccion": "carrera 4 este # 38 - 56",
     "email": "willdany@hotmail.com"
   },
   "demanda": {

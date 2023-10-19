@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25307400300220180007500",
+  "llaveProceso": "25307400300220180007500",
   "numero": 400,
   "cc": 79652256,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "OSCAR",
-    "segundoNombre": "GUILLERMO",
-    "primerApellido": "LOZANO",
-    "segundoApellido": "GONZALEZ",
+    "primerNombre": "oscar",
+    "segundoNombre": "guillermo",
+    "primerApellido": "lozano",
+    "segundoApellido": "gonzalez",
     "cedula": 79652256,
-    "direccion": "XARRERA 2 No 10-30B CENTENARIO - GIRARDOT",
+    "direccion": "xarrera 2 no 10-30b centenario - girardot",
     "email": "ocaelmejor@yahoo.es"
   },
   "demanda": {

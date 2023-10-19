@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300220170084000",
+  "llaveProceso": "11001400300220170084000",
   "numero": 218,
   "cc": 12402596,
   "idProcesos": [50699960],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ELIO",
+    "primerNombre": "elio",
     "segundoNombre": null,
-    "primerApellido": "ALVARADO",
-    "segundoApellido": "HERNANDEZ",
+    "primerApellido": "alvarado",
+    "segundoApellido": "hernandez",
     "cedula": 12402596,
-    "direccion": "CALLE 144 # 136A - 45",
+    "direccion": "calle 144 # 136a - 45",
     "email": null
+  },
+  "codeudor": {
+    "cedula": 34322133,
+    "direccion": "CALLE 144 # 136A - 45 APTO 502 INT 14",
+    "nombre": "lida amparo hormiga m.",
+    "telefono": 7026848
   },
   "demanda": {
     "capitalAdeudado": null,

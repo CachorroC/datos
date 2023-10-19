@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306620190040900",
+  "llaveProceso": "11001400306620190040900",
   "numero": 460,
   "cc": 79424825,
   "idProcesos": [18852280],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JORGE",
-    "segundoNombre": "ABDOLONIO",
-    "primerApellido": "GUERRERO",
-    "segundoApellido": "HERNANDEZ",
+    "primerNombre": "jorge",
+    "segundoNombre": "abdolonio",
+    "primerApellido": "guerrero",
+    "segundoApellido": "hernandez",
     "cedula": 79424825,
     "direccion": "52205842",
     "email": "DIAGONAL 31 No 24-63 SUR"
+  },
+  "codeudor": {
+    "cedula": "CLAUDIA JASMIN GOMEZ GUERRERO",
+    "direccion": 43168,
+    "nombre": 2028628,
+    "telefono": "DIAGONAL 31 No 24-63  SUR"
   },
   "demanda": {
     "capitalAdeudado": null,

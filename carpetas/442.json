@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307820180062300",
+  "llaveProceso": "11001400307820180062300",
   "numero": 442,
   "cc": 80183322,
   "idProcesos": [51462640],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JULIAN",
-    "segundoNombre": "FELIPE",
-    "primerApellido": "ECHEVERRY",
-    "segundoApellido": "FORERO",
+    "primerNombre": "julian",
+    "segundoNombre": "felipe",
+    "primerApellido": "echeverry",
+    "segundoApellido": "forero",
     "cedula": 80183322,
-    "direccion": "CARRERA 80 No 7D-05 CASA 231",
+    "direccion": "carrera 80 no 7d-05 casa 231",
     "email": "felipe.ef82@gmail.com"
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2018-06-19T00:00:00.000Z",
-    "etapaProcesal": "11001400307820180062300",
+    "etapaProcesal": "1.100140030782018e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [

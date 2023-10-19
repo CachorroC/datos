@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25126408900220170076800",
+  "llaveProceso": "25126408900220170076800",
   "numero": 314,
   "cc": 1075655673,
   "idProcesos": [],
@@ -7,13 +7,18 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "TATIANA",
+    "primerNombre": "tatiana",
     "segundoNombre": null,
-    "primerApellido": "RAMON",
-    "segundoApellido": "PEPICANO",
+    "primerApellido": "ramon",
+    "segundoApellido": "pepicano",
     "cedula": 1075655673,
-    "direccion": "CARRERA 2 B - No 2 J - 55  LOTE 6 MZ 25",
+    "direccion": "carrera 2 b - no 2 j - 55  lote 6 mz 25",
     "email": "revisionvillavicencio@gmail.co"
+  },
+  "codeudor": {
+    "cedula": 17644906,
+    "direccion": "NO SE CONOCE",
+    "nombre": "norbey ramon chavarro"
   },
   "demanda": {
     "capitalAdeudado": null,

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304520170090500",
+  "llaveProceso": "11001400304520170090500",
   "numero": 164,
   "cc": 14255996,
   "idProcesos": [50593640],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3102785072
     },
-    "primerNombre": "JOSE",
-    "segundoNombre": "URIEL",
-    "primerApellido": "RUIZ",
-    "segundoApellido": "DIAZ",
+    "primerNombre": "uriel",
+    "segundoNombre": null,
+    "primerApellido": "ruiz",
+    "segundoApellido": "diaz",
     "cedula": 14255996,
-    "direccion": "CARRERA 82 A No. 6B-30 CASA 36",
+    "direccion": "carrera 82 a no. 6b-30 casa 36",
     "email": null
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308620170086300",
+  "llaveProceso": "11001400308620170086300",
   "numero": 171,
   "cc": 1024468871,
   "idProcesos": [81888701],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MARITZA",
-    "segundoNombre": "NATALI",
-    "primerApellido": "RODRIGUEZ",
-    "segundoApellido": "URREA",
+    "primerNombre": "maritza",
+    "segundoNombre": "natali",
+    "primerApellido": "rodriguez",
+    "segundoApellido": "urrea",
     "cedula": 1024468871,
-    "direccion": "CALLE 59C SUR # 87K - 64 APTO 1016",
+    "direccion": "calle 59c sur # 87k - 64 apto 1016",
     "email": "jlaura00@hotmail.com"
   },
   "demanda": {

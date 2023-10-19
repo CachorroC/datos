@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300320170106500",
+  "llaveProceso": "11001400300320170106500",
   "numero": 82,
   "cc": 13921619,
   "idProcesos": [50527120],
@@ -7,13 +7,19 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "RAFAEL",
+    "primerNombre": "rafael",
     "segundoNombre": null,
-    "primerApellido": "GONZALEZ",
-    "segundoApellido": "OLEJUA",
+    "primerApellido": "gonzalez",
+    "segundoApellido": "olejua",
     "cedula": 13921619,
-    "direccion": "CALLE 89 # 95G- 26",
+    "direccion": "calle 89 # 95g- 26",
     "email": null
+  },
+  "codeudor": {
+    "cedula": 28239573,
+    "direccion": "CALLE 89 # 95G - 26",
+    "nombre": "ana libia garcia florez",
+    "telefono": 2284139
   },
   "demanda": {
     "capitalAdeudado": 39576493,

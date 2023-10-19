@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25322418900120170016800",
+  "llaveProceso": "25322418900120170016800",
   "numero": 5,
   "cc": 20645940,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3217662673
     },
-    "primerNombre": "FANY",
-    "segundoNombre": "PATRICIA",
-    "primerApellido": "AVELLANEDA",
-    "segundoApellido": "TOVAR",
+    "primerNombre": "fany",
+    "segundoNombre": "patricia",
+    "primerApellido": "avellaneda",
+    "segundoApellido": "tovar",
     "cedula": 20645940,
-    "direccion": "CARRERA 9 No. 2-03 GUASCA",
+    "direccion": "carrera 9 no. 2-03 guasca",
     "email": "patoavella8210@hotmail.com"
   },
   "demanda": {

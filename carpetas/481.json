@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001410375120190027600",
+  "llaveProceso": "11001410375120190027600",
   "numero": 481,
   "cc": 80019013,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": 5731671,
       "celular": 3144195480
     },
-    "primerNombre": "WILLINTONG",
-    "segundoNombre": "MARIO",
+    "primerNombre": "willintong",
+    "segundoNombre": "mario",
     "primerApellido": "",
-    "segundoApellido": "YARURO PEÑARANDA",
+    "segundoApellido": "yaruro peñaranda",
     "cedula": 80019013,
-    "direccion": "CALLE 26 SUR No 95A-49 BL 9 APTO 102",
+    "direccion": "calle 26 sur no 95a-49 bl 9 apto 102",
     "email": "willi.1977@hotmail.com"
   },
   "demanda": {

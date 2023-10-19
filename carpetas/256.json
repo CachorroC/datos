@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300720170141000",
+  "llaveProceso": "11001400300720170141000",
   "numero": 256,
   "cc": 79881862,
   "idProcesos": [50726160],
@@ -7,16 +7,22 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "FREDDY",
+    "primerNombre": "freddy",
     "segundoNombre": null,
-    "primerApellido": "ARIAS",
-    "segundoApellido": "MARTINEZ",
+    "primerApellido": "arias",
+    "segundoApellido": "martinez",
     "cedula": 79881862,
-    "direccion": "TRANSVERSAL 112 C No  64 D -15, BLOQUE 7 APARTAMENTO 4",
+    "direccion": "transversal 112 c no  64 d -15 bloque 7 apartamento 4",
     "email": "freddydanasebas@hotmail.com"
   },
+  "codeudor": {
+    "cedula": 53160708,
+    "direccion": "TRANSVERSAL 112 C No 64 D- 15  TORRE 1 APARTAMENTO 404",
+    "nombre": "yenny paola uribe  gomez",
+    "telefono": 4416629
+  },
   "demanda": {
-    "capitalAdeudado": null,
+    "capitalAdeudado": 616552.203,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
     "tipoProceso": "SINGULAR",

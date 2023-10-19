@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001310302520170073600",
+  "llaveProceso": "11001310302520170073600",
   "numero": 108,
   "cc": 79558732,
   "idProcesos": [28937944],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MIGUEL",
-    "segundoNombre": "ANGEL",
-    "primerApellido": "HUERTAS",
-    "segundoApellido": "VALENCIA",
+    "primerNombre": "miguel",
+    "segundoNombre": "angel",
+    "primerApellido": "huertas",
+    "segundoApellido": "valencia",
     "cedula": 79558732,
-    "direccion": "TRANVERSAL 15A # 31-09 SUR",
+    "direccion": "tranversal 15a # 31-09 sur",
     "email": "miguelangelhuertasv@hotmail.com"
   },
   "demanda": {

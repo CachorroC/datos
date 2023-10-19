@@ -1,0 +1,45 @@
+{
+  "llaveProceso": null,
+  "numero": 591,
+  "cc": 1110450902,
+  "idProcesos": [],
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3105821483
+    },
+    "primerNombre": "mayra",
+    "segundoNombre": "alejandra",
+    "primerApellido": "valbuena",
+    "segundoApellido": "barrero",
+    "cedula": 1110450902,
+    "direccion": "calle 139 7 c - 80 apartamento 307 edificio andaluz",
+    "email": "alejavalbar@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 106398.151,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-10-13T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      2170096325,
+      "2170097811 //2170097810 // 2170097809 //"
+    ],
+    "radicado": null,
+    "vencimientoPagare": [
+      "2026-04-02T05:00:00.000Z",
+      null,
+      null,
+      "2026-02-02T05:00:00.000Z",
+      null
+    ],
+    "expediente": null,
+    "juzgados": null
+  }
+}

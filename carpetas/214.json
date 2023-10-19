@@ -1,8 +1,8 @@
 {
-  "_llaveProceso": "257544189002220170086700",
+  "llaveProceso": "257544189002220170086700",
   "numero": 214,
   "cc": 52702559,
-  "idProcesos": null,
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
@@ -10,12 +10,12 @@
       "fijo": 7290666,
       "celular": 3204297147
     },
-    "primerNombre": "YENNY",
-    "segundoNombre": "PATRICIA",
-    "primerApellido": "RUBIO",
-    "segundoApellido": "MAHECHA",
+    "primerNombre": "yenny",
+    "segundoNombre": "patricia",
+    "primerApellido": "rubio",
+    "segundoApellido": "mahecha",
     "cedula": 52702559,
-    "direccion": "CALLE 6D # 5 - 60 MANZANA C CASA 17",
+    "direccion": "calle 6d # 5 - 60 manzana c casa 17",
     "email": "jennyprm@hotmail.com"
   },
   "demanda": {

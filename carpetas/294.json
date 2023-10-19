@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306320170092400",
+  "llaveProceso": "11001400306320170092400",
   "numero": 294,
   "cc": 79292743,
   "idProcesos": [65700110],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "HERNANDO",
+    "primerNombre": "hernando",
     "segundoNombre": null,
-    "primerApellido": "PULECIO",
-    "segundoApellido": "PAREDES",
+    "primerApellido": "pulecio",
+    "segundoApellido": "paredes",
     "cedula": 79292743,
-    "direccion": "CALLE 86 A No 69 T -41  TORRE 1 APARTAMENTO 902",
+    "direccion": "calle 86 a no 69 t -41  torre 1 apartamento 902",
     "email": "hpulecio@cable.net.co"
   },
   "demanda": {

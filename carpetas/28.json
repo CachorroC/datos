@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25290400300120170036900",
+  "llaveProceso": "25290400300120170036900",
   "numero": 28,
   "cc": 20563933,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": 8671269,
       "celular": 3102301734
     },
-    "primerNombre": "MARIA",
-    "segundoNombre": "SOCORRO",
-    "primerApellido": "TORRES",
-    "segundoApellido": "DE GONZALEZ",
+    "primerNombre": "maria",
+    "segundoNombre": "socorro",
+    "primerApellido": "torres",
+    "segundoApellido": "de gonzalez",
     "cedula": 20563933,
-    "direccion": "CALLE 17 No 8-41 APTO 101 FUSAGASUGA",
+    "direccion": "calle 17 no 8-41 apto 101 fusagasuga",
     "email": "anyelicllau2006@hotmail.com"
   },
   "demanda": {

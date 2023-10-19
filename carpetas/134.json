@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25430400300120170108300",
+  "llaveProceso": "25430400300120170108300",
   "numero": 134,
   "cc": 80722626,
   "idProcesos": [],
@@ -10,13 +10,19 @@
       "fijo": 8284768,
       "celular": 3105519200
     },
-    "primerNombre": "FREDY",
-    "segundoNombre": "ALEXANDER",
-    "primerApellido": "BUENO",
-    "segundoApellido": "PARADA",
+    "primerNombre": "fredy",
+    "segundoNombre": "alexander",
+    "primerApellido": "bueno",
+    "segundoApellido": "parada",
     "cedula": 80722626,
-    "direccion": "CARRERA 2 # 1 - 04 BLOQUE 8 APTO 101",
+    "direccion": "carrera 2 # 1 - 04 bloque 8 apto 101",
     "email": "fredy8221@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 23473890,
+    "direccion": "CALLE 31 # 3A 28",
+    "nombre": "clemencia parada amaya",
+    "telefono": 3138687321
   },
   "demanda": {
     "capitalAdeudado": 54428.394,

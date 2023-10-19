@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304820170050700",
+  "llaveProceso": "11001400304820170050700",
   "numero": 74,
   "cc": 79789620,
   "idProcesos": [10681823],
@@ -10,13 +10,19 @@
       "fijo": null,
       "celular": 3138327713
     },
-    "primerNombre": "CARLOS",
-    "segundoNombre": "ANDRÉS",
-    "primerApellido": "BORRAY",
-    "segundoApellido": "ARCE",
+    "primerNombre": "carlos",
+    "segundoNombre": "andrés",
+    "primerApellido": "borray",
+    "segundoApellido": "arce",
     "cedula": 79789620,
-    "direccion": "CARRERA 18 # 120 - 65 APTO 306",
+    "direccion": "carrera 18 # 120 - 65 apto 306",
     "email": "carlosborray@gmail.com"
+  },
+  "codeudor": {
+    "cedula": 52666505,
+    "direccion": "CALLE 107A # 54- 57 APTO 202",
+    "nombre": "veronica martinez segura",
+    "telefono": 8040407
   },
   "demanda": {
     "capitalAdeudado": null,

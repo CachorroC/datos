@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418903120180138000",
+  "llaveProceso": "11001418903120180138000",
   "numero": 506,
   "cc": 1023891419,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR ACUMULADO CON HIPOTECARIO CAJA SOCIAL",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "EDWIN",
-    "segundoNombre": "CAMILO",
-    "primerApellido": "SARMIENTO",
-    "segundoApellido": "GOMEZ",
+    "primerNombre": "edwin",
+    "segundoNombre": "camilo",
+    "primerApellido": "sarmiento",
+    "segundoApellido": "gomez",
     "cedula": 1023891419,
-    "direccion": "CARRERA 3 No 6-25 SUR TORRE 6 APTO 104",
+    "direccion": "carrera 3 no 6-25 sur torre 6 apto 104",
     "email": "edwin.sarmiento@altipal.com"
   },
   "demanda": {
@@ -21,10 +21,10 @@
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
-    "etapaProcesal": "11001400300420210061100",
+    "etapaProcesal": "1.100140030042021e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
-    "obligacion": ["5,49157039248288E+016"],
+    "obligacion": ["5,49E+32"],
     "radicado": "2021- 00611",
     "vencimientoPagare": [
       "2021-04-06T05:00:00.000Z"

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306820190100400",
+  "llaveProceso": "11001400306820190100400",
   "numero": 522,
   "cc": 79359896,
   "idProcesos": [39001450],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ARMANDO",
+    "primerNombre": "armando",
     "segundoNombre": null,
-    "primerApellido": "RODRIGUEZ",
-    "segundoApellido": "RODRIGUEZ",
+    "primerApellido": "rodriguez",
+    "segundoApellido": "rodriguez",
     "cedula": 79359896,
-    "direccion": "CALLE 42 C No 78  A-17 SUR",
+    "direccion": "calle 42 c no 78  a-17 sur",
     "email": "dorapia@hotmail.com"
   },
   "demanda": {

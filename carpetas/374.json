@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308620180006700",
+  "llaveProceso": "11001400308620180006700",
   "numero": 374,
   "cc": 80850549,
   "idProcesos": [81895161],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JHOAN",
-    "segundoNombre": "ANTONIO",
-    "primerApellido": "BARAJAS",
-    "segundoApellido": "MONTENEGRO",
+    "primerNombre": "jhoan",
+    "segundoNombre": "antonio",
+    "primerApellido": "barajas",
+    "segundoApellido": "montenegro",
     "cedula": 80850549,
-    "direccion": "CALLE 2 SUR 16 - 36 MANZANA 104 // CARRERA 96 D 6 - 55 CADA 81 ET 1",
+    "direccion": "calle 2 sur 16 - 36 manzana 104 // carrera 96 d 6 - 55 cada 81 et 1",
     "email": "jjhoan_27@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 52936062,
+    "direccion": "CARRERA 96 D # 6 - 55 CASA 81 ESTAPA 1",
+    "nombre": "elizabeth yaya sierra",
+    "telefono": 7326829
   },
   "demanda": {
     "capitalAdeudado": null,

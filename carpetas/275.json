@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754408900320170096900",
+  "llaveProceso": "25754408900320170096900",
   "numero": 275,
   "cc": 39670695,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": 6012243,
       "celular": 3208100658
     },
-    "primerNombre": "HORTENCIA",
+    "primerNombre": "hortencia",
     "segundoNombre": null,
-    "primerApellido": "GARZON",
+    "primerApellido": "garzon",
     "segundoApellido": null,
     "cedula": 39670695,
-    "direccion": "TRANSVERSAL 4 B No 3 - 64 sur  APTO 473  SOACHA",
+    "direccion": "transversal 4 b no 3 - 64 sur  apto 473  soacha",
     "email": "rokerita19748@hotmail.com"
   },
   "demanda": {

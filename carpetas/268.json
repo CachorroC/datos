@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303520170147500",
+  "llaveProceso": "11001400303520170147500",
   "numero": 268,
   "cc": 79592811,
   "idProcesos": [50764160],
@@ -7,13 +7,16 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JORGE",
-    "segundoNombre": "HUGO",
-    "primerApellido": "LEAL",
-    "segundoApellido": "SERRATO",
+    "primerNombre": "jorge",
+    "segundoNombre": "hugo",
+    "primerApellido": "leal",
+    "segundoApellido": "serrato",
     "cedula": 79592811,
-    "direccion": "CARRERA 72 No 23 - 24 APARTAMENTO 402  I",
+    "direccion": "carrera 72 no 23 - 24 apartamento 402  i",
     "email": "johuleal@gmail.com"
+  },
+  "codeudor": {
+    "nombre": "juan carlos ortiz leal"
   },
   "demanda": {
     "capitalAdeudado": 48855.784,
@@ -21,7 +24,7 @@
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-05-10T05:00:00.000Z",
-    "etapaProcesal": "11001400303520170147500",
+    "etapaProcesal": "1.100140030352017e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [12649406],

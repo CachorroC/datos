@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306420170162300",
+  "llaveProceso": "11001400306420170162300",
   "numero": 396,
   "cc": 80733467,
   "idProcesos": [112730580],
@@ -10,12 +10,12 @@
       "fijo": 7836655,
       "celular": 3118163887
     },
-    "primerNombre": "ORLANDO",
-    "segundoNombre": "ENRIQUE",
-    "primerApellido": "NOVOA",
-    "segundoApellido": "BARRETO",
+    "primerNombre": "orlando",
+    "segundoNombre": "enrique",
+    "primerApellido": "novoa",
+    "segundoApellido": "barreto",
     "cedula": 80733467,
-    "direccion": "CARRERA 88 A No  67 - 44",
+    "direccion": "carrera 88 a no  67 - 44",
     "email": "orlandonovoa9@gmail.com"
   },
   "demanda": {

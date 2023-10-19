@@ -1,8 +1,8 @@
 {
-  "_llaveProceso": "11001400306620170089200",
+  "llaveProceso": " 11001400306620170089200",
   "numero": 36,
   "cc": 52314251,
-  "idProcesos": [112625340],
+  "idProcesos": [],
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3012419992
     },
-    "primerNombre": "SANDRA",
-    "segundoNombre": "PATRICIA",
-    "primerApellido": "AGUDELO",
-    "segundoApellido": "MONTAGUT",
+    "primerNombre": "sandra",
+    "segundoNombre": "patricia",
+    "primerApellido": "agudelo",
+    "segundoApellido": "montagut",
     "cedula": 52314251,
-    "direccion": "CALLE 49 SUR No. 89 B-30 Etapa 1 CAsa1",
+    "direccion": "calle 49 sur no. 89 b-30 etapa 1 casa1",
     "email": null
   },
   "demanda": {
@@ -32,13 +32,7 @@
     "vencimientoPagare": [
       "2017-09-15T00:00:00.000Z"
     ],
-    "expediente": "11001400306620170089200",
-    "juzgados": [
-      {
-        "id": 66,
-        "tipo": "JUZGADO 066 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-066-civil-municipal-de-bogota"
-      }
-    ]
+    "expediente": " 11001400306620170089200",
+    "juzgados": null
   }
 }

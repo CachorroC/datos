@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303020170157900",
+  "llaveProceso": "11001400303020170157900",
   "numero": 303,
   "cc": 1118532643,
   "idProcesos": [50778160],
@@ -10,13 +10,19 @@
       "fijo": 7170610,
       "celular": 3202777672
     },
-    "primerNombre": "RAFAEL",
-    "segundoNombre": "ALFONSO",
-    "primerApellido": "CAMACHO",
-    "segundoApellido": "VELANDIA",
+    "primerNombre": "rafael",
+    "segundoNombre": "alfonso",
+    "primerApellido": "camacho",
+    "segundoApellido": "velandia",
     "cedula": 1118532643,
-    "direccion": "CARRERA 16 No 66 A 16",
+    "direccion": "carrera 16 no 66 a 16",
     "email": "willintong950@gmail.com  rafaelalfonsocamachovelandia@gmail.com"
+  },
+  "codeudor": {
+    "cedula": 74377064,
+    "direccion": "MANZANA A CASA 6 LA SALINA",
+    "nombre": "carlos andres rodriguez herrera",
+    "telefono": "F 2776196"
   },
   "demanda": {
     "capitalAdeudado": 12534.383,
@@ -24,7 +30,7 @@
     "entregaGarantiasAbogado": "2017-09-16T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-10-12T00:00:00.000Z",
-    "etapaProcesal": "11001400303020170157900",
+    "etapaProcesal": "1.100140030302017e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [

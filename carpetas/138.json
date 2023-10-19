@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306420170116000",
+  "llaveProceso": "11001400306420170116000",
   "numero": 138,
   "cc": 52323645,
   "idProcesos": [17941850],
@@ -10,18 +10,18 @@
       "fijo": 5471164,
       "celular": 3103446498
     },
-    "primerNombre": "FLOR",
-    "segundoNombre": "YAMILE",
-    "primerApellido": "BARRANTES",
-    "segundoApellido": "CARO",
+    "primerNombre": "flor",
+    "segundoNombre": "yamile",
+    "primerApellido": "barrantes",
+    "segundoApellido": "caro",
     "cedula": 52323645,
-    "direccion": "CARRERA 19 # 22C - 75",
+    "direccion": "carrera 19 # 22c - 75",
     "email": "ybarrantes@gmail.com"
   },
   "demanda": {
-    "capitalAdeudado": 4575834768,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-08-31T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",

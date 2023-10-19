@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25899400300220170013100",
+  "llaveProceso": "25899400300220170013100",
   "numero": 392,
   "cc": 79712791,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "EDGAR",
-    "segundoNombre": "JOBANNY",
-    "primerApellido": "MATEUS",
-    "segundoApellido": "CASTILLO",
+    "primerNombre": "edgar",
+    "segundoNombre": "jobanny",
+    "primerApellido": "mateus",
+    "segundoApellido": "castillo",
     "cedula": 79712791,
-    "direccion": "CALLE 3 C No  13 - 07   ZIPAQUIRA",
+    "direccion": "calle 3 c no  13 - 07   zipaquira",
     "email": "giovannymat@yahoo.com"
   },
   "demanda": {

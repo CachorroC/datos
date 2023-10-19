@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301320170116200",
+  "llaveProceso": "11001400301320170116200",
   "numero": 251,
   "cc": 7226283,
   "idProcesos": [50685530],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3178195535
     },
-    "primerNombre": "CARLOS",
-    "segundoNombre": "JAVIER",
-    "primerApellido": "BECERRA",
-    "segundoApellido": "BENAVIDES",
+    "primerNombre": "carlos",
+    "segundoNombre": "javier",
+    "primerApellido": "becerra",
+    "segundoApellido": "benavides",
     "cedula": 7226283,
-    "direccion": "CARRERA 11A # 17 - 24 SANTA BARBARA",
+    "direccion": "carrera 11a # 17 - 24 santa barbara",
     "email": "cajux@hotmail.com"
   },
   "demanda": {

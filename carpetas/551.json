@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25312400300320230037100",
+  "llaveProceso": "25312400300320230037100",
   "numero": 551,
   "cc": 1075211773,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "PEDRO",
-    "segundoNombre": "JONATHAN",
-    "primerApellido": "RAMIREZ",
-    "segundoApellido": "GOMEZ",
+    "primerNombre": "pedro",
+    "segundoNombre": "jonathan",
+    "primerApellido": "ramirez",
+    "segundoApellido": "gomez",
     "cedula": 1075211773,
-    "direccion": "KR 1 2 41 Fusagasugá",
+    "direccion": "kr 1 2 41 fusagasugá",
     "email": "jonathansoldier@hotmail.com"
   },
   "demanda": {

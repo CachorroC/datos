@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25286400300120190041800",
+  "llaveProceso": "25286400300120190041800",
   "numero": 527,
   "cc": 80654935,
   "idProcesos": [],
@@ -10,13 +10,19 @@
       "fijo": 8233553,
       "celular": 3108090708
     },
-    "primerNombre": "JAIRO",
-    "segundoNombre": "MARCELO",
-    "primerApellido": "GUIZA",
-    "segundoApellido": "RODRIGUEZ",
+    "primerNombre": "jairo",
+    "segundoNombre": "marcelo",
+    "primerApellido": "guiza",
+    "segundoApellido": "rodriguez",
     "cedula": 80654935,
-    "direccion": "CALLE 7A #7A-15 FUNZA",
+    "direccion": "calle 7a #7a-15 funza",
     "email": "jmarcelo_78@yahoo.com // samvari12@gmail.com"
+  },
+  "codeudor": {
+    "cedula": 52661952,
+    "direccion": "CALLE 7A # 7A-15 FUNZA",
+    "nombre": "sandra milena valbuena rincon",
+    "telefono": "F 8259768"
   },
   "demanda": {
     "capitalAdeudado": 29140.667,
@@ -24,7 +30,7 @@
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2019-05-06T05:00:00.000Z",
-    "etapaProcesal": "25286400300120190041800",
+    "etapaProcesal": "2.528640030012019e+22",
     "fechaPresentacion": null,
     "municipio": "FUNZA",
     "obligacion": [

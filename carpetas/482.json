@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307120180093600",
+  "llaveProceso": "11001400307120180093600",
   "numero": 482,
   "cc": 52380535,
   "idProcesos": [18597560],
@@ -7,13 +7,18 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "CLAUDIA",
-    "segundoNombre": "JANETH",
-    "primerApellido": "CORTES",
-    "segundoApellido": "ROSAS",
+    "primerNombre": "claudia",
+    "segundoNombre": "janeth",
+    "primerApellido": "cortes",
+    "segundoApellido": "rosas",
     "cedula": 52380535,
-    "direccion": "CARRERA 88D No 6D-27 TORRE 6 APTO 618",
+    "direccion": "carrera 88d no 6d-27 torre 6 apto 618",
     "email": "ccortes3500@gmail.com"
+  },
+  "codeudor": {
+    "cedula": 80441668,
+    "nombre": "oscar castiblanco niño",
+    "telefono": 3568112
   },
   "demanda": {
     "capitalAdeudado": null,

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301320170117800",
+  "llaveProceso": "11001400301320170117800",
   "numero": 258,
   "cc": 51740544,
   "idProcesos": [50692590],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "SOL",
-    "segundoNombre": "JUDITH",
-    "primerApellido": "BUITRAGO",
-    "segundoApellido": "DUQUE",
+    "primerNombre": "sol",
+    "segundoNombre": "judith",
+    "primerApellido": "buitrago",
+    "segundoApellido": "duque",
     "cedula": 51740544,
-    "direccion": "CARRERA 121 # 128B - 52 BLOQUE 8 CASA 34",
+    "direccion": "carrera 121 # 128b - 52 bloque 8 casa 34",
     "email": "dirfinanciera.sol@gmail.com"
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25436408900120180006300",
+  "llaveProceso": "25436408900120180006300",
   "numero": 503,
   "cc": 3096755,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JUAN",
-    "segundoNombre": "CARLOS",
-    "primerApellido": "LEON",
-    "segundoApellido": "MONTENEGRO",
+    "primerNombre": "juan",
+    "segundoNombre": "carlos",
+    "primerApellido": "leon",
+    "segundoApellido": "montenegro",
     "cedula": 3096755,
-    "direccion": "DIAGONAL 2 No 6 A-29",
+    "direccion": "diagonal 2 no 6 a-29",
     "email": "jclm152@hotmail.com"
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25473418900120170092400",
+  "llaveProceso": "25473418900120170092400",
   "numero": 163,
   "cc": 71557211,
   "idProcesos": [],
@@ -7,16 +7,22 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "CARLOS",
-    "segundoNombre": "ARTURO",
-    "primerApellido": "RUEDA",
-    "segundoApellido": "ALZATE",
+    "primerNombre": "carlos",
+    "segundoNombre": "arturo",
+    "primerApellido": "rueda",
+    "segundoApellido": "alzate",
     "cedula": 71557211,
-    "direccion": "CALLE 7 # 5 - 29 TORRE 8 APTO 303",
+    "direccion": "calle 7 # 5 - 29 torre 8 apto 303",
     "email": "ruedacarlos47@gmail.com"
   },
+  "codeudor": {
+    "cedula": 53063756,
+    "direccion": "CL 7 5 29 TR 8 AP 303",
+    "nombre": "sullman janeth sabogal jimenez",
+    "telefono": "6197842 // 3112563218"
+  },
   "demanda": {
-    "capitalAdeudado": null,
+    "capitalAdeudado": 4042361408,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
     "tipoProceso": "SINGULAR",

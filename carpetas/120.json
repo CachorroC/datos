@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754418900320170075500",
+  "llaveProceso": "25754418900320170075500",
   "numero": 120,
   "cc": 900212673,
   "idProcesos": [],
@@ -7,13 +7,19 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JENCELL",
+    "primerNombre": "jencell",
     "segundoNombre": null,
-    "primerApellido": "E.U.",
+    "primerApellido": "e.u.",
     "segundoApellido": null,
     "cedula": 900212673,
-    "direccion": "CARRERA 3 # 29A - 02",
+    "direccion": "carrera 3 # 29a - 02",
     "email": null
+  },
+  "codeudor": {
+    "cedula": 52771090,
+    "direccion": "CARRERA 3 # 29A - 02 LOCAL 1057",
+    "nombre": "yeny esperanza arias mendieta",
+    "telefono": 5753416
   },
   "demanda": {
     "capitalAdeudado": 13906.249,

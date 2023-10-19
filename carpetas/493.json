@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001410375120180181700",
+  "llaveProceso": "11001410375120180181700",
   "numero": 493,
   "cc": 53103504,
   "idProcesos": [],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "KELLY",
-    "segundoNombre": "YULIANA",
-    "primerApellido": "QUINTERO",
-    "segundoApellido": "FIERRO",
+    "primerNombre": "kelly",
+    "segundoNombre": "yuliana",
+    "primerApellido": "quintero",
+    "segundoApellido": "fierro",
     "cedula": 53103504,
-    "direccion": "CALLE 7 No 87B-90",
+    "direccion": "calle 7 no 87b-90",
     "email": "juliana.4455@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 1030602928,
+    "direccion": "CALLE 7 No 87B-90",
+    "nombre": "leiny andrea quintero fierro",
+    "telefono": 3208797
   },
   "demanda": {
     "capitalAdeudado": null,

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300920170136100",
+  "llaveProceso": "11001400300920170136100",
   "numero": 366,
   "cc": 53094561,
   "idProcesos": [50925430],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "YURI",
-    "segundoNombre": "ANDREA",
-    "primerApellido": "GONZALEZ",
-    "segundoApellido": "TORRES",
+    "primerNombre": "yuri",
+    "segundoNombre": "andrea",
+    "primerApellido": "gonzalez",
+    "segundoApellido": "torres",
     "cedula": 53094561,
-    "direccion": "CARRERA 87 K No 70-44 SUR",
+    "direccion": "carrera 87 k no 70-44 sur",
     "email": "yurisita_05@hotmail.com"
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": "2017-11-12T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
-    "etapaProcesal": "11001400300920170136100",
+    "etapaProcesal": "1.100140030092017e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [134032],

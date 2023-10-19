@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305020170135700",
+  "llaveProceso": "11001400305020170135700",
   "numero": 350,
   "cc": 80111672,
   "idProcesos": [11224353],
@@ -10,12 +10,12 @@
       "fijo": 4647087,
       "celular": 3112441540
     },
-    "primerNombre": "DIEGO",
-    "segundoNombre": "FERNEY",
-    "primerApellido": "VERGARA",
-    "segundoApellido": "VALDERRAMA",
+    "primerNombre": "diego",
+    "segundoNombre": "ferney",
+    "primerApellido": "vergara",
+    "segundoApellido": "valderrama",
     "cedula": 80111672,
-    "direccion": "CALLE 51  SUR No  80 - 24",
+    "direccion": "calle 51  sur no  80 - 24",
     "email": "diegovergarav@hotmail.com"
   },
   "demanda": {

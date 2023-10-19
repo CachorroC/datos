@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305120170064400",
+  "llaveProceso": "11001400305120170064400",
   "numero": 49,
   "cc": 79532034,
   "idProcesos": [11486153],
@@ -10,13 +10,18 @@
       "fijo": null,
       "celular": 3165275725
     },
-    "primerNombre": "JOSE",
-    "segundoNombre": "ISRAEL",
-    "primerApellido": "MONROY",
-    "segundoApellido": "CORDOBA",
+    "primerNombre": "jose",
+    "segundoNombre": "israel",
+    "primerApellido": "monroy",
+    "segundoApellido": "cordoba",
     "cedula": 79532034,
-    "direccion": "CARRERA 77  L No. 57-H39 SUR//CARRERA 11B No. 12-68 SUR BOGOTA//  TRANSVERSAL 31 No. 28-31 Apto 103 bloque 7",
+    "direccion": "carrera 77  l no. 57-h39 sur//carrera 11b no. 12-68 sur bogota//  transversal 31 no. 28-31 apto 103 bloque 7",
     "email": "ramirosilva80@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 52507659,
+    "direccion": "CARRERA 77 No. 57-H39 SUR//CARRERA 11B No. 12-68 SUR BOGOTA//TRANSVERSAL 31 No. 28-31 Apto 103 bloque 7",
+    "nombre": "ana patricia villamizar montoya"
   },
   "demanda": {
     "capitalAdeudado": null,

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303420170147100",
+  "llaveProceso": "11001400303420170147100",
   "numero": 326,
   "cc": 19352146,
   "idProcesos": [50834080],
@@ -10,12 +10,12 @@
       "fijo": 7102329,
       "celular": 3138267838
     },
-    "primerNombre": "JORGE",
-    "segundoNombre": "ELIECER",
-    "primerApellido": "GOMEZ",
-    "segundoApellido": "LOPEZ",
+    "primerNombre": "jorge",
+    "segundoNombre": "eliecer",
+    "primerApellido": "gomez",
+    "segundoApellido": "lopez",
     "cedula": 19352146,
-    "direccion": "DIAGONAL 58 No 28 - 72    APARTAMENTO 603 INTERIOR 6",
+    "direccion": "diagonal 58 no 28 - 72    apartamento 603 interior 6",
     "email": "elpotegomez@hotmail.com"
   },
   "demanda": {

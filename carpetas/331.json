@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001410375220170130000",
+  "llaveProceso": "11001410375220170130000",
   "numero": 331,
   "cc": 1016043191,
   "idProcesos": [],
@@ -7,16 +7,17 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "CHRISTIAN",
-    "segundoNombre": "DARIO",
-    "primerApellido": "RUIZ",
-    "segundoApellido": "AVELLANEDA",
+    "primerNombre": "christian",
+    "segundoNombre": "dario",
+    "primerApellido": "ruiz",
+    "segundoApellido": "avellaneda",
     "cedula": 1016043191,
     "direccion": null,
     "email": "CALLE 23 SUR No 96 - 82"
   },
+  "codeudor": { "direccion": 43059 },
   "demanda": {
-    "capitalAdeudado": 43041,
+    "capitalAdeudado": 43,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",

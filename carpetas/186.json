@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25175408900220170041200",
+  "llaveProceso": "25175408900220170041200",
   "numero": 186,
   "cc": 24134505,
   "idProcesos": [],
@@ -7,13 +7,19 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "",
-    "segundoNombre": "CELY",
-    "primerApellido": "MARGOTH",
-    "segundoApellido": "ROJAS VELANDIA",
+    "primerNombre": "cely",
+    "segundoNombre": "margoth",
+    "primerApellido": "rojas",
+    "segundoApellido": "velandia",
     "cedula": 24134505,
-    "direccion": "CALLE 29 A # 2 - 76 APTO 304 CHIA",
+    "direccion": "calle 29 a # 2 - 76 apto 304 chia",
     "email": null
+  },
+  "codeudor": {
+    "cedula": 24134635,
+    "direccion": "CALLE 172 # 21A - 17",
+    "nombre": "quenia milena rojas velandia",
+    "telefono": 3118661189
   },
   "demanda": {
     "capitalAdeudado": 13319.13,

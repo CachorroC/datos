@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400302620180047900",
+  "llaveProceso": "11001400302620180047900",
   "numero": 383,
   "cc": 65706810,
   "idProcesos": [51176440],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "NOHORA",
-    "segundoNombre": "ESPERANZA",
-    "primerApellido": "BARRERO",
-    "segundoApellido": "RODRIGUEZ",
+    "primerNombre": "nohora",
+    "segundoNombre": "esperanza",
+    "primerApellido": "barrero",
+    "segundoApellido": "rodriguez",
     "cedula": 65706810,
-    "direccion": "CALLE 12 # 2C - 55 SENDEROS DE FUNZA // CALLE 50 SUR # 93D - 38",
+    "direccion": "calle 12 # 2c - 55 senderos de funza // calle 50 sur # 93d - 38",
     "email": "nonbaro@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 74327316,
+    "direccion": "CARRERA 98 # 15A - 80",
+    "nombre": "rodegan lopez mendoza",
+    "telefono": 7340264
   },
   "demanda": {
     "capitalAdeudado": null,

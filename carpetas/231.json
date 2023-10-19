@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418900920170008900",
+  "llaveProceso": "11001418900920170008900",
   "numero": 231,
   "cc": 1022943195,
   "idProcesos": [],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "DIANA",
-    "segundoNombre": "MARCELA IPUZ",
-    "primerApellido": "SUAREZ Y",
-    "segundoApellido": "OTRO",
+    "primerNombre": "diana",
+    "segundoNombre": "marcela ipuz",
+    "primerApellido": "suarez y",
+    "segundoApellido": "otro",
     "cedula": 1022943195,
     "direccion": "marcelaipuzsuarez@hotmail.com",
     "email": "7493169 / 7672067"
+  },
+  "codeudor": {
+    "cedula": "CALLE 72B BIS No 5A 22 SUR",
+    "direccion": "7493169 /3185405968",
+    "nombre": 1032416632,
+    "telefono": "JHONNY HERNANDO BELTRAN SALCEDO"
   },
   "demanda": {
     "capitalAdeudado": 0,

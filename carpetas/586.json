@@ -1,33 +1,36 @@
 {
-  "_llaveProceso": null,
+  "llaveProceso": null,
   "numero": 586,
   "cc": 35507149,
-  "idProcesos": null,
+  "idProcesos": [],
   "category": "Bancolombia",
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MARIA",
-    "segundoNombre": "NANCY",
-    "primerApellido": "PINEDA",
-    "segundoApellido": "LEON",
+    "tel": {
+      "fijo": null,
+      "celular": 3506013954
+    },
+    "primerNombre": "maria",
+    "segundoNombre": "nancy",
+    "primerApellido": "pineda",
+    "segundoApellido": "leon",
     "cedula": 35507149,
-    "direccion": null,
-    "email": null
+    "direccion": "carrera 3a. no. 1 - 18 silvania (cundinamarca)",
+    "email": "nancypleon13gmail.com"
   },
   "demanda": {
-    "capitalAdeudado": 0,
-    "departamento": null,
-    "entregaGarantiasAbogado": null,
+    "capitalAdeudado": 255635.733,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-10-02T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
     "fechaPresentacion": null,
-    "municipio": null,
-    "obligacion": [],
+    "municipio": "FUSAGASUGA",
+    "obligacion": [90000222424],
     "radicado": null,
     "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
+      "2052-12-07T00:00:00.000Z"
     ],
     "expediente": null,
     "juzgados": null

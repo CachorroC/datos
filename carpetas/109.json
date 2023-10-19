@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400302420180011900",
+  "llaveProceso": "11001400302420180011900",
   "numero": 109,
   "cc": 1018428090,
   "idProcesos": [50990990],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3045449490
     },
-    "primerNombre": "OSCAR",
-    "segundoNombre": "IVAN",
-    "primerApellido": "AGUDELO",
-    "segundoApellido": "MORA",
+    "primerNombre": "oscar",
+    "segundoNombre": "ivan",
+    "primerApellido": "agudelo",
+    "segundoApellido": "mora",
     "cedula": 1018428090,
-    "direccion": "CARRERA 3 D # 32A - 69 SUR",
+    "direccion": "carrera 3 d # 32a - 69 sur",
     "email": "oscar.agudelo@crcom.gov.co"
   },
   "demanda": {

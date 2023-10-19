@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754400300320170034600",
+  "llaveProceso": "25754400300320170034600",
   "numero": 299,
   "cc": 80879280,
   "idProcesos": [],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ROBERTO",
-    "segundoNombre": "STIVENSON",
-    "primerApellido": "ACERO",
-    "segundoApellido": "BARON",
+    "primerNombre": "roberto",
+    "segundoNombre": "stivenson",
+    "primerApellido": "acero",
+    "segundoApellido": "baron",
     "cedula": 80879280,
-    "direccion": "CARRERA 9 ESTE No 36-59 SUR  SOACHA",
+    "direccion": "carrera 9 este no 36-59 sur  soacha",
     "email": "roberto.g12@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 53005799,
+    "direccion": "CALLE 75 C BIS No 2-09 SUR  BOGOTA",
+    "nombre": "laura del pilar aranda aroca",
+    "telefono": 3208790281
   },
   "demanda": {
     "capitalAdeudado": null,

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418903220180137000",
+  "llaveProceso": "11001418903220180137000",
   "numero": 483,
   "cc": 19459237,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "WILSON",
-    "segundoNombre": "RICARDO",
-    "primerApellido": "ESCOBAR",
-    "segundoApellido": "ESCOBAR",
+    "primerNombre": "wilson",
+    "segundoNombre": "ricardo",
+    "primerApellido": "escobar",
+    "segundoApellido": "escobar",
     "cedula": 19459237,
-    "direccion": "CALLE 71 A No 69A-11 APTO  301",
+    "direccion": "calle 71 a no 69a-11 apto  301",
     "email": null
   },
   "demanda": {
@@ -23,7 +23,7 @@
     "mandamientoPago": null,
     "etapaProcesal": "ADMISION",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
+    "municipio": "BARRIOS UNIDOS",
     "obligacion": [5860083295],
     "radicado": "2018 - 01370",
     "vencimientoPagare": [null],

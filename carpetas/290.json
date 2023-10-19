@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305920170097500",
+  "llaveProceso": "11001400305920170097500",
   "numero": 290,
   "cc": 40035102,
   "idProcesos": [50765330],
@@ -10,12 +10,12 @@
       "fijo": 6051177,
       "celular": 3152504510
     },
-    "primerNombre": "ELIZABETH",
+    "primerNombre": "elizabeth",
     "segundoNombre": null,
-    "primerApellido": "GIL",
-    "segundoApellido": "RODRIGUEZ",
+    "primerApellido": "gil",
+    "segundoApellido": "rodriguez",
     "cedula": 40035102,
-    "direccion": "DIAGONAL 15 B - 104 - 45 CASA  55",
+    "direccion": "diagonal 15 b - 104 - 45 casa  55",
     "email": "luz.y31@hotmail.com"
   },
   "demanda": {

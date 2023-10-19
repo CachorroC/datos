@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400302820170084900",
+  "llaveProceso": "11001400302820170084900",
   "numero": 233,
   "cc": 11313124,
   "idProcesos": [50685700],
@@ -10,12 +10,12 @@
       "fijo": 3138216,
       "celular": 3138216786
     },
-    "primerNombre": "JOSE",
-    "segundoNombre": "LUIS",
-    "primerApellido": "TORRES",
-    "segundoApellido": "TAMAYO",
+    "primerNombre": "jose",
+    "segundoNombre": "luis",
+    "primerApellido": "torres",
+    "segundoApellido": "tamayo",
     "cedula": 11313124,
-    "direccion": "CALLE 145 # 46 - 13 APTO 202 INT 5",
+    "direccion": "calle 145 # 46 - 13 apto 202 int 5",
     "email": "jotorres@perosnalsoft.com.co"
   },
   "demanda": {
@@ -28,7 +28,7 @@
     "fechaPresentacion": "2017-09-01T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
-      4099838997529750,
+      4.09983899752975e29,
       "5303712728390736 // 12141636"
     ],
     "radicado": "2017 - 00849",

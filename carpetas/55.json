@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25430400300120170108700",
+  "llaveProceso": "25430400300120170108700",
   "numero": 55,
   "cc": 80353430,
   "idProcesos": [],
@@ -10,13 +10,19 @@
       "fijo": null,
       "celular": 3124488945
     },
-    "primerNombre": "DOUGLAS",
+    "primerNombre": "douglas",
     "segundoNombre": null,
-    "primerApellido": "AYURE",
-    "segundoApellido": "RIOS",
+    "primerApellido": "ayure",
+    "segundoApellido": "rios",
     "cedula": 80353430,
-    "direccion": "CALLE 11 A No. 3-29 URBANIZACION EL PORVENIR MADRID",
+    "direccion": "calle 11 a no. 3-29 urbanizacion el porvenir madrid",
     "email": "faride1109@yahoo.com"
+  },
+  "codeudor": {
+    "cedula": 20736637,
+    "direccion": "CALLE 11 A No. 3-29 URBANIZACION EL PORVENIR MADRID",
+    "nombre": "ana isabel jurado leon",
+    "telefono": 8252559
   },
   "demanda": {
     "capitalAdeudado": 35544456,

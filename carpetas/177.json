@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304520170104100",
+  "llaveProceso": "11001400304520170104100",
   "numero": 177,
   "cc": 79327475,
   "idProcesos": [9876793],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "LEONARDY",
+    "primerNombre": "leonardy",
     "segundoNombre": null,
-    "primerApellido": "HERRERA",
-    "segundoApellido": "ROJAS",
+    "primerApellido": "herrera",
+    "segundoApellido": "rojas",
     "cedula": 79327475,
-    "direccion": "CARRERA 85 # 52 - 05 SUR",
+    "direccion": "carrera 85 # 52 - 05 sur",
     "email": "leonardyherrera@yahoo.com"
   },
   "demanda": {

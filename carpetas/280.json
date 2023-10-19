@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300920170127900",
+  "llaveProceso": "11001400300920170127900",
   "numero": 280,
   "cc": 19447966,
   "idProcesos": [50875780],
@@ -10,17 +10,17 @@
       "fijo": 4789274,
       "celular": 3125826241
     },
-    "primerNombre": "JOSE",
-    "segundoNombre": "HERNANDO",
-    "primerApellido": "SANCHEZ",
-    "segundoApellido": "VALBUENA",
+    "primerNombre": "jose",
+    "segundoNombre": "hernando",
+    "primerApellido": "sanchez",
+    "segundoApellido": "valbuena",
     "cedula": 19447966,
-    "direccion": "CR 12B 24-37 SUR",
+    "direccion": "cr 12b 24-37 sur",
     "email": "jhernandosanchez@yahoo.es"
   },
   "demanda": {
     "capitalAdeudado": 11796.195,
-    "departamento": "CUNDINAMARCA",
+    "departamento": "CUNDINNAMARCA",
     "entregaGarantiasAbogado": "2017-09-11T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-12-12T00:00:00.000Z",

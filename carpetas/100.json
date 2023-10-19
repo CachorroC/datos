@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25430418900120170068400",
+  "llaveProceso": "25430418900120170068400",
   "numero": 100,
   "cc": 80430881,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3143190799
     },
-    "primerNombre": "JHON",
-    "segundoNombre": "JAIRO",
-    "primerApellido": "RUBIO",
-    "segundoApellido": "ORTIZ",
+    "primerNombre": "jhon",
+    "segundoNombre": "jairo",
+    "primerApellido": "rubio",
+    "segundoApellido": "ortiz",
     "cedula": 80430881,
-    "direccion": "CALLE 8 # 1 - 92E MADRID",
+    "direccion": "calle 8 # 1 - 92e madrid",
     "email": "jojaro07@hotmail.com"
   },
   "demanda": {

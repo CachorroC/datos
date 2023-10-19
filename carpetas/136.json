@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304720170149100",
+  "llaveProceso": "11001400304720170149100",
   "numero": 136,
   "cc": 79463388,
   "idProcesos": [10408413],
@@ -10,12 +10,12 @@
       "fijo": 2990898,
       "celular": 3125225701
     },
-    "primerNombre": "JORGE",
-    "segundoNombre": "ERNESTO",
-    "primerApellido": "ROA",
-    "segundoApellido": "MANRIQUE",
+    "primerNombre": "jorge",
+    "segundoNombre": "ernesto",
+    "primerApellido": "roa",
+    "segundoApellido": "manrique",
     "cedula": 79463388,
-    "direccion": "CALLE 46 SUR # 81G - 15",
+    "direccion": "calle 46 sur # 81g - 15",
     "email": "jorgeernesto@hotmail.com"
   },
   "demanda": {

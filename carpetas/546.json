@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300220170100200",
+  "llaveProceso": "11001400300220170100200",
   "numero": 546,
   "cc": 1116782267,
   "idProcesos": [50780430],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3005941798
     },
-    "primerNombre": "JOGLI",
-    "segundoNombre": "JOAQUIN",
-    "primerApellido": "OTERO",
-    "segundoApellido": "VARGAS",
+    "primerNombre": "jogli",
+    "segundoNombre": "joaquin",
+    "primerApellido": "otero",
+    "segundoApellido": "vargas",
     "cedula": 1116782267,
-    "direccion": "DIAGONAL 2 No 79 F -04",
+    "direccion": "diagonal 2 no 79 f -04",
     "email": "juanotero1989@gmail.com"
   },
   "demanda": {

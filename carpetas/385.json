@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303520180007400",
+  "llaveProceso": "11001400303520180007400",
   "numero": 385,
   "cc": 406547,
   "idProcesos": [50980350],
@@ -7,13 +7,19 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "AVELINO",
+    "primerNombre": "avelino",
     "segundoNombre": null,
-    "primerApellido": "SIERRA",
-    "segundoApellido": "SIERRA",
+    "primerApellido": "sierra",
+    "segundoApellido": "sierra",
     "cedula": 406547,
-    "direccion": "TRANVERSAL 11A # 9A - 13",
+    "direccion": "tranversal 11a # 9a - 13",
     "email": null
+  },
+  "codeudor": {
+    "cedula": 406828,
+    "direccion": "CALLE 126 # 11G - 78",
+    "nombre": "jose carlos julio rincon sierra",
+    "telefono": 3143667
   },
   "demanda": {
     "capitalAdeudado": 15344.261,

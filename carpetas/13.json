@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25867418900120170002000",
+  "llaveProceso": "25867418900120170002000",
   "numero": 13,
   "cc": 447028,
   "idProcesos": [],
@@ -10,16 +10,22 @@
       "fijo": null,
       "celular": 3106890300
     },
-    "primerNombre": "PASCUAL",
+    "primerNombre": "pascual",
     "segundoNombre": null,
-    "primerApellido": "ORTEGA",
-    "segundoApellido": "ENCISO",
+    "primerApellido": "ortega",
+    "segundoApellido": "enciso",
     "cedula": 447028,
-    "direccion": "FINCA EL HOSPICIO VIANI",
+    "direccion": "finca el hospicio viani",
     "email": null
   },
+  "codeudor": {
+    "cedula": 21094922,
+    "direccion": "FINCA EL HOSPICIO VIANI",
+    "nombre": "carmen julia mora rodriguez",
+    "telefono": 3132796326
+  },
   "demanda": {
-    "capitalAdeudado": 23326974,
+    "capitalAdeudado": 23326.974,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
     "tipoProceso": "SINGULAR",

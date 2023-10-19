@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307820180064700",
+  "llaveProceso": "11001400307820180064700",
   "numero": 450,
   "cc": 53133179,
   "idProcesos": [51571520],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "KELLY",
-    "segundoNombre": "YOHANNA",
-    "primerApellido": "MURCIA",
-    "segundoApellido": "DUCON",
+    "primerNombre": "kelly",
+    "segundoNombre": "yohanna",
+    "primerApellido": "murcia",
+    "segundoApellido": "ducon",
     "cedula": 53133179,
-    "direccion": "CALLE 63 SUR No 78 J-38 TORRE 4 APTO 603",
+    "direccion": "calle 63 sur no 78 j-38 torre 4 apto 603",
     "email": "kellyohamd@hotmail.com"
   },
   "demanda": {

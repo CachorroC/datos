@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25286310300120170100300",
+  "llaveProceso": "25286310300120170100300",
   "numero": 302,
   "cc": 79906707,
   "idProcesos": [],
@@ -10,13 +10,19 @@
       "fijo": 8272125,
       "celular": 3005821212
     },
-    "primerNombre": "EDGAR",
+    "primerNombre": "edgar",
     "segundoNombre": null,
-    "primerApellido": "GODOY",
-    "segundoApellido": "LOPEZ",
+    "primerApellido": "godoy",
+    "segundoApellido": "lopez",
     "cedula": 79906707,
-    "direccion": "CARRER 5  No 2-35  MANZANA 21 CASA 208- MOSQUERA",
+    "direccion": "carrer 5  no 2-35  manzana 21 casa 208- mosquera",
     "email": "s3curityinformation@gmail.com"
+  },
+  "codeudor": {
+    "cedula": 39678085,
+    "direccion": "CARRERA 68 A  No 31  A- 06 SUR",
+    "nombre": "ruby aminta barrero cueca",
+    "telefono": 2705042
   },
   "demanda": {
     "capitalAdeudado": null,

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300120170100100",
+  "llaveProceso": "11001400300120170100100",
   "numero": 183,
   "cc": 11185630,
   "idProcesos": [50621670],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "WILSON",
-    "segundoNombre": "ALFONSO",
-    "primerApellido": "JIMENEZ",
-    "segundoApellido": "MENDIETA",
+    "primerNombre": "wilson",
+    "segundoNombre": "alfonso",
+    "primerApellido": "jimenez",
+    "segundoApellido": "mendieta",
     "cedula": 11185630,
-    "direccion": "CARRERA 81C # 2B - 80 PISO 2",
+    "direccion": "carrera 81c # 2b - 80 piso 2",
     "email": "grupocomerciallasabana@hotmail.com"
   },
   "demanda": {

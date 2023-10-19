@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754418900320180135200",
+  "llaveProceso": "25754418900320180135200",
   "numero": 512,
   "cc": 1014200510,
   "idProcesos": [],
@@ -7,14 +7,15 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "SANDRA",
-    "segundoNombre": "MILENA",
-    "primerApellido": "MORALES",
-    "segundoApellido": "GARCIA",
+    "primerNombre": "sandra",
+    "segundoNombre": "milena",
+    "primerApellido": "morales",
+    "segundoApellido": "garcia",
     "cedula": 1014200510,
     "direccion": null,
     "email": "CALLE 93 No 94 N -16"
   },
+  "codeudor": { "direccion": "09-07-2033" },
   "demanda": {
     "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",

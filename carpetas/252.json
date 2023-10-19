@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303420170123600",
+  "llaveProceso": "11001400303420170123600",
   "numero": 252,
   "cc": 1023863956,
   "idProcesos": [50745490],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ANGEL",
-    "segundoNombre": "JOVANI",
-    "primerApellido": "SUAREZ",
-    "segundoApellido": "GOMEZ",
+    "primerNombre": "angel",
+    "segundoNombre": "jovani",
+    "primerApellido": "suarez",
+    "segundoApellido": "gomez",
     "cedula": 1023863956,
-    "direccion": "CALLE 67 C SUR 1 B 23 EST",
+    "direccion": "calle 67 c sur 1 b 23 est",
     "email": "angelsuarez.23@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 1032423457,
+    "direccion": "CALLE 67 C SUR 1B 23 ESTE APARTAMENTO 503 TORRE 9",
+    "nombre": "damaris milena caicedo farieta",
+    "telefono": 10324223457
   },
   "demanda": {
     "capitalAdeudado": null,

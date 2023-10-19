@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303620180081800",
+  "llaveProceso": "11001400303620180081800",
   "numero": 539,
   "cc": 51937267,
   "idProcesos": [51306830],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ADRIANA",
-    "segundoNombre": "LUCIA",
-    "primerApellido": "MORA",
-    "segundoApellido": "PLATA",
+    "primerNombre": "adriana",
+    "segundoNombre": "lucia",
+    "primerApellido": "mora",
+    "segundoApellido": "plata",
     "cedula": 51937267,
-    "direccion": "CALLLE 106 B- No 54-57 APTO 201 PUENTE LARGO",
+    "direccion": "callle 106 b- no 54-57 apto 201 puente largo",
     "email": "amoplata@yahoo.com"
   },
   "demanda": {
@@ -24,7 +24,9 @@
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2018-07-11T00:00:00.000Z",
     "municipio": "BOGOTA",
-    "obligacion": [2070086628, 4594250056606570],
+    "obligacion": [
+      2070086628, 4.59425005660657e29
+    ],
     "radicado": "2018 - 00818",
     "vencimientoPagare": [
       "2021-04-10T00:00:00.000Z"

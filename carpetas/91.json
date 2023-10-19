@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303120180040600",
+  "llaveProceso": "11001400303120180040600",
   "numero": 91,
   "cc": 79456791,
   "idProcesos": [51092120],
@@ -7,13 +7,16 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JAIME",
-    "segundoNombre": "JESUS",
-    "primerApellido": "REYES",
-    "segundoApellido": "OROZCO",
+    "primerNombre": "jaime",
+    "segundoNombre": "jesus",
+    "primerApellido": "reyes",
+    "segundoApellido": "orozco",
     "cedula": 79456791,
     "direccion": "jaime.precco@gmail.com",
     "email": "F3554893              CEL 3165211980"
+  },
+  "codeudor": {
+    "cedula": "CALLE 152 No 72 - 50  BOGOTA"
   },
   "demanda": {
     "capitalAdeudado": null,

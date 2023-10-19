@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307020170116400",
+  "llaveProceso": "11001400307020170116400",
   "numero": 318,
   "cc": 51673703,
   "idProcesos": [18367590],
@@ -7,16 +7,17 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "SONIA",
+    "primerNombre": "sonia",
     "segundoNombre": null,
-    "primerApellido": "JANETH",
-    "segundoApellido": "RODRIGUEZ",
+    "primerApellido": "janeth",
+    "segundoApellido": "rodriguez",
     "cedula": 51673703,
     "direccion": null,
     "email": "CALLE 52 SUR No 97 C - 20"
   },
+  "codeudor": { "direccion": 45531 },
   "demanda": {
-    "capitalAdeudado": 43033,
+    "capitalAdeudado": 43,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",

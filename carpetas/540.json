@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301420180092900",
+  "llaveProceso": "11001400301420180092900",
   "numero": 540,
   "cc": 3242760,
   "idProcesos": [51341610],
@@ -10,12 +10,12 @@
       "fijo": 6855750,
       "celular": 3143659602
     },
-    "primerNombre": "JOSE",
-    "segundoNombre": "RODRIGO",
-    "primerApellido": "GARCIA",
-    "segundoApellido": "QUINTERO",
+    "primerNombre": "jose",
+    "segundoNombre": "rodrigo",
+    "primerApellido": "garcia",
+    "segundoApellido": "quintero",
     "cedula": 3242760,
-    "direccion": "CARRERA 86 No 99-23",
+    "direccion": "carrera 86 no 99-23",
     "email": "rodrigogar68@hotmail.com"
   },
   "demanda": {
@@ -23,7 +23,7 @@
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2018-07-26T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-08-09T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",

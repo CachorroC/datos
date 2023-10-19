@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301320170111400",
+  "llaveProceso": "11001400301320170111400",
   "numero": 170,
   "cc": 55303731,
   "idProcesos": [50668010],
@@ -10,16 +10,16 @@
       "fijo": 5514126,
       "celular": 3006509338
     },
-    "primerNombre": "ISABEL",
-    "segundoNombre": "CRISTINA",
-    "primerApellido": "GARCIA",
-    "segundoApellido": "DURAN",
+    "primerNombre": "isabel",
+    "segundoNombre": "cristina",
+    "primerApellido": "garcia",
+    "segundoApellido": "duran",
     "cedula": 55303731,
-    "direccion": "CALLE 138 # 11B - 16 APTO 401",
+    "direccion": "calle 138 # 11b - 16 apto 401",
     "email": "isagarcia@hotmail.com"
   },
   "demanda": {
-    "capitalAdeudado": null,
+    "capitalAdeudado": 810822.066,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2017-08-18T00:00:00.000Z",
     "tipoProceso": "SINGULAR",

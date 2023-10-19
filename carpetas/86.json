@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400302220170056700",
+  "llaveProceso": "11001400302220170056700",
   "numero": 86,
   "cc": 1087781966,
   "idProcesos": [111939890],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": 4062925, "celular": null },
-    "primerNombre": "RHONALD",
+    "primerNombre": "rhonald",
     "segundoNombre": null,
-    "primerApellido": "MEZA",
-    "segundoApellido": "TARAPUES",
+    "primerApellido": "meza",
+    "segundoApellido": "tarapues",
     "cedula": 1087781966,
-    "direccion": "CARRERA 73 A BIS No. 2 A-32 SUR BOGOTA",
+    "direccion": "carrera 73 a bis no. 2 a-32 sur bogota",
     "email": "mezaronald@yahoo.com"
   },
   "demanda": {

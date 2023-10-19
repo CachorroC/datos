@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418900620180021000",
+  "llaveProceso": "11001418900620180021000",
   "numero": 438,
   "cc": 52132383,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "LUZ",
-    "segundoNombre": "DARY",
-    "primerApellido": "VELANDIA",
-    "segundoApellido": "GARCIA",
+    "primerNombre": "luz",
+    "segundoNombre": "dary",
+    "primerApellido": "velandia",
+    "segundoApellido": "garcia",
     "cedula": 52132383,
-    "direccion": "CARRERA 24 B No 31C-64",
+    "direccion": "carrera 24 b no 31c-64",
     "email": "velandialuzd@yahooo.es"
   },
   "demanda": {

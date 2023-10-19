@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400302220170120800",
+  "llaveProceso": "11001400302220170120800",
   "numero": 369,
   "cc": 900336193,
   "idProcesos": [50817380, 81647611],
@@ -7,13 +7,19 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "INVERSION",
+    "primerNombre": "inversion",
     "segundoNombre": null,
-    "primerApellido": "RIVOLI",
-    "segundoApellido": "S.A.S.",
+    "primerApellido": "rivoli",
+    "segundoApellido": "s.a.s.",
     "cedula": 900336193,
-    "direccion": "CARRERA 24 G No20-35 SUR",
+    "direccion": "carrera 24 g no20-35 sur",
     "email": null
+  },
+  "codeudor": {
+    "cedula": 41519807,
+    "direccion": "CARRERA 24 No 20-35 SUR",
+    "nombre": "martha lucia cuartas betancur",
+    "telefono": 3114472300
   },
   "demanda": {
     "capitalAdeudado": 34749.647,

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25245408900120170023900",
+  "llaveProceso": "25245408900120170023900",
   "numero": 102,
   "cc": 1070329396,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3114456631
     },
-    "primerNombre": "ERIKA",
-    "segundoNombre": "ALEJANDRA",
-    "primerApellido": "QUINTERO",
-    "segundoApellido": "REYES",
+    "primerNombre": "erika",
+    "segundoNombre": "alejandra",
+    "primerApellido": "quintero",
+    "segundoApellido": "reyes",
     "cedula": 1070329396,
-    "direccion": "CALL 2 No. 8-40 EL COLEGIO",
+    "direccion": "call 2 no. 8-40 el colegio",
     "email": null
   },
   "demanda": {

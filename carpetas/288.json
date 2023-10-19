@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308320170113300",
+  "llaveProceso": "11001400308320170113300",
   "numero": 288,
   "cc": 20371142,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "VIVIANA",
-    "segundoNombre": "MARCELA",
-    "primerApellido": "ROA",
-    "segundoApellido": "VIVAS",
+    "primerNombre": "viviana",
+    "segundoNombre": "marcela",
+    "primerApellido": "roa",
+    "segundoApellido": "vivas",
     "cedula": 20371142,
-    "direccion": "DIAGONAL  15 B No 104 - 46",
+    "direccion": "diagonal  15 b no 104 - 46",
     "email": "isafrevi@hotmail.com"
   },
   "demanda": {

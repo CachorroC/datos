@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305220190110300",
+  "llaveProceso": "11001400305220190110300",
   "numero": 529,
   "cc": 2976219,
   "idProcesos": [66898433],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "GONZALO",
+    "primerNombre": "gonzalo",
     "segundoNombre": null,
-    "primerApellido": "CONTRERAS",
-    "segundoApellido": "POVEDA",
+    "primerApellido": "contreras",
+    "segundoApellido": "poveda",
     "cedula": 2976219,
-    "direccion": "CARRERA 39 B No 20T-1 APTO 303",
+    "direccion": "carrera 39 b no 20t-1 apto 303",
     "email": "gcontreras@intecq.com"
+  },
+  "codeudor": {
+    "cedula": 35402673,
+    "direccion": "TRANS 60 No 119-30 apto 418 t 5",
+    "nombre": "susana contreras poveda",
+    "telefono": 8060779
   },
   "demanda": {
     "capitalAdeudado": null,

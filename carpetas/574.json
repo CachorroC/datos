@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418900520230134200",
+  "llaveProceso": "11001418900920230131000",
   "numero": 574,
   "cc": 1014214413,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3007547824
     },
-    "primerNombre": "INGRID",
-    "segundoNombre": "LIZETH",
-    "primerApellido": "PATARROYO",
-    "segundoApellido": "BAEZ",
+    "primerNombre": "ingrid",
+    "segundoNombre": "lizeth",
+    "primerApellido": "patarroyo",
+    "segundoApellido": "baez",
     "cedula": 1014214413,
-    "direccion": "CARRERA 85 L # 63B-42 CONJUNTO RESIDENCIAL PORTALES DE VILLALUZ ETAPA 1",
+    "direccion": "carrera 85 l # 63b-42 conjunto residencial portales de villaluz etapa 1",
     "email": "ingridpatarroyobaez@gmail.com"
   },
   "demanda": {
@@ -38,7 +38,7 @@
       "2026-07-04T05:00:00.000Z",
       "2026-07-04T05:00:00.000Z"
     ],
-    "expediente": "11001418900520230134200",
+    "expediente": "11001418900920230131000",
     "juzgados": []
   }
 }

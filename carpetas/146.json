@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308620170082600",
+  "llaveProceso": "11001400308620170082600",
   "numero": 146,
   "cc": 4520757,
   "idProcesos": [81888371],
@@ -10,12 +10,12 @@
       "fijo": 2103564,
       "celular": 3116216567
     },
-    "primerNombre": "PEDRO",
-    "segundoNombre": "NEL",
-    "primerApellido": "PELAEZ",
-    "segundoApellido": "TISNES",
+    "primerNombre": "pedro",
+    "segundoNombre": "nel",
+    "primerApellido": "pelaez",
+    "segundoApellido": "tisnes",
     "cedula": 4520757,
-    "direccion": "TRANVERSAL 3 # 52B - 09 APTO 405",
+    "direccion": "tranversal 3 # 52b - 09 apto 405",
     "email": "pelaezpedro@hotmail.com"
   },
   "demanda": {

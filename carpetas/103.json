@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308220170068000",
+  "llaveProceso": "11001400308220170068000",
   "numero": 103,
   "cc": 16831314,
   "idProcesos": [51619370, 81869501],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3216066052
     },
-    "primerNombre": "EDUARDO",
-    "segundoNombre": "ENRIQUE",
-    "primerApellido": "ARANGO",
-    "segundoApellido": "CHACON",
+    "primerNombre": "eduardo",
+    "segundoNombre": "enrique",
+    "primerApellido": "arango",
+    "segundoApellido": "chacon",
     "cedula": 16831314,
-    "direccion": "CARRERA 74 No. 25 G-69",
+    "direccion": "carrera 74 no. 25 g-69",
     "email": "kikearango@hotmail.com"
   },
   "demanda": {

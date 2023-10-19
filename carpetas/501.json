@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305520180131600",
+  "llaveProceso": "11001400305520180131600",
   "numero": 501,
   "cc": 830105220,
   "idProcesos": [],
@@ -7,13 +7,19 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ASOCIACION",
+    "primerNombre": "asociacion",
     "segundoNombre": null,
-    "primerApellido": "AGROPECUARIA",
-    "segundoApellido": "UCEBUL",
+    "primerApellido": "agropecuaria",
+    "segundoApellido": "ucebul",
     "cedula": 830105220,
-    "direccion": "AVENIDA EL DORADO No 68C-61 OFICINA 702",
+    "direccion": "avenida el dorado no 68c-61 oficina 702",
     "email": "ucebul@gmail.com"
+  },
+  "codeudor": {
+    "cedula": 19436512,
+    "direccion": "AUT NORTE No 122 - 56 OFICINA 704 / CALLE 119 No 13-61",
+    "nombre": "oscar william fajardo garcia",
+    "telefono": "F 8028680"
   },
   "demanda": {
     "capitalAdeudado": 31627.562,
@@ -21,7 +27,7 @@
     "entregaGarantiasAbogado": "2018-09-10T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
-    "etapaProcesal": "11001400305520180131600",
+    "etapaProcesal": "1.100140030552018e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [

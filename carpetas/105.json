@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300720170111300",
+  "llaveProceso": "11001400300720170111300",
   "numero": 105,
   "cc": 15319344,
   "idProcesos": [50593940],
@@ -10,13 +10,18 @@
       "fijo": null,
       "celular": 3133809713
     },
-    "primerNombre": "ESTELIO",
-    "segundoNombre": "DE JESUS",
-    "primerApellido": " ROLDAN",
-    "segundoApellido": "POZO",
+    "primerNombre": "estelio",
+    "segundoNombre": "de jesus",
+    "primerApellido": " roldan",
+    "segundoApellido": "pozo",
     "cedula": 15319344,
-    "direccion": "CALLE 42 A BIS SUR No. 90A -64",
+    "direccion": "calle 42 a bis sur no. 90a -64",
     "email": null
+  },
+  "codeudor": {
+    "cedula": 15271543,
+    "direccion": "CARRERA 58 No.42-125 medellin//fernando.roldan1979@gmail.com",
+    "nombre": "hernando estelio roldan upegui"
   },
   "demanda": {
     "capitalAdeudado": 13688.162,

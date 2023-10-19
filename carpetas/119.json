@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301420170098800",
+  "llaveProceso": "11001400301420170098800",
   "numero": 119,
   "cc": 79693495,
   "idProcesos": [50633790],
@@ -10,12 +10,12 @@
       "fijo": 4610722,
       "celular": 3103789233
     },
-    "primerNombre": "CESAR",
-    "segundoNombre": "AUGUSTO",
-    "primerApellido": "GIL",
-    "segundoApellido": "GALLEGO",
+    "primerNombre": "cesar",
+    "segundoNombre": "augusto",
+    "primerApellido": "gil",
+    "segundoApellido": "gallego",
     "cedula": 79693495,
-    "direccion": "DIAGONAL 2A SUER # 78L - 81 APTO 501B",
+    "direccion": "diagonal 2a suer # 78l - 81 apto 501b",
     "email": "carolcecesar@gmail.com"
   },
   "demanda": {

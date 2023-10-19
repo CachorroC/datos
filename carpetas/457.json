@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307920180087200",
+  "llaveProceso": "11001400307920180087200",
   "numero": 457,
   "cc": 900237555,
   "idProcesos": [],
@@ -10,13 +10,19 @@
       "fijo": null,
       "celular": 3108881287
     },
-    "primerNombre": "SOLINCON",
+    "primerNombre": "solincon",
     "segundoNombre": null,
-    "primerApellido": "LIMITADA",
+    "primerApellido": "limitada",
     "segundoApellido": null,
     "cedula": 900237555,
-    "direccion": "CARRERA 58 No 15-54 PISO 2",
+    "direccion": "carrera 58 no 15-54 piso 2",
     "email": "solinconltda@yahoo.es"
+  },
+  "codeudor": {
+    "cedula": "12198722   // 79858717",
+    "direccion": "CARRERA 70 A No 4-544 APTO 201",
+    "nombre": "oscar javier pardo moreno // aluen david roncancio",
+    "telefono": "45840580  //7495406"
   },
   "demanda": {
     "capitalAdeudado": null,

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300420230062200",
+  "llaveProceso": "11001400300420230062200",
   "numero": 552,
   "cc": 1023874668,
   "idProcesos": [130946630],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "OSCAR",
-    "segundoNombre": "MAURICIO",
-    "primerApellido": "GOMEZ",
-    "segundoApellido": "MENDOZA",
+    "primerNombre": "oscar",
+    "segundoNombre": "mauricio",
+    "primerApellido": "gomez",
+    "segundoApellido": "mendoza",
     "cedula": 1023874668,
-    "direccion": "CL 49 A BIS SUR No. 5 N 10",
+    "direccion": "cl 49 a bis sur no. 5 n 10",
     "email": "oscar2794@hotmail.com"
   },
   "demanda": {

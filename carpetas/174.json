@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400302520170090300",
+  "llaveProceso": "11001400302520170090300",
   "numero": 174,
   "cc": 52189873,
   "idProcesos": [112048180],
@@ -10,12 +10,12 @@
       "fijo": 4530972,
       "celular": 3144189224
     },
-    "primerNombre": "DARNELLY",
+    "primerNombre": "darnelly",
     "segundoNombre": null,
-    "primerApellido": "HERNANDEZ",
-    "segundoApellido": "MARTINEZ",
+    "primerApellido": "hernandez",
+    "segundoApellido": "martinez",
     "cedula": 52189873,
-    "direccion": "CALLE 74G # 80 - 58 SUR",
+    "direccion": "calle 74g # 80 - 58 sur",
     "email": "darnelly-74@hotmail.com"
   },
   "demanda": {

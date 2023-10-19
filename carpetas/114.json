@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754418900220170075200",
+  "llaveProceso": "25754418900220170075200",
   "numero": 114,
   "cc": 79209455,
   "idProcesos": [86396721],
@@ -10,12 +10,12 @@
       "fijo": 3213173,
       "celular": 3128067314
     },
-    "primerNombre": "JOSE",
-    "segundoNombre": "ANTONIO",
-    "primerApellido": "CAICEDO",
-    "segundoApellido": "RUIZ",
+    "primerNombre": "jose",
+    "segundoNombre": "antonio",
+    "primerApellido": "caicedo",
+    "segundoApellido": "ruiz",
     "cedula": 79209455,
-    "direccion": "CALLE 11 # 52A - 14 SOACHA",
+    "direccion": "calle 11 # 52a - 14 soacha",
     "email": "antoniocaicedo1972@gmail.com"
   },
   "demanda": {

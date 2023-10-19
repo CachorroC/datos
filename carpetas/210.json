@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400302120180016300",
+  "llaveProceso": "11001400302120180016300",
   "numero": 210,
   "cc": 343334,
   "idProcesos": [51006610, 81643141],
@@ -10,18 +10,18 @@
       "fijo": 4658342,
       "celular": 3015004499
     },
-    "primerNombre": "JOSE",
-    "segundoNombre": "ANTONIO",
-    "primerApellido": "CASTILLO",
-    "segundoApellido": "CORTES",
+    "primerNombre": "jose",
+    "segundoNombre": "antonio",
+    "primerApellido": "castillo",
+    "segundoApellido": "cortes",
     "cedula": 343334,
-    "direccion": "CARRERA 50 # 113 - 09",
+    "direccion": "carrera 50 # 113 - 09",
     "email": null
   },
   "demanda": {
     "capitalAdeudado": 10555.422,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-08-22T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2018-03-05T00:00:00.000Z",
     "etapaProcesal": "EJECUCION",
@@ -29,10 +29,13 @@
     "municipio": "BOGOTA",
     "obligacion": [
       377813597718262,
-      "4513070908078111 // 5303714709873201 "
+      "4513070908078111 // 5303714709873201"
     ],
     "radicado": "2018 - 00163",
-    "vencimientoPagare": [null],
+    "vencimientoPagare": [
+      "2020-05-01T05:00:00.000Z",
+      "2020-05-01T05:00:00.000Z"
+    ],
     "expediente": "11001400302120180016300",
     "juzgados": [
       {

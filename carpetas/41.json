@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303520170119000",
+  "llaveProceso": "11001400303520170119000",
   "numero": 41,
   "cc": 52991801,
   "idProcesos": [50632350],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3103247337
     },
-    "primerNombre": "YENCY",
-    "segundoNombre": "KARINA",
-    "primerApellido": "CASTIBLANCO",
-    "segundoApellido": "BOHORQUEZ",
+    "primerNombre": "yency",
+    "segundoNombre": "karina",
+    "primerApellido": "castiblanco",
+    "segundoApellido": "bohorquez",
     "cedula": 52991801,
-    "direccion": "CARRERA 80 D No. 7-B-83 BOGOTA",
+    "direccion": "carrera 80 d no. 7-b-83 bogota",
     "email": "karicazo@yahoo.com"
   },
   "demanda": {

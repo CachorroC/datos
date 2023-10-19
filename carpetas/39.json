@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306520170090300",
+  "llaveProceso": "11001400306520170090300",
   "numero": 39,
   "cc": 79982488,
   "idProcesos": [70519480],
@@ -10,12 +10,12 @@
       "fijo": 7053290,
       "celular": 3012746201
     },
-    "primerNombre": "JORGE",
-    "segundoNombre": "ALONSO",
-    "primerApellido": "TRUJILLO",
-    "segundoApellido": "GÓMEZ",
+    "primerNombre": "jorge",
+    "segundoNombre": "alonso",
+    "primerApellido": "trujillo",
+    "segundoApellido": "gómez",
     "cedula": 79982488,
-    "direccion": "CALLE 120 No. 11 B-66 BOGOTA",
+    "direccion": "calle 120 no. 11 b-66 bogota",
     "email": "trujete@hotmail.com"
   },
   "demanda": {

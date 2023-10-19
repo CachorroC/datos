@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305720170128900",
+  "llaveProceso": "11001400305720170128900",
   "numero": 341,
   "cc": 19294251,
   "idProcesos": [17608484],
@@ -10,13 +10,16 @@
       "fijo": 6155668,
       "celular": 3102124649
     },
-    "primerNombre": "MARIO",
+    "primerNombre": "mario",
     "segundoNombre": null,
-    "primerApellido": "VELEZ",
-    "segundoApellido": "PARRA",
+    "primerApellido": "velez",
+    "segundoApellido": "parra",
     "cedula": 19294251,
-    "direccion": "CARRERA 14 No  127 - 10 OFICINA 707",
+    "direccion": "carrera 14 no  127 - 10 oficina 707",
     "email": "mariovelezparra@gmail.com"
+  },
+  "codeudor": {
+    "cedula": "09-08-2018 SE RADICA DEMANDA //13 Aug 2018 RADICACIÓN DE PROCESO ***AL DESPACHO POR REPARTO ///21 Sep 2018 AUTO LIBRA MANDAMIENTO EJECUTIVO ***AUTO DECRETA MEDIDA CAUTELAR FIJACION ESTADO 24 Sep 2018 ///26 Sep 2018 OFICIO ELABORADO EMBARGO CUOTA PARTE INMUEBLE //11 Dec 2018 CONSTANCIA SECRETARIALMINIMA"
   },
   "demanda": {
     "capitalAdeudado": null,

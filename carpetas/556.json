@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25430400300120230112700",
+  "llaveProceso": "25430400300120230112700",
   "numero": 556,
   "cc": 1022335014,
   "idProcesos": [159336301],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3023193548
     },
-    "primerNombre": "CIRO",
+    "primerNombre": "ciro",
     "segundoNombre": null,
-    "primerApellido": "ERQUILIAN",
-    "segundoApellido": "ONOFRE",
+    "primerApellido": "erquilian",
+    "segundoApellido": "onofre",
     "cedula": 1022335014,
-    "direccion": " Carrera 13 # 4-20 Madrid (Cundinamarca)",
+    "direccion": "carrera 13 # 4-20 madrid (cundinamarca)",
     "email": "ciro.onofe1105@gmail.com"
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307020180012100",
+  "llaveProceso": "11001400307020180012100",
   "numero": 389,
   "cc": 79874218,
   "idProcesos": [18370510],
@@ -7,10 +7,10 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MIGUEL",
-    "segundoNombre": "ANGEL",
-    "primerApellido": "GRANADOS",
-    "segundoApellido": "GUTIERREZ",
+    "primerNombre": "miguel",
+    "segundoNombre": "angel",
+    "primerApellido": "granados",
+    "segundoApellido": "gutierrez",
     "cedula": 79874218,
     "direccion": null,
     "email": null

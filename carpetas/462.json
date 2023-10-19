@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754418900120180070000",
+  "llaveProceso": "25754418900120180070000",
   "numero": 462,
   "cc": 80755973,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": 7279254,
       "celular": 3114915425
     },
-    "primerNombre": "YAMID",
+    "primerNombre": "yamid",
     "segundoNombre": null,
-    "primerApellido": "GELVES",
-    "segundoApellido": "CACERES",
+    "primerApellido": "gelves",
+    "segundoApellido": "caceres",
     "cedula": 80755973,
-    "direccion": "CARRERA 87 No 69-165",
+    "direccion": "carrera 87 no 69-165",
     "email": "yamid11@hotmail.es"
   },
   "demanda": {
@@ -24,7 +24,7 @@
     "entregaGarantiasAbogado": "2018-07-06T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2018-07-12T00:00:00.000Z",
-    "etapaProcesal": "25754418900120180070000",
+    "etapaProcesal": "2.575441890012018e+22",
     "fechaPresentacion": null,
     "municipio": "SOACHA",
     "obligacion": [20990165644],

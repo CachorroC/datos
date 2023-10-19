@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400308520170097500",
+  "llaveProceso": "11001400308520170097500",
   "numero": 53,
   "cc": 53051476,
   "idProcesos": [],
@@ -10,13 +10,19 @@
       "fijo": null,
       "celular": 3212307798
     },
-    "primerNombre": "DIANA",
-    "segundoNombre": "MARCELA",
-    "primerApellido": "SANCHEZ",
-    "segundoApellido": "LOZANO",
+    "primerNombre": "diana",
+    "segundoNombre": "marcela",
+    "primerApellido": "sanchez",
+    "segundoApellido": "lozano",
     "cedula": 53051476,
-    "direccion": "calle 64 No. 85-60 INTERIOR 1 LOTE 19 MANZANA 36 URBANIZACION LA ISABELA  ETAPA IIcalle 64 I No. 86-60",
+    "direccion": "calle 64 no. 85-60 interior 1 lote 19 manzana 36 urbanizacion la isabela  etapa iicalle 64 i no. 86-60",
     "email": "dimarce1513@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 79263455,
+    "direccion": "calle 64 no. 85-60 INTERIOR 1 LOTE 19 MANZANA 36 URBANIZACION LA ISABELA  ETAPA IIcalle 64 I No. 86-60",
+    "nombre": "edgar bustamante angel",
+    "telefono": "2241552//3212307798"
   },
   "demanda": {
     "capitalAdeudado": null,

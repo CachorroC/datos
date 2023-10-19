@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25286400300120180042100",
+  "llaveProceso": "25286400300120180042100",
   "numero": 269,
   "cc": 80162950,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JUAN",
-    "segundoNombre": "CARLOS",
-    "primerApellido": "ORTIZ",
-    "segundoApellido": "CUERVO",
+    "primerNombre": "juan",
+    "segundoNombre": "carlos",
+    "primerApellido": "ortiz",
+    "segundoApellido": "cuervo",
     "cedula": 80162950,
-    "direccion": "CARRERA 16 No 14 - 36",
+    "direccion": "carrera 16 no 14 - 36",
     "email": "ju@yahoo.es"
   },
   "demanda": {

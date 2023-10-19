@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301920180044300",
+  "llaveProceso": "11001400301920180044300",
   "numero": 423,
   "cc": 80059977,
   "idProcesos": [51149980],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ANDRES",
+    "primerNombre": "andres",
     "segundoNombre": null,
-    "primerApellido": "PEDRAZA",
-    "segundoApellido": "GARCIA",
+    "primerApellido": "pedraza",
+    "segundoApellido": "garcia",
     "cedula": 80059977,
-    "direccion": "CARRER 1 ESTE No 67 A - 60 SUR  APTO 103 TORRE 7",
+    "direccion": "carrer 1 este no 67 a - 60 sur  apto 103 torre 7",
     "email": "andrespedraza12933@gmail.com"
+  },
+  "codeudor": {
+    "cedula": 52297401,
+    "direccion": "CALLE 14 G ESTE No 76B-52SUR APTO 102",
+    "nombre": "yuby clayre garzon velasquez",
+    "telefono": 7683537
   },
   "demanda": {
     "capitalAdeudado": null,

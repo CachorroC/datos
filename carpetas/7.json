@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001310302720170037400",
+  "llaveProceso": "11001310302720170037400",
   "numero": 7,
   "cc": 79733852,
   "idProcesos": [62733402],
@@ -7,16 +7,16 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JOSE",
-    "segundoNombre": "RICARDO",
-    "primerApellido": "PRIETO",
-    "segundoApellido": "CRUZ",
+    "primerNombre": "jose",
+    "segundoNombre": "ricardo",
+    "primerApellido": "prieto",
+    "segundoApellido": "cruz",
     "cedula": 79733852,
-    "direccion": "CALLE 21 BIS SUR No. 88-58 BOGOTA",
+    "direccion": "calle 21 bis sur no. 88-58 bogota",
     "email": null
   },
   "demanda": {
-    "capitalAdeudado": 134026609,
+    "capitalAdeudado": 134026.609,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
     "tipoProceso": "SINGULAR",

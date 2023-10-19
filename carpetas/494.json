@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754418900320180102200",
+  "llaveProceso": "25754418900320180102200",
   "numero": 494,
   "cc": 1022332681,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3214747968
     },
-    "primerNombre": "LUISA",
-    "segundoNombre": "ENELLY",
-    "primerApellido": "GUGU",
-    "segundoApellido": "VITOPIA",
+    "primerNombre": "luisa",
+    "segundoNombre": "enelly",
+    "primerApellido": "gugu",
+    "segundoApellido": "vitopia",
     "cedula": 1022332681,
-    "direccion": "CARRERA 51F- No 37 A-26 SUR",
+    "direccion": "carrera 51f- no 37 a-26 sur",
     "email": "vitopia1022@hotmail.com"
   },
   "demanda": {

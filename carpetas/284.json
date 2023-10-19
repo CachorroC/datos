@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25214400300120170070400",
+  "llaveProceso": "25214400300120170070400",
   "numero": 284,
   "cc": 93119101,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ARMANDO",
+    "primerNombre": "armando",
     "segundoNombre": null,
-    "primerApellido": "BARRIOS",
-    "segundoApellido": "VARGAS",
+    "primerApellido": "barrios",
+    "segundoApellido": "vargas",
     "cedula": 93119101,
-    "direccion": "VEREDA EL TIME  ( COTA )",
+    "direccion": "vereda el time  ( cota )",
     "email": "abarriosleg@yahoo.es"
   },
   "demanda": {

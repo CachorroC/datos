@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418901220190023500",
+  "llaveProceso": "11001418901220190023500",
   "numero": 521,
   "cc": 40050052,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MARIA",
-    "segundoNombre": "AQUILINA",
-    "primerApellido": "RODRIGUEZ",
-    "segundoApellido": "LANCHEROS",
+    "primerNombre": "maria",
+    "segundoNombre": "aquilina",
+    "primerApellido": "rodriguez",
+    "segundoApellido": "lancheros",
     "cedula": 40050052,
-    "direccion": "CARRERA 4A No 93-11p 1",
+    "direccion": "carrera 4a no 93-11p 1",
     "email": "aquimaria1965@gmail.com"
   },
   "demanda": {

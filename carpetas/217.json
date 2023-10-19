@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001310303720170045300",
+  "llaveProceso": "11001310303720170045300",
   "numero": 217,
   "cc": 52328942,
   "idProcesos": [51315290, 57718874],
@@ -10,12 +10,12 @@
       "fijo": 2256952,
       "celular": 3108096132
     },
-    "primerNombre": "DIANA",
-    "segundoNombre": "VANESSA",
-    "primerApellido": "NARANJO",
-    "segundoApellido": "HERNANDEZ",
+    "primerNombre": "diana",
+    "segundoNombre": "vanessa",
+    "primerApellido": "naranjo",
+    "segundoApellido": "hernandez",
     "cedula": 52328942,
-    "direccion": "CALLE 58 # 45 - 86",
+    "direccion": "calle 58 # 45 - 86",
     "email": "casas_castillo@hotmail.com"
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25290400300120170043700",
+  "llaveProceso": "25290400300120170043700",
   "numero": 21,
   "cc": 11309242,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "RAMIRO",
+    "primerNombre": "ramiro",
     "segundoNombre": null,
-    "primerApellido": "CRISTANCHO",
-    "segundoApellido": "CONTRERAS",
+    "primerApellido": "cristancho",
+    "segundoApellido": "contreras",
     "cedula": 11309242,
-    "direccion": "CALLE 522 -68 fusagasuga",
+    "direccion": "calle 522 -68 fusagasuga",
     "email": "edware960720@hotmail.com"
   },
   "demanda": {

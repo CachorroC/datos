@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303420170080900",
+  "llaveProceso": "11001400303420170080900",
   "numero": 40,
   "cc": 19173252,
   "idProcesos": [50506330],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JOSÉ",
-    "segundoNombre": "ENRIQUE",
-    "primerApellido": "RIAÑO",
-    "segundoApellido": "HENRIQUEZ",
+    "primerNombre": "josé",
+    "segundoNombre": "enrique",
+    "primerApellido": "riaño",
+    "segundoApellido": "henriquez",
     "cedula": 19173252,
-    "direccion": "CALLE 70 No. 113 b - 40  BARRIO RIVIERA",
+    "direccion": "calle 70 no. 113 b - 40  barrio riviera",
     "email": null
   },
   "demanda": {

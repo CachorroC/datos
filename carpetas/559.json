@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418900420230088600",
+  "llaveProceso": "11001418900420230088600",
   "numero": 559,
   "cc": 80219425,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3112633806
     },
-    "primerNombre": "EDWIN",
-    "segundoNombre": "ALEXANDER",
-    "primerApellido": "SALCEDO",
-    "segundoApellido": "PEREZ",
+    "primerNombre": "edwin",
+    "segundoNombre": "alexander",
+    "primerApellido": "salcedo",
+    "segundoApellido": "perez",
     "cedula": 80219425,
-    "direccion": "Calle 50 Sur No. 93 D 38 Torre 07 Apartamento 601 Conjunto Residencial Porvenir Reservado Etapa 7; Carrera 89 A No. 45 A – 33 Sur Casa 207 Agrupación de Vivienda La Margarita Etapa 9",
+    "direccion": "calle 50 sur no. 93 d 38 torre 07 apartamento 601 conjunto residencial porvenir reservado etapa 7; carrera 89 a no. 45 a – 33 sur casa 207 agrupación de vivienda la margarita etapa 9",
     "email": "edwsal736@gmail.com"
   },
   "demanda": {
@@ -28,7 +28,7 @@
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [1080103378],
-    "radicado": " 2023 - 00886",
+    "radicado": "2023 - 00886",
     "vencimientoPagare": [
       "2026-03-02T00:00:00.000Z"
     ],

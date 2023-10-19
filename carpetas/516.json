@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418901420190019000",
+  "llaveProceso": "11001418901420190019000",
   "numero": 516,
   "cc": 79245905,
   "idProcesos": [51786190],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ALVARO",
-    "segundoNombre": "LUIS",
-    "primerApellido": "ASPRILLA",
-    "segundoApellido": "LUCUMI",
+    "primerNombre": "alvaro",
+    "segundoNombre": "luis",
+    "primerApellido": "asprilla",
+    "segundoApellido": "lucumi",
     "cedula": 79245905,
-    "direccion": "CALLE 116 A- 70G-48 APTO 204",
+    "direccion": "calle 116 a- 70g-48 apto 204",
     "email": "asplucal@gmail.com"
   },
   "demanda": {

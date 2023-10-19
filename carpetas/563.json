@@ -1,18 +1,18 @@
 {
-  "_llaveProceso": "11001418903220230061200",
+  "llaveProceso": "1100141890342023098500",
   "numero": 563,
   "cc": 7718318,
-  "idProcesos": [132020490],
+  "idProcesos": [],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MILTON",
-    "segundoNombre": "MARINO",
-    "primerApellido": "LUGO",
-    "segundoApellido": "GOMEZ",
+    "primerNombre": "milton",
+    "segundoNombre": "marino",
+    "primerApellido": "lugo",
+    "segundoApellido": "gomez",
     "cedula": 7718318,
-    "direccion": "Carrera 57 No. 60 A - 20",
+    "direccion": "carrera 57 no. 60 a - 20",
     "email": "milugo1111@hotmail.com"
   },
   "demanda": {
@@ -35,13 +35,7 @@
       "2025-04-05T05:00:00.000Z",
       null
     ],
-    "expediente": "11001418903220230061200",
-    "juzgados": [
-      {
-        "id": 32,
-        "tipo": "JUZGADO 032 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
-        "url": "https://www.ramajudicial.gov.cojuzgado-032-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
-      }
-    ]
+    "expediente": "1100141890342023098500",
+    "juzgados": null
   }
 }

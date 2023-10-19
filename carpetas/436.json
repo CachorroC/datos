@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306320180075600",
+  "llaveProceso": "11001400306320180075600",
   "numero": 436,
   "cc": 79145374,
   "idProcesos": [17724160],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JUAN",
-    "segundoNombre": "CAMILO",
-    "primerApellido": "BAQUERO",
-    "segundoApellido": "BUTTNER",
+    "primerNombre": "juan",
+    "segundoNombre": "camilo",
+    "primerApellido": "baquero",
+    "segundoApellido": "buttner",
     "cedula": 79145374,
-    "direccion": "TRANSVERSAL 2A No 67-71",
+    "direccion": "transversal 2a no 67-71",
     "email": "jcbaquerob@gmail.com"
   },
   "demanda": {

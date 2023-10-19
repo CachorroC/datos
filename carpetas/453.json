@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25286400300120180084100",
+  "llaveProceso": "25286400300120180084100",
   "numero": 453,
   "cc": 79892208,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "RICARDO",
+    "primerNombre": "ricardo",
     "segundoNombre": null,
-    "primerApellido": "RUEDA",
-    "segundoApellido": "MELO",
+    "primerApellido": "rueda",
+    "segundoApellido": "melo",
     "cedula": 79892208,
-    "direccion": "CARRERA 7 A No 5-22 MANZANA A CASA 3A",
+    "direccion": "carrera 7 a no 5-22 manzana a casa 3a",
     "email": "ricardomelorr77@hotmail.com"
   },
   "demanda": {

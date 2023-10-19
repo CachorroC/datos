@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304620170103500",
+  "llaveProceso": "11001400304620170103500",
   "numero": 212,
   "cc": 14320811,
   "idProcesos": [10134513],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "FERNANDO",
+    "primerNombre": "fernando",
     "segundoNombre": null,
-    "primerApellido": "VERA",
-    "segundoApellido": "FARFAN",
+    "primerApellido": "vera",
+    "segundoApellido": "farfan",
     "cedula": 14320811,
-    "direccion": "CARRERA 145 # 142F - 60  CASA 164",
+    "direccion": "carrera 145 # 142f - 60  casa 164",
     "email": "verafarfan@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 55057911,
+    "direccion": "CARRERA 566 # 132 - 40",
+    "nombre": "ana isabel olivera",
+    "telefono": 4818738
   },
   "demanda": {
     "capitalAdeudado": null,

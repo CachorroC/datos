@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305620180071100",
+  "llaveProceso": "11001400305620180071100",
   "numero": 451,
   "cc": 1032389993,
   "idProcesos": [51296960],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3209393337
     },
-    "primerNombre": "JOSE",
-    "segundoNombre": "JEISSON",
-    "primerApellido": "GALINDO",
-    "segundoApellido": "CARRILLO",
+    "primerNombre": "jose",
+    "segundoNombre": "jeisson",
+    "primerApellido": "galindo",
+    "segundoApellido": "carrillo",
     "cedula": 1032389993,
-    "direccion": "CALLE4 48B SUR No 72 M-21",
+    "direccion": "calle4 48b sur no 72 m-21",
     "email": "jeisongc18@hotmail.com"
   },
   "demanda": {

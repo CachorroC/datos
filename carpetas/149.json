@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754400300220170025600",
+  "llaveProceso": "25754400300220170025600",
   "numero": 149,
   "cc": 23181779,
   "idProcesos": [],
@@ -10,16 +10,16 @@
       "fijo": 7867106,
       "celular": 3138172167
     },
-    "primerNombre": "MAGDA",
-    "segundoNombre": "TATIANA",
-    "primerApellido": "TORRES",
-    "segundoApellido": "GONZALEZ",
+    "primerNombre": "magda",
+    "segundoNombre": "tatiana",
+    "primerApellido": "torres",
+    "segundoApellido": "gonzalez",
     "cedula": 23181779,
-    "direccion": "CENTRO COMERCIAL SURICENTRO LOCAL 6 -97 (MONTERIA) 77 CARRERA 4 ESTE # 38 - 56 ESTAPA H4 CASA 62",
+    "direccion": "centro comercial suricentro local 6 -97 (monteria) 77 carrera 4 este # 38 - 56 estapa h4 casa 62",
     "email": "tatianamag12@hotmail.com"
   },
   "demanda": {
-    "capitalAdeudado": 5174833177,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2017-08-18T00:00:00.000Z",
     "tipoProceso": "SINGULAR",

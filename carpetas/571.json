@@ -1,8 +1,8 @@
 {
-  "_llaveProceso": "2547340030012023012900",
+  "llaveProceso": "11001418901420230146500",
   "numero": 571,
   "cc": 53132436,
-  "idProcesos": null,
+  "idProcesos": [132234840],
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -10,12 +10,12 @@
       "fijo": 5751066,
       "celular": 3126172174
     },
-    "primerNombre": "ERLI",
-    "segundoNombre": "YANETH",
-    "primerApellido": "OYUELA",
-    "segundoApellido": "MARTINEZ",
+    "primerNombre": "erli",
+    "segundoNombre": "yaneth",
+    "primerApellido": "oyuela",
+    "segundoApellido": "martinez",
     "cedula": 53132436,
-    "direccion": "Carrera 10 No. 5 - 62 Bloque Torre 1 Apartamento 202 Conjunto Residencial Belverde I del municipio de Mosquera",
+    "direccion": "carrera 10 no. 5 - 62 bloque torre 1 apartamento 202 conjunto residencial belverde i del municipio de mosquera",
     "email": "capryeyom@hotmail.com"
   },
   "demanda": {
@@ -32,7 +32,13 @@
     "vencimientoPagare": [
       "2026-03-07T00:00:00.000Z"
     ],
-    "expediente": "2547340030012023012900",
-    "juzgados": null
+    "expediente": "11001418901420230146500",
+    "juzgados": [
+      {
+        "id": 14,
+        "tipo": "JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-014-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
+      }
+    ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25899410300120180043500",
+  "llaveProceso": "25899410300120180043500",
   "numero": 497,
   "cc": 11339859,
   "idProcesos": [],
@@ -7,16 +7,16 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ROQUE",
+    "primerNombre": "roque",
     "segundoNombre": null,
-    "primerApellido": "ANTONIO",
-    "segundoApellido": "SANCHEZ",
+    "primerApellido": "antonio",
+    "segundoApellido": "sanchez",
     "cedula": 11339859,
-    "direccion": "CARRERA 11 No 24 A-21 APTO 30 RINCON DEL ZIPA",
+    "direccion": "carrera 11 no 24 a-21 apto 30 rincon del zipa",
     "email": "mluisa_06@hotmail.com"
   },
   "demanda": {
-    "capitalAdeudado": 23678920.6,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",

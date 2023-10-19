@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307020190055100",
+  "llaveProceso": "11001400307020190055100",
   "numero": 519,
   "cc": 1030529007,
   "idProcesos": [112013800],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "LEIDY",
-    "segundoNombre": "CATALINA",
-    "primerApellido": "LOSADA",
-    "segundoApellido": "CABRERA",
+    "primerNombre": "leidy",
+    "segundoNombre": "catalina",
+    "primerApellido": "losada",
+    "segundoApellido": "cabrera",
     "cedula": 1030529007,
-    "direccion": "CARRERA 98D # 61A-24 SUR (KR 113A # 61A-24 Sur Bosa Porvenir)",
+    "direccion": "carrera 98d # 61a-24 sur (kr 113a # 61a-24 sur bosa porvenir)",
     "email": "catalinalosada_w@hotmail.com"
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2019-06-02T05:00:00.000Z",
-    "etapaProcesal": "11001400307020190055100",
+    "etapaProcesal": "1.100140030702019e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": ["2273 320150109"],

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303920170080000",
+  "llaveProceso": "11001400303920170080000",
   "numero": 84,
   "cc": 79108747,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": 8054434,
       "celular": 3118802970
     },
-    "primerNombre": "EDGAR",
+    "primerNombre": "edgar",
     "segundoNombre": null,
-    "primerApellido": "HERNANDEZ",
-    "segundoApellido": "RUBIO",
+    "primerApellido": "hernandez",
+    "segundoApellido": "rubio",
     "cedula": 79108747,
-    "direccion": "CARRERA 17 A No. 175-82 INTERIOR 1 PTO 601",
+    "direccion": "carrera 17 a no. 175-82 interior 1 pto 601",
     "email": "edgarH62@hotmail.com"
   },
   "demanda": {

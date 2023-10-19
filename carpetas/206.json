@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400306420170146900",
+  "llaveProceso": "11001400306420170146900",
   "numero": 206,
   "cc": 80729141,
   "idProcesos": [17944250],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "EDGAR",
+    "primerNombre": "edgar",
     "segundoNombre": null,
-    "primerApellido": "MARTINEZ",
-    "segundoApellido": "VELANDIA",
+    "primerApellido": "martinez",
+    "segundoApellido": "velandia",
     "cedula": 80729141,
-    "direccion": "CARRERA 17 F 71A - 95 SUR  CASA 239",
+    "direccion": "carrera 17 f 71a - 95 sur  casa 239",
     "email": "edgar_julian@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 53067213,
+    "direccion": "CARRERA 6 # 17 - 90",
+    "nombre": "angie paola diaz pastas",
+    "telefono": 5383916
   },
   "demanda": {
     "capitalAdeudado": null,

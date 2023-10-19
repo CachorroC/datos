@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754400300120180057200",
+  "llaveProceso": "25754400300120180057200",
   "numero": 445,
   "cc": 79978846,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": 3654986,
       "celular": 3212282328
     },
-    "primerNombre": "JUAN",
-    "segundoNombre": "CARLOS",
-    "primerApellido": "GARZON",
-    "segundoApellido": "BEJARANO",
+    "primerNombre": "juan",
+    "segundoNombre": "carlos",
+    "primerApellido": "garzon",
+    "segundoApellido": "bejarano",
     "cedula": 79978846,
-    "direccion": "CARRERA 10BIS B ESTE No 63-44 SUR",
+    "direccion": "carrera 10bis b este no 63-44 sur",
     "email": "juangarzon21@hotmail.com"
   },
   "demanda": {
@@ -24,7 +24,7 @@
     "entregaGarantiasAbogado": "2018-06-14T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2018-06-19T00:00:00.000Z",
-    "etapaProcesal": "25754418900120180057200",
+    "etapaProcesal": "2.575441890012018e+22",
     "fechaPresentacion": null,
     "municipio": "SOACHA",
     "obligacion": [20990165615],

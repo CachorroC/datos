@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001310304520170035900",
+  "llaveProceso": "11001310304520170035900",
   "numero": 354,
   "cc": 80032437,
   "idProcesos": [62939862],
@@ -10,13 +10,19 @@
       "fijo": 6854161,
       "celular": 3003813863
     },
-    "primerNombre": "BERNARDO",
-    "segundoNombre": "ANIBAL",
-    "primerApellido": "GIL",
-    "segundoApellido": "TORRES",
+    "primerNombre": "bernardo",
+    "segundoNombre": "anibal",
+    "primerApellido": "gil",
+    "segundoApellido": "torres",
     "cedula": 80032437,
-    "direccion": "CARRERA 102 No 155 - 19 INTERIOR 5 APARTAMENTO  230",
+    "direccion": "carrera 102 no 155 - 19 interior 5 apartamento  230",
     "email": "bagilt@yahoo.com"
+  },
+  "codeudor": {
+    "cedula": 1032388321,
+    "direccion": "CALLE 22C No 73 - 41",
+    "nombre": "eldy consuelo melo villalba",
+    "telefono": 2955785
   },
   "demanda": {
     "capitalAdeudado": null,

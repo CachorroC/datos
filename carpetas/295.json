@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305120170111300",
+  "llaveProceso": "11001400305120170111300",
   "numero": 295,
   "cc": 36536419,
   "idProcesos": [110568033],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "RITA",
-    "segundoNombre": "CECILIA",
-    "primerApellido": "FERNANDEZ",
-    "segundoApellido": "IBAÑEZ",
+    "primerNombre": "rita",
+    "segundoNombre": "cecilia",
+    "primerApellido": "fernandez",
+    "segundoApellido": "ibañez",
     "cedula": 36536419,
-    "direccion": "CALLE 124 No  20-76 APARTAMENTO 503",
+    "direccion": "calle 124 no  20-76 apartamento 503",
     "email": null
   },
   "demanda": {

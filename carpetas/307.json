@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303620170112500",
+  "llaveProceso": "11001400303620170112500",
   "numero": 307,
   "cc": 79309509,
   "idProcesos": [50800110],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "CARLOS",
-    "segundoNombre": "ARTURO",
-    "primerApellido": "CASTAÑO",
-    "segundoApellido": "ALDANA",
+    "primerNombre": "carlos",
+    "segundoNombre": "arturo",
+    "primerApellido": "castaño",
+    "segundoApellido": "aldana",
     "cedula": 79309509,
-    "direccion": "TRANSVERSAL 70 G No 63-52 SUR APTO 27 TORRE 2",
+    "direccion": "transversal 70 g no 63-52 sur apto 27 torre 2",
     "email": "cac.marketing@hotmail.com"
   },
   "demanda": {

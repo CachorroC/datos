@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754400300120210015300",
+  "llaveProceso": "25754400300120210015300",
   "numero": 547,
   "cc": 348774,
   "idProcesos": [],
@@ -7,10 +7,10 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JOSE",
-    "segundoNombre": "EDGAR",
-    "primerApellido": "ACHURI",
-    "segundoApellido": "GONZALEZ",
+    "primerNombre": "jose",
+    "segundoNombre": "edgar",
+    "primerApellido": "achuri",
+    "segundoApellido": "gonzalez",
     "cedula": 348774,
     "direccion": null,
     "email": null

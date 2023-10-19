@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001410375220170129100",
+  "llaveProceso": "11001410375220170129100",
   "numero": 296,
   "cc": 86074992,
   "idProcesos": [127797581, 127797591],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "DIDIER",
-    "segundoNombre": "HARVEY",
-    "primerApellido": "PRADA",
-    "segundoApellido": "AGUIRRE",
+    "primerNombre": "didier",
+    "segundoNombre": "harvey",
+    "primerApellido": "prada",
+    "segundoApellido": "aguirre",
     "cedula": 86074992,
-    "direccion": "DIAGONAL 40 G SUR-  No 72 J - 35 INTERIOR 2A",
+    "direccion": "diagonal 40 g sur-  no 72 j - 35 interior 2a",
     "email": "diharveypra@yahoo.es"
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": "2017-10-06T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-10-17T00:00:00.000Z",
-    "etapaProcesal": "11001410375220170129100",
+    "etapaProcesal": "1.100141037522017e+22",
     "fechaPresentacion": null,
     "municipio": "KENNEDY",
     "obligacion": [12445450],

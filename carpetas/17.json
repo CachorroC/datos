@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754418900220170048000",
+  "llaveProceso": "25754418900220170048000",
   "numero": 17,
   "cc": 52953923,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "YEDSY",
-    "segundoNombre": "CAROLAY",
-    "primerApellido": "ROJAS",
-    "segundoApellido": "GAMBOA",
+    "primerNombre": "yedsy",
+    "segundoNombre": "carolay",
+    "primerApellido": "rojas",
+    "segundoApellido": "gamboa",
     "cedula": 52953923,
-    "direccion": "CALLE 17 No. 24 C-17 SUR BOGOTA",
+    "direccion": "calle 17 no. 24 c-17 sur bogota",
     "email": "importex1112@gmail.com"
   },
   "demanda": {

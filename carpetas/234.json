@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304320170120500",
+  "llaveProceso": "11001400304320170120500",
   "numero": 234,
   "cc": 16940930,
   "idProcesos": [9334913],
@@ -10,12 +10,12 @@
       "fijo": 7451585,
       "celular": 3052392765
     },
-    "primerNombre": "MAURICIO",
-    "segundoNombre": "ALEXANDER",
-    "primerApellido": "AGUIRRE",
-    "segundoApellido": "BERMUDEZ",
+    "primerNombre": "mauricio",
+    "segundoNombre": "alexander",
+    "primerApellido": "aguirre",
+    "segundoApellido": "bermudez",
     "cedula": 16940930,
-    "direccion": "CALLE 152 12 35 INT 7",
+    "direccion": "calle 152 12 35 int 7",
     "email": "mauricio.aguirre@bav.sabmiller"
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25126400300120170075600",
+  "llaveProceso": "25126400300120170075600",
   "numero": 319,
   "cc": 33307437,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "GLORIA",
-    "segundoNombre": "ANGELICA",
-    "primerApellido": "PRASCA",
-    "segundoApellido": "MEJIA",
+    "primerNombre": "gloria",
+    "segundoNombre": "angelica",
+    "primerApellido": "prasca",
+    "segundoApellido": "mejia",
     "cedula": 33307437,
-    "direccion": " CARRERA 2 No 1 - 23  cajica",
+    "direccion": "carrera 2 no 1 - 23  cajica",
     "email": null
   },
   "demanda": {

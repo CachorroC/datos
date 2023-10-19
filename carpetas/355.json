@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301720170152600",
+  "llaveProceso": "11001400301720170152600",
   "numero": 355,
   "cc": 80800763,
   "idProcesos": [50875060],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "NELSON",
-    "segundoNombre": "IVAN",
-    "primerApellido": "SEGURA",
-    "segundoApellido": "MENDEZ",
+    "primerNombre": "nelson",
+    "segundoNombre": "ivan",
+    "primerApellido": "segura",
+    "segundoApellido": "mendez",
     "cedula": 80800763,
-    "direccion": "CARRERA 98 A No 15 A -70 INTERIOR 18 APARTAMENTO 6",
+    "direccion": "carrera 98 a no 15 a -70 interior 18 apartamento 6",
     "email": "nelsonivansegura@hotmail.com"
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754418900220180036400",
+  "llaveProceso": "25754418900220180036400",
   "numero": 412,
   "cc": 80896755,
   "idProcesos": [],
@@ -10,13 +10,19 @@
       "fijo": null,
       "celular": 3204063623
     },
-    "primerNombre": "FABIO",
-    "segundoNombre": "NELSON",
-    "primerApellido": "PEREZ",
-    "segundoApellido": "CRISTIANO",
+    "primerNombre": "fabio",
+    "segundoNombre": "nelson",
+    "primerApellido": "perez",
+    "segundoApellido": "cristiano",
     "cedula": 80896755,
-    "direccion": "CARRERA 7C- No 02-85 SUR",
+    "direccion": "carrera 7c- no 02-85 sur",
     "email": "fabiop0917@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 53122368,
+    "direccion": "CALLE 4 No 4J-09 QUINTANARE",
+    "nombre": "martha liliana poloche aguja",
+    "telefono": 3006354505
   },
   "demanda": {
     "capitalAdeudado": null,

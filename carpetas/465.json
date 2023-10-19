@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307720180085400",
+  "llaveProceso": "11001400307720180085400",
   "numero": 465,
   "cc": 79789409,
   "idProcesos": [51342910],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "GIOVANNY",
+    "primerNombre": "giovanny",
     "segundoNombre": null,
-    "primerApellido": "DURAN",
-    "segundoApellido": "ANTONIO",
+    "primerApellido": "duran",
+    "segundoApellido": "antonio",
     "cedula": 79789409,
-    "direccion": "CALLE 105 SUR No 2-22 ESTE",
+    "direccion": "calle 105 sur no 2-22 este",
     "email": null
   },
   "demanda": {

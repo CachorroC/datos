@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25126408900220180004800",
+  "llaveProceso": "25126408900220180004800",
   "numero": 427,
   "cc": 1069738339,
   "idProcesos": [86157021],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JUAN",
-    "segundoNombre": "CAMILO",
-    "primerApellido": "CHINGATE",
-    "segundoApellido": "PENAGOS",
+    "primerNombre": "juan",
+    "segundoNombre": "camilo",
+    "primerApellido": "chingate",
+    "segundoApellido": "penagos",
     "cedula": 1069738339,
-    "direccion": "VEREDA LA 22 KILOMETRO 30 (CAJICA) // VEREDA SUBIA NORTE, PARTE BAJA, FINCA EL RINCON LOTE 2 (GRANADA- CUND): VEREDA SUBIA NORTE PARTE BAJA FINCA EL RINCON LOTE 2 (GRANADA - CUND)",
+    "direccion": "vereda la 22 kilometro 30 (cajica) // vereda subia norte parte baja finca el rincon lote 2 (granada- cund): vereda subia norte parte baja finca el rincon lote 2 (granada - cund)",
     "email": null
   },
   "demanda": {

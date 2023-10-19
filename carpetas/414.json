@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304420180056600",
+  "llaveProceso": "11001400304420180056600",
   "numero": 414,
   "cc": 51712277,
   "idProcesos": [65703460],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ELDA",
+    "primerNombre": "elda",
     "segundoNombre": null,
-    "primerApellido": "YANET",
-    "segundoApellido": "CORTES",
+    "primerApellido": "yanet",
+    "segundoApellido": "cortes",
     "cedula": 51712277,
-    "direccion": "CALLE 48 N SUR No 3-90",
+    "direccion": "calle 48 n sur no 3-90",
     "email": "eldayanetcortes@gmail.com"
   },
   "demanda": {
@@ -21,13 +21,10 @@
     "entregaGarantiasAbogado": "2018-04-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2018-04-25T00:00:00.000Z",
-    "etapaProcesal": "11001400304420180056600",
+    "etapaProcesal": "1.100140030442018e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
-    "obligacion": [
-      377813488963894,
-      "4,55130702377226E+016"
-    ],
+    "obligacion": [377813488963894, "4,55E+32"],
     "radicado": "2018 - 00566",
     "vencimientoPagare": [
       null,

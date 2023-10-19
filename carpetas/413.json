@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754418900220180036300",
+  "llaveProceso": "25754418900220180036300",
   "numero": 413,
   "cc": 1018430139,
   "idProcesos": [],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "LUISA",
-    "segundoNombre": "FERNANDA",
-    "primerApellido": "SALAZAR",
-    "segundoApellido": " PATARROYO",
+    "primerNombre": "luisa",
+    "segundoNombre": "fernanda",
+    "primerApellido": "salazar",
+    "segundoApellido": " patarroyo",
     "cedula": 1018430139,
-    "direccion": "CARRERA 38 No 14-93 BLOQUE 9 APTO 102",
+    "direccion": "carrera 38 no 14-93 bloque 9 apto 102",
     "email": "luifermkt889@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 79793904,
+    "direccion": "CALLLE 183 No 11-55 BLQ 9 APTO 102",
+    "nombre": "jhon  hader otalvaro  romo",
+    "telefono": 4805457
   },
   "demanda": {
     "capitalAdeudado": null,

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307020170100700",
+  "llaveProceso": "11001400307020170100700",
   "numero": 263,
   "cc": 9856710,
   "idProcesos": [18366380],
@@ -7,12 +7,12 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ANCIZAR",
+    "primerNombre": "ancizar",
     "segundoNombre": null,
-    "primerApellido": "GIRALDO",
-    "segundoApellido": "BOTERO",
+    "primerApellido": "giraldo",
+    "segundoApellido": "botero",
     "cedula": 9856710,
-    "direccion": "CARRERA  6 No 8-16 PENSILVANIA",
+    "direccion": "carrera  6 no 8-16 pensilvania",
     "email": "latablita1404@hotmail.com"
   },
   "demanda": {

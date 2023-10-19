@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307920170108200",
+  "llaveProceso": "11001400307920170108200",
   "numero": 191,
   "cc": 80231798,
   "idProcesos": [51357750],
@@ -10,12 +10,12 @@
       "fijo": 2376454,
       "celular": 3004525014
     },
-    "primerNombre": "JOHN",
-    "segundoNombre": "ALEXANDER",
-    "primerApellido": "VALENCIA",
-    "segundoApellido": "MARQUEZ",
+    "primerNombre": "john",
+    "segundoNombre": "alexander",
+    "primerApellido": "valencia",
+    "segundoApellido": "marquez",
     "cedula": 80231798,
-    "direccion": "CARRERA 32 B # 2 - 64",
+    "direccion": "carrera 32 b # 2 - 64",
     "email": "jhon.valencia@jvtel.com.co"
   },
   "demanda": {

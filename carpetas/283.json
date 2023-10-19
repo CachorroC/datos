@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400304120170114000",
+  "llaveProceso": "11001400304120170114000",
   "numero": 283,
   "cc": 1010188573,
   "idProcesos": [50772500],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JANSON",
-    "segundoNombre": "DAVID",
-    "primerApellido": "CARREÑO",
-    "segundoApellido": "QUIJANO",
+    "primerNombre": "janson",
+    "segundoNombre": "david",
+    "primerApellido": "carreño",
+    "segundoApellido": "quijano",
     "cedula": 1010188573,
-    "direccion": "CALLE 6 D No 88 D 59  APARTAMENTO  402",
+    "direccion": "calle 6 d no 88 d 59  apartamento  402",
     "email": "jansonmalak@hotmail.com"
   },
   "demanda": {

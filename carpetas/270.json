@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001408903420170113900",
+  "llaveProceso": "11001408903420170113900",
   "numero": 270,
   "cc": 1018423770,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": 4566333,
       "celular": 3107727822
     },
-    "primerNombre": "WILMER",
-    "segundoNombre": "ANDRES",
-    "primerApellido": "QUIÑONES",
-    "segundoApellido": "HERNANDEZ",
+    "primerNombre": "wilmer",
+    "segundoNombre": "andres",
+    "primerApellido": "quiñones",
+    "segundoApellido": "hernandez",
     "cedula": 1018423770,
-    "direccion": "CALLE 37 B No 68 I - 23 SUR",
+    "direccion": "calle 37 b no 68 i - 23 sur",
     "email": "andresxaw@gmail.com"
   },
   "demanda": {

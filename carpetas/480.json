@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25307400300320210053900",
+  "llaveProceso": "25307400300320210053900",
   "numero": 480,
   "cc": 39575032,
   "idProcesos": [121826111],
@@ -10,26 +10,26 @@
       "fijo": null,
       "celular": 3152573448
     },
-    "primerNombre": "ADRIANA",
+    "primerNombre": "adriana",
     "segundoNombre": null,
-    "primerApellido": "VANEGAS",
-    "segundoApellido": "PEÑA",
+    "primerApellido": "vanegas",
+    "segundoApellido": "peña",
     "cedula": 39575032,
-    "direccion": "CARRERA 14 No 22-10  APARTAMENTO  202 GIRARDOT",
+    "direccion": "carrera 14 no 22-10  apartamento  202 girardot",
     "email": "adriana.0806@hotmail.com"
   },
   "demanda": {
     "capitalAdeudado": 17217.066,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-08-23T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-27T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "EJECUCION",
     "fechaPresentacion": null,
     "municipio": "GIRARDOT",
     "obligacion": [
       "AUDIOPRESTAMO",
-      5306960687119070
+      5.30696068711907e29
     ],
     "radicado": "2021 - 00539",
     "vencimientoPagare": [

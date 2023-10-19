@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418904420230023900",
+  "llaveProceso": "11001418904420230023900",
   "numero": 580,
   "cc": 19488050,
   "idProcesos": [132964260],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3103052825
     },
-    "primerNombre": "JOSE",
-    "segundoNombre": "IGNACIO",
-    "primerApellido": "GALEANO",
-    "segundoApellido": "ALVARADO",
+    "primerNombre": "jose",
+    "segundoNombre": "ignacio",
+    "primerApellido": "galeano",
+    "segundoApellido": "alvarado",
     "cedula": 19488050,
-    "direccion": "Transversal 78 No. 40J - 14 Sur",
+    "direccion": "transversal 78 no. 40j - 14 sur",
     "email": "joseignaciogaleanoa@gmail.com"
   },
   "demanda": {

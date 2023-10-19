@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400301220180081000",
+  "llaveProceso": "11001400301220180081000",
   "numero": 448,
   "cc": 79342337,
   "idProcesos": [51282150],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "LUIS",
-    "segundoNombre": "ALFREDO",
-    "primerApellido": "NIÑO",
-    "segundoApellido": "GARCIA",
+    "primerNombre": "luis",
+    "segundoNombre": "alfredo",
+    "primerApellido": "niño",
+    "segundoApellido": "garcia",
     "cedula": 79342337,
-    "direccion": "CALLE 113 SUR No 3-30 ESTE",
+    "direccion": "calle 113 sur no 3-30 este",
     "email": "ngluisalfredo@gmail.com"
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": "2018-06-21T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
-    "etapaProcesal": "11001400301220180081000",
+    "etapaProcesal": "1.100140030122018e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": ["AUDIOPRESTAMO"],

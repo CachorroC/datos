@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400371520180021200",
+  "llaveProceso": "11001400371520180021200",
   "numero": 437,
   "cc": 80162319,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JAVIER",
-    "segundoNombre": "ANTONIO",
-    "primerApellido": "ZIPA",
-    "segundoApellido": "SALAMANCA",
+    "primerNombre": "javier",
+    "segundoNombre": "antonio",
+    "primerApellido": "zipa",
+    "segundoApellido": "salamanca",
     "cedula": 80162319,
-    "direccion": "CARRERA 79A No 13-10",
+    "direccion": "carrera 79a no 13-10",
     "email": "javierzipa83@hotmail.com"
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": "2018-05-29T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2018-05-31T00:00:00.000Z",
-    "etapaProcesal": "11001418901520180021200",
+    "etapaProcesal": "1.100141890152018e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [

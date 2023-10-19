@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300520180071100",
+  "llaveProceso": "11001400300520180071100",
   "numero": 447,
   "cc": 79698506,
   "idProcesos": [51277500],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "CARLOS",
-    "segundoNombre": "ANTONIO",
-    "primerApellido": "PACHECO",
-    "segundoApellido": "TORRES",
+    "primerNombre": "carlos",
+    "segundoNombre": "antonio",
+    "primerApellido": "pacheco",
+    "segundoApellido": "torres",
     "cedula": 79698506,
-    "direccion": "CARRERA 80 BIS A No 70A-15",
+    "direccion": "carrera 80 bis a no 70a-15",
     "email": null
   },
   "demanda": {

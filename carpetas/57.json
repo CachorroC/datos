@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400302820170051200",
+  "llaveProceso": "11001400302820170051200",
   "numero": 57,
   "cc": 39556705,
   "idProcesos": [50512320],
@@ -10,12 +10,12 @@
       "fijo": null,
       "celular": 3102279518
     },
-    "primerNombre": "CARMEN",
-    "segundoNombre": "CECILIA",
-    "primerApellido": "APONTE",
-    "segundoApellido": "ZAMBRANO",
+    "primerNombre": "carmen",
+    "segundoNombre": "cecilia",
+    "primerApellido": "aponte",
+    "segundoApellido": "zambrano",
     "cedula": 39556705,
-    "direccion": "AVDA 80 No. 60-95  RIO INTERIOR 3 APTO 11",
+    "direccion": "avda 80 no. 60-95  rio interior 3 apto 11",
     "email": "ceciliaaponte@hotmail.com"
   },
   "demanda": {

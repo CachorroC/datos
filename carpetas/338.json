@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25148408900120170009600",
+  "llaveProceso": "25148408900120170009600",
   "numero": 338,
   "cc": 20427976,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "BLANCA",
-    "segundoNombre": "MELBA",
-    "primerApellido": "MOYANO",
-    "segundoApellido": "BELTRAN",
+    "primerNombre": "blanca",
+    "segundoNombre": "melba",
+    "primerApellido": "moyano",
+    "segundoApellido": "beltran",
     "cedula": 20427976,
-    "direccion": "CARRERA 3 No 9 - 02 /08  CAPARRAPI (CUNDINAMARCA)",
+    "direccion": "carrera 3 no 9 - 02 /08  caparrapi (cundinamarca)",
     "email": null
   },
   "demanda": {

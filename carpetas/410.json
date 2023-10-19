@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303520180037000",
+  "llaveProceso": "11001400303520180037000",
   "numero": 410,
   "cc": 52304124,
   "idProcesos": [51103200],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JENNY",
-    "segundoNombre": "LILIANA",
-    "primerApellido": "MONTOYA",
-    "segundoApellido": "VILLAMIL",
+    "primerNombre": "jenny",
+    "segundoNombre": "liliana",
+    "primerApellido": "montoya",
+    "segundoApellido": "villamil",
     "cedula": 52304124,
-    "direccion": "TRANSVERSAL 4H No 31-17",
+    "direccion": "transversal 4h no 31-17",
     "email": "jennymontoyav@hotmail.com"
   },
   "demanda": {

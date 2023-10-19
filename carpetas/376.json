@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307620180005200",
+  "llaveProceso": "11001400307620180005200",
   "numero": 376,
   "cc": 11203111,
   "idProcesos": [51500810],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ROBERTO",
+    "primerNombre": "roberto",
     "segundoNombre": null,
-    "primerApellido": "RICO",
-    "segundoApellido": "RUIZ",
+    "primerApellido": "rico",
+    "segundoApellido": "ruiz",
     "cedula": 11203111,
-    "direccion": "CALLE 128 96A - 05 CASA 3 MULTIFAMILIAR ARRAYANES",
+    "direccion": "calle 128 96a - 05 casa 3 multifamiliar arrayanes",
     "email": "roberto.rico.ruiz@gmail.com"
+  },
+  "codeudor": {
+    "cedula": 52804144,
+    "direccion": "CALLE 128 96A - 05",
+    "nombre": "doris garzon talero",
+    "telefono": 3491122
   },
   "demanda": {
     "capitalAdeudado": null,

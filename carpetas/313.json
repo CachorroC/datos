@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400307820170104900",
+  "llaveProceso": "11001400307820170104900",
   "numero": 313,
   "cc": 80490307,
   "idProcesos": [51463110],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MAURICIO",
+    "primerNombre": "mauricio",
     "segundoNombre": null,
-    "primerApellido": "PEREZ",
-    "segundoApellido": "PLAZAS",
+    "primerApellido": "perez",
+    "segundoApellido": "plazas",
     "cedula": 80490307,
-    "direccion": "DIAGONAL 68 SUR No 37-69 INT 136",
+    "direccion": "diagonal 68 sur no 37-69 int 136",
     "email": "mauricioperez7314@hotmail.com"
   },
   "demanda": {
@@ -21,7 +21,7 @@
     "entregaGarantiasAbogado": "2017-10-25T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-10-31T00:00:00.000Z",
-    "etapaProcesal": "11001400307820170104900",
+    "etapaProcesal": "1.1001400307820171e+22",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [3000093979],

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754418900120170083700",
+  "llaveProceso": "25754418900120170083700",
   "numero": 77,
   "cc": 1030554218,
   "idProcesos": [],
@@ -10,13 +10,19 @@
       "fijo": 5663711,
       "celular": 3174386730
     },
-    "primerNombre": "JEIMY",
-    "segundoNombre": "CAROLINA",
-    "primerApellido": "LEGUIZAMON",
-    "segundoApellido": "VASQUEZ",
+    "primerNombre": "jeimy",
+    "segundoNombre": "carolina",
+    "primerApellido": "leguizamon",
+    "segundoApellido": "vasquez",
+    "cedula": 1030554218,
+    "direccion": "calle 16 a no. 44-c-s.28 manzana 6 et 1 soacha",
+    "email": "carito_abril3@hotmail.com"
+  },
+  "codeudor": {
     "cedula": 1030554218,
     "direccion": "CALLE 16 A No. 44-C-S.28 MANZANA 6 ET 1 SOACHA",
-    "email": "carito_abril3@hotmail.com"
+    "nombre": "jeimy carolina leguizamon vasquez",
+    "telefono": "5663711-3174386730"
   },
   "demanda": {
     "capitalAdeudado": 19693.963,
@@ -24,7 +30,7 @@
     "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2017-08-11T00:00:00.000Z",
-    "etapaProcesal": "25754400300120170083700",
+    "etapaProcesal": "2.575440030012017e+22",
     "fechaPresentacion": null,
     "municipio": "SOACHA",
     "obligacion": [

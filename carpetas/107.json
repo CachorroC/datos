@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305720170079000",
+  "llaveProceso": "11001400305720170079000",
   "numero": 107,
   "cc": 80112954,
   "idProcesos": [17604554],
@@ -10,12 +10,12 @@
       "fijo": 5936306,
       "celular": 3176550987
     },
-    "primerNombre": "HANYELO",
-    "segundoNombre": "EFRAIN",
-    "primerApellido": "MARTINEZ",
-    "segundoApellido": "TURRIAGO",
+    "primerNombre": "hanyelo",
+    "segundoNombre": "efrain",
+    "primerApellido": "martinez",
+    "segundoApellido": "turriago",
     "cedula": 80112954,
-    "direccion": "DIAGONAL 52 B SUER # 5C - 20 ESTE",
+    "direccion": "diagonal 52 b suer # 5c - 20 este",
     "email": "efrain.martinez.1021@hotmail.com"
   },
   "demanda": {

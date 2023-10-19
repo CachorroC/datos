@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "25754418900120190091100",
+  "llaveProceso": "25754418900120190091100",
   "numero": 550,
   "cc": 1022336662,
   "idProcesos": [],
@@ -7,10 +7,10 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MIGUEL",
-    "segundoNombre": "ANGEL",
-    "primerApellido": "AGUASACO",
-    "segundoApellido": "PEÑUELA",
+    "primerNombre": "miguel",
+    "segundoNombre": "angel",
+    "primerApellido": "aguasaco",
+    "segundoApellido": "peñuela",
     "cedula": 1022336662,
     "direccion": null,
     "email": null

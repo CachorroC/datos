@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300320170126400",
+  "llaveProceso": "11001400300320170126400",
   "numero": 169,
   "cc": 23553904,
   "idProcesos": [50598770],
@@ -7,13 +7,17 @@
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "RITA",
-    "segundoNombre": "BLANCO",
-    "primerApellido": "DE",
-    "segundoApellido": "GOMEZ",
+    "primerNombre": "rita",
+    "segundoNombre": "blanco",
+    "primerApellido": "de",
+    "segundoApellido": "gomez",
     "cedula": 23553904,
-    "direccion": "Carrera 67 No. 65-22 sur Torre 15 Apto 559",
+    "direccion": "carrera 67 no. 65-22 sur torre 15 apto 559",
     "email": "dorancy1@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 46453644,
+    "nombre": "nidia dorancy gomez blanco"
   },
   "demanda": {
     "capitalAdeudado": 13144.437,

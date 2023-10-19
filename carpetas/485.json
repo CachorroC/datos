@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001418900820180076100",
+  "llaveProceso": "11001418900820180076100",
   "numero": 485,
   "cc": 52115085,
   "idProcesos": [],
@@ -10,12 +10,12 @@
       "fijo": 3468511,
       "celular": 3002667595
     },
-    "primerNombre": "DIANA",
-    "segundoNombre": "MARGARITA",
-    "primerApellido": "BUSTOS",
-    "segundoApellido": "BALLEN",
+    "primerNombre": "diana",
+    "segundoNombre": "margarita",
+    "primerApellido": "bustos",
+    "segundoApellido": "ballen",
     "cedula": 52115085,
-    "direccion": "CALLE 75 A No 110C-17",
+    "direccion": "calle 75 a no 110c-17",
     "email": "margobus2003@yahoo.com"
   },
   "demanda": {

@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303220230090400",
+  "llaveProceso": "11001400303220230090400",
   "numero": 555,
   "cc": 53130409,
   "idProcesos": [132048330],
@@ -10,12 +10,12 @@
       "fijo": 3917539,
       "celular": 3506509064
     },
-    "primerNombre": "JEIMMY",
-    "segundoNombre": "SOLEY",
-    "primerApellido": "QUIROGA",
-    "segundoApellido": "RAMIREZ",
+    "primerNombre": "jeimmy",
+    "segundoNombre": "soley",
+    "primerApellido": "quiroga",
+    "segundoApellido": "ramirez",
     "cedula": 53130409,
-    "direccion": "CL 55 BIS 16 48 Apartamento 702 Edificio Bangkok",
+    "direccion": "cl 55 bis 16 48 apartamento 702 edificio bangkok",
     "email": "jsquiroga72@hotmail.com"
   },
   "demanda": {

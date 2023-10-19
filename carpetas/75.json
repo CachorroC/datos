@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400305820170091800",
+  "llaveProceso": "11001400305820170091800",
   "numero": 75,
   "cc": 80792132,
   "idProcesos": [50526190],
@@ -7,13 +7,19 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "MARIO",
-    "segundoNombre": "ANDRES",
-    "primerApellido": "BOJACA",
-    "segundoApellido": "CRUZ",
+    "primerNombre": "mario",
+    "segundoNombre": "andres",
+    "primerApellido": "bojaca",
+    "segundoApellido": "cruz",
     "cedula": 80792132,
     "direccion": "marioabc_83@hotmail.com",
     "email": "44955363-31249909451"
+  },
+  "codeudor": {
+    "cedula": "CALLE 8 C No. 92-72 casa 20 conjunto residencial ciudad tital ph",
+    "direccion": "44955363-31249909451",
+    "nombre": "52216958/",
+    "telefono": "MARIA ISABEL GUEVARA OSMA"
   },
   "demanda": {
     "capitalAdeudado": 0,

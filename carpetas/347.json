@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400303920170152500",
+  "llaveProceso": "11001400303920170152500",
   "numero": 347,
   "cc": 41888857,
   "idProcesos": [],
@@ -7,12 +7,12 @@
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": 2869149, "celular": null },
-    "primerNombre": "MARIA",
-    "segundoNombre": "ELENA",
-    "primerApellido": "ZULUAGA",
-    "segundoApellido": "URIBE",
+    "primerNombre": "maria",
+    "segundoNombre": "elena",
+    "primerApellido": "zuluaga",
+    "segundoApellido": "uribe",
     "cedula": 41888857,
-    "direccion": "CALLE 19 No  18 - 54 APARTAMENTO 301",
+    "direccion": "calle 19 no  18 - 54 apartamento 301",
     "email": "equiposysuministroscapital@hotmail.com"
   },
   "demanda": {

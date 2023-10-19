@@ -1,5 +1,5 @@
 {
-  "_llaveProceso": "11001400300120170084900",
+  "llaveProceso": "11001400300120170084900",
   "numero": 324,
   "cc": 80032088,
   "idProcesos": [50548450],
@@ -7,12 +7,12 @@
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
-    "primerNombre": "JOSE",
-    "segundoNombre": "EDWIN",
-    "primerApellido": "MORALES",
-    "segundoApellido": "ALFONSO",
+    "primerNombre": "jose",
+    "segundoNombre": "edwin",
+    "primerApellido": "morales",
+    "segundoApellido": "alfonso",
     "cedula": 80032088,
-    "direccion": "TRANSVERSAL 28 No 22-13 APARTAMENTO 304 TORRE 7 SOACHA",
+    "direccion": "transversal 28 no 22-13 apartamento 304 torre 7 soacha",
     "email": "majupi170301@hotmail.com"
   },
   "demanda": {
