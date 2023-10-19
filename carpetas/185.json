@@ -29,9 +29,7 @@
     "municipio": "SOACHA",
     "obligacion": [20990158916],
     "radicado": "2017 - 00283",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
+    "vencimientoPagare": [null],
     "expediente": "25754400300320170028300",
     "juzgados": []
   }

@@ -1,1 +1,49 @@
-{"llaveProceso":"11001400300320170088400","numero":16,"cc":1077969975,"idProcesos":[50468620,113956611],"category":"Bancolombia","tipoProceso":"PRENDARIO","deudor":{"tel":{"fijo":null,"celular":3212337597},"primerNombre":"yesid","segundoNombre":null,"primerApellido":"albeiro","segundoApellido":"ramos","cedula":1077969975,"direccion":"carrera 77b no 68b - 19 barrio santa helenita","email":"yess_Id@hotmail.com"},"demanda":{"capitalAdeudado":33791.309,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-05-11T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-06-02T00:00:00.000Z","etapaProcesal":"EMPLAZAMIENTO","fechaPresentacion":"2017-05-24T00:00:00.000Z","municipio":"BOGOTA","obligacion":[2530444],"radicado":"2017 - 00884","vencimientoPagare":["2020-05-04T00:00:00.000Z"],"expediente":"11001400300320170088400","juzgados":[{"id":3,"tipo":"JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-03-civil-municipal-de-bogota"},{"id":3,"tipo":"JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-03-civil-municipal-de-bogota"}]}}
+{
+  "llaveProceso": "11001400300320170088400",
+  "numero": 16,
+  "cc": 1077969975,
+  "idProcesos": [50468620, 113956611],
+  "category": "Bancolombia",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3212337597
+    },
+    "primerNombre": "yesid",
+    "segundoNombre": null,
+    "primerApellido": "albeiro",
+    "segundoApellido": "ramos",
+    "cedula": 1077969975,
+    "direccion": "carrera 77b no 68b - 19 barrio santa helenita",
+    "email": "yess_Id@hotmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 33791.309,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-06-02T00:00:00.000Z",
+    "etapaProcesal": "EMPLAZAMIENTO",
+    "fechaPresentacion": "2017-05-24T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [2530444],
+    "radicado": "2017 - 00884",
+    "vencimientoPagare": [
+      "2020-05-04T00:00:00.000Z"
+    ],
+    "expediente": "11001400300320170088400",
+    "juzgados": [
+      {
+        "id": 3,
+        "tipo": "JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-03-civil-municipal-de-bogota"
+      },
+      {
+        "id": 3,
+        "tipo": "JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-03-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

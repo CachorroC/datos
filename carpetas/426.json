@@ -26,9 +26,7 @@
     "municipio": "BOGOTA",
     "obligacion": ["AUDIOPRESTAMO", "3,78E+32"],
     "radicado": "2018 - 00476",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
+    "vencimientoPagare": [null],
     "expediente": "11001400306820180047600",
     "juzgados": [
       {

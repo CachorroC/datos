@@ -29,9 +29,7 @@
     "municipio": "kENNEDY",
     "obligacion": ["AUDIOPRESTAMO"],
     "radicado": "2019 - 00276",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
+    "vencimientoPagare": [null],
     "expediente": "11001410375120190027600",
     "juzgados": []
   }

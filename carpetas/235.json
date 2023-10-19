@@ -1,1 +1,44 @@
-{"llaveProceso":"11001400300820170113400","numero":235,"cc":79853115,"idProcesos":[50716620],"category":"Bancolombia","tipoProceso":"HIPOTECARIO","deudor":{"tel":{"fijo":8060271,"celular":3212406193},"primerNombre":"fanor","segundoNombre":null,"primerApellido":"diaz","segundoApellido":"agudelo","cedula":79853115,"direccion":"diagonal 56 bis 84 a 10 sur tr 1","email":"fanor.diaz@gmail.com"},"demanda":{"capitalAdeudado":27603.821,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-09-06T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-09-21T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-09-18T00:00:00.000Z","municipio":"BOGOTA","obligacion":[148931],"radicado":"2017 - 01134","vencimientoPagare":["2017-02-14T00:00:00.000Z"],"expediente":"11001400300820170113400","juzgados":[{"id":6,"tipo":"JUZGADO 006 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ","url":"https://www.ramajudicial.gov.co/web/juzgado-06-de-ejecucion-civil-municipal-de-bogota"}]}}
+{
+  "llaveProceso": "11001400300820170113400",
+  "numero": 235,
+  "cc": 79853115,
+  "idProcesos": [50716620],
+  "category": "Bancolombia",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 8060271,
+      "celular": 3212406193
+    },
+    "primerNombre": "fanor",
+    "segundoNombre": null,
+    "primerApellido": "diaz",
+    "segundoApellido": "agudelo",
+    "cedula": 79853115,
+    "direccion": "diagonal 56 bis 84 a 10 sur tr 1",
+    "email": "fanor.diaz@gmail.com"
+  },
+  "demanda": {
+    "capitalAdeudado": 27603.821,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-21T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-09-18T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [148931],
+    "radicado": "2017 - 01134",
+    "vencimientoPagare": [
+      "2017-02-14T00:00:00.000Z"
+    ],
+    "expediente": "11001400300820170113400",
+    "juzgados": [
+      {
+        "id": 6,
+        "tipo": "JUZGADO 006 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-06-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ]
+  }
+}

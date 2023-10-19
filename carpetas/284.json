@@ -26,9 +26,7 @@
     "municipio": "COTA",
     "obligacion": [300093754],
     "radicado": "2017 - 00704",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
+    "vencimientoPagare": [null],
     "expediente": "25214400300120170070400",
     "juzgados": []
   }

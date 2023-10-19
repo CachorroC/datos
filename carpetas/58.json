@@ -32,9 +32,7 @@
       "4513080225477441//5303720124048311"
     ],
     "radicado": "2017-00760",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
+    "vencimientoPagare": [null],
     "expediente": "11001400304220170076000",
     "juzgados": [
       {

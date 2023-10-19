@@ -1,1 +1,41 @@
-{"llaveProceso":"25754418900320170075500","numero":120,"cc":900212673,"idProcesos":[],"category":"Bancolombia","tipoProceso":"SINGULAR","deudor":{"tel":{"fijo":null,"celular":null},"primerNombre":"jencell","segundoNombre":null,"primerApellido":"e.u.","segundoApellido":null,"cedula":900212673,"direccion":"carrera 3 # 29a - 02","email":null},"codeudor":{"cedula":52771090,"direccion":"CARRERA 3 # 29A - 02 LOCAL 1057","nombre":"yeny esperanza arias mendieta","telefono":5753416},"demanda":{"capitalAdeudado":13906.249,"departamento":"CUNDINAMARCA","entregaGarantiasAbogado":"2017-08-04T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-09-08T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":"2017-08-11T00:00:00.000Z","municipio":"SOACHA","obligacion":[6240082776],"radicado":"2017 - 00755","vencimientoPagare":["2021-04-12T00:00:00.000Z"],"expediente":"25754418900320170075500","juzgados":[]}}
+{
+  "llaveProceso": "25754418900320170075500",
+  "numero": 120,
+  "cc": 900212673,
+  "idProcesos": [],
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "jencell",
+    "segundoNombre": null,
+    "primerApellido": "e.u.",
+    "segundoApellido": null,
+    "cedula": 900212673,
+    "direccion": "carrera 3 # 29a - 02",
+    "email": null
+  },
+  "codeudor": {
+    "cedula": 52771090,
+    "direccion": "CARRERA 3 # 29A - 02 LOCAL 1057",
+    "nombre": "yeny esperanza arias mendieta",
+    "telefono": 5753416
+  },
+  "demanda": {
+    "capitalAdeudado": 13906.249,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-08T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-08-11T00:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": [6240082776],
+    "radicado": "2017 - 00755",
+    "vencimientoPagare": [
+      "2021-04-12T00:00:00.000Z"
+    ],
+    "expediente": "25754418900320170075500",
+    "juzgados": []
+  }
+}
