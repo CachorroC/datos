@@ -21,7 +21,7 @@ export const carpetasCollection = async () => {
 
   const carpetas
     = db.collection<IntCarpetaPrueba>(
-      'Carpetas'
+      'PruebasNuevo'
     );
 
   return carpetas;

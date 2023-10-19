@@ -26,9 +26,9 @@ export async function createCarpetasDemanda() {
         rawCarpeta
       );
 
-    if ( carpeta.category === 'Terminados' ) {
+    /* if ( carpeta.category === 'Terminados' ) {
       continue;
-    }
+    } */
 
     const awaitTime = 500;
 

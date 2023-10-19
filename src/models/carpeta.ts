@@ -131,8 +131,9 @@ implements IntCarpetaPrueba {
     this.category = category;
     this.codeudor = codeudor;
     this.numero = numero;
-    this.tipoProceso
-      = demanda.tipoProceso as TipoProceso;
+    this.tipoProceso = demanda.tipoProceso
+      ? ( demanda.tipoProceso as TipoProceso )
+      : 'SINGULAR';
     this.deudor = new DeudorPrueba(
       deudor 
     );

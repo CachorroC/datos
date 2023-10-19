@@ -4,6 +4,7 @@
   "cc": 51987570,
   "idProcesos": [87350810],
   "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "sandra",
