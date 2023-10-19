@@ -8,14 +8,12 @@ export default async function Carpetas() {
       'utf-8'
     );
 
-    const parsed = ( await JSON.parse(
+    const parsed = (await JSON.parse(
       archivoCarpetas
-    ) ) as IntCarpeta[];
+    )) as IntCarpeta[];
     return parsed;
-  } catch ( error ) {
-    console.log(
-      error 
-    );
+  } catch (error) {
+    console.log(error);
     return [];
   }
 }

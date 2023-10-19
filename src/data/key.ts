@@ -1,7 +1,9 @@
 import { fetchActuaciones } from '../lib/actuaciones';
 import { sleep } from '../lib/fix';
-import { ErrorActuacion,
-         IntCarpeta } from '../types/carpetas';
+import {
+  ErrorActuacion,
+  IntCarpeta
+} from '../types/carpetas';
 import * as fs from 'fs/promises';
 
 export async function CarpetasFetcher() {
@@ -19,26 +21,18 @@ export async function CarpetasFetcher() {
     archivoCarpetas
   ) as IntCarpeta[];
 
-  console.log(
-    Carpetas 
-  );
+  console.log(Carpetas);
 
-  for ( const carpeta of Carpetas ) {
-    const indexOfCarpeta
-      = Carpetas.indexOf(
-        carpeta 
-      );
+  for (const carpeta of Carpetas) {
+    const indexOfCarpeta =
+      Carpetas.indexOf(carpeta);
 
-    await sleep(
-      200 
-    );
-    console.log(
-      indexOfCarpeta 
-    );
+    await sleep(200);
+    console.log(indexOfCarpeta);
 
     if (
-      !carpeta.idProcesos
-      || carpeta.idProcesos.length === 0
+      !carpeta.idProcesos ||
+      carpeta.idProcesos.length === 0
     ) {
       console.log(
         'la carpeta no tiene idProcesos'
@@ -46,14 +40,10 @@ export async function CarpetasFetcher() {
       continue;
     }
 
-    for ( const idProceso of carpeta.idProcesos ) {
-      const actuaciones
-        = await fetchActuaciones(
-          idProceso 
-        );
-      console.log(
-        actuaciones 
-      );
+    for (const idProceso of carpeta.idProcesos) {
+      const actuaciones =
+        await fetchActuaciones(idProceso);
+      console.log(actuaciones);
       carpetasActuacionesMap.set(
         idProceso,
         actuaciones
@@ -68,9 +58,7 @@ export async function CarpetasFetcher() {
   );
   fs.writeFile(
     './Actuaciones.json',
-    JSON.stringify(
-      ReturnerArray 
-    )
+    JSON.stringify(ReturnerArray)
   );
   return ReturnerArray;
 }

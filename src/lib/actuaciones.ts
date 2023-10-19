@@ -5,12 +5,12 @@ export async function fetchActuaciones(
 ) {
   try {
     const request = await fetch(
-      `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${ idProceso }`
+      `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${idProceso}`
     );
 
-    if ( !request.ok ) {
-      const errorJson
-        = ( await request.json() ) as ErrorActuacion;
+    if (!request.ok) {
+      const errorJson =
+        (await request.json()) as ErrorActuacion;
 
       return errorJson;
     }
@@ -19,31 +19,29 @@ export async function fetchActuaciones(
 
     const json: ErrorActuacion = {
       StatusCode: request.status,
-      Message   : request.statusText,
-      data      : data
+      Message: request.statusText,
+      data: data
     };
     return json;
-  } catch ( error ) {
-    if ( error instanceof Error ) {
+  } catch (error) {
+    if (error instanceof Error) {
       console.log(
-        `${ idProceso }: error en la fetchActuaciones => ${ error.name } : ${ error.message }`
+        `${idProceso}: error en la fetchActuaciones => ${error.name} : ${error.message}`
       );
 
       return {
         StatusCode: 404,
-        Message   : error.message
+        Message: error.message
       };
     }
 
     console.log(
-      `${ idProceso }: : error en la  fetchActuaciones  =>  ${ error }`
+      `${idProceso}: : error en la  fetchActuaciones  =>  ${error}`
     );
 
     return {
       StatusCode: 500,
-      Message   : JSON.stringify(
-        error 
-      )
+      Message: JSON.stringify(error)
     };
   }
 }

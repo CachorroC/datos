@@ -29,7 +29,9 @@
       "AUDIOPRESTAMO"
     ],
     "radicado": "2018 - 00756",
-    "vencimientoPagare": [null],
+    "vencimientoPagare": [
+      "2015-01-01T00:00:00.000Z"
+    ],
     "expediente": "11001400306320180075600",
     "juzgados": [
       {

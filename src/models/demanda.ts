@@ -1,9 +1,11 @@
-import { DemandaRaw,
-         IntDemanda,
-         IntDemandaPrueba,
-         Juzgado,
-         TipoProceso,
-         TipoProcesoRaw } from '../types/carpetas';
+import {
+  DemandaRaw,
+  IntDemanda,
+  IntDemandaPrueba,
+  Juzgado,
+  TipoProceso,
+  TipoProcesoRaw
+} from '../types/carpetas';
 import { Despachos } from '../despachos';
 import { intProceso } from '../types/procesos';
 
@@ -11,48 +13,40 @@ function vencimientoPagareFixer(
   rawVencimientoPagare?: string | number
 ): Date[] {
   const stringer = `${
-    rawVencimientoPagare ?? ''
+    rawVencimientoPagare
+      ? rawVencimientoPagare
+      : '2015-01-01'
   }`;
 
   const pagaresDateSet = new Set<Date>();
 
-  const matcherPagare = stringer.split(
-    '//' 
-  );
+  const matcherPagare = stringer.split('//');
   console.log(
-    `hay ${ matcherPagare?.length } pagarés en este proceso`
+    `hay ${matcherPagare?.length} pagarés en este proceso`
   );
 
-  for ( const pagare of matcherPagare ) {
+  for (const pagare of matcherPagare) {
     const newPagareString = pagare
-          .trim()
-          .replace(
-            '/', '-' 
-          );
+      .trim()
+      .replace('/', '-');
 
-    const stringDate = new Date(
-      newPagareString 
-    );
+    const stringDate = new Date(newPagareString);
 
     console.log(
-      `la nueva fecha del pagaré arrojó: ${ stringDate.toDateString() }`
+      `la nueva fecha del pagaré arrojó: ${stringDate.toDateString()}`
     );
 
-    if ( stringDate === null ) {
+    if (stringDate === null) {
       continue;
     }
 
     console.log(
-      `la nueva fecha del pagaré es: ${ stringDate.toDateString() }`
+      `la nueva fecha del pagaré es: ${stringDate.toDateString()}`
     );
-    pagaresDateSet.add(
-      stringDate 
-    );
+    pagaresDateSet.add(stringDate);
   }
 
-  return Array.from(
-    pagaresDateSet 
-  );
+  return Array.from(pagaresDateSet);
 }
 
 function capitalBuilder(
@@ -60,7 +54,7 @@ function capitalBuilder(
 ) {
   let moneyBuilder;
 
-  if ( typeof capitalAdeudado === 'number' ) {
+  if (typeof capitalAdeudado === 'number') {
     moneyBuilder = capitalAdeudado.toString();
   } else {
     moneyBuilder = capitalAdeudado;
@@ -71,74 +65,48 @@ function capitalBuilder(
     ''
   );
 
-  const dotTaker = copTaker.replace(
-    '.', '' 
-  );
-  console.log(
-    dotTaker 
-  );
+  const dotTaker = copTaker.replace('.', '');
+  console.log(dotTaker);
 
-  return Number(
-    dotTaker 
-  );
+  return Number(dotTaker);
 }
 
 export function juzgadosByProceso(
   procesos: intProceso[]
 ) {
-  if ( procesos.length === 0 ) {
+  if (procesos.length === 0) {
     return [];
   }
 
   const juzgados = new Set<Juzgado>();
 
-  for ( const proceso of procesos ) {
-    const newJ = new NewJuzgado(
-      proceso 
-    );
-    juzgados.add(
-      newJ 
-    );
+  for (const proceso of procesos) {
+    const newJ = new NewJuzgado(proceso);
+    juzgados.add(newJ);
   }
 
-  return Array.from(
-    juzgados 
-  );
+  return Array.from(juzgados);
 }
 
 class NewJuzgado implements Juzgado {
-  constructor(
-    proceso: intProceso 
-  ) {
+  constructor(proceso: intProceso) {
     const matchedDespacho = Despachos.find(
-      (
-        despacho 
-      ) => {
+      (despacho) => {
         const nDesp = despacho.nombre
-              .toLowerCase()
-              .normalize(
-                'NFD' 
-              )
-              .replace(
-                /\p{Diacritic}/gu, '' 
-              )
-              .trim();
+          .toLowerCase()
+          .normalize('NFD')
+          .replace(/\p{Diacritic}/gu, '')
+          .trim();
 
         const pDesp = proceso.despacho
-              .toLowerCase()
-              .normalize(
-                'NFD' 
-              )
-              .replace(
-                /\p{Diacritic}/gu, '' 
-              )
-              .trim();
+          .toLowerCase()
+          .normalize('NFD')
+          .replace(/\p{Diacritic}/gu, '')
+          .trim();
 
-        const indexOfDesp = nDesp.indexOf(
-          pDesp 
-        );
+        const indexOfDesp = nDesp.indexOf(pDesp);
 
-        if ( indexOfDesp >= 0 ) {
+        if (indexOfDesp >= 0) {
           console.log(
             `procesos despacho is in despachos ${
               indexOfDesp + 1
@@ -154,23 +122,17 @@ class NewJuzgado implements Juzgado {
       ? matchedDespacho.nombre
       : proceso.despacho;
 
-    const matchedId = nameN.match(
-      /\d+/g 
-    );
+    const matchedId = nameN.match(/\d+/g);
 
-    this.id = Number(
-      matchedId?.toString() 
-    );
-    ( this.tipo = matchedDespacho
+    this.id = Number(matchedId?.toString());
+    (this.tipo = matchedDespacho
       ? matchedDespacho.nombre
-      : proceso.despacho ),
-    ( this.url = matchedDespacho
-      ? `https://www.ramajudicial.gov.co${ matchedDespacho.url }`
-      : `https://www.ramajudicial.gov.co${ proceso.despacho
-            .replaceAll(
-              ' ', '-' 
-            )
-            .toLowerCase() }` );
+      : proceso.despacho),
+      (this.url = matchedDespacho
+        ? `https://www.ramajudicial.gov.co${matchedDespacho.url}`
+        : `https://www.ramajudicial.gov.co${proceso.despacho
+            .replaceAll(' ', '-')
+            .toLowerCase()}`);
   }
   id: number;
   tipo: string;
@@ -200,32 +162,22 @@ export class Demanda implements IntDemanda {
 
     const juzgadosSet: Juzgado[] = [];
 
-    if ( obligacion ) {
-      const {
-        A, B 
-      } = obligacion;
+    if (obligacion) {
+      const { A, B } = obligacion;
 
-      if ( A ) {
-        obligacionesSet.add(
-          A 
-        );
+      if (A) {
+        obligacionesSet.add(A);
       }
 
-      if ( B ) {
-        obligacionesSet.add(
-          B 
-        );
+      if (B) {
+        obligacionesSet.add(B);
       }
     }
 
-    if ( RequestProcesos ) {
-      for ( const proceso of RequestProcesos ) {
-        const newJ = new NewJuzgado(
-          proceso 
-        );
-        juzgadosSet.push(
-          newJ 
-        );
+    if (RequestProcesos) {
+      for (const proceso of RequestProcesos) {
+        const newJ = new NewJuzgado(proceso);
+        juzgadosSet.push(newJ);
       }
     }
 
@@ -234,44 +186,30 @@ export class Demanda implements IntDemanda {
       : null;
 
     this.capitalAdeudado = capitalBuilder(
-      capitalAdeudado
-        ? capitalAdeudado
-        : 0
+      capitalAdeudado ? capitalAdeudado : 0
     );
-    this.entregaGarantiasAbogado
-      = entregaGarantiasAbogado
-        ? new Date(
-          entregaGarantiasAbogado 
-        )
+    this.entregaGarantiasAbogado =
+      entregaGarantiasAbogado
+        ? new Date(entregaGarantiasAbogado)
         : null;
     this.etapaProcesal = etapaProcesal
-      ? `${ etapaProcesal }`
+      ? `${etapaProcesal}`
       : null;
     this.fechaPresentacion = fechaPresentacion
-      ? new Date(
-        fechaPresentacion 
-      )
+      ? new Date(fechaPresentacion)
       : null;
-    this.municipio = municipio
-      ? municipio
-      : null;
+    this.municipio = municipio ? municipio : null;
     this.mandamientoPago = mandamientoPago
-      ? new Date(
-        mandamientoPago 
-      )
+      ? new Date(mandamientoPago)
       : null;
 
-    this.obligacion = Array.from(
-      obligacionesSet 
-    );
+    this.obligacion = Array.from(obligacionesSet);
     this.juzgados = juzgadosSet;
     this.radicado = radicado
-      ? `${ radicado }`
+      ? `${radicado}`
       : null;
-    this.vencimientoPagare
-      = vencimientoPagareFixer(
-        vencimientoPagare 
-      );
+    this.vencimientoPagare =
+      vencimientoPagareFixer(vencimientoPagare);
     this.departamento = departamento
       ? departamento
       : null;
@@ -284,7 +222,7 @@ export class Demanda implements IntDemanda {
   etapaProcesal: string | null;
   fechaPresentacion: Date | null;
   municipio: string | null;
-  obligacion: ( number | string )[];
+  obligacion: (number | string)[];
   radicado: string | null;
   vencimientoPagare: Date[];
   expediente: string | null;
@@ -292,7 +230,8 @@ export class Demanda implements IntDemanda {
 }
 
 export class DemandaPrueba
-implements IntDemandaPrueba {
+  implements IntDemandaPrueba
+{
   constructor(
     {
       capitalAdeudado,
@@ -315,32 +254,22 @@ implements IntDemandaPrueba {
       string | number
     >();
 
-    if ( obligacion ) {
-      const {
-        A, B 
-      } = obligacion;
+    if (obligacion) {
+      const { A, B } = obligacion;
 
-      if ( A ) {
-        obligacionesSet.add(
-          A 
-        );
+      if (A) {
+        obligacionesSet.add(A);
       }
 
-      if ( B ) {
-        obligacionesSet.add(
-          B 
-        );
+      if (B) {
+        obligacionesSet.add(B);
       }
     }
 
-    if ( RequestProcesos ) {
-      for ( const proceso of RequestProcesos ) {
-        const newJ = new NewJuzgado(
-          proceso 
-        );
-        juzgadosSet.push(
-          newJ 
-        );
+    if (RequestProcesos) {
+      for (const proceso of RequestProcesos) {
+        const newJ = new NewJuzgado(proceso);
+        juzgadosSet.push(newJ);
       }
     }
 
@@ -349,44 +278,30 @@ implements IntDemandaPrueba {
       : null;
 
     this.capitalAdeudado = capitalBuilder(
-      capitalAdeudado
-        ? capitalAdeudado
-        : 0
+      capitalAdeudado ? capitalAdeudado : 0
     );
-    this.entregaGarantiasAbogado
-      = entregaGarantiasAbogado
-        ? new Date(
-          entregaGarantiasAbogado 
-        )
+    this.entregaGarantiasAbogado =
+      entregaGarantiasAbogado
+        ? new Date(entregaGarantiasAbogado)
         : null;
     this.etapaProcesal = etapaProcesal
-      ? `${ etapaProcesal }`
+      ? `${etapaProcesal}`
       : null;
     this.fechaPresentacion = fechaPresentacion
-      ? new Date(
-        fechaPresentacion 
-      )
+      ? new Date(fechaPresentacion)
       : null;
     this.juzgados = juzgadosSet;
-    this.municipio = municipio
-      ? municipio
-      : null;
+    this.municipio = municipio ? municipio : null;
     this.mandamientoPago = mandamientoPago
-      ? new Date(
-        mandamientoPago 
-      )
+      ? new Date(mandamientoPago)
       : null;
 
-    this.obligacion = Array.from(
-      obligacionesSet 
-    );
+    this.obligacion = Array.from(obligacionesSet);
     this.radicado = radicado
-      ? `${ radicado }`
+      ? `${radicado}`
       : null;
-    this.vencimientoPagare
-      = vencimientoPagareFixer(
-        vencimientoPagare 
-      );
+    this.vencimientoPagare =
+      vencimientoPagareFixer(vencimientoPagare);
     this.departamento = departamento
       ? departamento
       : null;
@@ -399,7 +314,7 @@ implements IntDemandaPrueba {
   etapaProcesal: string | null;
   fechaPresentacion: Date | null;
   municipio: string | null;
-  obligacion: ( number | string )[];
+  obligacion: (number | string)[];
   radicado: string | null;
   vencimientoPagare: Date[];
   expediente: string | null;

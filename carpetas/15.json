@@ -30,7 +30,9 @@
     "municipio": "BOGOTA",
     "obligacion": [2450966],
     "radicado": "2017 - 00654",
-    "vencimientoPagare": [null],
+    "vencimientoPagare": [
+      "2015-01-01T00:00:00.000Z"
+    ],
     "expediente": "11001400307220170065400",
     "juzgados": [
       {
