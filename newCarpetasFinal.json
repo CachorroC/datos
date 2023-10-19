@@ -923,7 +923,7 @@
       "radicado": "2018 - 00060",
       "vencimientoPagare": [null],
       "expediente": "2575440030042018000600",
-      "juzgados": null
+      "juzgados": []
     }
   },
   {
@@ -1439,7 +1439,7 @@
         null
       ],
       "expediente": "1100141890342023098500",
-      "juzgados": null
+      "juzgados": []
     }
   },
   {
@@ -1825,7 +1825,7 @@
         "2026-03-08T05:00:00.000Z"
       ],
       "expediente": "2547340030012023012900",
-      "juzgados": null
+      "juzgados": []
     }
   },
   {
@@ -2135,7 +2135,7 @@
         "2026-07-03T05:00:00.000Z"
       ],
       "expediente": null,
-      "juzgados": null
+      "juzgados": []
     }
   },
   {
@@ -2365,7 +2365,7 @@
         "2026-05-07T00:00:00.000Z"
       ],
       "expediente": null,
-      "juzgados": null
+      "juzgados": []
     }
   },
   {
@@ -2452,7 +2452,7 @@
         "2052-12-07T00:00:00.000Z"
       ],
       "expediente": null,
-      "juzgados": null
+      "juzgados": []
     }
   },
   {
@@ -2494,7 +2494,7 @@
         "2026-05-06T05:00:00.000Z"
       ],
       "expediente": null,
-      "juzgados": null
+      "juzgados": []
     }
   },
   {
@@ -2537,7 +2537,7 @@
         "2026-04-09T05:00:00.000Z"
       ],
       "expediente": null,
-      "juzgados": null
+      "juzgados": []
     }
   },
   {
@@ -2575,7 +2575,7 @@
         "2052-11-18T00:00:00.000Z"
       ],
       "expediente": null,
-      "juzgados": null
+      "juzgados": []
     }
   },
   {
@@ -2614,7 +2614,7 @@
       "radicado": null,
       "vencimientoPagare": [null, null],
       "expediente": null,
-      "juzgados": null
+      "juzgados": []
     }
   },
   {
@@ -2659,7 +2659,7 @@
         null
       ],
       "expediente": null,
-      "juzgados": null
+      "juzgados": []
     }
   },
   {
@@ -2703,7 +2703,7 @@
         "2052-02-21T00:00:00.000Z"
       ],
       "expediente": null,
-      "juzgados": null
+      "juzgados": []
     }
   },
   {
@@ -5797,7 +5797,7 @@
         "2015-01-01T00:00:00.000Z"
       ],
       "expediente": "2589940010020200028900",
-      "juzgados": null
+      "juzgados": []
     }
   },
   {
@@ -6365,7 +6365,7 @@
         "2020-05-04T00:00:00.000Z"
       ],
       "expediente": "1100140030202100050100",
-      "juzgados": null
+      "juzgados": []
     }
   },
   {

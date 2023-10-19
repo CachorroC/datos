@@ -34,6 +34,6 @@
     "radicado": null,
     "vencimientoPagare": [null, null],
     "expediente": null,
-    "juzgados": null
+    "juzgados": []
   }
 }

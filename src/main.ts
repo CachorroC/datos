@@ -18,18 +18,22 @@ export async function createCarpetasDemanda() {
   for ( const rawCarpeta of Carpetas ) {
     const indexOfCarpeta
       = Carpetas.indexOf(
-        rawCarpeta 
+        rawCarpeta
       );
 
     const carpeta
       = categoryAssignment(
-        rawCarpeta 
+        rawCarpeta
       );
+    /*
+    if ( carpeta.category === 'Terminados' ) {
+      continue;
+    } */
 
     const awaitTime = 500;
 
     await sleep(
-      awaitTime 
+      awaitTime
     );
     console.log(
       `carpetas has a length of ${ Carpetas.length } and you are in carpeta number ${ indexOfCarpeta }`
@@ -45,27 +49,27 @@ export async function createCarpetasDemanda() {
         RequestProcesos
       );
       newCarpetas.add(
-        newCarpeta 
+        newCarpeta
       );
       fs.writeFile(
         `carpetas/${ newCarpeta.numero }.json`,
         JSON.stringify(
-          newCarpeta 
+          newCarpeta
         )
       );
       continue;
     }
 
     const newCarpeta = new CarpetaPrueba(
-      carpeta 
+      carpeta
     );
     newCarpetas.add(
-      newCarpeta 
+      newCarpeta
     );
     fs.writeFile(
       `carpetas/${ newCarpeta.numero }.json`,
       JSON.stringify(
-        newCarpeta 
+        newCarpeta
       )
     );
     continue;
@@ -78,20 +82,20 @@ export async function createCarpetasDemanda() {
   fs.writeFile(
     'procesosData.json',
     JSON.stringify(
-      newProcesosArray 
+      newProcesosArray
     )
   );
 
   const newCarpetasArray
     = Array.from(
-      newCarpetas 
+      newCarpetas
     );
 
   const insertCarpetas = await insertNewCarpetas(
     newCarpetasArray
   );
   console.log(
-    insertCarpetas 
+    insertCarpetas
   );
 
   return newCarpetasArray;
@@ -101,41 +105,41 @@ console.log(
   createCarpetasDemanda()
         .then(
           (
-            ff 
+            ff
           ) => {
             fs.writeFile(
               'newCarpetasFinal.json',
               JSON.stringify(
-                ff 
+                ff
               )
             );
 
             return console.log(
-              ff 
+              ff
             );
           },
           (
-            rr 
+            rr
           ) => {
             return console.log(
-              rr 
+              rr
             );
           }
         )
         .catch(
           (
-            err 
+            err
           ) => {
             return console.log(
               JSON.stringify(
-                err 
-              ) 
+                err
+              )
             );
-          } 
+          }
         )
         .finally(
           () => {
             return;
-          } 
+          }
         )
 );
