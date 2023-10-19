@@ -16015,11 +16015,10 @@ const Carpetas: TrulyCruda[] = [
       capitalAdeudado        : '1.788.247.698 COP',
       departamento           : 'CUNDINAMARCA',
       entregaGarantiasAbogado: '2017-09-13',
-      fechaPresentacion:
-        'SIN LEVANTAMIENTO DE MEDIDA CAUTELAR AL 18-01-2023 SE ENCUENTRA DESARCHIVE DESDE EL 14 DE DICI DE 2022',
-      mandamientoPago: '2017-10-25',
-      municipio      : 'BOGOTA',
-      obligacion     : {
+      fechaPresentacion      : '2022-12-14',
+      mandamientoPago        : '2017-10-25',
+      municipio              : 'BOGOTA',
+      obligacion             : {
         A: 20990135265
       },
       radicado: '2017 - 01164'
@@ -16040,7 +16039,6 @@ const Carpetas: TrulyCruda[] = [
       departamento           : 'CUNDINAMARCA',
       entregaGarantiasAbogado: '2017-05-19',
       etapaProcesal          : 2.532031890012017e22,
-      fechaPresentacion      : 'CENTRO DE CONCILIACION',
       mandamientoPago        : '2017-05-31',
       municipio              : 'GUADUAS',
       obligacion             : {
@@ -16067,11 +16065,9 @@ const Carpetas: TrulyCruda[] = [
       departamento           : 'CUNDINAMARCA',
       entregaGarantiasAbogado: '2017-06-12',
       etapaProcesal          : 1.100140030292017e22,
-      fechaPresentacion:
-        'PROCESO DE REESTRUCTURACION SUPER SOCIEDADES',
-      mandamientoPago: '2017-06-15',
-      municipio      : 'BOGOTA',
-      obligacion     : {
+      mandamientoPago        : '2017-06-15',
+      municipio              : 'BOGOTA',
+      obligacion             : {
         A: 125348220
       },
       radicado         : '2017 - 00557',
@@ -16096,16 +16092,16 @@ const Carpetas: TrulyCruda[] = [
       departamento           : 'CUNDINAMARCA',
       entregaGarantiasAbogado: '2017-08-23',
       etapaProcesal          : 1.100140030792017e22,
-      fechaPresentacion      : 'PROCESO DE INSOLVENCIA',
       mandamientoPago        : '2017-09-04',
       municipio              : 'BOGOTA',
       obligacion             : {
         A: 377816483778266,
         B: 4513080485378479
       },
-      radicado         : '2017 - 01142',
-      tipoProceso      : 'SINGULAR',
-      vencimientoPagare: '16-11-2019 // 6-03-2020'
+      radicado   : '2017 - 01142',
+      tipoProceso: 'SINGULAR',
+      vencimientoPagare:
+        '16-11-2019 // 06-03-2020'
     },
     deudor: {
       cedula   : 51733931,
@@ -16126,11 +16122,9 @@ const Carpetas: TrulyCruda[] = [
       departamento           : 'CUNDINAMARCA',
       entregaGarantiasAbogado: '2017-09-21',
       etapaProcesal          : 1.100140030632018e22,
-      fechaPresentacion:
-        'PROCESO DE INSOLVENCIA PASO A LIQUIDACION JUDICIAL',
-      mandamientoPago: '2017-09-27',
-      municipio      : 'BOGOTA',
-      obligacion     : {
+      mandamientoPago        : '2017-09-27',
+      municipio              : 'BOGOTA',
+      obligacion             : {
         A: 186718,
         B: '3778153354915637 / 4513079095670572'
       },
@@ -16236,11 +16230,9 @@ const Carpetas: TrulyCruda[] = [
       departamento           : 'CUNDINAMARCA',
       entregaGarantiasAbogado: '30-11-2018',
       etapaProcesal          : '1,10E+38',
-      fechaPresentacion:
-        'PROCESO SUSPENDIDO CENTRO DE CONCILIACION',
-      mandamientoPago: '01-02-2019',
-      municipio      : 'BOGOTA',
-      obligacion     : {
+      mandamientoPago        : '01-02-2019',
+      municipio              : 'BOGOTA',
+      obligacion             : {
         A: 7910080591,
         B: 4099830244266410
       },

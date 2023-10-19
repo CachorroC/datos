@@ -200,6 +200,8 @@ export class Demanda implements IntDemanda {
       string | number
     >();
 
+    const juzgadosSet: Juzgado[] = [];
+
     if ( obligacion ) {
       const {
         A, B 
@@ -214,6 +216,17 @@ export class Demanda implements IntDemanda {
       if ( B ) {
         obligacionesSet.add(
           B 
+        );
+      }
+    }
+
+    if ( RequestProcesos ) {
+      for ( const proceso of RequestProcesos ) {
+        const newJ = new NewJuzgado(
+          proceso 
+        );
+        juzgadosSet.push(
+          newJ 
         );
       }
     }
@@ -241,11 +254,6 @@ export class Demanda implements IntDemanda {
         fechaPresentacion 
       )
       : null;
-    this.juzgados = RequestProcesos
-      ? juzgadosByProceso(
-        RequestProcesos 
-      )
-      : [];
     this.municipio = municipio
       ? municipio
       : null;
@@ -258,6 +266,7 @@ export class Demanda implements IntDemanda {
     this.obligacion = Array.from(
       obligacionesSet 
     );
+    this.juzgados = juzgadosSet;
     this.radicado = radicado
       ? `${ radicado }`
       : null;
