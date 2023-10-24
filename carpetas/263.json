@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400307020170100700",
-  "numero": 263,
-  "cc": 9856710,
-  "idProcesos": [18366380],
   "category": "Terminados",
+  "numero": 263,
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ancizar",
-    "segundoNombre": null,
-    "primerApellido": "giraldo",
-    "segundoApellido": "botero",
     "cedula": 9856710,
     "direccion": "carrera  6 no 8-16 pensilvania",
-    "email": "latablita1404@hotmail.com"
+    "email": "latablita1404@hotmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "ancizar",
+    "primerApellido": "giraldo",
+    "segundoApellido": "botero",
+    "segundoNombre": null
   },
+  "cc": 9856710,
+  "idProcesos": [18366380],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-22T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400307020170100700",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-09-22T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": "2017-09-27T00:00:00.000Z",
-    "municipio": "PENSILVANIA",
-    "obligacion": [12603197],
-    "radicado": "2017 - 01007",
-    "vencimientoPagare": [
-      "2017-09-20T00:00:00.000Z"
-    ],
-    "expediente": "11001400307020170100700",
     "juzgados": [
       {
         "id": 70,
         "tipo": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-070-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "PENSILVANIA",
+    "mandamientoPago": null,
+    "obligacion": [12603197],
+    "radicado": "2017 - 01007",
+    "vencimientoPagare": [
+      "2017-09-20T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

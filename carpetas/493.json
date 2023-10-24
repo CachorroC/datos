@@ -1,41 +1,39 @@
 {
   "llaveProceso": "11001410375120180181700",
-  "numero": 493,
-  "cc": 53103504,
-  "idProcesos": [],
   "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "kelly",
-    "segundoNombre": "yuliana",
-    "primerApellido": "quintero",
-    "segundoApellido": "fierro",
-    "cedula": 53103504,
-    "direccion": "calle 7 no 87b-90",
-    "email": "juliana.4455@hotmail.com"
-  },
   "codeudor": {
     "cedula": 1030602928,
     "direccion": "CALLE 7 No 87B-90",
     "nombre": "leiny andrea quintero fierro",
     "telefono": 3208797
   },
+  "numero": 493,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "cedula": 53103504,
+    "direccion": "calle 7 no 87b-90",
+    "email": "juliana.4455@hotmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "kelly",
+    "segundoNombre": "yuliana",
+    "primerApellido": "quintero",
+    "segundoApellido": "fierro"
+  },
+  "cc": 53103504,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-06-09T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001410375120180181700",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2018-06-09T05:00:00.000Z",
     "etapaProcesal": "SUBSANA",
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": null,
     "obligacion": [20990155357],
     "radicado": "2018 - 01817",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "11001410375120180181700",
-    "juzgados": []
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

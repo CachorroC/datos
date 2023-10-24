@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400301620170087500",
-  "numero": 249,
-  "cc": 19069228,
-  "idProcesos": [50687430],
   "category": "Reintegra",
+  "numero": 249,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 19069228,
+    "direccion": "carrera 15 # 188 - 39",
+    "email": "jorgemar24@gmail.com",
     "tel": {
       "fijo": 6701643,
       "celular": 3134749213
@@ -13,20 +14,26 @@
     "primerNombre": "jorge",
     "segundoNombre": "alberto",
     "primerApellido": "martinez",
-    "segundoApellido": "bendek",
-    "cedula": 19069228,
-    "direccion": "carrera 15 # 188 - 39",
-    "email": "jorgemar24@gmail.com"
+    "segundoApellido": "bendek"
   },
+  "cc": 19069228,
+  "idProcesos": [50687430],
   "demanda": {
-    "capitalAdeudado": 44933.312,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-11T00:00:00.000Z",
+    "expediente": "11001400301620170087500",
+    "capitalAdeudado": 44933312,
+    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 18,
+        "tipo": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-09-11T00:00:00.000Z",
     "obligacion": [
       377813517259835,
       "377814405234039 // 45130727777594186 // 5491572487025564 // AUDIOPRESTAMO"
@@ -37,13 +44,6 @@
       "2020-05-05T05:00:00.000Z",
       null
     ],
-    "expediente": "11001400301620170087500",
-    "juzgados": [
-      {
-        "id": 18,
-        "tipo": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

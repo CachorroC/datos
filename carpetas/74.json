@@ -1,11 +1,18 @@
 {
   "llaveProceso": "11001400304820170050700",
-  "numero": 74,
-  "cc": 79789620,
-  "idProcesos": [10681823],
   "category": "Terminados",
+  "codeudor": {
+    "cedula": 52666505,
+    "direccion": "CALLE 107A # 54- 57 APTO 202",
+    "nombre": "veronica martinez segura",
+    "telefono": 8040407
+  },
+  "numero": 74,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 79789620,
+    "direccion": "carrera 18 # 120 - 65 apto 306",
+    "email": "carlosborray@gmail.com",
     "tel": {
       "fijo": null,
       "celular": 3138327713
@@ -13,38 +20,31 @@
     "primerNombre": "carlos",
     "segundoNombre": "andrés",
     "primerApellido": "borray",
-    "segundoApellido": "arce",
-    "cedula": 79789620,
-    "direccion": "carrera 18 # 120 - 65 apto 306",
-    "email": "carlosborray@gmail.com"
+    "segundoApellido": "arce"
   },
-  "codeudor": {
-    "cedula": 52666505,
-    "direccion": "CALLE 107A # 54- 57 APTO 202",
-    "nombre": "veronica martinez segura",
-    "telefono": 8040407
-  },
+  "cc": 79789620,
+  "idProcesos": [10681823],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-07-25T00:00:00.000Z",
+    "expediente": "11001400304820170050700",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-06-15T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [12185017],
-    "radicado": "2017 - 00507",
-    "vencimientoPagare": [
-      "2017-06-07T00:00:00.000Z"
-    ],
-    "expediente": "11001400304820170050700",
     "juzgados": [
       {
         "id": 48,
         "tipo": "JUZGADO 048 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-048-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-07-25T00:00:00.000Z",
+    "obligacion": [12185017],
+    "radicado": "2017 - 00507",
+    "vencimientoPagare": [
+      "2017-06-07T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

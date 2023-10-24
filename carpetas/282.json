@@ -1,11 +1,18 @@
 {
   "llaveProceso": "11001400301520170139400",
-  "numero": 282,
-  "cc": 19255260,
-  "idProcesos": [50777890],
   "category": "Bancolombia",
+  "codeudor": {
+    "cedula": "41759787 // 39710157",
+    "direccion": "DG 3B No. 0-78 ESTE",
+    "nombre": "carmelina aguilar  //  ana lucia aguilar",
+    "telefono": "3204613419 //3107627120"
+  },
+  "numero": 282,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 19255260,
+    "direccion": "calle 2 c no 62 - 20",
+    "email": "maifren_13@yahoo.es",
     "tel": {
       "fijo": 4170527,
       "celular": 3125024008
@@ -13,38 +20,31 @@
     "primerNombre": "matias",
     "segundoNombre": "humberto",
     "primerApellido": "avila",
-    "segundoApellido": "aguilar",
-    "cedula": 19255260,
-    "direccion": "calle 2 c no 62 - 20",
-    "email": "maifren_13@yahoo.es"
+    "segundoApellido": "aguilar"
   },
-  "codeudor": {
-    "cedula": "41759787 // 39710157",
-    "direccion": "DG 3B No. 0-78 ESTE",
-    "nombre": "carmelina aguilar  //  ana lucia aguilar",
-    "telefono": "3204613419 //3107627120"
-  },
+  "cc": 19255260,
+  "idProcesos": [50777890],
   "demanda": {
-    "capitalAdeudado": 66362.959,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-21T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-02-19T00:00:00.000Z",
+    "expediente": "11001400301520170139400",
+    "capitalAdeudado": 66362959,
+    "entregaGarantiasAbogado": "2017-09-21T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-10-10T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [174366],
-    "radicado": "2017 - 01394",
-    "vencimientoPagare": [
-      "2024-05-05T05:00:00.000Z"
-    ],
-    "expediente": "11001400301520170139400",
     "juzgados": [
       {
         "id": 11,
         "tipo": "JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-02-19T00:00:00.000Z",
+    "obligacion": [174366],
+    "radicado": "2017 - 01394",
+    "vencimientoPagare": [
+      "2024-05-05T05:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

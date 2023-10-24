@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400308120230141400",
-  "numero": 583,
-  "cc": 46668139,
-  "idProcesos": [133187160],
   "category": "Bancolombia",
+  "numero": 583,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 46668139,
+    "direccion": "carrera 53 c no. 4 c 63",
+    "email": "yaneth_apar@hotmail.com",
     "tel": {
       "fijo": 3031161,
       "celular": 3124781732
@@ -13,33 +14,32 @@
     "primerNombre": "alba",
     "segundoNombre": "yaneth",
     "primerApellido": "aparicio",
-    "segundoApellido": "sandoval",
-    "cedula": 46668139,
-    "direccion": "carrera 53 c no. 4 c 63",
-    "email": "yaneth_apar@hotmail.com"
+    "segundoApellido": "sandoval"
   },
+  "cc": 46668139,
+  "idProcesos": [133187160],
   "demanda": {
-    "capitalAdeudado": 21652.918,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-09-05T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400308120230141400",
+    "capitalAdeudado": 21652918,
+    "entregaGarantiasAbogado": "2023-09-05T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "Q 0000000046668139027001",
-      "0377815602619302"
-    ],
-    "radicado": "2023 - 01414",
-    "vencimientoPagare": [null, null],
-    "expediente": "11001400308120230141400",
     "juzgados": [
       {
         "id": 81,
         "tipo": "JUZGADO 081 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-081-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [
+      "Q 0000000046668139027001",
+      "0377815602619302"
+    ],
+    "radicado": "2023 - 01414",
+    "vencimientoPagare": [null, null],
+    "departamento": "CUNDINAMARCA"
   }
 }

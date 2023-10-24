@@ -1,11 +1,18 @@
 {
   "llaveProceso": "25754418900220180036300",
-  "numero": 242,
-  "cc": 79793904,
-  "idProcesos": [],
   "category": "Terminados",
+  "codeudor": {
+    "cedula": 1018430139,
+    "direccion": "CARRERA 38 No 14-93 BLOQUE  1 CASA 301 SOACHA",
+    "nombre": "luisa fernanda salazar patarroyo",
+    "telefono": 6680643
+  },
+  "numero": 242,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 79793904,
+    "direccion": "calle 183 no11 -55 bloque 9 apartamento 102",
+    "email": "johnhader70@hotmail.com",
     "tel": {
       "fijo": 4805457,
       "celular": 3223968514
@@ -13,32 +20,25 @@
     "primerNombre": "john",
     "segundoNombre": "hader",
     "primerApellido": "otalvaro",
-    "segundoApellido": " romo",
-    "cedula": 79793904,
-    "direccion": "calle 183 no11 -55 bloque 9 apartamento 102",
-    "email": "johnhader70@hotmail.com"
+    "segundoApellido": " romo"
   },
-  "codeudor": {
-    "cedula": 1018430139,
-    "direccion": "CARRERA 38 No 14-93 BLOQUE  1 CASA 301 SOACHA",
-    "nombre": "luisa fernanda salazar patarroyo",
-    "telefono": 6680643
-  },
+  "cc": 79793904,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-11T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-06T00:00:00.000Z",
+    "expediente": "25754418900220180036300",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-09-11T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "SOACHA",
+    "mandamientoPago": "2017-10-06T00:00:00.000Z",
     "obligacion": [20990182990],
     "radicado": "2017 - 00903",
     "vencimientoPagare": [
       "2023-04-20T00:00:00.000Z"
     ],
-    "expediente": "25754418900220180036300",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

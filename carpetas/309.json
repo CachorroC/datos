@@ -1,29 +1,30 @@
 {
   "llaveProceso": "11001400306720170161300",
-  "numero": 309,
-  "cc": 19332163,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 309,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 19332163,
+    "direccion": "carrera 69 c no 98a -50",
+    "email": "hencast@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "henry",
     "segundoNombre": "noel",
     "primerApellido": "castelblanco",
-    "segundoApellido": "sosa",
-    "cedula": 19332163,
-    "direccion": "carrera 69 c no 98a -50",
-    "email": "hencast@hotmail.com"
+    "segundoApellido": "sosa"
   },
+  "cc": 19332163,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-10-24T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-03-12T00:00:00.000Z",
+    "expediente": "11001400306720170161300",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-10-24T00:00:00.000Z",
     "etapaProcesal": "SENTENCIA",
     "fechaPresentacion": "2017-10-31T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2018-03-12T00:00:00.000Z",
     "obligacion": [
       4513080019699192,
       "0377815686597168"
@@ -32,7 +33,6 @@
     "vencimientoPagare": [
       "2017-04-22T00:00:00.000Z"
     ],
-    "expediente": "11001400306720170161300",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

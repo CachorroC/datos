@@ -1,45 +1,45 @@
 {
   "llaveProceso": "11001400305220190110300",
-  "numero": 529,
-  "cc": 2976219,
-  "idProcesos": [66898433],
   "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "gonzalo",
-    "segundoNombre": null,
-    "primerApellido": "contreras",
-    "segundoApellido": "poveda",
-    "cedula": 2976219,
-    "direccion": "carrera 39 b no 20t-1 apto 303",
-    "email": "gcontreras@intecq.com"
-  },
   "codeudor": {
     "cedula": 35402673,
     "direccion": "TRANS 60 No 119-30 apto 418 t 5",
     "nombre": "susana contreras poveda",
     "telefono": 8060779
   },
+  "numero": 529,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "cedula": 2976219,
+    "direccion": "carrera 39 b no 20t-1 apto 303",
+    "email": "gcontreras@intecq.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "gonzalo",
+    "primerApellido": "contreras",
+    "segundoApellido": "poveda",
+    "segundoNombre": null
+  },
+  "cc": 2976219,
+  "idProcesos": [66898433],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400305220190110300",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [20990171776, "AUDIOPRESTAMO"],
-    "radicado": "2019 - 01103",
-    "vencimientoPagare": [null],
-    "expediente": "11001400305220190110300",
     "juzgados": [
       {
         "id": 52,
         "tipo": "JUZGADO 052 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-52-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [20990171776, "AUDIOPRESTAMO"],
+    "radicado": "2019 - 01103",
+    "vencimientoPagare": [null],
+    "departamento": "CUNDINAMARCA"
   }
 }

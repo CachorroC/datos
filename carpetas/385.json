@@ -1,47 +1,47 @@
 {
   "llaveProceso": "11001400303520180007400",
-  "numero": 385,
-  "cc": 406547,
-  "idProcesos": [50980350],
   "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "avelino",
-    "segundoNombre": null,
-    "primerApellido": "sierra",
-    "segundoApellido": "sierra",
-    "cedula": 406547,
-    "direccion": "tranversal 11a # 9a - 13",
-    "email": null
-  },
   "codeudor": {
     "cedula": 406828,
     "direccion": "CALLE 126 # 11G - 78",
     "nombre": "jose carlos julio rincon sierra",
     "telefono": 3143667
   },
+  "numero": 385,
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "cedula": 406547,
+    "direccion": "tranversal 11a # 9a - 13",
+    "email": null,
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "avelino",
+    "primerApellido": "sierra",
+    "segundoApellido": "sierra",
+    "segundoNombre": null
+  },
+  "cc": 406547,
+  "idProcesos": [50980350],
   "demanda": {
-    "capitalAdeudado": 15344.261,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-01-19T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-01-30T00:00:00.000Z",
+    "expediente": "11001400303520180007400",
+    "capitalAdeudado": 15344.261,
+    "entregaGarantiasAbogado": "2018-01-19T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [9450082795],
-    "radicado": "2018 - 00074",
-    "vencimientoPagare": [
-      "2019-07-29T00:00:00.000Z"
-    ],
-    "expediente": "11001400303520180007400",
     "juzgados": [
       {
         "id": 35,
         "tipo": "JUZGADO 035 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-35-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-01-30T00:00:00.000Z",
+    "obligacion": [9450082795],
+    "radicado": "2018 - 00074",
+    "vencimientoPagare": [
+      "2019-07-29T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

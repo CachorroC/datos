@@ -1,35 +1,33 @@
 {
   "llaveProceso": null,
-  "numero": 545,
-  "cc": 79295686,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 545,
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "jairo",
-    "segundoNombre": null,
-    "primerApellido": "aldana",
-    "segundoApellido": "villamizar",
     "cedula": 79295686,
     "direccion": null,
-    "email": null
+    "email": null,
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "jairo",
+    "primerApellido": "aldana",
+    "segundoApellido": "villamizar",
+    "segundoNombre": null
   },
+  "cc": 79295686,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 0,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": null,
+    "capitalAdeudado": 0,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": null,
     "obligacion": [],
     "radicado": "SIN NUMERO",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": null,
-    "juzgados": []
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

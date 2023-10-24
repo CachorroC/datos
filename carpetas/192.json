@@ -1,33 +1,33 @@
 {
   "llaveProceso": "1100140030732017015300",
-  "numero": 192,
-  "cc": 53053612,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 192,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 53053612,
+    "direccion": "tranversal 142 # 150 - 50 casa 2 et 8",
+    "email": "baldini@mybosi.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "diana",
     "segundoNombre": "patricia",
     "primerApellido": "sanchez",
-    "segundoApellido": "salcedo",
-    "cedula": 53053612,
-    "direccion": "tranversal 142 # 150 - 50 casa 2 et 8",
-    "email": "baldini@mybosi.com"
+    "segundoApellido": "salcedo"
   },
+  "cc": 53053612,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-17T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "1100140030732017015300",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-08-17T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": null,
     "obligacion": [490098495, 128775],
     "radicado": "2017 - 01532",
     "vencimientoPagare": [null, null],
-    "expediente": "1100140030732017015300",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

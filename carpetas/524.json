@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400307520190100800",
-  "numero": 524,
-  "cc": 52433839,
-  "idProcesos": [70545740],
   "category": "Terminados",
+  "numero": 524,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 52433839,
+    "direccion": "carrera 15 # 33-17",
+    "email": "grpte@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3213987669
@@ -13,30 +14,29 @@
     "primerNombre": "ingrit",
     "segundoNombre": "yohana",
     "primerApellido": "vasquez",
-    "segundoApellido": "rojas",
-    "cedula": 52433839,
-    "direccion": "carrera 15 # 33-17",
-    "email": "grpte@hotmail.com"
+    "segundoApellido": "rojas"
   },
+  "cc": 52433839,
+  "idProcesos": [70545740],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400307520190100800",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": "2019-04-06T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [20990138197],
-    "radicado": "2019 - 01008",
-    "vencimientoPagare": [null],
-    "expediente": "11001400307520190100800",
     "juzgados": [
       {
         "id": 75,
         "tipo": "JUZGADO 075 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-75-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [20990138197],
+    "radicado": "2019 - 01008",
+    "vencimientoPagare": [null],
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400302520180023700",
-  "numero": 401,
-  "cc": 52357813,
-  "idProcesos": [51025410],
   "category": "Terminados",
+  "numero": 401,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 52357813,
+    "direccion": "calle 50 sur no 87 d- 81",
+    "email": "dandraojeda_5@hotmail.com",
     "tel": {
       "fijo": 7232225,
       "celular": 3112572775
@@ -13,30 +14,29 @@
     "primerNombre": "sandra",
     "segundoNombre": "patricia",
     "primerApellido": "",
-    "segundoApellido": "ojeda rodriguez",
-    "cedula": 52357813,
-    "direccion": "calle 50 sur no 87 d- 81",
-    "email": "dandraojeda_5@hotmail.com"
+    "segundoApellido": "ojeda rodriguez"
   },
+  "cc": 52357813,
+  "idProcesos": [51025410],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400302520180023700",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "ADMISION",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [142837],
-    "radicado": "2018-0237",
-    "vencimientoPagare": [null],
-    "expediente": "11001400302520180023700",
     "juzgados": [
       {
         "id": 25,
         "tipo": "JUZGADO 025 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-25-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [142837],
+    "radicado": "2018-0237",
+    "vencimientoPagare": [null],
+    "departamento": "CUNDINAMARCA"
   }
 }

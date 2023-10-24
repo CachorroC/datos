@@ -1,33 +1,33 @@
 {
   "llaveProceso": "25286400300120180042100",
-  "numero": 269,
-  "cc": 80162950,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 269,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 80162950,
+    "direccion": "carrera 16 no 14 - 36",
+    "email": "ju@yahoo.es",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "juan",
     "segundoNombre": "carlos",
     "primerApellido": "ortiz",
-    "segundoApellido": "cuervo",
-    "cedula": 80162950,
-    "direccion": "carrera 16 no 14 - 36",
-    "email": "ju@yahoo.es"
+    "segundoApellido": "cuervo"
   },
+  "cc": 80162950,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "25286400300120180042100",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "FUNZA",
+    "mandamientoPago": null,
     "obligacion": [182524],
     "radicado": "2018 - 00421",
     "vencimientoPagare": [null],
-    "expediente": "25286400300120180042100",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

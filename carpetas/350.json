@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400305020170135700",
-  "numero": 350,
-  "cc": 80111672,
-  "idProcesos": [11224353],
   "category": "Terminados",
+  "numero": 350,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 80111672,
+    "direccion": "calle 51  sur no  80 - 24",
+    "email": "diegovergarav@hotmail.com",
     "tel": {
       "fijo": 4647087,
       "celular": 3112441540
@@ -13,20 +14,26 @@
     "primerNombre": "diego",
     "segundoNombre": "ferney",
     "primerApellido": "vergara",
-    "segundoApellido": "valderrama",
-    "cedula": 80111672,
-    "direccion": "calle 51  sur no  80 - 24",
-    "email": "diegovergarav@hotmail.com"
+    "segundoApellido": "valderrama"
   },
+  "cc": 80111672,
+  "idProcesos": [11224353],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-11-15T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-04-16T00:00:00.000Z",
+    "expediente": "11001400305020170135700",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-11-15T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-11-23T00:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 50,
+        "tipo": "JUZGADO 050 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-50-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2018-04-16T00:00:00.000Z",
     "obligacion": [
       "6740081982 / 451308007555923",
       5303717744146285
@@ -35,13 +42,6 @@
     "vencimientoPagare": [
       "2020-05-05T00:00:00.000Z"
     ],
-    "expediente": "11001400305020170135700",
-    "juzgados": [
-      {
-        "id": 50,
-        "tipo": "JUZGADO 050 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-50-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

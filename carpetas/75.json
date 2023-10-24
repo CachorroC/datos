@@ -1,45 +1,45 @@
 {
   "llaveProceso": "11001400305820170091800",
-  "numero": 75,
-  "cc": 80792132,
-  "idProcesos": [50526190],
   "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "mario",
-    "segundoNombre": "andres",
-    "primerApellido": "bojaca",
-    "segundoApellido": "cruz",
-    "cedula": 80792132,
-    "direccion": "marioabc_83@hotmail.com",
-    "email": "44955363-31249909451"
-  },
   "codeudor": {
     "cedula": "CALLE 8 C No. 92-72 casa 20 conjunto residencial ciudad tital ph",
     "direccion": "44955363-31249909451",
     "nombre": "52216958/",
     "telefono": "MARIA ISABEL GUEVARA OSMA"
   },
+  "numero": 75,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "cedula": 80792132,
+    "direccion": "marioabc_83@hotmail.com",
+    "email": "44955363-31249909451",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "mario",
+    "segundoNombre": "andres",
+    "primerApellido": "bojaca",
+    "segundoApellido": "cruz"
+  },
+  "cc": 80792132,
+  "idProcesos": [50526190],
   "demanda": {
-    "capitalAdeudado": 0,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-06-21T00:00:00.000Z",
+    "expediente": "11001400305820170091800",
+    "capitalAdeudado": 0,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [44690, "320 096597"],
-    "radicado": "2017 - 00918",
-    "vencimientoPagare": [null],
-    "expediente": "11001400305820170091800",
     "juzgados": [
       {
         "id": 18,
         "tipo": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-06-21T00:00:00.000Z",
+    "obligacion": [44690, "320 096597"],
+    "radicado": "2017 - 00918",
+    "vencimientoPagare": [null],
+    "departamento": "CUNDINAMARCA"
   }
 }

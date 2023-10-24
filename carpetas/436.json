@@ -1,44 +1,42 @@
 {
   "llaveProceso": "11001400306320180075600",
-  "numero": 436,
-  "cc": 79145374,
-  "idProcesos": [17724160],
   "category": "Terminados",
+  "numero": 436,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 79145374,
+    "direccion": "transversal 2a no 67-71",
+    "email": "jcbaquerob@gmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "juan",
     "segundoNombre": "camilo",
     "primerApellido": "baquero",
-    "segundoApellido": "buttner",
-    "cedula": 79145374,
-    "direccion": "transversal 2a no 67-71",
-    "email": "jcbaquerob@gmail.com"
+    "segundoApellido": "buttner"
   },
+  "cc": 79145374,
+  "idProcesos": [17724160],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-05-23T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400306320180075600",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2018-05-23T00:00:00.000Z",
     "etapaProcesal": "ADMISION",
     "fechaPresentacion": "2018-05-31T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      5491585909873,
-      "AUDIOPRESTAMO"
-    ],
-    "radicado": "2018 - 00756",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "11001400306320180075600",
     "juzgados": [
       {
         "id": 63,
         "tipo": "JUZGADO 063 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-63-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [
+      5491585909873,
+      "AUDIOPRESTAMO"
+    ],
+    "radicado": "2018 - 00756",
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

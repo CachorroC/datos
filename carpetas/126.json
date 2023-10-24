@@ -1,11 +1,12 @@
 {
   "llaveProceso": "25754418900320170076200",
-  "numero": 126,
-  "cc": 79834592,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 126,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 79834592,
+    "direccion": "calle 34 # 2- 07 torre 23 apto 101",
+    "email": "japp161@hotmail.com",
     "tel": {
       "fijo": 8211035,
       "celular": 3138725407
@@ -13,29 +14,26 @@
     "primerNombre": "yonny",
     "segundoNombre": "arturo",
     "primerApellido": "pinzon",
-    "segundoApellido": "pulido",
-    "cedula": 79834592,
-    "direccion": "calle 34 # 2- 07 torre 23 apto 101",
-    "email": "japp161@hotmail.com"
+    "segundoApellido": "pulido"
   },
+  "cc": 79834592,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 14675091,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-08-16T00:00:00.000Z",
+    "expediente": "25754418900320170076200",
+    "capitalAdeudado": 14675091,
+    "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
     "etapaProcesal": "2.575441890032017e+22",
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "SOACHA",
+    "mandamientoPago": "2017-08-16T00:00:00.000Z",
     "obligacion": [
       "AUDIOPRESTAMO",
       "4513075306389036 // 5303715369427808"
     ],
     "radicado": "2017 - 00762",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "25754418900320170076200",
-    "juzgados": []
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

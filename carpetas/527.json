@@ -1,11 +1,18 @@
 {
   "llaveProceso": "25286400300120190041800",
-  "numero": 527,
-  "cc": 80654935,
-  "idProcesos": [],
   "category": "Terminados",
+  "codeudor": {
+    "cedula": 52661952,
+    "direccion": "CALLE 7A # 7A-15 FUNZA",
+    "nombre": "sandra milena valbuena rincon",
+    "telefono": "F 8259768"
+  },
+  "numero": 527,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 80654935,
+    "direccion": "calle 7a #7a-15 funza",
+    "email": "jmarcelo_78@yahoo.com // samvari12@gmail.com",
     "tel": {
       "fijo": 8233553,
       "celular": 3108090708
@@ -13,26 +20,20 @@
     "primerNombre": "jairo",
     "segundoNombre": "marcelo",
     "primerApellido": "guiza",
-    "segundoApellido": "rodriguez",
-    "cedula": 80654935,
-    "direccion": "calle 7a #7a-15 funza",
-    "email": "jmarcelo_78@yahoo.com // samvari12@gmail.com"
+    "segundoApellido": "rodriguez"
   },
-  "codeudor": {
-    "cedula": 52661952,
-    "direccion": "CALLE 7A # 7A-15 FUNZA",
-    "nombre": "sandra milena valbuena rincon",
-    "telefono": "F 8259768"
-  },
+  "cc": 80654935,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 29140.667,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2019-05-06T05:00:00.000Z",
+    "expediente": "25286400300120190041800",
+    "capitalAdeudado": 29140.667,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "2.528640030012019e+22",
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "FUNZA",
+    "mandamientoPago": "2019-05-06T05:00:00.000Z",
     "obligacion": [
       "2273 320097153",
       "REF 42796745"
@@ -42,7 +43,6 @@
       "2022-03-01T05:00:00.000Z",
       null
     ],
-    "expediente": "25286400300120190041800",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

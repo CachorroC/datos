@@ -1,11 +1,12 @@
 {
   "llaveProceso": "2589940010020200028900",
-  "numero": 534,
-  "cc": 11337530,
-  "idProcesos": [],
   "category": "Reintegra",
+  "numero": 534,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 11337530,
+    "direccion": "vereda san jorge zipaquira",
+    "email": "maribelbonita86@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3115159670
@@ -13,28 +14,25 @@
     "primerNombre": "pedro",
     "segundoNombre": "julio",
     "primerApellido": "triviño",
-    "segundoApellido": "valbuena",
-    "cedula": 11337530,
-    "direccion": "vereda san jorge zipaquira",
-    "email": "maribelbonita86@hotmail.com"
+    "segundoApellido": "valbuena"
   },
+  "cc": 11337530,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 33000.833,
-    "departamento": "CNDINAMARCA",
-    "entregaGarantiasAbogado": "2020-09-05T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "2589940010020200028900",
+    "capitalAdeudado": 33000833,
+    "entregaGarantiasAbogado": "2020-09-05T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "ZIPAQUIRA",
+    "mandamientoPago": null,
     "obligacion": [
       377814085773793, 4.51307044512064e29
     ],
     "radicado": "2020 - 00289",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "2589940010020200028900",
-    "juzgados": []
+    "vencimientoPagare": [],
+    "departamento": "CNDINAMARCA"
   }
 }

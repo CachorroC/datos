@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001418907020230039900",
-  "numero": 585,
-  "cc": 41336003,
-  "idProcesos": [133932120],
   "category": "Bancolombia",
+  "numero": 585,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 41336003,
+    "direccion": "calle 152 no. 12c - 12 torre 1 apto 704 conjunto residencial entrecedros en bogotá y/o carrera 19 a no. 159 -70-84 interior 4 apto 503 conjunto residencial sauces del norte",
+    "email": "adrifor_co@hotmail.com",
     "tel": {
       "fijo": 3543562,
       "celular": 3143644918
@@ -13,20 +14,26 @@
     "primerNombre": "maria",
     "segundoNombre": "georgina",
     "primerApellido": "forero",
-    "segundoApellido": "de mendoza",
-    "cedula": 41336003,
-    "direccion": "calle 152 no. 12c - 12 torre 1 apto 704 conjunto residencial entrecedros en bogotá y/o carrera 19 a no. 159 -70-84 interior 4 apto 503 conjunto residencial sauces del norte",
-    "email": "adrifor_co@hotmail.com"
+    "segundoApellido": "de mendoza"
   },
+  "cc": 41336003,
+  "idProcesos": [133932120],
   "demanda": {
-    "capitalAdeudado": 25766.202,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-09-26T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001418907020230039900",
+    "capitalAdeudado": 25766202,
+    "entregaGarantiasAbogado": "2023-09-26T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
+    "juzgados": [
+      {
+        "id": 70,
+        "tipo": "JUZGADO 070 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-070-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": null,
     "obligacion": [
       31035862,
       "377816195788645 X TC AMERICAN // 4099843107499631 X T.C. VISA"
@@ -37,13 +44,6 @@
       null,
       "2026-07-05T05:00:00.000Z"
     ],
-    "expediente": "11001418907020230039900",
-    "juzgados": [
-      {
-        "id": 70,
-        "tipo": "JUZGADO 070 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
-        "url": "https://www.ramajudicial.gov.cojuzgado-070-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

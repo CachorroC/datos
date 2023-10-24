@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400308620170120500",
-  "numero": 322,
-  "cc": 63395806,
-  "idProcesos": [81891881],
   "category": "Terminados",
+  "numero": 322,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 63395806,
+    "direccion": "calle 127 c - no  2 b - 18  apartamento 101",
+    "email": "claudiasuarezp@gmail.com",
     "tel": {
       "fijo": 5205695,
       "celular": 3112326151
@@ -13,32 +14,31 @@
     "primerNombre": "claudia",
     "segundoNombre": "yamile",
     "primerApellido": "suarez",
-    "segundoApellido": "poblador",
-    "cedula": 63395806,
-    "direccion": "calle 127 c - no  2 b - 18  apartamento 101",
-    "email": "claudiasuarezp@gmail.com"
+    "segundoApellido": "poblador"
   },
+  "cc": 63395806,
+  "idProcesos": [81891881],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-10-25T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400308620170120500",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-10-25T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": "2017-11-07T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [155766],
-    "radicado": "2017 - 01205",
-    "vencimientoPagare": [
-      "2027-09-11T00:00:00.000Z"
-    ],
-    "expediente": "11001400308620170120500",
     "juzgados": [
       {
         "id": 86,
         "tipo": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [155766],
+    "radicado": "2017 - 01205",
+    "vencimientoPagare": [
+      "2027-09-11T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

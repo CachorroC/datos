@@ -1,45 +1,45 @@
 {
   "llaveProceso": "11001400306620190040900",
-  "numero": 460,
-  "cc": 79424825,
-  "idProcesos": [18852280],
   "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "jorge",
-    "segundoNombre": "abdolonio",
-    "primerApellido": "guerrero",
-    "segundoApellido": "hernandez",
-    "cedula": 79424825,
-    "direccion": "52205842",
-    "email": "DIAGONAL 31 No 24-63 SUR"
-  },
   "codeudor": {
     "cedula": "CLAUDIA JASMIN GOMEZ GUERRERO",
     "direccion": 43168,
     "nombre": 2028628,
     "telefono": "DIAGONAL 31 No 24-63  SUR"
   },
+  "numero": 460,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "cedula": 79424825,
+    "direccion": "52205842",
+    "email": "DIAGONAL 31 No 24-63 SUR",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "jorge",
+    "segundoNombre": "abdolonio",
+    "primerApellido": "guerrero",
+    "segundoApellido": "hernandez"
+  },
+  "cc": 79424825,
+  "idProcesos": [18852280],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400306620190040900",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "43294",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": ["16.399.509.25"],
-    "radicado": "2019 - 00409",
-    "vencimientoPagare": [null],
-    "expediente": "11001400306620190040900",
     "juzgados": [
       {
         "id": 66,
         "tipo": "JUZGADO 066 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-066-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": ["16.399.509.25"],
+    "radicado": "2019 - 00409",
+    "vencimientoPagare": [null],
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,35 +1,33 @@
 {
   "llaveProceso": "25214400300120170070400",
-  "numero": 284,
-  "cc": 93119101,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 284,
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "armando",
-    "segundoNombre": null,
-    "primerApellido": "barrios",
-    "segundoApellido": "vargas",
     "cedula": 93119101,
     "direccion": "vereda el time  ( cota )",
-    "email": "abarriosleg@yahoo.es"
+    "email": "abarriosleg@yahoo.es",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "armando",
+    "primerApellido": "barrios",
+    "segundoApellido": "vargas",
+    "segundoNombre": null
   },
+  "cc": 93119101,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-27T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "25214400300120170070400",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-09-27T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": "2017-10-10T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "COTA",
+    "mandamientoPago": null,
     "obligacion": [300093754],
     "radicado": "2017 - 00704",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "25214400300120170070400",
-    "juzgados": []
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

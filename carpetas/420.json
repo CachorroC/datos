@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400306320170129000",
-  "numero": 420,
-  "cc": 52773230,
-  "idProcesos": [65701460],
   "category": "Reintegra",
+  "numero": 420,
   "tipoProceso": "HMM PISO 1",
   "deudor": {
+    "cedula": 52773230,
+    "direccion": "calle 42 no 78 h - 38 sur",
+    "email": "N / A",
     "tel": {
       "fijo": 3085025,
       "celular": 3107706773
@@ -13,20 +14,26 @@
     "primerNombre": "diana",
     "segundoNombre": "patricia",
     "primerApellido": "barreto",
-    "segundoApellido": "osma",
-    "cedula": 52773230,
-    "direccion": "calle 42 no 78 h - 38 sur",
-    "email": "N / A"
+    "segundoApellido": "osma"
   },
+  "cc": 52773230,
+  "idProcesos": [65701460],
   "demanda": {
-    "capitalAdeudado": 10382.732,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-01-12T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400306320170129000",
+    "capitalAdeudado": 10382732,
+    "entregaGarantiasAbogado": "2017-01-12T05:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-12-12T05:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 19,
+        "tipo": "JUZGADO 019 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-19-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": null,
     "obligacion": [
       "377813451010780 / 4513070410107739",
       5.30371016595875e29
@@ -35,13 +42,6 @@
     "vencimientoPagare": [
       "2020-08-07T05:00:00.000Z"
     ],
-    "expediente": "11001400306320170129000",
-    "juzgados": [
-      {
-        "id": 19,
-        "tipo": "JUZGADO 019 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-19-de-ejecucion-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

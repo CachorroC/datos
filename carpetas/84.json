@@ -1,32 +1,33 @@
 {
   "llaveProceso": "11001400303920170080000",
-  "numero": 84,
-  "cc": 79108747,
-  "idProcesos": [],
   "category": "Reintegra",
+  "numero": 84,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 79108747,
+    "direccion": "carrera 17 a no. 175-82 interior 1 pto 601",
+    "email": "edgarH62@hotmail.com",
     "tel": {
       "fijo": 8054434,
       "celular": 3118802970
     },
     "primerNombre": "edgar",
-    "segundoNombre": null,
     "primerApellido": "hernandez",
     "segundoApellido": "rubio",
-    "cedula": 79108747,
-    "direccion": "carrera 17 a no. 175-82 interior 1 pto 601",
-    "email": "edgarH62@hotmail.com"
+    "segundoNombre": null
   },
+  "cc": 79108747,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 12128.189,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-06-22T00:00:00.000Z",
+    "expediente": "11001400303920170080000",
+    "capitalAdeudado": 12128189,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-06-14T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-06-22T00:00:00.000Z",
     "obligacion": [
       377815178176828, 53037234659826290
     ],
@@ -34,7 +35,6 @@
     "vencimientoPagare": [
       "2019-11-05T00:00:00.000Z"
     ],
-    "expediente": "11001400303920170080000",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

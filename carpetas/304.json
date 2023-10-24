@@ -1,43 +1,44 @@
 {
   "llaveProceso": "11001400307320170141100",
-  "numero": 304,
-  "cc": 79892240,
-  "idProcesos": [50801260],
   "category": "Terminados",
+  "numero": 304,
+  "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 79892240,
+    "direccion": "calle 76 a sur no 1 b - 40 este",
+    "email": "ferchog01@yahoo.es",
     "tel": {
       "fijo": null,
       "celular": 3212414138
     },
     "primerNombre": "fernando",
-    "segundoNombre": null,
     "primerApellido": "gonzalez",
     "segundoApellido": "tellez",
-    "cedula": 79892240,
-    "direccion": "calle 76 a sur no 1 b - 40 este",
-    "email": "ferchog01@yahoo.es"
+    "segundoNombre": null
   },
+  "cc": 79892240,
+  "idProcesos": [50801260],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-10-18T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-08-11T05:00:00.000Z",
+    "expediente": "11001400307320170141100",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-10-18T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": "0269-01-01T04:56:16.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [134175],
-    "radicado": "2017 - 01411",
-    "vencimientoPagare": [
-      "2025-11-26T00:00:00.000Z"
-    ],
-    "expediente": "11001400307320170141100",
     "juzgados": [
       {
         "id": 73,
         "tipo": "JUZGADO 073 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-073-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-08-11T05:00:00.000Z",
+    "obligacion": [134175],
+    "radicado": "2017 - 01411",
+    "vencimientoPagare": [
+      "2025-11-26T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

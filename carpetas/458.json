@@ -1,39 +1,39 @@
 {
   "llaveProceso": "11001400303720180011100",
-  "numero": 458,
-  "cc": 52271112,
-  "idProcesos": [50990920],
   "category": "Reintegra",
+  "numero": 458,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 52271112,
+    "direccion": "carrera 101 no 70 a-14 interior 1 apartamento 408",
+    "email": "saraja.7@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "sandra",
     "segundoNombre": "patricia",
     "primerApellido": "beltran",
-    "segundoApellido": "oviedo",
-    "cedula": 52271112,
-    "direccion": "carrera 101 no 70 a-14 interior 1 apartamento 408",
-    "email": "saraja.7@hotmail.com"
+    "segundoApellido": "oviedo"
   },
+  "cc": 52271112,
+  "idProcesos": [50990920],
   "demanda": {
-    "capitalAdeudado": 17502.203,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400303720180011100",
+    "capitalAdeudado": 17502203,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2018-05-02T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": ["AUDIOPRESTAMO"],
-    "radicado": "2018 - 00111",
-    "vencimientoPagare": [null],
-    "expediente": "11001400303720180011100",
     "juzgados": [
       {
         "id": 8,
         "tipo": "JUZGADO 008 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-08-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": ["AUDIOPRESTAMO"],
+    "radicado": "2018 - 00111",
+    "vencimientoPagare": [null],
+    "departamento": "CUNDINAMARCA"
   }
 }

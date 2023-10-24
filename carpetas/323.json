@@ -1,47 +1,47 @@
 {
   "llaveProceso": "11001400303720170150900",
-  "numero": 323,
-  "cc": 11319802,
-  "idProcesos": [8830323],
   "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "luis",
-    "segundoNombre": "fernando",
-    "primerApellido": "medina",
-    "segundoApellido": "potes",
-    "cedula": 11319802,
-    "direccion": "calle 40 sur  no  72 g -01  apartamento 101",
-    "email": "fermedina11@gmail.com"
-  },
   "codeudor": {
     "cedula": 52121666,
     "direccion": "CALLE  51 No 31 - 96 SUR",
     "nombre": "claudia janneth ortiz alfonso",
     "telefono": 3176363780
   },
+  "numero": 323,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "cedula": 11319802,
+    "direccion": "calle 40 sur  no  72 g -01  apartamento 101",
+    "email": "fermedina11@gmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "luis",
+    "segundoNombre": "fernando",
+    "primerApellido": "medina",
+    "segundoApellido": "potes"
+  },
+  "cc": 11319802,
+  "idProcesos": [8830323],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-10-21T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-01-22T00:00:00.000Z",
+    "expediente": "11001400303720170150900",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-10-21T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-11-02T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [90669],
-    "radicado": "2017 - 01509",
-    "vencimientoPagare": [
-      "2021-10-20T00:00:00.000Z"
-    ],
-    "expediente": "11001400303720170150900",
     "juzgados": [
       {
         "id": 37,
         "tipo": "JUZGADO 037 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-37-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-01-22T00:00:00.000Z",
+    "obligacion": [90669],
+    "radicado": "2017 - 01509",
+    "vencimientoPagare": [
+      "2021-10-20T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

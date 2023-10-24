@@ -1,44 +1,42 @@
 {
   "llaveProceso": "11001400306520180061200",
-  "numero": 429,
-  "cc": 10260455,
-  "idProcesos": [18175150],
   "category": "Terminados",
+  "numero": 429,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 10260455,
+    "direccion": "diagonal 82 bis sur no 5 a-50 este",
+    "email": "arcangel0605@hotmail.com",
     "tel": {
       "fijo": 7644527,
       "celular": 3157637045
     },
     "primerNombre": "arcangel",
-    "segundoNombre": null,
     "primerApellido": "hernandez",
     "segundoApellido": "rodriguez",
-    "cedula": 10260455,
-    "direccion": "diagonal 82 bis sur no 5 a-50 este",
-    "email": "arcangel0605@hotmail.com"
+    "segundoNombre": null
   },
+  "cc": 10260455,
+  "idProcesos": [18175150],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-04-26T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-05-18T00:00:00.000Z",
+    "expediente": "11001400306520180061200",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2018-04-26T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "+020184-08-05T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [4594250085795500],
-    "radicado": "2018 - 00612",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "11001400306520180061200",
     "juzgados": [
       {
         "id": 65,
         "tipo": "JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-65-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-05-18T00:00:00.000Z",
+    "obligacion": [4594250085795500],
+    "radicado": "2018 - 00612",
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

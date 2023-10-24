@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400306520170178600",
-  "numero": 359,
-  "cc": 79357895,
-  "idProcesos": [18169790],
   "category": "Terminados",
+  "numero": 359,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 79357895,
+    "direccion": "carrera 123 no 13 - 85 casa 364",
+    "email": null,
     "tel": {
       "fijo": 1665335,
       "celular": 3165335586
@@ -13,30 +14,29 @@
     "primerNombre": "jose",
     "segundoNombre": "david",
     "primerApellido": "peña",
-    "segundoApellido": "saavedra",
-    "cedula": 79357895,
-    "direccion": "carrera 123 no 13 - 85 casa 364",
-    "email": null
+    "segundoApellido": "saavedra"
   },
+  "cc": 79357895,
+  "idProcesos": [18169790],
   "demanda": {
-    "capitalAdeudado": 872532.175,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-02-02T05:00:00.000Z",
+    "expediente": "11001400306520170178600",
+    "capitalAdeudado": 872532.175,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-07-12T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [71141],
-    "radicado": "2017 - 01786",
-    "vencimientoPagare": [null],
-    "expediente": "11001400306520170178600",
     "juzgados": [
       {
         "id": 65,
         "tipo": "JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-65-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-02-02T05:00:00.000Z",
+    "obligacion": [71141],
+    "radicado": "2017 - 01786",
+    "vencimientoPagare": [null],
+    "departamento": "CUNDINAMARCA"
   }
 }

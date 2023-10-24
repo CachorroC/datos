@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400302820170084900",
-  "numero": 233,
-  "cc": 11313124,
-  "idProcesos": [50685700],
   "category": "Reintegra",
+  "numero": 233,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 11313124,
+    "direccion": "calle 145 # 46 - 13 apto 202 int 5",
+    "email": "jotorres@perosnalsoft.com.co",
     "tel": {
       "fijo": 3138216,
       "celular": 3138216786
@@ -13,20 +14,26 @@
     "primerNombre": "jose",
     "segundoNombre": "luis",
     "primerApellido": "torres",
-    "segundoApellido": "tamayo",
-    "cedula": 11313124,
-    "direccion": "calle 145 # 46 - 13 apto 202 int 5",
-    "email": "jotorres@perosnalsoft.com.co"
+    "segundoApellido": "tamayo"
   },
+  "cc": 11313124,
+  "idProcesos": [50685700],
   "demanda": {
-    "capitalAdeudado": 30506.109,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-19T00:00:00.000Z",
+    "expediente": "11001400302820170084900",
+    "capitalAdeudado": 30506109,
+    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-09-01T00:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 16,
+        "tipo": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-16-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-10-19T00:00:00.000Z",
     "obligacion": [
       4.09983899752975e29,
       "5303712728390736 // 12141636"
@@ -35,13 +42,6 @@
     "vencimientoPagare": [
       "2020-08-24T00:00:00.000Z"
     ],
-    "expediente": "11001400302820170084900",
-    "juzgados": [
-      {
-        "id": 16,
-        "tipo": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-16-de-ejecucion-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400300120170084900",
-  "numero": 324,
-  "cc": 80032088,
-  "idProcesos": [50548450],
   "category": "Terminados",
+  "numero": 324,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 80032088,
+    "direccion": "transversal 28 no 22-13 apartamento 304 torre 7 soacha",
+    "email": "majupi170301@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "jose",
     "segundoNombre": "edwin",
     "primerApellido": "morales",
-    "segundoApellido": "alfonso",
-    "cedula": 80032088,
-    "direccion": "transversal 28 no 22-13 apartamento 304 torre 7 soacha",
-    "email": "majupi170301@hotmail.com"
+    "segundoApellido": "alfonso"
   },
+  "cc": 80032088,
+  "idProcesos": [50548450],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-10-17T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-01-26T00:00:00.000Z",
+    "expediente": "11001400300120170084900",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-10-17T00:00:00.000Z",
     "etapaProcesal": "LIQUIDACION",
     "fechaPresentacion": "2017-11-01T00:00:00.000Z",
-    "municipio": "SOACHA",
-    "obligacion": [164578, 1380081489],
-    "radicado": "2017 - 00849",
-    "vencimientoPagare": [
-      "2020-11-21T00:00:00.000Z"
-    ],
-    "expediente": "11001400300120170084900",
     "juzgados": [
       {
         "id": 12,
         "tipo": "JUZGADO 012 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-12-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "SOACHA",
+    "mandamientoPago": "2018-01-26T00:00:00.000Z",
+    "obligacion": [164578, 1380081489],
+    "radicado": "2017 - 00849",
+    "vencimientoPagare": [
+      "2020-11-21T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

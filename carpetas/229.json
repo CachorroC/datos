@@ -1,46 +1,44 @@
 {
   "llaveProceso": "11001400306820170124000",
-  "numero": 229,
-  "cc": 52818428,
-  "idProcesos": [19211240],
   "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "jennifer",
-    "segundoNombre": "alejandra",
-    "primerApellido": "mogollón",
-    "segundoApellido": "bernal",
-    "cedula": 52818428,
-    "direccion": "calle 24d # 72a - 81  casa 9",
-    "email": "alejandramogollonbernal@gmail.com"
-  },
   "codeudor": {
     "cedula": "51597916 // 19315420",
     "direccion": "CALLE 24D # 72A - 81  CASA 9",
     "telefono": 4166717
   },
+  "numero": 229,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "cedula": 52818428,
+    "direccion": "calle 24d # 72a - 81  casa 9",
+    "email": "alejandramogollonbernal@gmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "jennifer",
+    "segundoNombre": "alejandra",
+    "primerApellido": "mogollón",
+    "segundoApellido": "bernal"
+  },
+  "cc": 52818428,
+  "idProcesos": [19211240],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-04T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400306820170124000",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-09-04T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [141432],
-    "radicado": "2017 - 01240",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "11001400306820170124000",
     "juzgados": [
       {
         "id": 68,
         "tipo": "JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [141432],
+    "radicado": "2017 - 01240",
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

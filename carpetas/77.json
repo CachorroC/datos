@@ -1,11 +1,18 @@
 {
   "llaveProceso": "25754418900120170083700",
-  "numero": 77,
-  "cc": 1030554218,
-  "idProcesos": [],
   "category": "Terminados",
+  "codeudor": {
+    "cedula": 1030554218,
+    "direccion": "CALLE 16 A No. 44-C-S.28 MANZANA 6 ET 1 SOACHA",
+    "nombre": "jeimy carolina leguizamon vasquez",
+    "telefono": "5663711-3174386730"
+  },
+  "numero": 77,
   "tipoProceso": "SINGULAR ACUMULADO CON HIPOTECARIO",
   "deudor": {
+    "cedula": 1030554218,
+    "direccion": "calle 16 a no. 44-c-s.28 manzana 6 et 1 soacha",
+    "email": "carito_abril3@hotmail.com",
     "tel": {
       "fijo": 5663711,
       "celular": 3174386730
@@ -13,26 +20,20 @@
     "primerNombre": "jeimy",
     "segundoNombre": "carolina",
     "primerApellido": "leguizamon",
-    "segundoApellido": "vasquez",
-    "cedula": 1030554218,
-    "direccion": "calle 16 a no. 44-c-s.28 manzana 6 et 1 soacha",
-    "email": "carito_abril3@hotmail.com"
+    "segundoApellido": "vasquez"
   },
-  "codeudor": {
-    "cedula": 1030554218,
-    "direccion": "CALLE 16 A No. 44-C-S.28 MANZANA 6 ET 1 SOACHA",
-    "nombre": "jeimy carolina leguizamon vasquez",
-    "telefono": "5663711-3174386730"
-  },
+  "cc": 1030554218,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 19693.963,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-08-11T00:00:00.000Z",
+    "expediente": "25754418900120170083700",
+    "capitalAdeudado": 19693.963,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "etapaProcesal": "2.575440030012017e+22",
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "SOACHA",
+    "mandamientoPago": "2017-08-11T00:00:00.000Z",
     "obligacion": [
       "320 157362",
       "157362//377813499486349"
@@ -41,7 +42,6 @@
     "vencimientoPagare": [
       "2027-10-24T00:00:00.000Z"
     ],
-    "expediente": "25754418900120170083700",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

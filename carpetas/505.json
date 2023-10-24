@@ -1,29 +1,30 @@
 {
   "llaveProceso": "11001418902520180246200",
-  "numero": 505,
-  "cc": 80156570,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 505,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 80156570,
+    "direccion": "calle 53 sur no 82-38 casa ladrillo",
+    "email": "organizacionapply@gmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "william",
     "segundoNombre": "",
     "primerApellido": "giovanny",
-    "segundoApellido": "garzon lopez",
-    "cedula": 80156570,
-    "direccion": "calle 53 sur no 82-38 casa ladrillo",
-    "email": "organizacionapply@gmail.com"
+    "segundoApellido": "garzon lopez"
   },
+  "cc": 80156570,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 14634.269,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001418902520180246200",
+    "capitalAdeudado": 14634.269,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "1.100141037512018e+22",
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "KENNEDY",
+    "mandamientoPago": null,
     "obligacion": [
       "377813291831031 // 377815026183364",
       "4099830041795208 /53037110111724925"
@@ -33,7 +34,6 @@
       "2021-04-06T05:00:00.000Z",
       "2021-04-06T05:00:00.000Z"
     ],
-    "expediente": "11001418902520180246200",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

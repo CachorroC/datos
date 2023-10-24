@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001418900920190016200",
-  "numero": 518,
-  "cc": 80222254,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 518,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 80222254,
+    "direccion": "carrera 86 # 77 - 35 int 13 apto 339",
+    "email": "CYBERGEORGE82@HOTMAIL.COM",
     "tel": {
       "fijo": null,
       "celular": 3124487509
@@ -13,28 +14,25 @@
     "primerNombre": "jorge",
     "segundoNombre": "ivan",
     "primerApellido": "avendaño",
-    "segundoApellido": "vanegas",
-    "cedula": 80222254,
-    "direccion": "carrera 86 # 77 - 35 int 13 apto 339",
-    "email": "CYBERGEORGE82@HOTMAIL.COM"
+    "segundoApellido": "vanegas"
   },
+  "cc": 80222254,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001418900920190016200",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": null,
     "obligacion": [
       377816507543324, 4513070013675100
     ],
     "radicado": "2019 - 00162",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "11001418900920190016200",
-    "juzgados": []
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

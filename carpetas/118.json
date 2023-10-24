@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400305320170145600",
-  "numero": 118,
-  "cc": 19308014,
-  "idProcesos": [12003633],
   "category": "Terminados",
+  "numero": 118,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 19308014,
+    "direccion": "transversal 119 # 151a - 51 torre 11 apto 602",
+    "email": "plangeluchis@gmail.com",
     "tel": {
       "fijo": null,
       "celular": 3103358755
@@ -13,32 +14,31 @@
     "primerNombre": "jaime",
     "segundoNombre": "orlando",
     "primerApellido": "peña",
-    "segundoApellido": "rojas",
-    "cedula": 19308014,
-    "direccion": "transversal 119 # 151a - 51 torre 11 apto 602",
-    "email": "plangeluchis@gmail.com"
+    "segundoApellido": "rojas"
   },
+  "cc": 19308014,
+  "idProcesos": [12003633],
   "demanda": {
-    "capitalAdeudado": 1092045,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-04-12T05:00:00.000Z",
+    "expediente": "11001400305320170145600",
+    "capitalAdeudado": 1092045,
+    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
     "etapaProcesal": "SENTENCIA",
     "fechaPresentacion": "2017-08-11T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [37813676080923, 20990093604],
-    "radicado": "2017 - 01456",
-    "vencimientoPagare": [
-      "2022-02-02T00:00:00.000Z"
-    ],
-    "expediente": "11001400305320170145600",
     "juzgados": [
       {
         "id": 53,
         "tipo": "JUZGADO 053 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-053-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-04-12T05:00:00.000Z",
+    "obligacion": [37813676080923, 20990093604],
+    "radicado": "2017 - 01456",
+    "vencimientoPagare": [
+      "2022-02-02T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

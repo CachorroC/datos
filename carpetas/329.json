@@ -1,11 +1,18 @@
 {
   "llaveProceso": "11001400308520170159600",
-  "numero": 329,
-  "cc": 10180062,
-  "idProcesos": [65614470],
   "category": "Terminados",
+  "codeudor": {
+    "cedula": 52079975,
+    "direccion": "AVENIDA CALLE 153 No 119 -40 INTERIOR 1 CASA 17 BOSQUES DE CAMINO VERDE AGRUPACION 2",
+    "nombre": "yeny patricia podada romero",
+    "telefono": "F 2287430"
+  },
+  "numero": 329,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 10180062,
+    "direccion": "avenida calle 153 no 119 -40 interior 1 casa 17 bosques de camino verde agrupacion 2",
+    "email": "reinaldomelen@hotmail.com",
     "tel": {
       "fijo": 2287430,
       "celular": 3107584138
@@ -13,38 +20,31 @@
     "primerNombre": "reinaldo",
     "segundoNombre": "adrian",
     "primerApellido": "melendez",
-    "segundoApellido": " varon",
-    "cedula": 10180062,
-    "direccion": "avenida calle 153 no 119 -40 interior 1 casa 17 bosques de camino verde agrupacion 2",
-    "email": "reinaldomelen@hotmail.com"
+    "segundoApellido": " varon"
   },
-  "codeudor": {
-    "cedula": 52079975,
-    "direccion": "AVENIDA CALLE 153 No 119 -40 INTERIOR 1 CASA 17 BOSQUES DE CAMINO VERDE AGRUPACION 2",
-    "nombre": "yeny patricia podada romero",
-    "telefono": "F 2287430"
-  },
+  "cc": 10180062,
+  "idProcesos": [65614470],
   "demanda": {
-    "capitalAdeudado": 13537.828,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-11-01T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-11-09T00:00:00.000Z",
+    "expediente": "11001400308520170159600",
+    "capitalAdeudado": 13537.828,
+    "entregaGarantiasAbogado": "2017-11-01T00:00:00.000Z",
     "etapaProcesal": "1.1001400308520171e+22",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [79669],
-    "radicado": "2017 - 01596",
-    "vencimientoPagare": [
-      "2020-02-11T00:00:00.000Z"
-    ],
-    "expediente": "11001400308520170159600",
     "juzgados": [
       {
         "id": 5,
         "tipo": "JUZGADO 005 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-05-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-11-09T00:00:00.000Z",
+    "obligacion": [79669],
+    "radicado": "2017 - 01596",
+    "vencimientoPagare": [
+      "2020-02-11T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

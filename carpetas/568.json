@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400307520230128400",
-  "numero": 568,
-  "cc": 1033739670,
-  "idProcesos": [132161470],
   "category": "Bancolombia",
+  "numero": 568,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 1033739670,
+    "direccion": "calle 71 no. 46-08 sur",
+    "email": "lorena19081@hotmail.com",
     "tel": {
       "fijo": 6243064,
       "celular": 3046243064
@@ -13,33 +14,32 @@
     "primerNombre": "lorena",
     "segundoNombre": "guiselle",
     "primerApellido": "chaparro",
-    "segundoApellido": "leal",
-    "cedula": 1033739670,
-    "direccion": "calle 71 no. 46-08 sur",
-    "email": "lorena19081@hotmail.com"
+    "segundoApellido": "leal"
   },
+  "cc": 1033739670,
+  "idProcesos": [132161470],
   "demanda": {
-    "capitalAdeudado": 20815.025,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-08-02T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400307520230128400",
+    "capitalAdeudado": 20815025,
+    "entregaGarantiasAbogado": "2023-08-02T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      5670094881,
-      "PAGARÉ SIN NÚMERO REF 100221151 TARJETA DE CRÉDITO MASTER CARD No. 5303730462170320"
-    ],
-    "radicado": "2023 - 01627",
-    "vencimientoPagare": [null, null],
-    "expediente": "11001400307520230128400",
     "juzgados": [
       {
         "id": 75,
         "tipo": "JUZGADO 075 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-75-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [
+      5670094881,
+      "PAGARÉ SIN NÚMERO REF 100221151 TARJETA DE CRÉDITO MASTER CARD No. 5303730462170320"
+    ],
+    "radicado": "2023 - 01627",
+    "vencimientoPagare": [null, null],
+    "departamento": "CUNDINAMARCA"
   }
 }

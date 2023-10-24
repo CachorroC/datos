@@ -1,42 +1,42 @@
 {
   "llaveProceso": "11001400304420180056600",
-  "numero": 414,
-  "cc": 51712277,
-  "idProcesos": [65703460],
   "category": "Terminados",
+  "numero": 414,
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "elda",
-    "segundoNombre": null,
-    "primerApellido": "yanet",
-    "segundoApellido": "cortes",
     "cedula": 51712277,
     "direccion": "calle 48 n sur no 3-90",
-    "email": "eldayanetcortes@gmail.com"
+    "email": "eldayanetcortes@gmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "elda",
+    "primerApellido": "yanet",
+    "segundoApellido": "cortes",
+    "segundoNombre": null
   },
+  "cc": 51712277,
+  "idProcesos": [65703460],
   "demanda": {
-    "capitalAdeudado": 10224.254,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-04-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-04-25T00:00:00.000Z",
+    "expediente": "11001400304420180056600",
+    "capitalAdeudado": 10224.254,
+    "entregaGarantiasAbogado": "2018-04-12T00:00:00.000Z",
     "etapaProcesal": "1.100140030442018e+22",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [377813488963894, "4,55E+32"],
-    "radicado": "2018 - 00566",
-    "vencimientoPagare": [
-      null,
-      "2020-03-05T05:00:00.000Z"
-    ],
-    "expediente": "11001400304420180056600",
     "juzgados": [
       {
         "id": 5,
         "tipo": "JUZGADO 005 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-05-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-04-25T00:00:00.000Z",
+    "obligacion": [377813488963894, "4,55E+32"],
+    "radicado": "2018 - 00566",
+    "vencimientoPagare": [
+      null,
+      "2020-03-05T05:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

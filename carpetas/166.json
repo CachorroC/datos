@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400300920170083700",
-  "numero": 166,
-  "cc": 52432989,
-  "idProcesos": [50666380],
   "category": "Terminados",
+  "numero": 166,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 52432989,
+    "direccion": "calle 70c # 111d - 06",
+    "email": "aide116455@hotmail.com",
     "tel": {
       "fijo": 4006426,
       "celular": 3142403097
@@ -13,32 +14,31 @@
     "primerNombre": "dora",
     "segundoNombre": "aide",
     "primerApellido": "peña",
-    "segundoApellido": "peña",
-    "cedula": 52432989,
-    "direccion": "calle 70c # 111d - 06",
-    "email": "aide116455@hotmail.com"
+    "segundoApellido": "peña"
   },
+  "cc": 52432989,
+  "idProcesos": [50666380],
   "demanda": {
-    "capitalAdeudado": 30526.136,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-08-20T00:00:00.000Z",
+    "expediente": "11001400300920170083700",
+    "capitalAdeudado": 30526.136,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "1.100140030092017e+22",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [12752576],
-    "radicado": "2017 - 00837",
-    "vencimientoPagare": [
-      "2020-08-16T00:00:00.000Z"
-    ],
-    "expediente": "11001400300920170083700",
     "juzgados": [
       {
         "id": 15,
         "tipo": "JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-08-20T00:00:00.000Z",
+    "obligacion": [12752576],
+    "radicado": "2017 - 00837",
+    "vencimientoPagare": [
+      "2020-08-16T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

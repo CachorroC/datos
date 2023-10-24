@@ -1,29 +1,36 @@
 {
   "llaveProceso": "11001400308120180051400",
-  "numero": 530,
-  "cc": 35455606,
-  "idProcesos": [51918470],
   "category": "Reintegra",
+  "numero": 530,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 35455606,
+    "direccion": "calle 175 no 70-40",
+    "email": "mariaclarareyes@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "maria",
     "segundoNombre": "clara",
     "primerApellido": "reyes",
-    "segundoApellido": "reyes",
-    "cedula": 35455606,
-    "direccion": "calle 175 no 70-40",
-    "email": "mariaclarareyes@hotmail.com"
+    "segundoApellido": "reyes"
   },
+  "cc": 35455606,
+  "idProcesos": [51918470],
   "demanda": {
-    "capitalAdeudado": 14409.411,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-04-21T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-04-30T00:00:00.000Z",
+    "expediente": "11001400308120180051400",
+    "capitalAdeudado": 14409411,
+    "entregaGarantiasAbogado": "2018-04-21T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2018-04-25T00:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2018-04-30T00:00:00.000Z",
     "obligacion": [
       4.0998833882814e30, 5.30372988731428e29
     ],
@@ -31,13 +38,6 @@
     "vencimientoPagare": [
       "2020-10-05T00:00:00.000Z"
     ],
-    "expediente": "11001400308120180051400",
-    "juzgados": [
-      {
-        "id": 1,
-        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

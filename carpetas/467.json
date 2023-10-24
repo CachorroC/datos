@@ -1,39 +1,39 @@
 {
   "llaveProceso": "11001400301720180083200",
-  "numero": 467,
-  "cc": 79938802,
-  "idProcesos": [51345660],
   "category": "Terminados",
+  "numero": 467,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 79938802,
+    "direccion": null,
+    "email": "CARRERA 94 A No 18-14",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "manuel",
     "segundoNombre": "santiago",
     "primerApellido": "correal",
-    "segundoApellido": "zuñiga",
-    "cedula": 79938802,
-    "direccion": null,
-    "email": "CARRERA 94 A No 18-14"
+    "segundoApellido": "zuñiga"
   },
+  "cc": 79938802,
+  "idProcesos": [51345660],
   "demanda": {
-    "capitalAdeudado": 0,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400301720180083200",
+    "capitalAdeudado": 0,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "37-0/2018",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [5303720477397800, 1977465800],
-    "radicado": "2018 - 00832",
-    "vencimientoPagare": [null],
-    "expediente": "11001400301720180083200",
     "juzgados": [
       {
         "id": 17,
         "tipo": "JUZGADO 017 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-17-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [5303720477397800, 1977465800],
+    "radicado": "2018 - 00832",
+    "vencimientoPagare": [null],
+    "departamento": "CUNDINAMARCA"
   }
 }

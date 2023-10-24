@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001418901420230146500",
-  "numero": 571,
-  "cc": 53132436,
-  "idProcesos": [132234840],
   "category": "Bancolombia",
+  "numero": 571,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 53132436,
+    "direccion": "carrera 10 no. 5 - 62 bloque torre 1 apartamento 202 conjunto residencial belverde i del municipio de mosquera",
+    "email": "capryeyom@hotmail.com",
     "tel": {
       "fijo": 5751066,
       "celular": 3126172174
@@ -13,32 +14,31 @@
     "primerNombre": "erli",
     "segundoNombre": "yaneth",
     "primerApellido": "oyuela",
-    "segundoApellido": "martinez",
-    "cedula": 53132436,
-    "direccion": "carrera 10 no. 5 - 62 bloque torre 1 apartamento 202 conjunto residencial belverde i del municipio de mosquera",
-    "email": "capryeyom@hotmail.com"
+    "segundoApellido": "martinez"
   },
+  "cc": 53132436,
+  "idProcesos": [132234840],
   "demanda": {
-    "capitalAdeudado": 24843.938,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001418901420230146500",
+    "capitalAdeudado": 24843938,
+    "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
-    "municipio": "MOSQUERA",
-    "obligacion": [1380089168],
-    "radicado": "2023 - 01289",
-    "vencimientoPagare": [
-      "2026-03-07T00:00:00.000Z"
-    ],
-    "expediente": "11001418901420230146500",
     "juzgados": [
       {
         "id": 14,
         "tipo": "JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
         "url": "https://www.ramajudicial.gov.cojuzgado-014-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
       }
-    ]
+    ],
+    "municipio": "MOSQUERA",
+    "mandamientoPago": null,
+    "obligacion": [1380089168],
+    "radicado": "2023 - 01289",
+    "vencimientoPagare": [
+      "2026-03-07T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

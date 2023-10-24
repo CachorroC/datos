@@ -1,44 +1,44 @@
 {
   "llaveProceso": "11001418900320170090900",
-  "numero": 10,
-  "cc": 52396019,
-  "idProcesos": [82112341],
   "category": "Terminados",
+  "numero": 10,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 52396019,
+    "direccion": "carrera 109a no. 148-91 bogota",
+    "email": null,
     "tel": {
       "fijo": null,
       "celular": 3202705987
     },
     "primerNombre": "marina",
-    "segundoNombre": null,
     "primerApellido": "morales",
     "segundoApellido": "hernandez",
-    "cedula": 52396019,
-    "direccion": "carrera 109a no. 148-91 bogota",
-    "email": null
+    "segundoNombre": null
   },
+  "cc": 52396019,
+  "idProcesos": [82112341],
   "demanda": {
-    "capitalAdeudado": 15946.341,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001418900320170090900",
+    "capitalAdeudado": 15946.341,
+    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
     "etapaProcesal": "ADMISION",
     "fechaPresentacion": "2017-05-24T00:00:00.000Z",
-    "municipio": "SUBA",
-    "obligacion": [2405037],
-    "radicado": "2017 - 00909",
-    "vencimientoPagare": [
-      "2020-04-26T00:00:00.000Z"
-    ],
-    "expediente": "11001418900320170090900",
     "juzgados": [
       {
         "id": 3,
         "tipo": "JUZGADO 003 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ - LOCALIDAD SUBA",
         "url": "https://www.ramajudicial.gov.cojuzgado-003-de-pequeñas-causas--y-competencia-múltiple-de-bogotá---localidad-suba"
       }
-    ]
+    ],
+    "municipio": "SUBA",
+    "mandamientoPago": null,
+    "obligacion": [2405037],
+    "radicado": "2017 - 00909",
+    "vencimientoPagare": [
+      "2020-04-26T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

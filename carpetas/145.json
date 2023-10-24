@@ -1,29 +1,36 @@
 {
   "llaveProceso": "11001400305520170081700",
-  "numero": 145,
-  "cc": 79714749,
-  "idProcesos": [65086550],
   "category": "Terminados",
+  "numero": 145,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 79714749,
+    "direccion": "calle 66a sur # 66 - 81 torre 16 apto 661",
+    "email": "joja1114@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "jhon",
     "segundoNombre": "jaminton",
     "primerApellido": "fuentes",
-    "segundoApellido": "carreño",
-    "cedula": 79714749,
-    "direccion": "calle 66a sur # 66 - 81 torre 16 apto 661",
-    "email": "joja1114@hotmail.com"
+    "segundoApellido": "carreño"
   },
+  "cc": 79714749,
+  "idProcesos": [65086550],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-28T00:00:00.000Z",
+    "expediente": "11001400305520170081700",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-08-22T00:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 14,
+        "tipo": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-09-28T00:00:00.000Z",
     "obligacion": [
       189023,
       "4099835384362938 // 5303715821335466"
@@ -32,13 +39,6 @@
     "vencimientoPagare": [
       "2035-11-19T00:00:00.000Z"
     ],
-    "expediente": "11001400305520170081700",
-    "juzgados": [
-      {
-        "id": 14,
-        "tipo": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

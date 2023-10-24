@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400305220180011700",
-  "numero": 466,
-  "cc": 53160094,
-  "idProcesos": [50990370],
   "category": "Reintegra",
+  "numero": 466,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 53160094,
+    "direccion": "calle 130 no 126-96 interior 16 apartamento 302",
+    "email": "djpaez5@hotmail.com",
     "tel": {
       "fijo": 4933266,
       "celular": 3115754578
@@ -13,20 +14,26 @@
     "primerNombre": "darley",
     "segundoNombre": "julied",
     "primerApellido": "paez",
-    "segundoApellido": "higuera",
-    "cedula": 53160094,
-    "direccion": "calle 130 no 126-96 interior 16 apartamento 302",
-    "email": "djpaez5@hotmail.com"
+    "segundoApellido": "higuera"
   },
+  "cc": 53160094,
+  "idProcesos": [50990370],
   "demanda": {
-    "capitalAdeudado": 14270.897,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400305220180011700",
+    "capitalAdeudado": 14270897,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2018-05-02T05:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 17,
+        "tipo": "JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": null,
     "obligacion": [
       "37781415851035/",
       "4099830008406922 / 5303710339142355"
@@ -36,13 +43,6 @@
       "2020-03-05T05:00:00.000Z",
       null
     ],
-    "expediente": "11001400305220180011700",
-    "juzgados": [
-      {
-        "id": 17,
-        "tipo": "JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-17-de-ejecucion-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

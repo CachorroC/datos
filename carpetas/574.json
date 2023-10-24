@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001418900920230131000",
-  "numero": 574,
-  "cc": 1014214413,
-  "idProcesos": [],
   "category": "Bancolombia",
+  "numero": 574,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 1014214413,
+    "direccion": "carrera 85 l # 63b-42 conjunto residencial portales de villaluz etapa 1",
+    "email": "ingridpatarroyobaez@gmail.com",
     "tel": {
       "fijo": null,
       "celular": 3007547824
@@ -13,20 +14,20 @@
     "primerNombre": "ingrid",
     "segundoNombre": "lizeth",
     "primerApellido": "patarroyo",
-    "segundoApellido": "baez",
-    "cedula": 1014214413,
-    "direccion": "carrera 85 l # 63b-42 conjunto residencial portales de villaluz etapa 1",
-    "email": "ingridpatarroyobaez@gmail.com"
+    "segundoApellido": "baez"
   },
+  "cc": 1014214413,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 43725,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-08-17T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001418900920230131000",
+    "capitalAdeudado": 43725000,
+    "entregaGarantiasAbogado": "2023-08-17T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": null,
     "obligacion": [
       "2370110350 // 1410093357",
       "43206562 T.C. VISA 4513080146836311 // 82377390 T.C. AMERICAN 0377816058360201"
@@ -38,7 +39,6 @@
       "2026-07-04T05:00:00.000Z",
       "2026-07-04T05:00:00.000Z"
     ],
-    "expediente": "11001418900920230131000",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

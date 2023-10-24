@@ -1,41 +1,33 @@
 {
   "llaveProceso": "11001400307620170101600",
-  "numero": 352,
-  "cc": 71992491,
-  "idProcesos": [51499790, 81847081],
   "category": "Reintegra",
-  "tipoProceso": "SINGULAR",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "mario",
-    "segundoNombre": "de",
-    "primerApellido": "jesus",
-    "segundoApellido": "ossa pulgarin",
-    "cedula": 71992491,
-    "direccion": "transversal 2 c bis no 97 b-05 sur",
-    "email": null
-  },
   "codeudor": {
     "cedula": 24764240,
     "direccion": "TRANSVERSAL 2 C BIS No 97 B -05 SUR",
     "nombre": "blanca nubia lopez cifuentes",
     "telefono": 3144245852
   },
+  "numero": 352,
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "cedula": 71992491,
+    "direccion": "transversal 2 c bis no 97 b-05 sur",
+    "email": null,
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "mario",
+    "segundoNombre": "de",
+    "primerApellido": "jesus",
+    "segundoApellido": "ossa pulgarin"
+  },
+  "cc": 71992491,
+  "idProcesos": [51499790, 81847081],
   "demanda": {
-    "capitalAdeudado": 11853.652,
-    "departamento": "CUNDINAMRCA",
-    "entregaGarantiasAbogado": "2017-09-29T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-25T00:00:00.000Z",
+    "expediente": "11001400307620170101600",
+    "capitalAdeudado": 11853652,
+    "entregaGarantiasAbogado": "2017-09-29T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-10-17T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [4280023383],
-    "radicado": "2017 - 01016",
-    "vencimientoPagare": [
-      "2019-05-20T00:00:00.000Z"
-    ],
-    "expediente": "11001400307620170101600",
     "juzgados": [
       {
         "id": 17,
@@ -47,6 +39,14 @@
         "tipo": "JUZGADO 076 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-76-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-10-25T00:00:00.000Z",
+    "obligacion": [4280023383],
+    "radicado": "2017 - 01016",
+    "vencimientoPagare": [
+      "2019-05-20T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMRCA"
   }
 }

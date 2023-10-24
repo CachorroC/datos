@@ -1,11 +1,12 @@
 {
   "llaveProceso": "257544189002220170086700",
-  "numero": 214,
-  "cc": 52702559,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 214,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 52702559,
+    "direccion": "calle 6d # 5 - 60 manzana c casa 17",
+    "email": "jennyprm@hotmail.com",
     "tel": {
       "fijo": 7290666,
       "celular": 3204297147
@@ -13,26 +14,25 @@
     "primerNombre": "yenny",
     "segundoNombre": "patricia",
     "primerApellido": "rubio",
-    "segundoApellido": "mahecha",
-    "cedula": 52702559,
-    "direccion": "calle 6d # 5 - 60 manzana c casa 17",
-    "email": "jennyprm@hotmail.com"
+    "segundoApellido": "mahecha"
   },
+  "cc": 52702559,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-17T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "257544189002220170086700",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-08-17T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "SOACHA",
+    "mandamientoPago": null,
     "obligacion": [147381],
     "radicado": "2017 - 00867",
     "vencimientoPagare": [
       "2017-06-28T00:00:00.000Z"
     ],
-    "expediente": "257544189002220170086700",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

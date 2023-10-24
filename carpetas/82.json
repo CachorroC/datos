@@ -1,47 +1,47 @@
 {
   "llaveProceso": "11001400300320170106500",
-  "numero": 82,
-  "cc": 13921619,
-  "idProcesos": [50527120],
   "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "rafael",
-    "segundoNombre": null,
-    "primerApellido": "gonzalez",
-    "segundoApellido": "olejua",
-    "cedula": 13921619,
-    "direccion": "calle 89 # 95g- 26",
-    "email": null
-  },
   "codeudor": {
     "cedula": 28239573,
     "direccion": "CALLE 89 # 95G - 26",
     "nombre": "ana libia garcia florez",
     "telefono": 2284139
   },
+  "numero": 82,
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "cedula": 13921619,
+    "direccion": "calle 89 # 95g- 26",
+    "email": null,
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "rafael",
+    "primerApellido": "gonzalez",
+    "segundoApellido": "olejua",
+    "segundoNombre": null
+  },
+  "cc": 13921619,
+  "idProcesos": [50527120],
   "demanda": {
-    "capitalAdeudado": 39576493,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400300320170106500",
+    "capitalAdeudado": 39576493,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-06-20T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [1980094471],
-    "radicado": "2017 - 01065",
-    "vencimientoPagare": [
-      "2018-08-27T00:00:00.000Z"
-    ],
-    "expediente": "11001400300320170106500",
     "juzgados": [
       {
         "id": 3,
         "tipo": "JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-03-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [1980094471],
+    "radicado": "2017 - 01065",
+    "vencimientoPagare": [
+      "2018-08-27T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

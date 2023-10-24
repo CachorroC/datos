@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400306320170131700",
-  "numero": 333,
-  "cc": 52085839,
-  "idProcesos": [17718250],
   "category": "Terminados",
+  "numero": 333,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 52085839,
+    "direccion": "calle 55 no 78 -74  apartamento 1110",
+    "email": "ahidaguevara@gmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "ahida",
     "segundoNombre": "lucero",
     "primerApellido": "guevara",
-    "segundoApellido": "becerra",
-    "cedula": 52085839,
-    "direccion": "calle 55 no 78 -74  apartamento 1110",
-    "email": "ahidaguevara@gmail.com"
+    "segundoApellido": "becerra"
   },
+  "cc": 52085839,
+  "idProcesos": [17718250],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-01-15T00:00:00.000Z",
+    "expediente": "11001400306320170131700",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2018-01-15T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [12710799],
-    "radicado": "2017 - 01317",
-    "vencimientoPagare": [
-      "2017-11-08T00:00:00.000Z"
-    ],
-    "expediente": "11001400306320170131700",
     "juzgados": [
       {
         "id": 63,
         "tipo": "JUZGADO 063 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-63-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-01-15T00:00:00.000Z",
+    "obligacion": [12710799],
+    "radicado": "2017 - 01317",
+    "vencimientoPagare": [
+      "2017-11-08T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

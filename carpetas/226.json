@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400305520170094300",
-  "numero": 226,
-  "cc": 80513085,
-  "idProcesos": [17050494],
   "category": "Terminados",
+  "numero": 226,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 80513085,
+    "direccion": "calle 77 # 84 - 34",
+    "email": "ngurrero@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "nestor",
     "segundoNombre": "german",
     "primerApellido": "urrego",
-    "segundoApellido": "aguilera",
-    "cedula": 80513085,
-    "direccion": "calle 77 # 84 - 34",
-    "email": "ngurrero@hotmail.com"
+    "segundoApellido": "aguilera"
   },
+  "cc": 80513085,
+  "idProcesos": [17050494],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-27T00:00:00.000Z",
+    "expediente": "11001400305520170094300",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-09-13T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [12583959],
-    "radicado": "2017 - 00943",
-    "vencimientoPagare": [
-      "2017-08-31T00:00:00.000Z"
-    ],
-    "expediente": "11001400305520170094300",
     "juzgados": [
       {
         "id": 55,
         "tipo": "JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-55-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-10-27T00:00:00.000Z",
+    "obligacion": [12583959],
+    "radicado": "2017 - 00943",
+    "vencimientoPagare": [
+      "2017-08-31T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,38 +1,39 @@
 {
   "llaveProceso": "25758418900120170059900",
-  "numero": 250,
-  "cc": 72165243,
-  "idProcesos": [],
   "category": "Terminados",
-  "tipoProceso": "PRENDARIO",
-  "deudor": {
-    "tel": {
-      "fijo": 8715525,
-      "celular": 3135348199
-    },
-    "primerNombre": "francisco",
-    "segundoNombre": null,
-    "primerApellido": "contreras",
-    "segundoApellido": "ramirez",
-    "cedula": 72165243,
-    "direccion": "calle 3 a no 5-56 apartaamento 101 sopo",
-    "email": "vivipu@hotmail.com.co"
-  },
   "codeudor": {
     "cedula": 52454328,
     "direccion": "CALLE 3 No 5-56 APARTAMENTO 101 SOPO",
     "nombre": "viviana andrea arboleda hernandez",
     "telefono": 8715525
   },
+  "numero": 250,
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "cedula": 72165243,
+    "direccion": "calle 3 a no 5-56 apartaamento 101 sopo",
+    "email": "vivipu@hotmail.com.co",
+    "tel": {
+      "fijo": 8715525,
+      "celular": 3135348199
+    },
+    "primerNombre": "francisco",
+    "primerApellido": "contreras",
+    "segundoApellido": "ramirez",
+    "segundoNombre": null
+  },
+  "cc": 72165243,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-04T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-11-16T00:00:00.000Z",
+    "expediente": "25758418900120170059900",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-09-04T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-09-14T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "SOPO",
+    "mandamientoPago": "2017-11-16T00:00:00.000Z",
     "obligacion": [
       "37781325203 /4513088996703762",
       "5303729275150891 /12642123"
@@ -41,7 +42,6 @@
     "vencimientoPagare": [
       "2017-08-29T00:00:00.000Z"
     ],
-    "expediente": "25758418900120170059900",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

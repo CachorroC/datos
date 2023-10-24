@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400301920170102500",
-  "numero": 83,
-  "cc": 19438068,
-  "idProcesos": [50738970],
   "category": "Terminados",
+  "numero": 83,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 19438068,
+    "direccion": "carrera 29 no 12  a - 46",
+    "email": "luisadopa@gmail.com",
     "tel": {
       "fijo": 2478114,
       "celular": 3115672367
@@ -13,32 +14,31 @@
     "primerNombre": "luis",
     "segundoNombre": "adolfo",
     "primerApellido": "peña",
-    "segundoApellido": "arciniegas",
-    "cedula": 19438068,
-    "direccion": "carrera 29 no 12  a - 46",
-    "email": "luisadopa@gmail.com"
+    "segundoApellido": "arciniegas"
   },
+  "cc": 19438068,
+  "idProcesos": [50738970],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400301920170102500",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "1.100140030192017e+22",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [12436479],
-    "radicado": "2017 - 01025",
-    "vencimientoPagare": [
-      "2017-09-20T00:00:00.000Z"
-    ],
-    "expediente": "11001400301920170102500",
     "juzgados": [
       {
         "id": 19,
         "tipo": "JUZGADO 019 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-19-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [12436479],
+    "radicado": "2017 - 01025",
+    "vencimientoPagare": [
+      "2017-09-20T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

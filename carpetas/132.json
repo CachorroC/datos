@@ -1,11 +1,18 @@
 {
   "llaveProceso": "11001400306820170105100",
-  "numero": 132,
-  "cc": 80049317,
-  "idProcesos": [19209750],
   "category": "Terminados",
+  "codeudor": {
+    "cedula": 63476244,
+    "direccion": "CALLE 142C # 141B - 60 LOCAL 9",
+    "nombre": "rubin emilce rojas calderon",
+    "telefono": 8023973
+  },
+  "numero": 132,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 80049317,
+    "direccion": "carrera 145 # 144c - 72 torre 9 apto 9",
+    "email": "jovanirestrepo@hotmail.com",
     "tel": {
       "fijo": 8023973,
       "celular": 3214033971
@@ -13,41 +20,32 @@
     "primerNombre": "jovani",
     "segundoNombre": "emilio",
     "primerApellido": "restrepo",
-    "segundoApellido": "ramirez",
-    "cedula": 80049317,
-    "direccion": "carrera 145 # 144c - 72 torre 9 apto 9",
-    "email": "jovanirestrepo@hotmail.com"
+    "segundoApellido": "ramirez"
   },
-  "codeudor": {
-    "cedula": 63476244,
-    "direccion": "CALLE 142C # 141B - 60 LOCAL 9",
-    "nombre": "rubin emilce rojas calderon",
-    "telefono": 8023973
-  },
+  "cc": 80049317,
+  "idProcesos": [19209750],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400306820170105100",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
     "etapaProcesal": "SENTENCIA",
     "fechaPresentacion": "2017-08-23T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "1770990 // 4513076455160970",
-      5303711546384996
-    ],
-    "radicado": "2017 - 01051",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "11001400306820170105100",
     "juzgados": [
       {
         "id": 68,
         "tipo": "JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [
+      "1770990 // 4513076455160970",
+      5303711546384996
+    ],
+    "radicado": "2017 - 01051",
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

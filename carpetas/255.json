@@ -1,41 +1,33 @@
 {
   "llaveProceso": "11001400301220170102100",
-  "numero": 255,
-  "cc": 23946115,
-  "idProcesos": [50692560, 73154161],
   "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "yeimi",
-    "segundoNombre": "zoraida",
-    "primerApellido": "perez",
-    "segundoApellido": "acevedo",
-    "cedula": 23946115,
-    "direccion": "diagonal 136 bis # 3 - 80 sur",
-    "email": null
-  },
   "codeudor": {
     "cedula": 1002415012,
     "direccion": "CALLE 136 # 14 - 22 SUR",
     "nombre": "pablo andres perez acevedo",
     "telefono": "7708676 // 3142983369"
   },
+  "numero": 255,
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "cedula": 23946115,
+    "direccion": "diagonal 136 bis # 3 - 80 sur",
+    "email": null,
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "yeimi",
+    "segundoNombre": "zoraida",
+    "primerApellido": "perez",
+    "segundoApellido": "acevedo"
+  },
+  "cc": 23946115,
+  "idProcesos": [50692560, 73154161],
   "demanda": {
-    "capitalAdeudado": 15311.681,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-01T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-05T00:00:00.000Z",
+    "expediente": "11001400301220170102100",
+    "capitalAdeudado": 15311.681,
+    "entregaGarantiasAbogado": "2017-09-01T00:00:00.000Z",
     "etapaProcesal": "1.100140030122017e+22",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [940082843],
-    "radicado": "2017 - 01021",
-    "vencimientoPagare": [
-      "2019-07-19T00:00:00.000Z"
-    ],
-    "expediente": "11001400301220170102100",
     "juzgados": [
       {
         "id": 14,
@@ -47,6 +39,14 @@
         "tipo": "JUZGADO 012 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-012-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-09-05T00:00:00.000Z",
+    "obligacion": [940082843],
+    "radicado": "2017 - 01021",
+    "vencimientoPagare": [
+      "2019-07-19T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

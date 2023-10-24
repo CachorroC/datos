@@ -1,29 +1,30 @@
 {
   "llaveProceso": "11001418900420230088400",
-  "numero": 562,
-  "cc": 17139148,
-  "idProcesos": [],
   "category": "Bancolombia",
+  "numero": 562,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 17139148,
+    "direccion": "carrera 80 no. 8 - 11 torre 3 interior 5 apartamento 519 torres de santa barbara conjunto residencial",
+    "email": "ajasalama@gmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "mario",
     "segundoNombre": "hernan",
     "primerApellido": "salamanca",
-    "segundoApellido": "patiño",
-    "cedula": 17139148,
-    "direccion": "carrera 80 no. 8 - 11 torre 3 interior 5 apartamento 519 torres de santa barbara conjunto residencial",
-    "email": "ajasalama@gmail.com"
+    "segundoApellido": "patiño"
   },
+  "cc": 17139148,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 25252.953,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001418900420230088400",
+    "capitalAdeudado": 25252953,
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": null,
     "obligacion": [
       9960086465,
       "TARJETA DE CREDITO MASTER CARD 5303720132348190"
@@ -33,7 +34,6 @@
       "2026-10-05T05:00:00.000Z",
       "2026-06-03T05:00:00.000Z"
     ],
-    "expediente": "11001418900420230088400",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,39 +1,39 @@
 {
   "llaveProceso": "11001400305520170137800",
-  "numero": 357,
-  "cc": 1012330386,
-  "idProcesos": [17054094],
   "category": "Terminados",
+  "numero": 357,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 1012330386,
+    "direccion": "calle 79 sur no 77 l- 72 int 59",
+    "email": "disayuri@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "diana",
     "segundoNombre": "sayuri",
     "primerApellido": "rodriguez",
-    "segundoApellido": "garcia",
-    "cedula": 1012330386,
-    "direccion": "calle 79 sur no 77 l- 72 int 59",
-    "email": "disayuri@hotmail.com"
+    "segundoApellido": "garcia"
   },
+  "cc": 1012330386,
+  "idProcesos": [17054094],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-04-12T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400305520170137800",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-04-12T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-12-12T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [146999],
-    "radicado": "2017 - 01378",
-    "vencimientoPagare": [null],
-    "expediente": "11001400305520170137800",
     "juzgados": [
       {
         "id": 55,
         "tipo": "JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-55-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [146999],
+    "radicado": "2017 - 01378",
+    "vencimientoPagare": [null],
+    "departamento": "CUNDINAMARCA"
   }
 }

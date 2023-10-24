@@ -1,39 +1,39 @@
 {
   "llaveProceso": "11001400306820190100400",
-  "numero": 522,
-  "cc": 79359896,
-  "idProcesos": [39001450],
   "category": "Terminados",
+  "numero": 522,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "armando",
-    "segundoNombre": null,
-    "primerApellido": "rodriguez",
-    "segundoApellido": "rodriguez",
     "cedula": 79359896,
     "direccion": "calle 42 c no 78  a-17 sur",
-    "email": "dorapia@hotmail.com"
+    "email": "dorapia@hotmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "armando",
+    "primerApellido": "rodriguez",
+    "segundoApellido": "rodriguez",
+    "segundoNombre": null
   },
+  "cc": 79359896,
+  "idProcesos": [39001450],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2019-12-02T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400306820190100400",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2019-12-02T05:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [20990146891, 450091594],
-    "radicado": "2019 - 01004",
-    "vencimientoPagare": [null],
-    "expediente": "11001400306820190100400",
     "juzgados": [
       {
         "id": 68,
         "tipo": "JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [20990146891, 450091594],
+    "radicado": "2019 - 01004",
+    "vencimientoPagare": [null],
+    "departamento": "CUNDINAMARCA"
   }
 }

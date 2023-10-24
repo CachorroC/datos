@@ -1,47 +1,47 @@
 {
   "llaveProceso": "11001400305620170131200",
-  "numero": 320,
-  "cc": 1032492078,
-  "idProcesos": [50916090],
   "category": "Terminados",
-  "tipoProceso": "PRENDARIO",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "maria",
-    "segundoNombre": "camila",
-    "primerApellido": "macias",
-    "segundoApellido": "padilla",
-    "cedula": 1032492078,
-    "direccion": "carrera 1f este no 90-63 sur",
-    "email": "crisandres12@hotmail.com"
-  },
   "codeudor": {
     "cedula": 1031162923,
     "direccion": "CARRERA  1 F ESTE No 90-63 SUR",
     "nombre": "cristhian andres gomez capeda",
     "telefono": 7681014
   },
+  "numero": 320,
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "cedula": 1032492078,
+    "direccion": "carrera 1f este no 90-63 sur",
+    "email": "crisandres12@hotmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "maria",
+    "segundoNombre": "camila",
+    "primerApellido": "macias",
+    "segundoApellido": "padilla"
+  },
+  "cc": 1032492078,
+  "idProcesos": [50916090],
   "demanda": {
-    "capitalAdeudado": 27247.328,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-10-31T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-11-08T00:00:00.000Z",
+    "expediente": "11001400305620170131200",
+    "capitalAdeudado": 27247.328,
+    "entregaGarantiasAbogado": "2017-10-31T00:00:00.000Z",
     "etapaProcesal": "1.100140030562017e+22",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [12727553],
-    "radicado": "2017 - 01312",
-    "vencimientoPagare": [
-      "2020-10-26T00:00:00.000Z"
-    ],
-    "expediente": "11001400305620170131200",
     "juzgados": [
       {
         "id": 20,
         "tipo": "JUZGADO 020 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-20-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-11-08T00:00:00.000Z",
+    "obligacion": [12727553],
+    "radicado": "2017 - 01312",
+    "vencimientoPagare": [
+      "2020-10-26T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

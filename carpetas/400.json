@@ -1,33 +1,33 @@
 {
   "llaveProceso": "25307400300220180007500",
-  "numero": 400,
-  "cc": 79652256,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 400,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 79652256,
+    "direccion": "xarrera 2 no 10-30b centenario - girardot",
+    "email": "ocaelmejor@yahoo.es",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "oscar",
     "segundoNombre": "guillermo",
     "primerApellido": "lozano",
-    "segundoApellido": "gonzalez",
-    "cedula": 79652256,
-    "direccion": "xarrera 2 no 10-30b centenario - girardot",
-    "email": "ocaelmejor@yahoo.es"
+    "segundoApellido": "gonzalez"
   },
+  "cc": 79652256,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "25307400300220180007500",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "SENTENCIA",
     "fechaPresentacion": "2018-09-02T05:00:00.000Z",
+    "juzgados": [],
     "municipio": "GIRARDOT",
+    "mandamientoPago": null,
     "obligacion": [6590084682],
     "radicado": "2018 - 00075",
     "vencimientoPagare": [null],
-    "expediente": "25307400300220180007500",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

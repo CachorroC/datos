@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400305920230031500",
-  "numero": 558,
-  "cc": 52531016,
-  "idProcesos": [132018670],
   "category": "Bancolombia",
+  "numero": 558,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 52531016,
+    "direccion": "calle 18 n 86 55 etapa 1 torre 5 apartamento 403 conjunto residencial parque de ostente",
+    "email": "marcearias@yahoo.com",
     "tel": {
       "fijo": null,
       "celular": 3106736494
@@ -13,20 +14,26 @@
     "primerNombre": "claudia",
     "segundoNombre": "marcela",
     "primerApellido": "arias",
-    "segundoApellido": "lópez",
-    "cedula": 52531016,
-    "direccion": "calle 18 n 86 55 etapa 1 torre 5 apartamento 403 conjunto residencial parque de ostente",
-    "email": "marcearias@yahoo.com"
+    "segundoApellido": "lópez"
   },
+  "cc": 52531016,
+  "idProcesos": [132018670],
   "demanda": {
-    "capitalAdeudado": 46537.671,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400305920230031500",
+    "capitalAdeudado": 46537671,
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
+    "juzgados": [
+      {
+        "id": 59,
+        "tipo": "JUZGADO 059 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-59-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": null,
     "obligacion": [
       3880005183,
       "PAGARE SIN NUMERO T. MASTER CARD 5303720122061696"
@@ -36,13 +43,6 @@
       null,
       "2026-04-03T05:00:00.000Z"
     ],
-    "expediente": "11001400305920230031500",
-    "juzgados": [
-      {
-        "id": 59,
-        "tipo": "JUZGADO 059 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-59-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

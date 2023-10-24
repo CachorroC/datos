@@ -1,44 +1,44 @@
 {
   "llaveProceso": "11001400304520170090500",
-  "numero": 164,
-  "cc": 14255996,
-  "idProcesos": [50593640],
   "category": "Reintegra",
+  "numero": 164,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 14255996,
+    "direccion": "carrera 82 a no. 6b-30 casa 36",
+    "email": null,
     "tel": {
       "fijo": null,
       "celular": 3102785072
     },
     "primerNombre": "uriel",
-    "segundoNombre": null,
     "primerApellido": "ruiz",
     "segundoApellido": "diaz",
-    "cedula": 14255996,
-    "direccion": "carrera 82 a no. 6b-30 casa 36",
-    "email": null
+    "segundoNombre": null
   },
+  "cc": 14255996,
+  "idProcesos": [50593640],
   "demanda": {
-    "capitalAdeudado": 25519.225,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-07-19T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-01T00:00:00.000Z",
+    "expediente": "11001400304520170090500",
+    "capitalAdeudado": 25519225,
+    "entregaGarantiasAbogado": "2017-07-19T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-07-21T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [6240082772],
-    "radicado": "2017 - 00905",
-    "vencimientoPagare": [
-      "2019-09-30T00:00:00.000Z"
-    ],
-    "expediente": "11001400304520170090500",
     "juzgados": [
       {
         "id": 2,
         "tipo": "JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-09-01T00:00:00.000Z",
+    "obligacion": [6240082772],
+    "radicado": "2017 - 00905",
+    "vencimientoPagare": [
+      "2019-09-30T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

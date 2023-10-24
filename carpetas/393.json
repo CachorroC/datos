@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400303820180014900",
-  "numero": 393,
-  "cc": 79134529,
-  "idProcesos": [9088093],
   "category": "Terminados",
+  "numero": 393,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 79134529,
+    "direccion": "carrera 79 no 19a - 28. apartamento 1102",
+    "email": "aeljogarcia69@gmail.com",
     "tel": {
       "fijo": 6356262,
       "celular": 3013377704
@@ -13,32 +14,29 @@
     "primerNombre": "miguel",
     "segundoNombre": "alejandro",
     "primerApellido": "garcia",
-    "segundoApellido": "rodriguez",
-    "cedula": 79134529,
-    "direccion": "carrera 79 no 19a - 28. apartamento 1102",
-    "email": "aeljogarcia69@gmail.com"
+    "segundoApellido": "rodriguez"
   },
+  "cc": 79134529,
+  "idProcesos": [9088093],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400303820180014900",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2018-05-02T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [377816034306740],
-    "radicado": "2018 - 00149",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "11001400303820180014900",
     "juzgados": [
       {
         "id": 38,
         "tipo": "JUZGADO 038 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-038-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [377816034306740],
+    "radicado": "2018 - 00149",
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

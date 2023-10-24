@@ -1,35 +1,35 @@
 {
   "llaveProceso": "25899410300120180043500",
-  "numero": 497,
-  "cc": 11339859,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 497,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "roque",
-    "segundoNombre": null,
-    "primerApellido": "antonio",
-    "segundoApellido": "sanchez",
     "cedula": 11339859,
     "direccion": "carrera 11 no 24 a-21 apto 30 rincon del zipa",
-    "email": "mluisa_06@hotmail.com"
+    "email": "mluisa_06@hotmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "roque",
+    "primerApellido": "antonio",
+    "segundoApellido": "sanchez",
+    "segundoNombre": null
   },
+  "cc": 11339859,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "25899410300120180043500",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "ADMISION",
     "fechaPresentacion": "2018-03-10T05:00:00.000Z",
+    "juzgados": [],
     "municipio": "ZIPAQUIRA",
+    "mandamientoPago": null,
     "obligacion": [20990142568],
     "radicado": "2018 - 00435",
     "vencimientoPagare": [
       "2018-09-02T00:00:00.000Z"
     ],
-    "expediente": "25899410300120180043500",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

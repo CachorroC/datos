@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400303520170142500",
-  "numero": 48,
-  "cc": 52837630,
-  "idProcesos": [50746150],
   "category": "Terminados",
+  "numero": 48,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 52837630,
+    "direccion": "carrera  39 b no  27 a - 40 sur",
+    "email": "jennyadrianapt@gmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "jenny",
     "segundoNombre": "adriana",
     "primerApellido": "patarroyo",
-    "segundoApellido": "torres",
-    "cedula": 52837630,
-    "direccion": "carrera  39 b no  27 a - 40 sur",
-    "email": "jennyadrianapt@gmail.com"
+    "segundoApellido": "torres"
   },
+  "cc": 52837630,
+  "idProcesos": [50746150],
   "demanda": {
-    "capitalAdeudado": 28468.389,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-26T00:00:00.000Z",
+    "expediente": "11001400303520170142500",
+    "capitalAdeudado": 28468.389,
+    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
     "etapaProcesal": "1.100140030352017e+22",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [12549338],
-    "radicado": "2017 - 01425",
-    "vencimientoPagare": [
-      "2017-09-12T00:00:00.000Z"
-    ],
-    "expediente": "11001400303520170142500",
     "juzgados": [
       {
         "id": 18,
         "tipo": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-09-26T00:00:00.000Z",
+    "obligacion": [12549338],
+    "radicado": "2017 - 01425",
+    "vencimientoPagare": [
+      "2017-09-12T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

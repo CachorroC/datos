@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400301420180092900",
-  "numero": 540,
-  "cc": 3242760,
-  "idProcesos": [51341610],
   "category": "Reintegra",
+  "numero": 540,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 3242760,
+    "direccion": "carrera 86 no 99-23",
+    "email": "rodrigogar68@hotmail.com",
     "tel": {
       "fijo": 6855750,
       "celular": 3143659602
@@ -13,33 +14,32 @@
     "primerNombre": "jose",
     "segundoNombre": "rodrigo",
     "primerApellido": "garcia",
-    "segundoApellido": "quintero",
-    "cedula": 3242760,
-    "direccion": "carrera 86 no 99-23",
-    "email": "rodrigogar68@hotmail.com"
+    "segundoApellido": "quintero"
   },
+  "cc": 3242760,
+  "idProcesos": [51341610],
   "demanda": {
-    "capitalAdeudado": 17667.402,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-07-26T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400301420180092900",
+    "capitalAdeudado": 17667402,
+    "entregaGarantiasAbogado": "2018-07-26T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [1980096337, 6700083464],
-    "radicado": "2018 - 00929",
-    "vencimientoPagare": [
-      "2121-10-05T05:00:00.000Z",
-      "2021-10-05T05:00:00.000Z"
-    ],
-    "expediente": "11001400301420180092900",
     "juzgados": [
       {
         "id": 9,
         "tipo": "JUZGADO 009 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-09-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [1980096337, 6700083464],
+    "radicado": "2018 - 00929",
+    "vencimientoPagare": [
+      "2121-10-05T05:00:00.000Z",
+      "2021-10-05T05:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

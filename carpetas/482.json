@@ -1,46 +1,44 @@
 {
   "llaveProceso": "11001400307120180093600",
-  "numero": 482,
-  "cc": 52380535,
-  "idProcesos": [18597560],
   "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "claudia",
-    "segundoNombre": "janeth",
-    "primerApellido": "cortes",
-    "segundoApellido": "rosas",
-    "cedula": 52380535,
-    "direccion": "carrera 88d no 6d-27 torre 6 apto 618",
-    "email": "ccortes3500@gmail.com"
-  },
   "codeudor": {
     "cedula": 80441668,
     "nombre": "oscar castiblanco niño",
     "telefono": 3568112
   },
+  "numero": 482,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "cedula": 52380535,
+    "direccion": "carrera 88d no 6d-27 torre 6 apto 618",
+    "email": "ccortes3500@gmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "claudia",
+    "segundoNombre": "janeth",
+    "primerApellido": "cortes",
+    "segundoApellido": "rosas"
+  },
+  "cc": 52380535,
+  "idProcesos": [18597560],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-08-10T05:00:00.000Z",
+    "expediente": "11001400307120180093600",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [20990114419],
-    "radicado": "2018 - 00936",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "11001400307120180093600",
     "juzgados": [
       {
         "id": 71,
         "tipo": "JUZGADO 071 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-071-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-08-10T05:00:00.000Z",
+    "obligacion": [20990114419],
+    "radicado": "2018 - 00936",
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

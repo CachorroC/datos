@@ -1,35 +1,35 @@
 {
   "llaveProceso": "25754400300220180041600",
-  "numero": 511,
-  "cc": 52851677,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 511,
   "tipoProceso": "SOACHA",
   "deudor": {
+    "cedula": 52851677,
+    "direccion": "carrra 102 no 69-22",
+    "email": "dhyanitaco@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "diana",
     "segundoNombre": "marjorie",
     "primerApellido": "romero",
-    "segundoApellido": "montoya",
-    "cedula": 52851677,
-    "direccion": "carrra 102 no 69-22",
-    "email": "dhyanitaco@hotmail.com"
+    "segundoApellido": "montoya"
   },
+  "cc": 52851677,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "25754400300220180041600",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "SOACHA",
+    "mandamientoPago": null,
     "obligacion": [20990201453],
     "radicado": "2018 - 00416",
     "vencimientoPagare": [
       "2018-12-04T05:00:00.000Z"
     ],
-    "expediente": "25754400300220180041600",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

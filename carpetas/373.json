@@ -1,11 +1,12 @@
 {
   "llaveProceso": "25599400300120180000500",
-  "numero": 373,
-  "cc": 79616846,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 373,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 79616846,
+    "direccion": "carrera 5 # 12 - 53 apulo",
+    "email": "rodrigo_ruiz33@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3112764286
@@ -13,28 +14,25 @@
     "primerNombre": "rodrigo",
     "segundoNombre": "alberto",
     "primerApellido": "ruiz",
-    "segundoApellido": "villalba",
-    "cedula": 79616846,
-    "direccion": "carrera 5 # 12 - 53 apulo",
-    "email": "rodrigo_ruiz33@hotmail.com"
+    "segundoApellido": "villalba"
   },
+  "cc": 79616846,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "25599400300120180000500",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "APULO",
+    "mandamientoPago": null,
     "obligacion": [
       4513087158442953, 5306966000650228
     ],
     "radicado": "2018 - 00005",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "25599400300120180000500",
-    "juzgados": []
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

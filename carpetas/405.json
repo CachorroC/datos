@@ -1,42 +1,42 @@
 {
   "llaveProceso": "11001400302120180023600",
-  "numero": 405,
-  "cc": 79396995,
-  "idProcesos": [51029180],
   "category": "Bancolombia",
+  "numero": 405,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 79396995,
+    "direccion": "calle 12 a no 71 b - 60",
+    "email": "arthurlingo64@hotmail.com",
     "tel": {
       "fijo": 4244358,
       "celular": 3108844560
     },
     "primerNombre": "arturo",
-    "segundoNombre": null,
     "primerApellido": "lince",
     "segundoApellido": "gomez",
-    "cedula": 79396995,
-    "direccion": "calle 12 a no 71 b - 60",
-    "email": "arthurlingo64@hotmail.com"
+    "segundoNombre": null
   },
+  "cc": 79396995,
+  "idProcesos": [51029180],
   "demanda": {
-    "capitalAdeudado": 22592.583,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400302120180023600",
+    "capitalAdeudado": 22592583,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2018-02-22T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [87823],
-    "radicado": "2018 - 00236",
-    "vencimientoPagare": [null],
-    "expediente": "11001400302120180023600",
     "juzgados": [
       {
         "id": 13,
         "tipo": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-13-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [87823],
+    "radicado": "2018 - 00236",
+    "vencimientoPagare": [null],
+    "departamento": "CUNDINAMARCA"
   }
 }

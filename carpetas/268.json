@@ -1,42 +1,42 @@
 {
   "llaveProceso": "11001400303520170147500",
-  "numero": 268,
-  "cc": 79592811,
-  "idProcesos": [50764160],
   "category": "Terminados",
+  "codeudor": {
+    "nombre": "juan carlos ortiz leal"
+  },
+  "numero": 268,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 79592811,
+    "direccion": "carrera 72 no 23 - 24 apartamento 402  i",
+    "email": "johuleal@gmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "jorge",
     "segundoNombre": "hugo",
     "primerApellido": "leal",
-    "segundoApellido": "serrato",
-    "cedula": 79592811,
-    "direccion": "carrera 72 no 23 - 24 apartamento 402  i",
-    "email": "johuleal@gmail.com"
+    "segundoApellido": "serrato"
   },
-  "codeudor": {
-    "nombre": "juan carlos ortiz leal"
-  },
+  "cc": 79592811,
+  "idProcesos": [50764160],
   "demanda": {
-    "capitalAdeudado": 48855.784,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-05-10T05:00:00.000Z",
+    "expediente": "11001400303520170147500",
+    "capitalAdeudado": 48855.784,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "1.100140030352017e+22",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [12649406],
-    "radicado": "2017 - 01475",
-    "vencimientoPagare": [null],
-    "expediente": "11001400303520170147500",
     "juzgados": [
       {
         "id": 10,
         "tipo": "JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-10-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-05-10T05:00:00.000Z",
+    "obligacion": [12649406],
+    "radicado": "2017 - 01475",
+    "vencimientoPagare": [null],
+    "departamento": "CUNDINAMARCA"
   }
 }

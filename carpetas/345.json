@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400304520170147600",
-  "numero": 345,
-  "cc": 51974282,
-  "idProcesos": [50866270],
   "category": "Terminados",
+  "numero": 345,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 51974282,
+    "direccion": "calle 128 c no 45 - 08 interior 22",
+    "email": "sjpradag@yahoo.es",
     "tel": {
       "fijo": 7216691,
       "celular": 3204900530
@@ -13,32 +14,31 @@
     "primerNombre": "sandra",
     "segundoNombre": "jeannette",
     "primerApellido": "prada",
-    "segundoApellido": "gutierrez",
-    "cedula": 51974282,
-    "direccion": "calle 128 c no 45 - 08 interior 22",
-    "email": "sjpradag@yahoo.es"
+    "segundoApellido": "gutierrez"
   },
+  "cc": 51974282,
+  "idProcesos": [50866270],
   "demanda": {
-    "capitalAdeudado": 12944.433,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-11-15T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-11-22T00:00:00.000Z",
+    "expediente": "11001400304520170147600",
+    "capitalAdeudado": 12944.433,
+    "entregaGarantiasAbogado": "2017-11-15T00:00:00.000Z",
     "etapaProcesal": "1.100140030452017e+22",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [2290097439],
-    "radicado": "2017 - 01476",
-    "vencimientoPagare": [
-      "2019-06-05T00:00:00.000Z"
-    ],
-    "expediente": "11001400304520170147600",
     "juzgados": [
       {
         "id": 1,
         "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-11-22T00:00:00.000Z",
+    "obligacion": [2290097439],
+    "radicado": "2017 - 01476",
+    "vencimientoPagare": [
+      "2019-06-05T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

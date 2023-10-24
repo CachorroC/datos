@@ -1,35 +1,35 @@
 {
   "llaveProceso": "25754418900220180036500",
-  "numero": 411,
-  "cc": 1032362698,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 411,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "natali",
-    "segundoNombre": null,
-    "primerApellido": "vasquez",
-    "segundoApellido": "rubio",
     "cedula": 1032362698,
     "direccion": "diagonal 24 no 42-95 - hortensia",
-    "email": "natis2596@hotmail.com"
+    "email": "natis2596@hotmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "natali",
+    "primerApellido": "vasquez",
+    "segundoApellido": "rubio",
+    "segundoNombre": null
   },
+  "cc": 1032362698,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-04-16T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-05-18T00:00:00.000Z",
+    "expediente": "25754418900220180036500",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2018-04-16T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2018-04-26T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "SOACHA",
+    "mandamientoPago": "2018-05-18T00:00:00.000Z",
     "obligacion": [20990175542],
     "radicado": "2018-0365",
     "vencimientoPagare": [
       "2034-06-24T00:00:00.000Z"
     ],
-    "expediente": "25754418900220180036500",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

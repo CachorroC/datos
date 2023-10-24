@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001418900920170008900",
-  "numero": 63,
-  "cc": 1022943195,
-  "idProcesos": [],
   "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "deudor": {
-    "tel": { "fijo": 7493169, "celular": null },
-    "primerNombre": "diana",
-    "segundoNombre": "marcela",
-    "primerApellido": "ipuz",
-    "segundoApellido": "suarez",
-    "cedula": 1022943195,
-    "direccion": "calle 72b bis no 5a 22 sur",
-    "email": "marcelaipuzsuarez@hotmail.com"
-  },
   "codeudor": {
     "cedula": 1032416632,
     "direccion": "CALLE 67 C SUR 1B ESTE  APARTAMENTO 404 TORRE 2",
     "nombre": "jhonny hernando beltran salcedo",
     "telefono": "7493169 /3185405968"
   },
+  "numero": 63,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "cedula": 1022943195,
+    "direccion": "calle 72b bis no 5a 22 sur",
+    "email": "marcelaipuzsuarez@hotmail.com",
+    "tel": { "fijo": 7493169, "celular": null },
+    "primerNombre": "diana",
+    "segundoNombre": "marcela",
+    "primerApellido": "ipuz",
+    "segundoApellido": "suarez"
+  },
+  "cc": 1022943195,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-12-15T00:00:00.000Z",
+    "expediente": "11001418900920170008900",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-12-15T00:00:00.000Z",
     "obligacion": [145608],
     "radicado": "2017 - 00089",
     "vencimientoPagare": [
       "2021-11-18T00:00:00.000Z"
     ],
-    "expediente": "11001418900920170008900",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

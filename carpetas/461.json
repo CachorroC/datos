@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400303220180095900",
-  "numero": 461,
-  "cc": 93288875,
-  "idProcesos": [51318660],
   "category": "Terminados",
+  "numero": 461,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 93288875,
+    "direccion": "callle 147 no 17-60. int 5 apto 402",
+    "email": "joseaflorez@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "jose",
     "segundoNombre": "antonio",
     "primerApellido": "florez",
-    "segundoApellido": "oviedo",
-    "cedula": 93288875,
-    "direccion": "callle 147 no 17-60. int 5 apto 402",
-    "email": "joseaflorez@hotmail.com"
+    "segundoApellido": "oviedo"
   },
+  "cc": 93288875,
+  "idProcesos": [51318660],
   "demanda": {
-    "capitalAdeudado": 22458.995,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-07-10T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-07-18T00:00:00.000Z",
+    "expediente": "11001400303220180095900",
+    "capitalAdeudado": 22458.995,
+    "entregaGarantiasAbogado": "2018-07-10T00:00:00.000Z",
     "etapaProcesal": "1.100140030322018e+22",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [6980086687],
-    "radicado": "2018 - 00959",
-    "vencimientoPagare": [
-      "2021-03-17T00:00:00.000Z"
-    ],
-    "expediente": "11001400303220180095900",
     "juzgados": [
       {
         "id": 8,
         "tipo": "JUZGADO 008 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-08-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-07-18T00:00:00.000Z",
+    "obligacion": [6980086687],
+    "radicado": "2018 - 00959",
+    "vencimientoPagare": [
+      "2021-03-17T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

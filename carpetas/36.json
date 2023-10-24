@@ -1,11 +1,12 @@
 {
   "llaveProceso": " 11001400306620170089200",
-  "numero": 36,
-  "cc": 52314251,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 36,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 52314251,
+    "direccion": "calle 49 sur no. 89 b-30 etapa 1 casa1",
+    "email": null,
     "tel": {
       "fijo": null,
       "celular": 3012419992
@@ -13,26 +14,25 @@
     "primerNombre": "sandra",
     "segundoNombre": "patricia",
     "primerApellido": "agudelo",
-    "segundoApellido": "montagut",
-    "cedula": 52314251,
-    "direccion": "calle 49 sur no. 89 b-30 etapa 1 casa1",
-    "email": null
+    "segundoApellido": "montagut"
   },
+  "cc": 52314251,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 9633585,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-06T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-06-28T00:00:00.000Z",
+    "expediente": " 11001400306620170089200",
+    "capitalAdeudado": 9633585,
+    "entregaGarantiasAbogado": "2017-06-06T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-06-14T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-06-28T00:00:00.000Z",
     "obligacion": [65758],
     "radicado": "2017 - 00892",
     "vencimientoPagare": [
       "2017-09-15T00:00:00.000Z"
     ],
-    "expediente": " 11001400306620170089200",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

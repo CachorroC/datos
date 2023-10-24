@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400307020180092200",
-  "numero": 469,
-  "cc": 46667409,
-  "idProcesos": [18376650],
   "category": "Terminados",
+  "numero": 469,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 46667409,
+    "direccion": "calle 43 no 80f-20",
+    "email": null,
     "tel": {
       "fijo": 8117033,
       "celular": 3123178629
@@ -13,32 +14,31 @@
     "primerNombre": "luz",
     "segundoNombre": "myriam",
     "primerApellido": "valderrama",
-    "segundoApellido": "tuta",
-    "cedula": 46667409,
-    "direccion": "calle 43 no 80f-20",
-    "email": null
+    "segundoApellido": "tuta"
   },
+  "cc": 46667409,
+  "idProcesos": [18376650],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-08-01T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-09-21T00:00:00.000Z",
+    "expediente": "11001400307020180092200",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2018-08-01T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2018-08-09T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [21581018168],
-    "radicado": "2017 - 00922",
-    "vencimientoPagare": [
-      "2022-11-15T00:00:00.000Z"
-    ],
-    "expediente": "11001400307020180092200",
     "juzgados": [
       {
         "id": 70,
         "tipo": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-070-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-09-21T00:00:00.000Z",
+    "obligacion": [21581018168],
+    "radicado": "2017 - 00922",
+    "vencimientoPagare": [
+      "2022-11-15T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

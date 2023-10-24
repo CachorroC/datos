@@ -1,39 +1,39 @@
 {
   "llaveProceso": "11001400303620190049600",
-  "numero": 525,
-  "cc": 1030543356,
-  "idProcesos": [51974830],
   "category": "Terminados",
+  "numero": 525,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 1030543356,
+    "direccion": "calle 48 sur 87-86 torre 16 apto 261",
+    "email": "magda.riascos.diaz@gmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "magda",
     "segundoNombre": "lorena",
     "primerApellido": "riascos",
-    "segundoApellido": "diaz",
-    "cedula": 1030543356,
-    "direccion": "calle 48 sur 87-86 torre 16 apto 261",
-    "email": "magda.riascos.diaz@gmail.com"
+    "segundoApellido": "diaz"
   },
+  "cc": 1030543356,
+  "idProcesos": [51974830],
   "demanda": {
-    "capitalAdeudado": 0,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400303620190049600",
+    "capitalAdeudado": 0,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": "2019-04-06T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [20990151954],
-    "radicado": "2019 - 00496",
-    "vencimientoPagare": [null],
-    "expediente": "11001400303620190049600",
     "juzgados": [
       {
         "id": 36,
         "tipo": "JUZGADO 036 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-036-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [20990151954],
+    "radicado": "2019 - 00496",
+    "vencimientoPagare": [null],
+    "departamento": "CUNDINAMARCA"
   }
 }

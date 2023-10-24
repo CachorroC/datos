@@ -1,34 +1,34 @@
 {
   "llaveProceso": "25754418900320180084100",
-  "numero": 470,
-  "cc": 52711938,
-  "idProcesos": [],
   "category": "Terminados",
+  "codeudor": { "direccion": "2-4/2032" },
+  "numero": 470,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 52711938,
+    "direccion": null,
+    "email": "TRANSVERSAL 2A No 74B-62 SUR",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "eliana",
     "segundoNombre": "janneth",
     "primerApellido": "lozano",
-    "segundoApellido": "arturo",
-    "cedula": 52711938,
-    "direccion": null,
-    "email": "TRANSVERSAL 2A No 74B-62 SUR"
+    "segundoApellido": "arturo"
   },
-  "codeudor": { "direccion": "2-4/2032" },
+  "cc": 52711938,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "25754418900320180084100",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "09-08-2018",
     "fechaPresentacion": "2018-09-07T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "SOACHA",
+    "mandamientoPago": null,
     "obligacion": ["21.955.632.15"],
     "radicado": "2018 - 00841",
     "vencimientoPagare": [null],
-    "expediente": "25754418900320180084100",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

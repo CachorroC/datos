@@ -1,35 +1,35 @@
 {
   "llaveProceso": "2530740030012017025000",
-  "numero": 1,
-  "cc": 39581581,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 1,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 39581581,
+    "direccion": "mz 7 cs 6 ub hda/ girardot",
+    "email": "34|",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "alexandra",
     "segundoNombre": "milena",
     "primerApellido": "jimenez",
-    "segundoApellido": "aguilar",
-    "cedula": 39581581,
-    "direccion": "mz 7 cs 6 ub hda/ girardot",
-    "email": "34|"
+    "segundoApellido": "aguilar"
   },
+  "cc": 39581581,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 40589.422,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "2530740030012017025000",
+    "capitalAdeudado": 40589.422,
+    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
     "etapaProcesal": "SENTENCIA",
     "fechaPresentacion": "2017-05-30T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "GIRARDOT",
+    "mandamientoPago": null,
     "obligacion": ["2273 320145954"],
     "radicado": "2017 - 00250",
     "vencimientoPagare": [
       "2026-11-28T00:00:00.000Z"
     ],
-    "expediente": "2530740030012017025000",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

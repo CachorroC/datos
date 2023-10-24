@@ -1,29 +1,36 @@
 {
   "llaveProceso": "11001400307820180062300",
-  "numero": 442,
-  "cc": 80183322,
-  "idProcesos": [51462640],
   "category": "Terminados",
+  "numero": 442,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 80183322,
+    "direccion": "carrera 80 no 7d-05 casa 231",
+    "email": "felipe.ef82@gmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "julian",
     "segundoNombre": "felipe",
     "primerApellido": "echeverry",
-    "segundoApellido": "forero",
-    "cedula": 80183322,
-    "direccion": "carrera 80 no 7d-05 casa 231",
-    "email": "felipe.ef82@gmail.com"
+    "segundoApellido": "forero"
   },
+  "cc": 80183322,
+  "idProcesos": [51462640],
   "demanda": {
-    "capitalAdeudado": 18780.239,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-06-19T00:00:00.000Z",
+    "expediente": "11001400307820180062300",
+    "capitalAdeudado": 18780.239,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "1.100140030782018e+22",
     "fechaPresentacion": null,
+    "juzgados": [
+      {
+        "id": 14,
+        "tipo": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2018-06-19T00:00:00.000Z",
     "obligacion": [
       3778813777601880, 4110540337511900
     ],
@@ -32,13 +39,6 @@
       "2021-03-01T05:00:00.000Z",
       "2021-02-02T05:00:00.000Z"
     ],
-    "expediente": "11001400307820180062300",
-    "juzgados": [
-      {
-        "id": 14,
-        "tipo": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,47 +1,47 @@
 {
   "llaveProceso": "11001400308620180006700",
-  "numero": 374,
-  "cc": 80850549,
-  "idProcesos": [81895161],
   "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "jhoan",
-    "segundoNombre": "antonio",
-    "primerApellido": "barajas",
-    "segundoApellido": "montenegro",
-    "cedula": 80850549,
-    "direccion": "calle 2 sur 16 - 36 manzana 104 // carrera 96 d 6 - 55 cada 81 et 1",
-    "email": "jjhoan_27@hotmail.com"
-  },
   "codeudor": {
     "cedula": 52936062,
     "direccion": "CARRERA 96 D # 6 - 55 CASA 81 ESTAPA 1",
     "nombre": "elizabeth yaya sierra",
     "telefono": 7326829
   },
+  "numero": 374,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "cedula": 80850549,
+    "direccion": "calle 2 sur 16 - 36 manzana 104 // carrera 96 d 6 - 55 cada 81 et 1",
+    "email": "jjhoan_27@hotmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "jhoan",
+    "segundoNombre": "antonio",
+    "primerApellido": "barajas",
+    "segundoApellido": "montenegro"
+  },
+  "cc": 80850549,
+  "idProcesos": [81895161],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400308620180006700",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [121543],
-    "radicado": "2018 - 00067",
-    "vencimientoPagare": [
-      "2024-08-26T00:00:00.000Z"
-    ],
-    "expediente": "11001400308620180006700",
     "juzgados": [
       {
         "id": 86,
         "tipo": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [121543],
+    "radicado": "2018 - 00067",
+    "vencimientoPagare": [
+      "2024-08-26T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

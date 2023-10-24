@@ -1,35 +1,36 @@
 {
   "llaveProceso": "25899400300320180042900",
-  "numero": 498,
-  "cc": 80546020,
-  "idProcesos": [],
   "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "jose",
-    "segundoNombre": "alexander",
-    "primerApellido": "becerra",
-    "segundoApellido": "barrera",
-    "cedula": 80546020,
-    "direccion": "carrera 7 no 4-11  centro",
-    "email": "kristal6020@gmail.com"
-  },
   "codeudor": {
     "cedula": 21022941,
     "direccion": "CALLE 5 No 1 A-12",
     "nombre": "monica mayeli  cristancho  ballen",
     "telefono": "8513122-3132518401"
   },
+  "numero": 498,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "cedula": 80546020,
+    "direccion": "carrera 7 no 4-11  centro",
+    "email": "kristal6020@gmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "jose",
+    "segundoNombre": "alexander",
+    "primerApellido": "becerra",
+    "segundoApellido": "barrera"
+  },
+  "cc": 80546020,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-08-10T05:00:00.000Z",
+    "expediente": "25899400300320180042900",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "2.589940030032018e+22",
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "ZIPAQUIRA",
+    "mandamientoPago": "2018-08-10T05:00:00.000Z",
     "obligacion": [
       "AUDIOPRESTAMO",
       5306960218152465
@@ -38,7 +39,6 @@
     "vencimientoPagare": [
       "2031-05-23T00:00:00.000Z"
     ],
-    "expediente": "25899400300320180042900",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

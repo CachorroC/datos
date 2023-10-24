@@ -1,39 +1,39 @@
 {
   "llaveProceso": "25290400300220170055200",
-  "numero": 187,
-  "cc": 39624423,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 187,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 39624423,
+    "direccion": "carrera 6 # 16a - 84 fusagasuga",
+    "email": null,
     "tel": {
       "fijo": 8717658,
       "celular": 3138851725
     },
     "primerNombre": "yazmin",
-    "segundoNombre": null,
     "primerApellido": "alvarado",
     "segundoApellido": "pinzon",
-    "cedula": 39624423,
-    "direccion": "carrera 6 # 16a - 84 fusagasuga",
-    "email": null
+    "segundoNombre": null
   },
+  "cc": 39624423,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 10928.053,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-08-28T00:00:00.000Z",
+    "expediente": "25290400300220170055200",
+    "capitalAdeudado": 10928.053,
+    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
     "etapaProcesal": "2.529040030022017e+22",
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "FUSAGASUGA",
+    "mandamientoPago": "2017-08-28T00:00:00.000Z",
     "obligacion": [
       4513070122193330,
       "AUDIOPRESTAMO"
     ],
     "radicado": "2017 - 00552",
     "vencimientoPagare": [null, null],
-    "expediente": "25290400300220170055200",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

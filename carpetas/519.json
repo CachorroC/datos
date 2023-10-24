@@ -1,39 +1,39 @@
 {
   "llaveProceso": "11001400307020190055100",
-  "numero": 519,
-  "cc": 1030529007,
-  "idProcesos": [112013800],
   "category": "Terminados",
+  "numero": 519,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 1030529007,
+    "direccion": "carrera 98d # 61a-24 sur (kr 113a # 61a-24 sur bosa porvenir)",
+    "email": "catalinalosada_w@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "leidy",
     "segundoNombre": "catalina",
     "primerApellido": "losada",
-    "segundoApellido": "cabrera",
-    "cedula": 1030529007,
-    "direccion": "carrera 98d # 61a-24 sur (kr 113a # 61a-24 sur bosa porvenir)",
-    "email": "catalinalosada_w@hotmail.com"
+    "segundoApellido": "cabrera"
   },
+  "cc": 1030529007,
+  "idProcesos": [112013800],
   "demanda": {
-    "capitalAdeudado": 30056.041,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2019-06-02T05:00:00.000Z",
+    "expediente": "11001400307020190055100",
+    "capitalAdeudado": 30056.041,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "1.100140030702019e+22",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": ["2273 320150109"],
-    "radicado": "2019 - 00551",
-    "vencimientoPagare": [null],
-    "expediente": "11001400307020190055100",
     "juzgados": [
       {
         "id": 70,
         "tipo": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-070-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2019-06-02T05:00:00.000Z",
+    "obligacion": ["2273 320150109"],
+    "radicado": "2019 - 00551",
+    "vencimientoPagare": [null],
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,47 +1,47 @@
 {
   "llaveProceso": "11001400302620170100600",
-  "numero": 244,
-  "cc": 80144827,
-  "idProcesos": [50718800],
   "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ricardo",
-    "segundoNombre": "andres",
-    "primerApellido": "nocua",
-    "segundoApellido": "guatama",
-    "cedula": 80144827,
-    "direccion": "calle 62 a sur 87c -58",
-    "email": "pajulo8@hotmail.com"
-  },
   "codeudor": {
     "cedula": 1012324304,
     "direccion": "CALLE 62A87C-58",
     "nombre": "janeth eliana sarmiento gamba",
     "telefono": 7839314
   },
+  "numero": 244,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "cedula": 80144827,
+    "direccion": "calle 62 a sur 87c -58",
+    "email": "pajulo8@hotmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "ricardo",
+    "segundoNombre": "andres",
+    "primerApellido": "nocua",
+    "segundoApellido": "guatama"
+  },
+  "cc": 80144827,
+  "idProcesos": [50718800],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-10T00:00:00.000Z",
+    "expediente": "11001400302620170100600",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-09-12T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-09-19T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [161786],
-    "radicado": "2017 - 01006",
-    "vencimientoPagare": [
-      "2033-02-28T00:00:00.000Z"
-    ],
-    "expediente": "11001400302620170100600",
     "juzgados": [
       {
         "id": 26,
         "tipo": "JUZGADO 026 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-26-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-10-10T00:00:00.000Z",
+    "obligacion": [161786],
+    "radicado": "2017 - 01006",
+    "vencimientoPagare": [
+      "2033-02-28T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

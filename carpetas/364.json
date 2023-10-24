@@ -1,39 +1,39 @@
 {
   "llaveProceso": "11001400307320170164700",
-  "numero": 364,
-  "cc": 52102754,
-  "idProcesos": [50923290],
   "category": "Terminados",
+  "numero": 364,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 52102754,
+    "direccion": "calle 6 b no 80 g-95 torre 5 apartamento 717",
+    "email": "spatriciasanchez2011@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "sandra",
     "segundoNombre": "patricia",
     "primerApellido": "sanchez",
-    "segundoApellido": "velasquez",
-    "cedula": 52102754,
-    "direccion": "calle 6 b no 80 g-95 torre 5 apartamento 717",
-    "email": "spatriciasanchez2011@hotmail.com"
+    "segundoApellido": "velasquez"
   },
+  "cc": 52102754,
+  "idProcesos": [50923290],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400307320170164700",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-06-12T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [144698],
-    "radicado": "2017 - 01647",
-    "vencimientoPagare": [null],
-    "expediente": "11001400307320170164700",
     "juzgados": [
       {
         "id": 73,
         "tipo": "JUZGADO 073 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-073-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [144698],
+    "radicado": "2017 - 01647",
+    "vencimientoPagare": [null],
+    "departamento": "CUNDINAMARCA"
   }
 }

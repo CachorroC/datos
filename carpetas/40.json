@@ -1,29 +1,36 @@
 {
   "llaveProceso": "11001400303420170080900",
-  "numero": 40,
-  "cc": 19173252,
-  "idProcesos": [50506330],
   "category": "Terminados",
+  "numero": 40,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 19173252,
+    "direccion": "calle 70 no. 113 b - 40  barrio riviera",
+    "email": null,
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "josé",
     "segundoNombre": "enrique",
     "primerApellido": "riaño",
-    "segundoApellido": "henriquez",
-    "cedula": 19173252,
-    "direccion": "calle 70 no. 113 b - 40  barrio riviera",
-    "email": null
+    "segundoApellido": "henriquez"
   },
+  "cc": 19173252,
+  "idProcesos": [50506330],
   "demanda": {
-    "capitalAdeudado": 19865254,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-07T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-08-03T00:00:00.000Z",
+    "expediente": "11001400303420170080900",
+    "capitalAdeudado": 19865254,
+    "entregaGarantiasAbogado": "2017-06-07T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-06-13T00:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 34,
+        "tipo": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-08-03T00:00:00.000Z",
     "obligacion": [
       "4670083309 // 377813453296510",
       "5303711693085438 / AUDIOPRESTAMO"
@@ -32,13 +39,6 @@
     "vencimientoPagare": [
       "2021-07-22T00:00:00.000Z"
     ],
-    "expediente": "11001400303420170080900",
-    "juzgados": [
-      {
-        "id": 34,
-        "tipo": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,11 +1,18 @@
 {
   "llaveProceso": "11001400301220170097100",
-  "numero": 205,
-  "cc": 51856244,
-  "idProcesos": [50669130],
   "category": "Reintegra",
+  "codeudor": {
+    "cedula": 79604259,
+    "direccion": "CARRERA 138A # 142B - 11",
+    "nombre": "fabio alberto rivera mesa",
+    "telefono": 3118869672
+  },
+  "numero": 205,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 51856244,
+    "direccion": "carrera 2a bis a este # 89a  sur",
+    "email": null,
     "tel": {
       "fijo": 7616370,
       "celular": 3143313269
@@ -13,38 +20,31 @@
     "primerNombre": "nelida",
     "segundoNombre": "del",
     "primerApellido": "carmen",
-    "segundoApellido": "rivera mesa",
-    "cedula": 51856244,
-    "direccion": "carrera 2a bis a este # 89a  sur",
-    "email": null
+    "segundoApellido": "rivera mesa"
   },
-  "codeudor": {
-    "cedula": 79604259,
-    "direccion": "CARRERA 138A # 142B - 11",
-    "nombre": "fabio alberto rivera mesa",
-    "telefono": 3118869672
-  },
+  "cc": 51856244,
+  "idProcesos": [50669130],
   "demanda": {
-    "capitalAdeudado": 14068.639,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-19T00:00:00.000Z",
+    "expediente": "11001400301220170097100",
+    "capitalAdeudado": 14068639,
+    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN SOLICITAR LIQUIDACIÓN A REINTEGRA",
     "fechaPresentacion": "2017-08-28T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [430103841],
-    "radicado": "2017 - 00971",
-    "vencimientoPagare": [
-      "2021-09-09T00:00:00.000Z"
-    ],
-    "expediente": "11001400301220170097100",
     "juzgados": [
       {
         "id": 15,
         "tipo": "JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-09-19T00:00:00.000Z",
+    "obligacion": [430103841],
+    "radicado": "2017 - 00971",
+    "vencimientoPagare": [
+      "2021-09-09T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

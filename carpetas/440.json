@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001408900820180022300",
-  "numero": 440,
-  "cc": 30387764,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 440,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 30387764,
+    "direccion": "carrera 13 no 13-24 oficina 625",
+    "email": "quirogag8878@gmail.com",
     "tel": {
       "fijo": null,
       "celular": 3107996508
@@ -13,26 +14,23 @@
     "primerNombre": "blanca",
     "segundoNombre": "esther",
     "primerApellido": "quiroga",
-    "segundoApellido": "giraldo",
-    "cedula": 30387764,
-    "direccion": "carrera 13 no 13-24 oficina 625",
-    "email": "quirogag8878@gmail.com"
+    "segundoApellido": "giraldo"
   },
+  "cc": 30387764,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-05-29T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001408900820180022300",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2018-05-29T00:00:00.000Z",
     "etapaProcesal": "ADMISION",
     "fechaPresentacion": "2018-05-31T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": null,
     "obligacion": [1330085524],
     "radicado": "2018 - 00223",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "11001408900820180022300",
-    "juzgados": []
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

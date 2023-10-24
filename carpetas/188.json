@@ -1,42 +1,42 @@
 {
   "llaveProceso": "11001400306720170126900",
-  "numero": 188,
-  "cc": 1019029250,
-  "idProcesos": [51452530],
   "category": "Terminados",
+  "codeudor": { "direccion": 47099 },
+  "numero": 188,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 1019029250,
+    "direccion": null,
+    "email": "CARRERA 86 # 77A - 28",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "diego",
     "segundoNombre": "armando",
     "primerApellido": "arevalo",
-    "segundoApellido": "velandia",
-    "cedula": 1019029250,
-    "direccion": null,
-    "email": "CARRERA 86 # 77A - 28"
+    "segundoApellido": "velandia"
   },
-  "codeudor": { "direccion": 47099 },
+  "cc": 1019029250,
+  "idProcesos": [51452530],
   "demanda": {
-    "capitalAdeudado": 43,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400306720170126900",
+    "capitalAdeudado": 43,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "42967",
     "fechaPresentacion": "2018-02-12T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [5303710467974930, 3166069017],
-    "radicado": "2017 - 01269",
-    "vencimientoPagare": [
-      "+170638-01-01T05:00:00.000Z"
-    ],
-    "expediente": "11001400306720170126900",
     "juzgados": [
       {
         "id": 7,
         "tipo": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [5303710467974930, 3166069017],
+    "radicado": "2017 - 01269",
+    "vencimientoPagare": [
+      "+170638-01-01T05:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

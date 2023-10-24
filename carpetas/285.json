@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400300520170132600",
-  "numero": 285,
-  "cc": 52318314,
-  "idProcesos": [50720040],
   "category": "Terminados",
+  "numero": 285,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 52318314,
+    "direccion": "calle 19 a 82 65 tr 4 apartamento 301",
+    "email": "adrianitaa@gmail.com",
     "tel": {
       "fijo": 8065373,
       "celular": 3134576869
@@ -13,20 +14,26 @@
     "primerNombre": "adriana",
     "segundoNombre": "maria",
     "primerApellido": "perez",
-    "segundoApellido": "gomez",
-    "cedula": 52318314,
-    "direccion": "calle 19 a 82 65 tr 4 apartamento 301",
-    "email": "adrianitaa@gmail.com"
+    "segundoApellido": "gomez"
   },
+  "cc": 52318314,
+  "idProcesos": [50720040],
   "demanda": {
-    "capitalAdeudado": 21223.176,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-18T00:00:00.000Z",
+    "expediente": "11001400300520170132600",
+    "capitalAdeudado": 21223.176,
+    "entregaGarantiasAbogado": "2017-09-12T00:00:00.000Z",
     "etapaProcesal": "1.100140030052017e+22",
     "fechaPresentacion": null,
+    "juzgados": [
+      {
+        "id": 10,
+        "tipo": "JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-10-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-09-18T00:00:00.000Z",
     "obligacion": [
       6900083898,
       "4513086465970276 // AUDIOPRESTAMO"
@@ -35,13 +42,6 @@
     "vencimientoPagare": [
       "2017-06-10T00:00:00.000Z"
     ],
-    "expediente": "11001400300520170132600",
-    "juzgados": [
-      {
-        "id": 10,
-        "tipo": "JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-10-de-ejecucion-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

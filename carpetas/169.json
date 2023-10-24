@@ -1,45 +1,45 @@
 {
   "llaveProceso": "11001400300320170126400",
-  "numero": 169,
-  "cc": 23553904,
-  "idProcesos": [50598770],
   "category": "Reintegra",
-  "tipoProceso": "PRENDARIO",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "rita",
-    "segundoNombre": "blanco",
-    "primerApellido": "de",
-    "segundoApellido": "gomez",
-    "cedula": 23553904,
-    "direccion": "carrera 67 no. 65-22 sur torre 15 apto 559",
-    "email": "dorancy1@hotmail.com"
-  },
   "codeudor": {
     "cedula": 46453644,
     "nombre": "nidia dorancy gomez blanco"
   },
+  "numero": 169,
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "cedula": 23553904,
+    "direccion": "carrera 67 no. 65-22 sur torre 15 apto 559",
+    "email": "dorancy1@hotmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "rita",
+    "segundoNombre": "blanco",
+    "primerApellido": "de",
+    "segundoApellido": "gomez"
+  },
+  "cc": 23553904,
+  "idProcesos": [50598770],
   "demanda": {
-    "capitalAdeudado": 13144.437,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-08-03T00:00:00.000Z",
+    "expediente": "11001400300320170126400",
+    "capitalAdeudado": 13144437,
+    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-07-21T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [12498762, "audioprestamo"],
-    "radicado": "2017 - 01264",
-    "vencimientoPagare": [
-      "2020-03-15T00:00:00.000Z"
-    ],
-    "expediente": "11001400300320170126400",
     "juzgados": [
       {
         "id": 3,
         "tipo": "JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-03-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-08-03T00:00:00.000Z",
+    "obligacion": [12498762, "audioprestamo"],
+    "radicado": "2017 - 01264",
+    "vencimientoPagare": [
+      "2020-03-15T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

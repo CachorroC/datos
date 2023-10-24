@@ -1,35 +1,35 @@
 {
   "llaveProceso": "11001400308120180026400",
-  "numero": 408,
-  "cc": 80792987,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 408,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 80792987,
+    "direccion": "calle 4 d no 39 c-22",
+    "email": "jhonbeja227@gmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "jhon",
     "segundoNombre": "alexander",
     "primerApellido": "bejarano",
-    "segundoApellido": "fonseca",
-    "cedula": 80792987,
-    "direccion": "calle 4 d no 39 c-22",
-    "email": "jhonbeja227@gmail.com"
+    "segundoApellido": "fonseca"
   },
+  "cc": 80792987,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-03-04T05:00:00.000Z",
+    "expediente": "11001400308120180026400",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2018-03-04T05:00:00.000Z",
     "obligacion": [152654],
     "radicado": "2018 - 00264",
     "vencimientoPagare": [
       "2018-06-06T05:00:00.000Z"
     ],
-    "expediente": "11001400308120180026400",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400306420170123100",
-  "numero": 78,
-  "cc": 7711481,
-  "idProcesos": [17942390],
   "category": "Terminados",
+  "numero": 78,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 7711481,
+    "direccion": "calle 44d # 45 - 45 apto 904 int 7u",
+    "email": "santosjaime07@yahoo.es",
     "tel": {
       "fijo": null,
       "celular": 3158939957
@@ -13,20 +14,26 @@
     "primerNombre": "jaime",
     "segundoNombre": "edison",
     "primerApellido": "santos",
-    "segundoApellido": "martin",
-    "cedula": 7711481,
-    "direccion": "calle 44d # 45 - 45 apto 904 int 7u",
-    "email": "santosjaime07@yahoo.es"
+    "segundoApellido": "martin"
   },
+  "cc": 7711481,
+  "idProcesos": [17942390],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400306420170123100",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "etapaProcesal": "ADMISION",
     "fechaPresentacion": "2017-06-20T00:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 64,
+        "tipo": "JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-064-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": null,
     "obligacion": [
       5303729451744848,
       "0377816394649010"
@@ -36,13 +43,6 @@
       "2016-05-07T05:00:00.000Z",
       null
     ],
-    "expediente": "11001400306420170123100",
-    "juzgados": [
-      {
-        "id": 64,
-        "tipo": "JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-064-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

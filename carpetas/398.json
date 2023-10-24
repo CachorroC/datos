@@ -1,11 +1,12 @@
 {
   "llaveProceso": "25754400300120180006400",
-  "numero": 398,
-  "cc": 52465659,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 398,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 52465659,
+    "direccion": "carrera 87 bis no 50 sur-75 piso 2",
+    "email": "liancridana@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3214771295
@@ -13,24 +14,23 @@
     "primerNombre": "liliana",
     "segundoNombre": "andrea",
     "primerApellido": "erazo",
-    "segundoApellido": "lopez",
-    "cedula": 52465659,
-    "direccion": "carrera 87 bis no 50 sur-75 piso 2",
-    "email": "liancridana@hotmail.com"
+    "segundoApellido": "lopez"
   },
+  "cc": 52465659,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-10-04T05:00:00.000Z",
+    "expediente": "25754400300120180006400",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "SENTENCIA",
     "fechaPresentacion": "2018-07-02T05:00:00.000Z",
+    "juzgados": [],
     "municipio": "SOACHA",
+    "mandamientoPago": "2018-10-04T05:00:00.000Z",
     "obligacion": [171882],
     "radicado": "2018 - 00064",
     "vencimientoPagare": [null],
-    "expediente": "25754400300120180006400",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

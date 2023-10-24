@@ -1,41 +1,39 @@
 {
   "llaveProceso": "11001400308520160031900",
-  "numero": 97,
-  "cc": 19270589,
-  "idProcesos": [77695680],
   "category": "Terminados",
+  "numero": 97,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 19270589,
+    "direccion": "calle 52 a bis  no 35 b 41 sur",
+    "email": "conjuexeu@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "jose",
     "segundoNombre": "alfredo",
     "primerApellido": "riaño",
-    "segundoApellido": "maldonado",
-    "cedula": 19270589,
-    "direccion": "calle 52 a bis  no 35 b 41 sur",
-    "email": "conjuexeu@hotmail.com"
+    "segundoApellido": "maldonado"
   },
+  "cc": 19270589,
+  "idProcesos": [77695680],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-20T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-01-12T00:00:00.000Z",
+    "expediente": "11001400308520160031900",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-09-20T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [20990137187],
-    "radicado": "2016 - 00319",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "11001400308520160031900",
     "juzgados": [
       {
         "id": 85,
         "tipo": "JUZGADO 085 CIVIL MUNICIPAL DE BOGOTÁ ",
         "url": "https://www.ramajudicial.gov.cojuzgado-085-civil-municipal-de-bogotá-"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-01-12T00:00:00.000Z",
+    "obligacion": [20990137187],
+    "radicado": "2016 - 00319",
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

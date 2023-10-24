@@ -1,47 +1,47 @@
 {
   "llaveProceso": "11001400303820170095700",
-  "numero": 245,
-  "cc": 79893549,
-  "idProcesos": [9083003],
   "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "javier",
-    "segundoNombre": "orlando",
-    "primerApellido": "gomez",
-    "segundoApellido": "diaz",
-    "cedula": 79893549,
-    "direccion": "calle 76 c sur 1h 27",
-    "email": "jaorgodi@hotmail.com"
-  },
   "codeudor": {
     "cedula": 1061675,
     "direccion": "TRANSVERSAL 40 No 14-93 TORRE 1 APTO 301 SOACHA",
     "nombre": "luis alonso gomez dias",
     "telefono": 41777788
   },
+  "numero": 245,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "cedula": 79893549,
+    "direccion": "calle 76 c sur 1h 27",
+    "email": "jaorgodi@hotmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "javier",
+    "segundoNombre": "orlando",
+    "primerApellido": "gomez",
+    "segundoApellido": "diaz"
+  },
+  "cc": 79893549,
+  "idProcesos": [9083003],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400303820170095700",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": "2017-09-19T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [103058],
-    "radicado": "2017 - 00957",
-    "vencimientoPagare": [
-      "2022-11-21T00:00:00.000Z"
-    ],
-    "expediente": "11001400303820170095700",
     "juzgados": [
       {
         "id": 38,
         "tipo": "JUZGADO 038 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-038-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [103058],
+    "radicado": "2017 - 00957",
+    "vencimientoPagare": [
+      "2022-11-21T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

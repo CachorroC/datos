@@ -1,11 +1,12 @@
 {
   "llaveProceso": "25307400300120170033700",
-  "numero": 23,
-  "cc": 11207272,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 23,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 11207272,
+    "direccion": "manzana d cs 8 diamante girardot",
+    "email": "karendiaz@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3186899839
@@ -13,26 +14,25 @@
     "primerNombre": "eder",
     "segundoNombre": "alexis",
     "primerApellido": "herrera",
-    "segundoApellido": "saenz",
-    "cedula": 11207272,
-    "direccion": "manzana d cs 8 diamante girardot",
-    "email": "karendiaz@hotmail.com"
+    "segundoApellido": "saenz"
   },
+  "cc": 11207272,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-05-19T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-07-26T00:00:00.000Z",
+    "expediente": "25307400300120170033700",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-05-19T00:00:00.000Z",
     "etapaProcesal": "SENTENCIA",
     "fechaPresentacion": "2017-05-30T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "GIRARDOT",
+    "mandamientoPago": "2017-07-26T00:00:00.000Z",
     "obligacion": [12517400, 5306941968938113],
     "radicado": "2017 - 00337",
     "vencimientoPagare": [
       "2017-04-26T00:00:00.000Z"
     ],
-    "expediente": "25307400300120170033700",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

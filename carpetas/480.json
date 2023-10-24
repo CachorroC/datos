@@ -1,32 +1,39 @@
 {
   "llaveProceso": "25307400300320210053900",
-  "numero": 480,
-  "cc": 39575032,
-  "idProcesos": [121826111],
   "category": "Reintegra",
+  "numero": 480,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 39575032,
+    "direccion": "carrera 14 no 22-10  apartamento  202 girardot",
+    "email": "adriana.0806@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3152573448
     },
     "primerNombre": "adriana",
-    "segundoNombre": null,
     "primerApellido": "vanegas",
     "segundoApellido": "peña",
-    "cedula": 39575032,
-    "direccion": "carrera 14 no 22-10  apartamento  202 girardot",
-    "email": "adriana.0806@hotmail.com"
+    "segundoNombre": null
   },
+  "cc": 39575032,
+  "idProcesos": [121826111],
   "demanda": {
-    "capitalAdeudado": 17217.066,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "25307400300320210053900",
+    "capitalAdeudado": 17217066,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCION",
     "fechaPresentacion": null,
+    "juzgados": [
+      {
+        "id": 3,
+        "tipo": "JUZGADO 003 CIVIL MUNICIPAL DE GIRARDOT",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-03-civil-municipal-de-girardot"
+      }
+    ],
     "municipio": "GIRARDOT",
+    "mandamientoPago": null,
     "obligacion": [
       "AUDIOPRESTAMO",
       5.30696068711907e29
@@ -36,13 +43,6 @@
       null,
       "2021-06-04T05:00:00.000Z"
     ],
-    "expediente": "25307400300320210053900",
-    "juzgados": [
-      {
-        "id": 3,
-        "tipo": "JUZGADO 003 CIVIL MUNICIPAL DE GIRARDOT",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-03-civil-municipal-de-girardot"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400308220170068000",
-  "numero": 103,
-  "cc": 16831314,
-  "idProcesos": [51619370, 81869501],
   "category": "Reintegra",
+  "numero": 103,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 16831314,
+    "direccion": "carrera 74 no. 25 g-69",
+    "email": "kikearango@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3216066052
@@ -13,29 +14,17 @@
     "primerNombre": "eduardo",
     "segundoNombre": "enrique",
     "primerApellido": "arango",
-    "segundoApellido": "chacon",
-    "cedula": 16831314,
-    "direccion": "carrera 74 no. 25 g-69",
-    "email": "kikearango@hotmail.com"
+    "segundoApellido": "chacon"
   },
+  "cc": 16831314,
+  "idProcesos": [51619370, 81869501],
   "demanda": {
-    "capitalAdeudado": 43921.469,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-07-17T00:00:00.000Z",
+    "expediente": "11001400308220170068000",
+    "capitalAdeudado": 43921469,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-06-16T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "1800088189//377813488630162",
-      "4513071987853655//5303715363121332"
-    ],
-    "radicado": "2017-00680",
-    "vencimientoPagare": [
-      "2019-05-13T00:00:00.000Z"
-    ],
-    "expediente": "11001400308220170068000",
     "juzgados": [
       {
         "id": 18,
@@ -47,6 +36,17 @@
         "tipo": "JUZGADO 082 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-082-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-07-17T00:00:00.000Z",
+    "obligacion": [
+      "1800088189//377813488630162",
+      "4513071987853655//5303715363121332"
+    ],
+    "radicado": "2017-00680",
+    "vencimientoPagare": [
+      "2019-05-13T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

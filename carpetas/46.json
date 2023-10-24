@@ -1,32 +1,39 @@
 {
   "llaveProceso": "25183400300120170010600",
-  "numero": 46,
-  "cc": 11251297,
-  "idProcesos": [86212261],
   "category": "Reintegra",
+  "numero": 46,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 11251297,
+    "direccion": "carrera 2b no.14-04 barrio villa alejandra choconta",
+    "email": "alvaro.r@live.com",
     "tel": {
       "fijo": null,
       "celular": 3166182970
     },
     "primerNombre": "alvaro",
-    "segundoNombre": null,
     "primerApellido": "rodriguez",
     "segundoApellido": "alonso",
-    "cedula": 11251297,
-    "direccion": "carrera 2b no.14-04 barrio villa alejandra choconta",
-    "email": "alvaro.r@live.com"
+    "segundoNombre": null
   },
+  "cc": 11251297,
+  "idProcesos": [86212261],
   "demanda": {
-    "capitalAdeudado": 12537.973,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-05-19T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-06-21T00:00:00.000Z",
+    "expediente": "25183400300120170010600",
+    "capitalAdeudado": 12537973,
+    "entregaGarantiasAbogado": "2017-05-19T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-05-30T00:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE CHOCONTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-001-civil-municipal-de-choconta"
+      }
+    ],
     "municipio": "CHOCONTA",
+    "mandamientoPago": "2017-06-21T00:00:00.000Z",
     "obligacion": [
       5.30371393265579e30, 4.09983949630826e29
     ],
@@ -35,13 +42,6 @@
       null,
       "2020-04-05T05:00:00.000Z"
     ],
-    "expediente": "25183400300120170010600",
-    "juzgados": [
-      {
-        "id": 1,
-        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE CHOCONTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-001-civil-municipal-de-choconta"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

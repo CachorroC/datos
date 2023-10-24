@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400306420170115300",
-  "numero": 130,
-  "cc": 77010352,
-  "idProcesos": [50648690],
   "category": "Terminados",
+  "numero": 130,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 77010352,
+    "direccion": "calle 116 # 11c - 15 apto 104",
+    "email": "arosadomestre@yahoo.com",
     "tel": {
       "fijo": 6371679,
       "celular": 3125855939
@@ -13,32 +14,29 @@
     "primerNombre": "armando",
     "segundoNombre": "enrique",
     "primerApellido": "rosado",
-    "segundoApellido": "mestre",
-    "cedula": 77010352,
-    "direccion": "calle 116 # 11c - 15 apto 104",
-    "email": "arosadomestre@yahoo.com"
+    "segundoApellido": "mestre"
   },
+  "cc": 77010352,
+  "idProcesos": [50648690],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-08-29T00:00:00.000Z",
+    "expediente": "11001400306420170115300",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
     "etapaProcesal": "LIQUIDACION",
     "fechaPresentacion": "2017-08-18T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [377815132099546],
-    "radicado": "2017 - 01153",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "11001400306420170115300",
     "juzgados": [
       {
         "id": 20,
         "tipo": "JUZGADO 020 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-20-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-08-29T00:00:00.000Z",
+    "obligacion": [377815132099546],
+    "radicado": "2017 - 01153",
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,11 +1,12 @@
 {
   "llaveProceso": "25245408900120170023900",
-  "numero": 102,
-  "cc": 1070329396,
-  "idProcesos": [],
   "category": "Bancolombia",
+  "numero": 102,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 1070329396,
+    "direccion": "call 2 no. 8-40 el colegio",
+    "email": null,
     "tel": {
       "fijo": null,
       "celular": 3114456631
@@ -13,26 +14,25 @@
     "primerNombre": "erika",
     "segundoNombre": "alejandra",
     "primerApellido": "quintero",
-    "segundoApellido": "reyes",
-    "cedula": 1070329396,
-    "direccion": "call 2 no. 8-40 el colegio",
-    "email": null
+    "segundoApellido": "reyes"
   },
+  "cc": 1070329396,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 50000,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-11-07T00:00:00.000Z",
+    "expediente": "25245408900120170023900",
+    "capitalAdeudado": 50000000,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "MESITAS",
+    "mandamientoPago": "2017-11-07T00:00:00.000Z",
     "obligacion": [7300080586],
     "radicado": "2017-00239",
     "vencimientoPagare": [
       "2019-07-05T00:00:00.000Z"
     ],
-    "expediente": "25245408900120170023900",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,35 +1,33 @@
 {
   "llaveProceso": "25754418900320180085500",
-  "numero": 473,
-  "cc": 52725153,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 473,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 52725153,
+    "direccion": null,
+    "email": "TRANSVERSAL 2 ESTE No 32B-80 SUR",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "sandra",
     "segundoNombre": "milena",
     "primerApellido": "vega",
-    "segundoApellido": "avila",
-    "cedula": 52725153,
-    "direccion": null,
-    "email": "TRANSVERSAL 2 ESTE No 32B-80 SUR"
+    "segundoApellido": "avila"
   },
+  "cc": 52725153,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 0,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "25754418900320180085500",
+    "capitalAdeudado": 0,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "15-08-2018",
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "SOACHA",
+    "mandamientoPago": null,
     "obligacion": [],
     "radicado": "2018 - 00855",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "25754418900320180085500",
-    "juzgados": []
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

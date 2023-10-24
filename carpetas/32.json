@@ -1,11 +1,18 @@
 {
   "llaveProceso": "11001400304320180038400",
-  "numero": 32,
-  "cc": 1022940572,
-  "idProcesos": [114256610],
   "category": "Reintegra",
+  "codeudor": {
+    "cedula": 1023881288,
+    "direccion": "CARRERA 4 A ESTE No. 30-13 SUR BOGOTA",
+    "nombre": "johanna mercedes medina santander",
+    "telefono": "2067151//3015485509"
+  },
+  "numero": 32,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 1022940572,
+    "direccion": "calle 36 b sur no. 11-25 apto 1307 bogota",
+    "email": "jhonannicky@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3134775602
@@ -13,26 +20,26 @@
     "primerNombre": "jonathan",
     "segundoNombre": "andres",
     "primerApellido": "",
-    "segundoApellido": "bernal parra",
-    "cedula": 1022940572,
-    "direccion": "calle 36 b sur no. 11-25 apto 1307 bogota",
-    "email": "jhonannicky@hotmail.com"
+    "segundoApellido": "bernal parra"
   },
-  "codeudor": {
-    "cedula": 1023881288,
-    "direccion": "CARRERA 4 A ESTE No. 30-13 SUR BOGOTA",
-    "nombre": "johanna mercedes medina santander",
-    "telefono": "2067151//3015485509"
-  },
+  "cc": 1022940572,
+  "idProcesos": [114256610],
   "demanda": {
-    "capitalAdeudado": 54812,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-05-30T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-07-28T00:00:00.000Z",
+    "expediente": "11001400304320180038400",
+    "capitalAdeudado": 54812000,
+    "entregaGarantiasAbogado": "2018-05-30T00:00:00.000Z",
     "etapaProcesal": "EJECUCION",
     "fechaPresentacion": null,
+    "juzgados": [
+      {
+        "id": 18,
+        "tipo": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-07-28T00:00:00.000Z",
     "obligacion": [
       4280019446,
       "5406915580101610 4513077620518209//20990166568"
@@ -41,13 +48,6 @@
     "vencimientoPagare": [
       "2028-08-01T00:00:00.000Z"
     ],
-    "expediente": "11001400304320180038400",
-    "juzgados": [
-      {
-        "id": 18,
-        "tipo": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

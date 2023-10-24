@@ -1,41 +1,39 @@
 {
   "llaveProceso": "11001400307020180012100",
-  "numero": 389,
-  "cc": 79874218,
-  "idProcesos": [18370510],
   "category": "Terminados",
+  "numero": 389,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 79874218,
+    "direccion": null,
+    "email": null,
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "miguel",
     "segundoNombre": "angel",
     "primerApellido": "granados",
-    "segundoApellido": "gutierrez",
-    "cedula": 79874218,
-    "direccion": null,
-    "email": null
+    "segundoApellido": "gutierrez"
   },
+  "cc": 79874218,
+  "idProcesos": [18370510],
   "demanda": {
-    "capitalAdeudado": 0,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400307020180012100",
+    "capitalAdeudado": 0,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [],
-    "radicado": "2018 - 00121",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "11001400307020180012100",
     "juzgados": [
       {
         "id": 70,
         "tipo": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-070-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [],
+    "radicado": "2018 - 00121",
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

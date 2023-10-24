@@ -1,41 +1,33 @@
 {
   "llaveProceso": "11001400304720170152000",
-  "numero": 125,
-  "cc": 74338870,
-  "idProcesos": [97088411, 109959053],
   "category": "Reintegra",
-  "tipoProceso": "SINGULAR",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "milciades",
-    "segundoNombre": null,
-    "primerApellido": "galindo",
-    "segundoApellido": "casteblanco",
-    "cedula": 74338870,
-    "direccion": "carrera 18 # 12 - 72",
-    "email": null
-  },
   "codeudor": {
     "cedula": 1098436221,
     "direccion": "CALEE 4 # 20 - 85",
     "nombre": "german alonso sanchez pico",
     "telefono": 3155275805
   },
+  "numero": 125,
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "cedula": 74338870,
+    "direccion": "carrera 18 # 12 - 72",
+    "email": null,
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "milciades",
+    "primerApellido": "galindo",
+    "segundoApellido": "casteblanco",
+    "segundoNombre": null
+  },
+  "cc": 74338870,
+  "idProcesos": [97088411, 109959053],
   "demanda": {
-    "capitalAdeudado": 21613.985,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-14T00:00:00.000Z",
+    "expediente": "11001400304720170152000",
+    "capitalAdeudado": 21613985,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [300093705],
-    "radicado": "2017 - 01520",
-    "vencimientoPagare": [
-      "2020-11-27T00:00:00.000Z"
-    ],
-    "expediente": "11001400304720170152000",
     "juzgados": [
       {
         "id": 47,
@@ -47,6 +39,14 @@
         "tipo": "JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-047-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-09-14T00:00:00.000Z",
+    "obligacion": [300093705],
+    "radicado": "2017 - 01520",
+    "vencimientoPagare": [
+      "2020-11-27T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

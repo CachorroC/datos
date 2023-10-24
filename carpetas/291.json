@@ -1,29 +1,30 @@
 {
   "llaveProceso": "11001400303920170133000",
-  "numero": 291,
-  "cc": 35427969,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 291,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 35427969,
+    "direccion": "carrera 91 no 157 b - 82  torre 2 apartamento 40",
+    "email": "carof111@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "yeimmy",
     "segundoNombre": "carolina",
     "primerApellido": "fino",
-    "segundoApellido": "ballen",
-    "cedula": 35427969,
-    "direccion": "carrera 91 no 157 b - 82  torre 2 apartamento 40",
-    "email": "carof111@hotmail.com"
+    "segundoApellido": "ballen"
   },
+  "cc": 35427969,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-29T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-20T00:00:00.000Z",
+    "expediente": "11001400303920170133000",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-09-29T00:00:00.000Z",
     "etapaProcesal": "LIQUIDACION",
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-10-20T00:00:00.000Z",
     "obligacion": [
       "200828  / 4513070087585399",
       55303710092258330
@@ -32,7 +33,6 @@
     "vencimientoPagare": [
       "2017-08-04T00:00:00.000Z"
     ],
-    "expediente": "11001400303920170133000",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

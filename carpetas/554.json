@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001418901820230131100",
-  "numero": 554,
-  "cc": 51976656,
-  "idProcesos": [132102980],
   "category": "Bancolombia",
+  "numero": 554,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 51976656,
+    "direccion": "carrera 102 no. 69 - 81 casa 5 conjunto residencial montes de tierra grata",
+    "email": "sandris73@hotmail.com",
     "tel": {
       "fijo": 2297973,
       "celular": 3157352910
@@ -13,20 +14,26 @@
     "primerNombre": "sandra",
     "segundoNombre": "patricia",
     "primerApellido": "alvarez",
-    "segundoApellido": "rodriguez",
-    "cedula": 51976656,
-    "direccion": "carrera 102 no. 69 - 81 casa 5 conjunto residencial montes de tierra grata",
-    "email": "sandris73@hotmail.com"
+    "segundoApellido": "rodriguez"
   },
+  "cc": 51976656,
+  "idProcesos": [132102980],
   "demanda": {
-    "capitalAdeudado": 22111.021,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001418901820230131100",
+    "capitalAdeudado": 22111021,
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
+    "juzgados": [
+      {
+        "id": 18,
+        "tipo": "JUZGADO 018 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-018-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": null,
     "obligacion": [
       2150100545,
       "377844028390801 y 4513080181283486"
@@ -37,13 +44,6 @@
       "2026-04-07T05:00:00.000Z",
       "2026-06-03T05:00:00.000Z"
     ],
-    "expediente": "11001418901820230131100",
-    "juzgados": [
-      {
-        "id": 18,
-        "tipo": "JUZGADO 018 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
-        "url": "https://www.ramajudicial.gov.cojuzgado-018-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

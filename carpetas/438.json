@@ -1,35 +1,33 @@
 {
   "llaveProceso": "11001418900620180021000",
-  "numero": 438,
-  "cc": 52132383,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 438,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 52132383,
+    "direccion": "carrera 24 b no 31c-64",
+    "email": "velandialuzd@yahooo.es",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "luz",
     "segundoNombre": "dary",
     "primerApellido": "velandia",
-    "segundoApellido": "garcia",
-    "cedula": 52132383,
-    "direccion": "carrera 24 b no 31c-64",
-    "email": "velandialuzd@yahooo.es"
+    "segundoApellido": "garcia"
   },
+  "cc": 52132383,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-05-29T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001418900620180021000",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2018-05-29T00:00:00.000Z",
     "etapaProcesal": "EXCEPCIONES",
     "fechaPresentacion": "2018-05-31T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": null,
     "obligacion": [15400866488],
     "radicado": "2018 - 00210",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "11001418900620180021000",
-    "juzgados": []
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400305720170079000",
-  "numero": 107,
-  "cc": 80112954,
-  "idProcesos": [17604554],
   "category": "Terminados",
+  "numero": 107,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 80112954,
+    "direccion": "diagonal 52 b suer # 5c - 20 este",
+    "email": "efrain.martinez.1021@hotmail.com",
     "tel": {
       "fijo": 5936306,
       "celular": 3176550987
@@ -13,20 +14,26 @@
     "primerNombre": "hanyelo",
     "segundoNombre": "efrain",
     "primerApellido": "martinez",
-    "segundoApellido": "turriago",
-    "cedula": 80112954,
-    "direccion": "diagonal 52 b suer # 5c - 20 este",
-    "email": "efrain.martinez.1021@hotmail.com"
+    "segundoApellido": "turriago"
   },
+  "cc": 80112954,
+  "idProcesos": [17604554],
   "demanda": {
-    "capitalAdeudado": 13303.855,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-08-30T00:00:00.000Z",
+    "expediente": "11001400305720170079000",
+    "capitalAdeudado": 13303.855,
+    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-08-08T00:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 57,
+        "tipo": "JUZGADO 057 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-57-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-08-30T00:00:00.000Z",
     "obligacion": [
       6900084281,
       "4513070458359200 // AUDIOPRESTAMO"
@@ -35,13 +42,6 @@
     "vencimientoPagare": [
       "2016-01-29T00:00:00.000Z"
     ],
-    "expediente": "11001400305720170079000",
-    "juzgados": [
-      {
-        "id": 57,
-        "tipo": "JUZGADO 057 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-57-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

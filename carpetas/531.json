@@ -1,11 +1,18 @@
 {
   "llaveProceso": "11001400304220200053500",
-  "numero": 531,
-  "cc": 51813018,
-  "idProcesos": [128164881],
   "category": "Bancolombia",
+  "codeudor": {
+    "cedula": 19299851,
+    "direccion": "KR 81 No. 127 - 46 Torre 1 Apt 401",
+    "nombre": "marco tulio sanchez medina",
+    "telefono": 6139147
+  },
+  "numero": 531,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 51813018,
+    "direccion": "kr 81 no. 127 a - 46 conjunto monte azul bogota",
+    "email": "yadelcis@hotmail.com",
     "tel": {
       "fijo": 6139147,
       "celular": 3134386087
@@ -13,41 +20,32 @@
     "primerNombre": "sandra",
     "segundoNombre": "leonor",
     "primerApellido": "paez",
-    "segundoApellido": "murcia",
-    "cedula": 51813018,
-    "direccion": "kr 81 no. 127 a - 46 conjunto monte azul bogota",
-    "email": "yadelcis@hotmail.com"
+    "segundoApellido": "murcia"
   },
-  "codeudor": {
-    "cedula": 19299851,
-    "direccion": "KR 81 No. 127 - 46 Torre 1 Apt 401",
-    "nombre": "marco tulio sanchez medina",
-    "telefono": 6139147
-  },
+  "cc": 51813018,
+  "idProcesos": [128164881],
   "demanda": {
-    "capitalAdeudado": 35608.653,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2020-10-07T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400304220200053500",
+    "capitalAdeudado": 35608653,
+    "entregaGarantiasAbogado": "2020-10-07T00:00:00.000Z",
     "etapaProcesal": "EJECUCION",
     "fechaPresentacion": "2020-10-07T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      2020084294,
-      "2020087484 // 4594250317705437 //5303723260933890"
-    ],
-    "radicado": "2020 - 00535",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "11001400304220200053500",
     "juzgados": [
       {
         "id": 42,
         "tipo": "JUZGADO 042 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-42-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [
+      2020084294,
+      "2020087484 // 4594250317705437 //5303723260933890"
+    ],
+    "radicado": "2020 - 00535",
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

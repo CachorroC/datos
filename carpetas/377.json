@@ -1,47 +1,47 @@
 {
   "llaveProceso": "11001400304620180010700",
-  "numero": 377,
-  "cc": 40356325,
-  "idProcesos": [10138483],
   "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "gladis",
-    "segundoNombre": null,
-    "primerApellido": "velasquez",
-    "segundoApellido": "castro",
-    "cedula": 40356325,
-    "direccion": "carrera 79d 36 - 74",
-    "email": "sacave22@gmail.com"
-  },
   "codeudor": {
     "cedula": 86004461,
     "direccion": "CALLE 8 B 70 - 76",
     "nombre": "fabian castrillon gutierrez",
     "telefono": 4710758
   },
+  "numero": 377,
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "cedula": 40356325,
+    "direccion": "carrera 79d 36 - 74",
+    "email": "sacave22@gmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "gladis",
+    "primerApellido": "velasquez",
+    "segundoApellido": "castro",
+    "segundoNombre": null
+  },
+  "cc": 40356325,
+  "idProcesos": [10138483],
   "demanda": {
-    "capitalAdeudado": 13503258,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-01-29T00:00:00.000Z",
+    "expediente": "11001400304620180010700",
+    "capitalAdeudado": 13503258,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [2150091493],
-    "radicado": "2018 - 00107",
-    "vencimientoPagare": [
-      "2018-09-27T00:00:00.000Z"
-    ],
-    "expediente": "11001400304620180010700",
     "juzgados": [
       {
         "id": 46,
         "tipo": "JUZGADO 046 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-46-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-01-29T00:00:00.000Z",
+    "obligacion": [2150091493],
+    "radicado": "2018 - 00107",
+    "vencimientoPagare": [
+      "2018-09-27T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

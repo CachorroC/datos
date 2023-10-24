@@ -1,39 +1,39 @@
 {
   "llaveProceso": "11001400300220180020500",
-  "numero": 406,
-  "cc": 8510459,
-  "idProcesos": [51034000],
   "category": "Terminados",
+  "numero": 406,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 8510459,
+    "direccion": "calle 86 a sur no 80k-40",
+    "email": null,
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "santiago",
     "segundoNombre": "javier",
     "primerApellido": "sarabia",
-    "segundoApellido": "jimenez",
-    "cedula": 8510459,
-    "direccion": "calle 86 a sur no 80k-40",
-    "email": null
+    "segundoApellido": "jimenez"
   },
+  "cc": 8510459,
+  "idProcesos": [51034000],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-01-03T05:00:00.000Z",
+    "expediente": "11001400300220180020500",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [112507],
-    "radicado": "2018 - 00205",
-    "vencimientoPagare": [null],
-    "expediente": "11001400300220180020500",
     "juzgados": [
       {
         "id": 2,
         "tipo": "JUZGADO 002 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-02-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-01-03T05:00:00.000Z",
+    "obligacion": [112507],
+    "radicado": "2018 - 00205",
+    "vencimientoPagare": [null],
+    "departamento": "CUNDINAMARCA"
   }
 }

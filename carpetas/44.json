@@ -1,11 +1,18 @@
 {
   "llaveProceso": "11001400301220170088200",
-  "numero": 44,
-  "cc": 11188351,
-  "idProcesos": [50631800],
   "category": "Terminados",
+  "codeudor": {
+    "cedula": 28168817,
+    "direccion": "CARRERA 80 No. 67-41",
+    "nombre": "martha murcia cardenas",
+    "telefono": "28168817//3102605021"
+  },
+  "numero": 44,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 11188351,
+    "direccion": "carrera 80 no. 67-41 calle 66 no. 113-c- 45 apto 404 interior 4 sevilla real conjunto residencial",
+    "email": null,
     "tel": {
       "fijo": null,
       "celular": 3124041113
@@ -13,38 +20,31 @@
     "primerNombre": "jose",
     "segundoNombre": "freddy",
     "primerApellido": "vargas",
-    "segundoApellido": "ruiz",
-    "cedula": 11188351,
-    "direccion": "carrera 80 no. 67-41 calle 66 no. 113-c- 45 apto 404 interior 4 sevilla real conjunto residencial",
-    "email": null
+    "segundoApellido": "ruiz"
   },
-  "codeudor": {
-    "cedula": 28168817,
-    "direccion": "CARRERA 80 No. 67-41",
-    "nombre": "martha murcia cardenas",
-    "telefono": "28168817//3102605021"
-  },
+  "cc": 11188351,
+  "idProcesos": [50631800],
   "demanda": {
-    "capitalAdeudado": 2078.52,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-25T00:00:00.000Z",
+    "expediente": "11001400301220170088200",
+    "capitalAdeudado": 2078.52,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-08-11T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [377813731599891],
-    "radicado": "2017 - 00882",
-    "vencimientoPagare": [
-      "2024-11-18T00:00:00.000Z"
-    ],
-    "expediente": "11001400301220170088200",
     "juzgados": [
       {
         "id": 12,
         "tipo": "JUZGADO 012 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-012-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-09-25T00:00:00.000Z",
+    "obligacion": [377813731599891],
+    "radicado": "2017 - 00882",
+    "vencimientoPagare": [
+      "2024-11-18T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

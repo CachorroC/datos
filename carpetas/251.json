@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400301320170116200",
-  "numero": 251,
-  "cc": 7226283,
-  "idProcesos": [50685530],
   "category": "Terminados",
+  "numero": 251,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 7226283,
+    "direccion": "carrera 11a # 17 - 24 santa barbara",
+    "email": "cajux@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3178195535
@@ -13,32 +14,31 @@
     "primerNombre": "carlos",
     "segundoNombre": "javier",
     "primerApellido": "becerra",
-    "segundoApellido": "benavides",
-    "cedula": 7226283,
-    "direccion": "carrera 11a # 17 - 24 santa barbara",
-    "email": "cajux@hotmail.com"
+    "segundoApellido": "benavides"
   },
+  "cc": 7226283,
+  "idProcesos": [50685530],
   "demanda": {
-    "capitalAdeudado": 56386.936,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2020-04-25T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400301320170116200",
+    "capitalAdeudado": 56386.936,
+    "entregaGarantiasAbogado": "2020-04-25T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [12703441],
-    "radicado": "2017 - 01162",
-    "vencimientoPagare": [
-      "2017-08-22T00:00:00.000Z"
-    ],
-    "expediente": "11001400301320170116200",
     "juzgados": [
       {
         "id": 16,
         "tipo": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-16-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [12703441],
+    "radicado": "2017 - 01162",
+    "vencimientoPagare": [
+      "2017-08-22T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

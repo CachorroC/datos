@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400302020170155600",
-  "numero": 370,
-  "cc": 52840906,
-  "idProcesos": [50918350],
   "category": "Terminados",
+  "numero": 370,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 52840906,
+    "direccion": "carrera 51 b no 18-28 sur",
+    "email": "hernandezsuarez28@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "lilian",
     "segundoNombre": "andrea",
     "primerApellido": "hernandez",
-    "segundoApellido": "suarez",
-    "cedula": 52840906,
-    "direccion": "carrera 51 b no 18-28 sur",
-    "email": "hernandezsuarez28@hotmail.com"
+    "segundoApellido": "suarez"
   },
+  "cc": 52840906,
+  "idProcesos": [50918350],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-11-12T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-12-02T05:00:00.000Z",
+    "expediente": "11001400302020170155600",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-11-12T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [180998, 3778813729098781],
-    "radicado": "2017 - 01556",
-    "vencimientoPagare": [
-      "2030-06-02T05:00:00.000Z"
-    ],
-    "expediente": "11001400302020170155600",
     "juzgados": [
       {
         "id": 6,
         "tipo": "JUZGADO 006 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-06-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-12-02T05:00:00.000Z",
+    "obligacion": [180998, 3778813729098781],
+    "radicado": "2017 - 01556",
+    "vencimientoPagare": [
+      "2030-06-02T05:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

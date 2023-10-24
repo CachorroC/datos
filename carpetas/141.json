@@ -1,11 +1,18 @@
 {
   "llaveProceso": "11001400303920170110000",
-  "numero": 141,
-  "cc": 79412583,
-  "idProcesos": [],
   "category": "Terminados",
+  "codeudor": {
+    "cedula": 1022357168,
+    "direccion": "TRANSVERSAL 54 # 18 - 30 SUR INTERIOR 3 APTO 201",
+    "nombre": "leidy fernanda sanchez gamba",
+    "telefono": 5103158
+  },
+  "numero": 141,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 79412583,
+    "direccion": "carrea 54 # 18 - 30 sur apto 201",
+    "email": "edgardavid302@hotmail.com",
     "tel": {
       "fijo": 4137430,
       "celular": 3003932311
@@ -13,32 +20,25 @@
     "primerNombre": "edgar",
     "segundoNombre": "david",
     "primerApellido": "hernandez",
-    "segundoApellido": "rincon",
-    "cedula": 79412583,
-    "direccion": "carrea 54 # 18 - 30 sur apto 201",
-    "email": "edgardavid302@hotmail.com"
+    "segundoApellido": "rincon"
   },
-  "codeudor": {
-    "cedula": 1022357168,
-    "direccion": "TRANSVERSAL 54 # 18 - 30 SUR INTERIOR 3 APTO 201",
-    "nombre": "leidy fernanda sanchez gamba",
-    "telefono": 5103158
-  },
+  "cc": 79412583,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400303920170110000",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-08-22T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": null,
     "obligacion": [156285],
     "radicado": "2017 - 01100",
     "vencimientoPagare": [
       "2017-09-24T00:00:00.000Z"
     ],
-    "expediente": "11001400303920170110000",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

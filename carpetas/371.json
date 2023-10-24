@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400302420180014300",
-  "numero": 371,
-  "cc": 39765816,
-  "idProcesos": [51002530],
   "category": "LiosJuridicos",
+  "numero": 371,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 39765816,
+    "direccion": "calle 50 sur 93 d- 38 apto 401 torre 6",
+    "email": "andreato1a@hotmaul.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "martha",
     "segundoNombre": "andrea",
     "primerApellido": "mora",
-    "segundoApellido": "collazos",
-    "cedula": 39765816,
-    "direccion": "calle 50 sur 93 d- 38 apto 401 torre 6",
-    "email": "andreato1a@hotmaul.com"
+    "segundoApellido": "collazos"
   },
+  "cc": 39765816,
+  "idProcesos": [51002530],
   "demanda": {
-    "capitalAdeudado": 10775.194,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-01-16T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400302420180014300",
+    "capitalAdeudado": 10775194,
+    "entregaGarantiasAbogado": "2018-01-16T00:00:00.000Z",
     "etapaProcesal": "SIN LEVANTAMIENTO DE MEDIDA CAUTELAR NO HA SIDO ARCHIVADO POR EL JUZGADO",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [117171, 377813401553319],
-    "radicado": "2018 - 00143",
-    "vencimientoPagare": [
-      "2024-03-30T00:00:00.000Z"
-    ],
-    "expediente": "11001400302420180014300",
     "juzgados": [
       {
         "id": 24,
         "tipo": "JUZGADO 024 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-024-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [117171, 377813401553319],
+    "radicado": "2018 - 00143",
+    "vencimientoPagare": [
+      "2024-03-30T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

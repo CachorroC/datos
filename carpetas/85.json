@@ -1,29 +1,36 @@
 {
   "llaveProceso": "11001400303420170083400",
-  "numero": 85,
-  "cc": 39673896,
-  "idProcesos": [50521650],
   "category": "Terminados",
+  "numero": 85,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 39673896,
+    "direccion": "calle 143 # 118 - 15 apto 503 int 2",
+    "email": "sma9511@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "sandra",
     "segundoNombre": "patricia",
     "primerApellido": "malaver",
-    "segundoApellido": "alvarez",
-    "cedula": 39673896,
-    "direccion": "calle 143 # 118 - 15 apto 503 int 2",
-    "email": "sma9511@hotmail.com"
+    "segundoApellido": "alvarez"
   },
+  "cc": 39673896,
+  "idProcesos": [50521650],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-07-10T00:00:00.000Z",
+    "expediente": "11001400303420170083400",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "etapaProcesal": "SENTENCIA",
     "fechaPresentacion": "2017-06-20T00:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 18,
+        "tipo": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-07-10T00:00:00.000Z",
     "obligacion": [
       6820082421,
       "377815190381158 // 530371010816"
@@ -32,13 +39,6 @@
     "vencimientoPagare": [
       "2020-04-10T00:00:00.000Z"
     ],
-    "expediente": "11001400303420170083400",
-    "juzgados": [
-      {
-        "id": 18,
-        "tipo": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

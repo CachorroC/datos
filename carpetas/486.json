@@ -1,35 +1,33 @@
 {
   "llaveProceso": "11001418900520180021000",
-  "numero": 486,
-  "cc": 40776578,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 486,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 40776578,
+    "direccion": "carrera 26b no 28-30  sur int 2",
+    "email": "salonmur@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "sandra",
     "segundoNombre": "patricia",
     "primerApellido": "londoño",
-    "segundoApellido": "murcia",
-    "cedula": 40776578,
-    "direccion": "carrera 26b no 28-30  sur int 2",
-    "email": "salonmur@hotmail.com"
+    "segundoApellido": "murcia"
   },
+  "cc": 40776578,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-10-08T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001418900520180021000",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2018-10-08T05:00:00.000Z",
     "etapaProcesal": "ADMISION",
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": null,
     "obligacion": [2330066914],
     "radicado": "2018 - 00210",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "11001418900520180021000",
-    "juzgados": []
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

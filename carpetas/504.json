@@ -1,34 +1,34 @@
 {
   "llaveProceso": "25740410300120180037000",
-  "numero": 504,
-  "cc": 52432037,
-  "idProcesos": [],
   "category": "Terminados",
+  "codeudor": { "direccion": "22-08-2022" },
+  "numero": 504,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 52432037,
+    "direccion": null,
+    "email": null,
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "ana",
     "segundoNombre": "del",
     "primerApellido": "pilar",
-    "segundoApellido": "mendez amaya",
-    "cedula": 52432037,
-    "direccion": null,
-    "email": null
+    "segundoApellido": "mendez amaya"
   },
-  "codeudor": { "direccion": "22-08-2022" },
+  "cc": 52432037,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "25740410300120180037000",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "29-10-2018",
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "SIBATE",
+    "mandamientoPago": null,
     "obligacion": ["26.315.289.23"],
     "radicado": "2018 - 00370",
     "vencimientoPagare": [null],
-    "expediente": "25740410300120180037000",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

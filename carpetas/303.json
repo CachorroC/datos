@@ -1,11 +1,18 @@
 {
   "llaveProceso": "11001400303020170157900",
-  "numero": 303,
-  "cc": 1118532643,
-  "idProcesos": [50778160],
   "category": "Terminados",
+  "codeudor": {
+    "cedula": 74377064,
+    "direccion": "MANZANA A CASA 6 LA SALINA",
+    "nombre": "carlos andres rodriguez herrera",
+    "telefono": "F 2776196"
+  },
+  "numero": 303,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 1118532643,
+    "direccion": "carrera 16 no 66 a 16",
+    "email": "willintong950@gmail.com  rafaelalfonsocamachovelandia@gmail.com",
     "tel": {
       "fijo": 7170610,
       "celular": 3202777672
@@ -13,26 +20,26 @@
     "primerNombre": "rafael",
     "segundoNombre": "alfonso",
     "primerApellido": "camacho",
-    "segundoApellido": "velandia",
-    "cedula": 1118532643,
-    "direccion": "carrera 16 no 66 a 16",
-    "email": "willintong950@gmail.com  rafaelalfonsocamachovelandia@gmail.com"
+    "segundoApellido": "velandia"
   },
-  "codeudor": {
-    "cedula": 74377064,
-    "direccion": "MANZANA A CASA 6 LA SALINA",
-    "nombre": "carlos andres rodriguez herrera",
-    "telefono": "F 2776196"
-  },
+  "cc": 1118532643,
+  "idProcesos": [50778160],
   "demanda": {
-    "capitalAdeudado": 12534.383,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-16T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-12T00:00:00.000Z",
+    "expediente": "11001400303020170157900",
+    "capitalAdeudado": 12534.383,
+    "entregaGarantiasAbogado": "2017-09-16T00:00:00.000Z",
     "etapaProcesal": "1.100140030302017e+22",
     "fechaPresentacion": null,
+    "juzgados": [
+      {
+        "id": 10,
+        "tipo": "JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-10-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-10-12T00:00:00.000Z",
     "obligacion": [
       "2620088246 / 3777813457586759",
       4594250105313477
@@ -41,13 +48,6 @@
     "vencimientoPagare": [
       "2020-07-14T00:00:00.000Z"
     ],
-    "expediente": "11001400303020170157900",
-    "juzgados": [
-      {
-        "id": 10,
-        "tipo": "JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-10-de-ejecucion-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

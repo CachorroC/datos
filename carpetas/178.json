@@ -1,32 +1,39 @@
 {
   "llaveProceso": "11001400306620170122100",
-  "numero": 178,
-  "cc": 37861286,
-  "idProcesos": [112657130],
   "category": "Terminados",
+  "numero": 178,
   "tipoProceso": "PRENDARO",
   "deudor": {
+    "cedula": 37861286,
+    "direccion": "diagonal 52# 3 - 24 apto 50",
+    "email": "maryluzocasiones1104.p@hotmail.com",
     "tel": {
       "fijo": 7675057,
       "celular": 3156780088
     },
     "primerNombre": "maryluz",
-    "segundoNombre": null,
     "primerApellido": "ocasiones",
     "segundoApellido": "pinzon",
-    "cedula": 37861286,
-    "direccion": "diagonal 52# 3 - 24 apto 50",
-    "email": "maryluzocasiones1104.p@hotmail.com"
+    "segundoNombre": null
   },
+  "cc": 37861286,
+  "idProcesos": [112657130],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-06T00:00:00.000Z",
+    "expediente": "11001400306620170122100",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 66,
+        "tipo": "JUZGADO 066 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-066-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-09-06T00:00:00.000Z",
     "obligacion": [
       4099831431615063,
       "5303715050478433 // 5306940349167962 // 12641256"
@@ -35,13 +42,6 @@
     "vencimientoPagare": [
       "2017-08-15T00:00:00.000Z"
     ],
-    "expediente": "11001400306620170122100",
-    "juzgados": [
-      {
-        "id": 66,
-        "tipo": "JUZGADO 066 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-066-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

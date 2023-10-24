@@ -1,11 +1,18 @@
 {
   "llaveProceso": "11001400306120170079300",
-  "numero": 139,
-  "cc": 20896387,
-  "idProcesos": [50655580],
   "category": "Terminados",
+  "codeudor": {
+    "cedula": "18153551 DNI",
+    "direccion": "CARRERA 32 # 18 - 31 SUR",
+    "nombre": "jose maria villacampa ainsa",
+    "telefono": 3204955563
+  },
+  "numero": 139,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 20896387,
+    "direccion": "carrera 32 # 18 - 31 sur",
+    "email": "jose_agudelo@juancarpas.edu.com",
     "tel": {
       "fijo": 7502262,
       "celular": 3204955563
@@ -13,38 +20,29 @@
     "primerNombre": "ana",
     "segundoNombre": "emilce",
     "primerApellido": "rojas",
-    "segundoApellido": "sarmiento",
-    "cedula": 20896387,
-    "direccion": "carrera 32 # 18 - 31 sur",
-    "email": "jose_agudelo@juancarpas.edu.com"
+    "segundoApellido": "sarmiento"
   },
-  "codeudor": {
-    "cedula": "18153551 DNI",
-    "direccion": "CARRERA 32 # 18 - 31 SUR",
-    "nombre": "jose maria villacampa ainsa",
-    "telefono": 3204955563
-  },
+  "cc": 20896387,
+  "idProcesos": [50655580],
   "demanda": {
-    "capitalAdeudado": 91986.323,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-29T00:00:00.000Z",
+    "expediente": "11001400306120170079300",
+    "capitalAdeudado": 91986.323,
+    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-08-23T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [146579],
-    "radicado": "2017 - 00793",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "11001400306120170079300",
     "juzgados": [
       {
         "id": 61,
         "tipo": "JUZGADO 061 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-61-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-09-29T00:00:00.000Z",
+    "obligacion": [146579],
+    "radicado": "2017 - 00793",
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

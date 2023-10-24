@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400308120180011100",
-  "numero": 379,
-  "cc": 79804965,
-  "idProcesos": [51918100, 81806941],
   "category": "Terminados",
+  "numero": 379,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 79804965,
+    "direccion": "calle 36c no 3a - 25",
+    "email": "jhondoblea@hotmail.com",
     "tel": {
       "fijo": 5686327,
       "celular": 3157236856
@@ -13,26 +14,17 @@
     "primerNombre": "jhon",
     "segundoNombre": "alexander",
     "primerApellido": "alarcon",
-    "segundoApellido": "galvis",
-    "cedula": 79804965,
-    "direccion": "calle 36c no 3a - 25",
-    "email": "jhondoblea@hotmail.com"
+    "segundoApellido": "galvis"
   },
+  "cc": 79804965,
+  "idProcesos": [51918100, 81806941],
   "demanda": {
-    "capitalAdeudado": 40292.98,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-11-01T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400308120180011100",
+    "capitalAdeudado": 40292.98,
+    "entregaGarantiasAbogado": "2018-11-01T05:00:00.000Z",
     "etapaProcesal": "1.100140030812018e+22",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [155380],
-    "radicado": "2018 - 00111",
-    "vencimientoPagare": [
-      "2027-08-31T00:00:00.000Z"
-    ],
-    "expediente": "11001400308120180011100",
     "juzgados": [
       {
         "id": 5,
@@ -44,6 +36,14 @@
         "tipo": "JUZGADO 081 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-081-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [155380],
+    "radicado": "2018 - 00111",
+    "vencimientoPagare": [
+      "2027-08-31T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

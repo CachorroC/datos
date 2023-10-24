@@ -1,41 +1,39 @@
 {
   "llaveProceso": "11001400303820180083500",
-  "numero": 455,
-  "cc": 52434815,
-  "idProcesos": [9093813],
   "category": "Terminados",
+  "numero": 455,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 52434815,
+    "direccion": "calle 43 sur no 51f-23 piso 2",
+    "email": "yemargol@yahoo.es",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "yenny",
     "segundoNombre": "marcela",
     "primerApellido": "gomez",
-    "segundoApellido": "olarte",
-    "cedula": 52434815,
-    "direccion": "calle 43 sur no 51f-23 piso 2",
-    "email": "yemargol@yahoo.es"
+    "segundoApellido": "olarte"
   },
+  "cc": 52434815,
+  "idProcesos": [9093813],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-06-29T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-08-02T00:00:00.000Z",
+    "expediente": "11001400303820180083500",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2018-06-29T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2018-07-06T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": ["AUDIOPRESTAMO"],
-    "radicado": "2018 - 00835",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "11001400303820180083500",
     "juzgados": [
       {
         "id": 38,
         "tipo": "JUZGADO 038 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-038-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-08-02T00:00:00.000Z",
+    "obligacion": ["AUDIOPRESTAMO"],
+    "radicado": "2018 - 00835",
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

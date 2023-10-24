@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400304120170114000",
-  "numero": 283,
-  "cc": 1010188573,
-  "idProcesos": [50772500],
   "category": "Terminados",
+  "numero": 283,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 1010188573,
+    "direccion": "calle 6 d no 88 d 59  apartamento  402",
+    "email": "jansonmalak@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "janson",
     "segundoNombre": "david",
     "primerApellido": "carreño",
-    "segundoApellido": "quijano",
-    "cedula": 1010188573,
-    "direccion": "calle 6 d no 88 d 59  apartamento  402",
-    "email": "jansonmalak@hotmail.com"
+    "segundoApellido": "quijano"
   },
+  "cc": 1010188573,
+  "idProcesos": [50772500],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-26T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-01-19T00:00:00.000Z",
+    "expediente": "11001400304120170114000",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-09-26T00:00:00.000Z",
     "etapaProcesal": "LIQUIDACION",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [1860086996],
-    "radicado": "2017 - 01140",
-    "vencimientoPagare": [
-      "2017-07-20T00:00:00.000Z"
-    ],
-    "expediente": "11001400304120170114000",
     "juzgados": [
       {
         "id": 18,
         "tipo": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-18-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-01-19T00:00:00.000Z",
+    "obligacion": [1860086996],
+    "radicado": "2017 - 01140",
+    "vencimientoPagare": [
+      "2017-07-20T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

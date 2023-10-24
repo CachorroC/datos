@@ -1,29 +1,30 @@
 {
   "llaveProceso": "11001400370820170018400",
-  "numero": 311,
-  "cc": 32730630,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 311,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 32730630,
+    "direccion": "carrera 65 no 22 a- 43 apartamento 1002- 5",
+    "email": "pa_pinzon@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "paula",
     "segundoNombre": "andrea",
     "primerApellido": "pinzon",
-    "segundoApellido": "otalvaro",
-    "cedula": 32730630,
-    "direccion": "carrera 65 no 22 a- 43 apartamento 1002- 5",
-    "email": "pa_pinzon@hotmail.com"
+    "segundoApellido": "otalvaro"
   },
+  "cc": 32730630,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-10-24T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-11-02T00:00:00.000Z",
+    "expediente": "11001400370820170018400",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-10-24T00:00:00.000Z",
     "etapaProcesal": "LIQUIDACION",
     "fechaPresentacion": "2017-10-31T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-11-02T00:00:00.000Z",
     "obligacion": [
       "AUDIOPRESTAMO",
       "00377815346213420"
@@ -32,7 +33,6 @@
     "vencimientoPagare": [
       "2017-07-20T00:00:00.000Z"
     ],
-    "expediente": "11001400370820170018400",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

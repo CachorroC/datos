@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400303220230090400",
-  "numero": 555,
-  "cc": 53130409,
-  "idProcesos": [132048330],
   "category": "Bancolombia",
+  "numero": 555,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 53130409,
+    "direccion": "cl 55 bis 16 48 apartamento 702 edificio bangkok",
+    "email": "jsquiroga72@hotmail.com",
     "tel": {
       "fijo": 3917539,
       "celular": 3506509064
@@ -13,32 +14,31 @@
     "primerNombre": "jeimmy",
     "segundoNombre": "soley",
     "primerApellido": "quiroga",
-    "segundoApellido": "ramirez",
-    "cedula": 53130409,
-    "direccion": "cl 55 bis 16 48 apartamento 702 edificio bangkok",
-    "email": "jsquiroga72@hotmail.com"
+    "segundoApellido": "ramirez"
   },
+  "cc": 53130409,
+  "idProcesos": [132048330],
   "demanda": {
-    "capitalAdeudado": 80906.224,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400303220230090400",
+    "capitalAdeudado": 80906224,
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [1920089307],
-    "radicado": "2023 - 00904",
-    "vencimientoPagare": [
-      "2026-03-04T00:00:00.000Z"
-    ],
-    "expediente": "11001400303220230090400",
     "juzgados": [
       {
         "id": 32,
         "tipo": "JUZGADO 032 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-032-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [1920089307],
+    "radicado": "2023 - 00904",
+    "vencimientoPagare": [
+      "2026-03-04T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

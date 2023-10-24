@@ -1,11 +1,18 @@
 {
   "llaveProceso": "11001400307820170123500",
-  "numero": 367,
-  "cc": 79416270,
-  "idProcesos": [88297260],
   "category": "Terminados",
+  "codeudor": {
+    "cedula": 52019717,
+    "direccion": "CALLE 130 C BIS A No 99-49",
+    "nombre": "carmen rojas cardenas",
+    "telefono": "F 6876682"
+  },
+  "numero": 367,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 79416270,
+    "direccion": "calle 130 c bis a no 99-49",
+    "email": "amezquitapaa@gmail.com",
     "tel": {
       "fijo": 6481255,
       "celular": 3144899865
@@ -13,38 +20,31 @@
     "primerNombre": "andres",
     "segundoNombre": "antonio",
     "primerApellido": "",
-    "segundoApellido": "amezquita paez",
-    "cedula": 79416270,
-    "direccion": "calle 130 c bis a no 99-49",
-    "email": "amezquitapaa@gmail.com"
+    "segundoApellido": "amezquita paez"
   },
-  "codeudor": {
-    "cedula": 52019717,
-    "direccion": "CALLE 130 C BIS A No 99-49",
-    "nombre": "carmen rojas cardenas",
-    "telefono": "F 6876682"
-  },
+  "cc": 79416270,
+  "idProcesos": [88297260],
   "demanda": {
-    "capitalAdeudado": 29419.277,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-01-12T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-12-12T05:00:00.000Z",
+    "expediente": "11001400307820170123500",
+    "capitalAdeudado": 29419.277,
+    "entregaGarantiasAbogado": "2017-01-12T05:00:00.000Z",
     "etapaProcesal": "1.1001400307820171e+22",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [168725],
-    "radicado": "2017 - 01235",
-    "vencimientoPagare": [
-      "2033-10-10T05:00:00.000Z"
-    ],
-    "expediente": "11001400307820170123500",
     "juzgados": [
       {
         "id": 1,
         "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-12-12T05:00:00.000Z",
+    "obligacion": [168725],
+    "radicado": "2017 - 01235",
+    "vencimientoPagare": [
+      "2033-10-10T05:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

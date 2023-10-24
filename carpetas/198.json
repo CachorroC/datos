@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400304020170132900",
-  "numero": 198,
-  "cc": 1012318156,
-  "idProcesos": [19150031],
   "category": "Terminados",
+  "numero": 198,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 1012318156,
+    "direccion": "carrera 80m # 74 - 04 sur",
+    "email": "hectormanuelverdolaga@gmail.com",
     "tel": {
       "fijo": 3142498,
       "celular": 3142998727
@@ -13,32 +14,31 @@
     "primerNombre": "hector",
     "segundoNombre": "manuel",
     "primerApellido": "ramirez",
-    "segundoApellido": "puentes",
-    "cedula": 1012318156,
-    "direccion": "carrera 80m # 74 - 04 sur",
-    "email": "hectormanuelverdolaga@gmail.com"
+    "segundoApellido": "puentes"
   },
+  "cc": 1012318156,
+  "idProcesos": [19150031],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400304020170132900",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": "2017-09-04T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [167542],
-    "radicado": "2017 - 01329",
-    "vencimientoPagare": [
-      "2028-09-03T00:00:00.000Z"
-    ],
-    "expediente": "11001400304020170132900",
     "juzgados": [
       {
         "id": 40,
         "tipo": "JUZGADO 040 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-40-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [167542],
+    "radicado": "2017 - 01329",
+    "vencimientoPagare": [
+      "2028-09-03T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400301420170066700",
-  "numero": 8,
-  "cc": 79642493,
-  "idProcesos": [50465740],
   "category": "Terminados",
+  "numero": 8,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 79642493,
+    "direccion": "calle 118 no. 18-65 apto 504 anaya el parque bogota",
+    "email": null,
     "tel": {
       "fijo": null,
       "celular": 3106980002
@@ -13,32 +14,31 @@
     "primerNombre": "jose",
     "segundoNombre": "wilson",
     "primerApellido": "rojas",
-    "segundoApellido": "valdes",
-    "cedula": 79642493,
-    "direccion": "calle 118 no. 18-65 apto 504 anaya el parque bogota",
-    "email": null
+    "segundoApellido": "valdes"
   },
+  "cc": 79642493,
+  "idProcesos": [50465740],
   "demanda": {
-    "capitalAdeudado": 25758.912,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400301420170066700",
+    "capitalAdeudado": 25758.912,
+    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-05-24T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [2008124],
-    "radicado": "2017 - 00667",
-    "vencimientoPagare": [
-      "2020-04-20T00:00:00.000Z"
-    ],
-    "expediente": "11001400301420170066700",
     "juzgados": [
       {
         "id": 14,
         "tipo": "JUZGADO 014 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-014-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [2008124],
+    "radicado": "2017 - 00667",
+    "vencimientoPagare": [
+      "2020-04-20T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001310301720170036000",
-  "numero": 67,
-  "cc": 78076295,
-  "idProcesos": [28881194],
   "category": "Terminados",
+  "numero": 67,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 78076295,
+    "direccion": "cl 106 no. 50-21 bogota",
+    "email": "havena@ingeobrasas.com",
     "tel": {
       "fijo": null,
       "celular": 3005146155
@@ -13,20 +14,26 @@
     "primerNombre": "humberto",
     "segundoNombre": "enrique",
     "primerApellido": "avena",
-    "segundoApellido": "corrales",
-    "cedula": 78076295,
-    "direccion": "cl 106 no. 50-21 bogota",
-    "email": "havena@ingeobrasas.com"
+    "segundoApellido": "corrales"
   },
+  "cc": 78076295,
+  "idProcesos": [28881194],
   "demanda": {
-    "capitalAdeudado": 173618623,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-06-20T00:00:00.000Z",
+    "expediente": "11001310301720170036000",
+    "capitalAdeudado": 173618623,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "etapaProcesal": "1.10014003047201e+50",
     "fechaPresentacion": null,
+    "juzgados": [
+      {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-del-circuito-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-06-20T00:00:00.000Z",
     "obligacion": [
       "5303716461821906//5306948999859317//12611392",
       "4513072520491185//0377815106380054//12496791"
@@ -35,13 +42,6 @@
     "vencimientoPagare": [
       "2018-06-23T00:00:00.000Z"
     ],
-    "expediente": "11001310301720170036000",
-    "juzgados": [
-      {
-        "id": 1,
-        "tipo": "JUZGADO 001 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-del-circuito-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

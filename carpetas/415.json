@@ -1,40 +1,40 @@
 {
   "llaveProceso": "11001400304320180047400",
-  "numero": 415,
-  "cc": 1024479982,
-  "idProcesos": [9342243],
   "category": "Terminados",
+  "codeudor": { "direccion": 49996 },
+  "numero": 415,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 1024479982,
+    "direccion": null,
+    "email": "CALLE 61 SUR No 20 D-60 INT11  APTO 501",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "ingrid",
     "segundoNombre": "catherine",
     "primerApellido": "tapias",
-    "segundoApellido": "rico",
-    "cedula": 1024479982,
-    "direccion": null,
-    "email": "CALLE 61 SUR No 20 D-60 INT11  APTO 501"
+    "segundoApellido": "rico"
   },
-  "codeudor": { "direccion": 49996 },
+  "cc": 1024479982,
+  "idProcesos": [9342243],
   "demanda": {
-    "capitalAdeudado": 43,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400304320180047400",
+    "capitalAdeudado": 43,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "43217",
     "fechaPresentacion": "2018-06-13T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [5303710076309980, 3378591161],
-    "radicado": "2018 - 00474",
-    "vencimientoPagare": [null],
-    "expediente": "11001400304320180047400",
     "juzgados": [
       {
         "id": 43,
         "tipo": "JUZGADO 043 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-43-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [5303710076309980, 3378591161],
+    "radicado": "2018 - 00474",
+    "vencimientoPagare": [null],
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001418904120230021200",
-  "numero": 578,
-  "cc": 35422519,
-  "idProcesos": [132645230],
   "category": "Bancolombia",
+  "numero": 578,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 35422519,
+    "direccion": "cl 4 16 10 ap 201 barrio algarra iii",
+    "email": "dicrisare@gmail.com",
     "tel": {
       "fijo": null,
       "celular": 3203172020
@@ -13,33 +14,32 @@
     "primerNombre": "diana",
     "segundoNombre": "cristina",
     "primerApellido": "arevalo",
-    "segundoApellido": "arboleda",
-    "cedula": 35422519,
-    "direccion": "cl 4 16 10 ap 201 barrio algarra iii",
-    "email": "dicrisare@gmail.com"
+    "segundoApellido": "arboleda"
   },
+  "cc": 35422519,
+  "idProcesos": [132645230],
   "demanda": {
-    "capitalAdeudado": 140332.319,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2021-08-18T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001418904120230021200",
+    "capitalAdeudado": 140332319,
+    "entregaGarantiasAbogado": "2021-08-18T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
-    "municipio": "ZIPAQUIRA",
-    "obligacion": [
-      3320096675,
-      "83942050 X T.C MASTER 5491580158404844 Y AMERICAN 377816059851588"
-    ],
-    "radicado": "2023 - 00442",
-    "vencimientoPagare": [null, null],
-    "expediente": "11001418904120230021200",
     "juzgados": [
       {
         "id": 41,
         "tipo": "JUZGADO 041 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
         "url": "https://www.ramajudicial.gov.cojuzgado-041-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
       }
-    ]
+    ],
+    "municipio": "ZIPAQUIRA",
+    "mandamientoPago": null,
+    "obligacion": [
+      3320096675,
+      "83942050 X T.C MASTER 5491580158404844 Y AMERICAN 377816059851588"
+    ],
+    "radicado": "2023 - 00442",
+    "vencimientoPagare": [null, null],
+    "departamento": "CUNDINAMARCA"
   }
 }

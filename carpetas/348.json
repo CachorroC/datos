@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400300120170130900",
-  "numero": 348,
-  "cc": 41688661,
-  "idProcesos": [50764880],
   "category": "Reintegra",
+  "numero": 348,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 41688661,
+    "direccion": "carrera 8 no 190 - 22 hoy carrera 31 no. 190-04",
+    "email": "anabeatrizcorredor@yahoo.es",
     "tel": {
       "fijo": 5101587,
       "celular": 3106630177
@@ -13,33 +14,32 @@
     "primerNombre": "ana",
     "segundoNombre": "beatriz",
     "primerApellido": "corredor",
-    "segundoApellido": "rivera",
-    "cedula": 41688661,
-    "direccion": "carrera 8 no 190 - 22 hoy carrera 31 no. 190-04",
-    "email": "anabeatrizcorredor@yahoo.es"
+    "segundoApellido": "rivera"
   },
+  "cc": 41688661,
+  "idProcesos": [50764880],
   "demanda": {
-    "capitalAdeudado": 76735.593,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-28T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-10T00:00:00.000Z",
+    "expediente": "11001400300120170130900",
+    "capitalAdeudado": 76735593,
+    "entregaGarantiasAbogado": "2017-09-28T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-10-06T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [6260082762, 377813367146983],
-    "radicado": "2017 - 01309",
-    "vencimientoPagare": [
-      "2021-02-12T05:00:00.000Z",
-      "2020-03-09T05:00:00.000Z"
-    ],
-    "expediente": "11001400300120170130900",
     "juzgados": [
       {
         "id": 10,
         "tipo": "JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-10-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-10-10T00:00:00.000Z",
+    "obligacion": [6260082762, 377813367146983],
+    "radicado": "2017 - 01309",
+    "vencimientoPagare": [
+      "2021-02-12T05:00:00.000Z",
+      "2020-03-09T05:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

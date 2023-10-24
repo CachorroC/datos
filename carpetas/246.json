@@ -1,50 +1,50 @@
 {
   "llaveProceso": "11001400304720180024200",
-  "numero": 246,
-  "cc": 79805533,
-  "idProcesos": [10416913],
   "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "deudor": {
-    "tel": {
-      "fijo": 7696884,
-      "celular": 3204979488
-    },
-    "primerNombre": "edwin",
-    "segundoNombre": null,
-    "primerApellido": "buitrago",
-    "segundoApellido": "villamil",
-    "cedula": 79805533,
-    "direccion": "carrera 26 no 44-76 sur",
-    "email": null
-  },
   "codeudor": {
     "cedula": 52228840,
     "direccion": "CARRERA 26 No 44-76 SUR",
     "nombre": "sandra janneth buitago bernal",
     "telefono": "7692061 /2077527"
   },
+  "numero": 246,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "cedula": 79805533,
+    "direccion": "carrera 26 no 44-76 sur",
+    "email": null,
+    "tel": {
+      "fijo": 7696884,
+      "celular": 3204979488
+    },
+    "primerNombre": "edwin",
+    "primerApellido": "buitrago",
+    "segundoApellido": "villamil",
+    "segundoNombre": null
+  },
+  "cc": 79805533,
+  "idProcesos": [10416913],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-13T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400304720180024200",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-09-13T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": "2017-09-19T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [113645],
-    "radicado": "2018 - 00242",
-    "vencimientoPagare": [
-      "2023-11-21T00:00:00.000Z"
-    ],
-    "expediente": "11001400304720180024200",
     "juzgados": [
       {
         "id": 47,
         "tipo": "JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-047-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [113645],
+    "radicado": "2018 - 00242",
+    "vencimientoPagare": [
+      "2023-11-21T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

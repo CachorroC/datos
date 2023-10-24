@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400301420170098800",
-  "numero": 119,
-  "cc": 79693495,
-  "idProcesos": [50633790],
   "category": "Terminados",
+  "numero": 119,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 79693495,
+    "direccion": "diagonal 2a suer # 78l - 81 apto 501b",
+    "email": "carolcecesar@gmail.com",
     "tel": {
       "fijo": 4610722,
       "celular": 3103789233
@@ -13,32 +14,31 @@
     "primerNombre": "cesar",
     "segundoNombre": "augusto",
     "primerApellido": "gil",
-    "segundoApellido": "gallego",
-    "cedula": 79693495,
-    "direccion": "diagonal 2a suer # 78l - 81 apto 501b",
-    "email": "carolcecesar@gmail.com"
+    "segundoApellido": "gallego"
   },
+  "cc": 79693495,
+  "idProcesos": [50633790],
   "demanda": {
-    "capitalAdeudado": 20987589,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-19T00:00:00.000Z",
+    "expediente": "11001400301420170098800",
+    "capitalAdeudado": 20987589,
+    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-08-11T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [450087082],
-    "radicado": "2017 - 00988",
-    "vencimientoPagare": [
-      "2019-05-13T00:00:00.000Z"
-    ],
-    "expediente": "11001400301420170098800",
     "juzgados": [
       {
         "id": 14,
         "tipo": "JUZGADO 014 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-014-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-09-19T00:00:00.000Z",
+    "obligacion": [450087082],
+    "radicado": "2017 - 00988",
+    "vencimientoPagare": [
+      "2019-05-13T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

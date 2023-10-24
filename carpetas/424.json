@@ -1,33 +1,33 @@
 {
   "llaveProceso": "110014003015201800459",
-  "numero": 424,
-  "cc": 79742224,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 424,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 79742224,
+    "direccion": "calle 31a no 22-13 sur",
+    "email": "leo-sosa44@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "jaime",
     "segundoNombre": "leonardo",
     "primerApellido": "sosa",
-    "segundoApellido": "roodriguez",
-    "cedula": 79742224,
-    "direccion": "calle 31a no 22-13 sur",
-    "email": "leo-sosa44@hotmail.com"
+    "segundoApellido": "roodriguez"
   },
+  "cc": 79742224,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-04-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2019-07-04T00:00:00.000Z",
+    "expediente": "110014003015201800459",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2018-04-12T00:00:00.000Z",
     "etapaProcesal": "1.100140030152018e+22",
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2019-07-04T00:00:00.000Z",
     "obligacion": [6980085367],
     "radicado": "2018 - 00459",
     "vencimientoPagare": [null],
-    "expediente": "110014003015201800459",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

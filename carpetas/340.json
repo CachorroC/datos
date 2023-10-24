@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400306020170101400",
-  "numero": 340,
-  "cc": 79573945,
-  "idProcesos": [50788330],
   "category": "Terminados",
+  "numero": 340,
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "william",
-    "segundoNombre": null,
-    "primerApellido": "cortes",
-    "segundoApellido": "rojas",
     "cedula": 79573945,
     "direccion": "carrera 19  no 56 a  sur - 72",
-    "email": "cubrimage@hotmail.com"
+    "email": "cubrimage@hotmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "william",
+    "primerApellido": "cortes",
+    "segundoApellido": "rojas",
+    "segundoNombre": null
   },
+  "cc": 79573945,
+  "idProcesos": [50788330],
   "demanda": {
-    "capitalAdeudado": 14986.915,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-10-04T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-10T00:00:00.000Z",
+    "expediente": "11001400306020170101400",
+    "capitalAdeudado": 14986.915,
+    "entregaGarantiasAbogado": "2017-10-04T00:00:00.000Z",
     "etapaProcesal": "1.100140030602017e+22",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [6690082032],
-    "radicado": "2017 - 01014",
-    "vencimientoPagare": [
-      "2018-09-25T00:00:00.000Z"
-    ],
-    "expediente": "11001400306020170101400",
     "juzgados": [
       {
         "id": 13,
         "tipo": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-13-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-10-10T00:00:00.000Z",
+    "obligacion": [6690082032],
+    "radicado": "2017 - 01014",
+    "vencimientoPagare": [
+      "2018-09-25T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

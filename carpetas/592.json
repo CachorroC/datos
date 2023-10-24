@@ -1,11 +1,18 @@
 {
   "llaveProceso": null,
-  "numero": 592,
-  "cc": 79888775,
-  "idProcesos": [],
   "category": "Bancolombia",
+  "codeudor": {
+    "cedula": 52791903,
+    "direccion": "CALLE 6 SUR No. 24 - 180 AP 1203 TO 7 CONJUNTO RESIDENCIAL LA PROSPERIDAD - FONTANA 3 P.H.",
+    "nombre": "viviana martinez arias",
+    "telefono": "F 4575011 CELULAR 3209005114"
+  },
+  "numero": 592,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 79888775,
+    "direccion": "calle 6 sur no. 24 - 180 ap 1203 to 7 conjunto residencial \"la prosperidad - fontana 3 p.h. madrid - cundinamarca",
+    "email": "marcel-leo@hotmail.com dillavivi@hotmail.com",
     "tel": {
       "fijo": 4575011,
       "celular": 3209005114
@@ -13,32 +20,25 @@
     "primerNombre": "marcel",
     "segundoNombre": "leonardo",
     "primerApellido": "machado",
-    "segundoApellido": "romero",
-    "cedula": 79888775,
-    "direccion": "calle 6 sur no. 24 - 180 ap 1203 to 7 conjunto residencial \"la prosperidad - fontana 3 p.h. madrid - cundinamarca",
-    "email": "marcel-leo@hotmail.com dillavivi@hotmail.com"
+    "segundoApellido": "romero"
   },
-  "codeudor": {
-    "cedula": 52791903,
-    "direccion": "CALLE 6 SUR No. 24 - 180 AP 1203 TO 7 CONJUNTO RESIDENCIAL LA PROSPERIDAD - FONTANA 3 P.H.",
-    "nombre": "viviana martinez arias",
-    "telefono": "F 4575011 CELULAR 3209005114"
-  },
+  "cc": 79888775,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 104393.034,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-10-13T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": null,
+    "capitalAdeudado": 104393034,
+    "entregaGarantiasAbogado": "2023-10-13T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "MADRID",
+    "mandamientoPago": null,
     "obligacion": [90000179396],
     "radicado": null,
     "vencimientoPagare": [
       "2052-02-21T00:00:00.000Z"
     ],
-    "expediente": null,
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

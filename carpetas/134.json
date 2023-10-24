@@ -1,11 +1,18 @@
 {
   "llaveProceso": "25430400300120170108300",
-  "numero": 134,
-  "cc": 80722626,
-  "idProcesos": [],
   "category": "Terminados",
+  "codeudor": {
+    "cedula": 23473890,
+    "direccion": "CALLE 31 # 3A 28",
+    "nombre": "clemencia parada amaya",
+    "telefono": 3138687321
+  },
+  "numero": 134,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 80722626,
+    "direccion": "carrera 2 # 1 - 04 bloque 8 apto 101",
+    "email": "fredy8221@hotmail.com",
     "tel": {
       "fijo": 8284768,
       "celular": 3105519200
@@ -13,32 +20,25 @@
     "primerNombre": "fredy",
     "segundoNombre": "alexander",
     "primerApellido": "bueno",
-    "segundoApellido": "parada",
-    "cedula": 80722626,
-    "direccion": "carrera 2 # 1 - 04 bloque 8 apto 101",
-    "email": "fredy8221@hotmail.com"
+    "segundoApellido": "parada"
   },
-  "codeudor": {
-    "cedula": 23473890,
-    "direccion": "CALLE 31 # 3A 28",
-    "nombre": "clemencia parada amaya",
-    "telefono": 3138687321
-  },
+  "cc": 80722626,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 54428.394,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-16T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "25430400300120170108300",
+    "capitalAdeudado": 54428.394,
+    "entregaGarantiasAbogado": "2017-08-16T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": "2017-08-24T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "MADRID",
+    "mandamientoPago": null,
     "obligacion": [167364, "377813624212172."],
     "radicado": "2017 - 01083",
     "vencimientoPagare": [
       "2028-08-28T00:00:00.000Z"
     ],
-    "expediente": "25430400300120170108300",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

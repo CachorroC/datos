@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400303520180037000",
-  "numero": 410,
-  "cc": 52304124,
-  "idProcesos": [51103200],
   "category": "Terminados",
+  "numero": 410,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 52304124,
+    "direccion": "transversal 4h no 31-17",
+    "email": "jennymontoyav@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "jenny",
     "segundoNombre": "liliana",
     "primerApellido": "montoya",
-    "segundoApellido": "villamil",
-    "cedula": 52304124,
-    "direccion": "transversal 4h no 31-17",
-    "email": "jennymontoyav@hotmail.com"
+    "segundoApellido": "villamil"
   },
+  "cc": 52304124,
+  "idProcesos": [51103200],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-05-07T00:00:00.000Z",
+    "expediente": "11001400303520180037000",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2018-03-04T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [450089940],
-    "radicado": "2018 - 00370",
-    "vencimientoPagare": [
-      "2018-12-02T05:00:00.000Z"
-    ],
-    "expediente": "11001400303520180037000",
     "juzgados": [
       {
         "id": 35,
         "tipo": "JUZGADO 035 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-35-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-05-07T00:00:00.000Z",
+    "obligacion": [450089940],
+    "radicado": "2018 - 00370",
+    "vencimientoPagare": [
+      "2018-12-02T05:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

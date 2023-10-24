@@ -1,33 +1,33 @@
 {
   "llaveProceso": "25175410300120180023700",
-  "numero": 419,
-  "cc": 73133278,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 419,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 73133278,
+    "direccion": null,
+    "email": "CALLE 1 SUR No 5A- 179 CASA 26",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "alvaro",
     "segundoNombre": "hernan",
     "primerApellido": "ruiz",
-    "segundoApellido": "hernandez",
-    "cedula": 73133278,
-    "direccion": null,
-    "email": "CALLE 1 SUR No 5A- 179 CASA 26"
+    "segundoApellido": "hernandez"
   },
+  "cc": 73133278,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 43,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "25175410300120180023700",
+    "capitalAdeudado": 43,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "43217",
     "fechaPresentacion": "2018-05-11T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "CHIA",
+    "mandamientoPago": null,
     "obligacion": [5303711851549150, 2045362597],
     "radicado": "2018 - 00237",
     "vencimientoPagare": [null],
-    "expediente": "25175410300120180023700",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

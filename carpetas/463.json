@@ -1,39 +1,27 @@
 {
   "llaveProceso": "11001418901420190065600",
-  "numero": 463,
-  "cc": 52883958,
-  "idProcesos": [51816100, 135801811],
   "category": "Bancolombia",
+  "numero": 463,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 52883958,
+    "direccion": "diagonal 2 no 21 b-20",
+    "email": "leidyyaneth.lyv@gmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "leidy",
     "segundoNombre": "yaneth",
     "primerApellido": "vidal",
-    "segundoApellido": "rodriguez",
-    "cedula": 52883958,
-    "direccion": "diagonal 2 no 21 b-20",
-    "email": "leidyyaneth.lyv@gmail.com"
+    "segundoApellido": "rodriguez"
   },
+  "cc": 52883958,
+  "idProcesos": [51816100, 135801811],
   "demanda": {
-    "capitalAdeudado": 24501.535,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-07-05T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2019-05-07T00:00:00.000Z",
+    "expediente": "11001418901420190065600",
+    "capitalAdeudado": 24501535,
+    "entregaGarantiasAbogado": "2018-07-05T00:00:00.000Z",
     "etapaProcesal": "CONTESTACION DEMANDA",
     "fechaPresentacion": "2018-07-12T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "AMERICAN 0377814037749057",
-      "VISA 4513083943843365 // MASTER 5303729958258417"
-    ],
-    "radicado": "2019 - 00656",
-    "vencimientoPagare": [
-      "2021-04-02T05:00:00.000Z",
-      null
-    ],
-    "expediente": "11001418901420190065600",
     "juzgados": [
       {
         "id": 14,
@@ -45,6 +33,18 @@
         "tipo": "JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
         "url": "https://www.ramajudicial.gov.cojuzgado-014-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2019-05-07T00:00:00.000Z",
+    "obligacion": [
+      "AMERICAN 0377814037749057",
+      "VISA 4513083943843365 // MASTER 5303729958258417"
+    ],
+    "radicado": "2019 - 00656",
+    "vencimientoPagare": [
+      "2021-04-02T05:00:00.000Z",
+      null
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

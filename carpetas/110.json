@@ -1,47 +1,47 @@
 {
   "llaveProceso": "11001400304520170077400",
-  "numero": 110,
-  "cc": 46677093,
-  "idProcesos": [50518680],
   "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "marlene",
-    "segundoNombre": null,
-    "primerApellido": "roncancio",
-    "segundoApellido": "benitez",
-    "cedula": 46677093,
-    "direccion": "calle 33 sur no. 82 b-06",
-    "email": null
-  },
   "codeudor": {
     "cedula": "1055962390//80072429",
     "direccion": "DIAGONAL 34 No. 82 B-06 (1) DIAGONAL 34 A No.81 F-13 (2)",
     "nombre": "jorge albeiro roncancio benitez y victor manuel perilla castañeda",
     "telefono": "3142888137(1) 3107509193 (2)"
   },
+  "numero": 110,
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "cedula": 46677093,
+    "direccion": "calle 33 sur no. 82 b-06",
+    "email": null,
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "marlene",
+    "primerApellido": "roncancio",
+    "segundoApellido": "benitez",
+    "segundoNombre": null
+  },
+  "cc": 46677093,
+  "idProcesos": [50518680],
   "demanda": {
-    "capitalAdeudado": 25119.879,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-06-20T00:00:00.000Z",
+    "expediente": "11001400304520170077400",
+    "capitalAdeudado": 25119.879,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "etapaProcesal": "1.100140030452017e+22",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [430103643],
-    "radicado": "2017 - 00774",
-    "vencimientoPagare": [
-      "2019-07-18T00:00:00.000Z"
-    ],
-    "expediente": "11001400304520170077400",
     "juzgados": [
       {
         "id": 14,
         "tipo": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-06-20T00:00:00.000Z",
+    "obligacion": [430103643],
+    "radicado": "2017 - 00774",
+    "vencimientoPagare": [
+      "2019-07-18T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

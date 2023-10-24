@@ -1,29 +1,30 @@
 {
   "llaveProceso": "1100141890342023098500",
-  "numero": 563,
-  "cc": 7718318,
-  "idProcesos": [],
   "category": "Bancolombia",
+  "numero": 563,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 7718318,
+    "direccion": "carrera 57 no. 60 a - 20",
+    "email": "milugo1111@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "milton",
     "segundoNombre": "marino",
     "primerApellido": "lugo",
-    "segundoApellido": "gomez",
-    "cedula": 7718318,
-    "direccion": "carrera 57 no. 60 a - 20",
-    "email": "milugo1111@hotmail.com"
+    "segundoApellido": "gomez"
   },
+  "cc": 7718318,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 39472.561,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "1100141890342023098500",
+    "capitalAdeudado": 39472561,
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": null,
     "obligacion": [
       "6890083869 // 6890084347",
       "2250084884 // TARJETA DE CRÉDITO AMERICAN EXPRESS No. 0377815043687256"
@@ -35,7 +36,6 @@
       "2025-04-05T05:00:00.000Z",
       null
     ],
-    "expediente": "1100141890342023098500",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

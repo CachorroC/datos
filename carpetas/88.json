@@ -1,38 +1,38 @@
 {
   "llaveProceso": "1100140030820170052800",
-  "numero": 88,
-  "cc": 51890871,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 88,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 51890871,
+    "direccion": "calle 6 no. 4-07 bogota",
+    "email": "lasmi40@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3103126814
     },
     "primerNombre": "idaly",
-    "segundoNombre": null,
     "primerApellido": "ferro",
     "segundoApellido": "cardona",
-    "cedula": 51890871,
-    "direccion": "calle 6 no. 4-07 bogota",
-    "email": "lasmi40@hotmail.com"
+    "segundoNombre": null
   },
+  "cc": 51890871,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 0,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-06-28T00:00:00.000Z",
+    "expediente": "1100140030820170052800",
+    "capitalAdeudado": 0,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-06-20T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-06-28T00:00:00.000Z",
     "obligacion": [12488415],
     "radicado": "2017 - 00528",
     "vencimientoPagare": [
       "2018-07-01T00:00:00.000Z"
     ],
-    "expediente": "1100140030820170052800",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

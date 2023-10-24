@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001418901020170011500",
-  "numero": 181,
-  "cc": 1033783222,
-  "idProcesos": [82132851],
   "category": "Terminados",
+  "numero": 181,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 1033783222,
+    "direccion": "calle 69j # 20b - 52",
+    "email": "leoguegar@hotmail.com",
     "tel": {
       "fijo": 7177769,
       "celular": 3103048137
@@ -13,32 +14,31 @@
     "primerNombre": "leonardo",
     "segundoNombre": "alirio",
     "primerApellido": "garcia",
-    "segundoApellido": "guerrero",
-    "cedula": 1033783222,
-    "direccion": "calle 69j # 20b - 52",
-    "email": "leoguegar@hotmail.com"
+    "segundoApellido": "guerrero"
   },
+  "cc": 1033783222,
+  "idProcesos": [82132851],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-05T00:00:00.000Z",
+    "expediente": "11001418901020170011500",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-08-28T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [12569604],
-    "radicado": "2017 - 00115",
-    "vencimientoPagare": [
-      "2017-08-16T00:00:00.000Z"
-    ],
-    "expediente": "11001418901020170011500",
     "juzgados": [
       {
         "id": 10,
         "tipo": "JUZGADO 010 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
         "url": "https://www.ramajudicial.gov.cojuzgado-010-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-10-05T00:00:00.000Z",
+    "obligacion": [12569604],
+    "radicado": "2017 - 00115",
+    "vencimientoPagare": [
+      "2017-08-16T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

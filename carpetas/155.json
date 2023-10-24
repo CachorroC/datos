@@ -1,39 +1,39 @@
 {
   "llaveProceso": "11001400308320170071700",
-  "numero": 155,
-  "cc": 71557211,
-  "idProcesos": [],
   "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "carlos",
-    "segundoNombre": "arturo",
-    "primerApellido": "rueda",
-    "segundoApellido": "alzate",
-    "cedula": 71557211,
-    "direccion": "calle 7 # 5 - 29 torre 8 apto 303",
-    "email": "ruedacarlos47@gmail.com"
-  },
   "codeudor": {
     "cedula": 53063756,
     "direccion": "CL 7 5 29 TR 8 AP 303",
     "nombre": "sullman janeth sabogal jimenez",
     "telefono": "6197842 // 3112563218"
   },
+  "numero": 155,
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "cedula": 71557211,
+    "direccion": "calle 7 # 5 - 29 torre 8 apto 303",
+    "email": "ruedacarlos47@gmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "carlos",
+    "segundoNombre": "arturo",
+    "primerApellido": "rueda",
+    "segundoApellido": "alzate"
+  },
+  "cc": 71557211,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 4042361408,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-04T00:00:00.000Z",
+    "expediente": "11001400308320170071700",
+    "capitalAdeudado": 4042361408,
+    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-08-11T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-09-04T00:00:00.000Z",
     "obligacion": [4513082821740149, 20990170294],
     "radicado": "2017 - 00717",
     "vencimientoPagare": [null],
-    "expediente": "11001400308320170071700",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

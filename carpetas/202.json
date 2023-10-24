@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400308520170128700",
-  "numero": 202,
-  "cc": 52488943,
-  "idProcesos": [51937670],
   "category": "Terminados",
+  "numero": 202,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 52488943,
+    "direccion": "calle 89 # 98 - 27",
+    "email": "tocami96@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "sonia",
     "segundoNombre": "mireya",
     "primerApellido": "pantoja",
-    "segundoApellido": "sandoval",
-    "cedula": 52488943,
-    "direccion": "calle 89 # 98 - 27",
-    "email": "tocami96@hotmail.com"
+    "segundoApellido": "sandoval"
   },
+  "cc": 52488943,
+  "idProcesos": [51937670],
   "demanda": {
-    "capitalAdeudado": 54240.143,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-28T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-04T00:00:00.000Z",
+    "expediente": "11001400308520170128700",
+    "capitalAdeudado": 54240.143,
+    "entregaGarantiasAbogado": "2017-08-28T00:00:00.000Z",
     "etapaProcesal": "1.1001400308520171e+22",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [151374],
-    "radicado": "2017 - 01287",
-    "vencimientoPagare": [
-      "2022-05-30T00:00:00.000Z"
-    ],
-    "expediente": "11001400308520170128700",
     "juzgados": [
       {
         "id": 20,
         "tipo": "JUZGADO 020 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-20-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-09-04T00:00:00.000Z",
+    "obligacion": [151374],
+    "radicado": "2017 - 01287",
+    "vencimientoPagare": [
+      "2022-05-30T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

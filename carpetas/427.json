@@ -1,41 +1,41 @@
 {
   "llaveProceso": "25126408900220180004800",
-  "numero": 427,
-  "cc": 1069738339,
-  "idProcesos": [86157021],
   "category": "Reintegra",
+  "numero": 427,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 1069738339,
+    "direccion": "vereda la 22 kilometro 30 (cajica) // vereda subia norte parte baja finca el rincon lote 2 (granada- cund): vereda subia norte parte baja finca el rincon lote 2 (granada - cund)",
+    "email": null,
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "juan",
     "segundoNombre": "camilo",
     "primerApellido": "chingate",
-    "segundoApellido": "penagos",
-    "cedula": 1069738339,
-    "direccion": "vereda la 22 kilometro 30 (cajica) // vereda subia norte parte baja finca el rincon lote 2 (granada- cund): vereda subia norte parte baja finca el rincon lote 2 (granada - cund)",
-    "email": null
+    "segundoApellido": "penagos"
   },
+  "cc": 1069738339,
+  "idProcesos": [86157021],
   "demanda": {
-    "capitalAdeudado": 21049.112,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-01-19T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-02-26T00:00:00.000Z",
+    "expediente": "25126408900220180004800",
+    "capitalAdeudado": 21049112,
+    "entregaGarantiasAbogado": "2018-01-19T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2018-02-01T00:00:00.000Z",
-    "municipio": "CAJICA",
-    "obligacion": [12730779],
-    "radicado": "2018 - 00048",
-    "vencimientoPagare": [
-      "2021-01-16T00:00:00.000Z"
-    ],
-    "expediente": "25126408900220180004800",
     "juzgados": [
       {
         "id": 2,
         "tipo": "JUZGADO 002 PROMISCUO MUNICIPAL DE CAJICÁ ",
         "url": "https://www.ramajudicial.gov.cojuzgado-002-promiscuo-municipal-de-cajicá-"
       }
-    ]
+    ],
+    "municipio": "CAJICA",
+    "mandamientoPago": "2018-02-26T00:00:00.000Z",
+    "obligacion": [12730779],
+    "radicado": "2018 - 00048",
+    "vencimientoPagare": [
+      "2021-01-16T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

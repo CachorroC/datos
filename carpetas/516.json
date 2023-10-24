@@ -1,43 +1,41 @@
 {
   "llaveProceso": "11001418901420190019000",
-  "numero": 516,
-  "cc": 79245905,
-  "idProcesos": [51786190],
   "category": "Terminados",
+  "numero": 516,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 79245905,
+    "direccion": "calle 116 a- 70g-48 apto 204",
+    "email": "asplucal@gmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "alvaro",
     "segundoNombre": "luis",
     "primerApellido": "asprilla",
-    "segundoApellido": "lucumi",
-    "cedula": 79245905,
-    "direccion": "calle 116 a- 70g-48 apto 204",
-    "email": "asplucal@gmail.com"
+    "segundoApellido": "lucumi"
   },
+  "cc": 79245905,
+  "idProcesos": [51786190],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-01-11T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001418901420190019000",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2018-01-11T05:00:00.000Z",
     "etapaProcesal": "ADMISION",
     "fechaPresentacion": "2019-01-02T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      3778164677886080, 530372013262050
-    ],
-    "radicado": "2019 - 00190",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "11001418901420190019000",
     "juzgados": [
       {
         "id": 14,
         "tipo": "JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
         "url": "https://www.ramajudicial.gov.cojuzgado-014-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [
+      3778164677886080, 530372013262050
+    ],
+    "radicado": "2019 - 00190",
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

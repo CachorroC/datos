@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400307820170098600",
-  "numero": 298,
-  "cc": 79659040,
-  "idProcesos": [51570460],
   "category": "Terminados",
+  "numero": 298,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 79659040,
+    "direccion": "calle 58 a sur no 18 b -35 int 6",
+    "email": "gabrielisag61@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3164700074
@@ -13,32 +14,31 @@
     "primerNombre": "hector",
     "segundoNombre": "gabriel",
     "primerApellido": "ramirez",
-    "segundoApellido": "bohorquez",
-    "cedula": 79659040,
-    "direccion": "calle 58 a sur no 18 b -35 int 6",
-    "email": "gabrielisag61@hotmail.com"
+    "segundoApellido": "bohorquez"
   },
+  "cc": 79659040,
+  "idProcesos": [51570460],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-10-13T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-20T00:00:00.000Z",
+    "expediente": "11001400307820170098600",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-10-13T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-10-17T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [155487],
-    "radicado": "2017 - 00986",
-    "vencimientoPagare": [
-      "2017-04-04T00:00:00.000Z"
-    ],
-    "expediente": "11001400307820170098600",
     "juzgados": [
       {
         "id": 78,
         "tipo": "JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-78-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-10-20T00:00:00.000Z",
+    "obligacion": [155487],
+    "radicado": "2017 - 00986",
+    "vencimientoPagare": [
+      "2017-04-04T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

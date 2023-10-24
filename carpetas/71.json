@@ -1,47 +1,47 @@
 {
   "llaveProceso": "11001400304720170106500",
-  "numero": 71,
-  "cc": 53015307,
-  "idProcesos": [10404913],
   "category": "Terminados",
-  "tipoProceso": "PRENDARIO",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "betty",
-    "segundoNombre": "stephani",
-    "primerApellido": "torres",
-    "segundoApellido": "rojas",
-    "cedula": 53015307,
-    "direccion": "cl 146a # 53a - 10 apt 102",
-    "email": "stephanytorresrojas@gmail.com"
-  },
   "codeudor": {
     "cedula": 80799160,
     "direccion": "CL 118 # 93 - 22",
     "nombre": "argelino andres gomez pineda",
     "telefono": 6819627
   },
+  "numero": 71,
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "cedula": 53015307,
+    "direccion": "cl 146a # 53a - 10 apt 102",
+    "email": "stephanytorresrojas@gmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "betty",
+    "segundoNombre": "stephani",
+    "primerApellido": "torres",
+    "segundoApellido": "rojas"
+  },
+  "cc": 53015307,
+  "idProcesos": [10404913],
   "demanda": {
-    "capitalAdeudado": 24193522,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-06-20T00:00:00.000Z",
+    "expediente": "11001400304720170106500",
+    "capitalAdeudado": 24193522,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "etapaProcesal": "1.100140030472017e+22",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [12615209],
-    "radicado": "2017 - 01065",
-    "vencimientoPagare": [
-      "2017-06-07T00:00:00.000Z"
-    ],
-    "expediente": "11001400304720170106500",
     "juzgados": [
       {
         "id": 47,
         "tipo": "JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-047-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-06-20T00:00:00.000Z",
+    "obligacion": [12615209],
+    "radicado": "2017 - 01065",
+    "vencimientoPagare": [
+      "2017-06-07T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

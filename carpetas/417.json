@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400307120170125000",
-  "numero": 417,
-  "cc": 19275068,
-  "idProcesos": [64793050],
   "category": "Reintegra",
+  "numero": 417,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 19275068,
+    "direccion": "calle 71 a no 70 b-11",
+    "email": "oscarmultibog@hotmail.com",
     "tel": {
       "fijo": 2511959,
       "celular": 3105638608
@@ -13,33 +14,32 @@
     "primerNombre": "oscar",
     "segundoNombre": "humberto",
     "primerApellido": "gomez",
-    "segundoApellido": "chuchin",
-    "cedula": 19275068,
-    "direccion": "calle 71 a no 70 b-11",
-    "email": "oscarmultibog@hotmail.com"
+    "segundoApellido": "chuchin"
   },
+  "cc": 19275068,
+  "idProcesos": [64793050],
   "demanda": {
-    "capitalAdeudado": 40942.872,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400307120170125000",
+    "capitalAdeudado": 40942872,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-06-12T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [5740084511, 6390082501],
-    "radicado": "2017 - 01250",
-    "vencimientoPagare": [
-      "2021-02-09T05:00:00.000Z",
-      "2021-03-01T05:00:00.000Z"
-    ],
-    "expediente": "11001400307120170125000",
     "juzgados": [
       {
         "id": 7,
         "tipo": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [5740084511, 6390082501],
+    "radicado": "2017 - 01250",
+    "vencimientoPagare": [
+      "2021-02-09T05:00:00.000Z",
+      "2021-03-01T05:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

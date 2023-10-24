@@ -1,41 +1,39 @@
 {
   "llaveProceso": "11001400300820170102400",
-  "numero": 548,
-  "cc": 23270185,
-  "idProcesos": [50665190],
   "category": "Terminados",
+  "numero": 548,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 23270185,
+    "direccion": null,
+    "email": null,
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "clara",
     "segundoNombre": "patricia",
     "primerApellido": "peña",
-    "segundoApellido": "beltran",
-    "cedula": 23270185,
-    "direccion": null,
-    "email": null
+    "segundoApellido": "beltran"
   },
+  "cc": 23270185,
+  "idProcesos": [50665190],
   "demanda": {
-    "capitalAdeudado": 0,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400300820170102400",
+    "capitalAdeudado": 0,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [],
-    "radicado": "2017 - 01024",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "11001400300820170102400",
     "juzgados": [
       {
         "id": 8,
         "tipo": "JUZGADO 008 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-008-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [],
+    "radicado": "2017 - 01024",
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

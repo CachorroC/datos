@@ -1,29 +1,36 @@
 {
   "llaveProceso": "11001400304620170055700",
-  "numero": 61,
-  "cc": 80197126,
-  "idProcesos": [10130443],
   "category": "Terminados",
+  "numero": 61,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 80197126,
+    "direccion": "calle 165 no. 74 c-07 casa 1",
+    "email": "arqrasjuan1989@htmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "juan",
     "segundoNombre": "pablo",
     "primerApellido": "rubio",
-    "segundoApellido": "esguerra",
-    "cedula": 80197126,
-    "direccion": "calle 165 no. 74 c-07 casa 1",
-    "email": "arqrasjuan1989@htmail.com"
+    "segundoApellido": "esguerra"
   },
+  "cc": 80197126,
+  "idProcesos": [10130443],
   "demanda": {
-    "capitalAdeudado": 21493086,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-07-19T00:00:00.000Z",
+    "expediente": "11001400304620170055700",
+    "capitalAdeudado": 21493086,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-06-16T00:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 46,
+        "tipo": "JUZGADO 046 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-46-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-07-19T00:00:00.000Z",
     "obligacion": [
       12653060,
       "377813471593666//5303720056388123"
@@ -32,13 +39,6 @@
     "vencimientoPagare": [
       "2017-11-04T00:00:00.000Z"
     ],
-    "expediente": "11001400304620170055700",
-    "juzgados": [
-      {
-        "id": 46,
-        "tipo": "JUZGADO 046 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-46-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

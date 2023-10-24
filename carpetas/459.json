@@ -1,44 +1,44 @@
 {
   "llaveProceso": "11001400305320180094500",
-  "numero": 459,
-  "cc": 79857627,
-  "idProcesos": [64641230],
   "category": "Terminados",
+  "numero": 459,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 79857627,
+    "direccion": "calle 131  no 109-13",
+    "email": "cesarvanegas1425@gmail.com",
     "tel": {
       "fijo": null,
       "celular": 3108121876
     },
     "primerNombre": "cesar",
-    "segundoNombre": null,
     "primerApellido": "armando",
     "segundoApellido": "vanegas",
-    "cedula": 79857627,
-    "direccion": "calle 131  no 109-13",
-    "email": "cesarvanegas1425@gmail.com"
+    "segundoNombre": null
   },
+  "cc": 79857627,
+  "idProcesos": [64641230],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-07-16T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-08-23T00:00:00.000Z",
+    "expediente": "11001400305320180094500",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2018-07-16T00:00:00.000Z",
     "etapaProcesal": "ADMISION",
     "fechaPresentacion": "2018-07-23T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [5470085449],
-    "radicado": "2018 - 00945",
-    "vencimientoPagare": [
-      "2024-06-30T00:00:00.000Z"
-    ],
-    "expediente": "11001400305320180094500",
     "juzgados": [
       {
         "id": 6,
         "tipo": "JUZGADO 006 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-06-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-08-23T00:00:00.000Z",
+    "obligacion": [5470085449],
+    "radicado": "2018 - 00945",
+    "vencimientoPagare": [
+      "2024-06-30T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

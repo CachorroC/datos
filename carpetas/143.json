@@ -1,47 +1,47 @@
 {
   "llaveProceso": "11001400303420170108900",
-  "numero": 143,
-  "cc": 1023904524,
-  "idProcesos": [50654580],
   "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "paola",
-    "segundoNombre": "andrea",
-    "primerApellido": "rodriguez",
-    "segundoApellido": "morales",
-    "cedula": 1023904524,
-    "direccion": "calle 22c sur # 5 - 54",
-    "email": "dalila_paito@hotmail.com"
-  },
   "codeudor": {
     "cedula": 5568506,
     "direccion": "CALLE 22C SUR # 5 - 54",
     "nombre": "jose manuel ardila",
     "telefono": 8136733
   },
+  "numero": 143,
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "cedula": 1023904524,
+    "direccion": "calle 22c sur # 5 - 54",
+    "email": "dalila_paito@hotmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "paola",
+    "segundoNombre": "andrea",
+    "primerApellido": "rodriguez",
+    "segundoApellido": "morales"
+  },
+  "cc": 1023904524,
+  "idProcesos": [50654580],
   "demanda": {
-    "capitalAdeudado": 9079297,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-17T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-14T00:00:00.000Z",
+    "expediente": "11001400303420170108900",
+    "capitalAdeudado": 9079297,
+    "entregaGarantiasAbogado": "2017-08-17T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-08-22T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [4280023643],
-    "radicado": "2017 - 01089",
-    "vencimientoPagare": [
-      "2017-06-30T00:00:00.000Z"
-    ],
-    "expediente": "11001400303420170108900",
     "juzgados": [
       {
         "id": 34,
         "tipo": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-09-14T00:00:00.000Z",
+    "obligacion": [4280023643],
+    "radicado": "2017 - 01089",
+    "vencimientoPagare": [
+      "2017-06-30T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

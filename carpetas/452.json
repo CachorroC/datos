@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400305920180009000",
-  "numero": 452,
-  "cc": 25126734,
-  "idProcesos": [50989890],
   "category": "Reintegra",
+  "numero": 452,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 25126734,
+    "direccion": "carrera 103 a  no 77d-22 molinos- bogota",
+    "email": "mauriciosamu1128@gmail.com",
     "tel": {
       "fijo": 4412100,
       "celular": 3124885346
@@ -13,32 +14,31 @@
     "primerNombre": "maria",
     "segundoNombre": "marin",
     "primerApellido": "de",
-    "segundoApellido": "orozco",
-    "cedula": 25126734,
-    "direccion": "carrera 103 a  no 77d-22 molinos- bogota",
-    "email": "mauriciosamu1128@gmail.com"
+    "segundoApellido": "orozco"
   },
+  "cc": 25126734,
+  "idProcesos": [50989890],
   "demanda": {
-    "capitalAdeudado": 22244.76,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-02-26T00:00:00.000Z",
+    "expediente": "11001400305920180009000",
+    "capitalAdeudado": 22244760,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2018-05-02T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [1740087269],
-    "radicado": "2018 - 00090",
-    "vencimientoPagare": [
-      "2020-07-03T05:00:00.000Z"
-    ],
-    "expediente": "11001400305920180009000",
     "juzgados": [
       {
         "id": 7,
         "tipo": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-02-26T00:00:00.000Z",
+    "obligacion": [1740087269],
+    "radicado": "2018 - 00090",
+    "vencimientoPagare": [
+      "2020-07-03T05:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400301020170065301",
-  "numero": 101,
-  "cc": 57452535,
-  "idProcesos": [50540650],
   "category": "Terminados",
+  "numero": 101,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 57452535,
+    "direccion": "calle 102 # 15 - 58 apto 204",
+    "email": "lei.m@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3004975278
@@ -13,32 +14,31 @@
     "primerNombre": "leila",
     "segundoNombre": "johanna",
     "primerApellido": "martinez",
-    "segundoApellido": "mora",
-    "cedula": 57452535,
-    "direccion": "calle 102 # 15 - 58 apto 204",
-    "email": "lei.m@hotmail.com"
+    "segundoApellido": "mora"
   },
+  "cc": 57452535,
+  "idProcesos": [50540650],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-08-03T00:00:00.000Z",
+    "expediente": "11001400301020170065301",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-06-29T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [12545412],
-    "radicado": "2017 - 00653",
-    "vencimientoPagare": [
-      "2017-06-13T00:00:00.000Z"
-    ],
-    "expediente": "11001400301020170065301",
     "juzgados": [
       {
         "id": 10,
         "tipo": "JUZGADO 010 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-010-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-08-03T00:00:00.000Z",
+    "obligacion": [12545412],
+    "radicado": "2017 - 00653",
+    "vencimientoPagare": [
+      "2017-06-13T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

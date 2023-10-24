@@ -1,32 +1,39 @@
 {
   "llaveProceso": "11001310302120170047100",
-  "numero": 196,
-  "cc": 80130064,
-  "idProcesos": [28907104],
   "category": "Terminados",
+  "numero": 196,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 80130064,
+    "direccion": "transversal 5q  # 48p - 06 sur",
+    "email": "jairotibata@hotmail.com",
     "tel": {
       "fijo": 7677881,
       "celular": 3157303099
     },
     "primerNombre": "jairo",
-    "segundoNombre": null,
     "primerApellido": "tibata",
     "segundoApellido": null,
-    "cedula": 80130064,
-    "direccion": "transversal 5q  # 48p - 06 sur",
-    "email": "jairotibata@hotmail.com"
+    "segundoNombre": null
   },
+  "cc": 80130064,
+  "idProcesos": [28907104],
   "demanda": {
-    "capitalAdeudado": 124710.637,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-08-30T00:00:00.000Z",
+    "expediente": "11001310302120170047100",
+    "capitalAdeudado": 124710.637,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "1.100131030212017e+22",
     "fechaPresentacion": null,
+    "juzgados": [
+      {
+        "id": 2,
+        "tipo": "JUZGADO 002 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-del-circuito-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-08-30T00:00:00.000Z",
     "obligacion": [
       2330086807,
       "200865 // 377813427489837 // 4513070249553475 // 5303710103729395"
@@ -35,13 +42,6 @@
     "vencimientoPagare": [
       "2037-03-15T00:00:00.000Z"
     ],
-    "expediente": "11001310302120170047100",
-    "juzgados": [
-      {
-        "id": 2,
-        "tipo": "JUZGADO 002 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-del-circuito-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

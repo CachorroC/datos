@@ -1,38 +1,38 @@
 {
   "llaveProceso": "25754408900320170096900",
-  "numero": 275,
-  "cc": 39670695,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 275,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 39670695,
+    "direccion": "transversal 4 b no 3 - 64 sur  apto 473  soacha",
+    "email": "rokerita19748@hotmail.com",
     "tel": {
       "fijo": 6012243,
       "celular": 3208100658
     },
     "primerNombre": "hortencia",
-    "segundoNombre": null,
     "primerApellido": "garzon",
     "segundoApellido": null,
-    "cedula": 39670695,
-    "direccion": "transversal 4 b no 3 - 64 sur  apto 473  soacha",
-    "email": "rokerita19748@hotmail.com"
+    "segundoNombre": null
   },
+  "cc": 39670695,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "25754408900320170096900",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": "2017-05-10T05:00:00.000Z",
+    "juzgados": [],
     "municipio": "SOACHA",
+    "mandamientoPago": null,
     "obligacion": [20990124579],
     "radicado": "2017 - 00969",
     "vencimientoPagare": [
       "2024-09-12T05:00:00.000Z"
     ],
-    "expediente": "25754408900320170096900",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400308620170086300",
-  "numero": 171,
-  "cc": 1024468871,
-  "idProcesos": [81888701],
   "category": "Terminados",
+  "numero": 171,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 1024468871,
+    "direccion": "calle 59c sur # 87k - 64 apto 1016",
+    "email": "jlaura00@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "maritza",
     "segundoNombre": "natali",
     "primerApellido": "rodriguez",
-    "segundoApellido": "urrea",
-    "cedula": 1024468871,
-    "direccion": "calle 59c sur # 87k - 64 apto 1016",
-    "email": "jlaura00@hotmail.com"
+    "segundoApellido": "urrea"
   },
+  "cc": 1024468871,
+  "idProcesos": [81888701],
   "demanda": {
-    "capitalAdeudado": 46042338,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400308620170086300",
+    "capitalAdeudado": 46042338,
+    "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": "2017-08-28T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [12766386],
-    "radicado": "2017 - 00863",
-    "vencimientoPagare": [
-      "2017-08-14T00:00:00.000Z"
-    ],
-    "expediente": "11001400308620170086300",
     "juzgados": [
       {
         "id": 86,
         "tipo": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [12766386],
+    "radicado": "2017 - 00863",
+    "vencimientoPagare": [
+      "2017-08-14T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

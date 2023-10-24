@@ -1,42 +1,42 @@
 {
   "llaveProceso": "11001400301220170140000",
-  "numero": 342,
-  "cc": 91240362,
-  "idProcesos": [50858060],
   "category": "Terminados",
+  "numero": 342,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 91240362,
+    "direccion": null,
+    "email": "CARRERA 87 No  17 - 59",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "gabriel",
     "segundoNombre": "augusto",
     "primerApellido": "castillo",
-    "segundoApellido": "castelblanco",
-    "cedula": 91240362,
-    "direccion": null,
-    "email": "CARRERA 87 No  17 - 59"
+    "segundoApellido": "castelblanco"
   },
+  "cc": 91240362,
+  "idProcesos": [50858060],
   "demanda": {
-    "capitalAdeudado": 43,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400301220170140000",
+    "capitalAdeudado": 43,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "43059",
     "fechaPresentacion": "2017-12-13T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      5303720026675088,
-      "27.570.000.00"
-    ],
-    "radicado": "2017 - 01400",
-    "vencimientoPagare": [null],
-    "expediente": "11001400301220170140000",
     "juzgados": [
       {
         "id": 12,
         "tipo": "JUZGADO 012 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-012-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [
+      5303720026675088,
+      "27.570.000.00"
+    ],
+    "radicado": "2017 - 01400",
+    "vencimientoPagare": [null],
+    "departamento": "CUNDINAMARCA"
   }
 }

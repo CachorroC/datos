@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400302020170121900",
-  "numero": 266,
-  "cc": 71192974,
-  "idProcesos": [50739310],
   "category": "Terminados",
+  "numero": 266,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 71192974,
+    "direccion": "carrera 24 h no 23 a - 08 sur",
+    "email": "mayaconfecciones1@gmail.com",
     "tel": {
       "fijo": null,
       "celular": 3138085772
@@ -13,32 +14,31 @@
     "primerNombre": "julian",
     "segundoNombre": "de",
     "primerApellido": "jesus",
-    "segundoApellido": "isaza aguirre",
-    "cedula": 71192974,
-    "direccion": "carrera 24 h no 23 a - 08 sur",
-    "email": "mayaconfecciones1@gmail.com"
+    "segundoApellido": "isaza aguirre"
   },
+  "cc": 71192974,
+  "idProcesos": [50739310],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINNAMARCA",
-    "entregaGarantiasAbogado": "2017-09-22T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-11-07T00:00:00.000Z",
+    "expediente": "11001400302020170121900",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-09-22T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-09-27T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [12468489],
-    "radicado": "2017 - 01219",
-    "vencimientoPagare": [
-      "2017-09-20T00:00:00.000Z"
-    ],
-    "expediente": "11001400302020170121900",
     "juzgados": [
       {
         "id": 19,
         "tipo": "JUZGADO 019 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-19-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-11-07T00:00:00.000Z",
+    "obligacion": [12468489],
+    "radicado": "2017 - 01219",
+    "vencimientoPagare": [
+      "2017-09-20T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINNAMARCA"
   }
 }

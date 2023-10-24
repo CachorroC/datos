@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400302720170085000",
-  "numero": 172,
-  "cc": 52475256,
-  "idProcesos": [50666880],
   "category": "Terminados",
+  "numero": 172,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 52475256,
+    "direccion": "carrera 79b # 45 - 19 sur",
+    "email": null,
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "adriana",
     "segundoNombre": "del",
     "primerApellido": "pilar",
-    "segundoApellido": "alfonso baquero",
-    "cedula": 52475256,
-    "direccion": "carrera 79b # 45 - 19 sur",
-    "email": null
+    "segundoApellido": "alfonso baquero"
   },
+  "cc": 52475256,
+  "idProcesos": [50666880],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400302720170085000",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-08-28T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [11895200],
-    "radicado": "2017 - 00850",
-    "vencimientoPagare": [
-      "2017-08-16T00:00:00.000Z"
-    ],
-    "expediente": "11001400302720170085000",
     "juzgados": [
       {
         "id": 27,
         "tipo": "JUZGADO 027 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-027-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [11895200],
+    "radicado": "2017 - 00850",
+    "vencimientoPagare": [
+      "2017-08-16T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

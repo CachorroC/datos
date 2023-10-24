@@ -1,11 +1,18 @@
 {
   "llaveProceso": "11001400303720170139100",
-  "numero": 278,
-  "cc": 35506033,
-  "idProcesos": [112945420],
   "category": "Bancolombia",
+  "codeudor": {
+    "cedula": 4337296,
+    "direccion": "CARRERA  115 No 89 A - 31 INT 12 APART 202",
+    "nombre": "jose noel puerta puerta",
+    "telefono": 3103431255
+  },
+  "numero": 278,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 35506033,
+    "direccion": "carrera  101  no 71 b - 53",
+    "email": "natis-rolita@hotmail.con",
     "tel": {
       "fijo": 4357832,
       "celular": 3103430010
@@ -13,36 +20,29 @@
     "primerNombre": "luz",
     "segundoNombre": "dary",
     "primerApellido": "puerta",
-    "segundoApellido": "jaramillo",
-    "cedula": 35506033,
-    "direccion": "carrera  101  no 71 b - 53",
-    "email": "natis-rolita@hotmail.con"
+    "segundoApellido": "jaramillo"
   },
-  "codeudor": {
-    "cedula": 4337296,
-    "direccion": "CARRERA  115 No 89 A - 31 INT 12 APART 202",
-    "nombre": "jose noel puerta puerta",
-    "telefono": 3103431255
-  },
+  "cc": 35506033,
+  "idProcesos": [112945420],
   "demanda": {
-    "capitalAdeudado": 12347.548,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-28T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2016-01-16T00:00:00.000Z",
+    "expediente": "11001400303720170139100",
+    "capitalAdeudado": 12347548,
+    "entregaGarantiasAbogado": "2017-09-28T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-10-10T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [4670083154],
-    "radicado": "2017 - 01391",
-    "vencimientoPagare": [null],
-    "expediente": "11001400303720170139100",
     "juzgados": [
       {
         "id": 11,
         "tipo": "JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2016-01-16T00:00:00.000Z",
+    "obligacion": [4670083154],
+    "radicado": "2017 - 01391",
+    "vencimientoPagare": [null],
+    "departamento": "CUNDINAMARCA"
   }
 }

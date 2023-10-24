@@ -1,29 +1,36 @@
 {
   "llaveProceso": "11001400307820170116400",
-  "numero": 407,
-  "cc": 79328264,
-  "idProcesos": [51465700],
   "category": "Reintegra",
+  "numero": 407,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 79328264,
+    "direccion": "carrera 11 no  144 - 22 apartamento 301",
+    "email": "nescri64@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "nestor",
     "segundoNombre": "alberto",
     "primerApellido": "cristancho",
-    "segundoApellido": "lopez",
-    "cedula": 79328264,
-    "direccion": "carrera 11 no  144 - 22 apartamento 301",
-    "email": "nescri64@hotmail.com"
+    "segundoApellido": "lopez"
   },
+  "cc": 79328264,
+  "idProcesos": [51465700],
   "demanda": {
-    "capitalAdeudado": 31100.999,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-11-16T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-12-01T00:00:00.000Z",
+    "expediente": "11001400307820170116400",
+    "capitalAdeudado": 31100999,
+    "entregaGarantiasAbogado": "2017-11-16T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-11-27T00:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 16,
+        "tipo": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-16-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2018-12-01T00:00:00.000Z",
     "obligacion": [
       3550083774,
       "4513082972339 / 5303714867753385"
@@ -32,13 +39,6 @@
     "vencimientoPagare": [
       "2024-01-26T00:00:00.000Z"
     ],
-    "expediente": "11001400307820170116400",
-    "juzgados": [
-      {
-        "id": 16,
-        "tipo": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-16-de-ejecucion-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

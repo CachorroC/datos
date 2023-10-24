@@ -1,38 +1,38 @@
 {
   "llaveProceso": "25754400300420170038100",
-  "numero": 276,
-  "cc": 79200345,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 276,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 79200345,
+    "direccion": "carrera 5  no 5 - 30 apartamento 202 soacha",
+    "email": "nelson_mayorga@outlook.com",
     "tel": {
       "fijo": 9008364,
       "celular": 3204283595
     },
     "primerNombre": "nelson",
-    "segundoNombre": null,
     "primerApellido": "mayorga",
     "segundoApellido": "gomez",
-    "cedula": 79200345,
-    "direccion": "carrera 5  no 5 - 30 apartamento 202 soacha",
-    "email": "nelson_mayorga@outlook.com"
+    "segundoNombre": null
   },
+  "cc": 79200345,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "25754400300420170038100",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": "2017-05-10T05:00:00.000Z",
+    "juzgados": [],
     "municipio": "SOACHA",
+    "mandamientoPago": null,
     "obligacion": [190886],
     "radicado": "2017 - 00381",
     "vencimientoPagare": [
       "2017-05-02T05:00:00.000Z"
     ],
-    "expediente": "25754400300420170038100",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

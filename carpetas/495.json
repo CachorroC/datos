@@ -1,29 +1,36 @@
 {
   "llaveProceso": "11001400300320180123600",
-  "numero": 495,
-  "cc": 17099495,
-  "idProcesos": [51431830],
   "category": "Terminados",
+  "numero": 495,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 17099495,
+    "direccion": "calle 29 no 23-46  torre 1 apto 701",
+    "email": "pablomendoza44@gmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "pablo",
     "segundoNombre": "elias",
     "primerApellido": "mendoza",
-    "segundoApellido": "murillo",
-    "cedula": 17099495,
-    "direccion": "calle 29 no 23-46  torre 1 apto 701",
-    "email": "pablomendoza44@gmail.com"
+    "segundoApellido": "murillo"
   },
+  "cc": 17099495,
+  "idProcesos": [51431830],
   "demanda": {
-    "capitalAdeudado": 29229.159,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400300320180123600",
+    "capitalAdeudado": 29229.159,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "1.100140030032018e+22",
     "fechaPresentacion": null,
+    "juzgados": [
+      {
+        "id": 3,
+        "tipo": "JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-03-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": null,
     "obligacion": [
       "AUDIOPRESTAMO",
       377814420105917
@@ -33,13 +40,6 @@
       "2021-05-08T05:00:00.000Z",
       "2018-07-05T05:00:00.000Z"
     ],
-    "expediente": "11001400300320180123600",
-    "juzgados": [
-      {
-        "id": 3,
-        "tipo": "JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-03-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

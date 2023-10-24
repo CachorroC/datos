@@ -1,42 +1,42 @@
 {
   "llaveProceso": "11001400300420230062200",
-  "numero": 552,
-  "cc": 1023874668,
-  "idProcesos": [130946630],
   "category": "Bancolombia",
+  "numero": 552,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 1023874668,
+    "direccion": "cl 49 a bis sur no. 5 n 10",
+    "email": "oscar2794@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "oscar",
     "segundoNombre": "mauricio",
     "primerApellido": "gomez",
-    "segundoApellido": "mendoza",
-    "cedula": 1023874668,
-    "direccion": "cl 49 a bis sur no. 5 n 10",
-    "email": "oscar2794@hotmail.com"
+    "segundoApellido": "mendoza"
   },
+  "cc": 1023874668,
+  "idProcesos": [130946630],
   "demanda": {
-    "capitalAdeudado": 77376.262,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-06-20T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400300420230062200",
+    "capitalAdeudado": 77376262,
+    "entregaGarantiasAbogado": "2023-06-20T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [530104065, 530103261],
-    "radicado": "2023 - 00622",
-    "vencimientoPagare": [
-      "2026-10-02T05:00:00.000Z",
-      null
-    ],
-    "expediente": "11001400300420230062200",
     "juzgados": [
       {
         "id": 4,
         "tipo": "JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [530104065, 530103261],
+    "radicado": "2023 - 00622",
+    "vencimientoPagare": [
+      "2026-10-02T05:00:00.000Z",
+      null
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

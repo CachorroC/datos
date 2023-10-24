@@ -1,11 +1,18 @@
 {
   "llaveProceso": "11001400300420170063900",
-  "numero": 135,
-  "cc": 5654542,
-  "idProcesos": [50542600, 81638681],
   "category": "Terminados",
+  "codeudor": {
+    "cedula": 52201411,
+    "direccion": "TRANSVERSAL 11D ESTE # 42 - 24 SUR",
+    "nombre": "sandra stella castro",
+    "telefono": 7537111
+  },
+  "numero": 135,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 5654542,
+    "direccion": "carrera 16 # 10 - 30",
+    "email": null,
     "tel": {
       "fijo": 6045701,
       "celular": 3007704166
@@ -13,32 +20,17 @@
     "primerNombre": "ruber",
     "segundoNombre": "andres",
     "primerApellido": "valenzuela",
-    "segundoApellido": "sierra",
-    "cedula": 5654542,
-    "direccion": "carrera 16 # 10 - 30",
-    "email": null
+    "segundoApellido": "sierra"
   },
-  "codeudor": {
-    "cedula": 52201411,
-    "direccion": "TRANSVERSAL 11D ESTE # 42 - 24 SUR",
-    "nombre": "sandra stella castro",
-    "telefono": 7537111
-  },
+  "cc": 5654542,
+  "idProcesos": [50542600, 81638681],
   "demanda": {
-    "capitalAdeudado": 12203.589,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-06-29T00:00:00.000Z",
+    "expediente": "11001400300420170063900",
+    "capitalAdeudado": 12203.589,
+    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
     "etapaProcesal": "1.100140030042017e+22",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [410086468],
-    "radicado": "2017 - 00639",
-    "vencimientoPagare": [
-      "2020-12-31T00:00:00.000Z"
-    ],
-    "expediente": "11001400300420170063900",
     "juzgados": [
       {
         "id": 11,
@@ -50,6 +42,14 @@
         "tipo": "JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-06-29T00:00:00.000Z",
+    "obligacion": [410086468],
+    "radicado": "2017 - 00639",
+    "vencimientoPagare": [
+      "2020-12-31T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

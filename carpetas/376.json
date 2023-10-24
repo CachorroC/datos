@@ -1,35 +1,42 @@
 {
   "llaveProceso": "11001400307620180005200",
-  "numero": 376,
-  "cc": 11203111,
-  "idProcesos": [51500810],
   "category": "LiosJuridicos",
-  "tipoProceso": "HIPOTECARIO",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "roberto",
-    "segundoNombre": null,
-    "primerApellido": "rico",
-    "segundoApellido": "ruiz",
-    "cedula": 11203111,
-    "direccion": "calle 128 96a - 05 casa 3 multifamiliar arrayanes",
-    "email": "roberto.rico.ruiz@gmail.com"
-  },
   "codeudor": {
     "cedula": 52804144,
     "direccion": "CALLE 128 96A - 05",
     "nombre": "doris garzon talero",
     "telefono": 3491122
   },
+  "numero": 376,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "cedula": 11203111,
+    "direccion": "calle 128 96a - 05 casa 3 multifamiliar arrayanes",
+    "email": "roberto.rico.ruiz@gmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "roberto",
+    "primerApellido": "rico",
+    "segundoApellido": "ruiz",
+    "segundoNombre": null
+  },
+  "cc": 11203111,
+  "idProcesos": [51500810],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400307620180005200",
+    "capitalAdeudado": 2730845464,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "EL 22-08-2018 EL JUZGADO DECRETO LA TERMINACIÓN DEL PROCESO POR PAGO CUOTAS EN MORA DE LA OBLIGACIÓN HIPOTECARIA //  SE ENVIO SOLICITUD DESARCHIVE EL 18 DE AGOSOTO DE 2023 A ARCHIVO CENTRAL .",
     "fechaPresentacion": "2018-08-22T00:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 76,
+        "tipo": "JUZGADO 076 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-76-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": null,
     "obligacion": [
       118010,
       "377813183474353 // 4513074148699942 / 5491579209500691"
@@ -38,13 +45,6 @@
     "vencimientoPagare": [
       "2019-04-29T00:00:00.000Z"
     ],
-    "expediente": "11001400307620180005200",
-    "juzgados": [
-      {
-        "id": 76,
-        "tipo": "JUZGADO 076 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-76-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

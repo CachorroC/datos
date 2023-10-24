@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400303620170112500",
-  "numero": 307,
-  "cc": 79309509,
-  "idProcesos": [50800110],
   "category": "Terminados",
+  "numero": 307,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 79309509,
+    "direccion": "transversal 70 g no 63-52 sur apto 27 torre 2",
+    "email": "cac.marketing@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "carlos",
     "segundoNombre": "arturo",
     "primerApellido": "castaño",
-    "segundoApellido": "aldana",
-    "cedula": 79309509,
-    "direccion": "transversal 70 g no 63-52 sur apto 27 torre 2",
-    "email": "cac.marketing@hotmail.com"
+    "segundoApellido": "aldana"
   },
+  "cc": 79309509,
+  "idProcesos": [50800110],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-10-20T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-11-02T00:00:00.000Z",
+    "expediente": "11001400303620170112500",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-10-20T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-10-24T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [190522, 4594250022871300],
-    "radicado": "2017 - 01125",
-    "vencimientoPagare": [
-      "2031-01-27T00:00:00.000Z"
-    ],
-    "expediente": "11001400303620170112500",
     "juzgados": [
       {
         "id": 1,
         "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-11-02T00:00:00.000Z",
+    "obligacion": [190522, 4594250022871300],
+    "radicado": "2017 - 01125",
+    "vencimientoPagare": [
+      "2031-01-27T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

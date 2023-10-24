@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400307820170104900",
-  "numero": 313,
-  "cc": 80490307,
-  "idProcesos": [51463110],
   "category": "Terminados",
+  "numero": 313,
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "mauricio",
-    "segundoNombre": null,
-    "primerApellido": "perez",
-    "segundoApellido": "plazas",
     "cedula": 80490307,
     "direccion": "diagonal 68 sur no 37-69 int 136",
-    "email": "mauricioperez7314@hotmail.com"
+    "email": "mauricioperez7314@hotmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "mauricio",
+    "primerApellido": "perez",
+    "segundoApellido": "plazas",
+    "segundoNombre": null
   },
+  "cc": 80490307,
+  "idProcesos": [51463110],
   "demanda": {
-    "capitalAdeudado": 12521.212,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-10-25T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-31T00:00:00.000Z",
+    "expediente": "11001400307820170104900",
+    "capitalAdeudado": 12521.212,
+    "entregaGarantiasAbogado": "2017-10-25T00:00:00.000Z",
     "etapaProcesal": "1.1001400307820171e+22",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [3000093979],
-    "radicado": "2017 - 01049",
-    "vencimientoPagare": [
-      "2017-06-22T00:00:00.000Z"
-    ],
-    "expediente": "11001400307820170104900",
     "juzgados": [
       {
         "id": 15,
         "tipo": "JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-10-31T00:00:00.000Z",
+    "obligacion": [3000093979],
+    "radicado": "2017 - 01049",
+    "vencimientoPagare": [
+      "2017-06-22T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

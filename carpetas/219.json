@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400307220170107500",
-  "numero": 219,
-  "cc": 80921416,
-  "idProcesos": [50704760],
   "category": "Terminados",
+  "numero": 219,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "blas",
-    "segundoNombre": null,
-    "primerApellido": "laiton",
-    "segundoApellido": "patiño",
     "cedula": 80921416,
     "direccion": "carrera 99a # 61a - 19 casa 61",
-    "email": "layton_blas@live.com"
+    "email": "layton_blas@live.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "blas",
+    "primerApellido": "laiton",
+    "segundoApellido": "patiño",
+    "segundoNombre": null
   },
+  "cc": 80921416,
+  "idProcesos": [50704760],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-04T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-18T00:00:00.000Z",
+    "expediente": "11001400307220170107500",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-09-04T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-09-11T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [25214],
-    "radicado": "2017 - 01075",
-    "vencimientoPagare": [
-      "2032-07-19T00:00:00.000Z"
-    ],
-    "expediente": "11001400307220170107500",
     "juzgados": [
       {
         "id": 72,
         "tipo": "JUZGADO 072 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-072-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-09-18T00:00:00.000Z",
+    "obligacion": [25214],
+    "radicado": "2017 - 01075",
+    "vencimientoPagare": [
+      "2032-07-19T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

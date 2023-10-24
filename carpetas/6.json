@@ -1,44 +1,44 @@
 {
   "llaveProceso": "11001400307620170044400",
-  "numero": 6,
-  "cc": 79645559,
-  "idProcesos": [],
   "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "deudor": {
-    "tel": {
-      "fijo": null,
-      "celular": 3118469698
-    },
-    "primerNombre": "francisco",
-    "segundoNombre": null,
-    "primerApellido": "montaña",
-    "segundoApellido": "quesada",
-    "cedula": 79645559,
-    "direccion": "calle 6 bis a 90 a-80 torre 7 apto 203",
-    "email": null
-  },
   "codeudor": {
     "cedula": 46374311,
     "direccion": "DIAGONAL 83 N 76 C-22 BOGOTA",
     "nombre": "maria cristina chaparro piragauta",
     "telefono": "4380641//3114720261"
   },
+  "numero": 6,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "cedula": 79645559,
+    "direccion": "calle 6 bis a 90 a-80 torre 7 apto 203",
+    "email": null,
+    "tel": {
+      "fijo": null,
+      "celular": 3118469698
+    },
+    "primerNombre": "francisco",
+    "primerApellido": "montaña",
+    "segundoApellido": "quesada",
+    "segundoNombre": null
+  },
+  "cc": 79645559,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 16313.851,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400307620170044400",
+    "capitalAdeudado": 16313.851,
+    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-05-30T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": null,
     "obligacion": ["2273 320111490"],
     "radicado": "2017 -00444",
     "vencimientoPagare": [
       "2008-09-05T00:00:00.000Z"
     ],
-    "expediente": "11001400307620170044400",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

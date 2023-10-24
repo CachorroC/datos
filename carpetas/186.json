@@ -1,41 +1,41 @@
 {
   "llaveProceso": "25175408900220170041200",
-  "numero": 186,
-  "cc": 24134505,
-  "idProcesos": [],
   "category": "Reintegra",
-  "tipoProceso": "SINGULAR",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "cely",
-    "segundoNombre": "margoth",
-    "primerApellido": "rojas",
-    "segundoApellido": "velandia",
-    "cedula": 24134505,
-    "direccion": "calle 29 a # 2 - 76 apto 304 chia",
-    "email": null
-  },
   "codeudor": {
     "cedula": 24134635,
     "direccion": "CALLE 172 # 21A - 17",
     "nombre": "quenia milena rojas velandia",
     "telefono": 3118661189
   },
+  "numero": 186,
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "cedula": 24134505,
+    "direccion": "calle 29 a # 2 - 76 apto 304 chia",
+    "email": null,
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "cely",
+    "segundoNombre": "margoth",
+    "primerApellido": "rojas",
+    "segundoApellido": "velandia"
+  },
+  "cc": 24134505,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 13319.13,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-19T00:00:00.000Z",
+    "expediente": "25175408900220170041200",
+    "capitalAdeudado": 13319130,
+    "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-08-15T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "CHIA",
+    "mandamientoPago": "2017-09-19T00:00:00.000Z",
     "obligacion": [1680097051],
     "radicado": "2017 - 00412",
     "vencimientoPagare": [
       "2021-01-29T00:00:00.000Z"
     ],
-    "expediente": "25175408900220170041200",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

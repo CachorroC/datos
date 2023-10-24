@@ -1,47 +1,47 @@
 {
   "llaveProceso": "11001400302320170104400",
-  "numero": 241,
-  "cc": 900535464,
-  "idProcesos": [50725030],
   "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "publi",
-    "segundoNombre": null,
-    "primerApellido": "magic",
-    "segundoApellido": "s..a.s.",
-    "cedula": 900535464,
-    "direccion": "carrera 8 bis a no 151-86 apartamento 201",
-    "email": "publi.magic@hotmail.com"
-  },
   "codeudor": {
     "cedula": 1020787803,
     "direccion": "CARRERA 8A BIS No 151-86 BARRIO CEDRO",
     "nombre": "angelica paola castillo garcia",
     "telefono": 4791494
   },
+  "numero": 241,
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "cedula": 900535464,
+    "direccion": "carrera 8 bis a no 151-86 apartamento 201",
+    "email": "publi.magic@hotmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "publi",
+    "primerApellido": "magic",
+    "segundoApellido": "s..a.s.",
+    "segundoNombre": null
+  },
+  "cc": 900535464,
+  "idProcesos": [50725030],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINNAMARCA",
-    "entregaGarantiasAbogado": "2017-09-11T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-26T00:00:00.000Z",
+    "expediente": "11001400302320170104400",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-09-11T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-09-19T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [18000088458],
-    "radicado": "2017 - 01044",
-    "vencimientoPagare": [
-      "2018-07-27T00:00:00.000Z"
-    ],
-    "expediente": "11001400302320170104400",
     "juzgados": [
       {
         "id": 23,
         "tipo": "JUZGADO 023 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-23-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-10-26T00:00:00.000Z",
+    "obligacion": [18000088458],
+    "radicado": "2017 - 01044",
+    "vencimientoPagare": [
+      "2018-07-27T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINNAMARCA"
   }
 }

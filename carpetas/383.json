@@ -1,47 +1,47 @@
 {
   "llaveProceso": "11001400302620180047900",
-  "numero": 383,
-  "cc": 65706810,
-  "idProcesos": [51176440],
   "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "nohora",
-    "segundoNombre": "esperanza",
-    "primerApellido": "barrero",
-    "segundoApellido": "rodriguez",
-    "cedula": 65706810,
-    "direccion": "calle 12 # 2c - 55 senderos de funza // calle 50 sur # 93d - 38",
-    "email": "nonbaro@hotmail.com"
-  },
   "codeudor": {
     "cedula": 74327316,
     "direccion": "CARRERA 98 # 15A - 80",
     "nombre": "rodegan lopez mendoza",
     "telefono": 7340264
   },
+  "numero": 383,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "cedula": 65706810,
+    "direccion": "calle 12 # 2c - 55 senderos de funza // calle 50 sur # 93d - 38",
+    "email": "nonbaro@hotmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "nohora",
+    "segundoNombre": "esperanza",
+    "primerApellido": "barrero",
+    "segundoApellido": "rodriguez"
+  },
+  "cc": 65706810,
+  "idProcesos": [51176440],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-01-18T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-05-22T00:00:00.000Z",
+    "expediente": "11001400302620180047900",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2018-01-18T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": null,
-    "municipio": "KENNEDY",
-    "obligacion": [116650],
-    "radicado": "2018 - 00479",
-    "vencimientoPagare": [
-      "2024-03-16T00:00:00.000Z"
-    ],
-    "expediente": "11001400302620180047900",
     "juzgados": [
       {
         "id": 26,
         "tipo": "JUZGADO 026 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-26-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "KENNEDY",
+    "mandamientoPago": "2018-05-22T00:00:00.000Z",
+    "obligacion": [116650],
+    "radicado": "2018 - 00479",
+    "vencimientoPagare": [
+      "2024-03-16T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

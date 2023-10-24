@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400304120180007500",
-  "numero": 381,
-  "cc": 1032396480,
-  "idProcesos": [19431801],
   "category": "Terminados",
+  "numero": 381,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 1032396480,
+    "direccion": "carrera 81 b no 66 - 51 casa 139 terraza de castilla // trv 70 g # 63 - 52 sur apto 604 bl 5",
+    "email": "nimary20@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3203430311
@@ -13,32 +14,31 @@
     "primerNombre": "nielcen",
     "segundoNombre": "marisol",
     "primerApellido": "marin",
-    "segundoApellido": "melo",
-    "cedula": 1032396480,
-    "direccion": "carrera 81 b no 66 - 51 casa 139 terraza de castilla // trv 70 g # 63 - 52 sur apto 604 bl 5",
-    "email": "nimary20@hotmail.com"
+    "segundoApellido": "melo"
   },
+  "cc": 1032396480,
+  "idProcesos": [19431801],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400304120180007500",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "ADMISION",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [155586],
-    "radicado": "2018 - 00075",
-    "vencimientoPagare": [
-      "2027-09-06T00:00:00.000Z"
-    ],
-    "expediente": "11001400304120180007500",
     "juzgados": [
       {
         "id": 41,
         "tipo": "JUZGADO 041 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-041-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [155586],
+    "radicado": "2018 - 00075",
+    "vencimientoPagare": [
+      "2027-09-06T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

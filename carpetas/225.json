@@ -1,47 +1,45 @@
 {
   "llaveProceso": "11001400301320170116300",
-  "numero": 225,
-  "cc": 79815721,
-  "idProcesos": [50683550],
   "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "luis",
-    "segundoNombre": "octavio",
-    "primerApellido": "rojas",
-    "segundoApellido": "valbuena",
-    "cedula": 79815721,
-    "direccion": "carrera 88 c # 62 - 09 sur apto 104",
-    "email": null
-  },
   "codeudor": {
     "cedula": 52288677,
     "direccion": "CARRERA 88C # 62 - 09 SUR",
     "nombre": "maria yanneth ruiz pava",
     "telefono": 7232380
   },
+  "numero": 225,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "cedula": 79815721,
+    "direccion": "carrera 88 c # 62 - 09 sur apto 104",
+    "email": null,
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "luis",
+    "segundoNombre": "octavio",
+    "primerApellido": "rojas",
+    "segundoApellido": "valbuena"
+  },
+  "cc": 79815721,
+  "idProcesos": [50683550],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-18T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400301320170116300",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-08-18T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-09-04T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [141663],
-    "radicado": "2017 - 01163",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "11001400301320170116300",
     "juzgados": [
       {
         "id": 13,
         "tipo": "JUZGADO 013 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-013-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [141663],
+    "radicado": "2017 - 01163",
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

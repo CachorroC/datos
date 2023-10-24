@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001310302720170037400",
-  "numero": 7,
-  "cc": 79733852,
-  "idProcesos": [62733402],
   "category": "Terminados",
+  "numero": 7,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 79733852,
+    "direccion": "calle 21 bis sur no. 88-58 bogota",
+    "email": null,
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "jose",
     "segundoNombre": "ricardo",
     "primerApellido": "prieto",
-    "segundoApellido": "cruz",
-    "cedula": 79733852,
-    "direccion": "calle 21 bis sur no. 88-58 bogota",
-    "email": null
+    "segundoApellido": "cruz"
   },
+  "cc": 79733852,
+  "idProcesos": [62733402],
   "demanda": {
-    "capitalAdeudado": 134026.609,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001310302720170037400",
+    "capitalAdeudado": 134026.609,
+    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-05-24T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [2553057],
-    "radicado": "2017 - 00374",
-    "vencimientoPagare": [
-      "2020-04-26T00:00:00.000Z"
-    ],
-    "expediente": "11001310302720170037400",
     "juzgados": [
       {
         "id": 27,
         "tipo": "JUZGADO 027 CIVIL DEL CIRCUITO DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-27-civil-del-circuito-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [2553057],
+    "radicado": "2017 - 00374",
+    "vencimientoPagare": [
+      "2020-04-26T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

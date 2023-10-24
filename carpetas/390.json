@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400300420170126600",
-  "numero": 390,
-  "cc": 71603563,
-  "idProcesos": [50859050],
   "category": "Reintegra",
+  "numero": 390,
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "gilberto",
-    "segundoNombre": null,
-    "primerApellido": "jaime",
-    "segundoApellido": "betancourt",
     "cedula": 71603563,
     "direccion": "carrera 82  no  19 - 20",
-    "email": "gilbertojaime@hotmail.com"
+    "email": "gilbertojaime@hotmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "gilberto",
+    "primerApellido": "jaime",
+    "segundoApellido": "betancourt",
+    "segundoNombre": null
   },
+  "cc": 71603563,
+  "idProcesos": [50859050],
   "demanda": {
-    "capitalAdeudado": 50509.238,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-11-16T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-01-17T00:00:00.000Z",
+    "expediente": "11001400300420170126600",
+    "capitalAdeudado": 50509238,
+    "entregaGarantiasAbogado": "2017-11-16T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-11-20T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [2500084774, "AUDIOPRESTAMO"],
-    "radicado": "2017 - 01266",
-    "vencimientoPagare": [
-      "2020-07-21T00:00:00.000Z"
-    ],
-    "expediente": "11001400300420170126600",
     "juzgados": [
       {
         "id": 9,
         "tipo": "JUZGADO 009 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-09-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-01-17T00:00:00.000Z",
+    "obligacion": [2500084774, "AUDIOPRESTAMO"],
+    "radicado": "2017 - 01266",
+    "vencimientoPagare": [
+      "2020-07-21T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

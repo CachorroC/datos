@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400304520170106300",
-  "numero": 204,
-  "cc": 46679232,
-  "idProcesos": [110120573],
   "category": "Reintegra",
+  "numero": 204,
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "flor",
-    "segundoNombre": null,
-    "primerApellido": "esperanza",
-    "segundoApellido": "gutierrez",
     "cedula": 46679232,
     "direccion": "carrera 34 # 9 - 60",
-    "email": "carito220@hotmail.es"
+    "email": "carito220@hotmail.es",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "flor",
+    "primerApellido": "esperanza",
+    "segundoApellido": "gutierrez",
+    "segundoNombre": null
   },
+  "cc": 46679232,
+  "idProcesos": [110120573],
   "demanda": {
-    "capitalAdeudado": 41990.538,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-28T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-12T00:00:00.000Z",
+    "expediente": "11001400304520170106300",
+    "capitalAdeudado": 41990538,
+    "entregaGarantiasAbogado": "2017-08-28T00:00:00.000Z",
     "etapaProcesal": "EJECUCION",
     "fechaPresentacion": "2017-08-30T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [12743098],
-    "radicado": "2017 - 01063",
-    "vencimientoPagare": [
-      "2020-08-23T00:00:00.000Z"
-    ],
-    "expediente": "11001400304520170106300",
     "juzgados": [
       {
         "id": 45,
         "tipo": "JUZGADO 045 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-45-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-09-12T00:00:00.000Z",
+    "obligacion": [12743098],
+    "radicado": "2017 - 01063",
+    "vencimientoPagare": [
+      "2020-08-23T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

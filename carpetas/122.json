@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400304020170119300",
-  "numero": 122,
-  "cc": 52543321,
-  "idProcesos": [19148931],
   "category": "Terminados",
+  "numero": 122,
   "tipoProceso": "SINGULAR ACUM HIPOTECARIO",
   "deudor": {
+    "cedula": 52543321,
+    "direccion": null,
+    "email": "CALLE 1H # 32A - 17",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "paola",
     "segundoNombre": "andrea",
     "primerApellido": "fernandez",
-    "segundoApellido": "rincon",
-    "cedula": 52543321,
-    "direccion": null,
-    "email": "CALLE 1H # 32A - 17"
+    "segundoApellido": "rincon"
   },
+  "cc": 52543321,
+  "idProcesos": [19148931],
   "demanda": {
-    "capitalAdeudado": 43,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400304020170119300",
+    "capitalAdeudado": 43,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "42958",
     "fechaPresentacion": "2017-09-13T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [4513073601094195, 1577471108],
-    "radicado": "2017 - 01193",
-    "vencimientoPagare": [
-      "+135435-01-01T05:00:00.000Z"
-    ],
-    "expediente": "11001400304020170119300",
     "juzgados": [
       {
         "id": 40,
         "tipo": "JUZGADO 040 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-40-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [4513073601094195, 1577471108],
+    "radicado": "2017 - 01193",
+    "vencimientoPagare": [
+      "+135435-01-01T05:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

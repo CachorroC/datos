@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400300520180071100",
-  "numero": 447,
-  "cc": 79698506,
-  "idProcesos": [51277500],
   "category": "Terminados",
+  "numero": 447,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 79698506,
+    "direccion": "carrera 80 bis a no 70a-15",
+    "email": null,
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "carlos",
     "segundoNombre": "antonio",
     "primerApellido": "pacheco",
-    "segundoApellido": "torres",
-    "cedula": 79698506,
-    "direccion": "carrera 80 bis a no 70a-15",
-    "email": null
+    "segundoApellido": "torres"
   },
+  "cc": 79698506,
+  "idProcesos": [51277500],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-06-21T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400300520180071100",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2018-06-21T00:00:00.000Z",
     "etapaProcesal": "ADMISION",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [1010082679],
-    "radicado": "2018 - 00711",
-    "vencimientoPagare": [
-      "2027-10-27T00:00:00.000Z"
-    ],
-    "expediente": "11001400300520180071100",
     "juzgados": [
       {
         "id": 5,
         "tipo": "JUZGADO 005 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-05-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [1010082679],
+    "radicado": "2018 - 00711",
+    "vencimientoPagare": [
+      "2027-10-27T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400300520230084300",
-  "numero": 577,
-  "cc": 1068973010,
-  "idProcesos": [132581550],
   "category": "Bancolombia",
+  "numero": 577,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 1068973010,
+    "direccion": "cl 26 a sur 12 l 21 piso 3o. barrio san josé sur",
+    "email": "mayeflor21@hotmail.com",
     "tel": {
       "fijo": 4074724,
       "celular": 3506837545
@@ -13,20 +14,26 @@
     "primerNombre": "indira",
     "segundoNombre": "mayerly",
     "primerApellido": "florez",
-    "segundoApellido": "castro",
-    "cedula": 1068973010,
-    "direccion": "cl 26 a sur 12 l 21 piso 3o. barrio san josé sur",
-    "email": "mayeflor21@hotmail.com"
+    "segundoApellido": "castro"
   },
+  "cc": 1068973010,
+  "idProcesos": [132581550],
   "demanda": {
-    "capitalAdeudado": 26690.131,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2021-08-18T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400300520230084300",
+    "capitalAdeudado": 26690131,
+    "entregaGarantiasAbogado": "2021-08-18T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
+    "juzgados": [
+      {
+        "id": 5,
+        "tipo": "JUZGADO 005 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-05-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": null,
     "obligacion": [
       6670095919,
       "102800851 X T.C. MASTER 5303710105146382 Y T.C. AMERICAN 0377816042003354"
@@ -36,13 +43,6 @@
       "2026-02-04T05:00:00.000Z",
       "2026-07-04T05:00:00.000Z"
     ],
-    "expediente": "11001400300520230084300",
-    "juzgados": [
-      {
-        "id": 5,
-        "tipo": "JUZGADO 005 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-05-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

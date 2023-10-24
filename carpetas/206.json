@@ -1,45 +1,45 @@
 {
   "llaveProceso": "11001400306420170146900",
-  "numero": 206,
-  "cc": 80729141,
-  "idProcesos": [17944250],
   "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "edgar",
-    "segundoNombre": null,
-    "primerApellido": "martinez",
-    "segundoApellido": "velandia",
-    "cedula": 80729141,
-    "direccion": "carrera 17 f 71a - 95 sur  casa 239",
-    "email": "edgar_julian@hotmail.com"
-  },
   "codeudor": {
     "cedula": 53067213,
     "direccion": "CARRERA 6 # 17 - 90",
     "nombre": "angie paola diaz pastas",
     "telefono": 5383916
   },
+  "numero": 206,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "cedula": 80729141,
+    "direccion": "carrera 17 f 71a - 95 sur  casa 239",
+    "email": "edgar_julian@hotmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "edgar",
+    "primerApellido": "martinez",
+    "segundoApellido": "velandia",
+    "segundoNombre": null
+  },
+  "cc": 80729141,
+  "idProcesos": [17944250],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400306420170146900",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": "2017-09-05T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [120356, 1590082995],
-    "radicado": "2017 - 01469",
-    "vencimientoPagare": [null, null],
-    "expediente": "11001400306420170146900",
     "juzgados": [
       {
         "id": 64,
         "tipo": "JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-064-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [120356, 1590082995],
+    "radicado": "2017 - 01469",
+    "vencimientoPagare": [null, null],
+    "departamento": "CUNDINAMARCA"
   }
 }

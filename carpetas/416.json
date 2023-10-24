@@ -1,10 +1,18 @@
 {
   "llaveProceso": "11001400302020170147700",
-  "numero": 416,
-  "cc": 79512506,
-  "idProcesos": [50873000],
   "category": "Terminados",
+  "codeudor": {
+    "cedula": 52730300,
+    "direccion": "CALLE 24 No 24-26 SUR",
+    "nombre": "yuli marcela peña garcia",
+    "telefono": "CEL 3103018266"
+  },
+  "numero": 416,
+  "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 79512506,
+    "direccion": "calle 24 no 24 - 16  sur",
+    "email": "yulypgarcia.montplas@gmail.com",
     "tel": {
       "fijo": 2724305,
       "celular": 3134664560
@@ -12,38 +20,31 @@
     "primerNombre": "jose",
     "segundoNombre": "antonio",
     "primerApellido": "montealegre",
-    "segundoApellido": "hernandez",
-    "cedula": 79512506,
-    "direccion": "calle 24 no 24 - 16  sur",
-    "email": "yulypgarcia.montplas@gmail.com"
+    "segundoApellido": "hernandez"
   },
-  "codeudor": {
-    "cedula": 52730300,
-    "direccion": "CALLE 24 No 24-26 SUR",
-    "nombre": "yuli marcela peña garcia",
-    "telefono": "CEL 3103018266"
-  },
+  "cc": 79512506,
+  "idProcesos": [50873000],
   "demanda": {
-    "capitalAdeudado": 51606.071,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-11-14T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-11-24T00:00:00.000Z",
+    "expediente": "11001400302020170147700",
+    "capitalAdeudado": 51606.071,
+    "entregaGarantiasAbogado": "2017-11-14T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [2330087192, 2330087423],
-    "radicado": "2017 - 01477",
-    "vencimientoPagare": [
-      "2020-02-02T00:00:00.000Z"
-    ],
-    "expediente": "11001400302020170147700",
     "juzgados": [
       {
         "id": 7,
         "tipo": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-11-24T00:00:00.000Z",
+    "obligacion": [2330087192, 2330087423],
+    "radicado": "2017 - 01477",
+    "vencimientoPagare": [
+      "2020-02-02T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

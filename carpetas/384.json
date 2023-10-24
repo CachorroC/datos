@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400305620180011000",
-  "numero": 384,
-  "cc": 80026753,
-  "idProcesos": [50980370],
   "category": "Terminados",
+  "numero": 384,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 80026753,
+    "direccion": "transversal 73 # 11b - 77 int 2 apto 504",
+    "email": "d8003galindo@gmail.com",
     "tel": {
       "fijo": null,
       "celular": 3202116040
@@ -13,32 +14,31 @@
     "primerNombre": "diego",
     "segundoNombre": "javier",
     "primerApellido": "galindo",
-    "segundoApellido": "mejia",
-    "cedula": 80026753,
-    "direccion": "transversal 73 # 11b - 77 int 2 apto 504",
-    "email": "d8003galindo@gmail.com"
+    "segundoApellido": "mejia"
   },
+  "cc": 80026753,
+  "idProcesos": [50980370],
   "demanda": {
-    "capitalAdeudado": 30413.921,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-01-24T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-02-15T00:00:00.000Z",
+    "expediente": "11001400305620180011000",
+    "capitalAdeudado": 30413.921,
+    "entregaGarantiasAbogado": "2018-01-24T00:00:00.000Z",
     "etapaProcesal": "SENTENCIA",
     "fechaPresentacion": "2018-01-30T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [130026],
-    "radicado": "2018 - 00110",
-    "vencimientoPagare": [
-      "2025-06-07T00:00:00.000Z"
-    ],
-    "expediente": "11001400305620180011000",
     "juzgados": [
       {
         "id": 2,
         "tipo": "JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-02-15T00:00:00.000Z",
+    "obligacion": [130026],
+    "radicado": "2018 - 00110",
+    "vencimientoPagare": [
+      "2025-06-07T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

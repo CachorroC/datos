@@ -1,35 +1,33 @@
 {
   "llaveProceso": "25286310300120170074200",
-  "numero": 142,
-  "cc": 36184358,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 142,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "deisy",
-    "segundoNombre": null,
-    "primerApellido": "polania",
-    "segundoApellido": "cuellar",
     "cedula": 36184358,
     "direccion": "carrea 2 # 21 - 55 to 402 j funza",
-    "email": null
+    "email": null,
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "deisy",
+    "primerApellido": "polania",
+    "segundoApellido": "cuellar",
+    "segundoNombre": null
   },
+  "cc": 36184358,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-09T00:00:00.000Z",
+    "expediente": "25286310300120170074200",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-08-23T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "FUNZA",
+    "mandamientoPago": "2017-10-09T00:00:00.000Z",
     "obligacion": [20990186969],
     "radicado": "2017 - 00742",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "25286310300120170074200",
-    "juzgados": []
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

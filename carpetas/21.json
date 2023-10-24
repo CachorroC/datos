@@ -1,33 +1,33 @@
 {
   "llaveProceso": "25290400300120170043700",
-  "numero": 21,
-  "cc": 11309242,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 21,
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "ramiro",
-    "segundoNombre": null,
-    "primerApellido": "cristancho",
-    "segundoApellido": "contreras",
     "cedula": 11309242,
     "direccion": "calle 522 -68 fusagasuga",
-    "email": "edware960720@hotmail.com"
+    "email": "edware960720@hotmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "ramiro",
+    "primerApellido": "cristancho",
+    "segundoApellido": "contreras",
+    "segundoNombre": null
   },
+  "cc": 11309242,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 0,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-07-25T00:00:00.000Z",
+    "expediente": "25290400300120170043700",
+    "capitalAdeudado": 0,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "42886",
     "fechaPresentacion": "2017-07-25T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "FUSAGASUGA",
+    "mandamientoPago": "2017-07-25T00:00:00.000Z",
     "obligacion": [15537944, 42874],
     "radicado": "2017 - 00437",
     "vencimientoPagare": [null],
-    "expediente": "25290400300120170043700",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

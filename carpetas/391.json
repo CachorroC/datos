@@ -1,39 +1,39 @@
 {
   "llaveProceso": "11001400305020180012900",
-  "numero": 391,
-  "cc": 52190973,
-  "idProcesos": [11227193],
   "category": "Terminados",
+  "numero": 391,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 52190973,
+    "direccion": "avenida(calle) 68 sur no 70d-71 apartamento 1302",
+    "email": "bibianvargas@gmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "yaneth",
     "segundoNombre": "bibiana",
     "primerApellido": "vargas",
-    "segundoApellido": "cano",
-    "cedula": 52190973,
-    "direccion": "avenida(calle) 68 sur no 70d-71 apartamento 1302",
-    "email": "bibianvargas@gmail.com"
+    "segundoApellido": "cano"
   },
+  "cc": 52190973,
+  "idProcesos": [11227193],
   "demanda": {
-    "capitalAdeudado": 48945.502,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-05-02T05:00:00.000Z",
+    "expediente": "11001400305020180012900",
+    "capitalAdeudado": 48945.502,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [161684],
-    "radicado": "2018 - 00129",
-    "vencimientoPagare": [null],
-    "expediente": "11001400305020180012900",
     "juzgados": [
       {
         "id": 50,
         "tipo": "JUZGADO 050 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-50-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-05-02T05:00:00.000Z",
+    "obligacion": [161684],
+    "radicado": "2018 - 00129",
+    "vencimientoPagare": [null],
+    "departamento": "CUNDINAMARCA"
   }
 }

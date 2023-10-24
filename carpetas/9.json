@@ -1,11 +1,12 @@
 {
   "llaveProceso": "1100140030442017099800",
-  "numero": 9,
-  "cc": 1020731500,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 9,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 1020731500,
+    "direccion": "diagonal 77  b no 19 a - 73",
+    "email": "dany_aleja@hotmail.com",
     "tel": {
       "fijo": 731500,
       "celular": 1020731500
@@ -13,27 +14,26 @@
     "primerNombre": "daniela",
     "segundoNombre": "alejandra",
     "primerApellido": "cardenas",
-    "segundoApellido": "rodriguez",
-    "cedula": 1020731500,
-    "direccion": "diagonal 77  b no 19 a - 73",
-    "email": "dany_aleja@hotmail.com"
+    "segundoApellido": "rodriguez"
   },
+  "cc": 1020731500,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 78071.921,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-19T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-20T00:00:00.000Z",
+    "expediente": "1100140030442017099800",
+    "capitalAdeudado": 78071.921,
+    "entregaGarantiasAbogado": "2017-09-19T00:00:00.000Z",
     "etapaProcesal": "SENTENCIA",
     "fechaPresentacion": "2017-09-25T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-10-20T00:00:00.000Z",
     "obligacion": ["2290099308    /2170086682"],
     "radicado": "2017 - 00998",
     "vencimientoPagare": [
       null,
       "2021-01-01T00:00:00.000Z"
     ],
-    "expediente": "1100140030442017099800",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,38 +1,38 @@
 {
   "llaveProceso": null,
-  "numero": 589,
-  "cc": 1030573651,
-  "idProcesos": [],
   "category": "Bancolombia",
+  "numero": 589,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 1030573651,
+    "direccion": "carrera 99 d bis no. 38 - 37 sur",
+    "email": "yurledyparra2024@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3143490829
     },
     "primerNombre": "yurledy",
-    "segundoNombre": null,
     "primerApellido": "parra",
     "segundoApellido": "hernandez",
-    "cedula": 1030573651,
-    "direccion": "carrera 99 d bis no. 38 - 37 sur",
-    "email": "yurledyparra2024@hotmail.com"
+    "segundoNombre": null
   },
+  "cc": 1030573651,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 58421.147,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-10-07T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": null,
+    "capitalAdeudado": 58421147,
+    "entregaGarantiasAbogado": "2023-10-07T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "SOACHA",
+    "mandamientoPago": null,
     "obligacion": [90000218729, 2010089751],
     "radicado": null,
     "vencimientoPagare": [
       "2052-11-18T00:00:00.000Z"
     ],
-    "expediente": null,
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

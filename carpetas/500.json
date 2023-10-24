@@ -1,41 +1,33 @@
 {
   "llaveProceso": "11001400300620180045400",
-  "numero": 500,
-  "cc": null,
-  "idProcesos": [51154840, 81649171],
   "category": "Reintegra",
-  "tipoProceso": "SINGULAR",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "smartitech",
-    "segundoNombre": null,
-    "primerApellido": "s.a.s",
-    "segundoApellido": null,
-    "cedula": null,
-    "direccion": "carrera 13 no 73-33",
-    "email": null
-  },
   "codeudor": {
     "cedula": 1032408735,
     "direccion": "CALLE 67 D - No 66 A-03",
     "nombre": "edisson armando karl buitrago cabrera",
     "telefono": 2501533
   },
+  "numero": 500,
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "cedula": null,
+    "direccion": "carrera 13 no 73-33",
+    "email": null,
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "smartitech",
+    "primerApellido": "s.a.s",
+    "segundoApellido": null,
+    "segundoNombre": null
+  },
+  "cc": null,
+  "idProcesos": [51154840, 81649171],
   "demanda": {
-    "capitalAdeudado": 15086.199,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-04-16T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400300620180045400",
+    "capitalAdeudado": 15086199,
+    "entregaGarantiasAbogado": "2018-04-16T00:00:00.000Z",
     "etapaProcesal": "EJECUCION",
     "fechaPresentacion": "2018-04-27T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [68928057402, "AUDIOPRESTAMO"],
-    "radicado": "2018 - 00454",
-    "vencimientoPagare": [
-      "2020-05-27T00:00:00.000Z"
-    ],
-    "expediente": "11001400300620180045400",
     "juzgados": [
       {
         "id": 17,
@@ -47,6 +39,14 @@
         "tipo": "JUZGADO 006 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-006-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [68928057402, "AUDIOPRESTAMO"],
+    "radicado": "2018 - 00454",
+    "vencimientoPagare": [
+      "2020-05-27T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

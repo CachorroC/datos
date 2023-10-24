@@ -1,29 +1,36 @@
 {
   "llaveProceso": "11001310302520170073600",
-  "numero": 108,
-  "cc": 79558732,
-  "idProcesos": [28937944],
   "category": "Reintegra",
+  "numero": 108,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 79558732,
+    "direccion": "tranversal 15a # 31-09 sur",
+    "email": "miguelangelhuertasv@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "miguel",
     "segundoNombre": "angel",
     "primerApellido": "huertas",
-    "segundoApellido": "valencia",
-    "cedula": 79558732,
-    "direccion": "tranversal 15a # 31-09 sur",
-    "email": "miguelangelhuertasv@hotmail.com"
+    "segundoApellido": "valencia"
   },
+  "cc": 79558732,
+  "idProcesos": [28937944],
   "demanda": {
-    "capitalAdeudado": 211610.991,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-23T00:00:00.000Z",
+    "expediente": "11001310302520170073600",
+    "capitalAdeudado": 211610991,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-06-20T00:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 2,
+        "tipo": "JUZGADO 002 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-del-circuito-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-10-23T00:00:00.000Z",
     "obligacion": [
       12455661,
       "12657330//12748966"
@@ -32,13 +39,6 @@
     "vencimientoPagare": [
       "2020-06-07T00:00:00.000Z"
     ],
-    "expediente": "11001310302520170073600",
-    "juzgados": [
-      {
-        "id": 2,
-        "tipo": "JUZGADO 002 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-del-circuito-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

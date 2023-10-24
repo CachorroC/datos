@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400307320170154500",
-  "numero": 346,
-  "cc": 1019101174,
-  "idProcesos": [50866190],
   "category": "Terminados",
+  "numero": 346,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 1019101174,
+    "direccion": "calle 13 b no 72 a - 40 inrerior  2 apartamento 402",
+    "email": "paulisgomez94@gmail.com",
     "tel": {
       "fijo": 4668308,
       "celular": 3016393345
@@ -13,20 +14,26 @@
     "primerNombre": "paula",
     "segundoNombre": "andrea",
     "primerApellido": "gomez",
-    "segundoApellido": "lopez",
-    "cedula": 1019101174,
-    "direccion": "calle 13 b no 72 a - 40 inrerior  2 apartamento 402",
-    "email": "paulisgomez94@gmail.com"
+    "segundoApellido": "lopez"
   },
+  "cc": 1019101174,
+  "idProcesos": [50866190],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-11-09T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-12-01T00:00:00.000Z",
+    "expediente": "11001400307320170154500",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-11-09T00:00:00.000Z",
     "etapaProcesal": "TERMINADO",
     "fechaPresentacion": "2017-11-22T00:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 73,
+        "tipo": "JUZGADO 073 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-073-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-12-01T00:00:00.000Z",
     "obligacion": [
       540691617249629400, 1010082331
     ],
@@ -34,13 +41,6 @@
     "vencimientoPagare": [
       "2021-03-17T00:00:00.000Z"
     ],
-    "expediente": "11001400307320170154500",
-    "juzgados": [
-      {
-        "id": 73,
-        "tipo": "JUZGADO 073 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-073-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

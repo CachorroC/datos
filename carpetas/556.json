@@ -1,32 +1,39 @@
 {
   "llaveProceso": "25430400300120230112700",
-  "numero": 556,
-  "cc": 1022335014,
-  "idProcesos": [159336301],
   "category": "Bancolombia",
+  "numero": 556,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 1022335014,
+    "direccion": "carrera 13 # 4-20 madrid (cundinamarca)",
+    "email": "ciro.onofe1105@gmail.com",
     "tel": {
       "fijo": null,
       "celular": 3023193548
     },
     "primerNombre": "ciro",
-    "segundoNombre": null,
     "primerApellido": "erquilian",
     "segundoApellido": "onofre",
-    "cedula": 1022335014,
-    "direccion": "carrera 13 # 4-20 madrid (cundinamarca)",
-    "email": "ciro.onofe1105@gmail.com"
+    "segundoNombre": null
   },
+  "cc": 1022335014,
+  "idProcesos": [159336301],
   "demanda": {
-    "capitalAdeudado": 149444.779,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "25430400300120230112700",
+    "capitalAdeudado": 149444779,
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
+    "juzgados": [
+      {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE MADRID",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-civil-municipal-de-madrid"
+      }
+    ],
     "municipio": "MADRID",
+    "mandamientoPago": null,
     "obligacion": [
       "3830095699 // 3830095700",
       3830095701
@@ -37,13 +44,6 @@
       "2026-09-03T05:00:00.000Z",
       "2026-09-04T05:00:00.000Z"
     ],
-    "expediente": "25430400300120230112700",
-    "juzgados": [
-      {
-        "id": 1,
-        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE MADRID",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-civil-municipal-de-madrid"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

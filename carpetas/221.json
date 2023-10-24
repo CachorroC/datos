@@ -1,50 +1,50 @@
 {
   "llaveProceso": "11001400301320170115700",
-  "numero": 221,
-  "cc": 52192430,
-  "idProcesos": [50684250],
   "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "deudor": {
-    "tel": {
-      "fijo": 4506940,
-      "celular": 3103025587
-    },
-    "primerNombre": "beatriz",
-    "segundoNombre": null,
-    "primerApellido": "helena",
-    "segundoApellido": "machado",
-    "cedula": 52192430,
-    "direccion": "carrera 81a # 54 - 32",
-    "email": null
-  },
   "codeudor": {
     "cedula": 5607979,
     "direccion": "CARRERA 81A # 54 - 32",
     "nombre": "hernando gonzalez garcia",
     "telefono": "3063338 // 3142580589"
   },
+  "numero": 221,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "cedula": 52192430,
+    "direccion": "carrera 81a # 54 - 32",
+    "email": null,
+    "tel": {
+      "fijo": 4506940,
+      "celular": 3103025587
+    },
+    "primerNombre": "beatriz",
+    "primerApellido": "helena",
+    "segundoApellido": "machado",
+    "segundoNombre": null
+  },
+  "cc": 52192430,
+  "idProcesos": [50684250],
   "demanda": {
-    "capitalAdeudado": 15864.394,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-18T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-04T00:00:00.000Z",
+    "expediente": "11001400301320170115700",
+    "capitalAdeudado": 15864.394,
+    "entregaGarantiasAbogado": "2017-08-18T00:00:00.000Z",
     "etapaProcesal": "1.100140030132017e+22",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [20990095881],
-    "radicado": "2017 - 01157",
-    "vencimientoPagare": [
-      "2022-04-19T00:00:00.000Z"
-    ],
-    "expediente": "11001400301320170115700",
     "juzgados": [
       {
         "id": 13,
         "tipo": "JUZGADO 013 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-013-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-09-04T00:00:00.000Z",
+    "obligacion": [20990095881],
+    "radicado": "2017 - 01157",
+    "vencimientoPagare": [
+      "2022-04-19T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

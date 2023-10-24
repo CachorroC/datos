@@ -1,44 +1,44 @@
 {
   "llaveProceso": "11001400303520170129700",
-  "numero": 194,
-  "cc": 52790965,
-  "idProcesos": [50679230],
   "category": "Terminados",
+  "numero": 194,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 52790965,
+    "direccion": "calle 20c # 106 - 27 apto 202 int 13",
+    "email": "fabiola_19805@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3107976282
     },
     "primerNombre": "fabiola",
-    "segundoNombre": null,
     "primerApellido": "martinez",
     "segundoApellido": "rueda",
-    "cedula": 52790965,
-    "direccion": "calle 20c # 106 - 27 apto 202 int 13",
-    "email": "fabiola_19805@hotmail.com"
+    "segundoNombre": null
   },
+  "cc": 52790965,
+  "idProcesos": [50679230],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-28T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-25T00:00:00.000Z",
+    "expediente": "11001400303520170129700",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-08-28T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-08-31T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [12601534],
-    "radicado": "2017 - 01297",
-    "vencimientoPagare": [
-      "2017-08-23T00:00:00.000Z"
-    ],
-    "expediente": "11001400303520170129700",
     "juzgados": [
       {
         "id": 35,
         "tipo": "JUZGADO 035 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-35-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-09-25T00:00:00.000Z",
+    "obligacion": [12601534],
+    "radicado": "2017 - 01297",
+    "vencimientoPagare": [
+      "2017-08-23T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,11 +1,12 @@
 {
   "llaveProceso": "25175400300120190030400",
-  "numero": 526,
-  "cc": 1072642976,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 526,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 1072642976,
+    "direccion": "calle 17 #5-10 chia",
+    "email": "cristian20g@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3202954313
@@ -13,24 +14,23 @@
     "primerNombre": "cristian",
     "segundoNombre": "david",
     "primerApellido": "gutierrez",
-    "segundoApellido": "rodriguez",
-    "cedula": 1072642976,
-    "direccion": "calle 17 #5-10 chia",
-    "email": "cristian20g@hotmail.com"
+    "segundoApellido": "rodriguez"
   },
+  "cc": 1072642976,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 13180.105,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "25175400300120190030400",
+    "capitalAdeudado": 13180.105,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": "2019-05-06T05:00:00.000Z",
+    "juzgados": [],
     "municipio": "CHIA",
+    "mandamientoPago": null,
     "obligacion": [9320086222],
     "radicado": "2019 - 00304",
     "vencimientoPagare": [null],
-    "expediente": "25175400300120190030400",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,35 +1,27 @@
 {
   "llaveProceso": "11001400301720170119500",
-  "numero": 286,
-  "cc": 80259791,
-  "idProcesos": [50721470, 127748331],
   "category": "Reintegra",
+  "numero": 286,
   "tipoProceso": "PRENDARIO",
   "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "alirio",
-    "segundoNombre": null,
-    "primerApellido": "heredia",
-    "segundoApellido": "buitrago",
     "cedula": 80259791,
     "direccion": "diagonal 48 j no 5c- 34 sur",
-    "email": "gerencia.seguridadgf@gmail.com"
+    "email": "gerencia.seguridadgf@gmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "alirio",
+    "primerApellido": "heredia",
+    "segundoApellido": "buitrago",
+    "segundoNombre": null
   },
+  "cc": 80259791,
+  "idProcesos": [50721470, 127748331],
   "demanda": {
-    "capitalAdeudado": 94533.343,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-11T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-12T00:00:00.000Z",
+    "expediente": "11001400301720170119500",
+    "capitalAdeudado": 94533343,
+    "entregaGarantiasAbogado": "2017-09-11T00:00:00.000Z",
     "etapaProcesal": "CURADOR AD LITEM",
     "fechaPresentacion": "2017-09-19T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [12711612],
-    "radicado": "2017 - 01195",
-    "vencimientoPagare": [
-      "2020-09-06T00:00:00.000Z"
-    ],
-    "expediente": "11001400301720170119500",
     "juzgados": [
       {
         "id": 17,
@@ -41,6 +33,14 @@
         "tipo": "JUZGADO 017 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-17-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-10-12T00:00:00.000Z",
+    "obligacion": [12711612],
+    "radicado": "2017 - 01195",
+    "vencimientoPagare": [
+      "2020-09-06T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

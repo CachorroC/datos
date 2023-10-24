@@ -1,29 +1,30 @@
 {
   "llaveProceso": "25430400300120180027300",
-  "numero": 121,
-  "cc": 19453362,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 121,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 19453362,
+    "direccion": "carrera 22 a # 8d - 08 sur",
+    "email": "orlandolugo.r@gmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "jaime",
     "segundoNombre": "orlando",
     "primerApellido": "lugo",
-    "segundoApellido": "rodriguez",
-    "cedula": 19453362,
-    "direccion": "carrera 22 a # 8d - 08 sur",
-    "email": "orlandolugo.r@gmail.com"
+    "segundoApellido": "rodriguez"
   },
+  "cc": 19453362,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 55929.373,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-05-16T00:00:00.000Z",
+    "expediente": "25430400300120180027300",
+    "capitalAdeudado": 55929.373,
+    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-08-11T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "MADRID",
+    "mandamientoPago": "2018-05-16T00:00:00.000Z",
     "obligacion": [
       "451305630938242.",
       "20990179915 // AUDIOPRESTAMO"
@@ -32,7 +33,6 @@
     "vencimientoPagare": [
       "2029-12-26T00:00:00.000Z"
     ],
-    "expediente": "25430400300120180027300",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

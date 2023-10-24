@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400303420180061400",
-  "numero": 50,
-  "cc": 52444244,
-  "idProcesos": [51259250],
   "category": "Terminados",
+  "numero": 50,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 52444244,
+    "direccion": "carrera 54 c no. 143 s-90",
+    "email": "gloriaaz@yahoo.com",
     "tel": {
       "fijo": null,
       "celular": 3212062887
@@ -13,20 +14,26 @@
     "primerNombre": "gloria",
     "segundoNombre": "astrid",
     "primerApellido": "rodríguez",
-    "segundoApellido": "baquero",
-    "cedula": 52444244,
-    "direccion": "carrera 54 c no. 143 s-90",
-    "email": "gloriaaz@yahoo.com"
+    "segundoApellido": "baquero"
   },
+  "cc": 52444244,
+  "idProcesos": [51259250],
   "demanda": {
-    "capitalAdeudado": 22309546,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-09-03T00:00:00.000Z",
+    "expediente": "11001400303420180061400",
+    "capitalAdeudado": 22309546,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": null,
+    "juzgados": [
+      {
+        "id": 34,
+        "tipo": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2018-09-03T00:00:00.000Z",
     "obligacion": [
       "1800088260//377813230167802",
       4513070115042991
@@ -35,13 +42,6 @@
     "vencimientoPagare": [
       "2019-06-01T00:00:00.000Z"
     ],
-    "expediente": "11001400303420180061400",
-    "juzgados": [
-      {
-        "id": 34,
-        "tipo": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

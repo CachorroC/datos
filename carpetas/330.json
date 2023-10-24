@@ -1,11 +1,18 @@
 {
   "llaveProceso": "11001400307020170121800",
-  "numero": 330,
-  "cc": 80185084,
-  "idProcesos": [113385910],
   "category": "Terminados",
+  "codeudor": {
+    "cedula": 1022956167,
+    "direccion": "CARRRA 1 D ESTE No 64 - 29 SUR APTO 6",
+    "nombre": "jackellin gonzalez vargas",
+    "telefono": 3144200
+  },
+  "numero": 330,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 80185084,
+    "direccion": "carrera 95 a  no 136 - 47 apartamento 401 bloque 3",
+    "email": "arby3920@hotmail.com",
     "tel": {
       "fijo": 6822121,
       "celular": 3176822122
@@ -13,38 +20,31 @@
     "primerNombre": "nelson",
     "segundoNombre": "arbey",
     "primerApellido": "cangrejo",
-    "segundoApellido": "suarez",
-    "cedula": 80185084,
-    "direccion": "carrera 95 a  no 136 - 47 apartamento 401 bloque 3",
-    "email": "arby3920@hotmail.com"
+    "segundoApellido": "suarez"
   },
-  "codeudor": {
-    "cedula": 1022956167,
-    "direccion": "CARRRA 1 D ESTE No 64 - 29 SUR APTO 6",
-    "nombre": "jackellin gonzalez vargas",
-    "telefono": 3144200
-  },
+  "cc": 80185084,
+  "idProcesos": [113385910],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-10-31T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400307020170121800",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-10-31T00:00:00.000Z",
     "etapaProcesal": "ADMISION",
     "fechaPresentacion": "2017-11-14T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [156888],
-    "radicado": "2017 - 01218",
-    "vencimientoPagare": [
-      "2042-10-09T00:00:00.000Z"
-    ],
-    "expediente": "11001400307020170121800",
     "juzgados": [
       {
         "id": 70,
         "tipo": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-070-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [156888],
+    "radicado": "2017 - 01218",
+    "vencimientoPagare": [
+      "2042-10-09T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

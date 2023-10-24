@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400305320170087100",
-  "numero": 96,
-  "cc": 52818959,
-  "idProcesos": [11998913],
   "category": "Terminados",
+  "numero": 96,
   "tipoProceso": "SINGULAR",
   "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "yuranny",
-    "segundoNombre": null,
-    "primerApellido": "polanco",
-    "segundoApellido": "cespedes",
     "cedula": 52818959,
     "direccion": "carrera 72 # 57b - 50",
-    "email": "bluemoontauro@hotmail.com"
+    "email": "bluemoontauro@hotmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "yuranny",
+    "primerApellido": "polanco",
+    "segundoApellido": "cespedes",
+    "segundoNombre": null
   },
+  "cc": 52818959,
+  "idProcesos": [11998913],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400305320170087100",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-06-29T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [160742, 377815863029282],
-    "radicado": "2017 - 00871",
-    "vencimientoPagare": [
-      "2033-01-30T00:00:00.000Z"
-    ],
-    "expediente": "11001400305320170087100",
     "juzgados": [
       {
         "id": 53,
         "tipo": "JUZGADO 053 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-053-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [160742, 377815863029282],
+    "radicado": "2017 - 00871",
+    "vencimientoPagare": [
+      "2033-01-30T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

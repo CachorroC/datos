@@ -1,33 +1,33 @@
 {
   "llaveProceso": "2575440030042018000600",
-  "numero": 533,
-  "cc": 79522009,
-  "idProcesos": [],
   "category": "Bancolombia",
+  "numero": 533,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 79522009,
+    "direccion": "diagonal 28 no 33-27  torre 7 apart 203  soacha",
+    "email": "jairopardo8-11-70@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "jairo",
     "segundoNombre": "alfonso",
     "primerApellido": "pardo",
-    "segundoApellido": "jaimes",
-    "cedula": 79522009,
-    "direccion": "diagonal 28 no 33-27  torre 7 apart 203  soacha",
-    "email": "jairopardo8-11-70@hotmail.com"
+    "segundoApellido": "jaimes"
   },
+  "cc": 79522009,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 56987.693,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "2575440030042018000600",
+    "capitalAdeudado": 56987693,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCION",
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "SOACHA",
+    "mandamientoPago": null,
     "obligacion": [1680097436, 148653],
     "radicado": "2018 - 00060",
     "vencimientoPagare": [null],
-    "expediente": "2575440030042018000600",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

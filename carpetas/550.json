@@ -1,35 +1,33 @@
 {
   "llaveProceso": "25754418900120190091100",
-  "numero": 550,
-  "cc": 1022336662,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 550,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 1022336662,
+    "direccion": null,
+    "email": null,
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "miguel",
     "segundoNombre": "angel",
     "primerApellido": "aguasaco",
-    "segundoApellido": "peñuela",
-    "cedula": 1022336662,
-    "direccion": null,
-    "email": null
+    "segundoApellido": "peñuela"
   },
+  "cc": 1022336662,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 0,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "25754418900120190091100",
+    "capitalAdeudado": 0,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "SOACHA",
+    "mandamientoPago": null,
     "obligacion": [],
     "radicado": "2019 - 00911",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "25754418900120190091100",
-    "juzgados": []
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

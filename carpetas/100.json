@@ -1,11 +1,12 @@
 {
   "llaveProceso": "25430418900120170068400",
-  "numero": 100,
-  "cc": 80430881,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 100,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 80430881,
+    "direccion": "calle 8 # 1 - 92e madrid",
+    "email": "jojaro07@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3143190799
@@ -13,26 +14,25 @@
     "primerNombre": "jhon",
     "segundoNombre": "jairo",
     "primerApellido": "rubio",
-    "segundoApellido": "ortiz",
-    "cedula": 80430881,
-    "direccion": "calle 8 # 1 - 92e madrid",
-    "email": "jojaro07@hotmail.com"
+    "segundoApellido": "ortiz"
   },
+  "cc": 80430881,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 17280.117,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-07-25T00:00:00.000Z",
+    "expediente": "25430418900120170068400",
+    "capitalAdeudado": 17280.117,
+    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-06-29T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "MADRID",
+    "mandamientoPago": "2017-07-25T00:00:00.000Z",
     "obligacion": [377813893568486, 12484407],
     "radicado": "2017 - 00684",
     "vencimientoPagare": [
       "2017-06-13T00:00:00.000Z"
     ],
-    "expediente": "25430418900120170068400",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,11 +1,18 @@
 {
   "llaveProceso": "11001400303320230105600",
-  "numero": 581,
-  "cc": 52760611,
-  "idProcesos": [132789600],
   "category": "Bancolombia",
+  "codeudor": {
+    "cedula": 80798225,
+    "direccion": "Carrera 145 144 C 72 TR 7 AP 904 Conjunto Residencial Almenara P.H",
+    "nombre": "edison andres tuta forero",
+    "telefono": "CELULAR 3116509661"
+  },
+  "numero": 581,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 52760611,
+    "direccion": "carrera 145 144 c 72 torre 7 apartamento 904 conjunto residencial almenara p.h  de la ciudad de bogotá",
+    "email": "angelicagodoygutierrez@gmail.com",
     "tel": {
       "fijo": null,
       "celular": 3116509661
@@ -13,39 +20,32 @@
     "primerNombre": "angelica",
     "segundoNombre": "godoy",
     "primerApellido": "gutierrez",
-    "segundoApellido": "y",
-    "cedula": 52760611,
-    "direccion": "carrera 145 144 c 72 torre 7 apartamento 904 conjunto residencial almenara p.h  de la ciudad de bogotá",
-    "email": "angelicagodoygutierrez@gmail.com"
+    "segundoApellido": "y"
   },
-  "codeudor": {
-    "cedula": 80798225,
-    "direccion": "Carrera 145 144 C 72 TR 7 AP 904 Conjunto Residencial Almenara P.H",
-    "nombre": "edison andres tuta forero",
-    "telefono": "CELULAR 3116509661"
-  },
+  "cc": 52760611,
+  "idProcesos": [132789600],
   "demanda": {
-    "capitalAdeudado": 51081.164,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-08-24T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400303320230105600",
+    "capitalAdeudado": 51081164,
+    "entregaGarantiasAbogado": "2023-08-24T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": ["22273 320177358", 2470088213],
-    "radicado": "2023 - 01056",
-    "vencimientoPagare": [
-      "2034-12-09T05:00:00.000Z",
-      null
-    ],
-    "expediente": "11001400303320230105600",
     "juzgados": [
       {
         "id": 33,
         "tipo": "JUZGADO 033 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-033-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": ["22273 320177358", 2470088213],
+    "radicado": "2023 - 01056",
+    "vencimientoPagare": [
+      "2034-12-09T05:00:00.000Z",
+      null
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

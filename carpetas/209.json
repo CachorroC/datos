@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400306420170119100",
-  "numero": 209,
-  "cc": 79852094,
-  "idProcesos": [50672820],
   "category": "Reintegra",
+  "numero": 209,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 79852094,
+    "direccion": "carrera 68m # 37d - 47 sur",
+    "email": "cesa861@hotmail.com",
     "tel": {
       "fijo": 1006108,
       "celular": 3212406004
@@ -13,20 +14,26 @@
     "primerNombre": "cesar",
     "segundoNombre": "alfonso",
     "primerApellido": "umaña",
-    "segundoApellido": "cañon",
-    "cedula": 79852094,
-    "direccion": "carrera 68m # 37d - 47 sur",
-    "email": "cesa861@hotmail.com"
+    "segundoApellido": "cañon"
   },
+  "cc": 79852094,
+  "idProcesos": [50672820],
   "demanda": {
-    "capitalAdeudado": 54090.336,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-06T00:00:00.000Z",
+    "expediente": "11001400306420170119100",
+    "capitalAdeudado": 54090336,
+    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 7,
+        "tipo": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-09-06T00:00:00.000Z",
     "obligacion": [
       2170085697,
       "377813567054276 // 451377194627824 // 5303710806169667 // 5306726083237084 // AUDIOPRESTAMO"
@@ -35,13 +42,6 @@
     "vencimientoPagare": [
       "2020-08-31T00:00:00.000Z"
     ],
-    "expediente": "11001400306420170119100",
-    "juzgados": [
-      {
-        "id": 7,
-        "tipo": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

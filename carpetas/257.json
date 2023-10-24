@@ -1,35 +1,35 @@
 {
   "llaveProceso": "11001418900720170013800",
-  "numero": 257,
-  "cc": 79706920,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 257,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "paul",
-    "segundoNombre": null,
-    "primerApellido": "richard",
-    "segundoApellido": "caicedo",
     "cedula": 79706920,
     "direccion": "calle 8 a no 88b - 31 etapa 7 casa 196",
-    "email": null
+    "email": null,
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "paul",
+    "primerApellido": "richard",
+    "segundoApellido": "caicedo",
+    "segundoNombre": null
   },
+  "cc": 79706920,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-13T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-18T00:00:00.000Z",
+    "expediente": "11001418900720170013800",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-09-13T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-09-21T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-10-18T00:00:00.000Z",
     "obligacion": [20990083482],
     "radicado": "2017 - 00138",
     "vencimientoPagare": [
       "2017-04-25T00:00:00.000Z"
     ],
-    "expediente": "11001418900720170013800",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

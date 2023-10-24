@@ -1,11 +1,18 @@
 {
   "llaveProceso": "11001400306320180016800",
-  "numero": 62,
-  "cc": 80722943,
-  "idProcesos": [51018210],
   "category": "Terminados",
+  "codeudor": {
+    "cedula": 53011591,
+    "direccion": "DIAGONAL 60 SUR NO. 28-I 72 INTERIOR 3 APTO 204",
+    "nombre": "yurani vergara nagles",
+    "telefono": "7340105//304410804"
+  },
+  "numero": 62,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 80722943,
+    "direccion": "diagonal 60 sur no. 28-i 72 interior 3 apto 204",
+    "email": null,
     "tel": {
       "fijo": null,
       "celular": 3138253554
@@ -13,38 +20,31 @@
     "primerNombre": "luis",
     "segundoNombre": "eduardo",
     "primerApellido": "carranza",
-    "segundoApellido": "bustos",
-    "cedula": 80722943,
-    "direccion": "diagonal 60 sur no. 28-i 72 interior 3 apto 204",
-    "email": null
+    "segundoApellido": "bustos"
   },
-  "codeudor": {
-    "cedula": 53011591,
-    "direccion": "DIAGONAL 60 SUR NO. 28-I 72 INTERIOR 3 APTO 204",
-    "nombre": "yurani vergara nagles",
-    "telefono": "7340105//304410804"
-  },
+  "cc": 80722943,
+  "idProcesos": [51018210],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-03-21T00:00:00.000Z",
+    "expediente": "11001400306320180016800",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "etapaProcesal": "SENTENCIA",
     "fechaPresentacion": "2017-06-21T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": ["320 093516"],
-    "radicado": "2017 - 00537",
-    "vencimientoPagare": [
-      "2022-01-31T00:00:00.000Z"
-    ],
-    "expediente": "11001400306320180016800",
     "juzgados": [
       {
         "id": 14,
         "tipo": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-03-21T00:00:00.000Z",
+    "obligacion": ["320 093516"],
+    "radicado": "2017 - 00537",
+    "vencimientoPagare": [
+      "2022-01-31T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

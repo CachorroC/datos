@@ -1,11 +1,18 @@
 {
   "llaveProceso": "11001400301520170116100",
-  "numero": 173,
-  "cc": 79878252,
-  "idProcesos": [50674600],
   "category": "Terminados",
+  "codeudor": {
+    "cedula": 52792026,
+    "direccion": "CALLE 69A SUR # 104 - 18 CASA 177",
+    "nombre": "ivonne maritza castillo blanco",
+    "telefono": 7856815
+  },
+  "numero": 173,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 79878252,
+    "direccion": "calle 69a sur # 104 - 18 casa 177",
+    "email": "diegoc8a@gmail.com",
     "tel": {
       "fijo": 7230139,
       "celular": 3114901649
@@ -13,38 +20,31 @@
     "primerNombre": "diego",
     "segundoNombre": "alexander",
     "primerApellido": "caycedo",
-    "segundoApellido": "ochoa",
-    "cedula": 79878252,
-    "direccion": "calle 69a sur # 104 - 18 casa 177",
-    "email": "diegoc8a@gmail.com"
+    "segundoApellido": "ochoa"
   },
-  "codeudor": {
-    "cedula": 52792026,
-    "direccion": "CALLE 69A SUR # 104 - 18 CASA 177",
-    "nombre": "ivonne maritza castillo blanco",
-    "telefono": 7856815
-  },
+  "cc": 79878252,
+  "idProcesos": [50674600],
   "demanda": {
-    "capitalAdeudado": 41576.997,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-08-28T00:00:00.000Z",
+    "expediente": "11001400301520170116100",
+    "capitalAdeudado": 41576.997,
+    "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [166760],
-    "radicado": "2017 - 01161",
-    "vencimientoPagare": [
-      "2028-08-09T00:00:00.000Z"
-    ],
-    "expediente": "11001400301520170116100",
     "juzgados": [
       {
         "id": 15,
         "tipo": "JUZGADO 015 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-015-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-08-28T00:00:00.000Z",
+    "obligacion": [166760],
+    "radicado": "2017 - 01161",
+    "vencimientoPagare": [
+      "2028-08-09T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

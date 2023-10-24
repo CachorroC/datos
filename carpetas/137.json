@@ -1,11 +1,18 @@
 {
   "llaveProceso": "11001400304720170171300",
-  "numero": 137,
-  "cc": 52818134,
-  "idProcesos": [10410303],
   "category": "Terminados",
+  "codeudor": {
+    "cedula": 51568155,
+    "direccion": "TRANSVERSAL 96A # 75B - 10 INTERIOR 10",
+    "nombre": "luz marina muñoz sanchez",
+    "telefono": "2124131 77 3004482243"
+  },
+  "numero": 137,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 52818134,
+    "direccion": "calle 181c # 11 - 75 torre 3 apto 302",
+    "email": "ednita22ms@hotmail.com",
     "tel": {
       "fijo": 3002766,
       "celular": 3002908272
@@ -13,38 +20,31 @@
     "primerNombre": "edna",
     "segundoNombre": "milena",
     "primerApellido": "muñoz",
-    "segundoApellido": "sanchez",
-    "cedula": 52818134,
-    "direccion": "calle 181c # 11 - 75 torre 3 apto 302",
-    "email": "ednita22ms@hotmail.com"
+    "segundoApellido": "sanchez"
   },
-  "codeudor": {
-    "cedula": 51568155,
-    "direccion": "TRANSVERSAL 96A # 75B - 10 INTERIOR 10",
-    "nombre": "luz marina muñoz sanchez",
-    "telefono": "2124131 77 3004482243"
-  },
+  "cc": 52818134,
+  "idProcesos": [10410303],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-12-01T00:00:00.000Z",
+    "expediente": "11001400304720170171300",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-08-23T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [235349],
-    "radicado": "2017 - 01713",
-    "vencimientoPagare": [
-      "2023-10-31T00:00:00.000Z"
-    ],
-    "expediente": "11001400304720170171300",
     "juzgados": [
       {
         "id": 47,
         "tipo": "JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-047-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-12-01T00:00:00.000Z",
+    "obligacion": [235349],
+    "radicado": "2017 - 01713",
+    "vencimientoPagare": [
+      "2023-10-31T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

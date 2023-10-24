@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001410375120180112100",
-  "numero": 456,
-  "cc": 26407097,
-  "idProcesos": [95877041],
   "category": "Terminados",
+  "numero": 456,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 26407097,
+    "direccion": "calle  57b bis no 99b-64 sur bosa santa fe",
+    "email": null,
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "ana",
     "segundoNombre": "lucia",
     "primerApellido": "yañez",
-    "segundoApellido": "vargas (fallecida)",
-    "cedula": 26407097,
-    "direccion": "calle  57b bis no 99b-64 sur bosa santa fe",
-    "email": null
+    "segundoApellido": "vargas (fallecida)"
   },
+  "cc": 26407097,
+  "idProcesos": [95877041],
   "demanda": {
-    "capitalAdeudado": 24310.47,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-06-29T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-07-06T00:00:00.000Z",
+    "expediente": "11001410375120180112100",
+    "capitalAdeudado": 24310.47,
+    "entregaGarantiasAbogado": "2018-06-29T00:00:00.000Z",
     "etapaProcesal": "1.100141037512018e+22",
     "fechaPresentacion": null,
-    "municipio": "KENNEDY",
-    "obligacion": [10044000104],
-    "radicado": "2018 - 01121",
-    "vencimientoPagare": [
-      "2021-01-29T00:00:00.000Z"
-    ],
-    "expediente": "11001410375120180112100",
     "juzgados": [
       {
         "id": 751,
         "tipo": "JUZGADO 751 CIVIL MUNICIPAL DE PEQUEÑAS CAUSAS DE BOGOTÁ ",
         "url": "https://www.ramajudicial.gov.cojuzgado-751-civil-municipal-de-pequeñas-causas-de-bogotá-"
       }
-    ]
+    ],
+    "municipio": "KENNEDY",
+    "mandamientoPago": "2018-07-06T00:00:00.000Z",
+    "obligacion": [10044000104],
+    "radicado": "2018 - 01121",
+    "vencimientoPagare": [
+      "2021-01-29T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

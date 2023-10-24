@@ -1,50 +1,50 @@
 {
   "llaveProceso": "25183400300120170011900",
-  "numero": 76,
-  "cc": 20493423,
-  "idProcesos": [86212271],
   "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "deudor": {
-    "tel": {
-      "fijo": null,
-      "celular": 3112110025
-    },
-    "primerNombre": "estela",
-    "segundoNombre": null,
-    "primerApellido": "marin",
-    "segundoApellido": "garzón",
-    "cedula": 20493423,
-    "direccion": "calle 8 # 2 - 32 choconta",
-    "email": "stellamarin23@hotmail.com"
-  },
   "codeudor": {
     "cedula": 80394005,
     "direccion": "CALLE 8 # 2 - 32 CHOCONTA",
     "nombre": "adelmo abril forero",
     "telefono": 3143782313
   },
+  "numero": 76,
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "cedula": 20493423,
+    "direccion": "calle 8 # 2 - 32 choconta",
+    "email": "stellamarin23@hotmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": 3112110025
+    },
+    "primerNombre": "estela",
+    "primerApellido": "marin",
+    "segundoApellido": "garzón",
+    "segundoNombre": null
+  },
+  "cc": 20493423,
+  "idProcesos": [86212271],
   "demanda": {
-    "capitalAdeudado": 17517.434,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-06-21T00:00:00.000Z",
+    "expediente": "25183400300120170011900",
+    "capitalAdeudado": 17517.434,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "etapaProcesal": "2.518340030012017e+22",
     "fechaPresentacion": null,
-    "municipio": "CHOCONTA",
-    "obligacion": [2660080368],
-    "radicado": "2017 - 00119",
-    "vencimientoPagare": [
-      "2019-07-21T00:00:00.000Z"
-    ],
-    "expediente": "25183400300120170011900",
     "juzgados": [
       {
         "id": 1,
         "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE CHOCONTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-001-civil-municipal-de-choconta"
       }
-    ]
+    ],
+    "municipio": "CHOCONTA",
+    "mandamientoPago": "2017-06-21T00:00:00.000Z",
+    "obligacion": [2660080368],
+    "radicado": "2017 - 00119",
+    "vencimientoPagare": [
+      "2019-07-21T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

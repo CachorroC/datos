@@ -1,11 +1,18 @@
 {
   "llaveProceso": "11001400303020170095100",
-  "numero": 30,
-  "cc": 52367601,
-  "idProcesos": [50492700],
   "category": "Terminados",
+  "codeudor": {
+    "cedula": 8742730,
+    "direccion": "CALLE 181 C No  13 - 54. INTERIOR 21 APARTAMENTO 403",
+    "nombre": "hector manuel tariffe de moya",
+    "telefono": 8742730
+  },
+  "numero": 30,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 52367601,
+    "direccion": "carrera 8 no 192 - 60  apartamento  312  / garage  29",
+    "email": "mivibel@yahoo.com",
     "tel": {
       "fijo": null,
       "celular": 3002107965
@@ -13,38 +20,31 @@
     "primerNombre": "mireya",
     "segundoNombre": "viviana",
     "primerApellido": "beltran",
-    "segundoApellido": "herrera",
-    "cedula": 52367601,
-    "direccion": "carrera 8 no 192 - 60  apartamento  312  / garage  29",
-    "email": "mivibel@yahoo.com"
+    "segundoApellido": "herrera"
   },
-  "codeudor": {
-    "cedula": 8742730,
-    "direccion": "CALLE 181 C No  13 - 54. INTERIOR 21 APARTAMENTO 403",
-    "nombre": "hector manuel tariffe de moya",
-    "telefono": 8742730
-  },
+  "cc": 52367601,
+  "idProcesos": [50492700],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-10T00:00:00.000Z",
+    "expediente": "11001400303020170095100",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [146247],
-    "radicado": "2017 - 00951",
-    "vencimientoPagare": [
-      "2031-12-02T00:00:00.000Z"
-    ],
-    "expediente": "11001400303020170095100",
     "juzgados": [
       {
         "id": 30,
         "tipo": "JUZGADO 030 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-30-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-10-10T00:00:00.000Z",
+    "obligacion": [146247],
+    "radicado": "2017 - 00951",
+    "vencimientoPagare": [
+      "2031-12-02T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400307720180085400",
-  "numero": 465,
-  "cc": 79789409,
-  "idProcesos": [51342910],
   "category": "Terminados",
+  "numero": 465,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "giovanny",
-    "segundoNombre": null,
-    "primerApellido": "duran",
-    "segundoApellido": "antonio",
     "cedula": 79789409,
     "direccion": "calle 105 sur no 2-22 este",
-    "email": null
+    "email": null,
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "giovanny",
+    "primerApellido": "duran",
+    "segundoApellido": "antonio",
+    "segundoNombre": null
   },
+  "cc": 79789409,
+  "idProcesos": [51342910],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-07-29T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400307720180085400",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2018-07-29T00:00:00.000Z",
     "etapaProcesal": "ADMISION",
     "fechaPresentacion": "2018-07-31T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [209900149557, 377815750421170],
-    "radicado": "2018 - 00854",
-    "vencimientoPagare": [
-      "2027-03-02T00:00:00.000Z"
-    ],
-    "expediente": "11001400307720180085400",
     "juzgados": [
       {
         "id": 77,
         "tipo": "JUZGADO 077 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-077-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [209900149557, 377815750421170],
+    "radicado": "2018 - 00854",
+    "vencimientoPagare": [
+      "2027-03-02T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

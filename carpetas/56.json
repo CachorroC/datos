@@ -1,50 +1,50 @@
 {
   "llaveProceso": "11001400302720140070300",
-  "numero": 56,
-  "cc": 52039387,
-  "idProcesos": [29071084],
   "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "deudor": {
-    "tel": {
-      "fijo": 7900454,
-      "celular": 3138551970
-    },
-    "primerNombre": "gladys",
-    "segundoNombre": null,
-    "primerApellido": "hernandez",
-    "segundoApellido": "lopez",
-    "cedula": 52039387,
-    "direccion": "diagonal 62 c no. 19-c-12 acacia san",
-    "email": "gladys12357@hotmail.com"
-  },
   "codeudor": {
     "cedula": 52039387,
     "direccion": "DIAGONAL 62 C No. 19-C-12 ACACIA SAN",
     "nombre": "gladys hernandez lopez",
     "telefono": "7900454//3138551970"
   },
+  "numero": 56,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "cedula": 52039387,
+    "direccion": "diagonal 62 c no. 19-c-12 acacia san",
+    "email": "gladys12357@hotmail.com",
+    "tel": {
+      "fijo": 7900454,
+      "celular": 3138551970
+    },
+    "primerNombre": "gladys",
+    "primerApellido": "hernandez",
+    "segundoApellido": "lopez",
+    "segundoNombre": null
+  },
+  "cc": 52039387,
+  "idProcesos": [29071084],
   "demanda": {
-    "capitalAdeudado": 116728.485,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-06-22T00:00:00.000Z",
+    "expediente": "11001400302720140070300",
+    "capitalAdeudado": 116728.485,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "etapaProcesal": "1.100140030272014e+22",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": ["2273 320157242"],
-    "radicado": "2014 - 00703",
-    "vencimientoPagare": [
-      "2022-10-19T00:00:00.000Z"
-    ],
-    "expediente": "11001400302720140070300",
     "juzgados": [
       {
         "id": 3,
         "tipo": "JUZGADO 003 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-03-de-ejecucion-civil-del-circuito-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-06-22T00:00:00.000Z",
+    "obligacion": ["2273 320157242"],
+    "radicado": "2014 - 00703",
+    "vencimientoPagare": [
+      "2022-10-19T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,35 +1,35 @@
 {
   "llaveProceso": "25290400300120170063400",
-  "numero": 260,
-  "cc": 11384155,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 260,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "hernan",
-    "segundoNombre": null,
-    "primerApellido": "alvarez",
-    "segundoApellido": "pardo",
     "cedula": 11384155,
     "direccion": "carrera 4 este 4-42  fusagasuga",
-    "email": "heralvarezpa@misena.edu.co"
+    "email": "heralvarezpa@misena.edu.co",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "hernan",
+    "primerApellido": "alvarez",
+    "segundoApellido": "pardo",
+    "segundoNombre": null
   },
+  "cc": 11384155,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-18T00:00:00.000Z",
+    "expediente": "25290400300120170063400",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-09-27T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "FUSAGASUGA",
+    "mandamientoPago": "2017-10-18T00:00:00.000Z",
     "obligacion": [132687, 3778133800181884],
     "radicado": "2017 - 00634",
     "vencimientoPagare": [
       "2017-09-12T00:00:00.000Z"
     ],
-    "expediente": "25290400300120170063400",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

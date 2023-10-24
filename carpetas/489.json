@@ -1,39 +1,39 @@
 {
   "llaveProceso": "25754418900320180100800",
-  "numero": 489,
-  "cc": 80257279,
-  "idProcesos": [],
   "category": "Terminados",
-  "tipoProceso": "HIPOTECARIA",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "orlando",
-    "segundoNombre": null,
-    "primerApellido": "silva",
-    "segundoApellido": "calderon",
-    "cedula": 80257279,
-    "direccion": "calle 72 g- sur no 35-13 sur",
-    "email": "jjanzola@hotmail.com"
-  },
   "codeudor": {
     "cedula": 10336884340,
     "direccion": "TRANSVERSAL 4B No 3-75 CASA 87",
     "nombre": "luz mery salcedo espinosa",
     "telefono": 7308097
   },
+  "numero": 489,
+  "tipoProceso": "HIPOTECARIA",
+  "deudor": {
+    "cedula": 80257279,
+    "direccion": "calle 72 g- sur no 35-13 sur",
+    "email": "jjanzola@hotmail.com",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "orlando",
+    "primerApellido": "silva",
+    "segundoApellido": "calderon",
+    "segundoNombre": null
+  },
+  "cc": 80257279,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "25754418900320180100800",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "ADMISION",
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "SOACHA",
+    "mandamientoPago": null,
     "obligacion": [20990126542],
     "radicado": "2018 - 01008",
     "vencimientoPagare": [null],
-    "expediente": "25754418900320180100800",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

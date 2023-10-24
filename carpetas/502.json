@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001418901620190108500",
-  "numero": 502,
-  "cc": 1023861016,
-  "idProcesos": [86958040],
   "category": "Reintegra",
+  "numero": 502,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 1023861016,
+    "direccion": "transversal 70g sur-68-52 torre 18 apartamento 1401",
+    "email": "Anrf1985@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "angelica",
     "segundoNombre": "nathaly",
     "primerApellido": "rozo",
-    "segundoApellido": "franco",
-    "cedula": 1023861016,
-    "direccion": "transversal 70g sur-68-52 torre 18 apartamento 1401",
-    "email": "Anrf1985@hotmail.com"
+    "segundoApellido": "franco"
   },
+  "cc": 1023861016,
+  "idProcesos": [86958040],
   "demanda": {
-    "capitalAdeudado": 10930.1,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-12-10T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001418901620190108500",
+    "capitalAdeudado": 10930100,
+    "entregaGarantiasAbogado": "2018-12-10T05:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [4.59426010701041e29],
-    "radicado": "2019 - 01085",
-    "vencimientoPagare": [
-      "2021-05-01T05:00:00.000Z"
-    ],
-    "expediente": "11001418901620190108500",
     "juzgados": [
       {
         "id": 2,
         "tipo": "JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [4.59426010701041e29],
+    "radicado": "2019 - 01085",
+    "vencimientoPagare": [
+      "2021-05-01T05:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

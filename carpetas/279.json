@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400300820170105800",
-  "numero": 279,
-  "cc": 1069745324,
-  "idProcesos": [112758450],
   "category": "Reintegra",
+  "numero": 279,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 1069745324,
+    "direccion": "calle 14a sur # 11m - 18 casa 22",
+    "email": null,
     "tel": {
       "fijo": null,
       "celular": 3115964170
@@ -13,32 +14,31 @@
     "primerNombre": "andres",
     "segundoNombre": "felipe",
     "primerApellido": "gutierrez",
-    "segundoApellido": "trujillo",
-    "cedula": 1069745324,
-    "direccion": "calle 14a sur # 11m - 18 casa 22",
-    "email": null
+    "segundoApellido": "trujillo"
   },
+  "cc": 1069745324,
+  "idProcesos": [112758450],
   "demanda": {
-    "capitalAdeudado": 14404.721,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-25T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-13T00:00:00.000Z",
+    "expediente": "11001400300820170105800",
+    "capitalAdeudado": 14404721,
+    "entregaGarantiasAbogado": "2017-08-25T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-09-04T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [2330087057],
-    "radicado": "2017 - 01058",
-    "vencimientoPagare": [
-      "2020-12-07T00:00:00.000Z"
-    ],
-    "expediente": "11001400300820170105800",
     "juzgados": [
       {
         "id": 1,
         "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-09-13T00:00:00.000Z",
+    "obligacion": [2330087057],
+    "radicado": "2017 - 01058",
+    "vencimientoPagare": [
+      "2020-12-07T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

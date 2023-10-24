@@ -1,11 +1,18 @@
 {
   "llaveProceso": "11001400308220170064900",
-  "numero": 33,
-  "cc": 28936365,
-  "idProcesos": [81869251],
   "category": "Terminados",
+  "codeudor": {
+    "cedula": 28936365,
+    "direccion": "CALLE 401 SUR 72 L -40 CRISTALES  BOGOTA",
+    "nombre": "nini cortes",
+    "telefono": 3134775602
+  },
+  "numero": 33,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 28936365,
+    "direccion": "calle 401 sur 72 l -40 cristales  bogota",
+    "email": "snaluistol@gmail.com",
     "tel": {
       "fijo": null,
       "celular": 3118113651
@@ -13,26 +20,26 @@
     "primerNombre": "nini",
     "segundoNombre": "johana",
     "primerApellido": "cortes",
-    "segundoApellido": "monroy",
-    "cedula": 28936365,
-    "direccion": "calle 401 sur 72 l -40 cristales  bogota",
-    "email": "snaluistol@gmail.com"
+    "segundoApellido": "monroy"
   },
-  "codeudor": {
-    "cedula": 28936365,
-    "direccion": "CALLE 401 SUR 72 L -40 CRISTALES  BOGOTA",
-    "nombre": "nini cortes",
-    "telefono": 3134775602
-  },
+  "cc": 28936365,
+  "idProcesos": [81869251],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-05-30T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-06-15T00:00:00.000Z",
+    "expediente": "11001400308220170064900",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-05-30T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-06-09T00:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 82,
+        "tipo": "JUZGADO 082 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-082-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-06-15T00:00:00.000Z",
     "obligacion": [
       377813824603022, 4513078713738027
     ],
@@ -40,13 +47,6 @@
     "vencimientoPagare": [
       "2020-03-03T00:00:00.000Z"
     ],
-    "expediente": "11001400308220170064900",
-    "juzgados": [
-      {
-        "id": 82,
-        "tipo": "JUZGADO 082 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-082-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

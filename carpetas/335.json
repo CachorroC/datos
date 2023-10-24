@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400301120180011800",
-  "numero": 335,
-  "cc": 1030601547,
-  "idProcesos": [50995460],
   "category": "Terminados",
+  "numero": 335,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 1030601547,
+    "direccion": "carrera 72  no 57 b -85 sur interior 8 apartamento 2",
+    "email": "cam.g.4@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "cristian",
     "segundoNombre": "camilo",
     "primerApellido": "garcia",
-    "segundoApellido": "escobar",
-    "cedula": 1030601547,
-    "direccion": "carrera 72  no 57 b -85 sur interior 8 apartamento 2",
-    "email": "cam.g.4@hotmail.com"
+    "segundoApellido": "escobar"
   },
+  "cc": 1030601547,
+  "idProcesos": [50995460],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-11-10T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-02-26T00:00:00.000Z",
+    "expediente": "11001400301120180011800",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-11-10T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [4020082793, 4513070099197613],
-    "radicado": "2018 - 00118",
-    "vencimientoPagare": [
-      "2020-11-30T00:00:00.000Z"
-    ],
-    "expediente": "11001400301120180011800",
     "juzgados": [
       {
         "id": 3,
         "tipo": "JUZGADO 003 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-03-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-02-26T00:00:00.000Z",
+    "obligacion": [4020082793, 4513070099197613],
+    "radicado": "2018 - 00118",
+    "vencimientoPagare": [
+      "2020-11-30T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400306820170130600",
-  "numero": 334,
-  "cc": 79853302,
-  "idProcesos": [50765770],
   "category": "Reintegra",
+  "numero": 334,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 79853302,
+    "direccion": "calle  70 a bis  no 117-16",
+    "email": "nanbravo04@hotmail.com",
     "tel": {
       "fijo": 7459324,
       "celular": 3132088678
@@ -13,30 +14,29 @@
     "primerNombre": "nestor",
     "segundoNombre": "julio",
     "primerApellido": "martinez",
-    "segundoApellido": "orjuela",
-    "cedula": 79853302,
-    "direccion": "calle  70 a bis  no 117-16",
-    "email": "nanbravo04@hotmail.com"
+    "segundoApellido": "orjuela"
   },
+  "cc": 79853302,
+  "idProcesos": [50765770],
   "demanda": {
-    "capitalAdeudado": 15018.661,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400306820170130600",
+    "capitalAdeudado": 15018661,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-10-10T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": ["AUDIOPRESTAMO"],
-    "radicado": "2017 - 01306",
-    "vencimientoPagare": [null],
-    "expediente": "11001400306820170130600",
     "juzgados": [
       {
         "id": 15,
         "tipo": "JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-15-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": ["AUDIOPRESTAMO"],
+    "radicado": "2017 - 01306",
+    "vencimientoPagare": [null],
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,44 +1,44 @@
 {
   "llaveProceso": "11001400300820170106000",
-  "numero": 203,
-  "cc": 80380775,
-  "idProcesos": [50684220],
   "category": "Terminados",
+  "numero": 203,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 80380775,
+    "direccion": "calle 92 bis sur # 3 - 61",
+    "email": "fantavillabon@hotmail.com",
     "tel": {
       "fijo": 7672705,
       "celular": 3118264932
     },
     "primerNombre": "gonzalo",
-    "segundoNombre": null,
     "primerApellido": "villabon",
     "segundoApellido": "martinez",
-    "cedula": 80380775,
-    "direccion": "calle 92 bis sur # 3 - 61",
-    "email": "fantavillabon@hotmail.com"
+    "segundoNombre": null
   },
+  "cc": 80380775,
+  "idProcesos": [50684220],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-11T00:00:00.000Z",
+    "expediente": "11001400300820170106000",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": "2017-09-04T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [179104],
-    "radicado": "2017 - 01060",
-    "vencimientoPagare": [
-      "2024-11-28T00:00:00.000Z"
-    ],
-    "expediente": "11001400300820170106000",
     "juzgados": [
       {
         "id": 7,
         "tipo": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-07-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-09-11T00:00:00.000Z",
+    "obligacion": [179104],
+    "radicado": "2017 - 01060",
+    "vencimientoPagare": [
+      "2024-11-28T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400308520170084900",
-  "numero": 22,
-  "cc": 80073174,
-  "idProcesos": [51935790],
   "category": "Reintegra",
+  "numero": 22,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 80073174,
+    "direccion": "calle 160 no. 58-75 torre 6 apto 503 bogota /// yopal casanare",
+    "email": null,
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "jose",
     "segundoNombre": "edwin",
     "primerApellido": "garces",
-    "segundoApellido": "ardila",
-    "cedula": 80073174,
-    "direccion": "calle 160 no. 58-75 torre 6 apto 503 bogota /// yopal casanare",
-    "email": null
+    "segundoApellido": "ardila"
   },
+  "cc": 80073174,
+  "idProcesos": [51935790],
   "demanda": {
-    "capitalAdeudado": 29690.679,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-07-21T00:00:00.000Z",
+    "expediente": "11001400308520170084900",
+    "capitalAdeudado": 29690679,
+    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-05-24T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [2453698],
-    "radicado": "2017 - 00849",
-    "vencimientoPagare": [
-      "2020-04-26T00:00:00.000Z"
-    ],
-    "expediente": "11001400308520170084900",
     "juzgados": [
       {
         "id": 11,
         "tipo": "JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-11-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-07-21T00:00:00.000Z",
+    "obligacion": [2453698],
+    "radicado": "2017 - 00849",
+    "vencimientoPagare": [
+      "2020-04-26T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

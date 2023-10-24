@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400302820170051200",
-  "numero": 57,
-  "cc": 39556705,
-  "idProcesos": [50512320],
   "category": "Terminados",
+  "numero": 57,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 39556705,
+    "direccion": "avda 80 no. 60-95  rio interior 3 apto 11",
+    "email": "ceciliaaponte@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3102279518
@@ -13,35 +14,32 @@
     "primerNombre": "carmen",
     "segundoNombre": "cecilia",
     "primerApellido": "aponte",
-    "segundoApellido": "zambrano",
-    "cedula": 39556705,
-    "direccion": "avda 80 no. 60-95  rio interior 3 apto 11",
-    "email": "ceciliaaponte@hotmail.com"
+    "segundoApellido": "zambrano"
   },
+  "cc": 39556705,
+  "idProcesos": [50512320],
   "demanda": {
-    "capitalAdeudado": 28250394,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
+    "expediente": "11001400302820170051200",
+    "capitalAdeudado": 28250394,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-06-15T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "710084822//377813215734547",
-      "4513072329336110//5303713387599294"
-    ],
-    "radicado": "2017 - 00512",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "11001400302820170051200",
     "juzgados": [
       {
         "id": 28,
         "tipo": "JUZGADO 028 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-28-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": null,
+    "obligacion": [
+      "710084822//377813215734547",
+      "4513072329336110//5303713387599294"
+    ],
+    "radicado": "2017 - 00512",
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

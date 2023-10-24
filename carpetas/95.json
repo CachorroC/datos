@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400302820170057500",
-  "numero": 95,
-  "cc": 1015410386,
-  "idProcesos": [50541540],
   "category": "Terminados",
+  "numero": 95,
   "tipoProceso": "PRENDARIO",
   "deudor": {
+    "cedula": 1015410386,
+    "direccion": "carrera 40b # 1 - 61",
+    "email": "edwinperez8302@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "edwin",
     "segundoNombre": "jhobani",
     "primerApellido": "perez",
-    "segundoApellido": "pita",
-    "cedula": 1015410386,
-    "direccion": "carrera 40b # 1 - 61",
-    "email": "edwinperez8302@hotmail.com"
+    "segundoApellido": "pita"
   },
+  "cc": 1015410386,
+  "idProcesos": [50541540],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-07-10T00:00:00.000Z",
+    "expediente": "11001400302820170057500",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-06-29T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [12099135],
-    "radicado": "2017 - 00575",
-    "vencimientoPagare": [
-      "2017-06-13T00:00:00.000Z"
-    ],
-    "expediente": "11001400302820170057500",
     "juzgados": [
       {
         "id": 28,
         "tipo": "JUZGADO 028 CIVIL MUNICIPAL DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-28-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-07-10T00:00:00.000Z",
+    "obligacion": [12099135],
+    "radicado": "2017 - 00575",
+    "vencimientoPagare": [
+      "2017-06-13T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

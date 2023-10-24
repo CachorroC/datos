@@ -1,45 +1,45 @@
 {
   "llaveProceso": "11001400301820170181300",
-  "numero": 317,
-  "cc": 80251653,
-  "idProcesos": [50832550],
   "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "deudor": {
-    "tel": { "fijo": null, "celular": null },
-    "primerNombre": "wilson",
-    "segundoNombre": null,
-    "primerApellido": "javier",
-    "segundoApellido": "sanchez",
-    "cedula": 80251653,
-    "direccion": "calle 62 g  no 75 g - 18 sur",
-    "email": "wilsoningind@yahoo.es"
-  },
   "codeudor": {
     "cedula": 53089914,
     "direccion": "CALLE  62G No 75 G-18 SUR",
     "nombre": "yinet esneda gaviria gaviria",
     "telefono": 5971320
   },
+  "numero": 317,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "cedula": 80251653,
+    "direccion": "calle 62 g  no 75 g - 18 sur",
+    "email": "wilsoningind@yahoo.es",
+    "tel": { "fijo": null, "celular": null },
+    "primerNombre": "wilson",
+    "primerApellido": "javier",
+    "segundoApellido": "sanchez",
+    "segundoNombre": null
+  },
+  "cc": 80251653,
+  "idProcesos": [50832550],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-10-31T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-02-01T00:00:00.000Z",
+    "expediente": "11001400301820170181300",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2017-10-31T00:00:00.000Z",
     "etapaProcesal": "LIQUIDACION",
     "fechaPresentacion": "2017-11-07T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [123326],
-    "radicado": "2017 - 01813",
-    "vencimientoPagare": [null],
-    "expediente": "11001400301820170181300",
     "juzgados": [
       {
         "id": 1,
         "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2018-02-01T00:00:00.000Z",
+    "obligacion": [123326],
+    "radicado": "2017 - 01813",
+    "vencimientoPagare": [null],
+    "departamento": "CUNDINAMARCA"
   }
 }

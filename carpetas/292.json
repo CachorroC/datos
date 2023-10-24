@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001410375220170012800",
-  "numero": 292,
-  "cc": 80205694,
-  "idProcesos": [],
   "category": "Reintegra",
-  "tipoProceso": "SINGULAR",
-  "deudor": {
-    "tel": { "fijo": 7641957, "celular": null },
-    "primerNombre": "john",
-    "segundoNombre": "fredy",
-    "primerApellido": "herreño",
-    "segundoApellido": "ramirez",
-    "cedula": 80205694,
-    "direccion": "diagonal 82 a sur no 7c 19  este",
-    "email": "kellyo.1508@hotmail.com"
-  },
   "codeudor": {
     "cedula": 52831430,
     "direccion": "DIAGONAL 82B SUR No 7C - 19",
     "nombre": "kelli yojana ortiz salamanca",
     "telefono": 3105719302
   },
+  "numero": 292,
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "cedula": 80205694,
+    "direccion": "diagonal 82 a sur no 7c 19  este",
+    "email": "kellyo.1508@hotmail.com",
+    "tel": { "fijo": 7641957, "celular": null },
+    "primerNombre": "john",
+    "segundoNombre": "fredy",
+    "primerApellido": "herreño",
+    "segundoApellido": "ramirez"
+  },
+  "cc": 80205694,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 25766.204,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-13T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-17T00:00:00.000Z",
+    "expediente": "11001410375220170012800",
+    "capitalAdeudado": 25766204,
+    "entregaGarantiasAbogado": "2017-09-13T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-09-21T00:00:00.000Z",
+    "juzgados": [],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-10-17T00:00:00.000Z",
     "obligacion": [300094317],
     "radicado": "2017 - 00128",
     "vencimientoPagare": [
       "2020-08-31T00:00:00.000Z"
     ],
-    "expediente": "11001410375220170012800",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

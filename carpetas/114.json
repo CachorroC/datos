@@ -1,11 +1,12 @@
 {
   "llaveProceso": "25754418900220170075200",
-  "numero": 114,
-  "cc": 79209455,
-  "idProcesos": [86396721],
   "category": "Terminados",
+  "numero": 114,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 79209455,
+    "direccion": "calle 11 # 52a - 14 soacha",
+    "email": "antoniocaicedo1972@gmail.com",
     "tel": {
       "fijo": 3213173,
       "celular": 3128067314
@@ -13,20 +14,26 @@
     "primerNombre": "jose",
     "segundoNombre": "antonio",
     "primerApellido": "caicedo",
-    "segundoApellido": "ruiz",
-    "cedula": 79209455,
-    "direccion": "calle 11 # 52a - 14 soacha",
-    "email": "antoniocaicedo1972@gmail.com"
+    "segundoApellido": "ruiz"
   },
+  "cc": 79209455,
+  "idProcesos": [86396721],
   "demanda": {
-    "capitalAdeudado": 20501.855,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-08-24T00:00:00.000Z",
+    "expediente": "25754418900220170075200",
+    "capitalAdeudado": 20501.855,
+    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-08-11T00:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 2,
+        "tipo": "JUZGADO 002 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE SOACHA ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-002-de-pequeñas-causas--y-competencia-múltiple-de-soacha-"
+      }
+    ],
     "municipio": "SOACHA",
+    "mandamientoPago": "2017-08-24T00:00:00.000Z",
     "obligacion": [
       "377813527966924/",
       "000000020990112484."
@@ -35,13 +42,6 @@
     "vencimientoPagare": [
       "2023-11-15T00:00:00.000Z"
     ],
-    "expediente": "25754418900220170075200",
-    "juzgados": [
-      {
-        "id": 2,
-        "tipo": "JUZGADO 002 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE SOACHA ",
-        "url": "https://www.ramajudicial.gov.cojuzgado-002-de-pequeñas-causas--y-competencia-múltiple-de-soacha-"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

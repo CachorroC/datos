@@ -1,38 +1,36 @@
 {
   "llaveProceso": "25436408900120180006300",
-  "numero": 503,
-  "cc": 3096755,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 503,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 3096755,
+    "direccion": "diagonal 2 no 6 a-29",
+    "email": "jclm152@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "juan",
     "segundoNombre": "carlos",
     "primerApellido": "leon",
-    "segundoApellido": "montenegro",
-    "cedula": 3096755,
-    "direccion": "diagonal 2 no 6 a-29",
-    "email": "jclm152@hotmail.com"
+    "segundoApellido": "montenegro"
   },
+  "cc": 3096755,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-10-10T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-07-11T05:00:00.000Z",
+    "expediente": "25436408900120180006300",
+    "capitalAdeudado": null,
+    "entregaGarantiasAbogado": "2018-10-10T05:00:00.000Z",
     "etapaProcesal": "ADMISIION",
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "MANTA",
+    "mandamientoPago": "2018-07-11T05:00:00.000Z",
     "obligacion": [
       "AUDIOPRESTAMO",
       "3360084365 / 3360084819"
     ],
     "radicado": "2018 - 00063",
-    "vencimientoPagare": [
-      "2015-01-01T00:00:00.000Z"
-    ],
-    "expediente": "25436408900120180006300",
-    "juzgados": []
+    "vencimientoPagare": [],
+    "departamento": "CUNDINAMARCA"
   }
 }

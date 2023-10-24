@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400303320170147400",
-  "numero": 344,
-  "cc": 79505982,
-  "idProcesos": [50763460],
   "category": "Reintegra",
+  "numero": 344,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 79505982,
+    "direccion": "calle 168 no 8 g - 61 bloque  5 apartamento  102",
+    "email": "luissanchez69@live.com",
     "tel": {
       "fijo": 8003961,
       "celular": 3174409073
@@ -13,20 +14,26 @@
     "primerNombre": "luis",
     "segundoNombre": "augusto",
     "primerApellido": "sanchez",
-    "segundoApellido": "ortiz",
-    "cedula": 79505982,
-    "direccion": "calle 168 no 8 g - 61 bloque  5 apartamento  102",
-    "email": "luissanchez69@live.com"
+    "segundoApellido": "ortiz"
   },
+  "cc": 79505982,
+  "idProcesos": [50763460],
   "demanda": {
-    "capitalAdeudado": 19977.436,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-29T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-17T00:00:00.000Z",
+    "expediente": "11001400303320170147400",
+    "capitalAdeudado": 19977436,
+    "entregaGarantiasAbogado": "2017-09-29T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-10-06T00:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 2,
+        "tipo": "JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2017-10-17T00:00:00.000Z",
     "obligacion": [
       "377815565830854  4513071889404813",
       "5176409000345363    5306946666855816"
@@ -36,13 +43,6 @@
       "2019-09-12T05:00:00.000Z",
       "2020-05-03T05:00:00.000Z"
     ],
-    "expediente": "11001400303320170147400",
-    "juzgados": [
-      {
-        "id": 2,
-        "tipo": "JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-02-de-ejecucion-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

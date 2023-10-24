@@ -1,41 +1,41 @@
 {
   "llaveProceso": "11001400307020170056600",
-  "numero": 117,
-  "cc": 19386444,
-  "idProcesos": [50522530],
   "category": "Reintegra",
+  "numero": 117,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 19386444,
+    "direccion": "calle 18 # 19 - 75 / calle 26 nte no. 5a - 54 cali - valle //cr 60 d 97 85 brr andes bogota",
+    "email": "3176677592",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "nicolas",
     "segundoNombre": "fernando",
     "primerApellido": "montoya",
-    "segundoApellido": "correa",
-    "cedula": 19386444,
-    "direccion": "calle 18 # 19 - 75 / calle 26 nte no. 5a - 54 cali - valle //cr 60 d 97 85 brr andes bogota",
-    "email": "3176677592"
+    "segundoApellido": "correa"
   },
+  "cc": 19386444,
+  "idProcesos": [50522530],
   "demanda": {
-    "capitalAdeudado": 17256.863,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-08-30T00:00:00.000Z",
+    "expediente": "11001400307020170056600",
+    "capitalAdeudado": 17256863,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2017-06-20T00:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [420087224],
-    "radicado": "2017 - 00566",
-    "vencimientoPagare": [
-      "2019-01-21T00:00:00.000Z"
-    ],
-    "expediente": "11001400307020170056600",
     "juzgados": [
       {
         "id": 14,
         "tipo": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
         "url": "https://www.ramajudicial.gov.co/web/juzgado-14-de-ejecucion-civil-municipal-de-bogota"
       }
-    ]
+    ],
+    "municipio": "BOGOTA",
+    "mandamientoPago": "2017-08-30T00:00:00.000Z",
+    "obligacion": [420087224],
+    "radicado": "2017 - 00566",
+    "vencimientoPagare": [
+      "2019-01-21T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
   }
 }

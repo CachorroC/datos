@@ -1,11 +1,12 @@
 {
   "llaveProceso": "11001400305120180085000",
-  "numero": 537,
-  "cc": 52155023,
-  "idProcesos": [89137980],
   "category": "Reintegra",
+  "numero": 537,
   "tipoProceso": "SINGULAR",
   "deudor": {
+    "cedula": 52155023,
+    "direccion": "calle 86a no 95a-15 apto 108",
+    "email": "mediconta@gmail.com",
     "tel": {
       "fijo": 5360278,
       "celular": 3108540511
@@ -13,20 +14,26 @@
     "primerNombre": "sandra",
     "segundoNombre": "",
     "primerApellido": "liliana",
-    "segundoApellido": "cruz beltran",
-    "cedula": 52155023,
-    "direccion": "calle 86a no 95a-15 apto 108",
-    "email": "mediconta@gmail.com"
+    "segundoApellido": "cruz beltran"
   },
+  "cc": 52155023,
+  "idProcesos": [89137980],
   "demanda": {
-    "capitalAdeudado": 20353.079,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-06-28T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-07-24T00:00:00.000Z",
+    "expediente": "11001400305120180085000",
+    "capitalAdeudado": 20353079,
+    "entregaGarantiasAbogado": "2018-06-28T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": "2018-07-06T00:00:00.000Z",
+    "juzgados": [
+      {
+        "id": 4,
+        "tipo": "JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-04-de-ejecucion-civil-municipal-de-bogota"
+      }
+    ],
     "municipio": "BOGOTA",
+    "mandamientoPago": "2018-07-24T00:00:00.000Z",
     "obligacion": [
       2270085292, 3.77813194946666e29
     ],
@@ -34,13 +41,6 @@
     "vencimientoPagare": [
       "2022-02-02T00:00:00.000Z"
     ],
-    "expediente": "11001400305120180085000",
-    "juzgados": [
-      {
-        "id": 4,
-        "tipo": "JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-04-de-ejecucion-civil-municipal-de-bogota"
-      }
-    ]
+    "departamento": "CUNDINAMARCA"
   }
 }

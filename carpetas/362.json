@@ -1,38 +1,38 @@
 {
   "llaveProceso": "25754400300220180003100",
-  "numero": 362,
-  "cc": 52031089,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 362,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 52031089,
+    "direccion": "carrera 80 j no 73-27",
+    "email": "HERNANDEZ_YANETH@HOTMAIL.COM",
     "tel": {
       "fijo": 7553091,
       "celular": 3007553091
     },
     "primerNombre": "yaneth",
-    "segundoNombre": null,
     "primerApellido": "hernandez",
     "segundoApellido": "suarez",
-    "cedula": 52031089,
-    "direccion": "carrera 80 j no 73-27",
-    "email": "HERNANDEZ_YANETH@HOTMAIL.COM"
+    "segundoNombre": null
   },
+  "cc": 52031089,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 4226.961,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-05-12T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-08-03T05:00:00.000Z",
+    "expediente": "25754400300220180003100",
+    "capitalAdeudado": 4226.961,
+    "entregaGarantiasAbogado": "2017-05-12T05:00:00.000Z",
     "etapaProcesal": "SENTENCIA",
     "fechaPresentacion": "2017-12-12T05:00:00.000Z",
+    "juzgados": [],
     "municipio": "SOACHA",
+    "mandamientoPago": "2018-08-03T05:00:00.000Z",
     "obligacion": [165609],
     "radicado": "2018 - 00031",
     "vencimientoPagare": [
       "2036-03-07T05:00:00.000Z"
     ],
-    "expediente": "25754400300220180003100",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }

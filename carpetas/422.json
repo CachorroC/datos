@@ -1,33 +1,33 @@
 {
   "llaveProceso": "11001410307520180060200",
-  "numero": 422,
-  "cc": 41722029,
-  "idProcesos": [],
   "category": "Terminados",
+  "numero": 422,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
+    "cedula": 41722029,
+    "direccion": "calle 12 c- no 71c-60 int. 6 apto 403",
+    "email": "miyura1212@hotmail.com",
     "tel": { "fijo": null, "celular": null },
     "primerNombre": "luz",
     "segundoNombre": "yolanda",
     "primerApellido": "muñoz",
-    "segundoApellido": "murcia",
-    "cedula": 41722029,
-    "direccion": "calle 12 c- no 71c-60 int. 6 apto 403",
-    "email": "miyura1212@hotmail.com"
+    "segundoApellido": "murcia"
   },
+  "cc": 41722029,
+  "idProcesos": [],
   "demanda": {
-    "capitalAdeudado": 23440.288,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-04-16T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-04-25T00:00:00.000Z",
+    "expediente": "11001410307520180060200",
+    "capitalAdeudado": 23440.288,
+    "entregaGarantiasAbogado": "2018-04-16T00:00:00.000Z",
     "etapaProcesal": "1.100141037522018e+22",
     "fechaPresentacion": null,
+    "juzgados": [],
     "municipio": "kENNEDY",
+    "mandamientoPago": "2018-04-25T00:00:00.000Z",
     "obligacion": [2099120807],
     "radicado": "2018 - 00602",
     "vencimientoPagare": [null],
-    "expediente": "11001410307520180060200",
-    "juzgados": []
+    "departamento": "CUNDINAMARCA"
   }
 }
