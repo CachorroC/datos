@@ -27,7 +27,7 @@
   "demanda": {
     "tipoProceso": "SINGULAR",
     "expediente": "11001400301920170087200",
-    "capitalAdeudado": null,
+    "capitalAdeudado": 1814179196,
     "entregaGarantiasAbogado": "2017-08-17T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": "2017-08-28T00:00:00.000Z",

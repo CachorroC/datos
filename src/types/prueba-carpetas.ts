@@ -220,9 +220,9 @@ export class Convert {
 }
 
 function invalidValue(
-  typ,
-  val,
-  key,
+  typ: string | { literal: any; }[],
+  val: any,
+  key: string,
   parent = ''
 ): never {
   const prettyTyp = prettyTypeName(
@@ -244,7 +244,7 @@ function invalidValue(
 }
 
 function prettyTypeName(
-  typ
+  typ: any[]
 ): string {
   if ( Array.isArray(
     typ
@@ -288,7 +288,7 @@ function jsonToJSProps(
     const map = {};
     typ.props.forEach(
       (
-        p
+        p: { json: string | number; js: any; typ: any; }
       ) => {
         return ( map[ p.json ] = {
           key: p.js,
@@ -303,13 +303,13 @@ function jsonToJSProps(
 }
 
 function jsToJSONProps(
-  typ
+  typ: { jsToJSON: {} | undefined; props: any[]; }
 ) {
   if ( typ.jsToJSON === undefined ) {
     const map = {};
     typ.props.forEach(
       (
-        p
+        p: { js: string | number; json: any; typ: any; }
       ) => {
         return ( map[ p.js ] = {
           key: p.json,
@@ -325,14 +325,14 @@ function jsToJSONProps(
 
 function transform(
   val,
-  typ,
-  getProps,
+  typ: string | boolean | string[] | DateConstructor | null,
+  getProps: { ( typ: unknown ): any; ( typ: any ): any; ( arg0: any ): { [ k: string ]: any; }; },
   key = '',
   parent = ''
 ) {
   function transformPrimitive(
     typ: string,
-    val
+    val: any
   ) {
     if ( typeof typ === typeof val ) {
       return val;
@@ -344,8 +344,8 @@ function transform(
   }
 
   function transformUnion(
-    typs[],
-    val
+    typs:  any[],
+    val: any
   ) {
     // val must validate against one typ in typs
     const l = typs.length;
@@ -357,7 +357,7 @@ function transform(
         return transform(
           val, typ, getProps
         );
-      } catch ( _ ) {}
+      } catch ( _ ) {/* empty blovk */}
     }
 
     return invalidValue(
@@ -367,7 +367,7 @@ function transform(
 
   function transformEnum(
     cases: string[],
-    val
+    val: string
   ) {
     if ( cases.indexOf(
       val
@@ -392,8 +392,8 @@ function transform(
   }
 
   function transformArray(
-    typ,
-    val
+    typ: any,
+    val: any[]
   ) {
     // val must be an array with no invalid elements
     if ( !Array.isArray(
@@ -421,7 +421,7 @@ function transform(
   }
 
   function transformDate(
-    val
+    val: string | number | Date | null
   ) {
     if ( val === null ) {
       return null;
@@ -449,8 +449,8 @@ function transform(
 
   function transformObject(
     props: { [k: string] },
-    additional,
-    val
+    additional: any,
+    val: { [ x: string ]: any; } | null
   ) {
     if (
       val === null
@@ -541,7 +541,7 @@ function transform(
     );
   }
 
-  let ref = undefined;
+  let ref: string | undefined = undefined;
 
   while (
     typeof typ === 'object'
@@ -600,7 +600,7 @@ function transform(
 }
 
 function cast<T>(
-  val, typ
+  val: any, typ: { ref: string; }
 ): T {
   return transform(
     val, typ, jsonToJSProps
@@ -608,7 +608,7 @@ function cast<T>(
 }
 
 function uncast<T>(
-  val: T, typ
+  val: T, typ: { ref: string; }
 ) {
   return transform(
     val, typ, jsToJSONProps
@@ -616,7 +616,7 @@ function uncast<T>(
 }
 
 function l(
-  typ
+  typ: string
 ) {
   return {
     literal: typ
@@ -624,7 +624,7 @@ function l(
 }
 
 function a(
-  typ
+  typ: number
 ) {
   return {
     arrayItems: typ
@@ -632,7 +632,7 @@ function a(
 }
 
 function u(
-  ...typs[]
+  ...typs: ( string | number | DateConstructor | null )[][]: string | null
 ) {
   return {
     unionMembers: typs
@@ -640,7 +640,7 @@ function u(
 }
 
 function o(
-  props[], additional
+  props: ( { json: string; js: string; typ: string; } | { json: string; js: string; typ: { unionMembers: any[]; }; } | { json: string; js: string; typ: number; } | { json: string; js: string; typ: { ref: string; }; } )[] | ( { json: string; js: string; typ: { unionMembers: any[]; }; } | { json: string; js: string; typ: { ref: string; }; } | { json: string; js: string; typ: { arrayItems: any; }; } )[][]: boolean, additional: undefined
 ) {
   return {
     props,
@@ -649,7 +649,7 @@ function o(
 }
 
 function m(
-  additional
+  additional: any
 ) {
   return {
     props: [],

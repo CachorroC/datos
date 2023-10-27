@@ -1,6 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -8,6 +5,26 @@ generator client {
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
+}
+
+model Carpeta {
+  numero       Int
+  id           Int     @id @unique @default(autoincrement())
+  llaveProceso String?
+  nombre       String?
+  category     String?
+  cc           Int?
+  idProcesos   Int[]
+  notas        Nota[]
+}
+
+model Nota {
+  text          String
+  id            Int       @id @unique @default(autoincrement())
+  pathname      String?
+  date          DateTime?
+  carpetaNumero Int?
+  carpeta       Carpeta?  @relation(fields: [carpetaNumero], references: [id])
 }
 
 model User {
@@ -23,25 +40,13 @@ model Deudor {
   primerApellido  String
   segundoApellido String?
   email           String?
-  telefono        Telefono?
   direccion       String?
-  Carpeta         Carpeta[]
-}
-
-model Carpeta {
-  numero       Int       @id @unique
-  category     Category  @default(Bancolombia)
-  tipoProceso  String
-  deudor       Deudor    @relation(fields: [deudorCedula], references: [cedula])
-  procesos     Proceso[]
-  llaveProceso String    @unique
-  deudorCedula BigInt
+  telefono        Telefono?
 }
 
 model Proceso {
   idProceso            BigInt       @id
   idConexion           Int
-  carpeta              Carpeta      @relation(fields: [llaveProceso], references: [llaveProceso])
   llaveProceso         String
   fechaProceso         DateTime
   fechaUltimaActuacion DateTime
@@ -50,9 +55,9 @@ model Proceso {
   sujetosProcesales    String
   esPrivado            Boolean
   cantFilas            Int
-  actuaciones          Actuacion[]
-  Demanda              Demanda[]
+  actuaciones          Actuacion?
   Juzgado              Juzgado      @relation(fields: [despacho], references: [tipo])
+  Demanda              Demanda[]    @relation("DemandaToProceso")
 }
 
 model Demanda {
@@ -65,22 +70,21 @@ model Demanda {
   obligacion              String[]
   radicado                String       @unique
   vencimientoPagare       DateTime
-  juzgados                Juzgado[]
   expediente              String       @id
-  proceso                 Proceso[]
+  juzgados                Juzgado[]
+  proceso                 Proceso[]    @relation("DemandaToProceso")
 }
 
 model Juzgado {
   id                Int
   tipo              String    @id
   url               String
-  Proceso           Proceso[]
-  Demanda           Demanda?  @relation(fields: [demandaExpediente], references: [expediente])
   demandaExpediente String?
+  Demanda           Demanda?  @relation(fields: [demandaExpediente], references: [expediente])
+  Proceso           Proceso[]
 }
 
 model Actuacion {
-  proceso        Proceso   @relation(fields: [idProceso], references: [idProceso])
   idRegActuacion Int
   idProceso      BigInt    @id
   llaveProceso   String
@@ -94,13 +98,14 @@ model Actuacion {
   codRegla       String
   conDocumentos  Boolean
   can            Int
+  proceso        Proceso   @relation(fields: [idProceso], references: [idProceso])
 }
 
 model Telefono {
   fijo    Int
   celular Int
-  deudor  Deudor @relation(fields: [cedula], references: [cedula])
   cedula  BigInt @id
+  deudor  Deudor @relation(fields: [cedula], references: [cedula])
 }
 
 enum Category {

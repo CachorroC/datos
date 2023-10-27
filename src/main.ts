@@ -6,6 +6,9 @@ import fetchProceso, { sleep } from './procesos';
 import { IntCarpetaPrueba } from './types/carpetas';
 import { intProceso } from './types/procesos';
 import * as fs from 'fs/promises';
+import { PrismaClient } from '@prisma/client';
+
+const prisma = new PrismaClient();
 
 export async function createCarpetasDemanda() {
   const procesosMap = new Map<
@@ -15,9 +18,29 @@ export async function createCarpetasDemanda() {
 
   const newCarpetas = new Set<IntCarpetaPrueba>();
 
-  for ( const rawCarpeta of Carpetas ) {
+  const incomingCarpetas = Carpetas.sort(
+    (
+      a, b 
+    ) => {
+      const x = a.numero;
+
+      const y = b.numero;
+
+      if ( x < y ) {
+        return -1;
+      }
+
+      if ( x > y ) {
+        return 1;
+      }
+
+      return 0;
+    }
+  );
+
+  for ( const rawCarpeta of incomingCarpetas ) {
     const indexOfCarpeta
-      = Carpetas.indexOf(
+      = incomingCarpetas.indexOf(
         rawCarpeta 
       );
 
@@ -26,21 +49,22 @@ export async function createCarpetasDemanda() {
         rawCarpeta 
       );
 
-    if ( carpeta.category === 'Terminados' ) {
-      continue;
-    }
-
     const awaitTime = 500;
-
+    console.time(
+      'idk' 
+    );
     await sleep(
       awaitTime 
     );
     console.log(
-      `carpetas has a length of ${ Carpetas.length } and you are in carpeta number ${ carpeta.numero } of index: ${ indexOfCarpeta }`
+      `carpetas has a length of ${ incomingCarpetas.length } and you are in carpeta number ${ carpeta.numero } of index: ${ indexOfCarpeta }`
     );
 
     const RequestProcesos = await fetchProceso(
       carpeta.llaveProceso
+    );
+    console.timeEnd(
+      'idk' 
     );
 
     if ( RequestProcesos ) {
@@ -57,6 +81,34 @@ export async function createCarpetasDemanda() {
           newCarpeta 
         )
       );
+
+      const idkInserter
+        = await prisma.carpeta.upsert(
+          {
+            where: {
+              id: newCarpeta.numero
+            },
+            update: {
+              nombre      : newCarpeta.nombre,
+              llaveProceso: newCarpeta.llaveProceso,
+              numero      : newCarpeta.numero,
+              category    : newCarpeta.category,
+              idProcesos  : newCarpeta.idProcesos,
+              cc          : newCarpeta.cc
+            },
+            create: {
+              nombre      : newCarpeta.nombre,
+              llaveProceso: newCarpeta.llaveProceso,
+              numero      : newCarpeta.numero,
+              category    : newCarpeta.category,
+              idProcesos  : newCarpeta.idProcesos,
+              cc          : newCarpeta.cc
+            }
+          } 
+        );
+      console.log(
+        idkInserter 
+      );
       continue;
     }
 
@@ -71,6 +123,34 @@ export async function createCarpetasDemanda() {
       JSON.stringify(
         newCarpeta 
       )
+    );
+
+    const idkInserter
+      = await prisma.carpeta.upsert(
+        {
+          where: {
+            id: newCarpeta.numero
+          },
+          update: {
+            nombre      : newCarpeta.nombre,
+            llaveProceso: newCarpeta.llaveProceso,
+            numero      : newCarpeta.numero,
+            category    : newCarpeta.category,
+            idProcesos  : newCarpeta.idProcesos,
+            cc          : newCarpeta.cc
+          },
+          create: {
+            nombre      : newCarpeta.nombre,
+            llaveProceso: newCarpeta.llaveProceso,
+            numero      : newCarpeta.numero,
+            category    : newCarpeta.category,
+            idProcesos  : newCarpeta.idProcesos,
+            cc          : newCarpeta.cc
+          }
+        } 
+      );
+    console.log(
+      idkInserter 
     );
     continue;
   }
@@ -97,6 +177,12 @@ export async function createCarpetasDemanda() {
   console.log(
     insertCarpetas 
   );
+
+  if ( !insertCarpetas ) {
+    throw new Error(
+      'no se insertaron las carpetas en mongodb'
+    );
+  }
 
   return newCarpetasArray;
 }
